@@ -174,13 +174,19 @@ class MemoCheck(unittest.TestCase):
                 with open(os.path.join(d, 'updates', r['key'] + '.json'), 'w', encoding='utf-8') as f: json.dump(r, f)
             rec('TikTok', 'Privacy Policy', '2025-12-14', {5})            # M5 target 5 -> caught everywhere
             rec('LinkedIn', 'Privacy Policy', '2025-11-04', {98, 1, 2, 3, 4, 6, 7})   # M6: only 98 moves among targets
+            with open(os.path.join(d, 'updates', 'ig.json'), 'w', encoding='utf-8') as f:
+                json.dump({'platform': 'Instagram', 'doc': 'Privacy Policy', 'date': '2025-12-17', 'kind': 'rewrite', 'tau': .3, 'questions': [], 'key': 'ig'}, f)
             res = memocheck.check(d, T, bank)
             by = {r['id']: r for r in res['rows']}
             self.assertEqual(by['M5']['primary'], 'CAUGHT'); self.assertEqual(by['M5']['v1'], 'CAUGHT')
             self.assertEqual(by['M6']['primary'], 'CAUGHT'); self.assertEqual(by['M6']['v1'], 'missed')   # a v1 miss stays a miss
             self.assertEqual(by['M8']['primary'], 'coverage gap')
             self.assertTrue(by['M1']['primary'].startswith('not scored'))
-            self.assertEqual(res['summary']['caught'], 2); self.assertEqual(res['summary']['variants']['v1']['caught'], 1)
+            self.assertEqual(by['M4']['primary'], 'missed')       # rewrite counts as NOT caught (frozen rule)
+            self.assertEqual(res['summary']['caught'], 2); self.assertEqual(res['summary']['judged'], 3)
+            self.assertEqual(res['summary']['variants']['v1']['caught'], 1)
+            self.assertEqual(by['M3']['strict'], 'excluded')
+            self.assertGreater(by['M5']['chance'], 0.04); self.assertLess(by['M5']['chance'], 0.3)
         finally:
             shutil.rmtree(d, ignore_errors=True)
 

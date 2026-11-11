@@ -10,13 +10,14 @@ person reviews that short list instead of re-reading every answer.
 It runs on a desktop CPU with no API key: Kev-4B (Q8) served by llama.cpp's `/v1/systemone` endpoint.
 
 ## Why
-Measured on 35 real Terms of Service and Privacy Policy updates (Open Terms Archive, 2,450 update x question pairs,
-two independent LLM raters):
-- Only 25 of the 2,450 answers actually changed. Most real edits are cosmetic or structural.
-- The usual rule re-checks every answer whose top-5 retrieved paragraphs changed. It re-read 364 answers, and 96% of
-  them had not changed.
-- It also missed 12 of the 25 real changes, because the edit that changed them was outside their retrieved
-  evidence. Dependency tracking cannot see these by construction.
+Measured on 35 real Terms of Service and Privacy Policy updates (Open Terms Archive, 2,450 update x question pairs).
+Two independent LLM raters (not humans) judged each question on the changed excerpt only, not the whole document.
+- In 25 of the 2,450 cases both raters' answer flipped, and in 31 more one rater's did. Most real edits are cosmetic
+  or structural.
+- A common shortcut (re-check every answer whose top-5 retrieved paragraphs, by bge-small, touch a changed
+  paragraph) re-read 365 answers. 96% of those had not changed, and it missed 12 of the 25 changes, which sat outside
+  the retrieved paragraphs.
+- This shows what one retriever misses on one test. It does not show that dependency tracking cannot work.
 
 ## How it works
 1. **Diff.** Paragraph diff of the two versions, with link targets and whitespace normalized away. Each changed
@@ -30,10 +31,13 @@ two independent LLM raters):
 5. **Numbers by rule.** A paragraph whose number or date tokens changed ("30 days" -> "14 days") is listed
    separately, whatever the model says.
 6. **Report.** A static HTML site: one page per update, with word-level diffs, linked to the source commit.
-7. **Capture noise is labelled, not scored.** In 2026 so far, 36% of the archive's recorded "changes" are not edits.
-   Either the text returned to an earlier version (TikTok's UK-ads banner flips on and off between captures), or a
-   capture was cut off part-way (Reddit's privacy policy, cut at a table about every other capture). Across the whole
-   archive it is 536 of 2,672.
+7. **Capture noise is labelled, not scored.** In 2026 so far, 267 of the archive's 835 recorded "changes" (32%) are
+   not edits.
+   - Either the text returned to a recent version (TikTok's UK-ads banner flips on and off between captures), or the
+     new capture was cut off part-way (Reddit's privacy policy, cut at a table about every other capture).
+   - Across the whole archive it is 426 of 2,672 (`eval/noise_stats.json`).
+   - A return to an older version (more than 6 captures or 45 days back) is scored as a real rollback.
+   - After a cut-off capture, the next version is compared with the last full one.
 8. **Human review.** `python -m policywatch serve` serves the site with buttons to mark each flagged answer changed,
    not changed or unsure, and to record a change the tool missed. Verdicts go to an append-only file, and the index
    shows running precision and audited misses as counts.
@@ -48,12 +52,20 @@ to have no question about AI training, which would have hidden Twitch's 2026-08-
 
 ## Accuracy
 Three measurements, all shown on the site's "How it works" page:
-1. **Frozen test** (`python -m policywatch eval`): recall at k and precision/recall at the flag threshold on the 35
-   updates above. n = 25 real changes, LLM raters, one model.
+1. **Frozen test** (`python -m policywatch eval`): the pre-registered verdict of that test (quoted, never
+   recomputed), then recall at k and precision/recall at the flag threshold on the 35 updates above. One-rater items
+   are counted both ways. n = 25 real changes, LLM raters, one model.
 2. **Human write-ups** (`python -m policywatch memocheck`): Open Terms Archive memos about these documents. Each memo
    was mapped to the questions a correct tool should move before anything was scored (`eval/memo_targets.json`,
-   hashes in `eval/MEMO_TARGETS.sha256`). A memo counts as caught if one of those questions is flagged or in the
-   update's top 5.
+   hashes in `eval/MEMO_TARGETS.sha256`).
+   - A memo counts as caught if one of those questions is flagged or in the update's top 5. A rewrite counts as
+     missed.
+   - Shown alongside:
+     - the count a random ranking would catch
+     - a stricter count (a target must be flagged)
+     - the original 70-question bank
+     - a second rater's mapping
+   - 8 of the 19 memos have no recorded update within 10 days and are left out.
 3. **Running human record** (`serve`): precision of flags and audited misses, as counts.
 
 ## Run

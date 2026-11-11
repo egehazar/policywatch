@@ -27,8 +27,23 @@ def memo_updates(archive_dir):
     return T, us
 
 
-def _judge(recs, targets, bank, restrict=None):
-    """recs: scored records of one memo. -> (caught, detail)."""
+def _chance(recs, targets, bank):
+    """P(caught) if the update's ranking were random: a target lands in the top max(5, number of flags) of n.
+    'broad' is caught by any flag, so its chance is 1 whenever anything was flagged."""
+    from math import comb
+    miss = 1.0
+    for r in recs:
+        n = len(r['questions']); m = max(5, sum(x['dp'] >= r['tau'] for x in r['questions']))
+        if targets == 'broad':
+            p = 1.0 if any(x['dp'] >= r['tau'] for x in r['questions']) else 0.0
+        else:
+            k = len(targets); p = 1 - comb(n - k, m) / comb(n, m) if n >= m else 1.0
+        miss *= 1 - p
+    return round(1 - miss, 3)
+
+
+def _judge(recs, targets, bank, restrict=None, strict=False):
+    """recs: scored records of one memo. -> (caught, detail). strict: a target must be FLAGGED (no top-5 rescue)."""
     hit = False; detail = []
     for r in recs:
         qs = [x for x in r['questions'] if restrict is None or x['q'] in restrict]
@@ -38,7 +53,7 @@ def _judge(recs, targets, bank, restrict=None):
         for t in targets:
             if restrict is not None and bank[t]['q'] not in restrict: continue
             q = next(x for x in qs if x['q'] == bank[t]['q']); rank = qs.index(q) + 1
-            ok = q['dp'] >= r['tau'] or rank <= 5; hit |= ok
+            ok = q['dp'] >= r['tau'] or (rank <= 5 and not strict); hit |= ok
             detail.append({'date': r['date'], 'target': bank[t]['title'][:60], 'dp': q['dp'], 'rank': rank, 'caught': ok})
     return hit, detail
 
@@ -46,6 +61,7 @@ def _judge(recs, targets, bank, restrict=None):
 def check(out_dir, T, bank):
     recs = {}
     for f in os.listdir(os.path.join(out_dir, 'updates')):
+        if not f.endswith('.json'): continue
         with open(os.path.join(out_dir, 'updates', f), encoding='utf-8') as fh: r = json.load(fh)
         recs[(r['platform'], r['doc'], r['date'])] = r
     fable = _load('memo_targets_fable.json'); v1q = {b['q'] for b in bank[:V1]}
@@ -60,23 +76,30 @@ def check(out_dir, T, bank):
         scored = [r for r in rs if r and r['kind'] == 'scored']
         ft = fable.get(f'M{i}')
         union = 'broad' if m['targets'] == 'broad' else sorted(set(m['targets']) | set(ft if isinstance(ft, list) else []))
-        variants = {'primary': (m['targets'], None), 'v1': (m['targets'], v1q), 'fable': (ft, None), 'union': (union, None)}
+        variants = {'primary': (m['targets'], None), 'v1': (m['targets'], v1q), 'fable': (ft, None), 'union': (union, None),
+                    'strict': ('excluded' if m['targets'] == 'broad' else m['targets'], None)}
         for name, (tg, restrict) in variants.items():
-            if tg == [] or (tg != 'broad' and restrict is not None and not [t for t in tg if bank[t]['q'] in restrict]):
+            if tg == 'excluded':
+                row[name] = 'excluded'
+            elif tg == [] or (tg != 'broad' and restrict is not None and not [t for t in tg if bank[t]['q'] in restrict]):
                 row[name] = 'coverage gap'
+            elif not scored and 'rewrite' in row['kinds']:
+                row[name] = 'missed'     # the frozen rule: rewrites (not scored) count as NOT caught (review 11-11)
             elif not scored:
                 row[name] = 'not scored (' + ', '.join(row['kinds']) + ')'
             else:
-                hit, det = _judge(scored, tg, bank, restrict)
+                hit, det = _judge(scored, tg, bank, restrict, strict=(name == 'strict'))
                 row[name] = 'CAUGHT' if hit else 'missed'
-                if name == 'primary': row['detail'] = det
+                if name == 'primary': row['detail'] = det; row['chance'] = _chance(scored, tg, bank)
         row['result'] = row['primary']
         rows.append(row)
 
     def summ(name):
         return {'caught': sum(r[name] == 'CAUGHT' for r in rows), 'judged': sum(r[name] in ('CAUGHT', 'missed') for r in rows),
                 'coverage_gaps': sum(r[name] == 'coverage gap' for r in rows), 'not_scored': sum(r[name].startswith('not scored') for r in rows)}
-    summary = {'memos': len(rows), **summ('primary'), 'variants': {v: summ(v) for v in ('v1', 'fable', 'union')}}
+    summary = {'memos': len(rows), **summ('primary'), 'variants': {v: summ(v) for v in ('v1', 'fable', 'union', 'strict')},
+               'chance_expected': round(sum(r.get('chance', 0) for r in rows if r['primary'] in ('CAUGHT', 'missed')), 2),
+               'broad_memos': sum(m['targets'] == 'broad' for m in uniq)}
     return {'summary': summary, 'rows': rows}
 
 

@@ -29,7 +29,25 @@ class Server:
 
     def __init__(self, url, name='kev-4b-q8', timeout=3600):
         self.url, self.timeout = url.rstrip('/'), timeout
-        self.id = f'{name}|{WRAPPER_ID}'
+        self.served = self.served_model()
+        # The cache key names the model the server actually reports, so swapping the model behind the port can
+        # never reuse old scores. (Review 11-11: the key used to be only the --model-name label.)
+        self.id = f'{name}|{self.served or "unknown-model"}|{WRAPPER_ID}'
+
+    def served_model(self):
+        try:
+            with urllib.request.urlopen(self.url + '/v1/models', timeout=15) as r:
+                d = json.loads(r.read())
+            mid = (d.get('data') or d.get('models') or [{}])[0]
+            return os.path.basename(str(mid.get('id') or mid.get('model') or mid.get('name') or '')) or None
+        except Exception:
+            return None
+
+    def health(self):
+        try:
+            with urllib.request.urlopen(self.url + '/health', timeout=15) as r: return r.status == 200
+        except Exception:
+            return False
 
     def ask(self, text, questions):
         """questions: {key: question text} -> {key: p(yes)}"""

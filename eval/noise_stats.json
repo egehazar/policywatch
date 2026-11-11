@@ -1,0 +1,5 @@
+{"_how": "policywatch archive.History.classify over every 'Record new changes' commit of every file in pga-versions (clone, last commit 2026-11-11), corrected rules of 2026-11-11 ~22:40 UTC (partial = new capture cut off; revert = equals one of the 6 versions before the parent and <= 45 days old).",
+ "all": {"records": 2672, "noise": 426, "revert": 392, "partial": 34},
+ "by_year": {"2023": [33, 257], "2024": [44, 788], "2025": [82, 792], "2026": [267, 835]},
+ "tos_pp": {"records": 1448, "revert": 231, "partial": 31},
+ "tos_pp_since_2026_09_01": {"records": 110, "revert": 50, "partial": 21}}

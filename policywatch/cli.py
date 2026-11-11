@@ -35,8 +35,14 @@ def main(argv=None):
         old, new = archive.texts(a.archive, u)
         if not old.strip() or not new.strip(): return u, None
         if u.path not in hist: hist[u.path] = archive.History(a.archive, u.path)
-        noise = None if a.keep_noise else hist[u.path].classify(u.commit, old, new)
+        H = hist[u.path]
+        noise = None if a.keep_noise else H.classify(u.commit, old, new)
+        baseline = None
+        if not noise:   # after a cut-off capture, diff against the last full version, not the cut one
+            old, via = H.clean_parent(u.commit, old)
+            if via: baseline = {'commit': via, 'date': H.commits[H.pos[via]][1]}
         rec = watch.analyze(u, old, new, scorer, bank, a.tau, localize=not a.no_localize, noise=noise)
+        if baseline: rec['baseline'] = baseline
         watch.save(rec, a.out); return u, rec
 
     if a.cmd == 'scan':

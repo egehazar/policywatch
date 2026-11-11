@@ -55,6 +55,12 @@ def texts(archive, u):
     return git(archive, 'show', f'{u.commit}^:{u.path}'), git(archive, 'show', f'{u.commit}:{u.path}')
 
 
+def _days(a, b):
+    import datetime
+    f = lambda s: datetime.date.fromisoformat(s)
+    return abs((f(b) - f(a)).days)
+
+
 def norm_hash(text):
     from .diffing import paras
     return hashlib.sha256('\n'.join(paras(text)).encode('utf-8')).hexdigest()
@@ -63,36 +69,68 @@ def norm_hash(text):
 class History:
     """Every recorded version of one file, for telling capture noise from real edits.
 
-    revert:  the new text (normalized) equals a version older than the parent. In practice this is a crawler
-             alternating between two captures of one page (e.g. Reddit's privacy policy, cut off at a table every
-             other capture), though a platform can also roll a change back.
-    partial: one side is much shorter (< 90% of the paragraphs) and, apart from at most its last 2 paragraphs, is
-             exactly the start of the longer side: a capture cut off part-way, not an edit. (A looser "its paragraphs
-             all occur in the other side" rule also caught X adding its new terms above the old ones, a real change.)
+    partial: the NEW capture is much shorter (< 90% of the paragraphs) and, apart from at most its last 2
+             paragraphs, is exactly the start of the old one: a capture cut off part-way. Only the new side counts:
+             when the OLD side is the short one, the text grew, which is either a real addition (Telegram's DSA clause
+             2024-02-18, TikTok appending its US children's policy 2024-04-17) or a recovery from a cut capture,
+             which the revert rule or clean_parent() handles. A real deletion of the document's tail would also
+             match; the page says "looks cut off" and shows the diff.
+    revert:  the new text (normalized) equals one of the RECENT versions before the parent (at most REVERT_VERSIONS
+             back and REVERT_DAYS old): a crawler alternating between captures (TikTok's UK-ads banner). Returning to
+             an older version is treated as a real change (a rollback), since it cannot be told apart from flapping.
+    (Review 11-11 by an independent subagent: the first rules labelled both additions above as noise, and hid
+    rollbacks up to 59 captures back.)
     """
     LOOKBACK = 60
+    REVERT_VERSIONS = 6
+    REVERT_DAYS = 45
+    CLEAN_STEPS = 5
 
     def __init__(self, archive, path):
         self.archive, self.path = archive, path
         rows = git(archive, 'log', '--format=%H%x09%ad', '--date=short', '--', path).splitlines()
         self.commits = [tuple(r.split('\t')) for r in rows][::-1]     # oldest first
         self.pos = {h: i for i, (h, _) in enumerate(self.commits)}
-        self._h = {}
+        self._h, self._t = {}, {}
+
+    def text_at(self, h):
+        if h not in self._t: self._t[h] = git(self.archive, 'show', f'{h}:{self.path}')
+        return self._t[h]
 
     def hash_at(self, h):
-        if h not in self._h: self._h[h] = norm_hash(git(self.archive, 'show', f'{h}:{self.path}'))
+        if h not in self._h: self._h[h] = norm_hash(self.text_at(h))
         return self._h[h]
+
+    @staticmethod
+    def cut_off(old_text, new_text):
+        """True if the new capture looks like the old one cut off part-way."""
+        from .diffing import paras
+        O, N = paras(old_text), paras(new_text)
+        return 2 < len(N) < .9 * len(O) and any(N[:len(N) - k] == O[:len(N) - k] for k in (0, 1, 2))
 
     def classify(self, commit, old_text, new_text):
         from .diffing import paras
-        O, N = paras(old_text), paras(new_text)
-        short, long_ = (O, N) if len(O) < len(N) else (N, O)
-        if len(short) > 2 and len(short) < .9 * len(long_) and any(short[:len(short) - k] == long_[:len(short) - k] for k in (0, 1, 2)):
-            return {'noise': 'partial', 'short_side': 'old' if short is O else 'new', 'n_old': len(O), 'n_new': len(N)}
+        if self.cut_off(old_text, new_text):
+            return {'noise': 'partial', 'short_side': 'new', 'n_old': len(paras(old_text)), 'n_new': len(paras(new_text))}
         i = self.pos.get(commit)
         if i is None or i < 2: return None
         hn, hp = norm_hash(new_text), norm_hash(old_text)
         if hn == hp: return None
-        for h, d in reversed(self.commits[max(0, i - 1 - self.LOOKBACK):i - 1]):
-            if self.hash_at(h) == hn: return {'noise': 'revert', 'same_as': d, 'same_as_commit': h}
+        d0 = self.commits[i][1]
+        for h, d in reversed(self.commits[max(0, i - 1 - self.REVERT_VERSIONS):i - 1]):
+            if self.hash_at(h) == hn and _days(d, d0) <= self.REVERT_DAYS:
+                return {'noise': 'revert', 'same_as': d, 'same_as_commit': h}
         return None
+
+    def clean_parent(self, commit, old_text):
+        """The text to diff against: the parent, unless the parent is itself a cut-off capture, in which case the
+        last version before the cut (at most CLEAN_STEPS back). Returns (text, commit or None if the parent)."""
+        i = self.pos.get(commit)
+        if i is None or i < 2: return old_text, None
+        j, text, via = i - 1, old_text, None
+        for _ in range(self.CLEAN_STEPS):
+            if j < 1: break
+            prev = self.text_at(self.commits[j - 1][0])
+            if not self.cut_off(prev, text): break
+            j -= 1; text, via = prev, self.commits[j][0]
+        return text, via

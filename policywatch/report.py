@@ -59,11 +59,20 @@ def review_buttons(case):
             + '</span>')
 
 
+CLASSES = ('good', 'neutral', 'bad', 'blocker')
+
+
+def badge(cls):
+    # quoted class attribute, from a fixed set only (review 11-11: unquoted, it dropped the colour and let a
+    # classification with a space inject attributes)
+    return f'<span class="badge {cls}">{cls}</span>' if cls in CLASSES else ''
+
+
 def qline(x):
     up = x['p_new'] > x['p_old']
     cls = x.get('classification') or ''
     return (f'<div class="q"><span class="arrow {"up" if up else "down"}">{"▲" if up else "▼"}</span> <b>{esc(x["title"])}</b> '
-            f'{f"<span class=badge {esc(cls)}>{esc(cls)}</span>" if cls else ""}<br>'
+            f'{badge(cls)}<br>'
             f'<span class="sm mut">{"now stated more clearly" if up else "now stated less clearly"} · '
             f'score {x["p_old"]:.2f} → {x["p_new"]:.2f}</span> {bar(x["p_old"], x["p_new"])}{review_buttons(x["case"])}</div>')
 
@@ -124,10 +133,10 @@ def update_page(rec, repo):
                     'this is the archive alternating between two captures of one page, not a policy change. Nothing '
                     'was scored.</p>')
     elif rec['kind'] == 'partial':
-        side = 'new' if rec['short_side'] == 'new' else 'old'
-        body.append(f'<p class="note">The {side} capture looks cut off: it has {rec["n_" + side]} paragraphs against '
-                    f'{rec["n_new" if side == "old" else "n_old"]}, and almost all of them occur in the other version. '
-                    'This is a capture problem, not a policy change. Nothing was scored.</p>')
+        body.append(f'<p class="note">The new capture looks cut off: it has {rec["n_new"]} paragraphs against {rec["n_old"]}, '
+                    'and apart from its last lines it is exactly the start of the previous version. Usually this is a '
+                    'capture problem, not a policy change, so nothing was scored. If the document really lost its end, '
+                    'the diff below shows what went.</p>')
     else:
         fl = [x for x in rec['questions'] if x['dp'] >= rec['tau']]
         body.append(f'<h2>Answers that probably changed ({len(fl)})</h2>')
@@ -142,7 +151,10 @@ def update_page(rec, repo):
     if rec['numeric']:
         body.append(f'<h2>Number and date changes ({len(rec["numeric"])})</h2><p class="sm mut">Listed by rule, not by the model.</p>')
         body += [f'<div class="diff">{wdiff(n["old"], n["new"])}</div>' for n in rec['numeric']]
-    if rec['kind'] in ('scored', 'formatting', 'revert') and len(rec['blocks']) <= 40:
+    if rec.get('baseline'):
+        body.append(f'<p class="sm mut">Compared with the version of {esc(rec["baseline"]["date"])}: the captures in between '
+                    'were cut off.</p>')
+    if rec['kind'] in ('scored', 'formatting', 'revert', 'partial') and len(rec['blocks']) <= 40:
         body.append(f'<h2>All changed text ({len(rec["blocks"])} blocks)</h2>')
         body += [block_html(b) for b in rec['blocks']]
     return page(f'{rec["platform"]} {rec["doc"]} {rec["date"]}', ''.join(body) + (REVIEW_JS if rec['kind'] == 'scored' else ''), key=rec['key'])
@@ -202,25 +214,46 @@ def memo_html(mc):
     if not mc: return ''
     sm = mc['summary']
     rows = ''.join(f'<tr><td>{esc(r["platform"])} · {esc(r["doc"])}</td><td>{esc(r["memo"])}</td><td>{esc(r["result"])}</td></tr>' for r in mc['rows'])
+    v = sm.get('variants', {})
+    g = lambda name, key: v.get(name, {}).get(key, '?')
+    cov = memo_coverage()
     return (f'<h2>Does it catch the changes people wrote up?</h2><p>Open Terms Archive publishes memos: short write-ups of '
-            f'notable changes by independent contributors. {sm["memos"]} memos concern a terms of service or privacy policy '
-            f'recorded in this archive. Before any score existed, each memo was mapped to the questions a correct tool should '
-            f'move (eval/memo_targets.json, hashed). A memo is caught when one of those questions is flagged or in the '
-            f'update’s top 5.</p><p><b>{sm["caught"]} of {sm["judged"]}</b> judged memos caught; {sm["coverage_gaps"]} '
-            f'changes no question in the bank covers; {sm["not_scored"]} not scored (rewrites or not yet scanned).</p>'
-            + (lambda v: f'<p class="sm mut">Same check with the original 70-question bank: {v["v1"]["caught"]} of {v["v1"]["judged"]} caught '
-               f'({v["v1"]["coverage_gaps"]} gaps). With a second, independent target mapping (Fable 5.2, also made before scoring): '
-               f'{v["fable"]["caught"]} of {v["fable"]["judged"]}. Either mapping: {v["union"]["caught"]} of {v["union"]["judged"]}.</p>')(sm.get('variants', {'v1': sm, 'fable': sm, 'union': sm}))
+            f'notable changes by independent contributors. {cov["total"]} memo-documents concern a terms of service or privacy '
+            f'policy of a platform in this archive (since the archive began in April 2022); {cov["matched"]} match a recorded '
+            f'update of the same document within 10 days, and {cov["total"] - cov["matched"]} have no recorded update in that '
+            f'window (a gap in the archive, not counted below). Before any score existed, each matched memo was mapped to the '
+            f'questions a correct tool should move (eval/memo_targets.json, hashed). A memo is caught when one of those '
+            f'questions is flagged or in the update’s top 5; a rewrite (too large to score) counts as missed.</p>'
+            f'<p><b>{sm["caught"]} of {sm["judged"]}</b> judged memos caught. A random ranking would catch about '
+            f'{sm.get("chance_expected", "?")} of them by the same rule. Stricter (a target must be flagged, no top-5 rule, '
+            f'the {sm.get("broad_memos", "?")} "wholesale rewrite" memo excluded): {g("strict", "caught")} of {g("strict", "judged")}. '
+            f'{sm["coverage_gaps"]} change(s) no question in the bank covers; {sm["not_scored"]} not yet scanned.</p>'
+            f'<p class="sm mut">With the original 70-question bank: {g("v1", "caught")} of {g("v1", "judged")} '
+            f'({g("v1", "coverage_gaps")} gaps). With a second, independent target mapping (Fable 5.2, also made before '
+            f'scoring): {g("fable", "caught")} of {g("fable", "judged")}. Either mapping: {g("union", "caught")} of '
+            f'{g("union", "judged")}. Small numbers: read them as counts, not rates.</p>'
             + f'<table><tr><th>Document</th><th>Memo</th><th>Result</th></tr>{rows}</table>')
+
+
+def memo_coverage():
+    from .memocheck import EVAL
+    p = os.path.join(EVAL, 'memos_matched.json')
+    if not os.path.exists(p): return {'total': 0, 'matched': 0}
+    rows = _read(p)
+    return {'total': len(rows), 'matched': sum(1 for r in rows if isinstance(r['match'], list) and r['match'])}
 
 
 def noise_html(recs):
     if not recs: return ''
+    from .memocheck import EVAL
     nz = sum(r['kind'] in ('revert', 'partial') for r in recs)
+    p = os.path.join(EVAL, 'noise_stats.json'); st = _read(p) if os.path.exists(p) else None
+    whole = (f' Across the whole archive, {st["all"]["noise"]} of {st["all"]["records"]} recorded changes are of this kind, '
+             f'and {st["by_year"]["2026"][0]} of {st["by_year"]["2026"][1]} in 2026.') if st else ''
     return (f'<h2>Capture noise</h2><p>{nz} of the {len(recs)} recorded updates shown here are not policy changes: the text '
-            'returned to an earlier version (for example TikTok’s UK-ads banner appearing and disappearing between captures), '
-            'or a capture was cut off part-way (Reddit’s privacy policy, cut at a table about every other capture). Across the '
-            'whole archive, 536 of 2,672 recorded changes are of this kind, and 304 of 835 in 2026.</p>')
+            'returned to a recent earlier version (for example TikTok’s UK-ads banner appearing and disappearing between '
+            'captures), or a capture was cut off part-way (Reddit’s privacy policy, cut at a table about every other capture).'
+            f'{whole} A return to an older version is treated as a real rollback and scored.</p>')
 
 
 def about_page(meta, ev, mc=None, recs=()):

@@ -52,7 +52,7 @@ def run(frozen, tau):
     rule_order = ruled + [i for i in kev_order if i not in set(ruled)]
     bge_order = sorted(items, key=lambda i: (-arms['BGE'][i], i))
     CH = set(arms['CH'])
-    ks = [25, 50, 100, 182, 364]
+    half = len(set(arms['CH'])) // 2; ks = sorted({25, 50, 100, half, len(set(arms['CH']))})
     out = {'status': 'ok', 'pairs': len(pairs), 'items': len(items), 'gold_changes': len(pos),
            'chunk_hash': {'reviews': len(CH), 'recall': round(sum(i in CH for i in pos) / len(pos), 3),
                           'wasted_share': round(sum(G[i] == 0 for i in CH if G[i] is not None) / max(sum(G[i] is not None for i in CH), 1), 3)},
@@ -63,23 +63,39 @@ def run(frozen, tau):
     th = {}
     for t in (.1, .2, .3, .5):
         fl = [i for i in items if d[i] >= t]; fl_lab = [i for i in fl if G[i] is not None]
+        amb = [i for i in items if G[i] is None]
         th[t] = {'flagged': len(fl), 'per_update': round(len(fl) / len(pairs), 2),
                  'recall': round(sum(G[i] == 1 for i in fl) / len(pos), 3),
-                 'precision': round(sum(G[i] == 1 for i in fl_lab) / max(len(fl_lab), 1), 3)}
-    out['threshold'] = th
+                 'precision': round(sum(G[i] == 1 for i in fl_lab) / max(len(fl_lab), 1), 3),
+                 # ambiguous items (one rater flips) counted both ways, since dropping them flatters both numbers
+                 'recall_if_ambiguous_are_changes': round(sum(G[i] != 0 for i in fl) / max(len(pos) + len(amb), 1), 3),
+                 'precision_if_ambiguous_are_not': round(sum(G[i] == 1 for i in fl) / max(len(fl), 1), 3)}
+    out['threshold'] = th; out['ambiguous'] = sum(G[i] is None for i in items)
+    rp = os.path.join(frozen, 'result.json')     # the pre-registered verdict (rq.py eval), quoted, never recomputed
+    if os.path.exists(rp):
+        with open(rp, encoding='utf-8') as f: R = json.load(f)
+        out['preregistered'] = {k: R.get(k) for k in ('verdict', 'Q95_KEV', 'CH', 'Q95_KEV_over_CH', 'CH_keep_share', 'CH_recall', 'gold1')}
     out['missed_at_tau'] = [{'item': i, 'dp': round(d[i], 3)} for i in pos if d[i] < tau]
     t = th[tau] if tau in th else None
     rows = ''.join(f'<tr><td>{k}</td><td>{out["kev_recall_at"][k]:.0%}</td><td>{out["kev_rule_first_recall_at"][k]:.0%}</td>'
                    f'<td>{out["bge_recall_at"][k]:.0%}</td></tr>' for k in ks)
-    out['html'] = (f'<p>Test: {len(pairs)} real updates to Terms of Service and Privacy Policies (Open Terms Archive), '
+    pre = out.get('preregistered')
+    out['html'] = ((f'<p class="note"><b>Pre-registered verdict:</b> {esc(pre["verdict"])}. The bar, fixed before scoring: '
+                    f'95% of real changes within the first {pre["CH"] // 2 if isinstance(pre.get("CH"), int) else "?"} answers '
+                    f'(half of what the usual rule re-checks). The tool needed {esc(pre["Q95_KEV"])}.</p>' if pre and pre.get('verdict') else
+                    '<p class="note">The pre-registered verdict of this test is not on disk yet.</p>')
+                   + f'<p>Test: {len(pairs)} real updates to Terms of Service and Privacy Policies (Open Terms Archive), '
                    f'{len(items)} (update, question) pairs. An answer counts as changed when two independent LLM raters '
-                   f'(not humans) both flip it between the old and the new text: {len(pos)} did.</p>'
+                   f'(not humans) both flip it, judging only the changed excerpt, not the whole document: {len(pos)} did, and '
+                   f'{out["ambiguous"]} more were flipped by one rater only.</p>'
                    f'<p>The usual rule (re-check answers whose top-5 retrieved paragraphs changed) re-checks {len(CH)} answers, '
                    f'{out["chunk_hash"]["wasted_share"]:.0%} of them unchanged, and catches {out["chunk_hash"]["recall"]:.0%} '
                    f'of the real changes.</p><table><tr><th>Re-check the top …</th><th>by model movement</th>'
                    f'<th>numbers first, then movement</th><th>by retrieval similarity</th></tr>{rows}</table>'
                    + (f'<p>At the report threshold ({tau}): {t["per_update"]} answers flagged per update, '
-                      f'{t["recall"]:.0%} of real changes caught, {t["precision"]:.0%} of flags real.</p>' if t else '')
+                      f'{t["recall"]:.0%} of real changes caught, {t["precision"]:.0%} of flags real. Counting the one-rater '
+                      f'items against the tool: {t["recall_if_ambiguous_are_changes"]:.0%} caught, '
+                      f'{t["precision_if_ambiguous_are_not"]:.0%} of flags real.</p>' if t else '')
                    + '<p class="sm mut">n is small; LLM raters, not humans; one model. Treat these as a description of '
                      'this test, not a guarantee.</p>')
     return out
