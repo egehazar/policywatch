@@ -30,7 +30,6 @@ two independent LLM raters):
 5. **Numbers by rule.** A paragraph whose number or date tokens changed ("30 days" -> "14 days") is listed
    separately, whatever the model says.
 6. **Report.** A static HTML site: one page per update, with word-level diffs, linked to the source commit.
-
 7. **Capture noise is labelled, not scored.** In 2026 so far, 36% of the archive's recorded "changes" are not edits.
    Either the text returned to an earlier version (TikTok's UK-ads banner flips on and off between captures), or a
    capture was cut off part-way (Reddit's privacy policy, cut at a table about every other capture). Across the whole
@@ -65,7 +64,7 @@ python -m policywatch report --archive path/to/pga-versions
 python -m policywatch serve                                    # review at http://127.0.0.1:8787
 python -m unittest discover -s tests
 ```
-Python 3.10+, standard library only.
+Python 3.12+ (tested on 3.14), standard library only.
 
 ## Credits
 - Documents: Open Terms Archive, pga-versions (Platform Governance Archive, University of Bremen), ODC-BY 1.0.
