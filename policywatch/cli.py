@@ -16,7 +16,7 @@ DEF_BANK = os.path.join(HERE, '..', 'data', 'bank.json')
 
 def main(argv=None):
     ap = argparse.ArgumentParser(prog='policywatch')
-    ap.add_argument('cmd', choices=['scan', 'report', 'seed', 'eval', 'serve'])
+    ap.add_argument('cmd', choices=['scan', 'report', 'seed', 'eval', 'serve', 'memocheck'])
     ap.add_argument('--archive'); ap.add_argument('--since'); ap.add_argument('--until')
     ap.add_argument('--docs', default=','.join(archive.DEFAULT_DOCS)); ap.add_argument('--platforms')
     ap.add_argument('--server', default='http://127.0.0.1:9995'); ap.add_argument('--model-name', default='kev-4b-q8')
@@ -29,26 +29,34 @@ def main(argv=None):
     bank = watch.load_bank(a.bank)
     cache = Cache(os.path.join(a.out, 'cache.sqlite')); scorer = Scorer(Server(a.server, a.model_name), cache)
 
+    hist = {}
+
+    def one(u):
+        old, new = archive.texts(a.archive, u)
+        if not old.strip() or not new.strip(): return u, None
+        if u.path not in hist: hist[u.path] = archive.History(a.archive, u.path)
+        noise = None if a.keep_noise else hist[u.path].classify(u.commit, old, new)
+        rec = watch.analyze(u, old, new, scorer, bank, a.tau, localize=not a.no_localize, noise=noise)
+        watch.save(rec, a.out); return u, rec
+
     if a.cmd == 'scan':
         us = archive.updates(a.archive, a.docs.split(','), a.since, a.until, a.platforms.split(',') if a.platforms else None)
         done = {os.path.splitext(f)[0] for f in os.listdir(os.path.join(a.out, 'updates'))} if os.path.isdir(os.path.join(a.out, 'updates')) else set()
         todo = [u for u in us if u.key not in done][:a.limit]
         print(f'{len(us)} updates, {len(us) - len(todo)} already done, {len(todo)} to scan', flush=True)
-        t0 = time.time(); hist = {}
-
-        def one(u):
-            old, new = archive.texts(a.archive, u)
-            if not old.strip() or not new.strip(): return u, None
-            if u.path not in hist: hist[u.path] = archive.History(a.archive, u.path)
-            noise = None if a.keep_noise else hist[u.path].classify(u.commit, old, new)
-            rec = watch.analyze(u, old, new, scorer, bank, a.tau, localize=not a.no_localize, noise=noise)
-            watch.save(rec, a.out); return u, rec
+        t0 = time.time()
         with ThreadPoolExecutor(a.workers) as ex:
             for n, fu in enumerate(as_completed([ex.submit(one, u) for u in todo]), 1):
                 u, rec = fu.result()
                 tag = 'skipped (missing side)' if rec is None else rec['kind'] + (f", {rec.get('n_flagged', 0)} flagged" if rec['kind'] == 'scored' else '')
                 print(f'[{n}/{len(todo)} {time.time() - t0:.0f}s] {u.date} {u.platform} {u.doc}: {tag}', flush=True)
         print(f'questions asked {scorer.asked}, cache hits {scorer.hits}', flush=True)
+
+    elif a.cmd == 'memocheck':
+        from .memocheck import run
+        res = run(a.archive, a.out, bank, lambda u: print(u.date, u.platform, u.doc, (one(u)[1] or {}).get('kind'), flush=True))
+        print(json.dumps(res['summary'], indent=1))
+        for r in res['rows']: print(f"{r['result']:<14} {r['platform']} {r['doc']}: {r['memo'][:70]}")
 
     elif a.cmd == 'report':
         repo = a.repo_url or (archive.remote_url(a.archive) if a.archive else 'https://github.com/OpenTermsArchive/pga-versions')

@@ -1,0 +1,16 @@
+{
+ "_rule": "Written 2026-11-11 ~21:40 UTC, before any Kev score exists for these updates. Human gold = Open Terms Archive memos (opentermsarchive.org/en/memos, 107 memos, independent contributors) on a ToS or Privacy Policy of a pga-versions platform, matched to pga-versions 'Record new changes' commits of the same document within +-10 days (eval/memos_matched.json). Targets are bank.json (v2) indices a correct tool should move, chosen by me from the memo TITLE only. A memo is CAUGHT if, in any matched real update, any target question is flagged (|dp| >= .3) or ranked in that update's top 5. 'targets: []' = no bank question covers the change (coverage gap, counted separately, never as caught). 'broad' = a wholesale rewrite with no single target: caught if the update has >= 1 flag. Rewrites (> 80 changed paragraphs) are not scored and count as NOT caught.",
+ "memos": [
+  {"memo": "YouTube uses ad services to analyse data from other sites and apps", "platform": "YouTube", "doc": "Privacy Policy", "commits": ["2026-04-03"], "targets": [78, 32, 38]},
+  {"memo": "WhatsApp collects more data from customer support and the official chatbot", "platform": "WhatsApp", "doc": "Privacy Policy", "commits": ["2026-03-27"], "targets": [48, 4]},
+  {"memo": "TikTok rewrites all US terms following the transfer of its USA operations", "platform": "TikTok", "doc": "Privacy Policy", "commits": ["2026-01-23"], "targets": "broad"},
+  {"memo": "Instagram begins use of AI interactions to personalise experiences and ads", "platform": "Instagram", "doc": "Privacy Policy", "commits": ["2025-12-17"], "targets": [98, 17, 38]},
+  {"memo": "TikTok will not be accessible to children below 16 in Australia", "platform": "TikTok", "doc": "Privacy Policy", "commits": ["2025-12-14"], "targets": [5]},
+  {"memo": "LinkedIn shares data with Microsoft and its subsidiaries to train AI models", "platform": "LinkedIn", "doc": "Privacy Policy", "commits": ["2025-11-04"], "targets": [98, 49, 71]},
+  {"memo": "TikTok expands data collection in Europe, the United Kingdom and Switzerland", "platform": "TikTok", "doc": "Privacy Policy", "commits": ["2025-10-30", "2025-10-23"], "targets": [48, 4]},
+  {"memo": "Bluesky moves DSA contact point from Belgium to Ireland and stops accepting requests in French", "platform": "Bluesky", "doc": "Terms of Service", "commits": ["2025-06-18"], "targets": []},
+  {"memo": "Threads expands profile creation beyond Instagram users", "platform": "Threads", "doc": "Privacy Policy", "commits": ["2025-05-21", "2025-05-14"], "targets": [71]},
+  {"memo": "Telegram expands cooperation with authorities beyond the scope of terrorism", "platform": "Telegram", "doc": "Terms of Service", "commits": ["2024-09-24"], "targets": [37]},
+  {"memo": "Telegram expands cooperation with authorities beyond the scope of terrorism", "platform": "Telegram", "doc": "Privacy Policy", "commits": ["2024-09-30", "2024-09-26", "2024-09-24"], "targets": [37]}
+ ]
+}

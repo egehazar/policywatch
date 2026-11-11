@@ -40,11 +40,13 @@ def updates(archive, docs=DEFAULT_DOCS, since=None, until=None, platforms=None):
         for doc in docs:
             path = f'{plat}/{doc}.md'
             if not os.path.exists(os.path.join(archive, path)): continue
-            args = ['log', '--format=%H%x09%ad%x09%s', '--date=short']
-            if since: args.append(f'--since={since}')
-            if until: args.append(f'--until={until}')
-            for line in git(archive, *args, '--', path).splitlines():
+            # Date filtering is done here, NOT with git's --since/--until: this history is not in date order, and
+            # git stops walking at the first old-enough commits, silently dropping later-dated ones (WhatsApp's
+            # 2026-03-27 privacy change vanished from a --since=2026-03-17 query).
+            for line in git(archive, 'log', '--format=%H%x09%ad%x09%s', '--date=short', '--', path).splitlines():
                 h, date, subj = line.split('\t', 2)
+                if since and date < since: continue
+                if until and date > until: continue
                 if subj.startswith('Record new changes'): out.append(Update(plat, doc, path, h, date))
     return sorted(out, key=lambda u: (u.date, u.platform, u.doc), reverse=True)
 

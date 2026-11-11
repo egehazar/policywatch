@@ -152,6 +152,9 @@ class Noise(unittest.TestCase):
             for u in sorted(us, key=lambda u: H.pos[u.commit]):
                 old, new = archive.texts(d, u); got.append((H.classify(u.commit, old, new) or {}).get('noise'))
             self.assertEqual(got, [None, 'revert', 'partial'])
+            # dates are filtered in Python: git's --since stops early on histories that are not in date order
+            self.assertEqual([u.date for u in archive.updates(d, since='2026-01-03')], ['2026-01-04', '2026-01-03'])
+            self.assertEqual([u.date for u in archive.updates(d, until='2026-01-02')], ['2026-01-02'])
         finally:
             shutil.rmtree(d, ignore_errors=True)
 

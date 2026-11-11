@@ -1,0 +1,270 @@
+[
+ {
+  "title": "Snapchat clarifies activity tracking for personalising ads",
+  "href": "/en/memos/snapchat-clarifies-activity-tracking-for-personalising-ads/",
+  "service": "Snapchat",
+  "doc": "Privacy Policy",
+  "date": "April 3, 2026",
+  "match": []
+ },
+ {
+  "title": "YouTube uses ad services to analyse data from other sites and apps",
+  "href": "/en/memos/youtube-uses-ad-services-to-analyse-data-from-other-sites-and-apps/",
+  "service": "YouTube",
+  "doc": "Privacy Policy",
+  "date": "April 2, 2026",
+  "match": [
+   {
+    "date": "2026-04-03",
+    "commit": "4313901580683df53ed30864dfaf21537a35a77e",
+    "kind": "real",
+    "n_changed": 14,
+    "key": "2026-04-03_YouTube_Privacy-Policy_43139015"
+   }
+  ]
+ },
+ {
+  "title": "WhatsApp collects more data from customer support and the official chatbot",
+  "href": "/en/memos/whatsapp-collects-more-data-from-customer-support-and-the-official-chatbot/",
+  "service": "WhatsApp",
+  "doc": "Privacy Policy",
+  "date": "March 27, 2026",
+  "match": [
+   {
+    "date": "2026-03-27",
+    "commit": "f58a2fdf1348c0977bd21e5622151aeb6e2c7b37",
+    "kind": "real",
+    "n_changed": 42,
+    "key": "2026-03-27_WhatsApp_Privacy-Policy_f58a2fdf"
+   }
+  ]
+ },
+ {
+  "title": "Telegram prohibits collecting data for AI use",
+  "href": "/en/memos/telegram-prohibits-collecting-data-for-ai-use/",
+  "service": "Telegram",
+  "doc": "Terms of Service",
+  "date": "February 3, 2026",
+  "match": []
+ },
+ {
+  "title": "TikTok rewrites all US terms following the transfer of its USA operations",
+  "href": "/en/memos/tiktok-rewrites-all-terms-following-usa-operations-transfer/",
+  "service": "TikTok",
+  "doc": "Privacy Policy",
+  "date": "January 23, 2026",
+  "match": [
+   {
+    "date": "2026-01-23",
+    "commit": "afbf0fb07060e9a6334062d4642316cdb13f7882",
+    "kind": "real",
+    "n_changed": 41,
+    "key": "2026-01-23_TikTok_Privacy-Policy_afbf0fb0"
+   }
+  ]
+ },
+ {
+  "title": "TikTok rewrites all US terms following the transfer of its USA operations",
+  "href": "/en/memos/tiktok-rewrites-all-terms-following-usa-operations-transfer/",
+  "service": "TikTok",
+  "doc": "Terms of Service",
+  "date": "January 23, 2026",
+  "match": []
+ },
+ {
+  "title": "Telegram expands its age eligibility requirement to Australian users",
+  "href": "/en/memos/telegram-expands-its-age-eligibility-requirement-to-australian-users/",
+  "service": "Telegram",
+  "doc": "Terms of Service",
+  "date": "January 7, 2026",
+  "match": []
+ },
+ {
+  "title": "Facebook now uses AI interactions to personalise experiences and ads",
+  "href": "/en/memos/facebook-now-uses-ai-interactions-to-personalise-experiences-and-ads/",
+  "service": "Facebook",
+  "doc": "Privacy Policy",
+  "date": "December 28, 2025",
+  "match": []
+ },
+ {
+  "title": "Instagram begins use of AI interactions to personalise experiences and ads",
+  "href": "/en/memos/instagram-begins-use-of-ai-interactions-to-personalise-experiences-and-ads/",
+  "service": "Instagram",
+  "doc": "Privacy Policy",
+  "date": "December 16, 2025",
+  "match": [
+   {
+    "date": "2025-12-17",
+    "commit": "918fc827ec72a23c1a995fc997c6352bb9b303ee",
+    "kind": "rewrite",
+    "n_changed": 1183,
+    "key": "2025-12-17_Instagram_Privacy-Policy_918fc827"
+   }
+  ]
+ },
+ {
+  "title": "Snapchat adds minimum age requirements in Australia",
+  "href": "/en/memos/snapchat-adds-minimum-age-requirements-in-australia/",
+  "service": "Snapchat",
+  "doc": "Privacy Policy",
+  "date": "December 9, 2025",
+  "match": []
+ },
+ {
+  "title": "TikTok will not be accessible to children below 16 in Australia",
+  "href": "/en/memos/tiktok-will-not-be-accessible-to-children-below-16-in-australia/",
+  "service": "TikTok",
+  "doc": "Privacy Policy",
+  "date": "December 9, 2025",
+  "match": [
+   {
+    "date": "2025-12-14",
+    "commit": "c178f00a7ffee20bea325bace547cbce7a2d2a7a",
+    "kind": "real",
+    "n_changed": 1,
+    "key": "2025-12-14_TikTok_Privacy-Policy_c178f00a"
+   }
+  ]
+ },
+ {
+  "title": "LinkedIn shares data with Microsoft and its subsidiaries to train AI models",
+  "href": "/en/memos/linkedin-shares-data-with-microsoft-and-its-subsidiaries-to-train-ai-models/",
+  "service": "LinkedIn",
+  "doc": "Privacy Policy",
+  "date": "November 4, 2025 - November 3, 2025",
+  "match": [
+   {
+    "date": "2025-11-04",
+    "commit": "bc7d59e9d4f6f5e3b2927e9c0ec82f7283d3a9b8",
+    "kind": "real",
+    "n_changed": 18,
+    "key": "2025-11-04_LinkedIn_Privacy-Policy_bc7d59e9"
+   }
+  ]
+ },
+ {
+  "title": "TikTok expands data collection in Europe, the United Kingdom and Switzerland",
+  "href": "/en/memos/tiktok-expands-data-collection-in-europe-the-united-kingdom-and-switzerland/",
+  "service": "TikTok",
+  "doc": "Privacy Policy",
+  "date": "October 30, 2025",
+  "match": [
+   {
+    "date": "2025-10-30",
+    "commit": "c887120803adc72cf51a1df47b5e79f7f5803198",
+    "kind": "real",
+    "n_changed": 1,
+    "key": "2025-10-30_TikTok_Privacy-Policy_c8871208"
+   },
+   {
+    "date": "2025-10-23",
+    "commit": "24f7533fb35e38486a174dd26aff8b8efff6da5e",
+    "kind": "real",
+    "n_changed": 40,
+    "key": "2025-10-23_TikTok_Privacy-Policy_24f7533f"
+   }
+  ]
+ },
+ {
+  "title": "Bluesky moves DSA contact point from Belgium to Ireland and stops accepting requests in French",
+  "href": "/en/memos/bluesky-moves-dsa-contact-point-to-ireland/",
+  "service": "Bluesky",
+  "doc": "Terms of Service",
+  "date": "June 18, 2025",
+  "match": [
+   {
+    "date": "2025-06-18",
+    "commit": "b1a978f22b73067d9b08ea5cf37fd752fcc6139d",
+    "kind": "real",
+    "n_changed": 11,
+    "key": "2025-06-18_Bluesky_Terms-of-Service_b1a978f2"
+   }
+  ]
+ },
+ {
+  "title": "Threads expands profile creation beyond Instagram users",
+  "href": "/en/memos/threads-expands-profile-creation-beyond-instagram-users/",
+  "service": "Threads",
+  "doc": "Privacy Policy",
+  "date": "May 14, 2025",
+  "match": [
+   {
+    "date": "2025-05-21",
+    "commit": "f538bf2d2fab65ef412a9bbd0175c2b1d0da8b71",
+    "kind": "real",
+    "n_changed": 4,
+    "key": "2025-05-21_Threads_Privacy-Policy_f538bf2d"
+   },
+   {
+    "date": "2025-05-14",
+    "commit": "5f308804ef652e4ae29de093eeadaa2ab34fcbbb",
+    "kind": "real",
+    "n_changed": 26,
+    "key": "2025-05-14_Threads_Privacy-Policy_5f308804"
+   }
+  ]
+ },
+ {
+  "title": "Telegram expands cooperation with authorities beyond the scope of terrorism",
+  "href": "/en/memos/telegram-expands-forbidden-uses-data-disclosure-authorities/",
+  "service": "Telegram",
+  "doc": "Terms of Service",
+  "date": "September 23, 2024",
+  "match": [
+   {
+    "date": "2024-09-24",
+    "commit": "a1e1a6da5cc383bb9ff0fa64b92a7454bc464d51",
+    "kind": "real",
+    "n_changed": 1,
+    "key": "2024-09-24_Telegram_Terms-of-Service_a1e1a6da"
+   }
+  ]
+ },
+ {
+  "title": "Telegram expands cooperation with authorities beyond the scope of terrorism",
+  "href": "/en/memos/telegram-expands-forbidden-uses-data-disclosure-authorities/",
+  "service": "Telegram",
+  "doc": "Privacy Policy",
+  "date": "September 23, 2024",
+  "match": [
+   {
+    "date": "2024-09-30",
+    "commit": "c6bf7111357d0620f249438fab498208e65532d7",
+    "kind": "real",
+    "n_changed": 28,
+    "key": "2024-09-30_Telegram_Privacy-Policy_c6bf7111"
+   },
+   {
+    "date": "2024-09-26",
+    "commit": "c318fccbccc21391732df81a6140d05d3f765584",
+    "kind": "real",
+    "n_changed": 2,
+    "key": "2024-09-26_Telegram_Privacy-Policy_c318fccb"
+   },
+   {
+    "date": "2024-09-24",
+    "commit": "df16454d0dfe3056937565462d99c6a24ab33ea7",
+    "kind": "real",
+    "n_changed": 2,
+    "key": "2024-09-24_Telegram_Privacy-Policy_df16454d"
+   }
+  ]
+ },
+ {
+  "title": "Facebook goes back in time",
+  "href": "/en/memos/facebook-goes-back-in-time/",
+  "service": "Facebook",
+  "doc": "Terms of Service",
+  "date": "June 14, 2022",
+  "match": []
+ },
+ {
+  "title": "Meta tests notification of changes for its terms",
+  "href": "/en/memos/meta-tests-notification-of-changes-for-its-terms/",
+  "service": "Facebook",
+  "doc": "Terms of Service",
+  "date": "May 17, 2022 - May 25, 2022 - May 26, 2022",
+  "match": []
+ }
+]
