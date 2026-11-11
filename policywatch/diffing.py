@@ -19,6 +19,14 @@ def paras(text):
     return [' '.join(LINK.sub(']', l).split()) for l in text.replace('\r', '').split('\n') if l.strip()]
 
 
+TARGET = re.compile(r'\]\(([^)]*)\)')
+
+
+def link_targets(text):
+    """Markdown link targets per paragraph, aligned with paras(text)."""
+    return [TARGET.findall(l) for l in text.replace('\r', '').split('\n') if l.strip()]
+
+
 def nums(ps):
     return sorted(m.lower() for p in ps for m in NUM.findall(URL.sub(' ', p)))
 
@@ -58,6 +66,8 @@ class Change:
     def new_region(self):
         return SEP.join(b.new_text for b in self.blocks)
 
+    links: list = field(default_factory=list)     # [(paragraph, old targets, new targets)] for unchanged paragraphs
+
     @property
     def numeric(self):
         return [x for b in self.blocks for x in b.numeric]
@@ -65,9 +75,15 @@ class Change:
 
 def diff(old_text, new_text):
     O, N = paras(old_text), paras(new_text)
-    blocks, n = [], 0
+    LO, LN = link_targets(old_text), link_targets(new_text)
+    blocks, n, links = [], 0, []
     for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, O, N, autojunk=False).get_opcodes():
-        if tag == 'equal': continue
+        if tag == 'equal':
+            # Text equal after normalization, but a link may now point elsewhere: listed by rule, never scored
+            # (GPT r1: a changed URL can change obligations).
+            for k in range(i2 - i1):
+                if LO[i1 + k] != LN[j1 + k]: links.append((O[i1 + k], LO[i1 + k], LN[j1 + k]))
+            continue
         numeric = []
         if j2 > j1:
             for i in range(i1, i2):
@@ -76,7 +92,7 @@ def diff(old_text, new_text):
         before = O[i1 - 1:i1] if i1 > 0 else []
         blocks.append(Block(before, O[i1:i2], N[j1:j2], O[i2:i2 + 1], numeric))
         n += (i2 - i1) + (j2 - j1)
-    return Change(blocks, n)
+    return Change(blocks, n, links)
 
 
 def chunks(change, cap):

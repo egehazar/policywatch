@@ -86,7 +86,10 @@ class Pipeline(unittest.TestCase):
     def test_formatting_and_rewrite(self):
         sc = Scorer(Server(self.url, 'fake'), self.cache())
         same = watch.analyze(U, 'See [here](http://a.com/1).\n\nB.', 'See [here](http://b.com/2).\n\n  B.  ', sc, BANK, .3)
-        self.assertEqual(same['kind'], 'formatting')
+        self.assertEqual(same['kind'], 'links')       # same text, new link target: listed, not dropped (GPT r1)
+        self.assertEqual(same['links'], [{'para': 'See [here].', 'old': ['http://a.com/1'], 'new': ['http://b.com/2']}])
+        fmt = watch.analyze(U, 'See [here](http://a.com/1).\n\nB.', 'See   [here](http://a.com/1).\n\n  B.  ', sc, BANK, .3)
+        self.assertEqual(fmt['kind'], 'formatting')
         big_new = '\n\n'.join(f'New paragraph {i}.' for i in range(90))
         self.assertEqual(watch.analyze(U, 'Old.', big_new, sc, BANK, .3)['kind'], 'rewrite')
 

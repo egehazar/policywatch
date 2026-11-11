@@ -28,13 +28,18 @@ Two independent LLM raters (not humans) judged each question on the changed exce
    versions), never as an oracle: in earlier tests its ranking was reliable while its 0.5 cut-off was not.
 4. **Localize.** For each flagged question, the question is re-asked of each changed block alone, and the block
    that moved it most is shown as evidence.
-5. **Numbers by rule.** A paragraph whose number or date tokens changed ("30 days" -> "14 days") is listed
-   separately, whatever the model says.
+5. **Numbers and links by rule.** Two kinds of change are listed separately, whatever the model says:
+   - a paragraph whose number or date tokens changed ("30 days" -> "14 days")
+   - a paragraph whose text is unchanged but whose link now points elsewhere (the linked document can carry
+     obligations)
 6. **Report.** A static HTML site: one page per update, with word-level diffs, linked to the source commit.
 7. **Capture noise is labelled, not scored.** In 2026 so far, 267 of the archive's 835 recorded "changes" (32%) are
    not edits.
-   - Either the text returned to a recent version (TikTok's UK-ads banner flips on and off between captures), or the
-     new capture was cut off part-way (Reddit's privacy policy, cut at a table about every other capture).
+   - Either the text returned to a recent version, a recurrence (TikTok's UK-ads banner flips on and off between
+     captures), or the new capture was cut off part-way (Reddit's privacy policy, cut at a table about every other
+     capture).
+   - A recurrence can also be a platform retracting and reinstating a change, so recurrences are labelled and shown
+     with their diff, never hidden.
    - Across the whole archive it is 426 of 2,672 (`eval/noise_stats.json`).
    - A return to an older version (more than 6 captures or 45 days back) is scored as a real rollback.
    - After a cut-off capture, the next version is compared with the last full one.
@@ -47,8 +52,13 @@ More than 80 changed paragraphs counts as a rewrite: the report says "review eve
 ## Questions
 `data/bank.json` has 101 yes/no questions made from ToS;DR case titles: the 70 cases approved on at least 100
 services, plus every bad or blocker case approved on 30-99. The second group was added after the first 70 turned out
-to have no question about AI training, which would have hidden Twitch's 2026-08-12 privacy update. See
-`data/BANK.md`.
+to have no question about AI training, which would have hidden Twitch's 2026-08-12 privacy update. Because that
+update motivated the added questions, it is excluded from every accuracy claim; results with the 70 original
+questions are reported separately. See `data/BANK.md`.
+
+What this measures: whether a model's answers to generic case questions move between two versions of the changed
+text. It does not show that a specific approved answer for that service became wrong. Tying the questions to a
+service's actual approved answers (for example its ToS;DR points) is future work.
 
 ## Accuracy
 Three measurements, all shown on the site's "How it works" page:

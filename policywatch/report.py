@@ -127,11 +127,14 @@ def update_page(rec, repo):
         body.append('<p class="note">More than 80 paragraphs changed: treated as a rewrite. Every approved answer '
                     'for this document needs review; nothing was scored.</p>')
     elif rec['kind'] == 'formatting':
-        body.append('<p class="note">Only formatting or link targets changed. No answer can have moved.</p>')
+        body.append('<p class="note">Only formatting changed. No answer can have moved.</p>')
+    elif rec['kind'] == 'links':
+        body.append('<p class="note">The text is unchanged, but links now point elsewhere (below). The linked documents '
+                    'can carry obligations of their own; nothing was scored.</p>')
     elif rec['kind'] == 'revert':
-        body.append(f'<p class="note">The new text is identical to the version recorded on {esc(rec["same_as"])}. Usually '
-                    'this is the archive alternating between two captures of one page, not a policy change. Nothing '
-                    'was scored.</p>')
+        body.append(f'<p class="note">Recurrence: the new text is identical to the version recorded on {esc(rec["same_as"])}. '
+                    'Often this is the archive alternating between two captures of one page, but a platform can also '
+                    'retract and reinstate a change. Nothing was scored; the diff is below.</p>')
     elif rec['kind'] == 'partial':
         body.append(f'<p class="note">The new capture looks cut off: it has {rec["n_new"]} paragraphs against {rec["n_old"]}, '
                     'and apart from its last lines it is exactly the start of the previous version. Usually this is a '
@@ -151,6 +154,11 @@ def update_page(rec, repo):
     if rec['numeric']:
         body.append(f'<h2>Number and date changes ({len(rec["numeric"])})</h2><p class="sm mut">Listed by rule, not by the model.</p>')
         body += [f'<div class="diff">{wdiff(n["old"], n["new"])}</div>' for n in rec['numeric']]
+    if rec.get('links'):
+        body.append(f'<h2>Link changes ({len(rec["links"])})</h2><p class="sm mut">Same text, different link target. Listed by '
+                    'rule, not by the model.</p>')
+        body += [f'<div class="diff">{esc(l["para"][:300])}\n<del>{esc(" ".join(l["old"]))}</del>\n<ins>{esc(" ".join(l["new"]))}</ins></div>'
+                 for l in rec['links'][:30]]
     if rec.get('baseline'):
         body.append(f'<p class="sm mut">Compared with the version of {esc(rec["baseline"]["date"])}: the captures in between '
                     'were cut off.</p>')
@@ -186,14 +194,18 @@ def index_page(recs, meta, hr=None):
             summary = summary or '<div class="sm mut">No answer moved past the threshold.</div>'
         elif r['kind'] == 'rewrite':
             summary = '<div class="sm">Rewrite: review every answer.</div>'
+        elif r['kind'] == 'links':
+            summary = '<div class="sm">Same text; links now point elsewhere.</div>'
         else:
             summary = '<div class="sm mut">Formatting only.</div>'
         nums = f'<span class="badge">{len(r["numeric"])} number/date</span>' if r['numeric'] else ''
+        nums += f'<span class="badge">{len(r.get("links", []))} link</span>' if r.get('links') else ''
         rows.append(f'<div class="card"><div class="row"><b><a href="{esc(r["key"])}.html">{esc(r["platform"])} · {esc(r["doc"])}</a></b>'
                     f'<span class="mut sm">{esc(r["date"])} · {r["n_changed"]} paragraphs</span>{nums}</div>{summary}</div>')
     head = (f'<h1>What changed in meaning</h1><p class="mut">{len(recs)} recorded updates to platform terms and privacy policies '
-            f'({esc(meta.get("range", ""))}). For each update, {meta.get("n_questions", "")} approved yes/no answers are re-asked '
-            f'of the old and the new text by a small local decision model; the ones whose score moved are listed first.</p>')
+            f'({esc(meta.get("range", ""))}). For each update, {meta.get("n_questions", "")} yes/no questions (ToS;DR case titles) '
+            f'are asked of the old and the new text by a small local decision model; the ones whose score moved are listed '
+            f'first. Scores are the model’s, not verdicts: a person decides.</p>')
     if hr and hr['updates_reviewed']:
         judged = hr['flags_confirmed'] + hr['flags_wrong']
         unsure = f' ({hr["flags_unsure"]} unsure)' if hr['flags_unsure'] else ''
@@ -201,12 +213,12 @@ def index_page(recs, meta, hr=None):
                  f'{hr["flags_confirmed"]} of {judged} judged flags confirmed{unsure} · '
                  f'{hr["misses"]} changes the tool missed</div>')
     if noise:
-        head += (f'<p class="mut sm">{len(noise)} of the {len(recs)} recorded updates are capture noise (the text returned to '
-                 'an earlier version, or a capture was cut off); they are listed at the bottom and not scored.</p>')
+        head += (f'<p class="mut sm">{len(noise)} of the {len(recs)} recorded updates are recurrences (the text returned to a '
+                 'recent version) or cut-off captures; they are listed at the bottom and not scored.</p>')
         items = ''.join(f'<div class="sm"><a href="{esc(r["key"])}.html">{esc(r["date"])} {esc(r["platform"])} · {esc(r["doc"])}</a> '
-                        f'<span class="mut">{"same as " + esc(r["same_as"]) if r["kind"] == "revert" else "cut-off capture"}</span></div>'
+                        f'<span class="mut">{"recurrence of " + esc(r["same_as"]) if r["kind"] == "revert" else "cut-off capture"}</span></div>'
                         for r in noise)
-        rows.append(f'<h2>Capture noise ({len(noise)})</h2><div class="card">{items}</div>')
+        rows.append(f'<h2>Recurrences and cut-off captures ({len(noise)})</h2><div class="card">{items}</div>')
     return page('policywatch', head + ''.join(rows))
 
 

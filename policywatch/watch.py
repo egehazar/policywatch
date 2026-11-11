@@ -51,9 +51,10 @@ def analyze(u, old_text, new_text, scorer, bank, tau, localize=True, noise=None)
     rec = {'platform': u.platform, 'doc': u.doc, 'path': u.path, 'commit': u.commit, 'date': u.date, 'key': u.key,
            'n_changed': ch.n_changed, 'scorer': scorer.server.id, 'tau': tau,
            'numeric': [{'old': a, 'new': b} for a, b in ch.numeric],
+           'links': [{'para': p, 'old': o, 'new': n} for p, o, n in ch.links],
            'blocks': [{'before': b.before, 'old': b.old, 'new': b.new, 'after': b.after} for b in ch.blocks]}
     if ch.n_changed == 0:
-        return {**rec, 'kind': 'formatting', 'questions': []}
+        return {**rec, 'kind': 'links' if ch.links else 'formatting', 'questions': []}
     if noise:
         return {**rec, **noise, 'kind': noise['noise'], 'questions': []}
     if ch.n_changed > MAX_CHANGED:
