@@ -1,0 +1,322 @@
+<title>Policy Change Check</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Layout: a sticky progress bar, then one update at a time: its redline, then its statements to judge. */
+:root {
+  --bg: #f6f7f9; --panel: #ffffff; --fg: #1d2330; --muted: #5b6475; --line: #dde1e8;
+  --accent: #2f4fa8; --accent-soft: #e6ebf8;
+  --del: #b42318; --del-bg: #fdeceb; --ins: #1d4ed8; --ins-bg: #e8effd;
+  --ok: #1f7a4d; --ok-bg: #e5f4ec; --warn: #9a6200; --warn-bg: #fbf1dd;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12151b; --panel: #1a1e26; --fg: #e4e7ee; --muted: #9aa3b4; --line: #2c323d;
+  --accent: #8ea8ff; --accent-soft: #232c45;
+  --del: #ff8a80; --del-bg: #3a1d1c; --ins: #8fb4ff; --ins-bg: #1d2a46;
+  --ok: #6fd3a0; --ok-bg: #173327; --warn: #f2c46b; --warn-bg: #3a2e14; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #12151b; --panel: #1a1e26; --fg: #e4e7ee; --muted: #9aa3b4; --line: #2c323d;
+  --accent: #8ea8ff; --accent-soft: #232c45;
+  --del: #ff8a80; --del-bg: #3a1d1c; --ins: #8fb4ff; --ins-bg: #1d2a46;
+  --ok: #6fd3a0; --ok-bg: #173327; --warn: #f2c46b; --warn-bg: #3a2e14; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: 15px; line-height: 1.5 }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--panel) }
+.wrap { max-width: 860px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)) }
+header.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--panel); border-bottom: 1px solid var(--line) }
+header.bar .wrap { display: flex; flex-direction: column; gap: 8px; padding-block: 10px }
+.row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap }
+h1 { font-size: 17px; font-weight: 600; margin: 0; letter-spacing: .01em }
+.count { font-family: var(--mono); font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums }
+.meter { flex: 1 1 120px; height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; min-width: 80px }
+.meter i { display: block; height: 100%; background: var(--accent); width: 0 }
+.chips { display: flex; gap: 4px; flex-wrap: wrap }
+.chip { font-family: var(--mono); font-size: 11px; min-width: 30px; padding: 2px 4px; border: 1px solid var(--line); background: var(--bg); color: var(--muted); border-radius: 4px; cursor: pointer; font-variant-numeric: tabular-nums }
+.chip.part { border-color: var(--accent); color: var(--accent) }
+.chip.done { background: var(--ok-bg); border-color: var(--ok); color: var(--ok) }
+.chip.cur { outline: 2px solid var(--accent); outline-offset: 1px }
+main .wrap { display: flex; flex-direction: column; gap: 18px; padding-block: 18px 40px }
+.note { font-size: 13px; color: var(--muted); margin: 0 }
+.banner { padding: 10px 12px; border-radius: 6px; background: var(--warn-bg); color: var(--warn); font-size: 14px }
+details.howto { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px }
+details.howto summary { cursor: pointer; font-weight: 600 }
+details.howto p, details.howto li { max-width: 68ch }
+details.howto dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; margin: 8px 0 }
+details.howto dt { font-weight: 600 }
+details.howto dd { margin: 0 }
+.uhead { display: flex; flex-direction: column; gap: 4px }
+.eyebrow { font-family: var(--mono); font-size: 12px; color: var(--muted); letter-spacing: .04em; text-transform: uppercase }
+h2 { font-size: 22px; margin: 0; font-weight: 600; text-wrap: balance }
+.links { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px }
+a { color: var(--accent) }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden }
+.seg button { font: inherit; font-size: 13px; padding: 4px 10px; border: 0; background: var(--panel); color: var(--fg); cursor: pointer }
+.seg button + button { border-left: 1px solid var(--line) }
+.seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); font-weight: 600 }
+.text { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; font-family: var(--serif); font-size: 16px; line-height: 1.6; white-space: pre-wrap; overflow-wrap: anywhere; max-height: 60vh; overflow-y: auto }
+.text .gap { display: block; text-align: center; color: var(--muted); font-family: var(--mono); font-size: 12px; margin: 10px 0 }
+del { color: var(--del); background: var(--del-bg); text-decoration: line-through }
+ins { color: var(--ins); background: var(--ins-bg); text-decoration: underline; text-decoration-thickness: 1px }
+mark { background: var(--warn-bg); color: var(--fg); outline: 1px solid var(--warn) }
+mark.on { background: var(--warn); color: var(--panel) }
+.full { display: flex; flex-direction: column; gap: 8px }
+.find { display: flex; gap: 8px; align-items: center; flex-wrap: wrap }
+.find input { font: inherit; padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: var(--fg); min-width: 0; flex: 1 1 160px }
+.qs { display: flex; flex-direction: column; gap: 10px }
+.qs h3 { font-size: 15px; margin: 6px 0 0; font-weight: 600 }
+.q { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; display: flex; flex-direction: column; gap: 10px }
+.q.answered { border-color: var(--ok) }
+.q .stmt { font-family: var(--serif); font-size: 17px; line-height: 1.45 }
+.choices { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px }
+@media (max-width: 560px) { .choices { grid-template-columns: repeat(2, minmax(0, 1fr)) } }
+.choices button { font: inherit; font-size: 14px; padding: 8px 6px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); border-radius: 6px; cursor: pointer; min-width: 0 }
+.choices button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--panel); font-weight: 600 }
+.q input.qn { font: inherit; font-size: 13px; padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); width: 100% }
+.nav { display: flex; justify-content: space-between; gap: 10px }
+.btn { font: inherit; padding: 8px 14px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--fg); cursor: pointer }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--panel); font-weight: 600 }
+.btn:disabled { opacity: .45; cursor: default }
+button:focus-visible, input:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+footer { font-size: 12px; color: var(--muted) }
+textarea#dump { width: 100%; height: 80px; font-family: var(--mono); font-size: 11px; background: var(--panel); color: var(--fg); border: 1px solid var(--line) }
+</style>
+
+<header class="bar"><div class="wrap">
+  <div class="row"><h1>Policy Change Check</h1><span class="count" id="count">0 / 106 answered</span><span class="meter"><i id="meterfill"></i></span></div>
+  <div class="chips" id="chips" aria-label="Updates"></div>
+</div></header>
+
+<main><div class="wrap">
+  <div class="banner" id="savebanner" hidden></div>
+  <details class="howto" id="howto">
+    <summary>How to judge</summary>
+    <p>Each update is a real change a platform made to its terms or privacy policy (from the public Open Terms Archive). Under it are statements. For each statement, decide whether this update changed whether the document says it: states it outright or clearly implies it.</p>
+    <dl>
+      <dt>Changed</dt><dd>The whole document gives a different answer after the update.</dd>
+      <dt>Only the passage</dt><dd>The edited passage reads differently on this point, but other text in the document gives the same answer before and after.</dd>
+      <dt>No change</dt><dd>The update doesn't affect this statement.</dd>
+      <dt>Can't tell</dt><dd>You can't decide from the text.</dd>
+    </dl>
+    <p>Judge from the text only, not from what you know about the company. Open the full documents when the passage alone doesn't settle it. Red struck text was removed and blue underlined text was added.</p>
+    <p>Answers save as you click, so you can stop and come back. The page shows nothing about what any model or rater thought.</p>
+  </details>
+
+  <section class="uhead" aria-live="polite">
+    <span class="eyebrow" id="ueyebrow"></span>
+    <h2 id="utitle">Loading the updates…</h2>
+    <div class="links" id="ulinks"></div>
+  </section>
+
+  <div class="row"><span class="seg" role="group" aria-label="Passage view">
+    <button id="v-red" aria-pressed="true">Redline</button><button id="v-old" aria-pressed="false">Old</button><button id="v-new" aria-pressed="false">New</button>
+  </span><span class="note">The changed passage, with one unchanged paragraph either side.</span></div>
+  <div class="text" id="region"></div>
+
+  <details id="fulldet"><summary class="btn" style="display:inline-block">Full documents</summary>
+    <div class="full" style="margin-top:10px">
+      <div class="find">
+        <span class="seg" role="group" aria-label="Which version"><button id="f-old" aria-pressed="true">Old version</button><button id="f-new" aria-pressed="false">New version</button></span>
+        <input id="findq" type="search" placeholder="Find a word in this version" aria-label="Find in document">
+        <button class="btn" id="findnext">Next</button><span class="count" id="findcount"></span>
+      </div>
+      <div class="text" id="fulltext" style="max-height:70vh"></div>
+    </div>
+  </details>
+
+  <section class="qs"><h3 id="qhead">Statements</h3><div class="qs" id="qlist"></div></section>
+
+  <div class="nav"><button class="btn" id="prev">Previous update</button><button class="btn primary" id="next">Next update</button></div>
+
+  <details><summary class="note" style="cursor:pointer">Backup of your answers</summary>
+    <p class="note">If saving fails, copy this and paste it to Claude in the terminal.</p>
+    <div class="row" style="margin:6px 0"><button class="btn" id="copy">Copy answers</button><span class="note" id="copied"></span></div>
+    <textarea id="dump" readonly aria-label="Answers as text"></textarea>
+  </details>
+
+  <footer>Texts: Open Terms Archive, pga-versions (Platform Governance Archive), ODC-BY 1.0. Statements: ToS;DR case titles.</footer>
+</div></main>
+
+<script>
+(function () {
+  var CHOICES = [["changed", "Changed"], ["passage", "Only the passage"], ["none", "No change"], ["unsure", "Can't tell"]];
+  var data = null, cur = 0, view = "red", fullSide = "old", fullCache = {}, answers = {}, db = null, canWrite = true;
+  var $ = function (id) { return document.getElementById(id); };
+  function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
+  try { var saved = JSON.parse(store("pcc-answers") || "{}"); if (saved && typeof saved === "object") answers = saved; } catch (e) {}
+  if (store("pcc-howto") !== "seen") $("howto").open = true;
+  $("howto").addEventListener("toggle", function () { if (!$("howto").open) store("pcc-howto", "seen"); });
+
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function allItems() { var a = []; data.updates.forEach(function (u) { u.questions.forEach(function (q) { a.push(q.id); }); }); return a; }
+  function answered(id) { return answers[id] && answers[id].v; }
+
+  function renderProgress() {
+    var items = allItems(), n = items.filter(answered).length;
+    $("count").textContent = n + " / " + items.length + " answered";
+    $("meterfill").style.width = (100 * n / items.length) + "%";
+    var chips = $("chips"); chips.textContent = "";
+    data.updates.forEach(function (u, i) {
+      var d = u.questions.filter(function (q) { return answered(q.id); }).length;
+      var b = el("button", "chip" + (d === u.questions.length ? " done" : d ? " part" : "") + (i === cur ? " cur" : ""), String(i + 1));
+      b.title = u.platform + " " + u.doc + ": " + d + " of " + u.questions.length + " answered";
+      b.addEventListener("click", function () { go(i); });
+      chips.appendChild(b);
+    });
+    $("dump").value = JSON.stringify(answers);
+  }
+
+  function renderRegion() {
+    var u = data.updates[cur], box = $("region"); box.textContent = "";
+    u.blocks.forEach(function (segs, bi) {
+      if (bi) box.appendChild(el("span", "gap", "[ … unchanged text … ]"));
+      segs.forEach(function (s) {
+        var op = s[0], t = s[1];
+        if (view === "red") box.appendChild(op === "-" ? el("del", null, t) : op === "+" ? el("ins", null, t) : document.createTextNode(t));
+        else if (op === "=" || (view === "old" && op === "-") || (view === "new" && op === "+")) box.appendChild(document.createTextNode(t));
+      });
+    });
+    ["red", "old", "new"].forEach(function (v) { $("v-" + v).setAttribute("aria-pressed", String(v === view)); });
+  }
+
+  var marks = [], markAt = -1;
+  function renderFull() {
+    var u = data.updates[cur], box = $("fulltext");
+    ["old", "new"].forEach(function (s) { $("f-" + s).setAttribute("aria-pressed", String(s === fullSide)); });
+    var doc = fullCache[u.u];
+    if (!doc) { box.textContent = "Loading the full documents…"; loadFull(u.u); return; }
+    var t = doc[fullSide] || "", q = $("findq").value.trim();
+    box.textContent = ""; marks = []; markAt = -1;
+    if (!q) { box.textContent = t; $("findcount").textContent = ""; return; }
+    var lo = t.toLowerCase(), ql = q.toLowerCase(), i = 0, j;
+    while ((j = lo.indexOf(ql, i)) !== -1) {
+      box.appendChild(document.createTextNode(t.slice(i, j)));
+      var m = el("mark", null, t.slice(j, j + q.length)); box.appendChild(m); marks.push(m); i = j + q.length;
+    }
+    box.appendChild(document.createTextNode(t.slice(i)));
+    $("findcount").textContent = marks.length ? marks.length + " found" : "not found";
+    if (marks.length) nextMark();
+  }
+  function nextMark() {
+    if (!marks.length) return;
+    if (markAt >= 0) marks[markAt].classList.remove("on");
+    markAt = (markAt + 1) % marks.length; var m = marks[markAt]; m.classList.add("on");
+    var box = $("fulltext"); box.scrollTop = m.offsetTop - box.offsetTop - 60;
+    $("findcount").textContent = (markAt + 1) + " of " + marks.length;
+  }
+  function loadFull(uid) {
+    fetch("full/" + uid + ".json").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (d) { fullCache[uid] = d; if (data.updates[cur].u === uid) renderFull(); })
+      .catch(function () { $("fulltext").textContent = "The full documents didn't load. Use the GitHub links above instead."; });
+  }
+
+  function renderQuestions() {
+    var u = data.updates[cur], list = $("qlist"); list.textContent = "";
+    $("qhead").textContent = u.questions.length === 1 ? "1 statement" : u.questions.length + " statements";
+    u.questions.forEach(function (q) {
+      var card = el("div", "q" + (answered(q.id) ? " answered" : ""));
+      card.appendChild(el("div", "stmt", q.text));
+      var ch = el("div", "choices"); ch.setAttribute("role", "group"); ch.setAttribute("aria-label", "Your answer");
+      CHOICES.forEach(function (c) {
+        var b = el("button", null, c[1]); b.id = "c-" + q.id + "-" + c[0];
+        b.setAttribute("aria-pressed", String((answers[q.id] || {}).v === c[0]));
+        b.disabled = !canWrite && !!db;
+        b.addEventListener("click", function () { save(q.id, { v: c[0] }); });
+        ch.appendChild(b);
+      });
+      card.appendChild(ch);
+      var note = el("input", "qn"); note.id = "n-" + q.id; note.type = "text"; note.placeholder = "Note (optional)";
+      note.value = (answers[q.id] || {}).note || "";
+      note.addEventListener("change", function () { if (note.value !== ((answers[q.id] || {}).note || "")) save(q.id, { note: note.value }); });
+      card.appendChild(note);
+      list.appendChild(card);
+    });
+  }
+
+  function go(i) {
+    cur = Math.max(0, Math.min(data.updates.length - 1, i)); store("pcc-cur", String(cur));
+    var u = data.updates[cur];
+    $("ueyebrow").textContent = "Update " + (cur + 1) + " of " + data.updates.length + " · " + u.date;
+    $("utitle").textContent = u.platform + " · " + u.doc;
+    var L = $("ulinks"); L.textContent = "";
+    [["Old version on GitHub", u.old_url], ["New version on GitHub", u.new_url], ["The change on GitHub", u.commit_url]].forEach(function (x) {
+      var a = el("a", null, x[0]); a.href = x[1]; a.target = "_blank"; a.rel = "noopener"; L.appendChild(a);
+    });
+    $("prev").disabled = cur === 0; $("next").disabled = cur === data.updates.length - 1;
+    $("findq").value = "";
+    renderRegion(); renderQuestions(); renderProgress();
+    if ($("fulldet").open) renderFull();
+  }
+
+  var writing = {};
+  function save(id, patch) {
+    var prev = answers[id] || {}, next = { v: prev.v || null, note: prev.note || "" };
+    if (patch.v !== undefined) next.v = patch.v;
+    if (patch.note !== undefined) next.note = patch.note;
+    next.t = new Date().toISOString();
+    answers[id] = next; store("pcc-answers", JSON.stringify(answers));
+    renderQuestions(); renderProgress();
+    if (!db) return;
+    var run = function () {
+      writing[id] = db.doc("verdicts/" + id).set(answers[id]).catch(function (e) {
+        if (e && e.code === "invalid_argument") { canWrite = false; showBanner("This view can't save answers to the page. They are kept in this browser; use the backup at the bottom."); renderQuestions(); }
+        else showBanner("An answer didn't save (" + (e && e.code || "error") + "). Click it again, or use the backup at the bottom.");
+      });
+      return writing[id];
+    };
+    (writing[id] || Promise.resolve()).then(run, run);
+  }
+  function showBanner(t) { var b = $("savebanner"); b.textContent = t; b.hidden = false; }
+
+  $("v-red").onclick = function () { view = "red"; renderRegion(); };
+  $("v-old").onclick = function () { view = "old"; renderRegion(); };
+  $("v-new").onclick = function () { view = "new"; renderRegion(); };
+  $("f-old").onclick = function () { fullSide = "old"; renderFull(); };
+  $("f-new").onclick = function () { fullSide = "new"; renderFull(); };
+  $("fulldet").addEventListener("toggle", function () { if ($("fulldet").open) renderFull(); });
+  var ft; $("findq").addEventListener("input", function () { clearTimeout(ft); ft = setTimeout(renderFull, 250); });
+  $("findq").addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); nextMark(); } });
+  $("findnext").onclick = nextMark;
+  $("prev").onclick = function () { go(cur - 1); window.scrollTo(0, 0); };
+  $("next").onclick = function () { go(cur + 1); window.scrollTo(0, 0); };
+  $("copy").onclick = function () {
+    var t = $("dump").value;
+    try { navigator.clipboard.writeText(t).then(function () { $("copied").textContent = "Copied"; }, function () { $("dump").select(); $("copied").textContent = "Select and copy the text below"; }); }
+    catch (e) { $("dump").select(); $("copied").textContent = "Select and copy the text below"; }
+  };
+
+  fetch("data.json").then(function (r) { return r.json(); }).then(function (d) {
+    data = d; var c = parseInt(store("pcc-cur") || "0", 10); go(isNaN(c) ? 0 : c);
+  }).catch(function () { $("utitle").textContent = "The updates didn't load. Reload the page."; });
+
+  function connect() {
+    if (!(window.claude && window.claude.use)) { showBanner("Answers are kept in this browser only. Open the page on claude.ai to save them to the page."); return; }
+    window.claude.use("db").then(function (d) {
+      if (!d) { showBanner("Answers can't be saved to the page in this view, only in this browser. Open it on claude.ai while signed in, or use the backup at the bottom."); return; }
+      db = d;
+      var timer = setTimeout(function () { showBanner("Saved answers can't be reached yet. New answers are kept in this browser meanwhile."); }, 10000);
+      db.collection("verdicts").onSnapshot(function (snap) {
+        if (!snap.metadata.fromCache) { clearTimeout(timer); }
+        var changed = false;
+        snap.docs.forEach(function (doc) {
+          var v = doc.data(); if (!v) return;
+          var mine = answers[doc.id];
+          if (!mine || (v.t && (!mine.t || v.t > mine.t))) { answers[doc.id] = { v: v.v || null, note: v.note || "", t: v.t || "" }; changed = true; }
+        });
+        if (changed) { store("pcc-answers", JSON.stringify(answers)); if (data) { renderQuestions(); renderProgress(); } }
+        // answers made in this browser before the page could save: send them once
+        if (!snap.metadata.fromCache && !window.__pccSynced) {
+          window.__pccSynced = true;
+          var have = {}; snap.docs.forEach(function (doc) { have[doc.id] = (doc.data() || {}).t || ""; });
+          Object.keys(answers).forEach(function (id) { if (answers[id] && answers[id].t && answers[id].t > (have[id] || "")) save(id, {}); });
+        }
+      }, function (e) { clearTimeout(timer); showBanner("Saved answers stopped updating (" + (e && e.code || "error") + "). New answers are kept in this browser."); });
+    });
+  }
+  if (window.claude && window.claude.use) connect(); else window.addEventListener("load", connect);
+})();
+</script>

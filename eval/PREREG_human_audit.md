@@ -48,3 +48,11 @@ human confirms fewer than 10 H_doc = 1 items in total, the comparison is reporte
 
 ## Not claimed
 Anything beyond this sample, one human, and these 35 updates; expertise in law.
+
+## Addendum 2026-11-11T23:54:39Z: the page (before any Kev evaluation; r20 at 63/70)
+- audit/human_audit.py gained the `page` command (blind data: texts, question wording, GitHub links; no gold, stratum
+  or model output). `sample` is unchanged: re-running it reproduces audit/sample.json byte for byte (hash above).
+- Page: audit/page.html, published privately for Ege at claude.ai/artifact/N25CWMZpfBAtY388DymbPH. Answers save to the
+  page's own store (collection "verdicts", one document per item: v, note, t) and to the browser as a backup.
+- Known leak, disclosed: the number of statements per update differs (1 to 11), which hints that some updates hold more
+  rater-flagged items. Order within an update is random.
