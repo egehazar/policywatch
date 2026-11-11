@@ -16,7 +16,7 @@ DEF_BANK = os.path.join(HERE, '..', 'data', 'bank.json')
 
 def main(argv=None):
     ap = argparse.ArgumentParser(prog='policywatch')
-    ap.add_argument('cmd', choices=['scan', 'report', 'seed', 'eval'])
+    ap.add_argument('cmd', choices=['scan', 'report', 'seed', 'eval', 'serve'])
     ap.add_argument('--archive'); ap.add_argument('--since'); ap.add_argument('--until')
     ap.add_argument('--docs', default=','.join(archive.DEFAULT_DOCS)); ap.add_argument('--platforms')
     ap.add_argument('--server', default='http://127.0.0.1:9995'); ap.add_argument('--model-name', default='kev-4b-q8')
@@ -24,7 +24,7 @@ def main(argv=None):
     ap.add_argument('--tau', type=float, default=.3); ap.add_argument('--workers', type=int, default=2)
     ap.add_argument('--limit', type=int); ap.add_argument('--no-localize', action='store_true')
     ap.add_argument('--keep-noise', action='store_true', help='score reverts and partial captures too')
-    ap.add_argument('--frozen'); ap.add_argument('--repo-url')
+    ap.add_argument('--frozen'); ap.add_argument('--repo-url'); ap.add_argument('--port', type=int, default=8787)
     a = ap.parse_args(argv)
     bank = watch.load_bank(a.bank)
     cache = Cache(os.path.join(a.out, 'cache.sqlite')); scorer = Scorer(Server(a.server, a.model_name), cache)
@@ -63,6 +63,10 @@ def main(argv=None):
                 ps = kev.get(f"{p['id']}|{side}")
                 if ps: cache.put(scorer.server.id, p[side + '_region'], {qid(bank[int(k[1:])]['q']): v for k, v in ps.items()}); n += 1
         print(f'seeded {n} regions; cache rows {cache.count()}')
+
+    elif a.cmd == 'serve':
+        from .serve import serve
+        serve(a.out, a.port)
 
     elif a.cmd == 'eval':
         from .evaluate import run

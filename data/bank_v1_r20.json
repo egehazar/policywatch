@@ -1,0 +1,492 @@
+[
+ {
+  "case": 331,
+  "title": "There is a date of the last update of the agreements",
+  "classification": "neutral",
+  "approved_services": 302,
+  "q": "Does the text state or clearly imply the following: There is a date of the last update of the agreements?"
+ },
+ {
+  "case": 399,
+  "title": "Your IP address is collected, which can be used to view your approximate location",
+  "classification": "neutral",
+  "approved_services": 293,
+  "q": "Does the text state or clearly imply the following: Your IP address is collected, which can be used to view your approximate location?"
+ },
+ {
+  "case": 286,
+  "title": "The service is provided 'as is' and to be used at your sole risk",
+  "classification": "neutral",
+  "approved_services": 272,
+  "q": "Does the text state or clearly imply the following: The service is provided 'as is' and to be used at your sole risk?"
+ },
+ {
+  "case": 195,
+  "title": "You can request access, correction and/or deletion of your data",
+  "classification": "good",
+  "approved_services": 271,
+  "q": "Does the text state or clearly imply the following: You can request access, correction and/or deletion of your data?"
+ },
+ {
+  "case": 228,
+  "title": "Information is provided about what kind of personal information is collected",
+  "classification": "good",
+  "approved_services": 251,
+  "q": "Does the text state or clearly imply the following: Information is provided about what kind of personal information is collected?"
+ },
+ {
+  "case": 152,
+  "title": "This service is only available to users over a certain age",
+  "classification": "neutral",
+  "approved_services": 248,
+  "q": "Does the text state or clearly imply the following: This service is only available to users over a certain age?"
+ },
+ {
+  "case": 293,
+  "title": "The service assumes no liability for any damages the user incurs",
+  "classification": "neutral",
+  "approved_services": 240,
+  "q": "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?"
+ },
+ {
+  "case": 188,
+  "title": "This service gives your personal data to third parties involved in its operation",
+  "classification": "neutral",
+  "approved_services": 239,
+  "q": "Does the text state or clearly imply the following: This service gives your personal data to third parties involved in its operation?"
+ },
+ {
+  "case": 163,
+  "title": "The court of law governing the terms is in location X",
+  "classification": "neutral",
+  "approved_services": 232,
+  "q": "Does the text state or clearly imply the following: The court of law governing the terms is in location X?"
+ },
+ {
+  "case": 227,
+  "title": "Information is provided about how your personal data is used",
+  "classification": "good",
+  "approved_services": 230,
+  "q": "Does the text state or clearly imply the following: Information is provided about how your personal data is used?"
+ },
+ {
+  "case": 288,
+  "title": "No guarantee is made reguarding the accuracy and/or reliability of the information provided",
+  "classification": "neutral",
+  "approved_services": 224,
+  "q": "Does the text state or clearly imply the following: No guarantee is made reguarding the accuracy and/or reliability of the information provided?"
+ },
+ {
+  "case": 287,
+  "title": "No warranty is made regarding an uninterrupted, timely, secure and/or error-free experience",
+  "classification": "neutral",
+  "approved_services": 221,
+  "q": "Does the text state or clearly imply the following: No warranty is made regarding an uninterrupted, timely, secure and/or error-free experience?"
+ },
+ {
+  "case": 207,
+  "title": "Third parties are involved in operating the service",
+  "classification": "neutral",
+  "approved_services": 216,
+  "q": "Does the text state or clearly imply the following: Third parties are involved in operating the service?"
+ },
+ {
+  "case": 323,
+  "title": "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+  "classification": "bad",
+  "approved_services": 214,
+  "q": "Does the text state or clearly imply the following: You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting?"
+ },
+ {
+  "case": 148,
+  "title": "You are responsible for maintaining the security of your account and for the activities on your account",
+  "classification": "neutral",
+  "approved_services": 210,
+  "q": "Does the text state or clearly imply the following: You are responsible for maintaining the security of your account and for the activities on your account?"
+ },
+ {
+  "case": 280,
+  "title": "You agree not to use the service for illegal purposes",
+  "classification": "neutral",
+  "approved_services": 209,
+  "q": "Does the text state or clearly imply the following: You agree not to use the service for illegal purposes?"
+ },
+ {
+  "case": 325,
+  "title": "Third-party cookies are used for statistics",
+  "classification": "bad",
+  "approved_services": 209,
+  "q": "Does the text state or clearly imply the following: Third-party cookies are used for statistics?"
+ },
+ {
+  "case": 336,
+  "title": "Your personal data may be used for marketing purposes",
+  "classification": "bad",
+  "approved_services": 200,
+  "q": "Does the text state or clearly imply the following: Your personal data may be used for marketing purposes?"
+ },
+ {
+  "case": 283,
+  "title": "You agree not to submit libelous, harassing or threatening content",
+  "classification": "neutral",
+  "approved_services": 198,
+  "q": "Does the text state or clearly imply the following: You agree not to submit libelous, harassing or threatening content?"
+ },
+ {
+  "case": 201,
+  "title": "Your account can be deleted or permanently suspended without prior notice and without a reason",
+  "classification": "bad",
+  "approved_services": 191,
+  "q": "Does the text state or clearly imply the following: Your account can be deleted or permanently suspended without prior notice and without a reason?"
+ },
+ {
+  "case": 128,
+  "title": "Third-party cookies are used for advertising",
+  "classification": "bad",
+  "approved_services": 186,
+  "q": "Does the text state or clearly imply the following: Third-party cookies are used for advertising?"
+ },
+ {
+  "case": 403,
+  "title": "Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage",
+  "classification": "bad",
+  "approved_services": 185,
+  "q": "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?"
+ },
+ {
+  "case": 223,
+  "title": "You can opt out of receiving promotional communications",
+  "classification": "good",
+  "approved_services": 183,
+  "q": "Does the text state or clearly imply the following: You can opt out of receiving promotional communications?"
+ },
+ {
+  "case": 170,
+  "title": "You have the right to leave this service at any time",
+  "classification": "good",
+  "approved_services": 182,
+  "q": "Does the text state or clearly imply the following: You have the right to leave this service at any time?"
+ },
+ {
+  "case": 375,
+  "title": "Blocking first-party cookies may limit your ability to use the service",
+  "classification": "neutral",
+  "approved_services": 180,
+  "q": "Does the text state or clearly imply the following: Blocking first-party cookies may limit your ability to use the service?"
+ },
+ {
+  "case": 190,
+  "title": "Your personal data may be aggregated into statistics",
+  "classification": "neutral",
+  "approved_services": 179,
+  "q": "Does the text state or clearly imply the following: Your personal data may be aggregated into statistics?"
+ },
+ {
+  "case": 126,
+  "title": "First-party cookies are used",
+  "classification": "neutral",
+  "approved_services": 178,
+  "q": "Does the text state or clearly imply the following: First-party cookies are used?"
+ },
+ {
+  "case": 243,
+  "title": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+  "classification": "bad",
+  "approved_services": 176,
+  "q": "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?"
+ },
+ {
+  "case": 203,
+  "title": "The service can stop being provided at any time",
+  "classification": "neutral",
+  "approved_services": 175,
+  "q": "Does the text state or clearly imply the following: The service can stop being provided at any time?"
+ },
+ {
+  "case": 294,
+  "title": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+  "classification": "neutral",
+  "approved_services": 174,
+  "q": "Does the text state or clearly imply the following: Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder?"
+ },
+ {
+  "case": 290,
+  "title": "This service does not guarantee that it or the products obtained through it meet your expectations or requirements",
+  "classification": "neutral",
+  "approved_services": 165,
+  "q": "Does the text state or clearly imply the following: This service does not guarantee that it or the products obtained through it meet your expectations or requirements?"
+ },
+ {
+  "case": 295,
+  "title": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision",
+  "classification": "neutral",
+  "approved_services": 161,
+  "q": "Does the text state or clearly imply the following: Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision?"
+ },
+ {
+  "case": 382,
+  "title": "Information is gathered about you through third parties",
+  "classification": "bad",
+  "approved_services": 161,
+  "q": "Does the text state or clearly imply the following: Information is gathered about you through third parties?"
+ },
+ {
+  "case": 146,
+  "title": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+  "classification": "neutral",
+  "approved_services": 159,
+  "q": "Does the text state or clearly imply the following: You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service?"
+ },
+ {
+  "case": 281,
+  "title": "You are prohibited from sending chain letters, junk mail, spam or any unsolicited messages",
+  "classification": "neutral",
+  "approved_services": 157,
+  "q": "Does the text state or clearly imply the following: You are prohibited from sending chain letters, junk mail, spam or any unsolicited messages?"
+ },
+ {
+  "case": 187,
+  "title": "Your data may be processed and stored anywhere in the world",
+  "classification": "bad",
+  "approved_services": 156,
+  "q": "Does the text state or clearly imply the following: Your data may be processed and stored anywhere in the world?"
+ },
+ {
+  "case": 193,
+  "title": "This service claims that your personal data is not being sold",
+  "classification": "good",
+  "approved_services": 151,
+  "q": "Does the text state or clearly imply the following: This service claims that your personal data is not being sold?"
+ },
+ {
+  "case": 164,
+  "title": "Your personal data may be disclosed to comply with government requests without notice to you",
+  "classification": "bad",
+  "approved_services": 141,
+  "q": "Does the text state or clearly imply the following: Your personal data may be disclosed to comply with government requests without notice to you?"
+ },
+ {
+  "case": 220,
+  "title": "Your personal data is used to employ targeted third-party advertising",
+  "classification": "bad",
+  "approved_services": 141,
+  "q": "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?"
+ },
+ {
+  "case": 315,
+  "title": "The posting of pornographic content is prohibited",
+  "classification": "neutral",
+  "approved_services": 141,
+  "q": "Does the text state or clearly imply the following: The posting of pornographic content is prohibited?"
+ },
+ {
+  "case": 481,
+  "title": "The service claims to be GDPR compliant for European users",
+  "classification": "good",
+  "approved_services": 141,
+  "q": "Does the text state or clearly imply the following: The service claims to be GDPR compliant for European users?"
+ },
+ {
+  "case": 202,
+  "title": "Specific content can be deleted without reason and may be removed without prior notice",
+  "classification": "blocker",
+  "approved_services": 139,
+  "q": "Does the text state or clearly imply the following: Specific content can be deleted without reason and may be removed without prior notice?"
+ },
+ {
+  "case": 299,
+  "title": "This service informs you that its Privacy Policy does not apply to third-party services",
+  "classification": "neutral",
+  "approved_services": 138,
+  "q": "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?"
+ },
+ {
+  "case": 300,
+  "title": "A complaint mechanism is provided for the handling of personal data",
+  "classification": "good",
+  "approved_services": 138,
+  "q": "Does the text state or clearly imply the following: A complaint mechanism is provided for the handling of personal data?"
+ },
+ {
+  "case": 140,
+  "title": "You can retrieve an archive of your data",
+  "classification": "good",
+  "approved_services": 137,
+  "q": "Does the text state or clearly imply the following: You can retrieve an archive of your data?"
+ },
+ {
+  "case": 387,
+  "title": "Referring and/or exit pages are tracked",
+  "classification": "bad",
+  "approved_services": 137,
+  "q": "Does the text state or clearly imply the following: Referring and/or exit pages are tracked?"
+ },
+ {
+  "case": 149,
+  "title": "Any liability on behalf of the service is only limited to the fees you paid as a user",
+  "classification": "bad",
+  "approved_services": 136,
+  "q": "Does the text state or clearly imply the following: Any liability on behalf of the service is only limited to the fees you paid as a user?"
+ },
+ {
+  "case": 183,
+  "title": "You maintain ownership of your content",
+  "classification": "good",
+  "approved_services": 128,
+  "q": "Does the text state or clearly imply the following: You maintain ownership of your content?"
+ },
+ {
+  "case": 376,
+  "title": "Many different types of personal data are collected",
+  "classification": "bad",
+  "approved_services": 127,
+  "q": "Does the text state or clearly imply the following: Many different types of personal data are collected?"
+ },
+ {
+  "case": 166,
+  "title": "This service shares your personal data with third parties that are not essential to its operation",
+  "classification": "bad",
+  "approved_services": 125,
+  "q": "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?"
+ },
+ {
+  "case": 226,
+  "title": "Information is provided about security practices",
+  "classification": "good",
+  "approved_services": 125,
+  "q": "Does the text state or clearly imply the following: Information is provided about security practices?"
+ },
+ {
+  "case": 402,
+  "title": "The service has non-exclusive use of your content",
+  "classification": "good",
+  "approved_services": 125,
+  "q": "Does the text state or clearly imply the following: The service has non-exclusive use of your content?"
+ },
+ {
+  "case": 339,
+  "title": "You are forced into binding arbitration in case of disputes",
+  "classification": "bad",
+  "approved_services": 124,
+  "q": "Does the text state or clearly imply the following: You are forced into binding arbitration in case of disputes?"
+ },
+ {
+  "case": 117,
+  "title": "You waive your right to a class action",
+  "classification": "bad",
+  "approved_services": 121,
+  "q": "Does the text state or clearly imply the following: You waive your right to a class action?"
+ },
+ {
+  "case": 333,
+  "title": "Some personal data may be kept for business interests or legal obligations",
+  "classification": "bad",
+  "approved_services": 121,
+  "q": "Does the text state or clearly imply the following: Some personal data may be kept for business interests or legal obligations?"
+ },
+ {
+  "case": 279,
+  "title": "This service assumes no responsibility and liability for the contents of links to other websites",
+  "classification": "neutral",
+  "approved_services": 119,
+  "q": "Does the text state or clearly imply the following: This service assumes no responsibility and liability for the contents of links to other websites?"
+ },
+ {
+  "case": 121,
+  "title": "Terms may be changed any time at their discretion, without notice to you",
+  "classification": "bad",
+  "approved_services": 118,
+  "q": "Does the text state or clearly imply the following: Terms may be changed any time at their discretion, without notice to you?"
+ },
+ {
+  "case": 138,
+  "title": "Instructions are provided on how to submit a copyright claim",
+  "classification": "neutral",
+  "approved_services": 118,
+  "q": "Does the text state or clearly imply the following: Instructions are provided on how to submit a copyright claim?"
+ },
+ {
+  "case": 377,
+  "title": "Your content can be deleted if you violate the terms",
+  "classification": "neutral",
+  "approved_services": 117,
+  "q": "Does the text state or clearly imply the following: Your content can be deleted if you violate the terms?"
+ },
+ {
+  "case": 313,
+  "title": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "classification": "good",
+  "approved_services": 116,
+  "q": "Does the text state or clearly imply the following: Your account may be suspended and/or terminated for breaching the Terms of Service?"
+ },
+ {
+  "case": 303,
+  "title": "The data retention period is kept to the minimum necessary for fulfilling its purposes",
+  "classification": "good",
+  "approved_services": 115,
+  "q": "Does the text state or clearly imply the following: The data retention period is kept to the minimum necessary for fulfilling its purposes?"
+ },
+ {
+  "case": 484,
+  "title": "You must report to the service any unauthorized use of your account or any breach of security",
+  "classification": "neutral",
+  "approved_services": 115,
+  "q": "Does the text state or clearly imply the following: You must report to the service any unauthorized use of your account or any breach of security?"
+ },
+ {
+  "case": 150,
+  "title": "Spidering, crawling, or accessing the site through any automated means is not allowed",
+  "classification": "neutral",
+  "approved_services": 113,
+  "q": "Does the text state or clearly imply the following: Spidering, crawling, or accessing the site through any automated means is not allowed?"
+ },
+ {
+  "case": 373,
+  "title": "Location data may be collected, used and/or shared",
+  "classification": "bad",
+  "approved_services": 113,
+  "q": "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?"
+ },
+ {
+  "case": 210,
+  "title": "The service claims that third parties it shares your personal information with are bound by confidentiality obligations",
+  "classification": "good",
+  "approved_services": 110,
+  "q": "Does the text state or clearly imply the following: The service claims that third parties it shares your personal information with are bound by confidentiality obligations?"
+ },
+ {
+  "case": 233,
+  "title": "Do Not Track (DNT) headers are ignored and you are tracked anyway even if you set this header",
+  "classification": "neutral",
+  "approved_services": 108,
+  "q": "Does the text state or clearly imply the following: Do Not Track (DNT) headers are ignored and you are tracked anyway even if you set this header?"
+ },
+ {
+  "case": 143,
+  "title": "This service is only available for use individually and non-commercially",
+  "classification": "neutral",
+  "approved_services": 107,
+  "q": "Does the text state or clearly imply the following: This service is only available for use individually and non-commercially?"
+ },
+ {
+  "case": 134,
+  "title": "Your content can be licensed to third parties",
+  "classification": "bad",
+  "approved_services": 105,
+  "q": "Does the text state or clearly imply the following: Your content can be licensed to third parties?"
+ },
+ {
+  "case": 292,
+  "title": "This service does not condone any ideas contained in its user-generated contents",
+  "classification": "neutral",
+  "approved_services": 104,
+  "q": "Does the text state or clearly imply the following: This service does not condone any ideas contained in its user-generated contents?"
+ },
+ {
+  "case": 229,
+  "title": "You cannot distribute or disclose your account to third parties",
+  "classification": "neutral",
+  "approved_services": 101,
+  "q": "Does the text state or clearly imply the following: You cannot distribute or disclose your account to third parties?"
+ }
+]

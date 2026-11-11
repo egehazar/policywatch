@@ -106,6 +106,31 @@ class Pipeline(unittest.TestCase):
         self.assertIn('Arbitration', page); self.assertIn('<ins>', page); self.assertIn('https://github.com/x/y/commit/abc123', page)
         self.assertIn('Number and date changes (1)', page)
 
+    def test_review_server_and_human_record(self):
+        import urllib.request
+        from policywatch import serve
+        sc = Scorer(Server(self.url, 'fake'), self.cache())
+        watch.save(watch.analyze(U, OLD, NEW, sc, BANK, .3), self.tmp); report.build(self.tmp, '', 3)
+        httpd = serve.ThreadingHTTPServer(('127.0.0.1', 0), serve.make_handler(self.tmp))
+        threading.Thread(target=httpd.serve_forever, daemon=True).start(); base = f'http://127.0.0.1:{httpd.server_port}'
+        try:
+            def post(body):
+                req = urllib.request.Request(base + '/api/verdict', json.dumps(body).encode(), {'Content-Type': 'application/json'})
+                with urllib.request.urlopen(req) as r: return json.loads(r.read())
+            self.assertTrue(post({'key': U.key, 'case': 1, 'verdict': 'changed'})['ok'])        # Arbitration, flagged
+            post({'key': U.key, 'case': 3, 'verdict': 'changed'}); post({'key': U.key, 'case': 3, 'verdict': 'not_changed'})  # last wins
+            post({'key': U.key, 'case': 2, 'verdict': 'missed'})                                # Cookies, not flagged
+            with self.assertRaises(urllib.error.HTTPError) as cm: post({'key': U.key, 'case': 2, 'verdict': 'whatever'})
+            cm.exception.close()
+            with urllib.request.urlopen(base + '/api/verdicts?key=' + U.key) as r: self.assertEqual(len(json.loads(r.read())), 3)
+            with urllib.request.urlopen(base + '/' + U.key + '.html') as r: self.assertIn(b'class="rv"', r.read())
+        finally:
+            httpd.shutdown(); httpd.server_close()
+        report.build(self.tmp, '', 3)
+        with open(os.path.join(self.tmp, 'human_record.json')) as f: hr = json.load(f)
+        self.assertEqual(hr, {'updates_reviewed': 1, 'flags_confirmed': 1, 'flags_wrong': 1, 'flags_unsure': 0, 'misses': 1})
+        with open(os.path.join(self.tmp, 'site', 'index.html'), encoding='utf-8') as f: self.assertIn('1 of 2 judged flags confirmed', f.read())
+
 
 class Noise(unittest.TestCase):
     def test_revert_and_partial(self):
@@ -135,7 +160,7 @@ class Noise(unittest.TestCase):
 class FrozenRegions(unittest.TestCase):
     def test_regions_match_frozen_test(self):
         """The tool's region text must equal the r20 test's byte for byte, or seeded scores would be wrong."""
-        pairs = [json.loads(l) for l in open(os.path.join(FROZEN, 'pairs.jsonl'), encoding='utf-8')]
+        with open(os.path.join(FROZEN, 'pairs.jsonl'), encoding='utf-8') as f: pairs = [json.loads(l) for l in f]
         for p in pairs:
             u = archive.Update(p['platform'], p['doc'][:-3], p['doc'] if '/' in p['doc'] else f"{p['platform']}/{p['doc']}", p['commit'], p['date'])
             old, new = archive.texts(PGA, u)

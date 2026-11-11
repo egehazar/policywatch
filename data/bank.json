@@ -488,5 +488,222 @@
   "classification": "neutral",
   "approved_services": 101,
   "q": "Does the text state or clearly imply the following: You cannot distribute or disclose your account to third parties?"
+ },
+ {
+  "case": 307,
+  "title": "You are being tracked via social media cookies/pixels",
+  "classification": "bad",
+  "approved_services": 96,
+  "q": "Does the text state or clearly imply the following: You are being tracked via social media cookies/pixels?"
+ },
+ {
+  "case": 326,
+  "title": "Your profile is combined across various products",
+  "classification": "bad",
+  "approved_services": 85,
+  "q": "Does the text state or clearly imply the following: Your profile is combined across various products?"
+ },
+ {
+  "case": 242,
+  "title": "The court of law governing the terms is in a jurisdiction that is less friendly to user privacy protection",
+  "classification": "bad",
+  "approved_services": 83,
+  "q": "Does the text state or clearly imply the following: The court of law governing the terms is in a jurisdiction that is less friendly to user privacy protection?"
+ },
+ {
+  "case": 211,
+  "title": "Extra data may be collected about you through promotions",
+  "classification": "bad",
+  "approved_services": 82,
+  "q": "Does the text state or clearly imply the following: Extra data may be collected about you through promotions?"
+ },
+ {
+  "case": 217,
+  "title": "Tracking pixels are used in service-to-user communication",
+  "classification": "bad",
+  "approved_services": 82,
+  "q": "Does the text state or clearly imply the following: Tracking pixels are used in service-to-user communication?"
+ },
+ {
+  "case": 130,
+  "title": "A license is kept on user-generated content even after you close your account",
+  "classification": "bad",
+  "approved_services": 81,
+  "q": "Does the text state or clearly imply the following: A license is kept on user-generated content even after you close your account?"
+ },
+ {
+  "case": 289,
+  "title": "No guarantee is made regarding the correction of software errors",
+  "classification": "bad",
+  "approved_services": 68,
+  "q": "Does the text state or clearly imply the following: No guarantee is made regarding the correction of software errors?"
+ },
+ {
+  "case": 400,
+  "title": "This service receives your precise location through GPS coordinates",
+  "classification": "bad",
+  "approved_services": 68,
+  "q": "Does the text state or clearly imply the following: This service receives your precise location through GPS coordinates?"
+ },
+ {
+  "case": 129,
+  "title": "You may be tracked on other websites",
+  "classification": "bad",
+  "approved_services": 65,
+  "q": "Does the text state or clearly imply the following: You may be tracked on other websites?"
+ },
+ {
+  "case": 127,
+  "title": "Third-party cookies are employed, but with opt out instructions",
+  "classification": "bad",
+  "approved_services": 64,
+  "q": "Does the text state or clearly imply the following: Third-party cookies are employed, but with opt out instructions?"
+ },
+ {
+  "case": 185,
+  "title": "Your personal information is used for many different purposes",
+  "classification": "bad",
+  "approved_services": 63,
+  "q": "Does the text state or clearly imply the following: Your personal information is used for many different purposes?"
+ },
+ {
+  "case": 186,
+  "title": "This service assumes no liability for unauthorized access to your personal information",
+  "classification": "bad",
+  "approved_services": 63,
+  "q": "Does the text state or clearly imply the following: This service assumes no liability for unauthorized access to your personal information?"
+ },
+ {
+  "case": 285,
+  "title": "You shall not interfere with another person's enjoyment of the service",
+  "classification": "bad",
+  "approved_services": 63,
+  "q": "Does the text state or clearly imply the following: You shall not interfere with another person's enjoyment of the service?"
+ },
+ {
+  "case": 151,
+  "title": "You have a reduced time period to take legal action against the service",
+  "classification": "bad",
+  "approved_services": 62,
+  "q": "Does the text state or clearly imply the following: You have a reduced time period to take legal action against the service?"
+ },
+ {
+  "case": 397,
+  "title": "Your biometric data is collected",
+  "classification": "bad",
+  "approved_services": 53,
+  "q": "Does the text state or clearly imply the following: Your biometric data is collected?"
+ },
+ {
+  "case": 182,
+  "title": "If you offer suggestions to the service, they become the owner of the ideas that you give them",
+  "classification": "bad",
+  "approved_services": 51,
+  "q": "Does the text state or clearly imply the following: If you offer suggestions to the service, they become the owner of the ideas that you give them?"
+ },
+ {
+  "case": 208,
+  "title": "Many third parties are involved in operating the service",
+  "classification": "bad",
+  "approved_services": 51,
+  "q": "Does the text state or clearly imply the following: Many third parties are involved in operating the service?"
+ },
+ {
+  "case": 157,
+  "title": "Certain features may be throttled",
+  "classification": "bad",
+  "approved_services": 50,
+  "q": "Does the text state or clearly imply the following: Certain features may be throttled?"
+ },
+ {
+  "case": 304,
+  "title": "A secure, anonymized record of your data may be kept for analytical purposes after the data retention period ends",
+  "classification": "bad",
+  "approved_services": 48,
+  "q": "Does the text state or clearly imply the following: A secure, anonymized record of your data may be kept for analytical purposes after the data retention period ends?"
+ },
+ {
+  "case": 396,
+  "title": "Your personal data may be sold unless you opt out",
+  "classification": "bad",
+  "approved_services": 46,
+  "q": "Does the text state or clearly imply the following: Your personal data may be sold unless you opt out?"
+ },
+ {
+  "case": 118,
+  "title": "You waive your moral rights",
+  "classification": "blocker",
+  "approved_services": 45,
+  "q": "Does the text state or clearly imply the following: You waive your moral rights?"
+ },
+ {
+  "case": 407,
+  "title": "Content you post may be edited by the service for any reason",
+  "classification": "blocker",
+  "approved_services": 45,
+  "q": "Does the text state or clearly imply the following: Content you post may be edited by the service for any reason?"
+ },
+ {
+  "case": 239,
+  "title": "Private messages can be read",
+  "classification": "blocker",
+  "approved_services": 43,
+  "q": "Does the text state or clearly imply the following: Private messages can be read?"
+ },
+ {
+  "case": 490,
+  "title": "The service is only available in some countries approved by its government",
+  "classification": "bad",
+  "approved_services": 42,
+  "q": "Does the text state or clearly imply the following: The service is only available in some countries approved by its government?"
+ },
+ {
+  "case": 214,
+  "title": "You must provide your legal name, pseudonyms are not allowed",
+  "classification": "bad",
+  "approved_services": 40,
+  "q": "Does the text state or clearly imply the following: You must provide your legal name, pseudonyms are not allowed?"
+ },
+ {
+  "case": 411,
+  "title": "Your data is processed and stored in a country that is less friendly to user privacy protection",
+  "classification": "bad",
+  "approved_services": 38,
+  "q": "Does the text state or clearly imply the following: Your data is processed and stored in a country that is less friendly to user privacy protection?"
+ },
+ {
+  "case": 234,
+  "title": "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+  "classification": "blocker",
+  "approved_services": 36,
+  "q": "Does the text state or clearly imply the following: Your personal information may be collected, regardless of whether you interacted directly with the service or not?"
+ },
+ {
+  "case": 409,
+  "title": "You must provide your identifiable information",
+  "classification": "bad",
+  "approved_services": 36,
+  "q": "Does the text state or clearly imply the following: You must provide your identifiable information?"
+ },
+ {
+  "case": 504,
+  "title": "Your personal data is used for automated decision-making, profiling or AI training",
+  "classification": "blocker",
+  "approved_services": 32,
+  "q": "Does the text state or clearly imply the following: Your personal data is used for automated decision-making, profiling or AI training?"
+ },
+ {
+  "case": 156,
+  "title": "Per the service's terms, you may not express negative opinions about them",
+  "classification": "bad",
+  "approved_services": 31,
+  "q": "Does the text state or clearly imply the following: Per the service's terms, you may not express negative opinions about them?"
+ },
+ {
+  "case": 178,
+  "title": "Logs are kept for an undefined period of time",
+  "classification": "bad",
+  "approved_services": 31,
+  "q": "Does the text state or clearly imply the following: Logs are kept for an undefined period of time?"
  }
 ]

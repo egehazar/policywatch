@@ -21,6 +21,8 @@ del{background:var(--del);color:var(--delfg);text-decoration:line-through}ins{ba
 .ctx{color:var(--mut)}.note{background:var(--warn);border-radius:8px;padding:10px 12px;font-size:14px}
 table{border-collapse:collapse;width:100%;font-size:14px}td,th{border-bottom:1px solid var(--line);padding:6px 4px;text-align:left}
 nav{margin-bottom:18px}nav a{margin-right:14px}
+button{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:6px;padding:1px 8px;margin-left:4px;cursor:pointer}
+button.on{background:var(--fg);color:var(--bg)}select{font:inherit;max-width:100%;margin:6px 0}
 """
 
 
@@ -28,9 +30,9 @@ def esc(s):
     return html.escape(str(s))
 
 
-def page(title, body):
+def page(title, body, key=''):
     return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,'
-            f'initial-scale=1"><title>{esc(title)}</title><style>{CSS}</style></head><body><main>'
+            f'initial-scale=1"><title>{esc(title)}</title><style>{CSS}</style></head><body data-key="{esc(key)}"><main>'
             f'<nav class="sm"><a href="index.html">Updates</a><a href="about.html">How it works</a></nav>{body}</main></body></html>')
 
 
@@ -51,13 +53,57 @@ def bar(po, pn):
     return f'<span class="bar"><i class="o" style="left:{po * 100:.0f}%"></i><i class="n" style="left:calc({pn * 100:.0f}% - 3px)"></i></span>'
 
 
+def review_buttons(case):
+    return (f'<span class="rv" data-case="{esc(case)}" hidden> · Human check: '
+            + ''.join(f'<button data-v="{v}">{t}</button>' for v, t in (('changed', 'changed'), ('not_changed', 'not changed'), ('unsure', 'unsure')))
+            + '</span>')
+
+
 def qline(x):
     up = x['p_new'] > x['p_old']
     cls = x.get('classification') or ''
     return (f'<div class="q"><span class="arrow {"up" if up else "down"}">{"▲" if up else "▼"}</span> <b>{esc(x["title"])}</b> '
             f'{f"<span class=badge {esc(cls)}>{esc(cls)}</span>" if cls else ""}<br>'
             f'<span class="sm mut">{"now stated more clearly" if up else "now stated less clearly"} · '
-            f'score {x["p_old"]:.2f} → {x["p_new"]:.2f}</span> {bar(x["p_old"], x["p_new"])}</div>')
+            f'score {x["p_old"]:.2f} → {x["p_new"]:.2f}</span> {bar(x["p_old"], x["p_new"])}{review_buttons(x["case"])}</div>')
+
+
+REVIEW_JS = """<script>
+const KEY = document.body.dataset.key;
+const mark = (el, v) => el.querySelectorAll('button').forEach(b => b.classList.toggle('on', b.dataset.v === v));
+async function post(body) {
+  const r = await fetch('/api/verdict', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(body)});
+  if (!r.ok) throw new Error('save failed');
+}
+(async () => {
+  let vs; try { const r = await fetch('/api/verdicts?key=' + encodeURIComponent(KEY)); if (!r.ok) return; vs = await r.json(); } catch (e) { return; }
+  document.querySelectorAll('.rv, .missed').forEach(e => e.hidden = false);
+  const by = {}; vs.forEach(v => by[String(v.case)] = v.verdict);
+  document.querySelectorAll('.rv').forEach(el => {
+    mark(el, by[el.dataset.case]);
+    el.querySelectorAll('button').forEach(b => b.onclick = async () => {
+      try { await post({key: KEY, case: el.dataset.case, verdict: b.dataset.v}); mark(el, b.dataset.v); } catch (e) { b.textContent += ' (not saved)'; }
+    });
+  });
+  const m = document.querySelector('.missed');
+  if (m) {
+    const list = m.querySelector('.mlist');
+    const show = () => { list.textContent = vs.filter(v => v.verdict === 'missed').map(v => '• ' + (m.querySelector(`option[value="${v.case}"]`) || {}).textContent).join('\\n'); };
+    show();
+    m.querySelector('button').onclick = async () => {
+      const c = m.querySelector('select').value; if (!c) return;
+      await post({key: KEY, case: c, verdict: 'missed'}); vs.push({case: c, verdict: 'missed'}); show();
+    };
+  }
+})();
+</script>"""
+
+
+def missed_picker(rec, flagged):
+    shown = {str(x['case']) for x in flagged}
+    opts = ''.join(f'<option value="{esc(x["case"])}">{esc(x["title"])}</option>' for x in rec['questions'] if str(x['case']) not in shown)
+    return (f'<div class="missed card" hidden><b>Did an answer change that is not flagged?</b><br><select><option value="">'
+            f'Pick the question…</option>{opts}</select> <button>Record as missed</button><pre class="mlist sm"></pre></div>')
 
 
 def source_link(rec, repo):
@@ -92,16 +138,33 @@ def update_page(rec, repo):
         more = [x for x in rec['questions'] if x not in fl][:5]
         if more:
             body.append('<h2>Next largest movements</h2><div class="card">' + ''.join(qline(x) for x in more) + '</div>')
+        body.append(missed_picker(rec, fl + more))
     if rec['numeric']:
         body.append(f'<h2>Number and date changes ({len(rec["numeric"])})</h2><p class="sm mut">Listed by rule, not by the model.</p>')
         body += [f'<div class="diff">{wdiff(n["old"], n["new"])}</div>' for n in rec['numeric']]
     if rec['kind'] in ('scored', 'formatting', 'revert') and len(rec['blocks']) <= 40:
         body.append(f'<h2>All changed text ({len(rec["blocks"])} blocks)</h2>')
         body += [block_html(b) for b in rec['blocks']]
-    return page(f'{rec["platform"]} {rec["doc"]} {rec["date"]}', ''.join(body))
+    return page(f'{rec["platform"]} {rec["doc"]} {rec["date"]}', ''.join(body) + (REVIEW_JS if rec['kind'] == 'scored' else ''), key=rec['key'])
 
 
-def index_page(recs, meta):
+def human_record(recs, verdicts):
+    """Running precision of flags and audited misses from human verdicts (latest verdict per (update, case))."""
+    by = {r['key']: r for r in recs}; fl_ok = fl_bad = fl_unsure = missed = 0; updates = set()
+    for (key, case), v in verdicts.items():
+        r = by.get(key)
+        if not r or r['kind'] != 'scored': continue
+        updates.add(key)
+        q = next((x for x in r['questions'] if str(x['case']) == str(case)), None)
+        flagged = q is not None and q['dp'] >= r['tau']
+        if v['verdict'] == 'missed' or (v['verdict'] == 'changed' and not flagged): missed += 1
+        elif flagged and v['verdict'] == 'changed': fl_ok += 1
+        elif flagged and v['verdict'] == 'not_changed': fl_bad += 1
+        elif flagged and v['verdict'] == 'unsure': fl_unsure += 1
+    return {'updates_reviewed': len(updates), 'flags_confirmed': fl_ok, 'flags_wrong': fl_bad, 'flags_unsure': fl_unsure, 'misses': missed}
+
+
+def index_page(recs, meta, hr=None):
     rows = []; noise = [r for r in recs if r['kind'] in ('revert', 'partial')]
     for r in [r for r in recs if r['kind'] not in ('revert', 'partial')]:
         if r['kind'] == 'scored':
@@ -119,6 +182,12 @@ def index_page(recs, meta):
     head = (f'<h1>What changed in meaning</h1><p class="mut">{len(recs)} recorded updates to platform terms and privacy policies '
             f'({esc(meta.get("range", ""))}). For each update, {meta.get("n_questions", "")} approved yes/no answers are re-asked '
             f'of the old and the new text by a small local decision model; the ones whose score moved are listed first.</p>')
+    if hr and hr['updates_reviewed']:
+        judged = hr['flags_confirmed'] + hr['flags_wrong']
+        unsure = f' ({hr["flags_unsure"]} unsure)' if hr['flags_unsure'] else ''
+        head += (f'<div class="card sm"><b>Human check so far:</b> {hr["updates_reviewed"]} updates reviewed · '
+                 f'{hr["flags_confirmed"]} of {judged} judged flags confirmed{unsure} · '
+                 f'{hr["misses"]} changes the tool missed</div>')
     if noise:
         head += (f'<p class="mut sm">{len(noise)} of the {len(recs)} recorded updates are capture noise (the text returned to '
                  'an earlier version, or a capture was cut off); they are listed at the bottom and not scored.</p>')
@@ -166,7 +235,10 @@ def build(out_dir, repo='', n_questions=''):
             'scorer': recs[0]['scorer'] if recs else '', 'tau': recs[0]['tau'] if recs else ''}
     for r in recs:
         _write(os.path.join(site, r['key'] + '.html'), update_page(r, repo))
-    _write(os.path.join(site, 'index.html'), index_page(recs, meta))
+    from .serve import load_verdicts
+    hr = human_record(recs, load_verdicts(out_dir))
+    _write(os.path.join(site, 'index.html'), index_page(recs, meta, hr))
+    _write(os.path.join(out_dir, 'human_record.json'), json.dumps(hr, indent=1))
     evp = os.path.join(out_dir, 'eval.json')
     ev = _read(evp) if os.path.exists(evp) else None
     _write(os.path.join(site, 'about.html'), about_page(meta, ev))
