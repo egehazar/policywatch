@@ -2,16 +2,24 @@
 
 A memo is CAUGHT if, in any of its matched real updates, a target question is flagged (|dp| >= tau) or ranked in
 that update's top 5. Coverage gaps (no bank question fits) and rewrites (not scored) are reported separately.
+
+Variants (all fixed before scoring): primary = my targets with bank v2; v1 = my targets and ranks restricted to the 70
+questions of bank v1 (a v1 miss stays a miss: Fable r23); fable = Fable 5.2's independent mapping; union = either.
 """
 import json, os
 from . import archive
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 EVAL = os.path.join(HERE, '..', 'eval')
+V1 = 70
+
+
+def _load(name):
+    with open(os.path.join(EVAL, name), encoding='utf-8') as f: return json.load(f)
 
 
 def memo_updates(archive_dir):
-    with open(os.path.join(EVAL, 'memo_targets.json'), encoding='utf-8') as f: T = json.load(f)['memos']
+    T = _load('memo_targets.json')['memos']
     want = {(m['platform'], m['doc'], d) for m in T for d in m['commits']}
     us = []
     for plat, doc in {(p, d) for p, d, _ in want}:
@@ -19,38 +27,56 @@ def memo_updates(archive_dir):
     return T, us
 
 
+def _judge(recs, targets, bank, restrict=None):
+    """recs: scored records of one memo. -> (caught, detail)."""
+    hit = False; detail = []
+    for r in recs:
+        qs = [x for x in r['questions'] if restrict is None or x['q'] in restrict]
+        flags = [x for x in qs if x['dp'] >= r['tau']]
+        if targets == 'broad':
+            hit |= bool(flags); detail.append({'date': r['date'], 'flags': len(flags)}); continue
+        for t in targets:
+            if restrict is not None and bank[t]['q'] not in restrict: continue
+            q = next(x for x in qs if x['q'] == bank[t]['q']); rank = qs.index(q) + 1
+            ok = q['dp'] >= r['tau'] or rank <= 5; hit |= ok
+            detail.append({'date': r['date'], 'target': bank[t]['title'][:60], 'dp': q['dp'], 'rank': rank, 'caught': ok})
+    return hit, detail
+
+
 def check(out_dir, T, bank):
     recs = {}
     for f in os.listdir(os.path.join(out_dir, 'updates')):
         with open(os.path.join(out_dir, 'updates', f), encoding='utf-8') as fh: r = json.load(fh)
         recs[(r['platform'], r['doc'], r['date'])] = r
-    rows = []
+    fable = _load('memo_targets_fable.json'); v1q = {b['q'] for b in bank[:V1]}
+    uniq = []
     for m in T:
+        if (m['memo'], m['doc']) not in [(u['memo'], u['doc']) for u in uniq]: uniq.append(m)
+    rows = []
+    for i, m in enumerate(uniq, 1):
         rs = [recs.get((m['platform'], m['doc'], d)) for d in m['commits']]
-        row = {'memo': m['memo'], 'platform': m['platform'], 'doc': m['doc'], 'kinds': [r['kind'] if r else 'not scanned' for r in rs]}
+        row = {'id': f'M{i}', 'memo': m['memo'], 'platform': m['platform'], 'doc': m['doc'],
+               'kinds': [r['kind'] if r else 'not scanned' for r in rs]}
         scored = [r for r in rs if r and r['kind'] == 'scored']
-        if m['targets'] == []:
-            row['result'] = 'coverage gap'
-        elif not scored:
-            row['result'] = 'not scored (' + ', '.join(row['kinds']) + ')'
-        else:
-            hit = False; detail = []
-            for r in scored:
-                flags = [x for x in r['questions'] if x['dp'] >= r['tau']]
-                if m['targets'] == 'broad':
-                    hit |= bool(flags); detail.append({'date': r['date'], 'flags': len(flags)})
-                else:
-                    for t in m['targets']:
-                        q = next(x for x in r['questions'] if x['q'] == bank[t]['q'])
-                        rank = r['questions'].index(q) + 1
-                        ok = q['dp'] >= r['tau'] or rank <= 5; hit |= ok
-                        detail.append({'date': r['date'], 'target': bank[t]['title'][:60], 'dp': q['dp'], 'rank': rank, 'caught': ok})
-            row['result'] = 'CAUGHT' if hit else 'missed'; row['detail'] = detail
+        ft = fable.get(f'M{i}')
+        union = 'broad' if m['targets'] == 'broad' else sorted(set(m['targets']) | set(ft if isinstance(ft, list) else []))
+        variants = {'primary': (m['targets'], None), 'v1': (m['targets'], v1q), 'fable': (ft, None), 'union': (union, None)}
+        for name, (tg, restrict) in variants.items():
+            if tg == [] or (tg != 'broad' and restrict is not None and not [t for t in tg if bank[t]['q'] in restrict]):
+                row[name] = 'coverage gap'
+            elif not scored:
+                row[name] = 'not scored (' + ', '.join(row['kinds']) + ')'
+            else:
+                hit, det = _judge(scored, tg, bank, restrict)
+                row[name] = 'CAUGHT' if hit else 'missed'
+                if name == 'primary': row['detail'] = det
+        row['result'] = row['primary']
         rows.append(row)
-    judged = [r for r in rows if r['result'] in ('CAUGHT', 'missed')]
-    summary = {'memos': len(rows), 'caught': sum(r['result'] == 'CAUGHT' for r in rows), 'judged': len(judged),
-               'coverage_gaps': sum(r['result'] == 'coverage gap' for r in rows),
-               'not_scored': sum(r['result'].startswith('not scored') for r in rows)}
+
+    def summ(name):
+        return {'caught': sum(r[name] == 'CAUGHT' for r in rows), 'judged': sum(r[name] in ('CAUGHT', 'missed') for r in rows),
+                'coverage_gaps': sum(r[name] == 'coverage gap' for r in rows), 'not_scored': sum(r[name].startswith('not scored') for r in rows)}
+    summary = {'memos': len(rows), **summ('primary'), 'variants': {v: summ(v) for v in ('v1', 'fable', 'union')}}
     return {'summary': summary, 'rows': rows}
 
 

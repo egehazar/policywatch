@@ -159,6 +159,32 @@ class Noise(unittest.TestCase):
             shutil.rmtree(d, ignore_errors=True)
 
 
+class MemoCheck(unittest.TestCase):
+    def test_variants(self):
+        from policywatch import memocheck
+        bank = watch.load_bank(os.path.join(ROOT, 'data', 'bank.json'))
+        T = memocheck._load('memo_targets.json')['memos']
+        d = tempfile.mkdtemp(); os.makedirs(os.path.join(d, 'updates'))
+        try:
+            def rec(plat, doc, date, hot):
+                qs = [{'case': b['case'], 'title': b['title'], 'q': b['q'], 'p_old': .1, 'p_new': .1 + (.8 if i in hot else .05 * (i % 7 == 0)),
+                       'dp': .8 if i in hot else .05 * (i % 7 == 0)} for i, b in enumerate(bank)]
+                qs.sort(key=lambda x: -x['dp'])
+                r = {'platform': plat, 'doc': doc, 'date': date, 'kind': 'scored', 'tau': .3, 'questions': qs, 'key': f'{date}_{plat}'}
+                with open(os.path.join(d, 'updates', r['key'] + '.json'), 'w', encoding='utf-8') as f: json.dump(r, f)
+            rec('TikTok', 'Privacy Policy', '2025-12-14', {5})            # M5 target 5 -> caught everywhere
+            rec('LinkedIn', 'Privacy Policy', '2025-11-04', {98, 1, 2, 3, 4, 6, 7})   # M6: only 98 moves among targets
+            res = memocheck.check(d, T, bank)
+            by = {r['id']: r for r in res['rows']}
+            self.assertEqual(by['M5']['primary'], 'CAUGHT'); self.assertEqual(by['M5']['v1'], 'CAUGHT')
+            self.assertEqual(by['M6']['primary'], 'CAUGHT'); self.assertEqual(by['M6']['v1'], 'missed')   # a v1 miss stays a miss
+            self.assertEqual(by['M8']['primary'], 'coverage gap')
+            self.assertTrue(by['M1']['primary'].startswith('not scored'))
+            self.assertEqual(res['summary']['caught'], 2); self.assertEqual(res['summary']['variants']['v1']['caught'], 1)
+        finally:
+            shutil.rmtree(d, ignore_errors=True)
+
+
 @unittest.skipUnless(os.path.exists(os.path.join(FROZEN, 'pairs.jsonl')) and os.path.isdir(PGA), 'frozen r20 test not on disk')
 class FrozenRegions(unittest.TestCase):
     def test_regions_match_frozen_test(self):

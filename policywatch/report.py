@@ -208,7 +208,10 @@ def memo_html(mc):
             f'move (eval/memo_targets.json, hashed). A memo is caught when one of those questions is flagged or in the '
             f'update’s top 5.</p><p><b>{sm["caught"]} of {sm["judged"]}</b> judged memos caught; {sm["coverage_gaps"]} '
             f'changes no question in the bank covers; {sm["not_scored"]} not scored (rewrites or not yet scanned).</p>'
-            f'<table><tr><th>Document</th><th>Memo</th><th>Result</th></tr>{rows}</table>')
+            + (lambda v: f'<p class="sm mut">Same check with the original 70-question bank: {v["v1"]["caught"]} of {v["v1"]["judged"]} caught '
+               f'({v["v1"]["coverage_gaps"]} gaps). With a second, independent target mapping (Fable 5.2, also made before scoring): '
+               f'{v["fable"]["caught"]} of {v["fable"]["judged"]}. Either mapping: {v["union"]["caught"]} of {v["union"]["judged"]}.</p>')(sm.get('variants', {'v1': sm, 'fable': sm, 'union': sm}))
+            + f'<table><tr><th>Document</th><th>Memo</th><th>Result</th></tr>{rows}</table>')
 
 
 def noise_html(recs):
