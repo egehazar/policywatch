@@ -31,18 +31,38 @@ two independent LLM raters):
    separately, whatever the model says.
 6. **Report.** A static HTML site: one page per update, with word-level diffs, linked to the source commit.
 
+7. **Capture noise is labelled, not scored.** In 2026 so far, 36% of the archive's recorded "changes" are not edits.
+   Either the text returned to an earlier version (TikTok's UK-ads banner flips on and off between captures), or a
+   capture was cut off part-way (Reddit's privacy policy, cut at a table about every other capture). Across the whole
+   archive it is 536 of 2,672.
+8. **Human review.** `python -m policywatch serve` serves the site with buttons to mark each flagged answer changed,
+   not changed or unsure, and to record a change the tool missed. Verdicts go to an append-only file, and the index
+   shows running precision and audited misses as counts.
+
 More than 80 changed paragraphs counts as a rewrite: the report says "review everything" and scores nothing.
 
+## Questions
+`data/bank.json` has 101 yes/no questions made from ToS;DR case titles: the 70 cases approved on at least 100
+services, plus every bad or blocker case approved on 30-99. The second group was added after the first 70 turned out
+to have no question about AI training, which would have hidden Twitch's 2026-08-12 privacy update. See
+`data/BANK.md`.
+
 ## Accuracy
-See `out/eval.json` and the site's "How it works" page. These are filled from the frozen test above by
-`python -m policywatch eval`. The numbers describe that one test (n = 25 real changes, LLM raters, one model). They
-are not a guarantee.
+Three measurements, all shown on the site's "How it works" page:
+1. **Frozen test** (`python -m policywatch eval`): recall at k and precision/recall at the flag threshold on the 35
+   updates above. n = 25 real changes, LLM raters, one model.
+2. **Human write-ups** (`python -m policywatch memocheck`): Open Terms Archive memos about these documents. Each memo
+   was mapped to the questions a correct tool should move before anything was scored (`eval/memo_targets.json`,
+   hashes in `eval/MEMO_TARGETS.sha256`). A memo counts as caught if one of those questions is flagged or in the
+   update's top 5.
+3. **Running human record** (`serve`): precision of flags and audited misses, as counts.
 
 ## Run
 ```
 llama-server -m kev-4b-q8.gguf --port 9995 -np 4 -c 16384      # a llama.cpp build with /v1/systemone
 python -m policywatch scan   --archive path/to/pga-versions --since 2026-10-01
 python -m policywatch report --archive path/to/pga-versions
+python -m policywatch serve                                    # review at http://127.0.0.1:8787
 python -m unittest discover -s tests
 ```
 Python 3.10+, standard library only.
