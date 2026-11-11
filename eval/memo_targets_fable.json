@@ -1,0 +1,2 @@
+{"_rule": "Fable 5.2 r23 (claude.ai chat 14b31dc3), 2026-11-11 ~21:50 UTC: independent mapping from memo titles only, blind to memo_targets.json and to any Kev output. Sensitivity check only; primary = memo_targets.json. M-numbers follow the order of the unique (memo, doc) pairs in memo_targets.json.",
+ "M1": [78, 32, 96], "M2": [48, 92], "M3": "broad", "M4": [98, 38, 17], "M5": [5], "M6": [98, 49], "M7": [48], "M8": [], "M9": [71], "M10": [37], "M11": [37]}
