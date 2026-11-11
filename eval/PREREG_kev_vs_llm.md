@@ -45,3 +45,18 @@ and the gold already frozen (both LLM raters flip = 1, neither = 0, one = ambigu
 ## Not claimed
 - Anything about human-verified invalidation (see the human-audit design).
 - Anything about other model sizes or quantizations.
+
+## Addendum 2026-11-11T22:38:03Z: implementation fixed before any real run (Ege OK'd the download 11-11)
+- The baseline is on disk: models/qwen35-4b/Qwen3.5-4B-Q8_0.gguf, sha256 10cc391b...61e1 (matches the HF LFS oid),
+  apache-2.0, from huggingface.co/unsloth/Qwen3.5-4B-GGUF (base Qwen/Qwen3.5-4B).
+- Smoke test (5 questions, a 2-sentence text): answered [1, 3], correct. No r20 region was sent.
+- The exact prompts and parsers are in bench/kev_vs_llm.py, hashed below.
+  - Chat completions at temperature 0, max_tokens 400, enable_thinking false.
+  - Server: llama-server --jinja -np 1 -c 16384 -t 6, the same build-fix binary as Kev.
+- Global ranking for LLM-DIFF (not specified above, fixed now): first mentions of every update, then second
+  mentions, and so on (update order as in pairs.jsonl); then all unmentioned items in random order (seed 20261111).
+  LLM-QA: flipped items in random order, then the rest in random order.
+- Kev timing: Kev-4B on its usual server (-np 4) with ONE request in flight at a time, so it is effectively
+  single-slot. 70 v1 questions per state, both states per update. Reported against Qwen at -np 1.
+- Both servers run alone: no scan or other scorer runs during timing.
+- The reading rule uses KEV vs LLM-DIFF only. LLM-QA is the ablation, reported, no verdict.

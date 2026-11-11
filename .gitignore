@@ -1,3 +1,7 @@
 out/
 __pycache__/
 *.pyc
+bench/out/
+bench/*.log
+bench/*.err
+bench/qwen.pid

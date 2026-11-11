@@ -1,2 +1,5 @@
 # kev-vs-llm design pre-registered 2026-11-11T22:28:07Z (baseline model not downloaded; nothing run)
 3f273b382c891bc3a2c2b180effe6130c98ec4aec9b9350fbf23a67c154741b5 *eval/PREREG_kev_vs_llm.md
+# implementation frozen 2026-11-11T22:38:03Z (no real run; bench/out empty)
+23365a2ed555bcc7daaece31384f2ec64b1f6b1c3623c496706c42e893916d9d *eval/PREREG_kev_vs_llm.md
+b7775f9ad846018dda35b6f46280ddb68ad56801701dcbc80293747355b6fa64 *bench/kev_vs_llm.py
