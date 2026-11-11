@@ -1,0 +1,4 @@
+# pre-registered 2026-11-11T23:50:16Z (r20 Kev at 63/70; no Kev evaluation, no Qwen run yet)
+63c037da06c8b9bfdd0cd40a3f47c86890fdf1ceda63618c2afc4d4d3850d820 *eval/PREREG_human_audit.md
+16b3e4c7963d000748bb764cf0f2f65284071e23e41aa1158a937676aa4716b6 *audit/human_audit.py
+54298f97ae84d8bf75255d7f66309aff7b1f5381b97e5668b05eca699e4683ab *audit/sample.json
