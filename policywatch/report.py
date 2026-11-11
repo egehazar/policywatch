@@ -73,6 +73,15 @@ def update_page(rec, repo):
                     'for this document needs review; nothing was scored.</p>')
     elif rec['kind'] == 'formatting':
         body.append('<p class="note">Only formatting or link targets changed. No answer can have moved.</p>')
+    elif rec['kind'] == 'revert':
+        body.append(f'<p class="note">The new text is identical to the version recorded on {esc(rec["same_as"])}. Usually '
+                    'this is the archive alternating between two captures of one page, not a policy change. Nothing '
+                    'was scored.</p>')
+    elif rec['kind'] == 'partial':
+        side = 'new' if rec['short_side'] == 'new' else 'old'
+        body.append(f'<p class="note">The {side} capture looks cut off: it has {rec["n_" + side]} paragraphs against '
+                    f'{rec["n_new" if side == "old" else "n_old"]}, and almost all of them occur in the other version. '
+                    'This is a capture problem, not a policy change. Nothing was scored.</p>')
     else:
         fl = [x for x in rec['questions'] if x['dp'] >= rec['tau']]
         body.append(f'<h2>Answers that probably changed ({len(fl)})</h2>')
@@ -86,15 +95,15 @@ def update_page(rec, repo):
     if rec['numeric']:
         body.append(f'<h2>Number and date changes ({len(rec["numeric"])})</h2><p class="sm mut">Listed by rule, not by the model.</p>')
         body += [f'<div class="diff">{wdiff(n["old"], n["new"])}</div>' for n in rec['numeric']]
-    if rec['kind'] != 'rewrite':
+    if rec['kind'] in ('scored', 'formatting', 'revert') and len(rec['blocks']) <= 40:
         body.append(f'<h2>All changed text ({len(rec["blocks"])} blocks)</h2>')
         body += [block_html(b) for b in rec['blocks']]
     return page(f'{rec["platform"]} {rec["doc"]} {rec["date"]}', ''.join(body))
 
 
 def index_page(recs, meta):
-    rows = []
-    for r in recs:
+    rows = []; noise = [r for r in recs if r['kind'] in ('revert', 'partial')]
+    for r in [r for r in recs if r['kind'] not in ('revert', 'partial')]:
         if r['kind'] == 'scored':
             fl = [x for x in r['questions'] if x['dp'] >= r['tau']]
             summary = ''.join(f'<div class="sm">{"▲" if x["p_new"] > x["p_old"] else "▼"} {esc(x["title"])}</div>' for x in fl[:3])
@@ -107,9 +116,16 @@ def index_page(recs, meta):
         nums = f'<span class="badge">{len(r["numeric"])} number/date</span>' if r['numeric'] else ''
         rows.append(f'<div class="card"><div class="row"><b><a href="{esc(r["key"])}.html">{esc(r["platform"])} · {esc(r["doc"])}</a></b>'
                     f'<span class="mut sm">{esc(r["date"])} · {r["n_changed"]} paragraphs</span>{nums}</div>{summary}</div>')
-    head = (f'<h1>What changed in meaning</h1><p class="mut">{len(recs)} updates to platform terms and privacy policies '
+    head = (f'<h1>What changed in meaning</h1><p class="mut">{len(recs)} recorded updates to platform terms and privacy policies '
             f'({esc(meta.get("range", ""))}). For each update, {meta.get("n_questions", "")} approved yes/no answers are re-asked '
             f'of the old and the new text by a small local decision model; the ones whose score moved are listed first.</p>')
+    if noise:
+        head += (f'<p class="mut sm">{len(noise)} of the {len(recs)} recorded updates are capture noise (the text returned to '
+                 'an earlier version, or a capture was cut off); they are listed at the bottom and not scored.</p>')
+        items = ''.join(f'<div class="sm"><a href="{esc(r["key"])}.html">{esc(r["date"])} {esc(r["platform"])} · {esc(r["doc"])}</a> '
+                        f'<span class="mut">{"same as " + esc(r["same_as"]) if r["kind"] == "revert" else "cut-off capture"}</span></div>'
+                        for r in noise)
+        rows.append(f'<h2>Capture noise ({len(noise)})</h2><div class="card">{items}</div>')
     return page('policywatch', head + ''.join(rows))
 
 

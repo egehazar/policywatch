@@ -29,7 +29,8 @@ def side_scores(scorer, regions, questions):
     return best
 
 
-def analyze(u, old_text, new_text, scorer, bank, tau, localize=True):
+def analyze(u, old_text, new_text, scorer, bank, tau, localize=True, noise=None):
+    """noise: archive.History.classify() result; a revert or a partial capture is labelled and not scored."""
     ch = diff(old_text, new_text)
     rec = {'platform': u.platform, 'doc': u.doc, 'path': u.path, 'commit': u.commit, 'date': u.date, 'key': u.key,
            'n_changed': ch.n_changed, 'scorer': scorer.server.id, 'tau': tau,
@@ -37,6 +38,8 @@ def analyze(u, old_text, new_text, scorer, bank, tau, localize=True):
            'blocks': [{'before': b.before, 'old': b.old, 'new': b.new, 'after': b.after} for b in ch.blocks]}
     if ch.n_changed == 0:
         return {**rec, 'kind': 'formatting', 'questions': []}
+    if noise:
+        return {**rec, **noise, 'kind': noise['noise'], 'questions': []}
     if ch.n_changed > MAX_CHANGED:
         return {**rec, 'kind': 'rewrite', 'questions': []}
     Q = [b['q'] for b in bank]; parts = chunks(ch, REGION_CAP)

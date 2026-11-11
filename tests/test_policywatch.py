@@ -107,6 +107,30 @@ class Pipeline(unittest.TestCase):
         self.assertIn('Number and date changes (1)', page)
 
 
+class Noise(unittest.TestCase):
+    def test_revert_and_partial(self):
+        import subprocess
+        d = tempfile.mkdtemp()
+        try:
+            run = lambda *a: subprocess.run(['git', '-C', d, *a], capture_output=True, check=True)
+            run('init', '-q'); run('config', 'user.email', 't@t'); run('config', 'user.name', 't')
+            os.makedirs(os.path.join(d, 'P'))
+            A = '\n\n'.join(f'Para {i}.' for i in range(20)); B = A.replace('Para 3.', 'Para 3 changed.')
+            C = '\n\n'.join(f'Para {i}.' for i in range(8))          # cut-off capture of A
+            for i, t in enumerate((A, B, A, C)):
+                with open(os.path.join(d, 'P', 'Terms of Service.md'), 'w') as f: f.write(t)
+                run('add', '-A')
+                run('commit', '-q', '-m', 'Record new changes of P Terms of Service' if i else 'First record', '--date', f'2026-01-0{i + 1}T00:00:00')
+            us = archive.updates(d); self.assertEqual(len(us), 3)
+            H = archive.History(d, 'P/Terms of Service.md')
+            got = []
+            for u in sorted(us, key=lambda u: H.pos[u.commit]):
+                old, new = archive.texts(d, u); got.append((H.classify(u.commit, old, new) or {}).get('noise'))
+            self.assertEqual(got, [None, 'revert', 'partial'])
+        finally:
+            shutil.rmtree(d, ignore_errors=True)
+
+
 @unittest.skipUnless(os.path.exists(os.path.join(FROZEN, 'pairs.jsonl')) and os.path.isdir(PGA), 'frozen r20 test not on disk')
 class FrozenRegions(unittest.TestCase):
     def test_regions_match_frozen_test(self):

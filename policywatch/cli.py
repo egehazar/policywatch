@@ -23,6 +23,7 @@ def main(argv=None):
     ap.add_argument('--bank', default=DEF_BANK); ap.add_argument('--out', default='out')
     ap.add_argument('--tau', type=float, default=.3); ap.add_argument('--workers', type=int, default=2)
     ap.add_argument('--limit', type=int); ap.add_argument('--no-localize', action='store_true')
+    ap.add_argument('--keep-noise', action='store_true', help='score reverts and partial captures too')
     ap.add_argument('--frozen'); ap.add_argument('--repo-url')
     a = ap.parse_args(argv)
     bank = watch.load_bank(a.bank)
@@ -33,12 +34,14 @@ def main(argv=None):
         done = {os.path.splitext(f)[0] for f in os.listdir(os.path.join(a.out, 'updates'))} if os.path.isdir(os.path.join(a.out, 'updates')) else set()
         todo = [u for u in us if u.key not in done][:a.limit]
         print(f'{len(us)} updates, {len(us) - len(todo)} already done, {len(todo)} to scan', flush=True)
-        t0 = time.time()
+        t0 = time.time(); hist = {}
 
         def one(u):
             old, new = archive.texts(a.archive, u)
             if not old.strip() or not new.strip(): return u, None
-            rec = watch.analyze(u, old, new, scorer, bank, a.tau, localize=not a.no_localize)
+            if u.path not in hist: hist[u.path] = archive.History(a.archive, u.path)
+            noise = None if a.keep_noise else hist[u.path].classify(u.commit, old, new)
+            rec = watch.analyze(u, old, new, scorer, bank, a.tau, localize=not a.no_localize, noise=noise)
             watch.save(rec, a.out); return u, rec
         with ThreadPoolExecutor(a.workers) as ex:
             for n, fu in enumerate(as_completed([ex.submit(one, u) for u in todo]), 1):
