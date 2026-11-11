@@ -198,10 +198,33 @@ def index_page(recs, meta, hr=None):
     return page('policywatch', head + ''.join(rows))
 
 
-def about_page(meta, ev):
+def memo_html(mc):
+    if not mc: return ''
+    sm = mc['summary']
+    rows = ''.join(f'<tr><td>{esc(r["platform"])} · {esc(r["doc"])}</td><td>{esc(r["memo"])}</td><td>{esc(r["result"])}</td></tr>' for r in mc['rows'])
+    return (f'<h2>Does it catch the changes people wrote up?</h2><p>Open Terms Archive publishes memos: short write-ups of '
+            f'notable changes by independent contributors. {sm["memos"]} memos concern a terms of service or privacy policy '
+            f'recorded in this archive. Before any score existed, each memo was mapped to the questions a correct tool should '
+            f'move (eval/memo_targets.json, hashed). A memo is caught when one of those questions is flagged or in the '
+            f'update’s top 5.</p><p><b>{sm["caught"]} of {sm["judged"]}</b> judged memos caught; {sm["coverage_gaps"]} '
+            f'changes no question in the bank covers; {sm["not_scored"]} not scored (rewrites or not yet scanned).</p>'
+            f'<table><tr><th>Document</th><th>Memo</th><th>Result</th></tr>{rows}</table>')
+
+
+def noise_html(recs):
+    if not recs: return ''
+    nz = sum(r['kind'] in ('revert', 'partial') for r in recs)
+    return (f'<h2>Capture noise</h2><p>{nz} of the {len(recs)} recorded updates shown here are not policy changes: the text '
+            'returned to an earlier version (for example TikTok’s UK-ads banner appearing and disappearing between captures), '
+            'or a capture was cut off part-way (Reddit’s privacy policy, cut at a table about every other capture). Across the '
+            'whole archive, 536 of 2,672 recorded changes are of this kind, and 304 of 835 in 2026.</p>')
+
+
+def about_page(meta, ev, mc=None, recs=()):
     acc = ''
-    if ev:
+    if ev and ev.get('status') == 'ok':
         acc = '<h2>How accurate it is</h2>' + ev.get('html', '')
+    acc += memo_html(mc) + noise_html(recs)
     body = f"""<h1>How it works</h1>
 <p>Someone keeps a set of approved answers about a document ("Does this service sell your data?"). When the document
 changes, which answers need another look?</p>
@@ -241,5 +264,7 @@ def build(out_dir, repo='', n_questions=''):
     _write(os.path.join(out_dir, 'human_record.json'), json.dumps(hr, indent=1))
     evp = os.path.join(out_dir, 'eval.json')
     ev = _read(evp) if os.path.exists(evp) else None
-    _write(os.path.join(site, 'about.html'), about_page(meta, ev))
+    mcp = os.path.join(out_dir, 'memo_check.json')
+    mc = _read(mcp) if os.path.exists(mcp) else None
+    _write(os.path.join(site, 'about.html'), about_page(meta, ev, mc, recs))
     return site, len(recs)

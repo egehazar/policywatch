@@ -42,8 +42,8 @@ def main(argv=None):
     if a.cmd == 'scan':
         us = archive.updates(a.archive, a.docs.split(','), a.since, a.until, a.platforms.split(',') if a.platforms else None)
         done = {os.path.splitext(f)[0] for f in os.listdir(os.path.join(a.out, 'updates'))} if os.path.isdir(os.path.join(a.out, 'updates')) else set()
-        todo = [u for u in us if u.key not in done][:a.limit]
-        print(f'{len(us)} updates, {len(us) - len(todo)} already done, {len(todo)} to scan', flush=True)
+        left = [u for u in us if u.key not in done]; todo = left[:a.limit]
+        print(f'{len(us)} updates, {len(us) - len(left)} already done, {len(todo)} to scan now', flush=True)
         t0 = time.time()
         with ThreadPoolExecutor(a.workers) as ex:
             for n, fu in enumerate(as_completed([ex.submit(one, u) for u in todo]), 1):
