@@ -56,3 +56,19 @@ Anything beyond this sample, one human, and these 35 updates; expertise in law.
   page's own store (collection "verdicts", one document per item: v, note, t) and to the browser as a backup.
 - Known leak, disclosed: the number of statements per update differs (1 to 11), which hints that some updates hold more
   rater-flagged items. Order within an update is random.
+
+## Addendum 2, 2026-11-12T00:01:10Z: GPT r2's three changes, before Ege started (store empty) and before any Kev evaluation (r20 at 66/70)
+GPT r2 (notes/gpt_r2_audit_reply.md) attacked the design; all three changes taken. Supersedes the sections above where
+they differ. The v1 sample is kept as audit/sample_v1.json; it was never shown to anyone.
+1. Sample v2 (seed 20261113, still drawn only from rater gold and the chunk-hash arm): S1 all 25 gold-1; S2 16 of the
+   31 ambiguous at random; S3a 20 of the 346 gold-0 inside CH; S3b 40 of the 2,048 gold-0 outside CH. 101 items over
+   33 updates. Reason: S3b is where broad misses hide; 20 gave a ~14% upper bound even with zero hits.
+2. Evidence for positives: for CHANGED and PASSAGE ONLY the human also gives the answer before and after (yes / no /
+   not established) and a one-line reason. An answer missing any of these counts as CAN'T TELL and is listed.
+   Plus 5 blinded repeats (sample.json "repeats"), each shown again as its own update at least 4 updates later;
+   reported as intra-rater agreement. The first answer is the one scored.
+3. No winner from human gold. Primary output: paired counts at the 182-item budget (both / KEV only / LLM-DIFF only /
+   neither) with CPU cost per update from the bench. The PREREG_kev_vs_llm 3-item rule is reported only as a labelled
+   exploratory reading.
+Also stated: stopping early is not a random subset (updates are grouped; fatigue); completion is reported per stratum.
+What it measures: changed answers to generic ToS;DR statements, not invalidated answers a service actually approved.

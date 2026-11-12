@@ -77,6 +77,12 @@ mark.on { background: var(--warn); color: var(--panel) }
 .choices button { font: inherit; font-size: 14px; padding: 8px 6px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); border-radius: 6px; cursor: pointer; min-width: 0 }
 .choices button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--panel); font-weight: 600 }
 .q input.qn { font: inherit; font-size: 13px; padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); width: 100% }
+.q input.qn.need { border-color: var(--warn); background: var(--warn-bg) }
+.detail { display: flex; flex-direction: column; gap: 8px; padding: 10px 12px; background: var(--bg); border-radius: 6px }
+.ba { display: flex; align-items: center; gap: 10px; flex-wrap: wrap }
+.ba > span { font-size: 13px; color: var(--muted); min-width: 132px }
+.ba .seg button { padding: 5px 10px }
+.todo { font-size: 12px; color: var(--warn) }
 .nav { display: flex; justify-content: space-between; gap: 10px }
 .btn { font: inherit; padding: 8px 14px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--fg); cursor: pointer }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--panel); font-weight: 600 }
@@ -87,7 +93,7 @@ textarea#dump { width: 100%; height: 80px; font-family: var(--mono); font-size: 
 </style>
 
 <header class="bar"><div class="wrap">
-  <div class="row"><h1>Policy Change Check</h1><span class="count" id="count">0 / 106 answered</span><span class="meter"><i id="meterfill"></i></span></div>
+  <div class="row"><h1>Policy Change Check</h1><span class="count" id="count">Loading…</span><span class="meter"><i id="meterfill"></i></span></div>
   <div class="chips" id="chips" aria-label="Updates"></div>
 </div></header>
 
@@ -102,7 +108,8 @@ textarea#dump { width: 100%; height: 80px; font-family: var(--mono); font-size: 
       <dt>No change</dt><dd>The update doesn't affect this statement.</dd>
       <dt>Can't tell</dt><dd>You can't decide from the text.</dd>
     </dl>
-    <p>Judge from the text only, not from what you know about the company. Open the full documents when the passage alone doesn't settle it. Red struck text was removed and blue underlined text was added.</p>
+    <p>For <b>Changed</b> and <b>Only the passage</b>, also give the answer before and after (yes, no, or not established) and one line on why. Quote the words that decide it if you can. Before choosing Changed, search the full documents for the topic: other text may already say the same thing.</p>
+    <p>Judge from the text only, not from what you know about the company. Red struck text was removed and blue underlined text was added. A few statements come back a second time later on; answer them fresh.</p>
     <p>Answers save as you click, so you can stop and come back. The page shows nothing about what any model or rater thought.</p>
   </details>
 
@@ -153,7 +160,11 @@ textarea#dump { width: 100%; height: 80px; font-family: var(--mono); font-size: 
 
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
   function allItems() { var a = []; data.updates.forEach(function (u) { u.questions.forEach(function (q) { a.push(q.id); }); }); return a; }
-  function answered(id) { return answers[id] && answers[id].v; }
+  var NEEDS = { changed: 1, passage: 1 };
+  function answered(id) {
+    var a = answers[id]; if (!a || !a.v) return false;
+    return !NEEDS[a.v] || !!(a.old && a.new && (a.note || "").trim().length >= 3);
+  }
 
   function renderProgress() {
     var items = allItems(), n = items.filter(answered).length;
@@ -187,8 +198,8 @@ textarea#dump { width: 100%; height: 80px; font-family: var(--mono); font-size: 
   function renderFull() {
     var u = data.updates[cur], box = $("fulltext");
     ["old", "new"].forEach(function (s) { $("f-" + s).setAttribute("aria-pressed", String(s === fullSide)); });
-    var doc = fullCache[u.u];
-    if (!doc) { box.textContent = "Loading the full documents…"; loadFull(u.u); return; }
+    var doc = fullCache[u.full];
+    if (!doc) { box.textContent = "Loading the full documents…"; loadFull(u.full); return; }
     var t = doc[fullSide] || "", q = $("findq").value.trim();
     box.textContent = ""; marks = []; markAt = -1;
     if (!q) { box.textContent = t; $("findcount").textContent = ""; return; }
@@ -210,7 +221,7 @@ textarea#dump { width: 100%; height: 80px; font-family: var(--mono); font-size: 
   }
   function loadFull(uid) {
     fetch("full/" + uid + ".json").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (d) { fullCache[uid] = d; if (data.updates[cur].u === uid) renderFull(); })
+      .then(function (d) { fullCache[uid] = d; if (data.updates[cur].full === uid) renderFull(); })
       .catch(function () { $("fulltext").textContent = "The full documents didn't load. Use the GitHub links above instead."; });
   }
 
@@ -229,10 +240,39 @@ textarea#dump { width: 100%; height: 80px; font-family: var(--mono); font-size: 
         ch.appendChild(b);
       });
       card.appendChild(ch);
-      var note = el("input", "qn"); note.id = "n-" + q.id; note.type = "text"; note.placeholder = "Note (optional)";
-      note.value = (answers[q.id] || {}).note || "";
-      note.addEventListener("change", function () { if (note.value !== ((answers[q.id] || {}).note || "")) save(q.id, { note: note.value }); });
-      card.appendChild(note);
+      var a = answers[q.id] || {}, need = !!NEEDS[a.v];
+      var note = el("input", "qn"); note.id = "n-" + q.id; note.type = "text";
+      note.placeholder = need ? "Why (required): quote the deciding words if you can" : "Note (optional)";
+      note.value = a.note || "";
+      var nt;
+      note.addEventListener("input", function () {
+        clearTimeout(nt);
+        nt = setTimeout(function () {
+          if (note.value === ((answers[q.id] || {}).note || "")) return;
+          save(q.id, { note: note.value }, true);
+          note.classList.toggle("need", need && !note.value.trim());
+          card.classList.toggle("answered", !!answered(q.id));
+          var td = card.querySelector(".todo"); if (td) td.hidden = !!answered(q.id);
+        }, 600);
+      });
+      if (need) {
+        var det = el("div", "detail");
+        [["old", a.v === "changed" ? "Document, before:" : "Passage, before:"], ["new", a.v === "changed" ? "Document, after:" : "Passage, after:"]].forEach(function (side) {
+          var row = el("div", "ba"); row.appendChild(el("span", null, side[1]));
+          var sg = el("span", "seg"); sg.setAttribute("role", "group"); sg.setAttribute("aria-label", side[1]);
+          [["yes", "Yes"], ["no", "No"], ["unset", "Not established"]].forEach(function (o) {
+            var b = el("button", null, o[1]); b.id = "b-" + q.id + "-" + side[0] + "-" + o[0];
+            b.setAttribute("aria-pressed", String(a[side[0]] === o[0]));
+            b.addEventListener("click", function () { var p = {}; p[side[0]] = o[0]; save(q.id, p); });
+            sg.appendChild(b);
+          });
+          row.appendChild(sg); det.appendChild(row);
+        });
+        if (!(a.note || "").trim()) note.classList.add("need");
+        det.appendChild(note);
+        if (!answered(q.id)) det.appendChild(el("span", "todo", "Needs the before and after answers and a reason to count."));
+        card.appendChild(det);
+      } else card.appendChild(note);
       list.appendChild(card);
     });
   }
@@ -253,13 +293,12 @@ textarea#dump { width: 100%; height: 80px; font-family: var(--mono); font-size: 
   }
 
   var writing = {};
-  function save(id, patch) {
-    var prev = answers[id] || {}, next = { v: prev.v || null, note: prev.note || "" };
-    if (patch.v !== undefined) next.v = patch.v;
-    if (patch.note !== undefined) next.note = patch.note;
+  function save(id, patch, quiet) {
+    var prev = answers[id] || {}, next = { v: prev.v || null, old: prev.old || null, new: prev.new || null, note: prev.note || "" };
+    ["v", "old", "new", "note"].forEach(function (k) { if (patch[k] !== undefined) next[k] = patch[k]; });
     next.t = new Date().toISOString();
     answers[id] = next; store("pcc-answers", JSON.stringify(answers));
-    renderQuestions(); renderProgress();
+    if (!quiet) renderQuestions(); renderProgress();
     if (!db) return;
     var run = function () {
       writing[id] = db.doc("verdicts/" + id).set(answers[id]).catch(function (e) {
@@ -305,7 +344,7 @@ textarea#dump { width: 100%; height: 80px; font-family: var(--mono); font-size: 
         snap.docs.forEach(function (doc) {
           var v = doc.data(); if (!v) return;
           var mine = answers[doc.id];
-          if (!mine || (v.t && (!mine.t || v.t > mine.t))) { answers[doc.id] = { v: v.v || null, note: v.note || "", t: v.t || "" }; changed = true; }
+          if (!mine || (v.t && (!mine.t || v.t > mine.t))) { answers[doc.id] = { v: v.v || null, old: v.old || null, new: v.new || null, note: v.note || "", t: v.t || "" }; changed = true; }
         });
         if (changed) { store("pcc-answers", JSON.stringify(answers)); if (data) { renderQuestions(); renderProgress(); } }
         // answers made in this browser before the page could save: send them once

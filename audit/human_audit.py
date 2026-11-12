@@ -13,7 +13,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 sys.path.insert(0, ROOT)
 from policywatch import evaluate
 
-SEED = 20261112; N_CH = 30; N_REST = 20
+SEED = 20261113; N_AMB = 16; N_CH = 20; N_REST = 40; N_REPEAT = 5   # v2 allocation (GPT r2); v1 was seed 20261112, all 31 / 30 / 20
 PARA = chr(10) * 2; SEP = PARA + '[...]' + PARA      # rq.py's block separator
 
 
@@ -23,11 +23,12 @@ def sample(frozen):
     g1 = [i for i in items if G[i] == 1]; amb = [i for i in items if G[i] is None]
     g0ch = [i for i in items if G[i] == 0 and i in CH]; g0rest = [i for i in items if G[i] == 0 and i not in CH]
     rng = random.Random(SEED)
-    s3a = sorted(rng.sample(g0ch, N_CH)); s3b = sorted(rng.sample(g0rest, N_REST))
-    strata = {'S1_gold1': g1, 'S2_ambiguous': amb, 'S3a_gold0_in_CH': s3a, 'S3b_gold0_outside_CH': s3b}
+    s2 = sorted(rng.sample(amb, N_AMB)); s3a = sorted(rng.sample(g0ch, N_CH)); s3b = sorted(rng.sample(g0rest, N_REST))
+    strata = {'S1_gold1': g1, 'S2_ambiguous': s2, 'S3a_gold0_in_CH': s3a, 'S3b_gold0_outside_CH': s3b}
     sizes = {'S1_gold1': len(g1), 'S2_ambiguous': len(amb), 'S3a_gold0_in_CH': len(g0ch), 'S3b_gold0_outside_CH': len(g0rest)}
-    out = {'seed': SEED, 'population': len(items), 'stratum_sizes': sizes,
-           'sampled': {k: len(v) for k, v in strata.items()}, 'strata': strata,
+    repeats = sorted(rng.sample(sorted(i for v in strata.values() for i in v), N_REPEAT))
+    out = {'version': 2, 'seed': SEED, 'population': len(items), 'stratum_sizes': sizes,
+           'sampled': {k: len(v) for k, v in strata.items()}, 'strata': strata, 'repeats': repeats,
            'updates_touched': len({i.split('|')[0] for v in strata.values() for i in v})}
     with open(os.path.join(HERE, 'sample.json'), 'w', encoding='utf-8') as f: json.dump(out, f, indent=1)
     print(json.dumps({k: v for k, v in out.items() if k != 'strata'}, indent=1))
@@ -53,22 +54,35 @@ def page(frozen, pga):
     by = {}
     for i in items: by.setdefault(i.split('|')[0], []).append(int(i.split('|')[1]))
     rng = random.Random(SEED + 1); order = sorted(by); rng.shuffle(order)
+    entries = []
+    for pid in order:
+        qs = by[pid][:]; rng.shuffle(qs); entries.append((pid, qs, ''))
+    # blinded repeats (GPT r2): one statement each, shown again as its own update, at least 4 updates after the first
+    for i in S.get('repeats', []):
+        pid, k = i.split('|'); first = order.index(pid)
+        pos = rng.randrange(min(first + 4, len(entries)), len(entries) + 1)
+        entries.insert(pos, (pid, [int(k)], '-r'))
     remote = _git(pga, 'remote', 'get-url', 'origin').strip().removesuffix('.git')
-    site = os.path.join(HERE, 'out', 'site'); os.makedirs(os.path.join(site, 'full'), exist_ok=True)
-    ups = []
-    for n, pid in enumerate(order, 1):
-        p = pairs[pid]; qs = by[pid][:]; rng.shuffle(qs)
+    site = os.path.join(HERE, 'out', 'site')
+    if os.path.isdir(os.path.join(site, 'full')):
+        for fn in os.listdir(os.path.join(site, 'full')): os.remove(os.path.join(site, 'full', fn))
+    os.makedirs(os.path.join(site, 'full'), exist_ok=True)
+    ups, files = [], {}
+    for n, (pid, qs, suffix) in enumerate(entries, 1):
+        p = pairs[pid]
         blocks = [word_diff(o, nw) for o, nw in zip(p['old_region'].split(SEP), p['new_region'].split(SEP))]
         parent = _git(pga, 'rev-parse', p['commit'] + '^').strip()
         u = f'u{n:02d}'
-        ups.append({'u': u, 'platform': p['platform'], 'doc': p['doc'][:-3], 'date': p['date'],
+        if pid not in files:
+            files[pid] = u
+            full = {'old': _clean(_git(pga, 'show', f"{p['commit']}^:{p['path']}")), 'new': _clean(_git(pga, 'show', f"{p['commit']}:{p['path']}"))}
+            with open(os.path.join(site, 'full', f'{u}.json'), 'w', encoding='utf-8') as f: json.dump(full, f, ensure_ascii=False)
+        ups.append({'u': u, 'full': files[pid], 'platform': p['platform'], 'doc': p['doc'][:-3], 'date': p['date'],
                     'blocks': blocks, 'commit_url': f"{remote}/commit/{p['commit']}",
                     'old_url': f"{remote}/blob/{parent}/{p['path'].replace(' ', '%20')}",
                     'new_url': f"{remote}/blob/{p['commit']}/{p['path'].replace(' ', '%20')}",
-                    'questions': [{'id': f'{pid}-{k:02d}', 'text': bank[k]['title']} for k in qs]})
-        full = {'old': _clean(_git(pga, 'show', f"{p['commit']}^:{p['path']}")), 'new': _clean(_git(pga, 'show', f"{p['commit']}:{p['path']}"))}
-        with open(os.path.join(site, 'full', f'{u}.json'), 'w', encoding='utf-8') as f: json.dump(full, f, ensure_ascii=False)
-    data = {'items': len(items), 'updates': ups, 'source': remote}
+                    'questions': [{'id': f'{pid}-{k:02d}{suffix}', 'text': bank[k]['title']} for k in qs]})
+    data = {'items': len(items) + len(S.get('repeats', [])), 'updates': ups, 'source': remote}
     with open(os.path.join(site, 'data.json'), 'w', encoding='utf-8') as f: json.dump(data, f, ensure_ascii=False)
     print(len(ups), 'updates,', len(items), 'items ->', site)
 

@@ -28,13 +28,18 @@ def load_verdicts(src):
             raw[os.path.splitext(os.path.basename(fn))[0]] = d
     else:
         with open(src, encoding='utf-8') as f: raw = json.load(f)
-    V = {}
+    V, R = {}, {}
     for k, d in raw.items():
         if not isinstance(d, dict) or d.get('v') not in VALID or '-' not in k: continue
+        rep = k.endswith('-r'); k = k[:-2] if rep else k
         pid, q = k.rsplit('-', 1)
         if not q.isdigit(): continue
-        V[f'{pid}|{int(q)}'] = {'v': d['v'], 'note': str(d.get('note') or '')}
-    return V
+        rec = {'v': d['v'], 'old': d.get('old'), 'new': d.get('new'), 'note': str(d.get('note') or '')}
+        # a Changed / Only-the-passage answer without before, after and a reason is incomplete (PREREG addendum 2)
+        if rec['v'] in ('changed', 'passage') and not (rec['old'] and rec['new'] and len(rec['note'].strip()) >= 3):
+            rec['incomplete'] = True
+        (R if rep else V)[f'{pid}|{int(q)}'] = rec
+    return V, R
 
 
 def orders(frozen):
@@ -72,7 +77,8 @@ def orders(frozen):
     return pairs, arms, G, O, within
 
 
-def reading(r, O):
+def exploratory_reading(r, O):
+    """The PREREG_kev_vs_llm 3-item rule on human gold. Demoted to exploratory by addendum 2 (GPT r2): never a verdict."""
     if r['positives'] < 10: return 'UNDERPOWERED (fewer than 10 human-confirmed changes)'
     if 'LLM-DIFF' not in O: return 'INCOMPLETE (no LLM-DIFF run)'
     p = os.path.join(BENCH, 'result.json')
@@ -88,12 +94,19 @@ def reading(r, O):
 def score(frozen, src):
     with open(os.path.join(HERE, 'sample.json'), encoding='utf-8') as f: S = json.load(f)
     stratum = {i: s for s, v in S['strata'].items() for i in v}
-    V = load_verdicts(src)
+    V, R = load_verdicts(src)
     pairs, arms, G, O, within = orders(frozen)
     CH = set(arms['CH']); rank = {a: {i: n for n, i in enumerate(o, 1)} for a, o in O.items()}
-    res = {'answered': sum(1 for i in V if i in stratum), 'of': len(stratum),
+    incomplete = sorted(i for i in V if V[i].get('incomplete'))
+    for i in incomplete: V[i] = {**V[i], 'v': 'unsure'}          # counted as CAN'T TELL, listed
+    res = {'sample_version': S.get('version', 1), 'answered': sum(1 for i in V if i in stratum), 'of': len(stratum),
+           'answered_by_stratum': {s: sum(1 for i in v if i in V) for s, v in S['strata'].items()},
            'not_in_sample_ignored': sum(1 for i in V if i not in stratum),
-           'cant_tell': sum(1 for i in V if i in stratum and V[i]['v'] == 'unsure'), 'arms_available': sorted(O)}
+           'cant_tell': sum(1 for i in V if i in stratum and V[i]['v'] == 'unsure'),
+           'incomplete_counted_as_cant_tell': incomplete, 'arms_available': sorted(O)}
+    rep = [(i, V[i]['v'], R[i]['v']) for i in R if i in V]
+    res['repeats'] = {'pairs': len(rep), 'same_choice': sum(1 for _, a, b in rep if a == b),
+                      'same_H_doc': sum(1 for _, a, b in rep if (a == 'changed') == (b == 'changed')), 'detail': rep}
     w = {s: S['stratum_sizes'][s] / S['sampled'][s] for s in ('S3a_gold0_in_CH', 'S3b_gold0_outside_CH')}
     for name, keep in (('H_doc', ('changed',)), ('H_pass', ('changed', 'passage'))):
         H = {i: int(V[i]['v'] in keep) for i in V if i in stratum and V[i]['v'] != 'unsure'}
@@ -106,10 +119,19 @@ def score(frozen, src):
         r['kev_outside_update_top5'] = sum(1 for i in pos if within[i] > 5)
         r['kev_outside_global_182'] = sum(1 for i in pos if rank['KEV'][i] > 182)
         r['ipw_estimate_rater_missed_changes'] = round(sum(w[stratum[i]] for i in pos if stratum[i] in w), 1)
-        r['reading'] = reading(r, O)
+        # primary output (addendum 2): paired counts at the 182-item budget, with cost from the bench; no winner
+        if 'LLM-DIFF' in O:
+            kc = {i for i in pos if rank['KEV'][i] <= 182}; lc = {i for i in pos if rank['LLM-DIFF'][i] <= 182}
+            r['paired_at_182'] = {'both': len(kc & lc), 'kev_only': len(kc - lc), 'llm_diff_only': len(lc - kc),
+                                  'neither': len(set(pos) - kc - lc)}
+        r['exploratory_reading'] = exploratory_reading(r, O)
         r['items'] = [{'item': i, 'stratum': stratum[i], **{a: rank[a][i] for a in O}, 'kev_in_update': within[i],
-                       'note': V[i]['note']} for i in pos]
+                       'old': V[i]['old'], 'new': V[i]['new'], 'note': V[i]['note']} for i in pos]
         res[name] = r
+    bp = os.path.join(BENCH, 'result.json')
+    if os.path.exists(bp):
+        with open(bp, encoding='utf-8') as f: b = json.load(f)
+        res['cost_sec_per_update'] = b.get('sec_per_update'); res['review_budget_items'] = 182
     res['notes'] = {i: V[i]['note'] for i in V if V[i]['note']}
     os.makedirs(os.path.join(HERE, 'out'), exist_ok=True)
     with open(os.path.join(HERE, 'out', 'result.json'), 'w', encoding='utf-8') as f: json.dump(res, f, indent=1)
