@@ -1,0 +1,80 @@
+{
+ "gold1": 25,
+ "ambiguous": 31,
+ "recall_at": {
+  "KEV": {
+   "25": 12,
+   "50": 14,
+   "100": 16,
+   "182": 20
+  },
+  "KEV-SHORT": {
+   "25": 12,
+   "50": 14,
+   "100": 18,
+   "182": 21
+  },
+  "LLM-DIFF": {
+   "25": 1,
+   "50": 1,
+   "100": 1,
+   "182": 2
+  },
+  "LLM-QA": {
+   "25": 1,
+   "50": 3,
+   "100": 6,
+   "182": 12
+  }
+ },
+ "recall_at_amb_as_pos": {
+  "KEV": {
+   "25": 14,
+   "50": 18,
+   "100": 20,
+   "182": 24
+  },
+  "KEV-SHORT": {
+   "25": 15,
+   "50": 17,
+   "100": 22,
+   "182": 26
+  },
+  "LLM-DIFF": {
+   "25": 2,
+   "50": 2,
+   "100": 2,
+   "182": 3
+  },
+  "LLM-QA": {
+   "25": 1,
+   "50": 5,
+   "100": 9,
+   "182": 16
+  }
+ },
+ "sec_per_update": {
+  "KEV": 179.8,
+  "LLM-DIFF": 49.1,
+  "LLM-QA": 81.7,
+  "KEV-SHORT": 102.8
+ },
+ "input_tokens_per_state": {
+  "KEV": 31617,
+  "KEV-SHORT": 30147
+ },
+ "spearman_KEV_vs_SHORT_dp": 0.8181,
+ "adopt_short": true,
+ "bench_rule_reading_short_vs_llm_diff": "NO CLEAR WINNER",
+ "short_vs_llm_qa": {
+  "recall182": [
+   21,
+   12
+  ],
+  "cpu": [
+   102.8,
+   81.7
+  ],
+  "short_at_least_as_good_on_both": false
+ }
+}

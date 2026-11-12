@@ -17,6 +17,7 @@ Each test was hashed before scoring. All results are reported, including failure
 | Find where a ToS;DR case is stated in a platform's current text | **Decision model better** | Top-1 on 200 points: Kev-4B 62%, BM25 36%, bge-small 30%. Gold is the curators' own quotes. | [Stale evidence](#stale-evidence-for-tosdr-points-stale) |
 | Rank which answers an update changed (35 updates) | **Failed** | The bar was 24 of 25 changes in 182 reviews; the tool needed 684. | [Accuracy](#accuracy), item 1 |
 | Same ranking, Kev-4B vs Qwen3.5-4B on the same CPU | **No clear winner** | Within 182 reviews, Kev found 20 of 25 changes and Qwen 12, but Kev used 2.2x the CPU. | Item 4 |
+| Kev with bare yes/no options (cost fix) | **Adopted** | 21 of 25 changes at 0.57x Kev's CPU, now 1.26x Qwen's. | Item 4 |
 
 ## Why
 Measured on 35 real Terms of Service and Privacy Policy updates (Open Terms Archive, 2,450 update x question pairs).
@@ -102,6 +103,11 @@ Four measurements; the first three are shown on the site's "How it works" page:
      - Qwen asked to list the changed questions (the pre-registered comparator): 2, at 49 s. It answered "none" on
        32 of 35 updates.
    - Kev's cost is about 1.1 s per question whatever the text length: 80 s for 70 questions, 580 s for 500.
+   - **Follow-up, pre-registered before it ran (`eval/RESULT_short_layout.md`).** The question wrapper's two option
+     descriptions were dropped, so the template shows bare "yes"/"no".
+     - Recall 21 of 25 at 102.8 s per update (0.57x), so it was adopted under its rule.
+     - Against Qwen's yes/no arm: 21 vs 12 changes at 1.26x the CPU. It is still "no clear winner" under the bench
+       rule.
 
 ## Stale evidence for ToS;DR points (`stale/`)
 ToS;DR approves each point with a quote from the platform's document. When the platform rewrites that passage, the
