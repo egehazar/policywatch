@@ -38,3 +38,6 @@ ed15beaea50ce37fe859dc8e0bc736566f94256243f05719b2cf0eb7b4db3ea9 *stale/out/full
 a556c49b4a171bdf0ac34c47f877294a77a94c9483298b10560fbff2e56191dd *stale/out/fullread/sonnet_batch_8.json
 5a193fcfacce9968e03427434739a68b51e4e14f45fbb6168ee7d7d85df4d0b4 *stale/out/fullread/gold_opus.json
 ab1ffccb04387835f4b630d52bf8d43415a77ad8c2453d4599030f08f49a5150 *stale/out/fullread/gold_sonnet.json
+# human-gate sampler 2026-11-12T20:11:31Z: fixed before the Kev arm finished; quote_bm25/hunk/bge/quote arms may have run, not looked at
+711805c972ce27420c9e1a11ad350f74fa0b8deba48785f026c7a76dbde4c13b *stale/gate.py
+51fc62f9ba37b43eddda7e9a54606ed224a16de8ce5dd3d16fc2bd6d38b785d4 *audit/gate/index.html
