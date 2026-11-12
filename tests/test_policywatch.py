@@ -208,5 +208,31 @@ class FrozenRegions(unittest.TestCase):
             self.assertEqual(bool(ch.numeric), p['rule'], p['id'])
 
 
+class AuditVerdicts(unittest.TestCase):
+    """audit/score.py reads the page's answers: repeats apart, positives without evidence counted as can't tell."""
+
+    def test_load(self):
+        from audit.score import load_verdicts
+        d = tempfile.mkdtemp()
+        try:
+            rows = {'p07-00': {'v': 'none'},
+                    'p07-01': {'v': 'changed', 'old': 'yes', 'new': 'no', 'note': 'removed the clause'},
+                    'p07-02': {'v': 'changed', 'old': 'yes', 'note': 'no after given'},
+                    'p07-03': {'v': 'passage', 'old': 'no', 'new': 'yes', 'note': ''},
+                    'p07-01-r': {'v': 'passage', 'old': 'yes', 'new': 'no', 'note': 'second look'},
+                    'p07-04': {'v': 'bogus'}, 'junk': {'v': 'none'}}
+            os.makedirs(os.path.join(d, 'verdicts'))
+            for k, v in rows.items():          # the ArtifactData out_dir shape: one file per document
+                with open(os.path.join(d, 'verdicts', k + '.json'), 'w', encoding='utf-8') as f: json.dump({'data': v}, f)
+            V, R = load_verdicts(d)
+            self.assertEqual(sorted(V), ['p07|0', 'p07|1', 'p07|2', 'p07|3'])
+            self.assertEqual(sorted(R), ['p07|1'])
+            self.assertFalse(V['p07|1'].get('incomplete'))
+            self.assertTrue(V['p07|2'].get('incomplete')); self.assertTrue(V['p07|3'].get('incomplete'))
+            self.assertEqual(R['p07|1']['v'], 'passage')
+        finally:
+            shutil.rmtree(d)
+
+
 if __name__ == '__main__':
     unittest.main()
