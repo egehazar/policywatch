@@ -1,0 +1,5 @@
+# short layout pre-registered 2026-11-12T14:56:55Z (no short-layout request sent)
+7751e6160ba3aaf03380e0ff96593ff8a9efd3392246c2828feda55fd3632cc7 *eval/PREREG_short_layout.md
+9b38b253d717333485404149c4f1ba9a84d5c225aac4537092b860fe8167635a *bench/short_layout.py
+b7775f9ad846018dda35b6f46280ddb68ad56801701dcbc80293747355b6fa64 *bench/kev_vs_llm.py
+203e1fe155ca4d77a1e99364b7a703414ea3542c9e76b17648cad5a10e21c1d0 *bench/out/result.json
