@@ -1,0 +1,27 @@
+{
+ "platform": "WeChat",
+ "service_id": 9563,
+ "service": "Wechat (微信)",
+ "pulled_at": "2026-11-12T11:02:33Z",
+ "documents": [
+  {
+   "id": 18956,
+   "name": "Privacy Policy",
+   "url": "https://www.wechat.com/en/privacy_policy.html",
+   "updated_at": "2024-11-08T11:34:36.388244"
+  },
+  {
+   "id": 18955,
+   "name": "Terms of Service",
+   "url": "https://www.wechat.com/en/service_terms.html",
+   "updated_at": "2024-11-08T11:34:36.667810"
+  },
+  {
+   "id": 18957,
+   "name": "Acceptable Use Policy",
+   "url": "https://www.wechat.com/en/acceptable_use_policy.html",
+   "updated_at": "2024-11-08T11:34:36.800079"
+  }
+ ],
+ "points": []
+}

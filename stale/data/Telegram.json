@@ -1,0 +1,73 @@
+{
+ "platform": "Telegram",
+ "service_id": 1946,
+ "service": "Telegram",
+ "pulled_at": "2026-11-12T10:55:17Z",
+ "documents": [
+  {
+   "id": 2060,
+   "name": "Frequently Asked Questions",
+   "url": "https://telegram.org/faq",
+   "updated_at": "2026-03-01T08:19:03.362527"
+  },
+  {
+   "id": 2059,
+   "name": "Terms of Service",
+   "url": "https://telegram.org/tos?setln=en",
+   "updated_at": "2026-03-01T08:27:40.844997"
+  },
+  {
+   "id": 2058,
+   "name": "Privacy Policy",
+   "url": "https://telegram.org/privacy",
+   "updated_at": "2026-03-01T08:18:17.279931"
+  }
+ ],
+ "points": [
+  {
+   "id": 8188,
+   "case_id": 193,
+   "case_title": "This service claims that your personal data is not being sold",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 2060,
+   "quote_text": "We don’t use your data for ad targeting, we don’t sell it to others",
+   "quote_start": 10819,
+   "quote_end": 10886,
+   "created_at": "2019-10-29T13:00:48.657342",
+   "updated_at": "2023-07-11T06:36:12.553566",
+   "source": "https://telegram.org/faq",
+   "title": "This service does not sell your personal data"
+  },
+  {
+   "id": 8168,
+   "case_id": 140,
+   "case_title": "You can retrieve an archive of your data",
+   "classification": "good",
+   "status": "approved",
+   "document_id": null,
+   "quote_text": null,
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2019-10-28T14:05:25.704258",
+   "updated_at": "2020-12-15T09:44:07.024883",
+   "source": "https://telegram.org/blog/export-and-more",
+   "title": "This service allows you to retrieve an archive of your data"
+  },
+  {
+   "id": 37392,
+   "case_id": 239,
+   "case_title": "Private messages can be read",
+   "classification": "blocker",
+   "status": "approved",
+   "document_id": 2058,
+   "quote_text": "Cloud Chats</h5>\n<p>Telegram is a cloud service. We store messages, photos, videos and documents from your <em>cloud chats</em> on our servers so that you can access your data from any of your devices anytime without having to rely on third-party backups.",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2024-11-17T11:24:30.726931",
+   "updated_at": "2026-03-01T23:18:07.038112",
+   "source": "",
+   "title": "Private messages can be read"
+  }
+ ]
+}
