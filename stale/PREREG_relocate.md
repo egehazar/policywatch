@@ -91,3 +91,5 @@ Fable's attacks and what changes. The primary reading above is unchanged.
   published, so no split is possible. Stated as a limit.
 - DocBot (ToS;DR's per-case classifiers) is the incumbent; it is not run here (not available as a local model in this
   setup). Stated as a limit.
+- Note on DocBot (checked 11:31Z): github.com/tosdr/DocBot describes 123 per-case fine-tuned classifiers run weekly on
+  ToS;DR's infrastructure; no published model was found to run locally.
