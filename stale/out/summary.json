@@ -1,0 +1,142 @@
+{
+ "total": {
+  "approved_with_quote": 1114,
+  "not in archive": 177,
+  "gone": 97,
+  "present": 757,
+  "partly": 83
+ },
+ "platforms": {
+  "BeReal": {
+   "approved_with_quote": 29,
+   "not in archive": 29
+  },
+  "Bluesky": {
+   "approved_with_quote": 86,
+   "gone": 3,
+   "present": 79,
+   "partly": 1,
+   "not in archive": 3
+  },
+  "Facebook": {
+   "approved_with_quote": 64,
+   "partly": 7,
+   "gone": 6,
+   "present": 32,
+   "not in archive": 19
+  },
+  "Instagram": {
+   "approved_with_quote": 78,
+   "not in archive": 25,
+   "present": 15,
+   "gone": 34,
+   "partly": 4
+  },
+  "LINE": {
+   "approved_with_quote": 32,
+   "gone": 8,
+   "not in archive": 3,
+   "partly": 11,
+   "present": 10
+  },
+  "LinkedIn": {
+   "approved_with_quote": 20,
+   "present": 13,
+   "not in archive": 2,
+   "gone": 4,
+   "partly": 1
+  },
+  "Mastodon": {
+   "approved_with_quote": 20,
+   "not in archive": 14,
+   "partly": 1,
+   "present": 5
+  },
+  "Parler": {
+   "approved_with_quote": 24,
+   "not in archive": 4,
+   "partly": 4,
+   "present": 15,
+   "gone": 1
+  },
+  "Pinterest": {
+   "approved_with_quote": 91,
+   "not in archive": 13,
+   "present": 56,
+   "partly": 19,
+   "gone": 3
+  },
+  "Quora": {
+   "approved_with_quote": 32,
+   "gone": 17,
+   "present": 8,
+   "partly": 7
+  },
+  "Reddit": {
+   "approved_with_quote": 95,
+   "present": 91,
+   "gone": 2,
+   "not in archive": 2
+  },
+  "Snapchat": {
+   "approved_with_quote": 85,
+   "present": 80,
+   "not in archive": 1,
+   "partly": 4
+  },
+  "Spotify": {
+   "approved_with_quote": 73,
+   "present": 67,
+   "gone": 3,
+   "partly": 3
+  },
+  "Telegram": {
+   "approved_with_quote": 2,
+   "not in archive": 1,
+   "gone": 1
+  },
+  "Threads": {
+   "approved_with_quote": 0
+  },
+  "TikTok": {
+   "approved_with_quote": 39,
+   "not in archive": 34,
+   "present": 3,
+   "gone": 2
+  },
+  "Tumblr": {
+   "approved_with_quote": 54,
+   "present": 53,
+   "gone": 1
+  },
+  "Twitch": {
+   "approved_with_quote": 40,
+   "present": 26,
+   "gone": 2,
+   "not in archive": 7,
+   "partly": 5
+  },
+  "WeChat": {
+   "approved_with_quote": 0
+  },
+  "WhatsApp": {
+   "approved_with_quote": 72,
+   "gone": 8,
+   "not in archive": 17,
+   "present": 34,
+   "partly": 13
+  },
+  "X": {
+   "approved_with_quote": 101,
+   "present": 97,
+   "gone": 2,
+   "partly": 2
+  },
+  "YouTube": {
+   "approved_with_quote": 77,
+   "present": 73,
+   "not in archive": 3,
+   "partly": 1
+  }
+ }
+}
