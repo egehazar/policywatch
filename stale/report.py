@@ -3,7 +3,7 @@
 No model decides anything on this page. Quote coverage and passage alignment are string matching (stale/match.py,
 stale/triage.py). If stale/out/triage.jsonl exists, the decision model's answer to the point's case question on the
 old and new passage is shown as a hint.
-Usage  py -m stale.report [repo url]
+Usage  py -m stale.report [repo url] [bm25|bge|kev]   (the arm whose stale/out/suggest_<arm>.jsonl is shown; default bm25)
 """
 import json, os, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
@@ -17,7 +17,20 @@ def jl(p):
     return [json.loads(l) for l in open(p, encoding='utf-8')] if os.path.exists(p) else []
 
 
-def build(repo=REPO):
+ARMS = {'bm25': 'word match on the case title (BM25)', 'bge': 'embedding similarity to the case title (bge-small)',
+        'kev': 'decision model (Kev-4B), p(yes) for the case question'}
+
+
+def suggestion(s, arm):
+    if not s: return ''
+    tops = ''.join(f'<div class="diff"><span class="ctx">{k}. passage {t["piece"] + 1} of {s["n_pieces"]} (score {t["score"]:.3g}):</span>\n'
+                   f'{esc(t["text"][:900])}{"…" if len(t["text"]) > 900 else ""}</div>' for k, t in enumerate(s['top'], 1))
+    return (f'<details class="sm"><summary>Where the case may be stated now: top {len(s["top"])} passages of the current text by '
+            f'{esc(ARMS.get(arm, arm))}. A place to look, not a verdict: the case may no longer be stated at all.</summary>{tops}</details>')
+
+
+def build(repo=REPO, arm='bm25'):
+    sug = {r['point']: r for r in jl(os.path.join(HERE, 'out', f'suggest_{arm}.jsonl'))}
     pts = jl(os.path.join(HERE, 'out', 'points.jsonl'))
     pas = {r['point']: r for r in jl(os.path.join(HERE, 'out', 'passages.jsonl'))}
     tri = {r['point']: r for r in jl(os.path.join(HERE, 'out', 'triage.jsonl'))}
@@ -89,7 +102,8 @@ def build(repo=REPO):
             f'<div class="sm mut">{esc(r["doc"].split("/")[1][:-3])} · quote {r["status"]} since '
             f'<a href="{repo}/commit/{d["commit"]}">{d["date"]}</a> ({esc(d["subject"])}) · point last edited '
             f'{esc(r["point_updated_at"])}, {when} the change · current coverage {r["current_coverage"]:.0%}</div>'
-            f'{phl}<p class="sm"><i>Quote:</i> {esc(re.sub(r"<[^<>]*>", "", r["quote"])[:600])}</p>{diff}{hint}</div>')
+            f'{phl}<p class="sm"><i>Quote:</i> {esc(re.sub(r"<[^<>]*>", "", r["quote"])[:600])}</p>{diff}{hint}'
+            f'{suggestion(sug.get(r["point"]), arm)}</div>')
     out = os.path.join(ROOT, 'out', 'site'); os.makedirs(out, exist_ok=True)
     path = os.path.join(out, 'stale.html')
     with open(path, 'w', encoding='utf-8') as f: f.write(page('Stale evidence', ''.join(body)))
