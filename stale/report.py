@@ -21,6 +21,7 @@ def build(repo=REPO):
     pts = jl(os.path.join(HERE, 'out', 'points.jsonl'))
     pas = {r['point']: r for r in jl(os.path.join(HERE, 'out', 'passages.jsonl'))}
     tri = {r['point']: r for r in jl(os.path.join(HERE, 'out', 'triage.jsonl'))}
+    phx = {r['point']: r for r in jl(os.path.join(HERE, 'out', 'phoenix.jsonl'))}
     S = json.load(open(os.path.join(HERE, 'out', 'summary.json'), encoding='utf-8'))
     T = S['total']
     rows = ''.join(f'<tr><td>{esc(p)}</td><td>{v.get("approved_with_quote", 0)}</td><td>{v.get("present", 0)}</td>'
@@ -39,7 +40,13 @@ def build(repo=REPO):
     drops = [r for r in pts if r['status'] in ('gone', 'partly') and r.get('drop_kind') == 'platform edit']
     drops.sort(key=lambda r: (r['platform'], r['dropped_at']['date']), reverse=False)
     other = sum(1 for r in pts if r['status'] in ('gone', 'partly') and r.get('drop_kind') != 'platform edit')
+    held = [r for r in drops if (phx.get(r['point'], {}).get('quote_in_phoenix') or 0) >= .8]
+    lack = [r for r in drops if r['point'] in phx and (phx[r['point']].get('quote_in_phoenix') or 0) < .8]
     body = [head, f'<h2>{len(drops)} points whose quote dropped in a platform edit</h2>'
+                  f'<p><b>{len(held)}</b> of them still read correctly against ToS;DR&rsquo;s own stored copy of the document, which '
+                  'predates the platform&rsquo;s edit: the points are not wrong on ToS;DR, its copy is out of date, and a re-crawl '
+                  f'would mark them not found. <b>{len(lack)}</b> are approved although ToS;DR&rsquo;s stored copy no longer holds the '
+                  'quote either.</p>'
                   f'<p class="mut sm">{other} more dropped at an archive extraction change or have no single drop version; '
                   'they are not listed because the platform may not have changed anything.</p>']
     cur = None
@@ -67,13 +74,22 @@ def build(repo=REPO):
                     f'shared):</span>\n{esc(ps["new"])}</div>')
         else:
             diff = '<p class="sm mut">The quote could not be placed in the old text (it spans several passages).</p>'
+        x = phx.get(r['point'])
+        if x and (x.get('quote_in_phoenix') or 0) >= .8:
+            phl = (f'<div class="sm">ToS;DR&rsquo;s stored copy (document {x["phoenix_doc"]}) still holds the quote; it matches the '
+                   f'archive as of {esc(x["phoenix_closest_version"])} ({x["phoenix_closest_share"]:.0%}): <b>re-crawl pending</b></div>')
+        elif x:
+            phl = (f'<div class="sm">ToS;DR&rsquo;s stored copy (document {x["phoenix_doc"]}, close to the archive as of '
+                   f'{esc(x["phoenix_closest_version"])}) <b>no longer holds the quote</b>, yet the point is approved</div>')
+        else:
+            phl = ''
         body.append(
             f'<div class="card"><div class="row"><b>{esc(r["case_title"])}</b>{badge(r.get("classification"))}'
             f'<a class="sm" href="https://edit.tosdr.org/points/{r["point"]}">point {r["point"]}</a></div>'
             f'<div class="sm mut">{esc(r["doc"].split("/")[1][:-3])} · quote {r["status"]} since '
             f'<a href="{repo}/commit/{d["commit"]}">{d["date"]}</a> ({esc(d["subject"])}) · point last edited '
             f'{esc(r["point_updated_at"])}, {when} the change · current coverage {r["current_coverage"]:.0%}</div>'
-            f'<p class="sm"><i>Quote:</i> {esc(re.sub(r"<[^<>]*>", "", r["quote"])[:600])}</p>{diff}{hint}</div>')
+            f'{phl}<p class="sm"><i>Quote:</i> {esc(re.sub(r"<[^<>]*>", "", r["quote"])[:600])}</p>{diff}{hint}</div>')
     out = os.path.join(ROOT, 'out', 'site'); os.makedirs(out, exist_ok=True)
     path = os.path.join(out, 'stale.html')
     with open(path, 'w', encoding='utf-8') as f: f.write(page('Stale evidence', ''.join(body)))
