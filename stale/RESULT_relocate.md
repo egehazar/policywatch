@@ -102,3 +102,38 @@ Following the plan fixed before the result (Fable 5.2 r26):
 - **Two small asymmetries, both concerning QNN, neither favouring Kev.** In 12 of 200 points another company's quote
   for the same case is boilerplate that overlaps this point's gold, which helps QNN. QNN's comparison quotes are
   reduced to bare lowercase words, which may hurt it a little.
+
+## Stress checks (2026-11-12 22:50 UTC, exploratory, after the result)
+`python -m stale.reloc_stress`, computed from the scores on disk. None of these is pre-registered.
+
+**Kev reads the question.**
+- With the right question, Kev's top piece is a gold piece for 61% of points.
+- With another point's question from the same document, it is a gold piece for 6.3% (chance 3.8%, BM25 5.2%, bge
+  4.8%; 196 points).
+- So the result is not Kev picking prominent passages regardless of the question.
+
+**The interval holds under stricter clustering.** The 111 cases recur across documents. Resampling cases, or
+documents and cases independently (two-way), widens the intervals but leaves them above 0:
+
+| | point | cases | documents x cases |
+|---|---|---|---|
+| KEV - BM25 | +.26 | [+.17, +.36] | [+.11, +.39] |
+| KEV - BGE | +.33 | [+.23, +.42] | [+.18, +.46] |
+
+**The gold threshold does not matter.** Requiring .5 or .8 of the quote's 6-grams instead of .3 gives Kev .618 / .60,
+BM25 .357 / .354 and bge .291 / .287.
+
+**Kev wins where lexical matching fails.**
+- On the 128 points BM25 misses, Kev hits 53%.
+- On the 76 points Kev misses, BM25 hits 21%.
+- Kev's lead is on the hard points, not a cleaner version of BM25's hits.
+
+**Recent points.**
+- 161 of the 200 points were created on ToS;DR in March-July 2026 (a curation campaign on the large platforms):
+  Kev .59, BM25 .34, bge .29.
+- Since June 2026 (17 points): Kev .65.
+- This counts against memorisation of ToS;DR's pairings unless Kev's training data reaches 2026 ToS;DR pages.
+
+**A limit found.** The 2026 campaign may have been AI-assisted; ToS;DR's AI policy requires disclosure, but a point
+record does not show it. If curators chose quotes with an LLM, an LLM-based arm could agree with them for that reason.
+Part B's held-out points (`stale/PREREG_relocate2b.md`) were mostly created in 2019-2021, before that was possible.
