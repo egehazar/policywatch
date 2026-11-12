@@ -15,3 +15,7 @@ b1d9774424d35362b6dbf6bc0f9beabbd4ce8972253b7ca53b45dc102c5db024 *stale/PREREG_r
 931f716d687ad4527a44492923ce098880fd637dd228d63d257225fbbc61481d *stale/PREREG_relocate.md
 # N rule code 2026-11-12T11:30:40Z (before the bench's Kev timing exists)
 b6aff87a6ab879dddaf8aee937890dfb8e0504933dff353951dcacfa761467d0 *stale/cost.py
+# N rule 2026-11-12T14:39:07Z: py -m stale.cost -> N=200 (fit on 90 timed requests, 6 h budget); no relocation arm scored yet
+73256085e04f26f071bc30839553df1a9d4e16d7925190204dcd35cd0f09471b *bench/out/kev_timing.jsonl
+9ee85c77a75c44960811aa85b2bbd4ce59ba86139a8e92dd9e79017a40fa57a4 *bench/out/kev_scale.jsonl
+b6aff87a6ab879dddaf8aee937890dfb8e0504933dff353951dcacfa761467d0 *stale/cost.py
