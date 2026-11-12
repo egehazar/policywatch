@@ -8,3 +8,6 @@ b72b6475556a6ce97968cb3ef80b10bfd229b84ae13bd74a9866975e74786ec6 *policywatch/wa
 63d37aadf541e1545a532b511128647da2727dedd6699e41affc6e4073137c7e *policywatch/diffing.py
 d6acb9a179392c78eb40dc174b7599550144b28268c30dc1504c60b032498844 *stale/out/points.jsonl
 69f7f35ddb5bcdb194292f29beb8a599ac5c081bdc26240bff6fbf9f7751b45c *stale/out/reloc_docs.json
+# addendum 1 2026-11-12T11:29:09Z (QNN arm and secondary metrics; still before any arm scored a piece)
+b1d9774424d35362b6dbf6bc0f9beabbd4ce8972253b7ca53b45dc102c5db024 *stale/PREREG_relocate.md
+2c51e2385927842bb624eb3d552d205aa41c6fa4891d770eeb0d4be1674bd6f4 *stale/relocate.py

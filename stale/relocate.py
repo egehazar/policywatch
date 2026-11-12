@@ -22,6 +22,7 @@ from policywatch.watch import pieces
 from stale.match import words, grams, coverage
 from stale.triage import TEMPLATE
 
+COMPANY = {'Facebook': 'Meta', 'Instagram': 'Meta', 'Threads': 'Meta', 'WhatsApp': 'Meta', 'Twitter': 'X'}
 PIECE = 1500; GOLD_MIN = .3; GOLD_MAX = 3; KS = (1, 3, 5); SEED = 20261112
 DOCS = os.path.join(OUT, 'reloc_docs.json')
 BGE_INSTR = 'Represent this sentence for searching relevant passages: '
@@ -127,7 +128,16 @@ def base():
     os.environ.setdefault('HF_HUB_OFFLINE', '1'); os.environ.setdefault('TRANSFORMERS_OFFLINE', '1')
     from sentence_transformers import SentenceTransformer
     m = SentenceTransformer('BAAI/bge-small-en-v1.5', device='cpu')
-    docs = json.load(open(DOCS, encoding='utf-8'))['docs']; out = {'BGE': {}, 'BM25': {}, 'pieces_sha': {}}
+    docs = json.load(open(DOCS, encoding='utf-8'))['docs']; out = {'BGE': {}, 'BM25': {}, 'QNN': {}, 'QNN_fallback': {}, 'pieces_sha': {}}
+    # QNN (addendum 1, Fable r25): approved quotes for the same case from OTHER companies' documents, nearest neighbour
+    rows = [json.loads(l) for l in open(os.path.join(OUT, 'points.jsonl'), encoding='utf-8')]
+    byc = {}
+    for r in rows:
+        if len(words(r['quote'], quote=True)) >= 6:
+            byc.setdefault(r['case_title'], []).append((COMPANY.get(r['platform'], r['platform']), ' '.join(words(r['quote'], quote=True))))
+    qv = {}
+    for c, lst in byc.items():
+        V = m.encode([t for _, t in lst], normalize_embeddings=True, batch_size=32); qv[c] = [(co, V[i]) for i, (co, _) in enumerate(lst)]
     for d in docs:
         out['pieces_sha'][d['doc']] = psha(d['pieces'])
         E = m.encode(d['pieces'], normalize_embeddings=True, batch_size=32)
@@ -135,6 +145,14 @@ def base():
         S = Qv @ E.T
         out['BGE'][d['doc']] = {q: [round(float(x), 5) for x in S[k]] for k, q in enumerate(d['questions'])}
         out['BM25'][d['doc']] = {q: [round(x, 5) for x in bm25(c, d['pieces'])] for q, c in zip(d['questions'], d['cases'])}
+        co = COMPANY.get(d['doc'].split('/')[0], d['doc'].split('/')[0]); out['QNN'][d['doc']] = {}; out['QNN_fallback'][d['doc']] = []
+        for k, (q, c) in enumerate(zip(d['questions'], d['cases'])):
+            others = [v for co2, v in qv.get(c, []) if co2 != co]
+            if others:
+                import numpy as np
+                out['QNN'][d['doc']][q] = [round(float(x), 5) for x in (np.stack(others) @ E.T).max(axis=0)]
+            else:     # no other company has an approved quote for this case: fall back to the title (= BGE)
+                out['QNN'][d['doc']][q] = out['BGE'][d['doc']][q]; out['QNN_fallback'][d['doc']].append(q)
     with open(os.path.join(OUT, 'reloc_base.json'), 'w', encoding='utf-8') as f: json.dump(out, f)
     print('base arms written for', len(docs), 'documents')
 
@@ -167,25 +185,31 @@ def evaluate(n):
     bad = [d['doc'] for d in docs if K[d['doc']]['pieces_sha'] != psha(d['pieces']) or B['pieces_sha'][d['doc']] != psha(d['pieces'])]
     assert not bad, f'pieces changed since scoring: {bad[:3]}'
     arm_scores = {'KEV': lambda d, q: [s[q] for s in K[d]['scores']], 'BGE': lambda d, q: B['BGE'][d][q],
-                  'BM25': lambda d, q: B['BM25'][d][q]}
+                  'BM25': lambda d, q: B['BM25'][d][q], 'QNN': lambda d, q: B['QNN'][d][q]}
     per = []          # one row per gold point
     for d in docs:
         n = len(d['pieces'])
         for it in d['items']:
             if it['point'] not in chosen: continue
-            row = {'point': it['point'], 'doc': d['doc'], 'n_pieces': n, 'n_gold': len(it['gold'])}
+            row = {'point': it['point'], 'doc': d['doc'], 'case': it['case_title'], 'n_pieces': n, 'n_gold': len(it['gold']),
+                   'qnn_fallback': it['question'] in B['QNN_fallback'][d['doc']]}
             for a, f in arm_scores.items():
                 hk, rr = hit(f(d['doc'], it['question']), it['gold'], 1); row[a] = {'hit': hk, 'rr': rr}
             g = len(it['gold']); row['RANDOM'] = {'hit': {k: min(1.0, 1 - math.comb(n - g, k) / math.comb(n, k)) if n - g >= k else 1.0 for k in KS},
                                                  'rr': None}
             per.append(row)
-    arms = ['KEV', 'BGE', 'BM25', 'RANDOM']
+    arms = ['KEV', 'BGE', 'BM25', 'QNN', 'RANDOM']
     assert len(per) == len(chosen), (len(per), len(chosen))
     res = {'N': int(n), 'points': len(per), 'documents': len({r['doc'] for r in per}),
            'hit_at': {a: {k: round(sum(r[a]['hit'][k] for r in per) / len(per), 3) for k in KS} for a in arms},
            'mrr': {a: round(sum(r[a]['rr'] for r in per) / len(per), 3) for a in arms if a != 'RANDOM'}}
+    # addendum 1 (secondary, not the reading): chance-adjusted hit@1, case-averaged hit@1, QNN
+    res['hit1_minus_chance'] = {a: round(sum(r[a]['hit'][1] - r['RANDOM']['hit'][1] for r in per) / len(per), 3) for a in arms if a != 'RANDOM'}
+    cases = sorted({r['case'] for r in per})
+    res['hit1_case_averaged'] = {a: round(sum(sum(r[a]['hit'][1] for r in per if r['case'] == c) / sum(1 for r in per if r['case'] == c) for c in cases) / len(cases), 3) for a in arms}
+    res['cases'] = len(cases); res['qnn_fallback_points'] = sum(r['qnn_fallback'] for r in per)
     rng = random.Random(SEED); docs_ = sorted({r['doc'] for r in per}); by = {d: [r for r in per if r['doc'] == d] for d in docs_}
-    for other in ('BGE', 'BM25'):
+    for other in ('BGE', 'BM25', 'QNN'):
         diffs = []
         for _ in range(2000):     # cluster bootstrap over documents (points within a document are not independent)
             smp = [r for d in (rng.choice(docs_) for _ in docs_) for r in by[d]]

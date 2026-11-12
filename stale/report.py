@@ -50,7 +50,10 @@ def build(repo=REPO):
         when = 'before' if r.get('drop_after_point_update') else 'after'      # drop after the edit = edited before it
         hint = ''
         t = tri.get(r['point'])
-        if t and t.get('p_old') is not None:
+        if t and t.get('p_old') is not None and ps and ps.get('removed'):
+            hint = (f'<div class="sm">Decision model, "{esc(t["question"])}": old passage {t["p_old"]:.2f} '
+                    '(no new passage to compare; a hint, not a verdict)</div>')
+        elif t and t.get('p_old') is not None:
             hint = (f'<div class="sm">Decision model, "{esc(t["question"])}": old passage {t["p_old"]:.2f}, new passage '
                     f'{t["p_new"]:.2f} (a hint, not a verdict)</div>')
         if ps and ps.get('removed'):

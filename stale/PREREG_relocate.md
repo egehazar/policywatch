@@ -71,3 +71,23 @@ this test is about the manual step after it.
 
 ## My prediction (before scoring)
 hit@1 about KEV .45, BGE .35, BM25 .30. P(DECISION MODEL BETTER) = 50%. P(BASELINE BETTER) = 10%.
+
+## Addendum 1 (before any arm scored a piece; after Fable 5.2 r25's critique)
+Fable's attacks and what changes. The primary reading above is unchanged.
+- "It tests discovery, not relocation": at relocation time the old quote exists, and the obvious tool is "the new
+  passage most similar to the old quote" (the curator page already shows it). Accepted: this test asks whether an arm
+  can find where a case is stated from the case alone, which is the step when no usable old quote exists (heavy
+  rewrites, the 61 "no similar passage" points). It is not the whole relocation workflow; the write-up says so.
+- "Survivors, no null": every point here has an answer in the document, so the costly error (re-anchoring a point to a
+  passage that does not state the case, or keeping a point that no longer holds) cannot occur. Accepted: this test
+  cannot show the keep / re-anchor / decline decision. That needs its own test with negatives, pre-registered
+  separately before scoring.
+- "Unfair to bge and BM25": they get one abstract title. Added a secondary arm QNN: bge-small nearest neighbour
+  between each piece and the approved quotes for the same case on OTHER companies' documents (Facebook, Instagram,
+  Threads and WhatsApp count as one company, Meta; X and Twitter as one); falls back to the title (= BGE) when no other
+  company has such a quote. Reported with its KEV-minus interval; it does not change the reading.
+- "Scoring": also reported, secondary: hit@1 minus chance, hit@1 averaged within case then across cases, MRR.
+- "Kev may have memorised these policies": the current versions are 2025-2026 texts; Kev's training cutoff is not
+  published, so no split is possible. Stated as a limit.
+- DocBot (ToS;DR's per-case classifiers) is the incumbent; it is not run here (not available as a local model in this
+  setup). Stated as a limit.
