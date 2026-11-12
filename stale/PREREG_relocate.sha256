@@ -13,3 +13,5 @@ b1d9774424d35362b6dbf6bc0f9beabbd4ce8972253b7ca53b45dc102c5db024 *stale/PREREG_r
 2c51e2385927842bb624eb3d552d205aa41c6fa4891d770eeb0d4be1674bd6f4 *stale/relocate.py
 # addendum 1 note 2026-11-12T11:29:28Z (DocBot availability wording only)
 931f716d687ad4527a44492923ce098880fd637dd228d63d257225fbbc61481d *stale/PREREG_relocate.md
+# N rule code 2026-11-12T11:30:40Z (before the bench's Kev timing exists)
+b6aff87a6ab879dddaf8aee937890dfb8e0504933dff353951dcacfa761467d0 *stale/cost.py
