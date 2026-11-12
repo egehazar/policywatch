@@ -61,7 +61,7 @@ text. It does not show that a specific approved answer for that service became w
 service's actual approved answers (for example its ToS;DR points) is future work.
 
 ## Accuracy
-Three measurements, all shown on the site's "How it works" page:
+Four measurements; the first three are shown on the site's "How it works" page:
 1. **Frozen test** (`python -m policywatch eval`): the pre-registered verdict of that test (quoted, never
    recomputed), then recall at k and precision/recall at the flag threshold on the 35 updates above. One-rater items
    are counted both ways. n = 25 real changes, LLM raters, one model.
@@ -84,6 +84,15 @@ Three measurements, all shown on the site's "How it works" page:
      - a second rater's mapping
    - 8 of the 19 memos have no recorded update within 10 days and are left out.
 3. **Running human record** (`serve`): precision of flags and audited misses, as counts.
+4. **Decision model vs an ordinary LLM** (`bench/`, `eval/PREREG_kev_vs_llm.md`, result in
+   `eval/RESULT_kev_vs_llm.md`). Same 35 updates and CPU, against Qwen3.5-4B (Kev's base family, instruct, Q8_0).
+   - Pre-registered reading: **no clear winner**. Kev finds more, but at more than the 2x CPU the rule allowed.
+   - Changes found within 182 reviews, of 25:
+     - Kev: 20, at 180 s of CPU per update
+     - Qwen answering all 70 questions yes/no on each side: 12, at 82 s
+     - Qwen asked to list the changed questions (the pre-registered comparator): 2, at 49 s. It answered "none" on
+       32 of 35 updates.
+   - Kev's cost is about 1.1 s per question whatever the text length: 80 s for 70 questions, 580 s for 500.
 
 ## Stale evidence for ToS;DR points (`stale/`)
 ToS;DR approves each point with a quote from the platform's document. When the platform rewrites that passage, the

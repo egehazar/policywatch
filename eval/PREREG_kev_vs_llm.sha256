@@ -3,3 +3,9 @@
 # implementation frozen 2026-11-11T22:38:03Z (no real run; bench/out empty)
 23365a2ed555bcc7daaece31384f2ec64b1f6b1c3623c496706c42e893916d9d *eval/PREREG_kev_vs_llm.md
 b7775f9ad846018dda35b6f46280ddb68ad56801701dcbc80293747355b6fa64 *bench/kev_vs_llm.py
+# bench result 2026-11-12T14:38:17Z
+9ee85c77a75c44960811aa85b2bbd4ce59ba86139a8e92dd9e79017a40fa57a4 *bench/out/kev_scale.jsonl
+73256085e04f26f071bc30839553df1a9d4e16d7925190204dcd35cd0f09471b *bench/out/kev_timing.jsonl
+3c6cb1fa0286ac76c5adb91b878942d17de1b5c64926006d68cb62e0475582c9 *bench/out/llm_diff.jsonl
+885f8c58d6469e179059d797d24562ee3a8e10cd92186475843d9339f12f4f2c *bench/out/llm_qa.jsonl
+203e1fe155ca4d77a1e99364b7a703414ea3542c9e76b17648cad5a10e21c1d0 *bench/out/result.json
