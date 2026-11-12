@@ -85,6 +85,37 @@ Three measurements, all shown on the site's "How it works" page:
    - 8 of the 19 memos have no recorded update within 10 days and are left out.
 3. **Running human record** (`serve`): precision of flags and audited misses, as counts.
 
+## Stale evidence for ToS;DR points (`stale/`)
+ToS;DR approves each point with a quote from the platform's document. When the platform rewrites that passage, the
+point keeps pointing at text that is no longer there. `stale/` checks every approved quote against every recorded
+version of the platform's documents in Open Terms Archive. This part is string matching only: no model decides
+anything.
+
+- **Snapshot 2026-11-12.** 22 pga-versions platforms are on ToS;DR; 20 have approved points with a quote, 1,114 in
+  all.
+  - 757 quotes are in the current text, 83 partly and 97 gone. 177 are in no archived version: the document is not
+    tracked, or the quote is older than the archive.
+  - 141 quotes dropped in an edit by the platform itself (82 gone, 59 partly), each with the archive commit where
+    it dropped. 39 more dropped at an archive extraction change or have no single drop version, and are not listed.
+  - For 133 of the 141, ToS;DR's own stored copy of the document still holds the quote: the copy predates the edit,
+    and a re-crawl would mark them "approved-not-found". For 8, the stored copy no longer holds the quote, yet the
+    point is approved (`stale/phoenix.py`).
+- **Prior art.** ToS;DR already marks a point "approved-not-found" when a re-crawl misses its quote. Curators then
+  re-find the quote by hand (their Dec 2020 re-crawl did this to 1,589 points). What this adds: when the quote dropped,
+  whether the platform or the archive changed, and the passage that replaced it.
+- **Curator page.** `py -m stale.report` writes `out/site/stale.html`: each point with the old passage, the most
+  similar new passage (or "no similar passage") and the drop commit. `stale/out/stale_points.csv` has one row per
+  point.
+- **Daily.** `py -m stale.daily <pga-versions>` fast-forwards the archive, refreshes ToS;DR's approved points
+  incrementally (one request per platform, plus one per new or edited point) and lists what changed since the last run:
+  new drops, new points, recovered quotes. Output goes to `stale/live/` (`digest.html`, one JSON per run). The
+  snapshot above is never rewritten.
+- **Where the decision model would come in: relocation.** When a quote is gone, a curator has to find the passage that
+  now states the case, or decline the point. A pre-registered test (`stale/PREREG_relocate.md`, hashed before any
+  arm was scored) asks whether Kev-4B finds the curator's own quoted passage among a document's 1,500-character pieces
+  better than bge-small and BM25. It uses the points whose quote is still present, so the curator's quote is the
+  answer key. Result: pending.
+
 ## Run
 ```
 llama-server -m kev-4b-q8.gguf --port 9995 -np 4 -c 16384      # a llama.cpp build with /v1/systemone
