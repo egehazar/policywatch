@@ -65,6 +65,13 @@ Three measurements, all shown on the site's "How it works" page:
 1. **Frozen test** (`python -m policywatch eval`): the pre-registered verdict of that test (quoted, never
    recomputed), then recall at k and precision/recall at the flag threshold on the 35 updates above. One-rater items
    are counted both ways. n = 25 real changes, LLM raters, one model.
+   - **Result (2026-11-12): the pre-registered test FAILED.** The bar was 24 of the 25 changes within 182 reviewed
+     answers, half of the shortcut's 365. The tool's ranked list needed 684.
+   - The tool still ranks usefully. At 182 reviews it holds 19 of the 25 changes (20 without the number/date rule);
+     the shortcut re-reads 365 and holds 13. But it is not near-complete, and for this job a missed broken answer is
+     the costly error.
+   - Most of its late misses are updates where the model already misread the old text.
+   - A blind human check of the LLM raters' answer key is in progress (`audit/`, `eval/PREREG_human_audit.md`).
 2. **Human write-ups** (`python -m policywatch memocheck`): Open Terms Archive memos about these documents. Each memo
    was mapped to the questions a correct tool should move before anything was scored (`eval/memo_targets.json`,
    hashes in `eval/MEMO_TARGETS.sha256`).
