@@ -1,0 +1,2164 @@
+{
+ "archive_head": "b2ac8a9367544a3591bd88d96f0581c9cef6121c",
+ "piece_chars": 1500,
+ "batches": [
+  {
+   "batch": 0,
+   "docs": {
+    "D1": "Bluesky/Privacy Policy.md",
+    "D2": "Bluesky/Terms of Service.md"
+   },
+   "chars": 68241
+  },
+  {
+   "batch": 1,
+   "docs": {
+    "D1": "Facebook/Privacy Policy.md"
+   },
+   "chars": 204995
+  },
+  {
+   "batch": 2,
+   "docs": {
+    "D1": "Facebook/Terms of Service.md",
+    "D2": "Facebook/Trackers Policy.md"
+   },
+   "chars": 34726
+  },
+  {
+   "batch": 3,
+   "docs": {
+    "D1": "Instagram/Community Guidelines.md"
+   },
+   "chars": 200085
+  },
+  {
+   "batch": 4,
+   "docs": {
+    "D1": "Instagram/Privacy Policy.md",
+    "D2": "Instagram/Terms of Service.md",
+    "D3": "LINE/Privacy Policy.md"
+   },
+   "chars": 190792
+  },
+  {
+   "batch": 5,
+   "docs": {
+    "D1": "LINE/Terms of Service.md",
+    "D2": "LinkedIn/Privacy Policy.md",
+    "D3": "Parler/Terms of Service.md",
+    "D4": "Pinterest/Community Guidelines.md"
+   },
+   "chars": 156805
+  },
+  {
+   "batch": 6,
+   "docs": {
+    "D1": "Pinterest/Privacy Policy.md",
+    "D2": "Pinterest/Terms of Service.md",
+    "D3": "Quora/Privacy Policy.md",
+    "D4": "Quora/Terms of Service.md"
+   },
+   "chars": 154017
+  },
+  {
+   "batch": 7,
+   "docs": {
+    "D1": "Reddit/Privacy Policy.md",
+    "D2": "Reddit/Terms of Service.md",
+    "D3": "Snapchat/Privacy Policy.md"
+   },
+   "chars": 137903
+  },
+  {
+   "batch": 8,
+   "docs": {
+    "D1": "Snapchat/Terms of Service.md",
+    "D2": "Spotify/Privacy Policy.md"
+   },
+   "chars": 149712
+  },
+  {
+   "batch": 9,
+   "docs": {
+    "D1": "Spotify/Terms of Service.md",
+    "D2": "Telegram/Privacy Policy.md",
+    "D3": "TikTok/Copyright Claims Policy.md",
+    "D4": "Tumblr/Privacy Policy.md"
+   },
+   "chars": 152507
+  },
+  {
+   "batch": 10,
+   "docs": {
+    "D1": "Twitch/Terms of Service.md",
+    "D2": "Twitch/Trackers Policy.md",
+    "D3": "WhatsApp/Privacy Policy.md",
+    "D4": "WhatsApp/Terms of Service.md"
+   },
+   "chars": 189186
+  },
+  {
+   "batch": 11,
+   "docs": {
+    "D1": "X/Terms of Service.md",
+    "D2": "YouTube/Privacy Policy.md"
+   },
+   "chars": 156337
+  }
+ ],
+ "plan": {
+  "Bluesky/Privacy Policy.md": [
+   {
+    "case": 223,
+    "kind": "control",
+    "points": [
+     326715
+    ],
+    "gold": [
+     13
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 185,
+    "kind": "control",
+    "points": [
+     320873
+    ],
+    "gold": [
+     8,
+     10
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 336,
+    "kind": "stale",
+    "points": [
+     75815
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 195,
+    "kind": "control",
+    "points": [
+     37422
+    ],
+    "gold": [
+     14
+    ],
+    "label": "C4"
+   }
+  ],
+  "Bluesky/Terms of Service.md": [
+   {
+    "case": 486,
+    "kind": "stale",
+    "points": [
+     37416
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 339,
+    "kind": "stale",
+    "points": [
+     75817
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 402,
+    "kind": "control",
+    "points": [
+     320819
+    ],
+    "gold": [
+     4
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 170,
+    "kind": "control",
+    "points": [
+     320824
+    ],
+    "gold": [
+     8
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 230,
+    "kind": "stale",
+    "points": [
+     37417
+    ],
+    "label": "C5"
+   },
+   {
+    "case": 295,
+    "kind": "control",
+    "points": [
+     320849
+    ],
+    "gold": [
+     22
+    ],
+    "label": "C6"
+   }
+  ],
+  "Facebook/Privacy Policy.md": [
+   {
+    "case": 504,
+    "kind": "stale",
+    "points": [
+     320777
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 400,
+    "kind": "control",
+    "points": [
+     320771
+    ],
+    "gold": [
+     6
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 336,
+    "kind": "control",
+    "points": [
+     320783
+    ],
+    "gold": [
+     26
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 399,
+    "kind": "control",
+    "points": [
+     320772
+    ],
+    "gold": [
+     6
+    ],
+    "label": "C4"
+   }
+  ],
+  "Facebook/Terms of Service.md": [
+   {
+    "case": 144,
+    "kind": "control",
+    "points": [
+     318254
+    ],
+    "gold": [
+     21
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 319,
+    "kind": "control",
+    "points": [
+     318223
+    ],
+    "gold": [
+     11
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 124,
+    "kind": "control",
+    "points": [
+     318243
+    ],
+    "gold": [
+     18
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 193,
+    "kind": "stale",
+    "points": [
+     10717
+    ],
+    "label": "C4"
+   }
+  ],
+  "Facebook/Trackers Policy.md": [
+   {
+    "case": 219,
+    "kind": "stale",
+    "points": [
+     320765
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 326,
+    "kind": "control",
+    "points": [
+     320752
+    ],
+    "gold": [
+     0
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 375,
+    "kind": "stale",
+    "points": [
+     320766
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 234,
+    "kind": "control",
+    "points": [
+     320757
+    ],
+    "gold": [
+     1
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 220,
+    "kind": "control",
+    "points": [
+     320759
+    ],
+    "gold": [
+     2
+    ],
+    "label": "C5"
+   }
+  ],
+  "Instagram/Community Guidelines.md": [
+   {
+    "case": 281,
+    "kind": "stale",
+    "points": [
+     12253
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 377,
+    "kind": "stale",
+    "points": [
+     292342
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 138,
+    "kind": "stale",
+    "points": [
+     12256
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 314,
+    "kind": "stale",
+    "points": [
+     12254
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 315,
+    "kind": "stale",
+    "points": [
+     12252
+    ],
+    "label": "C5"
+   },
+   {
+    "case": 283,
+    "kind": "stale",
+    "points": [
+     12255
+    ],
+    "label": "C6"
+   }
+  ],
+  "Instagram/Privacy Policy.md": [
+   {
+    "case": 185,
+    "kind": "stale",
+    "points": [
+     12217
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 336,
+    "kind": "stale",
+    "points": [
+     12209
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 193,
+    "kind": "control",
+    "points": [
+     12219
+    ],
+    "gold": [
+     4
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 195,
+    "kind": "stale",
+    "points": [
+     12187
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 333,
+    "kind": "stale",
+    "points": [
+     12222
+    ],
+    "label": "C5"
+   },
+   {
+    "case": 382,
+    "kind": "stale",
+    "points": [
+     12196
+    ],
+    "label": "C6"
+   },
+   {
+    "case": 170,
+    "kind": "stale",
+    "points": [
+     12223
+    ],
+    "label": "C7"
+   },
+   {
+    "case": 299,
+    "kind": "stale",
+    "points": [
+     12212
+    ],
+    "label": "C8"
+   },
+   {
+    "case": 322,
+    "kind": "stale",
+    "points": [
+     12221
+    ],
+    "label": "C9"
+   },
+   {
+    "case": 231,
+    "kind": "stale",
+    "points": [
+     12211
+    ],
+    "label": "C10"
+   },
+   {
+    "case": 325,
+    "kind": "stale",
+    "points": [
+     12215
+    ],
+    "label": "C11"
+   },
+   {
+    "case": 338,
+    "kind": "stale",
+    "points": [
+     12218
+    ],
+    "label": "C12"
+   },
+   {
+    "case": 243,
+    "kind": "stale",
+    "points": [
+     12213
+    ],
+    "label": "C13"
+   },
+   {
+    "case": 400,
+    "kind": "stale",
+    "points": [
+     303881
+    ],
+    "label": "C14"
+   },
+   {
+    "case": 373,
+    "kind": "stale",
+    "points": [
+     12257
+    ],
+    "label": "C15"
+   },
+   {
+    "case": 239,
+    "kind": "stale",
+    "points": [
+     12190
+    ],
+    "label": "C16"
+   },
+   {
+    "case": 166,
+    "kind": "stale",
+    "points": [
+     12216
+    ],
+    "label": "C17"
+   },
+   {
+    "case": 225,
+    "kind": "stale",
+    "points": [
+     12210
+    ],
+    "label": "C18"
+   },
+   {
+    "case": 376,
+    "kind": "stale",
+    "points": [
+     12193
+    ],
+    "label": "C19"
+   }
+  ],
+  "Instagram/Terms of Service.md": [
+   {
+    "case": 188,
+    "kind": "stale",
+    "points": [
+     253381
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 203,
+    "kind": "stale",
+    "points": [
+     12235
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 377,
+    "kind": "stale",
+    "points": [
+     12233
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 152,
+    "kind": "control",
+    "points": [
+     12188
+    ],
+    "gold": [
+     8
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 280,
+    "kind": "control",
+    "points": [
+     12229
+    ],
+    "gold": [
+     9
+    ],
+    "label": "C5"
+   },
+   {
+    "case": 205,
+    "kind": "stale",
+    "points": [
+     1579
+    ],
+    "label": "C6"
+   },
+   {
+    "case": 328,
+    "kind": "control",
+    "points": [
+     12232
+    ],
+    "gold": [
+     12
+    ],
+    "label": "C7"
+   }
+  ],
+  "LINE/Privacy Policy.md": [
+   {
+    "case": 188,
+    "kind": "stale",
+    "points": [
+     23693
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 211,
+    "kind": "stale",
+    "points": [
+     23679
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 166,
+    "kind": "stale",
+    "points": [
+     23700
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 207,
+    "kind": "stale",
+    "points": [
+     23695
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 492,
+    "kind": "stale",
+    "points": [
+     23690
+    ],
+    "label": "C5"
+   },
+   {
+    "case": 329,
+    "kind": "control",
+    "points": [
+     23709
+    ],
+    "gold": [
+     35,
+     38
+    ],
+    "label": "C6"
+   },
+   {
+    "case": 487,
+    "kind": "stale",
+    "points": [
+     23682
+    ],
+    "label": "C7"
+   },
+   {
+    "case": 195,
+    "kind": "stale",
+    "points": [
+     23704
+    ],
+    "label": "C8"
+   },
+   {
+    "case": 243,
+    "kind": "control",
+    "points": [
+     23698
+    ],
+    "gold": [
+     24
+    ],
+    "label": "C9"
+   },
+   {
+    "case": 376,
+    "kind": "stale",
+    "points": [
+     23681
+    ],
+    "label": "C10"
+   },
+   {
+    "case": 327,
+    "kind": "control",
+    "points": [
+     23692
+    ],
+    "gold": [
+     17
+    ],
+    "label": "C11"
+   },
+   {
+    "case": 373,
+    "kind": "stale",
+    "points": [
+     23684
+    ],
+    "label": "C12"
+   },
+   {
+    "case": 239,
+    "kind": "stale",
+    "points": [
+     23683
+    ],
+    "label": "C13"
+   },
+   {
+    "case": 382,
+    "kind": "stale",
+    "points": [
+     23686
+    ],
+    "label": "C14"
+   },
+   {
+    "case": 185,
+    "kind": "stale",
+    "points": [
+     23689
+    ],
+    "label": "C15"
+   },
+   {
+    "case": 323,
+    "kind": "stale",
+    "points": [
+     23685
+    ],
+    "label": "C16"
+   },
+   {
+    "case": 326,
+    "kind": "stale",
+    "points": [
+     23699
+    ],
+    "label": "C17"
+   }
+  ],
+  "LINE/Terms of Service.md": [
+   {
+    "case": 230,
+    "kind": "stale",
+    "points": [
+     19516
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 409,
+    "kind": "stale",
+    "points": [
+     22182
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 205,
+    "kind": "stale",
+    "points": [
+     19518
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 203,
+    "kind": "stale",
+    "points": [
+     19519
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 170,
+    "kind": "stale",
+    "points": [
+     19517
+    ],
+    "label": "C5"
+   }
+  ],
+  "LinkedIn/Privacy Policy.md": [
+   {
+    "case": 305,
+    "kind": "stale",
+    "points": [
+     323719
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 219,
+    "kind": "stale",
+    "points": [
+     323712
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 400,
+    "kind": "stale",
+    "points": [
+     35874
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 231,
+    "kind": "stale",
+    "points": [
+     323709
+    ],
+    "label": "C4"
+   }
+  ],
+  "Parler/Terms of Service.md": [
+   {
+    "case": 149,
+    "kind": "control",
+    "points": [
+     19040
+    ],
+    "gold": [
+     22
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 377,
+    "kind": "stale",
+    "points": [
+     19035
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 332,
+    "kind": "control",
+    "points": [
+     19036
+    ],
+    "gold": [
+     17
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 121,
+    "kind": "stale",
+    "points": [
+     19043
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 288,
+    "kind": "control",
+    "points": [
+     223459
+    ],
+    "gold": [
+     1
+    ],
+    "label": "C5"
+   }
+  ],
+  "Pinterest/Community Guidelines.md": [
+   {
+    "case": 315,
+    "kind": "control",
+    "points": [
+     322748
+    ],
+    "gold": [
+     1
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 314,
+    "kind": "control",
+    "points": [
+     322755
+    ],
+    "gold": [
+     8
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 444,
+    "kind": "stale",
+    "points": [
+     322754
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 281,
+    "kind": "control",
+    "points": [
+     322759
+    ],
+    "gold": [
+     13
+    ],
+    "label": "C4"
+   }
+  ],
+  "Pinterest/Privacy Policy.md": [
+   {
+    "case": 126,
+    "kind": "stale",
+    "points": [
+     322704
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 307,
+    "kind": "stale",
+    "points": [
+     322727
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 481,
+    "kind": "control",
+    "points": [
+     322717
+    ],
+    "gold": [
+     1
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 129,
+    "kind": "control",
+    "points": [
+     322730
+    ],
+    "gold": [
+     6,
+     12
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 140,
+    "kind": "stale",
+    "points": [
+     322743
+    ],
+    "label": "C5"
+   },
+   {
+    "case": 482,
+    "kind": "stale",
+    "points": [
+     322745
+    ],
+    "label": "C6"
+   },
+   {
+    "case": 326,
+    "kind": "stale",
+    "points": [
+     322724
+    ],
+    "label": "C7"
+   },
+   {
+    "case": 300,
+    "kind": "stale",
+    "points": [
+     322742
+    ],
+    "label": "C8"
+   },
+   {
+    "case": 185,
+    "kind": "control",
+    "points": [
+     322731
+    ],
+    "gold": [
+     6
+    ],
+    "label": "C9"
+   },
+   {
+    "case": 195,
+    "kind": "stale",
+    "points": [
+     322744
+    ],
+    "label": "C10"
+   }
+  ],
+  "Pinterest/Terms of Service.md": [
+   {
+    "case": 174,
+    "kind": "control",
+    "points": [
+     322681
+    ],
+    "gold": [
+     9
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 390,
+    "kind": "control",
+    "points": [
+     322683
+    ],
+    "gold": [
+     10
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 149,
+    "kind": "stale",
+    "points": [
+     322696
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 319,
+    "kind": "stale",
+    "points": [
+     322669
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 486,
+    "kind": "stale",
+    "points": [
+     322668
+    ],
+    "label": "C5"
+   },
+   {
+    "case": 484,
+    "kind": "stale",
+    "points": [
+     322684
+    ],
+    "label": "C6"
+   },
+   {
+    "case": 145,
+    "kind": "stale",
+    "points": [
+     322689
+    ],
+    "label": "C7"
+   },
+   {
+    "case": 230,
+    "kind": "control",
+    "points": [
+     322665
+    ],
+    "gold": [
+     2
+    ],
+    "label": "C8"
+   },
+   {
+    "case": 229,
+    "kind": "stale",
+    "points": [
+     322671
+    ],
+    "label": "C9"
+   },
+   {
+    "case": 331,
+    "kind": "stale",
+    "points": [
+     322702
+    ],
+    "label": "C10"
+   }
+  ],
+  "Quora/Privacy Policy.md": [
+   {
+    "case": 325,
+    "kind": "stale",
+    "points": [
+     11803
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 193,
+    "kind": "stale",
+    "points": [
+     11800
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 336,
+    "kind": "stale",
+    "points": [
+     11802
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 223,
+    "kind": "stale",
+    "points": [
+     11804
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 323,
+    "kind": "stale",
+    "points": [
+     11798
+    ],
+    "label": "C5"
+   },
+   {
+    "case": 331,
+    "kind": "stale",
+    "points": [
+     6439
+    ],
+    "label": "C6"
+   },
+   {
+    "case": 129,
+    "kind": "stale",
+    "points": [
+     13589
+    ],
+    "label": "C7"
+   },
+   {
+    "case": 333,
+    "kind": "stale",
+    "points": [
+     13585
+    ],
+    "label": "C8"
+   },
+   {
+    "case": 387,
+    "kind": "stale",
+    "points": [
+     13581
+    ],
+    "label": "C9"
+   },
+   {
+    "case": 188,
+    "kind": "stale",
+    "points": [
+     13577
+    ],
+    "label": "C10"
+   },
+   {
+    "case": 382,
+    "kind": "stale",
+    "points": [
+     11799
+    ],
+    "label": "C11"
+   },
+   {
+    "case": 234,
+    "kind": "stale",
+    "points": [
+     13582
+    ],
+    "label": "C12"
+   },
+   {
+    "case": 220,
+    "kind": "stale",
+    "points": [
+     11801
+    ],
+    "label": "C13"
+   },
+   {
+    "case": 209,
+    "kind": "stale",
+    "points": [
+     10290
+    ],
+    "label": "C14"
+   },
+   {
+    "case": 187,
+    "kind": "control",
+    "points": [
+     13583
+    ],
+    "gold": [
+     9
+    ],
+    "label": "C15"
+   },
+   {
+    "case": 329,
+    "kind": "stale",
+    "points": [
+     11807
+    ],
+    "label": "C16"
+   },
+   {
+    "case": 219,
+    "kind": "stale",
+    "points": [
+     13408
+    ],
+    "label": "C17"
+   },
+   {
+    "case": 207,
+    "kind": "stale",
+    "points": [
+     13586
+    ],
+    "label": "C18"
+   },
+   {
+    "case": 128,
+    "kind": "stale",
+    "points": [
+     13584
+    ],
+    "label": "C19"
+   }
+  ],
+  "Quora/Terms of Service.md": [
+   {
+    "case": 139,
+    "kind": "control",
+    "points": [
+     13580
+    ],
+    "gold": [
+     4
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 283,
+    "kind": "stale",
+    "points": [
+     20965
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 295,
+    "kind": "stale",
+    "points": [
+     13407
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 163,
+    "kind": "stale",
+    "points": [
+     6442
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 294,
+    "kind": "stale",
+    "points": [
+     13406
+    ],
+    "label": "C5"
+   },
+   {
+    "case": 288,
+    "kind": "control",
+    "points": [
+     6446
+    ],
+    "gold": [
+     11
+    ],
+    "label": "C6"
+   },
+   {
+    "case": 402,
+    "kind": "stale",
+    "points": [
+     13578
+    ],
+    "label": "C7"
+   },
+   {
+    "case": 138,
+    "kind": "control",
+    "points": [
+     11806
+    ],
+    "gold": [
+     15
+    ],
+    "label": "C8"
+   },
+   {
+    "case": 286,
+    "kind": "stale",
+    "points": [
+     6445
+    ],
+    "label": "C9"
+   }
+  ],
+  "Reddit/Privacy Policy.md": [
+   {
+    "case": 382,
+    "kind": "control",
+    "points": [
+     320946
+    ],
+    "gold": [
+     8
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 193,
+    "kind": "control",
+    "points": [
+     320973
+    ],
+    "gold": [
+     40
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 187,
+    "kind": "stale",
+    "points": [
+     320970
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 320,
+    "kind": "control",
+    "points": [
+     320937
+    ],
+    "gold": [
+     4
+    ],
+    "label": "C4"
+   }
+  ],
+  "Reddit/Terms of Service.md": [
+   {
+    "case": 202,
+    "kind": "control",
+    "points": [
+     320987
+    ],
+    "gold": [
+     6,
+     26
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 331,
+    "kind": "stale",
+    "points": [
+     320934
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 319,
+    "kind": "control",
+    "points": [
+     320980
+    ],
+    "gold": [
+     1,
+     21
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 389,
+    "kind": "control",
+    "points": [
+     320990
+    ],
+    "gold": [
+     8,
+     28
+    ],
+    "label": "C4"
+   }
+  ],
+  "Snapchat/Privacy Policy.md": [
+   {
+    "case": 397,
+    "kind": "control",
+    "points": [
+     328872
+    ],
+    "gold": [
+     8
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 166,
+    "kind": "stale",
+    "points": [
+     328893
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 373,
+    "kind": "control",
+    "points": [
+     328865
+    ],
+    "gold": [
+     8
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 223,
+    "kind": "control",
+    "points": [
+     328858
+    ],
+    "gold": [
+     3
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 225,
+    "kind": "stale",
+    "points": [
+     328887
+    ],
+    "label": "C5"
+   }
+  ],
+  "Snapchat/Terms of Service.md": [
+   {
+    "case": 170,
+    "kind": "control",
+    "points": [
+     328838
+    ],
+    "gold": [
+     31,
+     78
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 239,
+    "kind": "stale",
+    "points": [
+     328819
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 149,
+    "kind": "control",
+    "points": [
+     328850
+    ],
+    "gold": [
+     35
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 144,
+    "kind": "control",
+    "points": [
+     328817
+    ],
+    "gold": [
+     11,
+     57
+    ],
+    "label": "C4"
+   }
+  ],
+  "Spotify/Privacy Policy.md": [
+   {
+    "case": 397,
+    "kind": "stale",
+    "points": [
+     318805
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 243,
+    "kind": "control",
+    "points": [
+     318820
+    ],
+    "gold": [
+     28
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 164,
+    "kind": "stale",
+    "points": [
+     318819
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 376,
+    "kind": "control",
+    "points": [
+     318796
+    ],
+    "gold": [
+     9
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 219,
+    "kind": "stale",
+    "points": [
+     318794
+    ],
+    "label": "C5"
+   },
+   {
+    "case": 338,
+    "kind": "control",
+    "points": [
+     318817
+    ],
+    "gold": [
+     23
+    ],
+    "label": "C6"
+   },
+   {
+    "case": 148,
+    "kind": "stale",
+    "points": [
+     318825
+    ],
+    "label": "C7"
+   }
+  ],
+  "Spotify/Terms of Service.md": [
+   {
+    "case": 398,
+    "kind": "control",
+    "points": [
+     318756
+    ],
+    "gold": [
+     9
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 313,
+    "kind": "control",
+    "points": [
+     318769
+    ],
+    "gold": [
+     18
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 160,
+    "kind": "control",
+    "points": [
+     318771
+    ],
+    "gold": [
+     20
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 339,
+    "kind": "stale",
+    "points": [
+     318779
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 331,
+    "kind": "stale",
+    "points": [
+     318740
+    ],
+    "label": "C5"
+   }
+  ],
+  "Telegram/Privacy Policy.md": [
+   {
+    "case": 239,
+    "kind": "stale",
+    "points": [
+     37392
+    ],
+    "label": "C1"
+   }
+  ],
+  "TikTok/Copyright Claims Policy.md": [
+   {
+    "case": 310,
+    "kind": "stale",
+    "points": [
+     35077
+    ],
+    "label": "C1"
+   }
+  ],
+  "Tumblr/Privacy Policy.md": [
+   {
+    "case": 127,
+    "kind": "control",
+    "points": [
+     322810
+    ],
+    "gold": [
+     10
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 400,
+    "kind": "control",
+    "points": [
+     322806
+    ],
+    "gold": [
+     8
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 175,
+    "kind": "stale",
+    "points": [
+     35050
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 227,
+    "kind": "control",
+    "points": [
+     322796
+    ],
+    "gold": [
+     2,
+     24
+    ],
+    "label": "C4"
+   }
+  ],
+  "Twitch/Terms of Service.md": [
+   {
+    "case": 150,
+    "kind": "control",
+    "points": [
+     13694
+    ],
+    "gold": [
+     22
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 163,
+    "kind": "stale",
+    "points": [
+     13707
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 292,
+    "kind": "stale",
+    "points": [
+     13695
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 148,
+    "kind": "control",
+    "points": [
+     13682
+    ],
+    "gold": [
+     4
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 241,
+    "kind": "stale",
+    "points": [
+     192329
+    ],
+    "label": "C5"
+   },
+   {
+    "case": 339,
+    "kind": "stale",
+    "points": [
+     13706
+    ],
+    "label": "C6"
+   },
+   {
+    "case": 315,
+    "kind": "control",
+    "points": [
+     13689
+    ],
+    "gold": [
+     20
+    ],
+    "label": "C7"
+   }
+  ],
+  "Twitch/Trackers Policy.md": [
+   {
+    "case": 232,
+    "kind": "stale",
+    "points": [
+     189279
+    ],
+    "label": "C1"
+   }
+  ],
+  "WhatsApp/Privacy Policy.md": [
+   {
+    "case": 338,
+    "kind": "stale",
+    "points": [
+     318908
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 394,
+    "kind": "stale",
+    "points": [
+     318910
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 333,
+    "kind": "stale",
+    "points": [
+     318907
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 373,
+    "kind": "stale",
+    "points": [
+     318896
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 382,
+    "kind": "stale",
+    "points": [
+     318901
+    ],
+    "label": "C5"
+   },
+   {
+    "case": 399,
+    "kind": "stale",
+    "points": [
+     318893
+    ],
+    "label": "C6"
+   },
+   {
+    "case": 227,
+    "kind": "stale",
+    "points": [
+     13031
+    ],
+    "label": "C7"
+   },
+   {
+    "case": 239,
+    "kind": "control",
+    "points": [
+     318900
+    ],
+    "gold": [
+     11
+    ],
+    "label": "C8"
+   },
+   {
+    "case": 140,
+    "kind": "control",
+    "points": [
+     318905
+    ],
+    "gold": [
+     76
+    ],
+    "label": "C9"
+   },
+   {
+    "case": 166,
+    "kind": "stale",
+    "points": [
+     318899
+    ],
+    "label": "C10"
+   },
+   {
+    "case": 376,
+    "kind": "control",
+    "points": [
+     318898
+    ],
+    "gold": [
+     8
+    ],
+    "label": "C11"
+   },
+   {
+    "case": 190,
+    "kind": "stale",
+    "points": [
+     318892
+    ],
+    "label": "C12"
+   },
+   {
+    "case": 126,
+    "kind": "stale",
+    "points": [
+     318897
+    ],
+    "label": "C13"
+   },
+   {
+    "case": 393,
+    "kind": "stale",
+    "points": [
+     318911
+    ],
+    "label": "C14"
+   },
+   {
+    "case": 323,
+    "kind": "stale",
+    "points": [
+     318894
+    ],
+    "label": "C15"
+   },
+   {
+    "case": 234,
+    "kind": "stale",
+    "points": [
+     318890
+    ],
+    "label": "C16"
+   },
+   {
+    "case": 400,
+    "kind": "stale",
+    "points": [
+     318895
+    ],
+    "label": "C17"
+   }
+  ],
+  "WhatsApp/Terms of Service.md": [
+   {
+    "case": 486,
+    "kind": "stale",
+    "points": [
+     318853
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 207,
+    "kind": "control",
+    "points": [
+     318845
+    ],
+    "gold": [
+     1
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 314,
+    "kind": "stale",
+    "points": [
+     318859
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 134,
+    "kind": "control",
+    "points": [
+     318865
+    ],
+    "gold": [
+     8
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 283,
+    "kind": "stale",
+    "points": [
+     13037
+    ],
+    "label": "C5"
+   },
+   {
+    "case": 227,
+    "kind": "control",
+    "points": [
+     318855
+    ],
+    "gold": [
+     4
+    ],
+    "label": "C6"
+   }
+  ],
+  "X/Terms of Service.md": [
+   {
+    "case": 331,
+    "kind": "stale",
+    "points": [
+     321346
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 287,
+    "kind": "control",
+    "points": [
+     321392
+    ],
+    "gold": [
+     21
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 281,
+    "kind": "stale",
+    "points": [
+     321380
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 138,
+    "kind": "stale",
+    "points": [
+     321358
+    ],
+    "label": "C4"
+   },
+   {
+    "case": 232,
+    "kind": "control",
+    "points": [
+     321357
+    ],
+    "gold": [
+     9,
+     34
+    ],
+    "label": "C5"
+   },
+   {
+    "case": 200,
+    "kind": "stale",
+    "points": [
+     321371
+    ],
+    "label": "C6"
+   },
+   {
+    "case": 486,
+    "kind": "control",
+    "points": [
+     321350
+    ],
+    "gold": [
+     6,
+     31
+    ],
+    "label": "C7"
+   }
+  ],
+  "YouTube/Privacy Policy.md": [
+   {
+    "case": 300,
+    "kind": "control",
+    "points": [
+     319270
+    ],
+    "gold": [
+     21
+    ],
+    "label": "C1"
+   },
+   {
+    "case": 170,
+    "kind": "control",
+    "points": [
+     106601
+    ],
+    "gold": [
+     53
+    ],
+    "label": "C2"
+   },
+   {
+    "case": 393,
+    "kind": "control",
+    "points": [
+     319276
+    ],
+    "gold": [
+     46,
+     62
+    ],
+    "label": "C3"
+   },
+   {
+    "case": 325,
+    "kind": "stale",
+    "points": [
+     319249
+    ],
+    "label": "C4"
+   }
+  ]
+ },
+ "n_pieces": {
+  "Bluesky/Privacy Policy.md": 27,
+  "Bluesky/Terms of Service.md": 25,
+  "Facebook/Privacy Policy.md": 146,
+  "Facebook/Terms of Service.md": 24,
+  "Facebook/Trackers Policy.md": 3,
+  "Instagram/Community Guidelines.md": 147,
+  "Instagram/Privacy Policy.md": 78,
+  "Instagram/Terms of Service.md": 22,
+  "LINE/Privacy Policy.md": 41,
+  "LINE/Terms of Service.md": 26,
+  "LinkedIn/Privacy Policy.md": 53,
+  "Parler/Terms of Service.md": 27,
+  "Pinterest/Community Guidelines.md": 16,
+  "Pinterest/Privacy Policy.md": 36,
+  "Pinterest/Terms of Service.md": 23,
+  "Quora/Privacy Policy.md": 18,
+  "Quora/Terms of Service.md": 44,
+  "Reddit/Privacy Policy.md": 46,
+  "Reddit/Terms of Service.md": 38,
+  "Snapchat/Privacy Policy.md": 28,
+  "Snapchat/Terms of Service.md": 87,
+  "Spotify/Privacy Policy.md": 35,
+  "Spotify/Terms of Service.md": 47,
+  "Telegram/Privacy Policy.md": 32,
+  "TikTok/Copyright Claims Policy.md": 12,
+  "Tumblr/Privacy Policy.md": 35,
+  "Twitch/Terms of Service.md": 41,
+  "Twitch/Trackers Policy.md": 6,
+  "WhatsApp/Privacy Policy.md": 88,
+  "WhatsApp/Terms of Service.md": 20,
+  "X/Terms of Service.md": 53,
+  "YouTube/Privacy Policy.md": 72
+ }
+}
