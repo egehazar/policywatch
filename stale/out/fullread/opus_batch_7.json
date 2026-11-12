@@ -1,0 +1,65 @@
+{
+  "D1": {
+    "C1": [
+      {"piece": "P9", "quote": "We may receive information about you from other sources, including from other users and third parties, and combine that information with the other information we have about you."},
+      {"piece": "P11", "quote": "We also may receive information about you, including log and usage data and cookie information, from third-party sites that integrate our Services, including our embeds and advertising technology or app store APIs."},
+      {"piece": "P10", "quote": "Linking services may also cause the other service to send us information about your account with that service."},
+      {"piece": "P21", "quote": "You may opt out of us using information we collect from third parties, including advertising partners, to personalize the ads you see on and off Reddit."},
+      {"piece": "P39", "quote": "Internet or other electronic network activity information, such as information about your activity on our Services and limited information about your activity on the services of advertisers who use our advertising technology."}
+    ],
+    "C2": [
+      {"piece": "P2", "quote": "We don’t sell your personal data to third parties, including data brokers."},
+      {"piece": "P41", "quote": "Reddit does not “sell” personal information as those terms are defined under applicable state privacy laws."}
+    ],
+    "C3": [
+      {"piece": "P24", "quote": "We process and store information on servers located in the United States, and we may transfer it to our affiliates, service providers, and other third parties located in various countries depending on factors such as the locations of our users and operational needs."},
+      {"piece": "P44", "quote": "In order to facilitate our operations and provide you with the requested Services, certain personal data will be transferred to, used, accessed, processed, and stored in other countries, including the United States. Privacy and data protection laws in these countries may not be equivalent to the laws of Brazil."}
+    ],
+    "C4": [
+      {"piece": "P5", "quote": "You don’t need an account to use Reddit."},
+      {"piece": "P1", "quote": "If you want to just browse, you don’t need an account."},
+      {"piece": "P2", "quote": "Much of the information on the Services is public and accessible to everyone, even without an account."}
+    ]
+  },
+  "D2": {
+    "C1": [
+      {"piece": "P7", "quote": "Although we have no obligation to screen, edit, or monitor Your Content, we may, in our sole discretion, delete, deem your content ineligible for monetization, or remove Your Content, at any time and for any reason"},
+      {"piece": "P27", "quote": "However, we may, in our sole discretion, delete, deem your content ineligible for monetization, or remove Your Content at any time and for any reason"}
+    ],
+    "C2": [
+      {"piece": "P1", "quote": "Effective July 1, 2026. Last Revised May 26, 2026"}
+    ],
+    "C3": [
+      {"piece": "P22", "quote": "You have not been permanently suspended or removed from the Services."},
+      {"piece": "P2", "quote": "You have not been permanently suspended or removed from the Services."}
+    ],
+    "C4": []
+  },
+  "D3": {
+    "C1": [
+      {"piece": "P12", "quote": "If you enable certain face grouping features, we may use information about faces in your Memories to improve search, organisation and personalisation in Memories (for example, by suggesting Memories with the same friend)."},
+      {"piece": "P8", "quote": "if you enable certain face grouping features, we may use information about faces detected in your Memories to help you organise and find Snaps featuring the same person."},
+      {"piece": "P23", "quote": "On iOS, we use Apple’s TrueDepth camera to improve the quality of Lenses."}
+    ],
+    "C2": [
+      {"piece": "P22", "quote": "We share your information with business and integrated partners in order to provide the Services."},
+      {"piece": "P23", "quote": "Your information may be provided to the integrated partner through these integrations, as well as to Snap. We are not responsible for how those partners collect or use your information."},
+      {"piece": "P21", "quote": "For example, we rely on such Service Providers to facilitate payments, measure and optimise the performance of ads or protect the services."},
+      {"piece": "P22", "quote": "We share your information, such as device and usage information, with industry partners working to prevent fraud."}
+    ],
+    "C3": [
+      {"piece": "P9", "quote": "If you’ve explicitly granted device-level permissions, device information may also include information about your device phonebook (contacts and related information), images and other information from your device’s camera, photos and microphone (like the ability to take photos, videos, view stored photos and videos, and access the microphone to record audio while recording video), and precise location information (precise location through methods like GPS signals)."},
+      {"piece": "P12", "quote": "For example, we automatically tag content with labels based on the content, your location or the time of day."},
+      {"piece": "P25", "quote": "For example, we store location information (IP-address based or precise, depending on your permissions) for different lengths of time based on how precise it is and which Services you use."},
+      {"piece": "P13", "quote": "For example, if you watch barista content on Spotlight, talk to My AI about your favourite espresso machine or save a lot of coffee-related Snaps in your Memories, we may highlight coffee shops on the Snap Map when you visit a new city or show you content about coffee that you may find interesting or relevant."}
+    ],
+    "C4": [
+      {"piece": "P4", "quote": "You have the option to opt out or unsubscribe from promotional emails and messages sent by SMS or other messaging platforms."}
+    ],
+    "C5": [
+      {"piece": "P3", "quote": "We’ve built a number of tools that let you choose who you share your content with."},
+      {"piece": "P2", "quote": "That’s why from day one our philosophy has been to delete content by default and to give Snapchatters control by providing the tools that allow them to decide what happens with their content, like who to share it with or when to save it."},
+      {"piece": "P20", "quote": "For example, the content you post to Stories, your current or recent activity status, or your status as a premium subscriber, can be viewed by your Friends if you allow it."}
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "D1": {
+    "C1": [
+      {"piece": "P10", "quote": "Unless otherwise required by law, we do not provide refunds or credits for any partial subscription periods, except as expressly stated in these Terms."},
+      {"piece": "P19", "quote": "If you or Spotify terminate these Terms, or if Spotify suspends your access to the Spotify Service, you agree that Spotify shall have no liability or responsibility to you, and (except as expressly provided in these Terms) Spotify will not refund any amounts that you have already paid."}
+    ],
+    "C2": [
+      {"piece": "P19", "quote": "Spotify may terminate these Terms (including any additional terms and conditions incorporated herein) or suspend your access to the Spotify Service at any time if we believe you have breached any of these Terms, if we stop providing the Spotify Service or any material component thereof, or as we believe necessary to comply with applicable law."}
+    ],
+    "C3": [
+      {"piece": "P21", "quote": "FURTHER, SPOTIFY AND ALL OWNERS OF THE CONTENT DISCLAIM ANY EXPRESS, IMPLIED, AND STATUTORY WARRANTIES REGARDING THE CONTENT, INCLUDING WARRANTIES OF SATISFACTORY QUALITY, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT."},
+      {"piece": "P21", "quote": "THE SPOTIFY SERVICE IS PROVIDED \"AS IS\" AND \"AS AVAILABLE,\" WITHOUT ANY WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY."}
+    ],
+    "C4": [
+      {"piece": "P2", "quote": "THESE TERMS CONTAIN A MANDATORY ARBITRATION PROVISION THAT, AS FURTHER SET FORTH IN SECTION 6 BELOW, REQUIRES THE USE OF ARBITRATION ON AN INDIVIDUAL BASIS TO RESOLVE DISPUTES, RATHER THAN JURY TRIALS OR ANY OTHER COURT PROCEEDINGS, OR CLASS ACTIONS OF ANY KIND."},
+      {"piece": "P29", "quote": "Subject to the exceptions set forth in the \"Exceptions to arbitration\" section below, you and Spotify agree that any Dispute between you and Spotify (whether based in contract, tort, statute, fraud, misrepresentation, or any other legal theory, whether the claims arose before the existence of this or any prior Arbitration Agreement, and whether the claims arise after the termination of these Terms) will be determined by binding individual (not class) arbitration."},
+      {"piece": "P28", "quote": "To the fullest extent permitted by applicable law, the parties agree to waive any right to a jury trial."},
+      {"piece": "P46", "quote": "Even if you opt out of a material change to the Arbitration Agreement, you and Spotify agree that any Dispute will be determined by binding individual (not class) arbitration in accordance with the Arbitration Agreement in effect immediately before any such opt-out."},
+      {"piece": "P35", "quote": "Any arbitration between you and Spotify will be administered by National Arbitration and Mediation (\"**NAM**\") in accordance with their rules applicable to the nature of the Dispute"}
+    ],
+    "C5": [
+      {"piece": "P1", "quote": "Last Updated: September 4, 2026"}
+    ]
+  },
+  "D2": {
+    "C1": [
+      {"piece": "P13", "quote": "Wir können auch automatisierte Algorithmen verwenden, um Cloud Chats zu analysieren, um Spam und Phishing zu verhindern."},
+      {"piece": "P13", "quote": "Um Phishing, Spam und andere Arten von Missbrauch und Verstößen gegen Nutzungsbedingungen von Telegram zu verhindern, können unsere Moderatoren Nachrichten überprüfen, die ihnen von den Empfängern gemeldet und zugesendet wurden."}
+    ]
+  },
+  "D3": {
+    "C1": [
+      {"piece": "P2", "quote": "Any user content that infringes another person's copyright may be removed."},
+      {"piece": "P2", "quote": "We have adopted and reasonably implemented an intellectual property repeat infringer policy under which we, in appropriate circumstances, ban the account of a user who repeatedly commits copyright infringement."},
+      {"piece": "P2", "quote": "We may exercise our discretion to immediately ban any account in cases of severe copyright violations."},
+      {"piece": "P4", "quote": "You'll receive an in-app notification if your content has been removed due to a copyright infringement report."},
+      {"piece": "P6", "quote": "You'll receive an in-app notification if your content has been removed due to a copyright infringement report."}
+    ]
+  },
+  "D4": {
+    "C1": [
+      {"piece": "P11", "quote": "Some services that we use (including Third Party Services), such as Google Analytics, Nielsen, and comScore, may use their own web tags or place their own cookies on your browser. If you are a Tumblr user in the EU, UK, Canada, or in some US states you can customize your cookie preferences from your [privacy settings]."}
+    ],
+    "C2": [
+      {"piece": "P9", "quote": "We may also ask you to provide information about your location, for example to use your geolocation information from your mobile device to geotag a post."}
+    ],
+    "C3": [
+      {"piece": "P22", "quote": "If you no longer want Tumblr to use your information to provide you with the Services, you may close your account and Tumblr will delete the information it holds about you"},
+      {"piece": "P23", "quote": "then you’re free to delete your account at any time and for any reason. We’ll keep your data for 30 days in case you regret your decision. After 30 days, your account will be deleted and cannot be recovered."},
+      {"piece": "P27", "quote": "You can delete much of your information by logging in to your account."}
+    ],
+    "C4": [
+      {"piece": "P9", "quote": "We use information about how you interact with Tumblr in order to personalize it for you, to keep both you and our community safe from harm, and to improve Tumblr for everyone who uses it."},
+      {"piece": "P8", "quote": "We may use this information about how you and others interact with the Services for a number of things generally related to enhancing, improving, protecting, and developing new Services, including but not limited to: providing users with personalized content; providing users with targeted advertising; improving our search results; identifying trending or popular content; fighting spam, malware, identity theft and generally keeping our users and community safe"},
+      {"piece": "P3", "quote": "We may use Account Information, alone or together with other information, to enhance and improve the Services, such as by personalization. We use your age to verify that you can lawfully use the Services. We use your email address to verify your Account and to communicate with you, as described in more detail below."},
+      {"piece": "P6", "quote": "We use information about native actions to improve the Services, develop new Services, and, particularly, to personalize your Tumblr experience."},
+      {"piece": "P14", "quote": "We never share information we receive from you unless: (a) we have your permission to share that information; (b) we have given you prior notice that the information will be shared, and with whom (such as in this Privacy Policy); or (c) that information is aggregate information or other information that does not identify you."}
+    ]
+  }
+}

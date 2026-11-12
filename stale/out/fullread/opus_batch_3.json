@@ -1,0 +1,40 @@
+{
+  "D1": {
+    "C1": [
+      {"piece": "P120", "quote": "We do not allow content that is designed to deceive, mislead, or overwhelm users in order to artificially increase viewership."},
+      {"piece": "P53", "quote": "We may disable accounts or restrict access to products and features (e.g. the ability to message certain accounts) based on a combination of behaviors such as sending unsolicited messages to people who you do not follow, deliberately misrepresenting your location, or being an admin of communities (e.g. Pages) we have removed for violating our scam policies."},
+      {"piece": "P120", "quote": "Posting, sharing, engaging with content or creating accounts, Groups, Pages, Events or other assets, either manually or automatically, at very high frequencies."},
+      {"piece": "P121", "quote": "We may place restrictions on accounts that are acting at lower frequencies when other indicators of Spam (e.g., posting repetitive content) or signals of inauthenticity are present."},
+      {"piece": "P72", "quote": "Is directed at a large number of individuals with no prior solicitation."}
+    ],
+    "C2": [
+      {"piece": "P2", "quote": "In other cases, we may remove content that uses ambiguous or implicit language when additional context allows us to reasonably understand that the content goes against our standards."},
+      {"piece": "P114", "quote": "For example, a notification is issued each time we remove content, and in most cases we also provide people with information about the nature of the violation and any restrictions that are applied."},
+      {"piece": "P48", "quote": "We may take a range of enforcement actions, including but not limited to removing content and ads, reducing distribution, restricting advertising accounts, limiting features, requiring verification, or disabling accounts."},
+      {"piece": "P5", "quote": "We remove content, disable accounts and work with law enforcement when we believe there is a genuine risk of physical harm or direct threats to public safety."},
+      {"piece": "P3", "quote": "We remove content that could contribute to a risk of harm to the physical security of persons."}
+    ],
+    "C3": [
+      {"piece": "P143", "quote": "To report content that you feel may infringe upon your intellectual property rights, please visit our [Intellectual Property Help Center], visit our [Business Protection page], or consider applying for access to [Brand Rights Protection]."}
+    ],
+    "C4": [
+      {"piece": "P5", "quote": "we remove language that incites or facilitates violence and credible threats to public or personal safety"},
+      {"piece": "P13", "quote": "We also remove content that Glorifies, Supports or Represents ideologies that promote hate, such as nazism and white supremacy."},
+      {"piece": "P18", "quote": "We do not allow content that glorifies, supports, or represents events that Meta designates as terrorist attacks, hate events, multiple-victim violence or attempted multiple-victim violence, serial murders, hate crimes or violating violent events."},
+      {"piece": "P12", "quote": "We remove Glorification, Support, and Representation of Tier 1 entities, their leaders, founders or prominent members, as well as unclear references to them."},
+      {"piece": "P20", "quote": "We remove explicit Glorification, Support, and Representation of these ideologies, and remove individuals and organizations that ascribe to one or more of these hateful ideologies."}
+    ],
+    "C5": [
+      {"piece": "P103", "quote": "Under this policy, we remove real photographs and videos of nudity and sexual activity, AI- or computer-generated images of nudity and sexual activity, and digital imagery, regardless of whether it looks “photorealistic” (as in, it looks like a real person)."},
+      {"piece": "P110", "quote": "However, we draw the line, however, when content facilitates sexual encounters or commercial sexual services between adults or when content asks for or offers pornographic or sexual content."},
+      {"piece": "P103", "quote": "We default to removing sexual imagery to prevent the sharing of non-consensual or underage content."}
+    ],
+    "C6": [
+      {"piece": "P71", "quote": "Bullying and harassment happen in many places and come in many different forms from making threats and releasing personally identifiable information to sending threatening messages and making unwanted malicious contact. We do not tolerate this kind of behavior because it prevents people from feeling safe and respected on Facebook, Instagram, and Threads."},
+      {"piece": "P3", "quote": "Content that threatens people has the potential to intimidate, exclude or silence others and isn’t allowed on our services."},
+      {"piece": "P89", "quote": "That is why we don’t allow hateful conduct on Facebook, Instagram, or Threads."},
+      {"piece": "P6", "quote": "We remove threats of violence against various targets."},
+      {"piece": "P90", "quote": "We remove dehumanizing speech, allegations of serious immorality or criminality, and slurs."}
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "D1": {
+    "C1": [
+      {"piece": "P22", "quote": "Other terms and policies that may apply to you"},
+      {"piece": "P23", "quote": "These terms apply if you also access or use our Products for any commercial or business purpose, including advertising, operating an app on our Platform, using our measurement services, managing a group or a Page for a business, or selling goods or services."},
+      {"piece": "P23", "quote": "These terms apply to payments made on or through Meta Products."},
+      {"piece": "P24", "quote": "These guidelines apply if you create or administer a Facebook Page, group, or event, or if you use Facebook to communicate or administer a promotion."}
+    ],
+    "C2": [
+      {"piece": "P12", "quote": "If we disable your account for a violation of our Terms, the , or other terms and policies, you agree not to create another account without our permission."}
+    ],
+    "C3": [
+      {"piece": "P19", "quote": "We will notify you (for example, by email or through our Products) at least 30 days before we make changes to these Terms and give you an opportunity to review them before they go into effect, unless the changes are required by law."}
+    ],
+    "C4": [
+      {"piece": "P10", "quote": "We don't sell your personal information and we don't share information that directly identifies you (such as your name, email address or other contact information) with advertisers unless you give us specific permission."}
+    ]
+  },
+  "D2": {
+    "C1": [
+      {"piece": "P3", "quote": "You can control how we use data to show you ads and more by using the tools described below."}
+    ],
+    "C2": [
+      {"piece": "P1", "quote": "We use cookies if you have a Facebook or Instagram account, use the [Meta Products], including our website and apps, or visit other websites and apps that use the Meta Products (including the Like button). Cookies enable Meta to offer the Meta Products to you and to understand the information that we receive about you, including information about your use of other websites and apps, whether or not you are registered or logged in."}
+    ],
+    "C3": [],
+    "C4": [
+      {"piece": "P2", "quote": "Meta uses cookies and receives information when you visit those sites and apps, including [device information] and information about your activity, without any further action from you. This occurs whether or not you have a Facebook or Instagram account or are logged in."},
+      {"piece": "P1", "quote": "Cookies enable Meta to offer the Meta Products to you and to understand the information that we receive about you, including information about your use of other websites and apps, whether or not you are registered or logged in."}
+    ],
+    "C5": [
+      {"piece": "P3", "quote": "For example, other companies’ cookies help tailor ads off of Meta Products, measure their performance and effectiveness and support marketing and analytics."},
+      {"piece": "P3", "quote": "We use cookies to help personalise and improve content and services, provide a safer experience and to show you useful and relevant ads on and off Meta Products."},
+      {"piece": "P3", "quote": "Yes, other companies use cookies on the Meta Products to provide advertising, measurement, marketing and analytics services to us, and to provide certain features and improve our services for you."},
+      {"piece": "P2", "quote": "Cookies help us provide, protect and improve the Meta Products, such as by personalising content, tailoring and measuring ads, and providing a safer experience."}
+    ]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "D1": {
+    "C1": [
+      {"piece": "P3", "quote": "We use [information we collect] to provide a personalized experience to you, including ads (if we show you ads), along with the other purposes we explain in detail below."},
+      {"piece": "P10", "quote": "If we show you ads, depending on your [settings], we will use your information across the account(s) in your Accounts Centre to show you ads, including using cookies, to personalize your ads on and off the Meta Company Products, including apps using Meta Audience Network, and measure how those ads perform."},
+      {"piece": "P51", "quote": "We’ll collect and store your information and use it to send marketing communications to you, like an e-mail."},
+      {"piece": "P4", "quote": "We help them measure how well their ads and other content, products and services are working."},
+      {"piece": "P50", "quote": "To understand, in aggregate, your usage of and across our Products, to accurately count people and businesses; and"}
+    ],
+    "C2": [
+      {"piece": "P51", "quote": "We’ll collect and store your information and use it to send marketing communications to you, like an e-mail."},
+      {"piece": "P64", "quote": "We’ll collect and store your information and use it to send marketing communications to you, like an e-mail address."},
+      {"piece": "P31", "quote": "To share meaningful updates with our users under the age of majority about our Products and promoting our Products."},
+      {"piece": "P39", "quote": "To share meaningful updates with our users under the age of majority about our Products and promoting our Products."}
+    ],
+    "C3": [
+      {"piece": "P5", "quote": "We don't sell any of your information to anyone, and we never will."}
+    ],
+    "C4": [
+      {"piece": "P7", "quote": "[Access and correct information]"},
+      {"piece": "P7", "quote": "[Erase information]"}
+    ],
+    "C5": [
+      {"piece": "P7", "quote": "We keep information as long as we need it to provide our Products, comply with legal obligations or protect our or other’s interests."},
+      {"piece": "P8", "quote": "If we need it for other legitimate purposes, such as to prevent harm; investigate possible violations of our terms or policies; promote safety, security and integrity; or protect ourselves, including our rights, property or products"},
+      {"piece": "P8", "quote": "In some instances and for specific reasons, we’ll keep information for an extended period of time."},
+      {"piece": "P7", "quote": "How long we need to retain the information to comply with certain legal obligations."}
+    ],
+    "C6": [
+      {"piece": "P14", "quote": "If we show you ads with your consent we'll use information that partners, vendors and other third parties provide us about activity off the Meta Company Products and that we have associated with you to personalize the ads you see on and across the Meta Company Products, and on websites, apps and devices that use our advertising services."},
+      {"piece": "P6", "quote": "We also process information that we receive about you from other Meta Companies, according to their terms and policies and as permitted by applicable law."},
+      {"piece": "P2", "quote": "In some cases information is de-identified, aggregated, or anonymized by third parties so that it no longer identifies individuals before it’s made available to us."},
+      {"piece": "P1", "quote": "We collect information about you from different sources."},
+      {"piece": "P4", "quote": "We use information we have, information from researchers and datasets from publicly available sources, professional groups and non-profit groups to conduct and support research."}
+    ],
+    "C7": [],
+    "C8": [],
+    "C9": [
+      {"piece": "P15", "quote": "Collecting information that you allow us to receive through the device-based settings you enable (such as access to your GPS location, camera or photos) which we use to provide the features or services described when you enable the setting."},
+      {"piece": "P12", "quote": "Information that you've shared through your device settings (e.g. GPS location)"},
+      {"piece": "P11", "quote": "What you're doing on your device, such as whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)"}
+    ],
+    "C10": [],
+    "C11": [],
+    "C12": [
+      {"piece": "P71", "quote": "When we process your information as necessary to pursue our legitimate interests or those of a third party, you have the right to object to, and seek restriction of, such processing"},
+      {"piece": "P76", "quote": "When we process your information as necessary for a task carried out in the public interest, you have the right to object to, and seek restriction of, our processing."},
+      {"piece": "P1", "quote": "You can choose whether we use certain information by visiting:"},
+      {"piece": "P11", "quote": "You can change your choice at any time in your Ad Preferences."},
+      {"piece": "P16", "quote": "When we process information that you provide to us based on your consent, you have the right to withdraw your consent at any time without affecting the lawfulness of processing based on consent before its withdrawal."}
+    ],
+    "C13": [
+      {"piece": "P6", "quote": "And if we sell or transfer all or part of our business to someone else, in some cases we’ll give the new owner your information as part of that transaction, but only as the law allows."}
+    ],
+    "C14": [
+      {"piece": "P15", "quote": "Collecting information that you allow us to receive through the device-based settings you enable (such as access to your GPS location, camera or photos)"},
+      {"piece": "P12", "quote": "Information that you've shared through your device settings (e.g. GPS location)"},
+      {"piece": "P18", "quote": "Information you’ve shared through your device settings (like GPS location)"},
+      {"piece": "P32", "quote": "Information you’ve shared through your device settings (like GPS location)"}
+    ],
+    "C15": [
+      {"piece": "P12", "quote": "Location-related information"},
+      {"piece": "P44", "quote": "Location-related information"}
+    ],
+    "C16": [
+      {"piece": "P77", "quote": "Messages you send and receive, including their content, subject to applicable law"},
+      {"piece": "P22", "quote": "Messages you send and receive, including their content, subject to [applicable law]"},
+      {"piece": "P20", "quote": "Messages you send and receive, including their content, subject to [applicable law]"},
+      {"piece": "P47", "quote": "Messages you send and receive, including their content, subject to [applicable law]"},
+      {"piece": "P18", "quote": "Messages you send and receive, including their content and metadata, for optional features you choose to use, and subject to [applicable law]."}
+    ],
+    "C17": [
+      {"piece": "P5", "quote": "You can choose to connect with [integrated partners] who use our Products. If you do, these integrated partners receive information about you and your activity."},
+      {"piece": "P73", "quote": "such as sharing relevant research data with third parties like international organisations and academics both in and outside the EEA"},
+      {"piece": "P14", "quote": "For example, when you direct us we share your email address or other information that you might choose to share with an advertiser so that they can contact you with additional information about a promoted product."},
+      {"piece": "P60", "quote": "You may choose to share your contact information, profile information and other data with our partners."},
+      {"piece": "P52", "quote": "We collect, store, combine, analyse and apply automatic processing techniques like aggregation of information as well as manual (human) review, and share information, as necessary to research and innovate for social good in this way."}
+    ],
+    "C18": [
+      {"piece": "P9", "quote": "Processing information with special protections that you provide so we can share it with those you choose"}
+    ],
+    "C19": [
+      {"piece": "P10", "quote": "Any information with special protections that you choose to provide, such as your religious views, your sexual orientation, political views, health, racial or ethnic origin, philosophical beliefs or trade union membership"},
+      {"piece": "P15", "quote": "using face analysis which may include facial recognition technology if you select it"},
+      {"piece": "P20", "quote": "Purchases or other transactions you make, including truncated credit card information"},
+      {"piece": "P13", "quote": "Information about the network you connect your device to and your connection, including your IP address"},
+      {"piece": "P11", "quote": "Identifiers that tell your device apart from other users'"}
+    ]
+  },
+  "D2": {
+    "C1": [
+      {"piece": "P6", "quote": "The use of this global infrastructure is necessary and essential to provide our Service. This infrastructure may be owned or operated by Meta Platforms, Inc., Meta Platforms Ireland Limited, or their affiliates."},
+      {"piece": "P5", "quote": "Instagram is part of the Meta Companies, which share technology, systems, insights, and information-including the information we have about you (learn more in the Privacy Policy) in order to provide services that are better, safer, and more secure."},
+      {"piece": "P4", "quote": "We also may share information about misuse or harmful content with other Meta Companies or law enforcement."}
+    ],
+    "C2": [],
+    "C3": [
+      {"piece": "P14", "quote": "We can remove or restrict any content you share on the Service if it violates these Terms of Use or our policies, (including our Community Standards), or we are required to do so by law."}
+    ],
+    "C4": [
+      {"piece": "P9", "quote": "You must be at least 13 years old."}
+    ],
+    "C5": [
+      {"piece": "P10", "quote": "You can't do anything unlawful, misleading, or fraudulent or for an illegal or unauthorized purpose."}
+    ],
+    "C6": [
+      {"piece": "P15", "quote": "If you violate these Terms of Use or our policies, if you repeatedly infringe other people’s intellectual property rights, or where we are required to do so by law, we may – without prejudice of our termination right for good cause – completely or partially refuse to provide or stop providing the Service to you (including terminating or disabling your access to the Meta Products and Meta Company Products)."},
+      {"piece": "P4", "quote": "our Misuse Policy sets out how we may suspend access to Instagram where we determine that you have frequently provided manifestly illegal content"},
+      {"piece": "P16", "quote": "Good cause is specifically if a party violates obligations under these Terms, any laws, third party rights, or privacy policies"}
+    ],
+    "C7": [
+      {"piece": "P13", "quote": "If you select a username or similar identifier for your account, we may change it if we believe it is appropriate or necessary (for example, if it infringes someone's intellectual property or impersonates another user)."}
+    ]
+  },
+  "D3": {
+    "C1": [
+      {"piece": "P23", "quote": "We may subcontract certain services required for providing our Services (e.g.: building, operation and development of infrastructure, settlement, shipping, customer support, etc.) to a third party. In connection with this, we entrust all or a part of the Personal Data to the subcontractor, including companies located in the following countries or regions."},
+      {"piece": "P21", "quote": "The recipients of Personal Data include third parties such as our subcontractors and group companies located in countries or regions other than where you are residing."}
+    ],
+    "C2": [
+      {"piece": "P6", "quote": "Answers when cooperating with our surveys"},
+      {"piece": "P15", "quote": "To deliver any prizes you may have won in a promotional event or the products that you have purchased to your designated address;"}
+    ],
+    "C3": [
+      {"piece": "P27", "quote": "In our services for distributing ads, we may provide our designated identifiers that are in a condition where they are not tied to information that can directly identify you to advertisers located in countries or regions other than those described in “5. Provision of Personal Data,” for use in measuring the effects of ads and other uses."},
+      {"piece": "P26", "quote": "we may provide your Personal Data to third parties, including our Partners, to the extent necessary upon deleting information that can directly identify a specific user, such as the user’s name, address, and detailed location information, or the content of LINE messages."},
+      {"piece": "P19", "quote": "To provide our Partners with statistical information prepared by ways such as associating or combining information obtained from our Partners"},
+      {"piece": "P23", "quote": "Please note that we may provide public information about you to third parties."},
+      {"piece": "P12", "quote": "we will collect your history of use of that Partner’s services, and provide the result of its analysis to the Partner."}
+    ],
+    "C4": [
+      {"piece": "P23", "quote": "We may subcontract certain services required for providing our Services (e.g.: building, operation and development of infrastructure, settlement, shipping, customer support, etc.) to a third party."},
+      {"piece": "P34", "quote": "We may use tags and modules containing cookies and third-party software development kit (SDK) for fulfilling the purposes described in this Policy."},
+      {"piece": "P36", "quote": "In order to improve our Services, we use Google Analytics to measure our Services such as our website."}
+    ],
+    "C5": [
+      {"piece": "P14", "quote": "To verify your identity, through comparison with your registered information, when succeeding the account upon logging in or changing your device, when using certain Services which require identity verification, or when receiving inquiries from users;"},
+      {"piece": "P6", "quote": "Identity verification documents to be sent for identity verification"}
+    ],
+    "C6": [
+      {"piece": "P39", "quote": "When we make any material changes to this Policy, we will notify you on our Services, or by other reasonable means. We encourage you to review the contents of the latest version of the privacy policy carefully."},
+      {"piece": "P36", "quote": "When we make any material changes to this Policy, we will notify you through reasonable means."},
+      {"piece": "P36", "quote": "We may modify this Policy. The latest version of the Policy will always be posted on this site, and we encourage you to review the contents of the latest version of the Policy carefully."}
+    ],
+    "C7": [],
+    "C8": [
+      {"piece": "P31", "quote": "To the extent permitted by Applicable Laws, regarding your Personal Data that we process, you have the right to access, the right to rectification, the right to erasure"},
+      {"piece": "P31", "quote": "You have rights regarding your Personal Data processed by us, such as the right to access your Personal Data and the right to request the correction of your Personal Data, to the extent permitted by Applicable Laws."},
+      {"piece": "P33", "quote": "If you wish to exercise your right against us to disclose your Personal Data that cannot be confirmed in our Services, correct or delete your Personal Data that is contrary to facts, notify you of the purpose of use of your Personal Data, or other rights permitted by Applicable Laws, you may contact us using the [Personal Data Disclosure Procedure]."},
+      {"piece": "P32", "quote": "Function which allows users to personally view, delete and download their service use history"}
+    ],
+    "C9": [
+      {"piece": "P25", "quote": "If there is any transaction between companies pertaining to our business to which this Policy is applicable, such as acquisition, merger or change of business entity, Personal Data may also be transferred to the successor of the business to the extent permitted by Applicable Laws."}
+    ],
+    "C10": [
+      {"piece": "P9", "quote": "We will collect information related to the device, browser and the app that you are using (ad identifier for identifying the device/browser, Cookie ID and device type, OS, language/time zone setting, browser type, app version, etc.), and network information (telecommunications carrier’s name, IP address, etc.)."},
+      {"piece": "P6", "quote": "Phone number and email address required when creating an account"},
+      {"piece": "P6", "quote": "Address book on your device."},
+      {"piece": "P7", "quote": "The collected information includes the status of use of various Services and features such as the date and time that you used our individual Services, length of time that you used our individual Services, searches conducted in the Services and results of those searches, Services that were purchased, and contents and ads that were viewed, tapped, or clicked."},
+      {"piece": "P10", "quote": "we may collect information such as your identifier (internal identifier, ad identifier etc.), one-way encrypted (hashed) email address and telephone number, IP address, part of your device information (OS, etc.), your attribute information as well as your action history, including your purchase history, viewing history, search history and location information, from our Partners"}
+    ],
+    "C11": [],
+    "C12": [
+      {"piece": "P9", "quote": "when we provide customized contents or ads to you, such as local news near the areas where you are located, we may separately ask you to generally provide your location information and allow us to use such information."},
+      {"piece": "P17", "quote": "To introduce information of events being conducted and valuable coupons that can be used, near your current location or places where you often visit;"},
+      {"piece": "P10", "quote": "your action history, including your purchase history, viewing history, search history and location information, from our Partners, and use such information for the purpose described in “4. Purpose of use of Personal Data”, such as for both sending official account messages from our Partners and distributing ads"},
+      {"piece": "P9", "quote": "Even when you do not accept sending your location information, we may estimate your approximate location by using information such as your IP address."},
+      {"piece": "P8", "quote": "We may collect the location information of your device when we provide contents according to your location information or when you share your location information with your friends in our Services, or in order for us to provide optimized search results to you."}
+    ],
+    "C13": [
+      {"piece": "P8", "quote": "we may use a part of such information upon obtaining your additional consent for the provision and maintenance of our Services, development and improvement of our Services, prevention of unauthorized use, and provision of optimized contents including ads."}
+    ],
+    "C14": [
+      {"piece": "P9", "quote": "We may collect Personal Data from third parties including our Partners."},
+      {"piece": "P10", "quote": "We may collect your Personal Data from our Partners."},
+      {"piece": "P13", "quote": "In addition, we may collect your information from our Partners and use it in combination with our information for the purpose described in “4. Purpose of use of Personal Data”"},
+      {"piece": "P11", "quote": "We may collect login records from plug-ins of third-party including Partner websites and apps equipped with a plug-in feature such as “Send by LINE”, and URL information of websites equipped with a plug-in feature that you visited while being logged onto our Services on your browser by associating such login records and URL information with your account."},
+      {"piece": "P5", "quote": "In addition to the above, Personal Data lawfully collected by us, including cases of collecting information from third parties"}
+    ],
+    "C15": [
+      {"piece": "P12", "quote": "We use Personal Data to provide our Services to users, for utilization in research and development to provide safer and better services, and to provide services that are strongly linked to users, including ads."},
+      {"piece": "P17", "quote": "We will utilize Personal Data for providing recommended contents, including ads, to each user."},
+      {"piece": "P20", "quote": "(5) processing is necessary for the legitimate interests pursued by us or by a third party, except where such interests are overridden by your privacy related rights, interests, and freedom (including improvement of operations or systems, prevention of fraud, maintenance of security, marketing, and research performed by us)"},
+      {"piece": "P16", "quote": "To develop and improve our Services by surveying and analyzing your attribute information, number of users and number of viewers of our Services, and number of views and number of taps and clicks of ads which we and our Partners distribute;"},
+      {"piece": "P14", "quote": "We will use information required for providing our Services, answering your inquiries, hosting promotional events, and sending announcements regarding our Services and those of our Partners."}
+    ],
+    "C16": [
+      {"piece": "P35", "quote": "For example, we may use cookies and similar web tracking technologies (web beacon, pixel etc.) for the following purposes:"},
+      {"piece": "P11", "quote": "In order to perform the foregoing optimal ad distribution, we may use cookies and associate your access history with the ad identifier or internal identifier."},
+      {"piece": "P13", "quote": "This kind of use includes the associated management and use of our internal identifier of each Service assigned to users, identifiers assigned by Partner, advertising identifiers (including Identifier for Advertising (IDFA) and Google Advertising ID (AAID)), and various other identifiers and one-way encrypted (hashed) email addresses and telephone numbers."},
+      {"piece": "P9", "quote": "ad identifier for identifying the device/browser, Cookie ID and device type"}
+    ],
+    "C17": [
+      {"piece": "P24", "quote": "We share, among our group companies, including companies located in the following countries and regions, the Personal Data indicated in"},
+      {"piece": "P9", "quote": "We may collect your Personal Data from our group companies according to their terms or policies."},
+      {"piece": "P13", "quote": "This kind of use includes the associated management and use of our internal identifier of each Service assigned to users"}
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "D1": {
+    "C1": [
+      {"piece": "P10", "quote": "You can opt-out from receiving marketing communications from us by using the unsubscribe link at the bottom of each e-mail."},
+      {"piece": "P14", "quote": "If you receive a marketing email from us, you may opt out by using the unsubscribe link at the bottom of such email."}
+    ],
+    "C2": [
+      {"piece": "P10", "quote": "Pursuing our legitimate interests like direct marketing, research and development (including marketing research), network and information security, and fraud prevention;"},
+      {"piece": "P10", "quote": "We may use personal information to provide you with marketing."},
+      {"piece": "P10", "quote": "Carrying out analytics;"},
+      {"piece": "P11", "quote": "We also use your personal information for other purposes as requested by you, as permitted by applicable law, or where we reasonably consider that we need to use it for another reason and that reason is compatible with the original purpose."},
+      {"piece": "P8", "quote": "We may also use cookies for website analytics purposes in order to operate, maintain and improve our Bluesky App Services."}
+    ],
+    "C3": [
+      {"piece": "P10", "quote": "We may use personal information to provide you with marketing."},
+      {"piece": "P10", "quote": "Pursuing our legitimate interests like direct marketing, research and development (including marketing research), network and information security, and fraud prevention;"}
+    ],
+    "C4": [
+      {"piece": "P15", "quote": "**Request Access to and Portability of Your Personal Information,** including: (i) obtaining access to or a copy of your personal information"},
+      {"piece": "P15", "quote": "**Request Correction** of your personal information where it is inaccurate, incomplete, or outdated."},
+      {"piece": "P15", "quote": "**Request Deletion, Anonymization or Blocking** of personal information"},
+      {"piece": "P3", "quote": "Update your Personal Data in the App or on the Site."}
+    ]
+  },
+  "D2": {
+    "C1": [],
+    "C2": [
+      {"piece": "P18", "quote": "you will resolve any dispute, disagreement, or claim relating to these Terms through final and binding arbitration by AAA (U.S.) or ICDR (UK/EU), seated in the county (or parish) where you live, unless we agree to a different location."},
+      {"piece": "P1", "quote": "These Terms contain an agreement to resolve most disputes between us through arbitration (instead of suing in court) and to waive jury trials and class actions in most cases."},
+      {"piece": "P14", "quote": "If that doesn't work, most issues have to go to private arbitration, not court—unless it's about a safety issue like an injury."}
+    ],
+    "C3": [
+      {"piece": "P5", "quote": "By sharing Content on Bluesky, you grant us a limited, worldwide, non-exclusive, royalty-free license to:"}
+    ],
+    "C4": [
+      {"piece": "P9", "quote": "You may terminate your Account at any time by using the account deletion option in your settings."},
+      {"piece": "P9", "quote": "You can delete your Bluesky account anytime in your settings."}
+    ],
+    "C5": [
+      {"piece": "P3", "quote": "To be a Bluesky user, you must create an account"},
+      {"piece": "P2", "quote": "To use Bluesky, you need your own account."}
+    ],
+    "C6": [
+      {"piece": "P23", "quote": "Our failure to enforce any provision of these Terms is not a waiver of our rights to enforce it later."},
+      {"piece": "P21", "quote": "If we don’t enforce a rule right away, we can still enforce it later."}
+    ]
+  }
+}

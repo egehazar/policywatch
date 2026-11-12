@@ -1,0 +1,88 @@
+{
+ "D1": {
+  "C1": [
+   {
+    "piece": "P120",
+    "quote": "We do not allow content that is designed to deceive, mislead, or overwhelm users in order to artificially increase viewership."
+   },
+   {
+    "piece": "P120",
+    "quote": "Posting, sharing, engaging with content or creating accounts, Groups, Pages, Events or other assets, either manually or automatically, at very high frequencies."
+   },
+   {
+    "piece": "P53",
+    "quote": "sending unsolicited messages to people who you do not follow"
+   },
+   {
+    "piece": "P72",
+    "quote": "Is directed at a large number of individuals with no prior solicitation."
+   }
+  ],
+  "C2": [
+   {
+    "piece": "P114",
+    "quote": "a notification is issued each time we remove content"
+   },
+   {
+    "piece": "P144",
+    "quote": "Upon receipt of a report from a rights holder or an authorized representative, we will remove or restrict content that engages in:"
+   },
+   {
+    "piece": "P48",
+    "quote": "We may take a range of enforcement actions, including but not limited to removing content and ads, reducing distribution, restricting advertising accounts, limiting features, requiring verification, or disabling accounts."
+   }
+  ],
+  "C3": [
+   {
+    "piece": "P143",
+    "quote": "To report content that you feel may infringe upon your intellectual property rights, please visit our [Intellectual Property Help Center], visit our [Business Protection page], or consider applying for access to [Brand Rights Protection]."
+   }
+  ],
+  "C4": [
+   {
+    "piece": "P12",
+    "quote": "We remove Glorification, Support, and Representation of Tier 1 entities, their leaders, founders or prominent members, as well as unclear references to them."
+   },
+   {
+    "piece": "P5",
+    "quote": "we remove language that incites or facilitates violence and credible threats to public or personal safety."
+   },
+   {
+    "piece": "P20",
+    "quote": "we designate the ideology itself and remove content that supports this ideology from our platform."
+   },
+   {
+    "piece": "P6",
+    "quote": "We remove threats of violence against various targets."
+   }
+  ],
+  "C5": [
+   {
+    "piece": "P111",
+    "quote": "Content that asks for, offers or provides methods of contact to acquire pornographic material, or contains usernames or links to pornographic websites."
+   },
+   {
+    "piece": "P110",
+    "quote": "when content asks for or offers pornographic or sexual content"
+   }
+  ],
+  "C6": [
+   {
+    "piece": "P6",
+    "quote": "We remove threats of violence against various targets."
+   },
+   {
+    "piece": "P89",
+    "quote": "That is why we don’t allow hateful conduct on Facebook, Instagram, or Threads."
+   },
+   {
+    "piece": "P71",
+    "quote": "We do not tolerate this kind of behavior because it prevents people from feeling safe and respected on Facebook, Instagram, and Threads."
+   },
+   {
+    "piece": "P90",
+    "quote": "We remove dehumanizing speech, allegations of serious immorality or criminality, and slurs."
+   }
+  ]
+ }
+}

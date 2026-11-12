@@ -1,0 +1,57 @@
+{
+  "D1": {
+    "C1": [
+      {"piece": "P1", "quote": "Effective: October 9, 2026"},
+      {"piece": "P30", "quote": "**Effective:** October 9, 2026"},
+      {"piece": "P53", "quote": "**Effective:** October 9, 2026"}
+    ],
+    "C2": [
+      {"piece": "P22", "quote": "The X Entities make no warranty or representation and disclaim all responsibility and liability for: (i) the completeness, accuracy, availability, timeliness, security or reliability of the Services or any Content; (ii) any harm to your computer system, loss of data, or other harm that results from your access to or use of the Services or any Content; (iii) the deletion of, or the failure to store or to transmit, any Content and other communications maintained by the Services; and (iv) whether the Services will meet your requirements or be available on an uninterrupted, secure, or error-free basis."},
+      {"piece": "P3", "quote": "We provide the Services on an “AS IS” and “AS AVAILABLE” basis, and we disclaim all warranties, responsibility, and liability to you or others to the extent permitted by law."}
+    ],
+    "C3": [
+      {"piece": "P20", "quote": "(viii) interfere with, or disrupt, (or attempt to do so), the access of any user, host or network, including, without limitation, sending a virus, overloading, flooding, spamming, mail-bombing the Services"},
+      {"piece": "P47", "quote": "(viii) interfere with, or disrupt, (or attempt to do so), the access of any user, host or network, including, without limitation, sending a virus, overloading, flooding, spamming, mail-bombing the Services"}
+    ],
+    "C4": [
+      {"piece": "P10", "quote": "If you believe that your Content has been copied in a way that constitutes copyright infringement, please report this by visiting our Copyright reporting form ([https://help.x.com/forms/ipi]) or contacting our designated copyright agent at:"},
+      {"piece": "P35", "quote": "If you believe that your Content has been copied in a way that constitutes copyright infringement, please report this by visiting our Copyright reporting form ([https://help.x.com/forms/ipi]) or contacting our designated copyright agent at:"},
+      {"piece": "P4", "quote": "Further, if you believe that your Content has been displayed on the Services in an unauthorized manner that constitutes copyright infringement, the reporting process is detailed in these Terms."}
+    ],
+    "C5": [
+      {"piece": "P30", "quote": "If you have any questions about these Terms, please contact [us]."},
+      {"piece": "P53", "quote": "If you have any questions about these Terms, please contact [us]."}
+    ],
+    "C6": [
+      {"piece": "P15", "quote": "Certain services or features may be offered on X for which additional terms and conditions may apply in connection with your use of those services."},
+      {"piece": "P42", "quote": "Certain services or features may be offered on X for which additional terms and conditions may apply in connection with your use of those services."},
+      {"piece": "P16", "quote": "If you use paid features, products, or services of the Services, you agree to the applicable [Terms for Paid Services] ([https://legal.x.com/purchaser-terms])."},
+      {"piece": "P17", "quote": "If you use advertising features, products, or services of the Services in any way, including but not limited to self-service and managed service offerings, you agree that your use of the advertising features, products, and services as well as your advertisements are subject to the terms of our [Master Services Agreement] ([https://ads.x.com/terms])."},
+      {"piece": "P43", "quote": "If you use developer features, products, or services of the Services, including but not limited to [X for Websites] ([https://docs.x.com/x-for-websites/overview]), [X Cards] ([https://docs.x.com/x-ads-api/creatives/reference#cards]), [Public API] ([https://docs.x.com/overview]), or [Sign in with X] ([https://docs.x.com/fundamentals/authentication/guides/log-in-with-x]), you agree to our [Developer Agreement] ([https://docs.x.com/developer-terms/agreement]) and [Developer Policy] ([https://docs.x.com/developer-terms/policy])."}
+    ],
+    "C7": [
+      {"piece": "P7", "quote": "(ii) accepting these Terms in order to authorize the use of the Services on behalf of a minor (being any person under the age of majority in any given country), company, organization, government, or other legal entity, you represent and warrant that you are authorized to do so or, as the case may be, have the authority to bind such minor and/or entity to these Terms."},
+      {"piece": "P32", "quote": "(ii) accepting these Terms in order to authorize the use of the Services on behalf of a minor (being any person under the age of majority in any given country), company, organization, government, or other legal entity, you represent and warrant that you are authorized to do so or, as the case may be, have the authority to bind such minor and/or entity to these Terms."}
+    ]
+  },
+  "D2": {
+    "C1": [
+      {"piece": "P23", "quote": "If you have additional questions or requests related to your rights, [you can contact Google and our data protection office]. And you can contact your local data protection authority if you have concerns regarding your rights under local law."},
+      {"piece": "P22", "quote": "When we receive formal written complaints, we respond by contacting the person who made the complaint. We work with the appropriate regulatory authorities, including local data protection authorities, to resolve any complaints regarding the transfer of your data that we cannot resolve with you directly."}
+    ],
+    "C2": [
+      {"piece": "P54", "quote": "You can edit or delete your account at any time through your Google Account settings."},
+      {"piece": "P15", "quote": "[Delete your entire Google Account]"},
+      {"piece": "P20", "quote": "[Delete your entire Google Account]"}
+    ],
+    "C3": [
+      {"piece": "P18", "quote": "We will share personal information outside of Google if we have a good-faith belief that disclosure of the information is reasonably necessary to:"},
+      {"piece": "P63", "quote": "Our legal team reviews each and every request, regardless of type, and we frequently push back when a request appears to be overly broad or doesn’t follow the correct process."},
+      {"piece": "P50", "quote": "When we have a legal obligation to do so, such as retaining certain information for purposes like financial record-keeping, processing and retaining information to help ensure that users are old enough to use our services or disclosing certain data in response to legal requests from government authorities, regulators and courts in compliance with applicable law."}
+    ],
+    "C4": [
+      {"piece": "P19", "quote": "We also allow [specific partners] to collect information from your browser or device for advertising and measurement purposes using their own cookies or similar technologies."},
+      {"piece": "P68", "quote": "For example, we allow YouTube creators and advertisers to work with measurement companies to learn about the audience of their YouTube videos or ads, using cookies or similar technologies."}
+    ]
+  }
+}

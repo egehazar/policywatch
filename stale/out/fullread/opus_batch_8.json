@@ -1,0 +1,61 @@
+{
+  "D1": {
+    "C1": [
+      {"piece": "P32", "quote": "you can terminate these Terms at any time if you do not agree with any changes we make to these Terms, or for any other reason, by deleting your Snapchat account"},
+      {"piece": "P79", "quote": "you can terminate these Terms at any time if you do not agree with any changes we make to these Terms, or for any other reason, by deleting your Snapchat account"},
+      {"piece": "P4", "quote": "You can also choose to stop using the Services or delete your account at any time."},
+      {"piece": "P33", "quote": "You can stop using the Services or delete your account at any time and for any reason, including if you don't like any changes to these Terms."},
+      {"piece": "P80", "quote": "You can stop using the Services or delete your account at any time and for any reason, including if you don't like any changes to these Terms."}
+    ],
+    "C2": [
+      {"piece": "P16", "quote": "Whether that content is posted publicly or sent privately, the content is the sole responsibility of the user or entity that submitted it. To the fullest extent permitted by applicable law, Snap reserves the right to review, moderate or remove all content that appears on the Services."},
+      {"piece": "P62", "quote": "Whether that content is posted publicly or sent privately, the content is the sole responsibility of the user or entity that submitted it. To the fullest extent permitted by applicable law, Snap reserves the right to review, moderate or remove all content that appears on the Services."},
+      {"piece": "P11", "quote": "we may access, review, screen and delete your content at any time and for any reason"},
+      {"piece": "P56", "quote": "we reserve the right to access, review, screen and delete any content: (i) which we think violates these Terms or any applicable laws, including any additional terms referenced in Section 3, or our policies, such as our [Community Guidelines], or (ii) if necessary to comply with our legal obligations"}
+    ],
+    "C3": [
+      {"piece": "P36", "quote": "IN NO EVENT WILL OUR AGGREGATE LIABILITY FOR ALL CLAIMS RELATING TO THE SERVICES EXCEED THE GREATER OF $100 USD OR THE AMOUNT YOU PAID US IN THE 12 MONTHS PRECEDING THE DATE OF THE ACTIVITY GIVING RISE TO THE CLAIM."},
+      {"piece": "P83", "quote": "in no event will Snap, Snap Inc. or our affiliates’ aggregate liability for all claims relating to the Services exceed the greater of (a) €100 EUR, and (b) the amount you paid Snap in the last 12 months for any Services."},
+      {"piece": "P84", "quote": "Where we are liable to you and, you have suffered loss, we limit our liability to a set amount."}
+    ],
+    "C4": [
+      {"piece": "P12", "quote": "Additional terms and conditions listed on the [Terms & Policies] page or that are otherwise made available to you will apply to you depending on the specific Services you use."},
+      {"piece": "P58", "quote": "Additional terms and conditions listed on the [Terms & Policies] page or that are otherwise made available to you will apply to you depending on the specific Services you use or where you are located."},
+      {"piece": "P7", "quote": "you will comply with these Terms (including any other terms and policies referenced in these Terms, such as the [Community Guidelines], [Music on Snapchat Guidelines] and the [Commercial Content Policy]) and all applicable local, state, national and international laws, rules and regulations."},
+      {"piece": "P3", "quote": "**Some features may be subject to additional legal terms:** If they are, we'll let you know and they will also become part of the [Snap Terms of Service]."},
+      {"piece": "P19", "quote": "You must also respect Snap’s rights and adhere to the [Snapchat Brand Guidelines], [Bitmoji Brand Guidelines] and any other guidelines, support pages, or FAQs published by Snap or our affiliates."}
+    ]
+  },
+  "D2": {
+    "C1": [
+      {"piece": "P14", "quote": "In some cases, we may also use a photo of your face to verify that your ID belongs to you"}
+    ],
+    "C2": [
+      {"piece": "P29", "quote": "In this case, we may transfer your personal data to a successor or affiliate as part of that transaction."}
+    ],
+    "C3": [
+      {"piece": "P29", "quote": "We may process and share your personal data to comply with a request from courts, authorities, parties to litigation, or other authorized third parties."}
+    ],
+    "C4": [
+      {"piece": "P10", "quote": "This may include your:<br><br>* display name<br>* email address<br>* password<br>* phone number<br>* date of birth<br>* gender<br>* street address (see further details below)<br>* country"},
+      {"piece": "P12", "quote": "online identifiers such as [cookie data] and IP addresses<br>* information about the devices you use such as:<br> * device IDs"},
+      {"piece": "P15", "quote": "It will include information such as:<br><br>* name<br>* date of birth<br>* payment method type (e.g. credit or debit card)"},
+      {"piece": "P13", "quote": "Your general location includes country, region, state or city."},
+      {"piece": "P14", "quote": "we collect and process voice data. Voice data means audio recordings of your voice."}
+    ],
+    "C5": [
+      {"piece": "P6", "quote": "You can exercise your right to opt out through the ‘[Tailored Ads]’ setting."},
+      {"piece": "P8", "quote": "You can control tailored advertising through the ‘[Tailored Ads]’ setting."},
+      {"piece": "P9", "quote": "This message will contain a link to the [Tailored Ads] setting where you can change your preferences or ‘opt-out’ of tailored advertising at any time."}
+    ],
+    "C6": [
+      {"piece": "P6", "quote": "Withdraw your consent to us collecting or using your personal data."},
+      {"piece": "P2", "quote": "[Account Privacy]: Control the processing of certain personal data."},
+      {"piece": "P25", "quote": "You’ll always have the option to change your mind and [withdraw your consent at any time]."},
+      {"piece": "P24", "quote": "You can see and remove many third party connections under ‘[Apps]’ in your account."}
+    ],
+    "C7": [
+      {"piece": "P33", "quote": "It’s your responsibility to only allow this to happen if you’re comfortable sharing your personal data with them."}
+    ]
+  }
+}

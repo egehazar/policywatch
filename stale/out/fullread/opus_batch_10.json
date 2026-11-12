@@ -1,0 +1,144 @@
+{
+  "D1": {
+    "C1": [
+      {"piece": "P23", "quote": "access any website, server, software application, or other computer resource owned, used, and/or licensed by Twitch, including but not limited to the Twitch Services, by means of any robot, spider, scraper, crawler, or other automated means for any purpose"},
+      {"piece": "P11", "quote": "(d) use of any data mining, robots, or similar data gathering or extraction methods"}
+    ],
+    "C2": [
+      {"piece": "P39", "quote": "You agree that any dispute, claim, or cause of action of any sort that might arise between the parties will be governed by this Agreement and the laws of the State of California and applicable United States federal law, without regard to any conflict of laws principles."},
+      {"piece": "P39", "quote": "Any disputes, claims, or causes of action arising out of or in connection with these Terms of Service or your use of the Twitch Services shall be brought and resolved exclusively by the United States District Court for the Northern District of California or a California state court located in San Francisco County, California."}
+    ],
+    "C3": [
+      {"piece": "P25", "quote": "Twitch does not endorse any User Content, opinion, recommendation, or advice expressed therein, and, to the extent permitted by applicable law, Twitch expressly disclaims any and all liability in connection with User Content."},
+      {"piece": "P25", "quote": "Twitch is not liable for any statements or representations included in User Content."}
+    ],
+    "C4": [
+      {"piece": "P5", "quote": "You are solely responsible for maintaining the confidentiality of your account, your password and for restricting access to the device(s) on which you use your account."},
+      {"piece": "P5", "quote": "If you permit others to use your account credentials, you agree to these Terms of Service on behalf of all other persons who use the Twitch Services under your account or password, and you are responsible for all activities that occur under your account or password."},
+      {"piece": "P7", "quote": "you are solely responsible for all of their activities occurring under your account"}
+    ],
+    "C5": [
+      {"piece": "P39", "quote": "(ii) any disputes or claims relating in any way to these Terms of Service or your use of the Twitch Services shall be resolved by a competent civil court in the country where you reside."},
+      {"piece": "P39", "quote": "You agree that any dispute, claim, or cause of action of any sort that might arise between the parties will be governed by this Agreement and the laws of the State of California and applicable United States federal law, without regard to any conflict of laws principles."}
+    ],
+    "C6": [],
+    "C7": [
+      {"piece": "P21", "quote": "i. create, upload, transmit, distribute, or store any content that is inaccurate, unlawful, infringing, defamatory, obscene, pornographic, invasive of privacy or publicity rights, harassing, threatening, abusive, inflammatory, or otherwise objectionable;"}
+    ]
+  },
+  "D2": {
+    "C1": [
+      {"piece": "P1", "quote": "If you have any further questions, please contact us at [privacy@twitch.tv]."}
+    ]
+  },
+  "D3": {
+    "C1": [
+      {"piece": "P76", "quote": "Under applicable data protection law, you have the right to access, rectify, port, and erase your information, as well as the right to restrict and object to certain processing of your information."},
+      {"piece": "P76", "quote": "This includes the right to object to our processing of your information for direct marketing and the right to object to our processing of your information where we are pursuing our legitimate interests or those of a third-party."},
+      {"piece": "P75", "quote": "You have the right to object to, and seek restriction of, this processing."},
+      {"piece": "P76", "quote": "If we use your information for direct marketing, you can always object and opt out of future direct marketing messages using the unsubscribe link in such communications, or by using our in-app \"block\" feature."},
+      {"piece": "P42", "quote": "When we process your information based on your consent, you have the right to withdraw your consent at any time without affecting the lawfulness of processing based on such consent before the consent is withdrawn."}
+    ],
+    "C2": [
+      {"piece": "P83", "quote": "Please remember that when your account is deleted, it does not affect your information related to the communities or groups you created (such as community or group names), or the information other users have relating to you, such as their copy of the messages you sent them."}
+    ],
+    "C3": [
+      {"piece": "P78", "quote": "In certain cases, we also keep your information for legal reasons, including after your account has been deleted."},
+      {"piece": "P82", "quote": "Copies of your information may also be retained for legal reasons after you delete your account in the circumstances described."},
+      {"piece": "P79", "quote": "For example, if we receive a valid legal request, such as a preservation order or search warrant, related to your account, we preserve your information after you delete your account."},
+      {"piece": "P81", "quote": "If we are analysing or investigating a security incident, in order to maintain the security of our Services, we need to retain [Log and Troubleshooting Information] associated with the incident that we are reviewing past the normal 90 day deletion period."},
+      {"piece": "P79", "quote": "If we disable an account for violating our [Terms], we also preserve information about that user for safety, security and integrity purposes."}
+    ],
+    "C4": [
+      {"piece": "P9", "quote": "Even if you do not choose to use our precise location-related features (see [Information Shared by You and by WhatsApp with Third Parties]), we use IP addresses and other information like phone number area codes, to estimate your general location (e.g., country/region)."},
+      {"piece": "P21", "quote": "If you choose to use AI at Meta through WhatsApp, Meta receives General Location Information (e.g. region and language)"},
+      {"piece": "P17", "quote": "To be able to provide these services, this provider receives Precise Location Information (your current location and other locations you choose on the map)."},
+      {"piece": "P42", "quote": "sharing your device’s [Precise Location Information] if you choose to use our location-related features."}
+    ],
+    "C5": [
+      {"piece": "P11", "quote": "We receive information about you from other users."},
+      {"piece": "P13", "quote": "If you use our Services with such third-party services or [Meta Company Products], we may receive information about you from them"},
+      {"piece": "P12", "quote": "WhatsApp receives information about bad actors and abuse from [Meta Companies] and app verification information from anti-abuse services to promote safety, security and integrity."},
+      {"piece": "P11", "quote": "When businesses you interact with while using our Services provide us with information about their interactions with you, we require each of these businesses to act in accordance with applicable law."},
+      {"piece": "P11", "quote": "Just as you can report other users, other users or third parties may also choose to report to us your interactions and your messages with them or others on our Services"}
+    ],
+    "C6": [
+      {"piece": "P9", "quote": "we use IP addresses and other information like phone number area codes, to estimate your general location (e.g., country/region)."},
+      {"piece": "P9", "quote": "This includes information such as hardware model, operating system information, battery level, signal strength, app version, browser information, mobile network, connection information including whether you are using wifi or cellular data, mobile operator or internet service provider (ISP), language and time zone, IP address"}
+    ],
+    "C7": [
+      {"piece": "P21", "quote": "For each legal basis below, we describe the purposes of our processing (why we process your information) and our processing operations (how we process your information to achieve each purpose)."},
+      {"piece": "P2", "quote": "For example, our Privacy Policy talks about what information we collect and how this affects you."},
+      {"piece": "P2", "quote": "Our Privacy Policy (\"**Privacy Policy**\") explains our data practices, including the information we process to provide our [Services]."}
+    ],
+    "C8": [
+      {"piece": "P12", "quote": "For example, a business may give such third-party service providers access to its communications to send, store, read, manage or otherwise process them for the business."},
+      {"piece": "P11", "quote": "Just as you can report other users, other users or third parties may also choose to report to us your interactions and your messages with them or others on our Services"}
+    ],
+    "C9": [
+      {"piece": "P77", "quote": "You can access or port your information using our in-app Request Account Info feature (available under Settings > Account)."},
+      {"piece": "P41", "quote": "When we process information you provide to us as necessary to perform our contractual relationship with you, under applicable data protection laws you have the right to port it."},
+      {"piece": "P76", "quote": "Under applicable data protection law, you have the right to access, rectify, port, and erase your information"},
+      {"piece": "P22", "quote": "You should know that no matter what legal basis applies, you always have the right to request access to, rectification of, and erasure of your information."}
+    ],
+    "C10": [
+      {"piece": "P18", "quote": "We work with Meta Companies in the UK, Israel and the United States that provide us with business analytics services so that we can learn for example how many unique users we have compared to other services offered by the [Meta Companies]."}
+    ],
+    "C11": [
+      {"piece": "P9", "quote": "This includes information such as hardware model, operating system information, battery level, signal strength, app version, browser information, mobile network, connection information including whether you are using wifi or cellular data, mobile operator or internet service provider (ISP), language and time zone, IP address, device operations information and identifiers"},
+      {"piece": "P8", "quote": "This includes collecting information about your activity (including how you use our Services), how you interact with others using our Services (including when you search for and interact with a business), the time, frequency, and duration of your activities."},
+      {"piece": "P6", "quote": "You can use contact upload and provide us with contact information from your device address book on a regular basis, including those of users of our Services and your other contacts."},
+      {"piece": "P4", "quote": "We collect or receive age information (including proof of age in some cases), for example, if you provide your age to WhatsApp or add your WhatsApp account to an Accounts Centre with other Meta Company products."},
+      {"piece": "P10", "quote": "We collect information about your in-app settings, privacy settings and records about when you accepted terms."}
+    ],
+    "C12": [
+      {"piece": "P68", "quote": "we count users and events for reporting to identify how many users WhatsApp has (and similar metrics) so we can share these metrics with affiliates, regulators and the public."},
+      {"piece": "P28", "quote": "collect and aggregate activity, system events and metrics (such as messaging volume and latencies) to monitor service performance, reliability, and efficiency, so we can ensure and optimise service quality."},
+      {"piece": "P37", "quote": "log events and aggregated counts about community, group and user actions on our Services (like the number of groups joined)"},
+      {"piece": "P32", "quote": "collect metrics about calls and aggregate them to optimise call quality."},
+      {"piece": "P81", "quote": "Copies of certain log records remain in our database but are disassociated from personal identifiers which are used for example to measure performance, reliability and efficiency and to operate and improve our Services."}
+    ],
+    "C13": [
+      {"piece": "P10", "quote": "We collect information using cookies to operate and provide our web-based Services and website."},
+      {"piece": "P27", "quote": "use cookies to operate and provide our web-based Services."}
+    ],
+    "C14": [
+      {"piece": "P43", "quote": "We process information to comply with a legal obligation including, for example, to access, preserve or disclose certain information if there is a valid legal request."},
+      {"piece": "P84", "quote": "We access and share your information described in the [Information We Collect] section, including sharing with regulators, law enforcement, other government agencies, industry partners/peers such as other online platforms and technology companies, our advisors such as external lawyers who act for us, and others in accordance with the [How and Why We Process Your Information and Our Legal Basis for Processing] section if we have a good-faith belief that it is necessary to:"},
+      {"piece": "P84", "quote": "respond pursuant to applicable law or regulations, court orders, legal process, or government requests."}
+    ],
+    "C15": [
+      {"piece": "P10", "quote": "If you use optional features such as Status or Channels, we also collect information using similar technologies for ads."},
+      {"piece": "P9", "quote": "device operations information and identifiers (including identifiers unique to [Meta Company Products] associated with the same device or account, identifiers used to link your backups to your account, or temporary guest identifiers) and signals to identify whether your device is a trusted device."}
+    ],
+    "C16": [
+      {"piece": "P6", "quote": "You can use contact upload and provide us with contact information from your device address book on a regular basis, including those of users of our Services and your other contacts."},
+      {"piece": "P11", "quote": "For example, when other users you know use our Services, they may provide your contact information if they use [contact upload] just as you may provide theirs."},
+      {"piece": "P33", "quote": "store cryptographic hash values of the phone numbers of your contacts who are [not WhatsApp users], so we can quickly update your WhatsApp contacts if those contacts sign-up to WhatsApp at a later date."}
+    ],
+    "C17": [
+      {"piece": "P17", "quote": "To be able to provide these services, this provider receives Precise Location Information (your current location and other locations you choose on the map)."},
+      {"piece": "P42", "quote": "sharing your device’s [Precise Location Information] if you choose to use our location-related features."},
+      {"piece": "P5", "quote": "We enable you to share your Precise Location Information from your device when you choose to use location-related features, like when you decide to share your current location with, or send live location to your contacts, or view locations nearby."}
+    ]
+  },
+  "D4": {
+    "C1": [
+      {"piece": "P4", "quote": "If you are under this age, your parent or guardian can create a parent-managed account for you if it is available in your country or territory."},
+      {"piece": "P18", "quote": "If you created a parent-managed account for a user under 13 (or the minimum age required in your country) and allow them to use our Services, you are subject to the terms of this Agreement and responsible for your child’s activity on our Services."}
+    ],
+    "C2": [
+      {"piece": "P3", "quote": "This infrastructure may be owned or operated by our service providers including affiliated companies."},
+      {"piece": "P2", "quote": "WhatsApp works with partners, service providers, and affiliated companies to help us provide ways for you to connect with their services."},
+      {"piece": "P4", "quote": "You agree to receive text messages and phone calls (from us or our third-party providers) with codes to register for our Services."}
+    ],
+    "C3": [],
+    "C4": [
+      {"piece": "P9", "quote": "In order to operate and provide our Services, you grant WhatsApp a worldwide, non-exclusive, royalty-free, sublicensable, and transferable license to use, reproduce, distribute, create derivative works of, display, and perform the information (including the content) that you upload, submit, store, send, or receive on or through our Services."}
+    ],
+    "C5": [],
+    "C6": [
+      {"piece": "P5", "quote": "WhatsApp's [Privacy Policy] describes our data (including message) practices, including the types of information we receive and collect from you, how we use and share this information, and your rights in relation to the processing of information about you."}
+    ]
+  }
+}
