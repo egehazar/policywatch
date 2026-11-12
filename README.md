@@ -9,6 +9,15 @@ person reviews that short list instead of re-reading every answer.
 
 It runs on a desktop CPU with no API key: Kev-4B (Q8) served by llama.cpp's `/v1/systemone` endpoint.
 
+## Pre-registered results so far
+Each test was hashed before scoring. All results are reported, including failures.
+
+| Test | Reading | Key numbers | Details |
+|---|---|---|---|
+| Find where a ToS;DR case is stated in a platform's current text | **Decision model better** | Top-1 on 200 points: Kev-4B 62%, BM25 36%, bge-small 30%. Gold is the curators' own quotes. | [Stale evidence](#stale-evidence-for-tosdr-points-stale) |
+| Rank which answers an update changed (35 updates) | **Failed** | The bar was 24 of 25 changes in 182 reviews; the tool needed 684. | [Accuracy](#accuracy), item 1 |
+| Same ranking, Kev-4B vs Qwen3.5-4B on the same CPU | **No clear winner** | Within 182 reviews, Kev found 20 of 25 changes and Qwen 12, but Kev used 2.2x the CPU. | Item 4 |
+
 ## Why
 Measured on 35 real Terms of Service and Privacy Policy updates (Open Terms Archive, 2,450 update x question pairs).
 Two independent LLM raters (not humans) judged each question on the changed excerpt only, not the whole document.
@@ -123,7 +132,16 @@ anything.
   now states the case, or decline the point. A pre-registered test (`stale/PREREG_relocate.md`, hashed before any
   arm was scored) asks whether Kev-4B finds the curator's own quoted passage among a document's 1,500-character pieces
   better than bge-small and BM25. It uses the points whose quote is still present, so the curator's quote is the
-  answer key. Result: pending.
+  answer key.
+  - **Result (2026-11-12): DECISION MODEL BETTER** (`stale/RESULT_relocate.md`). On 200 points in 29 documents,
+    Kev ranks a curator-quoted piece first for 62% of points: BM25 36%, bge 30%, and 47% for a stronger embedding
+    arm that matches other companies' approved quotes for the same case.
+  - Paired 95% intervals over documents: Kev minus bge [+.26, +.39], minus BM25 [+.18, +.32], minus the quote arm
+    [+.05, +.26].
+  - Cost: about 1.9 CPU seconds per piece-question, roughly 80 s per point for a 40-piece document.
+  - It covers points whose case is still stated. Whether Kev can tell that a case is no longer stated is untested,
+    and the page makes no such claim.
+  - The page's suggestions for the 141 stale points use Kev once that run finishes.
 
 ## Run
 ```
