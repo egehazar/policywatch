@@ -144,6 +144,11 @@ anything.
     arm that matches other companies' approved quotes for the same case.
   - Paired 95% intervals over documents: Kev minus bge [+.26, +.39], minus BM25 [+.18, +.32], minus the quote arm
     [+.05, +.26].
+  - Checks after the result (exploratory): asked another point's question, Kev's top piece is the right one 6% of the
+    time (chance 4%), so it reads the question; the intervals stay above 0 when resampling cases instead of documents.
+  - Still to come, pre-registered: Kev against a cross-encoder reranker (bge-reranker-v2-m3) and its own base-family
+    LLM (Qwen3.5-4B), and a replication on 202 points from 41 services outside the 20 platforms
+    (`stale/PREREG_relocate2.md`, `stale/PREREG_relocate2b.md`).
   - Cost: about 1.9 CPU seconds per piece-question, roughly 80 s per point for a 40-piece document.
   - It covers points whose case is still stated. Whether Kev can tell that a case is no longer stated is untested,
     and the page makes no such claim.
