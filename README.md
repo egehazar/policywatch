@@ -15,6 +15,8 @@ Each test was hashed before scoring. All results are reported, including failure
 | Test | Reading | Key numbers | Details |
 |---|---|---|---|
 | Find where a ToS;DR case is stated in a platform's current text | **Decision model better** | Top-1 on 200 points: Kev-4B 62%, BM25 36%, bge-small 30%. Gold is the curators' own quotes. | [Stale evidence](#stale-evidence-for-tosdr-points-stale) |
+| Suggest where a stale point's case is now stated (141 points) | **Page leads with Kev** (provisional) | Top-1 on 69 points whose quote is gone: Kev 74%, BM25 with the old quote 77% (no difference shown), bge 49%, BM25 40%. Gold is a model rater's until a human check. | `stale/RESULT_suggest.md` |
+| Label a stale point "case no longer stated" | **Not shipped** (provisional) | Kev ranks the 15 no-longer-stated points low (AUROC .92), but its flag was right for 6 of 12 flagged; the bar was 75%. | `stale/RESULT_suggest.md` |
 | Rank which answers an update changed (35 updates) | **Failed** | The bar was 24 of 25 changes in 182 reviews; the tool needed 684. | [Accuracy](#accuracy), item 1 |
 | Same ranking, Kev-4B vs Qwen3.5-4B on the same CPU | **No clear winner** | Within 182 reviews, Kev found 20 of 25 changes and Qwen 12, but Kev used 2.2x the CPU. | Item 4 |
 | Kev with bare yes/no options (cost fix) | **Adopted** | 21 of 25 changes at 0.57x Kev's CPU, now 1.26x Qwen's. | Item 4 |
@@ -152,7 +154,8 @@ anything.
   - Cost: about 1.9 CPU seconds per piece-question, roughly 80 s per point for a 40-piece document.
   - It covers points whose case is still stated. Whether Kev can tell that a case is no longer stated is untested,
     and the page makes no such claim.
-  - The page's suggestions for the 141 stale points use Kev once that run finishes.
+  - The page's suggestions for the 141 stale points now lead with Kev (`stale/RESULT_suggest.md`, provisional until a
+    human checks 60 blind cards).
 
 ## Run
 ```

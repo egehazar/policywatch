@@ -41,3 +41,10 @@ ab1ffccb04387835f4b630d52bf8d43415a77ad8c2453d4599030f08f49a5150 *stale/out/full
 # human-gate sampler 2026-11-12T20:11:31Z: fixed before the Kev arm finished; quote_bm25/hunk/bge/quote arms may have run, not looked at
 711805c972ce27420c9e1a11ad350f74fa0b8deba48785f026c7a76dbde4c13b *stale/gate.py
 51fc62f9ba37b43eddda7e9a54606ed224a16de8ce5dd3d16fc2bd6d38b785d4 *audit/gate/index.html
+# arms 2026-11-13T01:26:26Z
+ba9d8ad25e3a2de332728471b669f86c9c3055254ee6b9eb51241093bf4528f5 *stale/out/suggest_bge.jsonl
+dcdd59c1b24c07e31faf60a4afb84453e1a7a6b977f5370783acefd23378b5a2 *stale/out/suggest_bm25.jsonl
+068b125301524f733f9ef8b7147b1338d81661d52c311406109fe0aa7cafa38c *stale/out/suggest_hunk.jsonl
+58b5060af5d3ec82cd3dfb0cf62c6a8772c41169072ea1a7604a62467ae94aab *stale/out/suggest_kev.jsonl
+0a762e8842fffb1ff0836dc7008c968f0cc0e97f7678f3e2a554d32399cb6813 *stale/out/suggest_quote.jsonl
+c2b916a86ffc267a352e9b930b64901427f3e778f35853f56931cf2eae97ee59 *stale/out/suggest_quote_bm25.jsonl
