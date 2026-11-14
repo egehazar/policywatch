@@ -213,6 +213,53 @@ class TestCascade(unittest.TestCase):
         self.assertTrue(os.path.exists(os.path.join(ROOT, 'out', 'site', 'stale_demo.html')))
 
 
+class TestPartDEval(unittest.TestCase):
+    """stale.relocate_d.evaluate on synthetic scores: readings, the cascade's share, and the archive check."""
+    def setUp(self):
+        import subprocess, random
+        from stale import relocate_d
+        from stale.relocate import psha
+        self.D = relocate_d
+        self.tmp = tempfile.mkdtemp(); arch = os.path.join(self.tmp, 'contrib-versions'); os.makedirs(arch)
+        g = lambda *a: subprocess.run(['git', '-C', arch, *a], capture_output=True, encoding='utf-8')
+        g('init', '-q'); g('config', 'user.email', 't@t'); g('config', 'user.name', 't')
+        open(os.path.join(arch, 'f.md'), 'w').write('x'); g('add', '-A'); g('commit', '-q', '-m', 'c')
+        self.g, head = g, g('rev-parse', 'HEAD').stdout.strip()
+        rng = random.Random(3); docs, K, B = [], {}, {'BGE': {}, 'BM25': {}, 'RERANK': {}, 'pieces_sha': {}, 'rerank_sec': 1.0, 'rerank_truncated': 0}
+        for sv in range(12):
+            P = [f'piece {sv} {i}' for i in range(30)]; qs = [f'q{sv}a', f'q{sv}b']; gold = {qs[0]: [rng.randrange(30)], qs[1]: [rng.randrange(30)]}
+            d = {'doc': f'S{sv}/T.md', 'service': 1000 + sv, 'pieces': P, 'questions': qs, 'cases': qs,
+                 'items': [{'point': sv * 10 + k, 'question': q, 'gold': gold[q]} for k, q in enumerate(qs)]}
+            docs.append(d); B['pieces_sha'][d['doc']] = psha(P)
+            # Kev: right everywhere; reranker: gold in its top 10 (so the cascade keeps it); BM25/BGE: random
+            K[d['doc']] = {'pieces_sha': psha(P), 'sec': 30.0, 'scores': [{q: (.95 if i in gold[q] else rng.random() * .5) for q in qs} for i in range(30)]}
+            B['RERANK'][d['doc']] = {q: [(5.0 if i in gold[q] else rng.random() + (1 if i < 12 else 0)) for i in range(30)] for q in qs}
+            for a in ('BM25', 'BGE'): B[a][d['doc']] = {q: [rng.random() for _ in range(30)] for q in qs}
+        self.old = (relocate_d.DOCS, relocate_d.F, relocate_d.OUT, wide.DATA_ROOT)
+        relocate_d.DOCS = os.path.join(self.tmp, 'docs.json'); relocate_d.F = {a: os.path.join(self.tmp, f'{a}.json') for a in ('kev', 'base')}
+        relocate_d.OUT = self.tmp; wide.DATA_ROOT = self.tmp
+        json.dump({'archive_head': head, 'order': [], 'docs': docs}, open(relocate_d.DOCS, 'w'))
+        json.dump(K, open(relocate_d.F['kev'], 'w')); json.dump(B, open(relocate_d.F['base'], 'w'))
+
+    def tearDown(self):
+        self.D.DOCS, self.D.F, self.D.OUT, wide.DATA_ROOT = self.old; shutil.rmtree(self.tmp, ignore_errors=True)
+
+    def test_readings_and_cascade(self):
+        self.D.evaluate()
+        R = json.load(open(os.path.join(self.tmp, 'contrib_result.json')))['result']
+        self.assertEqual(R['hit_at']['KEV']['1'], 1.0)
+        self.assertEqual(R['reading']['D0_replication'], 'REPLICATED')
+        self.assertEqual(R['reading']['D1_cascade'], 'CASCADE ADOPTED')          # the gold piece is always in the top 10
+        self.assertEqual(R['reading']['D2_reranker'], 'NO DIFFERENCE SHOWN')    # the reranker ranks gold first too
+        self.assertAlmostEqual(R['cost']['cascade_kev_share'], 10 / 30, places=2)
+        self.assertEqual(R['services'], 12)
+
+    def test_refuses_a_moved_archive(self):
+        open(os.path.join(self.tmp, 'contrib-versions', 'f.md'), 'w').write('y')
+        self.g('commit', '-qam', 'moved')
+        with self.assertRaises(AssertionError): self.D.evaluate()
+
+
 class TestPublishPage(unittest.TestCase):
     def test_theme_guards_and_no_local_nav(self):
         tmp = tempfile.mkdtemp(); old = publish_page.SITE; publish_page.SITE = tmp
