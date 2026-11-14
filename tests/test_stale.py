@@ -127,6 +127,39 @@ class TestWide(unittest.TestCase):
             wide.WIDE = old; shutil.rmtree(tmp, ignore_errors=True)
 
 
+class TestBrokenCaptureGuard(unittest.TestCase):
+    """A tiny archive: a real edit, a capture that collapsed to a title, and a login wall filed under two documents."""
+    def setUp(self):
+        import subprocess
+        self.tmp = tempfile.mkdtemp(); self.arch = os.path.join(self.tmp, 'demo-versions'); os.makedirs(os.path.join(self.arch, 'S'))
+        g = lambda *a: subprocess.run(['git', '-C', self.arch, *a], capture_output=True, encoding='utf-8')
+        g('init', '-q'); g('config', 'user.email', 't@t'); g('config', 'user.name', 't')
+        body = lambda k: '\n\n'.join(f'Paragraph {k} {i} with enough words to count as a long section of text.' for i in range(40))
+        files = {'S/Edited.md': body('a'), 'S/Collapsed.md': body('b'), 'S/Walled.md': body('c'), 'S/Other.md': body('d')}
+        self.commit(g, files, 'Record new changes of S')
+        files['S/Edited.md'] = body('a2'); files['S/Collapsed.md'] = 'Terms\n====='
+        files['S/Walled.md'] = files['S/Other.md'] = 'Log in or sign up\n\n' + body('w')[:1500]
+        self.commit(g, files, 'Record new changes of S')
+        self.c1, self.c2 = g('rev-list', '--reverse', 'HEAD').stdout.split()
+        self.old = wide.DATA_ROOT; wide.DATA_ROOT = self.tmp
+
+    def commit(self, g, files, msg):
+        for p, t in files.items():
+            with open(os.path.join(self.arch, p), 'w', encoding='utf-8') as f: f.write(t)
+        g('add', '-A'); g('commit', '-q', '-m', msg)
+
+    def tearDown(self):
+        wide.DATA_ROOT = self.old; shutil.rmtree(self.tmp, ignore_errors=True)
+
+    def test_only_the_real_edit_stays_a_platform_edit(self):
+        rows = [{'point': i, 'doc': f'S/{d}.md', 'status': 'gone', 'drop_kind': 'platform edit',
+                 'last_present': {'commit': self.c1}, 'dropped_at': {'commit': self.c2}}
+                for i, d in enumerate(('Edited', 'Collapsed', 'Walled'))]
+        self.assertEqual(wide.guard('demo', rows), 2)
+        self.assertEqual([r['drop_kind'] for r in rows], ['platform edit', 'broken capture', 'broken capture'])
+        self.assertEqual(rows[2]['capture_twin_of'], ['S/Other.md'])
+
+
 class TestPublishPage(unittest.TestCase):
     def test_theme_guards_and_no_local_nav(self):
         tmp = tempfile.mkdtemp(); old = publish_page.SITE; publish_page.SITE = tmp

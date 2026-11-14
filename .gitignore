@@ -6,3 +6,5 @@ bench/*.log
 bench/*.err
 bench/qwen.pid
 stale/live/
+stale/wide/*/data/
+stale/wide/*/raw/

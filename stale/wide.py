@@ -167,6 +167,13 @@ def dedupe(collection):
              norm(r['platform']) == norm(M[r['platform']]['tosdr_name']), r['platform'])
         if r['point'] not in best or k > best[r['point']][0]: best[r['point']] = (k, r)
     out = [r for _, r in sorted(best.values(), key=lambda x: (x[1]['platform'], x[1]['point']))]
+    shrank = guard(collection, out)
+    import subprocess                                       # the archive's latest capture of each home document
+    for d in sorted({r['doc'] for r in out if r.get('doc')}):
+        date = subprocess.run(['git', '-C', vdir(collection), 'log', '-1', '--format=%ad', '--date=short', '--', d],
+                              capture_output=True, encoding='utf-8').stdout.strip()
+        for r in out:
+            if r.get('doc') == d: r['latest_capture'] = date
     summary = {}
     for r in out:
         s = summary.setdefault(r['platform'], {'approved_with_quote': 0}); s['approved_with_quote'] += 1
@@ -180,7 +187,50 @@ def dedupe(collection):
     with open(os.path.join(base, 'out', 'summary.json'), 'w', encoding='utf-8') as f:
         json.dump({'total': tot, 'platforms': summary}, f, indent=1)
     pe = [r for r in out if r['status'] in ('gone', 'partly') and r.get('drop_kind') == 'platform edit']
-    print(collection, len(rows), 'rows ->', len(out), 'points', tot, '| dropped in a platform edit:', len(pe))
+    print(collection, len(rows), 'rows ->', len(out), 'points', tot, '| dropped in a platform edit:', len(pe),
+          '| demoted as a broken capture:', shrank)
+
+
+SHRINK = .3
+TWIN_SHRINK = .6       # a current file identical to another document's, and under .6 of the last version with the quote
+
+
+def guard(collection, rows):
+    """A capture that fails part-way records a near-empty or truncated file, and the archive files it as an ordinary
+    "Update"/"Record new changes" commit (contrib's Apple Game Center terms: 83 bytes, a title, since 2022). Such a drop
+    is not a platform edit: drop_kind becomes 'broken capture' when the drop version or the current version is under
+    SHRINK of the last version that held the quote, or when the drop version is that version cut off part-way
+    (policywatch.archive.History.cut_off). Returns how many points were demoted."""
+    import subprocess
+    from policywatch.archive import History
+    arch = vdir(collection); n = 0; size = {}
+    # The same capture filed under two documents is a wall or a redirect (contrib's Airbnb privacy and trackers
+    # policies are both a "Log in or sign up" page since 2025): blob ids of every current file, by path.
+    blob = {}
+    for line in subprocess.run(['git', '-C', arch, 'ls-tree', '-r', 'HEAD'], capture_output=True, encoding='utf-8', errors='replace').stdout.splitlines():
+        meta, path = line.split('\t', 1); blob[path] = meta.split()[2]
+    twins = {}
+    for path, b in blob.items(): twins.setdefault(b, []).append(path)
+
+    def sz(commit, path):
+        if (commit, path) not in size:
+            r = subprocess.run(['git', '-C', arch, 'cat-file', '-s', f'{commit}:{path}'], capture_output=True, encoding='utf-8')
+            size[(commit, path)] = int(r.stdout.strip() or 0)
+        return size[(commit, path)]
+    for r in rows:
+        if r['status'] not in ('gone', 'partly') or r.get('drop_kind') != 'platform edit' or not r.get('last_present'): continue
+        lp, dr = r['last_present']['commit'], r['dropped_at']['commit']
+        before, at, now = sz(lp, r['doc']), sz(dr, r['doc']), sz('HEAD', r['doc'])
+        cut = False
+        if at >= SHRINK * before and now >= SHRINK * before:
+            show = lambda c: subprocess.run(['git', '-C', arch, 'show', f'{c}:{r["doc"]}'], capture_output=True).stdout.decode('utf-8', 'replace')
+            cut = History.cut_off(show(lp), show(dr))
+        twin = len(twins.get(blob.get(r['doc']), [])) > 1 and now < TWIN_SHRINK * before
+        if cut or twin or at < SHRINK * before or now < SHRINK * before:
+            r['drop_kind'] = 'broken capture'; r['capture_bytes'] = {'last_present': before, 'dropped_at': at, 'current': now}
+            if twin: r['capture_twin_of'] = [p for p in twins[blob[r['doc']]] if p != r['doc']][:3]
+            n += 1
+    return n
 
 
 def point_modules(collection):

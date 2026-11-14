@@ -103,6 +103,7 @@ def build(repo=REPO, arm='bm25', base=None, dest=None, noun='platforms'):
                     f'shared):</span>\n{esc(ps["new"])}</div>')
         else:
             diff = '<p class="sm mut">The quote could not be placed in the old text (it spans several passages).</p>'
+        cap = f' · archive&rsquo;s latest capture {esc(r["latest_capture"])}' if r.get('latest_capture') else ''
         x = phx.get(r['point'])
         if x and (x.get('quote_in_phoenix') or 0) >= .8:
             phl = (f'<div class="sm">ToS;DR&rsquo;s stored copy (document {x["phoenix_doc"]}) still holds the quote; it matches the '
@@ -117,7 +118,8 @@ def build(repo=REPO, arm='bm25', base=None, dest=None, noun='platforms'):
             f'<a class="sm" href="https://edit.tosdr.org/points/{r["point"]}">point {r["point"]}</a></div>'
             f'<div class="sm mut">{esc(r["doc"].split("/")[1][:-3])} · quote {r["status"]} since '
             f'<a href="{repo}/commit/{d["commit"]}">{d["date"]}</a> ({esc(d["subject"])}) · point last edited '
-            f'{esc(r["point_updated_at"])}, {when} the change · current coverage {r["current_coverage"]:.0%}</div>'
+            f'{esc(r["point_updated_at"])}, {when} the change · current coverage {r["current_coverage"]:.0%}'
+            f'{cap}</div>'
             f'{phl}<p class="sm"><i>Quote:</i> {esc(re.sub(r"<[^<>]*>", "", r["quote"])[:600])}</p>{diff}{hint}'
             f'{suggestion(sug.get(r["point"]), arm, prop.get(r["point"]))}</div>')
     path = dest or os.path.join(ROOT, 'out', 'site', 'stale.html'); os.makedirs(os.path.dirname(path), exist_ok=True)
