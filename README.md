@@ -16,10 +16,10 @@ Each test was hashed before scoring. All results are reported, including failure
 |---|---|---|---|
 | Find where a ToS;DR case is stated in a platform's current text | **Decision model better** than retrieval | Top-1 on 200 points: Kev-4B 62%, BM25 36%, bge-small 30%. Gold is the curators' own quotes. | [Stale evidence](#stale-evidence-for-tosdr-points-stale) |
 | Same, on 202 held-out points from 41 other services | **Replicated** | Kev 75%, BM25 41%, bge 43%, on ToS;DR's own stored text. | `stale/RESULT_relocate2.md` |
-| Kev vs its base family (Qwen3.5-4B asked the same yes/no question) | **No difference shown**, in both parts | 62% vs 60% and 75% vs 74%. The win was not shown to come from decision-model training. Kev used 1.9-3.2x less CPU. | `stale/RESULT_relocate2.md` |
-| Kev vs a cross-encoder reranker (bge-reranker-v2-m3) | **No claim**: the parts disagree | 62% vs 55% (no difference shown); 75% vs 65% (Kev better). | `stale/RESULT_relocate2.md` |
+| Kev vs its base family (Qwen3.5-4B asked the same yes/no question) | **No difference shown**, in both parts | 62% vs 60% and 75% vs 74%. The win was not shown to come from decision-model training. Qwen used about 2-3x Kev's CPU per passage-question. | `stale/RESULT_relocate2.md` |
+| Kev vs a cross-encoder reranker (bge-reranker-v2-m3) | **Not shown to beat it** (the parts disagree) | 62% vs 55% (no difference shown); 75% vs 65% (Kev better). The reranker used 0.39 and 0.98 CPU s per passage-question, Kev 1.94 and 3.52. | `stale/RESULT_relocate2.md` |
 | Propose the sentence to quote, from the top passage | **Shipped** | When the passage was right, Kev's sentence matched the curator's quote 83% of the time; BM25's 56%. | `stale/RESULT_relocate2.md` |
-| Kev's short question layout for relocation | **Not adopted** | -2.5 points [-5.3, +0.5]; the bar was a lower bound of -5. | `stale/RESULT_relocate2.md` |
+| Kev's short question layout for relocation | **Not adopted** | 20 platforms: -2.5 points [-5.3, +0.5], failing the bar (lower bound at least -5). Held-out services: 0.0 [-3.6, +4.0], passing. No rule for the disagreement; the page keeps the layout that passed on its own platforms. | `stale/RESULT_relocate2.md` |
 | Suggest where a stale point's case is now stated (141 points) | **Page leads with Kev** (provisional) | Top-1 on 69 points whose quote is gone: Kev 74%, BM25 with the old quote 77% (no difference shown), bge 49%, BM25 40%. Gold is a model rater's until a human check. | `stale/RESULT_suggest.md` |
 | Label a stale point "case no longer stated" | **Not shipped** (provisional) | Kev ranks the 15 no-longer-stated points low (AUROC .92), but its flag was right for 6 of 12 flagged; the bar was 75%. | `stale/RESULT_suggest.md` |
 | Rank which answers an update changed (35 updates) | **Failed** | The bar was 24 of 25 changes in 182 reviews; the tool needed 684. | [Accuracy](#accuracy), item 1 |
@@ -157,13 +157,15 @@ anything.
     - Replicated on 202 held-out points from 41 services outside the 20 platforms, on ToS;DR's own stored text: Kev
       75%, BM25 41%, bge 43%.
     - Kev's base family, Qwen3.5-4B, asked the same yes/no question one piece at a time, did about as well: 60% vs 62%
-      and 74% vs 75%, no difference shown in either part. So the win comes from asking a language model about each
-      passage, and was not shown to come from decision-model training. What Kev adds is cost: it reads a piece once
-      for all of a document's questions, 1.9-3.2x less CPU per piece-question than the instruct model here.
-    - A cross-encoder reranker (bge-reranker-v2-m3) got 55% and 65%: no difference shown in part A, Kev better in part
-      B. The parts disagree, so no claim is made.
-    - Not memorisation, for the win over retrieval (exploratory): on points created after Kev's base model was
-      published, which its pretraining cannot have seen, Kev still leads BM25 by 26 and 35 points.
+      and 74% vs 75%, no difference shown in either part. So the win was not shown to come from decision-model
+      training. Against that model Kev's advantage was cost: it reads a piece once for all of a document's questions,
+      and the instruct model used about 2-3x its CPU per piece-question here.
+    - The decision model was not shown to beat a cross-encoder reranker (bge-reranker-v2-m3): 55% against Kev's 62% in
+      part A (no difference shown) and 65% against 75% in part B (Kev better). The reranker is 3.6-5x cheaper than Kev
+      (0.39 and 0.98 CPU s per piece-question, against 1.94 and 3.52).
+    - Memorisation (exploratory): Kev's fine-tuning data has no ToS;DR text. On points created after its base model
+      was first published, which that model's pretraining cannot contain, Kev still leads BM25 by 26 and 35 points,
+      consistent with no memorisation behind the win over retrieval. That cut was chosen after the results.
     - Proposed quote: within its top passage, Kev picks the sentence to quote. When the passage was right, that sentence
       matched the curator's quote 83% of the time, against 56% for BM25. The curator page shows it.
   - Cost: about 1.9 CPU seconds per piece-question, roughly 80 s per point for a 40-piece document.
