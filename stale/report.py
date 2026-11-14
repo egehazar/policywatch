@@ -21,16 +21,25 @@ ARMS = {'bm25': 'word match on the case title (BM25)', 'bge': 'embedding similar
         'kev': 'decision model (Kev-4B), p(yes) for the case question'}
 
 
-def suggestion(s, arm):
+def suggestion(s, arm, prop=None):
+    """prop: Kev's proposed quote from its top passage (stale/propose.py), shown only with the kev arm."""
     if not s: return ''
-    tops = ''.join(f'<div class="diff"><span class="ctx">{k}. passage {t["piece"] + 1} of {s["n_pieces"]} (score {t["score"]:.3g}):</span>\n'
-                   f'{esc(t["text"][:900])}{"…" if len(t["text"]) > 900 else ""}</div>' for k, t in enumerate(s['top'], 1))
-    return (f'<details class="sm"><summary>Where the case may be stated now: top {len(s["top"])} passages of the current text by '
+    def body(k, t):
+        txt = esc(t['text'][:900])
+        if prop and k == 1 and esc(prop['quote']) in txt: txt = txt.replace(esc(prop['quote']), f'<ins>{esc(prop["quote"])}</ins>', 1)
+        return (f'<div class="diff"><span class="ctx">{k}. passage {t["piece"] + 1} of {s["n_pieces"]} (score {t["score"]:.3g}):</span>\n'
+                f'{txt}{"…" if len(t["text"]) > 900 else ""}</div>')
+    tops = ''.join(body(k, t) for k, t in enumerate(s['top'], 1))
+    pq = (f'<p class="sm"><i>Suggested quote</i> (the decision model&rsquo;s pick from passage {prop["piece"] + 1}; when the passage '
+          f'was right, this pick matched the curator&rsquo;s own quote 83% of the time in testing; check it before use): '
+          f'<ins>{esc(prop["quote"])}</ins></p>') if prop else ''
+    return pq + (f'<details class="sm"><summary>Where the case may be stated now: top {len(s["top"])} passages of the current text by '
             f'{esc(ARMS.get(arm, arm))}. A place to look, not a verdict: the case may no longer be stated at all.</summary>{tops}</details>')
 
 
 def build(repo=REPO, arm='bm25'):
     sug = {r['point']: r for r in jl(os.path.join(HERE, 'out', f'suggest_{arm}.jsonl'))}
+    prop = {r['point']: r for r in jl(os.path.join(HERE, 'out', 'propose_kev.jsonl'))} if arm == 'kev' else {}
     pts = jl(os.path.join(HERE, 'out', 'points.jsonl'))
     pas = {r['point']: r for r in jl(os.path.join(HERE, 'out', 'passages.jsonl'))}
     tri = {r['point']: r for r in jl(os.path.join(HERE, 'out', 'triage.jsonl'))}
@@ -103,7 +112,7 @@ def build(repo=REPO, arm='bm25'):
             f'<a href="{repo}/commit/{d["commit"]}">{d["date"]}</a> ({esc(d["subject"])}) · point last edited '
             f'{esc(r["point_updated_at"])}, {when} the change · current coverage {r["current_coverage"]:.0%}</div>'
             f'{phl}<p class="sm"><i>Quote:</i> {esc(re.sub(r"<[^<>]*>", "", r["quote"])[:600])}</p>{diff}{hint}'
-            f'{suggestion(sug.get(r["point"]), arm)}</div>')
+            f'{suggestion(sug.get(r["point"]), arm, prop.get(r["point"]))}</div>')
     out = os.path.join(ROOT, 'out', 'site'); os.makedirs(out, exist_ok=True)
     path = os.path.join(out, 'stale.html')
     with open(path, 'w', encoding='utf-8') as f: f.write(page('Stale evidence', ''.join(body)))
