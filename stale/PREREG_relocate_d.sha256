@@ -14,3 +14,10 @@ c71878c286f9fe305f5c6da69e29d0b7908b6e646e2c127d950f3222113aa8a1 *stale/wide.py
 6ea0c3de22f11335fe178cf01f64db9baa9a37a60c0131ffcf7111638a4a8ed5 *stale/PREREG_relocate_d_addendum1.md
 b6b75e20f139cf9e298d98c27c3ee1848b69d7d3fc65510cdd3faa96be1054c4 *stale/reloc_margin.py
 3a86513ce7412b7d8fb451f4c33b9bfff1ceef15ca67eca1dd463b288ca88178 *stale/reloc_conf.py
+# revision 2026-11-14T21:37:05Z before the draw, after an independent code review (see 'Changes before the draw' in the prereg); run_wide.sh was stopped before doing anything and is replaced by run_wide2.sh
+1ad25474e7b49e0f3900ee4803607173bca256bf53f08197205e901310fff92c *stale/PREREG_relocate_d.md
+6ea0c3de22f11335fe178cf01f64db9baa9a37a60c0131ffcf7111638a4a8ed5 *stale/PREREG_relocate_d_addendum1.md
+8389b3c70d96b72310fba10babea763ef67ef10ddb7e44ef1a461b4888786696 *stale/relocate_d.py
+9d2fa26b103dc0ebc9ad27f793940b57cc59924d0deede1f6338fae5abbb6d6f *stale/reloc_margin.py
+d3fef367bb2e8150662cc85f37cf9e93ae19a9ee0904e55936fed7a3e2c032f8 *stale/wide.py
+0cae8811dd8d464efe093535bb09b667f5018d422739ce63a842c4c5a33caf4b *run_wide2.sh

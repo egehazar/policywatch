@@ -37,7 +37,14 @@ def run(port='9995', out=OUT, cache=None):
     assert S.server.served == 'Kev-4B-Q8_0.gguf', 'port does not serve Kev-4B Q8'
     case = {r['point']: r['case_title'] for r in map(json.loads, open(os.path.join(out, 'points.jsonl'), encoding='utf-8'))}
     sug = [json.loads(l) for l in open(os.path.join(out, 'suggest_kev.jsonl'), encoding='utf-8')]
-    done = {json.loads(l)['point'] for l in open(F, encoding='utf-8')} if os.path.exists(F) else set()
+    # resume only where the suggestion is unchanged: same point, document, top piece and archive commit
+    key = lambda x: (x['point'], x['doc'], x['piece'], x.get('archive_head'))
+    want = {(s['point'], s['doc'], s['top'][0]['piece'], s.get('archive_head')) for s in sug if s['top']}
+    old = [json.loads(l) for l in open(F, encoding='utf-8')] if os.path.exists(F) else []
+    kept = [x for x in old if key(x) in want]
+    with open(F, 'w', encoding='utf-8') as f:
+        for x in kept: f.write(json.dumps(x, ensure_ascii=False) + '\n')
+    done = {x['point'] for x in kept}
     groups = collections.defaultdict(list)                 # (doc, piece) -> the points whose top piece it is
     for s in sug:
         if s['point'] not in done and s['top']: groups[(s['doc'], s['top'][0]['piece'])].append(s)
@@ -48,8 +55,9 @@ def run(port='9995', out=OUT, cache=None):
             rows = [S.score(u, qs) for u in U]
             for s in ss:
                 q = TEMPLATE.format(case[s['point']]); sc = skip_nav(U, [r[qid(q)] for r in rows]); j = top_piece(sc)
-                f.write(json.dumps({'point': s['point'], 'doc': doc, 'piece': i, 'unit': j, 'units': len(U), 'ties': sc.count(sc[j]),
-                                    'score': round(sc[j], 4), 'quote': U[j]}, ensure_ascii=False) + '\n')
+                f.write(json.dumps({'point': s['point'], 'doc': doc, 'piece': i, 'archive_head': s.get('archive_head'), 'unit': j,
+                                    'units': len(U), 'ties': sc.count(sc[j]), 'score': round(sc[j], 4), 'quote': U[j]},
+                                   ensure_ascii=False) + '\n')
             f.flush()
             print(f'[{k}/{len(groups)} {time.time() - t0:.0f}s] {doc} piece {i}: {len(U)} units x {len(qs)} questions', flush=True)
     print('asked', S.asked, 'cache hits', S.hits)

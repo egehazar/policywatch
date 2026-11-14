@@ -38,6 +38,8 @@ def inputs(collection):
 
 
 def rerank(collection):
+    from stale import wide
+    if not wide.drops_of(collection): print(collection, 'has no point dropped in a platform edit: nothing to do'); return
     os.environ.setdefault('HF_HUB_OFFLINE', '1'); os.environ.setdefault('TRANSFORMERS_OFFLINE', '1')
     import torch
     from sentence_transformers import CrossEncoder
@@ -61,6 +63,7 @@ def top_k(s, k=TOPK):
 def kev(collection, port='9995', cache=None):
     from policywatch.scorer import Server, Cache, Scorer, qid
     from stale import propose, wide
+    if not wide.drops_of(collection): print(collection, 'has no point dropped in a platform edit: nothing to do'); return
     R, docs, P, cases, head, out = inputs(collection)
     RR = json.load(open(os.path.join(out, 'rerank_scores.json'), encoding='utf-8'))
     assert RR['archive_head'] == head, 'the archive moved since the reranker ran'

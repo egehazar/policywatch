@@ -32,8 +32,9 @@ CLEAR = .30      # stale/reloc_margin.py
 
 
 def confidence(s, arm):
-    if arm != 'kev' or len(s.get('top') or []) < 2 or not label_adopted(): return ''
-    m = s['top'][0]['score'] - s['top'][1]['score']
+    # the label was validated with Kev scoring every piece: not shown for cascade suggestions (Kev saw the top 10 only)
+    if arm != 'kev' or s.get('cascade') or len(s.get('top') or []) < 2 or not label_adopted(): return ''
+    m = round(s['top'][0]['score'] - s['top'][1]['score'], 4)                # as stale/reloc_margin.py rounds it
     if m >= CLEAR:
         return ('<p class="sm"><b>Clear:</b> passage 1 scored well ahead of the next. In testing, a lead this large meant the '
                 'passage held the curator&rsquo;s quote about 9 times in 10.</p>')

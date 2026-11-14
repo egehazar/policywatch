@@ -37,23 +37,32 @@ def prep():
     M = json.load(open(os.path.join(WIDE, 'map.json'), encoding='utf-8'))['mapped']
     rows = [json.loads(l) for l in open(os.path.join(WIDE, 'out', 'points.jsonl'), encoding='utf-8')]
     part_b = {json.load(open(f, encoding='utf-8'))['service'] for f in glob.glob(os.path.join(HERE, 'data', 'heldout', '*.json'))}
-    by_sid = {}
+    texts = {}
+
+    def gold_of(r):
+        """The point's gold pieces if it is eligible (the pre-registration's five conditions), else None."""
+        if r['status'] != 'present' or len(words(r['quote'], quote=True)) < 6: return None
+        if r['doc'] not in texts: texts[r['doc']] = current_pieces(r['doc'])
+        text, P = texts[r['doc']]; ws = words(text)
+        if not (2000 <= len(text) <= 150_000 and ws and sum(w in EN for w in ws) / len(ws) >= .2): return None
+        gold = [i for i, x in enumerate(P) if qcov(r['quote'], x) >= GOLD_MIN]
+        return gold if 1 <= len(gold) <= GOLD_MAX else None
+    # eligibility first, for every point, so the services shuffled are exactly those with an eligible point
+    by_sid, eligible = {}, {}
     for r in rows:
         sid = M[r['platform']]['tosdr_id']
-        if r['status'] == 'present' and sid not in part_b and len(words(r['quote'], quote=True)) >= 6:
-            by_sid.setdefault(sid, []).append(r)
-    texts, chosen = {}, []
-    sids = sorted(by_sid); random.Random(SEED).shuffle(sids)
+        if sid in part_b: continue
+        by_sid.setdefault(sid, []).append(r)
+        g = gold_of(r)
+        if g is not None: eligible[r['point']] = g
+    sids = sorted(s for s in by_sid if any(r['point'] in eligible for r in by_sid[s])); random.Random(SEED).shuffle(sids)
+    chosen = []
     for sid in sids:
+        # all of the service's points, sorted by id, shuffled; the eligible ones are taken in that order
         pts = sorted(by_sid[sid], key=lambda r: r['point']); random.Random(f'{SEED}-{sid}').shuffle(pts); took = 0
         for r in pts:
             if took >= PER_SERVICE: break
-            if r['doc'] not in texts: texts[r['doc']] = current_pieces(r['doc'])
-            text, P = texts[r['doc']]; ws = words(text)
-            if not (2000 <= len(text) <= 150_000 and ws and sum(w in EN for w in ws) / len(ws) >= .2): continue
-            gold = [i for i, x in enumerate(P) if qcov(r['quote'], x) >= GOLD_MIN]
-            if not 1 <= len(gold) <= GOLD_MAX: continue
-            chosen.append((sid, r, gold)); took += 1
+            if r['point'] in eligible: chosen.append((sid, r, eligible[r['point']])); took += 1
         if len(chosen) >= TARGET: break
     docs = {}
     for sid, r, gold in chosen:
@@ -65,11 +74,13 @@ def prep():
         P = texts[path][1]; cases = sorted({it['case_title'] for it in d['items']})
         out.append({**d, 'chars': sum(len(x) for x in P), 'pieces': P, 'cases': cases,
                     'questions': [TEMPLATE.format(c) for c in cases], 'pieces_sha': psha(P)})
+    from stale.wide import vdir
+    head = __import__('subprocess').run(['git', '-C', vdir('contrib'), 'rev-parse', 'HEAD'], capture_output=True, encoding='utf-8').stdout.strip()
     with open(DOCS, 'w', encoding='utf-8') as f:
-        json.dump({'order': [r['point'] for _, r, _ in chosen], 'docs': out}, f, ensure_ascii=False)
+        json.dump({'archive_head': head, 'order': [r['point'] for _, r, _ in chosen], 'docs': out}, f, ensure_ascii=False)
     print(len(chosen), 'points,', len({s for s, _, _ in chosen}), 'services,', len(out), 'documents,',
           sum(len(d['pieces']) for d in out), 'pieces,', sum(len(d['pieces']) * len(d['questions']) for d in out), 'cells;',
-          len(by_sid), 'services had a present point outside part B')
+          len(sids), 'services had an eligible point outside part B,', len(eligible), 'eligible points; archive', head[:10])
 
 
 def _point_b():
@@ -80,7 +91,9 @@ def _point_b():
 
 def evaluate():
     from stale.wide import vdir
-    D = json.load(open(DOCS, encoding='utf-8'))['docs']
+    DD = json.load(open(DOCS, encoding='utf-8')); D = DD['docs']
+    now = __import__('subprocess').run(['git', '-C', vdir('contrib'), 'rev-parse', 'HEAD'], capture_output=True, encoding='utf-8').stdout.strip()
+    assert DD.get('archive_head') == now, f"the contrib archive moved since the draw ({DD.get('archive_head')} -> {now})"
     K, B = (json.load(open(F[a], encoding='utf-8')) for a in ('kev', 'base'))
     assert all(d['doc'] in K and K[d['doc']]['pieces_sha'] == psha(d['pieces']) for d in D)
     assert all(B['pieces_sha'][d['doc']] == psha(d['pieces']) for d in D)
@@ -104,7 +117,7 @@ def evaluate():
             per.append(row)
     names = list(arm) + ['RANDOM']; N = len(per)
     res = {'points': N, 'services': len({r['doc'] for r in per}), 'documents': len(D),
-           'archive_head': __import__('subprocess').run(['git', '-C', vdir('contrib'), 'rev-parse', 'HEAD'], capture_output=True, encoding='utf-8').stdout.strip(),
+           'archive_head': DD['archive_head'],                                  # at the draw; checked unchanged above
            'hit_at': {a: {k: round(sum(r[a]['hit'][k] for r in per) / N, 3) for k in KS} for a in names},
            'mrr': {a: round(sum(r[a]['rr'] for r in per) / N, 3) for a in names if a != 'RANDOM'}}
     d_ = lambda a, b: (lambda r: r[a]['hit'][1] - r[b]['hit'][1])

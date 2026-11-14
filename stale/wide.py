@@ -26,6 +26,7 @@ sys.path.insert(0, ROOT)
 from stale.pull import SERVICES, get
 
 SECOND = {'co', 'com', 'org', 'net', 'gov', 'ac', 'edu', 'ne', 'or', 'go'}     # co.uk, com.au, ne.jp ...
+SHARED = {'github.com', 'gitlab.com', 'bitbucket.org', 'github.io', 'notion.site', 'notion.so', 'medium.com', 'gitbook.io'}
 
 
 def site(host):
@@ -37,8 +38,22 @@ def site(host):
     return '.'.join(p[-2:])
 
 
+def host(u):
+    """Host of a URL or bare domain, lower case, without scheme, port, path or a leading www."""
+    h = urlparse(u if '//' in (u or '') else '//' + (u or '')).netloc.lower().split(':')[0].strip('.')
+    return h[4:] if h.startswith('www.') else h
+
+
 def norm(name):
     return re.sub(r'[^a-z0-9]', '', (name or '').lower())
+
+
+def pga_folder(key):
+    """An OTA folder holding a pga platform's own documents (contrib's YouTube, WeChat Open Platform): left out, as
+    those platforms are covered by stale/pull.py and pga-versions."""
+    k = norm(key)
+    names = [norm(p) for p in SERVICES] + ['twitter']
+    return any(k == n or (len(n) >= 5 and k.startswith(n)) for n in names)
 
 
 def declarations(collection):
@@ -63,20 +78,29 @@ def declarations(collection):
 def build_map(collection):
     S = json.load(open(os.path.join(HERE, 'data', 'services_list.json'), encoding='utf-8'))['services']
     pga = set(SERVICES.values())
-    by_name, by_site = {}, {}
+    by_name, by_site, by_host = {}, {}, {}
     for s in S:
         if s['id'] in pga: continue
         by_name.setdefault(norm(s['name']), []).append(s)
-        for u in s.get('urls') or []: by_site.setdefault(site(u), []).append(s)
+        for u in s.get('urls') or []:
+            h = host(u)
+            if not h: continue
+            # a subdomain on a shared host (wanikani.tumblr.com) names that service only, not the host's owner
+            (by_site if h == site(h) else by_host).setdefault(h, []).append(s)
     D = declarations(collection)
     vdir = os.path.join(DATA_ROOT, f'{collection}-versions')
-    M, unmatched = {}, []
+    M, unmatched, skipped = {}, [], []
     for key, d in D.items():
         if not os.path.isdir(os.path.join(vdir, key)): continue          # declared but never recorded
-        sites = {site(urlparse(u).netloc) for u in d['urls']} | ({site(d['imported'])} if d['imported'] else set())
+        if pga_folder(key): skipped.append(key); continue
+        hosts = {host(u) for u in d['urls']} | ({host(d['imported'])} if d['imported'] else set())
+        hosts.discard('')
+        sites = {site(h) for h in hosts}
         cand, how = by_name.get(norm(d['name'] or key), []), 'name'
         if not cand:
-            cand = [s for x in sites for s in by_site.get(x, [])]; how = 'domain'
+            # on a code or document host (SponsorBlock's terms live on github.com) the host's owner is not the service
+            cand = [s for h in hosts for s in by_host.get(h, [])] + [s for x in sites for s in by_site.get(x, [])
+                                                                      if x not in SHARED or norm(s['name']) in norm(key)]; how = 'domain'
         cand = list({s['id']: s for s in cand}.values())
         if not cand: unmatched.append(key); continue
         # several ToS;DR services: the comprehensively reviewed one, then the one whose name is closest
@@ -94,7 +118,7 @@ def build_map(collection):
     with open(os.path.join(WIDE, collection, 'map.json'), 'w', encoding='utf-8') as f:
         json.dump({'collection': collection, 'built': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
                    'services_list_fetched': json.load(open(os.path.join(HERE, 'data', 'services_list.json'), encoding='utf-8'))['fetched'],
-                   'declared': len(D), 'mapped': M, 'unmatched': unmatched}, f, ensure_ascii=False, indent=1)
+                   'declared': len(D), 'mapped': M, 'unmatched': unmatched, 'skipped_pga': skipped}, f, ensure_ascii=False, indent=1)
     by = {}
     for v in M.values(): by[v['how']] = by.get(v['how'], 0) + 1
     print(collection, 'declared', len(D), 'mapped', len(M), by, 'unmatched', len(unmatched),
@@ -130,15 +154,37 @@ def pull(collection):
     several folders (Google from Gmail, AdSense, ...) is checked against each, and dedupe() keeps each point's best home."""
     M = json.load(open(os.path.join(WIDE, collection, 'map.json'), encoding='utf-8'))['mapped']
     out = os.path.join(WIDE, collection, 'data'); os.makedirs(out, exist_ok=True)
-    t0 = time.time(); n = 0
+    t0 = time.time(); n = 0; failed = []
     for key, m in sorted(M.items(), key=lambda x: x[1]['tosdr_id']):
         path = os.path.join(out, key + '.json')
         if os.path.exists(path): continue
-        rec, k = service(m['tosdr_id']); n += k
+        try:
+            rec, k = service(m['tosdr_id']); n += k
+        except Exception as e:                              # retried by the next run (resumes per service)
+            failed.append(key); print(f'FAILED {key} -> {m["tosdr_id"]}: {type(e).__name__}: {str(e)[:120]}', flush=True); continue
         with open(path + '.tmp', 'w', encoding='utf-8') as f: json.dump({'platform': key, **rec}, f, ensure_ascii=False, indent=1)
         os.replace(path + '.tmp', path)
         print(f'[{time.time() - t0:.0f}s, {n} requests] {key} -> {m["tosdr_id"]} {rec["service"]}: {len(rec["points"])} approved, '
               f'{sum(1 for p in rec["points"] if p["quote_text"])} with quotes', flush=True)
+    pruned = prune(collection)
+    print(collection, 'pull:', len(M), 'folders mapped,', len(failed), 'failed,', pruned, 'stale data files removed', flush=True)
+    if failed: raise SystemExit(f'{len(failed)} services failed: {failed[:5]}')
+
+
+def prune(collection):
+    """Removes data files of folders the current map.json no longer maps (match.py reads every file in data/)."""
+    M = json.load(open(os.path.join(WIDE, collection, 'map.json'), encoding='utf-8'))['mapped']; n = 0
+    for f in glob.glob(os.path.join(WIDE, collection, 'data', '*.json')):
+        if os.path.basename(f)[:-5] not in M: os.remove(f); n += 1
+    return n
+
+
+def complete(collection):
+    """True when every mapped folder has its data file."""
+    M = json.load(open(os.path.join(WIDE, collection, 'map.json'), encoding='utf-8'))['mapped']
+    miss = [k for k in M if not os.path.exists(os.path.join(WIDE, collection, 'data', k + '.json'))]
+    print(collection, 'complete' if not miss else f'{len(miss)} folders without data: {miss[:5]}')
+    return not miss
 
 
 def vdir(collection):
@@ -207,8 +253,10 @@ def guard(collection, rows):
     # The same capture filed under two documents is a wall or a redirect (contrib's Airbnb privacy and trackers
     # policies are both a "Log in or sign up" page since 2025): blob ids of every current file, by path.
     blob = {}
-    for line in subprocess.run(['git', '-C', arch, 'ls-tree', '-r', 'HEAD'], capture_output=True, encoding='utf-8', errors='replace').stdout.splitlines():
-        meta, path = line.split('\t', 1); blob[path] = meta.split()[2]
+    tree = subprocess.run(['git', '-c', 'core.quotePath=false', '-C', arch, 'ls-tree', '-r', '-z', 'HEAD'], capture_output=True).stdout
+    for entry in tree.decode('utf-8', 'replace').split('\0'):          # -z: paths unquoted (genai-contrib's DALL·E/...)
+        if '\t' in entry:
+            meta, path = entry.split('\t', 1); blob[path] = meta.split()[2]
     twins = {}
     for path, b in blob.items(): twins.setdefault(b, []).append(path)
 
@@ -239,6 +287,7 @@ def point_modules(collection):
     out = os.path.join(WIDE, collection, 'out')
     triage.OUT = suggest.OUT = phoenix.OUT = out
     phoenix.HERE = os.path.join(WIDE, collection)          # phoenix reads HERE/data/*.json for each point's document id
+    phoenix.DOCS = os.path.join(WIDE, '_docs')              # its cache of ToS;DR's stored documents, apart from stale/data/docs
     return triage, suggest, phoenix, out
 
 
@@ -278,6 +327,7 @@ if __name__ == '__main__':
     if cmd == 'map': build_map(col)
     elif cmd == 'pull': pull(col)
     elif cmd == 'match': run_match(col)
+    elif cmd == 'complete': sys.exit(0 if complete(col) else 1)
     elif cmd == 'dedupe': dedupe(col)
     elif cmd == 'cheap': cheap(col)
     elif cmd == 'kev': kev(col, *sys.argv[3:])

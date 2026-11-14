@@ -35,6 +35,7 @@ def summary(rows):
     C = [r for r in rows if r['margin'] >= CLEAR]; R = [r for r in rows if r['margin'] < CLEAR]
     out = {'points': len(rows), 'clear': len(C), 'clear_share': round(len(C) / len(rows), 3),
            'clear_hit1': round(sum(r['hit1'] for r in C) / len(C), 3) if C else None,
+           '_clear_hit1_raw': sum(r['hit1'] for r in C) / len(C) if C else None,
            'rest_hit1': round(sum(r['hit1'] for r in R) / len(R), 3) if R else None,
            'rest_hit3': round(sum(r['hit3'] for r in R) / len(R), 3) if R else None}
     if len({r['doc'] for r in C}) >= 2:
@@ -53,10 +54,10 @@ def main():
     if os.path.exists(pd) and os.path.exists(pk):
         D = json.load(open(pd, encoding='utf-8'))['docs']; KD = json.load(open(pk, encoding='utf-8'))
         s = summary(rows_for(D, KD, lambda d: d['service']))
-        ok = s['clear'] >= MIN_N and s['clear_hit1'] is not None and s['clear_hit1'] >= BAR and s.get('_lower_raw', -1) >= LOWER
+        ok = s['clear'] >= MIN_N and s['_clear_hit1_raw'] is not None and s['_clear_hit1_raw'] >= BAR and s.get('_lower_raw', -1) >= LOWER
         s['reading'] = 'LABEL ADOPTED' if ok else 'NO LABEL'
         res['D'] = s
-    for k, v in res.items(): v.pop('_lower_raw', None); print(k, json.dumps(v))
+    for k, v in res.items(): v.pop('_lower_raw', None); v.pop('_clear_hit1_raw', None); print(k, json.dumps(v))
     with open(os.path.join(OUT, 'contrib_margin.json'), 'w', encoding='utf-8') as f: json.dump(res, f, indent=1)
 
 
