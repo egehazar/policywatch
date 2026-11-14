@@ -134,9 +134,11 @@ anything.
 - **Prior art.** ToS;DR already marks a point "approved-not-found" when a re-crawl misses its quote. Curators then
   re-find the quote by hand (their Dec 2020 re-crawl did this to 1,589 points). What this adds: when the quote dropped,
   whether the platform or the archive changed, and the passage that replaced it.
-- **Curator page.** `py -m stale.report` writes `out/site/stale.html`: each point with the old passage, the most
-  similar new passage (or "no similar passage") and the drop commit. `stale/out/stale_points.csv` has one row per
-  point.
+- **Curator page.** `py -m stale.report <repo> kev` writes `out/site/stale.html`: each point with the old passage, the
+  most similar new passage (or "no similar passage"), the drop commit, the three passages of the current text most
+  likely to state the case, and a suggested quote from the first of them (`stale/propose.py`; rows of links and tables
+  of contents are skipped). `py -m stale.export` writes the same as one CSV row per point
+  (`stale/out/stale_points_suggested.csv`); `stale/out/stale_points.csv` is the frozen 11-12 list.
 - **Daily.** `py -m stale.daily <pga-versions>` fast-forwards the archive, refreshes ToS;DR's approved points
   incrementally (one request per platform, plus one per new or edited point) and lists what changed since the last run:
   new drops, new points, recovered quotes. Output goes to `stale/live/` (`digest.html`, one JSON per run). The
