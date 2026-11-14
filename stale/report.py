@@ -3,7 +3,8 @@
 No model decides anything on this page. Quote coverage and passage alignment are string matching (stale/match.py,
 stale/triage.py). If stale/out/triage.jsonl exists, the decision model's answer to the point's case question on the
 old and new passage is shown as a hint.
-Usage  py -m stale.report [repo url] [bm25|bge|kev]   (the arm whose stale/out/suggest_<arm>.jsonl is shown; default bm25)
+Usage  py -m stale.report [repo url] [bm25|bge|kev] [data dir] [page path] [noun]
+       (the arm whose <data dir>/suggest_<arm>.jsonl is shown, default bm25; data dir default stale/out)
 """
 import json, os, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
@@ -41,21 +42,23 @@ def suggestion(s, arm, prop=None):
             f'{esc(ARMS.get(arm, arm))}. A place to look, not a verdict: the case may no longer be stated at all.</summary>{tops}</details>')
 
 
-def build(repo=REPO, arm='bm25'):
-    sug = {r['point']: r for r in jl(os.path.join(HERE, 'out', f'suggest_{arm}.jsonl'))}
-    prop = {r['point']: r for r in jl(os.path.join(HERE, 'out', 'propose_kev.jsonl'))} if arm == 'kev' else {}
-    pts = jl(os.path.join(HERE, 'out', 'points.jsonl'))
-    pas = {r['point']: r for r in jl(os.path.join(HERE, 'out', 'passages.jsonl'))}
-    tri = {r['point']: r for r in jl(os.path.join(HERE, 'out', 'triage.jsonl'))}
-    phx = {r['point']: r for r in jl(os.path.join(HERE, 'out', 'phoenix.jsonl'))}
-    S = json.load(open(os.path.join(HERE, 'out', 'summary.json'), encoding='utf-8'))
+def build(repo=REPO, arm='bm25', base=None, dest=None, noun='platforms'):
+    """base: the folder with points.jsonl etc. (default stale/out); dest: the page (default out/site/stale.html)."""
+    base = base or os.path.join(HERE, 'out')
+    sug = {r['point']: r for r in jl(os.path.join(base, f'suggest_{arm}.jsonl'))}
+    prop = {r['point']: r for r in jl(os.path.join(base, 'propose_kev.jsonl'))} if arm == 'kev' else {}
+    pts = jl(os.path.join(base, 'points.jsonl'))
+    pas = {r['point']: r for r in jl(os.path.join(base, 'passages.jsonl'))}
+    tri = {r['point']: r for r in jl(os.path.join(base, 'triage.jsonl'))}
+    phx = {r['point']: r for r in jl(os.path.join(base, 'phoenix.jsonl'))}
+    S = json.load(open(os.path.join(base, 'summary.json'), encoding='utf-8'))
     T = S['total']
     rows = ''.join(f'<tr><td>{esc(p)}</td><td>{v.get("approved_with_quote", 0)}</td><td>{v.get("present", 0)}</td>'
                    f'<td>{v.get("partly", 0)}</td><td>{v.get("gone", 0)}</td><td>{v.get("not in archive", 0)}</td></tr>'
                    for p, v in sorted(S['platforms'].items()) if v.get('approved_with_quote'))
     head = (f'<h1>Approved points whose evidence changed</h1><p class="mut">ToS;DR approves each point with a quote from a '
             f'platform\'s terms or privacy policy. This page checks every approved quote on the {len([1 for v in S["platforms"].values() if v.get("approved_with_quote")])} '
-            f'Open Terms Archive platforms that ToS;DR covers against every recorded version of the documents.</p>'
+            f'Open Terms Archive {noun} that ToS;DR covers against every recorded version of the documents.</p>'
             f'<p>{T["approved_with_quote"]} approved points with a quote: <b>{T.get("present", 0)}</b> still in the current text, '
             f'<b>{T.get("partly", 0)}</b> partly, <b>{T.get("gone", 0)}</b> gone, {T.get("not in archive", 0)} in no archived version '
             f'(the document is not tracked, or the quote predates the archive).</p>'
@@ -117,8 +120,7 @@ def build(repo=REPO, arm='bm25'):
             f'{esc(r["point_updated_at"])}, {when} the change · current coverage {r["current_coverage"]:.0%}</div>'
             f'{phl}<p class="sm"><i>Quote:</i> {esc(re.sub(r"<[^<>]*>", "", r["quote"])[:600])}</p>{diff}{hint}'
             f'{suggestion(sug.get(r["point"]), arm, prop.get(r["point"]))}</div>')
-    out = os.path.join(ROOT, 'out', 'site'); os.makedirs(out, exist_ok=True)
-    path = os.path.join(out, 'stale.html')
+    path = dest or os.path.join(ROOT, 'out', 'site', 'stale.html'); os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, 'w', encoding='utf-8') as f: f.write(page('Stale evidence', ''.join(body)))
     print(path, len(drops), 'points listed')
 

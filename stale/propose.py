@@ -4,24 +4,24 @@ given a gold piece, Kev's top sentence matched the curator's quote for 83% of po
 For each stale point, Kev's top piece (stale/out/suggest_kev.jsonl) is cut into units exactly as in Part C
 (relocate2.units), Kev with the r20 wrapper is asked the point's case question of every unit, and the top unit (the
 earliest on ties) is the proposed quote. Points sharing a document and a top piece share one request per unit.
-Usage  py -m stale.propose [port]          -> stale/out/propose_kev.jsonl (resumes per piece)
+Usage  py -m stale.propose [port] [out dir]    -> <out dir>/propose_kev.jsonl (default stale/out; resumes per piece)
 """
 import collections, json, os, sys, time
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE); OUT = os.path.join(HERE, 'out')
 sys.path.insert(0, ROOT)
 from stale.relocate2 import units, top_piece
-from stale.suggest import drops
 from stale.triage import TEMPLATE
 
-F = os.path.join(OUT, 'propose_kev.jsonl')
 
-
-def run(port='9995'):
+def run(port='9995', out=OUT, cache=None):
+    """out: the folder holding points.jsonl and suggest_kev.jsonl (stale/out, or stale/wide/<collection>/out);
+    cache: the score cache (default out/cache.sqlite, shared with every Kev step)."""
     from policywatch.scorer import Server, Cache, Scorer, qid
-    S = Scorer(Server(f'http://127.0.0.1:{port}'), Cache(os.path.join(ROOT, 'out', 'cache.sqlite')))
+    F = os.path.join(out, 'propose_kev.jsonl')
+    S = Scorer(Server(f'http://127.0.0.1:{port}'), Cache(cache or os.path.join(ROOT, 'out', 'cache.sqlite')))
     assert S.server.served == 'Kev-4B-Q8_0.gguf', 'port does not serve Kev-4B Q8'
-    case = {r['point']: r['case_title'] for r in drops()}
-    sug = [json.loads(l) for l in open(os.path.join(OUT, 'suggest_kev.jsonl'), encoding='utf-8')]
+    case = {r['point']: r['case_title'] for r in map(json.loads, open(os.path.join(out, 'points.jsonl'), encoding='utf-8'))}
+    sug = [json.loads(l) for l in open(os.path.join(out, 'suggest_kev.jsonl'), encoding='utf-8')]
     done = {json.loads(l)['point'] for l in open(F, encoding='utf-8')} if os.path.exists(F) else set()
     groups = collections.defaultdict(list)                 # (doc, piece) -> the points whose top piece it is
     for s in sug:
