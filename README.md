@@ -14,7 +14,12 @@ Each test was hashed before scoring. All results are reported, including failure
 
 | Test | Reading | Key numbers | Details |
 |---|---|---|---|
-| Find where a ToS;DR case is stated in a platform's current text | **Decision model better** | Top-1 on 200 points: Kev-4B 62%, BM25 36%, bge-small 30%. Gold is the curators' own quotes. | [Stale evidence](#stale-evidence-for-tosdr-points-stale) |
+| Find where a ToS;DR case is stated in a platform's current text | **Decision model better** than retrieval | Top-1 on 200 points: Kev-4B 62%, BM25 36%, bge-small 30%. Gold is the curators' own quotes. | [Stale evidence](#stale-evidence-for-tosdr-points-stale) |
+| Same, on 202 held-out points from 41 other services | **Replicated** | Kev 75%, BM25 41%, bge 43%, on ToS;DR's own stored text. | `stale/RESULT_relocate2.md` |
+| Kev vs its base family (Qwen3.5-4B asked the same yes/no question) | **No difference shown**, in both parts | 62% vs 60% and 75% vs 74%. The win was not shown to come from decision-model training. Kev used 1.9-3.2x less CPU. | `stale/RESULT_relocate2.md` |
+| Kev vs a cross-encoder reranker (bge-reranker-v2-m3) | **No claim**: the parts disagree | 62% vs 55% (no difference shown); 75% vs 65% (Kev better). | `stale/RESULT_relocate2.md` |
+| Propose the sentence to quote, from the top passage | **Shipped** | When the passage was right, Kev's sentence matched the curator's quote 83% of the time; BM25's 56%. | `stale/RESULT_relocate2.md` |
+| Kev's short question layout for relocation | **Not adopted** | -2.5 points [-5.3, +0.5]; the bar was a lower bound of -5. | `stale/RESULT_relocate2.md` |
 | Suggest where a stale point's case is now stated (141 points) | **Page leads with Kev** (provisional) | Top-1 on 69 points whose quote is gone: Kev 74%, BM25 with the old quote 77% (no difference shown), bge 49%, BM25 40%. Gold is a model rater's until a human check. | `stale/RESULT_suggest.md` |
 | Label a stale point "case no longer stated" | **Not shipped** (provisional) | Kev ranks the 15 no-longer-stated points low (AUROC .92), but its flag was right for 6 of 12 flagged; the bar was 75%. | `stale/RESULT_suggest.md` |
 | Rank which answers an update changed (35 updates) | **Failed** | The bar was 24 of 25 changes in 182 reviews; the tool needed 684. | [Accuracy](#accuracy), item 1 |
@@ -148,9 +153,19 @@ anything.
     [+.05, +.26].
   - Checks after the result (exploratory): asked another point's question, Kev's top piece is the right one 6% of the
     time (chance 4%), so it reads the question; the intervals stay above 0 when resampling cases instead of documents.
-  - Still to come, pre-registered: Kev against a cross-encoder reranker (bge-reranker-v2-m3) and its own base-family
-    LLM (Qwen3.5-4B), and a replication on 202 points from 41 services outside the 20 platforms
-    (`stale/PREREG_relocate2.md`, `stale/PREREG_relocate2b.md`).
+  - **Follow-up (2026-11-14, `stale/RESULT_relocate2.md`, pre-registered).**
+    - Replicated on 202 held-out points from 41 services outside the 20 platforms, on ToS;DR's own stored text: Kev
+      75%, BM25 41%, bge 43%.
+    - Kev's base family, Qwen3.5-4B, asked the same yes/no question one piece at a time, did about as well: 60% vs 62%
+      and 74% vs 75%, no difference shown in either part. So the win comes from asking a language model about each
+      passage, and was not shown to come from decision-model training. What Kev adds is cost: it reads a piece once
+      for all of a document's questions, 1.9-3.2x less CPU per piece-question than the instruct model here.
+    - A cross-encoder reranker (bge-reranker-v2-m3) got 55% and 65%: no difference shown in part A, Kev better in part
+      B. The parts disagree, so no claim is made.
+    - Not memorisation, for the win over retrieval (exploratory): on points created after Kev's base model was
+      published, which its pretraining cannot have seen, Kev still leads BM25 by 26 and 35 points.
+    - Proposed quote: within its top passage, Kev picks the sentence to quote. When the passage was right, that sentence
+      matched the curator's quote 83% of the time, against 56% for BM25. The curator page shows it.
   - Cost: about 1.9 CPU seconds per piece-question, roughly 80 s per point for a 40-piece document.
   - It covers points whose case is still stated. Whether Kev can tell that a case is no longer stated is untested,
     and the page makes no such claim.
