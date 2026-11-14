@@ -10,3 +10,7 @@ ac768cabd719267d12a5ee727fc85c73481cb46a70bb6e6535be6668671ba6ea *stale/wide.py
 b6fbd2a32198f70c71fcc240a084a2b737b2f720ef74bc49083f2bbc7565cfa4 *stale/triage.py
 # code 2026-11-14T20:56:08Z stale/wide.py: cheap() and kev() skip a collection with no dropped point (drops_of); map, pull, match, dedupe and guard unchanged; no draw yet
 c71878c286f9fe305f5c6da69e29d0b7908b6e646e2c127d950f3222113aa8a1 *stale/wide.py
+# addendum 1 2026-11-14T21:04:47Z (before the draw; no model has scored a contrib point)
+6ea0c3de22f11335fe178cf01f64db9baa9a37a60c0131ffcf7111638a4a8ed5 *stale/PREREG_relocate_d_addendum1.md
+b6b75e20f139cf9e298d98c27c3ee1848b69d7d3fc65510cdd3faa96be1054c4 *stale/reloc_margin.py
+3a86513ce7412b7d8fb451f4c33b9bfff1ceef15ca67eca1dd463b288ca88178 *stale/reloc_conf.py

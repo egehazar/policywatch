@@ -30,7 +30,8 @@ HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 $VENV -m stale.relocate_d base > stale/o
 if ! up; then echo "KEV SERVER DOWN at $(date -u +%T) UTC"; exit 2; fi
 py -m stale.relocate_d kev 9995 > stale/out/contrib_kev.log 2>&1; echo "part D kev exit $? at $(date -u +%T) UTC"
 py -m stale.relocate_d eval > stale/out/contrib_eval.log 2>&1; echo "part D eval exit $? at $(date -u +%T) UTC"
-{ echo "# result $(date -u +%Y-%m-%dT%H:%M:%SZ)"; sha256sum stale/out/contrib_kev.json stale/out/contrib_base.json stale/out/contrib_result.json; } >> stale/PREREG_relocate_d.sha256
+py -m stale.reloc_margin > stale/out/contrib_margin.log 2>&1; echo "part D margin (addendum 1) exit $? at $(date -u +%T) UTC"; tail -1 stale/out/contrib_margin.log
+{ echo "# result $(date -u +%Y-%m-%dT%H:%M:%SZ)"; sha256sum stale/out/contrib_kev.json stale/out/contrib_base.json stale/out/contrib_result.json stale/out/contrib_margin.json; } >> stale/PREREG_relocate_d.sha256
 echo "part D done at $(date -u +%T) UTC"; grep -A4 '"reading"' stale/out/contrib_eval.log
 
 # Kev's suggestions and proposed quotes for the wider pages (full Kev: the cascade is adopted only by a later change)
