@@ -171,8 +171,9 @@ anything.
     - Proposed quote: within its top passage, Kev picks the sentence to quote. When the passage was right, that sentence
       matched the curator's quote 83% of the time, against 56% for BM25. The curator page shows it.
   - Cost: about 1.9 CPU seconds per piece-question, roughly 80 s per point for a 40-piece document.
-  - It covers points whose case is still stated. Whether Kev can tell that a case is no longer stated is untested,
-    and the page makes no such claim.
+  - It covers points whose case is still stated. Whether Kev can tell that a case is no longer stated was tested on
+    the 141 stale points: it ranks those points low (AUROC .92), but its flag was right 6 times in 12, under the 75%
+    bar, so the page makes no such claim (`stale/RESULT_suggest.md`, provisional).
   - The page's suggestions for the 141 stale points now lead with Kev (`stale/RESULT_suggest.md`, provisional until a
     human checks 60 blind cards).
 
@@ -184,7 +185,22 @@ python -m policywatch report --archive path/to/pga-versions
 python -m policywatch serve                                    # review at http://127.0.0.1:8787
 python -m unittest discover -s tests
 ```
-Python 3.12+ (tested on 3.14), standard library only.
+Stale evidence, 20 platforms (network: api.tosdr.org, about one request per 0.6 s):
+```
+python -m stale.pull                                   # ToS;DR's approved points -> stale/data/
+python -m stale.match   path/to/pga-versions           # quote coverage in every version -> stale/out/points.jsonl
+python -m stale.triage  prep path/to/pga-versions      # old and new passage of each drop
+python -m stale.phoenix path/to/pga-versions           # does ToS;DR's stored copy still hold the quote?
+python -m stale.suggest path/to/pga-versions kev       # top 3 passages of the current text per stale point (Kev)
+python -m stale.propose                                # the sentence to quote from the top passage (Kev)
+python -m stale.report  https://github.com/OpenTermsArchive/pga-versions kev   # out/site/stale.html
+python -m stale.export                                 # the same as a CSV
+python -m stale.daily   path/to/pga-versions           # what changed since the last run
+```
+The same for other Open Terms Archive collections (`stale/wide.py`; clone `<collection>-versions` and
+`<collection>-declarations` next to pga-versions): `python -m stale.wide map|pull|match|cheap|kev <collection>`.
+Python 3.12+ (tested on 3.14). The core is standard library only; the bge and reranker arms need
+sentence-transformers.
 
 ## Credits
 - Documents: Open Terms Archive, pga-versions (Platform Governance Archive, University of Bremen), ODC-BY 1.0.
