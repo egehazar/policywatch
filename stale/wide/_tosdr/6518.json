@@ -1,0 +1,32 @@
+{
+ "service_id": 6518,
+ "service": "AcuityAds",
+ "pulled_at": "2026-11-14T22:48:39Z",
+ "documents": [
+  {
+   "id": 11864,
+   "name": "Terms and Conditions",
+   "url": "https://www.acuityads.com/terms-and-conditions/",
+   "updated_at": "2024-11-08T11:21:06.715726"
+  },
+  {
+   "id": 11863,
+   "name": "Cookie Policy",
+   "url": "https://www.acuityads.com/cookie-policy/",
+   "updated_at": "2024-11-08T11:21:06.836114"
+  },
+  {
+   "id": 11862,
+   "name": "Technology Privacy Policy",
+   "url": "https://privacy.acuityads.com/technology-privacy-policy.html",
+   "updated_at": "2024-11-08T11:21:06.953589"
+  },
+  {
+   "id": 11861,
+   "name": "Corporate Privacy Policy",
+   "url": "https://privacy.acuityads.com/corporate-privacy-policy.html",
+   "updated_at": "2024-11-08T11:21:07.071628"
+  }
+ ],
+ "points": []
+}

@@ -1,0 +1,20 @@
+{
+ "service_id": 10706,
+ "service": "Midjourney",
+ "pulled_at": "2026-11-14T22:56:21Z",
+ "documents": [
+  {
+   "id": 21604,
+   "name": "Terms of Service",
+   "url": "https://docs.midjourney.com/docs/terms-of-service",
+   "updated_at": "2024-11-08T11:39:21.600037"
+  },
+  {
+   "id": 21605,
+   "name": "Privacy Policy",
+   "url": "https://docs.midjourney.com/docs/privacy-policy",
+   "updated_at": "2024-11-08T11:39:23.502208"
+  }
+ ],
+ "points": []
+}

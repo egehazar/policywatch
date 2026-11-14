@@ -1,0 +1,51 @@
+{
+ "service_id": 3695,
+ "service": "IPinfo",
+ "pulled_at": "2026-11-14T22:42:11Z",
+ "documents": [
+  {
+   "id": 6148,
+   "name": "privacy policy",
+   "url": "https://ipinfo.io/privacy-policy ",
+   "updated_at": "2021-05-18T19:05:34.575576"
+  },
+  {
+   "id": 6149,
+   "name": "Terms of Service",
+   "url": "https://ipinfo.io/terms-of-service",
+   "updated_at": "2024-11-08T11:11:38.668221"
+  }
+ ],
+ "points": [
+  {
+   "id": 26079,
+   "case_id": 152,
+   "case_title": "This service is only available to users over a certain age",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 6148,
+   "quote_text": "Furthermore, children under the age of 13 cannot use or register for the Services in any way.",
+   "quote_start": 3454,
+   "quote_end": 3547,
+   "created_at": "2021-11-28T19:24:39.739941",
+   "updated_at": "2023-07-11T06:23:13.922411",
+   "source": "https://ipinfo.io/privacy-policy ",
+   "title": "This service is only available to users over a certain age"
+  },
+  {
+   "id": 26078,
+   "case_id": 486,
+   "case_title": "Minors must have the authorization of their legal guardians to use the service",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 6148,
+   "quote_text": "If you are not of legal age to form a binding contract (in many jurisdictions, this age is 18), you may only use the Services and disclose information to us with your parent’s or legal guardian’s express consent.",
+   "quote_start": 3241,
+   "quote_end": 3453,
+   "created_at": "2021-11-28T19:24:27.889503",
+   "updated_at": "2023-07-11T06:24:55.274125",
+   "source": "https://ipinfo.io/privacy-policy ",
+   "title": "Minors must have the authorization of their legal guardians to use the service"
+  }
+ ]
+}

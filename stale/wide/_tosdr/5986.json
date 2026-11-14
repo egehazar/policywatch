@@ -1,0 +1,20 @@
+{
+ "service_id": 5986,
+ "service": "Tencent",
+ "pulled_at": "2026-11-14T22:48:36Z",
+ "documents": [
+  {
+   "id": 10815,
+   "name": "Service Agreement",
+   "url": "https://www.tencent.com/en-us/service-agreement.html",
+   "updated_at": "2024-11-08T11:19:23.559580"
+  },
+  {
+   "id": 10816,
+   "name": "Privacy Policy",
+   "url": "https://www.tencent.com/en-us/privacy-policy.html",
+   "updated_at": "2024-11-08T11:19:23.811294"
+  }
+ ],
+ "points": []
+}

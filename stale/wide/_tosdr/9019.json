@@ -1,0 +1,20 @@
+{
+ "service_id": 9019,
+ "service": "OpenSea",
+ "pulled_at": "2026-11-14T22:50:28Z",
+ "documents": [
+  {
+   "id": 17655,
+   "name": "Terms of Service",
+   "url": "https://opensea.io/tos",
+   "updated_at": "2024-11-08T11:33:28.399508"
+  },
+  {
+   "id": 17654,
+   "name": "Privacy Policy",
+   "url": "https://opensea.io/privacy",
+   "updated_at": "2024-11-08T11:33:28.647584"
+  }
+ ],
+ "points": []
+}

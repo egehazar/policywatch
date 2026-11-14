@@ -1,0 +1,20 @@
+{
+ "service_id": 6216,
+ "service": "StackBlitz",
+ "pulled_at": "2026-11-14T22:53:42Z",
+ "documents": [
+  {
+   "id": 11261,
+   "name": "Terms of Service",
+   "url": "https://stackblitz.com/terms-of-service",
+   "updated_at": "2024-11-08T11:20:07.820255"
+  },
+  {
+   "id": 11260,
+   "name": "Privacy Policy",
+   "url": "https://stackblitz.com/privacy-policy",
+   "updated_at": "2024-11-08T11:20:16.676747"
+  }
+ ],
+ "points": []
+}

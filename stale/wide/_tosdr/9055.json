@@ -1,0 +1,26 @@
+{
+ "service_id": 9055,
+ "service": "Gofile",
+ "pulled_at": "2026-11-14T22:50:29Z",
+ "documents": [
+  {
+   "id": 17722,
+   "name": "Privacy",
+   "url": "https://gofile.io/privacy",
+   "updated_at": "2023-07-11T02:31:37.089089"
+  },
+  {
+   "id": 17720,
+   "name": "Terms ",
+   "url": "https://gofile.io/terms",
+   "updated_at": "2024-11-08T11:33:39.971939"
+  },
+  {
+   "id": 17721,
+   "name": "Copyright",
+   "url": "https://gofile.io/copyright",
+   "updated_at": "2024-11-08T11:33:40.100661"
+  }
+ ],
+ "points": []
+}

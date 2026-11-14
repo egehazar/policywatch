@@ -1,0 +1,20 @@
+{
+ "service_id": 4539,
+ "service": "Wargaming",
+ "pulled_at": "2026-11-14T22:46:20Z",
+ "documents": [
+  {
+   "id": 8014,
+   "name": "Privacy Policy",
+   "url": "https://legal.eu.wargaming.net/en/privacy-policy/",
+   "updated_at": "2024-11-08T11:14:18.036771"
+  },
+  {
+   "id": 13900,
+   "name": "End User Licence Agreement",
+   "url": "https://legal.eu.wargaming.net/en/eula/",
+   "updated_at": "2024-11-08T11:25:42.644245"
+  }
+ ],
+ "points": []
+}

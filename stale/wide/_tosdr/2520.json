@@ -1,0 +1,159 @@
+{
+ "service_id": 2520,
+ "service": "Logitech",
+ "pulled_at": "2026-11-14T22:28:56Z",
+ "documents": [
+  {
+   "id": 3482,
+   "name": "Web Privacy Policy",
+   "url": "https://www.logitech.com/en-us/legal/web-privacy-policy.html",
+   "updated_at": "2021-02-03T22:43:55.326444"
+  },
+  {
+   "id": 3481,
+   "name": "Cookie Policy",
+   "url": "https://www.logitech.com/en-us/legal/cookie-policy.html",
+   "updated_at": "2024-11-08T11:07:03.462863"
+  },
+  {
+   "id": 3484,
+   "name": "Terms of Use",
+   "url": "https://www.logitech.com/en-us/footer/terms-of-use",
+   "updated_at": "2024-11-08T11:07:05.766883"
+  },
+  {
+   "id": 3480,
+   "name": "Returns and cancellations",
+   "url": "https://www.logitech.com/en-us/my-account/order-faqs.html#returns-cancellations",
+   "updated_at": "2024-11-08T11:09:30.078025"
+  },
+  {
+   "id": 3483,
+   "name": "Product Privacy Policy",
+   "url": "https://www.logitech.com/en-us/legal/product-privacy-policy.html",
+   "updated_at": "2024-11-08T11:07:05.650868"
+  }
+ ],
+ "points": [
+  {
+   "id": 32685,
+   "case_id": 375,
+   "case_title": "Blocking first-party cookies may limit your ability to use the service",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 3481,
+   "quote_text": "<p>Because cookies are used throughout our websites, disabling them may prevent you from using certain parts of the sites.",
+   "quote_start": 1019,
+   "quote_end": 1141,
+   "created_at": "2023-05-08T18:05:56.579100",
+   "updated_at": "2023-07-11T06:30:58.434542",
+   "source": "https://www.logitech.com/en-us/legal/cookie-policy.html",
+   "title": "Blocking first party cookies may limit your ability to use the service"
+  },
+  {
+   "id": 32688,
+   "case_id": 399,
+   "case_title": "Your IP address is collected, which can be used to view your approximate location",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 3483,
+   "quote_text": "IP address/location information",
+   "quote_start": 2456,
+   "quote_end": 2487,
+   "created_at": "2023-05-08T18:08:20.302858",
+   "updated_at": "2023-07-11T06:30:58.512074",
+   "source": "https://www.logitech.com/en-us/legal/product-privacy-policy.html",
+   "title": "Your IP address is collected, which can be used to view your approximate location"
+  },
+  {
+   "id": 32684,
+   "case_id": 323,
+   "case_title": "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 3481,
+   "quote_text": "Web beacons can recognize certain types of information on your computer such as cookies, the time and date a page is viewed, and a description of the page where the web beacon is placed.</p>\n<p>Other technologies, including Web storage and identifiers associated with your device, may be used for similar purposes.",
+   "quote_start": 629,
+   "quote_end": 943,
+   "created_at": "2023-05-08T18:05:37.369868",
+   "updated_at": "2023-07-11T06:30:58.589893",
+   "source": "https://www.logitech.com/en-us/legal/cookie-policy.html",
+   "title": "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting"
+  },
+  {
+   "id": 32686,
+   "case_id": 243,
+   "case_title": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 3482,
+   "quote_text": "These deals can include any merger, financing, acquisition, divestiture, joint venture or partnership, or bankruptcy transaction or proceeding.</p>",
+   "quote_start": 13083,
+   "quote_end": 13230,
+   "created_at": "2023-05-08T18:06:31.063194",
+   "updated_at": "2023-07-11T06:30:58.669240",
+   "source": "https://www.logitech.com/en-us/legal/web-privacy-policy.html",
+   "title": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction"
+  },
+  {
+   "id": 32690,
+   "case_id": 223,
+   "case_title": "You can opt out of receiving promotional communications",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 3483,
+   "quote_text": "<p>You can unsubscribe from marketing emails from us by following the instructions in the email you received or at the subscription management page on our website.",
+   "quote_start": 14509,
+   "quote_end": 14672,
+   "created_at": "2023-05-08T18:09:43.143859",
+   "updated_at": "2023-07-11T06:30:59.536275",
+   "source": "https://www.logitech.com/en-us/legal/product-privacy-policy.html",
+   "title": "You can opt out of promotional communications"
+  },
+  {
+   "id": 32689,
+   "case_id": 403,
+   "case_title": "Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 3484,
+   "quote_text": "Your continued use of this Website, following the posting of any changes, will signify your acceptance of those changes",
+   "quote_start": 986,
+   "quote_end": 1105,
+   "created_at": "2023-05-08T18:08:55.632982",
+   "updated_at": "2023-07-11T06:30:59.615758",
+   "source": "https://www.logitech.com/en-us/footer/terms-of-use",
+   "title": "Instead of asking directly, this Service will assume your consent merely from your usage."
+  },
+  {
+   "id": 32691,
+   "case_id": 149,
+   "case_title": "Any liability on behalf of the service is only limited to the fees you paid as a user",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 3484,
+   "quote_text": "IN NO EVENT SHALL LOGITECH’S AND ITS SUPPLIERS’ CUMULATIVE LIABILITY FOR ANY AND ALL CLAIMS RELATING TO THE USE OF THIS WEBSITE EXCEED THE TOTAL AMOUNT OF FEES, IF ANY, THAT YOU PAID TO LOGITECH DURING THE PRIOR YEAR FOR THE SPECIFIC SERVICE AT ISSUE, OR $100.00, WHICHEVER AMOUNT IS LESS.",
+   "quote_start": 16935,
+   "quote_end": 17224,
+   "created_at": "2023-05-08T18:12:27.858483",
+   "updated_at": "2023-07-11T06:30:59.696420",
+   "source": "https://www.logitech.com/en-us/footer/terms-of-use",
+   "title": "Any liability on behalf of the service is only limited to the fees you paid as a user"
+  },
+  {
+   "id": 32692,
+   "case_id": 400,
+   "case_title": "This service receives your precise location through GPS coordinates",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 3483,
+   "quote_text": "Precise location data can be your home or work address information or Global Position System data, which we may collect when you enable location-based products or features.",
+   "quote_start": 6237,
+   "quote_end": 6409,
+   "created_at": "2023-05-08T18:12:47.317515",
+   "updated_at": "2023-07-11T06:30:59.776583",
+   "source": "https://www.logitech.com/en-us/legal/product-privacy-policy.html",
+   "title": "This service receives your precise location through GPS coordinates"
+  }
+ ]
+}

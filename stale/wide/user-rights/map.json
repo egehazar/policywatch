@@ -1,0 +1,16 @@
+{
+ "collection": "user-rights",
+ "built": "2026-11-14T21:32:31Z",
+ "services_list_fetched": "2026-11-12T21:58:59Z",
+ "declared": 6,
+ "mapped": {},
+ "unmatched": [],
+ "skipped_pga": [
+  "Facebook",
+  "Instagram",
+  "LinkedIn",
+  "Pinterest",
+  "Snapchat",
+  "TikTok"
+ ]
+}

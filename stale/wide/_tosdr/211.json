@@ -1,0 +1,117 @@
+{
+ "service_id": 211,
+ "service": "Myspace",
+ "pulled_at": "2026-11-14T20:44:52Z",
+ "documents": [
+  {
+   "id": 151,
+   "name": "Terms of Service",
+   "url": "https://myspace.com/pages/terms",
+   "updated_at": "2026-06-26T05:41:57.175764"
+  },
+  {
+   "id": 150,
+   "name": "Privacy Policy",
+   "url": "https://myspace.com/pages/privacy",
+   "updated_at": "2024-11-08T11:05:36.619864"
+  },
+  {
+   "id": 3235,
+   "name": " Do-Not-Sell My Personal Information Notice",
+   "url": "https://myspace.com/pages/privacy?page=do-not-sell",
+   "updated_at": "2024-11-08T11:07:39.482581"
+  }
+ ],
+ "points": [
+  {
+   "id": 19597,
+   "case_id": 331,
+   "case_title": "There is a date of the last update of the agreements",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 151,
+   "quote_text": "Effective Date:</strong> This Agreement was last revised on May 24, 2018.",
+   "quote_start": 776,
+   "quote_end": 849,
+   "created_at": "2021-05-02T08:04:38.814815",
+   "updated_at": "2023-07-11T10:15:37.001897",
+   "source": "https://myspace.com/pages/terms",
+   "title": "There is a date of the last update of the agreements"
+  },
+  {
+   "id": 24886,
+   "case_id": 118,
+   "case_title": "You waive your moral rights",
+   "classification": "blocker",
+   "status": "approved",
+   "document_id": 151,
+   "quote_text": "Except as prohibited by law, you hereby waive, and you agree to waive, any moral rights (including attribution and integrity) that you may have in any Content.",
+   "quote_start": 27948,
+   "quote_end": 28107,
+   "created_at": "2021-08-20T05:29:33.834033",
+   "updated_at": "2023-07-11T06:21:51.415690",
+   "source": "https://myspace.com/pages/terms",
+   "title": "You waive your moral rights"
+  },
+  {
+   "id": 27556,
+   "case_id": 243,
+   "case_title": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 150,
+   "quote_text": "Myspace may disclose User information in the event we file for bankruptcy, or in connection with certain types of business transactions that result in corporate change.\n",
+   "quote_start": 43962,
+   "quote_end": 44131,
+   "created_at": "2022-03-25T02:37:47.480496",
+   "updated_at": "2023-07-11T06:24:42.184792",
+   "source": "https://myspace.com/pages/privacy",
+   "title": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction"
+  },
+  {
+   "id": 37458,
+   "case_id": 117,
+   "case_title": "You waive your right to a class action",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 151,
+   "quote_text": "Arbitration and No Class Relief <p>To the maximum extent permitted by the mandatory laws in your place of residence, you agree to arbitrate most disputes, waive jury trial and class action rights and limit the time in which your claims must be brought.\n",
+   "quote_start": 13789,
+   "quote_end": 14042,
+   "created_at": "2024-12-01T19:50:45.489618",
+   "updated_at": "2026-08-06T13:39:49.131781",
+   "source": "https://myspace.com/pages/terms",
+   "title": "You waive your right to a class action"
+  },
+  {
+   "id": 48317,
+   "case_id": 124,
+   "case_title": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 151,
+   "quote_text": "When changes are made, Myspace will make a new copy of the Terms of Use Agreement available at the Myspace Website and any new terms will be made available from within, or through, the Myspace Website.\nWe will also update the “Last Updated” date at the top of the Terms of Use Agreement.\nIf we make any material changes and you are a Member, we will also send an e-mail to you at the last e-mail address you provided to us in accordance with the Terms herein.\nAny changes to the Terms of Use Agreement will be effective immediately for new visitors of the Myspace Website and will be effective thirty (30) days after posting notice of such changes on the MySpace Website for existing Members, provided that any material changes shall be effective for Members upon the earlier of thirty (30) days after posting notice of such changes on the Myspace Website or thirty (30) days after dispatch of an e-mail notice of such changes to Members.\n",
+   "quote_start": 16911,
+   "quote_end": 17850,
+   "created_at": "2025-01-11T06:54:41.866625",
+   "updated_at": "2026-08-01T23:42:04.173035",
+   "source": "https://myspace.com/pages/terms",
+   "title": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance"
+  },
+  {
+   "id": 162190,
+   "case_id": 215,
+   "case_title": "Pseudonyms are allowed",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 151,
+   "quote_text": "For example, you might decide that in an Alias Profile, your username or full name for that Profile is a nickname or other made up name.\n</li>\n<li>\n<strong>",
+   "quote_start": 55450,
+   "quote_end": 55606,
+   "created_at": "2026-01-21T22:36:39.390309",
+   "updated_at": "2026-08-06T13:40:23.301364",
+   "source": "https://myspace.com/pages/terms",
+   "title": "Pseudonyms are allowed"
+  }
+ ]
+}

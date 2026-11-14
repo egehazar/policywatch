@@ -1,0 +1,20 @@
+{
+ "service_id": 8543,
+ "service": "kbin social",
+ "pulled_at": "2026-11-14T22:50:14Z",
+ "documents": [
+  {
+   "id": 16588,
+   "name": "Privacy Policy",
+   "url": "https://kbin.social/privacy-policy",
+   "updated_at": "2024-11-08T11:31:30.474844"
+  },
+  {
+   "id": 16589,
+   "name": "Terms of Service",
+   "url": "https://kbin.social/terms",
+   "updated_at": "2024-11-08T11:31:30.734404"
+  }
+ ],
+ "points": []
+}

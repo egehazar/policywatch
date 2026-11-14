@@ -1,0 +1,38 @@
+{
+ "service_id": 10544,
+ "service": "Federal Express (FedEx)",
+ "pulled_at": "2026-11-14T22:52:17Z",
+ "documents": [
+  {
+   "id": 21246,
+   "name": "GLOBAL PRIVACY POLICY",
+   "url": "https://www.fedex.com/content/dam/fedex/us-united-states/cic/Global-Privacy-Policy.pdf",
+   "updated_at": "2024-11-08T11:38:50.216099"
+  },
+  {
+   "id": 21248,
+   "name": "Privacy Policy",
+   "url": "https://www.fedex.com/en-us/trust-center/global-privacy-policy.html",
+   "updated_at": "2024-11-08T11:38:50.850360"
+  },
+  {
+   "id": 21250,
+   "name": " Terms of use ",
+   "url": "https://www.fedex.com/en-us/terms-of-use.html",
+   "updated_at": "2024-11-08T11:38:50.973604"
+  },
+  {
+   "id": 21249,
+   "name": "COOKIE NOTICE",
+   "url": "https://www.fedex.com/content/dam/fedex-com/legal/FedEx_Cookie_Notice.pdf",
+   "updated_at": "2024-11-08T11:38:51.100753"
+  },
+  {
+   "id": 21247,
+   "name": "Privacy Notice ",
+   "url": "https://www.fedex.com/en-us/trust-center/privacy.html",
+   "updated_at": "2024-11-08T11:38:50.727908"
+  }
+ ],
+ "points": []
+}

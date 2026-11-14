@@ -1,0 +1,30 @@
+{
+ "service_id": 1716,
+ "service": "Project Gutenberg",
+ "pulled_at": "2026-11-14T22:18:34Z",
+ "documents": [
+  {
+   "id": 1662,
+   "name": "Terms of Use",
+   "url": "https://www.gutenberg.org/policy/terms_of_use.html",
+   "updated_at": "2024-11-08T11:11:06.545344"
+  }
+ ],
+ "points": [
+  {
+   "id": 24452,
+   "case_id": 486,
+   "case_title": "Minors must have the authorization of their legal guardians to use the service",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 1662,
+   "quote_text": "Visitors who are minors should be accompanied by an adult",
+   "quote_start": 862,
+   "quote_end": 919,
+   "created_at": "2021-07-19T09:07:38.845898",
+   "updated_at": "2023-07-11T06:21:23.881931",
+   "source": "https://www.gutenberg.org/policy/terms_of_use.html",
+   "title": "Minors must have the authorization of their legal guardians to use the service"
+  }
+ ]
+}

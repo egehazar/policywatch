@@ -1,0 +1,26 @@
+{
+ "service_id": 11007,
+ "service": "match♥",
+ "pulled_at": "2026-11-14T22:52:37Z",
+ "documents": [
+  {
+   "id": 22203,
+   "name": "Cookie Policy",
+   "url": "https://www.match.com/masp/en-us/cookiepolicy",
+   "updated_at": "2024-11-08T11:40:39.963470"
+  },
+  {
+   "id": 22202,
+   "name": "Privacy Policy",
+   "url": "https://www.match.com/masp/en-us/privacy?lid=4",
+   "updated_at": "2024-11-08T11:40:40.086047"
+  },
+  {
+   "id": 22204,
+   "name": "Terms of Service",
+   "url": "https://www.match.com/masp/en-us/terms?lid=4",
+   "updated_at": "2024-11-08T11:40:40.332885"
+  }
+ ],
+ "points": []
+}

@@ -1,0 +1,66 @@
+{
+ "service_id": 364,
+ "service": "badoo",
+ "pulled_at": "2026-11-14T21:26:23Z",
+ "documents": [
+  {
+   "id": 7387,
+   "name": "Privacy Policy",
+   "url": "https://badoo.com/privacy/",
+   "updated_at": "2024-11-08T11:13:28.247408"
+  },
+  {
+   "id": 7388,
+   "name": "Terms and Conditions of Use",
+   "url": "https://badoo.com/terms/",
+   "updated_at": "2024-11-08T11:13:28.365310"
+  }
+ ],
+ "points": [
+  {
+   "id": 27276,
+   "case_id": 183,
+   "case_title": "You maintain ownership of your content",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 7388,
+   "quote_text": "Once I have uploaded Content on Badoo, do I still own it? <p>Yes (provided you are the rightful owner in the first place - please see our other rules regarding posting Content that doesn’t belong to you).</p>",
+   "quote_start": 11331,
+   "quote_end": 11539,
+   "created_at": "2022-03-13T02:23:46.258319",
+   "updated_at": "2023-07-11T06:24:25.400023",
+   "source": "https://badoo.com/terms/",
+   "title": "You maintain ownership of your content"
+  },
+  {
+   "id": 27274,
+   "case_id": 152,
+   "case_title": "This service is only available to users over a certain age",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 7388,
+   "quote_text": "You may only use Badoo, including any of its features, or become a registered member if you are 18 years old or older (or the age of majority in the country in which you reside if that happens to be greater than 18).</p>\n<p>",
+   "quote_start": 5077,
+   "quote_end": 5301,
+   "created_at": "2022-03-13T02:21:47.315992",
+   "updated_at": "2023-07-11T06:24:24.106340",
+   "source": "https://badoo.com/terms/",
+   "title": "This service is only available to users over a certain age"
+  },
+  {
+   "id": 292503,
+   "case_id": 377,
+   "case_title": "Your content can be deleted if you violate the terms",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 7388,
+   "quote_text": "We may remove any Content you submit to Badoo if we believe it violates the Terms or we are required to do so by applicable law.</p>",
+   "quote_start": 8481,
+   "quote_end": 8613,
+   "created_at": "2026-01-26T14:08:49.709719",
+   "updated_at": "2026-05-06T02:22:37.118948",
+   "source": "https://badoo.com/terms/",
+   "title": "Your content can be deleted if you violate the terms"
+  }
+ ]
+}

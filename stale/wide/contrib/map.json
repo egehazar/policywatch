@@ -1,0 +1,5946 @@
+{
+ "collection": "contrib",
+ "built": "2026-11-14T21:32:27Z",
+ "services_list_fetched": "2026-11-12T21:58:59Z",
+ "declared": 385,
+ "mapped": {
+  "ASUS": {
+   "tosdr_id": 2562,
+   "tosdr_name": "Asus",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "asus.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service",
+    "Vulnerability Disclosure Policy"
+   ],
+   "alternatives": []
+  },
+  "AT&T": {
+   "tosdr_id": 181,
+   "tosdr_name": "AT&T",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "att.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Academia.edu": {
+   "tosdr_id": 508,
+   "tosdr_name": "Academia.edu",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "academia.edu"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "AcuityAds": {
+   "tosdr_id": 6518,
+   "tosdr_name": "AcuityAds",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "acuityads.com",
+    "illumin.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "AdMob": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Data Controller Agreement",
+    "Trackers Policy",
+    "User Consent Policy"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "AdSense": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Brand Guidelines",
+    "Data Controller Agreement",
+    "Privacy Policy",
+    "Quality Guidelines",
+    "Restricted Use Policy",
+    "Terms of Service",
+    "Trackers Policy",
+    "User Consent Policy"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Aetna": {
+   "tosdr_id": 9336,
+   "tosdr_name": "Aetna Inc",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "aetna.com"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": []
+  },
+  "Airbnb": {
+   "tosdr_id": 168,
+   "tosdr_name": "Airbnb",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "airbnb.co.uk"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Alexa": {
+   "tosdr_id": 190,
+   "tosdr_name": "Amazon",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "amazon.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Amazon Advertising",
+    "Amazon Appstore",
+    "Amazon Coins",
+    "Amazon Device",
+    "Amazon E-Reader and Fire Tablet",
+    "Amazon Kindle Store",
+    "Amazon Maps",
+    "Amazon Monthly Payments",
+    "Amazon Music",
+    "Amazon Photos",
+    "Amazon Prime",
+    "Amazon Publisher",
+    "Amazon Seller Central",
+    "Amazon Silk",
+    "Amazon Web Services",
+    "Amazon.com"
+   ]
+  },
+  "Alibaba.com": {
+   "tosdr_id": 2120,
+   "tosdr_name": "Alibaba",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "alibaba.com"
+   ],
+   "types": [
+    "Copyright Claims Policy",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Amazon Advertising": {
+   "tosdr_id": 190,
+   "tosdr_name": "Amazon",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "amazon.co.uk",
+    "amazon.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Alexa",
+    "Amazon Appstore",
+    "Amazon Coins",
+    "Amazon Device",
+    "Amazon E-Reader and Fire Tablet",
+    "Amazon Kindle Store",
+    "Amazon Maps",
+    "Amazon Monthly Payments",
+    "Amazon Music",
+    "Amazon Photos",
+    "Amazon Prime",
+    "Amazon Publisher",
+    "Amazon Seller Central",
+    "Amazon Silk",
+    "Amazon Web Services",
+    "Amazon.com"
+   ]
+  },
+  "Amazon Appstore": {
+   "tosdr_id": 190,
+   "tosdr_name": "Amazon",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "amazon.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Alexa",
+    "Amazon Advertising",
+    "Amazon Coins",
+    "Amazon Device",
+    "Amazon E-Reader and Fire Tablet",
+    "Amazon Kindle Store",
+    "Amazon Maps",
+    "Amazon Monthly Payments",
+    "Amazon Music",
+    "Amazon Photos",
+    "Amazon Prime",
+    "Amazon Publisher",
+    "Amazon Seller Central",
+    "Amazon Silk",
+    "Amazon Web Services",
+    "Amazon.com"
+   ]
+  },
+  "Amazon Coins": {
+   "tosdr_id": 190,
+   "tosdr_name": "Amazon",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "amazon.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Alexa",
+    "Amazon Advertising",
+    "Amazon Appstore",
+    "Amazon Device",
+    "Amazon E-Reader and Fire Tablet",
+    "Amazon Kindle Store",
+    "Amazon Maps",
+    "Amazon Monthly Payments",
+    "Amazon Music",
+    "Amazon Photos",
+    "Amazon Prime",
+    "Amazon Publisher",
+    "Amazon Seller Central",
+    "Amazon Silk",
+    "Amazon Web Services",
+    "Amazon.com"
+   ]
+  },
+  "Amazon Device": {
+   "tosdr_id": 190,
+   "tosdr_name": "Amazon",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "amazon.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Alexa",
+    "Amazon Advertising",
+    "Amazon Appstore",
+    "Amazon Coins",
+    "Amazon E-Reader and Fire Tablet",
+    "Amazon Kindle Store",
+    "Amazon Maps",
+    "Amazon Monthly Payments",
+    "Amazon Music",
+    "Amazon Photos",
+    "Amazon Prime",
+    "Amazon Publisher",
+    "Amazon Seller Central",
+    "Amazon Silk",
+    "Amazon Web Services",
+    "Amazon.com"
+   ]
+  },
+  "Amazon E-Reader and Fire Tablet": {
+   "tosdr_id": 190,
+   "tosdr_name": "Amazon",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "amazon.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Alexa",
+    "Amazon Advertising",
+    "Amazon Appstore",
+    "Amazon Coins",
+    "Amazon Device",
+    "Amazon Kindle Store",
+    "Amazon Maps",
+    "Amazon Monthly Payments",
+    "Amazon Music",
+    "Amazon Photos",
+    "Amazon Prime",
+    "Amazon Publisher",
+    "Amazon Seller Central",
+    "Amazon Silk",
+    "Amazon Web Services",
+    "Amazon.com"
+   ]
+  },
+  "Amazon Kindle Store": {
+   "tosdr_id": 190,
+   "tosdr_name": "Amazon",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "amazon.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Alexa",
+    "Amazon Advertising",
+    "Amazon Appstore",
+    "Amazon Coins",
+    "Amazon Device",
+    "Amazon E-Reader and Fire Tablet",
+    "Amazon Maps",
+    "Amazon Monthly Payments",
+    "Amazon Music",
+    "Amazon Photos",
+    "Amazon Prime",
+    "Amazon Publisher",
+    "Amazon Seller Central",
+    "Amazon Silk",
+    "Amazon Web Services",
+    "Amazon.com"
+   ]
+  },
+  "Amazon Maps": {
+   "tosdr_id": 190,
+   "tosdr_name": "Amazon",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "amazon.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Alexa",
+    "Amazon Advertising",
+    "Amazon Appstore",
+    "Amazon Coins",
+    "Amazon Device",
+    "Amazon E-Reader and Fire Tablet",
+    "Amazon Kindle Store",
+    "Amazon Monthly Payments",
+    "Amazon Music",
+    "Amazon Photos",
+    "Amazon Prime",
+    "Amazon Publisher",
+    "Amazon Seller Central",
+    "Amazon Silk",
+    "Amazon Web Services",
+    "Amazon.com"
+   ]
+  },
+  "Amazon Monthly Payments": {
+   "tosdr_id": 190,
+   "tosdr_name": "Amazon",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "amazon.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Alexa",
+    "Amazon Advertising",
+    "Amazon Appstore",
+    "Amazon Coins",
+    "Amazon Device",
+    "Amazon E-Reader and Fire Tablet",
+    "Amazon Kindle Store",
+    "Amazon Maps",
+    "Amazon Music",
+    "Amazon Photos",
+    "Amazon Prime",
+    "Amazon Publisher",
+    "Amazon Seller Central",
+    "Amazon Silk",
+    "Amazon Web Services",
+    "Amazon.com"
+   ]
+  },
+  "Amazon Music": {
+   "tosdr_id": 190,
+   "tosdr_name": "Amazon",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "amazon.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Alexa",
+    "Amazon Advertising",
+    "Amazon Appstore",
+    "Amazon Coins",
+    "Amazon Device",
+    "Amazon E-Reader and Fire Tablet",
+    "Amazon Kindle Store",
+    "Amazon Maps",
+    "Amazon Monthly Payments",
+    "Amazon Photos",
+    "Amazon Prime",
+    "Amazon Publisher",
+    "Amazon Seller Central",
+    "Amazon Silk",
+    "Amazon Web Services",
+    "Amazon.com"
+   ]
+  },
+  "Amazon Photos": {
+   "tosdr_id": 190,
+   "tosdr_name": "Amazon",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "amazon.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Alexa",
+    "Amazon Advertising",
+    "Amazon Appstore",
+    "Amazon Coins",
+    "Amazon Device",
+    "Amazon E-Reader and Fire Tablet",
+    "Amazon Kindle Store",
+    "Amazon Maps",
+    "Amazon Monthly Payments",
+    "Amazon Music",
+    "Amazon Prime",
+    "Amazon Publisher",
+    "Amazon Seller Central",
+    "Amazon Silk",
+    "Amazon Web Services",
+    "Amazon.com"
+   ]
+  },
+  "Amazon Prime": {
+   "tosdr_id": 190,
+   "tosdr_name": "Amazon",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "amazon.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Alexa",
+    "Amazon Advertising",
+    "Amazon Appstore",
+    "Amazon Coins",
+    "Amazon Device",
+    "Amazon E-Reader and Fire Tablet",
+    "Amazon Kindle Store",
+    "Amazon Maps",
+    "Amazon Monthly Payments",
+    "Amazon Music",
+    "Amazon Photos",
+    "Amazon Publisher",
+    "Amazon Seller Central",
+    "Amazon Silk",
+    "Amazon Web Services",
+    "Amazon.com"
+   ]
+  },
+  "Amazon Publisher": {
+   "tosdr_id": 190,
+   "tosdr_name": "Amazon",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "amazon.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Alexa",
+    "Amazon Advertising",
+    "Amazon Appstore",
+    "Amazon Coins",
+    "Amazon Device",
+    "Amazon E-Reader and Fire Tablet",
+    "Amazon Kindle Store",
+    "Amazon Maps",
+    "Amazon Monthly Payments",
+    "Amazon Music",
+    "Amazon Photos",
+    "Amazon Prime",
+    "Amazon Seller Central",
+    "Amazon Silk",
+    "Amazon Web Services",
+    "Amazon.com"
+   ]
+  },
+  "Amazon Seller Central": {
+   "tosdr_id": 190,
+   "tosdr_name": "Amazon",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "amazon.com"
+   ],
+   "types": [
+    "Marketplace Sellers Conditions"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Alexa",
+    "Amazon Advertising",
+    "Amazon Appstore",
+    "Amazon Coins",
+    "Amazon Device",
+    "Amazon E-Reader and Fire Tablet",
+    "Amazon Kindle Store",
+    "Amazon Maps",
+    "Amazon Monthly Payments",
+    "Amazon Music",
+    "Amazon Photos",
+    "Amazon Prime",
+    "Amazon Publisher",
+    "Amazon Silk",
+    "Amazon Web Services",
+    "Amazon.com"
+   ]
+  },
+  "Amazon Silk": {
+   "tosdr_id": 190,
+   "tosdr_name": "Amazon",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "amazon.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Alexa",
+    "Amazon Advertising",
+    "Amazon Appstore",
+    "Amazon Coins",
+    "Amazon Device",
+    "Amazon E-Reader and Fire Tablet",
+    "Amazon Kindle Store",
+    "Amazon Maps",
+    "Amazon Monthly Payments",
+    "Amazon Music",
+    "Amazon Photos",
+    "Amazon Prime",
+    "Amazon Publisher",
+    "Amazon Seller Central",
+    "Amazon Web Services",
+    "Amazon.com"
+   ]
+  },
+  "Amazon Web Services": {
+   "tosdr_id": 190,
+   "tosdr_name": "Amazon",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "amazon.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Brand Guidelines",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    1339
+   ],
+   "shared_with": [
+    "Alexa",
+    "Amazon Advertising",
+    "Amazon Appstore",
+    "Amazon Coins",
+    "Amazon Device",
+    "Amazon E-Reader and Fire Tablet",
+    "Amazon Kindle Store",
+    "Amazon Maps",
+    "Amazon Monthly Payments",
+    "Amazon Music",
+    "Amazon Photos",
+    "Amazon Prime",
+    "Amazon Publisher",
+    "Amazon Seller Central",
+    "Amazon Silk",
+    "Amazon.com"
+   ]
+  },
+  "Amazon.com": {
+   "tosdr_id": 190,
+   "tosdr_name": "Amazon",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "amazon.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Commercial Terms",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Alexa",
+    "Amazon Advertising",
+    "Amazon Appstore",
+    "Amazon Coins",
+    "Amazon Device",
+    "Amazon E-Reader and Fire Tablet",
+    "Amazon Kindle Store",
+    "Amazon Maps",
+    "Amazon Monthly Payments",
+    "Amazon Music",
+    "Amazon Photos",
+    "Amazon Prime",
+    "Amazon Publisher",
+    "Amazon Seller Central",
+    "Amazon Silk",
+    "Amazon Web Services"
+   ]
+  },
+  "App Store": {
+   "tosdr_id": 158,
+   "tosdr_name": "Apple Services",
+   "how": "domain",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "apple.com"
+   ],
+   "types": [
+    "Developer Terms",
+    "Review Guidelines"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Apple Business Connect",
+    "Apple Game Center",
+    "Apple"
+   ]
+  },
+  "Apple Business Connect": {
+   "tosdr_id": 158,
+   "tosdr_name": "Apple Services",
+   "how": "domain",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "apple.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "App Store",
+    "Apple Game Center",
+    "Apple"
+   ]
+  },
+  "Apple Game Center": {
+   "tosdr_id": 158,
+   "tosdr_name": "Apple Services",
+   "how": "domain",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "apple.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "App Store",
+    "Apple Business Connect",
+    "Apple"
+   ]
+  },
+  "Apple": {
+   "tosdr_id": 158,
+   "tosdr_name": "Apple Services",
+   "how": "domain",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "apple.com"
+   ],
+   "types": [
+    "Human Rights Policy",
+    "Privacy Policy"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "App Store",
+    "Apple Business Connect",
+    "Apple Game Center"
+   ]
+  },
+  "Arc": {
+   "tosdr_id": 10538,
+   "tosdr_name": "The Browser Company",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "arc.net"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "ArtStation": {
+   "tosdr_id": 5483,
+   "tosdr_name": "ArtStation ",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "artstation.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Atlassian": {
+   "tosdr_id": 576,
+   "tosdr_name": "Atlassian",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "atlassian.com"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": []
+  },
+  "BBC": {
+   "tosdr_id": 322,
+   "tosdr_name": "BBC",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "bbc.co.uk",
+    "bbc.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Badoo": {
+   "tosdr_id": 364,
+   "tosdr_name": "badoo",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "badoo.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Bandcamp": {
+   "tosdr_id": 609,
+   "tosdr_name": "Bandcamp",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "bandcamp.com",
+    "bandcamp.help"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Copyright Claims Policy",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Better Stack": {
+   "tosdr_id": 11790,
+   "tosdr_name": "Better Stack",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "betterstack.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Binance": {
+   "tosdr_id": 2867,
+   "tosdr_name": "Binance",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "binance.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Bing": {
+   "tosdr_id": 331,
+   "tosdr_name": "Bing",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "bing.com",
+    "microsoft.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Bitwarden": {
+   "tosdr_id": 1348,
+   "tosdr_name": "Bitwarden",
+   "how": "name",
+   "rating": "B",
+   "comprehensive": false,
+   "sites": [
+    "bitwarden.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Blizzard Entertainment": {
+   "tosdr_id": 539,
+   "tosdr_name": "Blizzard",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "blizzard.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Blizzard"
+   ]
+  },
+  "Blizzard": {
+   "tosdr_id": 539,
+   "tosdr_name": "Blizzard",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "blizzard.com"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Blizzard Entertainment"
+   ]
+  },
+  "Blogger": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "blogger.com",
+    "google.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Bolt Drivers": {
+   "tosdr_id": 10360,
+   "tosdr_name": "Bolt",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "bolt.eu"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Bolt"
+   ]
+  },
+  "Bolt": {
+   "tosdr_id": 10360,
+   "tosdr_name": "Bolt",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "bolt.eu"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Bolt Drivers"
+   ]
+  },
+  "Booking.com": {
+   "tosdr_id": 4514,
+   "tosdr_name": "Booking.com",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "booking.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Brave": {
+   "tosdr_id": 1487,
+   "tosdr_name": "Brave",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "brave.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Bumble": {
+   "tosdr_id": 634,
+   "tosdr_name": "Bumble",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "bumble.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "CNN International": {
+   "tosdr_id": 318,
+   "tosdr_name": "CNN",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": false,
+   "sites": [
+    "cnn.com",
+    "warnermediaprivacy.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    516
+   ]
+  },
+  "CafeMom": {
+   "tosdr_id": 5268,
+   "tosdr_name": "wildskymedia",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "wildskymedia.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Cdiscount": {
+   "tosdr_id": 4557,
+   "tosdr_name": "Cdiscount",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "cdiscount.com",
+    "cdscdn.com"
+   ],
+   "types": [
+    "Commercial Terms",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Chrome and Chrome OS": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Cloudant": {
+   "tosdr_id": 272,
+   "tosdr_name": "IBM",
+   "how": "domain",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "cloudant.com",
+    "ibm.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Cloudflare": {
+   "tosdr_id": 894,
+   "tosdr_name": "Cloudflare",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "cloudflare.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Coinbase": {
+   "tosdr_id": 1588,
+   "tosdr_name": "Coinbase",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "coinbase.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Coindesk": {
+   "tosdr_id": 10833,
+   "tosdr_name": "CoinDesk",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "coindesk.com"
+   ],
+   "types": [
+    "Editorial Policy",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Couchsurfing": {
+   "tosdr_id": 183,
+   "tosdr_name": "CouchSurfing",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "couchsurfing.com",
+    "couchsurfing.org"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Coursera": {
+   "tosdr_id": 209,
+   "tosdr_name": "Coursera",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "coursera.org"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Criteo": {
+   "tosdr_id": 6574,
+   "tosdr_name": "Criteo",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "criteo.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Crunchyroll": {
+   "tosdr_id": 846,
+   "tosdr_name": "Crunchyroll",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "crunchyroll.com",
+    "sonypictures.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Dailymotion": {
+   "tosdr_id": 866,
+   "tosdr_name": "Dailymotion",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "dailymotion.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Deliveroo": {
+   "tosdr_id": 8940,
+   "tosdr_name": "Deliveroo",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "deliveroo.ie"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "DeviantArt": {
+   "tosdr_id": 192,
+   "tosdr_name": "DeviantArt",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "deviantart.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Discord": {
+   "tosdr_id": 536,
+   "tosdr_name": "Discord",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "discord.com"
+   ],
+   "types": [
+    "Community Guidelines",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Disqus": {
+   "tosdr_id": 239,
+   "tosdr_name": "Disqus",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "disqus.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "DistroKid": {
+   "tosdr_id": 4807,
+   "tosdr_name": "Distrokid",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "distrokid.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "DuckDuckGo": {
+   "tosdr_id": 222,
+   "tosdr_name": "DuckDuckGo",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "duckduckgo.com"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": []
+  },
+  "Ethereum": {
+   "tosdr_id": 2852,
+   "tosdr_name": "Ethereum",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "ethereum.org"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Evernote": {
+   "tosdr_id": 207,
+   "tosdr_name": "Evernote",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "evernote.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "FedEx": {
+   "tosdr_id": 10544,
+   "tosdr_name": "Federal Express (FedEx)",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "fedex.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Financial Times": {
+   "tosdr_id": 4312,
+   "tosdr_name": "The Financial Times",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "ft.com"
+   ],
+   "types": [
+    "Copyright Claims Policy",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Firefox Monitor": {
+   "tosdr_id": 4157,
+   "tosdr_name": "Firefox Monitor",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "mozilla.org"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Firefox Private Network": {
+   "tosdr_id": 530,
+   "tosdr_name": "Mozilla.org",
+   "how": "domain",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "mozilla.org"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Firefox",
+    "MDN Plus",
+    "Mozilla",
+    "Thunderbird"
+   ]
+  },
+  "Firefox": {
+   "tosdr_id": 530,
+   "tosdr_name": "Mozilla.org",
+   "how": "domain",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "mozilla.org"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Firefox Private Network",
+    "MDN Plus",
+    "Mozilla",
+    "Thunderbird"
+   ]
+  },
+  "Flickr": {
+   "tosdr_id": 186,
+   "tosdr_name": "Flickr",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "flickr.com"
+   ],
+   "types": [
+    "Community Guidelines",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Forbes": {
+   "tosdr_id": 1577,
+   "tosdr_name": "Forbes",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "forbes.com"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": []
+  },
+  "Foursquare": {
+   "tosdr_id": 251,
+   "tosdr_name": "Foursquare",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": false,
+   "sites": [
+    "foursquare.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Fox News": {
+   "tosdr_id": 317,
+   "tosdr_name": "Fox News",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "foxnews.com"
+   ],
+   "types": [
+    "Closed Captioning Policy",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Freelancer": {
+   "tosdr_id": 6537,
+   "tosdr_name": "Freelancer",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "freelancer.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "GitHub": {
+   "tosdr_id": 297,
+   "tosdr_name": "GitHub",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "github.com"
+   ],
+   "types": [
+    "Copyright Claims Policy",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "GitLab": {
+   "tosdr_id": 514,
+   "tosdr_name": "GitLab",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "gitlab.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service",
+    "Vulnerability Disclosure Policy"
+   ],
+   "alternatives": []
+  },
+  "Glass": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Glassdoor": {
+   "tosdr_id": 1441,
+   "tosdr_name": "Glassdoor",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "glassdoor.com",
+    "hrtechprivacy.com"
+   ],
+   "types": [
+    "Community Guidelines",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Gmail": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "gmail.com",
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Gofile": {
+   "tosdr_id": 9055,
+   "tosdr_name": "Gofile",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "gofile.io"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Goodreads": {
+   "tosdr_id": 165,
+   "tosdr_name": "Goodreads",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": false,
+   "sites": [
+    "goodreads.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Google APIs": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Developer Terms",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Ads": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Data Controller Agreement",
+    "Data Processor Agreement",
+    "Developer Terms",
+    "Privacy Policy",
+    "Restricted Use Policy",
+    "Terms of Service",
+    "Trackers Policy",
+    "User Consent Policy"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Analytics": {
+   "tosdr_id": 3536,
+   "tosdr_name": "Google Analytics",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Data Controller Agreement",
+    "Data Processor Agreement",
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy",
+    "User Consent Policy"
+   ],
+   "alternatives": []
+  },
+  "Google Calendar": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Chat": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Classroom": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Cloud Platform": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Data Studio": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Drive": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Earth": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Flights": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Groups": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Hangouts": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Manufacturer Center": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Maps": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Developer Terms",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Meet": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Merchant Center": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google My Business": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Nest": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com",
+    "safety.google"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google One": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Pay": {
+   "tosdr_id": 3538,
+   "tosdr_name": "Google Pay",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Google Photos": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Play": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "android.com",
+    "google.com"
+   ],
+   "types": [
+    "Brand Guidelines",
+    "Developer Terms",
+    "Review Guidelines",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844,
+    2418
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Store": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Commercial Terms"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Tag Manager": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844,
+    3536
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google Voice": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google for Nonprofits": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Google": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Local Guides",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Grammarly": {
+   "tosdr_id": 277,
+   "tosdr_name": "Grammarly",
+   "how": "name",
+   "rating": "B",
+   "comprehensive": false,
+   "sites": [
+    "grammarly.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Commercial Terms",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Guilded": {
+   "tosdr_id": 2646,
+   "tosdr_name": "Guilded",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "guilded.gg"
+   ],
+   "types": [
+    "Community Guidelines",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "HackerOne": {
+   "tosdr_id": 10787,
+   "tosdr_name": "HackerOne",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "hackerone.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Hearst.com": {
+   "tosdr_id": 3809,
+   "tosdr_name": "Hearst",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "hearst.com",
+    "veranda.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Womans Day"
+   ]
+  },
+  "Hetzner": {
+   "tosdr_id": 3257,
+   "tosdr_name": "Hetzner",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "hetzner.com"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": []
+  },
+  "Honkai- Star Rail": {
+   "tosdr_id": 9401,
+   "tosdr_name": "HoYoverse",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "hoyoverse.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Hugging Face": {
+   "tosdr_id": 7529,
+   "tosdr_name": "Hugging Face",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "huggingface.co"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "IGN Entertainment": {
+   "tosdr_id": 1468,
+   "tosdr_name": "Ziff Davis",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "ign.com",
+    "ziffdavis.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "IKEA Family": {
+   "tosdr_id": 1563,
+   "tosdr_name": "IKEA",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "ikea.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Ikea"
+   ]
+  },
+  "IMDb": {
+   "tosdr_id": 313,
+   "tosdr_name": "IMDb",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "imdb.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "IPinfo": {
+   "tosdr_id": 3695,
+   "tosdr_name": "IPinfo",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "ipinfo.io"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Ikea": {
+   "tosdr_id": 1563,
+   "tosdr_name": "IKEA",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "ikea.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "IKEA Family"
+   ]
+  },
+  "Imgur": {
+   "tosdr_id": 325,
+   "tosdr_name": "Imgur",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "imgur.com"
+   ],
+   "types": [
+    "Community Guidelines",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Instacart": {
+   "tosdr_id": 2503,
+   "tosdr_name": "Instacart",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "instacart.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Jottacloud": {
+   "tosdr_id": 11678,
+   "tosdr_name": "Jottacloud",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "jottacloud.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Kbin": {
+   "tosdr_id": 8543,
+   "tosdr_name": "kbin social",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "kbin.social"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Kick": {
+   "tosdr_id": 8585,
+   "tosdr_name": "Kick",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "kick.com"
+   ],
+   "types": [
+    "Community Guidelines",
+    "Copyright Claims Policy",
+    "Premium Partner Conditions",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "KimCartoon": {
+   "tosdr_id": 7408,
+   "tosdr_name": "KimCartoon.li",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "kimcartoon.li"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": []
+  },
+  "Kraken": {
+   "tosdr_id": 593,
+   "tosdr_name": "Kraken",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "kraken.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Last.fm": {
+   "tosdr_id": 253,
+   "tosdr_name": "Last.fm",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": false,
+   "sites": [
+    "last.fm",
+    "viacomcbsprivacy.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "LibraryThing": {
+   "tosdr_id": 247,
+   "tosdr_name": "LibraryThing",
+   "how": "name",
+   "rating": "B",
+   "comprehensive": false,
+   "sites": [
+    "librarything.com"
+   ],
+   "types": [
+    "Community Guidelines",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Linear": {
+   "tosdr_id": 3947,
+   "tosdr_name": "Linear",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "linear.app"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "LiveJournal": {
+   "tosdr_id": 261,
+   "tosdr_name": "LiveJournal",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "livejournal.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Local Guides": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Optimize",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Logitech": {
+   "tosdr_id": 2520,
+   "tosdr_name": "Logitech",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "logitech.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Lydia": {
+   "tosdr_id": 1626,
+   "tosdr_name": "Lydia",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [],
+   "types": [],
+   "alternatives": []
+  },
+  "Lyft": {
+   "tosdr_id": 227,
+   "tosdr_name": "Lyft",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "lyft.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "MDN Plus": {
+   "tosdr_id": 530,
+   "tosdr_name": "Mozilla.org",
+   "how": "domain",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "mozilla.org"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Firefox Private Network",
+    "Firefox",
+    "Mozilla",
+    "Thunderbird"
+   ]
+  },
+  "MSN": {
+   "tosdr_id": 878,
+   "tosdr_name": "MSN",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "microsoft.com",
+    "msn.ca"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Match": {
+   "tosdr_id": 11007,
+   "tosdr_name": "match♥",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "match.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "MediaFire": {
+   "tosdr_id": 5538,
+   "tosdr_name": "MediaFire",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "mediafire.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Meetup": {
+   "tosdr_id": 411,
+   "tosdr_name": "Meetup",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "meetup.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Microsoft Store": {
+   "tosdr_id": 244,
+   "tosdr_name": "Microsoft Services",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": false,
+   "sites": [
+    "microsoft.com",
+    "microsoftstore.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Microsoft",
+    "Skype"
+   ]
+  },
+  "Microsoft": {
+   "tosdr_id": 244,
+   "tosdr_name": "Microsoft Services",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": false,
+   "sites": [
+    "microsoft.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Microsoft Store",
+    "Skype"
+   ]
+  },
+  "Miro": {
+   "tosdr_id": 3239,
+   "tosdr_name": "Miro",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "miro.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Mix": {
+   "tosdr_id": 2961,
+   "tosdr_name": "Mix",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "mix.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Mozilla": {
+   "tosdr_id": 530,
+   "tosdr_name": "Mozilla.org",
+   "how": "domain",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "mozilla.org"
+   ],
+   "types": [
+    "Community Guidelines",
+    "Privacy Policy"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Firefox Private Network",
+    "Firefox",
+    "MDN Plus",
+    "Thunderbird"
+   ]
+  },
+  "Mullvad": {
+   "tosdr_id": 641,
+   "tosdr_name": "Mullvad",
+   "how": "name",
+   "rating": "B",
+   "comprehensive": true,
+   "sites": [
+    "mullvad.net"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Myspace": {
+   "tosdr_id": 211,
+   "tosdr_name": "Myspace",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "myspace.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "NOYB": {
+   "tosdr_id": 4960,
+   "tosdr_name": "NOYB",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "noyb.eu"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": []
+  },
+  "National Geographic": {
+   "tosdr_id": 1742,
+   "tosdr_name": "National Geographic",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "disneytermsofuse.com",
+    "nationalgeographic.com",
+    "thewaltdisneycompany.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Netflix": {
+   "tosdr_id": 185,
+   "tosdr_name": "Netflix",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "netflix.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Nextdoor": {
+   "tosdr_id": 1376,
+   "tosdr_name": "Nextdoor Neighborhoods",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": false,
+   "sites": [
+    "nextdoor.com"
+   ],
+   "types": [
+    "Community Guidelines",
+    "Privacy Policy",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "NordVPN": {
+   "tosdr_id": 697,
+   "tosdr_name": "NordVPN",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "nordaccount.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "O'Reilly": {
+   "tosdr_id": 7642,
+   "tosdr_name": "O'Reilly",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "oreilly.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "OVHcloud": {
+   "tosdr_id": 3913,
+   "tosdr_name": "OVHcloud",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "ovh.ie",
+    "ovh.net"
+   ],
+   "types": [
+    "Data Processor Agreement",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "OkCupid": {
+   "tosdr_id": 3922,
+   "tosdr_name": "OkCupid",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "okcupid.com"
+   ],
+   "types": [],
+   "alternatives": []
+  },
+  "Olvid": {
+   "tosdr_id": 7934,
+   "tosdr_name": "Olvid",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "olvid.io"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "OnlyFans": {
+   "tosdr_id": 3693,
+   "tosdr_name": "OnlyFans",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": false,
+   "sites": [
+    "onlyfans.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Commercial Terms",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "OpenSea": {
+   "tosdr_id": 9019,
+   "tosdr_name": "OpenSea",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "opensea.io"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Optimize": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Play",
+    "Reserve with Google"
+   ]
+  },
+  "Orange": {
+   "tosdr_id": 2846,
+   "tosdr_name": "Orange",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "orange.fr"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": []
+  },
+  "Overleaf": {
+   "tosdr_id": 1727,
+   "tosdr_name": "Overleaf",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "overleaf.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Paradox Interactive": {
+   "tosdr_id": 2693,
+   "tosdr_name": "Paradox Interactive",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "paradoxplaza.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "PayPal": {
+   "tosdr_id": 230,
+   "tosdr_name": "PayPal",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "paypal.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Philip Morris International": {
+   "tosdr_id": 5590,
+   "tosdr_name": "Philip Morris International",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "pmiprivacy.com"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": []
+  },
+  "Play": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Reserve with Google"
+   ]
+  },
+  "PlayStation Network": {
+   "tosdr_id": 457,
+   "tosdr_name": "PlayStation",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "playstation.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "PrivacySpy": {
+   "tosdr_id": 4346,
+   "tosdr_name": "PrivacySpy",
+   "how": "name",
+   "rating": "B",
+   "comprehensive": true,
+   "sites": [
+    "privacyspy.org"
+   ],
+   "types": [
+    "Privacy Policy",
+    "User Consent Policy"
+   ],
+   "alternatives": []
+  },
+  "Proctorio": {
+   "tosdr_id": 2686,
+   "tosdr_name": "Proctorio",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "proctorio.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Project Gutenberg": {
+   "tosdr_id": 1716,
+   "tosdr_name": "Project Gutenberg",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "gutenberg.org"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": []
+  },
+  "Proton Mail": {
+   "tosdr_id": 491,
+   "tosdr_name": "Proton AG",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "proton.me"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "ProtonVPN": {
+   "tosdr_id": 1745,
+   "tosdr_name": "Proton VPN",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "protonvpn.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Qobuz": {
+   "tosdr_id": 4269,
+   "tosdr_name": "Qobuz",
+   "how": "name",
+   "rating": "B",
+   "comprehensive": false,
+   "sites": [
+    "qobuz.com"
+   ],
+   "types": [
+    "Copyright Claims Policy",
+    "Imprint",
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Qwant": {
+   "tosdr_id": 527,
+   "tosdr_name": "Qwant",
+   "how": "name",
+   "rating": "B",
+   "comprehensive": true,
+   "sites": [
+    "qwant.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Rakuten": {
+   "tosdr_id": 2308,
+   "tosdr_name": "Rakuten",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "rakuten.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Reserve with Google": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ],
+   "shared_with": [
+    "AdMob",
+    "AdSense",
+    "Blogger",
+    "Chrome and Chrome OS",
+    "Glass",
+    "Gmail",
+    "Google APIs",
+    "Google Ads",
+    "Google Calendar",
+    "Google Chat",
+    "Google Classroom",
+    "Google Cloud Platform",
+    "Google Data Studio",
+    "Google Drive",
+    "Google Earth",
+    "Google Flights",
+    "Google Groups",
+    "Google Hangouts",
+    "Google Manufacturer Center",
+    "Google Maps",
+    "Google Meet",
+    "Google Merchant Center",
+    "Google My Business",
+    "Google Nest",
+    "Google One",
+    "Google Photos",
+    "Google Play",
+    "Google Store",
+    "Google Tag Manager",
+    "Google Voice",
+    "Google for Nonprofits",
+    "Google",
+    "Local Guides",
+    "Optimize",
+    "Play"
+   ]
+  },
+  "Roblox": {
+   "tosdr_id": 1336,
+   "tosdr_name": "Roblox",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "roblox.com"
+   ],
+   "types": [
+    "Community Guidelines",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Rubicon Project": {
+   "tosdr_id": 3758,
+   "tosdr_name": "Magnite",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "magnite.com",
+    "rubiconproject.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Privacy Policy",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Samsung": {
+   "tosdr_id": 825,
+   "tosdr_name": "Samsung",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "samsung.com"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": []
+  },
+  "Savetz Publishing": {
+   "tosdr_id": 3156,
+   "tosdr_name": "Savetz Publishing",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "savetzpublishing.com"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": []
+  },
+  "Scaleway": {
+   "tosdr_id": 4376,
+   "tosdr_name": "Scaleway",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "scaleway.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Signal": {
+   "tosdr_id": 528,
+   "tosdr_name": "Signal",
+   "how": "name",
+   "rating": "B",
+   "comprehensive": false,
+   "sites": [
+    "signal.org"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Simpli.fi": {
+   "tosdr_id": 4265,
+   "tosdr_name": "Simpli.fi",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "simpli.fi"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Sketchfab": {
+   "tosdr_id": 8862,
+   "tosdr_name": "Sketchfab ",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "sketchfab.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Skype": {
+   "tosdr_id": 244,
+   "tosdr_name": "Microsoft Services",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": false,
+   "sites": [
+    "microsoft.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Microsoft Store",
+    "Microsoft"
+   ]
+  },
+  "Solana": {
+   "tosdr_id": 11559,
+   "tosdr_name": "Solana Foundation",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "solana.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Sonic.net": {
+   "tosdr_id": 286,
+   "tosdr_name": "Sonic (ISP)",
+   "how": "domain",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "sonic.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "SoundCloud": {
+   "tosdr_id": 276,
+   "tosdr_name": "SoundCloud",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "soundcloud.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Spam.org": {
+   "tosdr_id": 7665,
+   "tosdr_name": "Spam.org",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "spam.org"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Spark": {
+   "tosdr_id": 3577,
+   "tosdr_name": "Spark Mail",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "sparkmailapp.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Stack Overflow": {
+   "tosdr_id": 312,
+   "tosdr_name": "Stack Overflow",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "stackoverflow.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Brand Guidelines",
+    "Developer Terms",
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Starlink": {
+   "tosdr_id": 3916,
+   "tosdr_name": "Starlink ",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "starlink.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Copyright Claims Policy",
+    "Privacy Policy",
+    "Seller Warranty",
+    "Service Level Agreement",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Steam": {
+   "tosdr_id": 180,
+   "tosdr_name": "Steam",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "steampowered.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "General Conditions of Sale",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Streamable": {
+   "tosdr_id": 2640,
+   "tosdr_name": "Streamable",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "streamable.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Substack": {
+   "tosdr_id": 6612,
+   "tosdr_name": "Substack",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "substack.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Commercial Terms",
+    "Copyright Claims Policy",
+    "Privacy Policy",
+    "Terms of Service",
+    "Vulnerability Disclosure Policy"
+   ],
+   "alternatives": []
+  },
+  "SurveyMonkey": {
+   "tosdr_id": 1722,
+   "tosdr_name": "SurveyMonkey",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "surveymonkey.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "TIME": {
+   "tosdr_id": 3469,
+   "tosdr_name": "TIME",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": false,
+   "sites": [
+    "meredith.com",
+    "time.com"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": []
+  },
+  "TP-Link": {
+   "tosdr_id": 3753,
+   "tosdr_name": "TP-Link",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "tp-link.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Taboola": {
+   "tosdr_id": 6998,
+   "tosdr_name": "Taboola",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "taboola.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Teads": {
+   "tosdr_id": 7009,
+   "tosdr_name": "Teads",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "teads.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Tencent": {
+   "tosdr_id": 5986,
+   "tosdr_name": "Tencent",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "tencent.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "The Guardian": {
+   "tosdr_id": 455,
+   "tosdr_name": "The Guardian",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "theguardian.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "The New York Times": {
+   "tosdr_id": 727,
+   "tosdr_name": "New York Times",
+   "how": "domain",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "nytimes.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "The Register": {
+   "tosdr_id": 9687,
+   "tosdr_name": "The Register ",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "theregister.co.uk",
+    "theregister.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "The Trade Desk": {
+   "tosdr_id": 3715,
+   "tosdr_name": "The Trade Desk",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "thetradedesk.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Privacy Policy"
+   ],
+   "alternatives": []
+  },
+  "Thryv YellowPages": {
+   "tosdr_id": 10589,
+   "tosdr_name": "Thryv",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "thryv.com",
+    "yellowpages.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    10591
+   ]
+  },
+  "Thunderbird": {
+   "tosdr_id": 530,
+   "tosdr_name": "Mozilla.org",
+   "how": "domain",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "mozilla.org"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Firefox Private Network",
+    "Firefox",
+    "MDN Plus",
+    "Mozilla"
+   ]
+  },
+  "Tinder": {
+   "tosdr_id": 462,
+   "tosdr_name": "Tinder",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "tinder.com"
+   ],
+   "types": [
+    "Community Guidelines",
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Toyota Connected Services": {
+   "tosdr_id": 3532,
+   "tosdr_name": "Toyota",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "toyota.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Tresorit": {
+   "tosdr_id": 1696,
+   "tosdr_name": "Tresorit",
+   "how": "name",
+   "rating": "B",
+   "comprehensive": true,
+   "sites": [
+    "tresorit.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "USA.gov": {
+   "tosdr_id": 892,
+   "tosdr_name": "USA.gov – The Official Federal Government Of The United States Of America",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "autodesk.com",
+    "usa.gov"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": [
+    4347
+   ]
+  },
+  "Ubiquiti": {
+   "tosdr_id": 3769,
+   "tosdr_name": "Ubiquiti",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "ui.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "UrbanDictionary.com": {
+   "tosdr_id": 324,
+   "tosdr_name": "Urban Dictionary",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "urbandictionary.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "UserDrive.com": {
+   "tosdr_id": 10836,
+   "tosdr_name": "UsersDrive.com",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "usersdrive.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Verizon": {
+   "tosdr_id": 416,
+   "tosdr_name": "Verizon Communications",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "verizon.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Viber": {
+   "tosdr_id": 4489,
+   "tosdr_name": "Viber",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "viber.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Vimeo": {
+   "tosdr_id": 164,
+   "tosdr_name": "Vimeo",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "vimeo.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Vinted": {
+   "tosdr_id": 1421,
+   "tosdr_name": "Vinted",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "vinted.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Visible": {
+   "tosdr_id": 503,
+   "tosdr_name": "Visible",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "visible.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "W3Schools": {
+   "tosdr_id": 319,
+   "tosdr_name": "W3Schools",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "w3schools.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Wargaming": {
+   "tosdr_id": 4539,
+   "tosdr_name": "Wargaming",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "wargaming.net"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Waze": {
+   "tosdr_id": 221,
+   "tosdr_name": "Waze",
+   "how": "name",
+   "rating": "B",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Copyright Claims Policy",
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "WeTransfer": {
+   "tosdr_id": 214,
+   "tosdr_name": "WeTransfer",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "wetransfer.com"
+   ],
+   "types": [
+    "Commercial Terms",
+    "Community Guidelines",
+    "Copyright Claims Policy",
+    "Data Processor Agreement",
+    "Law Enforcement Guidelines",
+    "Privacy Policy",
+    "Terms of Service",
+    "Vulnerability Disclosure Policy"
+   ],
+   "alternatives": []
+  },
+  "Webcrawler": {
+   "tosdr_id": 6289,
+   "tosdr_name": "System1",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "system1.com",
+    "webcrawler.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Wikimedia Foundation": {
+   "tosdr_id": 265,
+   "tosdr_name": "Wikimedia Foundation",
+   "how": "name",
+   "rating": "B",
+   "comprehensive": true,
+   "sites": [
+    "wikimedia.org",
+    "wikimediafoundation.org"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Wikipedia"
+   ]
+  },
+  "Wikipedia": {
+   "tosdr_id": 265,
+   "tosdr_name": "Wikimedia Foundation",
+   "how": "domain",
+   "rating": "B",
+   "comprehensive": true,
+   "sites": [
+    "wikimedia.org",
+    "wikipedia.org"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Wikimedia Foundation"
+   ]
+  },
+  "Wire": {
+   "tosdr_id": 640,
+   "tosdr_name": "Wire",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "wire.com"
+   ],
+   "types": [
+    "Data Processor Agreement",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Wise": {
+   "tosdr_id": 3551,
+   "tosdr_name": "Wise",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "wise.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Wix": {
+   "tosdr_id": 287,
+   "tosdr_name": "Wix.com",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "wix.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "WolframAlpha": {
+   "tosdr_id": 522,
+   "tosdr_name": "Wolfram Alpha",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "wolfram.com",
+    "wolframalpha.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Womans Day": {
+   "tosdr_id": 3809,
+   "tosdr_name": "Hearst",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "hearst.com",
+    "womansday.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Hearst.com"
+   ]
+  },
+  "WordPress.com": {
+   "tosdr_id": 1543,
+   "tosdr_name": "Wordpress.com",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "automattic.com",
+    "wordpress.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "WordPress.org": {
+   "tosdr_id": 173,
+   "tosdr_name": "WordPress.org",
+   "how": "name",
+   "rating": "B",
+   "comprehensive": true,
+   "sites": [
+    "wordpress.org"
+   ],
+   "types": [
+    "Accessibility Statement",
+    "Privacy Policy"
+   ],
+   "alternatives": []
+  },
+  "Wordfeud": {
+   "tosdr_id": 294,
+   "tosdr_name": "Wordfeud",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "wordfeud.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Xfinity Residential Services": {
+   "tosdr_id": 489,
+   "tosdr_name": "Xfinity",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "xfinity.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Xfinity"
+   ]
+  },
+  "Xfinity": {
+   "tosdr_id": 489,
+   "tosdr_name": "Xfinity",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "xfinity.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "Xfinity Residential Services"
+   ]
+  },
+  "Xing": {
+   "tosdr_id": 241,
+   "tosdr_name": "XING",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "xing.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Y Combinator": {
+   "tosdr_id": 9098,
+   "tosdr_name": "Y Combinator",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "ycombinator.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Yahoo": {
+   "tosdr_id": 309,
+   "tosdr_name": "Yahoo!",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "yahoo.com",
+    "yahoo.de"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Yelp": {
+   "tosdr_id": 461,
+   "tosdr_name": "Yelp",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "yelp.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Yuka": {
+   "tosdr_id": 3614,
+   "tosdr_name": "Yuka",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "yuka.io"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Zillow": {
+   "tosdr_id": 323,
+   "tosdr_name": "Zillow",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "zillow.com",
+    "zillowgroup.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Zoom": {
+   "tosdr_id": 2198,
+   "tosdr_name": "Zoom Video Communications",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "zoom.us"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Zoosk": {
+   "tosdr_id": 266,
+   "tosdr_name": "Zoosk",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": false,
+   "sites": [
+    "zoosk.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "eBay": {
+   "tosdr_id": 226,
+   "tosdr_name": "eBay",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "ebay.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "hide.me VPN": {
+   "tosdr_id": 2671,
+   "tosdr_name": "hide.me VPN",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "hide.me"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "iCloud": {
+   "tosdr_id": 291,
+   "tosdr_name": "iCloud",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "apple.com"
+   ],
+   "types": [
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "ironSource": {
+   "tosdr_id": 10306,
+   "tosdr_name": "ironSource ",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "is.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "meet.jit.si": {
+   "tosdr_id": 2201,
+   "tosdr_name": "Jitsi",
+   "how": "domain",
+   "rating": "B",
+   "comprehensive": true,
+   "sites": [
+    "jitsi.org"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "pixiv": {
+   "tosdr_id": 728,
+   "tosdr_name": "Pixiv",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "pixiv.net"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "sony.com": {
+   "tosdr_id": 2577,
+   "tosdr_name": "Sony",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "sony.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "sourcehut": {
+   "tosdr_id": 1607,
+   "tosdr_name": "SourceHut",
+   "how": "name",
+   "rating": "B",
+   "comprehensive": true,
+   "sites": [
+    "sr.ht"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "thomsonreuters.com": {
+   "tosdr_id": 2474,
+   "tosdr_name": "Reuters",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "reuters.com",
+    "thomsonreuters.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "timeanddate.com": {
+   "tosdr_id": 5104,
+   "tosdr_name": "timeanddate.com",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "timeanddate.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "ubuntu.com": {
+   "tosdr_id": 578,
+   "tosdr_name": "Canonical (Ubuntu)",
+   "how": "domain",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "ubuntu.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "ucla.edu": {
+   "tosdr_id": 4047,
+   "tosdr_name": "UCLA",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "ucla.edu"
+   ],
+   "types": [
+    "Privacy Policy"
+   ],
+   "alternatives": []
+  },
+  "xHamster": {
+   "tosdr_id": 3950,
+   "tosdr_name": "XHamster",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "xhamster.com"
+   ],
+   "types": [
+    "Ranking Parameters Description"
+   ],
+   "alternatives": []
+  }
+ },
+ "unmatched": [
+  "123Greetings",
+  "ACDelco",
+  "ASKfm",
+  "AdRoll",
+  "AdSupply",
+  "Allrecipes",
+  "Allstate",
+  "Alpha Vantage",
+  "Arweave",
+  "BRED Access",
+  "BankID",
+  "Base",
+  "Blockworks",
+  "Chayn",
+  "CommentCaMarche",
+  "Coolmath4Kids",
+  "CrowdTangle",
+  "Daily Mail",
+  "Deutsche Bahn",
+  "Donkey Republic",
+  "Dune",
+  "Energia",
+  "Epassi",
+  "Exponential",
+  "Feddit",
+  "Finnair",
+  "Flippa",
+  "Flutterwave",
+  "Frank",
+  "Freja eID",
+  "Gartner",
+  "Google Antigravity",
+  "GraphCMS",
+  "Gumb",
+  "HSBC",
+  "Hygraph",
+  "IndieGala",
+  "Infolinks",
+  "Interstellar Lab",
+  "Jeeng",
+  "Kivra",
+  "Limitless",
+  "Lingualeo",
+  "Mailjet",
+  "Mattermost beta.gouv.fr",
+  "MouthShut",
+  "Ning",
+  "Nissan",
+  "OKX",
+  "OPay",
+  "OURA",
+  "Outbrain",
+  "Palantir",
+  "Palia",
+  "Persumi",
+  "Polyfill.io",
+  "PubMatic",
+  "Qiwi.gg",
+  "Revcontent",
+  "Revolt",
+  "RueduCommerce.fr",
+  "SNCF Pro",
+  "Scalingo",
+  "Sendinblue",
+  "Shockwave.com",
+  "SponsorBlock",
+  "Stadia",
+  "Starbucks",
+  "Swiss Post",
+  "Tagged",
+  "Tchap",
+  "The Mirror",
+  "The Reach Group",
+  "Tildes",
+  "TousAntiCovid",
+  "Uschovna.cz",
+  "VR",
+  "ValueImpression",
+  "Vanco Payment Solutions",
+  "Veepee",
+  "Viaplay",
+  "VocabularySpellingCity",
+  "Vodafone.ie",
+  "WPEngine",
+  "Watch.Hockey",
+  "We Heart It",
+  "WebProNews",
+  "Webs",
+  "Wide Angle Software",
+  "WinEveryGame",
+  "Windstream",
+  "Wolfram",
+  "WordPress Foundation",
+  "World Market",
+  "Xanga",
+  "Zora",
+  "happn",
+  "hi5",
+  "ulster.ac.uk",
+  "vidguard.to"
+ ],
+ "skipped_pga": [
+  "Bluesky",
+  "Facebook Ads",
+  "Facebook Payments",
+  "Facebook",
+  "Instagram",
+  "LINE",
+  "LinkedIn",
+  "Parler",
+  "Pinterest",
+  "Quora",
+  "Reddit",
+  "Snapchat",
+  "Spotify",
+  "Telegram",
+  "TikTok",
+  "Tumblr",
+  "Twitch",
+  "Twitter",
+  "WeChat Open Platform",
+  "WeChat",
+  "WhatsApp",
+  "YouTube",
+  "Youtube Kids"
+ ]
+}

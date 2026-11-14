@@ -1,0 +1,20 @@
+{
+ "service_id": 4376,
+ "service": "Scaleway",
+ "pulled_at": "2026-11-14T22:45:34Z",
+ "documents": [
+  {
+   "id": 7682,
+   "name": "Privacy Policy",
+   "url": "https://www.scaleway.com/en/privacy-policy/",
+   "updated_at": "2024-11-08T11:13:51.617012"
+  },
+  {
+   "id": 7683,
+   "name": "Cookie Policy",
+   "url": "https://www.scaleway.com/en/terms/cookies/",
+   "updated_at": "2024-11-08T11:13:51.504877"
+  }
+ ],
+ "points": []
+}

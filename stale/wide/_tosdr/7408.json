@@ -1,0 +1,20 @@
+{
+ "service_id": 7408,
+ "service": "KimCartoon.li",
+ "pulled_at": "2026-11-14T22:49:18Z",
+ "documents": [
+  {
+   "id": 14225,
+   "name": "Privacy Policy ",
+   "url": "https://kimcartoon.li/Message/PrivacyPolicy",
+   "updated_at": "2024-11-08T11:26:30.921107"
+  },
+  {
+   "id": 14226,
+   "name": "DMCA",
+   "url": "https://kimcartoon.li/Message/DMCA",
+   "updated_at": "2024-11-08T11:26:29.583880"
+  }
+ ],
+ "points": []
+}

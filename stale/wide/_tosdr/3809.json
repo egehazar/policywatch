@@ -1,0 +1,20 @@
+{
+ "service_id": 3809,
+ "service": "Hearst",
+ "pulled_at": "2026-11-14T22:43:10Z",
+ "documents": [
+  {
+   "id": 6400,
+   "name": "Privacy Notice",
+   "url": "https://www.hearst.com/newsroom/tv-privacy-notice",
+   "updated_at": "2021-05-29T19:53:41.304092"
+  },
+  {
+   "id": 6399,
+   "name": "Terms of Use",
+   "url": "https://www.hearst.com/newsroom/tv-terms-of-use",
+   "updated_at": "2021-05-29T19:54:00.704141"
+  }
+ ],
+ "points": []
+}

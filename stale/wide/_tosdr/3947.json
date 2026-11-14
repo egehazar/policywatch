@@ -1,0 +1,14 @@
+{
+ "service_id": 3947,
+ "service": "Linear",
+ "pulled_at": "2026-11-14T22:43:14Z",
+ "documents": [
+  {
+   "id": 6773,
+   "name": "Privacy policy",
+   "url": "https://linear.app/privacy",
+   "updated_at": "2024-11-08T11:12:31.091002"
+  }
+ ],
+ "points": []
+}

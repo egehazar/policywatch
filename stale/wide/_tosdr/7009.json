@@ -1,0 +1,38 @@
+{
+ "service_id": 7009,
+ "service": "Teads",
+ "pulled_at": "2026-11-14T22:49:17Z",
+ "documents": [
+  {
+   "id": 12847,
+   "name": "Terms of Use",
+   "url": "https://www.teads.com/terms-of-use/",
+   "updated_at": "2024-11-08T11:21:15.985511"
+  },
+  {
+   "id": 12848,
+   "name": "Ad Policies",
+   "url": "https://www.teads.com/ad-policies/",
+   "updated_at": "2022-11-27T21:28:30.513643"
+  },
+  {
+   "id": 12849,
+   "name": "Brand Safety Policy",
+   "url": "https://www.teads.com/brand-safety-policy/",
+   "updated_at": "2022-11-27T21:28:30.514919"
+  },
+  {
+   "id": 12851,
+   "name": "Privacy Policy",
+   "url": "https://www.teads.com/privacy-policy/",
+   "updated_at": "2022-11-27T21:28:30.517496"
+  },
+  {
+   "id": 12850,
+   "name": "Website Privacy Policy",
+   "url": "https://www.teads.com/teads-website-privacy-policy/",
+   "updated_at": "2024-11-08T11:23:09.091060"
+  }
+ ],
+ "points": []
+}

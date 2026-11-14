@@ -1,0 +1,32 @@
+{
+ "service_id": 4265,
+ "service": "Simpli.fi",
+ "pulled_at": "2026-11-14T22:43:24Z",
+ "documents": [
+  {
+   "id": 7506,
+   "name": "SERVICES PRIVACY POLICY",
+   "url": "https://simpli.fi/simpli-fi-services-privacy-policy/",
+   "updated_at": "2024-11-08T11:13:48.149572"
+  },
+  {
+   "id": 7504,
+   "name": "Terms and Conditions",
+   "url": "https://simpli.fi/terms-and-conditions/",
+   "updated_at": "2024-11-08T11:25:18.944437"
+  },
+  {
+   "id": 7507,
+   "name": "Cookie Policy",
+   "url": "https://simpli.fi/simpli-fi-cookie-policy/",
+   "updated_at": "2024-11-08T11:25:19.077901"
+  },
+  {
+   "id": 7505,
+   "name": "Website Privacy Policy",
+   "url": "https://simpli.fi/site-privacy-policy/",
+   "updated_at": "2024-11-08T11:25:19.212380"
+  }
+ ],
+ "points": []
+}

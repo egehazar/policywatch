@@ -1,0 +1,45 @@
+{
+ "service_id": 1441,
+ "service": "Glassdoor",
+ "pulled_at": "2026-11-14T22:07:48Z",
+ "documents": [
+  {
+   "id": 1070,
+   "name": "Privacy and Cookie Policy",
+   "url": "https://hrtechprivacy.com/brands/glassdoor",
+   "updated_at": "2024-11-08T11:06:44.699096"
+  }
+ ],
+ "points": [
+  {
+   "id": 27765,
+   "case_id": 331,
+   "case_title": "There is a date of the last update of the agreements",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 1070,
+   "quote_text": "Revised September 3, 2020.</strong>\n</p>\n",
+   "quote_start": 846,
+   "quote_end": 887,
+   "created_at": "2022-05-02T18:03:37.527383",
+   "updated_at": "2023-07-11T06:24:54.652241",
+   "source": "https://hrtechprivacy.com/brands/glassdoor",
+   "title": "There is a date of the last update of the agreements"
+  },
+  {
+   "id": 27766,
+   "case_id": 233,
+   "case_title": "Do Not Track (DNT) headers are ignored and you are tracked anyway even if you set this header",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 1070,
+   "quote_text": "We do not currently respond to ‘do not track’ signals and similar settings or mechanisms.\n",
+   "quote_start": 47892,
+   "quote_end": 47982,
+   "created_at": "2022-05-02T18:05:57.450564",
+   "updated_at": "2023-07-11T06:24:55.074819",
+   "source": "https://hrtechprivacy.com/brands/glassdoor",
+   "title": "Do Not Track (DNT) headers are ignored and you are tracked anyway even if you set this header."
+  }
+ ]
+}

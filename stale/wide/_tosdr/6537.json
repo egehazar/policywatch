@@ -1,0 +1,26 @@
+{
+ "service_id": 6537,
+ "service": "Freelancer",
+ "pulled_at": "2026-11-14T22:48:40Z",
+ "documents": [
+  {
+   "id": 11896,
+   "name": "Privacy",
+   "url": "https://www.freelancer.com/about/privacy",
+   "updated_at": "2024-11-08T11:21:23.970572"
+  },
+  {
+   "id": 11897,
+   "name": "COPYRIGHT INFRINGEMENT POLICY",
+   "url": "https://www.freelancer.com/dmca",
+   "updated_at": "2024-11-08T11:21:24.085204"
+  },
+  {
+   "id": 11898,
+   "name": "User Agreement",
+   "url": "https://www.freelancer.com/about/terms?w=f&ngsw-bypass=",
+   "updated_at": "2024-11-08T11:21:24.200906"
+  }
+ ],
+ "points": []
+}

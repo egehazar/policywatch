@@ -1,0 +1,20 @@
+{
+ "service_id": 3758,
+ "service": "Magnite",
+ "pulled_at": "2026-11-14T22:42:31Z",
+ "documents": [
+  {
+   "id": 14053,
+   "name": " Advertising Technology Privacy Policy",
+   "url": "https://www.magnite.com/legal/advertising-technology-privacy-policy/",
+   "updated_at": "2024-11-08T11:26:06.005648"
+  },
+  {
+   "id": 6298,
+   "name": " Website Privacy Policy",
+   "url": "https://www.magnite.com/website-privacy-policy/",
+   "updated_at": "2024-11-08T11:26:06.127080"
+  }
+ ],
+ "points": []
+}

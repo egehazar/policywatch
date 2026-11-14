@@ -1,0 +1,26 @@
+{
+ "service_id": 5590,
+ "service": "Philip Morris International",
+ "pulled_at": "2026-11-14T22:48:35Z",
+ "documents": [
+  {
+   "id": 10043,
+   "name": "Terms of Use",
+   "url": "https://pmiprivacy.com/en/terms-of-use",
+   "updated_at": "2024-11-08T11:17:56.863237"
+  },
+  {
+   "id": 10041,
+   "name": " Cookie Notice",
+   "url": "https://www.pmi.com/cookie-notice",
+   "updated_at": "2024-11-08T11:17:57.696520"
+  },
+  {
+   "id": 10042,
+   "name": "Privacy Notice",
+   "url": "https://pmiprivacy.com/en/corporate-website",
+   "updated_at": "2024-11-08T11:17:57.924199"
+  }
+ ],
+ "points": []
+}

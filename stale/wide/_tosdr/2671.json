@@ -1,0 +1,81 @@
+{
+ "service_id": 2671,
+ "service": "hide.me VPN",
+ "pulled_at": "2026-11-14T22:31:24Z",
+ "documents": [
+  {
+   "id": 3869,
+   "name": "Privacy Policy",
+   "url": "https://hide.me/en/privacy",
+   "updated_at": "2026-08-08T20:05:39.417012"
+  },
+  {
+   "id": 3870,
+   "name": "Terms of Service",
+   "url": "https://hide.me/en/legal",
+   "updated_at": "2026-08-08T20:06:26.175740"
+  }
+ ],
+ "points": [
+  {
+   "id": 16617,
+   "case_id": 294,
+   "case_title": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 3870,
+   "quote_text": "If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect.",
+   "quote_start": 8187,
+   "quote_end": 8332,
+   "created_at": "2021-02-16T07:22:33.365049",
+   "updated_at": "2023-07-11T10:09:13.057400",
+   "source": "https://hide.me/en/legal",
+   "title": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder"
+  },
+  {
+   "id": 16616,
+   "case_id": 163,
+   "case_title": "The court of law governing the terms is in location X",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 3870,
+   "quote_text": "These Terms shall be governed and construed in accordance with the laws of Malaysia, without regard to its conflict of law provisions.",
+   "quote_start": 7933,
+   "quote_end": 8067,
+   "created_at": "2021-02-16T07:21:54.410491",
+   "updated_at": "2023-07-11T10:09:16.418721",
+   "source": "https://hide.me/en/legal",
+   "title": "The court of law governing the terms is in Malaysia"
+  },
+  {
+   "id": 16615,
+   "case_id": 295,
+   "case_title": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 3870,
+   "quote_text": "Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights.",
+   "quote_start": 8077,
+   "quote_end": 8186,
+   "created_at": "2021-02-16T07:21:20.623714",
+   "updated_at": "2023-07-11T10:09:17.241060",
+   "source": "https://hide.me/en/legal",
+   "title": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision"
+  },
+  {
+   "id": 30488,
+   "case_id": 399,
+   "case_title": "Your IP address is collected, which can be used to view your approximate location",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 3869,
+   "quote_text": "The website usage data may include your IP address",
+   "quote_start": 3685,
+   "quote_end": 3735,
+   "created_at": "2023-04-01T16:05:43.463232",
+   "updated_at": "2023-07-11T06:28:24.370827",
+   "source": "https://hide.me/en/privacy",
+   "title": "Your IP address is collected, which can be used to view your approximate location"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "service_id": 7665,
+ "service": "Spam.org",
+ "pulled_at": "2026-11-14T22:49:56Z",
+ "documents": [
+  {
+   "id": 14767,
+   "name": "Terms of Service",
+   "url": "https://www.spam.org/tos",
+   "updated_at": "2024-11-08T11:27:38.823104"
+  },
+  {
+   "id": 14766,
+   "name": "Privacy Policy",
+   "url": "https://www.spam.org/privacy",
+   "updated_at": "2024-11-08T11:27:41.387677"
+  }
+ ],
+ "points": []
+}

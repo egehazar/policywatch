@@ -1,0 +1,36 @@
+{
+ "service_id": 5268,
+ "service": "wildskymedia",
+ "pulled_at": "2026-11-14T22:48:03Z",
+ "documents": [
+  {
+   "id": 9444,
+   "name": "Terms",
+   "url": "https://wildskymedia.com/terms-of-service",
+   "updated_at": "2021-10-25T22:23:15.652632"
+  },
+  {
+   "id": 9445,
+   "name": "PRIVACY POLICY",
+   "url": "https://www.wildskymedia.com/privacy-policy/",
+   "updated_at": "2024-11-08T11:16:54.341330"
+  }
+ ],
+ "points": [
+  {
+   "id": 232690,
+   "case_id": 292,
+   "case_title": "This service does not condone any ideas contained in its user-generated contents",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 9444,
+   "quote_text": "Wild Sky Media does not endorse any User Submission or any opinion, recommendation, or advice expressed therein, and Wild Sky Media expressly disclaims any and all liability in connection with User Submissions.\n",
+   "quote_start": 9985,
+   "quote_end": 10196,
+   "created_at": "2026-01-23T01:49:47.423918",
+   "updated_at": "2026-07-14T17:06:53.256858",
+   "source": "https://wildskymedia.com/terms-of-service",
+   "title": "This service does not condone any ideas contained in its user-generated contents"
+  }
+ ]
+}

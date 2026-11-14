@@ -1,0 +1,105 @@
+{
+ "service_id": 3538,
+ "service": "Google Pay",
+ "pulled_at": "2026-11-14T22:38:12Z",
+ "documents": [
+  {
+   "id": 5868,
+   "name": "Privacy Notice",
+   "url": "https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en",
+   "updated_at": "2021-05-07T21:13:24.944398"
+  }
+ ],
+ "points": [
+  {
+   "id": 25198,
+   "case_id": 331,
+   "case_title": "There is a date of the last update of the agreements",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 5868,
+   "quote_text": "Last modified 11 December 2020",
+   "quote_start": 31,
+   "quote_end": 61,
+   "created_at": "2021-09-21T01:24:32.049093",
+   "updated_at": "2023-07-11T06:22:09.857104",
+   "source": "https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en",
+   "title": "There is a date of the last update of the agreements"
+  },
+  {
+   "id": 28983,
+   "case_id": 230,
+   "case_title": "You must create an account to use this service",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 5868,
+   "quote_text": "When you sign up for Google Payments, you are creating a Google Payments Account ",
+   "quote_start": 2075,
+   "quote_end": 2156,
+   "created_at": "2022-11-03T21:20:07.893142",
+   "updated_at": "2023-07-11T06:26:10.607365",
+   "source": "https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en",
+   "title": "You must create an account to use this service"
+  },
+  {
+   "id": 28982,
+   "case_id": 148,
+   "case_title": "You are responsible for maintaining the security of your account and for the activities on your account",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 5868,
+   "quote_text": "It is your responsibility to control access to your mobile device and the Google Payments application on your device, including keeping your password(s) and/or PIN confidential and not sharing it with anyone.\n",
+   "quote_start": 11148,
+   "quote_end": 11357,
+   "created_at": "2022-11-03T21:15:34.182858",
+   "updated_at": "2023-07-11T06:26:10.529305",
+   "source": "https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en",
+   "title": "You are responsible for maintaining the security of your account and for the activities on your account"
+  },
+  {
+   "id": 28984,
+   "case_id": 326,
+   "case_title": "Your profile is combined across various products",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 5868,
+   "quote_text": "that is associated with your Google Account.\n",
+   "quote_start": 2156,
+   "quote_end": 2201,
+   "created_at": "2022-11-03T21:20:26.886493",
+   "updated_at": "2023-07-11T06:26:11.970969",
+   "source": "https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en",
+   "title": "Your profile is combined across various products"
+  },
+  {
+   "id": 28981,
+   "case_id": 493,
+   "case_title": "This service is a subsidiary of Company X",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 5868,
+   "quote_text": "The Google Payments Privacy Notice applies to Services offered by Google LLC or its wholly owned subsidiaries, including Google Payment Corp.\n('GPC').\n",
+   "quote_start": 721,
+   "quote_end": 872,
+   "created_at": "2022-11-03T21:12:36.852442",
+   "updated_at": "2023-07-11T06:27:30.564791",
+   "source": "https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en",
+   "title": "This service is a subsidiary of Google LCC"
+  },
+  {
+   "id": 29293,
+   "case_id": 484,
+   "case_title": "You must report to the service any unauthorized use of your account or any breach of security",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 5868,
+   "quote_text": "It is also your responsibility to alert Google or the relevant partner if you believe that the security of the information in the Google Payments application has been compromised.</p>",
+   "quote_start": 11357,
+   "quote_end": 11540,
+   "created_at": "2022-12-08T19:34:14.712287",
+   "updated_at": "2023-07-11T06:27:47.404692",
+   "source": "https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en",
+   "title": "You must report to the service any unauthorized use of your account or any breach of security"
+  }
+ ]
+}

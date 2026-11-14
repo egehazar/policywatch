@@ -1,0 +1,96 @@
+{
+ "service_id": 272,
+ "service": "IBM",
+ "pulled_at": "2026-11-14T21:05:40Z",
+ "documents": [
+  {
+   "id": 177,
+   "name": "Privacy",
+   "url": "https://www.ibm.com/privacy/us/en/",
+   "updated_at": "2024-11-08T11:05:37.558352"
+  },
+  {
+   "id": 178,
+   "name": "Terms of Service",
+   "url": "https://www.ibm.com/legal/us/en/",
+   "updated_at": "2024-11-08T11:05:37.676198"
+  }
+ ],
+ "points": [
+  {
+   "id": 862,
+   "case_id": 293,
+   "case_title": "The service assumes no liability for any damages the user incurs",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 178,
+   "quote_text": "TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL IBM BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES OF ANY TYPE WHATSOEVER RELATED TO OR ARISING FROM THIS WEB SITE OR ANY USE OF THIS WEB SITE, OR OF ANY SITE OR RESOURCE LINKED TO, REFERENCED, OR ACCESSED THROUGH THIS WEB SITE, OR FOR THE USE OR DOWNLOADING OF, OR ACCESS TO, ANY MATERIALS, INFORMATION, PRODUCTS, OR SERVICES, INCLUDING, WITHOUT LIMITATION, ANY LOST PROFITS, BUSINESS INTERRUPTION, LOST SAVINGS OR LOSS OF PROGRAMS OR OTHER DATA, EVEN IF IBM IS EXPRESSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+   "quote_start": 11188,
+   "quote_end": 11830,
+   "created_at": "2018-01-16T15:27:39.573474",
+   "updated_at": "2023-07-11T06:33:04.227699",
+   "source": "https://www.ibm.com/legal/us/en/",
+   "title": "This service assumes no liability for any losses or damages resulting from any matter relating to the service"
+  },
+  {
+   "id": 33257,
+   "case_id": 190,
+   "case_title": "Your personal data may be aggregated into statistics",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 177,
+   "quote_text": "We combine the personal information we collect to develop aggregate analysis and business intelligence for conducting our business and for marketing purposes.",
+   "quote_start": 5200,
+   "quote_end": 5358,
+   "created_at": "2023-05-16T19:10:38.815535",
+   "updated_at": "2023-07-11T06:31:46.154070",
+   "source": "https://www.ibm.com/privacy/us/en/",
+   "title": "Your personal data is aggregated into statistics"
+  },
+  {
+   "id": 33258,
+   "case_id": 243,
+   "case_title": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 177,
+   "quote_text": "If IBM decides to sell, buy, merge or otherwise reorganize businesses in some countries, such a transaction may involve the disclosure of personal information to prospective or actual purchasers, or the receipt of such information from sellers.",
+   "quote_start": 7893,
+   "quote_end": 8137,
+   "created_at": "2023-05-16T19:11:09.072186",
+   "updated_at": "2023-07-11T06:31:46.254974",
+   "source": "https://www.ibm.com/privacy/us/en/",
+   "title": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction"
+  },
+  {
+   "id": 33259,
+   "case_id": 124,
+   "case_title": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 177,
+   "quote_text": "We encourage you to check back periodically for any changes or updates.\nIf we make a material change to our Privacy Statement, we will post a notice at the top of this page for 30 days.\nBy continuing to use our websites after such revision takes effect we consider that you have read and understand the changes.",
+   "quote_start": 13698,
+   "quote_end": 14009,
+   "created_at": "2023-05-16T19:11:43.631467",
+   "updated_at": "2023-07-11T06:31:46.348372",
+   "source": "https://www.ibm.com/privacy/us/en/",
+   "title": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance"
+  },
+  {
+   "id": 33256,
+   "case_id": 399,
+   "case_title": "Your IP address is collected, which can be used to view your approximate location",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 177,
+   "quote_text": "IP address",
+   "quote_start": 2084,
+   "quote_end": 2094,
+   "created_at": "2023-05-16T19:08:06.135433",
+   "updated_at": "2023-07-11T06:31:46.437321",
+   "source": "https://www.ibm.com/privacy/us/en/",
+   "title": "Your IP address is collected, which can be used to view your approximate location"
+  }
+ ]
+}

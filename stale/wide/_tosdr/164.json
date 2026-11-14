@@ -1,0 +1,150 @@
+{
+ "service_id": 164,
+ "service": "Vimeo",
+ "pulled_at": "2026-11-14T20:29:43Z",
+ "documents": [
+  {
+   "id": 136,
+   "name": "Terms of Service",
+   "url": "https://vimeo.com/legal",
+   "updated_at": "2026-03-15T01:24:38.041984"
+  },
+  {
+   "id": 135,
+   "name": "Privacy Policy",
+   "url": "https://vimeo.com/legal/privacy/policy",
+   "updated_at": "2026-03-15T01:25:18.249612"
+  },
+  {
+   "id": 2668,
+   "name": "Cookie Policy",
+   "url": "https://vimeo.com/legal/privacy/cookies",
+   "updated_at": "2026-03-15T01:25:54.812965"
+  },
+  {
+   "id": 23481,
+   "name": "Third-Party Service Addendum",
+   "url": "https://vimeo.com/legal/service-terms/third-parties",
+   "updated_at": "2026-03-15T01:27:08.371695"
+  },
+  {
+   "id": 23482,
+   "name": "U.S. State Privacy Notice",
+   "url": "https://vimeo.com/legal/privacy/us-state-notice",
+   "updated_at": "2026-03-15T01:27:48.749954"
+  },
+  {
+   "id": 23483,
+   "name": "Government Entity Addendum",
+   "url": "https://vimeo.com/legal/other-terms/government-entity",
+   "updated_at": "2026-03-15T01:29:19.298616"
+  }
+ ],
+ "points": [
+  {
+   "id": 9897,
+   "case_id": 152,
+   "case_title": "This service is only available to users over a certain age",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 136,
+   "quote_text": "You must be at least 16 years old or the applicable age of majority in your jurisdiction, whichever is greater, to create an account or otherwise use our Services.",
+   "quote_start": 9707,
+   "quote_end": 9870,
+   "created_at": "2020-08-04T04:38:10.046407",
+   "updated_at": "2026-03-15T01:24:43.753909",
+   "source": "https://vimeo.com/terms",
+   "title": "This service is only available to users of a certain age"
+  },
+  {
+   "id": 16632,
+   "case_id": 313,
+   "case_title": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 136,
+   "quote_text": "We will, in appropriate circumstances, terminate the accounts of persons who repeatedly infringe.</p>",
+   "quote_start": 18996,
+   "quote_end": 19097,
+   "created_at": "2021-02-17T20:48:25.073031",
+   "updated_at": "2026-03-15T01:24:43.768361",
+   "source": "https://vimeo.com/terms",
+   "title": "User accounts can be terminated after having been in breach of the terms of service repeatedly"
+  },
+  {
+   "id": 16646,
+   "case_id": 290,
+   "case_title": "This service does not guarantee that it or the products obtained through it meet your expectations or requirements",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 136,
+   "quote_text": "<p>EXCEPT AS EXPRESSLY SET FORTH HEREIN, AND TO THE EXTENT PERMITTED BY APPLICABLE LAW, VIMEO DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.",
+   "quote_start": 33639,
+   "quote_end": 33883,
+   "created_at": "2021-02-18T10:59:37.888850",
+   "updated_at": "2026-03-15T01:24:43.772544",
+   "source": "https://vimeo.com/terms",
+   "title": "This service does not guarantee that it or the products obtained through it meet the users' expectations or requirements"
+  },
+  {
+   "id": 16648,
+   "case_id": 149,
+   "case_title": "Any liability on behalf of the service is only limited to the fees you paid as a user",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 136,
+   "quote_text": "(B) VIMEO'S TOTAL LIABILITY TO YOU, EXCEPT FOR VIMEO’S CONTRACTUAL PAYMENT OBLIGATIONS HEREUNDER (IF ANY), SHALL NOT EXCEED THE AMOUNTS PAID BY YOU TO VIMEO OVER THE TWELVE (12) MONTHS PRECEDING YOUR CLAIM(S) OR ONE HUNDRED DOLLARS (USD $100), WHICHEVER IS GREATER.</p>",
+   "quote_start": 35391,
+   "quote_end": 35660,
+   "created_at": "2021-02-18T11:01:46.589823",
+   "updated_at": "2026-03-15T01:24:43.776391",
+   "source": "https://vimeo.com/terms",
+   "title": "Any liability on behalf of the service is only limited to the fees you paid as a user or $100"
+  },
+  {
+   "id": 16643,
+   "case_id": 170,
+   "case_title": "You have the right to leave this service at any time",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 136,
+   "quote_text": "(b) applicable users may terminate at any time by deleting their accounts.</p>\n<p>",
+   "quote_start": 32178,
+   "quote_end": 32260,
+   "created_at": "2021-02-18T10:53:11.933947",
+   "updated_at": "2026-03-15T01:24:43.759486",
+   "source": "https://vimeo.com/terms",
+   "title": "You have the right to leave this service at any time"
+  },
+  {
+   "id": 16649,
+   "case_id": 198,
+   "case_title": "The terms for this service are translated into different languages",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 136,
+   "quote_text": "For convenience, we may provide translated versions of this Agreement.</p>",
+   "quote_start": 61684,
+   "quote_end": 61758,
+   "created_at": "2021-02-18T11:04:32.053288",
+   "updated_at": "2026-03-15T01:24:43.763897",
+   "source": "https://vimeo.com/terms",
+   "title": "The terms for this service are translated into different languages"
+  },
+  {
+   "id": 315772,
+   "case_id": 484,
+   "case_title": "You must report to the service any unauthorized use of your account or any breach of security",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 136,
+   "quote_text": "If you become aware of unauthorized access to your account, you must change your password and notify us immediately.</p>",
+   "quote_start": 11325,
+   "quote_end": 11445,
+   "created_at": "2026-01-27T00:16:45.658995",
+   "updated_at": "2026-03-20T17:03:05.061563",
+   "source": "https://vimeo.com/terms",
+   "title": "You must report to the service any unauthorized use of your account or any breach of security"
+  }
+ ]
+}

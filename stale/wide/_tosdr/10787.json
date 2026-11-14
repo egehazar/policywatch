@@ -1,0 +1,20 @@
+{
+ "service_id": 10787,
+ "service": "HackerOne",
+ "pulled_at": "2026-11-14T22:52:34Z",
+ "documents": [
+  {
+   "id": 21768,
+   "name": "Privacy Policy",
+   "url": "https://www.hackerone.com/privacy",
+   "updated_at": "2024-11-08T11:39:39.965617"
+  },
+  {
+   "id": 21769,
+   "name": "Terms of Service",
+   "url": "https://www.hackerone.com/terms",
+   "updated_at": "2024-11-08T11:39:40.478566"
+  }
+ ],
+ "points": []
+}

@@ -1,0 +1,90 @@
+{
+ "service_id": 1722,
+ "service": "SurveyMonkey",
+ "pulled_at": "2026-11-14T22:18:45Z",
+ "documents": [
+  {
+   "id": 1674,
+   "name": "Terms of Use",
+   "url": "https://www.surveymonkey.com/mp/legal/terms-of-use/",
+   "updated_at": "2020-12-14T22:09:42.696782"
+  }
+ ],
+ "points": [
+  {
+   "id": 35486,
+   "case_id": 490,
+   "case_title": " The service is only available in some countries approved by its government",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 1674,
+   "quote_text": "If you are located in a country embargoed by United States or other applicable law from receiving the Services, or are on the U.S.\nDepartment of Commerce’s Denied Persons List or Entity List, or the U.S.\nTreasury Department’s list of Specially Designated Nationals, you are not permitted to purchase any paid Services from SurveyMonkey.",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2023-12-11T03:59:01.165203",
+   "updated_at": "2023-12-28T19:19:49.662464",
+   "source": null,
+   "title": " The service is only available in some countries approved by its government"
+  },
+  {
+   "id": 35485,
+   "case_id": 499,
+   "case_title": "The service suspends your account after inactivity for a certain or uncertain time",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 1674,
+   "quote_text": "SurveyMonkey may terminate your account and delete any Content contained in it if there is no account activity (such as a log in event or payment) for over 12 months.\nHowever, we will attempt to warn you by email before terminating your account to provide you with an opportunity to log in to your account so that it remains active.",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2023-12-11T03:56:26.073771",
+   "updated_at": "2023-12-28T19:20:14.353689",
+   "source": null,
+   "title": "The service suspends your account after inactivity for a certain or uncertain time"
+  },
+  {
+   "id": 35484,
+   "case_id": 484,
+   "case_title": "You must report to the service any unauthorized use of your account or any breach of security",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 1674,
+   "quote_text": "If you become aware of any unauthorized access to your account, you should notify SurveyMonkey immediately.",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2023-12-11T03:55:47.778295",
+   "updated_at": "2023-12-28T19:20:27.065056",
+   "source": null,
+   "title": "You must report to the service any unauthorized use of your account or any breach of security"
+  },
+  {
+   "id": 35483,
+   "case_id": 197,
+   "case_title": "Archives of their agreements are provided so that changes can be viewed over time",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 1674,
+   "quote_text": "Versions:</p>November 2, 2020 (current)November 20, 2019September 26, 2019February 27, 2019January 2, 2019April 11, 2018June 2, 2016July 8, 2015 (International)January 1, 2015 (International)June 25, 2013March 28, 2012 (International)December 12, 2011 (U.S.)July 21, 2010 (International)June 23, 2010 (U.S.)May 28, 2008 (U.S.)",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2023-12-11T03:50:31.609170",
+   "updated_at": "2023-12-28T19:20:36.465857",
+   "source": null,
+   "title": "Archives of their agreements are provided so that changes can be viewed over time"
+  },
+  {
+   "id": 35482,
+   "case_id": 391,
+   "case_title": "You will be notified if personal data has been affected by data breaches",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 1674,
+   "quote_text": "If SurveyMonkey becomes aware of any unauthorized or unlawful access to, or acquisition, alteration, use, disclosure, or destruction of, personal data related to your account (“Security Incident”), SurveyMonkey will take reasonable steps to notify you without undue delay, but in any event within 72 hours of becoming aware of the Security Incident.",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2023-12-11T03:48:27.527274",
+   "updated_at": "2023-12-28T19:19:31.652628",
+   "source": null,
+   "title": "You will be notified if personal data has been affected by data breaches"
+  }
+ ]
+}

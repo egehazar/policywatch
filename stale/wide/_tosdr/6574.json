@@ -1,0 +1,26 @@
+{
+ "service_id": 6574,
+ "service": "Criteo",
+ "pulled_at": "2026-11-14T22:48:41Z",
+ "documents": [
+  {
+   "id": 11965,
+   "name": "Website Privacy Policy",
+   "url": "https://www.criteo.com/privacy/corporate-privacy-policy/",
+   "updated_at": "2024-11-08T11:21:32.258334"
+  },
+  {
+   "id": 11966,
+   "name": " Privacy Policy",
+   "url": "https://www.criteo.com/privacy/",
+   "updated_at": "2024-11-08T11:21:32.383511"
+  },
+  {
+   "id": 11967,
+   "name": "TERMS AND CONDITION",
+   "url": "https://www.criteo.com/wp-content/uploads/2022/03/Criteo-Terms_Display_02.21.22_EN.pdf",
+   "updated_at": "2024-11-08T11:21:32.502734"
+  }
+ ],
+ "points": []
+}

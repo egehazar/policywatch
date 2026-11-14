@@ -1,0 +1,87 @@
+{
+ "service_id": 5538,
+ "service": "MediaFire",
+ "pulled_at": "2026-11-14T22:48:34Z",
+ "documents": [
+  {
+   "id": 9947,
+   "name": "Privacy Policy and User Notice",
+   "url": "https://www.mediafire.com/policies/privacy_policy.php",
+   "updated_at": "2024-11-08T11:17:48.023069"
+  },
+  {
+   "id": 9948,
+   "name": "Terms of Payment Policy",
+   "url": "https://www.mediafire.com/policies/terms_of_payment.php",
+   "updated_at": "2024-11-08T11:17:48.143013"
+  },
+  {
+   "id": 9949,
+   "name": "Terms of Service",
+   "url": "https://www.mediafire.com/policies/terms_of_service.php",
+   "updated_at": "2024-11-08T11:17:48.256656"
+  }
+ ],
+ "points": [
+  {
+   "id": 34474,
+   "case_id": 399,
+   "case_title": "Your IP address is collected, which can be used to view your approximate location",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 9947,
+   "quote_text": ".\nBy visiting our website, we automatically collect your IP address.",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2023-07-24T15:52:05.449519",
+   "updated_at": "2023-08-27T10:15:50.935766",
+   "source": null,
+   "title": "Your IP address is collected, which can be used to view your approximate location"
+  },
+  {
+   "id": 34475,
+   "case_id": 325,
+   "case_title": "Third-party cookies are used for statistics",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 9947,
+   "quote_text": "(like Google Analytics",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2023-07-24T15:52:53.373947",
+   "updated_at": "2023-08-27T10:15:42.959358",
+   "source": null,
+   "title": "Third-party cookies are used for statistics"
+  },
+  {
+   "id": 34476,
+   "case_id": 323,
+   "case_title": "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 9947,
+   "quote_text": "Cookies, Web Beacons, and Similar Technologies",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2023-07-24T15:53:18.299004",
+   "updated_at": "2023-08-27T10:15:47.016097",
+   "source": null,
+   "title": "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting"
+  },
+  {
+   "id": 292609,
+   "case_id": 377,
+   "case_title": "Your content can be deleted if you violate the terms",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 9949,
+   "quote_text": "You understand and agree that MediaFire reserves the right to delete, move, archive (including account information) or edit any Content that it may determine violates the Agreement and/or Privacy Policy or is otherwise unacceptable and may terminate your access to the Services, without prior notice and at its sole discretion.</p>\n<p>",
+   "quote_start": 10310,
+   "quote_end": 10645,
+   "created_at": "2026-01-26T14:15:05.276021",
+   "updated_at": "2026-05-09T04:02:34.423717",
+   "source": "https://www.mediafire.com/policies/terms_of_service.php",
+   "title": "Your content can be deleted if you violate the terms"
+  }
+ ]
+}

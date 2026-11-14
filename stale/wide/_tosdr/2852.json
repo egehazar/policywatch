@@ -1,0 +1,72 @@
+{
+ "service_id": 2852,
+ "service": "Ethereum",
+ "pulled_at": "2026-11-14T22:34:41Z",
+ "documents": [
+  {
+   "id": 4366,
+   "name": "Privacy Policy",
+   "url": "https://ethereum.org/en/privacy-policy/",
+   "updated_at": "2024-11-08T11:09:04.325912"
+  },
+  {
+   "id": 4367,
+   "name": "Terms of Use",
+   "url": "https://ethereum.org/en/terms-of-use/",
+   "updated_at": "2024-11-08T11:09:06.319635"
+  },
+  {
+   "id": 4365,
+   "name": "Cookie Policy",
+   "url": "https://ethereum.org/en/cookie-policy/",
+   "updated_at": "2024-11-08T11:09:42.280736"
+  }
+ ],
+ "points": [
+  {
+   "id": 18636,
+   "case_id": 152,
+   "case_title": "This service is only available to users over a certain age",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 4367,
+   "quote_text": "This Websites is offered and available to users who are 13 years of age\nor older.",
+   "quote_start": 3358,
+   "quote_end": 3439,
+   "created_at": "2021-04-11T21:41:45.932027",
+   "updated_at": "2023-07-11T10:11:01.529393",
+   "source": "https://ethereum.org/en/terms-of-use/",
+   "title": "This service is only available to users over a certain age"
+  },
+  {
+   "id": 18637,
+   "case_id": 121,
+   "case_title": " Terms may be changed any time at their discretion, without notice to you ",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 4367,
+   "quote_text": "<p>We may revise and update these Terms of Use from time to time in our\nsole discretion",
+   "quote_start": 3866,
+   "quote_end": 3953,
+   "created_at": "2021-04-11T21:42:13.129020",
+   "updated_at": "2023-07-11T10:11:01.618943",
+   "source": "https://ethereum.org/en/terms-of-use/",
+   "title": " Terms may be changed any time at their discretion, without notice to the user "
+  },
+  {
+   "id": 18635,
+   "case_id": 325,
+   "case_title": "Third-party cookies are used for statistics",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 4366,
+   "quote_text": "This websites also uses Google Analytics, a web analysis service\nprovided by Google Inc.\n(\"Google\").\nGoogle Inc.\nis an enterprise of\nthe holding company Alphabet Inc., domiciled in the USA",
+   "quote_start": 7430,
+   "quote_end": 7618,
+   "created_at": "2021-04-11T21:39:56.886912",
+   "updated_at": "2023-07-11T10:14:34.485361",
+   "source": "https://ethereum.org/en/privacy-policy/",
+   "title": "Third-party cookies are used for statistics"
+  }
+ ]
+}

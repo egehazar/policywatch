@@ -1,0 +1,57 @@
+{
+ "service_id": 508,
+ "service": "Academia.edu",
+ "pulled_at": "2026-11-14T21:35:14Z",
+ "documents": [
+  {
+   "id": 71,
+   "name": "Privacy Policy",
+   "url": "https://www.academia.edu/privacy",
+   "updated_at": "2024-11-08T11:05:31.521659"
+  },
+  {
+   "id": 72,
+   "name": "Terms of Use",
+   "url": "https://www.academia.edu/terms",
+   "updated_at": "2026-08-14T18:58:16.807091"
+  },
+  {
+   "id": 8791,
+   "name": "Copyright Policy",
+   "url": "https://www.academia.edu/copyright",
+   "updated_at": "2024-11-08T11:15:43.073779"
+  }
+ ],
+ "points": [
+  {
+   "id": 37436,
+   "case_id": 117,
+   "case_title": "You waive your right to a class action",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 72,
+   "quote_text": "AND YOU ARE WAIVING YOUR RIGHT TO A TRIAL BY JURY OR TO PARTICIPATE AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS ACTION OR REPRESENTATIVE PROCEEDING.</strong>\n</p>\n",
+   "quote_start": 1281,
+   "quote_end": 1454,
+   "created_at": "2024-12-01T19:44:04.298808",
+   "updated_at": "2026-05-19T03:18:48.274628",
+   "source": "https://www.academia.edu/terms",
+   "title": "You waive your right to a class action."
+  },
+  {
+   "id": 161622,
+   "case_id": 214,
+   "case_title": "You must provide your legal name, pseudonyms are not allowed",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 72,
+   "quote_text": "During the registration process, you will be required to provide certain information and you will establish a username and a password.</p>\n<p>You agree to provide accurate, current and complete information during the registration process and to update such information to keep it accurate, current and complete.\nAcademia.edu reserves the right to suspend or terminate your Account if any information provided during the registration process or thereafter proves to be inaccurate, not current or incomplete.\nYou are responsible for safeguarding your password.\n",
+   "quote_start": 5668,
+   "quote_end": 6227,
+   "created_at": "2026-01-21T22:18:16.605489",
+   "updated_at": "2026-05-09T05:47:21.496318",
+   "source": "https://www.academia.edu/terms",
+   "title": "You must provide your legal name, pseudonyms are not allowed"
+  }
+ ]
+}

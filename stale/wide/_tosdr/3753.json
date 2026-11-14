@@ -1,0 +1,38 @@
+{
+ "service_id": 3753,
+ "service": "TP-Link",
+ "pulled_at": "2026-11-14T22:42:30Z",
+ "documents": [
+  {
+   "id": 6276,
+   "name": "Terms Of Use",
+   "url": "https://www.kasasmart.com/1/legal/us/terms-of-use",
+   "updated_at": "2021-05-24T17:47:18.923255"
+  },
+  {
+   "id": 6275,
+   "name": "TP-LINK PRIVACY POLICY Kasasmart",
+   "url": "https://www.kasasmart.com/1/legal/us/privacy-policy",
+   "updated_at": "2021-05-24T17:49:29.214800"
+  },
+  {
+   "id": 6274,
+   "name": "Kasa Care Service Agreement",
+   "url": "https://www.kasasmart.com/1/legal/us/kasacare-service-agreement#overview-and-relation-to-other-agreements",
+   "updated_at": "2021-05-24T17:49:56.459921"
+  },
+  {
+   "id": 6272,
+   "name": "PRIVACY POLICY And Terms of Use",
+   "url": "https://www.tp-link.com/us/about-us/privacy",
+   "updated_at": "2021-05-24T17:51:55.302098"
+  },
+  {
+   "id": 6273,
+   "name": "TP-LINK PRIVACY POLICY Tapo",
+   "url": "https://www.tapo.com/us/privacy/",
+   "updated_at": "2024-11-08T11:11:50.602160"
+  }
+ ],
+ "points": []
+}

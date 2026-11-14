@@ -1,0 +1,153 @@
+{
+ "collection": "dating",
+ "built": "2026-11-14T21:32:31Z",
+ "services_list_fetched": "2026-11-12T21:58:59Z",
+ "declared": 26,
+ "mapped": {
+  "Badoo": {
+   "tosdr_id": 364,
+   "tosdr_name": "badoo",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "badoo.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Bumble": {
+   "tosdr_id": 634,
+   "tosdr_name": "Bumble",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "bumble.com"
+   ],
+   "types": [
+    "Community Guidelines",
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Grindr": {
+   "tosdr_id": 9498,
+   "tosdr_name": "Grindr",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "grindr.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Match": {
+   "tosdr_id": 11007,
+   "tosdr_name": "match♥",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "match.com"
+   ],
+   "types": [
+    "Community Guidelines",
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "OkCupid": {
+   "tosdr_id": 3922,
+   "tosdr_name": "OkCupid",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "okcupid.com"
+   ],
+   "types": [],
+   "alternatives": []
+  },
+  "ROMEO": {
+   "tosdr_id": 9569,
+   "tosdr_name": "PlanetRomeo",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "romeo.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Tinder": {
+   "tosdr_id": 462,
+   "tosdr_name": "Tinder",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "tinder.com"
+   ],
+   "types": [
+    "Community Guidelines",
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Zoosk": {
+   "tosdr_id": 266,
+   "tosdr_name": "Zoosk",
+   "how": "name",
+   "rating": "E",
+   "comprehensive": false,
+   "sites": [
+    "zoosk.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  }
+ },
+ "unmatched": [
+  "AdopteUnMec",
+  "ChristianMingle",
+  "Coffee Meets Bagel",
+  "DisonsDemain",
+  "Finya",
+  "Fruitz",
+  "HER",
+  "Hily",
+  "Inshallah",
+  "Jdate",
+  "LEX",
+  "LOVOO",
+  "LoveScout24",
+  "Meetic",
+  "Mektoube",
+  "Parship",
+  "eharmony",
+  "happn"
+ ],
+ "skipped_pga": []
+}

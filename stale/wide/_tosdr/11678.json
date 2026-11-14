@@ -1,0 +1,144 @@
+{
+ "service_id": 11678,
+ "service": "Jottacloud",
+ "pulled_at": "2026-11-14T22:53:05Z",
+ "documents": [
+  {
+   "id": 23436,
+   "name": "Privacy Policy",
+   "url": "https://jottacloud.com/en/privacy",
+   "updated_at": "2026-02-07T16:06:33.101859"
+  },
+  {
+   "id": 23437,
+   "name": "Terms of Service",
+   "url": "https://jottacloud.com/en/terms-conditions",
+   "updated_at": "2026-02-16T20:38:20.729585"
+  },
+  {
+   "id": 23438,
+   "name": "Cookie Policy",
+   "url": "https://jottacloud.com/en/cookies",
+   "updated_at": "2026-02-07T16:08:00.554925"
+  },
+  {
+   "id": 23439,
+   "name": "Data Processor Agreement",
+   "url": "https://jottacloud.com/en/data-processing-agreement",
+   "updated_at": "2026-02-07T16:08:47.406525"
+  },
+  {
+   "id": 23446,
+   "name": "Miscellaneous Agreement",
+   "url": "https://jottacloud.com/en/transparency",
+   "updated_at": "2026-02-16T20:53:05.914213"
+  }
+ ],
+ "points": [
+  {
+   "id": 318120,
+   "case_id": 163,
+   "case_title": "The court of law governing the terms is in location X",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 23437,
+   "quote_text": "21. Legal Jurisdiction</h3>\n<p>This Agreement is governed by and construed in accordance with the laws of Norway. For any legal disputes arising out of this Agreement, jurisdiction falls to the Court of Oslo, Norway.</p>",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2026-02-16T20:41:45.012270",
+   "updated_at": "2026-02-18T20:11:25.990951",
+   "source": "",
+   "title": "The court of law governing the terms is in Oslo (Norway)"
+  },
+  {
+   "id": 318121,
+   "case_id": 223,
+   "case_title": "You can opt out of receiving promotional communications",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 23437,
+   "quote_text": "17. Marketing and communication</h3>\n<p>Jottacloud will only send information about news, products and services in channels such as email and SMS if the user gives consent. The user can withdraw such consent at any time.</p>",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2026-02-16T20:42:28.998643",
+   "updated_at": "2026-02-18T20:12:05.164432",
+   "source": null,
+   "title": "You can opt out of promotional communications"
+  },
+  {
+   "id": 318122,
+   "case_id": 124,
+   "case_title": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 23437,
+   "quote_text": "18. Changes to the Service and Terms and Conditions</h3>\n<p>Jottacloud reserves the right to modify the Terms and Conditions of the agreement with 30 (thirty) days’ notice.",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2026-02-16T20:43:03.083161",
+   "updated_at": "2026-02-18T20:12:22.305086",
+   "source": null,
+   "title": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance"
+  },
+  {
+   "id": 318124,
+   "case_id": 165,
+   "case_title": "The service will try to inform and/or notify you regarding government inquiries that may involve your personal information",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 23446,
+   "quote_text": "Jottacloud promises to provide advance notice to users about government data demands, unless we are legally unable to do so.</p>\n<p>We will notify the user that we have received a warrant from the government, and that we will comply with it.",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2026-02-16T20:51:28.004156",
+   "updated_at": "2026-02-18T20:12:42.366522",
+   "source": null,
+   "title": "The service promises to inform and/or notify you regarding government inquiries that may involve your personal data"
+  },
+  {
+   "id": 318119,
+   "case_id": 152,
+   "case_title": "This service is only available to users over a certain age",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 23437,
+   "quote_text": "id=\"9agelimit\">9. Age limit</h3>\n<p>The age limit for establishing a Free account, Individual or Family account is 13 years. Jottacloud has the right to delete any information including the user account and data if we learn that the user who established the account, is under 13 years of age.</p>\n<p>For a Family account, the Family administrator must be over the age of 13 years.</p>",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2026-02-16T20:41:21.182859",
+   "updated_at": "2026-02-18T20:11:40.950557",
+   "source": null,
+   "title": "This service is only available to users over a certain age"
+  },
+  {
+   "id": 318118,
+   "case_id": 399,
+   "case_title": "Your IP address is collected, which can be used to view your approximate location",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 23436,
+   "quote_text": "When you enter Jottacloud, we collect your browser type and IP address",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2026-02-16T20:40:04.923346",
+   "updated_at": "2026-02-18T20:11:50.105280",
+   "source": null,
+   "title": "Your IP address is collected, which can be used to view your approximate location"
+  },
+  {
+   "id": 318117,
+   "case_id": 331,
+   "case_title": "There is a date of the last update of the agreements",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 23437,
+   "quote_text": "Conditions</h1>\n<p>July 1st, 2019</p>",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2026-02-16T20:38:41.979842",
+   "updated_at": "2026-02-18T20:12:49.426517",
+   "source": null,
+   "title": "There is a date of the last update of the agreements"
+  }
+ ]
+}

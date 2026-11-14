@@ -1,0 +1,20 @@
+{
+ "service_id": 2654,
+ "service": "Tencent QQ (腾讯QQ)",
+ "pulled_at": "2026-11-14T22:31:14Z",
+ "documents": [
+  {
+   "id": 3820,
+   "name": "Privacy Policy",
+   "url": "https://privacy.qq.com",
+   "updated_at": "2024-11-08T11:07:50.472465"
+  },
+  {
+   "id": 3819,
+   "name": "Copyright",
+   "url": "https://www.qq.com/copyright20201229.htm",
+   "updated_at": "2024-11-08T11:09:18.129376"
+  }
+ ],
+ "points": []
+}

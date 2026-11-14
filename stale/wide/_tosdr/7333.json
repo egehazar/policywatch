@@ -1,0 +1,20 @@
+{
+ "service_id": 7333,
+ "service": "Copy.AI",
+ "pulled_at": "2026-11-14T22:55:34Z",
+ "documents": [
+  {
+   "id": 14072,
+   "name": "Privacy Notice",
+   "url": "https://copy.ai/privacy-notice",
+   "updated_at": "2024-11-08T11:26:09.571365"
+  },
+  {
+   "id": 14073,
+   "name": "Terms of Service",
+   "url": "https://copy.ai/terms-of-service",
+   "updated_at": "2024-11-08T11:26:09.687589"
+  }
+ ],
+ "points": []
+}

@@ -1,0 +1,26 @@
+{
+ "service_id": 10589,
+ "service": "Thryv",
+ "pulled_at": "2026-11-14T22:52:33Z",
+ "documents": [
+  {
+   "id": 21352,
+   "name": "Privacy Notice",
+   "url": "https://www.thryv.com/privacy/",
+   "updated_at": "2024-11-08T11:38:59.591677"
+  },
+  {
+   "id": 21350,
+   "name": "Terms of Use",
+   "url": "https://www.thryv.com/terms-of-use/",
+   "updated_at": "2024-01-23T23:56:29.883385"
+  },
+  {
+   "id": 21351,
+   "name": "Terms and Conditions",
+   "url": "https://www.thryv.com/thryv-terms/",
+   "updated_at": "2024-01-23T23:56:29.914507"
+  }
+ ],
+ "points": []
+}

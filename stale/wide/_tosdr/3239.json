@@ -1,0 +1,81 @@
+{
+ "service_id": 3239,
+ "service": "Miro",
+ "pulled_at": "2026-11-14T22:35:12Z",
+ "documents": [
+  {
+   "id": 5298,
+   "name": "Privacy Policy",
+   "url": "https://miro.com/legal/privacy-policy/",
+   "updated_at": "2021-04-23T19:33:12.294992"
+  },
+  {
+   "id": 13360,
+   "name": "Terms of Service",
+   "url": "https://miro.com/legal/terms-of-service/",
+   "updated_at": "2024-11-08T11:24:08.087773"
+  }
+ ],
+ "points": [
+  {
+   "id": 27679,
+   "case_id": 387,
+   "case_title": "Referring and/or exit pages are tracked",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 5298,
+   "quote_text": "and/or referring websites.",
+   "quote_start": 7017,
+   "quote_end": 7043,
+   "created_at": "2022-04-08T09:55:32.343243",
+   "updated_at": "2023-07-11T06:24:48.903544",
+   "source": "https://miro.com/legal/privacy-policy/",
+   "title": "This service tracks which web page referred you to it"
+  },
+  {
+   "id": 27682,
+   "case_id": 382,
+   "case_title": "Information is gathered about you through third parties",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 5298,
+   "quote_text": "We may receive information about you from outside sources, such as commercially available demographic or marketing information, and add or combine it with your information to provide better service to you and inform you of Services or other information that may be of interest to you.",
+   "quote_start": 7265,
+   "quote_end": 7549,
+   "created_at": "2022-04-08T10:58:46.932201",
+   "updated_at": "2023-07-11T06:24:49.932166",
+   "source": "https://miro.com/legal/privacy-policy/",
+   "title": "Information is gathered about you through third parties"
+  },
+  {
+   "id": 27680,
+   "case_id": 323,
+   "case_title": "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 5298,
+   "quote_text": "We may place ‘cookies’ and similar technologies in your computer or mobile device in order to track and collect data regarding your use of our Site and Services.",
+   "quote_start": 15242,
+   "quote_end": 15403,
+   "created_at": "2022-04-08T10:04:53.608828",
+   "updated_at": "2023-07-11T06:24:50.108625",
+   "source": "https://miro.com/legal/privacy-policy/",
+   "title": "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting"
+  },
+  {
+   "id": 27681,
+   "case_id": 152,
+   "case_title": "This service is only available to users over a certain age",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 5298,
+   "quote_text": "Miro does not knowingly collect any kind of information from persons under the age of thirteen (13).\nBy using our Services and/or browsing the Site, you hereby represent and warrant that (i) you are at least thirteen (13) years of age — or older — as of the date of first access to the Site.\nand, (ii) if you are a minor (which may differ depending on the jurisdiction where you reside), you are accessing the Site under the direct supervision of your parent or legal guardian.",
+   "quote_start": 27053,
+   "quote_end": 27530,
+   "created_at": "2022-04-08T10:16:23.059644",
+   "updated_at": "2023-07-11T06:26:58.867764",
+   "source": "https://miro.com/legal/privacy-policy/",
+   "title": "This service is only available to users over a certain age"
+  }
+ ]
+}

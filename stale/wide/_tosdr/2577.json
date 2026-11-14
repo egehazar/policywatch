@@ -1,0 +1,132 @@
+{
+ "service_id": 2577,
+ "service": "Sony",
+ "pulled_at": "2026-11-14T22:29:23Z",
+ "documents": [
+  {
+   "id": 3655,
+   "name": "Website Terms and Conditions",
+   "url": "https://www.sony.net/copyright/",
+   "updated_at": "2024-11-08T11:07:52.299811"
+  },
+  {
+   "id": 3657,
+   "name": "Terms and Conditions",
+   "url": "https://www.sony.com/en_us/SCA/terms.html",
+   "updated_at": "2024-11-08T11:08:55.136183"
+  },
+  {
+   "id": 3656,
+   "name": "Privacy Policy",
+   "url": "https://www.sony.com/en_us/SCA/privacy-policy.html",
+   "updated_at": "2024-11-08T11:08:55.247411"
+  }
+ ],
+ "points": [
+  {
+   "id": 17944,
+   "case_id": 163,
+   "case_title": "The court of law governing the terms is in location X",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 3655,
+   "quote_text": "This Terms and Conditions shall be governed by and construed in accordance with the laws of Japan unless otherwise expressly provided.\nAll controversies and disputes arising out of or relating to this Terms and Conditions shall be submitted to the Tokyo District Court in Tokyo, Japan as the Court of first instance.</p>",
+   "quote_start": 6343,
+   "quote_end": 6663,
+   "created_at": "2021-03-31T12:00:10.473444",
+   "updated_at": "2023-07-11T10:13:57.608582",
+   "source": "https://www.sony.net/copyright/",
+   "title": "The court of law governing the terms is in Tokyo, Japan"
+  },
+  {
+   "id": 17945,
+   "case_id": 331,
+   "case_title": "There is a date of the last update of the agreements",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 3657,
+   "quote_text": "<b>Effective Date: June 2004",
+   "quote_start": 5,
+   "quote_end": 33,
+   "created_at": "2021-03-31T12:03:53.619052",
+   "updated_at": "2023-07-11T10:13:57.689632",
+   "source": "https://www.sony.com/en_us/SCA/terms.html",
+   "title": "There is a date of the last update of the agreements"
+  },
+  {
+   "id": 18295,
+   "case_id": 325,
+   "case_title": "Third-party cookies are used for statistics",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 3656,
+   "quote_text": " that you choose to submit to the Properties, whenever you visit or interact with the Properties, Sony, as well as any third-party analytics providers or other service providers, may use a variety of technologies that automatically or passively collect information about how the Properties are accessed and used",
+   "quote_start": 3203,
+   "quote_end": 3514,
+   "created_at": "2021-04-05T20:06:32.146473",
+   "updated_at": "2023-07-11T10:14:17.355992",
+   "source": "https://www.sony.com/en_us/SCA/privacy-policy.html",
+   "title": "Third-party cookies are used for statistics"
+  },
+  {
+   "id": 18297,
+   "case_id": 233,
+   "case_title": "Do Not Track (DNT) headers are ignored and you are tracked anyway even if you set this header",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 3656,
+   "quote_text": "How browsers communicate the Do Not Track signal is not yet uniform.\nFor this reason, our Properties do not respond to such signals, except where required by law.<b>",
+   "quote_start": 7410,
+   "quote_end": 7575,
+   "created_at": "2021-04-05T20:08:05.095695",
+   "updated_at": "2023-07-11T10:14:17.444684",
+   "source": "https://www.sony.com/en_us/SCA/privacy-policy.html",
+   "title": "This service ignores the Do Not Track (DNT) header and tracks users anyway even if they set this header."
+  },
+  {
+   "id": 18298,
+   "case_id": 121,
+   "case_title": " Terms may be changed any time at their discretion, without notice to you ",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 3656,
+   "quote_text": "Sony reserves the right to change this Privacy Policy at any time, without prior notice to you, and any changes will become effective immediately upon posting",
+   "quote_start": 34923,
+   "quote_end": 35081,
+   "created_at": "2021-04-05T20:10:24.126432",
+   "updated_at": "2023-07-11T10:14:17.533609",
+   "source": "https://www.sony.com/en_us/SCA/privacy-policy.html",
+   "title": " Terms may be changed any time at their discretion, without notice to the user "
+  },
+  {
+   "id": 18296,
+   "case_id": 399,
+   "case_title": "Your IP address is collected, which can be used to view your approximate location",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 3656,
+   "quote_text": "Sony may also automatically collect your IP address",
+   "quote_start": 3796,
+   "quote_end": 3847,
+   "created_at": "2021-04-05T20:07:08.993129",
+   "updated_at": "2023-07-11T10:14:17.621829",
+   "source": "https://www.sony.com/en_us/SCA/privacy-policy.html",
+   "title": "This service collects your IP address, which can be used to view your approximate location"
+  },
+  {
+   "id": 162162,
+   "case_id": 214,
+   "case_title": "You must provide your legal name, pseudonyms are not allowed",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 3656,
+   "quote_text": "When submitting your request, you must include your first and last name, and email address.\n",
+   "quote_start": 33257,
+   "quote_end": 33349,
+   "created_at": "2026-01-21T22:34:52.347988",
+   "updated_at": "2026-05-26T10:12:27.317700",
+   "source": "https://www.sony.com/en_us/SCA/privacy-policy.html",
+   "title": "You must provide your legal name, pseudonyms are not allowed"
+  }
+ ]
+}

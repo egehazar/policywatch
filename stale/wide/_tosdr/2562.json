@@ -1,0 +1,96 @@
+{
+ "service_id": 2562,
+ "service": "Asus",
+ "pulled_at": "2026-11-14T22:29:06Z",
+ "documents": [
+  {
+   "id": 3604,
+   "name": "Terms of Use",
+   "url": "https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Official-Site/",
+   "updated_at": "2024-11-08T11:10:13.572196"
+  },
+  {
+   "id": 3603,
+   "name": "Privacy Policy",
+   "url": "https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy/",
+   "updated_at": "2024-11-08T11:10:13.688431"
+  }
+ ],
+ "points": [
+  {
+   "id": 19203,
+   "case_id": 331,
+   "case_title": "There is a date of the last update of the agreements",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 3604,
+   "quote_text": "Updated March 04, 2015 by ASUS Legal Affairs Center ",
+   "quote_start": 16282,
+   "quote_end": 16334,
+   "created_at": "2021-04-25T14:26:55.261263",
+   "updated_at": "2023-07-11T06:35:06.627792",
+   "source": "https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Official-Site/",
+   "title": "There is a date of the last update of the agreements"
+  },
+  {
+   "id": 19200,
+   "case_id": 325,
+   "case_title": "Third-party cookies are used for statistics",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 3603,
+   "quote_text": "This data helps us analyze the performance and operation of ASUS products and services to improve performance and develop new features, functions and services, such as MIGO cookies provided by MIGO Corp., Google Tag Manager cookies and Google Analytics cookies provided by Google Inc.",
+   "quote_start": 19117,
+   "quote_end": 19401,
+   "created_at": "2021-04-25T14:17:00.028375",
+   "updated_at": "2023-07-11T10:15:11.979274",
+   "source": "https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy/",
+   "title": "Third-party cookies are used for statistics"
+  },
+  {
+   "id": 19199,
+   "case_id": 400,
+   "case_title": "This service receives your precise location through GPS coordinates",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 3603,
+   "quote_text": "<li>Your location data associated with ASUS products and services, such as your GPS signal, data identifying nearby Wi-Fi access points and cell towers, the country, city, time zone, latitude, longitude, altitude and precision of coordinates where your product is located, movement speed of your product, your country and language settings on your product.",
+   "quote_start": 5872,
+   "quote_end": 6228,
+   "created_at": "2021-04-25T14:15:31.203602",
+   "updated_at": "2023-07-11T10:15:12.065824",
+   "source": "https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy/",
+   "title": "This service receives your precise location through GPS coordinates"
+  },
+  {
+   "id": 19201,
+   "case_id": 128,
+   "case_title": "Third-party cookies are used for advertising",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 3603,
+   "quote_text": "ASUS place cookies by using advertising campaign services, such as Hubrus DSP provided by Hubrus, Google AdWords cookies and Google Double Click cookies provided by Google Inc.",
+   "quote_start": 19901,
+   "quote_end": 20077,
+   "created_at": "2021-04-25T14:18:44.295641",
+   "updated_at": "2023-07-11T10:15:12.666916",
+   "source": "https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy/",
+   "title": "Tracking via third-party cookies for other purposes without your consent."
+  },
+  {
+   "id": 34479,
+   "case_id": 399,
+   "case_title": "Your IP address is collected, which can be used to view your approximate location",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 3603,
+   "quote_text": "IP Address",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2023-07-25T22:52:57.639768",
+   "updated_at": "2023-07-27T17:40:01.989165",
+   "source": null,
+   "title": "Your IP address is collected, which can be used to view your approximate location"
+  }
+ ]
+}

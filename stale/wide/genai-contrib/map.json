@@ -1,0 +1,381 @@
+{
+ "collection": "genai-contrib",
+ "built": "2026-11-14T21:32:30Z",
+ "services_list_fetched": "2026-11-12T21:58:59Z",
+ "declared": 48,
+ "mapped": {
+  "Bolt.new": {
+   "tosdr_id": 6216,
+   "tosdr_name": "StackBlitz",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "stackblitz.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "ChatGPT": {
+   "tosdr_id": 7108,
+   "tosdr_name": "OpenAI (ChatGPT)",
+   "how": "domain",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "openai.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Business Privacy Policy",
+    "Commercial Terms",
+    "Data Processor Agreement",
+    "Developer Terms",
+    "In-App Purchases Policy",
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy",
+    "Vulnerability Disclosure Policy"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "DALL·E"
+   ]
+  },
+  "Claude.ai": {
+   "tosdr_id": 11619,
+   "tosdr_name": "Anthropic (Claude)",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "anthropic.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Commercial Terms",
+    "Data Processor Agreement",
+    "Law Enforcement Guidelines",
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy",
+    "Vulnerability Disclosure Policy"
+   ],
+   "alternatives": []
+  },
+  "Copy.AI": {
+   "tosdr_id": 7333,
+   "tosdr_name": "Copy.AI",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "copy.ai"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Cursor": {
+   "tosdr_id": 11676,
+   "tosdr_name": "Cursor",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "cursor.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "DALL·E": {
+   "tosdr_id": 7108,
+   "tosdr_name": "OpenAI (ChatGPT)",
+   "how": "domain",
+   "rating": "C",
+   "comprehensive": true,
+   "sites": [
+    "openai.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Data Processor Agreement",
+    "Developer Terms",
+    "Platform to Business Notice",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [],
+   "shared_with": [
+    "ChatGPT"
+   ]
+  },
+  "Doubao": {
+   "tosdr_id": 1704,
+   "tosdr_name": "Отзовик",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "doubao.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    1706,
+    4395,
+    10891
+   ],
+   "shared_with": [
+    "Wenxinyiyan"
+   ]
+  },
+  "GitHub Copilot": {
+   "tosdr_id": 297,
+   "tosdr_name": "GitHub",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "github.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Google Generative AI Services": {
+   "tosdr_id": 217,
+   "tosdr_name": "Google",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": true,
+   "sites": [
+    "google.com"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    2844
+   ]
+  },
+  "Grok": {
+   "tosdr_id": 11782,
+   "tosdr_name": "SpaceXAI (Grok)",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "x.ai"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Brand Guidelines",
+    "Commercial Terms",
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Le Chat": {
+   "tosdr_id": 11431,
+   "tosdr_name": "Mistral AI",
+   "how": "domain",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "mistral.ai"
+   ],
+   "types": [
+    "Commercial Terms",
+    "Data Processor Agreement",
+    "Imprint",
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Microsoft Copilot": {
+   "tosdr_id": 244,
+   "tosdr_name": "Microsoft Services",
+   "how": "domain",
+   "rating": "E",
+   "comprehensive": false,
+   "sites": [
+    "bing.com",
+    "microsoft.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    331
+   ]
+  },
+  "Midjourney": {
+   "tosdr_id": 10706,
+   "tosdr_name": "Midjourney",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "midjourney.com"
+   ],
+   "types": [
+    "Community Guidelines",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Perplexity": {
+   "tosdr_id": 8374,
+   "tosdr_name": "Perplexity AI",
+   "how": "domain",
+   "rating": "D",
+   "comprehensive": true,
+   "sites": [
+    "perplexity.ai"
+   ],
+   "types": [
+    "Acceptable Use Policy",
+    "Data Processor Agreement",
+    "Developer Terms",
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Replit": {
+   "tosdr_id": 1676,
+   "tosdr_name": "Replit",
+   "how": "name",
+   "rating": "C",
+   "comprehensive": false,
+   "sites": [
+    "replit.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Scribe": {
+   "tosdr_id": 7054,
+   "tosdr_name": "scribe",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "scribehow.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service",
+    "Trackers Policy"
+   ],
+   "alternatives": []
+  },
+  "Speechify": {
+   "tosdr_id": 4298,
+   "tosdr_name": "Speechify",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "speechify.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  },
+  "Wenxinyiyan": {
+   "tosdr_id": 1704,
+   "tosdr_name": "Отзовик",
+   "how": "name",
+   "rating": "D",
+   "comprehensive": false,
+   "sites": [
+    "baidu.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": [
+    1706,
+    4395,
+    10891
+   ],
+   "shared_with": [
+    "Doubao"
+   ]
+  },
+  "Wordtune": {
+   "tosdr_id": 9452,
+   "tosdr_name": "Wordtune",
+   "how": "name",
+   "rating": "N/A",
+   "comprehensive": false,
+   "sites": [
+    "wordtune.com"
+   ],
+   "types": [
+    "Privacy Policy",
+    "Terms of Service"
+   ],
+   "alternatives": []
+  }
+ },
+ "unmatched": [
+  "Airon",
+  "Bardeen",
+  "Berget AI",
+  "Civitai",
+  "Codeium",
+  "DeepSeek",
+  "Fireworks AI",
+  "Incredible",
+  "Intric",
+  "Jasper",
+  "Kimi AI",
+  "Liquid AI",
+  "Llama API",
+  "Lovable",
+  "Murf",
+  "Nous Research chat",
+  "OpenRouter",
+  "Pirr",
+  "Qwen Chat",
+  "Rephrase.ai",
+  "Replicate",
+  "SOUNDRAW",
+  "SambaNova",
+  "Sana",
+  "Stability AI",
+  "Tandem Health",
+  "Tempo Labs",
+  "Together AI",
+  "fal"
+ ],
+ "skipped_pga": []
+}

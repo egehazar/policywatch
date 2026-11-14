@@ -1,0 +1,20 @@
+{
+ "service_id": 7642,
+ "service": "O'Reilly",
+ "pulled_at": "2026-11-14T22:49:55Z",
+ "documents": [
+  {
+   "id": 14722,
+   "name": "Terms of service",
+   "url": "https://www.oreilly.com/terms/",
+   "updated_at": "2024-11-08T11:27:37.635213"
+  },
+  {
+   "id": 14721,
+   "name": "Privacy policy",
+   "url": "https://www.oreilly.com/privacy.html",
+   "updated_at": "2024-11-08T11:27:37.869061"
+  }
+ ],
+ "points": []
+}

@@ -1,0 +1,138 @@
+{
+ "service_id": 8585,
+ "service": "Kick",
+ "pulled_at": "2026-11-14T22:50:25Z",
+ "documents": [
+  {
+   "id": 16705,
+   "name": "DMCA policy",
+   "url": "https://kick.com/dmca-policy",
+   "updated_at": "2023-06-28T19:46:23.180805"
+  },
+  {
+   "id": 16707,
+   "name": "Terms of Service",
+   "url": "https://kick.com/terms-of-service",
+   "updated_at": "2023-06-28T19:46:23.240573"
+  },
+  {
+   "id": 16704,
+   "name": "Community Guidelines",
+   "url": "https://kick.com/community-guidelines",
+   "updated_at": "2023-06-28T19:46:23.150347"
+  },
+  {
+   "id": 16706,
+   "name": "Privacy Policy",
+   "url": "https://kick.com/privacy-policy",
+   "updated_at": "2023-09-15T20:15:48.383613"
+  }
+ ],
+ "points": [
+  {
+   "id": 34447,
+   "case_id": 223,
+   "case_title": "You can opt out of receiving promotional communications",
+   "classification": "good",
+   "status": "approved",
+   "document_id": null,
+   "quote_text": null,
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2023-07-22T13:35:43.967057",
+   "updated_at": "2023-07-23T21:31:08.326769",
+   "source": "https://kick.com/terms-of-service",
+   "title": "You can opt out of promotional communications"
+  },
+  {
+   "id": 34272,
+   "case_id": 373,
+   "case_title": "Location data may be collected, used and/or shared",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": null,
+   "quote_text": null,
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2023-07-03T10:21:15.183825",
+   "updated_at": "2023-07-14T11:31:29.400657",
+   "source": "https://kick.com/privacy-policy",
+   "title": "This service may collect, use, and share location data"
+  },
+  {
+   "id": 34442,
+   "case_id": 152,
+   "case_title": "This service is only available to users over a certain age",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": null,
+   "quote_text": null,
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2023-07-22T13:15:59.398212",
+   "updated_at": "2023-07-24T23:19:28.054409",
+   "source": "https://kick.com/terms-of-service",
+   "title": "This service is only available to users 13 years of age or older (or 16 years in Europe)"
+  },
+  {
+   "id": 34443,
+   "case_id": 486,
+   "case_title": "Minors must have the authorization of their legal guardians to use the service",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": null,
+   "quote_text": null,
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2023-07-22T13:18:02.162063",
+   "updated_at": "2023-07-23T21:31:18.234711",
+   "source": "https://kick.com/terms-of-service",
+   "title": "Minors must have the authorization of their legal guardians to use the service"
+  },
+  {
+   "id": 34444,
+   "case_id": 148,
+   "case_title": "You are responsible for maintaining the security of your account and for the activities on your account",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": null,
+   "quote_text": null,
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2023-07-22T13:23:22.096424",
+   "updated_at": "2023-07-23T21:31:21.131494",
+   "source": "https://kick.com/terms-of-service",
+   "title": "You are responsible for maintaining the security of your account and for the activities on your account"
+  },
+  {
+   "id": 34446,
+   "case_id": 484,
+   "case_title": "You must report to the service any unauthorized use of your account or any breach of security",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": null,
+   "quote_text": null,
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2023-07-22T13:32:28.397121",
+   "updated_at": "2023-07-23T21:31:23.118758",
+   "source": "https://kick.com/terms-of-service",
+   "title": "You must report to the service any unauthorized use of your account or any breach of security"
+  },
+  {
+   "id": 34448,
+   "case_id": 150,
+   "case_title": "Spidering, crawling, or accessing the site through any automated means is not allowed",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": null,
+   "quote_text": null,
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2023-07-22T13:40:52.381772",
+   "updated_at": "2023-07-23T21:31:29.721449",
+   "source": "https://kick.com/terms-of-service",
+   "title": "Crawling the site through any automated or non-automated means is not allowed"
+  }
+ ]
+}

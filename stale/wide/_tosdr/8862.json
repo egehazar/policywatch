@@ -1,0 +1,26 @@
+{
+ "service_id": 8862,
+ "service": "Sketchfab ",
+ "pulled_at": "2026-11-14T22:50:26Z",
+ "documents": [
+  {
+   "id": 17320,
+   "name": " Privacy Policy ",
+   "url": "https://sketchfab.com/privacy",
+   "updated_at": "2024-11-08T11:32:45.221233"
+  },
+  {
+   "id": 17321,
+   "name": "Terms of service ",
+   "url": "https://sketchfab.com/terms",
+   "updated_at": "2023-07-07T05:43:06.034658"
+  },
+  {
+   "id": 17322,
+   "name": "Refund policy ",
+   "url": "https://help.sketchfab.com/hc/en-us/articles/115004259123-Refund-Policy?utm_source=website&utm_campaign=footer",
+   "updated_at": "2023-07-07T05:43:06.064622"
+  }
+ ],
+ "points": []
+}

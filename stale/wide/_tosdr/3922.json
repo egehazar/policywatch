@@ -1,0 +1,14 @@
+{
+ "service_id": 3922,
+ "service": "OkCupid",
+ "pulled_at": "2026-11-14T22:43:13Z",
+ "documents": [
+  {
+   "id": 6701,
+   "name": "Privacy policy",
+   "url": "https://www.okcupid.com/legal/privacy",
+   "updated_at": "2021-06-01T13:18:32.584349"
+  }
+ ],
+ "points": []
+}

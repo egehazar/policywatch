@@ -1,0 +1,42 @@
+{
+ "service_id": 593,
+ "service": "Kraken",
+ "pulled_at": "2026-11-14T21:49:03Z",
+ "documents": [
+  {
+   "id": 4602,
+   "name": "Cookies Policy",
+   "url": "https://www.kraken.com/en-us/legal/cookies",
+   "updated_at": "2024-11-08T11:07:37.138895"
+  },
+  {
+   "id": 4604,
+   "name": "Global Terms of Service",
+   "url": "https://www.kraken.com/legal/global-terms",
+   "updated_at": "2026-10-21T23:20:55.807700"
+  },
+  {
+   "id": 4603,
+   "name": "Privacy Notice",
+   "url": "https://www.kraken.com/en/legal/privacy",
+   "updated_at": "2026-10-21T23:29:25.121137"
+  }
+ ],
+ "points": [
+  {
+   "id": 331703,
+   "case_id": 331,
+   "case_title": "There is a date of the last update of the agreements",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 4604,
+   "quote_text": "Last Updated: 19 October, 2026",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2026-10-21T23:22:38.691463",
+   "updated_at": "2026-10-29T04:30:01.632560",
+   "source": null,
+   "title": "There is a date of the last update of the agreements"
+  }
+ ]
+}

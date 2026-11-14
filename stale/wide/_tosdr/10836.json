@@ -1,0 +1,26 @@
+{
+ "service_id": 10836,
+ "service": "UsersDrive.com",
+ "pulled_at": "2026-11-14T22:52:36Z",
+ "documents": [
+  {
+   "id": 21867,
+   "name": "Privacy Policy",
+   "url": "https://usersdrive.com/pages/privacy-policy.html",
+   "updated_at": "2024-11-08T11:39:57.452996"
+  },
+  {
+   "id": 21868,
+   "name": "Copyright Claims Policy",
+   "url": "https://usersdrive.com/pages/dmca.html",
+   "updated_at": "2024-11-08T11:39:57.674115"
+  },
+  {
+   "id": 21869,
+   "name": "Terms of Service",
+   "url": "https://usersdrive.com/tos.html",
+   "updated_at": "2024-11-08T11:39:57.805978"
+  }
+ ],
+ "points": []
+}

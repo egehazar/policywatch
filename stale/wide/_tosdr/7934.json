@@ -1,0 +1,20 @@
+{
+ "service_id": 7934,
+ "service": "Olvid",
+ "pulled_at": "2026-11-14T22:49:57Z",
+ "documents": [
+  {
+   "id": 15353,
+   "name": "Terms of Service",
+   "url": "https://olvid.io/terms/en/",
+   "updated_at": "2024-11-08T11:28:53.288167"
+  },
+  {
+   "id": 15352,
+   "name": "Privacy Policy",
+   "url": "https://olvid.io/privacy/en/",
+   "updated_at": "2024-11-08T11:28:53.161805"
+  }
+ ],
+ "points": []
+}

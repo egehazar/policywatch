@@ -1,0 +1,20 @@
+{
+ "service_id": 10306,
+ "service": "ironSource ",
+ "pulled_at": "2026-11-14T22:52:15Z",
+ "documents": [
+  {
+   "id": 20591,
+   "name": "Terms of Use",
+   "url": "https://www.is.com/terms-of-use/",
+   "updated_at": "2023-12-30T02:53:42.677960"
+  },
+  {
+   "id": 20592,
+   "name": "Privacy Policy",
+   "url": "https://www.is.com/privacy-policy/",
+   "updated_at": "2024-11-08T11:37:32.080587"
+  }
+ ],
+ "points": []
+}

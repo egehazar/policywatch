@@ -1,0 +1,96 @@
+{
+ "service_id": 416,
+ "service": "Verizon Communications",
+ "pulled_at": "2026-11-14T21:26:53Z",
+ "documents": [
+  {
+   "id": 108,
+   "name": "Terms of Service",
+   "url": "https://www.verizonwireless.com/legal/notices/customer-agreement/",
+   "updated_at": "2020-12-11T15:14:15.698015"
+  },
+  {
+   "id": 107,
+   "name": "Privacy Policy",
+   "url": "http://www.verizon.com/about/privacy/full-privacy-policy",
+   "updated_at": "2024-11-08T11:05:34.214024"
+  }
+ ],
+ "points": [
+  {
+   "id": 28877,
+   "case_id": 290,
+   "case_title": "This service does not guarantee that it or the products obtained through it meet your expectations or requirements",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 108,
+   "quote_text": "DISCLAIMER OF WARRANTIES <p>\n<strong>We make no representations or warranties, express or implied, including, to the extent permitted by applicable law, any implied warranty of merchantability or fitness for a particular purpose, about your Service, your wireless device, or any applications you access through your wireless device.\nWe do not warrant that your wireless device will work perfectly or will not need occasional upgrades or modifications, or that it will not be negatively affected by network–related modifications, upgrades or similar activity.",
+   "quote_start": 30878,
+   "quote_end": 31436,
+   "created_at": "2022-10-10T03:05:30.833827",
+   "updated_at": "2023-07-11T06:27:27.936443",
+   "source": "https://www.verizonwireless.com/legal/notices/customer-agreement/",
+   "title": "This service does not guarantee that it or the products obtained through it meet your expectations or requirements"
+  },
+  {
+   "id": 204729,
+   "case_id": 280,
+   "case_title": "You agree not to use the service for illegal purposes",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 108,
+   "quote_text": "(c) use your Service for any illegal purpose, including use that violates trade and economic sanctions and prohibitions promulgated by any US governmental agency.\n",
+   "quote_start": 28818,
+   "quote_end": 28981,
+   "created_at": "2026-01-22T18:33:23.183950",
+   "updated_at": "2026-09-02T14:36:04.318923",
+   "source": "https://www.verizonwireless.com/legal/notices/customer-agreement/",
+   "title": "You agree not to use the service for illegal purposes"
+  },
+  {
+   "id": 270006,
+   "case_id": 331,
+   "case_title": "There is a date of the last update of the agreements",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 108,
+   "quote_text": "Updated June 30, 2020</p> ",
+   "quote_start": 40877,
+   "quote_end": 40903,
+   "created_at": "2026-01-23T12:21:37.762801",
+   "updated_at": "2026-09-02T14:35:09.149212",
+   "source": "https://www.verizonwireless.com/legal/notices/customer-agreement/",
+   "title": "There is a date of the last update of the agreements"
+  },
+  {
+   "id": 295919,
+   "case_id": 384,
+   "case_title": "You authorise the service to charge a credit card supplied on re-occurring basis",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 108,
+   "quote_text": "If the purchaser chooses to have the charges billed to your account, such charges will become part of the amount due for that billing cycle.<strong>",
+   "quote_start": 23476,
+   "quote_end": 23624,
+   "created_at": "2026-01-26T16:17:29.745478",
+   "updated_at": "2026-09-02T14:34:09.868383",
+   "source": "https://www.verizonwireless.com/legal/notices/customer-agreement/",
+   "title": "You authorise the service to charge a credit card supplied on re-occurring basis"
+  },
+  {
+   "id": 306543,
+   "case_id": 403,
+   "case_title": "Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 108,
+   "quote_text": "If you use your Service after the change takes effect that means you're accepting the change.\n",
+   "quote_start": 17578,
+   "quote_end": 17672,
+   "created_at": "2026-01-26T20:50:26.519601",
+   "updated_at": "2026-09-02T14:31:48.029857",
+   "source": "https://www.verizonwireless.com/legal/notices/customer-agreement/",
+   "title": "Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage."
+  }
+ ]
+}

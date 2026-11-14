@@ -1,0 +1,126 @@
+{
+ "service_id": 2686,
+ "service": "Proctorio",
+ "pulled_at": "2026-11-14T22:31:29Z",
+ "documents": [
+  {
+   "id": 3922,
+   "name": "Privacy and Cookie Policy",
+   "url": "https://proctorio.com/privacy",
+   "updated_at": "2024-11-08T11:07:25.091529"
+  },
+  {
+   "id": 3923,
+   "name": "EU General Data Protection Regulation",
+   "url": "https://proctorio.com/gdpr",
+   "updated_at": "2024-11-08T11:07:26.657041"
+  },
+  {
+   "id": 3924,
+   "name": "Family Educational Rights Protection",
+   "url": "https://proctorio.com/ferpa",
+   "updated_at": "2024-11-08T11:07:26.770106"
+  },
+  {
+   "id": 3928,
+   "name": "Terms of Service",
+   "url": "https://proctorio.com/terms",
+   "updated_at": "2024-11-08T11:07:36.327222"
+  },
+  {
+   "id": 3927,
+   "name": "Test-Taker’s Privacy",
+   "url": "https://proctorio.com/about/Privacy",
+   "updated_at": "2024-11-08T11:09:24.927648"
+  },
+  {
+   "id": 3926,
+   "name": "Data Security",
+   "url": "https://proctorio.com/about/data-security",
+   "updated_at": "2024-11-08T11:09:25.155985"
+  },
+  {
+   "id": 3925,
+   "name": "Children's Online Privacy",
+   "url": "https://proctorio.com/coppa",
+   "updated_at": "2024-11-08T11:09:24.814216"
+  }
+ ],
+ "points": [
+  {
+   "id": 15756,
+   "case_id": 146,
+   "case_title": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 3928,
+   "quote_text": "To the extent allowable by law You agree to hold harmless, indemnify, and, at Proctorio’s option, defend Proctorio from and against any losses, liabilities, costs (including reasonable attorneys’ fees) or damages resulting from: (i) Your or any Authorized End User’s negligence or willful misconduct.\n(ii) Your or any Authorized End User’s unauthorized use of the Application IP.\nor (iii) a Customer Indemnity Responsibility, provided that You will not settle any third-party claim against Proctorio without Proctorio’s consent.</p>",
+   "quote_start": 17483,
+   "quote_end": 18015,
+   "created_at": "2021-02-05T05:34:07.419803",
+   "updated_at": "2023-07-11T10:12:59.053346",
+   "source": "https://proctorio.com/terms",
+   "title": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service"
+  },
+  {
+   "id": 15758,
+   "case_id": 243,
+   "case_title": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 3922,
+   "quote_text": "If Proctorio is involved in a bankruptcy, merger, acquisition, reorganization or sale of assets, your information may be sold or transferred as part of that transaction.",
+   "quote_start": 17195,
+   "quote_end": 17364,
+   "created_at": "2021-02-05T05:39:58.817127",
+   "updated_at": "2023-07-11T10:12:59.159022",
+   "source": "https://proctorio.com/privacy",
+   "title": "The service can sell or otherwise transfer your personal data as part of a bankruptcy proceeding or other type of financial transaction."
+  },
+  {
+   "id": 15759,
+   "case_id": 321,
+   "case_title": "Promises will be kept after a merger or acquisition",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 3922,
+   "quote_text": "The promises in this Privacy Policy will apply to your information as transferred to the new entity.</p>\n",
+   "quote_start": 17365,
+   "quote_end": 17470,
+   "created_at": "2021-02-05T05:40:33.661816",
+   "updated_at": "2023-07-11T10:12:59.248750",
+   "source": "https://proctorio.com/privacy",
+   "title": "Promises will be kept after a merger or acquisition"
+  },
+  {
+   "id": 15757,
+   "case_id": 182,
+   "case_title": "If you offer suggestions to the service, they become the owner of the ideas that you give them",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 3928,
+   "quote_text": "Proctorio shall exclusively own all communications, comments, questions, suggestions, or related materials which are transmitted to Proctorio, by any means, suggesting or recommending changes to the Application IP, including, new features or functionality (collectively, \"<b>Feedback</b>\").\nYou hereby assign all right, title, and interest in, to, and under the Feedback and agree to provide us assistance to document, perfect, and maintain our rights in the Feedback.\nWe may use, without any restrictions, attribution, or compensation to You, any ideas, know-how, concepts, techniques, and all applicable intellectual property rights relating to the Feedback, whether or not patentable, for any purpose whatsoever.\nYou agree and understand that we are not obligated to use, display, reproduce, or distribute anything in the Feedback.</p>",
+   "quote_start": 9358,
+   "quote_end": 10196,
+   "created_at": "2021-02-05T05:37:29.485396",
+   "updated_at": "2023-07-11T10:13:00.190686",
+   "source": "https://proctorio.com/terms",
+   "title": "If you offer suggestions to the service, they become the owner of the ideas that you give them"
+  },
+  {
+   "id": 255097,
+   "case_id": 310,
+   "case_title": "If you are the target of a copyright claim, your content and/or your account may be removed",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 3928,
+   "quote_text": "We reserve the right to remove Content alleged to be infringing without prior notice, at our sole discretion, and without liability to You.\n",
+   "quote_start": 13603,
+   "quote_end": 13743,
+   "created_at": "2026-01-23T07:56:41.305467",
+   "updated_at": "2026-07-29T20:58:40.544738",
+   "source": "https://proctorio.com/terms",
+   "title": "If you are the target of a copyright claim, your content may be removed"
+  }
+ ]
+}

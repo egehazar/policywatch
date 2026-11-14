@@ -1,0 +1,162 @@
+{
+ "service_id": 1704,
+ "service": "Отзовик",
+ "pulled_at": "2026-11-14T22:53:41Z",
+ "documents": [
+  {
+   "id": 1632,
+   "name": "Правила сообщества «Отзовик»",
+   "url": "https://otzovik.com/termofuse.php",
+   "updated_at": "2020-12-14T19:34:32.119115"
+  },
+  {
+   "id": 1634,
+   "name": "Пользовательское соглашение",
+   "url": "https://otzovik.com/term.php",
+   "updated_at": "2020-12-14T19:36:22.870700"
+  },
+  {
+   "id": 13166,
+   "name": "Политика конфиденциальности ",
+   "url": "https://otzovik.com/policy.php",
+   "updated_at": "2024-11-08T11:23:47.873615"
+  }
+ ],
+ "points": [
+  {
+   "id": 7358,
+   "case_id": 314,
+   "case_title": "You are prohibited from posting content which promotes violence or politically or religiously extremist values",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": null,
+   "quote_text": null,
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2019-07-14T03:42:01.487969",
+   "updated_at": "2020-12-15T09:03:15.910074",
+   "source": "https://otzovik.com/term.php",
+   "title": "Запрещает публикацию призывов к насилию и пропаганды дискриминации людей по различным признакам"
+  },
+  {
+   "id": 7357,
+   "case_id": 283,
+   "case_title": "You agree not to submit libelous, harassing or threatening content",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": null,
+   "quote_text": null,
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2019-07-14T03:40:47.733107",
+   "updated_at": "2020-12-15T09:03:00.024497",
+   "source": "https://otzovik.com/term.php",
+   "title": "Пользователь соглашается не публиковать порочащие сведения"
+  },
+  {
+   "id": 7354,
+   "case_id": 377,
+   "case_title": "Your content can be deleted if you violate the terms",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": null,
+   "quote_text": null,
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2019-07-14T03:31:01.166048",
+   "updated_at": "2020-12-15T09:02:43.259941",
+   "source": "https://otzovik.com/term.php",
+   "title": "Сервис может удалить/заблокировать учётную запись за несоблюдение условий"
+  },
+  {
+   "id": 7359,
+   "case_id": 130,
+   "case_title": "A license is kept on user-generated content even after you close your account",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": null,
+   "quote_text": null,
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2019-07-14T03:49:32.752256",
+   "updated_at": "2019-08-25T19:27:29.557525",
+   "source": "https://otzovik.com/term.php",
+   "title": "Сервис получает права на отзывы и комментарии на весь срок действия исключительного права"
+  },
+  {
+   "id": 7353,
+   "case_id": 324,
+   "case_title": "Alternative accounts are not allowed",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": null,
+   "quote_text": null,
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2019-07-14T03:27:51.119403",
+   "updated_at": "2020-12-15T09:02:34.061602",
+   "source": "https://otzovik.com/term.php",
+   "title": "Запрещено иметь больше одной учётной записи"
+  },
+  {
+   "id": 7356,
+   "case_id": 237,
+   "case_title": "You agree to comply with the law of the service's country",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": null,
+   "quote_text": null,
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2019-07-14T03:37:18.434519",
+   "updated_at": "2019-08-24T03:30:56.291722",
+   "source": "https://otzovik.com/term.php",
+   "title": "Пользователь соглашается соблюдать законодательство страны сервиса"
+  },
+  {
+   "id": 7352,
+   "case_id": 121,
+   "case_title": " Terms may be changed any time at their discretion, without notice to you ",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": null,
+   "quote_text": null,
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2019-07-14T03:21:20.209150",
+   "updated_at": "2020-12-15T09:02:24.280564",
+   "source": "https://otzovik.com/term.php",
+   "title": "Пользовательское соглашение может быть изменено без уведомления в любое время в одностороннем порядке"
+  },
+  {
+   "id": 7360,
+   "case_id": 281,
+   "case_title": "You are prohibited from sending chain letters, junk mail, spam or any unsolicited messages",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": null,
+   "quote_text": null,
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2019-07-14T04:14:15.196137",
+   "updated_at": "2020-12-15T09:03:28.427168",
+   "source": "https://otzovik.com/term.php",
+   "title": "Запрещено осуществлять массовые рассылки сообщений другим пользователям."
+  },
+  {
+   "id": 7355,
+   "case_id": 148,
+   "case_title": "You are responsible for maintaining the security of your account and for the activities on your account",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": null,
+   "quote_text": null,
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2019-07-14T03:34:28.495760",
+   "updated_at": "2019-09-25T04:45:19.749500",
+   "source": "https://otzovik.com/term.php",
+   "title": "Вы несёте ответственность за сохранность логина и пароля, и действия от Вашего имени, если не уведомите о компрометации"
+  }
+ ]
+}

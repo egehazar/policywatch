@@ -1,0 +1,75 @@
+{
+ "service_id": 4960,
+ "service": "NOYB",
+ "pulled_at": "2026-11-14T22:47:42Z",
+ "documents": [
+  {
+   "id": 8910,
+   "name": "Legal & Privacy ",
+   "url": "https://noyb.eu/en/legal",
+   "updated_at": "2024-11-08T11:16:07.234058"
+  }
+ ],
+ "points": [
+  {
+   "id": 300627,
+   "case_id": 399,
+   "case_title": "Your IP address is collected, which can be used to view your approximate location",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 8910,
+   "quote_text": "If you join as a member we store your IP address for reasons of fraud prevention.\n",
+   "quote_start": 2865,
+   "quote_end": 2947,
+   "created_at": "2026-01-26T18:24:09.240832",
+   "updated_at": "2026-06-18T15:05:07.140043",
+   "source": "https://noyb.eu/en/legal",
+   "title": "Your IP address is collected, which can be used to view your approximate location"
+  },
+  {
+   "id": 133513,
+   "case_id": 195,
+   "case_title": "You can request access, correction and/or deletion of your data",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 8910,
+   "quote_text": "It’s simple:</strong> Just send us a message at info@noyb.eu and we’ll take care of things!<br>\n<strong>More Details:</strong> You have the right to access, to rectify, to erasure, to object, to restrict processing, to data portability, to withdraw your consent and to launch a complaint with your local data protection authority.\n",
+   "quote_start": 7381,
+   "quote_end": 7712,
+   "created_at": "2026-01-21T10:43:12.494447",
+   "updated_at": "2026-06-18T15:05:31.054111",
+   "source": "https://noyb.eu/en/legal",
+   "title": "You can request access, correction and/or deletion of your data"
+  },
+  {
+   "id": 325576,
+   "case_id": 207,
+   "case_title": "Third parties are involved in operating the service",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 8910,
+   "quote_text": "Processors:</strong> We only use trustworthy processors that only process your personal data on our behalf (“processors”) – our current hosting provider is Hetzner.",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2026-06-18T15:06:55.133785",
+   "updated_at": "2026-06-23T02:31:39.377046",
+   "source": null,
+   "title": "Third parties are involved in operating the service"
+  },
+  {
+   "id": 325575,
+   "case_id": 218,
+   "case_title": "You are not being tracked",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 8910,
+   "quote_text": "</strong> We do not use cookies on noyb.eu.",
+   "quote_start": null,
+   "quote_end": null,
+   "created_at": "2026-06-18T15:04:45.531349",
+   "updated_at": "2026-06-18T18:58:10.995885",
+   "source": null,
+   "title": "You are not being tracked"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "service_id": 10360,
+ "service": "Bolt",
+ "pulled_at": "2026-11-14T22:52:16Z",
+ "documents": [
+  {
+   "id": 20739,
+   "name": "Delivery  Terms and Conditions",
+   "url": "https://bolt.eu/en/legal/?category=delivery",
+   "updated_at": "2024-11-08T11:37:47.223665"
+  },
+  {
+   "id": 20736,
+   "name": "Rides  Terms and Conditions",
+   "url": "https://bolt.eu/en/legal/?category=rides",
+   "updated_at": "2024-11-08T11:37:38.754226"
+  },
+  {
+   "id": 20734,
+   "name": "Privacy Policy ",
+   "url": "https://bolt.eu/en/legal/privacy-for-riders/",
+   "updated_at": "2024-11-08T11:37:46.695633"
+  },
+  {
+   "id": 20735,
+   "name": "Cookie Declaration",
+   "url": "https://bolt.eu/en/cookie-declaration/",
+   "updated_at": "2024-11-08T11:37:46.831646"
+  },
+  {
+   "id": 20737,
+   "name": "Micromobility  Terms and Conditions",
+   "url": "https://bolt.eu/en/legal/?category=micromobility",
+   "updated_at": "2024-11-08T11:37:46.951958"
+  },
+  {
+   "id": 20738,
+   "name": "Bolt Drive  Terms and Conditions",
+   "url": "https://bolt.eu/en/legal/?category=boltDrive",
+   "updated_at": "2024-11-08T11:37:47.086508"
+  }
+ ],
+ "points": []
+}

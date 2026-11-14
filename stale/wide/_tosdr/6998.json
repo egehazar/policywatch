@@ -1,0 +1,44 @@
+{
+ "service_id": 6998,
+ "service": "Taboola",
+ "pulled_at": "2026-11-14T22:49:16Z",
+ "documents": [
+  {
+   "id": 12821,
+   "name": "TERMS OF USE",
+   "url": "https://www.taboola.com/policies/terms-of-use",
+   "updated_at": "2024-11-08T11:23:07.923528"
+  },
+  {
+   "id": 12826,
+   "name": "PRIVACY POLICY",
+   "url": "https://www.taboola.com/policies/privacy-policy",
+   "updated_at": "2024-11-08T11:23:08.162733"
+  },
+  {
+   "id": 12822,
+   "name": "TERMS OF SERVICE",
+   "url": "https://www.taboola.com/policies/platform-terms-of-service",
+   "updated_at": "2024-11-08T11:23:08.403785"
+  },
+  {
+   "id": 12825,
+   "name": "COOKIE POLICY",
+   "url": "https://www.taboola.com/policies/cookie-policy",
+   "updated_at": "2024-11-08T11:23:08.519148"
+  },
+  {
+   "id": 12824,
+   "name": "Vulnerability Disclosure Policy",
+   "url": "https://www.taboola.com/policies/vulnerability-disclosure-policy",
+   "updated_at": "2024-11-08T11:23:08.633421"
+  },
+  {
+   "id": 12823,
+   "name": "TERMS AND CONDITIONS FOR UNITED STATES",
+   "url": "https://www.taboola.com/policies/terms-and-conditions/united-states",
+   "updated_at": "2024-11-08T11:23:08.282937"
+  }
+ ],
+ "points": []
+}

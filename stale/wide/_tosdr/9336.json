@@ -1,0 +1,20 @@
+{
+ "service_id": 9336,
+ "service": "Aetna Inc",
+ "pulled_at": "2026-11-14T22:51:41Z",
+ "documents": [
+  {
+   "id": 18317,
+   "name": "Web and mobile terms of use",
+   "url": "https://www.aetna.com/legal-notices/disclaimer.html",
+   "updated_at": "2024-11-08T11:24:55.870655"
+  },
+  {
+   "id": 18316,
+   "name": "Medical, Dental, Pharmacy, Managed Behavioral Health and Vision plans Notice of Privacy Practices",
+   "url": "http://www.aetna.com/legal-notices/documents/health-notice-of-privacy-practices.pdf",
+   "updated_at": "2024-11-08T11:26:15.069827"
+  }
+ ],
+ "points": []
+}

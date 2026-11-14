@@ -1,0 +1,26 @@
+{
+ "service_id": 8940,
+ "service": "Deliveroo",
+ "pulled_at": "2026-11-14T22:50:27Z",
+ "documents": [
+  {
+   "id": 17487,
+   "name": "Privacy policy",
+   "url": "https://deliveroo.nl/en/privacy",
+   "updated_at": "2024-11-08T11:33:10.819527"
+  },
+  {
+   "id": 17488,
+   "name": "Cookies Policy",
+   "url": "https://deliveroo.nl/en/cookies",
+   "updated_at": "2024-11-08T11:33:11.702309"
+  },
+  {
+   "id": 17489,
+   "name": "Terms of Service",
+   "url": "https://deliveroo.nl/en/legal",
+   "updated_at": "2024-11-08T11:33:11.826841"
+  }
+ ],
+ "points": []
+}

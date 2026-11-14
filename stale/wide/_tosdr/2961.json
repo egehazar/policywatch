@@ -1,0 +1,57 @@
+{
+ "service_id": 2961,
+ "service": "Mix",
+ "pulled_at": "2026-11-14T22:35:05Z",
+ "documents": [
+  {
+   "id": 4673,
+   "name": "Privacy ",
+   "url": "https://mix.com/privacy",
+   "updated_at": "2021-04-04T16:28:45.979949"
+  },
+  {
+   "id": 13350,
+   "name": "Username Policy",
+   "url": "https://mix.com/about/usernames",
+   "updated_at": "2024-11-08T11:24:04.900609"
+  },
+  {
+   "id": 13351,
+   "name": "Terms of Service",
+   "url": "https://mix.com/tos",
+   "updated_at": "2024-11-08T11:24:08.210062"
+  }
+ ],
+ "points": [
+  {
+   "id": 107368,
+   "case_id": 320,
+   "case_title": "No need to register",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 4673,
+   "quote_text": "Your Account<p>You may choose to create a Mix account or you may use the Services without creating an account.\n",
+   "quote_start": 4102,
+   "quote_end": 4213,
+   "created_at": "2025-05-01T22:57:30.725267",
+   "updated_at": "2026-08-16T22:08:43.890266",
+   "source": "https://mix.com/privacy",
+   "title": "No need to register"
+  },
+  {
+   "id": 292756,
+   "case_id": 202,
+   "case_title": "Specific content can be deleted without reason and may be removed without prior notice",
+   "classification": "blocker",
+   "status": "approved",
+   "document_id": 13350,
+   "quote_text": "Mix reserves the right to reject any content that we deem contrary to our philosophy.\n",
+   "quote_start": 2935,
+   "quote_end": 3021,
+   "created_at": "2026-01-26T14:23:14.450297",
+   "updated_at": "2026-06-17T15:33:36.907373",
+   "source": "https://mix.com/about/usernames",
+   "title": "Specific content can be deleted without reason and may be removed without prior notice"
+  }
+ ]
+}

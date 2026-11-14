@@ -1,0 +1,20 @@
+{
+ "service_id": 9452,
+ "service": "Wordtune",
+ "pulled_at": "2026-11-14T22:56:20Z",
+ "documents": [
+  {
+   "id": 18629,
+   "name": "Wordtune Privacy Policy",
+   "url": "https://www.wordtune.com/privacy-policy",
+   "updated_at": "2023-09-01T04:23:59.390287"
+  },
+  {
+   "id": 18630,
+   "name": "Terms of Use",
+   "url": "https://www.wordtune.com/terms-of-use",
+   "updated_at": "2024-11-08T11:34:00.535100"
+  }
+ ],
+ "points": []
+}

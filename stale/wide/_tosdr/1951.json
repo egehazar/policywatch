@@ -1,0 +1,147 @@
+{
+ "service_id": 1951,
+ "service": "YouTube Kids",
+ "pulled_at": "2026-11-14T22:20:58Z",
+ "documents": [
+  {
+   "id": 2068,
+   "name": "Privacy Notice",
+   "url": "https://kids.youtube.com/t/privacynotice",
+   "updated_at": "2020-12-14T23:11:48.267964"
+  },
+  {
+   "id": 2070,
+   "name": "Parental Guide",
+   "url": "https://support.google.com/youtubekids/#topic=6130504",
+   "updated_at": "2020-12-14T23:13:58.664564"
+  },
+  {
+   "id": 2069,
+   "name": "Notice for Children",
+   "url": "https://kids.youtube.com/t/noticeforchildren",
+   "updated_at": "2020-12-14T23:13:53.182378"
+  }
+ ],
+ "points": [
+  {
+   "id": 8239,
+   "case_id": 296,
+   "case_title": "Your information is only shared with third parties when given specific consent",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 2068,
+   "quote_text": "With consent</b>\n</li>\n<li>We may share individual user information with companies, organizations or individuals outside of Google when we have parental consent",
+   "quote_start": 5316,
+   "quote_end": 5476,
+   "created_at": "2019-11-03T05:36:50.723045",
+   "updated_at": "2023-07-11T10:04:36.055928",
+   "source": "https://kids.youtube.com/t/privacynotice",
+   "title": "This service only shares user information with third parties when given specific consent"
+  },
+  {
+   "id": 8236,
+   "case_id": 331,
+   "case_title": "There is a date of the last update of the agreements",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 2068,
+   "quote_text": "Dated: August 7, 2019",
+   "quote_start": 9584,
+   "quote_end": 9605,
+   "created_at": "2019-11-03T05:24:09.825028",
+   "updated_at": "2023-07-11T10:04:37.070332",
+   "source": "https://kids.youtube.com/t/privacynotice",
+   "title": "There is a date of the last update of the terms"
+  },
+  {
+   "id": 8241,
+   "case_id": 376,
+   "case_title": "Many different types of personal data are collected",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 2068,
+   "quote_text": "This information includes:</p>\n<ul>\n<li>device type and settings, such as hardware model and operating system version;</li>\n<li>log information, including details of how our service is used, device event information, and the device's Internet protocol (IP) address;</li>\n<li>unique application numbers, such as application version number.\nand</li>\n<li>unique identifiers, which are used to collect and store information about an app or device, such as preferred language, app activity, and other settings",
+   "quote_start": 823,
+   "quote_end": 1327,
+   "created_at": "2019-11-03T05:42:26.093465",
+   "updated_at": "2023-07-11T10:07:43.598945",
+   "source": "https://kids.youtube.com/t/privacynotice",
+   "title": "The service collects many different types of personal data"
+  },
+  {
+   "id": 17348,
+   "case_id": 395,
+   "case_title": "Your browsing history can be viewed by the service",
+   "classification": "blocker",
+   "status": "approved",
+   "document_id": 2068,
+   "quote_text": "App activity.</b> This information includes the videos your child watches, their search terms, and other interactions with content and ads in the app.",
+   "quote_start": 1464,
+   "quote_end": 1614,
+   "created_at": "2021-03-15T15:39:20.413183",
+   "updated_at": "2023-07-11T10:13:28.214049",
+   "source": "https://kids.youtube.com/t/privacynotice",
+   "title": "This service can view your browser history"
+  },
+  {
+   "id": 17349,
+   "case_id": 188,
+   "case_title": "This service gives your personal data to third parties involved in its operation",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 2068,
+   "quote_text": "\n<li>We may provide individual user information to our affiliates or other trusted businesses or persons to process it for us, based on our instructions and in compliance with our Privacy Policy and any other appropriate confidentiality and security measures.</li>",
+   "quote_start": 6216,
+   "quote_end": 6480,
+   "created_at": "2021-03-15T15:40:46.434647",
+   "updated_at": "2023-07-11T10:13:28.841574",
+   "source": "https://kids.youtube.com/t/privacynotice",
+   "title": "This service gives your personal data to third parties involved in its operation"
+  },
+  {
+   "id": 17350,
+   "case_id": 190,
+   "case_title": "Your personal data may be aggregated into statistics",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 2068,
+   "quote_text": "\n<p>We may share aggregate information about the use of the app with third parties to, for example, show trends about the use of the app or meet our reporting obligations with partners.</p>",
+   "quote_start": 6486,
+   "quote_end": 6675,
+   "created_at": "2021-03-15T15:40:47.775585",
+   "updated_at": "2023-07-11T10:06:44.372496",
+   "source": "https://kids.youtube.com/t/privacynotice",
+   "title": "Your personal data is aggregated into statistics"
+  },
+  {
+   "id": 17352,
+   "case_id": 397,
+   "case_title": "Your biometric data is collected",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 2069,
+   "quote_text": "When you are signed into YouTube Kids with your Google account, the information we collect, including your search and watch history and recordings of your voice searches, may be stored with your Google account and used to improve your Google experience.",
+   "quote_start": 2834,
+   "quote_end": 3087,
+   "created_at": "2021-03-15T15:43:34.462174",
+   "updated_at": "2023-07-11T10:06:41.989972",
+   "source": "https://kids.youtube.com/t/noticeforchildren",
+   "title": "Your biometric data is collected"
+  },
+  {
+   "id": 8238,
+   "case_id": 167,
+   "case_title": "Third parties are not allowed to access your personal information without a legal basis",
+   "classification": "good",
+   "status": "approved",
+   "document_id": 2068,
+   "quote_text": "We will share individual user information with companies, organizations or individuals outside of Google if we have a good-faith belief that access, use, preservation or disclosure of the information is reasonably necessary to:</li>\n<ul>\n<li>meet any applicable law, regulation, legal process or enforceable governmental request.</li>\n<li>enforce applicable Terms of Service, including investigation of potential violations.</li>\n<li>detect, prevent, or otherwise address fraud, security or technical issues.</li>\n<li>protect against harm to the rights, property or safety of Google, our users or the public as required or permitted by law",
+   "quote_start": 5523,
+   "quote_end": 6162,
+   "created_at": "2019-11-03T05:32:02.975645",
+   "updated_at": "2023-07-11T10:08:27.222919",
+   "source": "https://kids.youtube.com/t/privacynotice",
+   "title": "The service will not allow third parties to access your personal information without a legal basis"
+  }
+ ]
+}

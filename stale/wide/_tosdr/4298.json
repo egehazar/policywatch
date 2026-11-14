@@ -1,0 +1,14 @@
+{
+ "service_id": 4298,
+ "service": "Speechify",
+ "pulled_at": "2026-11-14T22:53:42Z",
+ "documents": [
+  {
+   "id": 7564,
+   "name": "Privacy Policy",
+   "url": "https://speechify.com/privacy?",
+   "updated_at": "2021-06-30T18:04:41.877558"
+  }
+ ],
+ "points": []
+}

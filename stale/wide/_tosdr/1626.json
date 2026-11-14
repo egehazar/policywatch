@@ -1,0 +1,78 @@
+{
+ "service_id": 1626,
+ "service": "Lydia",
+ "pulled_at": "2026-11-14T22:17:44Z",
+ "documents": [
+  {
+   "id": 1492,
+   "name": "Privacy Policy",
+   "url": "https://yourlifeyourdata.com/privacy-policy",
+   "updated_at": "2020-12-14T22:44:29.554199"
+  },
+  {
+   "id": 1493,
+   "name": "Code of Conduct",
+   "url": "https://yourlifeyourdata.com/code-of-conduct",
+   "updated_at": "2020-12-14T22:44:36.174672"
+  },
+  {
+   "id": 1494,
+   "name": "End User License Agreement",
+   "url": "https://yourlifeyourdata.com/lydia-end-user-license-agreement",
+   "updated_at": "2020-12-14T22:44:46.914522"
+  },
+  {
+   "id": 1495,
+   "name": "Privacy Shield Agreement",
+   "url": "https://yourlifeyourdata.com/privacy-shield",
+   "updated_at": "2020-12-14T22:44:59.335575"
+  }
+ ],
+ "points": [
+  {
+   "id": 7020,
+   "case_id": 325,
+   "case_title": "Third-party cookies are used for statistics",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 1492,
+   "quote_text": "We also use Google Analytics to help us understand how our customers use the Site — you can read more about how Google uses your Personal Information here:&nbsp;https://www.google.com/intl/en/policies/privacy/.\nYou can also opt-out of Google Analytics here:&nbsp;https://tools.google.com/dlpage/gaoptout.",
+   "quote_start": 10514,
+   "quote_end": 10818,
+   "created_at": "2019-06-14T21:41:07.454788",
+   "updated_at": "2023-07-11T10:02:53.481023",
+   "source": "https://yourlifeyourdata.com/privacy-policy",
+   "title": "This service uses third-party cookies for statistics"
+  },
+  {
+   "id": 7019,
+   "case_id": 121,
+   "case_title": " Terms may be changed any time at their discretion, without notice to you ",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 1492,
+   "quote_text": "We may update this Privacy Policy from time to time.\nWhen we do, we will revise the “last updated” date at the top of the privacy statement.\nYou will be responsible to review this privacy policy to ensure prior to using the Service each time.\nBy using the Service, you consent to the most recent version of this Privacy Policy.\nYour continued use of the Service constitutes your agreement and consent to this privacy policy and any updates.",
+   "quote_start": 21029,
+   "quote_end": 21469,
+   "created_at": "2019-06-14T21:37:43.547914",
+   "updated_at": "2023-07-11T10:03:06.496121",
+   "source": "https://yourlifeyourdata.com/privacy-policy",
+   "title": " Terms may be changed any time at their discretion, without notice to the user "
+  },
+  {
+   "id": 37608,
+   "case_id": 117,
+   "case_title": "You waive your right to a class action",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 1494,
+   "quote_text": "Waiver of Jury Trial.&nbsp;Each party hereby waives any right to jury trial in connection with any action or litigation in any way arising out of or related to this Agreement.</li>\n</ol>\n</li>\n</ol>\n</li>\n</ol>\n<p>&nbsp;</p>\n",
+   "quote_start": 34273,
+   "quote_end": 34498,
+   "created_at": "2024-12-01T20:31:28.217138",
+   "updated_at": "2026-09-12T20:59:58.207913",
+   "source": "https://yourlifeyourdata.com/lydia-end-user-license-agreement",
+   "title": "You waive your right to a class action."
+  }
+ ]
+}

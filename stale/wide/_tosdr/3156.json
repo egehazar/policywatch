@@ -1,0 +1,60 @@
+{
+ "service_id": 3156,
+ "service": "Savetz Publishing",
+ "pulled_at": "2026-11-14T22:35:08Z",
+ "documents": [
+  {
+   "id": 5104,
+   "name": "Privacy Policy",
+   "url": "https://www.savetzpublishing.com/privacy_policy.php",
+   "updated_at": "2021-04-16T19:55:27.745641"
+  }
+ ],
+ "points": [
+  {
+   "id": 27257,
+   "case_id": 207,
+   "case_title": "Third parties are involved in operating the service",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 5104,
+   "quote_text": "We use third-party advertising companies to serve ads when you visit our website.\n",
+   "quote_start": 2133,
+   "quote_end": 2215,
+   "created_at": "2022-03-12T19:14:36.414197",
+   "updated_at": "2023-07-11T06:24:22.229803",
+   "source": "https://www.savetzpublishing.com/privacy_policy.php",
+   "title": "Third parties are involved in operating the service"
+  },
+  {
+   "id": 27258,
+   "case_id": 299,
+   "case_title": "This service informs you that its Privacy Policy does not apply to third-party services",
+   "classification": "neutral",
+   "status": "approved",
+   "document_id": 5104,
+   "quote_text": "Savetz Publishing cannot be responsible for the privacy practices of other organizations or the content of external web sites.\n</p>\n<p>\n",
+   "quote_start": 3565,
+   "quote_end": 3701,
+   "created_at": "2022-03-12T19:15:15.112322",
+   "updated_at": "2023-07-11T06:24:22.309829",
+   "source": "https://www.savetzpublishing.com/privacy_policy.php",
+   "title": "The service informs you that its privacy policy does not apply to third party websites"
+  },
+  {
+   "id": 27259,
+   "case_id": 128,
+   "case_title": "Third-party cookies are used for advertising",
+   "classification": "bad",
+   "status": "approved",
+   "document_id": 5104,
+   "quote_text": "Google is one of these third-party vendors, and uses cookies to serve ads on Savetz Publishing web sites.\n",
+   "quote_start": 2647,
+   "quote_end": 2753,
+   "created_at": "2022-03-12T19:17:16.777350",
+   "updated_at": "2023-07-11T06:24:22.391848",
+   "source": "https://www.savetzpublishing.com/privacy_policy.php",
+   "title": "Third-party cookies are used for advertising"
+  }
+ ]
+}

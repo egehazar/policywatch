@@ -1,0 +1,14 @@
+{
+ "service_id": 4557,
+ "service": "Cdiscount",
+ "pulled_at": "2026-11-14T22:46:21Z",
+ "documents": [
+  {
+   "id": 8046,
+   "name": "Privacy Policy (French)",
+   "url": "https://www.cdiscount.com/vie-privee-et-cookies.html?forceDesktop=true",
+   "updated_at": "2024-11-08T11:14:25.021507"
+  }
+ ],
+ "points": []
+}
