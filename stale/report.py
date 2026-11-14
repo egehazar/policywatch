@@ -25,10 +25,14 @@ def suggestion(s, arm, prop=None):
     """prop: Kev's proposed quote from its top passage (stale/propose.py), shown only with the kev arm."""
     if not s: return ''
     def body(k, t):
-        txt = esc(t['text'][:900])
-        if prop and k == 1 and esc(prop['quote']) in txt: txt = txt.replace(esc(prop['quote']), f'<ins>{esc(prop["quote"])}</ins>', 1)
+        n, txt = 900, None                                    # passage 1 is shown at least up to the end of the quote
+        m = prop and k == 1 and re.search(r'\s+'.join(map(re.escape, prop['quote'].split())), t['text'])   # units join lines
+        if m:
+            n = max(n, m.end()); x = t['text']
+            txt = f'{esc(x[:m.start()])}<ins>{esc(x[m.start():m.end()])}</ins>{esc(x[m.end():n])}'
+        txt = txt or esc(t['text'][:n])
         return (f'<div class="diff"><span class="ctx">{k}. passage {t["piece"] + 1} of {s["n_pieces"]} (score {t["score"]:.3g}):</span>\n'
-                f'{txt}{"…" if len(t["text"]) > 900 else ""}</div>')
+                f'{txt}{"…" if len(t["text"]) > n else ""}</div>')
     tops = ''.join(body(k, t) for k, t in enumerate(s['top'], 1))
     pq = (f'<p class="sm"><i>Suggested quote</i> (the decision model&rsquo;s pick from passage {prop["piece"] + 1}; when the passage '
           f'was right, this pick matched the curator&rsquo;s own quote 83% of the time in testing; check it before use): '
