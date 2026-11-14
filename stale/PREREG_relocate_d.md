@@ -1,6 +1,6 @@
 # Pre-registration, part D: relocation on Open Terms Archive's contrib collection, and the reranker-first cascade
 
-Written 2026-11-14 ~21:20 UTC, after parts A and B (`stale/RESULT_relocate2.md`) and before any model has scored a
+Written 2026-11-14 ~20:50 UTC, after parts A and B (`stale/RESULT_relocate2.md`) and before any model has scored a
 contrib point. The population is drawn by code fixed here, after the ToS;DR pull for the contrib services finishes.
 
 ## Why
