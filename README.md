@@ -143,6 +143,16 @@ anything.
   incrementally (one request per platform, plus one per new or edited point) and lists what changed since the last run:
   new drops, new points, recovered quotes. Output goes to `stale/live/` (`digest.html`, one JSON per run). The
   snapshot above is never rewritten.
+- **Beyond the 20 platforms (`stale/wide.py`, 2026-11-14).** The same string matching over four more Open Terms
+  Archive collections, mapped to 212 ToS;DR services by name or web domain. Folders holding the 20 platforms' own
+  documents are left out.
+  - contrib: 4,447 approved points with a quote on 196 services, 2,494 still in the current text.
+  - 521 quotes dropped in an edit by the platform itself, in 65 services. The largest are Netflix 48, Crunchyroll
+    43, NordVPN 41, W3Schools 39, Yahoo 39. genai-contrib adds 20 and dating 3.
+  - For 507 of the 521, ToS;DR's stored copy still holds the quote (re-crawl pending); for 14 it does not.
+  - Older captures fail in ways the archive files as edits: a page collapsed to a title, a login wall saved under
+    two documents. 74 such drops are set aside as broken captures, not listed.
+  - `stale/wide_daily.py` is the daily watch for these collections (built, not scheduled).
 - **Where the decision model would come in: relocation.** When a quote is gone, a curator has to find the passage that
   now states the case, or decline the point. A pre-registered test (`stale/PREREG_relocate.md`, hashed before any
   arm was scored) asks whether Kev-4B finds the curator's own quoted passage among a document's 1,500-character pieces
