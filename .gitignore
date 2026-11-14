@@ -8,3 +8,4 @@ bench/qwen.pid
 stale/live/
 stale/wide/*/data/
 stale/wide/*/raw/
+stale/wide/live/
