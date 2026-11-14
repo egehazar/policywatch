@@ -22,6 +22,24 @@ ARMS = {'bm25': 'word match on the case title (BM25)', 'bge': 'embedding similar
         'kev': 'decision model (Kev-4B), p(yes) for the case question'}
 
 
+def label_adopted():
+    """Part D addendum 1: the clear / close label is shown only once its held-out rule said LABEL ADOPTED."""
+    p = os.path.join(HERE, 'out', 'contrib_margin.json')
+    return os.path.exists(p) and json.load(open(p, encoding='utf-8')).get('D', {}).get('reading') == 'LABEL ADOPTED'
+
+
+CLEAR = .30      # stale/reloc_margin.py
+
+
+def confidence(s, arm):
+    if arm != 'kev' or len(s.get('top') or []) < 2 or not label_adopted(): return ''
+    m = s['top'][0]['score'] - s['top'][1]['score']
+    if m >= CLEAR:
+        return ('<p class="sm"><b>Clear:</b> passage 1 scored well ahead of the next. In testing, a lead this large meant the '
+                'passage held the curator&rsquo;s quote about 9 times in 10.</p>')
+    return '<p class="sm"><b>Close:</b> the top passages scored close together; check passages 2 and 3 too.</p>'
+
+
 def suggestion(s, arm, prop=None):
     """prop: Kev's proposed quote from its top passage (stale/propose.py), shown only with the kev arm."""
     if not s: return ''
@@ -38,7 +56,7 @@ def suggestion(s, arm, prop=None):
     pq = (f'<p class="sm"><i>Suggested quote</i> (the decision model&rsquo;s pick from passage {prop["piece"] + 1}; when the passage '
           f'was right, this pick matched the curator&rsquo;s own quote 83% of the time in testing; check it before use): '
           f'<ins>{esc(prop["quote"])}</ins></p>') if prop else ''
-    return pq + (f'<details class="sm"><summary>Where the case may be stated now: top {len(s["top"])} passages of the current text by '
+    return confidence(s, arm) + pq + (f'<details class="sm"><summary>Where the case may be stated now: top {len(s["top"])} passages of the current text by '
             f'{esc(ARMS.get(arm, arm))}. A place to look, not a verdict: the case may no longer be stated at all.</summary>{tops}</details>')
 
 
