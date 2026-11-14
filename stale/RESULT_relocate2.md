@@ -133,6 +133,12 @@ matches for 51.5%. The median proposed quote is 29 words; the median curator quo
 **Shipping bar** (KEV at least .60 and the KEV - BM25 lower bound above 0): **met**. The curator page shows Kev's
 proposed quote for each stale point, highlighted inside its top passage (`stale/propose.py`, built 2026-11-14).
 
+**Changed after the result: navigation units are skipped.** 12 of the 141 quotes first shown on the page were a table
+of contents or a row of links. Since 2026-11-14 ~21:30 UTC a unit with at least half of its words inside [link text]
+ranks last unless every unit is one. On part C's data this changed 1 of 124 picks and left KEV at .831
+(`py -m stale.propose_nav`, no model call). It is a display rule chosen after seeing the page, not a tested arm. The
+first picks are kept in `stale/out/propose_kev.v1.jsonl`.
+
 ## Cost (seconds per piece-question cell, 6-core CPU, one model at a time unless noted)
 | Arm | Part A | Part B |
 |---|---|---|

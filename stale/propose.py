@@ -6,11 +6,26 @@ For each stale point, Kev's top piece (stale/out/suggest_kev.jsonl) is cut into 
 earliest on ties) is the proposed quote. Points sharing a document and a top piece share one request per unit.
 Usage  py -m stale.propose [port] [out dir]    -> <out dir>/propose_kev.jsonl (default stale/out; resumes per piece)
 """
-import collections, json, os, sys, time
+import collections, json, os, re, sys, time
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE); OUT = os.path.join(HERE, 'out')
 sys.path.insert(0, ROOT)
 from stale.relocate2 import units, top_piece
+from stale.match import words
 from stale.triage import TEMPLATE
+
+
+def nav(u):
+    """A navigation unit: at least half of its words are link text in [square brackets] (a table of contents, a row of
+    links). Added after part C's result: skipping them left part C's .831 unchanged (1 of 124 picks changed;
+    stale/propose_nav.py), and a row of links is never a quote a curator can paste."""
+    inside = sum(len(words(m)) for m in re.findall(r'\[([^\]]*)\]', u)); total = len(words(u))
+    return total > 0 and inside / total >= .5
+
+
+def skip_nav(U, scores):
+    """Navigation units rank last, unless every unit is one."""
+    if all(nav(u) for u in U): return scores
+    return [x if not nav(u) else -1.0 for u, x in zip(U, scores)]
 
 
 def run(port='9995', out=OUT, cache=None):
@@ -32,7 +47,7 @@ def run(port='9995', out=OUT, cache=None):
             U = units(ss[0]['top'][0]['text']); qs = sorted({TEMPLATE.format(case[s['point']]) for s in ss})
             rows = [S.score(u, qs) for u in U]
             for s in ss:
-                q = TEMPLATE.format(case[s['point']]); sc = [r[qid(q)] for r in rows]; j = top_piece(sc)
+                q = TEMPLATE.format(case[s['point']]); sc = skip_nav(U, [r[qid(q)] for r in rows]); j = top_piece(sc)
                 f.write(json.dumps({'point': s['point'], 'doc': doc, 'piece': i, 'unit': j, 'units': len(U), 'ties': sc.count(sc[j]),
                                     'score': round(sc[j], 4), 'quote': U[j]}, ensure_ascii=False) + '\n')
             f.flush()
