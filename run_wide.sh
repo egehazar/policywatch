@@ -34,9 +34,17 @@ py -m stale.reloc_margin > stale/out/contrib_margin.log 2>&1; echo "part D margi
 { echo "# result $(date -u +%Y-%m-%dT%H:%M:%SZ)"; sha256sum stale/out/contrib_kev.json stale/out/contrib_base.json stale/out/contrib_result.json stale/out/contrib_margin.json; } >> stale/PREREG_relocate_d.sha256
 echo "part D done at $(date -u +%T) UTC"; grep -A4 '"reading"' stale/out/contrib_eval.log
 
-# Kev's suggestions and proposed quotes for the wider pages (full Kev: the cascade is adopted only by a later change)
+# Kev's suggestions and proposed quotes for the wider pages: the reranker-first cascade if part D adopted it (D1),
+# otherwise Kev on every piece (stale/cascade.py, stale/wide.py kev)
+if py -m stale.cascade adopted contrib; then MODE=cascade; else MODE=full; fi; echo "wide suggestions mode: $MODE"
 for c in contrib genai-contrib dating user-rights; do
   if ! up; then echo "KEV SERVER DOWN at $(date -u +%T) UTC: stopping before $c"; break; fi
-  py -m stale.wide kev $c 9995 > stale/wide/kev_$c.log 2>&1; echo "wide kev $c exit $? at $(date -u +%T) UTC"; tail -2 stale/wide/kev_$c.log
+  if [ "$MODE" = cascade ]; then
+    HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 $VENV -m stale.cascade rerank $c > stale/wide/rerank_$c.log 2>&1; echo "wide rerank $c exit $? at $(date -u +%T) UTC"
+    py -m stale.cascade kev $c 9995 > stale/wide/kev_$c.log 2>&1; echo "wide cascade kev $c exit $? at $(date -u +%T) UTC"
+  else
+    py -m stale.wide kev $c 9995 > stale/wide/kev_$c.log 2>&1; echo "wide kev $c exit $? at $(date -u +%T) UTC"
+  fi
+  tail -2 stale/wide/kev_$c.log
 done
 echo "wide all done at $(date -u +%T) UTC"

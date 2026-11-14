@@ -160,6 +160,59 @@ class TestBrokenCaptureGuard(unittest.TestCase):
         self.assertEqual(rows[2]['capture_twin_of'], ['S/Other.md'])
 
 
+class TestCascade(unittest.TestCase):
+    """stale.cascade.kev on a throwaway collection: Kev is asked only about each case's reranker top 10."""
+    def setUp(self):
+        import subprocess
+        from stale.relocate import PIECE
+        from policywatch.watch import pieces
+        from policywatch.diffing import paras
+        self.tmp = tempfile.mkdtemp(); arch = os.path.join(self.tmp, 'demo-versions'); os.makedirs(os.path.join(arch, 'S'))
+        g = lambda *a: subprocess.run(['git', '-C', arch, *a], capture_output=True, encoding='utf-8')
+        g('init', '-q'); g('config', 'user.email', 't@t'); g('config', 'user.name', 't')
+        paras_ = [f'Section {i}. ' + ('Filler words about nothing in particular. ' * 30) for i in range(40)]
+        paras_[33] = 'Section 33. We sell your data to advertisers. ' + 'More words to fill the piece. ' * 30
+        text = '\n\n'.join(paras_)
+        with open(os.path.join(arch, 'S', 'Terms.md'), 'w', encoding='utf-8') as f: f.write(text)
+        g('add', '-A'); g('commit', '-q', '-m', 'Record new changes of S')
+        self.P = [p for p in pieces('\n\n'.join(paras(text)), PIECE) if p.strip()]
+        self.target = next(i for i, p in enumerate(self.P) if 'sell your data' in p)
+        out = os.path.join(self.tmp, 'wide', 'demo', 'out'); os.makedirs(out)
+        with open(os.path.join(out, 'points.jsonl'), 'w') as f:
+            f.write(json.dumps({'platform': 'S', 'point': 1, 'case_title': 'sell your data', 'doc': 'S/Terms.md', 'status': 'gone',
+                                'drop_kind': 'platform edit', 'classification': 'bad', 'quote': 'We sell your data.',
+                                'current_coverage': 0.1, 'point_updated_at': '2025-01-01', 'drop_after_point_update': True,
+                                'dropped_at': {'commit': 'abc123', 'date': '2026-01-01', 'subject': 'Record new changes of S'}}) + '\n')
+        json.dump({'total': {'approved_with_quote': 1, 'gone': 1}, 'platforms': {'S': {'approved_with_quote': 1, 'gone': 1}}},
+                  open(os.path.join(out, 'summary.json'), 'w'))
+        head = g('rev-parse', 'HEAD').stdout.strip()
+        from stale.relocate import psha
+        # the reranker likes the first 10 pieces and the target: Kev must only be asked about those 11
+        rs = [1.0 if i < 10 or i == self.target else 0.0 for i in range(len(self.P))]
+        json.dump({'archive_head': head, 'docs': {'S/Terms.md': {'pieces_sha': psha(self.P), 'scores': {'sell your data': rs}}}},
+                  open(os.path.join(out, 'rerank_scores.json'), 'w'))
+        self.out = out; self.old = (wide.DATA_ROOT, wide.WIDE); wide.DATA_ROOT = self.tmp; wide.WIDE = os.path.join(self.tmp, 'wide')
+        self.srv = HTTPServer(('127.0.0.1', 0), FakeKev); threading.Thread(target=self.srv.serve_forever, daemon=True).start()
+
+    def tearDown(self):
+        self.srv.shutdown(); wide.DATA_ROOT, wide.WIDE = self.old; shutil.rmtree(self.tmp, ignore_errors=True)
+        for f in ('stale_demo.html',):
+            p = os.path.join(ROOT, 'out', 'site', f)
+            if os.path.exists(p): os.remove(p)
+
+    def test_asks_only_the_top_ten_and_finds_the_case(self):
+        from stale import cascade
+        self.assertGreater(len(self.P), 11)
+        FakeKev.calls = 0
+        cascade.kev('demo', str(self.srv.server_port), os.path.join(self.tmp, 'cache.sqlite'))
+        s = json.loads(open(os.path.join(self.out, 'suggest_kev.jsonl')).readline())
+        self.assertEqual(s['top'][0]['piece'], self.target)
+        self.assertTrue(all(t['score'] >= 0 for t in s['top']))
+        p = json.loads(open(os.path.join(self.out, 'propose_kev.jsonl')).readline())
+        self.assertIn('sell your data', p['quote'])
+        self.assertTrue(os.path.exists(os.path.join(ROOT, 'out', 'site', 'stale_demo.html')))
+
+
 class TestPublishPage(unittest.TestCase):
     def test_theme_guards_and_no_local_nav(self):
         tmp = tempfile.mkdtemp(); old = publish_page.SITE; publish_page.SITE = tmp
