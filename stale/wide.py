@@ -242,8 +242,14 @@ def point_modules(collection):
     return triage, suggest, phoenix, out
 
 
+def drops_of(collection):
+    rows = [json.loads(l) for l in open(os.path.join(WIDE, collection, 'out', 'points.jsonl'), encoding='utf-8')]
+    return [r for r in rows if r['status'] in ('gone', 'partly') and r.get('drop_kind') == 'platform edit']
+
+
 def cheap(collection):
     """Everything without a model: passages, ToS;DR's stored copy, BM25 suggestions, the page."""
+    if not drops_of(collection): print(collection, 'has no point dropped in a platform edit: nothing to do'); return
     triage, suggest, phoenix, out = point_modules(collection)
     triage.prep(vdir(collection)); phoenix.run(vdir(collection)); suggest.run(vdir(collection), 'bm25')
     page(collection, 'bm25')
@@ -252,6 +258,7 @@ def cheap(collection):
 def kev(collection, port='9995'):
     """Kev's suggestions and proposed quotes (hours of CPU), then the page."""
     from stale import propose
+    if not drops_of(collection): print(collection, 'has no point dropped in a platform edit: nothing to do'); return
     triage, suggest, phoenix, out = point_modules(collection)
     suggest.run(vdir(collection), 'kev', f'http://127.0.0.1:{port}')
     propose.run(port, out)

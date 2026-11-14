@@ -8,3 +8,5 @@ b55f17cfa1f1942bfd5740a46c197377ff7c51bf81f25484a60d4813ab204f49 *stale/relocate
 ac768cabd719267d12a5ee727fc85c73481cb46a70bb6e6535be6668671ba6ea *stale/wide.py
 6aa1dff720e27c864e7c99ffcceab7904d7a68299dfaeea0a944ca74e498deb0 *stale/match.py
 b6fbd2a32198f70c71fcc240a084a2b737b2f720ef74bc49083f2bbc7565cfa4 *stale/triage.py
+# code 2026-11-14T20:56:08Z stale/wide.py: cheap() and kev() skip a collection with no dropped point (drops_of); map, pull, match, dedupe and guard unchanged; no draw yet
+c71878c286f9fe305f5c6da69e29d0b7908b6e646e2c127d950f3222113aa8a1 *stale/wide.py
