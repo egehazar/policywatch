@@ -86,7 +86,9 @@ anything.
   - 521 quotes dropped in an edit by the platform itself, in 65 services (a blind audit rated 27 of 30 sampled ones
     real edits; see below). The largest are Netflix 48, Crunchyroll 43, NordVPN 41, W3Schools 39, Yahoo 39.
     genai-contrib adds 20 and dating 3: 544 on 69 services in all.
-  - For 507 of the 521, ToS;DR's stored copy still holds the quote (re-crawl pending); for 14 it does not.
+  - For 507 of the 521, ToS;DR's stored copy still holds the quote (re-crawl pending); for 14 it does not. For 63 of
+    the 78 documents behind those 507, the stored copy is closest to an archived version more than 3 years old
+    (most from 2020-21); on the 20 platforms, 13 of 29 documents.
   - Older captures fail in ways the archive files as edits: a page collapsed to a title, a login wall saved under
     two documents. 74 such drops on contrib (and 2 on genai-contrib) are set aside as broken captures, not listed.
   - A blind audit (`stale/RESULT_drop_audit.md`, pre-registered, rated by a Claude subagent) found 27 of 30 sampled
