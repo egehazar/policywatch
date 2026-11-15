@@ -1,0 +1,43 @@
+{
+ "note": "exploratory: pooled after all three parts were read; stratified cluster bootstrap",
+ "KEV_minus_RERANK": {
+  "parts": "ABD",
+  "per_part": {
+   "A": 0.07,
+   "B": 0.099,
+   "D": 0.06
+  },
+  "point": 0.076,
+  "ci95": [
+   0.036,
+   0.119
+  ],
+  "points": 602
+ },
+ "KEV_minus_QWEN": {
+  "parts": "AB",
+  "per_part": {
+   "A": 0.02,
+   "B": 0.015
+  },
+  "point": 0.017,
+  "ci95": [
+   -0.017,
+   0.052
+  ],
+  "points": 402
+ },
+ "QWEN_minus_RERANK": {
+  "parts": "AB",
+  "per_part": {
+   "A": 0.05,
+   "B": 0.084
+  },
+  "point": 0.067,
+  "ci95": [
+   0.019,
+   0.116
+  ],
+  "points": 402
+ }
+}
