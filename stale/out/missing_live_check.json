@@ -1,0 +1,43 @@
+{
+ "checked_at_utc": "2026-11-15T20:33Z (file times of the API replies)",
+ "source": "https://api.tosdr.org/service/v3/?id=<service id>, one request per service",
+ "note": "the public API lists approved points only; pending or declined points are not visible",
+ "services": {
+  "Bluesky": {
+   "service_id": 10752,
+   "points": 87,
+   "statuses": [
+    "approved"
+   ],
+   "card_cases": 19,
+   "card_cases_with_an_approved_point_now": []
+  },
+  "X": {
+   "service_id": 195,
+   "points": 102,
+   "statuses": [
+    "approved"
+   ],
+   "card_cases": 18,
+   "card_cases_with_an_approved_point_now": []
+  },
+  "Pinterest": {
+   "service_id": 175,
+   "points": 91,
+   "statuses": [
+    "approved"
+   ],
+   "card_cases": 21,
+   "card_cases_with_an_approved_point_now": []
+  },
+  "YouTube": {
+   "service_id": 274,
+   "points": 77,
+   "statuses": [
+    "approved"
+   ],
+   "card_cases": 22,
+   "card_cases_with_an_approved_point_now": []
+  }
+ }
+}
