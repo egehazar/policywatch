@@ -39,4 +39,7 @@ passage came from. This is an LLM rater's reading, not a person's.
   could state the case too, so the adjusted figure must not be set against the other arms' plain hit@1.
 - It says hit@1 against the curator's own quote understates how often Kev sends a curator to a passage that states
   the case, by roughly 12-25 points, and that ranking navigation passages first is one of the few clear failure kinds.
-- A possible follow-up (not run): rate the other arms' misses the same way, then compare arms on "states the case".
+- Follow-up, run and pre-registered: `stale/RESULT_states_case.md` rates every arm's top passage on 60 points. Its
+  rater found 17 of Kev's 27 non-curator top passages stating the case (63%, close to the 58% here), but it was
+  stricter on the curator's own passages (42 of 53 YES). The estimate above counts every hit as stating the case,
+  so read .87/.88 as an upper figure; the stable finding is that about 6 in 10 of Kev's misses state the case.

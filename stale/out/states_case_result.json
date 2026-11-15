@@ -1,0 +1,1249 @@
+{
+ "result": {
+  "points": 60,
+  "random_yes": 0,
+  "random_n": 10,
+  "states_at1": {
+   "KEV": 0.717,
+   "RERANK": 0.583,
+   "BM25": 0.417
+  },
+  "yes_or_partly_at1": {
+   "KEV": 0.917,
+   "RERANK": 0.767,
+   "BM25": 0.667
+  },
+  "hit_at1_same_points": {
+   "KEV": 0.55,
+   "RERANK": 0.467,
+   "BM25": 0.306
+  },
+  "valid": true,
+  "KEV_minus_RERANK": {
+   "point": 0.133,
+   "ci95": [
+    0.0,
+    0.258
+   ],
+   "raw": [
+    0.0,
+    0.25757575757575757
+   ]
+  },
+  "reading_KEV_vs_RERANK": "no difference shown",
+  "KEV_minus_BM25": {
+   "point": 0.3,
+   "ci95": [
+    0.167,
+    0.418
+   ],
+   "raw": [
+    0.16666666666666666,
+    0.41818181818181815
+   ]
+  },
+  "reading_KEV_vs_BM25": "KEV better"
+ },
+ "rows": [
+  {
+   "doc": "Pinterest/Privacy Policy.md",
+   "point": 322731,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Spotify/Terms of Service.md",
+   "point": 318777,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "YouTube/Privacy Policy.md",
+   "point": 319275,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Twitch/Terms of Service.md",
+   "point": 13710,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Reddit/Terms of Service.md",
+   "point": 13391,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Snapchat/Privacy Policy.md",
+   "point": 328860,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Instagram/Terms of Service.md",
+   "point": 12189,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Spotify/Privacy Policy.md",
+   "point": 318800,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Facebook/Privacy Policy.md",
+   "point": 320782,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "YouTube/Privacy Policy.md",
+   "point": 319240,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Reddit/Terms of Service.md",
+   "point": 320986,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Tumblr/Privacy Policy.md",
+   "point": 322827,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Bluesky/Privacy Policy.md",
+   "point": 320874,
+   "part": "A",
+   "KEV": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Tumblr/Privacy Policy.md",
+   "point": 322826,
+   "part": "A",
+   "KEV": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "Facebook/Privacy Policy.md",
+   "point": 318272,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Spotify/Privacy Policy.md",
+   "point": 318798,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Tumblr/Privacy Policy.md",
+   "point": 322811,
+   "part": "A",
+   "KEV": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Tumblr/Terms of Service.md",
+   "point": 876,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Spotify/Privacy Policy.md",
+   "point": 318801,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "X/Terms of Service.md",
+   "point": 321391,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "Twitch/Terms of Service.md",
+   "point": 13688,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Facebook/Privacy Policy.md",
+   "point": 320772,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Tumblr/Privacy Policy.md",
+   "point": 965,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "Spotify/Terms of Service.md",
+   "point": 318780,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "LinkedIn/Terms of Service.md",
+   "point": 318964,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "Facebook/Trackers Policy.md",
+   "point": 320751,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "Tumblr/Terms of Service.md",
+   "point": 20040,
+   "part": "A",
+   "KEV": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "X/Privacy Policy.md",
+   "point": 321416,
+   "part": "A",
+   "KEV": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "Reddit/Terms of Service.md",
+   "point": 321010,
+   "part": "A",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "Tumblr/Privacy Policy.md",
+   "point": 322821,
+   "part": "A",
+   "KEV": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Alibaba/Privacy Policy [3409]",
+   "point": 22102,
+   "part": "B",
+   "KEV": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Xiaomi/Privacy Policy [1480]",
+   "point": 13156,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "STiBaRC/Privacy Policy [3766]",
+   "point": 14785,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "Headspace/Terms and Conditions [5158]",
+   "point": 30982,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "The Walt Disney Company/Walt Disney Privacy Policy [3292]",
+   "point": 15070,
+   "part": "B",
+   "KEV": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "BitDefender/Privacy Policy for Bitdefender Home Solutions [3119]",
+   "point": 11825,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "KeyMe/Privacy Policy [7004]",
+   "point": 24770,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "Weblate/Terms and Privacy (English) [5956]",
+   "point": 22397,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "The Walt Disney Company/Disney Terms of Use [3291]",
+   "point": 14935,
+   "part": "B",
+   "KEV": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "BBC/Privacy and Cookies Policy [117]",
+   "point": 8408,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "MIT App Inventor/MIT App Inventor Privacy Policy and Terms of Use [7155]",
+   "point": 22813,
+   "part": "B",
+   "KEV": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "hCaptcha/Privacy Policy [2440]",
+   "point": 14467,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Represent/Terms & Conditions [7207]",
+   "point": 26170,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "Element/Terms of Service [3416]",
+   "point": 16051,
+   "part": "B",
+   "KEV": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Malwarebytes/Terms of Service [2529]",
+   "point": 305212,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Steam/Steam Subscriber Agreement [207]",
+   "point": 13344,
+   "part": "B",
+   "KEV": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Disroot/Terms of Service [3486]",
+   "point": 22235,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Alibaba/Terms of Use [6757]",
+   "point": 22025,
+   "part": "B",
+   "KEV": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "Uber/Privacy Policy [354]",
+   "point": 20147,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "The Session/Privacy policy [2230]",
+   "point": 8701,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "The Session/Privacy policy [2230]",
+   "point": 8705,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.33333333333333337
+   }
+  },
+  {
+   "doc": "Orange/Privacy Notice [4350]",
+   "point": 18166,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   }
+  },
+  {
+   "doc": "OneSignal/Privacy Policy [5064]",
+   "point": 19336,
+   "part": "B",
+   "KEV": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Xiaomi/User Agreement [3317]",
+   "point": 36546,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "LADBible Group/Terms of Service [23155]",
+   "point": 319685,
+   "part": "B",
+   "KEV": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "IKEA/Terms and Conditions [7126]",
+   "point": 319771,
+   "part": "B",
+   "KEV": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Rapid VPN/Privacy Policy [23731]",
+   "point": 326283,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "BM25": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Hostinger/Terms of Service [23458]",
+   "point": 318466,
+   "part": "B",
+   "KEV": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 0,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Mimo/Privacy Policy [23505]",
+   "point": 319665,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  },
+  {
+   "doc": "Rapid VPN/Privacy Policy [23731]",
+   "point": 326299,
+   "part": "B",
+   "KEV": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "RERANK": {
+    "yes": 1,
+    "yes_or_partly": 1,
+    "hit1": 1.0
+   },
+   "BM25": {
+    "yes": 0,
+    "yes_or_partly": 1,
+    "hit1": 0.0
+   }
+  }
+ ]
+}

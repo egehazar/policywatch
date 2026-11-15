@@ -1,602 +1,602 @@
 {
  "S001": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers Data Privacy Framework rights and compelled disclosure, nothing about guarantees of meeting expectations."
  },
  "S002": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Prohibited list includes \"use the Twitch Services for any illegal purpose, or in violation of any ... law\"."
  },
  "S003": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Precise Location Data\": Spotify uses your precise location data with permission for features like nearby concerts."
  },
  "S004": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Termination \"for any reason without notice\" removes all User Content, but it is account termination, not removal of specific content."
  },
  "S005": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Severability clause: an unenforceable provision \"will not affect the validity and enforceability of any remaining provisions\"."
  },
  "S006": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Phone number and home/work addresses can be used to make ads more relevant and \"for ads\"."
  },
  "S007": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Claims may be brought \"only in your or its individual capacity and not as a plaintiff or class member in any purported class ... action\"."
  },
  "S008": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"in our sole discretion ... restrict, suspend, or terminate your access ... with or without giving you any prior notice\"."
  },
  "S009": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We use cookies if you ... use the Meta Products, including our website and apps\" shows the service sets its own cookies."
  },
  "S010": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Only says the policy may be amended \"from time to time\"; nothing about a regular review."
  },
  "S011": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Use your real name on your profile\" and do not \"create a false identity\" or \"misrepresent your identity\"."
  },
  "S012": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Information is used for personalization, ads \"along with the other purposes we explain in detail below\"."
  },
  "S013": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Google Analytics collects usage data on Alibaba's behalf, but nothing says the service receives data about you from third-party sources."
  },
  "S014": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage is about the content license and its restrictions; no severability clause."
  },
  "S015": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "The passage itself is written in short, plain, first-person language (\"My name is Jeremy. I run The Session.\")."
  },
  "S016": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only says the account is password-protected, MFA may come later, and security cannot be guaranteed; few actual practices."
  },
  "S017": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "General location such as country or region is collected from the device, but IP addresses are not mentioned."
  },
  "S018": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"To market and advertise our services. We may use your information to ... personalize, and enhance our advertising and marketing\"."
  },
  "S019": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage is a user-content license; nothing about liability for damages."
  },
  "S020": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Sharing with age-verification vendors is described as \"where required by law\", not non-essential sharing."
  },
  "S021": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Information retained for service improvement under legitimate interest, but it is de-identified and not framed as post-deletion retention."
  },
  "S022": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"you grant to Malwarebytes a non-exclusive, transferable, sublicenseable, worldwide, royalty-free license\"."
  },
  "S023": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage lists data subject rights and the policy date; nothing about retention."
  },
  "S024": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Log files \"may include Internet Protocol (IP) addresses\"."
  },
  "S025": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage ends before listing rights; nothing about getting a copy of your data."
  },
  "S026": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Third-party cookies are used, but by advertising networks for ads, not for statistics."
  },
  "S027": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Data may go to \"business partners\" and others for \"various business purposes\", but it also says it does not sell or share for ads."
  },
  "S028": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The non-exclusive license here is granted by Malwarebytes to you, not by you over your content."
  },
  "S029": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only references a \"class action waiver\" section title and individual-only relief; the waiver itself is not stated."
  },
  "S030": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Except with Alibaba.com's approval, one User may only register one member account\"."
  },
  "S031": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"This policy explains how we collect and use your data\", plus pointers to product-specific privacy pages and in-app notices."
  },
  "S032": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Use is limited \"to make personal, non-commercial use of your Subscriptions\"."
  },
  "S033": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You can follow the history of changes on this document on our git repository\"."
  },
  "S034": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Shows only two purposes (lead ads, creator promotion) from a longer list."
  },
  "S035": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage lists prohibited user conduct, nothing about automated decisions, profiling or AI training."
  },
  "S036": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"each party may bring a Dispute ... only in an individual capacity and not participate as a plaintiff ... in any class ... proceeding\"."
  },
  "S037": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Data used for marketing \"except if the data subject has opted out from these communications at any moment in time\"."
  },
  "S038": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage covers enforcement and uptime, nothing about content ownership."
  },
  "S039": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Disclaims responsibility for \"whether the Services will meet your requirements\"."
  },
  "S040": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Collects data on Direct Messages \"including the contents of the messages, the recipients, and date and time\"."
  },
  "S041": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage is about policy scope and linked services, nothing about leaving the service."
  },
  "S042": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "No liability for damages, but only those arising from Third Party Sites."
  },
  "S043": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Names New York law and courts but says nothing about how privacy-friendly that jurisdiction is."
  },
  "S044": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage lists prohibited content and activities; no governing-law clause."
  },
  "S045": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage covers public API data and legal disclosures, nothing about private messages."
  },
  "S046": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage covers retention and transfers, nothing about promotions."
  },
  "S047": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Services provided \"AS IS\" and \"AS AVAILABLE\" and \"we disclaim all warranties\"."
  },
  "S048": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"YOU AGREE NOT TO violate any law\"."
  },
  "S049": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage is a content license; nothing about copyright claims or removal."
  },
  "S050": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage covers liability exclusions and termination; no governing-law clause."
  },
  "S051": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Marketing communications based on legitimate interest \"unless those persons have opted out\"."
  },
  "S052": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"The cookies that we use include session cookies ... and persistent cookies\"; \"We may place cookies on your computer\"."
  },
  "S053": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists many uses: location customization, updates, safety reviews, fraud, age checks, legal claims, analytics."
  },
  "S054": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "To use Instagram, \"We must not have previously disabled your account for violation of law or any of our policies\"."
  },
  "S055": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Right to object to processing \"e.g. in order to send you promotions and special offers marketing\" implies marketing use."
  },
  "S056": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Requires accurate information and bans impersonating others, but does not require your legal name or forbid pseudonyms."
  },
  "S057": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage covers liability, governing law and Element's ownership of the Services, not user content ownership."
  },
  "S058": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "General location \"We may learn this from technical data (e.g. your IP address ...)\"."
  },
  "S059": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Shares with business partners, including ones \"with whom we jointly offer products\", but mostly for requested services."
  },
  "S060": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage covers policy changes and regional rights, nothing about leaving."
  },
  "S061": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Purchase data stored for \"seven years due to our legal obligation to retain business documentation\"."
  },
  "S062": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Removal without notice and automatic termination are tied to violations, so not without a reason."
  },
  "S063": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Policy includes \"removal of any infringing material\" and termination of repeat infringers."
  },
  "S064": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Google services like Photos may send you marketing communications\" using information like your email."
  },
  "S065": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage is a warranty disclaimer; nothing about who owns user content."
  },
  "S066": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage covers Meetups and a California release waiver; no governing-law clause."
  },
  "S067": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Only a version label \"v1.2 - March 2020\"; no archive of past versions."
  },
  "S068": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"we will (a) own, exclusively, all ... rights to the Creative Ideas\"."
  },
  "S069": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"These entities may use cookies, web beacons, SDKs, and other technologies to identify the devices used by visitors\"."
  },
  "S070": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Account is \"strictly personal\" and cannot be sold or used for others' commercial use, but personal non-commercial use is not stated outright."
  },
  "S071": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "You can \"get a copy of all of it\" and \"Receive your Personal Data in a commonly used and machine-readable format\"."
  },
  "S072": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Names Massachusetts law and venue but says nothing about privacy protection there."
  },
  "S073": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Lists data rights (copy, correct, delete, stop use), nothing about leaving the service."
  },
  "S074": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Usage data includes \"content you provide when participating in Spotify promotions, such as contests or sweepstakes\"."
  },
  "S075": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"one User may only register one member account\" and accounts may be terminated for controlling two or more."
  },
  "S076": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Advertisers \"see reports showing aggregated statistics about the audience seeing their ads\"."
  },
  "S077": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists many processing purposes: accounts, sharing, messaging, ads, AI, analytics, troubleshooting."
  },
  "S078": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We may collect log information related to your use, such as cookies, IP addresses\"."
  },
  "S079": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Users retain ownership and/or other applicable rights in User Content\"."
  },
  "S080": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We put this information into aggregate reports so that partners can see how well their content ... performing\"."
  },
  "S081": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"you can also lodge a complaint with the ... CNIL\" about personal data handling."
  },
  "S082": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Describes data flowing via integrations and the TrueDepth camera, mostly about sharing and transfers rather than how data is collected."
  },
  "S083": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage is about refunds, not a liability cap."
  },
  "S084": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Data is disclosed to marketing partners for promotions and partners may combine it with other data, but not collection through promotions itself."
  },
  "S085": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "May disclose information to satisfy \"governmental request\", but nothing about doing so without notice."
  },
  "S086": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"How Do We Use Personal Information? We use personal information for the following purposes\"."
  },
  "S087": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"we collect this data through cookies, pixels, tags, and similar tracking technologies that create and maintain unique identifiers\"."
  },
  "S088": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Lists data categories and points to another section; no security practices described."
  },
  "S089": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Collects \"Information about the network ... including your IP address\" and \"Location-related information\"."
  },
  "S090": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Describes data collected when you use or interact with the Services, not without interaction."
  },
  "S091": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage is about disclosure for protection, not how data is secured."
  },
  "S092": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage is a warranty disclaimer; nothing about individual or non-commercial use."
  },
  "S093": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Information that is not public will not be sold, rented, or given to anyone.\""
  },
  "S094": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Marketing to inform users about our services. For example, emailing users of Photos about a printing promotion.\""
  },
  "S095": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "After account deletion \"we may continue to process them for the fulfilment of legal obligations ... seven years\"."
  },
  "S096": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage lists prohibited conduct; no content license."
  },
  "S097": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "DM content is shared with the recipient (and possibly their third-party app), only weakly implying the service accesses it."
  },
  "S098": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Liability not to exceed \"the actual amount of fees paid by you for the Services in 12 (twelve) months\" or EUR 10,000."
  },
  "S099": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Agents with whom we share such information ... are generally bound by confidentiality obligations\"."
  },
  "S100": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"we may suspend or terminate your Account ... at any time for any or no reason\"."
  },
  "S101": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage is Element's license to you and its retained rights, not your content ownership."
  },
  "S102": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You agree to indemnify and hold Spotify harmless\" for claims arising from your use."
  },
  "S103": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We can help you share your location using Google Location Sharing\"."
  },
  "S104": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Only a \"Last Modified\" date; no archive of past versions."
  },
  "S105": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Says changes will be announced; no archive of past versions."
  },
  "S106": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Choices include \"deleting your registration account\", but no right to leave at any time is stated."
  },
  "S107": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You retain ownership you have of any intellectual property you post to Tumblr.\""
  },
  "S108": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"one LinkedIn account, which must be in your real name\"; false information is a violation."
  },
  "S109": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Shows only a few purposes (safety, photo search, off-site ads) from a longer list."
  },
  "S110": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Uses \"precise location data (where available and explicitly permitted by you)\" for recommendations."
  },
  "S111": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Section \"provides you with details on what information we collect: what you provide ... what we collect ... information we receive\"."
  },
  "S112": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "With Location services \"your device sends information to Google about its location\"."
  },
  "S113": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Mostly describes cookie/location/ad opt-out choices, with only a passing mention of partners using browsing data for ads."
  },
  "S114": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Third-party services may provide information about you, but only for linked accounts, not regardless of interaction."
  },
  "S115": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "You can object to or restrict processing and opt out of marketing, but limiting third-party use is not covered."
  },
  "S116": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Says information is processed \"for different purposes\" under different legal bases, without listing them."
  },
  "S117": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"If we remove Your Content in response to a copyright or trademark notice, we will notify you.\""
  },
  "S118": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We may receive personal information about you from social media platforms if you choose to register\" via them."
  },
  "S119": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Service provided \"as-is\" and \"as-available\" and IMI \"excludes all warranties\" including fitness for a particular purpose."
  },
  "S120": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only a bare heading \"No guarantees regarding content\" at the end; no text about meeting expectations."
  },
  "S121": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage explains legal bases for processing, nothing about aggregation into statistics."
  },
  "S122": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Personal data we collect is not shared with third parties.\""
  },
  "S123": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"you can always stop using our services, delete your account and stop giving us any more personal information\"."
  },
  "S124": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Will not give information to third parties for marketing \"without your prior consent\", only weakly implying marketing use."
  },
  "S125": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage covers fees, payments and taxes, not a liability cap."
  },
  "S126": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Collects \"your IP address\" and uses \"IP addresses to estimate your general location\"."
  },
  "S127": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "You can opt out of third-party ad platforms tailoring ads, but limiting the service's own use is not covered."
  },
  "S128": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "The Homeserver Owner \"can not claim intellectual property rights\" over users' messages and files, but this is about the customer, not the service."
  },
  "S129": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"we may suspend or terminate your Account ... at any time for any or no reason\"."
  },
  "S130": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage covers account deletion; nothing about reviewing the privacy policy."
  },
  "S131": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage describes cookies and web tags; no archive of past versions."
  },
  "S132": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Says an ID and password belong to a single account and accounts cannot be shared, not that a user may hold only one account."
  },
  "S133": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Only a table of contents and introduction; nothing about sharing with non-essential third parties."
  },
  "S134": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Lists privacy controls and ad opt-outs, nothing about leaving the service."
  },
  "S135": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We also use Google Analytics, who uses cookies to help the website analyze how users use the Service\"."
  },
  "S136": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Bans automated account creation and selling accounts, nothing about banned users creating new accounts."
  },
  "S137": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage is a liability limitation; no content license."
  },
  "S138": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only a table-of-contents heading \"Information that we receive from third parties\", with no detail."
  },
  "S139": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage covers content removal, disclaimers and a license; nothing about government requests."
  },
  "S140": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Link to Prior Versions\": prior versions stored on GitHub so you can \"compare different versions and see what terms have changed\"."
  },
  "S141": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage covers indemnity and liability for User Content, nothing about multiple accounts."
  },
  "S142": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"IP addresses, which we use to estimate your general location\"."
  },
  "S143": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We use cookies to help personalise and improve content and services\" shows the service uses its own cookies."
  },
  "S144": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage covers policy amendments, prior versions and data categories, not collection without direct interaction."
  },
  "S145": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage covers sharing with vendors, service providers and researchers; no IP address collection."
  },
  "S146": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Passage is an arbitration clause; nothing about names or pseudonyms."
  },
  "S147": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "License \"includes the right to use Your Content to train AI and machine learning models\"."
  },
  "S148": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Explains uses (communication, compliance, fraud prevention, safety, cookies for traffic analysis and advertising) and gives a summary of use."
  },
  "S149": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We have the right to remove your content at anytime for any reason.\""
  },
  "S150": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"This information will never, ever be shared, sold or given away to anyone.\""
  }
 }
