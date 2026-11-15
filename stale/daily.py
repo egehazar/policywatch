@@ -128,9 +128,10 @@ def passage(arch, r):
     return ps
 
 
-def digest(runs, repo):
-    """One page: the latest run's events with passages, then the run log."""
-    last = runs[-1]
+def digest(runs, repo, sug=None, prop=None, arm=None):
+    """One page: the latest run's events with passages, then the run log. sug/prop/arm: optional suggestions for the
+    events whose quote is gone or partly gone (stale/daily_suggest.py), shown as on the curator pages."""
+    last = runs[-1]; sug = sug or {}
     order = {'new drop': 0, 'worse': 1, 'new point': 2, 'recovered': 3, 'removed': 4, 'now tracked': 5, 'lost track': 6}
     cards = []
     for e in sorted(last['events'], key=lambda e: (order[e['kind']], e['platform'])):
@@ -146,6 +147,9 @@ def digest(runs, repo):
         else:
             body += (f'<div class="diff"><span class="ctx">Old passage:</span>\n{esc(ps["old"])}</div><div class="diff"><span class="ctx">'
                     f'Most similar new passage ({ps["similarity"]:.0%} of its word triples shared):</span>\n{esc(ps["new"])}</div>')
+        if e['point'] in sug and e['status'] in ('gone', 'partly'):
+            from stale.report import suggestion
+            body += suggestion(sug[e['point']], arm, (prop or {}).get(e['point']))
         cards.append(f'<div class="card"><div class="row"><b>{esc(e["kind"])}</b> · {esc(e["platform"])} · {esc(e["case_title"])}'
                      f'{badge(e.get("classification"))}<a class="sm" href="https://edit.tosdr.org/points/{e["point"]}">point {e["point"]}</a></div>'
                      f'<div class="sm mut">quote {esc(e.get("before") or "new")} &rarr; {esc(e["status"])}{when}</div>{body}</div>')

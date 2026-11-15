@@ -275,5 +275,28 @@ class TestPublishPage(unittest.TestCase):
             publish_page.SITE = old; shutil.rmtree(tmp, ignore_errors=True)
 
 
+
+class TestDailyDigest(unittest.TestCase):
+    def test_suggestions_only_on_stale_events_and_section_anchors(self):
+        from stale import daily
+        tmp = tempfile.mkdtemp(); old = daily.OUT; daily.OUT = tmp
+        ev = lambda kind, pid, st: {'kind': kind, 'before': 'present', 'platform': 'Pinterest', 'case_title': f'Case {pid}',
+                                    'classification': 'bad', 'point': pid, 'status': st}
+        run = {'run_at': '2026-11-15T01:22:41Z', 'compared_with': 'the previous run', 'archive': {'head': 'ab', 'fetched': True, 'new_commits': 1},
+               'tosdr_point_fetches': 0, 'tosdr_failed': [], 'counts': {'gone': 1}, 'events_by_kind': {'new drop': 1, 'recovered': 1},
+               'events': [ev('new drop', 1, 'gone'), ev('recovered', 2, 'present')]}
+        top = lambda pid: {'point': pid, 'n_pieces': 5, 'top': [{'piece': 2, 'score': 3.1, 'text': f'Passage for {pid}.'}]}
+        try:
+            daily.digest([run], 'https://example.org/repo', sug={1: top(1), 2: top(2)}, prop={}, arm='bm25')
+            h = open(os.path.join(tmp, 'digest.html'), encoding='utf-8').read()
+            self.assertEqual(h.count('Where the case may be stated now'), 1)
+            self.assertIn('Passage for 1.', h); self.assertNotIn('Passage for 2.', h)
+            daily.digest([run], 'https://example.org/repo')          # without suggestions: the page as before
+            self.assertNotIn('Where the case may be', open(os.path.join(tmp, 'digest.html'), encoding='utf-8').read())
+        finally:
+            daily.OUT = old; shutil.rmtree(tmp, ignore_errors=True)
+        self.assertEqual(report.sid('Proton Mail'), 'proton-mail'); self.assertEqual(report.sid('???'), 'x')
+
+
 if __name__ == '__main__':
     unittest.main()
