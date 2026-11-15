@@ -63,5 +63,8 @@ extension points the same way. Hashes in `stale/PREREG_states_case_ext.sha256`; 
   sense of relevance could favour Kev's picks; nothing here rules that out. A person's ratings would.
 - It does not overturn the pre-registered hit@1 results, where KEV and the reranker were not separated in part A and
   were in part B. It adds a second measure, closer to what a curator needs, on which Kev is ahead by about 12 points.
+- Kev's base family (Qwen3.5-4B, asked the same yes/no question per passage) was not rated here. On hit@1 it showed no
+  difference from Kev, so this result is about asking a language model per passage, not about decision-model
+  training.
 - The reranker remains 3.6-5x cheaper; part D tests whether a reranker-first cascade keeps Kev's accuracy at a
   fraction of its cost.
