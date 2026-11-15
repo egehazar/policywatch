@@ -12,10 +12,11 @@ policywatch watches the archive for the moment a curator's evidence stops being 
   real edits, the rest mostly the archive saving another language or region of the page. A daily watch (built, run
   twice so far, not scheduled) lists new ones: its 2026-11-15 run found Pinterest's rewrite of 12 November. To find the
   passage that states a case, on test points whose answer is the curator's own quote, Kev-4B ranks the right passage
-  first 62-75% of the time, BM25 and bge-small 30-43%. Two controls limit the claim: its base family, an ordinary 4B
-  instruct model asked the same yes/no question, showed no difference, and a cross-encoder reranker was not shown to be
-  worse while using a fraction of the CPU. What the decision-model endpoint added was cost against the instruct model:
-  about 2-3x less CPU per passage and question.
+  first 62-75% of the time, BM25 and bge-small 30-43%. Against a cross-encoder reranker, which uses a fraction of the
+  CPU, the curator-quote measure did not separate them in one part and favoured Kev in the other; on whether the top
+  passage states the case at all (blind LLM raters, 120 points) Kev is ahead, 73% to 61%. The base family limits the
+  claim: an ordinary 4B instruct model asked the same yes/no question showed no difference from Kev. What the
+  decision-model endpoint added was cost against that model: about 2-3x less CPU per passage and question.
 - **Meaning-diff scanner (`policywatch/`, the original goal, failed its tests).** Asks a decision model a fixed bank of
   questions about the old and new text of every update and lists the answers whose score moved. It did not find real
   changes well enough; the results are below.
