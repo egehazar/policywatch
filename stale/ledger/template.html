@@ -1,0 +1,156 @@
+<title>policywatch Test Ledger</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column of a case file; numbers and readings in a ledger, two small charts drawn to scale */
+:root{
+  --bg:#f5f7f8; --panel:#ffffff; --ink:#1b2430; --mute:#5b6878; --rule:#d9e0e6;
+  --accent:#2b5c8a; --accent-soft:#e3edf6;
+  --good:#1f7a4d; --good-bg:#e2f3ea; --warn:#8a6100; --warn-bg:#fbf0d6; --bad:#a3352b; --bad-bg:#f8e3e0; --run:#4b5aa8; --run-bg:#e7e9f8;
+  --f-display:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --f-body:Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#12171d; --panel:#19212a; --ink:#e3e8ee; --mute:#9aa7b5; --rule:#2c3743;
+  --accent:#7fb0de; --accent-soft:#1d2d3e;
+  --good:#6cc89a; --good-bg:#16302a; --warn:#e2b55a; --warn-bg:#33291a; --bad:#ec8b80; --bad-bg:#3a1f1d; --run:#a8b2f0; --run-bg:#232848;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12171d; --panel:#19212a; --ink:#e3e8ee; --mute:#9aa7b5; --rule:#2c3743;
+  --accent:#7fb0de; --accent-soft:#1d2d3e;
+  --good:#6cc89a; --good-bg:#16302a; --warn:#e2b55a; --warn-bg:#33291a; --bad:#ec8b80; --bad-bg:#3a1f1d; --run:#a8b2f0; --run-bg:#232848;
+  color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.6 var(--f-body)}
+.wrap{max-width:860px;margin:0 auto;padding-block:40px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:40px}
+h1,h2{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.2}
+h1{font-size:2.1rem;font-weight:700}
+h2{font-size:1.35rem;font-weight:600}
+p{margin:0;max-width:66ch}
+section{display:grid;gap:14px}
+.eyebrow{font:500 .75rem/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.lede{font-size:1.05rem;color:var(--ink)}
+.mute{color:var(--mute)}
+.small{font-size:.86rem}
+.status{display:flex;flex-wrap:wrap;gap:8px}
+.pill{display:inline-block;font:500 .74rem/1.3 var(--f-body);padding:3px 9px;border-radius:999px;white-space:nowrap}
+.p-good{color:var(--good);background:var(--good-bg)} .p-warn{color:var(--warn);background:var(--warn-bg)}
+.p-bad{color:var(--bad);background:var(--bad-bg)} .p-run{color:var(--run);background:var(--run-bg)} .p-n{color:var(--mute);background:var(--accent-soft)}
+.figs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.fig{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:14px 16px;display:grid;gap:4px;align-content:start}
+.fig b{font:600 1.7rem/1.1 var(--f-display);font-variant-numeric:tabular-nums}
+.fig span{font-size:.84rem;color:var(--mute);line-height:1.4}
+ol.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;counter-reset:s}
+ol.steps li{counter-increment:s;border-top:2px solid var(--accent);padding-top:10px;display:grid;gap:4px;font-size:.88rem;line-height:1.45}
+ol.steps li::before{content:"Step " counter(s);font:500 .72rem/1 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+ol.steps li strong{font-weight:600}
+.chart{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:14px;overflow-x:auto}
+.chart svg{display:block;width:100%;min-width:560px;height:auto}
+svg .grid{stroke:var(--rule);stroke-width:1}
+svg .tick{fill:var(--mute);font:12px var(--f-mono)}
+svg .lab{fill:var(--ink);font:13px var(--f-body)} svg .lab.small{font-size:12px;fill:var(--mute)}
+svg .val{fill:var(--ink);font:600 12px var(--f-mono)} svg .val.mute{fill:var(--mute);font-weight:400}
+svg .link{stroke:var(--accent);stroke-width:2.5;opacity:.45}
+svg .hit{fill:var(--panel);stroke:var(--accent);stroke-width:2}
+svg .states{fill:var(--accent)}
+svg .kv{fill:none;stroke:var(--accent);stroke-width:2.5} svg .kv-dot{fill:var(--accent)}
+svg .qw{fill:none;stroke:var(--warn);stroke-width:2.5} svg .qw-dot{fill:var(--warn)}
+svg .rr{stroke:var(--good);stroke-width:2;stroke-dasharray:6 5}
+.key{display:flex;flex-wrap:wrap;gap:16px;font-size:.82rem;color:var(--mute)}
+.key i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.tbl{overflow-x:auto;border:1px solid var(--rule);border-radius:10px;background:var(--panel)}
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:.86rem}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font:500 .72rem/1.2 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--mute)}
+tr.grp td{background:var(--accent-soft);font-weight:600;font-size:.8rem}
+tr:last-child td{border-bottom:0}
+td.num{font-family:var(--f-mono);font-size:.8rem;font-variant-numeric:tabular-nums}
+ul.plain{margin:0;padding-left:1.1em;display:grid;gap:6px;max-width:70ch}
+footer{border-top:1px solid var(--rule);padding-top:16px;display:grid;gap:6px}
+code{font:.82rem var(--f-mono);background:var(--accent-soft);padding:1px 5px;border-radius:4px}
+@media (max-width:720px){.figs{grid-template-columns:repeat(2,minmax(0,1fr))} ol.steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:420px){.figs,ol.steps{grid-template-columns:1fr} h1{font-size:1.7rem}}
+</style>
+<div class="wrap">
+<header style="display:grid;gap:12px">
+  <div class="eyebrow">policywatch · state on 15 Nov 2026, 02:50 UTC</div>
+  <h1>Which approved ToS;DR points lost their evidence, and where is the case stated now?</h1>
+  <p class="lede">ToS;DR&rsquo;s volunteer curators back every point (&ldquo;You waive your right to a class action&rdquo;) with a quote from a service&rsquo;s terms. Open Terms Archive records every version of those terms. policywatch checks every approved quote against every version, lists the points whose quote disappeared in a platform&rsquo;s own edit, and suggests where the case may be stated now. It runs on a desktop CPU; every test below was written down and hashed before it was scored, failures included.</p>
+  <div class="status"><span class="pill p-run">Part D running: contrib replication and the cheaper cascade, results about 07:30 UTC</span><span class="pill p-warn">Stale-point suggestions provisional until a person rates 60 blind cards</span></div>
+</header>
+
+<section>
+  <div class="eyebrow">What it finds</div>
+  <div class="figs">
+    <div class="fig"><b>685</b><span>approved quotes that disappeared in a platform&rsquo;s edit, on 87 ToS;DR services</span></div>
+    <div class="fig"><b>23</b><span>of them still approved although ToS;DR&rsquo;s own stored copy lost the quote too</span></div>
+    <div class="fig"><b>27 / 30</b><span>sampled drops judged real edits in a blind audit (LLM rater); the rest were another language or region of the page</span></div>
+    <div class="fig"><b>8</b><span>points left stale by Pinterest&rsquo;s terms of 12 Nov 2026, caught by the daily watch&rsquo;s second run</span></div>
+  </div>
+  <p class="small mute">For 63 of the 78 contrib documents behind the points ToS;DR has not noticed yet, its stored copy matches an archived version more than three years old.</p>
+</section>
+
+<section>
+  <div class="eyebrow">How one stale point is handled</div>
+  <ol class="steps">
+    <li><strong>Find the drop.</strong> String matching of the quote in every archived version gives the commit where it left, and the passage that replaced it.</li>
+    <li><strong>Check ToS;DR&rsquo;s copy.</strong> Does its stored document still hold the quote? Then a re-crawl is pending and the point will break.</li>
+    <li><strong>Rank the current text.</strong> A 4B model is asked, of each 1,500-character passage, whether it states the case.</li>
+    <li><strong>Propose a quote.</strong> Within the top passage, the sentence the model rates highest, highlighted for the curator to check.</li>
+  </ol>
+</section>
+
+<section>
+  <div class="eyebrow">Step 3, tested</div>
+  <h2>A language model per passage beats keyword search; the decision model&rsquo;s own training adds no shown accuracy</h2>
+  <p>On 120 points with a known answer, how often is the top passage the one the curator quoted (hollow), and how often does it state the case at all, as judged blind by LLM raters (filled)?</p>
+  <div class="chart"><!--CHART1--></div>
+  <div class="key"><span><i style="border:2px solid var(--accent);background:var(--panel)"></i>the curator&rsquo;s passage (hit@1)</span><span><i style="background:var(--accent)"></i>states the case (LLM raters)</span></div>
+  <p class="small mute">Kev minus the reranker on &ldquo;states the case&rdquo;: +12 points [+3, +20]; minus BM25 +31 [+21, +41]; minus its base family &minus;1 [&minus;6, +4], no difference shown. On the curator-passage measure the full tests had 200 and 202 points: Kev 62% and 75%, BM25 36% and 41%.</p>
+</section>
+
+<section>
+  <div class="eyebrow">Where the decision model pays</div>
+  <h2>Cost: Kev reads a passage once, however many questions it answers</h2>
+  <p>Seconds per passage-question on 71 documents (wall clock, shared 6-core CPU). Kev costs about 6.9 s to read a passage plus 1.05 s per question; the instruct model about 6.6 s for every passage-question.</p>
+  <div class="chart"><!--CHART2--></div>
+  <p class="small mute">With one question per document Kev is the slower one; at five it is 2.7 times cheaper than its base family. The reranker is cheaper still, and part D tests whether ranking with it first keeps Kev&rsquo;s accuracy.</p>
+</section>
+
+<section>
+  <div class="eyebrow">Every test so far</div>
+  <div class="tbl"><table>
+    <tr><th>Question</th><th>Reading</th><th>Key numbers</th><th>Answer key</th></tr>
+    <tr class="grp"><td colspan="4">Stale-evidence finder</td></tr>
+    <tr><td>Are listed drops real platform edits?</td><td><span class="pill p-good">Mostly</span></td><td class="num">27/30 contrib · 8/10 platforms</td><td>LLM rater, blind</td></tr>
+    <tr><td>Find the curator&rsquo;s passage, 200 points</td><td><span class="pill p-good">Kev better</span></td><td class="num">62% vs BM25 36%, bge 30%</td><td>Curator&rsquo;s quote</td></tr>
+    <tr><td>Same, 202 held-out points, 41 services</td><td><span class="pill p-good">Replicated</span></td><td class="num">75% vs 41%, 43%</td><td>Curator&rsquo;s quote</td></tr>
+    <tr><td>Kev vs its base family, Qwen3.5-4B</td><td><span class="pill p-n">No difference</span></td><td class="num">62 vs 60 · 75 vs 74</td><td>Curator&rsquo;s quote</td></tr>
+    <tr><td>Kev vs a cross-encoder reranker</td><td><span class="pill p-warn">Parts disagree</span></td><td class="num">62 vs 55 · 75 vs 65</td><td>Curator&rsquo;s quote</td></tr>
+    <tr><td>Does the top passage state the case? 120 points</td><td><span class="pill p-good">Kev, Qwen ahead</span></td><td class="num">Kev 73 · Qwen 73 · reranker 61 · BM25 42</td><td>LLM raters, blind</td></tr>
+    <tr><td>Propose the sentence to quote</td><td><span class="pill p-good">Shipped</span></td><td class="num">83% vs BM25 56%</td><td>Curator&rsquo;s quote</td></tr>
+    <tr><td>Shorter question layout for Kev</td><td><span class="pill p-bad">Not adopted</span></td><td class="num">&minus;2.5 [&minus;5.3, +0.5]</td><td>Curator&rsquo;s quote</td></tr>
+    <tr><td>Suggestions on the 141 stale points</td><td><span class="pill p-warn">Provisional</span></td><td class="num">Kev 74% (document mean)</td><td>LLM rater; human gate open</td></tr>
+    <tr><td>Label a point &ldquo;case no longer stated&rdquo;</td><td><span class="pill p-bad">Not shipped</span></td><td class="num">6 of 12 flags right</td><td>LLM rater</td></tr>
+    <tr><td>Contrib replication and reranker-first cascade</td><td><span class="pill p-run">Running</span></td><td class="num">200 points, 47 services</td><td>Curator&rsquo;s quote</td></tr>
+    <tr class="grp"><td colspan="4">Meaning-diff scanner (the original idea)</td></tr>
+    <tr><td>Rank which answers an update changed</td><td><span class="pill p-bad">Failed</span></td><td class="num">needed 684 reviews, bar 182</td><td>Two LLM raters</td></tr>
+    <tr><td>Catch changes the archive&rsquo;s editors wrote up</td><td><span class="pill p-bad">Failed</span></td><td class="num">1 of 10 memos (chance about 2)</td><td>Human memos</td></tr>
+  </table></div>
+</section>
+
+<section>
+  <div class="eyebrow">Limits</div>
+  <ul class="plain small">
+    <li>The audits and the &ldquo;states the case&rdquo; ratings are Claude models judging blind, not people. A rater that shares a language model&rsquo;s sense of relevance could favour language-model picks.</li>
+    <li>Suggestions are a place to look, not a verdict: nothing here decides whether a point still holds.</li>
+    <li>The daily watch has run twice by hand and is not scheduled.</li>
+  </ul>
+</section>
+
+<footer class="small mute">
+  <div>Data: Open Terms Archive (pga-versions, Platform Governance Archive, University of Bremen, ODC-BY 1.0; contrib, genai-contrib, dating) and ToS;DR&rsquo;s public API. Models: Kev-4B and Qwen3.5-4B (Q8, llama.cpp), bge-reranker-v2-m3, bge-small, BM25.</div>
+  <div>Pre-registrations, hashes and result files are in the repository under <code>stale/</code>.</div>
+</footer>
+</div>
