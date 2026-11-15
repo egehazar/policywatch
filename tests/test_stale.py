@@ -399,5 +399,59 @@ class TestRecrawl(unittest.TestCase):
         self.assertEqual((R[2]['points_break_on_recrawl'], R[2]['points_no_stored_text']), (1, 1))
 
 
+class TestMissing(unittest.TestCase):
+    """stale.missing (the missing points pilot): the tie rules, the interval and the fixed readings of score()."""
+    def test_ties_and_interval(self):
+        from stale import missing as M
+        self.assertEqual(M.best([{'a': .2}, {'a': .7}, {'a': .7}], 'a'), (.7, 1))          # ties go to the earliest piece
+        self.assertEqual(M.auroc([.5, .9], [.5, .1]), .875)                                 # a tie counts half
+        self.assertEqual(M.reading([.01, .2], 'b', 'w', 'n'), 'b'); self.assertEqual(M.reading([-.2, -.01], 'b', 'w', 'n'), 'w')
+        self.assertEqual(M.reading([0.0, .2], 'b', 'w', 'n'), 'n')                          # a bound at 0 is not shown
+        self.assertEqual(M.wilson(14, 40), [0.221, 0.505]); self.assertEqual(M.wilson(12, 40)[0], 0.181)
+
+    def run_score(self, yes, rnd_yes, vs_rerank='KEV better', vs_bm25='KEV better'):
+        from stale import missing as M
+        tmp = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, tmp)
+        for k, v in (('KEY', os.path.join(tmp, 'key.json')), ('AUD', tmp), ('OUT', tmp)):
+            self.addCleanup(setattr, M, k, getattr(M, k)); setattr(M, k, v)
+        K, V = {}, {}
+        for arm, n, y in [(a, 40, yes[a]) for a in M.ARMS] + [('RANDOM', 10, rnd_yes)]:
+            for i in range(n):
+                cid = f'{arm}{i:02d}'; K[cid] = {'doc': 'd', 'case': cid, 'piece': 0, 'arms': [arm]}
+                V[cid] = {'verdict': 'YES' if i < y else 'PARTLY' if i == y else 'NO', 'why': ''}
+        json.dump(K, open(M.KEY, 'w')); json.dump(V, open(os.path.join(tmp, 'verdicts.json'), 'w'))
+        json.dump({'auroc': {}, 'recall_at_20': {}, 'KEV_minus_RERANK_auroc': {'reading': vs_rerank},
+                   'KEV_minus_BM25_auroc': {'reading': vs_bm25}}, open(os.path.join(tmp, 'missing_measures.json'), 'w'))
+        import contextlib, io
+        with contextlib.redirect_stdout(io.StringIO()): M.score()
+        return json.load(open(os.path.join(tmp, 'missing_result.json')))
+
+    def test_readings(self):
+        r = self.run_score({'KEV': 14, 'RERANK': 10, 'BM25': 5}, 1)
+        self.assertEqual((r['reading'], r['method']), ('WORTH BUILDING', 'Kev'))
+        self.assertEqual(r['precision_at_10']['KEV']['yes_or_partly_share'], .375)
+        self.assertEqual(self.run_score({'KEV': 14, 'RERANK': 10, 'BM25': 5}, 3)['reading'], 'NOT VALID (random controls)')
+        r = self.run_score({'KEV': 12, 'RERANK': 10, 'BM25': 5}, 2, vs_rerank='no difference shown')   # .30 exactly passes
+        self.assertEqual((r['reading'], r['method']), ('WORTH BUILDING', 'the reranker (Kev ahead not shown)'))
+        self.assertEqual(self.run_score({'KEV': 11, 'RERANK': 10, 'BM25': 5}, 0)['reading'], 'NOT WORTH BUILDING AS IS')
+        self.assertEqual(self.run_score({'KEV': 20, 'RERANK': 10, 'BM25': 5}, 0, vs_bm25='no difference shown')['reading'],
+                         'NOT WORTH BUILDING AS IS')
+        self.assertEqual(self.run_score({'KEV': 10, 'RERANK': 12, 'BM25': 5}, 0)['method'], 'the reranker (Kev ahead not shown)')
+
+    def test_report_keeps_the_prose(self):
+        from stale import missing_report as R
+        tmp = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, tmp)
+        r = self.run_score({'KEV': 14, 'RERANK': 10, 'BM25': 5}, 1)
+        json.dump(r, open(os.path.join(tmp, 'missing_result.json'), 'w'))
+        dest = os.path.join(tmp, 'RESULT.md'); import contextlib, io
+        with contextlib.redirect_stdout(io.StringIO()):
+            R.build(out=tmp, dest=dest)
+            with open(dest, 'a', encoding='utf-8') as f: f.write('Hand-written reading.\n')
+            R.build(out=tmp, dest=dest)
+        s = open(dest, encoding='utf-8').read()
+        self.assertIn('**Pilot: WORTH BUILDING.**', s); self.assertEqual(s.count(R.MARK), 1)
+        self.assertTrue(s.endswith(R.MARK + '\n\nHand-written reading.\n'))
+
+
 if __name__ == '__main__':
     unittest.main()
