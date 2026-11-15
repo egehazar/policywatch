@@ -1,0 +1,5 @@
+# written 2026-11-15T11:02Z, before any Kev or reranker score of the pilot
+8e076acf1f9c10d42052e96edf8368aadc80d122b6e57a69f874c1cc6e461eeb *stale/PREREG_missing.md
+f4c46ca1649d7902df06124d27414b608e1c47ca72248a5b5c0a22fd6d624197 *stale/missing.py
+aa86fb689593b49dcf0b198d0ae159b0a8664eea5c326cf95337daf626819c72 *stale/out/missing_docs.json
+c8704c66090fe753ae05e29449e2d6cd5bceffcbbaf821e206e74bdfd968fe8b *stale/out/missing_bm25.json
