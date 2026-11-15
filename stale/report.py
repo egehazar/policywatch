@@ -61,6 +61,11 @@ def suggestion(s, arm, prop=None):
             f'{esc(ARMS.get(arm, arm))}. A place to look, not a verdict: the case may no longer be stated at all.</summary>{tops}</details>')
 
 
+def sid(name):
+    """A section anchor for a platform name."""
+    return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-') or 'x'
+
+
 def build(repo=REPO, arm='bm25', base=None, dest=None, noun='platforms'):
     """base: the folder with points.jsonl etc. (default stale/out); dest: the page (default out/site/stale.html)."""
     base = base or os.path.join(HERE, 'out')
@@ -97,10 +102,17 @@ def build(repo=REPO, arm='bm25', base=None, dest=None, noun='platforms'):
                   'quote either.</p>'
                   f'<p class="mut sm">{other} more dropped at an archive extraction change or have no single drop version; '
                   'they are not listed because the platform may not have changed anything.</p>']
+    if lack:     # the points a curator can act on now: ToS;DR's own copy has lost the quote too
+        body.append('<p class="sm"><b>Start here</b> (approved, but ToS;DR&rsquo;s stored copy no longer holds the quote): '
+                    + ' · '.join(f'<a href="#p{r["point"]}">{esc(r["platform"])}: {esc(r["case_title"])}</a>' for r in lack) + '</p>')
+    n = {}
+    for r in drops: n[r['platform']] = n.get(r['platform'], 0) + 1
+    if len(n) > 1:
+        body.append('<p class="sm mut">By platform: ' + ' · '.join(f'<a href="#s{sid(p)}">{esc(p)}</a> ({k})' for p, k in n.items()) + '</p>')
     cur = None
     for r in drops:
         if r['platform'] != cur:
-            cur = r['platform']; body.append(f'<h2>{esc(cur)}</h2>')
+            cur = r['platform']; body.append(f'<h2 id="s{sid(cur)}">{esc(cur)}</h2>')
         d = r['dropped_at']; p = pas.get(r['point']) or {}; ps = p.get('passage')
         when = 'before' if r.get('drop_after_point_update') else 'after'      # drop after the edit = edited before it
         hint = ''
@@ -133,7 +145,7 @@ def build(repo=REPO, arm='bm25', base=None, dest=None, noun='platforms'):
         else:
             phl = ''
         body.append(
-            f'<div class="card"><div class="row"><b>{esc(r["case_title"])}</b>{badge(r.get("classification"))}'
+            f'<div class="card" id="p{r["point"]}"><div class="row"><b>{esc(r["case_title"])}</b>{badge(r.get("classification"))}'
             f'<a class="sm" href="https://edit.tosdr.org/points/{r["point"]}">point {r["point"]}</a></div>'
             f'<div class="sm mut">{esc(r["doc"].split("/")[1][:-3])} · quote {r["status"]} since '
             f'<a href="{repo}/commit/{d["commit"]}">{d["date"]}</a> ({esc(d["subject"])}) · point last edited '
