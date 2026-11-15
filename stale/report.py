@@ -29,6 +29,7 @@ def label_adopted():
 
 
 CLEAR = .30      # stale/reloc_margin.py
+BULK = 100       # points sharing one last-edit day: a bulk update, so the date says nothing about the quote
 
 
 def confidence(s, arm):
@@ -115,6 +116,11 @@ def build(repo=REPO, arm='bm25', base=None, dest=None, noun='platforms'):
                     'that would then need a new quote): ' + ' · '.join(
                         f'<a href="#p{v[0]["point"]}">{esc(p)}, {esc(v[0].get("tosdr_document") or "document " + d)}</a> ({len(v)})'
                         for (p, d), v in top) + '</p>')
+    per_day = {}                 # ToS;DR updated hundreds of points on single days (2023-07-11, 2026-05-18): not a curator's check
+    for r in pts:
+        if r.get('point_updated_at'): per_day[r['point_updated_at'][:10]] = per_day.get(r['point_updated_at'][:10], 0) + 1
+    bulk_note = lambda r: (f' (a bulk update: {per_day[r["point_updated_at"][:10]]} of the points checked here share that date)'
+                           if per_day.get((r.get('point_updated_at') or '')[:10], 0) >= BULK else '')
     n = {}
     for r in drops: n[r['platform']] = n.get(r['platform'], 0) + 1
     if len(n) > 1:
@@ -159,7 +165,7 @@ def build(repo=REPO, arm='bm25', base=None, dest=None, noun='platforms'):
             f'<a class="sm" href="https://edit.tosdr.org/points/{r["point"]}">point {r["point"]}</a></div>'
             f'<div class="sm mut">{esc(r["doc"].split("/")[1][:-3])} · quote {r["status"]} since '
             f'<a href="{repo}/commit/{d["commit"]}">{d["date"]}</a> ({esc(d["subject"])}) · point last edited '
-            f'{esc(r["point_updated_at"])}, {when} the change · current coverage {r["current_coverage"]:.0%}'
+            f'{esc(r["point_updated_at"])}{bulk_note(r)}, {when} the change · current coverage {r["current_coverage"]:.0%}'
             f'{cap}</div>'
             f'{phl}<p class="sm"><i>Quote:</i> {esc(re.sub(r"<[^<>]*>", "", r["quote"])[:600])}</p>{diff}{hint}'
             f'{suggestion(sug.get(r["point"]), arm, prop.get(r["point"]))}</div>')
