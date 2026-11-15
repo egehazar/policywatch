@@ -1,0 +1,17 @@
+{
+ "pieces": 2339,
+ "pieces_kev_reads": 1123,
+ "piece_share": 0.48,
+ "cells": 7138,
+ "cells_kev_asked": 1960,
+ "cell_share": 0.275,
+ "est_hours_full_kev": 6.57,
+ "est_hours_cascade_kev": 2.72,
+ "est_hours_reranker": 1.33,
+ "est_time_share": 0.617,
+ "cost_model": {
+  "kev_per_piece_s": 6.9,
+  "kev_per_question_s": 1.05,
+  "rerank_per_cell_s": 0.67
+ }
+}
