@@ -1,0 +1,79 @@
+{
+ "P": {
+  "cases": 10,
+  "GENUINE": 8,
+  "CAPTURE": 2,
+  "UNSURE": 0,
+  "genuine_share": 0.8,
+  "wilson95": [
+   0.49,
+   0.943
+  ],
+  "disagree_cases": [
+   {
+    "case": "C04",
+    "point": 37392,
+    "platform": "Telegram",
+    "doc": "Telegram/Privacy Policy.md",
+    "why": "Later capture is the German Datenschutzerklaerung; section 3.3.1 Cloud Chats carries the same sentence translated into German."
+   },
+   {
+    "case": "C28",
+    "point": 323712,
+    "platform": "LinkedIn",
+    "doc": "LinkedIn/Privacy Policy.md",
+    "why": "Later capture is the LinkedIn European Regional Privacy Notice (a supplement for the Designated Countries), not the global Privacy Policy that held the quote."
+   }
+  ]
+ },
+ "L": {
+  "cases": 30,
+  "GENUINE": 27,
+  "CAPTURE": 3,
+  "UNSURE": 0,
+  "genuine_share": 0.9,
+  "wilson95": [
+   0.744,
+   0.965
+  ],
+  "disagree_cases": [
+   {
+    "case": "C06",
+    "point": 15680,
+    "platform": "Yahoo",
+    "doc": "Yahoo/Terms of Service.md",
+    "why": "Earlier capture is the global Verizon Media Terms; the later one is the legacy Yahoo Terms of Oath (EMEA) Limited under Irish law with en_GB links, a different regional document."
+   },
+   {
+    "case": "C08",
+    "point": 7844,
+    "platform": "BBC",
+    "doc": "BBC/Privacy Policy.md",
+    "why": "The policy body sections 1-15 are identical; the later capture only lost the page header ('Page updated: August 2019 Version 3.1'), navigation and table of contents."
+   },
+   {
+    "case": "C29",
+    "point": 318289,
+    "platform": "Google",
+    "doc": "Google/Privacy Policy.md",
+    "why": "Same policy version (effective 31 March 2020) served as en-GB instead of en-US; the sentence is still there with British spelling ('analyse', 'optimise')."
+   }
+  ]
+ },
+ "G": {
+  "cases": 10,
+  "GENUINE": 0,
+  "CAPTURE": 10,
+  "UNSURE": 0,
+  "genuine_share": 0.0,
+  "wilson95": [
+   -0.0,
+   0.278
+  ],
+  "disagree_cases": []
+ },
+ "reading": {
+  "L_below_80": false,
+  "G_guard_too_eager": false
+ }
+}

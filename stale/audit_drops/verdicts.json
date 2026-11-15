@@ -1,202 +1,202 @@
 {
  "C01": {
-  "verdict": "",
-  "why": ""
+  "verdict": "CAPTURE",
+  "why": "Later capture is 61 characters, only the title 'Microsoft Privacy Statement': truncated."
  },
  "C02": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "New US terms (Last Updated September 4, 2026) rewrote the clause: 'during or after' became 'after' and a clause on claims arising before any prior Arbitration Agreement was inserted."
  },
  "C03": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "June 30, 2026 update rewrote the sentence as 'By continuing to use the Dailymotion Service after the effective date, you will be deemed to have accepted the updated Terms'."
  },
  "C04": {
-  "verdict": "",
-  "why": ""
+  "verdict": "CAPTURE",
+  "why": "Later capture is the German Datenschutzerklaerung; section 3.3.1 Cloud Chats carries the same sentence translated into German."
  },
  "C05": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "Policy rewritten (last update 08/01/2019 changed to 30/06/2022); the one-line rights paragraph became separate sections 8.1-8.6, including 'Droit d'opposition' and 'Droit a la limitation'."
  },
  "C06": {
-  "verdict": "",
-  "why": ""
+  "verdict": "CAPTURE",
+  "why": "Earlier capture is the global Verizon Media Terms; the later one is the legacy Yahoo Terms of Oath (EMEA) Limited under Irish law with en_GB links, a different regional document."
  },
  "C07": {
-  "verdict": "",
-  "why": ""
+  "verdict": "CAPTURE",
+  "why": "Later capture is 61 characters, only the title 'Microsoft Privacy Statement': truncated."
  },
  "C08": {
-  "verdict": "",
-  "why": ""
+  "verdict": "CAPTURE",
+  "why": "The policy body sections 1-15 are identical; the later capture only lost the page header ('Page updated: August 2019 Version 3.1'), navigation and table of contents."
  },
  "C09": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "May 9, 2022 version deleted the whole 'Qwant account' section and rewrote the cookies section; the rest of the text is unchanged."
  },
  "C10": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "April 2024 terms reworded it as 'The Company Sites are intended solely for your personal and non-commercial use'."
  },
  "C11": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "New March 31, 2023 terms rewrote the clause as 12.1 Charges ('may charge your credit card, debit card, or other payment mechanism ... (\"Payment Method\")')."
  },
  "C12": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "'Effective Date: January 1, 2026' was replaced by 'Last update: October 1, 2026' in a restructured terms page that splits the US/rest-of-world terms from the EEA/UK/Swiss terms."
  },
  "C13": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The January 2022 EU Data Policy (Meta Platforms Ireland) was replaced by the 2024 EU Privacy Policy from the same controller; its 'To communicate with you' section uses different wording."
  },
  "C14": {
-  "verdict": "",
-  "why": ""
+  "verdict": "CAPTURE",
+  "why": "Later capture is 83 characters, only the title 'Apple Media Services Terms and Conditions'."
  },
  "C15": {
-  "verdict": "",
-  "why": ""
+  "verdict": "CAPTURE",
+  "why": "Later capture is 61 characters, only the title 'Microsoft Privacy Statement': truncated."
  },
  "C16": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The earlier capture announced the guidelines would move to Meta's Community Standards on Nov 12, 2024; the later capture is those Standards, and the Instagram-specific spam paragraph is gone (Spam policy worded differently)."
  },
  "C17": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The Instagram guidelines text was retired as announced; the later Meta Community Standards cover nudity in a differently worded list, and 'we don't allow nudity on Instagram' is absent."
  },
  "C18": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The date line changed from 'Effective as of May 19, 2020' to 'Effective as of April 19, 2024'."
  },
  "C19": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The December 11, 2020 policy was replaced by a complete new policy dated June 15, 2022; the analytics-partner sentence is not in it."
  },
  "C20": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The only diff in the whole document: 'GitHub for mobile' was renamed to 'GitHub Mobile' in this paragraph."
  },
  "C21": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "Section D.2 was rewritten as 'We may refuse or remove User-Generated Content that violates applicable law or our terms and policies.'"
  },
  "C22": {
-  "verdict": "",
-  "why": ""
+  "verdict": "CAPTURE",
+  "why": "Later capture is 61 characters, only the title 'Microsoft Privacy Statement': truncated."
  },
  "C23": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "Do Not Track paragraph was rewritten under a new heading ('our third party business partners ... will honor do not track signals')."
  },
  "C24": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "New June 15, 2022 policy replaced the retention section with a shorter 'Retention' paragraph in different words."
  },
  "C25": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "Cookie Notice updated 01/05/2026; the sentence now reads 'If you have any further questions' instead of 'queries'."
  },
  "C26": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "Same Website Privacy Policy updated June 29, 2023 is complete, but its DNT section is gone (no 'DNT' or 'do not track' anywhere)."
  },
  "C27": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "February 16, 2026 terms reworded the sentence ('in which case ... (such as safety or security concerns)') and rewrote the rest of the paragraph."
  },
  "C28": {
-  "verdict": "",
-  "why": ""
+  "verdict": "CAPTURE",
+  "why": "Later capture is the LinkedIn European Regional Privacy Notice (a supplement for the Designated Countries), not the global Privacy Policy that held the quote."
  },
  "C29": {
-  "verdict": "",
-  "why": ""
+  "verdict": "CAPTURE",
+  "why": "Same policy version (effective 31 March 2020) served as en-GB instead of en-US; the sentence is still there with British spelling ('analyse', 'optimise')."
  },
  "C30": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The Feb 7, 2024 version became Part A and the April 2021 old version (Part B, which held 'protection and use of personal information') was dropped for the Aug 2022 version."
  },
  "C31": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The new July 1, 2022 policy, announced in the earlier capture, rewrote the updates clause ('Updates to the Privacy Policy...'); the noscript banner is only a header."
  },
  "C32": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The only diff: 'Last Revised: January 5, 2026' became 'Last Revised: July 9, 2026'."
  },
  "C33": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The 2024 global Privacy Statement (with an EEA/UK supplement) rewrote the paragraph ('If you use a Netflix app (such as the main Netflix app, or a Netflix game app)...')."
  },
  "C34": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The February 13, 2024 terms rewrote the warranty disclaimer ('WE AND THE RELEASED ENTITIES CANNOT AND DO NOT WARRANT...'); the quoted accuracy sentence is gone."
  },
  "C35": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "Terms were restructured and the Fair Use section reworded ('You can still use W3Schools copyright material under fair use for:'); the definition sentence was removed."
  },
  "C36": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The new March 31, 2023 terms replaced the clause with a bulleted 'LIMITATION ON LIABILITY' list ('ZOOM ... WILL NOT BE LIABLE FOR ANY: ...')."
  },
  "C37": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The new July 2022 General Terms rewrote it as 'You are responsible for maintaining the confidentiality of your Account and its password'."
  },
  "C38": {
-  "verdict": "",
-  "why": ""
+  "verdict": "CAPTURE",
+  "why": "Later capture is 61 characters, only the title 'Microsoft Privacy Statement': truncated."
  },
  "C39": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "Terms of Use were replaced by a complete new Terms of Service; the User Submissions licence ('in any media formats and through any media channels') is gone."
  },
  "C40": {
-  "verdict": "",
-  "why": ""
+  "verdict": "CAPTURE",
+  "why": "Later capture is 83 characters, only the title 'Apple Media Services Terms and Conditions'."
  },
  "C41": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The policy was reissued by LY Corporation, and 'business partners' was reworded to 'Partners' ('We may collect your Personal Data from our Partners.')."
  },
  "C42": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The 2024 Privacy Statement shortened it to 'We use Service Providers to perform services on our behalf...'."
  },
  "C43": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The June 30, 2023 notice replaced the bullet with 'You may adjust your personalized advertising preferences by visiting Your Ads Privacy Choices'."
  },
  "C44": {
-  "verdict": "",
-  "why": ""
+  "verdict": "CAPTURE",
+  "why": "Later capture is 61 characters, only the title 'Microsoft Privacy Statement': truncated."
  },
  "C45": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The 2024 Privacy Statement rewrote the collection section into categories ('Personal details: When you create your Netflix account, we collect...')."
  },
  "C46": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The 2021-10-11 policy made 'Full name' a required registration field for everyone, removing the Vinted.pl-only line."
  },
  "C47": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The new July 1, 2022 policy reworded it as 'Your personal data may be processed in any country in which we engage service providers and partners.'"
  },
  "C48": {
-  "verdict": "",
-  "why": ""
+  "verdict": "CAPTURE",
+  "why": "Later capture is 29 characters, only the heading 'Privacy Policy'."
  },
  "C49": {
-  "verdict": "",
-  "why": ""
+  "verdict": "CAPTURE",
+  "why": "Later capture is an Airbnb 'Log in or sign up' page with a country-code list, not the policy."
  },
  "C50": {
-  "verdict": "",
-  "why": ""
+  "verdict": "GENUINE",
+  "why": "The January 24, 2024 terms rewrote 6.4 as 'In case of material changes we will notify you at least one month before...' and added a right to cancel."
  }
 }

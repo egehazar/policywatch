@@ -6,3 +6,5 @@ ef096f5a36d3756ce7c595e77e18fc4e74eac4fbb20ab11b273ebff77c6f2938 *stale/audit_dr
 b358369e4178098e2315e2f34396600fac51a68e5db5c5784a21add214272c27 *stale/audit_drops/README.md
 b41aea92a57f7980c5d38f41e6411c5c31689537fada2b97b4b02d2d7b7f2b53 *stale/audit_drops/verdicts.json
 1c6af945e6b73716ff635b64be32e2a7df8063383cb424497b4e572306f28f7c *stale/out/drop_audit_key.json
+# verdicts 2026-11-15T01:25:17Z, as returned by the rater, before scoring
+14568573d4cd5b5b204d3773437916d31969a5d33199857dbe22361eb62b682d *stale/audit_drops/verdicts.json

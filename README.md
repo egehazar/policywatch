@@ -18,6 +18,7 @@ Each test was hashed before scoring. All results are reported, including failure
 | Same, on 202 held-out points from 41 other services | **Replicated** | Kev 75%, BM25 41%, bge 43%, on ToS;DR's own stored text. | `stale/RESULT_relocate2.md` |
 | Kev vs its base family (Qwen3.5-4B asked the same yes/no question) | **No difference shown**, in both parts | 62% vs 60% and 75% vs 74%. The win was not shown to come from decision-model training. Qwen used about 2-3x Kev's CPU per passage-question. | `stale/RESULT_relocate2.md` |
 | Kev vs a cross-encoder reranker (bge-reranker-v2-m3) | **Not shown to beat it** (the parts disagree) | 62% vs 55% (no difference shown); 75% vs 65% (Kev better). The reranker used 0.39 and 0.98 CPU s per passage-question, Kev 1.94 and 3.52. | `stale/RESULT_relocate2.md` |
+| Are the listed drops real platform edits? (blind audit, an LLM rater) | **Mostly** | 27 of 30 sampled contrib drops are real edits (.90 [.74, .97]), 8 of 10 on the 20 platforms; the misses are the archive saving another language or region of the page. The guard's 10 sampled set-asides were all broken captures. | `stale/RESULT_drop_audit.md` |
 | Propose the sentence to quote, from the top passage | **Shipped** | When the passage was right, Kev's sentence matched the curator's quote 83% of the time; BM25's 56%. | `stale/RESULT_relocate2.md` |
 | Kev's short question layout for relocation | **Not adopted** | 20 platforms: -2.5 points [-5.3, +0.5], failing the bar (lower bound at least -5). Held-out services: 0.0 [-3.6, +4.0], passing. No rule for the disagreement; the page keeps the layout that passed on its own platforms. | `stale/RESULT_relocate2.md` |
 | Suggest where a stale point's case is now stated (141 points) | **Page leads with Kev** (provisional) | Top-1 on 69 points whose quote is gone: Kev 74%, BM25 with the old quote 77% (no difference shown), bge 49%, BM25 40%. Gold is a model rater's until a human check. | `stale/RESULT_suggest.md` |
@@ -161,6 +162,9 @@ anything.
   - For 507 of the 521, ToS;DR's stored copy still holds the quote (re-crawl pending); for 14 it does not.
   - Older captures fail in ways the archive files as edits: a page collapsed to a title, a login wall saved under
     two documents. 74 such drops are set aside as broken captures, not listed.
+  - A blind audit (`stale/RESULT_drop_audit.md`, pre-registered, rated by a Claude subagent) found 27 of 30 sampled
+    listed contrib drops to be real edits. The 3 others, and 2 of 10 on the 20 platforms, were the archive saving
+    another language or region of the page, or losing a page header. All 10 sampled set-asides were broken captures.
   - `stale/wide_daily.py` is the daily watch for these collections (built, not scheduled).
 - **Where the decision model would come in: relocation.** When a quote is gone, a curator has to find the passage that
   now states the case, or decline the point. A pre-registered test (`stale/PREREG_relocate.md`, hashed before any
