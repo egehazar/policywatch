@@ -1,0 +1,2446 @@
+{
+ "cards": {
+  "S001": {
+   "part": "B",
+   "point": 14467,
+   "doc": "hCaptcha/Privacy Policy [2440]",
+   "piece": 8,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S002": {
+   "part": "A",
+   "point": 13688,
+   "doc": "Twitch/Terms of Service.md",
+   "piece": 23,
+   "arms": [
+    "KEV",
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S003": {
+   "part": "A",
+   "point": 318798,
+   "doc": "Spotify/Privacy Policy.md",
+   "piece": 14,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S004": {
+   "part": "B",
+   "point": 36546,
+   "doc": "Xiaomi/User Agreement [3317]",
+   "piece": 13,
+   "arms": [
+    "RERANK",
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S005": {
+   "part": "A",
+   "point": 13710,
+   "doc": "Twitch/Terms of Service.md",
+   "piece": 39,
+   "arms": [
+    "KEV",
+    "RERANK"
+   ],
+   "gold": true
+  },
+  "S006": {
+   "part": "A",
+   "point": 319275,
+   "doc": "YouTube/Privacy Policy.md",
+   "piece": 64,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S007": {
+   "part": "A",
+   "point": 318780,
+   "doc": "Spotify/Terms of Service.md",
+   "piece": 30,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S008": {
+   "part": "B",
+   "point": 30982,
+   "doc": "Headspace/Terms and Conditions [5158]",
+   "piece": 18,
+   "arms": [
+    "KEV",
+    "RERANK"
+   ],
+   "gold": true
+  },
+  "S009": {
+   "part": "A",
+   "point": 320751,
+   "doc": "Facebook/Trackers Policy.md",
+   "piece": 0,
+   "arms": [
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S010": {
+   "part": "A",
+   "point": 322826,
+   "doc": "Tumblr/Privacy Policy.md",
+   "piece": 23,
+   "arms": [
+    "RERANK",
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S011": {
+   "part": "A",
+   "point": 318964,
+   "doc": "LinkedIn/Terms of Service.md",
+   "piece": 22,
+   "arms": [
+    "KEV",
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S012": {
+   "part": "A",
+   "point": 318272,
+   "doc": "Facebook/Privacy Policy.md",
+   "piece": 20,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S013": {
+   "part": "B",
+   "point": 22102,
+   "doc": "Alibaba/Privacy Policy [3409]",
+   "piece": 19,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S014": {
+   "part": "A",
+   "point": 13710,
+   "doc": "Twitch/Terms of Service.md",
+   "piece": 10,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S015": {
+   "part": "B",
+   "point": 8705,
+   "doc": "The Session/Privacy policy [2230]",
+   "piece": 0,
+   "arms": [
+    "KEV",
+    "RERANK",
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S016": {
+   "part": "A",
+   "point": 322821,
+   "doc": "Tumblr/Privacy Policy.md",
+   "piece": 20,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S017": {
+   "part": "A",
+   "point": 318801,
+   "doc": "Spotify/Privacy Policy.md",
+   "piece": 9,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S018": {
+   "part": "B",
+   "point": 326283,
+   "doc": "Rapid VPN/Privacy Policy [23731]",
+   "piece": 6,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S019": {
+   "part": "B",
+   "point": 319771,
+   "doc": "IKEA/Terms and Conditions [7126]",
+   "piece": 13,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S020": {
+   "part": "A",
+   "point": 320874,
+   "doc": "Bluesky/Privacy Policy.md",
+   "piece": 6,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S021": {
+   "part": "B",
+   "point": 319665,
+   "doc": "Mimo/Privacy Policy [23505]",
+   "piece": 6,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S022": {
+   "part": "B",
+   "point": 305212,
+   "doc": "Malwarebytes/Terms of Service [2529]",
+   "piece": 4,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S023": {
+   "part": "B",
+   "point": 319665,
+   "doc": "Mimo/Privacy Policy [23505]",
+   "piece": 7,
+   "arms": [
+    "RANDOM"
+   ],
+   "gold": false
+  },
+  "S024": {
+   "part": "B",
+   "point": 13156,
+   "doc": "Xiaomi/Privacy Policy [1480]",
+   "piece": 4,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S025": {
+   "part": "B",
+   "point": 22397,
+   "doc": "Weblate/Terms and Privacy (English) [5956]",
+   "piece": 6,
+   "arms": [
+    "RERANK",
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S026": {
+   "part": "B",
+   "point": 326299,
+   "doc": "Rapid VPN/Privacy Policy [23731]",
+   "piece": 17,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S027": {
+   "part": "A",
+   "point": 320874,
+   "doc": "Bluesky/Privacy Policy.md",
+   "piece": 22,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S028": {
+   "part": "B",
+   "point": 305212,
+   "doc": "Malwarebytes/Terms of Service [2529]",
+   "piece": 5,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S029": {
+   "part": "A",
+   "point": 318780,
+   "doc": "Spotify/Terms of Service.md",
+   "piece": 29,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S030": {
+   "part": "B",
+   "point": 22025,
+   "doc": "Alibaba/Terms of Use [6757]",
+   "piece": 44,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": true
+  },
+  "S031": {
+   "part": "A",
+   "point": 328860,
+   "doc": "Snapchat/Privacy Policy.md",
+   "piece": 0,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S032": {
+   "part": "B",
+   "point": 13344,
+   "doc": "Steam/Steam Subscriber Agreement [207]",
+   "piece": 12,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S033": {
+   "part": "B",
+   "point": 22235,
+   "doc": "Disroot/Terms of Service [3486]",
+   "piece": 5,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S034": {
+   "part": "A",
+   "point": 322731,
+   "doc": "Pinterest/Privacy Policy.md",
+   "piece": 23,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S035": {
+   "part": "A",
+   "point": 320986,
+   "doc": "Reddit/Terms of Service.md",
+   "piece": 28,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S036": {
+   "part": "A",
+   "point": 318780,
+   "doc": "Spotify/Terms of Service.md",
+   "piece": 43,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S037": {
+   "part": "B",
+   "point": 11825,
+   "doc": "BitDefender/Privacy Policy for Bitdefender Home Solutions [3119]",
+   "piece": 5,
+   "arms": [
+    "KEV",
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S038": {
+   "part": "B",
+   "point": 16051,
+   "doc": "Element/Terms of Service [3416]",
+   "piece": 9,
+   "arms": [
+    "RANDOM"
+   ],
+   "gold": false
+  },
+  "S039": {
+   "part": "A",
+   "point": 321391,
+   "doc": "X/Terms of Service.md",
+   "piece": 21,
+   "arms": [
+    "RERANK",
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S040": {
+   "part": "A",
+   "point": 321416,
+   "doc": "X/Privacy Policy.md",
+   "piece": 4,
+   "arms": [
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S041": {
+   "part": "B",
+   "point": 8408,
+   "doc": "BBC/Privacy and Cookies Policy [117]",
+   "piece": 1,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S042": {
+   "part": "B",
+   "point": 319771,
+   "doc": "IKEA/Terms and Conditions [7126]",
+   "piece": 20,
+   "arms": [
+    "KEV",
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S043": {
+   "part": "A",
+   "point": 20040,
+   "doc": "Tumblr/Terms of Service.md",
+   "piece": 23,
+   "arms": [
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S044": {
+   "part": "B",
+   "point": 22813,
+   "doc": "MIT App Inventor/MIT App Inventor Privacy Policy and Terms of Use [7155]",
+   "piece": 7,
+   "arms": [
+    "RANDOM"
+   ],
+   "gold": false
+  },
+  "S045": {
+   "part": "A",
+   "point": 321416,
+   "doc": "X/Privacy Policy.md",
+   "piece": 15,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S046": {
+   "part": "A",
+   "point": 318800,
+   "doc": "Spotify/Privacy Policy.md",
+   "piece": 30,
+   "arms": [
+    "RANDOM"
+   ],
+   "gold": false
+  },
+  "S047": {
+   "part": "A",
+   "point": 321391,
+   "doc": "X/Terms of Service.md",
+   "piece": 2,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S048": {
+   "part": "A",
+   "point": 13688,
+   "doc": "Twitch/Terms of Service.md",
+   "piece": 20,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": true
+  },
+  "S049": {
+   "part": "A",
+   "point": 13391,
+   "doc": "Reddit/Terms of Service.md",
+   "piece": 25,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": true
+  },
+  "S050": {
+   "part": "A",
+   "point": 20040,
+   "doc": "Tumblr/Terms of Service.md",
+   "piece": 22,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S051": {
+   "part": "B",
+   "point": 11825,
+   "doc": "BitDefender/Privacy Policy for Bitdefender Home Solutions [3119]",
+   "piece": 4,
+   "arms": [
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S052": {
+   "part": "A",
+   "point": 320751,
+   "doc": "Facebook/Trackers Policy.md",
+   "piece": 1,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S053": {
+   "part": "A",
+   "point": 322731,
+   "doc": "Pinterest/Privacy Policy.md",
+   "piece": 8,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S054": {
+   "part": "A",
+   "point": 12189,
+   "doc": "Instagram/Terms of Service.md",
+   "piece": 8,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S055": {
+   "part": "B",
+   "point": 326283,
+   "doc": "Rapid VPN/Privacy Policy [23731]",
+   "piece": 26,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S056": {
+   "part": "B",
+   "point": 14935,
+   "doc": "The Walt Disney Company/Disney Terms of Use [3291]",
+   "piece": 3,
+   "arms": [
+    "KEV",
+    "RERANK"
+   ],
+   "gold": true
+  },
+  "S057": {
+   "part": "B",
+   "point": 16051,
+   "doc": "Element/Terms of Service [3416]",
+   "piece": 21,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S058": {
+   "part": "A",
+   "point": 318801,
+   "doc": "Spotify/Privacy Policy.md",
+   "piece": 12,
+   "arms": [
+    "KEV",
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S059": {
+   "part": "A",
+   "point": 320874,
+   "doc": "Bluesky/Privacy Policy.md",
+   "piece": 11,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S060": {
+   "part": "B",
+   "point": 15070,
+   "doc": "The Walt Disney Company/Walt Disney Privacy Policy [3292]",
+   "piece": 23,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S061": {
+   "part": "B",
+   "point": 319665,
+   "doc": "Mimo/Privacy Policy [23505]",
+   "piece": 3,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S062": {
+   "part": "B",
+   "point": 30982,
+   "doc": "Headspace/Terms and Conditions [5158]",
+   "piece": 14,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S063": {
+   "part": "A",
+   "point": 13391,
+   "doc": "Reddit/Terms of Service.md",
+   "piece": 30,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S064": {
+   "part": "A",
+   "point": 319275,
+   "doc": "YouTube/Privacy Policy.md",
+   "piece": 42,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S065": {
+   "part": "A",
+   "point": 876,
+   "doc": "Tumblr/Terms of Service.md",
+   "piece": 18,
+   "arms": [
+    "RANDOM"
+   ],
+   "gold": false
+  },
+  "S066": {
+   "part": "A",
+   "point": 20040,
+   "doc": "Tumblr/Terms of Service.md",
+   "piece": 20,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S067": {
+   "part": "B",
+   "point": 22235,
+   "doc": "Disroot/Terms of Service [3486]",
+   "piece": 0,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S068": {
+   "part": "B",
+   "point": 26170,
+   "doc": "Represent/Terms & Conditions [7207]",
+   "piece": 10,
+   "arms": [
+    "KEV",
+    "RERANK",
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S069": {
+   "part": "B",
+   "point": 20147,
+   "doc": "Uber/Privacy Policy [354]",
+   "piece": 17,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S070": {
+   "part": "B",
+   "point": 13344,
+   "doc": "Steam/Steam Subscriber Agreement [207]",
+   "piece": 4,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S071": {
+   "part": "B",
+   "point": 22397,
+   "doc": "Weblate/Terms and Privacy (English) [5956]",
+   "piece": 7,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S072": {
+   "part": "B",
+   "point": 22813,
+   "doc": "MIT App Inventor/MIT App Inventor Privacy Policy and Terms of Use [7155]",
+   "piece": 10,
+   "arms": [
+    "KEV",
+    "RERANK",
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S073": {
+   "part": "B",
+   "point": 8408,
+   "doc": "BBC/Privacy and Cookies Policy [117]",
+   "piece": 11,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S074": {
+   "part": "A",
+   "point": 318800,
+   "doc": "Spotify/Privacy Policy.md",
+   "piece": 11,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S075": {
+   "part": "B",
+   "point": 22025,
+   "doc": "Alibaba/Terms of Use [6757]",
+   "piece": 9,
+   "arms": [
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S076": {
+   "part": "A",
+   "point": 320782,
+   "doc": "Facebook/Privacy Policy.md",
+   "piece": 51,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S077": {
+   "part": "A",
+   "point": 318272,
+   "doc": "Facebook/Privacy Policy.md",
+   "piece": 98,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S078": {
+   "part": "B",
+   "point": 13156,
+   "doc": "Xiaomi/Privacy Policy [1480]",
+   "piece": 2,
+   "arms": [
+    "RERANK",
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S079": {
+   "part": "A",
+   "point": 876,
+   "doc": "Tumblr/Terms of Service.md",
+   "piece": 8,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S080": {
+   "part": "A",
+   "point": 320782,
+   "doc": "Facebook/Privacy Policy.md",
+   "piece": 46,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S081": {
+   "part": "B",
+   "point": 18166,
+   "doc": "Orange/Privacy Notice [4350]",
+   "piece": 2,
+   "arms": [
+    "KEV",
+    "RERANK",
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S082": {
+   "part": "A",
+   "point": 328860,
+   "doc": "Snapchat/Privacy Policy.md",
+   "piece": 22,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S083": {
+   "part": "B",
+   "point": 318466,
+   "doc": "Hostinger/Terms of Service [23458]",
+   "piece": 46,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S084": {
+   "part": "A",
+   "point": 318800,
+   "doc": "Spotify/Privacy Policy.md",
+   "piece": 26,
+   "arms": [
+    "RERANK",
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S085": {
+   "part": "B",
+   "point": 319685,
+   "doc": "LADBible Group/Terms of Service [23155]",
+   "piece": 3,
+   "arms": [
+    "KEV",
+    "RERANK"
+   ],
+   "gold": true
+  },
+  "S086": {
+   "part": "B",
+   "point": 24770,
+   "doc": "KeyMe/Privacy Policy [7004]",
+   "piece": 2,
+   "arms": [
+    "KEV",
+    "RERANK"
+   ],
+   "gold": true
+  },
+  "S087": {
+   "part": "B",
+   "point": 20147,
+   "doc": "Uber/Privacy Policy [354]",
+   "piece": 7,
+   "arms": [
+    "RERANK",
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S088": {
+   "part": "A",
+   "point": 322821,
+   "doc": "Tumblr/Privacy Policy.md",
+   "piece": 24,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S089": {
+   "part": "A",
+   "point": 320772,
+   "doc": "Facebook/Privacy Policy.md",
+   "piece": 107,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S090": {
+   "part": "A",
+   "point": 322811,
+   "doc": "Tumblr/Privacy Policy.md",
+   "piece": 7,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S091": {
+   "part": "A",
+   "point": 322821,
+   "doc": "Tumblr/Privacy Policy.md",
+   "piece": 19,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S092": {
+   "part": "B",
+   "point": 13344,
+   "doc": "Steam/Steam Subscriber Agreement [207]",
+   "piece": 30,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S093": {
+   "part": "B",
+   "point": 14785,
+   "doc": "STiBaRC/Privacy Policy [3766]",
+   "piece": 0,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S094": {
+   "part": "A",
+   "point": 319275,
+   "doc": "YouTube/Privacy Policy.md",
+   "piece": 44,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S095": {
+   "part": "B",
+   "point": 319665,
+   "doc": "Mimo/Privacy Policy [23505]",
+   "piece": 2,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": true
+  },
+  "S096": {
+   "part": "B",
+   "point": 305212,
+   "doc": "Malwarebytes/Terms of Service [2529]",
+   "piece": 7,
+   "arms": [
+    "RANDOM"
+   ],
+   "gold": false
+  },
+  "S097": {
+   "part": "A",
+   "point": 321416,
+   "doc": "X/Privacy Policy.md",
+   "piece": 12,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S098": {
+   "part": "B",
+   "point": 318466,
+   "doc": "Hostinger/Terms of Service [23458]",
+   "piece": 56,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": true
+  },
+  "S099": {
+   "part": "A",
+   "point": 965,
+   "doc": "Tumblr/Privacy Policy.md",
+   "piece": 16,
+   "arms": [
+    "KEV",
+    "RERANK",
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S100": {
+   "part": "A",
+   "point": 321010,
+   "doc": "Reddit/Terms of Service.md",
+   "piece": 36,
+   "arms": [
+    "RERANK",
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S101": {
+   "part": "B",
+   "point": 16051,
+   "doc": "Element/Terms of Service [3416]",
+   "piece": 22,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S102": {
+   "part": "A",
+   "point": 318777,
+   "doc": "Spotify/Terms of Service.md",
+   "piece": 25,
+   "arms": [
+    "KEV",
+    "RERANK",
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S103": {
+   "part": "A",
+   "point": 319240,
+   "doc": "YouTube/Privacy Policy.md",
+   "piece": 25,
+   "arms": [
+    "KEV",
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S104": {
+   "part": "A",
+   "point": 322827,
+   "doc": "Tumblr/Privacy Policy.md",
+   "piece": 0,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S105": {
+   "part": "B",
+   "point": 22235,
+   "doc": "Disroot/Terms of Service [3486]",
+   "piece": 1,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S106": {
+   "part": "B",
+   "point": 15070,
+   "doc": "The Walt Disney Company/Walt Disney Privacy Policy [3292]",
+   "piece": 15,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S107": {
+   "part": "A",
+   "point": 876,
+   "doc": "Tumblr/Terms of Service.md",
+   "piece": 9,
+   "arms": [
+    "KEV",
+    "RERANK"
+   ],
+   "gold": true
+  },
+  "S108": {
+   "part": "A",
+   "point": 318964,
+   "doc": "LinkedIn/Terms of Service.md",
+   "piece": 4,
+   "arms": [
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S109": {
+   "part": "A",
+   "point": 322731,
+   "doc": "Pinterest/Privacy Policy.md",
+   "piece": 22,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S110": {
+   "part": "A",
+   "point": 318798,
+   "doc": "Spotify/Privacy Policy.md",
+   "piece": 18,
+   "arms": [
+    "KEV",
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S111": {
+   "part": "A",
+   "point": 328860,
+   "doc": "Snapchat/Privacy Policy.md",
+   "piece": 4,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": true
+  },
+  "S112": {
+   "part": "A",
+   "point": 319240,
+   "doc": "YouTube/Privacy Policy.md",
+   "piece": 61,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S113": {
+   "part": "B",
+   "point": 24770,
+   "doc": "KeyMe/Privacy Policy [7004]",
+   "piece": 6,
+   "arms": [
+    "RANDOM"
+   ],
+   "gold": false
+  },
+  "S114": {
+   "part": "A",
+   "point": 322811,
+   "doc": "Tumblr/Privacy Policy.md",
+   "piece": 3,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S115": {
+   "part": "B",
+   "point": 19336,
+   "doc": "OneSignal/Privacy Policy [5064]",
+   "piece": 11,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": true
+  },
+  "S116": {
+   "part": "A",
+   "point": 318272,
+   "doc": "Facebook/Privacy Policy.md",
+   "piece": 56,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S117": {
+   "part": "A",
+   "point": 13391,
+   "doc": "Reddit/Terms of Service.md",
+   "piece": 11,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S118": {
+   "part": "B",
+   "point": 22102,
+   "doc": "Alibaba/Privacy Policy [3409]",
+   "piece": 5,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": true
+  },
+  "S119": {
+   "part": "B",
+   "point": 14467,
+   "doc": "hCaptcha/Privacy Policy [2440]",
+   "piece": 13,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S120": {
+   "part": "B",
+   "point": 14467,
+   "doc": "hCaptcha/Privacy Policy [2440]",
+   "piece": 32,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S121": {
+   "part": "A",
+   "point": 320782,
+   "doc": "Facebook/Privacy Policy.md",
+   "piece": 56,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S122": {
+   "part": "B",
+   "point": 14785,
+   "doc": "STiBaRC/Privacy Policy [3766]",
+   "piece": 3,
+   "arms": [
+    "RERANK",
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S123": {
+   "part": "B",
+   "point": 8408,
+   "doc": "BBC/Privacy and Cookies Policy [117]",
+   "piece": 13,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S124": {
+   "part": "B",
+   "point": 326283,
+   "doc": "Rapid VPN/Privacy Policy [23731]",
+   "piece": 32,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S125": {
+   "part": "B",
+   "point": 318466,
+   "doc": "Hostinger/Terms of Service [23458]",
+   "piece": 37,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S126": {
+   "part": "A",
+   "point": 320772,
+   "doc": "Facebook/Privacy Policy.md",
+   "piece": 6,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S127": {
+   "part": "B",
+   "point": 19336,
+   "doc": "OneSignal/Privacy Policy [5064]",
+   "piece": 7,
+   "arms": [
+    "KEV",
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S128": {
+   "part": "B",
+   "point": 16051,
+   "doc": "Element/Terms of Service [3416]",
+   "piece": 6,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S129": {
+   "part": "A",
+   "point": 321010,
+   "doc": "Reddit/Terms of Service.md",
+   "piece": 18,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S130": {
+   "part": "A",
+   "point": 322826,
+   "doc": "Tumblr/Privacy Policy.md",
+   "piece": 22,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S131": {
+   "part": "A",
+   "point": 322827,
+   "doc": "Tumblr/Privacy Policy.md",
+   "piece": 10,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S132": {
+   "part": "B",
+   "point": 22025,
+   "doc": "Alibaba/Terms of Use [6757]",
+   "piece": 45,
+   "arms": [
+    "KEV"
+   ],
+   "gold": false
+  },
+  "S133": {
+   "part": "A",
+   "point": 320874,
+   "doc": "Bluesky/Privacy Policy.md",
+   "piece": 0,
+   "arms": [
+    "RANDOM"
+   ],
+   "gold": false
+  },
+  "S134": {
+   "part": "B",
+   "point": 15070,
+   "doc": "The Walt Disney Company/Walt Disney Privacy Policy [3292]",
+   "piece": 17,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S135": {
+   "part": "B",
+   "point": 326299,
+   "doc": "Rapid VPN/Privacy Policy [23731]",
+   "piece": 11,
+   "arms": [
+    "KEV",
+    "RERANK"
+   ],
+   "gold": true
+  },
+  "S136": {
+   "part": "A",
+   "point": 12189,
+   "doc": "Instagram/Terms of Service.md",
+   "piece": 10,
+   "arms": [
+    "RERANK",
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S137": {
+   "part": "B",
+   "point": 305212,
+   "doc": "Malwarebytes/Terms of Service [2529]",
+   "piece": 11,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S138": {
+   "part": "B",
+   "point": 22102,
+   "doc": "Alibaba/Privacy Policy [3409]",
+   "piece": 0,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S139": {
+   "part": "B",
+   "point": 319685,
+   "doc": "LADBible Group/Terms of Service [23155]",
+   "piece": 4,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S140": {
+   "part": "A",
+   "point": 322827,
+   "doc": "Tumblr/Privacy Policy.md",
+   "piece": 23,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S141": {
+   "part": "B",
+   "point": 22025,
+   "doc": "Alibaba/Terms of Use [6757]",
+   "piece": 55,
+   "arms": [
+    "RANDOM"
+   ],
+   "gold": false
+  },
+  "S142": {
+   "part": "A",
+   "point": 320772,
+   "doc": "Facebook/Privacy Policy.md",
+   "piece": 23,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S143": {
+   "part": "A",
+   "point": 320751,
+   "doc": "Facebook/Trackers Policy.md",
+   "piece": 2,
+   "arms": [
+    "RERANK"
+   ],
+   "gold": false
+  },
+  "S144": {
+   "part": "A",
+   "point": 322811,
+   "doc": "Tumblr/Privacy Policy.md",
+   "piece": 23,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S145": {
+   "part": "A",
+   "point": 320772,
+   "doc": "Facebook/Privacy Policy.md",
+   "piece": 49,
+   "arms": [
+    "RANDOM"
+   ],
+   "gold": false
+  },
+  "S146": {
+   "part": "B",
+   "point": 14935,
+   "doc": "The Walt Disney Company/Disney Terms of Use [3291]",
+   "piece": 27,
+   "arms": [
+    "BM25"
+   ],
+   "gold": false
+  },
+  "S147": {
+   "part": "A",
+   "point": 320986,
+   "doc": "Reddit/Terms of Service.md",
+   "piece": 5,
+   "arms": [
+    "KEV",
+    "RERANK"
+   ],
+   "gold": true
+  },
+  "S148": {
+   "part": "B",
+   "point": 24770,
+   "doc": "KeyMe/Privacy Policy [7004]",
+   "piece": 9,
+   "arms": [
+    "BM25"
+   ],
+   "gold": true
+  },
+  "S149": {
+   "part": "B",
+   "point": 36546,
+   "doc": "Xiaomi/User Agreement [3317]",
+   "piece": 14,
+   "arms": [
+    "KEV"
+   ],
+   "gold": true
+  },
+  "S150": {
+   "part": "B",
+   "point": 8701,
+   "doc": "The Session/Privacy policy [2230]",
+   "piece": 0,
+   "arms": [
+    "KEV",
+    "RERANK",
+    "BM25"
+   ],
+   "gold": true
+  }
+ },
+ "points": [
+  {
+   "part": "A",
+   "point": 322731,
+   "doc": "Pinterest/Privacy Policy.md",
+   "tops": {
+    "KEV": 8,
+    "RERANK": 23,
+    "BM25": 22
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 318777,
+   "doc": "Spotify/Terms of Service.md",
+   "tops": {
+    "KEV": 25,
+    "RERANK": 25,
+    "BM25": 25
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 1.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 319275,
+   "doc": "YouTube/Privacy Policy.md",
+   "tops": {
+    "KEV": 44,
+    "RERANK": 42,
+    "BM25": 64
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 13710,
+   "doc": "Twitch/Terms of Service.md",
+   "tops": {
+    "KEV": 39,
+    "RERANK": 39,
+    "BM25": 10
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 1.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 13391,
+   "doc": "Reddit/Terms of Service.md",
+   "tops": {
+    "KEV": 30,
+    "RERANK": 25,
+    "BM25": 11
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 1.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 328860,
+   "doc": "Snapchat/Privacy Policy.md",
+   "tops": {
+    "KEV": 0,
+    "RERANK": 4,
+    "BM25": 22
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 1.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 12189,
+   "doc": "Instagram/Terms of Service.md",
+   "tops": {
+    "KEV": 8,
+    "RERANK": 10,
+    "BM25": 10
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 318800,
+   "doc": "Spotify/Privacy Policy.md",
+   "tops": {
+    "KEV": 11,
+    "RERANK": 26,
+    "BM25": 26
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 320782,
+   "doc": "Facebook/Privacy Policy.md",
+   "tops": {
+    "KEV": 46,
+    "RERANK": 51,
+    "BM25": 56
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 319240,
+   "doc": "YouTube/Privacy Policy.md",
+   "tops": {
+    "KEV": 25,
+    "RERANK": 25,
+    "BM25": 61
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 320986,
+   "doc": "Reddit/Terms of Service.md",
+   "tops": {
+    "KEV": 5,
+    "RERANK": 5,
+    "BM25": 28
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 1.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 322827,
+   "doc": "Tumblr/Privacy Policy.md",
+   "tops": {
+    "KEV": 23,
+    "RERANK": 0,
+    "BM25": 10
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 320874,
+   "doc": "Bluesky/Privacy Policy.md",
+   "tops": {
+    "KEV": 6,
+    "RERANK": 11,
+    "BM25": 22
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 322826,
+   "doc": "Tumblr/Privacy Policy.md",
+   "tops": {
+    "KEV": 22,
+    "RERANK": 23,
+    "BM25": 23
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 1.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 318272,
+   "doc": "Facebook/Privacy Policy.md",
+   "tops": {
+    "KEV": 98,
+    "RERANK": 20,
+    "BM25": 56
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 318798,
+   "doc": "Spotify/Privacy Policy.md",
+   "tops": {
+    "KEV": 18,
+    "RERANK": 18,
+    "BM25": 14
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 322811,
+   "doc": "Tumblr/Privacy Policy.md",
+   "tops": {
+    "KEV": 3,
+    "RERANK": 7,
+    "BM25": 23
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 876,
+   "doc": "Tumblr/Terms of Service.md",
+   "tops": {
+    "KEV": 9,
+    "RERANK": 9,
+    "BM25": 8
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 1.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 318801,
+   "doc": "Spotify/Privacy Policy.md",
+   "tops": {
+    "KEV": 12,
+    "RERANK": 12,
+    "BM25": 9
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 321391,
+   "doc": "X/Terms of Service.md",
+   "tops": {
+    "KEV": 2,
+    "RERANK": 21,
+    "BM25": 21
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 1.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 13688,
+   "doc": "Twitch/Terms of Service.md",
+   "tops": {
+    "KEV": 23,
+    "RERANK": 20,
+    "BM25": 23
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 1.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 320772,
+   "doc": "Facebook/Privacy Policy.md",
+   "tops": {
+    "KEV": 6,
+    "RERANK": 23,
+    "BM25": 107
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 965,
+   "doc": "Tumblr/Privacy Policy.md",
+   "tops": {
+    "KEV": 16,
+    "RERANK": 16,
+    "BM25": 16
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 1.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 318780,
+   "doc": "Spotify/Terms of Service.md",
+   "tops": {
+    "KEV": 30,
+    "RERANK": 43,
+    "BM25": 29
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 318964,
+   "doc": "LinkedIn/Terms of Service.md",
+   "tops": {
+    "KEV": 22,
+    "RERANK": 22,
+    "BM25": 4
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 0.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 320751,
+   "doc": "Facebook/Trackers Policy.md",
+   "tops": {
+    "KEV": 1,
+    "RERANK": 2,
+    "BM25": 0
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 0.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 20040,
+   "doc": "Tumblr/Terms of Service.md",
+   "tops": {
+    "KEV": 20,
+    "RERANK": 22,
+    "BM25": 23
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 0.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 321416,
+   "doc": "X/Privacy Policy.md",
+   "tops": {
+    "KEV": 12,
+    "RERANK": 15,
+    "BM25": 4
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 0.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 321010,
+   "doc": "Reddit/Terms of Service.md",
+   "tops": {
+    "KEV": 18,
+    "RERANK": 36,
+    "BM25": 36
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 1.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "A",
+   "point": 322821,
+   "doc": "Tumblr/Privacy Policy.md",
+   "tops": {
+    "KEV": 20,
+    "RERANK": 19,
+    "BM25": 24
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 22102,
+   "doc": "Alibaba/Privacy Policy [3409]",
+   "tops": {
+    "KEV": 0,
+    "RERANK": 5,
+    "BM25": 19
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 1.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 13156,
+   "doc": "Xiaomi/Privacy Policy [1480]",
+   "tops": {
+    "KEV": 4,
+    "RERANK": 2,
+    "BM25": 2
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 1.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 14785,
+   "doc": "STiBaRC/Privacy Policy [3766]",
+   "tops": {
+    "KEV": 0,
+    "RERANK": 3,
+    "BM25": 3
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 1.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 30982,
+   "doc": "Headspace/Terms and Conditions [5158]",
+   "tops": {
+    "KEV": 18,
+    "RERANK": 18,
+    "BM25": 14
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 1.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 15070,
+   "doc": "The Walt Disney Company/Walt Disney Privacy Policy [3292]",
+   "tops": {
+    "KEV": 15,
+    "RERANK": 17,
+    "BM25": 23
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 11825,
+   "doc": "BitDefender/Privacy Policy for Bitdefender Home Solutions [3119]",
+   "tops": {
+    "KEV": 5,
+    "RERANK": 5,
+    "BM25": 4
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 0.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 24770,
+   "doc": "KeyMe/Privacy Policy [7004]",
+   "tops": {
+    "KEV": 2,
+    "RERANK": 2,
+    "BM25": 9
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 1.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 22397,
+   "doc": "Weblate/Terms and Privacy (English) [5956]",
+   "tops": {
+    "KEV": 7,
+    "RERANK": 6,
+    "BM25": 6
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 14935,
+   "doc": "The Walt Disney Company/Disney Terms of Use [3291]",
+   "tops": {
+    "KEV": 3,
+    "RERANK": 3,
+    "BM25": 27
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 1.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 8408,
+   "doc": "BBC/Privacy and Cookies Policy [117]",
+   "tops": {
+    "KEV": 13,
+    "RERANK": 11,
+    "BM25": 1
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 22813,
+   "doc": "MIT App Inventor/MIT App Inventor Privacy Policy and Terms of Use [7155]",
+   "tops": {
+    "KEV": 10,
+    "RERANK": 10,
+    "BM25": 10
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 1.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 14467,
+   "doc": "hCaptcha/Privacy Policy [2440]",
+   "tops": {
+    "KEV": 13,
+    "RERANK": 32,
+    "BM25": 8
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 26170,
+   "doc": "Represent/Terms & Conditions [7207]",
+   "tops": {
+    "KEV": 10,
+    "RERANK": 10,
+    "BM25": 10
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 1.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 16051,
+   "doc": "Element/Terms of Service [3416]",
+   "tops": {
+    "KEV": 6,
+    "RERANK": 22,
+    "BM25": 21
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 305212,
+   "doc": "Malwarebytes/Terms of Service [2529]",
+   "tops": {
+    "KEV": 4,
+    "RERANK": 5,
+    "BM25": 11
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 13344,
+   "doc": "Steam/Steam Subscriber Agreement [207]",
+   "tops": {
+    "KEV": 4,
+    "RERANK": 12,
+    "BM25": 30
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 22235,
+   "doc": "Disroot/Terms of Service [3486]",
+   "tops": {
+    "KEV": 5,
+    "RERANK": 0,
+    "BM25": 1
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 22025,
+   "doc": "Alibaba/Terms of Use [6757]",
+   "tops": {
+    "KEV": 45,
+    "RERANK": 44,
+    "BM25": 9
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 1.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 20147,
+   "doc": "Uber/Privacy Policy [354]",
+   "tops": {
+    "KEV": 17,
+    "RERANK": 7,
+    "BM25": 7
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 8701,
+   "doc": "The Session/Privacy policy [2230]",
+   "tops": {
+    "KEV": 0,
+    "RERANK": 0,
+    "BM25": 0
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 1.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 8705,
+   "doc": "The Session/Privacy policy [2230]",
+   "tops": {
+    "KEV": 0,
+    "RERANK": 0,
+    "BM25": 0
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 1.0,
+    "BM25": 0.33333333333333337
+   }
+  },
+  {
+   "part": "B",
+   "point": 18166,
+   "doc": "Orange/Privacy Notice [4350]",
+   "tops": {
+    "KEV": 2,
+    "RERANK": 2,
+    "BM25": 2
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 1.0,
+    "BM25": 1.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 19336,
+   "doc": "OneSignal/Privacy Policy [5064]",
+   "tops": {
+    "KEV": 7,
+    "RERANK": 11,
+    "BM25": 7
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 1.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 36546,
+   "doc": "Xiaomi/User Agreement [3317]",
+   "tops": {
+    "KEV": 14,
+    "RERANK": 13,
+    "BM25": 13
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 319685,
+   "doc": "LADBible Group/Terms of Service [23155]",
+   "tops": {
+    "KEV": 3,
+    "RERANK": 3,
+    "BM25": 4
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 1.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 319771,
+   "doc": "IKEA/Terms and Conditions [7126]",
+   "tops": {
+    "KEV": 20,
+    "RERANK": 20,
+    "BM25": 13
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 326283,
+   "doc": "Rapid VPN/Privacy Policy [23731]",
+   "tops": {
+    "KEV": 6,
+    "RERANK": 32,
+    "BM25": 26
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 0.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 318466,
+   "doc": "Hostinger/Terms of Service [23458]",
+   "tops": {
+    "KEV": 46,
+    "RERANK": 56,
+    "BM25": 37
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 1.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 319665,
+   "doc": "Mimo/Privacy Policy [23505]",
+   "tops": {
+    "KEV": 3,
+    "RERANK": 2,
+    "BM25": 6
+   },
+   "hit1": {
+    "KEV": 0.0,
+    "RERANK": 1.0,
+    "BM25": 0.0
+   }
+  },
+  {
+   "part": "B",
+   "point": 326299,
+   "doc": "Rapid VPN/Privacy Policy [23731]",
+   "tops": {
+    "KEV": 11,
+    "RERANK": 11,
+    "BM25": 17
+   },
+   "hit1": {
+    "KEV": 1.0,
+    "RERANK": 1.0,
+    "BM25": 0.0
+   }
+  }
+ ]
+}

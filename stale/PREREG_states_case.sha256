@@ -1,0 +1,10 @@
+# prereg and code 2026-11-15T02:07:26Z, before any card was built
+defcfcc2e7f2e78abd1525bede76e1d04174aab6b01a213d5de5d97854358699 *stale/PREREG_states_case.md
+2f4d4973fc15694e151d8137eaa9958a515c5824a8dbf4b017e038e46f767bb8 *stale/states_case.py
+35648d82613e48d64f1b81d5a5166dbc1e6efdc9487c104c6050480e99bfba9c *stale/audit_states/README.md
+# revision 2026-11-15T02:07:40Z, before any card existed: the first build stopped on a drawn point with no passage outside every arm's top 5; RANDOM controls now come from the drawn points that have one (the prereg's wording already allows it)
+5dd37928054bc65abfbfa06a81dfe508fb6d74eb18eafb001ad3f9b48e1f0707 *stale/states_case.py
+# cards and key 2026-11-15T02:07:42Z, before any rating
+7fed8a0fae9d75e28dd970fabfde7bf6a00091224833c43b950e38ce71e849ed *stale/audit_states/cards.md
+3b20a673ae002794eab9fe7702bd40c1e3b2892710dc038c195ce985d4b4eb63 *stale/audit_states/verdicts.json
+72d67cbcc23991617f0d78ddb9d71e7e79c517745286e83a55914046eb94bb23 *stale/out/states_case_key.json
