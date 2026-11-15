@@ -8,3 +8,5 @@
 f28554ca60c0a7ae2b2cddf37fb823ff044d684356857e4f9a9ead4ab76c0c41 *stale/out/states_case3_key.json
 # verdicts 2026-11-15T02:25:07Z, as returned, before scoring
 834a1d215d57146f56a0d45773e0cf8b6a4e91ac585ed8a2512c001fd00b4431 *stale/audit_states3/verdicts.json
+# prereg time in the text corrected from ~02:24 to ~02:20 at 2026-11-15T02:35:42Z, AFTER scoring, on a fact-check (the file was hashed at 02:21:59); nothing else changed
+c653ec9545e819d7498d03556b65f00ac66b1ee71c6f6eafc240b279783d11ca *stale/PREREG_states_case_qwen.md

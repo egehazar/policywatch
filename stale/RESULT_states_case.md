@@ -57,14 +57,16 @@ extension points the same way. Hashes in `stale/PREREG_states_case_ext.sha256`; 
   difference because Kev's misses state the case more often: 24 of 45 for Kev, 19 of 55 for the reranker, 14 of 76
   for BM25.
 - Predicted: pooled +.11 with about even odds of "KEV better"; result +.117, KEV better.
+- The 95% interval is not adjusted for the two looks (disclosed in the extension's pre-registration). Checked
+  afterwards: a Pocock-style interval for two looks (about 97.1%, same bootstrap) is [+.029, +.211], still above 0.
 
 ## How far this goes
-- Both raters are Claude models judging passages a language model ranked. A rater that shares a language model's
+- All three raters (first test, extension, base family) are Claude models judging passages a language model ranked. A rater that shares a language model's
   sense of relevance could favour Kev's picks; nothing here rules that out. A person's ratings would.
 - It does not overturn the pre-registered hit@1 results, where KEV and the reranker were not separated in part A and
   were in part B. It adds a second measure, closer to what a curator needs, on which Kev is ahead by about 12 points.
-- The base family was rated next (below): it does as well as Kev, so this lead belongs to asking a language model per
-  passage, not to decision-model training.
+- The base family was rated next (below): no difference shown from Kev, so this lead is not shown to come from
+  decision-model training; it belongs to asking a language model per passage.
 - The reranker remains 3.6-5x cheaper; part D tests whether a reranker-first cascade keeps Kev's accuracy at a
   fraction of its cost.
 
@@ -82,5 +84,7 @@ anchor cards re-rated blind and 10 random controls. Hashes in `stale/PREREG_stat
 - Predicted: QWEN .71; KEV - QWEN no difference; QWEN better than the reranker (about 60% likely). All three held.
 
 So on both measures the picture is the same: a 4B language model asked about each passage beats BM25 and, on the
-states-the-case measure, the reranker; Kev's decision-model training adds no accuracy over its base family. What Kev
-adds is cost: it reads a passage once for all of a document's questions (2-3x less CPU than the instruct model here).
+states-the-case measure, the reranker; Kev's decision-model training was not shown to add accuracy over its base
+family (82 of the 120 top passages are the same, so only 38 points could differ). What Kev adds is cost: it reads a
+passage once for all of a document's questions, 1.9x (part B) to 3.2x (part A) less time than the instruct model,
+growing with the number of questions per document.

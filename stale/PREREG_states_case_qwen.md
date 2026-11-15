@@ -1,6 +1,6 @@
 # Pre-registration: the base family on the states-the-case measure
 
-Written 2026-11-15 ~02:24 UTC, after the pooled states-the-case result (`stale/RESULT_states_case.md`: KEV .725,
+Written 2026-11-15 ~02:20 UTC, after the pooled states-the-case result (`stale/RESULT_states_case.md`: KEV .725,
 RERANK .608, BM25 .417 on 120 points) and before any card of this test was built. Hashed with the code, cards and key
 in `stale/PREREG_states_case_qwen.sha256` before rating.
 

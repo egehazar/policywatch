@@ -21,7 +21,8 @@ passage came from. This is an LLM rater's reading, not a person's.
 - By part: 13 of 20 MISS cards YES in part A, 10 of 20 in part B.
 - **Estimate (exploratory, LLM-rated):** the share of points where Kev's top passage states the case, whether or not
   the curator quoted it, is about .87 in part A (hit@1 .620) and .88 in part B (hit@1 .752). With 20 cards per part
-  the uncertainty is wide: on the pooled interval for the MISS share, about .78-.89 for A and .86-.93 for B.
+  the uncertainty is wide: with each part's own Wilson interval for the MISS share, about .79-.93 for A and .83-.93
+  for B.
 
 ## What the misses were
 - **Another passage stating the case (23 of 40, YES).** Policies repeat themselves: a summary and the full clause, a
@@ -42,4 +43,5 @@ passage came from. This is an LLM rater's reading, not a person's.
 - Follow-up, run and pre-registered: `stale/RESULT_states_case.md` rates every arm's top passage on 60 points. Its
   rater found 17 of Kev's 27 non-curator top passages stating the case (63%, close to the 58% here), but it was
   stricter on the curator's own passages (42 of 53 YES). The estimate above counts every hit as stating the case,
-  so read .87/.88 as an upper figure; the stable finding is that about 6 in 10 of Kev's misses state the case.
+  so read .87/.88 as an upper figure. Across all the LLM-rated Kev misses (this audit and the 120-point test, 85 in
+  all) about half state the case (47 of 85); the 120-point test alone gives 24 of 45.
