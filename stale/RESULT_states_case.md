@@ -86,5 +86,5 @@ anchor cards re-rated blind and 10 random controls. Hashes in `stale/PREREG_stat
 So on both measures the picture is the same: a 4B language model asked about each passage beats BM25 and, on the
 states-the-case measure, the reranker; Kev's decision-model training was not shown to add accuracy over its base
 family (82 of the 120 top passages are the same, so only 38 points could differ). What Kev adds is cost: it reads a
-passage once for all of a document's questions, 1.9x (part B) to 3.2x (part A) less time than the instruct model,
+passage once for all of a document's questions, 1.9x (part B) to 3.1x (part A; corrected 11-15 from 3.2x, see RESULT_relocate2.md) less time than the instruct model,
 growing with the number of questions per document.

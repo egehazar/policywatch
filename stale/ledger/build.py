@@ -7,14 +7,15 @@ arms = [('Kev-4B (decision model)', .625, .725), ('Qwen3.5-4B (its base family)'
         ('bge-reranker-v2-m3', .542, .608), ('BM25 (keywords)', .373, .417)]
 X0, X1 = 210, 620
 sx = lambda v: X0 + v * (X1 - X0)
+pct = lambda v: int(v * 100 + .5 + 1e-9)      # half up, as the table and README round .725 and .625
 dots = []
 for k, (name, h, s) in enumerate(arms):
     y = 40 + k * 44
     dots.append(f'<text x="{X0-12}" y="{y+4}" class="lab" text-anchor="end">{name}</text>'
                 f'<line x1="{sx(h):.1f}" y1="{y}" x2="{sx(s):.1f}" y2="{y}" class="link"/>'
                 f'<circle cx="{sx(h):.1f}" cy="{y}" r="6" class="hit"/><circle cx="{sx(s):.1f}" cy="{y}" r="6" class="states"/>'
-                f'<text x="{sx(s)+11:.1f}" y="{y+4}" class="val">{round(s*100)}%</text>'
-                f'<text x="{sx(h)-11:.1f}" y="{y+4}" class="val mute" text-anchor="end">{round(h*100)}%</text>')
+                f'<text x="{sx(s)+11:.1f}" y="{y+4}" class="val">{pct(s)}%</text>'
+                f'<text x="{sx(h)-11:.1f}" y="{y+4}" class="val mute" text-anchor="end">{pct(h)}%</text>')
 ticks = ''.join(f'<line x1="{sx(t):.1f}" y1="18" x2="{sx(t):.1f}" y2="196" class="grid"/>'
                 f'<text x="{sx(t):.1f}" y="214" class="tick" text-anchor="middle">{int(t*100)}%</text>' for t in (0, .25, .5, .75, 1))
 chart1 = f'<svg viewBox="0 0 680 228" role="img" aria-label="Share of 120 points whose top passage is the curator\'s (hollow) and states the case (filled), per method">{ticks}{"".join(dots)}</svg>'

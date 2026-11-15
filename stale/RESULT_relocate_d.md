@@ -27,7 +27,7 @@ result in `stale/PREREG_relocate_d.sha256`).
 
 ## Cost
 - KEV 3.082 s per cell, RERANK 0.638 s per cell (sharing the CPU with the deferred steps of `run_resume.sh`, as the pre-registration allows).
-- The cascade asks Kev 1,960 of 7,138 cells (28%).
+- The cascade asks Kev 1,960 of 7,138 cells (27%; corrected by hand from a double-rounded 28%, see `stale/result_d.py`).
 
 ## Addendum 1: the "clear" label
 - 53 of 200 points clear (margin at least .30, 26%): hit@1 .943 [.880, 1.000]; the rest .510 (hit@3 .782).
@@ -51,36 +51,40 @@ result in `stale/PREREG_relocate_d.sha256`).
 
 - **D0, replication.** On a third sample (200 points from 47 services on Open Terms Archive's contrib collection, none
   used in parts A or B), the decision model's top passage held the curator's quote for .625 of points, against .345 for
-  word match and .340 for embedding similarity: +.28 over each, both intervals well above zero. The main result has now
+  word match and .340 for embedding similarity: +.28 and +.29, both intervals well above zero. The main result has now
   held three times (A: .62 against .36 and .30; B: .75 against .41 and .43).
 - **D1, the cheaper pipeline.** Letting the reranker choose each case's top 10 passages and asking Kev only about those
   scored .630 against Kev's .625, inside the registered bar (lower bound -.021, bar -.03). Adopted: the wider pages'
-  suggestions use it. The 28% of cells overstates the saving, because Kev's time is mostly per passage read (it reads a
+  suggestions are being recomputed with it. The 27% of cells overstates the saving, because Kev's time is mostly per passage read (it reads a
   passage once for all its questions): on part D's documents Kev still reads 48% of the passages, and with the reranker's
-  own time the estimate is about 62% of full Kev (`stale/cascade_cost.py`, exploratory, part B's cost model). On
+  own time the estimate is about 62% of full Kev (`stale/cascade_cost.py`, exploratory: Kev's terms from part B's
+  timings, the reranker at 0.67 s per cell; part D's measured 0.638 gives 61%). On
   documents with many cases the saving shrinks further.
 - **D2, Kev against the reranker.** +.060 [-.005, +.129]: no difference shown. Kev's point estimate over the reranker
-  is +.07 (part A), +.10 (part B) and +.06 (part D); only part B's interval excludes zero. So on finding the curator's
-  own passage Kev is at best a little better than a strong off-the-shelf reranker. On whether the top passage states the
+  is +.07 (part A), +.10 (part B) and +.06 (part D); only part B's interval excludes zero. Pooled over the three parts
+  after all were read (exploratory, `stale/pool_rerank.py`, a bootstrap of clusters within each part): +.076 [.036,
+  .119] on 602 points. So on finding the curator's own passage Kev is a little better than a strong off-the-shelf
+  reranker, about 8 points, shown only by that after-the-fact pooling. On whether the top passage states the
   case at all (`RESULT_states_case.md`, LLM raters) it was better by +.12 [.03, .20]. Where its base family
-  (Qwen3.5-4B) was also run (parts A and B, and the states-the-case check), it matched Kev: the gain comes from asking a
-  4B LLM about each passage, not from decision-model training. Kev's own advantage is cost (1.9-3.2x cheaper in wall
-  clock than the base model on parts A and B, where several questions share a passage).
-- **Addendum 1, the label.** 53 of 200 points (26%) had a top passage leading the next by at least .30, and 50 of
+  (Qwen3.5-4B) was also run (parts A and B, and the states-the-case check), no difference from Kev was shown: the gain comes from asking
+  a 4B LLM about each passage, and was not shown to come from decision-model training. Kev's own advantage is cost
+  (1.9-3.1x less wall-clock time than that instruct model on parts A and B, where several questions share a passage).
+  Kev's actual base checkpoint was never run.
+- **Addendum 1, the label.** 53 of 200 points (26.5%) had a top passage leading the next by at least .30, and 50 of
   those 53 were right (.943, lower bound .880 against a bar of .75): LABEL ADOPTED. The other 147 were right .510 of the
   time at the top and .782 within the top 3. The curator page now marks each Kev suggestion Clear or Close. On the 20
-  platforms 16 of 141 are Clear, fewer than in the test: a stale point's case is often stated less directly, or no
-  longer at all.
+  platforms 16 of 141 are Clear, fewer than in the test; a likely reason (not tested) is that a stale point's case is often
+  stated less directly, or no longer at all.
 - **Exploratory, after the result: the label on the cascade.** The same cut and rule on part D's cascade arm: 62
   clear, 59 right (.952 [.893, 1.000]); the rule would read LABEL ADOPTED (`stale/margin_cascade.py`,
   `stale/out/margin_cascade.json`). The cut was not tuned on part D, but this check was not registered, so the wider
-  (cascade) pages show the label with a note saying it was checked after the test.
+  (cascade) pages will show the label with a note saying it was checked after the test.
 - **Exploratory: the label on the 141 real stale points.** Against the full-read rater's gold (an LLM rater until the
   human gate is answered; `stale/margin_stale.py`), all 16 Clear suggestions on the 20-platform page have a top
   passage that states the case, and none falls on the 15 points whose case the rater found no longer stated. The 125
   Close ones: .592 at the top, .784 in the top 3. Small and pooled over points; no interval claimed.
 - **Cost, corrected.** The generated cost line says both arms shared the CPU with `run_resume.sh`. Only partly:
-  `run_resume.sh` was stopped by PID at 01:20 UTC, 11 minutes into the Kev arm (01:09:31 to 07:16:12 UTC, 22,001 s for
+  `run_resume.sh` was stopped by PID at 01:20 UTC, about 10 minutes into the Kev arm (01:09:31 to 07:16:12 UTC, 22,001 s for
   2,339 pieces: 9.4 s per piece, 3.08 s per cell; part B's cost model predicts 10.1 s per piece at 3.05 questions per
   piece). The reranker arm (0.638 s per cell) ran entirely alongside it.
 - **Predictions.** Every arm came in below my guess, by .010 to .055. D2 went the way I thought likelier (35% on Kev

@@ -37,7 +37,7 @@ def main():
     c = R['cost']
     L += ['', '## Cost', f"- KEV {c['KEV_sec_per_cell']} s per cell, RERANK {c['RERANK_sec_per_cell']} s per cell (sharing the CPU with "
           'the deferred steps of `run_resume.sh`, as the pre-registration allows).',
-          f"- The cascade asks Kev {c['cascade_kev_cells']:,} of {c['cells']:,} cells ({c['cascade_kev_share']:.0%}).", '']
+          f"- The cascade asks Kev {c['cascade_kev_cells']:,} of {c['cells']:,} cells ({c['cascade_kev_cells'] / c['cells']:.0%}).", '']
     if 'D' in M:
         d = M['D']
         L += ['## Addendum 1: the "clear" label', f"- {d['clear']} of {d['points']} points clear (margin at least .30, {d['clear_share']:.0%}): "

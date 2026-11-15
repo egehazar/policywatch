@@ -15,12 +15,12 @@ policywatch watches the archive for the moment a curator's evidence stops being 
   first 62-75% of the time, BM25 and bge-small 30-43%, in three pre-registered samples. Against a cross-encoder
   reranker, which uses a fraction of the CPU, the curator-quote measure favoured Kev in one sample and did not separate
   them in two (Kev's lead +.06 to +.10 in all three); on whether the top passage states the case at all (blind LLM
-  raters, 120 points) Kev is ahead, 73% to 61%. Letting the reranker shortlist 10 passages per case for Kev lost
-  nothing (63% vs 62.5%), so the wider pages use that, and a suggestion whose top passage clearly leads is marked
+  raters, 120 points) Kev is ahead, 73% to 61%. Letting the reranker shortlist 10 passages per case for Kev lost at
+  most about 2 points (63% vs 62.5%), so the wider pages' suggestions are being recomputed that way, and a suggestion whose top passage clearly leads is marked
   Clear (right 50 times in 53 in the held-out test). The base family limits the
   claim: an ordinary 4B instruct model asked the same yes/no question showed no difference from Kev on either
   measure (73% on the second). What the decision-model endpoint added was cost against that model: 1.9x (part B) to
-  3.2x (part A) less time per passage and question, growing with the number of questions per document; with one
+  3.1x (part A) less time per passage and question, growing with the number of questions per document; with one
   question per document Kev is the slower one.
 - **Meaning-diff scanner (`policywatch/`, the original goal, failed its tests).** Asks a decision model a fixed bank of
   questions about the old and new text of every update and lists the answers whose score moved. It did not find real
@@ -38,10 +38,10 @@ Each test was hashed before scoring. All results are reported, including failure
 | Find where a ToS;DR case is stated in a platform's current text | **Decision model better** than BM25 and bge | Top-1 on 200 points: Kev-4B 62%, BM25 36%, bge-small 30%. Gold is the curators' own quotes. | [Stale evidence](#stale-evidence-for-tosdr-points-stale) |
 | Same, on 202 held-out points from 41 other services | **Replicated** | Kev 75%, BM25 41%, bge 43%, on ToS;DR's own stored text. | `stale/RESULT_relocate2.md` |
 | Same, a third time: 200 points from 47 services on Open Terms Archive's contrib collection (part D) | **Replicated** | Kev 62.5%, BM25 34.5%, bge 34%; Kev - BM25 +.28 [+.20, +.36], Kev - bge +.29 [+.21, +.36]. | `stale/RESULT_relocate_d.md` |
-| Reranker shortlists each case's top 10 passages, Kev ranks only those (part D) | **Adopted** for the wider pages | 63.0% vs Kev alone 62.5%: +.005 [-.021, +.031], inside the bar (lower bound at least -.03). Kev is asked 28% of the cells but still reads 48% of the passages: about 62% of full Kev's time with the reranker's (an estimate). | `stale/RESULT_relocate_d.md` |
+| Reranker shortlists each case's top 10 passages, Kev ranks only those (part D) | **Adopted** for the wider pages | 63.0% vs Kev alone 62.5%: +.005 [-.021, +.031], inside the bar (lower bound at least -.03). Kev is asked 27% of the cells but still reads 48% of the passages: about 62% of full Kev's time with the reranker's (an estimate). | `stale/RESULT_relocate_d.md` |
 | Mark a Kev suggestion "Clear" when its top passage leads the next by at least .30 (part D, addendum 1) | **Shipped** | 53 of 200 points clear, 50 of them right (.94 [.88, 1.00]; bar .85, lower bound .75); the other 147 right 51% at the top, 78% in the top 3. On the cascade (exploratory, checked after the result): 59 of 62. On the 141 real stale points (exploratory, LLM rater's answer key): all 16 Clear ones right, none on a point whose case is gone. | `stale/RESULT_relocate_d.md` |
-| Kev vs its base family (Qwen3.5-4B asked the same yes/no question) | **No difference shown**, in both parts | 62% vs 60% and 75% vs 74%. The win was not shown to come from decision-model training. Qwen took 1.9-3.2x Kev's time per passage-question. | `stale/RESULT_relocate2.md` |
-| Kev vs a cross-encoder reranker (bge-reranker-v2-m3) | **Not shown to beat it** (one of three parts says Kev better) | 62% vs 55% (no difference shown); 75% vs 65% (Kev better); part D 62.5% vs 56.5%, +.06 [-.005, +.13] (no difference shown). The reranker took 0.39, 0.98 and 0.64 s per passage-question, Kev 1.94, 3.52 and 3.08 (wall clock, same CPU). | `stale/RESULT_relocate2.md`, `stale/RESULT_relocate_d.md` |
+| Kev vs its base family (Qwen3.5-4B asked the same yes/no question) | **No difference shown**, in both parts | 62% vs 60% and 75% vs 74%. The win was not shown to come from decision-model training. Qwen took 1.9-3.1x Kev's time per passage-question. | `stale/RESULT_relocate2.md` |
+| Kev vs a cross-encoder reranker (bge-reranker-v2-m3) | **Not shown to beat it** (one of three parts says Kev better) | 62% vs 55% (no difference shown); 75% vs 65% (Kev better); part D 62.5% vs 56.5%, +.06 [-.005, +.13] (no difference shown). The reranker took 0.39, 0.98 and 0.64 s per passage-question, Kev 1.94, 3.52 and 3.08 (wall clock, same CPU; part D's reranker shared it with another job, its Kev arm almost not). Pooled over all three (exploratory, after the results; `stale/pool_rerank.py`): +.08 [+.04, +.12] on 602 points, and Kev - base family +.02 [-.02, +.05] on 402. | `stale/RESULT_relocate2.md`, `stale/RESULT_relocate_d.md` |
 | Does the top passage state the case, curator's or not? (120 points, blind LLM raters, pre-registered with one extension) | **KEV better than the reranker and BM25; its base family, no different from KEV, also better than the reranker** (by LLM raters) | States the case @1: KEV .73, RERANK .61, BM25 .42 (hit@1 on the same points .63 / .54 / .37). KEV - RERANK +.12 [+.03, +.20]; KEV - BM25 +.31 [+.21, +.41]. Kev's misses state the case more often (24 of 45, against 19 of 55 for the reranker). Kev's base family (Qwen3.5-4B): .73, no difference shown from KEV (-.01 [-.06, +.04]; 82 of its 120 top passages are Kev's), QWEN - RERANK +.13 [+.05, +.21]: the lead belongs to an LLM per passage, not shown to come from decision-model training. Raters are Claude models, not people. | `stale/RESULT_states_case.md`, `stale/RESULT_miss_audit.md` |
 | Propose the sentence to quote, from the top passage | **Shipped** | When the passage was right, Kev's sentence matched the curator's quote 83% of the time; BM25's 56%. | `stale/RESULT_relocate2.md` |
 | Kev's short question layout for relocation | **Not adopted** | 20 platforms: -2.5 points [-5.3, +0.5], failing the bar (lower bound at least -5). Held-out services: 0.0 [-3.6, +4.0], passing. No rule for the disagreement; the page keeps the layout that passed on its own platforms. | `stale/RESULT_relocate2.md` |
@@ -129,7 +129,7 @@ anything.
     - Kev's base family, Qwen3.5-4B, asked the same yes/no question one piece at a time, did about as well: 60% vs 62%
       and 74% vs 75%, no difference shown in either part. So the win was not shown to come from decision-model
       training. Against that model Kev's advantage was cost: it reads a piece once for all of a document's questions,
-      and the instruct model took 1.9-3.2x its time per piece-question here (wall clock on the same CPU).
+      and the instruct model took 1.9-3.1x its time per piece-question here (wall clock on the same CPU).
     - The decision model was not shown to beat a cross-encoder reranker (bge-reranker-v2-m3): 55% against Kev's 62% in
       part A (no difference shown) and 65% against 75% in part B (Kev better). The reranker is 3.6-5x cheaper than Kev
       (0.39 and 0.98 s per piece-question, against 1.94 and 3.52; wall clock on the same CPU).
@@ -142,11 +142,13 @@ anything.
     from 47 services on the contrib collection, drawn and hashed before any model call.
     - Replicated a third time: Kev 62.5%, BM25 34.5%, bge 34%.
     - Kev against the reranker: 62.5% vs 56.5%, no difference shown (+.06 [-.005, +.13]). Over the three parts Kev's
-      lead is +.07, +.10 and +.06, and only part B's interval excludes zero.
+      lead is +.07, +.10 and +.06, and only part B's interval excludes zero. Pooled after the fact (exploratory,
+      `stale/pool_rerank.py`): +.08 [+.04, +.12] on 602 points; its base family's lead over the reranker on parts A and
+      B is about the same (+.07 [+.02, +.12]), so this too belongs to an LLM per passage.
     - The cascade: the reranker shortlists each case's top 10 passages and Kev ranks only those. 63.0% against Kev
-      alone 62.5%, inside the pre-registered bar, so the wider pages' suggestions use it. Kev still reads about half the
-      passages (it reads a passage once for all its questions), so the estimated saving is about 38% of the time, not
-      the 72% of cells it skips.
+      alone 62.5%, inside the pre-registered bar (it lost at most about 2 points), so the wider pages' suggestions are
+      being recomputed with it. Kev still reads about half the passages (it reads a passage once for all its
+      questions), so the estimated saving is about 38% of the time, not the 73% of cells it skips.
     - The label: a suggestion whose top passage leads the next by at least .30 (a cut chosen on parts A and B) is
       marked Clear. 53 of 200 were clear and 50 of those right; the rest are marked Close (51% right at the top, 78%
       in the top 3). On the 20 platforms' stale points 16 of 141 are Clear. For the cascade's suggestions the same
