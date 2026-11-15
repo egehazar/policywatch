@@ -453,5 +453,25 @@ class TestMissing(unittest.TestCase):
         self.assertTrue(s.endswith(R.MARK + '\n\nHand-written reading.\n'))
 
 
+
+class TestMissing2(unittest.TestCase):
+    """stale.missing2: the reranker shortlist and the cascade arms' case scores on the same pieces."""
+    def test_shortlist_and_cascade(self):
+        from stale import missing2 as M
+        rr = [{'a': .1}, {'a': .9}, {'a': .5}, {'a': .9}, {'a': .2}]
+        self.assertEqual(M.shortlist(rr, 'a'), [1, 2, 3])                    # top 3 by score, ties to the earliest
+        tmp = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, tmp)
+        F0 = M.F; M.F = {k: os.path.join(tmp, k + '.json') for k in F0}; self.addCleanup(setattr, M, 'F', F0)
+        D = [{'doc': 'd', 'cases': ['a'], 'positives': ['a'], 'negatives': []}]
+        json.dump({'d': rr}, open(M.F['RERANK'], 'w'))
+        json.dump({'d': [{'a': .99}, {'a': .2}, {'a': .7}, {'a': .7}, {'a': .1}]}, open(M.F['KEV'], 'w'))   # piece 0 is not shortlisted
+        json.dump({'d': [{'a': 0}] * 5}, open(M.F['BM25'], 'w'))
+        json.dump({'d': {'1': {'a': -2.0}, '2': {'a': 3.0}, '3': {'a': 3.0}}}, open(M.F['QWEN'], 'w'))
+        cs = M.case_scores(D)
+        self.assertEqual(cs['KEV']['d']['a'], (.99, 0))                      # the full arm sees every piece
+        self.assertEqual(cs['CASCADE_KEV']['d']['a'], (.7, 2))               # only the shortlist; tie to the earliest
+        self.assertEqual(cs['CASCADE_QWEN']['d']['a'], (3.0, 2))
+
+
 if __name__ == '__main__':
     unittest.main()
