@@ -77,7 +77,7 @@ code{font:.82rem var(--f-mono);background:var(--accent-soft);padding:1px 5px;bor
   <div class="eyebrow">policywatch · state on 15 Nov 2026, 08:05 UTC</div>
   <h1>Which approved ToS;DR points lost their evidence, and where is the case stated now?</h1>
   <p class="lede">ToS;DR&rsquo;s volunteer curators back every point (&ldquo;You waive your right to a class action&rdquo;) with a quote from a service&rsquo;s terms. Open Terms Archive records every version of those terms. policywatch checks every approved quote against every version, lists the points whose quote disappeared in a platform&rsquo;s own edit, and suggests where the case may be stated now. It runs on a desktop CPU; every test below was written down and hashed before it was scored, failures included.</p>
-  <div class="status"><span class="pill p-run">Running: the clean cost benchmark, then the missing-points pilot</span><span class="pill p-warn">Stale-point suggestions provisional: graded by two AIs (Opus, GPT), no person checked</span></div>
+  <div class="status"><span class="pill p-run">Running: the missing-points pilot (does Kev find cases ToS;DR has no point for?)</span><span class="pill p-warn">Stale-point suggestions provisional: graded by two AIs (Opus, GPT), no person checked</span></div>
 </header>
 
 <section>
@@ -113,9 +113,9 @@ code{font:.82rem var(--f-mono);background:var(--accent-soft);padding:1px 5px;bor
 <section>
   <div class="eyebrow">Where the decision model pays</div>
   <h2>Cost: Kev reads a passage once, however many questions it answers</h2>
-  <p>Seconds per passage-question on 71 documents (wall clock, shared 6-core CPU). Kev costs about 6.9 s to read a passage plus 1.05 s per question; the instruct model about 6.6 s for every passage-question.</p>
+  <p>Seconds per passage-question, measured on an idle 6-core CPU (60 passages, each read once per model). Kev costs 7.4 s to read a passage plus 0.93 s per question; the instruct model 6.3 s for every passage-question, later questions no cheaper than the first.</p>
   <div class="chart"><!--CHART2--></div>
-  <p class="small mute">With one question per document Kev is the slower one; at five it is 2.7 times cheaper than its base family. The reranker is cheaper still, and letting it shortlist 10 passages per case for Kev lost at most about 2 points (63% against 62.5%); Kev still reads about half the passages, so the estimated saving is about 38% of the time.</p>
+  <p class="small mute">With one question per passage Kev is the slower one (0.83x); it is 1.4 times cheaper than its base family at 2 questions, 2.4x at 4, 3.4x at 8 and 4.7x at 16. The reranker is cheaper still, and letting it shortlist 10 passages per case for Kev lost at most about 2 points (63% against 62.5%); Kev still reads about half the passages, so the estimated saving is about 38% of the time.</p>
 </section>
 
 <section>

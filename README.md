@@ -160,13 +160,14 @@ anything.
       in the top 3). On the 20 platforms' stale points 16 of 141 are Clear. For the cascade's suggestions the same
       rule was checked after the result (59 of 62 right), and the page says so.
   - Cost: about 1.9 s per piece-question (wall clock), roughly 80 s per point for a 40-piece document.
-  - Where the decision model's cost comes from (part B's 71 documents, timings already on disk): Kev takes about
-    6.9 s to read a 1,500-character piece plus 1.05 s per question asked of it; the instruct model takes about 6.6 s
-    per piece and question, because it reads the piece again for each question (its hybrid recurrent architecture
-    likely gives llama.cpp no prefix to reuse; the cause is not measured). So Kev is slower with one question per
-    document (0.8x), and cheaper from two on: 1.5x at two, 2.7x at five (the most measured); the fitted model's
-    ceiling, about 6x, is an extrapolation. A curator page asks few questions per document; a
-    tool asking a whole question bank of every document is where it pays.
+  - Where the decision model's cost comes from (measured on an idle CPU, 60 passages of about 1,400 characters,
+    `bench/RESULT_cost_curve.md`): Kev takes 7.4 s to read a passage plus 0.93 s per question asked of it; the
+    instruct model takes 6.3 s per passage and question, and its later questions on a passage cost the same as the
+    first (.99), so it reads the passage again for each one (likely because llama.cpp cannot reuse a hybrid recurrent
+    model's state for a shared prefix; the effect is measured, the cause is not). So Kev is slower with one question
+    per passage (0.83x) and cheaper from two on: 1.4x at 2, 2.4x at 4, 3.4x at 8, 4.7x at 16, toward a limit of 6.8x.
+    A curator page asks few questions per document; a tool asking a whole question bank of every document is where
+    it pays.
   - It covers points whose case is still stated. Whether Kev can tell that a case is no longer stated was tested on
     the 141 stale points: it ranks those points low (AUROC .92), but its flag was right 6 times in 12, under the 75%
     bar, so the page makes no such claim (`stale/RESULT_suggest.md`, provisional).

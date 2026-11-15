@@ -1,0 +1,46 @@
+{
+ "calls_kev": 60,
+ "questions_qwen": 372,
+ "kev_fit": {
+  "s_per_passage": 7.38,
+  "s_per_question": 0.931
+ },
+ "qwen_s_per_question_median": 6.33,
+ "qwen_first_question_median": 6.39,
+ "qwen_later_questions_median": 6.32,
+ "qwen_later_over_first": 0.989,
+ "levels": {
+  "1": {
+   "kev_s_per_call_median": 8.05,
+   "kev_s_per_question": 8.05,
+   "qwen_s_per_question": 6.71,
+   "qwen_over_kev": 0.83
+  },
+  "2": {
+   "kev_s_per_call_median": 8.97,
+   "kev_s_per_question": 4.48,
+   "qwen_s_per_question": 6.29,
+   "qwen_over_kev": 1.4
+  },
+  "4": {
+   "kev_s_per_call_median": 10.5,
+   "kev_s_per_question": 2.62,
+   "qwen_s_per_question": 6.29,
+   "qwen_over_kev": 2.4
+  },
+  "8": {
+   "kev_s_per_call_median": 14.69,
+   "kev_s_per_question": 1.84,
+   "qwen_s_per_question": 6.2,
+   "qwen_over_kev": 3.38
+  },
+  "16": {
+   "kev_s_per_call_median": 22.32,
+   "kev_s_per_question": 1.4,
+   "qwen_s_per_question": 6.57,
+   "qwen_over_kev": 4.71
+  }
+ },
+ "break_even_questions": 1.37,
+ "ceiling_ratio": 6.8
+}

@@ -20,20 +20,21 @@ ticks = ''.join(f'<line x1="{sx(t):.1f}" y1="18" x2="{sx(t):.1f}" y2="196" class
                 f'<text x="{sx(t):.1f}" y="214" class="tick" text-anchor="middle">{int(t*100)}%</text>' for t in (0, .25, .5, .75, 1))
 chart1 = f'<svg viewBox="0 0 680 228" role="img" aria-label="Share of 120 points whose top passage is the curator\'s (hollow) and states the case (filled), per method">{ticks}{"".join(dots)}</svg>'
 
-kev = [7.96, 4.54, 3.25, 2.76, 2.45]; qwen = [6.62, 6.59, 6.51, 6.49, 6.55]; rr = 0.98
+# measured on an idle CPU, 1/2/4/8/16 questions per passage (bench/RESULT_cost_curve.md); reranker from parts B/D (shared CPU)
+kev = [8.05, 4.48, 2.62, 1.84, 1.40]; qwen = [6.71, 6.29, 6.29, 6.20, 6.57]; rr = 0.98; QS = [1, 2, 4, 8, 16]
 PX0, PX1, PY0, PY1, YMAX = 70, 640, 24, 236, 8
 px = lambda q: PX0 + (q - 1) * (PX1 - PX0) / 4
 py = lambda v: PY1 - v / YMAX * (PY1 - PY0)
 g = ''.join(f'<line x1="{PX0}" y1="{py(v):.1f}" x2="{PX1}" y2="{py(v):.1f}" class="grid"/><text x="{PX0-10}" y="{py(v)+4:.1f}" class="tick" text-anchor="end">{v} s</text>' for v in (0, 2, 4, 6, 8))
-g += ''.join(f'<text x="{px(q):.1f}" y="{PY1+20}" class="tick" text-anchor="middle">{q}</text>' for q in range(1, 6))
+g += ''.join(f'<text x="{px(i+1):.1f}" y="{PY1+20}" class="tick" text-anchor="middle">{q}</text>' for i, q in enumerate(QS))
 line = lambda vals, cls: (f'<polyline points="{" ".join(f"{px(q+1):.1f},{py(v):.1f}" for q, v in enumerate(vals))}" class="{cls}"/>'
                           + ''.join(f'<circle cx="{px(q+1):.1f}" cy="{py(v):.1f}" r="4.5" class="{cls}-dot"/>' for q, v in enumerate(vals)))
 c2 = (g + line(qwen, 'qw') + line(kev, 'kv') +
       f'<line x1="{PX0}" y1="{py(rr):.1f}" x2="{PX1}" y2="{py(rr):.1f}" class="rr"/>'
-      f'<text x="{PX0+6}" y="{py(rr)-8:.1f}" class="lab small">reranker, 0.98 s (part B average)</text>'
+      f'<text x="{PX0+6}" y="{py(rr)-8:.1f}" class="lab small">reranker, 0.98 s at most (parts B and D, shared CPU)</text>'
       f'<text x="{px(5)+8:.1f}" y="{py(qwen[-1])-10:.1f}" class="lab small" text-anchor="end">instruct model, re-reads the passage per question</text>'
-      f'<text x="{px(5)-4:.1f}" y="{py(kev[-1])+22:.1f}" class="lab small" text-anchor="end">Kev, reads the passage once</text>'
-      f'<text x="{(PX0+PX1)/2:.1f}" y="{PY1+40}" class="tick" text-anchor="middle">questions asked of each document</text>')
+      f'<text x="{px(2)+10:.1f}" y="{py(kev[2])+24:.1f}" class="lab small">Kev, reads the passage once</text>'
+      f'<text x="{(PX0+PX1)/2:.1f}" y="{PY1+40}" class="tick" text-anchor="middle">questions asked of each passage</text>')
 chart2 = f'<svg viewBox="0 0 680 286" role="img" aria-label="Seconds per passage-question against questions per document, for Kev, the instruct model and the reranker">{c2}</svg>'
 
 page = open(os.path.join(HERE, 'template.html'), encoding='utf-8').read()
