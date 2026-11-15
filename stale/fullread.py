@@ -146,8 +146,8 @@ def verify(arch, family):
     >= .8 of its words' 6-grams in the cited piece is kept there; else it is looked up in the neighbouring pieces and
     then the whole document; else it is dropped and counted."""
     key = json.load(open(os.path.join(FDIR, 'key.json'), encoding='utf-8'))
-    head = archive.git(arch, 'rev-parse', 'HEAD').strip(); assert head == key['archive_head'], 'archive moved since prep'
-    text = {d: [p for p in pieces('\n\n'.join(paras(archive.git(arch, 'show', f'HEAD:{d}'))), PIECE) if p.strip()] for d in key['plan']}
+    rev = key['archive_head']                       # the texts as prep cut them, even if the archive has moved on since
+    text = {d: [p for p in pieces('\n\n'.join(paras(archive.git(arch, 'show', f'{rev}:{d}'))), PIECE) if p.strip()] for d in key['plan']}
     assert all(len(text[d]) == key['n_pieces'][d] for d in text), 'pieces changed since prep'
     gold, stats = {}, {'quotes': 0, 'kept': 0, 'moved': 0, 'dropped': 0, 'missing_cases': 0}
     stats['batches_read'] = []
