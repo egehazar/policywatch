@@ -35,3 +35,33 @@ a person: it sits beside the pre-registered hit@1 results, not in place of them.
 | KEV - BM25 | KEV better | KEV better |
 
 By part (30 points each), states@1: A KEV .80, RERANK .63, BM25 .47; B KEV .63, RERANK .53, BM25 .37.
+
+## Final: the pre-registered extension and the pooled 120-point reading
+`stale/PREREG_states_case_ext.md` (02:12 UTC), fixed in advance as the only further look: 60 new points (30 from each
+part), the same protocol, a fresh rater, then a pooled reading called only if the pooled interval excludes 0 and the
+extension points the same way. Hashes in `stale/PREREG_states_case_ext.sha256`; scores in
+`stale/out/states_case_pooled.json` (`py -m stale.states_case_ext score`).
+
+| | KEV | RERANK | BM25 |
+|---|---|---|---|
+| Extension (60 points): states the case @1 | .733 | .633 | .417 |
+| **Pooled (120 points): states the case @1** | **.725** | .608 | .417 |
+| Pooled: YES or PARTLY @1 | .900 | .758 | .650 |
+| Pooled: hit@1 (the curator's passage) on the same points | .625 | .542 | .373 |
+
+- Extension alone: KEV - RERANK +.100 [.000, +.208]; KEV - BM25 +.317 [+.196, +.452]. 0 of 10 random controls rated
+  YES; the extension's rater rated 42 of 48 curator-quoted passages YES.
+- **Pooled KEV - RERANK: +.117 [+.034, +.200]. Final reading: KEV better than the reranker** on this measure.
+- **Pooled KEV - BM25: +.308 [+.206, +.407]. KEV better.**
+- On the same 120 points, hit@1 KEV - RERANK is +.083 [-.020, +.183], no difference shown. The gap becomes a shown
+  difference because Kev's misses state the case more often: 24 of 45 for Kev, 19 of 55 for the reranker, 14 of 76
+  for BM25.
+- Predicted: pooled +.11 with about even odds of "KEV better"; result +.117, KEV better.
+
+## How far this goes
+- Both raters are Claude models judging passages a language model ranked. A rater that shares a language model's
+  sense of relevance could favour Kev's picks; nothing here rules that out. A person's ratings would.
+- It does not overturn the pre-registered hit@1 results, where KEV and the reranker were not separated in part A and
+  were in part B. It adds a second measure, closer to what a curator needs, on which Kev is ahead by about 12 points.
+- The reranker remains 3.6-5x cheaper; part D tests whether a reranker-first cascade keeps Kev's accuracy at a
+  fraction of its cost.

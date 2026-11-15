@@ -1,490 +1,490 @@
 {
  "T001": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers termination and survival of terms, nothing about sharing or disclosing your account."
  },
  "T002": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is about sharing data with service providers and advertisers, not user requests for access, correction or deletion."
  },
  "T003": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "It describes security features, reviews of collection and physical security practices, and restricted employee access."
  },
  "T004": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It describes data received from ad partners and third parties, nothing about app device permissions."
  },
  "T005": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"It's your responsibility to review the Terms regularly\" and \"we will notify you ... if we make any material changes\"."
  },
  "T006": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only accounts engaging in CSAE activity are permanently terminated, narrower than breaching the Terms in general."
  },
  "T007": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You retain any ownership rights you have in Your Content\"."
  },
  "T008": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers responsibility for content and Ryver's license to you, not any limit on the license you grant."
  },
  "T009": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage describes hCaptcha and Hetzner data processing, nothing about archived versions of agreements."
  },
  "T010": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We build security into our services to protect your information\" and lists measures like encryption in transit."
  },
  "T011": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Rights are granted \"for the sole purpose of providing the Service\" and extend to third-party services \"only as necessary to provide the service\"."
  },
  "T012": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "It only weakly implies use of web analysis cookies (not to identify you without consent) and says nothing about third parties."
  },
  "T013": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is an index of the YouTube Terms with nothing about negative opinions."
  },
  "T014": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"If ... a particular term of this Agreement is not enforceable ... this will not affect any other terms.\""
  },
  "T015": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Sharing sexually explicit content is barred only in messages between Pinners, narrower than posting in general."
  },
  "T016": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is a copyright complaint procedure, not a disclaimer about accuracy or reliability."
  },
  "T017": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers a content license, embedding and API rules, not severability."
  },
  "T018": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"The Services are provided 'as is' and 'as available' ... without warranties of any kind\"."
  },
  "T019": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It describes what Snapchat collects at signup, not combining a profile across products."
  },
  "T020": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "You agree to only post User Content that \"is lawful\", narrower than not using the service for illegal purposes."
  },
  "T021": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The listed prohibitions (reporting misuse, contests, ad sales) do not restrict expressing negative opinions."
  },
  "T022": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You can access, correct, or modify the information\", request access, and request deletion of your data."
  },
  "T023": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It says data may be processed in the US with less protection, which concerns data transfer, not the governing court."
  },
  "T024": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We collect your email address in order to ... Market to our mailing list\"."
  },
  "T025": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It prohibits infringing others' rights but gives no instructions for submitting a copyright claim."
  },
  "T026": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It describes sharing transaction data with sellers and partners, nothing about GPS location."
  },
  "T027": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Your continued use of the Services after the posting of any modified Privacy Policy indicates your acceptance\"."
  },
  "T028": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "One policy covering several products is not a statement that your profile is combined across them."
  },
  "T029": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It prohibits copying or disclosing information and content, not sharing or disclosing your account."
  },
  "T030": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"If any part of these Terms of Service is held invalid ... the remaining portions will remain in full force and effect.\""
  },
  "T031": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Directly \"or through a third party vendor\" cookies and similar technologies are used to deliver personalized ads, including on other websites."
  },
  "T032": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers force majeure and the service's right to change terms, not your right to leave."
  },
  "T033": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage describes the service and provider entity, nothing about negative opinions."
  },
  "T034": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Pinterest isn't a place for sexual content\" and sexually explicit depictions are removed or limited."
  },
  "T035": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "It explains automatic collection of usage data, cookies and tracking technologies, and collection from third parties."
  },
  "T036": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is definitions and license conclusion terms, nothing about giving data to third parties."
  },
  "T037": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is about Memories storage and data charges, not copyright claims."
  },
  "T038": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Content glorifying violence and content promoting extremists or terrorist organisations is removed or limited."
  },
  "T039": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"If you become aware of any unauthorized use of your account or any other breach of security, you must notify Element immediately\"."
  },
  "T040": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"FaceApp does not represent or warrant that our Services are accurate, complete, reliable, current or error-free.\""
  },
  "T041": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers business transfers, security, biometric retention and choices, not consent to changed terms by use."
  },
  "T042": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You will not share your account with anyone else\" and agree to \"not share or transfer your account\"."
  },
  "T043": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Sources of Personal Data\" explains data is collected from you, your browser or device, partners and third parties."
  },
  "T044": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Parler may \"terminate your access to the Services\" if \"you have violated these Terms\"."
  },
  "T045": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It says messages are end-to-end encrypted and no one, not even WhatsApp, can read them: the opposite."
  },
  "T046": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only sharing with prospective buyers of the business and with courts/authorities is shown, a narrow subset of non-essential sharing."
  },
  "T047": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers advertising and user content warranties, nothing about suggestions or feedback."
  },
  "T048": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is about maintaining and improving services through usage analysis, nothing biometric."
  },
  "T049": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It covers liability for discontinuation and prohibited conduct, not accuracy or reliability of information."
  },
  "T050": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "License to distribute the Contribution \"in any media formats and through any media channels now known or hereafter devised\"."
  },
  "T051": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers arbitration and class action waivers; the governing law section is not shown."
  },
  "T052": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Log information includes \"IP address and related information\" and \"location\"."
  },
  "T053": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is about data processors and hosting locations, not referring or exit pages."
  },
  "T054": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "With Location Services on, \"we can use his GPS information\", stopping only when it is turned off."
  },
  "T055": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"I encourage you to use your real name, but you don't have to.\""
  },
  "T056": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You may terminate these Terms by ceasing all use of the Service and deleting all Licensed Elements\"."
  },
  "T057": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Political content or content related to partisan political activities\" appears in the list of prohibited content."
  },
  "T058": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only non-consensual intimate images are covered, much narrower than pornographic content in general."
  },
  "T059": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Information we receive from third party sites\" such as social networks used to log in or share."
  },
  "T060": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We use location-related information ... if you turn on the Location Services device setting. This includes things like your GPS location\"."
  },
  "T061": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Our failure or delay to exercise or enforce any right, remedy or provision ... will not operate as a waiver\"."
  },
  "T062": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers user-generated content retention and warranties, not leaving the service."
  },
  "T063": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is about withdrawal refunds and a withdrawal form, not severability."
  },
  "T064": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You will retain ownership of your Content\"."
  },
  "T065": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You may also be subject to additional terms and conditions that may apply when you use other Element services\"."
  },
  "T066": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It makes you responsible for content you upload, not for risks from downloading materials."
  },
  "T067": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "If you violate these terms X may take enforcement actions \"such as ... removing your Content\"."
  },
  "T068": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "You agree not to use the Service for purposes prohibited by trade restrictions, narrower than illegal purposes generally."
  },
  "T069": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Third-party service providers \"who help us in performing site analysis\" may use cookies, alongside statistical beacons."
  },
  "T070": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Traffic data includes \"the referral website that sent you\", which Bitdefender \"may record\"."
  },
  "T071": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers promotions and general prohibited uses, nothing about sharing your account."
  },
  "T072": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "It collects \"your IP address\" and \"some information about your approximate location\"."
  },
  "T073": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is about limitations of liability and third-party reference sites, not downloading materials."
  },
  "T074": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We use cookies, beacons, tags, scripts and other similar technologies\"."
  },
  "T075": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Third parties that can access personal data include persons contracted for technical assurance and payment processors."
  },
  "T076": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage gives legal bases for processing, nothing about biometric data."
  },
  "T077": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only conspiracy content that encourages targeting people for violence is listed; no general ban on violent or extremist content."
  },
  "T078": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers notices, termination, severability and iOS terms, nothing about suggestions or feedback."
  },
  "T079": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only the \"Retrieved from ... oldid=39593\" revision link weakly implies a page history; no archive is stated."
  },
  "T080": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "It disclaims all warranties including fitness for a particular purpose, but does not say the service may not meet your expectations or requirements."
  },
  "T081": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is about copyright and acceptable use of the USPS site, not leaving the service."
  },
  "T082": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We may use cookies on the website and other official STiBaRC software\" to identify repeat visitors."
  },
  "T083": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Information is provided \"as is\" without warranty of fitness for a particular purpose, but meeting your expectations or requirements is not addressed directly."
  },
  "T084": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You will not license, sell, or transfer your Account without our prior written approval.\""
  },
  "T085": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "You are responsible for keeping your account safe and secure, but responsibility for activity on the account is not stated."
  },
  "T086": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is about creating and securing a Reddit account; it says nothing about who owns your content."
  },
  "T087": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You may terminate this agreement at any time by discontinuing your use of the Postal Service site\"."
  },
  "T088": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It grants other users access to your content and says content is not screened, but gives no warning about consequences of third-party access."
  },
  "T089": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "It advises you \"to enable two-factor authentication\", implying the feature is provided."
  },
  "T090": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "If a provision is unenforceable \"the remainder of the Terms of Use shall continue in full force and effect\"."
  },
  "T091": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "USPS's own session cookies \"may also be used to collect referral statistics\", but no third-party cookies are mentioned."
  },
  "T092": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"The Postal Service uses a third-party analytics provider (currently Google Analytics Premium) to analyze data from cookies.\""
  },
  "T093": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers API access to public data and legal disclosures, not app device permissions."
  },
  "T094": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Feedback is licensed to FaceApp royalty-free, perpetual, irrevocable and non-exclusive, so it can be used without payment while you keep ownership."
  },
  "T095": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Previous versions of the policy can be seen by viewing the Privacy Policy page history.\""
  },
  "T096": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "It warns that buying from third-party advertisers is at your own risk, a narrow warning rather than one about third-party access generally."
  },
  "T097": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "User and usage data is disclosed to marketing partners to promote Spotify, and partners may combine it with other data."
  },
  "T098": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "This is a general indemnity clause, not a statement that you bear the risks of downloading materials."
  },
  "T099": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "It says to report infringement through a form or a notice to the designated Copyright Agent and lists what the notice must contain."
  },
  "T100": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "It describes security practices such as analyzing IP and cookie data against abuse, scanning for malware and spam, and the last account activity feature."
  },
  "T101": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only messages with businesses may be read by business staff or their service providers (possibly Meta), narrower than private messages generally."
  },
  "T102": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It lists collected content and message data, not device permissions an app requires."
  },
  "T103": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage ends before listing uses of data; it never says personal data is used for marketing."
  },
  "T104": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage describes content you send within Snapchat, not combining your profile across products."
  },
  "T105": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only EEA, Swiss and UK consumers get home-country law and courts; everyone else is governed by California law and courts."
  },
  "T106": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers Ryver's software license, government use and Ryver's property, not limits on the license you grant."
  },
  "T107": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is a German-law liability clause, not a severability clause."
  },
  "T108": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Users are bound by separate \"Users Terms\" and the Customer may enforce policies \"in addition to the default ones\"."
  },
  "T109": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You agree to indemnify and hold harmless Creative Commons ... arising out of ... your use of any of the Services\"."
  },
  "T110": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only AI Features and Outputs are \"provided as-is\" and used \"at your own risk\", not the service as a whole."
  },
  "T111": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is general company information, nothing about referring or exit pages."
  },
  "T112": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is about content security measures and a release of claims, not indemnification or survival."
  },
  "T113": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "It lists what a copyright notification must contain (material, contact details, good-faith and perjury statements)."
  },
  "T114": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "You agree to \"indemnify, defend, and hold harmless\" Twitch, but survival after termination is not stated."
  },
  "T115": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You also agree to waive, and not to enforce, any 'moral rights' or equivalent rights\"."
  },
  "T116": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Fitness data like heart rate, skin temperature and sleep patterns is collected: physiological data close to, but not clearly, biometric data."
  },
  "T117": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is about termination for cause, not account security or responsibility for account activity."
  },
  "T118": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers Cloudflare processing and data security, nothing about archived agreements."
  },
  "T119": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is a limitation of liability clause and says nothing about governing courts or jurisdiction."
  },
  "T120": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You can also choose to share your current precise location\" by enabling a setting."
  },
  "T121": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We may retain access logs containing this data for up to 120 days, and then delete them.\""
  },
  "T122": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "It advises you \"to enable two-factor authentication\", implying the feature is provided."
  }
 }

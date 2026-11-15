@@ -9,3 +9,5 @@
 16cb4cc4eb273711489414a3120be3dee6df6b5006cc03605559070b04c01240 *stale/out/states_case2_key.json
 # prereg time in the text corrected from ~02:20 to ~02:12 at 2026-11-15T02:14:53Z, before rating; nothing else changed
 a8d24d8c32c0e9a20b77805f8d3136a3d2a906a8770038f74aaf260d8d6d2e9d *stale/PREREG_states_case_ext.md
+# verdicts 2026-11-15T02:19:06Z, as returned, before scoring
+a318556a883d19059c8e1eb18d2a7b52aa5c4ac81babee471efa78f3bd6b36ce *stale/audit_states2/verdicts.json
