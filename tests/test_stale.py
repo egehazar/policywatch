@@ -90,9 +90,27 @@ class TestSuggestionHighlight(unittest.TestCase):
 
     def test_escaping_and_no_proposal(self):
         h = self.card('A <b> & "c" passage.', 'A <b> & "c" passage.')
-        self.assertIn('<ins>A &lt;b&gt; &amp; &quot;c&quot; passage.</ins>', h); self.assertNotIn('<b>', h)
+        self.assertIn('<ins>A &lt;b&gt; &amp; &quot;c&quot; passage.</ins>', h); self.assertNotIn('A <b>', h)          # the clear / close label has its own <b>
         s = {'n_pieces': 2, 'top': [{'piece': 0, 'score': .8, 'text': 'Plain.'}]}
         self.assertNotIn('Suggested quote', report.suggestion(s, 'bm25', None))
+
+
+class TestClearLabel(unittest.TestCase):
+    """The clear / close label: kev only, after LABEL ADOPTED; cascade suggestions say the check came after the test."""
+    def s(self, a, b, **kw):
+        return {'n_pieces': 9, 'top': [{'piece': 0, 'score': a, 'text': 'x'}, {'piece': 1, 'score': b, 'text': 'y'}], **kw}
+
+    def test_label(self):
+        from unittest import mock
+        with mock.patch.object(report, 'label_adopted', return_value=True):
+            full = report.confidence(self.s(.9, .6), 'kev')                    # a lead of exactly .30 is clear
+            self.assertIn('Clear:', full); self.assertNotIn('after the test', full)
+            self.assertIn('Close:', report.confidence(self.s(.9, .61), 'kev'))
+            casc = report.confidence(self.s(.95, .2, cascade='rerank top 10'), 'kev')
+            self.assertIn('Clear:', casc); self.assertIn('checked after the test', casc)
+            self.assertEqual(report.confidence(self.s(.9, .1), 'bm25'), '')
+        with mock.patch.object(report, 'label_adopted', return_value=False):
+            self.assertEqual(report.confidence(self.s(.9, .1), 'kev'), '')
 
 
 class TestWide(unittest.TestCase):

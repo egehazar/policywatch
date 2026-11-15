@@ -1,0 +1,14 @@
+{
+ "points": 200,
+ "clear": 62,
+ "clear_share": 0.31,
+ "clear_hit1": 0.952,
+ "rest_hit1": 0.486,
+ "rest_hit3": 0.783,
+ "clear_hit1_ci95": [
+  0.893,
+  1.0
+ ],
+ "rule_would_read": "LABEL ADOPTED",
+ "note": "exploratory: addendum 1 rule applied to the cascade arm after part D was seen"
+}

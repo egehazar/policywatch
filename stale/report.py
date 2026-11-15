@@ -32,12 +32,14 @@ CLEAR = .30      # stale/reloc_margin.py
 
 
 def confidence(s, arm):
-    # the label was validated with Kev scoring every piece: not shown for cascade suggestions (Kev saw the top 10 only)
-    if arm != 'kev' or s.get('cascade') or len(s.get('top') or []) < 2 or not label_adopted(): return ''
+    # the label was validated with Kev scoring every piece (addendum 1); for cascade suggestions (Kev saw each case's
+    # reranker top 10) it rests on an exploratory check made after part D was seen (stale/margin_cascade.py), and says so
+    if arm != 'kev' or len(s.get('top') or []) < 2 or not label_adopted(): return ''
     m = round(s['top'][0]['score'] - s['top'][1]['score'], 4)                # as stale/reloc_margin.py rounds it
     if m >= CLEAR:
+        how = (' (for these suggestions, checked after the test rather than registered before it)' if s.get('cascade') else '')
         return ('<p class="sm"><b>Clear:</b> passage 1 scored well ahead of the next. In testing, a lead this large meant the '
-                'passage held the curator&rsquo;s quote about 9 times in 10.</p>')
+                f'passage held the curator&rsquo;s quote about 9 times in 10{how}.</p>')
     return '<p class="sm"><b>Close:</b> the top passages scored close together; check passages 2 and 3 too.</p>'
 
 

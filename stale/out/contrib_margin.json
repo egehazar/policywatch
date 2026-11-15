@@ -1,0 +1,39 @@
+{
+ "A_exploratory": {
+  "points": 200,
+  "clear": 45,
+  "clear_share": 0.225,
+  "clear_hit1": 0.933,
+  "rest_hit1": 0.529,
+  "rest_hit3": 0.748,
+  "clear_hit1_ci95": [
+   0.861,
+   1.0
+  ]
+ },
+ "B_exploratory": {
+  "points": 202,
+  "clear": 71,
+  "clear_share": 0.351,
+  "clear_hit1": 0.958,
+  "rest_hit1": 0.641,
+  "rest_hit3": 0.893,
+  "clear_hit1_ci95": [
+   0.908,
+   1.0
+  ]
+ },
+ "D": {
+  "points": 200,
+  "clear": 53,
+  "clear_share": 0.265,
+  "clear_hit1": 0.943,
+  "rest_hit1": 0.51,
+  "rest_hit3": 0.782,
+  "clear_hit1_ci95": [
+   0.88,
+   1.0
+  ],
+  "reading": "LABEL ADOPTED"
+ }
+}
