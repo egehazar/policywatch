@@ -1,0 +1,1126 @@
+{
+ "cards": {
+  "U001": {
+   "part": "A",
+   "point": 318780,
+   "doc": "Spotify/Terms of Service.md",
+   "piece": 43,
+   "kind": "ANCHOR",
+   "earlier": "YES"
+  },
+  "U002": {
+   "part": "A",
+   "point": 318814,
+   "doc": "Spotify/Privacy Policy.md",
+   "piece": 23,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U003": {
+   "part": "B",
+   "point": 22102,
+   "doc": "Alibaba/Privacy Policy [3409]",
+   "piece": 6,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U004": {
+   "part": "A",
+   "point": 320782,
+   "doc": "Facebook/Privacy Policy.md",
+   "piece": 51,
+   "kind": "ANCHOR",
+   "earlier": "YES"
+  },
+  "U005": {
+   "part": "A",
+   "point": 320782,
+   "doc": "Facebook/Privacy Policy.md",
+   "piece": 46,
+   "kind": "ANCHOR",
+   "earlier": "YES"
+  },
+  "U006": {
+   "part": "B",
+   "point": 25159,
+   "doc": "The MOD Archive/Terms & Disclaimer [3167]",
+   "piece": 9,
+   "kind": "ANCHOR",
+   "earlier": "PARTLY"
+  },
+  "U007": {
+   "part": "B",
+   "point": 16051,
+   "doc": "Element/Terms of Service [3416]",
+   "piece": 0,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U008": {
+   "part": "B",
+   "point": 319771,
+   "doc": "IKEA/Terms and Conditions [7126]",
+   "piece": 11,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U009": {
+   "part": "A",
+   "point": 322821,
+   "doc": "Tumblr/Privacy Policy.md",
+   "piece": 24,
+   "kind": "ANCHOR",
+   "earlier": "NO"
+  },
+  "U010": {
+   "part": "B",
+   "point": 305212,
+   "doc": "Malwarebytes/Terms of Service [2529]",
+   "piece": 5,
+   "kind": "ANCHOR",
+   "earlier": "NO"
+  },
+  "U011": {
+   "part": "A",
+   "point": 319208,
+   "doc": "YouTube/Terms of Service.md",
+   "piece": 4,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U012": {
+   "part": "B",
+   "point": 16070,
+   "doc": "Element/Terms of Service [3416]",
+   "piece": 22,
+   "kind": "ANCHOR",
+   "earlier": "YES"
+  },
+  "U013": {
+   "part": "A",
+   "point": 20040,
+   "doc": "Tumblr/Terms of Service.md",
+   "piece": 0,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U014": {
+   "part": "A",
+   "point": 328825,
+   "doc": "Snapchat/Terms of Service.md",
+   "piece": 69,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U015": {
+   "part": "A",
+   "point": 321420,
+   "doc": "X/Privacy Policy.md",
+   "piece": 5,
+   "kind": "ANCHOR",
+   "earlier": "YES"
+  },
+  "U016": {
+   "part": "B",
+   "point": 26170,
+   "doc": "Represent/Terms & Conditions [7207]",
+   "piece": 10,
+   "kind": "ANCHOR",
+   "earlier": "YES"
+  },
+  "U017": {
+   "part": "B",
+   "point": 18462,
+   "doc": "ShortcutWorld.com/Terms of Use [1235]",
+   "piece": 6,
+   "kind": "RANDOM",
+   "earlier": null
+  },
+  "U018": {
+   "part": "B",
+   "point": 22025,
+   "doc": "Alibaba/Terms of Use [6757]",
+   "piece": 60,
+   "kind": "RANDOM",
+   "earlier": null
+  },
+  "U019": {
+   "part": "A",
+   "point": 19030,
+   "doc": "Parler/Terms of Service.md",
+   "piece": 19,
+   "kind": "RANDOM",
+   "earlier": null
+  },
+  "U020": {
+   "part": "B",
+   "point": 20147,
+   "doc": "Uber/Privacy Policy [354]",
+   "piece": 30,
+   "kind": "RANDOM",
+   "earlier": null
+  },
+  "U021": {
+   "part": "A",
+   "point": 322731,
+   "doc": "Pinterest/Privacy Policy.md",
+   "piece": 7,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U022": {
+   "part": "B",
+   "point": 5458,
+   "doc": "Ryver/Terms of Service [924]",
+   "piece": 5,
+   "kind": "ANCHOR",
+   "earlier": "NO"
+  },
+  "U023": {
+   "part": "A",
+   "point": 318272,
+   "doc": "Facebook/Privacy Policy.md",
+   "piece": 78,
+   "kind": "RANDOM",
+   "earlier": null
+  },
+  "U024": {
+   "part": "A",
+   "point": 322811,
+   "doc": "Tumblr/Privacy Policy.md",
+   "piece": 1,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U025": {
+   "part": "A",
+   "point": 12189,
+   "doc": "Instagram/Terms of Service.md",
+   "piece": 16,
+   "kind": "RANDOM",
+   "earlier": null
+  },
+  "U026": {
+   "part": "A",
+   "point": 322731,
+   "doc": "Pinterest/Privacy Policy.md",
+   "piece": 8,
+   "kind": "ANCHOR",
+   "earlier": "YES"
+  },
+  "U027": {
+   "part": "A",
+   "point": 321422,
+   "doc": "X/Privacy Policy.md",
+   "piece": 15,
+   "kind": "ANCHOR",
+   "earlier": "NO"
+  },
+  "U028": {
+   "part": "A",
+   "point": 13711,
+   "doc": "Twitch/Terms of Service.md",
+   "piece": 39,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U029": {
+   "part": "B",
+   "point": 36546,
+   "doc": "Xiaomi/User Agreement [3317]",
+   "piece": 13,
+   "kind": "ANCHOR",
+   "earlier": "PARTLY"
+  },
+  "U030": {
+   "part": "A",
+   "point": 319240,
+   "doc": "YouTube/Privacy Policy.md",
+   "piece": 6,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U031": {
+   "part": "A",
+   "point": 318272,
+   "doc": "Facebook/Privacy Policy.md",
+   "piece": 84,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U032": {
+   "part": "B",
+   "point": 319665,
+   "doc": "Mimo/Privacy Policy [23505]",
+   "piece": 3,
+   "kind": "ANCHOR",
+   "earlier": "YES"
+  },
+  "U033": {
+   "part": "B",
+   "point": 305212,
+   "doc": "Malwarebytes/Terms of Service [2529]",
+   "piece": 0,
+   "kind": "RANDOM",
+   "earlier": null
+  },
+  "U034": {
+   "part": "A",
+   "point": 319240,
+   "doc": "YouTube/Privacy Policy.md",
+   "piece": 25,
+   "kind": "ANCHOR",
+   "earlier": "YES"
+  },
+  "U035": {
+   "part": "A",
+   "point": 19030,
+   "doc": "Parler/Terms of Service.md",
+   "piece": 7,
+   "kind": "ANCHOR",
+   "earlier": "PARTLY"
+  },
+  "U036": {
+   "part": "A",
+   "point": 318272,
+   "doc": "Facebook/Privacy Policy.md",
+   "piece": 20,
+   "kind": "ANCHOR",
+   "earlier": "YES"
+  },
+  "U037": {
+   "part": "A",
+   "point": 320874,
+   "doc": "Bluesky/Privacy Policy.md",
+   "piece": 6,
+   "kind": "ANCHOR",
+   "earlier": "NO"
+  },
+  "U038": {
+   "part": "B",
+   "point": 14785,
+   "doc": "STiBaRC/Privacy Policy [3766]",
+   "piece": 0,
+   "kind": "ANCHOR",
+   "earlier": "YES"
+  },
+  "U039": {
+   "part": "A",
+   "point": 318801,
+   "doc": "Spotify/Privacy Policy.md",
+   "piece": 12,
+   "kind": "ANCHOR",
+   "earlier": "YES"
+  },
+  "U040": {
+   "part": "B",
+   "point": 331047,
+   "doc": "Consumer Rights Wiki/Privacy Policy [23678]",
+   "piece": 7,
+   "kind": "ANCHOR",
+   "earlier": "NO"
+  },
+  "U041": {
+   "part": "A",
+   "point": 321423,
+   "doc": "X/Privacy Policy.md",
+   "piece": 2,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U042": {
+   "part": "B",
+   "point": 24770,
+   "doc": "KeyMe/Privacy Policy [7004]",
+   "piece": 3,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U043": {
+   "part": "A",
+   "point": 320986,
+   "doc": "Reddit/Terms of Service.md",
+   "piece": 5,
+   "kind": "ANCHOR",
+   "earlier": "YES"
+  },
+  "U044": {
+   "part": "A",
+   "point": 328860,
+   "doc": "Snapchat/Privacy Policy.md",
+   "piece": 0,
+   "kind": "ANCHOR",
+   "earlier": "YES"
+  },
+  "U045": {
+   "part": "A",
+   "point": 318780,
+   "doc": "Spotify/Terms of Service.md",
+   "piece": 29,
+   "kind": "ANCHOR",
+   "earlier": "PARTLY"
+  },
+  "U046": {
+   "part": "A",
+   "point": 318900,
+   "doc": "WhatsApp/Privacy Policy.md",
+   "piece": 13,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U047": {
+   "part": "B",
+   "point": 22806,
+   "doc": "MIT App Inventor/MIT App Inventor Privacy Policy and Terms of Use [7155]",
+   "piece": 4,
+   "kind": "RANDOM",
+   "earlier": null
+  },
+  "U048": {
+   "part": "A",
+   "point": 318814,
+   "doc": "Spotify/Privacy Policy.md",
+   "piece": 18,
+   "kind": "RANDOM",
+   "earlier": null
+  },
+  "U049": {
+   "part": "A",
+   "point": 318798,
+   "doc": "Spotify/Privacy Policy.md",
+   "piece": 14,
+   "kind": "ANCHOR",
+   "earlier": "YES"
+  },
+  "U050": {
+   "part": "A",
+   "point": 321355,
+   "doc": "X/Terms of Service.md",
+   "piece": 39,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U051": {
+   "part": "A",
+   "point": 322731,
+   "doc": "Pinterest/Privacy Policy.md",
+   "piece": 23,
+   "kind": "ANCHOR",
+   "earlier": "PARTLY"
+  },
+  "U052": {
+   "part": "B",
+   "point": 326299,
+   "doc": "Rapid VPN/Privacy Policy [23731]",
+   "piece": 9,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U053": {
+   "part": "A",
+   "point": 13391,
+   "doc": "Reddit/Terms of Service.md",
+   "piece": 10,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U054": {
+   "part": "B",
+   "point": 22813,
+   "doc": "MIT App Inventor/MIT App Inventor Privacy Policy and Terms of Use [7155]",
+   "piece": 5,
+   "kind": "RANDOM",
+   "earlier": null
+  },
+  "U055": {
+   "part": "B",
+   "point": 10251,
+   "doc": "Quizlet/Terms of Service [2524]",
+   "piece": 10,
+   "kind": "ANCHOR",
+   "earlier": "NO"
+  },
+  "U056": {
+   "part": "A",
+   "point": 318780,
+   "doc": "Spotify/Terms of Service.md",
+   "piece": 28,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U057": {
+   "part": "A",
+   "point": 328875,
+   "doc": "Snapchat/Privacy Policy.md",
+   "piece": 11,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U058": {
+   "part": "B",
+   "point": 8705,
+   "doc": "The Session/Privacy policy [2230]",
+   "piece": 1,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U059": {
+   "part": "A",
+   "point": 322755,
+   "doc": "Pinterest/Community Guidelines.md",
+   "piece": 9,
+   "kind": "ANCHOR",
+   "earlier": "PARTLY"
+  },
+  "U060": {
+   "part": "B",
+   "point": 22813,
+   "doc": "MIT App Inventor/MIT App Inventor Privacy Policy and Terms of Use [7155]",
+   "piece": 11,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U061": {
+   "part": "A",
+   "point": 13704,
+   "doc": "Twitch/Terms of Service.md",
+   "piece": 33,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U062": {
+   "part": "B",
+   "point": 16051,
+   "doc": "Element/Terms of Service [3416]",
+   "piece": 22,
+   "kind": "ANCHOR",
+   "earlier": "NO"
+  },
+  "U063": {
+   "part": "A",
+   "point": 319226,
+   "doc": "YouTube/Terms of Service.md",
+   "piece": 23,
+   "kind": "ANCHOR",
+   "earlier": "NO"
+  },
+  "U064": {
+   "part": "A",
+   "point": 321422,
+   "doc": "X/Privacy Policy.md",
+   "piece": 5,
+   "kind": "QWEN",
+   "earlier": null
+  },
+  "U065": {
+   "part": "A",
+   "point": 319275,
+   "doc": "YouTube/Privacy Policy.md",
+   "piece": 8,
+   "kind": "QWEN",
+   "earlier": null
+  }
+ },
+ "qwen_tops": [
+  {
+   "part": "A",
+   "point": 322731,
+   "piece": 7
+  },
+  {
+   "part": "A",
+   "point": 318777,
+   "piece": 25
+  },
+  {
+   "part": "A",
+   "point": 319275,
+   "piece": 8
+  },
+  {
+   "part": "A",
+   "point": 13710,
+   "piece": 39
+  },
+  {
+   "part": "A",
+   "point": 13391,
+   "piece": 10
+  },
+  {
+   "part": "A",
+   "point": 328860,
+   "piece": 0
+  },
+  {
+   "part": "A",
+   "point": 12189,
+   "piece": 8
+  },
+  {
+   "part": "A",
+   "point": 318800,
+   "piece": 11
+  },
+  {
+   "part": "A",
+   "point": 320782,
+   "piece": 46
+  },
+  {
+   "part": "A",
+   "point": 319240,
+   "piece": 6
+  },
+  {
+   "part": "A",
+   "point": 320986,
+   "piece": 5
+  },
+  {
+   "part": "A",
+   "point": 322827,
+   "piece": 23
+  },
+  {
+   "part": "A",
+   "point": 320874,
+   "piece": 6
+  },
+  {
+   "part": "A",
+   "point": 322826,
+   "piece": 23
+  },
+  {
+   "part": "A",
+   "point": 318272,
+   "piece": 84
+  },
+  {
+   "part": "A",
+   "point": 318798,
+   "piece": 18
+  },
+  {
+   "part": "A",
+   "point": 322811,
+   "piece": 1
+  },
+  {
+   "part": "A",
+   "point": 876,
+   "piece": 9
+  },
+  {
+   "part": "A",
+   "point": 318801,
+   "piece": 12
+  },
+  {
+   "part": "A",
+   "point": 321391,
+   "piece": 21
+  },
+  {
+   "part": "A",
+   "point": 13688,
+   "piece": 23
+  },
+  {
+   "part": "A",
+   "point": 320772,
+   "piece": 23
+  },
+  {
+   "part": "A",
+   "point": 965,
+   "piece": 16
+  },
+  {
+   "part": "A",
+   "point": 318780,
+   "piece": 28
+  },
+  {
+   "part": "A",
+   "point": 318964,
+   "piece": 22
+  },
+  {
+   "part": "A",
+   "point": 320751,
+   "piece": 1
+  },
+  {
+   "part": "A",
+   "point": 20040,
+   "piece": 0
+  },
+  {
+   "part": "A",
+   "point": 321416,
+   "piece": 12
+  },
+  {
+   "part": "A",
+   "point": 321010,
+   "piece": 36
+  },
+  {
+   "part": "A",
+   "point": 322821,
+   "piece": 20
+  },
+  {
+   "part": "B",
+   "point": 22102,
+   "piece": 6
+  },
+  {
+   "part": "B",
+   "point": 13156,
+   "piece": 4
+  },
+  {
+   "part": "B",
+   "point": 14785,
+   "piece": 3
+  },
+  {
+   "part": "B",
+   "point": 30982,
+   "piece": 18
+  },
+  {
+   "part": "B",
+   "point": 15070,
+   "piece": 15
+  },
+  {
+   "part": "B",
+   "point": 11825,
+   "piece": 5
+  },
+  {
+   "part": "B",
+   "point": 24770,
+   "piece": 3
+  },
+  {
+   "part": "B",
+   "point": 22397,
+   "piece": 7
+  },
+  {
+   "part": "B",
+   "point": 14935,
+   "piece": 3
+  },
+  {
+   "part": "B",
+   "point": 8408,
+   "piece": 11
+  },
+  {
+   "part": "B",
+   "point": 22813,
+   "piece": 11
+  },
+  {
+   "part": "B",
+   "point": 14467,
+   "piece": 13
+  },
+  {
+   "part": "B",
+   "point": 26170,
+   "piece": 10
+  },
+  {
+   "part": "B",
+   "point": 16051,
+   "piece": 0
+  },
+  {
+   "part": "B",
+   "point": 305212,
+   "piece": 4
+  },
+  {
+   "part": "B",
+   "point": 13344,
+   "piece": 4
+  },
+  {
+   "part": "B",
+   "point": 22235,
+   "piece": 5
+  },
+  {
+   "part": "B",
+   "point": 22025,
+   "piece": 9
+  },
+  {
+   "part": "B",
+   "point": 20147,
+   "piece": 7
+  },
+  {
+   "part": "B",
+   "point": 8701,
+   "piece": 0
+  },
+  {
+   "part": "B",
+   "point": 8705,
+   "piece": 1
+  },
+  {
+   "part": "B",
+   "point": 18166,
+   "piece": 2
+  },
+  {
+   "part": "B",
+   "point": 19336,
+   "piece": 7
+  },
+  {
+   "part": "B",
+   "point": 36546,
+   "piece": 14
+  },
+  {
+   "part": "B",
+   "point": 319685,
+   "piece": 3
+  },
+  {
+   "part": "B",
+   "point": 319771,
+   "piece": 11
+  },
+  {
+   "part": "B",
+   "point": 326283,
+   "piece": 6
+  },
+  {
+   "part": "B",
+   "point": 318466,
+   "piece": 56
+  },
+  {
+   "part": "B",
+   "point": 319665,
+   "piece": 3
+  },
+  {
+   "part": "B",
+   "point": 326299,
+   "piece": 9
+  },
+  {
+   "part": "A",
+   "point": 321422,
+   "piece": 5
+  },
+  {
+   "part": "A",
+   "point": 322664,
+   "piece": 7
+  },
+  {
+   "part": "A",
+   "point": 328830,
+   "piece": 26
+  },
+  {
+   "part": "A",
+   "point": 318900,
+   "piece": 13
+  },
+  {
+   "part": "A",
+   "point": 13038,
+   "piece": 7
+  },
+  {
+   "part": "A",
+   "point": 319226,
+   "piece": 21
+  },
+  {
+   "part": "A",
+   "point": 322755,
+   "piece": 8
+  },
+  {
+   "part": "A",
+   "point": 321355,
+   "piece": 39
+  },
+  {
+   "part": "A",
+   "point": 320889,
+   "piece": 5
+  },
+  {
+   "part": "A",
+   "point": 13711,
+   "piece": 39
+  },
+  {
+   "part": "A",
+   "point": 319265,
+   "piece": 19
+  },
+  {
+   "part": "A",
+   "point": 328825,
+   "piece": 69
+  },
+  {
+   "part": "A",
+   "point": 13704,
+   "piece": 33
+  },
+  {
+   "part": "A",
+   "point": 318814,
+   "piece": 23
+  },
+  {
+   "part": "A",
+   "point": 319277,
+   "piece": 67
+  },
+  {
+   "part": "A",
+   "point": 13304,
+   "piece": 24
+  },
+  {
+   "part": "A",
+   "point": 321423,
+   "piece": 2
+  },
+  {
+   "part": "A",
+   "point": 321448,
+   "piece": 19
+  },
+  {
+   "part": "A",
+   "point": 320845,
+   "piece": 19
+  },
+  {
+   "part": "A",
+   "point": 320771,
+   "piece": 23
+  },
+  {
+   "part": "A",
+   "point": 322748,
+   "piece": 1
+  },
+  {
+   "part": "A",
+   "point": 322703,
+   "piece": 20
+  },
+  {
+   "part": "A",
+   "point": 328875,
+   "piece": 11
+  },
+  {
+   "part": "A",
+   "point": 328844,
+   "piece": 60
+  },
+  {
+   "part": "A",
+   "point": 8175,
+   "piece": 25
+  },
+  {
+   "part": "A",
+   "point": 319208,
+   "piece": 4
+  },
+  {
+   "part": "A",
+   "point": 318969,
+   "piece": 4
+  },
+  {
+   "part": "A",
+   "point": 321420,
+   "piece": 6
+  },
+  {
+   "part": "A",
+   "point": 19030,
+   "piece": 17
+  },
+  {
+   "part": "A",
+   "point": 318762,
+   "piece": 15
+  },
+  {
+   "part": "B",
+   "point": 21971,
+   "piece": 8
+  },
+  {
+   "part": "B",
+   "point": 22806,
+   "piece": 7
+  },
+  {
+   "part": "B",
+   "point": 5458,
+   "piece": 2
+  },
+  {
+   "part": "B",
+   "point": 10251,
+   "piece": 19
+  },
+  {
+   "part": "B",
+   "point": 14237,
+   "piece": 7
+  },
+  {
+   "part": "B",
+   "point": 318384,
+   "piece": 8
+  },
+  {
+   "part": "B",
+   "point": 331047,
+   "piece": 8
+  },
+  {
+   "part": "B",
+   "point": 15197,
+   "piece": 8
+  },
+  {
+   "part": "B",
+   "point": 15180,
+   "piece": 2
+  },
+  {
+   "part": "B",
+   "point": 319691,
+   "piece": 4
+  },
+  {
+   "part": "B",
+   "point": 18462,
+   "piece": 2
+  },
+  {
+   "part": "B",
+   "point": 11687,
+   "piece": 12
+  },
+  {
+   "part": "B",
+   "point": 24777,
+   "piece": 8
+  },
+  {
+   "part": "B",
+   "point": 25159,
+   "piece": 9
+  },
+  {
+   "part": "B",
+   "point": 326285,
+   "piece": 7
+  },
+  {
+   "part": "B",
+   "point": 16071,
+   "piece": 22
+  },
+  {
+   "part": "B",
+   "point": 222850,
+   "piece": 11
+  },
+  {
+   "part": "B",
+   "point": 19871,
+   "piece": 10
+  },
+  {
+   "part": "B",
+   "point": 7107,
+   "piece": 17
+  },
+  {
+   "part": "B",
+   "point": 16070,
+   "piece": 22
+  },
+  {
+   "part": "B",
+   "point": 22393,
+   "piece": 6
+  },
+  {
+   "part": "B",
+   "point": 6355,
+   "piece": 3
+  },
+  {
+   "part": "B",
+   "point": 11685,
+   "piece": 13
+  },
+  {
+   "part": "B",
+   "point": 11871,
+   "piece": 2
+  },
+  {
+   "part": "B",
+   "point": 25779,
+   "piece": 4
+  },
+  {
+   "part": "B",
+   "point": 14779,
+   "piece": 2
+  },
+  {
+   "part": "B",
+   "point": 23816,
+   "piece": 49
+  },
+  {
+   "part": "B",
+   "point": 23777,
+   "piece": 34
+  },
+  {
+   "part": "B",
+   "point": 8704,
+   "piece": 0
+  },
+  {
+   "part": "B",
+   "point": 28364,
+   "piece": 4
+  }
+ ]
+}
