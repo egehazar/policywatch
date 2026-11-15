@@ -74,7 +74,7 @@ code{font:.82rem var(--f-mono);background:var(--accent-soft);padding:1px 5px;bor
 </style>
 <div class="wrap">
 <header style="display:grid;gap:12px">
-  <div class="eyebrow">policywatch · state on 15 Nov 2026, 07:50 UTC</div>
+  <div class="eyebrow">policywatch · state on 15 Nov 2026, 08:05 UTC</div>
   <h1>Which approved ToS;DR points lost their evidence, and where is the case stated now?</h1>
   <p class="lede">ToS;DR&rsquo;s volunteer curators back every point (&ldquo;You waive your right to a class action&rdquo;) with a quote from a service&rsquo;s terms. Open Terms Archive records every version of those terms. policywatch checks every approved quote against every version, lists the points whose quote disappeared in a platform&rsquo;s own edit, and suggests where the case may be stated now. It runs on a desktop CPU; every test below was written down and hashed before it was scored, failures included.</p>
   <div class="status"><span class="pill p-run">Computing the decision model&rsquo;s suggestions for 544 more stale points</span><span class="pill p-warn">Stale-point suggestions provisional until a person rates 60 blind cards</span></div>
@@ -128,6 +128,7 @@ code{font:.82rem var(--f-mono);background:var(--accent-soft);padding:1px 5px;bor
     <tr><td>Same, 202 held-out points, 41 services</td><td><span class="pill p-good">Replicated</span></td><td class="num">75% vs 41%, 43%</td><td>Curator&rsquo;s quote</td></tr>
     <tr><td>Same, a third sample: 200 points, 47 services</td><td><span class="pill p-good">Replicated</span></td><td class="num">62.5% vs 34.5%, 34%</td><td>Curator&rsquo;s quote</td></tr>
     <tr><td>Kev vs its base family, Qwen3.5-4B</td><td><span class="pill p-n">No difference</span></td><td class="num">62 vs 60 · 75 vs 74</td><td>Curator&rsquo;s quote</td></tr>
+    <tr><td>Kev&rsquo;s probabilities better calibrated than its base family&rsquo;s? (exploratory)</td><td><span class="pill p-n">No difference</span></td><td class="num">Brier .140 vs .135, 307 rated passages</td><td>LLM raters, blind</td></tr>
     <tr><td>Kev vs a cross-encoder reranker</td><td><span class="pill p-warn">Kev ahead in 1 of 3</span></td><td class="num">62 vs 55 · 75 vs 65 · 62.5 vs 56.5; pooled after the fact +8 [+4, +12]</td><td>Curator&rsquo;s quote</td></tr>
     <tr><td>Does the top passage state the case? 120 points</td><td><span class="pill p-good">Kev, Qwen ahead</span></td><td class="num">Kev 73 · Qwen 73 · reranker 61 · BM25 42</td><td>LLM raters, blind</td></tr>
     <tr><td>Propose the sentence to quote</td><td><span class="pill p-good">Shipped</span></td><td class="num">83% vs BM25 56%</td><td>Curator&rsquo;s quote</td></tr>
