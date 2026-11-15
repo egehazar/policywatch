@@ -1,6 +1,6 @@
 # Missing points, the larger test: 10 more documents, and Kev against its base family (pre-registered)
 
-Written 2026-11-15 ~21:05 UTC, after the pilot's result (`stale/RESULT_missing.md`) and before any score of these 10
+Written 2026-11-15 ~20:40 UTC, after the pilot's result (`stale/RESULT_missing.md`) and before any score of these 10
 documents exists from any arm of this test. Code: `stale/missing2.py` (tested on random stand-in scores only).
 
 ## Why
