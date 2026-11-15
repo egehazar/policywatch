@@ -357,6 +357,24 @@ class TestStatesCase(unittest.TestCase):
         self.assertEqual(s['states_at1'], {'KEV': .5, 'RERANK': .5, 'BM25': 0.0}); self.assertEqual(s['KEV_minus_BM25']['point'], .5)
 
 
+class TestCostCurve(unittest.TestCase):
+    """bench.cost_curve.result on synthetic timings: Kev = 6 + 1 s per question; instruct 6 s per question."""
+    def test_result(self):
+        from bench import cost_curve as C
+        tmp = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, tmp)
+        F0 = C.F; C.F = {k: os.path.join(tmp, k) for k in F0}; self.addCleanup(setattr, C, 'F', F0)
+        with open(C.F['kev.jsonl'], 'w') as f, open(C.F['qwen.jsonl'], 'w') as g:
+            for n, q in enumerate(C.LEVELS * 2):
+                f.write(json.dumps({'key': f'c{n}', 'q': q, 'chars': 1400, 'sec': 6 + q}) + '\n')
+                for k in range(q):
+                    g.write(json.dumps({'key': f'c{n}|{k}', 'item': f'c{n}', 'k': k, 'q': q, 'chars': 1400, 'sec': 6.0, 'lo': 0}) + '\n')
+        C.result(); R = json.load(open(C.F['result.json']))
+        self.assertEqual(R['kev_fit'], {'s_per_passage': 6.0, 's_per_question': 1.0})
+        self.assertEqual(R['qwen_later_over_first'], 1.0); self.assertEqual(R['ceiling_ratio'], 6.0)
+        self.assertEqual(R['break_even_questions'], 1.2)                          # 6 / (6 - 1)
+        self.assertEqual(R['levels']['4']['qwen_over_kev'] if '4' in R['levels'] else R['levels'][4]['qwen_over_kev'], 2.4)
+
+
 class TestRecrawl(unittest.TestCase):
     """stale.recrawl: listed points only, grouped by ToS;DR document, split by what the stored copy holds."""
     def test_rows(self):

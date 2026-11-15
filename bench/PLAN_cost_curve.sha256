@@ -1,0 +1,4 @@
+# plan 2026-11-15T07:53:40Z (before any timed call; one smoke-test call on a scratch copy, discarded)
+58a68f332dd1dc886d79ba4810263691c1e6714877af8488d3efa5b121df5685 *bench/PLAN_cost_curve.md
+dcfb3c773b134f8101381c77252d2d1dde6c3fb6097fa013bd34d5ece4ae6363 *bench/out/cost_plan.json
+858dfe62b6b2628c478d97dff3a82b1ebb0b374252eea17615f6af3b3f7b6b67 *bench/cost_curve.py

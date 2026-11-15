@@ -1,0 +1,996 @@
+{
+ "seed": 20261115,
+ "questions": [
+  "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+  "Does the text state or clearly imply the following: Alternative accounts are not allowed?",
+  "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+  "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+  "Does the text state or clearly imply the following: Your profile is combined across various products?",
+  "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+  "Does the text state or clearly imply the following: You waive your right to a class action?",
+  "Does the text state or clearly imply the following: You have the right to leave this service at any time?",
+  "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+  "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+  "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?",
+  "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+  "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+  "Does the text state or clearly imply the following: You must provide your identifiable information?",
+  "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+  "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?"
+ ],
+ "pieces_sha": "f0e6708fb459fa78",
+ "items": [
+  {
+   "id": "c00",
+   "doc": "Ryver/Privacy Policy [925]",
+   "piece": 4,
+   "chars": 1377,
+   "text": "As long as we are legally permitted, we will provide notice of any situation where accessing content becomes necessary.\n\nWe will also request permission before accessing content to provide customer support.\n\nCookies and Log Files\n\nWhen you use the Service, we may send one or more \u201ccookies\u201d (a small data file) to your computer to uniquely identify your browser and assist Ryver to help you log in faster and improve your navigation through the Site.\n\nA cookie may convey anonymous information to us about how you browse the Service.\n\nA persistent cookie remains on your hard drive after you close your browser so that it can be used by your browser on subsequent visits to the Site.\n\nPersistent cookies can be removed by following your browser\u2019s directions.\n\nA session cookie is temporary and disappears after you close your browser.\n\nYou can reset your browser to refuse all cookies or to indicate when a cookie is being sent.\n\nHowever, certain features of the Service may not function properly if you disable the ability to accept cookies.\n\nDevice Identifiers and Geo-Location Information\n\nRyver does not currently collect precise GPS information with our mobile client.\n\nShould that change in the future, we will update our privacy policy, and take steps in the application to ensure that users are aware of such use of location information in order to provide our service.",
+   "q": 2,
+   "questions": [
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?"
+   ]
+  },
+  {
+   "id": "c01",
+   "doc": "Element/Privacy Policy [3415]",
+   "piece": 3,
+   "chars": 1447,
+   "text": "Gitter app users : Gitter.im is now a part of Element, and will soon be bridged to the Matrix protocol, allowing its users to talk to other Matrix users.\n\nElement Customers : Element Customers use Element Matrix Services (EMS) to provision and manage hosted homeservers.\n\nApart from where otherwise noted, this document does not address data protections issues relating to the messaging and file data submitted by Users to the hosted homeserver instances, as this is the legal responsability of the Customer.\n\nFor general Terms of Use for Homeserver users, please see: User Terms of Service\n\nThis document does not cover:\n\nYour relationship with the Matrix server if it isn't provided by EMS : Your account details and preferences, messages, files and any other data you share via the Matrix protocol are the responsibility of the Matrix server, and it is the provider of that server's job to make sure your data is handled appropriately and that you are well informed.\n\nIf you are using the matrix.org server provided by the Matrix Foundation, you can find the relevant Privacy Notice and Terms and Conditions here:\n\nMatrix.org Privacy Notice - https://matrix.org/docs/guides/privacy_notice.html\n\n\u200dMatrix.org Terms and Conditions - https://matrix.org/docs/guides/terms_and_conditions.html\n\n\u200dMatrix.org Code of Conduct - https://matrix.org/docs/guides/code_of_conduct\n\n\u200dMatrix.org Copyright Notice - https://matrix.org/docs/guides/copyright_notice",
+   "q": 4,
+   "questions": [
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?"
+   ]
+  },
+  {
+   "id": "c02",
+   "doc": "The Walt Disney Company/Disney Terms of Use [3291]",
+   "piece": 28,
+   "chars": 1436,
+   "text": "You and Disney will attempt to resolve a dispute through informal negotiation within sixty (60) days from the date the notice of dispute is sent.\n\nAfter that sixty (60) day period and not before, you or we may commence an arbitration proceeding.\n\nYou may instead litigate a dispute in small claims court if the dispute meets the requirements to be heard in small claims court, whether or not you negotiated informally first.\n\nB.\n\nIf you and Disney do not resolve a dispute by informal negotiation or in small claims court, the dispute shall be resolved by binding arbitration before a neutral arbitrator whose decision will be final except for a limited right of appeal under the U.S.\n\nFederal Arbitration Act.\n\nYOU ARE GIVING UP THE RIGHT TO LITIGATE A DISPUTE IN COURT BEFORE A JUDGE OR JURY.\n\nArbitration will be administered by JAMS Mediation, Arbitration and ADR Services (\u201c JAMS \u201d) in accordance with the JAMS Streamlined Arbitration Rules and Procedures (the \u201c JAMS Rules \u201d).\n\nThe JAMS Rules and instructions about how to initiate an arbitration are available at www.jamsadr.com or 1-800-352-5267.\n\nArbitration may be conducted in person, through the submission of documents, by phone, or online.\n\nProceedings that cannot be conducted through the submission of documents, by phone, or online, will take place in either Los Angeles, California or the borough of Manhattan, New York, New York, whichever is more convenient for you.",
+   "q": 1,
+   "questions": [
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?"
+   ]
+  },
+  {
+   "id": "c03",
+   "doc": "Cloudflare/Cloudflare Privacy Policy [1507]",
+   "piece": 3,
+   "chars": 1473,
+   "text": "Deliver Superior Online Experiences Mitigate DDoS Attacks Stop Malicious Bot Abuse Accelerate Internet Applications Ensure Application Availability Optimize Web Experiences Stream Videos On-Demand Secure Employee Applications and Devices Deliver Zero Trust Access to Applications Implement Secure Access Service Edge (SASE) Protect Users Accessing the Internet Protect Corporate Networks Manage Secure Contractor Access Replace Virtual Private Networks (VPNs) Secure Your Remote Workforce Stop Zero Day Attacks with Browser Isolation .\n\nProtect and Accelerate Networks Mitigate L3 DDoS Attacks Connect network infrastructure with Cloudflare Transform Corporate Networks Code on the Network Edge Build a Serverless Application Deploy a Static Website Configure a CDN Define Conditional Request Routing Manage a Secure Cloud Secure Hybrid, Cloud, &.\n\nSaaS Platforms Enable SSL for SaaS Applications Reduce Cloud Data Transfer Costs Register a Website Register or Transfer a Website INDUSTRIES eCommerce Gaming Media and Entertainment Public Sector SaaS PUBLIC INTEREST Election Campaigns Athenian Project Project Galileo Products FOR INFRASTRUCTURE\n\nApplication &.\n\nNetwork Security DDoS Protection WAF Bot Management Magic Transit Rate Limiting SSL / TLS Cloudflare Spectrum Network Interconnect Performance &.\n\nReliability CDN DNS Argo Smart Routing Load Balancing Stream Delivery China Network FOR TEAMS Cloudflare for Teams Access Gateway Browser Isolation FOR DEVELOPERS",
+   "q": 2,
+   "questions": [
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?"
+   ]
+  },
+  {
+   "id": "c04",
+   "doc": "hCaptcha/Privacy Policy [2440]",
+   "piece": 8,
+   "chars": 1366,
+   "text": "Covered Individuals have rights to access their stored Personal Data and to limit its use and disclosure. With our Data Privacy Framework certification, IM has committed to respect those rights. If you are an Covered Individual and you wish to request access to or to limit use or disclosure of your Personal Data, please contact us by email to privacy@imachines.com or by mail to: Intuition Machines, Inc. 1065 SW 8th St #704, Miami FL 33130, USA Attention: Privacy\n\nU.S. Federal Trade Commission enforcement:\n\nIM's commitments under the Data Privacy Framework are subject to the investigatory and enforcement powers of the United States Federal Trade Commission or the applicable United States authorized statutory body.\n\nCompelled disclosure:\n\nIM may be required to disclose Personal Data in response to lawful requests by public authorities, or administrative or judicial process, including to meet national security or law enforcement requirements.\n\n\u200d\n\n\u200d\n\nInformation We Collect\n\nWe collect information from individuals who interact with our Sites and Services, including those who incorporate our Service into their website (\"Integrators\"), those who utilize the services for data labeling (\"Customers\"), and the end users who interact with our Service through the websites of our Integrators (\"End-Users\").\n\nWe collect the following categories of information:",
+   "q": 8,
+   "questions": [
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?"
+   ]
+  },
+  {
+   "id": "c05",
+   "doc": "Steam/Steam Subscriber Agreement [207]",
+   "piece": 13,
+   "chars": 1490,
+   "text": "You are entitled to use the Content and Services for your own personal use, but you are not entitled to: (i) sell, grant a security interest in or transfer reproductions of the Content and Services to other parties in any way, nor to rent, lease or license the Content and Services to others without the prior written consent of Valve, except to the extent expressly permitted elsewhere in this Agreement (including any Subscription Terms or Rules of Use); (ii) host or provide matchmaking services for the Content and Services or emulate or redirect the communication protocols used by Valve in any network feature of the Content and Services, through protocol emulation, tunneling, modifying or adding components to the Content and Services, use of a utility program or any other techniques now known or hereafter developed, for any purpose including, but not limited to network play over the Internet, network play utilizing commercial or non-commercial gaming networks or as part of content aggregation networks, websites or services, without the prior written consent of Valve; or (iii) exploit the Content and Services or any of its parts for any commercial purpose, except as expressly permitted elsewhere in this Agreement (including any Subscription Terms or Rules of Use).\n\n3. BILLING, PAYMENT AND OTHER SUBSCRIPTIONS \u23f6\n\nAll charges incurred on Steam, and all purchases made with the Steam Wallet, are payable in advance and final, except as described in Sections 3.I and 7 below.",
+   "q": 1,
+   "questions": [
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?"
+   ]
+  },
+  {
+   "id": "c06",
+   "doc": "Gettr/Terms of Use [7980]",
+   "piece": 20,
+   "chars": 1407,
+   "text": "We allow you to save and manage your information about your Payment Method, including the full credit card number, account number, and expiration dates, for future purchases or transactions on our site.\n\nYou may make changes to your default Payment Method at any time.\n\nIf we are unable to charge one payment card, we may charge another valid credit card that you have entered for use on our site.\n\nYou are responsible for maintaining the accuracy of the information that we have on file, and you consent to GETTR updating such stored information from time to time based on information provided by you, your bank or payment services processors.\n\nIf you initiate a chargeback dispute for any payment or transaction made on our site, GETTR reserves the right to terminate the provision of services or delivery or products to you pending resolution of the chargeback dispute with the credit card issuer.\n\nSubscription fees may be automatically renewed at the end of the original term selected, for a similar period of time, unless notice is received from the subscriber seven (7) days before renewal.\n\nUnless and until you notify us that you would not like to renew such subscription in accordance with the terms hereof, you hereby authorize us to charge your Payment Method to pay for the ongoing cost of membership.\n\nSubscription fees are NOT refundable if you request to cancel or terminate your membership.",
+   "q": 2,
+   "questions": [
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?"
+   ]
+  },
+  {
+   "id": "c07",
+   "doc": "Lovense/Privacy Policy [23889]",
+   "piece": 17,
+   "chars": 1346,
+   "text": "Under the GDPR, the CCPA, the UK GDPR, and analogous laws, you have the following rights in relation to the Company's processing of your Personal Data. Where your jurisdiction grants additional or stronger rights, those rights shall apply.\n\na. Right to withdraw consent. Where processing is based on your consent, you may withdraw such consent at any time by notifying the Company. Withdrawal does not affect the lawfulness of any processing carried out before the withdrawal, nor processing based on other lawful grounds.\n\nb. Right to data portability. You have the right to receive a copy of the Personal Data you have provided to the Company, in a structured, commonly used, and machine-readable format, and to transmit such data to another controller, where technically feasible and where processing is based on consent or contract.\n\nc. Right to erasure (\"right to be forgotten\"). You have the right to request the deletion of Personal Data we hold about you. While we can erase data from our active records, copies may persist temporarily in inactive, archived, or backup systems and will be deleted in accordance with our retention and document-management policies. In certain cases, we may be required or permitted by law to retain Personal Data \u2014 for example, to comply with legal obligations, resolve disputes, or enforce our agreements.",
+   "q": 2,
+   "questions": [
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?"
+   ]
+  },
+  {
+   "id": "c08",
+   "doc": "Uber/Privacy Policy [354]",
+   "piece": 19,
+   "chars": 1499,
+   "text": "Questions or comments from users submitted through public forums such as Uber blogs and Uber social media pages may be viewable by the public, including any personal data included in the questions or comments submitted by a user.\n\n4- With the Uber account owner\n\nIf a user requests transportation or places an order using an account owned by another party, we may share their order or trip information, including real-time location data, with the owner of that account.\n\nThis occurs, for example, when:\n\nA rider uses their employer\u2019s Uber for Business profile, such as when they take trips arranged through Uber Central\n\nA driver or delivery person uses an account owned by or associated with an Uber partner transportation company or restaurant\n\nA rider takes a trip arranged by a friend or under a Family Profile\n\nA delivery person acts as a substitute (UK only)\n\n5- With Uber subsidiaries and affiliates\n\nWe share data with our subsidiaries and affiliates to help us provide our services or conduct data processing on our behalf.\n\nFor example, Uber processes and stores data in the United States on behalf of its international subsidiaries and affiliates.\n\n6- With Uber service providers and business partners\n\nUber provides data to vendors, consultants, marketing partners, research firms, and other service providers or business partners.\n\nThese include:\n\nPayment processors and facilitators\n\nBackground check and identity verification providers (drivers, delivery persons and cash riders only)",
+   "q": 8,
+   "questions": [
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?"
+   ]
+  },
+  {
+   "id": "c09",
+   "doc": "United States Postal Service/Privacy Policy [3511]",
+   "piece": 0,
+   "chars": 1404,
+   "text": "Scope This statement applies to USPS\u00ae customers and usps.com visitors, unless a separate privacy notice is prominently displayed. Uses For over two centuries, the Postal Service\u2122 has valued your privacy, and built a brand that customers trust.\n\nThank you for reviewing our privacy policy.\n\nOur privacy policy tells you about our information practices when you provide personal information to us, whether collected online or offline, or when you visit us online to browse, obtain information, or conduct a transaction.\n\nPersonal information may include your name, email, mailing and/or business address, phone numbers, or other information that identifies you personally.\n\nWe do not require you to register or provide personal information to visit our website.\n\nKey aspects of our privacy policy include:\n\nWe do not sell or rent your personal information to outside parties.\n\nWe do not market other products or services to you without your consent.\n\nWe do not use web analysis tools (e.g., cookies) to identify you personally without your express consent.\n\nThe policy includes detailed explanations of how we provide:\n\nExpand all Notice of our privacy practices, including Privacy Act rights\n\nThe following describes the ways we collect information from you, and the protections that apply to your information.\n\nThe Postal Service collects personal information from you and from your transactions with us.",
+   "q": 8,
+   "questions": [
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?"
+   ]
+  },
+  {
+   "id": "c10",
+   "doc": "Headspace/Terms and Conditions [5158]",
+   "piece": 35,
+   "chars": 1487,
+   "text": "(f) To retain a copy, you must either have a printer connected to your personal computer or other device or, alternatively, the ability to save a copy through use of printing service or software such as Adobe Acrobat\u00ae.\n\nIf you have a word processor or text editor program on your computer, then you can also copy the text and paste the text into a new document in the word processor or text editor and save the text.\n\n(g) You can also contact us via email at help@headspace.com to unsubscribe from further communications.\n\nUnsubscribing from communication may impact your ability to use the Products.\n\n(h) We reserve the right, in our sole discretion, to discontinue the provision of your electronic communications, or to terminate or change the terms and conditions on which we provide electronic communications.\n\nWe will provide you with notice of any such termination or change as required by law.\n\n13.8 NOTICES\n\nUnless otherwise specifically indicated, all notices given by you to us must be given to Headspace at help@headspace.com.\n\nWe may give notice to you at the e-mail address you provide to us when you register, or in any of the ways specified in section 13.7 above.\n\nNotice will be deemed received and properly served immediately when posted on the Products or when an e-mail or other electronic communication is sent.\n\nIn proving the service of any notice via email, it will be sufficient to prove that such e-mail was sent to the specified e-mail address of the addressee.",
+   "q": 4,
+   "questions": [
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?"
+   ]
+  },
+  {
+   "id": "c11",
+   "doc": "BitDefender/Privacy Policy for Bitdefender Home Solutions [3119]",
+   "piece": 5,
+   "chars": 1445,
+   "text": "We may use these data for marketing purpose for a maximum period of contractual duration, plus five years after the contract is terminated, except if the data subject has opted out from these communications at any moment in time.\n\nAfter this time frame expires the data will be deleted or anonymized. 2.2.\n\nTechnical data sent by Bitdefender product - when you use Bitdefender products it is possible to share with us some technical details, such as data for identifying the device (UUID), the infected URL you reported or an IP addresses.\n\nIf you use a Bitdefender product that integrates with your email server, some technical data of the infected files could be send to us, including data such as sender, recipient, subject or attachment.\n\nIn most cases, these technical data may not lead to your direct or indirect identification, but in some very specific cases computer specialists might be able to identify a specific user.\n\nTherefore, we treat all such information as personal data and protect it as such.\n\nThis information is solely used for the purpose of information and network security by correct and efficient operation of the products and services, according to the technical specifications, and their improvement, including by analyzing the reported security issues.\n\nThis includes delivering and customizing related services.\n\nAlso, we may use this information for statistical purposes and improving the quality of our products.",
+   "q": 8,
+   "questions": [
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?"
+   ]
+  },
+  {
+   "id": "c12",
+   "doc": "ShortcutWorld.com/Terms of Use [1235]",
+   "piece": 2,
+   "chars": 1494,
+   "text": "All information on this page are distributed and transmitted \"as is\" without warranties of any kind, either express or implied, including without limitation, any warranty for information, services or products provided through or in connection with the ShortcutwWorld service and any implied warranties of merchantability, fitness for a particular purpose, expectation of privacy or non-infringement.\n\nThis disclaimer of liability applies to any damages or injury caused by any error, omission, deletion, defect, interruption, failure of performance, delay in operation or transmission, computer virus, communication line failure, theft or destruction or unauthorized access to, alteration of, or use of record, whether for breach of contract, negligence, tortious behavior, or under any other cause of action.\n\nShortcutWorld is not responsible for any damages, including without limitation, any special, indirect, incidental or consequential damages, that may arise from any use of, inability to use, or reliance on the site and/or the materials contained on the site whether the materials contained on the site are provided by the ShortcutWorld, or a third party.\n\nInformation on this web site may contain technical inaccuracies or typographical errors.\n\nShortcutWorld may make updates, improvements and/or changes in the products and/or information described at any time without notice.\n\nShortcutWorld does not guarantee the accuracy or completeness of the information contained in this site.",
+   "q": 8,
+   "questions": [
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?"
+   ]
+  },
+  {
+   "id": "c13",
+   "doc": "Represent/Terms & Conditions [7207]",
+   "piece": 13,
+   "chars": 1486,
+   "text": "Agreement shall operate as a waiver of any breach of the same or any other provision of this Agreement.\n\n26.\n\nVariation .\n\nThis Agreement may be varied from time to time by our posting new terms on the Site, and any such\n\namendment will be applicable to all Users from the date and time such revised terms have been posted on the Site.\n\nUser\u2019s continued use of the Site or services constitutes agreement with and acceptance of any such amendment or\n\nother changes.\n\n27.\n\nLaw and Jurisdiction .\n\nThis Agreement shall be governed by and will be construed in accordance\n\nwith the laws of the State of Delaware.\n\nAny disputes arising under or in connection with this Agreement shall be\n\nsubject to the exclusive jurisdiction of the Courts of the State of Delaware.\n\n28.\n\nArbitration and Class Action\n\nWaiver .\n\nTHIS SECTION CONTAINS A BINDING ARBITRATION CLAUSE AND CLASS ACTION WAIVER.\n\nIT AFFECTS YOUR RIGHTS ABOUT\n\nHOW TO RESOLVE ANY DISPUTE WITH US. Except if you opt-out as expressly permitted below, or except to the extent\n\ncontrary to applicable law (\u201c Excluded Disputes \u201d), you hereby agree that all disputes between you and us (whether\n\nor not such dispute involves a third party) with regard to your relationship with us, including without limitation\n\ndisputes related to these Terms, your use of the Service, and/or rights of privacy and/or publicity, may, in our\n\ndiscretion, be resolved by binding, individual arbitration under the American Arbitration Association\u2019s rules for",
+   "q": 1,
+   "questions": [
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?"
+   ]
+  },
+  {
+   "id": "c14",
+   "doc": "Malwarebytes/Privacy Policy [2527]",
+   "piece": 5,
+   "chars": 1355,
+   "text": "Why? So our malware intelligence team can track malware and potentially unwanted program (\"PUP\") outbreaks and patterns. Functional Data We collect data that is necessary for the functionality of the software or for our performance of providing the software to you.\n\nFor example, we may need to collect system processes and behaviors in order to perform system rollback and recovery operations. Why? So our products are able to function as intended, including being able to detect and remediate malware and PUPs, and provide rollback and recovery operations. Client Data In addition to functional data, we collect client data from each program that describe the client environment (i.e., our software and the computer system it is running on).\n\nIn this, we collect:\n\nThe operating system the program is installed on\n\nThe system language in use on that system\n\nThe processor architecture (i.e., 32- or 64-bit)\n\nThe file system in use (i.e., FAT32)\n\nInformation from the Windows Security/Action Center, including security settings and programs installed or in use\n\nInformation about other Malwarebytes program settings and how they are configured\n\nInformation about how you use our software or services (\"Log Data\")\n\nWhy? So we can gather performance data around our products and how they operate in relation to different hardware and software environments.",
+   "q": 16,
+   "questions": [
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?",
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?"
+   ]
+  },
+  {
+   "id": "c15",
+   "doc": "Xiaomi/Privacy Policy [1480]",
+   "piece": 1,
+   "chars": 1417,
+   "text": "We will use your personal information strictly in accordance with this Privacy Policy.\n\nHow we can help you\n\nUltimately, what we want is the best for all our users.\n\nShould you have any questions with our data handling practices as summarized in this Privacy Policy, please contact privacy@xiaomi.com to address your specific concerns.\n\nWe will be happy to hear from you.\n\nIf you have an unresolved privacy or data use concern that we have not addressed satisfactorily, please contact our U.S.-based third party dispute resolution provider (free of charge) at https://feedback-form.truste.com/watchdog/request . 1 What information is collected by us and how do we use it?\n\n1.1 What information is collected by us\n\nIn order to provide our services to you, we will ask you to provide personal information that is necessary to provide those services to you.\n\nWe will only collect the information that is necessary for its specified, concrete, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes.\n\nYou have the right to choose whether or not to provide the information we have requested, but in most cases, if you do not provide your personal information, we may not be able to provide you with our services or respond to your queries.\n\nDepending on the service you choose, we may collect the following types of information:\n\n1.1.1 Information you provide to us",
+   "q": 4,
+   "questions": [
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?"
+   ]
+  },
+  {
+   "id": "c16",
+   "doc": "Alibaba/Privacy Policy [3409]",
+   "piece": 18,
+   "chars": 1400,
+   "text": "You can also control your cookie preferences though the Cookie Preferences Tool https://buyercentral.alibaba.com/privacy/cookie_setting.htm.\n\nIn addition, most advertising networks offer you a way to opt out of targeted advertising. .\n\nIf you would like to find out more information, please visit http://www.aboutads.info/choices/ or http://www.youronlinechoices.com.\n\nAlternatively you can follow the applicable links of the respective third party personalization cookie provided in the table above for details of how to opt out of use of particular advertising or personalization cookies.\n\nCertain features of the Platform depend on cookies.\n\nPlease be aware that if you choose to block cookies, you may not be able to sign in or use those features, and preferences that are dependent on cookies may be lost.\n\nGoogle Analytics (More information) Our Platform uses Google Analytics, an internet analytics service provided by Google, Inc.\n\n(\" Google \").\n\nGoogle's cookies allow us analyze use of the Platform by telling us which pages our users are viewing, which ones are most popular, what time of day our Platform are visited, if users have previously visited our Platform, from which website users are redirected to our Platform were and the like.\n\nThe data generated by the cookie about your use of the Platform will be transmitted to Google and stored by Google on servers in the United States.",
+   "q": 1,
+   "questions": [
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?"
+   ]
+  },
+  {
+   "id": "c17",
+   "doc": "Hostinger/Terms of Service [23458]",
+   "piece": 23,
+   "chars": 1475,
+   "text": "Hostinger Content usage . Hostinger Content is provided to you \u201c as is \u201d, \u201c as available \u201d and \u201c with all faults \u201d for your information and personal, non-commercial use only and can not be downloaded, copied, reproduced, distributed, transmitted, broadcast, displayed, sold, licensed, or otherwise exploited for any purpose without the express prior written consent of Hostinger. No right or license under any copyright, trademark, patent, or other proprietary rights is granted under this Agreement. Hostinger reserves all rights not expressly granted in the Hostinger Content, this Site and the Services, and this Agreement does not transfer ownership of any of these rights. However, Hostinger hereby grants to the Customer a non-exclusive, non-transferable, non-sublicensable, fully revocable, limited license to use the Hostinger Content solely to generate and display websites through Services provided by Hostinger, solely as expressly permitted under this Agreement, and solely within the relevant Services. For the avoidance of doubt, if certain Hostinger Content is provided (bundled) with certain Services\u2019 plan, the Customer is allowed to use such Hostinger Content only within that plan.\n\nSecurity restrictions . You agree not to bypass or interfere with any security-related features of this Site or the Services. This includes any features that protect or limit the use or copying of any content on the Site, whether it\u2019s Customer Content or Hostinger Content.",
+   "q": 4,
+   "questions": [
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?"
+   ]
+  },
+  {
+   "id": "c18",
+   "doc": "OneSignal/SDK End Use License Agreement and Terms of Use [5063]",
+   "piece": 6,
+   "chars": 1500,
+   "text": "writing, visually, or orally by or on behalf of a Party (\u201cDiscloser\u201d) to\n\nthe other Party (\u201cRecipient\u201d) or to which Recipient obtains access in\n\nconnection with the negotiation or performance of this EULA that is\n\nmarked as \u201cproprietary,\u201d \u201cconfidential,\u201d \u201ctrade secret,\u201d or in some\n\nother manner to indicate that Discloser considers it to be commercially\n\nsensitive, or which a reasonable person would understand to be\n\ncommercially sensitive.\n\nSDK Information shall not be Confidential\n\nInformation, but rather shall be subject to\n\nSection 2\n\nhereof.\n\nConfidential Information shall not include information that: (i)\n\nis already rightfully known to Recipient at the time it obtains\n\nConfidential Information from Discloser.\n\n(ii) is or becomes generally\n\navailable to the public other than as a result of disclosure in breach\n\nof this EULA or any other confidentiality obligations.\n\n(iii) is lawfully\n\nreceived on a nonconfidential basis from a third party authorized to\n\ndisclose such information without restriction and without breach of this\n\nEULA.\n\n(iv) is contained in, or is capable of being discovered through\n\nexamination of, publicly available records or materials.\n\nor (v) is\n\ndeveloped by a Party without the use of any Confidential Information\n\nprovided by the other Party.\n\nDiscloser\u2019s Confidential Information shall remain the property of\n\nDiscloser, and Recipient shall not be deemed, by virtue of this EULA or\n\nany access to Discloser\u2019s Confidential Information, to have acquired any",
+   "q": 16,
+   "questions": [
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?",
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?"
+   ]
+  },
+  {
+   "id": "c19",
+   "doc": "Represent/Privacy Policy [7208]",
+   "piece": 7,
+   "chars": 1490,
+   "text": "delete some or all of your personal information, we may continue to retain and use aggregated or anonymous data\n\npreviously collected so that it can no longer be used for personal identification and/or anonymize or aggregate your\n\npersonal information.\n\nPlease note that we will not be liable for disclosures of your data due to errors or\n\nunauthorized acts of third parties.\n\n## OTHER SITES As a convenience to you, we may provide links to third party\n\nwebsites from within the Site.\n\nWe are not responsible for the privacy practices or content of these third party\n\nsites, and by providing a link we are not endorsing or promoting such third party sites.\n\nWhen you link away from our\n\nSite, you do so at your own risk.\n\nWe encourage you to read the policies and terms of every website you visit.\n\n##\n\nSOCIAL NETWORKING SERVICES The Site may integrate with social networking services.\n\nYou understand that we do not\n\ncontrol such services and are not liable for the manner in which they operate.\n\nWhile we may provide you with the\n\nability to use such services in connection with our Site, we are doing so merely as an accommodation and, like you,\n\nare relying upon those third party services to operate properly and fairly.\n\nYou should be aware that personal\n\ninformation which you voluntarily include and transmit online in a publicly accessible blog, social network or\n\notherwise online may be viewed and used by others.\n\nWe are unable to control such uses of your personal information,",
+   "q": 16,
+   "questions": [
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?",
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?"
+   ]
+  },
+  {
+   "id": "c20",
+   "doc": "Xiaomi/User Agreement [3317]",
+   "piece": 7,
+   "chars": 1439,
+   "text": "You shall not use the Site or Xiaomi Services to engage in any behavior or activity stated below:\n\nUpload or release viruses, worms, or malware to damage or change computer system or data;\n\nCollect the information or data of other users, such as email address, without authorization;\n\nDisable network connection of the Site, cause the site to overload with traffic, interrupt or undermine the website server and connection in other ways;\n\nAttempt to visit the Site, Mi Talk, our server or the Site connection without authorization;\n\nInterrupt or undermine other users' normal use of the Xiaomi Services.\n\nThird Party\n\nYou understand and agree that our services are based on technical support from third parties such as Android, etc.\n\nYou understand and consent that we may provide some of your personal data to such third parties in the course of receiving technical or any other support from them.\n\nYou agree and authorize the Site and Xiaomi products and services to limit your rights of using the Site and Mi Talk services.\n\nUser Content means the content that is downloaded, released or generated while using the Site and Xiaomi products and services by users.\n\nYou have to take legal responsibilities for content disclosure caused by you.\n\nWhen you visit the websites and advertisement of a third party, the third party\u2019s terms and policy applies.\n\nYou will bear all risks and legal responsibility when you use third party\u2019s services.",
+   "q": 4,
+   "questions": [
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?"
+   ]
+  },
+  {
+   "id": "c21",
+   "doc": "SmartNews/Copyright Policy [3439]",
+   "piece": 0,
+   "chars": 1498,
+   "text": "SmartNews Copyright Policy Last Updated: October 1, 2014 Notification of Copyright Infringement:\n\nSmartNews, Inc.\n\n( \u201cSmartNews\u201d ) respects the intellectual property rights of others and expects its users to do the same.\n\nIt is SmartNews\u2019s policy, in appropriate circumstances and at its discretion, to disable and/or terminate the accounts of users who repeatedly infringe or are repeatedly charged with infringing the copyrights or other intellectual property rights of others.\n\nIn accordance with the Digital Millennium Copyright Act of 1998, the text of which may be found on the U.S.\n\nCopyright Office website at http://www.copyright.gov/legislation/dmca.pdf, SmartNews will respond expeditiously to claims of copyright infringement committed using the SmartNews mobile device application (the \u201cApp\u201d) that are reported to SmartNews\u2019s Designated Copyright Agent, identified in the sample notice below.\n\nIf you are a copyright owner, or are authorized to act on behalf of one, or authorized to act under any exclusive right under copyright, please report alleged copyright infringements taking place on or through the App by completing the following DMCA Notice of Alleged Infringement and delivering it to SmartNews\u2019s Designated Copyright Agent.\n\nUpon receipt of the Notice as described below, SmartNews will take whatever action, in its sole discretion, it deems appropriate, including disabling the access to the challenged material on the Apps. DMCA Notice of Alleged Infringement (\u201cNotice\u201d)",
+   "q": 16,
+   "questions": [
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?"
+   ]
+  },
+  {
+   "id": "c22",
+   "doc": "Disroot/Privacy Policy [3485]",
+   "piece": 9,
+   "chars": 1425,
+   "text": "No log data (IP address, session cookie, etc.) is stored on the server.\n\nLogs may be enabled occasionally in case of troubleshooting.\n\nLogs are then enabled for the duration of problem assessment and are purged immediately after.\n\nAll files uploaded to the server are end-to-end encrypted which means no one with access to the server can decrypt/read the data.\n\nFiles uploaded to the server are wiped based on the retention period set by the user upon upload.\n\nComments and discussions under pastes are end-to-end encrypted .\n\n4.9 - Disroot Forum (https://forum.disroot.org)\n\nThis service requires to create separate account or use Disroot credentials to interact with discussions.\n\nNo log data (IP address, session cookie, etc.) is stored on the server.\n\nThe forum software stores your last used IP address in the database.\n\nAll forum data (groups, threads, posts, usernames, email addresses) are stored on the server in the database as is (plain-text).\n\n4.10 - Disroot Project Board (https://board.disroot.org)\n\nThis service requires login with Disroot credentials.\n\nServer logs, which store information such as, but not limited to, your IP address, your username, error messages and User Agent, are stored for a period of 24 hours after which they are deleted from the server.\n\nNo backup of log files is created.\n\nLogs are kept to prevent brute-force attacks on accounts and to provide quick insight when debugging issues.",
+   "q": 1,
+   "questions": [
+    "Does the text state or clearly imply the following: Your profile is combined across various products?"
+   ]
+  },
+  {
+   "id": "c23",
+   "doc": "Orange/Cookie Policy [4351]",
+   "piece": 0,
+   "chars": 1376,
+   "text": "what is a cookie and what is it used for?\n\nA cookie is a text file that may be saved, depending on the options you choose, in a dedicated space on the hard drive of your device (computer, tablet, etc.) when you access an online service using your browser.\n\nIt is transmitted to your browser by a website's server.\n\nEach cookie is assigned an anonymous identifier.\n\nThe cookie file allows its issuer to identify the device on which it is saved during the period for which this cookie is valid or saved.\n\nA cookie does not make it possible to identify individuals.\n\nWhen you access the orange.com site, we may, depending on your choices, install statistics cookies.\n\nstatistics cookies on orange.com\n\nThese cookies make it possible to calculate site visitor statistics and detect any browsing issues in order to monitor and improve the quality of our services.\n\nYou may change your browser settings at any time in order to express and modify your preferred options for cookies, and particularly statistics cookies.\n\nYou may also configure your browser to block certain cookies.\n\nIf you block our cookies, your visit of the orange.com site will no longer be recorded in our traffic measurement tools, but you may no longer be able to access certain features which are nevertheless necessary for browsing certain sections of our site.\n\nsocial network sharing cookies on orange.com",
+   "q": 16,
+   "questions": [
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?"
+   ]
+  },
+  {
+   "id": "c24",
+   "doc": "Alibaba/Terms of Use [6757]",
+   "piece": 3,
+   "chars": 1403,
+   "text": "or (b) you access and use the Alibaba Sites from any of the Relevant Jurisdictions, you are contracting with Alibaba.com Singapore E-Commerce Private Limited (incorporated in Singapore with Company Reg.\n\nNo.\n\n200720572D).\n\nAs some or part of the Services may be supported and provided by affiliates of Alibaba.com, Alibaba.com may delegate some of the Services to its affiliates.\n\nNotwithstanding anything to the contrary in the forgoing provisions in this clause 2.1, if you are a registered member of AliExpress, and you are resident in or access and use the AliExpress Sites from any of the Relevant Jurisdictions (the \u201c AliExpress Relevant Jurisdiction User \u201d), your contract is with AliExpress Russia Holding Private Limited (incorporated in Singapore with Company Reg.\n\nNo.\n\n201917627W).\n\n\u201c Relevant Jurisdictions \u201d shall mean the Russian Federation, Azerbaijan, Armenia, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Turkmenistan, Tajikistan and Uzbekistan.\n\n2.2 You must register as a member on the Sites in order to access and use some Services.\n\nFurther, Alibaba.com reserves the right, without prior notice, to restrict access to or use of certain Services (or any features within the Services) to paying Users, or subject to other conditions that Alibaba.com may impose in our discretion.\n\n2.3 Services (or any features within the Services) may vary for different regions and countries.",
+   "q": 2,
+   "questions": [
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?"
+   ]
+  },
+  {
+   "id": "c25",
+   "doc": "Uber/U.S. Terms of Use [353]",
+   "piece": 0,
+   "chars": 1433,
+   "text": "Doorgaan naar hoofdinhoud\n\nUber\n\nAanmelden\n\n,\n\nRechtsgebied selecteren:Verenigde StatenopenTaal:Engels Last modified: 11/17/2020 U.S.\n\nTerms of Use1.\n\nContractual Relationship These Terms of Use (\"Terms\") govern your access or use, from within the United States and its territories and possessions, of the applications, websites, content, products, and services (the \"Services,\" as more fully defined below in Section 3) made available in the United States and its territories and possessions by Uber USA, LLC and its parents, subsidiaries, representatives, affiliates, officers and directors (collectively, \"Uber\").\n\nPLEASE READ THESE TERMS CAREFULLY, AS THEY CONSTITUTE A LEGAL AGREEMENT BETWEEN YOU AND UBER.\n\nIn these Terms, the words \"including\" and \"include\" mean \"including, but not limited to.\"\n\nBy accessing or using the Services, you confirm your agreement to be bound by these Terms.\n\nIf you do not agree to these Terms, you may not access or use the Services.\n\nThese Terms expressly supersede prior agreements or arrangements with you regarding the use of the Services.\n\nNotwithstanding the foregoing, these Terms do not supersede or otherwise impact the enforceability of any agreements you may have with Uber or its subsidiaries regarding driving, delivering and/or providing transportation and/or delivery services (e.g.\n\nthe Platform Access Agreement, the Technology Services Agreement and/or any similar agreements).",
+   "q": 16,
+   "questions": [
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?"
+   ]
+  },
+  {
+   "id": "c26",
+   "doc": "MIT App Inventor/MIT App Inventor Privacy Policy and Terms of Use [7155]",
+   "piece": 8,
+   "chars": 1484,
+   "text": "You may not use the MIT\n\nname in any of its forms nor MIT seals or logos for promotional\n\npurposes, or in any way that deliberately or inadvertently claims,\n\nsuggests, or in MIT\u2019s sole judgment gives the appearance or impression\n\nof a relationship with or endorsement by MIT. The Digital Millennium Copyright Act (\u201cDMCA\u201d) It is MIT\u2019s policy to respond to notices of alleged copyright\n\ninfringement that comply with the Digital Millennium Copyright\n\nAct.\n\nCopyright owners who believe their material has been infringed on\n\nthe Site should contact MIT\u2019s designated copyright agent at\n\ndmca-agent@mit.edu, or at 77 Massachusetts Ave., Cambridge, MA\n\n02138-4307 Attention: MIT DMCA Agent, W92-263A.\n\nNotification must include:\n\nIdentification of the copyrighted work, or, in the\n\ncase of multiple works at the same location, a representative list of such\n\nworks at that site.\n\nIdentification of the material that is claimed to be\n\ninfringing or to be the subject of infringing activity.\n\nYou must include\n\nsufficient information for us to locate the material (e.g., URL,\n\nIP address, computer name).\n\nInformation for us to be able to contact the complaining party (e.g.,\n\nemail address, phone number).\n\nA statement that the complaining party believes that\n\nthe use of the material has not been authorized by the copyright owner or an\n\nauthorized agent.\n\nA statement that the information in the notification is accurate\n\nand that the complaining party is authorized to act on behalf of the",
+   "q": 4,
+   "questions": [
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?"
+   ]
+  },
+  {
+   "id": "c27",
+   "doc": "United States Postal Service/Terms of Use [3512]",
+   "piece": 2,
+   "chars": 1493,
+   "text": "Except where indicated, the Postal Service does not endorse any company or product not offered by the Postal Service including the advertisers on linked Web sites or on the web sites of listed entities.\n\nWhen linking to such third-party sites, the Postal Service follows Web-linking and exit page guidelines as set forth in USPS Management Instruction AS-885.\n\nThe Postal Service does not monitor sites linked to and the use of any such link is strictly at the user's own risk.\n\nIn no event shall the Postal Service be liable for special or consequential damages that result from activity occurring on non-Postal Service Web sites when a user links to such site from USPS.com.\n\nThis agreement is effective until terminated by either party.\n\nYou may terminate this agreement at any time by discontinuing your use of the Postal Service site and destroying all materials obtained from it.\n\nNote: United States Postal Service\u00ae, Postal Service\u2122, Post Office\u2122, StampsOnline\u2122, Express Mail\u00ae, Priority Mail\u00ae, Delivery Confirmation\u2122, First-Class Mail\u00ae, Global Priority Mail\u00ae, Parcel Post\u00ae, Global Express Guaranteed\u2122, ZIP Code\u2122, the Eagle Logo, Fly Like An Eagle\u00ae and trade dress of USPS packaging are trademarks of the United States Postal Service.\n\nThis list is not intended to be exhaustive.\n\nFor a more complete listing of many USPS\u00ae trademarks, visit the U.S.\n\nPatent and Trademark Office Web site at the link below.\n\nMore information is available at the U.S.\n\nPatent and Trademark Office website.",
+   "q": 1,
+   "questions": [
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?"
+   ]
+  },
+  {
+   "id": "c28",
+   "doc": "Software Freedom Conservancy/Privacy Statement [23945]",
+   "piece": 0,
+   "chars": 1469,
+   "text": "Privacy Statement for Software Freedom Conservancy\n\nScope of This Notice\n\nThis Privacy Statement is intended to describe the Software Freedom Conservancy\u2019s privacy practices and provide information about the choices you have regarding the ways in which information collected by Software Freedom Conservancy is used and disclosed. Software Freedom Conservancy is referred to in this document as \u201cConservancy\u201d.\n\nOur Commitment to Privacy\n\nYour privacy is important to Conservancy. To better protect your privacy and to comply with various laws and regulations, we have provided this Statement explaining our information practices and the choices you can make about the way your personal information is collected, used and disclosed. To make this Statement easy to find, we have made it available on our homepage and at many of the locations where personally-identifiable information may be requested\n\nThe Information We Collect\n\nThis Privacy Statement applies to all information collected by or submitted to Conservancy, including personal data. \u201cPersonal data\u201d is data that can be used to identify an individual.\n\nConservancy collects personal data when:\n\nyou sign up as a Conservancy Sustainer or otherwise donate to Conservancy;\n\nyou visit any Conservancy web site;\n\nyou use one of Conservancy\u2019s Mailman sites or lists, hosted at lists.sfconservancy.org or lists.copyleft.org;\n\nyou use one of Conservancy\u2019s Forgejo sites or repositories, hosted at f.sfconservancy.org;",
+   "q": 2,
+   "questions": [
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?"
+   ]
+  },
+  {
+   "id": "c29",
+   "doc": "Hostinger/Privacy Policy [23457]",
+   "piece": 28,
+   "chars": 1349,
+   "text": "Standard contractual clauses for data transfers outside the EU or EEA . Your personal data as well as personal data of your users might be transferred to processors, sub-processors or other data recipients established in third countries ( i.e., data centers and servers, located outside EU or EEA, please see more here ). For such transfers to be compatible with the requirements of GDPR, we have concluded with the data processors and/or sub-processor relevant agreements on such data transfers outside EU or EEA, which comply with the European Commission approved standard contractual clauses for data transfers from data controllers in the EU to data processors and/or controllers established outside the EU or European Economic Area (EEA). For more see: https://commission.europa.eu/publications/standard-contractual-clauses-international-transfers_en . For the said purposes and to the extent relevant we have deemed that the said agreements were concluded on your behalf and under your instructions, as the case may be, all in line with Art. 46 of GDPR.\n\nOther grounds for data transfers outside the EU or European Economic Area (EEA) . Your personal data as well as personal data of your users might be transferred to data recipients established in third countries on other legal grounds compatible with the requirements of GDPR (Art. 45-49).",
+   "q": 4,
+   "questions": [
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?"
+   ]
+  },
+  {
+   "id": "c30",
+   "doc": "Steam/Privacy Policy Agreement [86]",
+   "piece": 13,
+   "chars": 1366,
+   "text": "5.6 Valve may allow you to link your Steam User Account to an account offered by a third party. If you consent to link the accounts, Valve may collect and combine information you allowed Valve to receive from a third party with information of your Steam User Account to the degree allowed by your consent at the time. If the linking of the accounts requires the transmission of information about your person from Valve to a third party, you will be informed about it before the linking takes place and you will be given the opportunity to consent to the linking and the transmission of your information. The third party's use of your information will be subject to the third party's privacy policy, which we encourage you to review.\n\n5.7 Valve may release Personal Data to comply with court orders or laws and regulations that require us to disclose such information.\n\n6. Your Rights and Control Mechanisms\n\nThe data protection laws of the European Economic Area, United Kingdom, Switzerland, California, and other territories grant their residents certain rights in relation to their Personal Data. While other jurisdictions may provide fewer statutory rights, we make the tools designed to exercise such rights available to our customers worldwide. (When we talk about the GDPR in this section, we mean the version of the GDPR that applies to you in the EU or UK).",
+   "q": 4,
+   "questions": [
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?"
+   ]
+  },
+  {
+   "id": "c31",
+   "doc": "IKEA/Terms and Conditions [7126]",
+   "piece": 6,
+   "chars": 1500,
+   "text": "The Services and Materials may not be copied, reproduced, republished, uploaded, posted, transmitted or distributed without the prior written permission of IKEA, except as provided herein. \u201cDeep-linking,\u201d \u201cembedding\u201d or using analogous technology is strictly prohibited. You are prohibited from posting to or transmitting from the Services any unlawful, threatening, libelous, defamatory, obscene, indecent, inflammatory, pornographic or profane material or any material that could constitute or encourage conduct that would be considered a criminal offense, give rise to civil liability, or otherwise violate any law. You are responsible for complying with all local rules, laws, and regulations including, without limitation, rules about intellectual property rights, the Internet, technology, data, electronic mail, publicity and privacy. You agree that you will not use any device, software or other instrumentality to interfere or attempt to interfere with the proper working of any of the Services, and that you will not take any action that imposes an unreasonable or disproportionately large load on our infrastructure. In addition, you may not use any robot, spider, other automatic device, or manual process to monitor, copy or scrape any of our web pages or the content contained herein, without the prior express written consent from an authorized executive of IKEA. You agree you will not interfere or attempt to interfere with or damage, impair or disable the operation of the Services,",
+   "q": 1,
+   "questions": [
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?"
+   ]
+  },
+  {
+   "id": "c32",
+   "doc": "Creative Commons/Master Terms of Use [2186]",
+   "piece": 2,
+   "chars": 1481,
+   "text": "If you do not agree to the Terms, you are not authorized to use any Services.\n\nIf you are an individual who is entering into these Terms on behalf of an entity, you represent and warrant that you have the power to bind that entity, and you hereby agree on that entity\u2019s behalf to be bound by these Terms, with the terms \u201cyou,\u201d and \u201cyour\u201d applying to you, that entity, and other users accessing the Services on behalf of that entity.\n\nHuman-readable summary of Sec 2: Please read these terms and only use our sites and services if you agree to them.\n\n3.\n\nChanges to the Terms\n\nFrom time to time, Creative Commons may change, remove, or add to the Terms, and reserves the right to do so in its discretion.\n\nIn that case, we will post updated Terms and indicate the date of revision.\n\nIf we feel the modifications are material, we will make reasonable efforts to post a prominent notice on the relevant Website(s) and notify those of you with a current CC Login Service account via email.\n\nAll new and/or revised Terms take effect immediately and apply to your use of the Services from that date on, except that material changes will take effect 30 days after the change is made and identified as material.\n\nYour continued use of any Services after new and/or revised Terms are effective indicates that you have read, understood, and agreed to those Terms.\n\nHuman-readable summary of Sec 3: These terms may change.\n\nWhen the changes are important, we will put a notice on the website.",
+   "q": 2,
+   "questions": [
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?"
+   ]
+  },
+  {
+   "id": "c33",
+   "doc": "SmartNews/Privacy Policy [3440]",
+   "piece": 5,
+   "chars": 1457,
+   "text": "When you use our Services, these third-party advertising partners may collect information regarding your activities and your device (e.g., your IP address, mobile device identifiers, page(s) visited, location, time of day).\n\nThese advertising partners may use this information (and similar information collected from other services) for purposes of delivering personalized advertisements to you when you visit our Services and third-party services within their networks.\n\nThis practice is commonly referred to as \u201cinterest-based advertising\u201d or \u201cpersonalized advertising.\u201d\n\nIf you prefer not to share your personal information with third-party advertising partners, you may follow the instructions below. Information Shared with Our Service Providers.\n\nWe may engage third party service providers to work with us to administer and provide the Services.\n\nThe types of service providers to whom we entrust information include service providers for: (i) the provision of the Services.\n\n(ii) the provision of information, products, and other services you have requested.\n\n(iii) analytics.\n\n(iv) marketing and advertising.\n\n(v) customer service activities.\n\nand (vi) the provision of IT and related services.\n\nFor example, we use MailChimp to send you correspondence regarding our Services, including, without limitation, our promotional newsletters and e-mails.\n\nFor more information, please see MailChimp\u2019s privacy policy: https://mailchimp.com/legal/privacy/.",
+   "q": 8,
+   "questions": [
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?"
+   ]
+  },
+  {
+   "id": "c34",
+   "doc": "The Movie Database (TMDb)/Terms of Use [1710]",
+   "piece": 4,
+   "chars": 1490,
+   "text": "violate the personal or proprietary right, of any person or entity.\n\n3.\n\nGrant of License to Us for Contributions\n\nWe do not claim any ownership right in the Contributions that you post\n\non or through this Site.\n\nAfter posting your Contributions on this Site,\n\nyou continue to retain any rights you may have in your Contributions,\n\nincluding any intellectual property rights or other proprietary rights\n\nassociated with your Contributions, subject to the license you grant to\n\nus below.\n\nBy making a Contribution to this Site, you grant us a perpetual,\n\nnon-exclusive (meaning you are free to license your Contribution to\n\nanyone else in addition to us), fully-paid, royalty-free (meaning that\n\nneither we nor anyone who directly or indirectly receives the\n\nContribution from us are required to pay you to use your Contribution),\n\nsublicensable (so that we can distribute the Contributions to third\n\nparties, regardless of whether through this Site, through our other\n\nproducts, or through other sites or products offered by our affiliates))\n\nand worldwide (because the Internet and this Site are global in reach)\n\nlicense to use, modify, create derivative works of, publicly perform,\n\npublicly display, reproduce and distribute the Contribution in\n\nconnection with this Site and other websites and businesses, or the\n\npromotion thereof in any media formats and through any media channels\n\nnow known or hereafter devised.\n\nIf you provides us with any feedback (e.g.\n\nsuggested improvements,",
+   "q": 8,
+   "questions": [
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?",
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?"
+   ]
+  },
+  {
+   "id": "c35",
+   "doc": "SmartNews/Terms of Service [3441]",
+   "piece": 14,
+   "chars": 1383,
+   "text": "The arbitrator\u2019s decision will include the essential findings and conclusions upon which the arbitrator based the award.\n\nJudgment on the arbitration award may be entered in any court having jurisdiction thereof.\n\nThe arbitrator\u2019s award of damages must be consistent with the terms of the \u201cLimitation of Liability\u201d section above as to the types and amounts of damages for which a party may be held liable.\n\nThe arbitrator may award declaratory or injunctive relief only in favor of the claimant and only to the extent necessary to provide relief warranted by the claimant\u2019s individual claim.\n\nIf you prevail in arbitration you will be entitled to an award of attorneys\u2019 fees and expenses, to the extent provided under applicable law.\n\nSmartNews will not seek, and hereby waives all rights it may have under applicable law to recover, attorneys\u2019 fees and expenses if it prevails in arbitration.\n\nFees\n\nYour responsibility to pay any AAA filing, administrative and arbitrator fees will be solely as set forth in the AAA Rules.\n\nHowever, if your claim for damages does not exceed $75,000, SmartNews will pay all such fees unless the arbitrator finds that either the substance of your claim or the relief sought in your Demand for Arbitration was frivolous or was brought for an improper purpose (as measured by the standards set forth in Federal Rule of Civil Procedure 11(b)).\n\nChanges",
+   "q": 2,
+   "questions": [
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?"
+   ]
+  },
+  {
+   "id": "c36",
+   "doc": "Headspace/Privacy Policy [5155]",
+   "piece": 27,
+   "chars": 1467,
+   "text": "We may deny your deletion request if certain CCPA exemption apply, including but not limited to, if retaining the information is necessary for us or our service provider(s) to:\n\nComplete the transaction for which we collected the personal information, provide a good or service that you requested, take actions reasonably anticipated within the context of our ongoing business relationship with you, or otherwise perform our contract with you.\n\nDetect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for such activities.\n\nDebug products to identify and repair errors that impair existing intended functionality.\n\nExercise free speech, ensure the right of another consumer to exercise their free speech rights, or exercise another right provided for by law.\n\nComply with the California Electronic Communications Privacy Act (Cal.\n\nPenal Code \u00a7 1546 et.\n\nseq.).\n\nEnable solely internal uses that are reasonably aligned with consumer expectations based on your relationship with us.\n\nComply with a legal obligation.\n\nMake other internal and lawful uses of that information that are compatible with the context in which you provided it.\n\nExercising Access, Data Portability, and Deletion Rights to exercise the access, data portability, and deletion rights described above, please submit a verifiable consumer request to us by either:\n\nEmailing us at help@headspace.com\n\nCalling as at 855-432-3822",
+   "q": 1,
+   "questions": [
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?"
+   ]
+  },
+  {
+   "id": "c37",
+   "doc": "The Session/Privacy policy [2230]",
+   "piece": 0,
+   "chars": 1496,
+   "text": "menu Log in\n\nor\n\nSign up The Session Privacy Policy My name is Jeremy.\n\nI run The Session.\n\nIf you need any help, let me know. Information about you\n\nWhen you sign up to The Session, you provide some information about yourself.\n\nThis information will never, ever be shared, sold or given away to anyone.\n\nYour email address\n\nYou need to provide a valid email address when you sign up for The Session.\n\nThis is for a few reasons:\n\nYou can have a password-reset email sent to you if you ever have a problem logging in (for example, if you can\u2019t remember your password).\n\nYou can choose to receive a weekly newsletter from The Session detailing what\u2019s been submitted in the last seven days.\n\nYou can update your email address at any time from your member profile.\n\nYour username\n\nWhen you sign up to The Session, you provide a name that you will be known by on the site.\n\nI encourage you to use your real name, but you don\u2019t have to.\n\nYou can update your username at any time from your member profile.\n\nYour password\n\nWhen you sign up to The Session, you choose a password for logging into the site.\n\nThis password is not stored in plaintext\u2014it is encrypted.\n\nSo even in the case of a security breach, nobody can gain access to your password.\n\nBecause your password is encrypted, if you forget what it is, I can\u2019t provide it to you.\n\nThat\u2019s why it\u2019s important that you provide a valid email address when you sign up.\n\nYou can update your password at any time from your member profile.\n\nYour location",
+   "q": 8,
+   "questions": [
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?"
+   ]
+  },
+  {
+   "id": "c38",
+   "doc": "Creative Commons/Master Privacy Policy [2187]",
+   "piece": 6,
+   "chars": 1416,
+   "text": "Distribute funds to scholarship and grant recipients;\n\nProvide and improve the Services, including to develop new features or services, promote CC community collaboration, take steps to secure the Services, and for technical and customer support;\n\nFundraise, accept donations, or process purchases of CC merchandise;\n\nHost events and programs such as the annual CC Summit or the CC Certificate course;\n\nSend you information about your relationship or transactions with us, account alerts, or other communications, such as newsletters to which you have subscribed;\n\nProcess and respond to your inquiries or to request your feedback;\n\nConduct analytics, research, and reporting, including to synthesize and derive insights from your use of our Services;\n\nEvaluate job candidates during our hiring process;\n\nComply with the law and protect the safety, rights, property, or security of Creative Commons, the Services, our users, and the general public.\n\nand\n\nEnforce our Master Terms, including to investigate potential violations thereof.\n\nPlease note that we may combine information that we collect from you and about you (including automatically collected information) with information we obtain about you from our affiliates and/or non-affiliated third parties, and use such combined information in accordance with this Privacy Policy.\n\nWe may aggregate and/or de-identify information collected through the Services.",
+   "q": 4,
+   "questions": [
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?"
+   ]
+  },
+  {
+   "id": "c39",
+   "doc": "The Movie Database (TMDb)/Privacy Policy [1711]",
+   "piece": 0,
+   "chars": 1478,
+   "text": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-5QWVXV\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>.\n\nMovies\n\nPopular\n\nNow Playing\n\nUpcoming\n\nTop Rated\n\nTV Shows\n\nPopular\n\nAiring Today\n\nOn TV\n\nTop Rated\n\nPeople\n\nPopular People\n\nMore\n\nDiscussions\n\nLeaderboard\n\nSupport\n\nAPI\n\nen\n\nLogin\n\nJoin TMDb\n\nPrivacy Policy Effective Date: December 31, 2019\n\nWhen using any of our products or interacting with themoviedb.org which is owned and operated by TiVo Corporation, TiVo Platform Technologies LLC, TiVo Solutions, Inc., or Rovi Corporation or any of our subsidiaries that link to this Privacy Policy (collectively, \u201c TMDB, \u201d \u201cwe,\u201d \u201cour\u201d, or \u201cus\u201d) that do not have a separate privacy policy, you consent to the collection, transfer, storage, processing, disclosure and use of your information as described in this Privacy Policy.\n\nThis includes any information you choose to provide that is deemed sensitive under applicable law.\n\nIf you do not agree with the terms of this Privacy Policy, you should not use TMDB products (a TMDB account or API access), or access or interact with any other aspect of TMDB\u2019s business.\n\nWe collect and process data that we use to provide you with TMDB products, notify you of changes to our policies or products, identify or troubleshoot issues, conduct surveys, improve the products we provide to you, market and advertise our products including providing advertising to you, and otherwise operate our business.",
+   "q": 1,
+   "questions": [
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?"
+   ]
+  },
+  {
+   "id": "c40",
+   "doc": "FaceApp/Terms of Use [1651]",
+   "piece": 16,
+   "chars": 1346,
+   "text": "YOU AND FACEAPP HEREBY WAIVE ANY CONSTITUTIONAL AND STATUTORY RIGHTS TO SUE IN COURT AND HAVE A TRIAL IN FRONT OF A JUDGE OR A JURY.\n\nYou and FaceApp are instead electing that all disputes, claims or requests for relief shall be resolved by arbitration under this Arbitration Agreement, except as specified above.\n\nAn arbitrator can award on an individual basis the same damages and relief as a court and must follow this Agreement as a court would.\n\nHowever, there is no judge or jury in arbitration, and court review of an arbitration award is subject to very limited.\n\nReview.\n\nWaiver of Class or Other Non-Individualized Relief.\n\nALL DISPUTES, CLAIMS AND REQUESTS FOR RELIEF WITHIN THE SCOPE OF THIS ARBITRATION AGREEMENT MUST BE ARBITRATED ON AN INDIVIDUAL BASIS AND NOT ON A CLASS OR COLLECTIVE BASIS.\n\nONLY INDIVIDUAL RELIEF IS AVAILABLE, AND CLAIMS OF MORE THAN ONE USER CANNOT BE ARBITRATED OR CONSOLIDATED WITH THOSE OF ANY OTHER USER.\n\nIf a decision is issued stating that applicable law precludes enforcement of any of this subsection\u2019s limitations as to a given dispute, claim or request for relief, then such aspect must be severed from the arbitration and brought into the State or Federal Courts located in the State of California.\n\nAll other disputes, claims, or requests for relief shall be arbitrated.\n\n30-Day Right to Opt-Out.",
+   "q": 2,
+   "questions": [
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?"
+   ]
+  },
+  {
+   "id": "c41",
+   "doc": "Gettr/Privacy Policy [7977]",
+   "piece": 5,
+   "chars": 1452,
+   "text": "To verify the identity of account holders.\n\nTo resolve disputes or troubleshoot problems.\n\nIn any other way we may describe when you provide the information.\n\nFor any other purpose with your consent.\n\nWe may use your PI, alone or in combination with other automatically-collected information, for purposes of protecting the security and proper functioning of the Website, fraud detection and prevention, and similar purposes.\n\nWe may also use your information to contact you about our own and third-parties\u2019 goods and services that may be of interest to you.\n\nIf you do not want us to use your information in this way, you can opt-out of receiving these communications by managing your preferences in your account profile.\n\nFor more information, see Choices About How We Use and Disclose Your Information .\n\nWe may use the information we have collected from you to enable us to display advertisements to our advertisers\u2019 target audiences.\n\nEven though we do not disclose your PI for these purposes without your consent, if you click on or otherwise interact with an advertisement, the advertiser may assume that you meet its target criteria\n\nDisclosure of Your Information\n\nWe may disclose aggregated information about our users and technical or usage information that does not identify any individual without restriction.\n\nWe may disclose PI that we collect or that you provide as described in this privacy policy:\n\nTo our subsidiaries and affiliates.",
+   "q": 2,
+   "questions": [
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?"
+   ]
+  },
+  {
+   "id": "c42",
+   "doc": "Element/Terms of Service [3416]",
+   "piece": 21,
+   "chars": 1469,
+   "text": "any dealings with vendors or other third parties;\n\nany unauthorized access to or alteration of your transmissions, user materials or other data;\n\nany information that is sent or received or not sent or received;\n\nany failure to store or loss of data, files, materials or other content;\n\nany services available that are delayed or interrupted;\n\nany web site referenced or linked to from this site.\n\nor\n\nyour access to or use of or inability to access or use any linked site.\n\nSome jurisdictions prohibit the exclusion or limitation of liability for consequential or incidental damages.\n\nAccordingly, the limitations and exclusions set forth above may not apply to you.\n\n14.\n\nGoverning Law and Jurisdiction\n\nThis Agreement shall be governed by the laws of England and Wales, excluding its conflict of law provisions.\n\nUnless contrary to the law where you reside, all disputes relating to this Agreement are subject to the exclusive jurisdiction of the courts of England and Wales and you expressly consent to the exercise of personal jurisdiction in the courts of England and Wales in connection with any such dispute.\n\nThis Agreement shall not be governed by the United Nations Convention on Contracts for the International Sale of Goods.\n\n15.\n\nGeneral\n\nThe Services are licensed, not sold, to you, the Customer, by Element for use strictly in accordance with the terms and conditions of this Agreement.\n\nOwnership of the Services shall at all times remain with Element.",
+   "q": 16,
+   "questions": [
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?"
+   ]
+  },
+  {
+   "id": "c43",
+   "doc": "Cloudflare/Website Terms of Use [1503]",
+   "piece": 5,
+   "chars": 1375,
+   "text": "ALLIANCE PARTNERS Partner Network Partner Portal TECHNOLOGY PARTNERS Overview Analytics Partners Bandwidth Alliance Interconnect Partnerships Peering Portal For Enterprise\n\nPricing Log In Sign Up Under Attack?\n\nSOLUTIONS\n\nDeliver Superior Online Experiences Mitigate DDoS Attacks Stop Malicious Bot Abuse Accelerate Internet Applications Ensure Application Availability Optimize Web Experiences Stream Videos On-Demand Secure Employee Applications and Devices Deliver Zero Trust Access to Applications Implement Secure Access Service Edge (SASE) Protect Users Accessing the Internet Protect Corporate Networks Manage Secure Contractor Access Replace Virtual Private Networks (VPNs) Secure Your Remote Workforce Stop Zero Day Attacks with Browser Isolation .\n\nProtect and Accelerate Networks Mitigate L3 DDoS Attacks Connect network infrastructure with Cloudflare Transform Corporate Networks Code on the Network Edge Build a Serverless Application Deploy a Static Website Configure a CDN Define Conditional Request Routing Manage a Secure Cloud Secure Hybrid, Cloud, &.\n\nSaaS Platforms Enable SSL for SaaS Applications Reduce Cloud Data Transfer Costs Register a Website Register or Transfer a Website INDUSTRIES eCommerce Gaming Media and Entertainment Public Sector SaaS PUBLIC INTEREST Election Campaigns Athenian Project Project Galileo FOR INFRASTRUCTURE\n\nApplication &.",
+   "q": 16,
+   "questions": [
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?"
+   ]
+  },
+  {
+   "id": "c44",
+   "doc": "Open Humans/Data Use Policy [1229]",
+   "piece": 0,
+   "chars": 1475,
+   "text": "Open Humans strives to be a safe and transparent environment for you to receive, manage, and share your personal data, including data from health activities and research studies.\n\nWe want you to know about our practices so that you can make good decisions about how you use Open Humans.\n\nThis policy explains what information we collect about you, what we do with it, and how you can make choices about sharing it with others.\n\nOpen Humans is a project of the Open Humans Foundation, a 501(c)(3) nonprofit founded in 2008 and is dedicated to making a wide spectrum of data about humans accessible to increase biological literacy and improve human health.\n\nSharing data is critical to scientific progress, but has been hampered by traditional research practices.\n\nOur approach is to invite willing participants to share their personal data for the greater good.\n\nOpen Humans strives to make this possible by helping connect researchers and participants who wish to share data with each other.\n\nPlease read this data use policy carefully.\n\nIt applies to all interactions you have with the Open Humans website.\n\nThe Information We Collect We collect some personal information from you to create an account that you can use to participate in Open Humans and to keep you safe and secure on our site.\n\nWe also collect personal information to make sure Open Humans works properly and to improve your user experience.\n\nThis may include using your information for analytical purposes.",
+   "q": 1,
+   "questions": [
+    "Does the text state or clearly imply the following: Your profile is combined across various products?"
+   ]
+  },
+  {
+   "id": "c45",
+   "doc": "Cloudflare/Cloudflare Self-Serve Subscription Agreement [1506]",
+   "piece": 33,
+   "chars": 1446,
+   "text": "We also reserve the right to modify or discontinue the Service at any time (including, without limitation, by limiting or discontinuing certain features of the Service) without notice to you.\n\nWe will have no liability whatsoever on account of any change to the Service or any suspension or termination of your access to or use of the Service.\n\nYou may terminate your account at any time through the Service\u2019s account dashboard.\n\n9.\n\nOwnership.\n\nProprietary Rights\n\nThe visual interfaces, graphics, design, compilation, information, data, computer code (including source code or object code), products, software, services, and all other elements of the Service (the \u201c Materials \u201d) provided by Cloudflare are protected by all relevant intellectual property and proprietary rights and applicable laws.\n\nAll Materials contained in the Service are the property of Cloudflare or our third-party licensors.\n\nExcept as expressly authorized by Cloudflare you may not make use of the Materials.\n\nCloudflare reserves all rights to the Materials not granted expressly in this Agreement.\n\nYou hereby grant Cloudflare a non-exclusive, royalty-free, worldwide, transferable, irrevocable, sublicensable, and perpetual license to use or incorporate into the Services any suggestions, enhancement requests, recommendations, corrections, or other feedback ( \u201cFeedback\u201d ) you provide to Cloudflare relating to the Services.\n\n10.\n\nIndemnification\n\n10.1 By Cloudflare",
+   "q": 8,
+   "questions": [
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?"
+   ]
+  },
+  {
+   "id": "c46",
+   "doc": "The MOD Archive/Terms & Disclaimer [3167]",
+   "piece": 7,
+   "chars": 1460,
+   "text": "Attempt to impersonate any other user or account holder of the Website or the Website Service.\n\nor\n\nu.\n\nUse the username and/or password of any other account holder of the Website or disclose your password to any other person.\n\nor\n\nv.\n\nUpload, post or otherwise display any Content comprising an advertisement or accept payment or anything of value from any person in exchange for you uploading, posting or displaying any Content or otherwise performing any commercial activity on or through the Website or the Website Service on behalf of such person (including, without limitation, posting blogs/comments/profiles or bulletins for a commercial purpose and/or sending messages to other users of the Website with a commercial purpose).\n\nYou agree to indemnify The Mod Archive in full and on demand from and against any loss, damage, costs or expenses which they suffer or incur directly or indirectly as a result of your use of the Website and/or the Website Service, and any use of the same under your username other than in accordance with these Terms or Applicable Law.\n\n6.\n\nDISCLAIMER / LIABILITY: USE OF THE WEBSITE AND/OR THE WEBSITE SERVICE IS AT YOUR OWN RISK.\n\nTHE WEBSITE AND THE WEBSITE SERVICE IS PROVIDED ON AN \u201cAS IS\u201d BASIS.\n\nTO THE MAXIMUM EXTENT PERMITTED BY LAW: (A) THE MOD ARCHIVE DISCLAIMS ALL LIABILITY WHATSOEVER, WHETHER ARISING IN CONTRACT, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE IN RELATION TO THE WEBSITE AND/OR THE WEBSITE SERVICE.",
+   "q": 1,
+   "questions": [
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?"
+   ]
+  },
+  {
+   "id": "c47",
+   "doc": "Rapid VPN/Privacy Policy [23731]",
+   "piece": 25,
+   "chars": 1400,
+   "text": "\u25cb You have a right to know what information we hold about you and in some cases to have the information communicated to you. If you wish to exercise this right please contact us at rapidvpn.cs@gmail.com and let us know that you wish to exercise your right of access and what information in particular you would like to receive. Please note that we may not be able to provide all the information you ask for, for instance if the information includes personal information about another person. In some circumstances, you may request the data we process based on consent or to perform our contract with you in a structured, commonly used and machine-readable format or to request we transfer such personal data to another party. Your rights are subject to exemptions under applicable data privacy laws. If you wish for us to transfer the personal data to another party, please ensure you detail that party and note that we can only do so where it is technically feasible. We are not responsible for the security of the personal data or its processing once received by the third party. We also may not provide you with certain data if providing it would interfere with another\u2019s rights (e.g. where providing the personal data we hold about you would reveal information about another person or our trade secrets or intellectual property) as permitted under applicable data protection rights.\n\n\u25cf Correction",
+   "q": 4,
+   "questions": [
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?"
+   ]
+  },
+  {
+   "id": "c48",
+   "doc": "BitDefender/Privacy Policy For BitDefender Websites [3116]",
+   "piece": 1,
+   "chars": 1405,
+   "text": "Personal data according to the European legislation definition (GDPR - Regulation 2016/679 means:\n\nany information relating to an identified or identifiable natural person ('data subject').\n\nan identifiable person is one who can be identified, directly or indirectly, in particular by reference to an identification number or to one or more factors specific to his physical, physiological, mental, economic, cultural or social identity;\n\nIn this context, Bitdefender processes personal data for the following main purposes:\n\nWebsite management and security\n\nResponding to your queries and comments\n\nMarketing for Bitdefender own needs.\n\nStatistical analysis and market studies;\n\n2.\n\nPersonal data collected\n\nBitdefender may collect personal information from its users in four different ways:\n\ndirectly provided by a user; - indirectly provided by its websites, such as:\n\ntraffic data registered by the servers that host our websites;\n\ncookies, that may share some personal information.\n\n2.1.\n\nPersonal data directly provided by a user \u2013 for example, when you complete a website form or submit a comment on our blog we might ask your name, surname and/or email address so we can contact you with updates, notices, or to provide support..\n\nAll these data are being used for contacting you on your specific request or, if you subscribed for our newsletter or commercial communication, for marketing purposes.",
+   "q": 4,
+   "questions": [
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?"
+   ]
+  },
+  {
+   "id": "c49",
+   "doc": "KeyMe/Privacy Policy [7004]",
+   "piece": 2,
+   "chars": 1339,
+   "text": "Information about the network to which you are connected and inferences we may draw from it , such as your IP address and general location information such as city, state or geographic area\n\nInformation about your use of and actions on the Site or Application , such as pages or screens you viewed, how long you spent on a page or screen, navigation paths between pages or screens, information about your activity on a page or screen, links you access, access times, and length of access.\n\nand the website that referred you to the Site, if applicable\n\nInformation about your interaction with our emails , such as whether you opened our email and how long you had it open\n\nHow Do We Use Personal Information?\n\nWe use personal information for the following purposes and as otherwise described in this Privacy Policy or at the time of collection:\n\nTo operate the Services , including to:\n\nprovide, operate and improve the Services, including to develop new products and services\n\nestablish and maintain your user profile on the Services\n\nidentify you and to authenticate your account using your fingerscan minutiae (if you have chosen to provide it to us) when you use the Kiosk\n\nenable security features of the Services, such as by sending you security codes via email or SMS, and remembering devices from which you have previously logged in",
+   "q": 8,
+   "questions": [
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?",
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?"
+   ]
+  },
+  {
+   "id": "c50",
+   "doc": "Quizlet/Privacy Policy [716]",
+   "piece": 20,
+   "chars": 1315,
+   "text": "We retain records of support tickets and other communications between Quizlet and our users, for example support emails, survey responses, feedback submissions, or comments on our blogs or other posts, indefinitely in order to better manage our support processes, maintaining accurate business records, and identifying other trends.\n\nWe reserve the right to publish these communications in order to help us clarify or respond to your request or to help us support other users. How We Secure Your Information\n\nThe security of your personal information is important to us.\n\nQuizlet takes measures reasonably designed to protect against the unauthorized access, use, alteration or destruction of personal information.\n\nWe use our best efforts to follow generally accepted industry standards to protect the personal information submitted to us, both during transmission and once we receive it.\n\nFor example, our website and apps are designed to be protected by HTTPS encryption.\n\nWhen you enter credit card information on our order forms, that information is intended to be encrypted and is designed protected by our third-party payment providers.\n\nHowever, the Internet is not 100% secure.\n\nWe cannot promise that your use of our sites will be completely safe.\n\nWe encourage you to use caution when using the Internet.",
+   "q": 16,
+   "questions": [
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?"
+   ]
+  },
+  {
+   "id": "c51",
+   "doc": "LADBible Group/Terms of Service [23155]",
+   "piece": 3,
+   "chars": 1459,
+   "text": "obscene, vulgar, hateful, or racially offensive language or images\n\nCommercial advertising\n\ngambling, contests, chain letters, \u201cpyramid schemes,\u201d or \u201cmulti-level marketing\u201d schemes\n\ncomments personally attacking the author of a post\n\nFurthermore, you agree that, if a third party makes any claims regarding the User Content, you will be solely responsible.\n\nDisclosure Policy\n\nWe reserve the right to disclose any information as necessary to satisfy any applicable law, regulation, legal process, or governmental request. We may also edit, refuse to post, or remove any content in our sole discretion. We reserve the right to restrict access by any users whom we believe are engaged in inappropriate, unprofessional, or unlawful conduct.\n\nAffiliates\n\nLADbible Group Limited partners with several affiliate networks, primarily Skimlinks, Amazon and Awin. These networks maintain relationships with multiple retailers and brands, which allows us to earn a small commission when purchases are made through links in our articles, videos and social media posts on our sites. When a readers clicks a link and buys a product, the sale is tracked and attributed to us. As an Amazon Associate, we earn from qualifying purchases.\n\nViolation and Removal Policy\n\nIf you believe that any content on the Sites violates these Terms of Use, please notify us by sending an email to [email protected] We do not guarantee that any action will be taken as a result of your email.",
+   "q": 2,
+   "questions": [
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?"
+   ]
+  },
+  {
+   "id": "c52",
+   "doc": "ShortcutWorld.com/Privacy Policy [4901]",
+   "piece": 0,
+   "chars": 1465,
+   "text": "ShortcutWorld Privacy Policy At Shortcutworld, accessible from Shortcutworld.com, privacy of visitors are a priority.\n\nThis Privacy Policy document contains types of information that is collected and recorded by Shortcutworld and how we use it.\n\nIf you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us. Log Files\n\nShortcutworld follows a standard procedure of using log files.\n\nThese files log visitors when they visit websites.\n\nAll hosting companies do this and a part of hosting services' analytics.\n\nThe information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks.\n\nThese are not linked to any information that is personally identifiable.\n\nThe purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information. Cookies and Web Beacons\n\nLike any other website, Shortcutworld uses 'cookies'.\n\nThese cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited.\n\nThe information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information. Google DoubleClick DART Cookie\n\nGoogle is one of a third-party vendor on our site.",
+   "q": 16,
+   "questions": [
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?",
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?"
+   ]
+  },
+  {
+   "id": "c53",
+   "doc": "Rapid VPN/Terms of Service [23732]",
+   "piece": 7,
+   "chars": 1351,
+   "text": "You may cancel your Rapid VPN subscription at any time; however, there are no refunds for cancellation. In the event that Rapid VPN suspends or terminates your account or this Agreement, you understand and agree that you shall receive no refund or exchange for any unused time on a subscription, any license or subscription fees for any portion of the Service, any content or data associated with your account, or for anything else. Further, all purchases of Rapid VPN products and services are non-refundable, and Rapid VPN shall not be required to provide a refund for any reason.\n\n9. Privacy\n\nWe care about the privacy of our Users. You understand that by using the Services you consent to the collection, use and disclosure of your personally identifiable information and aggregate data as set forth in our Privacy Policy https://rapidvpn.app/ios_privacy , and to have your personally identifiable information collected, used, transferred to and processed in the United States.\n\n10. Security\n\nWe care about the integrity and security of your personal information. However, we cannot guarantee that unauthorized third parties will never be able to defeat our security measures or use your personal information for improper purposes. You acknowledge that you provide your personal information at your own risk.\n\n11. Third-Party Links and Information",
+   "q": 16,
+   "questions": [
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?",
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?"
+   ]
+  },
+  {
+   "id": "c54",
+   "doc": "LADBible Group/Privacy Policy [23156]",
+   "piece": 20,
+   "chars": 1498,
+   "text": "If we decline to take action on a request that you have submitted, we will inform you of our reasons for doing so, and provide instructions for how to appeal the decision. Depending on your state of residence you may have the right to appeal within a reasonable period of time after you have received our decision.\n\nIf you have this appeal right, within 60 days (45 days for residents of Colorado) of our receipt of your appeal, we will inform you in writing of any action taken or not taken in response to the appeal, including a written explanation of the reasons for the decisions. If we deny your appeal, we will provide you with a method for contacting your state attorney general\u2019s office to submit a complaint.\n\nUnited Kingdom / European Economic Area\n\nIf you are a resident of the UK or EEA, the following terms apply to you:\n\nData subject rights\n\nSubject to certain exemptions, limitations and appropriate proof of identity, as a data subject, you will generally have numerous rights in relation to your personal data that you may exercise with the controller, including the following:\n\nRight to information about matters set out in this notice. You may also contact us for further details about our retention policy and international data transfers using the contact details at the end of this notice\n\nRight to make an access request to receive copies of personal data.\n\nRight to rectification of any inaccurate or incomplete personal data.\n\nRight to withdraw consent previously provided.",
+   "q": 2,
+   "questions": [
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?"
+   ]
+  },
+  {
+   "id": "c55",
+   "doc": "Quizlet/Terms of Service [2524]",
+   "piece": 2,
+   "chars": 1437,
+   "text": "All upgrades are non-transferable and irrevocable once a credit has been redeemed by an individual user account.\n\nIndividual accounts which use a Group Order upgrade credit are not associated with any school, business, entity, institution or any other centralized account and the purchaser of the Group Order has no right to or interest in any account to which an upgrade credit has been applied, except where the purchaser of the Group Order and the holder of the account to which an upgrade credit has been applied are the same individual.\n\nSubscription Cancellation by You : If you have purchased a recurring Upgraded Membership subscription, you may end your Upgraded Membership at any time.\n\nWhen you choose to end your Upgraded Membership subscription, your subscription does not renew on the next auto-renewal date.\n\nYou may continue to enjoy your Upgraded Membership benefits until that date, after which your account will be automatically downgraded.\n\nInformation on how to end your subscription can be found here.\n\nCancellation by Us : We may cancel your Upgraded Membership at any time for any reason, with or without prior notice.\n\nRefunds : Except where required by law, Upgraded Memberships purchased directly through Quizlet are non-refundable.\n\nUpgraded Memberships purchased through other platforms are subject to the refund policies of those platforms.\n\nQuizlet cannot be held responsible for these platforms' policies.",
+   "q": 8,
+   "questions": [
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?"
+   ]
+  },
+  {
+   "id": "c56",
+   "doc": "LBRY/Privacy Policy [3010]",
+   "piece": 5,
+   "chars": 1445,
+   "text": "The law's reach stretches well beyond California to require any person or company in the United States (and conceivably the world) that operates websites collecting Personally Identifiable Information from California consumers to post a conspicuous privacy policy on its website stating exactly the information being collected and those individuals or companies with whom it is being shared.\n\n- See more at: http://consumercal.org/california-online-privacy-protection-act-caloppa/#sthash.0FdRbT51.dpuf\n\nAccording to CalOPPA, we agree to the following:\n\nUsers can visit our site anonymously.\n\nOnce this privacy policy is created, we will add a link to it on our home page or as a minimum, on the first significant page after entering our website.\n\nOur Privacy Policy link includes the word 'Privacy' and can easily be found on the page specified above.\n\nYou will be notified of any Privacy Policy changes:\n\nOn our Privacy Policy Page\n\nCan change your personal information:\n\nBy emailing us\n\nBy logging in to your account\n\nBy chatting with us or by sending us a support ticket\n\nHow does our site handle Do Not Track signals?\n\nWe honor Do Not Track signals and Do Not Track, plant cookies, or use advertising when a Do Not Track (DNT) browser mechanism is in place.\n\nDoes our site allow third-party behavioral tracking?\n\nIt's also important to note that we do not allow third-party behavioral tracking\n\nCOPPA (Children Online Privacy Protection Act)",
+   "q": 16,
+   "questions": [
+    "Does the text state or clearly imply the following: Location data may be collected, used and/or shared?",
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: Alternative accounts are not allowed?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?",
+    "Does the text state or clearly imply the following: Your provided identifiable information is actively checked by the service?",
+    "Does the text state or clearly imply the following: This service informs you that its Privacy Policy does not apply to third-party services?",
+    "Does the text state or clearly imply the following: Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: Minors must have the authorization of their legal guardians to use the service?",
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?",
+    "Does the text state or clearly imply the following: Your content can be distributed through any media known now or in the future?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?"
+   ]
+  },
+  {
+   "id": "c57",
+   "doc": "BBC/Terms of Use [116]",
+   "piece": 14,
+   "chars": 1476,
+   "text": "You rely on advice, data, commentary, opinions or any other content\n\nThere are errors, omissions, interruptions, delays, bugs or viruses\n\nWe turn off or remove content, services, external links or creations (we\u2019d normally only do this when we moderate, for legal reasons, or if we\u2019re improving a service)\n\nThe thing that happens couldn\u2019t reasonably have been foreseen\n\nThe thing that happens wouldn\u2019t usually result from the mishap\n\nYou and we hadn\u2019t agreed that this thing would probably happen in the event of a mishap.\n\nThis applies to sites we link to as well as our content and services.\n\nSpeaking of which\u2026 Back to top External links We sometimes link to non-BBC sites.\n\nAnd we sometimes put our services on them \u2013 when you connect with us on social media, for example.\n\nA few things to bear in mind:\n\na.\n\nWe don\u2019t endorse the sites we link to.\n\nb.\n\nWe\u2019re not responsible for their content or liable for anything that happens to you if you use them.\n\nc.\n\nIf you or anyone else shares something containing a link, we\u2019re not responsible for anything on the site it links to.\n\nd.\n\nExternal sites usually have their own terms of use. Back to top BBC iPlayer\n\na.\n\nThe rules for personal use\n\niPlayer programmes are only available for a certain period of time, after which they\u2019re automatically deleted.\n\nDon\u2019t try to use technical trickery to get around this. Read more about iPlayer\u2019s use-by dates here.\n\nDon\u2019t stream or download iPlayer TV shows when you\u2019re outside the UK.",
+   "q": 1,
+   "questions": [
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?"
+   ]
+  },
+  {
+   "id": "c58",
+   "doc": "Weblate/Terms and Privacy (English) [5956]",
+   "piece": 6,
+   "chars": 1434,
+   "text": "for providing our services on the Service, to contact you in matters regarding our services (also by means of e-mails and messaging) and to ensure the technical functionality of our services fulfillment of contractual or pre-contractual obligations (Article 6 (1) b.\n\nGDPR)\n\nto analyze your use of our services and improve our services (Article 6 (1) b.\n\nand f.\n\nGDPR)\n\nwith your express consent or instruction to carry out our business activities or send you newsletters (Article 6 (1) a.\n\nGDPR)\n\nAccess to the Personal Data The Controller has made all reasonable technical means to protect the Personal Data.\n\nOnly authorized persons can access the Personal Data.\n\nThird parties which can gain access to the Personal Data when necessary are:\n\nPersons which are contracted for technical assurance of the service.\n\nPayment processors.\n\nAll Personal Data is stored in the European Union. The Personal Data retention The Personal Data is stored in the Service until the User deletes their account on the service.\n\nAccess log information might be collected for a longer period for the purpose of establishing, exercising or defending legal claims. Your rights The User provides use of Personal Data voluntarily.\n\nWithout this Personal Data Weblate is not able to provide our services.\n\nWe want you to always be in control of your Personal Data.\n\nTo this end, you have certain rights that allow for it.\n\nUnder certain conditions, you may:",
+   "q": 4,
+   "questions": [
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: You have the right to leave this service at any time?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?"
+   ]
+  },
+  {
+   "id": "c59",
+   "doc": "BBC/Privacy and Cookies Policy [117]",
+   "piece": 4,
+   "chars": 1454,
+   "text": "It's called the \"lawful basis for processing\".\n\nSometimes we might ask your permission to do things, like when you subscribe to an email.\n\nOther times, when you'd reasonably expect us to use your personal information, we don't ask your permission, but only when:\n\nthe law says it's fine to use it, and\n\nit fits with the rights you have\n\nWe use your information for these types of things:\n\na.\n\nto deliver our services and to provide you with information about them\n\nb.\n\nto deal with your requests, complaints and enquiries\n\nc.\n\nto check if you're using BBC iPlayer and to keep the licensing database accurate and up to date\n\nd.\n\nto personalise services and give you things more tailored to your tastes\n\nYour BBC account lets you personalise your BBC online experience.\n\nTo do that, \u201cAllow Personalisation\u201d is set to on when you create an account.\n\nIf you\u2019re under 13 and create an account your personalisation is set to off.\n\nInformation about how you use our online services is then connected with other information you give us to personalise your experience.\n\nIf you don\u2019t want us to do this, you can always turn personalisation off in your account settings.\n\nIf you\u2019re under 13 you don\u2019t need to do anything.\n\ne.\n\nto show you relevant advertising on another company's site\n\nf.\n\nto help us understand what kind of services you might use\n\nAnd sometimes how you might share things with other people\n\ng.\n\nto recommend things we think might interest you\n\nh.",
+   "q": 8,
+   "questions": [
+    "Does the text state or clearly imply the following: The service will only respond to government requests that are reasonable?",
+    "Does the text state or clearly imply the following: Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage?",
+    "Does the text state or clearly imply the following: Your personal data is used to employ targeted third-party advertising?",
+    "Does the text state or clearly imply the following: Your profile is combined across various products?",
+    "Does the text state or clearly imply the following: You must provide your identifiable information?",
+    "Does the text state or clearly imply the following: You waive your right to a class action?",
+    "Does the text state or clearly imply the following: This service shares your personal data with third parties that are not essential to its operation?",
+    "Does the text state or clearly imply the following: The service assumes no liability for any damages the user incurs?"
+   ]
+  }
+ ]
+}
