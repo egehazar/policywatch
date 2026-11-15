@@ -1,0 +1,2962 @@
+# 122 cards
+
+For each card: does the passage state or clearly imply the case? Answer in verdicts.json.
+
+## T001
+**Case:** You cannot distribute or disclose your account to third parties
+
+**Passage:**
+
+```
+* If you use any of our Developer Services (including our APIs), you must also agree to the [Reddit Developer Terms].
+
+* If you participate in any Reddit program that is subject to Additional Terms (e.g., [Earn Terms] for any Earnings Program), you must also agree to those Additional Terms.
+
+##### **17\. Termination**
+
+You may terminate these Terms at any time and for any reason by deleting your Account and discontinuing use of all Services. If you stop using the Services without deleting your Account, your Account may be deactivated due to prolonged inactivity.
+
+To the fullest extent permitted by applicable law, we may suspend or terminate your Account, moderator status, or ability to access or use the Services at any time for any or no reason, including for violating these Terms or our [Reddit Rules].
+
+The following sections will survive any termination of these Terms or of your Account: 5 (Your Content), 7 (Things You Cannot Do), 12 (Indemnity), 13 (Disclaimers and Limitation of Liability), 14 (Governing Law and Venue), 17 (Termination), and 18 (Miscellaneous).
+
+##### **18\. Miscellaneous**
+```
+
+## T002
+**Case:** You can request access, correction and/or deletion of your data
+
+**Passage:**
+
+```
+**With service providers.** We may share your information with our [service providers] that perform functions and provide services on our behalf, including payment services providers who facilitate payments; service providers that host our various blogs and wikis; service providers that help us understand the use of our services; applicant tracking system providers to send and receive applicant and job data to potential employers; service providers supporting age assurance solutions; and those that provide fraud detection services.
+
+**With advertisers.** Advertising revenue enables us to provide our products and services. Advertisers may learn information from your engagement with their ads on or off X. For example, if you click on an external link or ad on our services, that advertiser or website operator might figure out that you came from X, along with other information associated with the ad you clicked, such as characteristics of the audience it was intended to reach and other X-generated identifiers for that ad. They may also collect other personal information from you, such as cookie identifiers, or your IP address.
+```
+
+## T003
+**Case:** Information is provided about security practices
+
+**Passage:**
+
+```
+* We offer a range of security features, like [Safe Browsing], Security Checkup, and [2 Step Verification] to help you protect your account
+
+* We review our information collection, storage, and processing practices, including physical security measures, to prevent unauthorized access to our systems
+
+* We restrict access to personal information to Google employees, contractors, and agents who need that information in order to process it. Anyone with this access is subject to strict contractual confidentiality obligations and may be disciplined or terminated if they fail to meet these obligations.
+
+Exporting & deleting your information
+
+=====================================
+
+You can export a copy of your information or delete it from your Google Account at any time
+
+You can export a copy of content in your Google Account if you want to back it up or use it with a service outside of Google.
+
+[Export your data]
+
+To delete your information, you can:
+
+* Delete your content from [specific Google services]
+
+* Search for and then delete specific items from your account using [My Activity]
+
+* [Delete specific Google products], including your information associated with those products
+
+* [Delete your entire Google Account]
+
+[Delete your information]
+
+Retaining your information
+
+==========================
+
+We retain the data we collect for different periods of time depending on what it is, how we use it, and how you configure your settings:
+```
+
+## T004
+**Case:** App required for this service requires broad device permissions
+
+**Passage:**
+
+```
+Ad partners, developers, and publishers.** Our ad and business partners share information with us such as browser cookie IDs, X-generated identifiers, []mobile device IDs, hashed user information like email addresses, demographic or interest data, and content viewed or actions taken on a website or app. Some of our ad partners, particularly our advertisers, also enable us to collect similar information directly from their website or app by integrating our advertising technology. Information shared by ad partners and affiliates or collected by X from the websites and apps of ad partners and affiliates may be combined with the other information you share with X and that X receives, generates, or infers about you described elsewhere in this Privacy Policy.
+
+**Other third parties, account connections, and integrations.** We may receive information about you from third parties who are not our ad partners, such as other X users, developers, and partners who help us evaluate the safety and quality of content on our platform, our [corporate affiliates], and other services you link to your X account. You may choose to connect your X account to your account on another service, and that other service may send us information about your account on that service.
+
+2\. How We Use Information
+
+--------------------------
+```
+
+## T005
+**Case:** You should revisit the terms periodically, although in case of material changes, the service will notify
+
+**Passage:**
+
+```
+To the extent that you or we prevail on a claim in arbitration and seek public injunctive relief (injunctive relief that has the primary purpose and effect of prohibiting unlawful acts that threaten future injury to the public), the entitlement to and extent of such relief must be litigated in a civil court of competent jurisdiction, not in arbitration. The parties agree that litigation of any issues of public injunctive relief shall be stayed pending the outcome of the merits of any individual claims in arbitration.
+
+5. Survival. This Section survives account Termination.
+
+14\. Updates to Terms
+
+---------------------
+
+We may update these Terms periodically. We will always post the revised version here and we will notify you through the App, website, or other communication channel if we make any material changes.
+
+It’s your responsibility to review the Terms regularly. By continuing to use Bluesky Social after any update, you agree to the revised Terms. If you do not agree to the changes, you must stop using Bluesky.
+
+15\. Intellectual Property
+
+--------------------------
+
+_Summary: Bluesky owns its name, design, code, and other creations. You can use Bluesky and all of the open source parts it’s made of, but that does not mean that you own anything we’ve made._
+
+We reserve all rights not expressly granted to you in these Terms. Bluesky is protected by trademark, copyright, patent and other laws of the United States and other countries.
+```
+
+## T006
+**Case:** Your account may be suspended and/or terminated for breaching the Terms of Service
+
+**Passage:**
+
+```
+Parler is committed to ensuring the safety and security of its users by strictly prohibiting any content, activities, or behaviors related to child sexual abuse and exploitation (CSAE). Parler does not tolerate content that promotes, depicts, or facilitates CSAE and will take immediate action against users who violate this policy.
+
+Prohibited Content: Users may not upload, share, or distribute content that involves the sexual exploitation of minors, including but not limited to images, videos, texts, or any material that promotes, glorifies, or facilitates such conduct.
+
+Zero-Tolerance Policy: Any user found engaging in CSAE-related activities will have their account permanently terminated and may be reported to the appropriate law enforcement authorities.
+
+Automated and Human Review: Parler utilizes automated detection tools via Hive Moderation tools and human moderation to proactively identify and remove CSAE content. Content suspected of violating CSAE laws will be immediately flagged and reviewed by our compliance team.
+
+Reporting Mechanism: Users are encouraged to report any CSAE-related content or activities through the in-app reporting tools or by emailing [support@parler.com]. Reports will be reviewed promptly, and appropriate actions will be taken, including reporting to the National Center for Missing & Exploited Children (NCMEC) where required by law.
+```
+
+## T007
+**Case:** You maintain ownership of your content
+
+**Passage:**
+
+```
+By submitting Your Content to the Services, you represent and warrant that you have all rights, power, and authority necessary to grant the rights to Your Content contained within these Terms. Because you alone are responsible for Your Content, you may expose yourself to liability if you post or share Content without all necessary rights.
+
+You retain any ownership rights you have in Your Content, but you grant Reddit the following license to use that Content:
+
+When Your Content is created with or submitted to the Services, you grant us a worldwide, royalty-free, perpetual, irrevocable, non-exclusive, transferable, and sublicensable license to use, copy, modify, adapt, prepare derivative works of, distribute, store, perform, and display Your Content and any name, username, voice, or likeness provided in connection with Your Content in all media formats and channels now known or later developed anywhere in the world. This license includes the right for us to make Your Content available for syndication, broadcast, distribution, or publication by other companies, organizations, or individuals who partner with Reddit. For example, this license includes the right to use Your Content to train AI and machine learning models, as further described in our [Public Content Policy]. You also agree that we may remove metadata associated with Your Content, and you irrevocably waive any claims and assertions of moral rights or attribution with respect to Your Content.
+```
+
+## T008
+**Case:** The copyright license that you grant this service is limited to the parties that make up the service's broader platform
+
+**Passage:**
+
+```
+Under no circumstances will Ryver be liable in any way for any Content, or any loss or damage of any kind incurred as a result of the use of any Content in the Service.
+
+2.5 You agree that you are responsible for your use of the Service, for your Content, and for any consequences thereof, including the use of your Content by other users and third parties.
+
+You understand that if you do not have the right to submit Content to the Service, doing so may subject you to liability.
+
+Ryver will not be responsible or liable for any use of your Content by Ryver in accordance with these Terms.
+
+You represent and warrant that you have all the rights, power and authority necessary to grant the rights granted herein to any Content that you submit including all necessary rights to upload your Content for use in accordance with these Terms.
+
+3.0 YOUR LICENSE
+
+3.1 Subject to your adherence to these Terms, Ryver gives you a limited, personal, worldwide, royalty-free, non-assignable, non-sublicensable and non-exclusive license to use the Service.
+
+We can terminate this license at any time for any reason or for no reason.
+
+3.2 We may make available software to access the Service via a mobile device or desktop application (“Software”).
+
+In order to use the Software you must use a device that is compatible with the Software.
+
+We do not warrant that the Software will be compatible with your device.
+```
+
+## T009
+**Case:** Archives of their agreements are provided so that changes can be viewed over time
+
+**Passage:**
+
+```
+Processed data categories: technical connection data of the server access (IP address, date, time, requested page, browser information), data about the use of the website, and the logging of clicks on individual elements.
+
+Purpose of processing: avoid non-human and automated input.
+
+The legal basis for processing: a legitimate interest that overrides the rights and freedoms of the data subject (Art. 6 (1) f GDPR).
+
+Legitimate interests: strong economic interest in safe and functioning operation of the technical systems.
+
+Data are transmitted: to the data processor Intuition Machines, Inc., 1065 SW 8th St #704, Miami FL 33130, USA ( https://www.hcaptcha.com ).
+
+This may also mean a transfer of personal data to a country outside the European Union. The data are transferred to the USA on the basis of Art. 45 GDPR in conjunction with the European Commission's adequacy decision C(2023) 4745, since the data recipient has committed to comply with the data processing principles of the Data Privacy Framework (DPF).
+
+Please read the hCaptcha's full privacy policy for more information.
+
+7.1.2 Privacy statement for the service Hetzner
+
+Our website infrastructure and web application are hosted on servers provided by Hetzner.
+
+Processed data categories: Web application data, server infrastructure data, technical connection data (IP address, date, time, requested page, browser information), server configuration and usage metrics, network traffic data.
+```
+
+## T010
+**Case:** Information is provided about security practices
+
+**Passage:**
+
+```
+We may share [non-personally identifiable information] publicly and with our partners — like publishers, advertisers, developers, or rights holders. For example, we share information publicly to [show trends] about the general use of our services. We also allow [specific partners] to collect information from your browser or device for advertising and measurement purposes using their own cookies or similar technologies.
+
+If Google is involved in a merger, acquisition, or sale of assets, we’ll continue to ensure the confidentiality of your personal information and give affected users notice before personal information is transferred or becomes subject to a different privacy policy.
+
+Keeping your information secure
+
+===============================
+
+We build security into our services to protect your information
+
+---------------------------------------------------------------
+
+All Google products are built with strong security features that continuously protect your information. The insights we gain from maintaining our services help us detect and automatically block security threats from ever reaching you. And if we do detect something risky that we think you should know about, we’ll notify you and help guide you through steps to stay better protected.
+
+We work hard to protect you and Google from unauthorized access, alteration, disclosure, or destruction of information we hold, including:
+
+* We use encryption to keep your data private while in transit
+```
+
+## T011
+**Case:** The copyright license that you grant this service is limited to the parties that make up the service's broader platform
+
+**Passage:**
+
+```
+Ryver does require that you grant us rights to your Content as necessary to, and for the sole purpose of, providing the Service.
+
+For example, we must be able to transmit and display our Content over computer networks for viewing on computers, mobile devices and in email notifications by you and other users in your account.
+
+We may also use third-party services such as Amazon Web Services in order to facilitate the administration and operation of the Service, thus extending the rights granted to us to the third parties only as necessary to provide the service.
+
+2.3 If you connect to Ryver with a third-party service, you give us permission to access and use your information from that service as permitted by that service, and to store your log-in credentials for that service.
+
+You may never use another user’s account without permission.
+
+2.4 All Content in or on the Service, whether publicly posted or privately transmitted by users, is the sole responsibility of the person who originated such Content.
+
+We do not endorse, support, represent or guarantee the completeness, truthfulness, accuracy, or reliability of any Content or communications posted via the Service or endorse any opinions expressed via the Service.
+
+We may not monitor or control the Content posted via the Service and, we cannot take responsibility for such Content.
+
+If you use or rely on any Content or materials posted via the Service or obtained by you through the Service, it is at your own risk.
+```
+
+## T012
+**Case:** Third-party cookies are used for statistics
+
+**Passage:**
+
+```
+Scope This statement applies to USPS® customers and usps.com visitors, unless a separate privacy notice is prominently displayed. Uses For over two centuries, the Postal Service™ has valued your privacy, and built a brand that customers trust.
+
+Thank you for reviewing our privacy policy.
+
+Our privacy policy tells you about our information practices when you provide personal information to us, whether collected online or offline, or when you visit us online to browse, obtain information, or conduct a transaction.
+
+Personal information may include your name, email, mailing and/or business address, phone numbers, or other information that identifies you personally.
+
+We do not require you to register or provide personal information to visit our website.
+
+Key aspects of our privacy policy include:
+
+We do not sell or rent your personal information to outside parties.
+
+We do not market other products or services to you without your consent.
+
+We do not use web analysis tools (e.g., cookies) to identify you personally without your express consent.
+
+The policy includes detailed explanations of how we provide:
+
+Expand all Notice of our privacy practices, including Privacy Act rights
+
+The following describes the ways we collect information from you, and the protections that apply to your information.
+
+The Postal Service collects personal information from you and from your transactions with us.
+```
+
+## T013
+**Case:** Per the service's terms, you may not express negative opinions about them
+
+**Passage:**
+
+```
+Terms of Service
+
+================
+
+#### View the Terms of Service in other languages: [English] and [Deutsch]
+
+**What’s in these Terms?**
+
+==========================
+
+This index is designed to help you navigate our Terms of Service (Terms). We hope this serves as a useful guide, but please ensure you read the Terms in full.
+
+[**Welcome to YouTube!**]
+
+---------------------------------------------------------------------
+
+This section outlines our relationship with you. It includes a description of the Service, defines our Agreement, and names your service provider.
+
+[**Who May Use the Service?**]
+
+--------------------------------------------------------------------------
+
+This section sets out certain requirements for use of the Service, and defines categories of users.
+
+[**Your Use of the Service**]
+
+-------------------------------------------------------------------------
+
+This section explains your rights to use the Service, and the conditions that apply to your use of the Service. It also explains how we may make changes to the Service.
+
+[**Your Content and Conduct**]
+
+--------------------------------------------------------------------------
+
+This section applies to users who provide Content to the Service. It defines the scope of the permissions that you grant by uploading your Content, and includes your agreement not to upload anything that infringes on anyone else’s rights.
+
+[**Account Suspension and Termination**]
+```
+
+## T014
+**Case:** Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder
+
+**Passage:**
+
+```
+If your use of the Service ends, the following terms of this Agreement will continue to apply to you: “Other Legal Terms”, “About This Agreement”, and the licenses granted by you will continue in limited cases as described under “Duration of License”.
+
+**Severance**
+
+-------------
+
+If it turns out that a particular term of this Agreement is not enforceable for any reason, this will not affect any other terms.
+
+**Assignment**
+
+--------------
+
+YouTube may transfer all or part of this Agreement to an Affiliate or, if YouTube is sold, to a third party.
+
+**No Waiver**
+
+-------------
+
+If you do not comply with this Agreement and we do not take action immediately, this doesn’t mean that we are giving up any rights that we may have (such as the right to take action in the future).
+
+**Governing Law**
+
+-----------------
+
+If you are based in Germany, this Agreement, and your relationship with YouTube under this Agreement, will be governed by the laws of Germany under the exclusion of the CISG, and legal proceedings may be brought in your local courts that have jurisdiction according to the statutory rules. This choice of law does not make any statement with regard to the law applicable to the respective Service itself.
+
+**EEA instructions on withdrawal**
+
+If you’re an EEA-based consumer, then starting on May 28, 2022, EEA consumer law gives you the right to withdraw from this contract as described in the EU’s Model Instructions on Withdrawal, provided below:
+
+Right of withdrawal
+```
+
+## T015
+**Case:** The posting of pornographic content is prohibited
+
+**Passage:**
+
+```
+* Copyright or trademark infringement
+
+### Messages
+
+All of our apply to messages sent between Pinners. Messages should also be welcomed and relevant. In addition to Pinners’ ability to unwelcome messages, we may warn or suspend accounts that violate our guidelines, including by sending messages that contain:
+
+* Spam
+
+* Sharing or solicitation of sexually explicit content
+
+* Self-harm or suicide content
+
+* Misinformation
+
+* Hateful activities such as racial slurs
+
+* Harassing content or behaviour, including
+
+* Exploitation of private information
+
+* Provoking or threatening violence
+
+Intellectual property and other rights
+
+======================================
+
+To respect the rights of people on and off Pinterest, please:
+
+* Don’t infringe anyone's intellectual property, privacy or other rights.
+
+* Don’t do anything or post any content that violates laws or regulations.
+
+* Don’t use Pinterest’s name, logo or trademark in a way that confuses people (check out our for more details).
+
+Site security and access
+
+========================
+
+To protect the Pinterest platform, we ask that you please:
+
+* Don’t access, use or tamper with our systems or our technical providers’ systems.
+
+* Don’t break or circumvent our security measures or test the vulnerability of our systems or networks, except as part of an authorised Pinterest .
+
+* Don’t use any undocumented or unsupported method to access, search, scrape, download or change any part of Pinterest.
+```
+
+## T016
+**Case:** No guarantee is made reguarding the accuracy and/or reliability of the information provided
+
+**Passage:**
+
+```
+Copyright Complaints We have a policy of limiting access to our Services and terminating the accounts of users who repeatedly infringe the intellectual property copyright rights of others upon prompt notification to us by the copyright owner or the copyright owner’s legal agent.
+
+Without limiting the foregoing, if you believe that your work has been copied and posted on or through the Services in a way that constitutes copyright infringement, please provide our Copyright Agent with the following information: (a) an electronic or physical signature of the person authorized to act on behalf of the owner of the copyright interest.
+
+(b) a description of the copyrighted work that you claim has been infringed.
+
+(c) a description of the location on the Services of the material that you claim is infringing.
+
+(d) your address, telephone number and e-mail address.
+
+€ a written statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent or the law.
+
+and (f) a statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright owner or authorized to act on the copyright owner’s behalf.
+
+Contact information for FaceApp’s Copyright Agent for notice of claims of infringement is as follows: Yaroslav Goncharov, Designated DMCA Copyright Agent, FaceApp Inc, 1000 N West Street, Suite 1200, Wilmington, Delaware, 19801. 9.
+```
+
+## T017
+**Case:** Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder
+
+**Passage:**
+
+```
+License. By submitting Content or any other material to Quizlet for inclusion on the Service or for any other purpose, for example posting a study set, answering a survey or sending Quizlet an email, you grant Quizlet a world-wide, perpetual, royalty-free license (with right to sublicense) to use, copy, reproduce, process, adapt, modify, publish, transmit, display, and distribute such Content or material in any and all media or distribution methods (existing or subsequently developed).
+
+additional uses by Quizlet, or other companies or individuals who partner with Quizlet, may be made with no compensation paid to you with respect to the Content or material that you submit, post, or otherwise make available to Quizlet or through the Service.
+
+Embed. If you use Quizlet's Embed Function on your website, you may not modify, build upon, or block any functionality or portion thereof, including but not limited to links back to the Quizlet website.
+
+API Requirements. If you use the Quizlet API, you agree to the Developer API rules, for how third-party developers can interact with Content and the Service.
+
+Responsibility of Service Visitors. Quizlet has not reviewed, and cannot review, all Content posted to the Service, and cannot therefore be responsible for that material's content, use or effects.
+
+By operating the Service, Quizlet does not represent or imply that it endorses the material posted thereon, or that it believes such material to be accurate, useful or non-harmful.
+```
+
+## T018
+**Case:** The service is provided 'as is' and to be used at your sole risk
+
+**Passage:**
+
+```
+The Services are provided "as is" and "as available" and to the extent permitted by law and except as stated above, without warranties of any kind, either express or implied, including, in particular implied warranties, conditions or other terms relating to: (a) merchantability, satisfactory quality, fitness for a particular purpose, title, quiet enjoyment, non-infringement, or (b) arising from a course of dealing. In addition, while we attempt to provide a good user experience, we do not represent or warrant that: (i) the Services will always be entirely secure, error-free or timely, (ii) the Services will always function without delays, disruption or imperfections, or (iii) any content or information you obtain through the Services will always be timely or accurate.
+
+IF THE LAW OF THE COUNTRY WHERE YOU LIVE DOES NOT ALLOW THE EXCLUSIONS PROVIDED FOR IN THIS CLAUSE, THOSE EXCLUSIONS SHALL NOT APPLY TO THE EXTENT PROHIBITED.
+
+To the fullest extent permitted by law, Snap, Snap Inc. and our affiliates take no responsibility and assume no liability for any content that you, another user or a third-party creates, uploads, posts, sends, receives, views or stores on or through our Services, and you understand and agree that you may be exposed to content that might be offensive, illegal, misleading or otherwise inappropriate, none of which Snap, Snap Inc. nor our affiliates will be responsible for.
+```
+
+## T019
+**Case:** Your profile is combined across various products
+
+**Passage:**
+
+```
+* **Tracking.** If you use an iPhone with iOS 14.5 or above, some specific requirements apply, which we’ve specified [here].
+
+###
+
+Information We Collect
+
+_This section provides you with details on what information we collect: what you provide to us, what we collect when you use Snapchat and information we receive from other companies or apps you’ve connected to your Snapchat account. Sometimes, we may also collect additional information, with your permission._
+
+When you use our Services, such as Snapchat, we collect information you provide to us, generate information when you use our Services and in some cases receive data from others. Let’s break these down in more detail.
+
+**Information You Provide**
+
+Many of our Services require you to set up an account. To do this, we ask you to provide us with account details. When you set up your profile, you’ll also provide us with profile details (like your Bitmoji and profile picture). If you use our commerce products to buy something, like those latest trainers, we may ask you for payment and related information (like your physical address, so we can ship the product to you, payment information, so we can process the payment, and transaction history). Based on your region, we may also use information you provide to estimate or infer your age or ask you to verify your age.
+```
+
+## T020
+**Case:** You agree not to use the service for illegal purposes
+
+**Passage:**
+
+```
+with legal advice.
+
+More simply put
+
+If you post your Content on Pinterest, it still belongs to you. In using Pinterest, you agree to only post User Content that follows these Terms and our policies, is lawful and doesn’t violate anyone else’s rights. If you post User Content that is infringing, illegal or violates our Terms or policies, we can take action against the User Content and, where appropriate, your account. Where appropriate, you can appeal those actions.
+
+### b. How we and other users can use your User Content
+```
+
+## T021
+**Case:** Per the service's terms, you may not express negative opinions about them
+
+**Passage:**
+
+```
+7. misuse any reporting, flagging, complaint, dispute, or appeals process, including by making groundless, vexatious, or frivolous submissions;
+
+8. run contests on or through the Service that do not comply with [YouTube’s contest policies and guidelines];
+
+9. use the Service to view or listen to Content other than for personal, non-commercial use (for example, you may not publicly screen videos or stream music from the Service); or
+
+10. use the Service to: (a) sell any advertising, sponsorships, or promotions placed on, around, or within the Service or Content, other than those allowed in the [Advertising on YouTube] policies (such as compliant product placements); or (b) sell advertising, sponsorships, or promotions on any page of any website or application that only contains Content from the Service or where Content from the Service is the primary basis for such sales (for example, selling ads on a webpage where YouTube videos are the only content of value).
+
+**Reservation**
+
+---------------
+
+Any right not expressly granted to you in this Agreement remains the right of YouTube or the respective rights holders. This means, for example, that using the Service does not give you ownership of any intellectual property rights in the Content you access (including any branding used on or displayed in the Service).
+
+**Develop, Improve and Update the Service**
+
+-------------------------------------------
+```
+
+## T022
+**Case:** You can request access, correction and/or deletion of your data
+
+**Passage:**
+
+```
+You can access, correct, or modify the information you provided to us by editing your profile and adjusting your account [settings].
+
+* You can learn more about the information we have collected or inferred about you in [][Your X Data] and request access to additional information [][here].
+
+* You can download a copy of your information, such as your posts, by following the instructions [here].
+
+To protect your privacy and maintain security, we take steps to verify your identity before granting you access to your personal information or complying with a deletion, portability, or other related request. We may, in certain situations, reject your request for access, correction, or portability, for example, we may reject access where you are unable to verify your identity.
+
+**5.2 Deleting your information.**
+
+If you follow the instructions [here], your account will be deactivated and your data will be queued for deletion. When deactivated, your X account, including your display name, username, and public profile, will no longer be viewable on X.com, X for iOS, and X for Android. For up to 30 days after deactivation it is still possible to restore your X account if it was accidentally or wrongfully deactivated.
+
+**5.3 Objecting to, restricting, or withdrawing your consent.**
+```
+
+## T023
+**Case:** The court of law governing the terms is in a jurisdiction that is less friendly to user privacy protection
+
+**Passage:**
+
+```
+EU Data Subject Rights – Individuals in the European Economic Area (“EEA”) and other jurisdictions have certain legal rights (subject to applicable exceptions and limitations) to obtain confirmation of whether we hold certain information about them, to access such information, and to obtain its correction or deletion in appropriate circumstances.
+
+You may have the right to object to our handling of your information, restrict our processing of your information, and to withdraw any consent you have provided.
+
+To exercise these rights, please email us at legal@creativecommons.org with the nature of your request.
+
+You also have the right to go directly to the relevant supervisory or legal authority, but we encourage you to contact us so that we may resolve your concerns directly as best and as promptly as we can.
+
+8.
+
+International Transfers
+
+Our computer systems are currently based in the United States and the United Kingdom and the majority of our contractors are based in the United States or Canada.
+
+As described above in the “When We Disclose Your Information” section, we may share your information with trusted service providers or business partners in countries other than your country of residence, including the United States, in accordance with applicable law.
+
+This means that some of your information may be processed in the United States, which may not offer the same level of protection as the privacy laws of your jurisdiction.
+```
+
+## T024
+**Case:** Your personal data may be used for marketing purposes
+
+**Passage:**
+
+```
+This principle requires not only that individuals have enforceable rights against data users, but also that individuals have recourse to courts or government agencies to investigate and/or prosecute non-compliance by data processors.
+
+CAN SPAM Act
+
+The CAN-SPAM Act is a law that sets the rules for commercial email, establishes requirements for commercial messages, gives recipients the right to have emails stopped from being sent to them, and spells out tough penalties for violations.
+
+We collect your email address in order to:
+
+Send information, respond to inquiries, and/or other requests or questions
+
+Process orders and to send information and updates pertaining to orders.
+
+Send you additional information related to your product and/or service
+
+Market to our mailing list or continue to send emails to our clients after the original transaction has occurred.
+
+To be in accordance with CANSPAM, we agree to the following:
+
+Not use false or misleading subjects or email addresses.
+
+Identify the message as an advertisement in some reasonable way.
+
+Include the physical address of our business or site headquarters.
+
+Monitor third-party email marketing services for compliance, if one is used.
+
+Honor opt-out/unsubscribe requests quickly.
+
+Allow users to unsubscribe by using the link at the bottom of each email.
+
+If at any time you would like to unsubscribe from receiving future emails, you can email us at:
+
+Follow the instructions at the bottom of each email.
+```
+
+## T025
+**Case:** Instructions are provided on how to submit a copyright claim
+
+**Passage:**
+
+```
+Snap respects the rights of others. And so should you. You therefore may not use the Services, or enable anyone else to use the Services, in a manner that violates or infringes someone else’s rights of publicity, privacy, copyright, trademark or other intellectual property rights. When you submit content to the Services, you agree and represent that you own that content, or that you have received all necessary permissions, clearances, licenses and authorizations in order to submit it to the Services (including, if applicable, the right to make mechanical reproductions of the musical works embodied in any sound recordings, synchronize any compositions to any content, publicly perform any compositions or sound recordings, or any other applicable rights for any music not provided by Snap that you include in your content) and grant the rights and licenses contained in these Terms for your content. You also agree that you will not use or attempt to use another user's account except as permitted by Snap or its affiliates.
+```
+
+## T026
+**Case:** This service receives your precise location through GPS coordinates
+
+**Passage:**
+
+```
+When you choose to [make a transaction\[54\]], or otherwise choose to share information with a seller, creator, fundraiser, charity, payment services provider or [commerce services platform\[55\]], we share information with them and with any providers acting on their behalf.
+
+Depending on how you interact with them, they receive:
+
+* Information to complete your transaction, like order, payment, contact and shipping information
+
+* Information to help ensure the security of the transaction, like information about your device or connection
+
+* Any information required by applicable regulation
+
+* Other information you choose to share with them
+
+For example, if you donate to a charity that receives funds through PayPal Giving Fund, your donation will be made to PayPal Giving Fund. The PayPal Giving Fund will receive information such as the transaction amount and name of the charity. Their payment service provider will also receive information needed to facilitate the payment, including your payment card credential information.
+
+Integrated partners
+
+-------------------
+
+When you choose to use integrated partners’ products or services, they may receive information about you and your activity. [Read the Policy].
+
+Vendors
+
+-------
+
+Measurement vendors
+
+-------------------
+
+We don’t create every measurement and analytics report ourselves.
+```
+
+## T027
+**Case:** Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage
+
+**Passage:**
+
+```
+What Happens When There Are Changes to this Privacy Policy?
+
+We may amend this Privacy Policy from time to time.
+
+If we make material changes to this Privacy Policy, we will notify you by posting an announcement on the Services or sending you an email. Except where otherwise required by applicable law, any modifications to this Privacy Policy will be effective upon our posting the new terms and/or upon implementation of the new changes on the Services (or as otherwise indicated at the time of posting).
+
+In all cases, your continued use of the Services after the posting of any modified Privacy Policy indicates your acceptance of the terms of the modified Privacy Policy.
+
+Job Applicants
+
+When you visit the careers portion of our website, we collect the information that you provide to us in connection with your job application.
+
+This includes business and personal contact information, professional credentials and skills, educational and work history, and other information of the type that may be included in a resume.
+
+This may also include diversity information that you voluntarily provide.
+
+We use this information to facilitate our recruitment activities and process employment applications, such as by evaluating a job candidate for an employment activity, and monitoring recruitment statistics.
+```
+
+## T028
+**Case:** Your profile is combined across various products
+
+**Passage:**
+
+```
+Furthermore, we believe a personalised experience should not come at the expense of your privacy. Just like in real life, there are some moments you want to share privately with your close friends, and others that you want to share publicly. That’s why from day one our philosophy has been to delete content by default and to give Snapchatters control by providing the tools that allow them to decide what happens with their content, like who to share it with or when to save it.
+
+This Policy covers our Snapchat app as well as our other products, services and features, such as Bitmoji, SPECS and our advertising and commerce initiatives. When you read “Services” in this Policy, we’re talking about all of them. Also, if you see us refer to our “Terms”, we mean the [Terms of Service] that you agree to when you sign up for our Services. Finally, if you see the term "Snapchatter" we are often using that as shorthand for any user of our Services.
+
+Let’s get started with the controls you have over your information:
+
+###
+
+Control over your information
+
+_Control over your information and settings is a core part of Snapchat experience. You can access, update and delete your information, decide who can contact you and download your data from within the Snapchat app. Below, we give you more details on the types of settings that are available, link out to our data download tool and provide instructions on how to delete data or your account._
+```
+
+## T029
+**Case:** You cannot distribute or disclose your account to third parties
+
+**Passage:**
+
+```
+4. Copy, use, display or distribute any information (including content) obtained from the Services, whether directly or through third parties (such as search tools or data aggregators or brokers), without the consent of the content owner (such as LinkedIn for content it owns);
+
+5. Disclose information that you do not have the consent to disclose (such as confidential information of others (including your employer);
+
+6. Violate the intellectual property rights of others, including copyrights, patents, trademarks, trade secrets or other proprietary rights. For example, do not copy or distribute (except through the available sharing functionality) the posts or other content of others without their permission, which they may give by posting under a Creative Commons license;
+
+7. Violate the intellectual property or other rights of LinkedIn, including, without limitation, (i) copying or distributing our learning videos or other materials, (ii) copying or distributing our technology, unless it is released under open source licenses; or (iii) using the word “LinkedIn” or our logos in any business name, email, or URL except as provided in the [Brand Guidelines];
+
+8. Post (or otherwise share) anything that contains software viruses, worms, or any other harmful code;
+
+9. Reverse engineer, decompile, disassemble, decipher or otherwise attempt to derive the source code for the Services or any related technology that is not open source;
+```
+
+## T030
+**Case:** Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder
+
+**Passage:**
+
+```
+Severability. If any part of these Terms of Service is held invalid or unenforceable, that part will be construed to reflect the drafter’s original intent, and the remaining portions will remain in full force and effect.
+
+Non-waiver of Rights. A waiver by either party of any term or condition of these Terms of Service or any breach thereof, in any one instance, will not waive such term or condition or any subsequent breach thereof.
+
+Assignment. You may assign your rights under these Terms of Service to any party that consents to, and agrees to be bound by, its terms.
+
+Quizlet may assign its rights under these Terms of Service without condition.
+
+These Terms of Service will be binding upon and will inure to the benefit of the parties, their successors and permitted assigns.
+
+Survival of Terms. These Terms continue to apply, even after you close your account or cease using the Service.
+```
+
+## T031
+**Case:** Third-party cookies are used for advertising
+
+**Passage:**
+
+```
+ADVERTISING We may directly or through a third party vendor use non-personally identifiable information in
+
+connection with our own or our vendors’ information to display or deliver targeted advertising to you on our Site
+
+and to manage our advertising on other sites.
+
+Cookies, clickstream data, web beacons and other similar technologies
+
+may be used to collect information in order to provide personalized advertising.
+
+For example, if you are searching
+
+for information on a particular product, we or our vendors may cause an advertisement to appear on other websites
+
+you view with information on that product.
+
+This form of advertising, sometimes called “interest based advertising,”
+
+is based on anonymous information and not on any personal information.
+
+As a result, we and our vendors know your
+
+interests, but do not personally identify you in connection with the delivery of that specific ad.
+
+We believe that
+
+such advertising is helpful because you will see advertisements that are relevant to your interests.
+
+However, if you
+
+would like to opt-out of these interest-based advertisements, please follow the opt-out process described below
+
+under “Interest Based Advertising Opt-Out.” ## COOKIES We may place small data files on your device or device hard
+
+drive known as “cookies” or a similar type of file (such as clear gifs, web beacons, tags, etc.) for the purpose of
+
+facilitating and enhancing your communication and interaction with the Site.
+```
+
+## T032
+**Case:** You have the right to leave this service at any time
+
+**Passage:**
+
+```
+Force Majeure. We will not be liable to you for failing to perform our obligations under or arising out of these Terms, or the applicable Additional Terms, or any applicable laws or regulations because of any event beyond our reasonable control, including a labor disturbance, an internet outage or interruption of service, a communications outage, failure by a service provider or any other third party to perform, acts of war or other action of military forces, terrorism, riot, civil commotion, sabotage, vandalism, accident, fire, flood, pandemic, acts of god, strike, lock-out or other industrial disputes (whether or not involving our employees or those of our affiliates, suppliers or licensors) or legislative or administrative interference (including those giving rise to currency changes or otherwise affecting our ability to operate or provide the nook service, whether in whole or in part).
+
+Changes to Services and Amendments to these Terms. To the maximum extent permitted by applicable law, we may, in our sole discretion, change, modify, suspend, make improvements to or discontinue any aspect of the Service, temporarily or permanently, in whole or in part, at any time with or without notice to you, and we will not be liable for doing so.
+
+We reserve the right from time to time to modify these Terms in our sole discretion.
+
+Your use of the Service after any modification we make constitutes your acceptance of the most recent version of these Terms as modified.
+```
+
+## T033
+**Case:** Per the service's terms, you may not express negative opinions about them
+
+**Passage:**
+
+```
+The Service allows you to discover, watch and share videos and other content, provides a forum for people to connect, inform, and inspire others across the globe, and acts as a distribution platform for original content creators and advertisers large and small. We provide lots of information about our products and how to use them in our [Help Center]. Amongst other things, you can find out about [YouTube Kids], the [YouTube Partner Program] and [YouTube Paid Memberships and Purchases]. You can also read all about enjoying content on [other devices] [like your television, your games console, or even] [Google Home].
+
+**Your Service Provider**
+
+-------------------------
+
+The entity providing the Service in the European Economic Area and Switzerland is Google Ireland Limited, a company incorporated and operating under the laws of Ireland, (Registered Number: 368047), located at Gordon House, Barrow Street, Dublin 4, Ireland (referred to as “YouTube”, “we”, “us”, or “our”). References to YouTube’s “Affiliates” in these terms means the other companies within the Alphabet Inc. corporate group pursuant to Section 15 Stock Corporation Act (Aktiengesetz).
+
+**Applicable Terms**
+
+--------------------
+```
+
+## T034
+**Case:** The posting of pornographic content is prohibited
+
+**Passage:**
+
+```
+We do not allow accounts that belong to violent actors, hate groups or malicious misinformation actors. We may consider off-platform actions in assessing enforcement against a Pinterest account belonging to one of these groups or associated individuals.
+
+You can read more about how we put our Community Guidelines into practice on our Enforcement page .
+
+We’re committed to presenting you with clear and transparent expectations that are easy to understand and follow. If you have questions or encounter problems on Pinterest, please .
+
+### Adult sexual content and nudity
+
+Pinterest isn’t a place for sexual content or visible intimate body parts. We remove or limit the distribution of this type of content, including:
+
+* Sexually explicit depictions or descriptions.
+
+* Sexually suggestive depictions or descriptions.
+
+* Visible intimate body parts (e.g. genitals, anus, breasts or buttocks).
+
+* Promotion of erotic practices such as BD/SM.
+
+* Promotion of commercial sexual services such as escort services, sexual chats or webcams.
+
+* Instructions, tools or services for creating sexually explicit or nudity content (e.g. “nudifiers”).
+
+* Instructions, tools or services for intimate image abuse or financial sextortion.
+
+* Sexual enhancement products.
+```
+
+## T035
+**Case:** Information is provided about how your personal data is collected
+
+**Passage:**
+
+```
+1. **Usage Information.** When you use Bluesky, we collect certain information automatically, including your Internet protocol (IP) address (which can be used to derive your general location), user settings, cookie identifiers, mobile carrier, other unique identifiers, browser or device information, and Internet service provider (ISP). We may also collect personal information about your use of Bluesky, including the posts you view on Bluesky, the links you click within Bluesky, and the frequency and duration of your activities.
+
+2. **Cookies (and Other Technologies).** We and third parties that provide content or other functionality on Bluesky may use cookies, pixel tags, and other technologies (**"Tracking Technologies"**) to automatically collect information. See Section 9, Cookies, for more information.
+
+3. **Personal Data We Collect from Other Sources**
+
+1. **Third Parties, generally.** We may collect personal information from third parties. For example, you may direct a developer application or other third-party social networking application to share personal information with us or you may live in a jurisdiction that requires age verification and we will collect information from a third-party provider telling us whether you meet certain age requirements.
+```
+
+## T036
+**Case:** This service gives your personal data to third parties involved in its operation
+
+**Passage:**
+
+```
+means the User who can manage Project
+
+Project
+
+means translation project operated on the Service
+
+Service
+
+means the website and services based on Weblate operated by the Provider
+
+Translation Memory
+
+means the optional translation memory service provided within Weblate
+
+User
+
+means any legal entity or an individual other than the Provider, who is using the Service
+
+VCS
+
+means distributed version control system used by the Project such as Git or Mercurial
+
+License Agreement Conclusion The License Agreement is concluded upon the User’s Acceptance of the Provider’s Offer. License Agreement By concluding Agreement under Article 2.1 of this Agreement, the following provisions of this Article 3 of the Terms of Service come into force.
+
+The Provider presents the User with a License Agreement and the User accepts this License Agreement, all this under the terms and conditions stated in these Terms of Service.
+
+The Provider shall have the right to shut down, adjust, modify or make the Service unavailable on the web address at any time.
+
+The User agrees to use the Service only in a manner not jeopardizing technical software and/or hardware means of the Provider and/or such means in the Provider’s use.
+
+The User agrees to refrain from use of the Service in bad faith and/or deliberately causing any damage to the Service.
+```
+
+## T037
+**Case:** Instructions are provided on how to submit a copyright claim
+
+**Passage:**
+
+```
+Memories is our personalised data-storage service. Your content in Memories might become unavailable for any number of reasons, including things like an operational glitch or a decision on our end to terminate your account. Since we can’t promise that your content will always be available, we recommend keeping a separate copy of content you save to Memories. We make no promise that Memories will be able to accommodate your precise storage needs. We reserve the right to set storage limits for Memories or to prohibit certain types of content from being eligible for use with Memories, and we may change these limits from time to time in our sole discretion.
+
+_In summary: Memories is a personalised storage service. It will be automatically enabled, but you can control some features. We cannot guarantee that any Memories will be stored forever either, so please do keep a backup._
+
+13\. Data Charges and Mobile Phones
+
+You are responsible for any mobile charges that you may incur for using our Services. This includes data charges and charges for messaging, such as SMS, MMS or other messaging protocols or technologies (collectively, "Messages"). If you’re unsure what those charges may be, you should ask your service provider before using the Services.
+```
+
+## T038
+**Case:** You are prohibited from posting content which promotes violence or politically or religiously extremist values
+
+**Passage:**
+
+```
+* Images of accessories used to self-harm
+
+* Negative self-talk and insensitive humour about self-harming behaviour
+
+* Suicide pacts, challenges and hoaxes
+
+### Violence and threats
+
+Pinterest isn’t a place for graphic violence or threatening language. We remove or limit the distribution of such content, including:
+
+* Content that shows the use of violence
+
+* Content showing or purporting to show disturbing scenes from before, during or after violent events
+
+* Threats or language that glorifies violence
+
+In a few cases, we allow the saving of disturbing images dedicated to remembrance and advocacy, but limit distribution of such content in public parts of the platform.
+
+### Violent actors
+
+Pinterest isn’t a place for violent content, groups or individuals. We remove or limit the distribution of content and accounts that encourage, belong to, impersonate, praise, promote or provide aid to dangerous actors or groups and their activities. This includes:
+
+* Extremists
+
+* Terrorist organisations
+
+* Gangs and other criminal organisations
+
+* Perpetrators of mass or serial violence
+
+We work with industry, government and security experts to help us identify these groups.
+
+### Misinformation
+
+Pinterest isn’t a place for misinformation, disinformation, mal-information or for the individuals or groups spreading or creating it. We remove or limit distribution of false or misleading content that may harm Pinners' or the public's well-being, safety or trust, including:
+```
+
+## T039
+**Case:** You must report to the service any unauthorized use of your account or any breach of security
+
+**Passage:**
+
+```
+This information is collated in the application monitoring platform Sentry and is subject to strict retention policies.
+
+2.4 Sharing Data in Compliance with Enforcement Requests and Applicable Laws.
+
+Enforcement of Our Rights
+
+‍ In exceptional circumstances, we may share information about you with a third party if we believe that sharing is reasonably necessary to
+
+(a) comply with any applicable law, regulation, legal process or governmental request,
+
+(b) protect the security or integrity of our products and services (e.g.
+
+for a security audit),
+
+(c) protect Element and our users from harm or illegal activities, or
+
+(d) respond to an emergency which we believe in good faith requires us to disclose information to assist in preventing the serious bodily harm of any person.
+
+2.5 How Do You Handle Passwords?
+
+We never store password data in plain text.
+
+instead they are stored hashed (with at least 12 rounds of bcrypt, including both a salt and a server-side pepper secret).
+
+Passwords sent to the server are encrypted using SSL. ‍ It is your sole responsibility to keep your user name, password and other sensitive information confidential.
+
+Actions taken using your credentials shall be deemed to be actions taken by you, with all consequences including service termination, civil and criminal penalties.
+
+If you become aware of any unauthorized use of your account or any other breach of security, you must notify Element immediately by sending an email to dpo@element.io.
+```
+
+## T040
+**Case:** No guarantee is made reguarding the accuracy and/or reliability of the information provided
+
+**Passage:**
+
+```
+OUR SERVICES ARE PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+In addition, FaceApp does not represent or warrant that our Services are accurate, complete, reliable, current or error-free.
+
+While FaceApp attempts to make your access to and use of our Services safe, we cannot and do not represent or warrant that our Services or servers are free of viruses or other harmful components.
+
+You assume the entire risk as to the quality and performance of the Services. 11.
+
+Limitation of Liability FACEAPP AND THE OTHER FACEAPP PARTIES WILL NOT BE LIABLE TO YOU UNDER ANY THEORY OF LIABILITY—WHETHER BASED IN CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, WARRANTY, OR OTHERWISE—FOR ANY INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, PUNITIVE OR SPECIAL DAMAGES OR LOST PROFITS, EVEN IF FACEAPP OR THE OTHER FACEAPP PARTIES HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+THE TOTAL LIABILITY OF FACEAPP AND THE OTHER FACEAPP PARTIES, FOR ANY CLAIM ARISING OUT OF OR RELATING TO THIS AGREEMENT OR OUR SERVICES, REGARDLESS OF THE FORM OF THE ACTION, IS LIMITED TO THE AMOUNT PAID, IF ANY, BY YOU TO ACCESS OR USE OUR SERVICES.
+```
+
+## T041
+**Case:** Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage
+
+**Passage:**
+
+```
+We may sell, transfer or otherwise share some or all of our business or assets, including your personal information, in connection with a business transaction (or potential business transaction) such as a corporate divestiture, merger, consolidation, acquisition, reorganization or sale of assets, or in the event of bankruptcy or dissolution.
+
+What Security Measures Do We Use?
+
+We employ a number of safeguards designed to protect the information we collect.
+
+However, security risk is inherent in all internet and information technologies, and we cannot guarantee the security of any information we collect or maintain.
+
+Biometric Data Retention
+
+KeyMe will retain your fingerscan minutiae only until the earlier of the time that you delete your account, or within 3 years of your last interaction with KeyMe.
+
+You may also email support@key.me to request that we remove your fingerscan minutiae from our databases.
+
+What Choices Do You Have Regarding Your Information?
+
+Access, update, and delete your information. If you are a registered user, you can access and update certain information associated with your account by logging into the Services.
+
+You can delete your account by emailing support@key.me.
+
+Opt out of marketing communications. You may opt out of marketing-related emails by following the opt-out or unsubscribe instructions at the bottom of the email, or by contacting us at support@key.me.
+
+You may continue to receive service-related and other non-marketing emails.
+```
+
+## T042
+**Case:** You cannot distribute or disclose your account to third parties
+
+**Passage:**
+
+```
+To use the Services, you agree that: (1) you must be the ["Minimum Age"](described below) or older; (2) you will only have one LinkedIn account, which must be in your real name; and (3) you are not already restricted by LinkedIn from using the Services. Creating an account with false information is a violation of our terms, including accounts registered on behalf of others or persons under the age of 16.
+
+“Minimum Age” means 16 years old. However, if law requires that you must be older in order for LinkedIn to lawfully provide the Services to you without parental consent (including using your personal data) then the Minimum Age is such older age. [Learn More]
+
+### 2.2 Your Account
+
+You will keep your password a secret
+
+You will not share your account with anyone else and will follow our policies and the law.
+
+Members are account holders. You agree to: (1) protect against wrongful access to your account (e.g., use a strong password and keep it confidential); (2) not share or transfer your account or any part of it (e.g., sell or transfer the personal data of others by transferring your connections); and (3) follow the law, our list of Dos and Don’ts (below), and our [Professional Community Policies]. [Learn More] You are responsible for anything that happens through your account unless you close it or report misuse.
+```
+
+## T043
+**Case:** Information is provided about how your personal data is collected
+
+**Passage:**
+
+```
+We may disclose all of these categories of Personal Data for a business purpose to service providers or other third parties, as outlined in this Policy.
+
+2. **Disclosure of Personal Data.** As detailed in Section 11, How We Share your Personal Data, we may disclose the categories of Personal Data identified above to the following categories of third parties for various business purposes: other Bluesky companies, service providers, our professional advisers, business partners, other businesses as needed to provide our Services, and certain third parties where you have provided consent, where it is in connection with a corporate transaction, or where we are required by law or in connection with other legal process.
+
+3. **Sources of Personal Data.** We collect Personal Data from you, from your browser or device when you interact with our Services, from our business partners and affiliates, from third parties you direct to share information with us, and from other third-party providers. For more information, see Section 13, Your Privacy Choices and Rights.
+
+4. **Purpose for collection.** We collect Personal Data about you for the purposes described in Section 10, How We Use Personal Data.
+
+5. **Notice of financial incentives.** We do not sell Personal Data collected about you, or share Personal Data collected about you for cross-context behavioural advertising. We do not currently send emails for direct marketing purposes.
+```
+
+## T044
+**Case:** Your account may be suspended and/or terminated for breaching the Terms of Service
+
+**Passage:**
+
+```
+Parler may remove any content and terminate your access to the Services at any time and for any reason, including without limitation, to the extent Parler reasonably believes (a) you have violated these Terms or Parler's [Community Guidelines], (b) you create risk or possible legal exposure for Parler, or (c) you are otherwise engaging in unlawful conduct, although Parler endeavors to allow all free speech that is lawful and does not infringe the legal rights of others. Any invitation made by Parler to you to use the Services or submit content to the Services, or the fact that Parler may receive a benefit from your use of the Services or provision of content to the Services, will not obligate Parler to maintain any content or maintain your access to the Services. Parler will have no liability to you for removing any content, for terminating your access to the Services, or for modifying or terminating the Services. In addition, accounts which are inactive (without login) for nine (9) months are subject to username relinquishment or account removal.
+```
+
+## T045
+**Case:** Private messages can be read
+
+**Passage:**
+
+```
+The types of information we receive and collect depend on how you use our Services. We require certain of Your [Account Information] in accordance with our Terms to deliver our Services and without this we will not be able to provide our Services to you. For example, you must provide your mobile phone number to create an account to use our Services.
+
+Our Services have optional features which, if used by you, require us to collect additional information to provide such features. You will be notified of such a collection, as appropriate. If you choose not to provide the information needed to use a feature, you will be unable to use the feature. For example, you cannot share your [Precise Location Information] with your contacts if you do not enable location sharing on your device. Permissions can be managed through your device-based settings on both [**Android**] and [**iOS**] devices.
+
+As always, your personal messages and calls remain end-to-end encrypted. No one else, not even WhatsApp, can read or listen to them.
+
+### **Information You Provide**
+```
+
+## T046
+**Case:** This service shares your personal data with third parties that are not essential to its operation
+
+**Passage:**
+
+```
+| Purchasers of our business | * User Data<br>* Street Address Data<br>* Usage Data<br>* Voice Data<br>* Message Data<br>* Message Data<br>* Payment and Purchase Data<br>* Survey and Research Data | If we were to sell or negotiate to sell any part of our business to a buyer or possible buyer.<br><br> <br><br>In this case, we may transfer your personal data to a successor or affiliate as part of that transaction. |
+
+**Courts and Authorities:** We may process and share your personal data to comply with a request from courts, authorities, parties to litigation, or other authorized third parties. We will do so when we believe in good faith it is necessary, including:
+
+* to comply with a legal obligation
+
+* to respond to a valid legal process (such as a search warrant, court order, or subpoena)
+
+* for our own or a third party's justifiable interest such as criminal investigations, litigation, protecting someone’s safety, or preventing death or imminent bodily harm
+
+The categories of personal data processed or shared will depend on the nature of the specific request.
+
+6\. Data retention
+
+------------------
+
+We keep your personal data only as long as necessary to provide you with the Spotify Service and for Spotify’s legitimate and essential business purposes, such as:
+
+* maintaining the performance of the Spotify Service
+
+* making data-driven business decisions about new features and offerings
+
+* complying with our legal obligations
+
+* resolving disputes
+```
+
+## T047
+**Case:** If you offer suggestions to the service, they may use that without your approval or compensation, but they do not become the owner
+
+**Passage:**
+
+```
+You acknowledge that some of the Services are supported by advertising revenue and may display advertisements and promotions, and you hereby agree that FaceApp may place such advertising and promotions on the Services or on, about, or in conjunction with your User Content.
+
+The manner, mode and extent of such advertising and promotions are subject to change without specific notice to you.
+
+You acknowledge that we may not always identify paid services, sponsored content, or commercial communications as such.
+
+You represent and warrant that: (i) you own or otherwise have the right to use the User Content modified by you on or through the Services in accordance with the rights and licenses set forth in this Agreement.
+
+(ii) you agree to pay for all royalties, fees, and any other monies owed by reason of User Content you stylize on or through the Services.
+
+and (iii) you have the legal right and capacity to enter into this Agreement in your jurisdiction.
+
+You may not create, post, store or share any User Content that violates this Agreement or for which you do not have all the rights necessary to grant us the license described above.
+
+Although we have no obligation to screen, edit or monitor User Content, we may delete or remove User Content at any time and for any reason.
+
+FaceApp is not a backup service and you agree that you will not rely on the Services for the purposes of User Content backup or storage.
+```
+
+## T048
+**Case:** Your biometric data is collected
+
+**Passage:**
+
+```
+| **To maintain and improve Google services, products, and features**<br><br>**To maintain the service so it works as intended, such as debugging the service, tracking issues or troubleshooting issues.**<br><br>Examples of processing activities:<br><br>* We continuously monitor our systems to look for problems. And if we find something wrong with a specific feature, reviewing activity information collected before the problem started allows us to fix things more quickly.<br>* We log users’ interactions with buttons on apps like Google Maps and Search to help understand if they are functioning as intended.<br><br>**To make improvements to Google services and to help improve the safety and reliability of these services, such as to detect, prevent, and respond to fraud, abuse, security risks, and technical issues that could harm the service or users.**<br><br>Examples of processing activities:<br><br>* We analyze data about your interactions with our services to help us build better products. For example, it may help us discover that it’s taking people too long to complete a certain task or that they have trouble finishing steps at all. We can then redesign that feature and improve the product for everyone.<br>* We analyze which search terms are most frequently misspelled to help us improve spell-check features used across our services.<br>* We analyze usage of Google Translate to improve translation quality and increase the availability of Translate in more languages.<br>* We an
+```
+
+## T049
+**Case:** No guarantee is made reguarding the accuracy and/or reliability of the information provided
+
+**Passage:**
+
+```
+FaceApp will not be liable to you for any modification, suspension, or discontinuation of the Services, or the loss of any User Content. 5.
+
+Prohibited Conduct and Content You will not violate any applicable law, contract, intellectual property or other third-party right or commit a tort, and you are solely responsible for your conduct while accessing or using our Services.
+
+You will not:
+
+Engage in any harassing, threatening, intimidating, predatory or stalking conduct;
+
+Use or attempt to use another user’s account without authorization from that user and FaceApp;
+
+Use our Services in any manner that could interfere with, disrupt, negatively affect or inhibit other users from fully enjoying our Services or that could damage, disable, overburden or impair the functioning of our Services in any manner;
+
+Reverse engineer any aspect of our Services or do anything that might discover source code or bypass or circumvent measures employed to prevent or limit access to any part of our Services;
+
+Attempt to circumvent any content-filtering techniques we employ or attempt to access any feature or area of our Services that you are not authorized to access;
+
+Develop or use any third-party applications that interact with our Services without our prior written consent, including any scripts designed to scrape or extract data from our Services;
+
+Use our Services for any illegal or unauthorized purpose, or engage in, encourage or promote any activity that violates this Agreement.
+```
+
+## T050
+**Case:** Your content can be distributed through any media known now or in the future
+
+**Passage:**
+
+```
+violate the personal or proprietary right, of any person or entity.
+
+3.
+
+Grant of License to Us for Contributions
+
+We do not claim any ownership right in the Contributions that you post
+
+on or through this Site.
+
+After posting your Contributions on this Site,
+
+you continue to retain any rights you may have in your Contributions,
+
+including any intellectual property rights or other proprietary rights
+
+associated with your Contributions, subject to the license you grant to
+
+us below.
+
+By making a Contribution to this Site, you grant us a perpetual,
+
+non-exclusive (meaning you are free to license your Contribution to
+
+anyone else in addition to us), fully-paid, royalty-free (meaning that
+
+neither we nor anyone who directly or indirectly receives the
+
+Contribution from us are required to pay you to use your Contribution),
+
+sublicensable (so that we can distribute the Contributions to third
+
+parties, regardless of whether through this Site, through our other
+
+products, or through other sites or products offered by our affiliates))
+
+and worldwide (because the Internet and this Site are global in reach)
+
+license to use, modify, create derivative works of, publicly perform,
+
+publicly display, reproduce and distribute the Contribution in
+
+connection with this Site and other websites and businesses, or the
+
+promotion thereof in any media formats and through any media channels
+
+now known or hereafter devised.
+
+If you provides us with any feedback (e.g.
+
+suggested improvements,
+```
+
+## T051
+**Case:** The court of law governing the terms is in a jurisdiction that is friendlier to user privacy protection
+
+**Passage:**
+
+```
+All disputes must be brought in the party's individual capacity and not as a member in any class or representative proceeding. You agree that, by entering into these Terms, you are waiving the right to a trial by jury or to participate in a class action.
+
+Nothing in these Terms shall affect any non-waivable statutory rights that apply to you. To the extent that any dispute isn’t arbitrable under applicable laws or otherwise, you agree that the dispute will be resolved exclusively in accordance with Section 12 of these Terms.
+
+**Batched arbitration**: To provide a more efficient arbitration process, you and we each agree that if 25 or more similar arbitration demands are filed within a 60-day period or with the assistance of the same law firm or group of law firms, AAA will consolidate the arbitration demands. For each batch, AAA will administer one set of filing and administrative fees per side, per batch, and AAA will appoint one arbitrator to resolve each batch as a single consolidated arbitration. Arbitration demands are similar if they arise from similar facts and raise similar legal issues while seeking similar relief. Any dispute about similarity will be submitted to a single arbitrator, whose fees will be paid by us.
+
+More simply put
+
+You agree to notify us of any dispute and try to resolve it amicably. If that doesn’t work, the dispute will be efficiently decided through arbitration, not in court.
+
+12\. Governing law and jurisdiction
+```
+
+## T052
+**Case:** Your IP address is collected, which can be used to view your approximate location
+
+**Passage:**
+
+```
+* When you provide other information to X, including an email address or phone number, we associate that information with your X account. Subject to your settings, we may also use this information in order to infer other information about you and/or your identity, for example by associating your account with hashes of email addresses that share common components with the email address you have provided to X.
+
+* When you access X and are not signed in, we may infer your identity based on the information we collect.
+
+**Log information.** We may receive information when you view content on or otherwise interact with our products and services, even if you have not created an account or are signed out, such as:
+
+* IP address and related information; browser type and language; operating system; the referring webpage; access times; pages visited; location; your mobile carrier; device information (including device and application IDs); search terms and IDs (including those not submitted as queries); ads shown to you on X; X-generated identiﬁers; and identiﬁers associated with cookies. We also receive log information when you click on, view, or interact with links on our services, including when you install another application through X.
+
+**Advertisements.** When you view or interact with ads we serve on or oﬀ X, we may collect information about those views or interactions (e.g., watching a video ad or preroll, clicking on an ad, interacting with reposts of or replies to an ad).
+```
+
+## T053
+**Case:** Referring and/or exit pages are tracked
+
+**Passage:**
+
+```
+Access to the collected personal data is restricted only to Bitdefender employees and data processors that need access to this information.
+
+All Bitdefender information security policies are ISO 27001 certified.
+
+Bitdefender may use other IT companies to process the collected personal data.
+
+These companies are considered data processors and have strict contractual obligations to keep the confidentiality of the processed data and to offer at least the same level of security as Bitdefender.
+
+Data processors have the obligation not to allow third parties to process personal data on behalf of Bitdefender and to access, use and/or keep the data secure and confidential.
+
+Bitdefender may host personal data in Romania, Ireland, as well as in European Union or any other jurisdiction which offers adequate level of personal data protection according to European Union standards, including companies that are certified under the US-EU Privacy Shield program.
+
+Due to confidentiality obligations and security requirements the specific information regarding the name and details for each processor used will be provided only to competent authorities.
+
+The following types of data processor are being used:
+
+hosting services in Romania, Ireland and US;
+
+support channel communications in Romania, Ireland, Poland and US;
+
+marketing services (including email marketing) in Romania and US.
+
+All our data processors in US are certified in the US-EU Privacy Shield program.
+```
+
+## T054
+**Case:** This service receives your precise location through GPS coordinates
+
+**Passage:**
+
+```
+For example, Fiona’s friend likes an Instagram account for a local art fair. Based on her friend’s activity, we might show Fiona an ad for the art fair.
+
+Other device signals we receive
+
+-------------------------------
+
+We receive different types of device signals from different operating systems. They include things like nearby Bluetooth or Wi-Fi connections.
+
+IP address
+
+----------
+
+Stands for "internet protocol address." It’s a unique number assigned to a device, like a phone or computer, that allows it to communicate over the internet. Numbers are assigned according to standard guidelines, or protocols.
+
+Just like you need a mailing address to receive a letter from a friend, your device needs an IP address to receive information on the internet.
+
+Personalizing ads for you and others
+
+------------------------------------
+
+For example, Marcus is going on a trip and wants to use Find Wi-Fi to find free, public Wi-Fi at the airport. He has turned on Location Services on his device and allowed location access on the Facebook app, so we can use his GPS information to help him find the most relevant public Wi-Fi networks. We’ll also use this information to show him ads for local businesses near the airport.
+
+Later, Marcus turns off Location Services before he lands, so we don’t collect his GPS information anymore. Later on his trip, he opens the Facebook app, and we can use the IP address we receive to estimate Marcus’ general location and show him ads for businesses nearby.
+```
+
+## T055
+**Case:** Pseudonyms are allowed
+
+**Passage:**
+
+```
+menu Log in
+
+or
+
+Sign up The Session Privacy Policy My name is Jeremy.
+
+I run The Session.
+
+If you need any help, let me know. Information about you
+
+When you sign up to The Session, you provide some information about yourself.
+
+This information will never, ever be shared, sold or given away to anyone.
+
+Your email address
+
+You need to provide a valid email address when you sign up for The Session.
+
+This is for a few reasons:
+
+You can have a password-reset email sent to you if you ever have a problem logging in (for example, if you can’t remember your password).
+
+You can choose to receive a weekly newsletter from The Session detailing what’s been submitted in the last seven days.
+
+You can update your email address at any time from your member profile.
+
+Your username
+
+When you sign up to The Session, you provide a name that you will be known by on the site.
+
+I encourage you to use your real name, but you don’t have to.
+
+You can update your username at any time from your member profile.
+
+Your password
+
+When you sign up to The Session, you choose a password for logging into the site.
+
+This password is not stored in plaintext—it is encrypted.
+
+So even in the case of a security breach, nobody can gain access to your password.
+
+Because your password is encrypted, if you forget what it is, I can’t provide it to you.
+
+That’s why it’s important that you provide a valid email address when you sign up.
+
+You can update your password at any time from your member profile.
+
+Your location
+```
+
+## T056
+**Case:** You have the right to leave this service at any time
+
+**Passage:**
+
+```
+In certain cases, in our sole discretion, we may provide you with a written notice (a "Restriction Notice") to inform you that: (i) your right to use or access any part of the Service has been terminated, including the right to use, access or create any account thereon.
+
+and (ii) we refuse to provide any Service to you.
+
+Other conditions may apply and shall be set forth in the Restriction Notice.
+
+For You to Terminate. You may terminate these Terms by ceasing all use of the Service and deleting all Licensed Elements from your Device.
+
+Effect of Termination or Suspension. Following termination (by us or by you) or suspension, you will not be permitted to use the Service.
+
+Any suspension or termination will not affect your obligations to GETTR under these Terms or any applicable Additional Terms.
+
+Upon suspension or termination of your access to the Service, or upon notice from GETTR, all rights granted to you under these Terms or any applicable Additional Terms will cease immediately, and you agree that you will immediately discontinue use of the Service.
+
+The provisions of these Terms and any applicable Additional Terms, which by their nature should survive your suspension or termination will survive, including the rights and licenses you grant to GETTR in these Terms, as well as the indemnities, releases, disclaimers, and limitations on liability and the provisions regarding jurisdiction, choice of law, no class action, and mandatory arbitration.
+
+Disclaimers.
+```
+
+## T057
+**Case:** Political discussions or campaining are prohibited
+
+**Passage:**
+
+```
+Content that infringes another’s intellectual property, including,
+
+but not limited to, copyrights, or trademarks
+
+Any inappropriate, profane, pornographic, obscene, indecent, or
+
+unlawful content
+
+Advertising or any form of commercial solicitation
+
+Political content or content related to partisan political
+
+activities
+
+Content that contains intentional inaccurate information with the
+
+intent of misleading others.
+
+Prohibited Activities
+
+Viruses, trojan horses, worms, time bombs, corrupted files,
+
+malware, spyware, or any other similar software that may damage the
+
+operation of another’s computer or property
+
+Using the Site in any manner intended to damage, disable,
+
+overburden, or impair any MIT server, or the network(s) connected to
+
+any MIT server, or interfere with any other party’s use and enjoyment
+
+of the Site.
+
+Attempting to gain unauthorized access to the Site, other accounts,
+
+computer systems or networks connected to any MIT server through
+
+hacking, password mining or any other means.
+
+Obtaining or attempting to obtain any materials or information
+
+stored on the Site, its servers, or associated computers through any
+
+means not intentionally made available through the Site.
+
+Use of MIT Names and Trademarks “MIT App Inventor”, “MIT”, “Massachusetts Institute of Technology”,
+
+and its logos and seal are trademarks of the Massachusetts Institute
+
+of Technology.
+
+You may not use MIT’s names or logos, or any variations
+
+thereof, without prior written consent of MIT.
+```
+
+## T058
+**Case:** The posting of pornographic content is prohibited
+
+**Passage:**
+
+```
+* Non-consensual creation and/or distribution of intimate images including intimate image abuse (referred to as “NCII” or “IBSA”), upskirting, down-blousing and hidden camera images, or the threat to do so (referred to as “sextortion”). We’ve put together and if you come across NCII, .
+
+### Prohibited and regulated goods, services and activities
+
+Pinterest isn’t a place for offering, manufacturing or promoting substances, products, activities or exploitative practices that risk harm to humans or animals. We remove or limit the distribution of such content and accounts, including those involving instructions, offers, glorification or promotion of:
+
+* Unauthorised sellers of regulated substances or products including alcohol, supplements, steroids or prescription-only drugs. This includes individuals and unverified, unapproved or rogue online pharmacies.
+
+* Unauthorised manufacturing, modification, access or use of regulated substances, products and their components including 3D-printed weapons, chemical precursors, pill presses, punches and dies.
+
+* Marijuana, marijuana products and paraphernalia.
+
+* Illicit or synthetic drugs.
+
+* Tobacco, nicotine or similar products and paraphernalia.
+
+* Promotion of excessive drug or alcohol use.
+
+* Firearms, attachments, components, ammunition and other regulated weapons.
+
+* Explosives, chemical or biological weapons
+
+**Harmful or deceptive products and practices**
+```
+
+## T059
+**Case:** Information is gathered about you through third parties
+
+**Passage:**
+
+```
+● For legal compliance. We internally use your information as required by applicable law, legal process, or regulation. To learn about our practices regarding sharing your information with third parties for legal compliance purposes, see Section 3.1 below. We also use your information to enforce our legal rights and resolve disputes.
+
+Information we receive from third party sites.
+
+When you interact with our site through various social media platforms, such as when you login through Google, or another third party service, or share Rapid VPN content on Facebook, Twitter or other sites, we may receive information from the social network including:
+
+​
+
+● Your profile information
+
+● Profile picture
+
+● Gender
+
+● User name
+
+● User ID associated with your social media account
+
+● Age range
+
+● Language
+
+● Country
+
+● Friends list
+
+● and any other information you permit the social network to share with third parties.
+
+The data we receive is dependent upon your privacy settings with the social network, and we will not post information about you on third party social media sites without your consent. You should always review, and if necessary, adjust your privacy settings on third-party websites and services before linking or connecting them to our website or Service.
+```
+
+## T060
+**Case:** This service receives your precise location through GPS coordinates
+
+**Passage:**
+
+```
+To make the restaurant suggestion even more relevant, Meta AI also uses additional information including that Anna recently told Meta AI she loves Italian food, and that she has lately been liking Instagram posts featuring modern fine dining. By using her interests, location and profile, Meta AI is able to respond to Anna with a relevant suggestion of a highly-rated, upscale Italian bistro nearby.
+
+How we use location-related information
+
+---------------------------------------
+
+We use location-related information that you allow us to receive if you turn on the Location Services device setting. This includes things like your GPS location and, depending on the operating system you're using, other [device signals\[31\]].
+
+We also receive and use some location-related information even if Location Services is turned off. This includes:
+
+* [IP addresses\[32\]], which we use to estimate your general location. We can use IP addresses to estimate your specific location if it’s necessary to protect the safety and security of you or others.
+
+* Your and others' activity on our Products, like check-ins and events
+
+* Information you give us directly, like if you enter your current city on your profile, or provide your address in Marketplace
+
+We use location-related information, such as your current location, where you live, the places you like to go and the businesses and people you're near, to do the things described in the [”How do we use your information?”] section of the Policy, like:
+```
+
+## T061
+**Case:** Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision
+
+**Passage:**
+
+```
+If for any reason any provision of these Terms is held invalid or unenforceable in whole or in part in any applicable jurisdiction, such provision shall, as to such jurisdiction, be ineffective to the extent of such invalidity or unenforceability without in any manner affecting the validity or enforceability thereof in any other jurisdiction or the remaining provisions hereof in that or any other jurisdiction.
+
+Our Affiliates, Suppliers and Licensors. Our affiliates, suppliers, licensors and other GETTR Parties are intended third-party beneficiaries of these Terms.
+
+No Waiver. Our failure or delay to exercise or enforce any right, remedy or provision of these Terms or by law will not operate as a waiver of such or any other right, remedy or provision.
+
+Notices. Where we need to send you notices under these Terms or in connection with your use of the Service, you hereby consent to receive electronic notices from us, whether addressed to the email address associated with your account or another email address that you provide to us.
+
+To the maximum extent permitted by applicable law, you acknowledge and agree that any communication via email or by postings on the Service satisfies any legal requirement that such communications be made in writing.
+
+All legal notices to us must be sent to: 750 Lexington Ave New York, NY 10022.
+```
+
+## T062
+**Case:** You have the right to leave this service at any time
+
+**Passage:**
+
+```
+Such UGC submitted by you or others need not be maintained on the Service by us for any period of time, and you will not have the right, once submitted, to access, archive, maintain, change, remove, or otherwise use such UGC on the Service or elsewhere, except that certain users may have certain additional rights as provided for in the Privacy Policy.
+
+Each time you submit any UGC, you represent and warrant that you are at least the age of majority in the jurisdiction in which you reside, or are the parent or legal guardian, or have all proper consents from the parent or legal guardian, of any minor who is depicted in or contributed to any UGC you submit, and that, as to that UGC: (A) you are the sole author and owner of the Intellectual Property and other rights to the UGC, or you have a lawful right to submit the UGC and grant GETTR the rights to it that you are granting by these Terms and any applicable Additional Terms, all without any GETTR obligation to obtain consent of any third-party and without creating any obligation or liability of GETTR.
+
+(B) the UGC is accurate.
+
+(C) the UGC does not and, as to GETTR’s permitted uses and exploitation set forth in these Terms, will not infringe any Intellectual Property or other right of any third-party.
+
+and (D) the UGC will not violate these Terms or any applicable Additional Terms, or cause injury or harm to any person.
+```
+
+## T063
+**Case:** Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder
+
+**Passage:**
+
+```
+If you withdraw from this contract, we shall reimburse to you all payments received from you, including the costs of delivery (with the exception of the supplementary costs resulting from your choice of a type of delivery other than the least expensive type of standard delivery offered by us), without undue delay and in any event not later than 14 days from the day on which we are informed about your decision to withdraw from this contract. We will carry out such reimbursement using the same means of payment as you used for the initial transaction, unless you have expressly agreed otherwise; in any event, you will not incur any fees as a result of such reimbursement.
+
+Model withdrawal form
+
+(complete and return this form only if you wish to withdraw from the contract)
+
+— To \_\_Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland, \[account-withdrawal@google.com\]\_\_:
+
+— I hereby give notice that I withdraw from my contract of sale for the provision of the following service, \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+— Ordered on, \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+— Name of consumer, \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+— Address of consumer, \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+— Signature of consumer (only if this form is notified on paper), \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+— Date \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Contact Google to withdraw from these terms**
+```
+
+## T064
+**Case:** You maintain ownership of your content
+
+**Passage:**
+
+```
+(ii) that you have not previously been suspended or removed from the Websites and Online Services and (iii) that your use of the Websites and Online Services is in compliance with any and all applicable laws and regulations.
+
+LICENSE GRANT TO CLOUDFLARE
+
+By submitting, posting, or publishing your content, suggestions, enhancement requests, recommendations, feedback, information, data, or comments (“Content”) to any Website or Online Service, you are granting Cloudflare a perpetual, irrevocable, worldwide, non-exclusive, royalty-free right and license (with the right to sublicense) to use, incorporate, exploit, display, perform, reproduce, distribute, and prepare derivative works of your Content.
+
+You will retain ownership of your Content, however, any use of your Content by Cloudflare may be without any compensation paid to you.
+
+By submitting, posting, and publishing your Content, you represent and warrant that your Content, does not: (i) infringe, violate, or misappropriate any third-party right, including any copyright, trademark, patent, trade secret, moral right, privacy right, right of publicity, or any other intellectual property or proprietary right.
+
+or (ii) slander, defame, or libel any third-party.
+
+INFRINGEMENT AND ABUSE
+```
+
+## T065
+**Case:** Other rules, terms, conditions and/or guidelines may apply
+
+**Passage:**
+
+```
+Access to the Services is provided to you only to allow you to exercise your rights under this Agreement.
+
+15.1 Grant of Licence
+
+Subject to your acceptance of, and compliance with, this Agreement and any payment requirements for the Services (if applicable), Element hereby grants you a limited, non-exclusive, non-transferable, revocable, non-sublicensable licence, in and under our intellectual property rights, to access and use the Services, solely in accordance with the terms and conditions of this Agreement.
+
+Unless explicitly stated otherwise, any new features provided by us that augment or enhance one of the current Service shall also constitute "Service" and shall be subject to these terms and conditions.
+
+All rights not expressly granted under this Agreement are retained by Element.
+
+You may also be subject to additional terms and conditions that may apply when you use other Element services, third party content or third party software.
+
+If for any reason a court of competent jurisdiction finds any provision of the Terms of Use, or portion thereof, to be unenforceable, that provision shall be enforced to the maximum extent permissible so as to effect the intent of the parties as reflected by that provision, and the remainder of the Terms of Use shall continue in full force and effect.
+
+Any failure by Element to enforce or exercise any provision of the Terms of Use or related right shall not constitute a waiver of that right or provision.
+```
+
+## T066
+**Case:** You are responsible for any risks, damages, or losses that may incur by downloading materials
+
+**Passage:**
+
+```
+You are solely responsible for your User Content and the consequences of posting or publishing it. You represent and warrant that: (1) you are the creator or own or control all rights in and to the User Content or otherwise have sufficient rights and authority to grant the rights granted herein; (2) your User Content does not and will not: (a) infringe, violate, or misappropriate any third-party right, including any copyright, trademark, patent, trade secret, moral right, privacy right, right of publicity, or any other intellectual property or proprietary right, or (b) defame any other person; (3) your User Content does not contain any viruses, adware, spyware, worms, or other harmful or malicious code; and (4) unless you have received prior written authorization, your User Content specifically does not contain any pre-release or non-public beta software or game content or any confidential information of Twitch or third parties. Twitch reserves all rights and remedies against any users who breach these representations and warranties.
+
+#### **c. Content is Uploaded at Your Own Risk**
+```
+
+## T067
+**Case:** Your content can be deleted if you violate the terms
+
+**Passage:**
+
+```
+* **Unless you are a recipient of the X Service in the European Union, EFTA States, or the United Kingdom, any disputes between you and us will be resolved by a court in Texas, based on Texas law** except that if the forum selection clause in these Terms is unenforceable for any reason, then the dispute will be arbitrated.
+
+* **To the extent permitted by applicable law, you agree to waive any right to bring a class action or other representative action.
+
+**
+
+* **We have broad enforcement rights.** X reserves the right to take enforcement actions against you if you do violate these terms, such as, for example, removing your Content, limiting visibility, discontinuing your access to X, or taking legal action. Certain jurisdictions, including the European Union and the United Kingdom, also impose obligations on X to enforce against not only illegal content but also categories of content deemed by law to be “harmful” or “unsafe.” As a result, your Content or account may be subject to restrictions in those jurisdictions. We may also suspend or terminate your account for other reasons, such as prolonged inactivity, risk of legal exposure, or commercial inviability.
+```
+
+## T068
+**Case:** You agree not to use the service for illegal purposes
+
+**Passage:**
+
+```
+You may not use, access, download or otherwise make available the Service (including related software), except as authorised by applicable trade restrictions, including but not limited to US, EU and UK sanctions and export controls. You agree not to use the Service for any purpose prohibited by applicable trade restrictions.
+
+Any use of Pinterest not expressly permitted by these Terms is a breach of these Terms and may violate copyright, trademark and other laws.
+
+### b. Our licence to you
+
+Subject to your compliance with these Terms and our policies, we hereby grant you a limited, non-exclusive, non-transferable, non-sublicensable and revocable licence to access and use the Service as contemplated under these Terms and our policies.
+
+You may not permit Pinterest to be used by or for the benefit of unauthorised third parties. Nothing in these Terms will be construed as granting you any right to transfer or assign rights to access or use Pinterest. All rights not expressly granted to you are reserved by us and our licensors. Except as described in Section 3(b), you may not: (i) modify or make derivative works based upon the Service; (ii) reverse engineer the Service; (iii) copy any features or functions of the Service.
+
+### c. Commercial use of Pinterest
+```
+
+## T069
+**Case:** Third-party cookies are used for statistics
+
+**Passage:**
+
+```
+They may not be visible as the beacon is generally a 1x1 pixel that is often designed to blend into the background of a Web page.
+
+We use beacons, often in conjunction with cookies, to monitor the effectiveness of ad banners.
+
+and to gather general log, statistical, and referral information.
+
+We do not use beacons to store or link to personal information.
+
+We thus use beacons to understand certain actions that you took (such as a purchase), but not to know who you are. Third Party Web Analysis Tools The Postal Service does not allow Web analysis tools to be used by third parties, except for service providers who help us in performing site analysis or providing a particular product, service, or advertisement.
+
+Service providers may use session cookies, just like the USPS does, solely to improve the use of the site.
+
+Service providers may only use persistent cookies and beacons if specifically approved by the USPS, which uses must comply fully with this policy. Data Derived from Web Analysis Tools We are careful to safeguard any data derived from cookies and beacons.
+
+No data derived from session cookies, or from the log-off persistent cookie, are retained.
+
+Data derived from other persistent cookies and beacons are retained behind the USPS firewall or a secure firewall of our service provider. Opting Out of Web Analysis Tools If you still have concerns about cookies, you may choose to opt out of their use.
+```
+
+## T070
+**Case:** Referring and/or exit pages are tracked
+
+**Passage:**
+
+```
+The legal basis for processing these data is consent of the data subject in receiving that respective information or subscribing to our newsletter.
+
+The duration of processing is until the respecting information and request is being sent, plus a period of 30 days to be sure that there are no more follow-ups needed.
+
+As regards your subscription to our newsletter or commercial communications, we will keep our communication going, until you withdraw your consent or you don’t engage with our email in the past 5 years.
+
+We may also send you follow-up messages if you have completed your data in order to buy our products or services, but you haven’t finalized the entire acquisition process.
+
+The legal basis of this data processing is art 6 (1) b of GDPR - taking steps at the request of the data subject prior to entering into a contract.
+
+This data is kept for a maximum period of 30 days, unless you complete the acquisition process when data might be kept longer for purposes of performing the contract that you are a part of.
+
+2.2.
+
+Traffic data – when a user visits a website, it automatically reveals certain information, such as the IP address, date and time of the visit or the referral website that sent you to Bitdefender websites.
+
+Bitdefender, like any other website manager, may record this kind of information for a limited period of time.
+
+We also use other external services of traffic analysis, such as Google Analytics, Adobe Analytics.
+```
+
+## T071
+**Case:** You cannot distribute or disclose your account to third parties
+
+**Passage:**
+
+```
+If you choose to use the Services to conduct a promotion, including a contest or sweepstakes (“**Promotion**”), you alone are responsible for conducting the Promotion in compliance with all applicable laws and regulations, including creating official rules, offer terms, eligibility requirements, and compliance with applicable laws, rules, and regulations which govern the Promotion (such as licenses, registrations, bonds, and regulatory approval). Your Promotion must state that the Promotion is not sponsored by, endorsed by, or associated with Reddit, and the rules for your Promotion must require each entrant or participant to release Reddit from any liability related to the Promotion. You acknowledge and agree that we will not assist you in any way with your Promotion, and you agree to conduct your Promotion at your own risk.
+
+##### **7\. Things You Cannot Do**
+
+When using or accessing the Services, you must comply with these Terms and all applicable laws, rules, and regulations. Please review the [Reddit Rules], which are incorporated by this reference into, and made a part of, these Terms and contain our rules about prohibited content and conduct. In addition to what is prohibited in the [Reddit Rules], you may not do any of the following:
+
+* Use the Services in any manner (automated, including via bots, or otherwise) that could interfere with, disable, disrupt, overburden, or otherwise impair the Services;
+```
+
+## T072
+**Case:** Your IP address is collected, which can be used to view your approximate location
+
+**Passage:**
+
+```
+* Information about your connection, such as your IP address, browser type, and related information.
+
+* Information about your device and its settings, such as device and advertising ID, operating system, carrier, language, memory, apps installed, and battery level.
+
+* Your device address book, if you’ve chosen to share it with us.
+
+**Location information.** When you use X, we collect some information about your approximate location to provide the service you expect, including showing you relevant ads. You can also choose to share your current precise location or places where you’ve previously used X by enabling these settings in your account.
+
+**Inferred identity.** We may collect or receive information that we use to infer your identity as detailed below:
+
+* When you sign into X on a browser or device, we will associate that browser or device with your account. Subject to your settings, we may also associate your account with browsers or devices other than those you use to sign into X (or associate your signed-out device or browser with other browsers or devices or X-generated identiﬁers).
+```
+
+## T073
+**Case:** You are responsible for any risks, damages, or losses that may incur by downloading materials
+
+**Passage:**
+
+```
+SUCH LIABILITY, TWITCH SHALL LIMIT ITS LIABILITY TO THE FULL EXTENT ALLOWED BY APPLICABLE LAW.
+
+To the extent required by applicable law, nothing in these Terms shall restrict our liability for death or personal injuries caused by Twitch; for damages caused by Twitch’s fraud, willful misconduct, or gross negligence; and for other losses that may not be excluded or limited by applicable law.
+
+ii. Reference Sites
+
+THESE LIMITATIONS OF LIABILITY ALSO APPLY WITH RESPECT TO DAMAGES INCURRED BY YOU BY REASON OF ANY PRODUCTS OR SERVICES SOLD OR PROVIDED ON ANY REFERENCE SITES OR OTHERWISE BY THIRD PARTIES OTHER THAN TWITCH AND RECEIVED THROUGH OR ADVERTISED ON THE TWITCH SERVICES OR RECEIVED THROUGH ANY REFERENCE SITES.
+
+iii. Basis of the Bargain
+
+YOU ACKNOWLEDGE AND AGREE THAT TWITCH HAS OFFERED THE TWITCH SERVICES, USER CONTENT, MATERIALS, AND OTHER CONTENT AND INFORMATION, SET ITS PRICES, AND ENTERED INTO THESE TERMS OF SERVICE IN RELIANCE UPON THE WARRANTY DISCLAIMERS AND LIMITATIONS OF LIABILITY SET FORTH HEREIN, THAT THE WARRANTY DISCLAIMERS AND LIMITATIONS OF LIABILITY SET FORTH HEREIN REFLECT A REASONABLE AND FAIR ALLOCATION OF RISK BETWEEN YOU AND TWITCH, AND THAT THE WARRANTY DISCLAIMERS AND LIMITATIONS OF LIABILITY SET FORTH HEREIN FORM AN ESSENTIAL BASIS OF THE BARGAIN BETWEEN YOU AND TWITCH. TWITCH WOULD NOT BE ABLE TO PROVIDE THE TWITCH SERVICES TO YOU ON AN ECONOMICALLY REASONABLE BASIS WITHOUT THESE LIMITATIONS.
+
+#### d. Informal Resolution
+```
+
+## T074
+**Case:** First-party cookies are used
+
+**Passage:**
+
+```
+This information is necessary for the adequate performance of the contract between you and us, to enable us to comply with legal obligations and given our legitimate interest in being able to provide and improve the functionalities and security of the Hostinger Platform.
+
+Automatic collection of data
+
+Log data and device information. We automatically collect log data and device information when you access and use the Hostinger Platform, even if you have not created an Hostinger Account or logged in. That information includes, among other things: Internet protocol (IP) addresses, browser information, including its type, Internet service provider (ISP), referring/exit pages, device properties, including its operating system, date/time stamp and/or clickstream data.
+
+Tracking technologies and cookies . We use cookies, beacons, tags, scripts and other similar technologies, such as CI codes (click tracking), ISC (source tracking), and ITC (item tracking codes). We also automatically collect information about device's operating system, phone model, device ID and customer number. For more detail information on the use of these technologies, see our Cookies Policy .
+```
+
+## T075
+**Case:** This service gives your personal data to third parties involved in its operation
+
+**Passage:**
+
+```
+for providing our services on the Service, to contact you in matters regarding our services (also by means of e-mails and messaging) and to ensure the technical functionality of our services fulfillment of contractual or pre-contractual obligations (Article 6 (1) b.
+
+GDPR)
+
+to analyze your use of our services and improve our services (Article 6 (1) b.
+
+and f.
+
+GDPR)
+
+with your express consent or instruction to carry out our business activities or send you newsletters (Article 6 (1) a.
+
+GDPR)
+
+Access to the Personal Data The Controller has made all reasonable technical means to protect the Personal Data.
+
+Only authorized persons can access the Personal Data.
+
+Third parties which can gain access to the Personal Data when necessary are:
+
+Persons which are contracted for technical assurance of the service.
+
+Payment processors.
+
+All Personal Data is stored in the European Union. The Personal Data retention The Personal Data is stored in the Service until the User deletes their account on the service.
+
+Access log information might be collected for a longer period for the purpose of establishing, exercising or defending legal claims. Your rights The User provides use of Personal Data voluntarily.
+
+Without this Personal Data Weblate is not able to provide our services.
+
+We want you to always be in control of your Personal Data.
+
+To this end, you have certain rights that allow for it.
+
+Under certain conditions, you may:
+```
+
+## T076
+**Case:** Your biometric data is collected
+
+**Passage:**
+
+```
+* We process your data for our legitimate interests and those of [third parties] while applying [appropriate safeguards] that protect your privacy.
+
+* We process your data when necessary to protect the vital interests of you or another person.
+
+* We process your data when we have a legal obligation to do so.
+
+* We ask for your consent to process your data for specific purposes and you have the right to withdraw your consent at any time.
+
+How you use Google services and your privacy settings will determine what data is processed, the purposes for which this data is processed, and the legal bases for processing data. The table below explains these processing purposes, the kinds of data processed, and the legal grounds for processing this data, in more detail.
+
+| Why and how we process data | What data is processed | Legal grounds |
+
+| --- | --- | --- |
+```
+
+## T077
+**Case:** You are prohibited from posting content which promotes violence or politically or religiously extremist values
+
+**Passage:**
+
+```
+* False or misleading content about individuals or protected groups that promotes fear, hate or prejudice
+
+* Content that originates from disinformation campaigns, including about climate change or civic participation
+
+* Factual information that's published or deliberately modified to erode trust or inflict harm, such as changing or omitting of context, date or time
+
+* Fabricated or meaningfully manipulated visual or audio content that erodes trust or causes harm
+
+**Health misinformation**
+
+Medically unsupported health claims that risk public health and safety, including:
+
+* The promotion of false cures or "miracle cure" products
+
+* Anti-vaccination advice
+
+* Misinformation about public health emergencies
+
+**Conspiracy theories**
+
+* Conspiracy theory content that encourages turning individuals, groups of people, places or organisations into targets of harassment or physical violence
+
+* Hate-based conspiracy theories
+
+* Conspiracy theories about mass atrocities
+
+* Conspiracy theories about climate change or that impedes an election's integrity or civic participation
+
+**Civic misinformation**
+
+This policy is always applicable, meaning before, during and after major civic participation event (e.g. elections).
+
+* False or misleading content that impedes an election’s integrity or an individual's or group's civic participation, including registering to vote, voting and being counted in a census.
+```
+
+## T078
+**Case:** If you offer suggestions to the service, they may use that without your approval or compensation, but they do not become the owner
+
+**Passage:**
+
+```
+You agree that any notices, agreements, disclosures or other communications that we send to you electronically will satisfy any legal communication requirements, including, but not limited to, that such communications be in writing. 17.
+
+Termination We reserve the right, without notice and in our sole discretion, to terminate your right to access or use our Services.
+
+We are not responsible for any loss or harm related to your inability to access or use our Services. 18.
+
+Severability If any provision or part of a provision of this Agreement is unlawful, void or unenforceable, that provision or part of the provision is deemed severable from this Agreement and does not affect the validity and enforceability of any remaining provisions. 19.
+
+Additional Terms Applicable to iOS Devices The following terms apply if you install, access or use the Services on any device that contains the iOS mobile operating system (the “App”) developed by Apple Inc.
+
+(“Apple”).
+
+Acknowledgement.
+
+You acknowledge that this Agreement is concluded solely between us, and not with Apple, and FaceApp, not Apple, is solely responsible for the App and the content thereof.
+
+You further acknowledge that the usage rules for the App are subject to any additional restrictions set forth in the Usage Rules for the Apple App Store Terms of Service as of the date you download the App, and in the event of any conflict, the Usage Rules in the App Store shall govern if they are more restrictive.
+```
+
+## T079
+**Case:** Archives of their agreements are provided so that changes can be viewed over time
+
+**Passage:**
+
+```
+For any questions about this Privacy Policy or our data practices, please contact:
+
+Data Protection Contact Email: [email protected] FULU Foundation FULU Foundation, Austin, Texas 78705
+
+14. Complaint Rights
+
+If you are unsatisfied with our response to your data protection query, you have the right to lodge a complaint with your local data protection authority. For EU residents, you can find your local authority at: https://edpb.europa.eu/about-edpb/board/members_en
+
+---
+
+By using the Consumer Rights Wiki, you acknowledge that you have read and understood this Privacy Policy.
+
+Retrieved from " https://consumerrights.wiki/index.php?title=Consumer_Rights_Wiki:Privacy_policy&oldid=39593 "
+```
+
+## T080
+**Case:** This service does not guarantee that it or the products obtained through it meet your expectations or requirements
+
+**Passage:**
+
+```
+We reserve the right to remove content which we, in our sole discretion, determine violates these Terms of Use, but are under no obligation to do so. If you are offended by any content on the Sites, you should stop using the Sites.
+
+Additional Disclaimers
+
+The Sites and any information, products or services therein are provided “as is” without warranty of any kind, either express or implied, including without limitation, the implied warranties of merchantability, fitness for use of a particular purpose, or noninfringement.
+
+We do not warrant that the Sites will operate in an uninterrupted or error-free manner or that the Sites are free of viruses or other harmful components. Use of information obtained from or through the Sites is at your own risk.
+
+We are not liable for any loss or damages including, but not limited to, claims for defamation, errors, loss of data, or interruption in availability of data arising out of the use or inability to use the Sites or any links; to your placement of content on the Sites; or to your reliance upon information obtained from or through the Sites or through links contained on the Sites.
+
+Licenses
+
+In consideration for your agreement to these Terms of Use, we grant you a personal, non-exclusive, non-transferable, revocable license to access and use the Sites.
+```
+
+## T081
+**Case:** You have the right to leave this service at any time
+
+**Passage:**
+
+```
+Any person accessing this site agrees to the following:
+
+Material on this site is the copyrighted property of the United States Postal Service® (Postal Service™).
+
+All rights reserved.
+
+The information and images presented here may not under any circumstances be reproduced or used without prior written permission.
+
+Users may view and download material from this site only for the following purposes: (a) for personal, non-commercial home use.
+
+(b) where the materials clearly state that these materials may be copied and reproduced according to the terms stated in those particular pages.
+
+or (c) with the express written permission of the Postal Service.
+
+In all other cases, you will need written permission from the Postal Service to reproduce, republish, upload, post, transmit, distribute or publicly display material from this Web site.
+
+Users agree not to use the site for sale, trade or other commercial purposes.
+
+Users may not use language that is threatening, abusive, vulgar, discourteous or criminal.
+
+Users also may not post or transmit information or materials that would violate rights of any third party or which contains a virus or other harmful component.
+
+The Postal Service reserves the right to remove or edit any messages or material submitted by users.
+
+The Postal Service is not responsible for material submitted to the Postal Service or posted in chatrooms or on bulletin boards by site users.
+```
+
+## T082
+**Case:** First-party cookies are used
+
+**Passage:**
+
+```
+All access to the database is logged and is reviewed frequently. If an intrusion is found, all affected users will be notified appropriately and quickly. Information not publicly displayed is not accessible to anyone, even through the API, except to the associated user and us. Your password is never stored in plain text.
+
+As soon as it is sent to the server, it is quickly hashed and removed from memory before any other process begins handling the information.
+
+Cookies We may use cookies on the website and other official STiBaRC software.
+
+A cookie is a piece of data stored on your device that allows the website to identify a repeat visitor to the site and improve your access.
+
+Use of cookies is not linked to personally identifiable information. Cookies may also be used by third parties (see "Tracking").
+
+We do not have access to these cookies.
+
+Links Official STiBaRC software and user-created content submitted to the service may contain links to third-party websites.
+
+We are not responsible for the content or privacy practices of third-party websites.
+
+Content Removal (Notice for Minors) You can submit content to the service to be shown publicly.
+
+If you wish for your content to be removed from the service, you can contact us by email (see "Contact Us").
+
+Tracking We do not acknowledge your DNT settings, because we do not track you. Third-party software may be linked in official STiBaRC software.
+```
+
+## T083
+**Case:** This service does not guarantee that it or the products obtained through it meet your expectations or requirements
+
+**Passage:**
+
+```
+All information on this page are distributed and transmitted "as is" without warranties of any kind, either express or implied, including without limitation, any warranty for information, services or products provided through or in connection with the ShortcutwWorld service and any implied warranties of merchantability, fitness for a particular purpose, expectation of privacy or non-infringement.
+
+This disclaimer of liability applies to any damages or injury caused by any error, omission, deletion, defect, interruption, failure of performance, delay in operation or transmission, computer virus, communication line failure, theft or destruction or unauthorized access to, alteration of, or use of record, whether for breach of contract, negligence, tortious behavior, or under any other cause of action.
+
+ShortcutWorld is not responsible for any damages, including without limitation, any special, indirect, incidental or consequential damages, that may arise from any use of, inability to use, or reliance on the site and/or the materials contained on the site whether the materials contained on the site are provided by the ShortcutWorld, or a third party.
+
+Information on this web site may contain technical inaccuracies or typographical errors.
+
+ShortcutWorld may make updates, improvements and/or changes in the products and/or information described at any time without notice.
+
+ShortcutWorld does not guarantee the accuracy or completeness of the information contained in this site.
+```
+
+## T084
+**Case:** You cannot distribute or disclose your account to third parties
+
+**Passage:**
+
+```
+To use certain features of our Services, you may be required to create a Reddit account (an “**Account**”) and provide us with a username, password, and certain other information about yourself as set forth in the [Privacy Policy].
+
+You are solely responsible for the information associated with your Account and anything that happens related to your Account. You must maintain the security of your Account and immediately [notify Reddit] if you discover or suspect that someone has accessed your Account without your permission. We recommend that you use a strong password that is used only with your Account and [enable two-factor authentication]. If you add your phone number to your Account and later change or deactivate your phone number, make sure to update your Account information.
+
+You will not license, sell, or transfer your Account without our prior written approval.
+
+##### **5\. Your Content**
+
+The Services may contain information, text, links, graphics, photos, videos, audio, streams, software, tools, or other materials (“**Content**”), including Content created with or submitted to the Services by you or through your Account (“**Your Content**”). We take no responsibility for and we do not expressly or implicitly endorse, support, or guarantee the completeness, truthfulness, accuracy, or reliability of any of Your Content.
+```
+
+## T085
+**Case:** You are responsible for maintaining the security of your account and for the activities on your account
+
+**Passage:**
+
+```
+ird parties in an unauthorized manner; or (j) misuse any reporting channels, such as by submitting fraudulent or groundless reports or appeals.
+
+**Keeping Your Account Secure**. You are responsible for keeping your device and your WhatsApp account safe and secure, and you must notify us promptly of any unauthorized use or security breach of your account or our Services.
+
+### Third-Party Services
+
+Our Services may allow you to access, use, or interact with third-party websites, apps, content, other products and services, and [Meta Company Products]. For example, you may choose to use third-party data backup services (such as iCloud or Google Drive) that are integrated with our Services or interact with a share button on a third-party's website that enables you to send information to your WhatsApp contacts. Please note that these Terms and our [Privacy Policy] apply only to the use of our Services. When you use third-party products or services or other [Meta Company Products], their own terms and privacy policies will govern your use of those products or services.
+
+### Licenses
+
+**Your Rights**. WhatsApp does not claim ownership of the information that you submit for your WhatsApp account or through our Services. You must have the necessary rights to such information that you submit for your WhatsApp account or through our Services and the right to grant the rights and licenses in our Terms.
+```
+
+## T086
+**Case:** You maintain ownership of your content
+
+**Passage:**
+
+```
+To use certain features of our Services, you may be required to create a Reddit account (an “**Account**”) and provide us with a username, password, and certain other information about yourself as set forth in the [Privacy Policy].
+
+You are solely responsible for the information associated with your Account and anything that happens related to your Account. You must maintain the security of your Account and immediately [notify Reddit] if you discover or suspect that someone has accessed your Account without your permission. We recommend that you use a strong password that is used only with your Account and [enable two-factor authentication]. If you add your phone number to your Account and later change or deactivate your phone number, make sure to update your Account information.
+
+You will not license, sell, or transfer your Account without our prior written approval.
+
+##### **5\. Your Content**
+
+The Services may contain information, text, links, graphics, photos, videos, audio, streams, software, tools, or other materials (“**Content**”), including Content created with or submitted to the Services by you or through your Account (“**Your Content**”). We take no responsibility for and we do not expressly or implicitly endorse, support, or guarantee the completeness, truthfulness, accuracy, or reliability of any of Your Content.
+```
+
+## T087
+**Case:** You have the right to leave this service at any time
+
+**Passage:**
+
+```
+Except where indicated, the Postal Service does not endorse any company or product not offered by the Postal Service including the advertisers on linked Web sites or on the web sites of listed entities.
+
+When linking to such third-party sites, the Postal Service follows Web-linking and exit page guidelines as set forth in USPS Management Instruction AS-885.
+
+The Postal Service does not monitor sites linked to and the use of any such link is strictly at the user's own risk.
+
+In no event shall the Postal Service be liable for special or consequential damages that result from activity occurring on non-Postal Service Web sites when a user links to such site from USPS.com.
+
+This agreement is effective until terminated by either party.
+
+You may terminate this agreement at any time by discontinuing your use of the Postal Service site and destroying all materials obtained from it.
+
+Note: United States Postal Service®, Postal Service™, Post Office™, StampsOnline™, Express Mail®, Priority Mail®, Delivery Confirmation™, First-Class Mail®, Global Priority Mail®, Parcel Post®, Global Express Guaranteed™, ZIP Code™, the Eagle Logo, Fly Like An Eagle® and trade dress of USPS packaging are trademarks of the United States Postal Service.
+
+This list is not intended to be exhaustive.
+
+For a more complete listing of many USPS® trademarks, visit the U.S.
+
+Patent and Trademark Office Web site at the link below.
+
+More information is available at the U.S.
+
+Patent and Trademark Office website.
+```
+
+## T088
+**Case:** You are warned of the potential consequences related to third-party access
+
+**Passage:**
+
+```
+and (b) the posting, uploading and/or displaying of such Content on the Website and the grant of the licence to The Mod Archive (on the terms set out below) will not infringe the intellectual property or proprietary rights of any third party.
+
+If you upload, post or otherwise transmit any Content to the Website, you automatically: (a) grant other users of the Website and the Website Service the right to access the same and use it in accordance with these Terms, and (b) grant The Mod Archive a non-exclusive, royalty free, sub-licensable, perpetual, world-wide licence to use, modify, publish, publicly perform, publicly display and distribute such Content on and through the Website and the Website Service and in any other form or medium.
+
+You continue to own the Content after it is posted to the Website.
+
+You acknowledge that The Mod Archive will not screen or otherwise check any Content (with the exception of module uploads) which is submitted by you or any other user of the Website Service before it is posted, not monitor yours or any person’s use of the Website Service.
+
+As such, you as the user of the Website Service are responsible for any Content you submit to the Website and the manner in which the Website Service is used under your username.
+```
+
+## T089
+**Case:** Two factor authentication is provided for your account
+
+**Passage:**
+
+```
+To use certain Services, you need to create an account. You agree to provide us with accurate, complete and updated information for your account. Except in the unlikely event that activity occurs in your account outside of your control, you are responsible for any activity that occurs in your account. So it’s important that you keep your account secure. One way to help keep your account secure is to select a strong password that you don’t use for any other account and to enable two-factor authentication. If you think that someone has gained access to your account, please reach out to [Support] immediately. Any software that we provide to you may automatically download and install upgrades, updates or other new features. You may be able to adjust these automatic downloads through your device’s settings. You agree not to create any account if we have previously removed or banned you or your account from any of our Services, unless we consent otherwise.
+
+_In summary: Keep your account details safe and secure. Only use an account if you are authorised by us to do so._
+
+12\. Memories
+```
+
+## T090
+**Case:** Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder
+
+**Passage:**
+
+```
+Access to the Services is provided to you only to allow you to exercise your rights under this Agreement.
+
+15.1 Grant of Licence
+
+Subject to your acceptance of, and compliance with, this Agreement and any payment requirements for the Services (if applicable), Element hereby grants you a limited, non-exclusive, non-transferable, revocable, non-sublicensable licence, in and under our intellectual property rights, to access and use the Services, solely in accordance with the terms and conditions of this Agreement.
+
+Unless explicitly stated otherwise, any new features provided by us that augment or enhance one of the current Service shall also constitute "Service" and shall be subject to these terms and conditions.
+
+All rights not expressly granted under this Agreement are retained by Element.
+
+You may also be subject to additional terms and conditions that may apply when you use other Element services, third party content or third party software.
+
+If for any reason a court of competent jurisdiction finds any provision of the Terms of Use, or portion thereof, to be unenforceable, that provision shall be enforced to the maximum extent permissible so as to effect the intent of the parties as reflected by that provision, and the remainder of the Terms of Use shall continue in full force and effect.
+
+Any failure by Element to enforce or exercise any provision of the Terms of Use or related right shall not constitute a waiver of that right or provision.
+```
+
+## T091
+**Case:** Third-party cookies are used for statistics
+
+**Passage:**
+
+```
+Postmaster General's Letter on Cookie Usage PDF | HTM Cookies Cookies may be categorized as session or persistent, which describes the length of time that they stay on your system.
+
+Both session and persistent cookies are used on this site.
+
+The following are detailed descriptions of how we use these cookies. Session Cookies A session cookie is a small piece of textual information that a server places temporarily on your browser during the time your browser is open.
+
+The cookies are erased once you close all browsers.
+
+We use session cookies in the following manner:
+
+Log-on and log-off administration—If you decide to register with our site, so as, for example, to use one of our online services, session cookies help with the log-on and log-off process.
+
+The cookies enable us to recognize your log-on ID when you log on so that we do not establish a duplicate registration record for you.
+
+Transactions and site usability — We use session cookies to improve how you navigate through usps.com and conduct transactions.
+
+As examples, session cookies are used to maintain your online session as you browse over several pages.
+
+to store and prepopulate information so that you do not have to reenter the same information twice.
+
+to enable the postage rate calculator.
+
+and to retain your shopping cart information.
+
+Session cookies may also be used to collect referral statistics when you click on a link or ad banner to or from usps.com.
+```
+
+## T092
+**Case:** Third-party cookies are used for statistics
+
+**Passage:**
+
+```
+We collect this information to know which links and banners are effective.
+
+For example, this allows us to determine which ads may be of most interest and to help us control how many times a specific ad is displayed.
+
+How Data Is Collected - Cookies and Other Web Analysis Tools We understand that you may have questions about Web technology and information that is collected as you surf or conduct business online.
+
+The Postal Service has very strict policies about Web analysis tools.
+
+Such tools include what are known as cookies and Web beacons.
+
+The Postal Service uses a third-party analytics provider (currently Google Analytics Premium) to analyze data from cookies.
+
+The third-party analytics provider does not receive personally identifiable information through these cookies and is prohibited from combining, matching or cross-referencing usps.com information with any other information.
+
+We have also limited the provider's ability to see your full IP address (a process known as "IP masking").
+
+Please refer to Google Analytics security and privacy principles for more information.
+
+The Postal Service strictly limits the types of analysis tools allowed, the data collected, and how long the tools last, in order to best serve your business needs and also safeguard your privacy.
+
+The types of Web analysis tools we use are fully explained below, and in the attached letter from the Postmaster General.
+```
+
+## T093
+**Case:** App required for this service requires broad device permissions
+
+**Passage:**
+
+```
+**Through our APIs.** We use technology like [APIs] and embeds to make public X information available to websites, apps, and others for their use, for example, displaying posts on a news website or analyzing what people say on X. We generally make this content available in limited quantities for free and charge licensing fees for large-scale access. We have [standard terms] that govern how this information can be used, and a compliance program to enforce these terms. But these individuals and companies are not affiliated with X, and their offerings may not reflect updates you make on X. For more information about how we make public data on X available to the world, visit [https://developer.x.com].
+
+**3.3 When required by law, to prevent harm, or in the public interest.**
+
+We may preserve, use, share, or disclose your information if we believe that it is reasonably necessary to:
+
+* comply with a law, regulation, [legal process, or governmental request];
+
+* protect the safety of any person, protect the safety or integrity of our platform, including to help prevent spam, abuse, or malicious actors on our services;
+
+* explain why we have removed content or accounts from our services (e.g., for a violation of [our Rules]);
+
+* address fraud, security, or technical issues; or
+
+* protect our rights or property, or the rights or property of those who use our services.
+```
+
+## T094
+**Case:** If you offer suggestions to the service, they may use that without your approval or compensation, but they do not become the owner
+
+**Passage:**
+
+```
+or (e) use our Services or FaceApp Content other than as expressly provided in this Agreement.
+
+Any use of our Services or FaceApp Content other than as specifically authorized herein, without our prior written permission, is strictly prohibited and will terminate the license granted under this Agreement.
+
+You will not remove, alter or conceal any copyright, trademark, service mark or other proprietary rights notices incorporated in or accompanying the FaceApp Content. 7.
+
+Feedback Any questions, comments, suggestions, ideas, original or creative materials or other information you submit about FaceApp or our products or Services (collectively, “Feedback”), is non-confidential and we have no obligations (including without limitation obligations of confidentiality) with respect to such Feedback.
+
+You hereby grant to FaceApp a fully paid, royalty-free, perpetual, irrevocable, worldwide, non-exclusive, and fully sublicensable right and license to use, reproduce, perform, display, distribute, adapt, modify, re-format, create derivative works of, and otherwise commercially or non-commercially exploit in any manner, any and all Feedback, and to sublicense the foregoing rights, in connection with the operation and maintenance of the Services and/or FaceApp’s business. 8.
+```
+
+## T095
+**Case:** Archives of their agreements are provided so that changes can be viewed over time
+
+**Passage:**
+
+```
+8.1 Data Breach Notification
+
+In the event of a personal data breach that is likely to result in a risk to your rights and freedoms, we will:
+
+Notify the relevant supervisory authority within 72 hours of becoming aware of the breach
+
+Notify affected users without undue delay when the breach is likely to result in a high risk to their rights and freedoms
+
+Document all breaches in accordance with GDPR requirements
+
+9. Automated Decision-Making
+
+We do not engage in automated decision-making that produces legal or similarly significant effects. Our anti-spam tools (hCaptcha) involve automated processing but:
+
+Do not produce significant effects on users
+
+Allow for easy appeals via email or Discord
+
+We do not engage in profiling activities as defined under GDPR.
+
+10. Children's Privacy
+
+The CRW is not intended for children under 16. We do not knowingly collect personal data from children. If we become aware of such collection, we will promptly delete the data.
+
+11. Cookies
+
+We do not use tracking cookies. The wiki may use strictly necessary session cookies for authentication, which are deleted when you close your browser.
+
+12. Changes to This Policy
+
+We may update this Privacy Policy to reflect changes in our practices or legal requirements. The "Last Updated" date will always reflect the most recent version.
+
+Previous versions of the policy can be seen by viewing the Privacy Policy page history.
+
+13. Data Protection Queries
+```
+
+## T096
+**Case:** You are warned of the potential consequences related to third-party access
+
+**Passage:**
+
+```
+Nothing in these Terms shall be construed as excluding or limiting the liability of The Mod Archive for death or personal injury caused by its negligence or for any other liability which cannot be excluded by Dutch law.
+
+7.
+
+ACCESS RESTRICTION AND SERVICE SUSPENSION OR TERMINATION: The Mod Archive reserves the right in its sole discretion to deny you access to the Website and/or the Website Service, or any part thereof, with or without notice and for any reason including, without limitation, if you fail to comply with any clause 5 (Member Conduct) or any other provision of these Terms.
+
+In particular, The Mod Archive may deny you access to the Website and/or the Website Services if The Mod Archive exercises its right to delete, edit, lock or remove any Content posted, uploaded or displayed by you.
+
+The Mod Archive reserves the right to suspend or cease providing all or any of the Website Service, without notice, and shall have no liability or responsibility to you in any manner whatsoever if it chooses to do so.
+
+8.
+
+ADVERTISERS ON THE WEBSITE: We accept no responsibility for adverts posted on the Website.
+
+If you agree to purchase goods and/or services from any third party who advertises on the Website, you do so at your own risk.
+
+The advertiser, not The Mod Archive, is responsible for such goods and/or services and if you have any queries or complaints in relation to them, your only recourse is against the advertiser.
+
+9.
+```
+
+## T097
+**Case:** This service shares your personal data with third parties that are not essential to its operation
+
+**Passage:**
+
+```
+| Marketing Partners | * User Data<br>* Usage Data | To promote Spotify with our partners. We disclose certain User Data and Usage Data to these partners where necessary to:<br><br>* enable you to participate in Spotify promotions, including trials or other bundled offers<br>* to promote Spotify in media and advertising published on other online services<br>* help us and our partners to measure the effectiveness of Spotify promotions<br><br>Examples of partners include:<br><br>* marketing or sponsorship partners<br>* websites and mobile apps who sell us advertising space on their services<br>* device, app and mobile partners who also offer Spotify promotions<br><br>Our partners may also combine the personal data we disclose to them with other data they collect about you, e.g. your use of their services. We and our partners may use this information to present you with offers, promotions, or other marketing that we think you’ll find relevant.<br><br>With respect to Spotify Service users under the age of 18, we do not disclose personal data to marketing partners by default. |
+
+| Ticketing and event partners | * User Data | For every event for which we sell tickets, we will need to disclose your name, email or other order details to our event partners such as ticketing agent or venue box office where the event is taking place so that you can check-in as a verifiable guest who purchased tickets through Spotify’s ticketing platform. |
+```
+
+## T098
+**Case:** You are responsible for any risks, damages, or losses that may incur by downloading materials
+
+**Passage:**
+
+```
+To the fullest extent permitted by applicable law, you agree to indemnify, defend, and hold harmless Twitch, its affiliated companies, and each of our respective contractors, employees, officers, directors, agents, third-party suppliers, licensors, and partners (individually and collectively, the “Twitch Parties”) from any claims, losses, damages, demands, expenses, costs, and liabilities, including legal fees and expenses, arising out of or related to your access, use, or misuse of the Twitch Services, any User Content you post, store, or otherwise transmit in or through the Twitch Services, your violation of the rights of any third party, any violation by you of these Terms of Service, or any breach of the representations, warranties, and covenants made by you herein. You agree to promptly notify the Twitch Parties of any third-party claim, and Twitch reserves the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify Twitch, and you agree to cooperate with Twitch’s defense of these claims. Twitch will use reasonable efforts to notify you of any such claim, action, or proceeding upon becoming aware of it.
+
+#### b. Disclaimers; No Warranties
+
+i. No Warranties
+```
+
+## T099
+**Case:** Instructions are provided on how to submit a copyright claim
+
+**Passage:**
+
+```
+Snap honors trademark, copyright and other intellectual property laws, including the Digital Millennium Copyright Act and takes reasonable steps to expeditiously remove from our Services any infringing material that we become aware of. If Snap becomes aware that a user has repeatedly infringed copyrights, we will take reasonable steps within our power to suspend or terminate the user's account. If you believe that anything on the Services infringes a copyright that you own or control, please report it using the form accessible through this [tool]. Or you may file a notice with our designated agent: Snap Inc., Attn: Copyright Agent, 3000 31st Street, Santa Monica, CA 90405, email: copyright@snap.com. Don’t use this email address for anything other than reporting copyright infringement, as such emails will be ignored. To report other forms of infringement, including trademark infringement, on the Services, please use the tool accessible [here].
+
+If you file a notice with our Copyright Agent, it must comply with the requirements set forth at [17 U.S.C. § 512(c)(3)]. That means the notice must:
+
+* contain the physical or electronic signature of a person authorized to act on behalf of the copyright owner;
+
+* identify the copyrighted work claimed to have been infringed;
+```
+
+## T100
+**Case:** Information is provided about security practices
+
+**Passage:**
+
+```
+| **To protect Google, our users, and the public**<br><br>**To help improve the safety and reliability of our services, including detecting, preventing, and responding to fraud, abuse, security risks, and technical issues that could harm Google, our users, or the public.**<br><br>Examples of processing activities:<br><br>* We collect and analyze IP addresses and cookie data to protect against automated abuse. This abuse takes many forms, such as sending spam to Gmail users, stealing money from advertisers by fraudulently clicking on ads, or censoring content by launching a Distributed Denial of Service (DDoS) attack.<br>* The “last account activity” feature in Gmail can help you find out if and when someone accessed your email without your knowledge. This feature shows you information about recent activity in Gmail, such as the IP addresses that accessed your mail, the associated location, and the date and time of access.<br>* We analyze your content to help us [detect abuse] such as spam, malware, and illegal content. For example, YouTube [likeness detection] helps users find and report potential abuse by detecting faces in YouTube videos that appear to be altered or generated by AI.<br>* We process information about requests to remove content from our services under Google's content removal policies or applicable law to assess the request, and to ensure transparency, improve accountability and prevent abuse and fraud in these practices.<br><br>**To meet any applicable law,
+```
+
+## T101
+**Case:** Private messages can be read
+
+**Passage:**
+
+```
+When you [message with a business on WhatsApp], keep in mind that the content you share may be visible to several people in that business. In addition, some businesses might be working with third-party service providers (which may include Meta) to help manage their communications with their customers. For example, a business may give such third-party service providers access to its communications to send, store, read, manage or otherwise process them for the business. To understand how a business processes your information, including how it might share your information with third parties or Meta, you should review that business’s privacy policy or contact the business directly. If you do not want to receive messages from a business, you can always block them; we also limit the amount of marketing messages you can receive from businesses.
+
+* **Third-Party Services**.
+
+WhatsApp receives information about bad actors and abuse from [Meta Companies] and app verification information from anti-abuse services to promote safety, security and integrity. For example, when Meta becomes aware of a scam encouraging individuals to contact a phone number via WhatsApp, they might share that phone number with WhatsApp so we can investigate the WhatsApp account.
+```
+
+## T102
+**Case:** App required for this service requires broad device permissions
+
+**Passage:**
+
+```
+* Posts and other content you post (including the date, application, and version of X) and information about your broadcast activity (e.g., Spaces), including broadcasts you’ve created and when you created them, your lists, bookmarks, and Communities you are a part of.
+
+* Your interactions with other users’ content, such as reposts, likes, bookmarks, shares, downloads, replies, if other users mention or tag you in content or if you mention or tag them, and broadcasts you’ve participated in (including your viewing history, listening, commenting, speaking, and reacting).
+
+* How you interact with others on the platform, such as people you follow and people who follow you, metadata related to [Encrypted Messages], and when you use [Direct Messages], including the contents of the messages, the recipients, and date and time of messages.
+
+* If you communicate with us, such as through email, we will collect information about the communication and its content.
+
+* We collect information on links you interact with across our services (including in our emails sent to you).
+
+**Purchase and payments.** To allow you to make a payment or send money using X features or services, including through an intermediary, we may receive information about your transaction such as when it was made, when a subscription is set to expire or auto-renew, and amounts paid or received.
+
+**Device information.** We collect information from and about the devices you use to access X, including:
+```
+
+## T103
+**Case:** Your personal data may be used for marketing purposes
+
+**Passage:**
+
+```
+This privacy policy has been compiled to better serve those who are concerned with how their 'Personally Identifiable Information' (PII) is being used online.
+
+PII, as described in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
+
+Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.
+
+What personal information do we collect from the people that visit our blog, website or app?
+
+When ordering or registering on our site, as appropriate, you may be asked to enter your name, email address, mailing address, phone number, credit card information or other details to help you with your experience.
+
+When do we collect information?
+
+We collect information from you when you register on our site, place an order, subscribe to a newsletter, respond to a survey, fill out a form, open a support ticket or enter information on our site, or provide us with feedback on our products or services.
+
+How do we use your information?
+
+We may use the information we collect from you when you register, make a purchase, sign up for our newsletter, respond to a survey or marketing communication, surf the website, or use certain other site features in the following ways:
+```
+
+## T104
+**Case:** Your profile is combined across various products
+
+**Passage:**
+
+```
+Of course, you’ll also provide us with information you send through or save within our Services, including content and information about that content, and content you share and generate with our AI Features (content, or “Inputs”, including text, images, video, audio, precise location and engagement, including content you share with My AI, used to generate content and responses, or “Outputs”). We consider some of this information to be private content and communications (like Snaps and Chats with your friends, voice and video calls, and content that is saved in My Eyes Only). Or content you share with a particular audience like private & friend stories (My Story set to Friends, Private Stories). On the other end of the spectrum, some of the information you send through or save within our Services may be public content that is accessible to everyone (such as Public Story content, including My Story set to Everyone, Shared Stories and Community Stories, Spotlight or Snap Map submissions and Public Profile information). Keep in mind that Snapchatters who view your Snaps, Chats and any other content, can always screenshot that content, save it or copy it outside the Snapchat app. So please don’t send messages or share content that you wouldn’t want someone to save or share.
+```
+
+## T105
+**Case:** The court of law governing the terms is in a jurisdiction that is friendlier to user privacy protection
+
+**Passage:**
+
+```
+===================================
+
+If you are a consumer in the EEA, Switzerland or the UK, these Terms and your use of the Service shall be governed by the law of the country where you live, and any claim, dispute, or controversy arising from or in connection with or relating to these Terms, Pinterest, or the Service shall be resolved in the courts of the country where you live.
+
+In all other cases, these Terms and your use of the Service shall be governed by the laws of the State of California, without respect to its conflict of laws principles. For any actions not subject to Section 11 (Arbitration), the exclusive place of jurisdiction for any claim, dispute or controversy arising from or in connection with these Terms or the Service is San Francisco County, California, or the United States District Court for the Northern District of California, and such disputes will be determined under California law.
+
+More simply put
+
+The Bay Area is beautiful at this time of year. In fact, it doesn't matter what time of year it is, that's what's so great! Let’s resolve any disputes in California. If you are a consumer in the EEA, Switzerland or the UK, however, you can file disputes in your home courts.
+
+13\. General terms
+
+==================
+
+### a. Notification procedures and changes to these Terms
+```
+
+## T106
+**Case:** The copyright license that you grant this service is limited to the parties that make up the service's broader platform
+
+**Passage:**
+
+```
+This license is not a sale of the Software or any copy thereof, and Ryver or its third party partners or suppliers retain all right, title, and interest in the Software (and any copy thereof).
+
+3.3 If the Service or Software is being acquired on behalf of the United States Government, then the following provision applies.
+
+The Service and the Software, each, is a “commercial item,” as that term is defined in 48 C.F.R.
+
+2.101, consisting of “commercial computer software” and “commercial computer software documentation,” as such terms are used in 48 C.F.R.
+
+12.212 (Sept.
+
+1995) and 48 C.F.R.
+
+227.7202 (June 1995).
+
+Consistent with 48 C.F.R.
+
+12.212, 48 C.F.R.
+
+27.405(b) (2) (June1998) and 48 C.F.R.
+
+227.7202, all U.S.
+
+Government End Users acquire such Service or Software with only those rights as set forth herein.
+
+4.0 RYVER’S PROPERTY, COPYRIGHTS AND FEEDBACK
+
+4.1 All right, title, and interest in and to the Service (excluding Content provided by users) are and will remain the exclusive property of Ryver and its licensors.
+
+The Service is protected by copyright, trademark, and other laws of both the United States and foreign countries.
+
+Nothing in the Terms gives you a right to use the Ryver name or any of the Ryver trademarks, logos, domain names, and other distinctive brand features.
+
+4.2 As part of the Service, Ryver provides several ways to give feedback and suggestions on the Service.
+```
+
+## T107
+**Case:** Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder
+
+**Passage:**
+
+```
+1. In the event of intent, gross negligence or of a breach of a contractual core duty, the fulfillment of which enables the proper implementation of this contract in the first place, and upon the fulfillment of which the other party regularly may rely ("cardinal obligation") also by its representatives and vicarious agents (_Erfüllungsgehilfen_), both You and YouTube shall be liable according to the statutory provisions. The same shall apply in the event of injury to life, body or health, in the event of damages resulting from a violation of a guarantee as to quality (_Beschaffenheitsgarantie_), in case of a procurement risk as well as in the event of defaults concealed fraudulently (_arglistig verschwiegene Mängel_). In the event of damages to property and financial damages (_Sach- und Vermögensschäden_) caused by slight negligence of either You or YouTube, its representatives or vicarious agents, and not resulting from a violation of a guarantee, a procurement risk or a breach of a cardinal obligation, liability shall be limited to the amount of the damage which was foreseeable at the time of conclusion of the contract and typical taking into account the nature of the contract (_vorhersehbarer und vertragstypischer Schaden_). Liability based on the German Product Liability Act (_Produkthaftungsgesetz_) shall remain unaffected in any case. Any further liability of either party other than set out above shall be excluded. This does not entail a change in the burden of proof to
+```
+
+## T108
+**Case:** Other rules, terms, conditions and/or guidelines may apply
+
+**Passage:**
+
+```
+If this agreement is not acceptable, please use a Matrix homeserver provided by someone else! 1.2 Using The Service Means Accepting These Terms
+
+By using the Hosting Service and provisioning a Homeserver the Customer agrees to and is bound by the terms and conditions written in this document.
+
+By accessing or using the Communication Service in any way, whether the Customer has created a Matrix account on the Homeserver, or whether they are accessing content federated from the Homeserver to another Matrix homeserver, or are just browsing rooms as an unauthenticated guest, the Customer agrees to and is bound by the Users Terms.
+
+If the Customer does not agree to all of the terms and conditions contained in this document, they should use a Matrix server provided by someone else and refrain from provisioning this server. 1.3 Between The Customer and The Authorised Users
+
+These Customer Terms gives the Customer the right to provision, configure and invite others to use the Homeserver.
+
+They may enable or disable federation to the rest of the Matrix network, close rooms, turn off the access to the service, change the accessibility rules (from invite only to open registration or vice versa, or forbid the read-only mode) etc...
+
+You agree that it is solely the Customer's responsibility to inform the Authorised Users of any relevant policies and practices they would like to enforce on their Service which come in addition to the default ones we enforce below.
+```
+
+## T109
+**Case:** You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service
+
+**Passage:**
+
+```
+To the extent authorized by law, you agree to indemnify and hold harmless Creative Commons, its employees, officers, directors, affiliates, and agents from and against any and all claims, losses, expenses, damages, and costs, including reasonable attorneys’ fees, resulting directly or indirectly from or arising out of (a) your violation of the Terms, (b) your failure to verify the copyright license, attribution, and other information associated with Content resulting from your use of CC Search, (c) your use of any of the Services, and/or (d) the Content you make available on any of the Services.
+
+Human-readable summary of Sec 12: If something happens because you violate these terms, because of your use of the services, or because of the content you post on the sites, you agree to repay CC for the damage it causes.
+
+13.
+
+Privacy Policy
+
+Creative Commons is committed to responsibly handling the information and data we collect through our Services in compliance with our Privacy Policy, which is incorporated by reference into these Master Terms.
+
+Please review the Privacy Policy so you are aware of how we collect and use your personal information.
+
+Human-readable summary of Sec 13: Please read our Privacy Policy.
+
+It is part of these terms, too.
+
+14.
+
+Trademarks
+
+CC’s name, logos, icons, and other trademarks may only be used in accordance with our Trademark Policy, which is incorporated by reference into these Master Terms.
+```
+
+## T110
+**Case:** The service is provided 'as is' and to be used at your sole risk
+
+**Passage:**
+
+```
+AI Features and Outputs are provided as-is and made available to you without representations or warranties of any kind, whether express or implied. This means that your use of any AI Features and Outputs is at your own risk, and you should not rely on them for any purpose, including to make decisions or for professional, medical, legal, financial, educational or other advice. Outputs are not Snap representations.
+
+When using our AI Features, unless we give our permission, you must not take any action that would reasonably be expected to:
+
+* use Inputs that contain or make use of, and otherwise could reasonably be expected to generate Outputs that contain or make use of, content that you do not have permission to use, would violate the rights of others, or has otherwise been unlawfully obtained;
+
+* violate any submission guidelines or other policies we make available to you that apply to your use of AI Features or submission of Inputs;
+
+* direct AI Features to generate any Outputs in violation of these Terms, the Community Guidelines or any applicable intellectual property rights, contractual restriction or applicable laws, or which might otherwise cause harm;
+
+* alter, obscure or remove any watermark or disclosure applied to Outputs by the AI Features;
+
+* circumvent any safety or privacy features, safeguards or mechanisms in the AI Features;
+
+* use or share Outputs that will be used to train, develop or fine tune models, services or other AI technologies; or
+```
+
+## T111
+**Case:** Referring and/or exit pages are tracked
+
+**Passage:**
+
+```
+Privacy Policy for Bitdefender websites Version 3.0, adopted on 10.05.2018 The document explains the personal data we collect, how and where we may use it, how we protect it, who has access to it, with whom we share it, and how you may correct it.
+
+This privacy policy applies to the personal data collected by all websites or Internet accounts managed by Bitdefender.
+
+If you use our products and services, check our specific privacy policies if you use Home or Business solutions.
+
+1.
+
+General information
+
+S.C.
+
+BITDEFENDER S.R.L.
+
+(hereafter mentioned as Bitdefender), with its official headquarters in Bucharest, 6th District, 15A Sos.
+
+Orhideelor, Orhideea Towers Building, 9-12 floors, registered in the Bucharest Trade Register with number J40/20427/2005, fiscal code RO18189442, e-mail privacy@bitdefender.com processes personal data in agreement with the European legislation on data protection (GDPR – Regulation EU 2016/679) .
+
+Our Data Protection Officer can be found at the following contacts: Bitdefender’s Data Protection Office – privacy@bitdefender.com, Phone: 4021 -206.34.70
+
+Bitdefender offers data security products and services.
+
+Our goal is to ensure information and network security by providing quality products and services in these areas while also respecting privacy and personal data of customers, Internet users and business partners.
+
+For this purpose, we collect only that personal data absolutely necessary for the specified purposes, on a best efforts basis.
+```
+
+## T112
+**Case:** Defend, indemnify, hold harmless; survives termination
+
+**Passage:**
+
+```
+Twitch uses reasonable security measures in order to attempt to protect User Content against unauthorized copying and distribution. However, Twitch does not guarantee that any unauthorized copying, use, or distribution of User Content by third parties will not take place. To the furthest extent permitted by applicable law, you hereby agree that Twitch shall not be liable for any unauthorized copying, use, or distribution of User Content by third parties and release and forever waive any claims you may have against Twitch for any such unauthorized copying or usage of the User Content, under any theory. TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE SECURITY MEASURES TO PROTECT USER CONTENT USED BY TWITCH HEREIN ARE PROVIDED AND USED “AS-IS” AND WITH NO WARRANTIES, GUARANTEES, CONDITIONS, ASSURANCES, OR OTHER TERMS THAT SUCH SECURITY MEASURES WILL WITHSTAND ATTEMPTS TO EVADE SECURITY MECHANISMS OR THAT THERE WILL BE NO CRACKS, DISABLEMENTS, OR OTHER CIRCUMVENTION OF SUCH SECURITY MEASURES.
+
+#### **d. Promotions**
+```
+
+## T113
+**Case:** Instructions are provided on how to submit a copyright claim
+
+**Passage:**
+
+```
+* identify the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed, or access to which is to be disabled, and information reasonably sufficient to let us locate the material;
+
+* provide your contact information, including your address, telephone number and an email address;
+
+* provide a personal statement that you have a good-faith belief that the use of the material in the manner complained of is not authorized by the copyright owner, its agent or the law; and
+
+* provide a statement that the information in the notification is accurate and, under penalty of perjury, that you are authorized to act on behalf of the copyright owner.
+
+_In summary: Make sure you own or have the right to use any content you make available on the Services. If you use content owned by someone else without permission, we may terminate your account. If you see anything which you believe infringes your intellectual property rights, let us know._
+
+10\. Safety
+```
+
+## T114
+**Case:** Defend, indemnify, hold harmless; survives termination
+
+**Passage:**
+
+```
+To the fullest extent permitted by applicable law, you agree to indemnify, defend, and hold harmless Twitch, its affiliated companies, and each of our respective contractors, employees, officers, directors, agents, third-party suppliers, licensors, and partners (individually and collectively, the “Twitch Parties”) from any claims, losses, damages, demands, expenses, costs, and liabilities, including legal fees and expenses, arising out of or related to your access, use, or misuse of the Twitch Services, any User Content you post, store, or otherwise transmit in or through the Twitch Services, your violation of the rights of any third party, any violation by you of these Terms of Service, or any breach of the representations, warranties, and covenants made by you herein. You agree to promptly notify the Twitch Parties of any third-party claim, and Twitch reserves the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify Twitch, and you agree to cooperate with Twitch’s defense of these claims. Twitch will use reasonable efforts to notify you of any such claim, action, or proceeding upon becoming aware of it.
+
+#### b. Disclaimers; No Warranties
+
+i. No Warranties
+```
+
+## T115
+**Case:** You waive your moral rights
+
+**Passage:**
+
+```
+You retain ownership of your User Content when you post it to the Spotify Service. However, in order for us to make your User Content available on the Spotify Service and to provide you with certain features and functions, we do need a limited license from you to that User Content. Accordingly, you hereby grant to Spotify a non-exclusive, transferable, sublicensable, royalty-free, fully paid, irrevocable, worldwide license to reproduce, make available, perform and display, translate, modify, create derivative works from, distribute, and otherwise use any such User Content through any medium, whether alone or in combination with other Content or materials, in any manner and by any means, method or technology, whether now known or hereafter created, in connection with the Spotify Service. Where applicable and to the extent permitted under applicable law, you also agree to waive, and not to enforce, any "moral rights" or equivalent rights, such as your right to be identified as the author of any User Content, including Feedback, and your right to object to derogatory treatment of such User Content.
+
+**Feedback**
+
+If you provide ideas, suggestions, or other feedback in connection with your use of the Spotify Service or any Content ("**Feedback**"), such Feedback is not confidential and may be used by Spotify without restriction and without payment to you. Feedback is considered a type of User Content under these Terms.
+
+**Your Device**
+```
+
+## T116
+**Case:** Your biometric data is collected
+
+**Passage:**
+
+```
+* Google Chat, for sending and receiving messages
+
+* Google Duo, for making and receiving video calls and sending and receiving messages
+
+* Google Fi, for a phone plan
+
+### show trends
+
+When lots of people start searching for something, it can provide useful information about particular trends at that time. Google Trends samples Google web searches to estimate the popularity of searches over a certain period of time and shares those results publicly in aggregated terms.
+
+### similar information related to your physical or mental health
+
+If you use fitness products and apps we offer, such as Fitbit, Pixel Watch, Nest or Google Fit, we collect data you provide, like your height and weight. We also collect information from these apps and devices, such as your sleep patterns, heart rate, skin temperature, calories burned, and steps taken.
+
+### specific Google services
+
+For example, you can delete [your blog] from Blogger or [a Google Site you own] from Google Sites. You can also delete [reviews] you’ve left on apps, games, and other content in the Play Store.
+
+### specific partners
+
+For example, we allow YouTube creators and advertisers to work with measurement companies to learn about the audience of their YouTube videos or ads, using cookies or similar technologies. Another example is merchants on our shopping pages, who use cookies to understand how many different people see their product listings. [Learn more] about these partners and how they use your information.
+```
+
+## T117
+**Case:** You are responsible for maintaining the security of your account and for the activities on your account
+
+**Passage:**
+
+```
+Our right to terminate for cause remains unaffected. Good cause shall be deemed to exist if one party violates laws, third-party rights, or otherwise breaches these Terms, and the terminating party cannot reasonably be expected to continue the contractual relationship until the agreed termination date or until the expiry of a notice period, taking into account all circumstances of the individual case and after weighing the interests of both parties. A termination for good cause is only possible within a reasonable period of time after a breach has come to the knowledge of the other party.
+
+If the important reason is a violation of an obligation of these Terms, termination is only permissible after the unsuccessful expiration of a granted remedy period or after an unsuccessful warning. However, this does not apply if the party in breach seriously and finally refuses to fulfill its obligations or if, after weighing the interests of both parties, special circumstances justify immediate termination.
+```
+
+## T118
+**Case:** Archives of their agreements are provided so that changes can be viewed over time
+
+**Passage:**
+
+```
+Purpose of processing: content delivery network (CDN) services, DDoS attack protection and mitigation, traffic routing and optimization, security monitoring and threat detection, performance analytics to improve website speed and user experience.
+
+The legal basis for processing: a legitimate interest that overrides the rights and freedoms of the data subject (Art. 6 (1) f GDPR).
+
+Legitimate interests: strong economic interest in secure, reliable, and functioning operation of the website, protection against cyber attacks, and optimization of service performance.
+
+Data are transmitted: to the data processor Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, USA ( https://www.cloudflare.com ).
+
+This may also mean a transfer of personal data to a country outside the European Union. The data are transferred to the USA on the basis of Art. 45 GDPR in conjunction with the European Commission's adequacy decision C(2023) 4745, since the data recipient has committed to comply with the data processing principles of the Data Privacy Framework (DPF).
+
+Please read Cloudflare's full privacy policy for more information.
+
+7.2 Legal Requirements
+
+We may disclose data when required by law or to protect the rights and safety of users.
+
+8. Data Security
+
+We implement appropriate technical and organizational measures to protect personal data, including:
+
+Hashing and salting of passwords
+
+Regular security updates
+
+Access controls and authentication
+
+The full encryption of all backups made
+```
+
+## T119
+**Case:** The court of law governing the terms is in a jurisdiction that is friendlier to user privacy protection
+
+**Passage:**
+
+```
+To the maximum extent permitted by law, we shall not be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill or other intangible losses, resulting from (a) your access to or use of or inability to access or use the Service; (b) any conduct or content of any third party on the Service, including, without limitation, any defamatory, offensive or illegal conduct of other users or third parties; (c) unauthorised access, use or alteration of your transmissions or content.
+
+In no event shall our aggregate liability for all claims relating to the Service exceed one hundred US dollars (US $100.00). The foregoing does not affect any liability that cannot be excluded or limited under applicable law.
+
+If we cause damage to you and you're a consumer in the EEA or UK, the above doesn't apply. Instead, Pinterest's liability will be limited to foreseeable damages arising due to a breach of material contractual obligations typical for this type of contract. Pinterest isn't liable for damages that result from a non-material breach of any other applicable duty of care. This limitation of liability won't apply to any statutory liability that cannot be limited, to liability for death or personal injury caused by our negligence or willful misconduct, or to exclude our responsibility for something we have specifically promised to you.
+
+More simply put
+```
+
+## T120
+**Case:** This service receives your precise location through GPS coordinates
+
+**Passage:**
+
+```
+* Information about your connection, such as your IP address, browser type, and related information.
+
+* Information about your device and its settings, such as device and advertising ID, operating system, carrier, language, memory, apps installed, and battery level.
+
+* Your device address book, if you’ve chosen to share it with us.
+
+**Location information.** When you use X, we collect some information about your approximate location to provide the service you expect, including showing you relevant ads. You can also choose to share your current precise location or places where you’ve previously used X by enabling these settings in your account.
+
+**Inferred identity.** We may collect or receive information that we use to infer your identity as detailed below:
+
+* When you sign into X on a browser or device, we will associate that browser or device with your account. Subject to your settings, we may also associate your account with browsers or devices other than those you use to sign into X (or associate your signed-out device or browser with other browsers or devices or X-generated identiﬁers).
+```
+
+## T121
+**Case:** Logs are deleted after a finite period of time
+
+**Passage:**
+
+```
+Location data. Even a tiny amount of location data is enough to give a strong clue to someone's identity.
+
+Most people spend their time in two locations: work and home.
+
+That combination is often unique, and could be used to identify you.
+
+Information We Automatically Collect We receive some information automatically when you visit Open Humans.
+
+This includes information about the device, browser, and operating system you use when accessing our site, your IP address, the website that referred you to Open Humans (if any), which pages you request and visit, and the date and time of each request you make to Open Humans.
+
+We may retain access logs containing this data for up to 120 days, and then delete them.
+
+Cookie Policy Cookies are small data files placed on your computer by websites you visit in order to help them remember certain information about you.
+
+When you log in to your account, Open Humans will place a cookie for the purposes of creating the session, knowing when you’re logged in, and validating form submissions.
+
+The cookie contains an encrypted user identifier.
+
+Most browsers include an option to clear existing cookies or reject new ones.
+
+However, if you reject new cookies, portions of Open Humans will not function as intended.
+
+How We Use Your Information We may use your personal information when needed to keep the site running, prevent abuse, and improve Open Humans.
+
+Your information is used internally only where necessary to provide our services.
+```
+
+## T122
+**Case:** Two factor authentication is provided for your account
+
+**Passage:**
+
+```
+To use certain Services, you need to create an account. You agree to provide us with accurate, complete and updated information for your account. You are responsible for any activity that occurs in your account. So it’s important that you keep your account secure. One way to help keep your account secure is to select a strong password that you don’t use for any other account and to enable two-factor authentication. If you think that someone has gained access to your account, please immediately reach out to [Support]. Any software that we provide to you may automatically download and install upgrades, updates, or other new features. You may be able to adjust these automatic downloads through your device’s settings. You agree not to create any account if we have previously removed or banned you or your account from any of our Services, unless we consent otherwise.
+
+_In summary: Keep your account details safe and secure. Only use an account if you are authorised by us to do so._
+
+12\. Memories
+```
+

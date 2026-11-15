@@ -1,0 +1,11 @@
+# prereg and code 2026-11-15T02:14:43Z, before any card was built
+1b67ba0d554c449b140420978a00e36b5b84f9354bce5bef20d08d568beb763e *stale/PREREG_states_case_ext.md
+7537230e79680e9effd93bc64fce26e697b6420e2e611922227f9baed1533214 *stale/states_case_ext.py
+5dd37928054bc65abfbfa06a81dfe508fb6d74eb18eafb001ad3f9b48e1f0707 *stale/states_case.py
+35648d82613e48d64f1b81d5a5166dbc1e6efdc9487c104c6050480e99bfba9c *stale/audit_states2/README.md
+# cards and key 2026-11-15T02:14:44Z, before any rating
+7d228a546ef09f8829a9cb841c3d62107ceaadbb13603f385fcd7fab8c60c26d *stale/audit_states2/cards.md
+2a73f7c8383992f07c50180d57c606ec58d67288e638eeb11979218016d32bbe *stale/audit_states2/verdicts.json
+16cb4cc4eb273711489414a3120be3dee6df6b5006cc03605559070b04c01240 *stale/out/states_case2_key.json
+# prereg time in the text corrected from ~02:20 to ~02:12 at 2026-11-15T02:14:53Z, before rating; nothing else changed
+a8d24d8c32c0e9a20b77805f8d3136a3d2a906a8770038f74aaf260d8d6d2e9d *stale/PREREG_states_case_ext.md
