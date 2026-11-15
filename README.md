@@ -128,6 +128,12 @@ anything.
     - Proposed quote: within its top passage, Kev picks the sentence to quote. When the passage was right, that sentence
       matched the curator's quote 83% of the time, against 56% for BM25. The curator page shows it.
   - Cost: about 1.9 CPU seconds per piece-question, roughly 80 s per point for a 40-piece document.
+  - Where the decision model's cost comes from (part B's 71 documents, timings already on disk): Kev takes about
+    6.9 s to read a 1,500-character piece plus 1.05 s per question asked of it; the instruct model takes about 6.6 s
+    per piece and question, because it reads the piece again for each question (its hybrid recurrent architecture
+    gives llama.cpp no prefix to reuse). So Kev is slower with one question per document (0.8x), and cheaper from
+    two on: 1.5x at two, 2.7x at five, with a ceiling near 6x. A curator page asks few questions per document; a
+    tool asking a whole question bank of every document is where it pays.
   - It covers points whose case is still stated. Whether Kev can tell that a case is no longer stated was tested on
     the 141 stale points: it ranks those points low (AUROC .92), but its flag was right 6 times in 12, under the 75%
     bar, so the page makes no such claim (`stale/RESULT_suggest.md`, provisional).
