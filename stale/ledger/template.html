@@ -77,7 +77,7 @@ code{font:.82rem var(--f-mono);background:var(--accent-soft);padding:1px 5px;bor
   <div class="eyebrow">policywatch · state on 15 Nov 2026, 08:05 UTC</div>
   <h1>Which approved ToS;DR points lost their evidence, and where is the case stated now?</h1>
   <p class="lede">ToS;DR&rsquo;s volunteer curators back every point (&ldquo;You waive your right to a class action&rdquo;) with a quote from a service&rsquo;s terms. Open Terms Archive records every version of those terms. policywatch checks every approved quote against every version, lists the points whose quote disappeared in a platform&rsquo;s own edit, and suggests where the case may be stated now. It runs on a desktop CPU; every test below was written down and hashed before it was scored, failures included.</p>
-  <div class="status"><span class="pill p-run">Computing the decision model&rsquo;s suggestions for 544 more stale points</span><span class="pill p-warn">Stale-point suggestions provisional: AI-graded; GPT and Fable agreed with the grader, no person checked</span></div>
+  <div class="status"><span class="pill p-run">Computing the decision model&rsquo;s suggestions for 544 more stale points</span><span class="pill p-warn">Stale-point suggestions provisional: graded by two AIs (Opus, GPT), no person checked</span></div>
 </header>
 
 <section>
@@ -130,12 +130,12 @@ code{font:.82rem var(--f-mono);background:var(--accent-soft);padding:1px 5px;bor
     <tr><td>Kev vs its base family, Qwen3.5-4B</td><td><span class="pill p-n">No difference</span></td><td class="num">62 vs 60 · 75 vs 74</td><td>Curator&rsquo;s quote</td></tr>
     <tr><td>Kev&rsquo;s probabilities better calibrated than its base family&rsquo;s? (exploratory)</td><td><span class="pill p-n">No difference</span></td><td class="num">Brier .140 vs .135, 307 rated passages</td><td>LLM raters, blind</td></tr>
     <tr><td>Kev vs a cross-encoder reranker</td><td><span class="pill p-warn">Kev ahead in 1 of 3</span></td><td class="num">62 vs 55 · 75 vs 65 · 62.5 vs 56.5; pooled after the fact +8 [+4, +12]</td><td>Curator&rsquo;s quote</td></tr>
-    <tr><td>Does the top passage state the case? 120 points</td><td><span class="pill p-good">Kev, Qwen ahead</span></td><td class="num">Kev 73 · Qwen 73 · reranker 61 · BM25 42</td><td>LLM raters, blind</td></tr>
+    <tr><td>Does the top passage state the case? 120 points</td><td><span class="pill p-good">Kev, Qwen ahead</span></td><td class="num">Kev 73 · Qwen 73 · reranker 61 · BM25 42</td><td>Claude raters, blind; GPT re-rated every card and all three conclusions held (Kev 74 · Qwen 75 · reranker 60 · BM25 48)</td></tr>
     <tr><td>Propose the sentence to quote</td><td><span class="pill p-good">Shipped</span></td><td class="num">83% vs BM25 56%</td><td>Curator&rsquo;s quote</td></tr>
     <tr><td>Reranker shortlists 10 passages, Kev ranks them</td><td><span class="pill p-good">Adopted</span></td><td class="num">63.0% vs Kev alone 62.5%</td><td>Curator&rsquo;s quote</td></tr>
     <tr><td>Mark a suggestion &ldquo;Clear&rdquo;</td><td><span class="pill p-good">Shipped</span></td><td class="num">50 of 53 clear ones right</td><td>Curator&rsquo;s quote</td></tr>
     <tr><td>Shorter question layout for Kev</td><td><span class="pill p-bad">Not adopted</span></td><td class="num">&minus;2.5 [&minus;5.3, +0.5]</td><td>Curator&rsquo;s quote</td></tr>
-    <tr><td>Suggestions on the 141 stale points</td><td><span class="pill p-warn">Provisional</span></td><td class="num">Kev 74% (document mean)</td><td>LLM rater; GPT and Fable agree with it (kappa .67, .82); no human check</td></tr>
+    <tr><td>Suggestions on the 141 stale points</td><td><span class="pill p-warn">Provisional</span></td><td class="num">Kev 74% (document mean)</td><td>Opus answer key; GPT and Fable agree with it (kappa .67, .82); GPT&rsquo;s own whole key gives Kev 78%; no human check</td></tr>
     <tr><td>Label a point &ldquo;case no longer stated&rdquo;</td><td><span class="pill p-bad">Not shipped</span></td><td class="num">6 of 12 flags right</td><td>LLM rater</td></tr>
     <tr class="grp"><td colspan="4">Meaning-diff scanner (the original idea)</td></tr>
     <tr><td>Rank which answers an update changed</td><td><span class="pill p-bad">Failed</span></td><td class="num">needed 684 reviews, bar 182</td><td>Two LLM raters</td></tr>
@@ -146,7 +146,7 @@ code{font:.82rem var(--f-mono);background:var(--accent-soft);padding:1px 5px;bor
 <section>
   <div class="eyebrow">Limits</div>
   <ul class="plain small">
-    <li>The audits and the &ldquo;states the case&rdquo; ratings are Claude models judging blind, not people. A rater that shares a language model&rsquo;s sense of relevance could favour language-model picks.</li>
+    <li>The audits and the &ldquo;states the case&rdquo; ratings are Claude models judging blind, not people. A rater that shares a language model&rsquo;s sense of relevance could favour language-model picks; a rater from another company (GPT) reached the same conclusions, which narrows that risk without removing it.</li>
     <li>Suggestions are a place to look, not a verdict: nothing here decides whether a point still holds.</li>
     <li>The daily watch has run twice by hand and is not scheduled.</li>
   </ul>
