@@ -22,6 +22,7 @@ Each test was hashed before scoring. All results are reported, including failure
 | Kev's short question layout for relocation | **Not adopted** | 20 platforms: -2.5 points [-5.3, +0.5], failing the bar (lower bound at least -5). Held-out services: 0.0 [-3.6, +4.0], passing. No rule for the disagreement; the page keeps the layout that passed on its own platforms. | `stale/RESULT_relocate2.md` |
 | Suggest where a stale point's case is now stated (141 points) | **Page leads with Kev** (provisional) | Top-1 on 69 points whose quote is gone: Kev 74%, BM25 with the old quote 77% (no difference shown), bge 49%, BM25 40%. Gold is a model rater's until a human check. | `stale/RESULT_suggest.md` |
 | Label a stale point "case no longer stated" | **Not shipped** (provisional) | Kev ranks the 15 no-longer-stated points low (AUROC .92), but its flag was right for 6 of 12 flagged; the bar was 75%. | `stale/RESULT_suggest.md` |
+| Catch the changes Open Terms Archive's editors wrote memos about (10 memos) | **Failed** | Caught 1 of 10; a random ranking would catch about 2. | [Accuracy](#accuracy), item 2 |
 | Rank which answers an update changed (35 updates) | **Failed** | The bar was 24 of 25 changes in 182 reviews; the tool needed 684. | [Accuracy](#accuracy), item 1 |
 | Same ranking, Kev-4B vs Qwen3.5-4B on the same CPU | **No clear winner** | Within 182 reviews, Kev found 20 of 25 changes and Qwen 12, but Kev used 2.2x the CPU. | Item 4 |
 | Kev with bare yes/no options (cost fix) | **Adopted** | 21 of 25 changes at 0.57x Kev's CPU, now 1.26x Qwen's. | Item 4 |
@@ -100,6 +101,10 @@ Four measurements; the first three are shown on the site's "How it works" page:
      - the original 70-question bank
      - a second rater's mapping
    - 8 of the 19 memos have no recorded update within 10 days and are left out.
+   - **Result (2026-11-15): failed.** Caught 1 of 10 judged memos (TikTok's 2026 US rewrite); a random ranking would
+     catch about 2. The stricter count is 0 of 9, and the 70-question bank and the second rater's mapping also
+     catch 1. One memo has no bank question that fits. The scanner does not find what the archive's editors wrote
+     up.
 3. **Running human record** (`serve`): precision of flags and audited misses, as counts.
 4. **Decision model vs an ordinary LLM** (`bench/`, `eval/PREREG_kev_vs_llm.md`, result in
    `eval/RESULT_kev_vs_llm.md`). Same 35 updates and CPU, against Qwen3.5-4B (Kev's base family, instruct, Q8_0).
@@ -143,6 +148,10 @@ anything.
   incrementally (one request per platform, plus one per new or edited point) and lists what changed since the last run:
   new drops, new points, recovered quotes. Output goes to `stale/live/` (`digest.html`, one JSON per run). The
   snapshot above is never rewritten.
+  - Run 2026-11-15 (11 new archive versions since 11-12): Pinterest's terms, privacy policy and community guidelines
+    changed on 11-14 ("Effective date: 12 November 2026"), and 8 approved points lost their quote, 4 fully. One
+    Pinterest quote came back. For example, the arbitration point's quote is gone because the section was rewritten
+    with a new notice step; the case still holds, in new words. No ToS;DR point was new or edited in those three days.
 - **Beyond the 20 platforms (`stale/wide.py`, 2026-11-14).** The same string matching over four more Open Terms
   Archive collections, mapped to 212 ToS;DR services by name or web domain. Folders holding the 20 platforms' own
   documents are left out.
