@@ -92,7 +92,9 @@ anything.
   - A blind audit (`stale/RESULT_drop_audit.md`, pre-registered, rated by a Claude subagent) found 27 of 30 sampled
     listed contrib drops to be real edits. The 3 others, and 2 of 10 on the 20 platforms, were the archive saving
     another language or region of the page, or losing a page header. All 10 sampled set-asides were broken captures.
-  - `stale/wide_daily.py` is the daily watch for these collections (built, not scheduled).
+  - `stale/wide_daily.py` is the daily watch for these collections (built, not scheduled). A dry run on the snapshot's
+    own archive and ToS;DR data (no fetch) reproduces it exactly: 0 events on contrib, genai-contrib and dating.
+    `daily.cmd` runs every daily step in one command for Windows Task Scheduler.
 - **Where the decision model would come in: relocation.** When a quote is gone, a curator has to find the passage that
   now states the case, or decline the point. A pre-registered test (`stale/PREREG_relocate.md`, hashed before any
   arm was scored) asks whether Kev-4B finds the curator's own quoted passage among a document's 1,500-character pieces
