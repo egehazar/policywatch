@@ -2,3 +2,7 @@
 58a68f332dd1dc886d79ba4810263691c1e6714877af8488d3efa5b121df5685 *bench/PLAN_cost_curve.md
 dcfb3c773b134f8101381c77252d2d1dde6c3fb6097fa013bd34d5ece4ae6363 *bench/out/cost_plan.json
 858dfe62b6b2628c478d97dff3a82b1ebb0b374252eea17615f6af3b3f7b6b67 *bench/cost_curve.py
+# result 2026-11-15T17:53:24Z
+ae25909d54f1933a5a41031abdf100b44c4599cceae646d92582828bdb961600 *bench/out/cost_kev.jsonl
+86b31fe180f14679bbff3a4ab60dfaafb878e18d0f34afcf44e63ca05d618d9e *bench/out/cost_qwen.jsonl
+e34ccb9804dffbfa0e33d23b6ae8cb88eb99964506d5bdcbbcb0f5ff29c86662 *bench/out/cost_result.json
