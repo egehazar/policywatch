@@ -1,0 +1,262 @@
+{
+ "U001": {
+  "verdict": "YES",
+  "why": "Disputes must be brought individually, without participation in class or representative proceedings."
+ },
+ "U002": {
+  "verdict": "YES",
+  "why": "Users can authorize sharing personal data with optional third-party applications, services, and devices."
+ },
+ "U003": {
+  "verdict": "YES",
+  "why": "The service receives personal information from third parties for verification, marketing, and reviews."
+ },
+ "U004": {
+  "verdict": "YES",
+  "why": "Advertisers receive aggregated audience statistics including gender, age, and device usage."
+ },
+ "U005": {
+  "verdict": "YES",
+  "why": "Information collected about users is put into aggregate reports for partners."
+ },
+ "U006": {
+  "verdict": "YES",
+  "why": "Third-party purchases are at your own risk, and complaints must be directed to the advertiser."
+ },
+ "U007": {
+  "verdict": "NO",
+  "why": "The promotional text makes no statement about ownership of user content."
+ },
+ "U008": {
+  "verdict": "PARTLY",
+  "why": "The liability exclusion covers planning tools and resulting projects, rather than all service-related damages."
+ },
+ "U009": {
+  "verdict": "PARTLY",
+  "why": "De-identification is mentioned, but security practices are otherwise only referenced through a section link."
+ },
+ "U010": {
+  "verdict": "NO",
+  "why": "The non-exclusive license is granted to users for service content, not to the service for user content."
+ },
+ "U011": {
+  "verdict": "NO",
+  "why": "The passage contains no restriction on expressing negative opinions about the service."
+ },
+ "U012": {
+  "verdict": "YES",
+  "why": "Additional terms may apply to other Element services, third-party content, or third-party software."
+ },
+ "U013": {
+  "verdict": "PARTLY",
+  "why": "U.S. jurisdiction is identified, but its relative friendliness to privacy protection is not established."
+ },
+ "U014": {
+  "verdict": "YES",
+  "why": "The passage provides reporting tools, the copyright agent's contact details, and required notice contents."
+ },
+ "U015": {
+  "verdict": "YES",
+  "why": "The passage identifies IP addresses as collected connection information and also describes approximate-location collection."
+ },
+ "U016": {
+  "verdict": "YES",
+  "why": "The service claims exclusive ownership of all rights to submitted creative ideas and suggestions."
+ },
+ "U017": {
+  "verdict": "NO",
+  "why": "The passage addresses arbitration without discussing product expectations or requirements."
+ },
+ "U018": {
+  "verdict": "NO",
+  "why": "The passage contains warranty and liability provisions but no restriction on alternative accounts."
+ },
+ "U019": {
+  "verdict": "NO",
+  "why": "The passage describes voluntary account deletion, not termination for breaching terms."
+ },
+ "U020": {
+  "verdict": "NO",
+  "why": "The passage discusses policy updates and contains no information about tracking technologies."
+ },
+ "U021": {
+  "verdict": "YES",
+  "why": "Information supports recommendations, responses to questions, social connections, and photo searches."
+ },
+ "U022": {
+  "verdict": "NO",
+  "why": "The passage discusses ownership of service software without defining any license granted over user content."
+ },
+ "U023": {
+  "verdict": "NO",
+  "why": "The passage primarily lists data categories, without describing many different purposes for their use."
+ },
+ "U024": {
+  "verdict": "PARTLY",
+  "why": "Partner-supplied information is covered, but collection about people who never interacted with the service is not explicit."
+ },
+ "U025": {
+  "verdict": "NO",
+  "why": "The passage addresses deletion procedures without prohibiting new accounts for banned users."
+ },
+ "U026": {
+  "verdict": "YES",
+  "why": "Information is used for personalization, communications, enforcement, verification, legal proceedings, and research."
+ },
+ "U027": {
+  "verdict": "NO",
+  "why": "Public-data APIs and disclosure grounds do not establish required device permissions."
+ },
+ "U028": {
+  "verdict": "PARTLY",
+  "why": "A survival clause is provided, but no duty to defend, indemnify, or hold harmless appears."
+ },
+ "U029": {
+  "verdict": "PARTLY",
+  "why": "Content removal follows termination without notice, but independent discretionary deletion of specific content is not stated."
+ },
+ "U030": {
+  "verdict": "YES",
+  "why": "The passage explicitly describes collecting and storing location data depending on settings."
+ },
+ "U031": {
+  "verdict": "YES",
+  "why": "Information supports accounts, messaging, AI features, analytics, payments, troubleshooting, and product development."
+ },
+ "U032": {
+  "verdict": "YES",
+  "why": "Purchase information is retained for seven years afterward to satisfy a legal documentation obligation."
+ },
+ "U033": {
+  "verdict": "NO",
+  "why": "The passage defines the terms' scope without granting rights to use user content."
+ },
+ "U034": {
+  "verdict": "YES",
+  "why": "Google Location Sharing lets others see your location or estimated arrival time."
+ },
+ "U035": {
+  "verdict": "YES",
+  "why": "Accounts are permanently terminated for violating the policy against child sexual abuse and exploitation."
+ },
+ "U036": {
+  "verdict": "YES",
+  "why": "Information is used for research, personalization, advertising, troubleshooting, and product improvement."
+ },
+ "U037": {
+  "verdict": "NO",
+  "why": "The third-party processing described serves legally required age verification, with no nonessential sharing identified."
+ },
+ "U038": {
+  "verdict": "PARTLY",
+  "why": "The promise against sharing covers nonpublic information, rather than all personal data."
+ },
+ "U039": {
+  "verdict": "YES",
+  "why": "The service explicitly says it may infer general location from your IP address."
+ },
+ "U040": {
+  "verdict": "NO",
+  "why": "The passage describes processing and security measures without mentioning archived agreements."
+ },
+ "U041": {
+  "verdict": "PARTLY",
+  "why": "Users may supply locations and street addresses, but GPS coordinates are not mentioned."
+ },
+ "U042": {
+  "verdict": "YES",
+  "why": "The passage explains uses including communications, personalization, advertising, compliance, and fraud prevention."
+ },
+ "U043": {
+  "verdict": "YES",
+  "why": "The license expressly permits using submitted content, which may include personal information, to train AI models."
+ },
+ "U044": {
+  "verdict": "PARTLY",
+  "why": "The introduction promises collection information and links to resources, but provides no actual collection methods."
+ },
+ "U045": {
+  "verdict": "PARTLY",
+  "why": "The passage limits arbitration relief and references a class-action waiver without stating the complete prohibition."
+ },
+ "U046": {
+  "verdict": "NO",
+  "why": "Recipients may store or reshare messages, but the passage does not say the service can read private messages."
+ },
+ "U047": {
+  "verdict": "NO",
+  "why": "The passage discusses app ownership and user postings without restricting political discussion or campaigning."
+ },
+ "U048": {
+  "verdict": "NO",
+  "why": "The passage describes internal uses of personal data without identifying nonessential third-party disclosures."
+ },
+ "U049": {
+  "verdict": "YES",
+  "why": "Spotify expressly uses precise location data with permission for features such as nearby-event recommendations."
+ },
+ "U050": {
+  "verdict": "YES",
+  "why": "The service may remove content for breaches of its terms, rules, or policies."
+ },
+ "U051": {
+  "verdict": "PARTLY",
+  "why": "The passage describes a limited set of advertising and creator-promotion uses, rather than many different purposes."
+ },
+ "U052": {
+  "verdict": "YES",
+  "why": "Third-party providers such as Google Analytics use cookies and other tracking technologies to analyze service usage."
+ },
+ "U053": {
+  "verdict": "YES",
+  "why": "The copyright policy provides for removing infringing material and terminating repeat infringers."
+ },
+ "U054": {
+  "verdict": "NO",
+  "why": "Compliance with applicable laws does not identify a governing court or establish weaker privacy protections."
+ },
+ "U055": {
+  "verdict": "NO",
+  "why": "The passage concerns content licensing and responsibility, without any severability provision."
+ },
+ "U056": {
+  "verdict": "YES",
+  "why": "Disputes require individual, not class, arbitration, and courts can enforce the prohibition on class actions."
+ },
+ "U057": {
+  "verdict": "PARTLY",
+  "why": "Information is combined across Snapchat features, but combination across separate products is not established."
+ },
+ "U058": {
+  "verdict": "YES",
+  "why": "The passage uses plain language, short sentences, and clear explanations of user choices."
+ },
+ "U059": {
+  "verdict": "PARTLY",
+  "why": "The restrictions cover violence-promoting conspiracy theories, but not violent or extremist content generally."
+ },
+ "U060": {
+  "verdict": "PARTLY",
+  "why": "Boston courts are designated, but the passage does not establish that their jurisdiction offers weaker privacy protection."
+ },
+ "U061": {
+  "verdict": "PARTLY",
+  "why": "Download safety is disclaimed and antivirus precautions are recommended, but responsibility for all resulting losses is not assigned."
+ },
+ "U062": {
+  "verdict": "NO",
+  "why": "The passage addresses Element's intellectual property and access license, not ownership of user content."
+ },
+ "U063": {
+  "verdict": "NO",
+  "why": "The passage explains contract withdrawal and refunds without addressing invalid provisions."
+ },
+ "U064": {
+  "verdict": "PARTLY",
+  "why": "Broad device information and optional contacts or location access are described, but mandatory app permissions are not established."
+ },
+ "U065": {
+  "verdict": "YES",
+  "why": "Personal information, interests, and activity may be used to personalize advertisements."
+ }
+}

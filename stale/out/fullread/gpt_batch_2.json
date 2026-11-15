@@ -1,0 +1,65 @@
+{
+ "D1": {
+  "C1": [
+   {
+    "piece": "P23",
+    "quote": "These terms apply if you also access or use our Products for any commercial or business purpose, including advertising, operating an app on our Platform, using our measurement services, managing a group or a Page for a business, or selling goods or services."
+   },
+   {
+    "piece": "P24",
+    "quote": "These guidelines apply if you create or administer a Facebook Page, group, or event, or if you use Facebook to communicate or administer a promotion."
+   },
+   {
+    "piece": "P18",
+    "quote": "You can only use our copyrights or [trademarks (or any similar marks)] as expressly permitted by our [Brand Usage Guidelines] or with our prior written permission."
+   },
+   {
+    "piece": "P23",
+    "quote": "These guidelines outline the policies that apply when you offer products or services for sale on Facebook, Instagram, and WhatsApp."
+   },
+   {
+    "piece": "P24",
+    "quote": "These terms govern use of our Generative AI products and features."
+   }
+  ],
+  "C2": [
+   {
+    "piece": "P12",
+    "quote": "If we disable your account for a violation of our Terms, the , or other terms and policies, you agree not to create another account without our permission."
+   }
+  ],
+  "C3": [
+   {
+    "piece": "P19",
+    "quote": "We will notify you (for example, by email or through our Products) at least 30 days before we make changes to these Terms and give you an opportunity to review them before they go into effect, unless the changes are required by law."
+   }
+  ],
+  "C4": [
+   {
+    "piece": "P10",
+    "quote": "We don't sell your personal information and we don't share information that directly identifies you (such as your name, email address or other contact information) with advertisers unless you give us specific permission."
+   }
+  ]
+ },
+ "D2": {
+  "C1": [],
+  "C2": [],
+  "C3": [],
+  "C4": [
+   {
+    "piece": "P2",
+    "quote": "Websites and apps provided by other companies that use the Meta Products, including companies that incorporate Meta technologies into their websites and apps. Meta uses cookies and receives information when you visit those sites and apps, including [device information] and information about your activity, without any further action from you. This occurs whether or not you have a Facebook or Instagram account or are logged in."
+   },
+   {
+    "piece": "P1",
+    "quote": "We use cookies if you have a Facebook or Instagram account, use the [Meta Products], including our website and apps, or visit other websites and apps that use the Meta Products (including the Like button). Cookies enable Meta to offer the Meta Products to you and to understand the information that we receive about you, including information about your use of other websites and apps, whether or not you are registered or logged in."
+   }
+  ],
+  "C5": [
+   {
+    "piece": "P3",
+    "quote": "Yes, other companies use cookies on the Meta Products to provide advertising, measurement, marketing and analytics services to us, and to provide certain features and improve our services for you.\n\nFor example, other companies’ cookies help tailor ads off of Meta Products, measure their performance and effectiveness and support marketing and analytics."
+   }
+  ]
+ }
+}

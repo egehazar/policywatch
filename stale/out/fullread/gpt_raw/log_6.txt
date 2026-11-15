@@ -1,0 +1,1651 @@
+OpenAI Codex v0.154.0
+--------
+workdir: C:\Users\egeha\AppData\Local\Temp\claude\8e505c2afe5694b7\c49ddd07-ca2e-4999-982e-7a6829474768\scratchpad\gpt_grade\empty
+model: gpt-6-astra
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 01a1dec9-7727-7523-ba65-973a2f8b3063
+--------
+user
+You are a rater in a pre-registered evaluation. Your only input is the task file pasted below, after the line of
+equals signs. Read ALL of it before answering. The task instructions are at the top of it. Follow them exactly.
+
+Rules:
+- Do not open, list or search any file or directory, do not run commands, and do not use the web. Judge from the
+  text below only.
+- Quote verbatim: copy the span exactly from the piece you cite.
+- Cover every listed case of every document in the file. Use an empty list when a case is not stated.
+- Where the task says to write the JSON object to an output file: do not write any file. Instead, your final reply
+  must be ONLY that JSON object, with nothing before or after it.
+
+==========================================================================================
+# Rating task: where does this policy state each case?
+
+ToS;DR (Terms of Service; Didn't Read) summarises policies with "cases", for example "You must create an account to
+use this service". Below are one or more platform documents in their CURRENT version, each cut into numbered pieces
+(P1, P2, ...) in document order, followed by a list of cases for that document (C1, C2, ...). Each case has a title,
+ToS;DR's description and its classification (good / neutral / bad / blocker: which way it cuts for users).
+
+Read the whole document. For EACH listed case, find EVERY passage that states or clearly implies the case for this
+platform, so that a ToS;DR curator could quote it as the evidence. A passage that is only on the same topic, states
+the opposite, or needs another passage to make the case does not count. Some cases are stated in several places;
+some are not stated at all in this version.
+
+For each passage you find, give the piece label and a verbatim quote of the shortest span (usually one or two
+sentences) that states the case, copied exactly from that piece. List at most 5 passages per case, the clearest
+first. If the document does not state the case, give an empty list.
+
+Write ONLY a JSON object to the output file named in your instructions, in this shape, covering every listed case of
+every document:
+  {{"D1": {{"C1": [{{"piece": "P12", "quote": "exact text"}}, ...], "C2": [], ...}}, "D2": {{...}}}}
+
+
+## D1: Pinterest, Privacy Policy (current version, 36 pieces)
+
+### D1 P1
+Privacy Policy
+
+==================
+
+Table of contents
+
+_We're updating our Privacy Policy, effective 12 November 2026. You can preview the updated Privacy Policy ._
+
+State Privacy Law Disclosure & Notice at Collection
+
+===================================================
+
+**This applies only if you are a resident of a US state governed by a state-level privacy law. This page also serves as our California Notice at Collection.**
+
+Summary of changes
+
+==================
+
+We work hard to make our use of personal data transparent and to make your rights and choices easy to understand. We have added more details on how we train the models that support our products and services including those using generative artificial intelligence, how long we keep your information, and changes to our international data transfer mechanisms. If you are outside the EEA, Switzerland or the United Kingdom, we’ve outlined how we may share data with partners to allow advertisers to reach you on other websites and apps.
+
+Thank you for using Pinterest!
+
+==============================
+
+Our mission is to bring everyone the inspiration to create a life they love. To do that, we show you personalised content and ads we think you’ll be interested in based on information we collect from you and other parties.
+
+### D1 P2
+We wrote this policy to help you understand what information we collect, how we use it and what choices you have regarding it. Some of the concepts below are a little technical, but we’ve tried our best to explain things in a simple and clear way.
+
+Scope of the Privacy Policy
+
+===========================
+
+This is Pinterest’s global Privacy Policy. We have highlighted below where a particular section applies to you based on where you live.
+
+For the purposes of the General Data Protection Regulation (‘**GDPR**’), if you are a resident in the EEA, Switzerland, and the UK, Pinterest Europe Ltd. and Pinterest, Inc. are joint data controllers of your personal data. Pinterest Europe Ltd. is an Irish company with its registered office at Waterloo Exchange, 3rd Floor, Waterloo Road, Dublin 4, Ireland. Pinterest, Inc. is a US company with its registered office at 651 Brannan St., San Francisco, CA 94107, USA. Pinterest Europe Ltd is the responsible controller for fulfilling key obligations under the GDPR. If you have any questions about our data processing activities, please contact our .
+
+We collect information in a few different ways
+
+==============================================
+
+### 1\. When you give it to us or give us permission to obtain it
+
+When you use Pinterest websites, apps, services, technologies, APIs, widgets or any other , such as Shuffles, or features that we offer (‘Pinterest’ or the ‘Services’), you voluntarily share certain information.
+
+### D1 P3
+* **Account information**: When you join our Services, we collect information such as your name, email address, date of birth, gender, country of residence, interests and preferred language. If you have a business account, depending on where you live, you may also have the option to add race and ethnicity information to your profile.
+
+* **Content**: We collect information when you save or upload Pins, photos or other content, interact with Pins or other content (for example, commenting or adding a Pin), or where you send messages and interact with other users.
+
+* **Precise location information**: Depending on where you live, you can choose to share your precise location using your device settings.
+
+* **Your communications with us**: If you contact us for customer support or otherwise communicate with us, we collect the content of these communications.
+
+* **Your contacts**: If you previously chose to sync your contacts with your account, we will continue to process certain information about your contacts who are Pinterest users to help you find one another on our Services.
+
+### 2\. We also get technical information when you use Pinterest
+
+When you use a website, mobile application or other internet service, certain internet and electronic network activity information gets created and logged automatically. This is also true when you use Pinterest. Here are some of the types of information we collect:
+
+### D1 P4
+* **Device information**: We collect information about the device you use to access our Services, including the type of device, operating system, network service provider, settings and unique device identifiers.
+
+* **Log data**: When you use our Services, our servers record information (“log data”), including information that your browser automatically sends whenever you visit a website, or that your mobile app automatically sends when you’re using it. This log data includes, for example, your Internet Protocol (IP) address, activity on websites you visit that incorporate Pinterest features (such as the 'Save' button), browser type and settings, and the date and time when you accessed the Services. You can .
+
+* **Information from cookies and similar technologies**: We also use ‘cookies’ or similar technologies to obtain log data. For example, we use cookies to store your language preferences or other settings so you don‘t have to set them up every time you visit Pinterest. For more information about how we use cookies, please review our .
+
+### D1 P5
+* **Usage data and inferences**: When you’re on our Services, we use your activity – such as which Pins you click on, terms you search for, boards you create, and any text that you add in a comment or description – along with other information that you provided when you first signed up as well as information from our partners and advertisers to make inferences about you and your preferences. For example, if you create a board about travel, we may infer that you are a travel enthusiast. We may also infer other information, such as your education or professional experience.
+
+* **Location information**: We use your IP address to infer your approximate location, even if you don't choose to share your precise location, and photos that you share may include information about the location where they were taken.
+
+* **User choices**: We will keep a record of choices you’ve selected in your settings, including privacy settings and whether you have enabled notifications.
+
+### 3\. Our partners and advertisers share information with us
+
+We also receive information about you and your activity outside Pinterest from our affiliates, advertisers, partners and other third parties we work with. For example:
+
+### D1 P6
+* **Third-party platforms**: If you register for or log in to the Service using a third-party platform (such as Facebook or Google), they will furnish certain information to us to facilitate your account creation or login with us. In addition, if you to our Services, we may use information from those accounts to improve your experience. Further, some third-party applications use Pinterest features such as our ‘Save’ button, or you can install our ‘Save’ button for your browser. If so, we collect log data from those sites or apps, including usage data.
+
+* **Technical service partners**: We sometimes receive information about you from technical service partners, including from marketing firms.
+
+### D1 P7
+* **Advertisers or other partners**: Online advertisers or third parties provide information to us about you to measure, report on or improve the performance of ads on Pinterest, or to help us better understand what kinds of ad to show you on Pinterest. For example, we may receive information about your visits to an advertiser's site, purchases you made from them or information about your interests from a third-party service, which we might use to help show you ads on the Service. Sometimes we get this information through the Pinterest Tag (a piece of code an advertiser puts on their site), which delivers insights to us and our ad partners about actions that a person takes on their website after viewing an ad on our Services. and the types of information advertisers or other third parties share with us.
+
+You can control how we use this information to personalise your experience and the ads you see on Pinterest in your .
+
+How we use the info we collect
+
+==============================
+
+**We’re committed to showing you content that’s relevant, interesting and personal to you. To do that, we use your information to provide and improve your experience, including to:**
+
+* Identify you when you use our Services.
+
+### D1 P8
+* Recommend Pins, boards or content that you might like based on your activity on our Services and your off-site behaviour. For example, if we see that you’re into cooking-related ads or content on Pinterest, we may suggest food-related Pins to you. Similarly, if you visit websites that sell electric guitars, we may suggest guitar Pins to you. For more information on how we recommend content to you, please visit our .
+
+* respond to your questions or comments.
+
+* Build your community on our Services. We use your info to suggest other people who have similar interests. For example, if you follow interior design boards, we may suggest interior designers that you might like. We also use data to help your friends and contacts find you on Pinterest. For example, people can search for your account on Pinterest using your email address. If you previously chose to sync your contacts with your Pinterest account, we will process certain information about your contacts who are Pinterest users to help you find them on our Services.
+
+* Allow searching with photos, if you choose. For example, if you take a photo of a pair of shoes or a piece of furniture you like, you can ask us to show you similar items. You can opt in to this in your device operating system settings.
+
+### D1 P9
+* Depending on where you live, and with your consent, identify your precise location and customise your experience on our Services. For example, if we know that you’re near a retailer, we may show you Pins from that retailer that may be of interest to you. You can opt in to (and out of) this in your device operating system settings.
+
+* Send you updates, including by email, push notification, SMS or phone. You can unsubscribe from our promotional emails at any time and decide to by updating your .
+
+**We use your information in our efforts to improve our Services, keep our users and the public safe, and protect legal interests. To do so, we:**
+
+* Review your activity and messages on our Services to detect spam, enforce our Terms and policies, or activity that poses a risk to our community or the public. This can include working with law enforcement to keep Pinterest safe.
+
+* Analyse users’ log data and device information to identify and investigate suspicious behaviour or violations of our policies or Terms.
+
+* Conduct , as appropriate. This may include facial age estimation and matching your face against a government ID.
+
+* May access user information in relation to a legal claim, litigation or regulatory proceeding.
+
+* Conduct analytics and research on who is using our Services and what they are doing. For example, by logging how often people use two different versions of a feature on Pinterest, we can understand which version is better.
+
+### D1 P10
+* Improve the products and services of our family of companies and offer new features. For example, using information to train, develop and improve our technology, such as our machine learning models, regardless of when Pins were posted. This includes, for example, Pinterest’s , which is trained using images in Pins posted to our Services. Pinterest also has features that are supported by generative artificial intelligence technology. Learn more .
+
+* Create aggregated or de-identified information that cannot reasonably be used to identify you. Pinterest processes, maintains and uses this information only in a de-identified fashion for the purposes of this Privacy Policy and will not attempt to re-identify such information.
+
+**We also use your information to personalise the ads you see**
+
+Specifically, we use the information we collect to:
+
+### D1 P11
+* Decide which ads to show you directly on Pinterest, and, depending on where you live, enabling Pinterest directly or through partners to show you ads both and Pinterest. For example, if you show an interest in camping tents on Pinterest or browse sleeping bags on one of our partner’s websites, we may show you ads for other outdoor products. Depending on your age, location and privacy settings, we customise the ads we show you by identifying your interests based on your on-site and off-site activities, as well as by using information we receive from ad partners or other third parties. We also offer features supported by generative artificial intelligence to enable our advertisers to add limited content to their ads. Where we use cookies to identify your off-site interests, we’ll get your consent where required.
+
+* Advertise Pinterest products and services to you on other sites and apps. To do this, we disclose information such as cookie IDs, your IP address or a hashed version of your email address to third parties, such as Facebook Ads, Google Marketing Platform and others, who may combine that information with other information they already have about you and deliver ads about Pinterest to you. about our marketing practices off Pinterest and how to opt out.
+
+### D1 P12
+* Tell our ad partners how their Pinterest ads are doing and how to make them better. We disclose information about the ads you see or interact with on Pinterest to our advertisers and third-party companies to improve the performance of the ads that we or they use to measure or improve the delivery and performance of ads or content on websites and apps. Some of this information is aggregated. For example, we would report to an advertiser that a certain percentage of people who viewed a Pin went on to visit that advertiser's site. Depending on where you live and your settings, we may also disclose this information at an individual level. For example, we would let an advertiser know that a particular Pin has been saved by certain people. To find out more about reporting on ads, please .
+
+Some of these activities may be considered ‘targeted advertising’, ‘sharing’ or ‘selling’, as those terms are defined under certain state privacy laws in the US. You can opt out of Pinterest using and disclosing your information for these purposes. To do so, visit your .
+
+When we use cookies to learn about your behaviour on or off of our services, we or our partners will obtain consent that we may need under applicable law. To find out more about how we use cookies, please see our .
+
+Additional info for EEA, Swiss and UK data subjects: Legal bases we rely on where we use your information
+
+=========================================================================================================
+
+### D1 P13
+The below section only applies to residents in the EEA, Switzerland and the UK. Under applicable data protection law in the European Region (such as the GDPR), companies must have a legal justification to process your information for the various purposes described in this Privacy Policy.
+
+You also have particular rights available to you depending on which legal basis we use, and we’ve explained these below.
+
+We use info based on legitimate interests
+
+We rely on our legitimate interests or those of a third party where they are not outweighed by your interests and fundamental rights.
+
+To show you content that’s relevant, interesting and personal to you, we:
+
+-------------------------------------------------------------------------
+
+* Identify you when you use our Services.
+
+* Recommend Pins, boards, topics or content you might like based on your activity on our Services. For example, if you engage with cooking-related ads or content on Pinterest, we may suggest food-related Pins and boards.
+
+* Customise your Pinterest experience based on your offsite behaviour. For example, if you visit websites that sell electric guitars, we may suggest guitar-related Pins to you.
+
+#### Legitimate interests relied on
+
+It is in our interest and in the interest of Pinterest users to receive a personalised, unique and relevant offering, as this is why users come to the Service.
+
+#### Information categories used
+
+* Account information (excluding race or ethnicity)
+
+* Content
+
+### D1 P14
+* Location information
+
+* Log data
+
+* Information from cookie data and similar technologies – to find out more about how we use cookies, please see our
+
+* Device information
+
+* Usage data and inferences
+
+* User choices
+
+* Data from other sources (third-party platforms; technical service partners; advertisers and other partners)
+
+To build your community on our Services, we:
+
+--------------------------------------------
+
+* Suggest other people who have similar interests. For example, if you follow interior design boards, we may suggest interior designers who you might like.
+
+* Help your friends and contacts find you on Pinterest. For example, if you sign up using a Facebook account, we can help your Facebook friends find you on Pinterest when they first sign up for Pinterest. Or people can search for your account on Pinterest using your email address. If you choose to sync your contacts with your Pinterest account, we will access contacts stored on your device to help you find out if your contacts are on our Services.
+
+#### Legitimate interests relied on
+
+It is in our interest to help you make connections you may know in order to deliver a relevant and unique Service.
+
+#### Information categories used
+
+* Account information (excluding race or ethnicity)
+
+* Content
+
+* Location information
+
+* Your contacts
+
+* Log data
+
+* Information from cookie data and similar technologies – to find out more about how we use cookies, please see our
+
+* Device information
+
+### D1 P15
+* Usage data and inferences
+
+* User choices
+
+* Data from other sources (third-party platforms; technical service partners; advertisers and other partners)
+
+To make and keep Pinterest safe, we:
+
+------------------------------------
+
+* Work with law enforcement and researchers. We may get requests for account information from law enforcement authorities such as the police or courts, or from researchers to study activity on Pinterest. To find out more about how we respond to law enforcement requests, please see our .
+
+* Analyse users’ log data and device information to identify and investigate suspicious behaviour or violation of our policies or Terms.
+
+* Review your activity and messages on our Services to detect spam or activity that poses a risk to the safety of you, our community and/or members of the public.
+
+* Conduct age verification. This may include facial age estimation and matching your face against a government ID.
+
+#### Legitimate interests relied on
+
+* It is in our interest and in the interest of Pinterest users to secure Pinterest systems and fight spam, threats, abuse or infringement activities, and promote safety and security on Pinterest.
+
+* It is also in our interest and the interests of other users to ensure our Services are used in accordance with our Terms.
+
+#### Information categories used
+
+The actual information used depends on the factual circumstances, but could include any of the following:
+
+* Account information (excluding race or ethnicity)
+
+### D1 P16
+* Content
+
+* Location information
+
+* Your communications with us
+
+* Log data
+
+* Information from cookie data and similar technologies – to find out more about how we use cookies, please see our
+
+* Device information
+
+* Usage data and inferences
+
+* User choices
+
+* Data from other sources (third-party platforms; technical service partners; advertisers and other partners)
+
+To improve, innovate and develop our Services, we:
+
+--------------------------------------------------
+
+* Conduct analytics and research on who is using Pinterest and what they are doing. For example, by logging how often people use two different versions of a feature on Pinterest, we can understand which version is better.
+
+* Improve the products and services of our family of companies and offer new features. For example, using information to train, develop and improve our technology such as our machine learning models, regardless of when Pins were posted. Some of this information may be aggregated or de-identified. Here are some ways in which Pinterest uses your information in order to improve its products and services, including to offer new features:
+
+* As part of improving the existing search feature, Pinterest uses machine learning technology to categorise images in Pins into different . For this purpose, Pinterest uses any Pins on Pinterest.
+
+* Pinterest also has features that are supported by generative artificial intelligence technology. Learn more .
+
+#### Legitimate interests relied on
+
+### D1 P17
+It is in our interest and the interests of Pinterest’s users that we improve, promote and develop the Service in an informed way.
+
+#### Information categories used
+
+* Account information (excluding race or ethnicity)
+
+* Content
+
+* Location information
+
+* Your communications with us
+
+* Log data
+
+* Information from cookie data and similar technologies – to find out more about how we use cookies, please see our
+
+* Device information
+
+* Usage data and inferences
+
+* User choices
+
+* Data from other sources (third-party platforms; technical service partners; advertisers and other partners)
+
+To seek legal advice or protect Pinterest in litigation or other disputes, we:
+
+------------------------------------------------------------------------------
+
+* Preserve and share information when we seek legal advice or seek to protect ourselves in the context of litigation and other disputes. This includes violations of our Terms and policies.
+
+**Legitimate interests relied on**
+
+* It is in our interest and in the interest of Pinterest users to respond to complaints, prevent and address fraud, unauthorised use of Pinterest, violations of our Terms and policies, or other harmful or illegal activity.
+
+* It is in our interest to seek legal advice and protect ourselves (including our rights, personnel, property or products), our users or others, including as part of investigations or regulatory enquiries and litigation or other disputes.
+
+**Information categories used**
+
+### D1 P18
+The actual information used depends on the factual circumstances, but could include any of the following:
+
+* Account information (excluding race or ethnicity)
+
+* Content
+
+* Location information
+
+* Your communications with us
+
+* Log data
+
+* Information from cookie data and similar technologies – to find out more about how we use cookies, please see our
+
+* Device information
+
+* Usage data and inferences
+
+* User choices
+
+* Data from other sources (third-party platforms; technical service partners; advertisers and other partners)
+
+To communicate with you, we:
+
+----------------------------
+
+* respond to your questions or comments.
+
+* Send you updates (such as when certain activity, like saves or comments, happens on Pinterest) and news by email or push notification, depending on your settings. For example, we send weekly updates that include Pins you may like. Depending on where you live, this may be marketing and in certain cases we will obtain your consent. You can decide to by updating your .
+
+**Legitimate interests relied on**
+
+* It is in our interest and in the interest of Pinterest users to continuously improve and develop the customer support we provide.
+
+* It is in our interest and in the interest of Pinterest users to learn of new features and elements that may be of interest to them.
+
+**Information categories used**
+
+* Account information (excluding race or ethnicity)
+
+* Content
+
+* Location information
+
+* Your communications with us
+
+* Log data
+
+### D1 P19
+* Information from cookie data and similar technologies – to find out more about how we use cookies, please see our
+
+* Device information
+
+* Usage data and inferences
+
+* User choices
+
+* Data from other sources (third-party platforms; technical service partners; advertisers and other partners)
+
+To deliver advertising that is relevant, interesting and personal on our Services, we:
+
+--------------------------------------------------------------------------------------
+
+* Decide which ads to show you based on information on our Services. For example, if you show an interest in camping tents on Pinterest, we may show you ads for other outdoor products. We also offer features supported by generative artificial intelligence to enable our advertisers to add limited content to their ads.
+
+**Legitimate interests relied on**
+
+It is in our interest and in the interest of Pinterest users to receive relevant and interesting adverts for products or services they are interested in, as opposed to receiving randomised and generic ads that they may have no interest in. This is also the primary funding of the service and allows users to continue enjoying the service free of charge and allows Pinterest to generate revenue.
+
+**Information categories used**
+
+* Account information (excluding race or ethnicity)
+
+* Content
+
+* Location information
+
+* Your communications with us
+
+* Log data
+
+### D1 P20
+* Information from cookie data and similar technologies – to find out more about how we use cookies, please see our
+
+* Device information
+
+* Usage data and inferences
+
+* User choices
+
+* Data from other sources (third-party platforms; technical service partners; advertisers and other partners)
+
+To provide measurement and ad analytics, we:
+
+--------------------------------------------
+
+* Use aggregated information from our measurement providers to tell our ad partners how their Pinterest ads are performing and how to make them better. For example, we would report to an advertiser that a certain percentage of people who viewed a Pin went on to visit that advertiser's site. To find out more about reporting on ads, please .
+
+**Legitimate interests relied on**
+
+It is in our interest to enable business accounts and advertisers to view and understand how their ads or content performed and the audience that viewed or interacted with their ads or content. This is so that they can make informed decisions (such as what kinds of ad campaigns they may want to run, the type of audience they want to reach and the types of content that users enjoy the most). This is also in the interest of other users as this helps keep the advertising and other content we show users relevant and entertaining, and keeps the Service free for all users.
+
+**Information categories used**
+
+* Account information (excluding race or ethnicity)
+
+* Content
+
+* Location information
+
+* Log data
+
+### D1 P21
+* Information from cookie data and similar technologies – to find out more about how we use cookies, please see our
+
+* Device information
+
+* Usage data and inferences
+
+* Data from other sources (third-party platforms; technical service partners; advertisers and other partners)
+
+To deliver ads outside Pinterest that are relevant, interesting and personal to you about Pinterest, we:
+
+--------------------------------------------------------------------------------------------------------
+
+* Advertise Pinterest products and services to you on other sites. To do this, we disclose information such as cookie IDs, your IP address and a hashed version of your email address to services we use to market Pinterest to you on sites and apps other than Pinterest, such as Facebook Ads and Google Marketing Platform.
+
+**Legitimate interests relied on**
+
+We have a legitimate interest in delivering ads that are relevant, interesting and personal to you in order to generate revenue.
+
+**Information categories used**
+
+* Account information (excluding race or ethnicity)
+
+* Content
+
+* Location information
+
+* Log data
+
+* Information from cookie data and similar technologies – to find out more about how we use cookies, please see our
+
+* Device information
+
+* Usage data and inferences
+
+* User choices
+
+* Data from other sources (third-party platforms; technical service partners; advertisers and other partners)
+
+We use info to comply with our legal obligations
+
+Why and how we use your info
+
+### D1 P22
+----------------------------
+
+**To comply with legal and regulatory obligations**
+
+* Accessing, storing, preserving or sharing information when doing so in response to a court order, search warrant, production order, subpoena or similar legal request.
+
+* Accessing, storing, preserving or sharing information when we think it is reasonably necessary to comply with legal or regulatory obligations, including sharing with researchers, law enforcement or other authorities.
+
+* To deal with and resolve requests and complaints. We retain correspondence relating to data subject requests under GDPR for two years, in case those requests are not resolved and this correspondence is required in order to handle any resulting complaints. In such cases, the correspondence is then retained while those complaints are being resolved.
+
+**Examples of laws that can require us to process information in the above way include:**
+
+* Regulatory matters: to comply with regulatory obligations such as under privacy laws (GDPR) and the Digital Services Act (DSA).
+
+* Civil, commercial, criminal or consumer protection matters: where we are in receipt of a court order to disclose information for the purposes of court proceedings or regulatory enquiries (e.g. orders or mandatory requests under the Irish Competition and Consumer Protection Act 2014, GDPR).
+
+* Corporate and taxation matters: obligations such as the Irish Companies Act 2014 and the Taxes Consolidation Act 1997.
+
+### D1 P23
+**Issues relating to the safety of our Service and to protect rights, property and users**
+
+* We keep information where it is necessary to investigate misuse of our Services, such as spam and other bad experiences. If we disable an account due to violation of our Terms, we also preserve information about that user for safety, security and integrity purposes.
+
+Information categories used
+
+---------------------------
+
+Any of the categories of information listed in ‘We collect information in a few different ways’ except for Precise location information (which we don’t collect from users in EEA, Switzerland or the UK).
+
+We use info where you give us consent
+
+How and why we use your info
+
+----------------------------
+
+Where you have given us consent (for example through your device settings):
+
+* Allowing searching with photos. For example, if you take a photo of a pair of shoes or a piece of furniture you like, you can ask us to show you similar items. You can opt in to this in your device operating system settings.
+
+* Ads on Pinterest based on off-site activities. We customise the ads we show you by identifying your interests based on your off-site activities, as well as by using information we receive from ad partners or other third parties. Where ad partners or other third parties share information with us about you, we rely on the consent they have already obtained.
+
+### D1 P24
+* Lead ads. If you submit information via a lead ad form (for example, to sign up for an advertiser’s mailing list or for a consultation), we will share that information with the advertiser as described on the form.
+
+* Promotion of Creators. If you choose to provide race or ethnicity information we will use it to promote you as a Creator, for example during Black History Month, or contact you with regard to events.
+
+Information categories used
+
+---------------------------
+
+Any of the categories of information listed in ‘We collect information in a few different ways’ except for Precise location information (which we don’t collect from users in EEA, Switzerland or the UK).
+
+Where we rely on consent, you can withdraw that consent at any time.
+
+Your rights and choices
+
+=======================
+
+We offer you certain choices to control your data. Depending on where you live (e.g. EEA, Switzerland, UK, USA), these choices may also be privacy rights that you have under local law. To exercise these rights, please visit your and, if you still need help, our .
+
+* **Access**: You can request access to the information that we collect and hold about you in a portable format. You can find more information about this .
+
+* **Correction/rectification**: You can correct your information by updating information in your profile.
+
+* **Deletion/erasure**: You can have your information deleted. In your settings, select 'Delete your data and account' and follow the instructions.
+
+### D1 P25
+* **Opt out of ‘targeted advertising’, ‘sharing’ or ‘sale’**: As explained above some of our activities may constitute ‘targeted advertising’, ‘sharing’ or ‘selling’ as those terms are defined under certain state privacy laws in the USA. You can opt out at any time by following the instructions in your Privacy and Data Settings menu. Note that you will still see ads on our Services, but they will not be informed by off-site data.
+
+Where we rely on consent, you can withdraw that consent at any time.
+
+Additional rights in the EEA, Switzerland and the UK
+
+If you live in the EEA, the UK or Switzerland, you also have some additional rights:
+
+* **Right to object or restrict processing**: You can object to direct marketing from us or where we rely on legitimate interests to process your information, such as where features supported by generative artificial intelligence are based on legitimate interests. You can object through this .
+
+* **Right to withdraw consent**: Where we rely on consent as a legal basis for processing your data, you can withdraw your consent at any stage. The lawfulness of Pinterest’s processing before you withdraw your consent will not be affected by such withdrawal.
+
+* **Right to portability**: You can have the information you provided to us sent to another organisation, where we hold this information with your consent or for the performance of a contract with you and where it's technically feasible for us to do so.
+
+### D1 P26
+* **Right to lodge a complaint**: If you reside in the EEA, Switzerland or the UK, you have the right to lodge a complaint with the supervisory authority of your country.
+
+* In the UK, the relevant data protection authority is the Information Commissioner's Office, Wycliffe House, Water Lane, Wilmslow, Cheshire, SK9 5AF, +44 (0303) 123 1113, email: casework@ico.org.uk.
+
+* In Ireland, the relevant data protection authority is the Data Protection Commission, 21 Fitzwilliam Square South, Dublin 2, D02 RD28, +353 (0)1 7650100 / + 353 1800 437737, email: info@dataprotection.ie or by using the following online form: .
+
+For any of the privacy rights and choices referenced, you can also submit a request to our DPO regarding the use and disclosure of your information.
+
+We will not discriminate against you if you choose to exercise your rights or options related to your personal information. These rights may be limited, for example if fulfilling your request would reveal personal data about another person, where they would infringe the rights of a third party (including our rights) or if you ask us to delete information which we are required by law to keep or have compelling legitimate interest to keep. If we deny your request to exercise your rights, you may have the right to appeal our decision by contacting us at .
+
+### D1 P27
+You have choices regarding your information on Pinterest. If you have a Pinterest account, many of these controls are built directly into Pinterest or your settings. For example, you can: , from other services (such as Facebook or Google), , and . We also support settings such as tracking settings on iOS and Android devices.
+
+You may also have choices available to you through the device or software you use to access Pinterest. For example:
+
+* The browser you use may let you control cookies or other types of local data storage.
+
+* Your mobile device lets you choose how and whether your precise location, photos, and other data is shared with us.
+
+For users who reside in certain US states and have enabled an opt-out preferences signal (such as Global Privacy Control), we will respect this preference when you use Pinterest.
+
+How and when we share information
+
+=================================
+
+Anyone can see the public content you post, such as boards and Pins you create and public profile information you give us. Depending on where you live, we also make this public information available through what are called APIs (a technical way to share information quickly). For example, a partner can study what their most popular Pins are or how their Pins are being shared on Pinterest by using a Pinterest API. We also share the categories of information described above:
+
+### D1 P28
+* With other services, at your direction. For example, when you decide to to third-party services, or when you publish your content on Pinterest to such services, you direct disclosure of certain information to those services. Creators may direct us to share information with advertisers or other partners for paid engagements.
+
+* Depending on where you live, and your privacy settings, we share data for advertising and related purposes, including showing you ads about Pinterest on third-party services, enabling partners to show you ads both and Pinterest, and helping advertisers understand how ads on Pinterest perform. For example, when you fill in a lead ad form, or click on an ad on Pinterest, we’ll share information related to that action with advertising partners. We may also provide partners with information about you so that advertisers can show you ads on or off of Pinterest. Find out more about how we support third-party advertising and the settings you can use to manage it .
+
+* With vendors that we employ to process information on our behalf based on our instructions and for the purposes described in this Privacy Policy. For example, we share data with security consultants to help us get better at identifying spam. Some information that we acquire may be collected by vendors on our behalf.
+
+### D1 P29
+* With law enforcement agencies, government agencies, researchers or other parties in compliance with laws, rules or regulations. For example, we may get requests for account information from law enforcement authorities such as the police or courts. We only disclose information in response to such requests if we believe that disclosure is reasonably necessary to comply with a law, regulation or legal request; to protect the safety, rights or property of the public, any person or Pinterest; or to detect, prevent or otherwise address fraud, security or technical issues. We may also share information if we believe that it is necessary to prevent imminent and serious bodily harm to a person in emergency situations. To find out more about how we respond to law enforcement requests, please see our . We may share your publicly accessible information with independent researchers who meet certain criteria, in order to combat societal harms.
+
+* With our corporate family of companies, including wholly owned subsidiaries and affiliates. If we were to engage in a merger, acquisition, bankruptcy, dissolution, reorganisation or similar transaction or proceeding that involves the transfer of the information described in this Privacy Policy, we would share your information with a party involved in such a process (for example, a potential purchaser).
+
+Transferring your information
+
+=============================
+
+### D1 P30
+Pinterest is a worldwide service. By using our products or services, you authorise us to transfer and store your information outside your home country, including in the United States, for the purposes described in this policy. The privacy protections and the rights of authorities to access your personal information in such countries may not be equivalent to those of your home country.
+
+Additional steps for data transfers in the EEA, Switzerland and the UK
+
+If you live in the EEA, Switzerland or the UK, we take additional steps related to data transfers. Information controlled by Pinterest Europe Limited will be transferred or transmitted to, or stored and processed in, the United States or other countries outside of where you live for the purposes as described in this policy. Safeguards which we rely on in ensuring your information benefits from an adequate level of protection includes the following:
+
+* Adequacy decisions. These are decisions issued from the European Commission under Article 45 GDPR (or equivalent decisions under other laws) where they recognise that a country offers an adequate level of data protection. We transfer your information as described in ‘How we use the info we collect’ to some countries with such adequacy decisions, such as the countries listed here; or
+
+### D1 P31
+* Data Privacy Frameworks. For transfers of personal data of EEA, Switzerland and UK (and Gibraltar) residents to the USA, Pinterest relies on and has certified to the US Department of Commerce that it adheres to: the EU-US Data Privacy Framework (EU-US DPF), the UK (and Gibraltar) Extension to the EU-US DPF (UK Extension), and the Swiss-US Data Privacy Framework (Swiss-US DPF) (together the ‘Data Privacy Frameworks’). Pinterest, Inc. complies with Data Privacy Frameworks. To find out more about the Data Privacy Framework (DPF) programme, and to view our certification, please visit . The Data Privacy Frameworks are discussed in more detail below.
+
+* Standard contractual clauses (‘SCCs’). The European Commission has approved contractual clauses under Article 46 of the GDPR that allows companies in the EEA to transfer data outside the EEA. These (and their approved equivalent for Switzerland and the UK) are called standard contractual clauses. We rely on standard contractual clauses to transfer information as described in ‘How we use the info we collect’ to third parties in countries without an adequacy decision.
+
+While transfers to countries that don’t have an adequacy decision typically take place on the basis of SCCs, in certain circumstances, transfers can also take place on the basis of exemptions provided under data protection law. For example, sharing with law enforcement, in emergency situations where we learn that a person’s life is at risk.
+
+### D1 P32
+We also identify and use additional protections as appropriate for each data transfer. For example, we use:
+
+* Technical protections, such as encryption and pseudonymisation.
+
+* policies and processes to challenge disproportionate or unlawful government authority requests.
+
+For a copy of these adequacy decisions or SCCs, please contact us via the details provided in the Contact us section below.
+
+#### More information on the Data Privacy Frameworks
+
+In compliance with the Data Privacy Frameworks, Pinterest, Inc. commits to resolve DPF Principles-related complaints about our collection and use of your information. EU, UK and Swiss individuals with enquiries or complaints regarding our handling of personal data received in reliance on the Data Privacy Frameworks should first contact Pinterest Inc. at .
+
+Pinterest, Inc. commits to refer unresolved complaints concerning our handling of personal data received in reliance on the Data Privacy Frameworks to JAMS, an alternative dispute resolution provider based in the United States. If you do not receive timely acknowledgment of your DPF Principles-related complaint from us, or if we have not addressed your DPF Principles-related complaint to your satisfaction, please visit for more information or to file a complaint. The services of JAMS are provided at no cost to you.
+
+### D1 P33
+The Federal Trade Commission has jurisdiction over Pinterest, Inc.’s compliance with the Data Privacy Frameworks. Under certain conditions, it may be possible to invoke binding arbitration for complaints regarding DPF compliance not resolved by any of the other DPF mechanisms, see for additional information.
+
+Pinterest, Inc. remains responsible if its agent, when acting on its behalf, processes personal information in a manner inconsistent with the DPF Principles, unless it is not responsible for the event giving rise to the damage.
+
+How long we keep your information for
+
+=====================================
+
+We keep your information only so long as we need it to provide Pinterest to you and to fulfil the purposes described in this Policy. When we no longer need to use your information and there is no need for us to keep it to comply with our legal or regulatory obligations, we’ll either remove it from our systems or depersonalise it so that we can't use it to identify you.
+
+Additional information if you live in the EEA, Switzerland and the UK
+
+We keep your information for only as long as necessary for the purposes identified in this Privacy Policy, which include providing our Service, or for other legitimate purposes, such as complying with legal obligations, enforcing and preventing violations of our Terms, to fight spam, or protecting or defending our rights, property and users. The storage periods are determined on a case-by-case basis depending on the following factors:
+
+### D1 P34
+* **The nature of the information and why it is collected and processed:** The length of time we will keep your information will generally be determined by how long we need that information to provide you with our Services, including any optional features you use and to provide customer support. For example:
+
+* We keep account information, such as your name, email address and password, for as long as your account is in existence because we need it to operate your account.
+
+* We keep content such as information when you save or upload Pins, photos or other content, interact with Pins or other content, for as long as is necessary to process it for the purpose for which it was collected.
+
+* We keep your communications with us (for example, where you contact us for customer support or otherwise communicate with us) for a period of two years.
+
+* We generally keep log data for a period of 25 months to provide our Services to you, to make Pinterest safe, improve our product features and to deliver ads that are relevant, interesting and personal to you.
+
+* **Legal and regulatory reasons:** In certain cases, we also keep your information for legal and regulatory reasons, including after your Pinterest account has been deleted. For example:
+
+* **For litigation or regulatory matters:** For example, we retain information for as long as we need it for a legal claim, litigation or regulatory proceeding.
+
+### D1 P35
+* **To handle and resolve requests and complaints:** We retain correspondence relating to data subject requests under GDPR for two years, in case those requests are not resolved and this correspondence is required in order to handle any resulting complaints. In such cases, the correspondence is then retained while those complaints are being resolved. When a user submits a complaint to Pinterest, Pinterest retains limited personal data of the complainant which includes their name, username, and user ID associated with their email address, plus the content of support tickets for two years.
+
+* **To respond to requests from law enforcement authorities such as the police or courts:** For example, we retain/preserve your information for as long as is reasonably necessary where we receive a legal request for example a preservation order or search warrant related to your account.
+
+Our policy on children's information
+
+====================================
+
+Children under 13 are not allowed to use Pinterest. If you are based in a state or country with an older age requirement, you can only use the Services if you are at or over the age at which you can provide consent to data processing. Please visit the for more information.
+
+How we make changes to this policy
+
+==================================
+
+### D1 P36
+We may change this policy from time to time, and if we do, we’ll post any changes on this page. If you continue to use Pinterest after those changes are in effect, the new Policy shall apply to you. If the changes are significant, we may provide a more prominent notice, such as by sending you an email.
+
+Contact us
+
+==========
+
+The best way to get in touch with us or to exercise your options described above is through the . If you live in the United States, Pinterest, Inc. is responsible for your information. You can contact Pinterest Inc. at 651 Brannan Street, San Francisco, CA 94107, USA.
+
+You can also contact our .
+
+Effective date: 30 April 2025
+
+Table of contents
+
+-----------------
+
+
+## Cases for D1 (Pinterest, Privacy Policy)
+
+- C1. "First-party cookies are used". Description: First-party cookies only belong to the domain of the service and not a third party. Classification: neutral.
+- C2. " You are being tracked via social media cookies/pixels". Description: These types of cookies/pixels send information to social media sites when you interact with the service. Classification: bad.
+- C3. "The service claims to be GDPR compliant for European users". Description: The service has a different behavior towards users protected by the GDPR. Classification: good.
+- C4. "You may be tracked on other websites". Description: The service may use tracking technologies in third-party websites to track your online activity while you aren't visiting their Site. Classification: bad.
+- C5. "You can retrieve an archive of your data". Description: Users can request a copy of the data collected through the services and infer from it the amount of personal information that is processed and stored by the Service. This usually applies to Services GDPR compliants. Classification: good.
+- C6. "The service claims to be CCPA compliant for California users". Description: The service has a different behavior towards users protected by the California Consumer Privacy Act. Classification: good.
+- C7. "Your profile is combined across various products". Description: When using multiple services from one same company, they can combine these (unrelated) information sources about you to build up a single richer user profile about you. Classification: bad.
+- C8. "A complaint mechanism is provided for the handling of personal data". Description: The service provides users with contact information for an internal or external structure to lodge complaints. It also provides users with contact information for a higher data protection / privacy office in case the internal mechanism fails to satisfy the user. Classification: good.
+- C9. "Your personal information is used for many different purposes". Description: Personal Data can be processed for many reasons, including non essential processing such as for advertising, marketing and analytics purposes. Classification: bad.
+- C10. "You can request access, correction and/or deletion of your data". Description: Users have the right to access personal data hold by the Service, correct it and/or permanently delete it. This usually applies to Services GDPR compliants. Classification: good.
+
+## D2: Pinterest, Terms of Service (current version, 23 pieces)
+
+### D2 P1
+Terms of Service
+
+====================
+
+Table of contents
+
+_We're updating our Terms of Service, effective 12 November 2026. You can preview the updated Terms of Service ._
+
+Thank you for using Pinterest!
+
+==============================
+
+These Terms of Service ("Terms") govern your access to and use of any website, app, service, technology, API, widget, platform, channel or any other or features owned, operated, branded or offered by Pinterest (“Pinterest” or the “Service”), except where we expressly state that separate terms (and not these) apply. For the purposes of these Terms, “we” or “us” refers to the party with whom you are entering into this agreement, per Section 13(e) (Parties). Please read these Terms carefully and contact us if you have any questions.
+
+You may not use the Service to do or share anything that is contrary to these Terms. For clarity, these Terms include, and incorporate by reference, the following policies:
+
+* Our , which explain what is and isn’t allowed on Pinterest;
+
+* Our and , which explain additional policies that apply to ads and merchants on Pinterest;
+
+* Our , which explain additional policies that apply to sponsored, branded or otherwise commercial content; and
+
+* Our practices, which explain how we put our policies into practice, including restrictions we may impose on your content on or use of Pinterest.
+
+### D2 P2
+By accessing or using Pinterest, you agree to comply with and be bound by these Terms and you will not attempt to circumvent them. If you do not agree to our Terms, you must not access or use Pinterest.
+
+More simply put
+
+Every company has its terms. These are ours. They include these Terms of Service and other policies listed above.
+
+1\. The Service
+
+===============
+
+Pinterest helps to bring everyone the inspiration to create a life they love. To do that, we show you things we think will be relevant, interesting and personal to you based on your on-site and off-site activity. To provide the Service, we need to be able to identify you and your interests, and we use your personal data to do this. For more information, please read our . Some of the things we show you are promoted by advertisers. As part of the Service, we try to ensure that even promoted content is relevant and interesting to you. You can identify promoted content because it will be clearly labelled.
+
+More simply put
+
+Pinterest helps to bring everyone the inspiration to create a life they love. We'll use your interests to show you content and ads on and off Pinterest that are relevant to you.
+
+2\. Using Pinterest
+
+===================
+
+### a. Who can use Pinterest
+
+### D2 P3
+You may use Pinterest only if you follow these Terms and all applicable laws. Using Pinterest may include downloading software to your computer, phone, tablet or other device. You agree that we may automatically update that software, and these Terms will apply to any updates. When you create your Pinterest account, you must provide us with accurate and complete information.
+
+Any use of or access to Pinterest by anyone under the age of 13 is not allowed. If you are older than 13, you can use Pinterest if you are over the minimum age of consent in your country. If you are aged 13 to 18, you may only use the Service with the permission of your parent or legal guardian. Please make sure your parent or legal guardian has reviewed and discussed these Terms with you.
+
+If we have previously disabled your account for violation of these Terms, any of our policies or for legal reasons, you will not create a new Pinterest account without our express written permission, which is provided at our sole discretion.
+
+In using Pinterest, you agree not to scrape, collect, search, copy or otherwise access data or content from Pinterest in unauthorised ways, such as by using automated means (without our express prior permission), or access or attempt to access data you do not have permission to access.
+
+### D2 P4
+You may not use, access, download or otherwise make available the Service (including related software), except as authorised by applicable trade restrictions, including but not limited to US, EU and UK sanctions and export controls. You agree not to use the Service for any purpose prohibited by applicable trade restrictions.
+
+Any use of Pinterest not expressly permitted by these Terms is a breach of these Terms and may violate copyright, trademark and other laws.
+
+### b. Our licence to you
+
+Subject to your compliance with these Terms and our policies, we hereby grant you a limited, non-exclusive, non-transferable, non-sublicensable and revocable licence to access and use the Service as contemplated under these Terms and our policies.
+
+You may not permit Pinterest to be used by or for the benefit of unauthorised third parties. Nothing in these Terms will be construed as granting you any right to transfer or assign rights to access or use Pinterest. All rights not expressly granted to you are reserved by us and our licensors. Except as described in Section 3(b), you may not: (i) modify or make derivative works based upon the Service; (ii) reverse engineer the Service; (iii) copy any features or functions of the Service.
+
+### c. Commercial use of Pinterest
+
+### D2 P5
+If you want to use Pinterest for commercial purposes, you must create a business account and agree to our . If you do open an account for a company, organisation or other entity, "you" includes you and that entity, and you represent and warrant that you are authorised to grant all permissions and licences provided in these Terms and bind the entity to these Terms, and that you agree to these Terms on the entity's behalf. To the extent that any provisions in the conflict with these Terms, the shall govern to the extent of the conflict.
+
+If you post content on Pinterest that is sponsored or branded – such as when a business partner pays or incentivises you to post it – or is in any way commercial in nature, you are subject to our .
+
+More simply put
+
+These Terms are an agreement between you and us. You cannot use Pinterest if you're under 13 (or older in some countries). If you use Pinterest for commercial purposes, you need to set up a business account. If you post commercial, sponsored or branded content, you need to comply with our Commercial and Branded Content Guidelines. We grant you a revocable licence to use Pinterest, which is subject to our Terms and policies as outlined immediately above. Unless we have agreed otherwise, if your account has been suspended, you can’t return to Pinterest.
+
+3\. Your User Content
+
+=====================
+
+### a. Posting User Content
+
+### D2 P6
+Pinterest allows you to post content, including photos, videos, comments, links and other materials. For the purpose of these Terms, anything that you post or otherwise make available on Pinterest is referred to as "User Content". You retain all rights in, and are solely responsible for, the User Content you post to Pinterest. All User Content must comply with these Terms and our policies, including our .
+
+### D2 P7
+You will only post User Content that you have the rights to post, and you won’t post User Content that infringes the intellectual property rights of others (e.g. copyright infringement, trademark infringement or counterfeit), or that is otherwise unlawful, unless an exception or limitation applies under applicable law. We can take action against User Content that violates these Terms or our policies or where we are permitted or required by law, such as by removing, restricting or limiting access to, or distribution of, the content. We can also suspend or terminate accounts of users who repeatedly or seriously infringe third-party intellectual property rights, violate the law, these Terms or our policies, or where permitted or required to do so by law. We are a neutral intermediary and we do not review all User Content before or after it is published on the Service, so we are not responsible for or liable to any third party for the content or accuracy of any User Content posted by you or any other Pinterest user. For more information about how we enforce our policies or otherwise take action on content on Pinterest, see our . Where appropriate, you can appeal the decisions you think were made in error. You may have a right under local law to bring a claim for breach of contract if you believe we have breached these Terms by removing, restricting or limiting access to, or distribution of, your User Content, or suspending or terminating your account. Pinterest cannot provide you
+
+### D2 P8
+with legal advice.
+
+More simply put
+
+If you post your Content on Pinterest, it still belongs to you. In using Pinterest, you agree to only post User Content that follows these Terms and our policies, is lawful and doesn’t violate anyone else’s rights. If you post User Content that is infringing, illegal or violates our Terms or policies, we can take action against the User Content and, where appropriate, your account. Where appropriate, you can appeal those actions.
+
+### b. How we and other users can use your User Content
+
+### D2 P9
+By providing any User Content on the Service, you grant us and our affiliates and service providers, and our users, a non-exclusive, royalty-free, transferable, sublicensable, worldwide licence to use, store, publicly perform or display, reproduce, save, modify, create derivative works, monetise, download, translate and distribute your User Content, including for the purpose of promoting and redistributing part or all of the Pinterest Service. Nothing in these Terms: (i) entitles you to any payment or the right to share in any revenue from any monetisation of User Content; (ii) restricts other legal rights we may have to User Content, for example under other licences. We reserve the right to remove, limit distribution of or modify User Content, or change the way it’s used on Pinterest. This not only includes User Content that we believe violates these Terms, but also our , our , our or any of our other policies, or other circumstances where we feel such action is in the best interest of Pinterest or our Users.
+
+Content recommendations on Pinterest are made based on a combination of factors. Your recommendations are mainly influenced by how you engage with our Service, the topics we think you’re interested in and how interested you are in them, and what other users who share your similar characteristics and interests like. The relative importance of these criteria is influenced by how you engage with our Service, including how often you engage, your saves and your hides.
+
+### D2 P10
+You can adjust how recommendations are made in your Privacy and Data Settings, and through your Home Feed Tuner.
+
+More simply put
+
+If you post your User Content on Pinterest, we can show it to people and others can use it and save it. Pinterest shows content to users based on a combination of factors, focusing on what we think you will find interesting. When content violates these Terms, we can take action on that content.
+
+### c. How long we keep your User Content for
+
+Following termination or deactivation of your account, or User Content removal from Pinterest, we may keep your User Content for a reasonable period of time for backup, archival or audit purposes. We and our users may retain and continue to use, store, display, reproduce, save, modify, create derivative works, perform and distribute any of your User Content that you or other users have stored or shared on Pinterest.
+
+More simply put
+
+If you choose to post User Content, you give us permission to use it to provide and improve Pinterest. Copies of User Content shared with others may remain even if the User Content or your account have been deleted.
+
+### d. Feedback you provide
+
+### D2 P11
+We value hearing from our users and are always interested in learning about ways we can make Pinterest more awesome. If you choose to submit comments, ideas or feedback, you agree that we have no obligation to keep your feedback confidential or to compensate you for the feedback. Do not submit any feedback that is confidential or owned by any third party. By accepting your submission, we don’t waive any rights to use similar or related feedback previously known to us, or developed by our employees, or obtained from sources other than you.
+
+### e. Our reporting channels
+
+Pinterest offers reporting channels that you can use to tell us about content on Pinterest that you think violates these Terms, our policies or local law. We will review your report and take any appropriate action in a timely fashion. In using these channels, you agree to submit reports in good faith and not misuse any reporting or appeals channel by making baseless reports or appeals. Visit our Help Centre to find out more about on Pinterest.
+
+More simply put
+
+We appreciate your feedback and will use your suggestions and reporting to make Pinterest better. You can report content on Pinterest that you think violates our policies or the law.
+
+4\. Intellectual property
+
+=========================
+
+### a. Copyright Policy and Trademark Policy
+
+Pinterest has adopted and implemented our and in accordance with applicable intellectual property laws.
+
+### b. Pinterest intellectual property
+
+### D2 P12
+You acknowledge and agree that, as between you and us, we own all right, title and interest in and to Pinterest and all intellectual property rights (including but not limited to the copyrights, trademarks and patents) therein (the “Pinterest IP”) and you must not use any of the Pinterest IP, except as necessary for your permitted use of Pinterest. For clarity, Pinterest IP does not include User Content.
+
+If you use Pinterest IP in breach of these Terms, your right to use Pinterest will terminate immediately and you must, at our option, return or destroy any copies of the Pinterest IP you have made. No right, title or interest in or to Pinterest or any Pinterest IP is transferred to you under these Terms, and we reserve all rights not expressly granted.
+
+More simply put
+
+We respect intellectual property, including copyrights and trademarks. You should, too.
+
+5\. Security
+
+============
+
+We care about the security of our users. While we work to protect the security of your User Content and account, we can’t guarantee that unauthorised third parties won’t be able to defeat our security measures. Keep your password secure and do not disclose it to any other person or entity. Please notify us immediately of any unauthorised access to your account or any other breach of security.
+
+More simply put
+
+You can help us keep your account and Pinterest secure by bearing in mind.
+
+6\. Third-party links, sites and services
+
+=========================================
+
+### D2 P13
+Pinterest may contain links to third-party websites, advertisers, services, software components, special offers or other events or activities that are not owned or controlled by us. We don’t endorse or assume any responsibility for any such third-party websites, information, materials, products or services. If you access any third-party website, service or content, etc. from Pinterest, you do so at your own risk and you agree that we have no liability arising from your use of, purchase from or access to any third-party website, service or content, etc.
+
+More simply put
+
+We allow users to include links to content outside Pinterest. We are not responsible for any content you view on, or your use of, third-party websites or services.
+
+7\. Termination
+
+===============
+
+We may terminate or suspend your right to access or use Pinterest for any violation of these Terms. Where appropriate, we will provide you with written notice and you can appeal a decision that you think was made in error. For more information about how we enforce our policies or otherwise take action on content on Pinterest, please see our .
+
+You can also terminate or delete your account at any time. You can find out in our Help Centre.
+
+Upon termination, Sections 3, 8, 9, 10, 11, 12 and 13 of these Terms will continue to be in operation.
+
+More simply put
+
+We reserve the right to refuse Service to anyone and will provide notice of termination where appropriate.
+
+8\. Indemnity
+
+=============
+
+### D2 P14
+If you use Pinterest for commercial purposes without agreeing to our as required by Section 2(c) of these Terms, you agree to indemnify and hold harmless Pinterest, Inc., Pinterest Europe Ltd. and their affiliates from any claims (including reasonable legal fees) relating to your use of our Service. Pinterest reserves the right, at its own cost, to assume the exclusive defence and control of any matter otherwise subject to indemnification, in which event you will fully cooperate with Pinterest.
+
+More simply put
+
+If you are a business user and Pinterest is sued because of your use of the Service, you’re financially responsible.
+
+9\. Disclaimers
+
+===============
+
+To the extent permitted by applicable law, the Service and all content on Pinterest is provided on an 'as is' basis without warranty of any kind, whether express or implied.
+
+Pinterest specifically disclaims any and all warranties and conditions of merchantability, fitness for a particular purpose and non-infringement, and any warranties arising out of course of dealing or usage of trade.
+
+Pinterest takes no responsibility and assumes no liability for any User Content that you or any other person or third party posts or sends using the Service. You understand and agree that you may be exposed to User Content that is inaccurate, objectionable, inappropriate for children or otherwise unsuited to your purpose.
+
+### D2 P15
+We do not warrant that Pinterest or any portion of the Service, or any materials or content offered through Pinterest, are accurate, complete or current, or will be uninterrupted, secure or free of errors, viruses or other harmful components.
+
+We may make changes to Pinterest for various reasons. We will have no liability for any change to Pinterest or any suspension or termination of your access to or use of Pinterest.
+
+The limitations, exclusions and disclaimers in this Section apply to the fullest extent permitted by applicable law.
+
+More simply put
+
+We work every day to improve our Service and we hope you love it. We may make changes to Pinterest from time to time and for various reasons – including adding, removing or changing features and how our Service works. But services like Pinterest aren't perfect, and you agree to use ours 'as is' without warranties.
+
+10\. Limitation of liability
+
+============================
+
+### D2 P16
+To the maximum extent permitted by law, we shall not be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill or other intangible losses, resulting from (a) your access to or use of or inability to access or use the Service; (b) any conduct or content of any third party on the Service, including, without limitation, any defamatory, offensive or illegal conduct of other users or third parties; (c) unauthorised access, use or alteration of your transmissions or content.
+
+In no event shall our aggregate liability for all claims relating to the Service exceed one hundred US dollars (US $100.00). The foregoing does not affect any liability that cannot be excluded or limited under applicable law.
+
+If we cause damage to you and you're a consumer in the EEA or UK, the above doesn't apply. Instead, Pinterest's liability will be limited to foreseeable damages arising due to a breach of material contractual obligations typical for this type of contract. Pinterest isn't liable for damages that result from a non-material breach of any other applicable duty of care. This limitation of liability won't apply to any statutory liability that cannot be limited, to liability for death or personal injury caused by our negligence or willful misconduct, or to exclude our responsibility for something we have specifically promised to you.
+
+More simply put
+
+### D2 P17
+We are building the best Service we can, but it won't always be perfect. We're not liable for various losses or damages.
+
+11\. Arbitration
+
+================
+
+If you are a consumer in the EEA, Switzerland or the United Kingdom (UK), Section 11 does not apply to you.
+
+For any dispute you have with us, you agree to first contact us and try to resolve the dispute informally. To the extent permitted by law, neither party may initiate any legal proceeding – whether in court, arbitration or any other forum – until the Notice of Dispute and Informal Dispute Resolution processes described below are complete. Nothing in this Section, however, will prevent either you or us from seeking temporary injunctive relief in court (or in arbitration) to preserve the status quo or to help enforce this arbitration clause at the outset of any dispute.
+
+### D2 P18
+A party with a dispute must first send us a Notice of Dispute, which must include your full name; your Pinterest profile name (which begins @); the email address associated with your Pinterest account; your country of residence and, if you are a US resident, your state of residence; your counsel, if you are represented by counsel; a detailed description of both the dispute and the alleged harm; and your signature. That information should be emailed to . The notice can only be sent on behalf of an individual party; a Notice of Dispute that asserts the rights of more than one party is ineffective. After receiving the Notice of Dispute, Pinterest will respond within 60 days to attempt to resolve the dispute amicably. After the 60-day period has elapsed, either party may initiate arbitration.
+
+**Arbitration**: If we haven’t been able to resolve the dispute through the mandatory processes above, you and we each agree to resolve any claim, dispute or controversy arising out of or relating to these Terms or the Service through binding arbitration or, for qualifying claims, in small claims court. The arbitrator will have authority to issue any remedies authorized by law.
+
+### D2 P19
+Arbitration is a more informal way to resolve our disagreements than a lawsuit in court. By accepting these Terms, you agree that the US Federal Arbitration Act governs the interpretation and enforcement of this Section, and that you and Pinterest are each waiving the right to a trial by jury or to participate in a class action. The arbitrator also has exclusive authority to resolve any dispute relating to the interpretation, applicability or enforceability of this binding arbitration agreement, including any dispute regarding arbitrability.
+
+Any arbitration will be administered by the American Arbitration Association ("AAA") under the applicable rules then in effect for the AAA. If the AAA rules conflict in any way with these Terms, the Terms will govern. You can find AAA’s forms at . The arbitrator shall issue a reasoned written decision explaining the essential findings and conclusions on which the award is based. A judgment on the arbitrator’s award may be entered in any court of competent jurisdiction. Where the AAA’s Consumer Arbitration Rules apply, if the arbitrator determines that a party’s claim was frivolous or brought for an improper purpose, the arbitrator must assign all fees and costs associated with the arbitration to that party.
+
+### D2 P20
+All disputes must be brought in the party's individual capacity and not as a member in any class or representative proceeding. You agree that, by entering into these Terms, you are waiving the right to a trial by jury or to participate in a class action.
+
+Nothing in these Terms shall affect any non-waivable statutory rights that apply to you. To the extent that any dispute isn’t arbitrable under applicable laws or otherwise, you agree that the dispute will be resolved exclusively in accordance with Section 12 of these Terms.
+
+**Batched arbitration**: To provide a more efficient arbitration process, you and we each agree that if 25 or more similar arbitration demands are filed within a 60-day period or with the assistance of the same law firm or group of law firms, AAA will consolidate the arbitration demands. For each batch, AAA will administer one set of filing and administrative fees per side, per batch, and AAA will appoint one arbitrator to resolve each batch as a single consolidated arbitration. Arbitration demands are similar if they arise from similar facts and raise similar legal issues while seeking similar relief. Any dispute about similarity will be submitted to a single arbitrator, whose fees will be paid by us.
+
+More simply put
+
+You agree to notify us of any dispute and try to resolve it amicably. If that doesn’t work, the dispute will be efficiently decided through arbitration, not in court.
+
+12\. Governing law and jurisdiction
+
+### D2 P21
+===================================
+
+If you are a consumer in the EEA, Switzerland or the UK, these Terms and your use of the Service shall be governed by the law of the country where you live, and any claim, dispute, or controversy arising from or in connection with or relating to these Terms, Pinterest, or the Service shall be resolved in the courts of the country where you live.
+
+In all other cases, these Terms and your use of the Service shall be governed by the laws of the State of California, without respect to its conflict of laws principles. For any actions not subject to Section 11 (Arbitration), the exclusive place of jurisdiction for any claim, dispute or controversy arising from or in connection with these Terms or the Service is San Francisco County, California, or the United States District Court for the Northern District of California, and such disputes will be determined under California law.
+
+More simply put
+
+The Bay Area is beautiful at this time of year. In fact, it doesn't matter what time of year it is, that's what's so great! Let’s resolve any disputes in California. If you are a consumer in the EEA, Switzerland or the UK, however, you can file disputes in your home courts.
+
+13\. General terms
+
+==================
+
+### a. Notification procedures and changes to these Terms
+
+### D2 P22
+We may revise, add or remove any or all portions of these Terms from time to time and the most current version will always be posted on our website. Unless otherwise required by law, we will notify you of any material changes to these Terms before any update enters into effect. Your continued access to or use of Pinterest after such an update constitutes your binding acceptance of such changes. Disputes arising under these Terms will be resolved in accordance with the version of these Terms in place at the time the dispute arose. For clarity, by continuing to use Pinterest, you are agreeing to be bound by the then-current version of these Terms.
+
+More simply put
+
+If we're making a material change to the Terms, we'll let you know ahead of time. If you don’t agree with the new Terms, please stop using Pinterest.
+
+### b. Assignment
+
+If you’re a consumer in the EEA, Switzerland or the UK, either you or we may assign this agreement, and any rights and licences granted under it, to a third party. In all other cases, these Terms, and any rights and licences granted hereunder, may not be transferred or assigned by you, but may be assigned by us without restriction. Any attempted transfer or assignment in violation hereof shall be null and void.
+
+In case of such an assignment by us, you are entitled to terminate the agreement with immediate effect by deactivating your account. We will provide you with reasonable notice of any such assignment.
+
+### c. Entire agreement/severability
+
+### D2 P23
+These Terms constitute the entire agreement between you and us concerning the Service. If any provision of these Terms is deemed invalid, that provision will be limited or eliminated to the minimum extent necessary, and the remaining provisions of these Terms will remain in full force and effect.
+
+### d. No waiver
+
+No waiver of any provision of these Terms shall be deemed a further or continuing waiver of such provision or any other provision, and our failure to assert any right or provision under these Terms shall not constitute a waiver of such right or provision.
+
+### e. Parties
+
+If you live in the United States, these Terms are a contract between you and Pinterest, Inc., 651 Brannan Street, San Francisco, CA 94107, USA. If you live outside the United States, these Terms are a contract between you and Pinterest Europe Ltd., an Irish company with its registered office at Waterloo Exchange, 3rd Floor, Waterloo Road, Dublin 4, Ireland. As Pinterest is a worldwide service, you agree that any rights and licences granted hereunder benefit Pinterest, Inc. and all of its worldwide subsidiaries and affiliates.
+
+More simply put
+
+Who you deal with depends on where you live.
+
+Effective date: 30 April 2025
+
+Table of contents
+
+-----------------
+
+
+## Cases for D2 (Pinterest, Terms of Service)
+
+- C1. "This service holds onto content that you've deleted". Description: Content may remain in backup servers and be retained after deletion, and thus never be completely deleted. This case doesn't apply to contributions that can't be removed due to the nature of the service. Classification: blocker.
+- C2. "If you offer suggestions to the service, they may use that without your approval or compensation, but they do not become the owner". Description: The service may employ a broad copyright license over feedback, proposals, ideas and suggestions submitted, but they do not claim ownership on them. This means that such license does not include the right to use such contributions without restriction, compensation or obligation to the User. Classification: good.
+- C3. "Any liability on behalf of the service is only limited to the fees you paid as a user". Description: Even if the service, for some reason, were to be liable to you, then compensation is limited up to whatever you had paid beforehand (and even if you hadn’t paid any amount to the service, you’re agreeing to compensation by a maximum imposed by the service). Classification: bad.
+- C4. "Banned users are prohibited from creating a new account". Description: Once users have been permanently banned from this service, they are not allowed to create a new account to keep using the service. Classification: neutral.
+- C5. "Minors must have the authorization of their legal guardians to use the service". Description: Minors must have the authorization of their legal guardians to use the services. The legal guardians are responsible for the use of the service by the minor. Classification: neutral.
+- C6. "You must report to the service any unauthorized use of your account or any breach of security". Description: The service asks the user to notify them immediately of any unauthorized use or security breaches. Classification: neutral.
+- C7. "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service". Description: You are responsible for your use of the service. If a claim arises related to that use, you agree to indemnify and hold the service harmless.
+If users are also required to defend the service, see Case 146 instead. Classification: neutral.
+- C8. "You must create an account to use this service". Description: You must provide the service with your information in order to use it Classification: neutral.
+- C9. "You cannot distribute or disclose your account to third parties". Description: In this context third-parties refers to anyone including friends, family, or company Classification: neutral.
+- C10. "There is a date of the last update of the agreements". Description: The given text has a date that allows to know when it was last updated. Classification: neutral.
+
+## D3: Quora, Privacy Policy (current version, 18 pieces)
+
+### D3 P1
+Privacy Policy
+
+Effective date: August 25, 2023
+
+This Quora Privacy Policy (“Privacy Policy”) describes our policies and procedures on the collection, use, disclosure, and sharing of your personal information when you use the Quora Platform. This Privacy Policy applies to activities by Quora, Inc. and its affiliates and subsidiaries (collectively “Quora,” “we” or “us”). Capitalized terms that are not defined in this Privacy Policy have the meaning given to them in our [Terms of Service]. Quora Inc. is the data controller of your personal information and is responsible for providing you with this Privacy Policy.
+
+Overview
+
+Information We Collect
+
+We collect information directly from you, from third parties, and automatically through your use of the Quora Platform.
+
+* Account and Profile Data. When you create an account and profile on the Quora Platform, we collect your name, email address, and other information you provide, such as topics that you know about or find interesting. You can choose to add your photo, country of residence, place of employment, education history, and any other information to your public-facing profile. Once you create a profile, others will be able to see certain information about your activity on the Quora Platform, such as the questions and answers you post, your followers and who you follow, topics of interest to you, and your credentials.
+
+### D3 P2
+* Your Content. We collect the information and content that you post to the Quora Platform, including your questions, answers, comments, photos, and the edit history to your content. Unless you have posted certain content anonymously, your content, date and time stamps, and all associated comments are publicly viewable on the Quora Platform. Your content may be indexed by search engines and be republished elsewhere on the Internet in accordance with our Terms of Service.
+
+* Communication Records. We maintain a record when you communicate with us via email, through the Quora Platform, or otherwise. The Quora Platform also provides a “Messages” feature that allows you to send direct messages through the Quora Platform to other users. We store these communications and information related to these messages, such as the date of the communication and to whom it was sent.
+
+* Third Party Application Login. You can log into your Quora account using third party applications (e.g., Facebook, Google, and Apple). When you log in using this method, you allow us to we collect and process your name and email address associated with that third party application for authentication and identity verification purposes. You can also choose to import your contacts to your Quora account to connect with your friends on the Quora Platform. Note that your use of any third party application and the personal data you provide them is governed by their terms of use, privacy policies, and other policies.
+
+### D3 P3
+* Cookies and Similar Technologies. We and our third party providers use cookies, log files, pixel tags, local storage objects, and other similar technologies to automatically collect information about your activities, such as your searches, page views, date and time of your visit, and other information about your use of the Quora Platform. We also collect information about your web browser or mobile device in connection with your use of the Quora Platform such as your browser type, type of computer or mobile device, browser language, IP address, mobile carrier, unique device identifier, and requested and referring URLs. We also receive information when you view content on or otherwise interact with the Quora Platform, even if you have not created an account. For more detailed information about these mechanisms refer to our [Cookie Policy].
+
+* Billing and Payment Data. We collect billing information if you subscribe to the Quora + Platform, and we collect payment information if you are a paid Quora creator via the Quora Partner Program. Depending on your location, this information may include your billing address, social security number, last four digits of your credit card or debit card, phone number, and email address.
+
+### D3 P4
+* Platform Engagement Data. We collect platform engagement and browsing information, such as IP address, date and time stamp, user agent, Quora cookie ID, URLs visited, unique advertising identifiers (including mobile device advertising identifiers) or content identifiers (if applicable), time zone, and other information about your activity on the Quora Platform. We also collect this information from third-party sites and services that have embedded our Quora Ppixels (“Pixels”), widgets, plug-ins, buttons, or related technologies. Please visit our [Quora Pixel Privacy Terms] to learn more, including how to opt out. We may also receive these types of information about you from third parties, such as our partners (including ad partners) or Quora affiliates.
+
+* Data From Advertisers. Third party advertisers who use our Ad Services may also provide us with information about you as part of their ad campaigns (e.g., email addresses) to create custom audiences for personalizing their ad campaigns or for measuring the effectiveness of their ads. To learn more, including about how to opt -out of certain Ad Services, refer to our [Cookie Policy].
+
+How We Use Your Information and Legal Basis for Processing
+
+We process the information we collect for the following purposes, and under the following legal basis. You may decline to submit personal information through the Quora Platform, in which case we may not be able to provide certain services to you.
+
+### D3 P5
+* Provide our Services. To provide you the services we offer on the Quora Platform and make the Quora Platform available to the public, communicate with you about your use of the Quora Platform, respond to your inquiries, provide troubleshooting, and for other customer service purposes. This is so we can comply with our contractual obligations to you.
+
+* Personalization. To tailor the content and information that we or our third party content publishers or advertisers may send or display to you in the Quora Platform. We also use your information to suggest followers and content, to help others find your profile, to offer location customization, and personalized help and instructions, and to otherwise personalize your experiences while using the Quora Platform. It is in our legitimate business interests to provide you with a customized experience.
+
+* Billing and Payment. To collect payments (for example, if you are a Quora+ subscriber) and pay our service providers and content creators. This information is collected so that we can comply with our contractual obligations to you.
+
+### D3 P6
+* Advertising. To display interest-based, retargeted, contextual, and behavioral advertising to you in the Quora Platform. We also may use your information, to improve our advertising and measurement systems so we can show you relevant ads and to measure the effectiveness and reach of ads and services. It is in our legitimate business interests to provide advertising. Where necessary, we will obtain your consent before engaging in this processing.
+
+* Marketing and Promotions. For marketing and promotional purposes, such as to send you news, special offers, promotions, or to otherwise contact you about products or information we think may interest you, including information about third-party products and services. It is in our legitimate interest to provide more relevant and interesting marketing and promotions messages. Where applicable, we obtain your consent before sending such marketing communications and you can unsubscribe anytime.
+
+* Enable Communications. To facilitate communications you send to us or to other users on the Quora Platform. We process information about who you have communicated with to better understand the use of our services. This processing is necessary to comply with our contractual obligations to you.
+
+### D3 P7
+* Analytics. To gather analytics and metrics to better understand how users use the Quora Platform. We also use analytics data to evaluate and improve the Quora Platform, including the Ad Services and personalization, and to develop new products and services. It is in our legitimate business interests to make informed decisions about product development.
+
+* Comply with Law. To comply with legal obligations, as part of our general business operations, and for other business administration purposes. This processing is necessary to comply with legal obligations and to serve our legitimate business interests in complying with the laws to which we are subject.
+
+* Prevent Fraud and Misuse. To investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the safety of any person or violations of our Terms of Service or this Privacy Policy. This processing is necessary to comply with legal obligations and to serve our legitimate interest in preventing misuse of the Quora platform, including through illegal activities and fraud.
+
+* User Research. We may ask you to help us test new features or participate in surveys to help enhance your Quora experience. Your participation is voluntary, and we may use your personal information to communicate with you to seek your feedback.
+
+How We Share Your Information
+
+We share your information as outlined below, and where users have asked us to do so or otherwise consented:
+
+### D3 P8
+Service Providers. We share your information with third-party service providers who use this information to perform services for us, such as payment processors, hosting providers, auditors, advisors, consultants, customer service providers, as well as service providers who assist us in providing the Ad Services. Key service providers we use include Amazon Web Services, Stripe, Zendesk, and Google.
+
+Quora Affiliates. The information collected about you may be accessed by or shared with affiliates of Quora, Inc., whose use and disclosure of your personal information is subject to this Privacy Policy.
+
+Business Transfers. We may disclose or transfer your information as part of any merger, sale, and transfer of our assets, acquisition or restructuring of all or part of our business, bankruptcy, or similar event.
+
+Protection of Rights and When Legally Required. We may disclose information where we are required to do so by law, where we believe it necessary to respond to claims asserted against us or, comply with legal process (e.g., subpoenas or warrants), enforce or administer our agreements and terms, for fraud prevention, risk assessment, investigation, and protect the rights, property, or safety of Quora, its users, or others.
+
+### D3 P9
+Your Content and Public Information. Your content, including your name, profile picture, profile information, and certain associated activity information is available to other users of the Quora Platform and may also be viewed publicly by non users. Public viewing includes availability to non-registered visitors and users may share your content across other sites. In addition, your content may be indexed by search engines. See the section below about Your Choices and Settings for information about how to control what information is shared or viewed by others.
+
+Platform Engagement Information. We share with our advertisers and publishers aggregate statistics, metrics, and reports about the performance of their ads in the Quora Platform. This aggregated data may include the number of unique user views, demographics about the users who saw their ads or content, and conversion rates. Certain features allow you to share your personal information with advertisers on our platform if you choose to do so.
+
+Research. We share aggregated or anonymized information with third parties for market research, reporting, and analytics. The information we share in this context cannot be used to identify individual users.
+
+Do-Not-Track Signals. Please note we do not change system behavior within the Quora Platform in response to browser requests not to be tracked. You may, however, disable certain tracking by third parties as discussed in our [Cookie Policy].
+
+### D3 P10
+How We Secure and Store Your Information
+
+Security. Quora maintains appropriate technical, administrative, and physical safeguards to protect the information we collect from unauthorized access, use, disclosure, destruction, and altercation.
+
+Retention. We keep your personal information for as long as we have a relationship with you. Once our relationship with you has come to an end, we will retain your personal information for a period of time that enables us to maintain business records for audit purposes, comply with record retention requirements under the law, and defend or bring any existing or potential legal claims.
+
+How We Transfer Your Information
+
+Quora Inc. is headquartered in the United States, and has operations, entities, and service providers in the United States and throughout the world. As such, we and our service providers may transfer your personal information to, or access it in, jurisdictions that may not provide equivalent levels of data protection as your home jurisdiction. We take steps to ensure that your personal information receives an adequate level of protection in the jurisdictions in which we process it. Where we transfer your personal information outside of the European Economic Area or the United Kingdom, we rely on transfer mechanisms such as the European-Commission approved Standard Contractual Clauses. For more information on our transfer mechanisms, please contact us at the details below.
+
+Your Privacy Rights
+
+### D3 P11
+Depending on where you live and the local laws, you may have certain rights regarding your personal information. These may include rights to:
+
+* Access your personal information
+
+* Rectify the personal information we hold about you
+
+* Erase your personal information
+
+* Restrict our use of your personal information
+
+* Object to our use of your personal information
+
+* Opt out of targeted advertising
+
+* Data portability
+
+* Withdraw consent you have given at any time
+
+* Lodge a complaint with your local data protection authority
+
+If you would like to exercise your rights, please contact us at [privacy@quora.com] or complete this [form]. You will need access to the email account associated with your Quora account in order to verify your identity and complete this process. You may update your account information anytime by adjusting the settings in your Quora account.Where applicable, you may also contact us using the contact details above to appeal any decision we make relating to your request to exercise your rights.
+
+Your Choices and Settings
+
+You can update your privacy settings, control the types of notifications and communications we send, and limit the information shared within the Quora Platform anytime. Here is further information about your choices and settings.
+
+### D3 P12
+Your Content. You may edit or delete the answers that you post at any time. Any questions you have posted may remain on the Quora Platform. Other Quora users will be able to see the history of your content edits in your profile activity. Any deleted content will be removed from third-party sites from which it has been shared via Quora’s standard sharing features. However, we have no control over deletions or changes to your content if it has been shared manually by others.
+
+Emails and Notifications. When you create a Quora profile you will receive email digests containing content from the Quora Platform that we believe may match your interests. You may also receive notices about other content from the Quora Platform that may be of interest to you, such as Spaces that you follow. In addition, users may be able to send communications and invites to their imported contacts through their Quora account, by email, text, or phone. You can opt out of receiving emails or other notifications from us by configuring your Emails and Notifications settings, but we will still send you transactional emails about your account.
+
+Interactions with Other Users. You can adjust your settings to restrict who can send you messages on the Quora Platform or comment on your answers and posts.
+
+Profile Discoverability. You can adjust your settings to block others from discovering your account by searching for your name or using your contact information.
+
+### D3 P13
+Topics and Spaces. You can change Topics and Spaces that you are affiliated with within your profile.
+
+Credentials. You can change your credentials (e.g., education history, place of employment) that are displayed in your profile or in connection with a specific answer.
+
+Indexed Search. You can control whether your profile is indexed by search engines.
+
+Deleted Account. If you choose to “Delete Account” in your profile settings, then all your content will be removed from public visibility on the Quora Platform, and it may not be restored by us. It may take Quora up to 14 days to process your account deletion request, and if you log back into your account during that time, your account may be reactivated.
+
+Deactivated Account. If you choose “Delete Account” in your profile’s settings, then all your content will be removed from public visibility on the Quora Platform, and it may not be restored by us. If you choose to “Deactivate Account,” in your profile settings, then you will no longer receive any communications from us, and users will not be able to interact with you; however, your content will remain on the Quora Platform. You can reactivate your account at any time by logging in.
+
+Opt out of Training LLMs. You can opt out of having your content on Quora (i.e. your answers, posts, and comments) used for Large Language Model (LLM) training purposes via your privacy settings.
+
+### D3 P14
+Opt out of Targeted Advertising. Depending on your location you may have the right to opt out of having your personal information shared or used for targeted advertising. Please visit the “Your Privacy Choices” link on our site to learn more.
+
+Children’s Privacy
+
+We do not knowingly collect or solicit personal information from anyone under the age of 13 or knowingly allow such persons to create a Quora account. If we become aware that we have collected personal information from a child under 13 we take steps to delete that account.
+
+Additional Information for California Residents
+
+This section provides information organized in accordance with the California Consumer Privacy Act, as amended by the California Privacy Rights Act, (“CCPA”) for residents of California about how we handle personal information. This Privacy Policy discloses the categories of personal information that we collect, use, and disclose in order to operate our business over the past 12 months.
+
+* Collect. As we describe in more detail in the section above titled The Information We Collect, we collect personal information directly from consumers, automatically when consumers use the Quora Platform, and from other sources (such as from other users, partners, including ad partners, or our affiliated companies) and have collected the following categories of personal information in the past 12 months:
+
+* Identifiers, such as your name, email address, or IP address
+
+### D3 P15
+* Internet or other similar network activity, such as browsing or search history related to your use of the Quora Platform
+
+* Photos or visual Information, such as your profile photo
+
+* Geolocation data, such as approximate location data (we don’t collect precise geolocation, but can infer general location from your IP address)
+
+* Employment information, such as employment details you add to your profile
+
+* Education information, such as education details you add to your profile
+
+* Inferences drawn from other personal information
+
+* Commercial Information, such as billing address and purchase history
+
+* Use. The section above titled How We Use Your Information discloses that the categories of personal information we collect are used to provide our services, for personalization, for billing and payment, to provide advertising, to promote our services to you, to enable communications with other users, to analyze how our services are used, to comply with law, and to prevent misuse of the Quora Platform.
+
+### D3 P16
+* Disclose. As we describe in more detail in the section above titled How We Share Your Information, we may disclose the following categories of personal information for business purposes with service providers, affiliates, law enforcement authorities, in the context of a merger or acquisition, as required by law, for the protection of rights, and as directed by you: (1) identifiers, (2) protected classification characteristics, (3) Internet or other similar network activity, (4) geolocation data, (5) photos or visual information, (6) employment information, (7) education information, and (8) inferences.
+
+* We Do Not Sell Your Personal Information. We do not sell your personal information to third parties, nor do we sell personal information from users under 16 years old. For more information, please refer to the How We Share Your Information section above.
+
+* Retention. We keep your personal information for as long as we have a relationship with you. Once our relationship with you has come to an end, we will retain your personal information for a period of time that enables us to maintain business records for audit purposes, comply with record retention requirements under the law, and defend or bring any existing or potential legal claims.
+
+California Privacy Rights
+
+California consumers have the right to make the following requests:
+
+* Deletion. You have the right to request deletion of personal information that we have collected about you.
+
+### D3 P17
+* Copy and Right to Know. You have the right to request a copy of the specific pieces of personal information that we have collected about you over the past 12 months. You also have a right to request a disclosure about the categories of information, sources, and purposes of collection, as well as categories of third parties we have shared it with over the past 12 months.
+
+* Correction. You have the right to request that we correct inaccurate personal information that we maintain about you.
+
+* Designated Agent. You may designate an agent to make a request on your behalf. That agent must have access to your Quora account for us to verify the request. The agent must also provide proof that you gave the agent signed permission to submit the request on your behalf.
+
+* Opt out of having your personal information shared for targeted advertising. You can exercise this right by visiting the “Your Privacy Choices” link on our site.
+
+You may exercise your CCPA rights through the online form [here] or by emailing us at [privacy@quora.com]. You will need access to the email account associated with your Quora account in order to verify your identity and complete this process. Because we only collect limited data about individuals without an account, we are unable to verify requests from non-account holders to the standard required by the CCPA.
+
+### D3 P18
+Non-Discrimination. Quora will not discriminate against you, including by denying or providing a different level or quality of services if you choose to exercise your privacy rights.
+
+Privacy Request Metrics. To learn more about the volume and types of global privacy requests we received in the past 12 months, refer to our [Privacy Requests Metrics page].
+
+Poe by Quora
+
+Poe is a platform that lets people ask questions, get instant answers, and have back-and-forth conversations with AI. For details about the personal information Poe processes, please visit the [Poe Privacy Policy].
+
+Contact Us
+
+If you have any questions about our practices or this Privacy Policy, please contact our Data Protection Officer at [privacy@quora.com] or send mail to:
+
+Quora, Inc.
+
+Attn: Privacy
+
+605 Castro Street
+
+Mountain View, CA 94041
+
+VeraSafe has been appointed as Quora’s representative in the European Union and the United Kingdom for data protection matters. VeraSafe can be contacted using this [form].
+
+Privacy Policy Updates
+
+We may occasionally update this Privacy Policy to reflect changes in our privacy practices or relevant data protection laws. We will notify you if we make any material changes and will revise the "Last Updated" date at the top of this Privacy Policy.
+
+[Prior versions]
+
+
+## Cases for D3 (Quora, Privacy Policy)
+
+- C1. "Third-party cookies are used for statistics". Description: For instance, Google Analytics, rather than self-hosted (first-party) statistics software. Classification: bad.
+- C2. "This service claims that your personal data is not being sold". Description: This service makes the claim that your personal data is not being sold, rented or traded with third parties. This, however, may not always be an accurate statement as it may be, more often than not, based entirely on a very loose legal definition on “selling”, whereas other jurisdictions may actually constitute their sharing of your personal data as “selling”. Classification: good.
+- C3. "Your personal data may be used for marketing purposes". Description: The service may use your personal data for marketing, such as sending you personalised offerings. Classification: bad.
+- C4. "You can opt out of receiving promotional communications". Description: You can update your account preferences and/or easily unsubscribe of email/sms lists to stop receiving promotional communications. Classification: good.
+- C5. "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting". Description: Tracking technologies (such as web beacons, tracking pixels...) are employed on users and/or the service assigns a unique ID to a browser or device to track its behaviour. Classification: bad.
+- C6. "There is a date of the last update of the agreements". Description: The given text has a date that allows to know when it was last updated. Classification: neutral.
+- C7. "You may be tracked on other websites". Description: The service may use tracking technologies in third-party websites to track your online activity while you aren't visiting their Site. Classification: bad.
+- C8. "Some personal data may be kept for business interests or legal obligations". Description: After the end of the data retention period and/or if you request the deletion of your data, they may still keep it for business interests (fraud detection, transactions...) or legal obligations (tax, legal reporting...) Classification: bad.
+- C9. "Referring and/or exit pages are tracked". Description: The service logs the URL of the last web page you visited before and/or after visiting the Site and may use that information to gather more data about you. Classification: bad.
+- C10. "This service gives your personal data to third parties involved in its operation". Description: Your personal data is or may be given to third parties essential to the service’s operation. This could be an external spam detection service for an internet forum. Classification: neutral.
+- C11. "Information is gathered about you through third parties". Description: This Service may employ, either identifiable or non-identifiable, data collection from third party sources about you. Classification: bad.
+- C12. "Your personal information may be collected, regardless of whether you interacted directly with the service or not". Description: The service in question can collect your personal information without you having interacted with it at all. For example, users of this service could be able to link their contacts to their account, exposing other people’s personal information without them even knowing. Other times, the service could collect information from your social media accounts, which usually includes your followers/friends list. Classification: blocker.
+- C13. "Your personal data is used to employ targeted third-party advertising". Description: Your Personal Information is traded and shared with advertising companies to target ads on you, either on the website you were visiting or in third party websites. Your interaction with the service and data you have shared with them may be gathered to create an advertising ID or profile. Classification: bad.
+- C14. "You are warned of the potential consequences related to third-party access". Description: This is different from disclaiming liability for external links, which is handled by the "This service assumes no responsibility and liability for the contents of links to other websites" case. Classification: good.
+- C15. "Your data may be processed and stored anywhere in the world". Description: Your data is stored all over the world, including in countries where data protection rules may differ from the ones of the service's jurisdiction or those of your country jurisdiction. Classification: bad.
+- C16. "You should revisit the terms periodically, although in case of material changes, the service will notify". Description: The service may update the Terms without notice, but if they significantly change the agreements in a manner that importantly and/or negatively affects the way the service is used, users will be notified. Classification: neutral.
+- C17. "You can opt out of targeted advertising". Description: The service employs your data to target ads to you, but you can opt-out of this interest-based advertising. Classification: good.
+- C18. "Third parties are involved in operating the service". Description: (none) Classification: neutral.
+- C19. "Third-party cookies are used for advertising". Description: The service's website sets third-party cookies (cookies that do not belong to their domain) for purposes not including statistics and analytics. Classification: bad.
+
+## D4: Quora, Terms of Service (current version, 44 pieces)
+
+### D4 P1
+Terms of Service
+
+Terms of Service
+
+Last Updated: July 24, 2023
+
+Welcome to Quora! Quora is a platform to gain and share knowledge, empowering people to learn from others and better understand the world through our websites and applications (“Quora” or the “Quora Platform”).
+
+These terms of service (“Terms”) are an agreement between you and Quora, Inc. (“Quora” “we” or “us”). These Terms govern your use of the products and services we offer. By using Quora, you consent to these Terms.
+
+Your access to and use of Quora is also subject to our policies, including our [Privacy Policy] and [Acceptable Use Policy].
+
+IMPORTANT ARBITRATION NOTICE: IF YOU ARE IN THE UNITED STATES OR CANADA, YOU AGREE THAT DISPUTES BETWEEN YOU AND QUORA WILL BE RESOLVED BY BINDING, INDIVIDUAL ARBITRATION AND YOU WAIVE YOUR RIGHT TO PARTICIPATE IN A CLASS ACTION LAWSUIT OR CLASS-WIDE ARBITRATION. WE EXPLAIN SOME EXCEPTIONS AND HOW YOU CAN OPT OUT OF ARBITRATION BELOW IN SECTION 11.
+
+1. Your Use of Quora
+
+### D4 P2
+1.1 Age requirements and responsibility of parents and legal guardians. Use of Quora by anyone under 13 years of age is prohibited. You represent that you are at least the age of majority in the jurisdiction where you live or, if you are not, your parent or legal guardian must consent to these Terms and affirm that they accept these Terms on your behalf and bear responsibility for your use. If you are accepting these Terms on behalf of someone else or an entity, you confirm that you have the legal authority to bind that person or entity to these Terms.
+
+1.2 Registration. When you set up a profile on the Quora Platform, you will be asked to provide certain information about yourself. You agree to provide us accurate information when you create your account on Quora. We will treat information you provide as part of registration in accordance with our [Privacy Policy]. You should take care in maintaining the confidentiality of your password.
+
+### D4 P3
+1.3 Compliance with Quora Policies. In your use of Quora, you agree to follow the [Acceptable Use Policy], [Copyright Policy], [Trademark Policy], and other published Quora policies at all times. If you see something on Quora that you believe violates our Acceptable Use Policy or any other published Quora policy, please report it to us using the [in-product reporting tool], or via our [contact form]. If you believe that conduct on Quora violates our Copyright or Trademark policy, you may report that violation using the methods described in those policies.
+
+1.4 Settings. We offer tools to help you manage privacy, messaging, and other content options for your account. You can review and adjust your account settings by visiting the “Settings” section of your account.
+
+1.5 Changes to the Quora Platform. We are always trying to improve your experience on the Quora Platform. We may add, remove or change features without notice to you.
+
+1.6 Feedback. We welcome your feedback and suggestions about how to improve the Quora Platform. Feel free to submit feedback at [quora.com/contact]. By submitting feedback, you grant us the right, at our discretion, to use, disclose and otherwise exploit the feedback, in whole or part, freely and without compensation to you.
+
+2\. Privacy
+
+Our privacy practices are set forth in our [Privacy Policy]. By using Quora, you accept our [Privacy Policy], regardless of whether you are a registered user.
+
+3\. Your Content
+
+### D4 P4
+3.1 Your Content. Quora enables you to add posts, text, photos, videos, links, and other files and information to share with other users of Quora. All material that you upload, publish, display, or transmit to others via Quora will be referred to collectively as “Your Content.” You, or your licensors, as applicable, retain ownership of the copyright and other intellectual property in Your Content, subject to the non-exclusive rights granted below.
+
+You acknowledge and agree that, as part of using Quora, Your Content may be viewed by the general public. Please understand where you are posting on Quora and choose the right space, features, and settings for you and Your Content.
+
+3.2 License and Permission to Use Your Content.
+
+### D4 P5
+By submitting, posting, displaying, or transmitting Your Content on or through the Quora Platform, you grant Quora and its affiliated companies a nonexclusive, worldwide, royalty free, fully paid up, transferable, sublicensable (through multiple tiers), license to use, copy, reproduce, process, adapt, modify, create derivative works from, publish, transmit, store, display and distribute, translate, communicate and make available to the public, and otherwise use Your Content in connection with the operation or use of the Quora Platform or, subject to our [Privacy Policy], the promotion, advertising or marketing of the Quora Platform or our business partners, in any and all media or distribution methods (now known or later developed), including via means of automated distribution, such as through an application programming interface (also known as an “API”). You agree that, subject to and consistent with our [Privacy Policy], this license includes the right for Quora to make Your Content available to other companies, organizations, business partners, or individuals who collaborate with Quora for the syndication, broadcast, communication and making available to the public, distribution or publication of Your Content on the Quora Platform or through other media or distribution methods. This license also includes the right for other users of the Quora Platform to use, copy, reproduce, adapt, modify, create derivative works from, publish, transmit, display, and distribute, translat
+
+### D4 P6
+e, communicate and make available to the public Your Content, subject to these Terms of Service and our [Privacy Policy]. Except as expressly provided in these Terms, this license will not confer the right for you to use automated technology to copy or post questions and answers or to aggregate questions and answers for the purpose of making derivative works. If you do not wish to allow your answers to be translated by other users, you can globally opt out of translation in your profile settings or you can designate certain answers not for translation.
+
+Once you post an answer to a question, you may edit or delete your answer at any time from public display on [https://www.quora.com], except in the case of anonymously posted answers. However, we may not be able to control removal of the answer from display on syndicated channels or other previously distributed methods outside of [https://www.quora.com]. Quora may remove suspected spam from your answers. Once you post a question, it may be edited or deleted by other users or by Quora at any time. Any edits and changes made by you may be visible to other users. The right for Quora to copy, display, transmit, publish, perform, distribute, store, modify, and otherwise use any question you post, and sublicense those rights to others, is perpetual and irrevocable, to the maximum extent permitted by law, except as otherwise specified in these Terms.
+
+### D4 P7
+You acknowledge and agree that Quora may preserve Your Content and may also disclose Your Content and related information if required to do so by law or in the good faith belief that such preservation or disclosure is reasonably necessary to: (a) comply with legal process, applicable laws or government requests; (b) enforce these Terms of Service; (c) respond to claims that any of Your Content violates the rights of third parties; (d) detect, prevent, or otherwise address fraud, security or technical issues; or (e) protect the rights, property, or personal safety of Quora, its users, or the public.
+
+You understand that we may modify, adapt, or create derivative works from Your Content in order to transmit, display or distribute it over computer networks, devices, service providers, and in various media. We also may remove or refuse to publish Your Content, in whole or part, at any time.
+
+You further give us the permission and authority to act as your nonexclusive agent to take enforcement action against any unauthorized use by third parties of any of Your Content outside of the Quora Platform or in violation of our Terms of Service.
+
+### D4 P8
+3.3 Your Responsibilities for Your Content. By posting Your Content on the Quora Platform, you represent and warrant to us that: (1) you have the ownership rights, or you have obtained all necessary licenses or permissions to use Your Content and grant us the rights to use Your Content as provided for under these Terms, and (2) that posting Your Content violates no intellectual property or personal right of others or any other applicable law or regulation, including any laws or regulations requiring disclosure that you have been compensated for Your Content. You accept full responsibility for avoiding infringement of the intellectual property or personal rights of others or violation of laws and regulations in connection with Your Content. You are responsible for ensuring that Your Content does not violate Quora’s [Acceptable Use Policy], [Copyright Policy], [Trademark Policy], any other published Quora policy, or any applicable law or regulation. You agree to pay all royalties, fees, and any other monies owed to any person by reason of Your Content.
+
+4\. Our Content and Materials
+
+### D4 P9
+4.1 Our Content and Materials. All intellectual property in or related to Quora and the Quora Platform (specifically including, but not limited to our software, the Quora marks, the Quora logo, but excluding Your Content) is the property of Quora, Inc., or its subsidiaries and affiliates, or content posted by Quora users and others that has been licensed to us (collectively “Our Content and Materials”).
+
+4.2 Data. All data Quora collects (“Usage Data”) about use of the Quora Platform by you or others is the property of Quora, Inc., its subsidiaries, and affiliates. For clarity, Usage Data does not include Your Content and is separate from Our Content and Materials. Please refer to our [Privacy Policy] for information about how we process your personal information.
+
+4.3 Our License to You.
+
+We grant you a personal, limited, non-exclusive license to use and access Our Content and Materials and Usage Data as made available to you on the Quora Platform in connection with your use of the Quora Platform, subject to the terms and conditions of this agreement.
+
+### D4 P10
+Quora gives you a worldwide, royalty-free, revocable, personal, non-assignable and non-exclusive license to re-post a small portion of any answer or post posted by other Quora users anywhere on the web, subject to these Terms and provided that: (a) the content in question was added to the Quora Platform after April 22, 2010; (b) the user who created the content has not explicitly marked the content as not for reproduction on the Quora Platform; (c) you do not modify the content; (d) you attribute Quora by name in readable text and with a human and machine-followable link (an HTML <a> anchor tag) linking back to the page displaying the original source of the content on [https://quora.com] on every page that contains such content; (e) upon request, either by Quora or a user, you remove the user's name from content which the user has subsequently made anonymous; (f) upon request, either by Quora or by a user who contributed to the content, you make a reasonable effort to update a particular piece of content to the latest version on the Quora Platform; and (g) upon request, either by Quora or by a user who contributed to the content, you make a reasonable attempt to delete content that has been deleted or marked as not for reproduction on the Quora Platform; (h) you do not use any automated tools to aggregate or create derivative works, and (i) you do not use any of Our Content or Materials to train or develop any AI, large language models or machine learning algorithms. In exerc
+
+### D4 P11
+ising these rights, you may not implicitly or explicitly assert any connection with, sponsorship or endorsement by Quora, or any Quora user, without separate, express prior written permission from us.
+
+We may terminate our license to you at any time for any reason. We have the right but not the obligation to refuse to distribute any content on the Quora Platform or to remove content for any reason in our sole discretion. Except for the rights and license granted in these Terms of Service, we reserve all other rights and grant no other rights or licenses, implied or otherwise.
+
+4.4 Restricted Uses. You represent and warrant that you will not:
+
+* Access, search or collect data from the Quora Platform (through automated or other means, including artificial intelligence or machine learning) (1) to create derivative works of Our Content and Materials; (2) to train or develop any AI, large language models or machine learning algorithms on Our Content or Materials; (3) to create any service competitive to the Quora Platform; or (4) for other commercial purposes except as expressly permitted by these Terms of Service or the written consent of Quora.
+
+* Use Quora in any manner that could interfere with, disable, disrupt, overburden, or otherwise impair the Quora Platform;
+
+* Reverse assemble, reverse compile, decompile any part of the Quora Platform;
+
+### D4 P12
+* Upload, transmit, or distribute to or through the Quora Platform any viruses, worms, malicious code, or other software intended to interfere with the Quora Platform, including its security-related features; or
+
+* Gain access to (or attempt to gain access to) another user’s account or any non-public portions of the Quora Platform, including the computer systems or networks connected to or used together with the Quora Platform.
+
+4.5 Permission to Crawl. If you operate a search engine, subject to the Restricted Uses section above, we conditionally grant permission to crawl the Quora Platform subject to the following rules: (1) you must use a descriptive user agent header; (2) you must follow robots.txt at all times; (3) your access must not adversely affect any aspect of the Quora Platform’s functioning; (4) you must make it clear how to contact you, either in your user agent string, or on your website if you have one.
+
+4.6 No Endorsement or Verification. Please note that the Quora Platform contains access to third-party content, products and services, and it offers interactions with third parties. Participation or availability on the Quora Platform does not amount to endorsement or verification by us. We make no warranties or representations about the accuracy, completeness, or timeliness of any content posted on the Quora Platform by anyone.
+
+### D4 P13
+4.7 Ownership. You acknowledge and agree that Our Content and Materials remain the property of Quora's users or Quora. The content, information and services made available on the Quora Platform are protected by U.S. and international copyright, trademark, and other laws, and you acknowledge that these rights are valid and enforceable.
+
+5\. More About Certain Offerings on the Quora Platform
+
+5.1 Digests. When you sign up for the Quora Platform, the service includes receipt of digests of content that may be of interest to you. You can opt out of receipt of the digests, and adjust other communication settings, by going to “Email and Notification” settings in your account profile, as further described in our [Privacy Policy].
+
+5.2 Advertisements. The Quora Platform may include advertisements, which may be targeted to content or information on the Quora Platform, your usage of the Quora Platform, or other information as detailed in our [Privacy Policy], in an effort to make them relevant to you. The types and extent of advertising by Quora are subject to change. In consideration for Quora granting you access to and use of the Quora Platform, you agree that Quora and its third-party providers and partners may serve such advertising on the Quora Platform. If you wish to become an advertiser, you will be required to enter into separate and supplemental terms with us about providing advertising services on the Quora Platform.
+
+### D4 P14
+5.3 Spaces. Spaces is a feature that allows a user to form communities and share content around shared interests and tastes.
+
+5.4 Subscriptions. Certain content in Spaces or from other areas of the Quora Platform may be available only by subscription. In addition to these Terms of Service, subscriptions are subject to the [Subscriber Terms of Service]. Creating subscriptions and participating in advertising revenue share is subject to the [Earnings Terms of Service].
+
+5.5 Poe. Poe is a platform by Quora that lets people ask questions, get instant answers, and have back-and-forth conversations with Large Language Models (“LLMS”). Use of Poe is subject to the [Poe Terms of Service].
+
+5.6 Legal, Medical & Other Professional Contributors. Some users who post content are members of legal, medical, investment and other licensed professions (collectively, “Professional Contributors”). Content posted by Professional Contributors should not be relied on as a substitute for advice from a professional that is appropriate for your specific situation. Quora has provided certain disclaimer template language that Professional Contributors may edit and incorporate in their answers. Ethics rules differ by state or location, and it is the responsibility of Professional Contributors to determine and provide disclaimers appropriate for their profession and the content provided.
+
+### D4 P15
+5.7 Buttons, Links, and Widgets. You have permission to use Quora's buttons, links, and widgets, subject to these Terms of Service (including the disclaimers and limitations of liability) and provided that: (a) your use of such buttons, links, and widgets link only to the Quora Platform; (b) you will not modify such buttons, links, or widgets or associated code in any manner; (c) you will not use any such buttons, links, or widgets in any manner which implies or suggests that Quora endorses, sponsors, or recommends the website on which such buttons, links, and widgets are used; and (d) the use of such buttons, links, and widgets, and the website on which such buttons, links, and widgets are used do not violate Quora’s [Acceptable Use Policy].
+
+5.8 Services that Require Separate Agreement. Certain features or services may require that you enter into a separate and supplemental written agreement prior to use.
+
+6\. Third-Party Links, Sites, and Services
+
+The Quora Platform may offer you the opportunity to visit links to other websites or to engage with third-party content, products or services. We do not endorse or assume any responsibility for any such third party sites, content, products, or services. If you access any third party website, content, product or service from Quora, you do so at your own risk and you agree that Quora has no liability arising from your use of or access to any third party website, content, product or service.
+
+### D4 P16
+7\. Reporting Violations of Your Intellectual Property Rights, Quora Policies, or Applicable Laws.
+
+7.1 Copyright Policy and Trademark Policy. We maintain a [Copyright Policy] and [Trademark Policy]. For more information, including detailed information about how to submit a request for takedown if you believe content on the Quora Platform infringes your intellectual property rights, please read our [Copyright Policy] and [Trademark Policy]. For your convenience, we provide you the following [Copyright Infringement Claim Form] and [Trademark Infringement Claim Form], which you should use, as applicable, for fastest processing.
+
+7.2 Reports of Other Violations. If you believe content on the Quora Platform violates Quora’s [Acceptable Use Policy] or otherwise violates applicable law (apart from copyright or trademark violations) or other Quora policies, you may report it to us using the [in-product reporting tool], or via our [contact form].
+
+We have no obligation to delete content that you personally may find objectionable or offensive. We endeavor to respond promptly to requests for content removal, consistent with our policies and applicable law.
+
+8\. Termination.
+
+You may close your account at any time by going to account settings and disabling your account. We may terminate or suspend your Quora account if you violate these Terms, any Quora policy, or for any other reason.
+
+9\. Indemnification
+
+### D4 P17
+You agree to release, indemnify, and defend Quora Entities from all third-party claims and costs (including reasonable attorneys’ fees) arising out of or related to: (1) your use of the Quora Platform, (2) Your Content, (3) your conduct or interactions with other users of the Quora Platform, or (4) your breach of any part of these Terms. We will promptly notify you of any such claim and will provide you (at your expense) with reasonable assistance in defending the claim. You will allow us to participate in the defense and will not settle any such claim without our prior written consent. We reserve the right, at our own expense, to assume the exclusive defense of any matter otherwise subject to indemnification by you. In that event, you will have no further obligation to defend us in that matter.
+
+10\. Disclaimers And Limitation Of Liability
+
+PLEASE READ THIS SECTION CAREFULLY SINCE IT LIMITS THE LIABILITY OF QUORA ENTITIES TO YOU.
+
+“QUORA ENTITIES” MEANS QUORA, INC., AND ANY SUBSIDIARIES, AFFILIATES, RELATED COMPANIES, SUPPLIERS, LICENSORS AND PARTNERS, AND THE OFFICERS, DIRECTORS, EMPLOYEES, AGENTS AND REPRESENTATIVES OF EACH OF THEM. EACH PROVISION BELOW APPLIES TO THE MAXIMUM EXTENT PERMITTED UNDER APPLICABLE LAW.
+
+### D4 P18
+10.1 WE ARE PROVIDING YOU THE QUORA PLATFORM, ALONG WITH OUR CONTENT AND MATERIALS AND THE OPPORTUNITY TO CONNECT WITH OTHERS, ON AN “AS IS” AND “AS AVAILABLE” BASIS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. WITHOUT LIMITING THE FOREGOING, QUORA ENTITIES EXPRESSLY DISCLAIM ANY AND ALL WARRANTIES AND CONDITIONS OF MERCHANTABILITY, TITLE, ACCURACY AND COMPLETENESS, UNINTERRUPTED OR ERROR-FREE SERVICE, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT, NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR TRADE USAGE.
+
+### D4 P19
+10.2 QUORA MAKES NO PROMISES WITH RESPECT TO, AND EXPRESSLY DISCLAIMS ALL LIABILITY FOR: (i) CONTENT POSTED BY ANY USER OR THIRD PARTY; (ii) ANY THIRD-PARTY WEBSITE, THIRD-PARTY PRODUCT, OR THIRD-PARTY SERVICE LISTED ON OR ACCESSIBLE TO YOU THROUGH THE QUORA PLATFORM, INCLUDING AN INTEGRATED SERVICE PROVIDER OR PROFESSIONAL CONTRIBUTOR; (iii) THE QUALITY OR CONDUCT OF ANY THIRD PARTY YOU ENCOUNTER IN CONNECTION WITH YOUR USE OF THE QUORA PLATFORM; OR (iv) UNAUTHORIZED ACCESS, USE OR ALTERATION OF YOUR CONTENT. QUORA MAKES NO WARRANTY THAT: (a) THE QUORA PLATFORM WILL MEET YOUR REQUIREMENTS; (b) THE QUORA PLATFORM WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE; (c) THE RESULTS OR INFORMATION THAT YOU MAY OBTAIN FROM THE USE OF THE QUORA PLATFORM, A PROFESSIONAL CONTRIBUTOR, OR ANY OTHER USER WILL BE ACCURATE OR RELIABLE; OR (d) THE QUALITY OF ANY PRODUCTS, SERVICES, INFORMATION, OR OTHER MATERIAL OBTAINED OR PURCHASED BY YOU THROUGH THE QUORA PLATFORM WILL BE SATISFACTORY.
+
+### D4 P20
+10.3 YOU AGREE THAT TO THE MAXIMUM EXTENT PERMITTED BY LAW, QUORA ENTITIES WILL NOT BE LIABLE TO YOU UNDER ANY THEORY OF LIABILITY. WITHOUT LIMITING THE FOREGOING, YOU AGREE THAT, TO THE MAXIMUM EXTENT PERMITTED BY LAW, QUORA ENTITIES SPECIFICALLY WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR EXEMPLARY DAMAGES, LOSS OF PROFITS, BUSINESS INTERRUPTION, REPUTATIONAL HARM, OR LOSS OF DATA (EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES OR SUCH DAMAGES ARE FORESEEABLE) ARISING OUT OF OR IN ANY WAY CONNECTED WITH YOUR USE OF, OR INABILITY TO USE, THE QUORA PLATFORM.
+
+10.4 YOUR SOLE REMEDY FOR DISSATISFACTION WITH THE QUORA PLATFORM IS TO STOP USING THE QUORA PLATFORM.
+
+10.5 WITHOUT LIMITING THE FOREGOING, QUORA’S MAXIMUM AGGREGATE LIABILITY TO YOU FOR LOSSES OR DAMAGES THAT YOU SUFFER IN CONNECTION WITH THE QUORA PLATFORM OR THESE TERMS IS LIMITED TO THE AMOUNT PAID TO QUORA IN CONNECTION WITH THE QUORA PLATFORM IN THE TWELVE (12) MONTHS PRIOR TO THE ACTION GIVING RISE TO LIABILITY.
+
+10.6 SOME JURISDICTIONS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR EXCLUSION OF LIABILITY FOR CERTAIN TYPES OF DAMAGES. AS A RESULT, THE ABOVE LIMITATIONS OR EXCLUSIONS MAY NOT APPLY TO YOU IN WHOLE OR IN PART, AND THE FOREGOING SECTIONS 10.3, 10.4, AND 10.5 WILL NOT APPLY TO A RESIDENT OF NEW JERSEY, TO THE EXTENT DAMAGES TO SUCH NEW JERSEY RESIDENT ARE THE RESULT OF QUORA’S NEGLIGENT, FRAUDULENT, RECKLESS, OR INTENTIONAL MISCONDUCT.
+
+### D4 P21
+11\. Legal Disputes and Arbitration Agreement for Users
+
+PLEASE READ THE FOLLOWING SECTION CAREFULLY – IT MAY SIGNIFICANTLY AFFECT YOUR LEGAL RIGHTS, INCLUDING YOUR RIGHT TO FILE A LAWSUIT IN COURT.
+
+Except for Section 11.10 (Exclusive Venue for Litigation) below, this Section 11 applies only to Quora users in the United States and Canada.
+
+11.1 Initial Dispute Resolution. We are available by email at [support@quora.com] and by regular post at Quora, Inc., 605 Castro Street, Mountain View, CA 94041 to address any concerns you may have regarding your use of the Quora Platform. Most concerns may be quickly resolved in this manner. The parties agree to use best efforts to settle any dispute, claim, question, or disagreement directly through consultation and good faith negotiations with us, before initiating a lawsuit or arbitration.
+
+For any dispute that Quora initiates, we will send our written description of the dispute to the email address associated with your Quora account. The written description must be on an individual basis and provide, at minimum, the following information: your name; a description of the nature or basis of the claim or dispute; and the specific relief sought. If the dispute is not resolved within sixty (60) days after receipt of the written description of the dispute, you and Quora agree to the further dispute resolution provisions below.
+
+### D4 P22
+The aforementioned informal dispute resolution process is a prerequisite and condition precedent to commencing any formal dispute resolution proceeding. The parties agree that any relevant limitations period and filing fees or other deadlines will be tolled while the parties engage in this informal dispute resolution process.
+
+Only after the parties have engaged in a good-faith effort to resolve the dispute in accordance with this Initial Dispute Resolution process, and only if those efforts fail, then either party may initiate binding arbitration as the sole means to resolve claims using the procedures set forth below in Sections 11.4 & 11.5. If you are initiating arbitration, a copy of the demand shall also be emailed to [legal@quora.com]. If Quora is initiating arbitration, it will serve a copy of the demand to the email address associated with your Quora account. The arbitrator has the right to impose sanctions in accordance with the National Arbitration and Mediation (“NAM”) rules and procedures for any frivolous claims or submissions the arbitrator determines have not been filed in good faith, as well as for a party's failure to comply with this Section. The applicable NAM rules and procedures are available at [Homepage] or by emailing National Arbitration and Mediation’s Commercial Dept at [commercial@namadr.com].
+
+### D4 P23
+11.2 Agreement to Binding Arbitration. If an agreed upon solution is not reached through informal dispute resolution as outlined above within a period of sixty (60) days pursuant to the initial dispute resolution procedure provided in Section 11.1 above, then either party may initiate binding arbitration to formally resolve claims, subject to the terms and exclusion set forth below.
+
+### D4 P24
+You and Quora agree that all claims, disputes, or disagreements that may arise out of the interpretation or performance of the Agreement, which includes the Terms of Service (including its formation, performance, and breach) or payments by or to Quora, or that in any way relate to the provision or use of Quora Services, your relationship with Quora, or any other dispute with Quora, shall be resolved exclusively through binding arbitration in accordance with this Section 11.2 (collectively, the "Arbitration Agreement"). This includes claims that arose, were asserted, or involve facts occurring before the existence of this Arbitration Agreement or any prior agreement as well as claims that may arise after the termination of this Arbitration Agreement, in accordance with the notice and opt-out provisions set forth in Section 11.9). This Arbitration Agreement is governed by the Federal Arbitration Act ("FAA") in all respects and evidences a transaction involving interstate commerce. You and Quora expressly agree that the FAA shall exclusively govern the interpretation and enforcement of this Arbitration Agreement. If for whatever reason the rules and procedures of the FAA cannot apply, the state law governing arbitration agreements in the state in which you reside shall apply.
+
+### D4 P25
+Except as set forth in Sections 11.7 & 11.8, the arbitrator, and not any federal, state or local court or agency, shall have exclusive authority to resolve all disputes arising out of or relating to the interpretation, applicability, enforceability or formation of these Terms, including, but not limited to any claim that all or any part of these Terms are void or voidable, whether a claim is subject to arbitration, and any dispute regarding the payment of administrative or arbitrator fees (including the timing of such payments and remedies for nonpayment). The arbitrator shall be empowered to grant whatever relief would be available in a court under law or in equity.
+
+The parties understand that, absent this mandatory provision, they would have the right to sue in court and have a jury trial. They further understand that, in some instances, the costs of arbitration could exceed the costs of litigation and the right to discovery may be more limited in arbitration than in court. YOU HEREBY ACKNOWLEDGE AND AGREE THAT YOU AND QUORA ARE EACH WAIVING THE RIGHT TO A TRIAL BY JURY TO THE MAXIMUM EXTENT PERMITTED BY LAW.
+
+### D4 P26
+Except as set forth in Sections 11.5 & 11.6 below, if any provision of this Arbitration Agreement is found by an arbitrator or court of competent jurisdiction to be invalid, the parties nevertheless agree that the arbitrator or court should endeavor to give effect to the parties' intentions as reflected in the provision, and the other provisions thereof remain in full force and effect.
+
+11.3 Location. If you are a resident of the United States, arbitration will take place in the County where you reside. For residents in Canada (and anywhere else outside the United States), arbitration shall be initiated in the County of Santa Clara, State of California, United States of America, unless you and Quora otherwise agree or unless the designated arbitrator determines that such venue would be unreasonably burdensome to any party, in which case the arbitrator shall have the discretion to select another venue. For any arbitration conducted in California, You and Quora agree to submit to the personal jurisdiction of any federal or state court in Santa Clara County, California, in order to compel arbitration, to stay proceedings pending arbitration, or to confirm, modify, vacate or enter judgment on the award entered by the arbitrator; and in connection with any such proceeding, further agree to accept service of process by U.S. mail and hereby waive any and all jurisdictional and venue defenses otherwise available.
+
+### D4 P27
+11.4 Rules. The arbitration will be administered by NAM and resolved before a single arbitrator. If NAM is not available to arbitrate, the parties will select an alternative arbitration provider, but in no event shall any arbitration be administered by the American Arbitration Association.
+
+Except as modified by this "Dispute Resolution" provision, NAM will administer the arbitration in accordance with the NAM Comprehensive Dispute Resolution Rules and Procedures, Fees For Disputes When One of the Parties is a Consumer and the Mass Filing Dispute Resolution Rules and Procedures in effect at the time any demand for arbitration is filed with NAM, excluding any rules or procedures governing or permitting class or representative actions. The applicable NAM rules and procedures are available at [Homepage] or by emailing National Arbitration and Mediation’s Commercial Dept at [commercial@namadr.com].
+
+### D4 P28
+You are responsible for your own attorneys’ fees unless the arbitration rules and/or applicable law provide otherwise. The parties agree that NAM has discretion to reduce the amount or modify the timing of any administrative or arbitration fees due under NAM’s Rules where it deems appropriate (including as specified in Section 11.5, provided that such modification does not increase the costs to you, and you further agree that you waive any objection to such fee modification. The parties also agree that a good-faith challenge by either party to the fees imposed by NAM does not constitute a default, waiver, or breach of this Section 11.4 while such challenge remains pending before NAM, the arbitrator, and/or a court of competent jurisdiction, and that any and all due dates for those fees shall be tolled during the pendency of such challenge.
+
+Any arbitration demand or counterclaim asserted by either party must contain sufficient information to provide fair notice to the other party of the asserting party’s identity, the claims being asserted, and the factual allegations on which they are based. The arbitrator and/or NAM may require amendment of any demand or counterclaim that does not satisfy these requirements. The arbitrator has the right to impose sanctions for any claims the arbitrator determines to be frivolous or improper (under the standard set forth in Federal Rule of Civil Procedure 11).
+
+### D4 P29
+If the amount in controversy does not exceed $10,000 and you do not seek injunctive or declaratory relief, then the arbitration will be conducted solely on the basis of documents you and Quora submit to the arbitrator, unless the arbitrator determines that a hearing is necessary. If the amount in controversy exceeds $10,000 or seeks declaratory or injunctive relief, either party may request (or the arbitrator may determine) to hold a hearing, which shall be via videoconference or telephone conference unless the parties agree otherwise.
+
+Subject to the applicable NAM rules and procedures, the parties agree that the arbitrator will have the discretion to allow the filing of dispositive motions if they are likely to efficiently resolve or narrow issues in dispute. Unless otherwise prohibited by law, all arbitration proceedings will be confidential and closed to the public and any parties other than you and Quora (and each of the parties’ authorized representatives and agents), and all records relating thereto will be permanently sealed, except as necessary to obtain court confirmation of the arbitration award (provided that the party seeking confirmation shall seek to file such records under seal to the extent permitted by law).
+
+### D4 P30
+11.5 Mass Filing Rules. To increase the efficiency of administration and resolution of arbitrations, in the event 50 or more similar arbitration demands (those asserting the same or substantially similar facts or claims, and seeking the same or substantially similar relief) presented by or with the assistance or coordination of the same law firm(s) or organization(s) are submitted to NAM (or another arbitration provider selected in accordance with Section 11.4 if NAM is unavailable) against Quora within reasonably close temporal proximity ("Mass Filing"), the parties agree (i) to administer the Mass Filing in batches of 50 demands per batch (to the extent there are fewer than 50 arbitration demands left over after the batching described above, a final batch will consist of the remaining demands) with only one batch filed, processed, and adjudicated at a time; (ii) to designate one arbitrator for each batch; (iii) to accept applicable fees, including any related fee reduction determined by NAM (or another arbitration provider selected in accordance with Section 11.4 if NAM is unavailable) in its discretion; (iv) that no other demands for arbitration that are part of the Mass Filing may be filed, processed, or adjudicated until the prior batch of 50 is filed, processed, and adjudicated; (v) that fees associated with a demand for arbitration included in a Mass Filing, including fees owed by Quora and the claimants, shall only be due after your demand for arbitration is included
+
+### D4 P31
+in a set of batch proceedings and that batch is properly designated for filing, processing, and adjudication; and (vi) that the staged process of batched proceedings, with each set including 50 demands, shall continue until each demand (including your demand) is adjudicated or otherwise resolved. Arbitrator selection for each batch shall be conducted to the greatest extent possible in accordance with the applicable NAM rules and procedures for such selection, and the arbitrator will determine the location where the proceedings will be conducted.
+
+You agree to cooperate in good faith with Quora and the arbitration provider to implement such a “batch approach” or other similar approach to provide for an efficient resolution of claims, including the payment of combined reduced fees, set by NAM in its discretion, for each batch of claims.
+
+### D4 P32
+The parties further agree to cooperate with each other and the arbitration provider or arbitrator to establish any other processes or procedures that the arbitration provider or arbitrator believe will provide for an efficient resolution of claims. Any disagreement between the parties as to whether this provision applies or as to the process or procedure for batching shall be resolved by a Procedural Arbitrator appointed by NAM, as defined by NAM’s Supplemental Rules. This "Batch Arbitration" provision shall in no way be interpreted as increasing the number of claims necessary to trigger the applicability of NAM’s Mass Filing Supplemental Dispute Resolution Rules and Procedures or authorizing class arbitration of any kind. Unless Quora otherwise consents in writing, Quora does not agree or consent to class arbitration, private attorney general arbitration, or arbitration involving joint or consolidated claims under any circumstances, except as set forth in section 11.6 and this section 11.5. If your demand for arbitration is included in the Mass Filing, your claims will remain tolled until your demand for arbitration is decided, withdrawn, or is settled.
+
+### D4 P33
+The arbitrator will render an award within the time frame specified in the applicable NAM rules and procedures. The arbitrator's decision will include the essential findings and conclusions upon which the arbitrator based the award. Judgment on the arbitration award may be entered in any court having jurisdiction thereof. The arbitrator will have the authority to award monetary damages on an individual basis and to grant, on an individual basis, any non-monetary remedy or relief available to an individual to the extent available under applicable law, the arbitral forum's rules, and this Arbitration Agreement. The parties agree that the damages and/or other relief must be consistent with Section 11.6 and also must be consistent with the terms of the "Limitation of Liability" section of the Agreement as to the types and the amounts of damages or other relief for which a party may be held liable. No arbitration award or decision will have any preclusive effect as to issues or claims in any dispute with anyone who is not a named party to the arbitration. Attorneys' fees will be available to the prevailing party in the arbitration only if authorized under applicable substantive law governing the claims in the arbitration.
+
+### D4 P34
+11.6 Class Action and Class Arbitration Waiver. YOU AND QUORA ACKNOWLEDGE AND AGREE THAT, TO THE MAXIMUM EXTENT ALLOWED BY LAW, ANY ARBITRATION SHALL BE CONDUCTED IN AN INDIVIDUAL CAPACITY ONLY AND NOT AS A CLASS OR ANY OTHER TYPE OF CONSOLIDATED ACTION AND THE ARBITRATOR MAY AWARD RELIEF ONLY IN FAVOR OF THE INDIVIDUAL PARTY SEEKING RELIEF AND ONLY TO THE EXTENT NECESSARY TO RESOLVE AN INDIVIDUAL PARTY’S CLAIM, UNLESS QUORA PROVIDES ITS CONSENT TO CONSOLIDATE IN WRITING.
+
+If there is a final judicial determination that applicable law precludes enforcement of this Paragraph’s limitations as to a particular remedy, then that remedy (and only that remedy) must be severed from the arbitration and may be sought in court. The parties agree, however, that any adjudication of remedies not subject to arbitration shall be stayed pending the outcome of any arbitrable claims and remedies.
+
+If there is a final judicial determination that either the Class Arbitration Action and Collective Relief Waiver or the provisions in Section 11.4 are not enforceable as to a particular claim or request for relief, then the parties agree that that particular claim or request for relief may proceed in court but shall be severed and stayed pending arbitration of the remaining claims. This provision does not prevent you or Quora from participating in a class-wide settlement of claims.
+
+### D4 P35
+11.7 Exception: Small Claims Court Claims. Notwithstanding the parties’ agreement to resolve all disputes through arbitration, either party may also elect to have disputes or claims resolved in a small claims court that are within the scope of that court’s jurisdiction regardless of what forum the filing party initially chose. Either party may also seek a declaratory judgment or other equitable relief in a court of competent jurisdiction regarding whether a party’s claims are time-barred or may be brought in small claims court. Seeking such relief shall not waive a party’s right to arbitration under this agreement, and any filed arbitrations related to any action filed pursuant to this paragraph shall automatically be stayed pending the outcome of such action.
+
+11.8 Exception: Intellectual Property and Content Claims. Notwithstanding the parties’ agreement to resolve all disputes through arbitration, this binding arbitration section does not apply to disputes relating to either party’s intellectual property rights (trademark, copyright, patent, and trade secret) or violations of Quora’s Acceptable Use Policy. For further clarification, disputes relating to your privacy rights are not excepted from this binding arbitration section.
+
+### D4 P36
+11.9 30 Day Right to Opt-Out. You have the right to opt-out and not be bound by the arbitration and class action waiver provisions set forth in Sections 11.4-11.6 by sending written notice of your decision to opt-out by emailing us at [arbitration.optout@quora.com]. []The notice must be sent within thirty (30) days of registering to use the Quora Platform, otherwise you will be bound to arbitrate disputes in accordance with the terms of those sections. If you opt out of these arbitration provisions, we also will not be bound by them. Quora will continue to honor any valid opt outs if you opted out of arbitration in a prior version of the Agreement pursuant to the requirements set forth in that version. If you do not timely opt out of this Arbitration Agreement, such action shall constitute mutual acceptance of the terms of these “Dispute Resolution” provisions by you and Quora.
+
+11.10 Changes to this section. Quora will provide 30 days’ notice of any changes to this section. Changes will become effective on the 30th day and apply to all claims not yet filed. If you continue to use the site after the 30th day, you agree that any unfiled claims of which Quora does not have actual notice are subject to the revised clause.
+
+### D4 P37
+If you reject any such changes by opting out of the Arbitration Agreement, you may exercise your right to a trial by jury or judge, as permitted by applicable law, but any prior existing agreement to arbitrate disputes under a prior version of the Arbitration Agreement will not apply to claims not yet filed. If Quora changes this "Dispute Resolution" section after the date you first accepted this Agreement (or accepted any subsequent changes to this Agreement), you agree that your continued use of the Product(s) or Services 30 days after such change will be deemed acceptance of those changes. If you do not agree to such change, you may opt out by providing notice as described in Section 11.9.
+
+### D4 P38
+11.11 Exclusive Venue for Litigation. If you are not a user in the European Economic Area, the United Kingdom, or Switzerland, to the extent that the arbitration provisions set forth in Section 11) do not apply, or if you have opted out of arbitration, the parties agree that any litigation between them must be filed exclusively in state or federal courts located in Santa Clara County, California (except for small claims court actions which may be brought in the county where you reside). These Terms shall be governed by the laws of the State of California, excluding its conflict of laws provision and the parties expressly consent to exclusive jurisdiction in Santa Clara County, California for any litigation other than small claims court actions. In the event of litigation relating to these Terms of Service, the parties agree to waive, to the maximum extent permitted by law, any right to a jury trial, except where a jury trial waiver is not permissible under applicable law.
+
+If you are a user in the European Economic Area, the United Kingdom, or Switzerland, this section does not deprive you of any rights or protections you have under the law of the country of your residence or access to courts in that country.
+
+12\. General Terms
+
+### D4 P39
+12.1 Changes to these Terms of Service. Except for the Dispute Resolution Section of these Terms (Section 11), we may amend these Terms (including any policies, such as the [Privacy Policy], [Acceptable Use Policy], [Copyright Policy], and [Trademark Policy] that are incorporated into these Terms) at any time, in our sole discretion. If we amend material terms to these Terms, such amendment will be effective after we send you notice of the amended agreement. Such notice will be in our sole discretion, and the manner of notification could include, for example, via email, posted notice on the Quora Platform, or other manner. You can view these Terms and our main policies at any time [here]. Your failure to cancel your account, or cease use of the Quora Platform, after receiving notification of the amendment, will constitute your acceptance of the amended terms. If you do not agree to the amendments or to any of the terms in these Terms, your only remedy is to cancel your account or to cease use of the Quora Platform.
+
+### D4 P40
+12.2 Export. The Quora Platform is controlled and operated from our United States offices in California. Quora software is subject to United States export controls and activities involving Quora software are subject to United States trade and economic sanctions laws and regulations (collectively, “US Trade Controls”). You may not export, reexport, transfer, or otherwise release any Quora software in violation of US Trade Controls, including: (1) to users located in countries or territories that are the target of comprehensive sanctions or designated by the U.S. government as a State Sponsor of Terrorism (collectively, “Sanctioned Countries”); (2) to users that are the subject of US Trade Controls prohibitions, including, without limitation: (i) parties designated on the US Department of the Treasury’s Office of Foreign Assets Control’s Specially Designated Nationals and Blocked Persons List or Sanctions Evaders List; (ii) parties owned 50% or more, individually or in the aggregate, by one or more of the foregoing; or (iii) parties designated on the US Department of Commerce’s Entity List ((i)-(iii) collectively, “Prohibited Parties”); or (3) otherwise in violation of US Trade Controls. You represent that you are not located in a Sanctioned Country or a Prohibited Person.
+
+### D4 P41
+12.3 Applications and Mobile Devices. If you access the Quora Platform through a Quora application, you acknowledge that these Terms are an agreement between you and Quora only, and not with another application service provider or application platform provider (such as Apple Inc. or Google Inc.), which may provide you the application subject to its own terms. To the extent you access the Quora Platform through a mobile device, your wireless carrier’s standard charges, data rates, and other fees may apply.
+
+12.4 Survival. The following provisions will survive expiration or termination of these Terms: 1.6 (Feedback), Section 3 (Your Content), Section 4.1-4.2 and 4.4-4.7(Our Content and Materials), Section 6 (Third-Party Links, Sites, and Services), Section 8 (Termination), Section 9 (Disclaimers and Limitation of Liability), Section 10 (Indemnification), Sections 11 (Legal Disputes and Arbitration Agreement), and Section 12 (General Terms).
+
+### D4 P42
+12.5 Notice for California Users. Under California Civil Code Section 1789.3, California web users are entitled to the following specific consumer rights notice: The Quora Platform is provided by Quora, Inc., located in Mountain View, California. If you have a question or complaint regarding the Quora Platform, please contact Quora at [support@quora.com]. California residents may reach the Department of Consumer Affairs Consumer Information Division at 1625 N. Market Blvd., Suite S-202, Sacramento, California 95834, or by telephone at (916) 445-1254 or (800) 952-5210 or Hearing Impaired at TDD (800) 326-2297 or TDD (916) 322-1700.
+
+12.6 Government End Users. Any Quora software and related documentation are “Commercial Items,” as that term is deﬁned at 48 C.F.R. §2.101, consisting of “Commercial Computer Software” and “Commercial Computer Software Documentation,” as such terms are used in 48 C.F.R. §12.212 or 48 C.F.R. §227.7202 (as applicable). Consistent with 48 C.F.R. §12.212 or 48 C.F.R. §227.7202-1 through 227.7202-4 (as applicable), the Commercial Computer Software and Commercial Computer Software Documentation are being licensed to U.S. government end users: (i) only as Commercial Items; and (ii) with only those rights as are granted to all other end users pursuant to these Terms.
+
+### D4 P43
+12.7 Assignment. These Terms, and any rights and licenses granted hereunder, may not be transferred or assigned by you, but may be assigned by Quora without restriction. Any attempted transfer or assignment in violation hereof shall be null and void.
+
+12.8 Electronic Communications. You consent to receive communications from us by email in accordance with these Terms, our Privacy Policy and applicable law. You acknowledge and agree that all agreements, notices, disclosures and other communications that we provide to you electronically will satisfy any legal requirement that such communications be in writing.
+
+12.9 Entire Agreement/ Severability. These Terms constitute the entire agreement between you and us regarding the Quora Platform (except as to services that require separate written agreement with us, in addition to this agreement) and supersede all prior terms, agreements, discussions and writings regarding the Quora Platform. If any provision in these Terms is found to be unenforceable, then that provision will not affect the enforceability of the remaining provisions of these Terms, which will remain in full force and effect.
+
+12.10 Interpretation. In construing or interpreting the terms of this agreement: (i) the headings in this these Terms are for convenience only, and are not to be considered, and (ii) no presumption is to operate in either party’s favor as a result of its counsel’s role in drafting these Terms.
+
+### D4 P44
+12.11 Notices. All notices permitted or required under this agreement, unless specified otherwise in these Terms, must be sent in writing as follows in order to be valid: (i) if to you, by us via email to the address associated with your account, and (ii) if to us, by you via [legal@quora.com]. Notices will be deemed given (a) if to you, when emailed, and (b) if to us, on receipt by us.
+
+12.12 Relationship. This agreement between you and us does not create a joint venture, agency, partnership, or other form of joint enterprise between you and us. Except as expressly provided herein, neither party has the right, power, or authority to create any obligation or duty, express or implied, on behalf of the other.
+
+12.13 Waiver. No waiver of any terms will be deemed a further or continuing waiver of such term or any other term. Our failure to assert a right or provision under these Terms will not constitute a waiver of such right or provision.
+
+12.14 Contact. Feel free to contact us through [quora.com/contact] with any questions about these Terms. Quora is a Delaware corporation, located at 605 Castro Street, Mountain View, CA 94041.
+
+
+## Cases for D4 (Quora, Terms of Service)
+
+- C1. "Your content can be distributed through any media known now or in the future". Description: When publishing content you allow this service to re-distribute it in any form it deems necessary. This might be an issue if you do not want your content, for example, to be published to a third-party service you might not want to be able to use your content. However, some services require this type of licensing to operate properly, which makes this Case neutral. Classification: neutral.
+- C2. "You agree not to submit libelous, harassing or threatening content". Description: This service prohibits users from submitting content of a variety of types. This can include content that is unlawful, harassing, abusive, threatening, libelous, sexist, racist, homophobic, transphobic, or discriminatory in any other way. Classification: neutral.
+- C3. "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision". Description: Even if the service does not or not always enforce all of the rules or provisions contained in its terms, they still apply. Users can at a later time still be held accountable for violating provisions that have not been enforced consistently. Classification: neutral.
+- C4. "The court of law governing the terms is in location X". Description: The Terms are governed by the applicable laws of a jurisdiction (specified in the title of each point by replacing the "X"). Classification: neutral.
+- C5. "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder". Description: Should any portion of the Terms of Service be unenforceable or invalid, that portion will be enforced to the fullest extent permitted by applicable law and the remainder of the TOS will remain valid and enforceable. Classification: neutral.
+- C6. "No guarantee is made reguarding the accuracy and/or reliability of the information provided". Description: This service makes no warranty regarding the accuracy or reliability of any information that is given on its website or the results that may be obtained from the use of the service. Classification: neutral.
+- C7. "The service has non-exclusive use of your content". Description: The service can pay for your content and you are allowed to make it commercially available to other services/parties. Classification: good.
+- C8. "Instructions are provided on how to submit a copyright claim". Description: If content that you own is copied or made accessible through the service in a way that constitutes an intellectual property right infringement, you can report it following the instructions given in the agreements. Classification: neutral.
+- C9. "The service is provided 'as is' and to be used at your sole risk". Description: This service does not provide any guarantees as to its usability or fitness for the users' purposes. Users agree to use it at their own risk, accepting any possible bugs, malfunctions or harm to their devices. Classification: neutral.
+
+ERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 6:18 PM.
+ERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 6:18 PM.

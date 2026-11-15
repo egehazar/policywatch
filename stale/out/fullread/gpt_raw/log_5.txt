@@ -1,0 +1,2004 @@
+OpenAI Codex v0.154.0
+--------
+workdir: C:\Users\egeha\AppData\Local\Temp\claude\8e505c2afe5694b7\c49ddd07-ca2e-4999-982e-7a6829474768\scratchpad\gpt_grade\empty
+model: gpt-6-astra
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 01a1dec9-199c-7cf1-bcba-e0c1b8dc29cd
+--------
+user
+You are a rater in a pre-registered evaluation. Your only input is the task file pasted below, after the line of
+equals signs. Read ALL of it before answering. The task instructions are at the top of it. Follow them exactly.
+
+Rules:
+- Do not open, list or search any file or directory, do not run commands, and do not use the web. Judge from the
+  text below only.
+- Quote verbatim: copy the span exactly from the piece you cite.
+- Cover every listed case of every document in the file. Use an empty list when a case is not stated.
+- Where the task says to write the JSON object to an output file: do not write any file. Instead, your final reply
+  must be ONLY that JSON object, with nothing before or after it.
+
+==========================================================================================
+# Rating task: where does this policy state each case?
+
+ToS;DR (Terms of Service; Didn't Read) summarises policies with "cases", for example "You must create an account to
+use this service". Below are one or more platform documents in their CURRENT version, each cut into numbered pieces
+(P1, P2, ...) in document order, followed by a list of cases for that document (C1, C2, ...). Each case has a title,
+ToS;DR's description and its classification (good / neutral / bad / blocker: which way it cuts for users).
+
+Read the whole document. For EACH listed case, find EVERY passage that states or clearly implies the case for this
+platform, so that a ToS;DR curator could quote it as the evidence. A passage that is only on the same topic, states
+the opposite, or needs another passage to make the case does not count. Some cases are stated in several places;
+some are not stated at all in this version.
+
+For each passage you find, give the piece label and a verbatim quote of the shortest span (usually one or two
+sentences) that states the case, copied exactly from that piece. List at most 5 passages per case, the clearest
+first. If the document does not state the case, give an empty list.
+
+Write ONLY a JSON object to the output file named in your instructions, in this shape, covering every listed case of
+every document:
+  {{"D1": {{"C1": [{{"piece": "P12", "quote": "exact text"}}, ...], "C2": [], ...}}, "D2": {{...}}}}
+
+
+## D1: LINE, Terms of Service (current version, 26 pieces)
+
+### D1 P1
+LY Corporation Common Terms of Use
+
+==================================
+
+These LY Corporation Common Terms of Use (these “Terms of Use”) apply commonly to all persons (“you” or “User(s)”, depending upon the context) to use the services, software and other products (collectively, “Services”) provided by LY Corporation (“we,” “us,” or “our”).
+
+**Chapter 1 General Rules**
+
+1\. Definitions
+
+The following words and terms shall have the meanings set forth below when they are used in these Terms of Use.
+
+1.1. “Contents” means information such as text, sounds, music, images, videos, software, programs, computer code, and other information.
+
+1.2. “Subject Contents” means Contents that may be accessed through the Services.
+
+1.3. “Submission (Submit)” means the act of submitting, posting, disclosing, providing or transmitting Contents to or on the Services.
+
+1.4. “Submitted Contents” means Contents that Users have Submitted to the Services.
+
+1.5. “Individual Conditions of Use” means the conditions of use separate from these Terms of Use that pertain to specific Services released or uploaded by us, and which apply to the use of the Services, under names such as “general conditions,” “terms”, “guidelines,” “policies,” or the like.
+
+1.6. “Charges” means the cost required for using the Services regardless of the name such as charge, rate, fee, membership fee or otherwise (including the User’s debts for which we have been entrusted the collection thereof by a third party).
+
+### D1 P2
+1.7. “Subscription Services” means services where you can use specific Contents or the Services designated by us for a given period of time by paying a fixed fee.
+
+**2\. Use of the Services**
+
+2.1. In order to use the Services, you need to agree to these Terms of Use, irrespective of whether Charges are applicable or whether account registration is required.
+
+2.2. We will deem that you have agreed to these Terms of Use by actually using the Services which are provided free of charge (limited to those which can be used without registering an account).
+
+2.3. Users who are minors may only use the Services by obtaining prior consent from their parents or legal guardians.
+
+2.4. If Users will be using the Services on behalf of, or for the purposes of, a business enterprise, then such business enterprise must also agree to these Terms of Use prior to using the Services.
+
+2.5. Users shall use the Services under their own responsibility.
+
+**3\. Restriction on use of the Services**
+
+3.1. We may add conditions for use of the Services, such as limiting their use to those who have a registered account (including a LINE account or Yahoo! JAPAN ID), or who are a certain age or older, or who satisfy certain requirements through procedures specified by us, such as identity identification.
+
+### D1 P3
+3.2. We do not allow use by members of anti-social forces (including those who were members in the past), or by persons so involved, or by persons who abuse the Services, or through their use cause trouble to a third party.
+
+**4\. Account registration information**
+
+4.1. When registering an account, you are obligated to (1) register true and accurate information, and (2) make appropriate corrections by yourself to keep that registered information up to date.
+
+4.2. Any User who has registered an account may delete such User’s account at any time.
+
+4.3. Any and all rights of a User to use the Services for which the registration of an account is required shall cease to exist when such User’s account has been deleted for any reason. Please take note that an account cannot be retrieved even if a User has accidentally deleted his/her account.
+
+4.4. An account is for exclusive use and belongs solely to the User of such account. Users may not transfer, lease or otherwise dispose their rights to use the Services for which the registration of an account is required to any third party, nor may the same be inherited or succeeded to by any third party.
+
+**5\. Provision of Subscription Services**
+
+5.1. Users may receive Subscription Services under the conditions prescribed by us. In addition to these Terms, Users shall abide by the fees for the Subscription Services, the payment method thereof, as well as other Individual Conditions of Use posted on the Services or on our website.
+
+### D1 P4
+5.2. Excluding the cases set out in the Individual Conditions of Use, Users may take procedures for the cancellation of Subscription Services at any time; provided, however, that even if a User takes the procedures for cancellation prior to the intended period of use, the User may not change such period of use, nor may the User cancel the purchase of the Subscription Services. In such case, the fees already paid will not be refunded, nor will there be any refund on a pro rata basis. However, the foregoing will not apply if laws or regulations require otherwise.
+
+5.3. If a User does not complete its cancellation procedure by the designated date and time, the period of use of the Subscription Services may be automatically renewed in accordance with the terms prescribed by us even after the end of the period of use of such Subscription Services.
+
+**6\. Advertisement**
+
+We may post our ads or those of a third party on the Services.
+
+**7\. No emergency call functions**
+
+The Services cannot be depended upon for emergency calls, such as those made to law enforcement agencies, maritime safety authorities, fire brigade or other emergency services.
+
+**8\. Contents**
+
+8.1. We grant Users a non-transferable, non-sublicensable, non-exclusive license to use the Subject Contents provided by us, solely for the purpose of using the Services.
+
+### D1 P5
+8.2. Users shall abide by the conditions applicable thereto when using the Subject Contents which are subject to conditions of use, such as additional fees and periods of use and the like. Even if terms such as “Purchase”, “Sales,” and the like appear on the screens for the Services, we shall remain the owner of all intellectual property rights as well as all other rights in the Contents offered to Users by us, and such rights shall not be transferred to Users. Users will only be granted usage rights as set forth above.
+
+8.3. You must not use (including, without limitation, copying, transmitting, reproducing and modifying) the Subject Contents beyond the scope of the intended use of the Subject Contents in the Services.
+
+**9\. Handling of User’s data and Contents**
+
+9.1. We shall not be obligated to back up data and the Submitted Contents stored by you on servers managed by us. You are responsible for backing it up yourself.
+
+9.2. Copyrights in the Submitted Contents belong to you or the copyright holder of such Contents.
+
+### D1 P6
+Among the Submitted Contents, with regard to those Submitted to the Services that can be accessed by unspecified or large number of Users, such as electronic bulletin boards, and those disclosed to other general Users, who are not your friends, in the Services such as the application “LINE” provided by us, you shall license (including, without limitation, a sublicensing right) us the right to use (including, without limitation, replication, screening, public transmission, exhibition, distribution, transfer, loan, translation, adaptation and publication) such Submitted Contents free of charge and non-exclusively, with indefinite duration within and outside of Japan.
+
+The Services may include functions where multiple Users may edit Contents (post, correct, and delete, etc.). In such case, a User who posted his/her Submitted Contents shall grant other Users the right to edit such Submitted Contents.
+
+Moreover, you shall not exercise rights such as author’s moral rights.
+
+9.3. If we acknowledge that you have violated, or may violate, laws and regulations or these Terms of Use in connection with the Submitted Contents, or when otherwise reasonably required for business, we may restrict the use of the Services, such as by deleting the Submitted Contents, without requiring any prior notice to you.
+
+### D1 P7
+9.4. We may check and confirm the contents of the Submitted Contents by Users to the extent permissible under laws and regulations, when it is necessary for us to confirm compliance with related laws and regulations or the provisions set out in these Terms, etc.; provided, however, that we are not obligated to conduct such confirmation.
+
+**10\. Message function using an electronic bulletin board, browsing thereof and right of deletion**
+
+Certain Services provide a message exchanging function among Users by using the system of an electronic bulletin board. Certain electronic bulletin boards can only be browsed by the three parties of the sender of the message, recipient of the message, and us. In the foregoing case, we may browse the subject matter as needed and delete the message in light of these Terms of Use.
+
+**11\. User’s responsibility related to account and password, etc.**
+
+### D1 P8
+When registering authentication information in using the Services, a User must strictly manage such authentication information under its own responsibility so that it will not be abused. If an operation is performed using the User’s authentication information that was registered (including without limitation cases where the User is authentication based on a combination of account and password, or based on a comparison of the code uniquely assigned for each mobile phone number sent from a mobile operator and the registered information), we will provide the Services by deeming that such operation is an act by the actual User. If Charges are incurred for the use of the Services or purchase of products as a result of a person other than the registered User performing operations using the User’s authentication information, we will bill such Charges to the User unless there was willful misconduct or negligence on our part.
+
+**12\. Provision of the Services**
+
+12.1. Users shall supply PCs, mobile phone devices, smartphones and other communication devices, operating systems, communication methods and electricity, etc. necessary for using the Services at their own responsibility and expense.
+
+12.2. We may temporarily suspend providing all or part of the Services in case of the occurrence of any of the following:
+
+(1) when conducting maintenance or repair of systems;
+
+### D1 P9
+(2) when the Services cannot be provided due to force majeure such as an accident (fire, power outage, etc.), act of God, war, riot, labor dispute;
+
+(3) when there is system failure or heavy load on the system;
+
+(4) when securing the safety of Users or third parties, or in the case of an emergency for the public welfare; or
+
+(5) when we reasonably determine it to be necessary, other than those set forth in each of the preceding items.
+
+**13\. Warranty of and modification to the Services**
+
+13.1. With regard to the contents of the Services, we make no guarantee, whether express or implied, about the nonexistence of problems (including, without limitation, security-related defects, errors and bugs and infringement of rights), or about its security, reliability, accuracy, completeness, effectiveness and suitability for a particular purpose, and continuity of the provision of the Services. We are not obligated to provide the Services to you upon eliminating such problems.
+
+13.2. We may modify all or a part of the contents of the Services when corresponding to any of the following items:
+
+(1) when modification to the contents of the Services, such as addition of functions to or improvement of the Services, conforms to the general interests of Users; or
+
+### D1 P10
+(2) in cases other than the preceding item, there is rationality in light of the necessity to modify the contents of the Services, appropriateness of the contents after modification, and other circumstances concerning the modification.
+
+**14\. Prohibition of reuse of the Services, etc.**
+
+Unless otherwise prescribed by us, you may not use the Services, or the data they consist of, for a purpose other than the purpose for which they are provided. If you do, we have the right to suspend such an act and charge you an amount equivalent to the profit or benefit you received from such an act.
+
+**15\. Matters to be observed in using the Services**
+
+The following acts are prohibited when using the Services:
+
+(1) act that is in violation of laws and regulations, court judgments, decisions or orders, or legally binding administrative measures;
+
+(2) act that is contrary to social norms or public policy, fraud or fraud-related activities, act of infringing upon the copyrights, trademark rights, patent rights or other intellectual property rights, honor rights, privacy rights or other rights granted by law or other contractual rights of us or those of a third party, or act of causing trouble to others;
+
+### D1 P11
+(3) act of Submitting excessively violent expressions, sexually explicit expressions, expressions corresponding to child pornography or child abuse, expressions that lead to discrimination by race, nationality, beliefs, gender, social status or family origin, expressions that may induce or facilitate suicide, self-injury or drug abuse, or other expressions that include antisocial contents and cause displeasure to others;
+
+(4) act of Submitting programs, etc. that will destroy or obstruct the functions of software and hardware, etc. being used by other Users;
+
+(5) act of destroying or obstructing the functions of our server or network, act of wrongfully operating the Services by using BOT, cheat tools or other technical means, act of intentionally using a defect of the Services, act of making unreasonable inquiries or requests to us, such as by repeatedly asking the same question, or any other act that obstructs or impairs the operation of the Services or the use of the Services by other Users;
+
+(6) act of performing reverse engineering, disassembly, or decoding of the source code by any other means for unjustifiable purposes or in a wrongful manner;
+
+(7) act of obstructing the Services, ads distributed by us, or services or ads provided on our sites or apps;
+
+(8) act of wrongfully collecting, accumulating, disclosing or providing information related to third parties such as personal information, registration information and usage history information;
+
+### D1 P12
+(9) act of sending the same or similar messages to a large, indefinite number of Users (except for those approved by us), act of indiscriminately adding other Users as friends or to group talk in the Services such as the application “LINE” provided by us, or any other act deemed by us to constitute spamming;
+
+(10) act of converting the right to use the Services or Contents into cash, property or other economic gain in a method other than the method prescribed by us;
+
+(11) act of engaging in sales, publicity, advertisement, solicitation or any other act for profit, act with the purpose of meeting or dating strangers (excluding those approved by us), act with the purpose of sexual conduct or obscene acts, act with the purpose of harassing or slandering other Users, religious activities or act of solicitating others to religious organizations, or any other act of using the Services for purposes other than as intended by the Services;
+
+(12) act of Using the Services by using another User’s account;
+
+(13) act that leads to the misrepresentation of us and/or a third party or that intentionally spreads false information;
+
+(14) act of acquiring accounts or passwords from others or disclosing or providing accounts or passwords to others, irrespective of the means thereof;
+
+(15) act of offering benefits to antisocial forces directly or indirectly, or any other act of cooperating with antisocial forces;
+
+### D1 P13
+(16) act of assisting or facilitating any act corresponding to each of the preceding items, or act of preparing the same;
+
+(17) in addition to each of the preceding items, any act that is reasonably deemed inappropriate by us.
+
+**16\. No assignment of rights or obligations**
+
+You may not assign all or part of the contractual status of an agreement falling under these Terms of Use, or the rights and obligations arising therefrom, to a third party without our prior written consent.
+
+**17\. Deletion of Submission, suspension of use of the Services, deletion of account**
+
+17.1. In any of the following cases, in order to appropriately operate the Services we provide, we may, without prior notice, take such measures as deleting data or Contents, prohibiting the use of all or part of the Services, or deleting User’s accounts.
+
+In addition, if you have registered multiple accounts, measures may be taken on all of those accounts:
+
+(1) when you violate any of the matters stipulated in the laws and regulations, these Terms of Use or the Individual Conditions of Use, or when we reasonably determine that there is a risk of such a violation;
+
+(2) when you impair our credibility by spreading rumors, using fraudulent means, using force or other wrongful means;
+
+(3) when an account is registered or used by an anti-social force or its members or persons so involved, or when we reasonably determine that there is such a risk;
+
+### D1 P14
+(4) excluding the cases set out in the Individual Conditions of Use, when you have not used your account or specific Services for 1 year or longer; and
+
+(5) in any other case where we reasonably determine that it is difficult to maintain the contractual relationship between you and us, such as when the relationship of trust with you is lost.
+
+17.2. When we reasonably determine that you are facing credit uncertainty such as when our claims held against you are subject to attachment or provisional attachment, or when you receive a petition for commencement of bankruptcy, civil rehabilitation or other similar proceedings, or you independently file the foregoing petitions, in order to appropriately operate the Services, we may, without prior notice, take such measures as suspending the use of our paid services and our payment settlement services (including Yahoo! JAPAN Wallet) or terminating the contract related to the provision of such services. In addition, if you have registered multiple accounts, measures may be taken on all of those accounts.
+
+17.3. In any of the following cases, in order to appropriately operate the Services, we may, without prior notice, take such measures as deleting User’s accounts (limited to the Yahoo! JAPAN ID) in addition to the measures of 17.2 above.
+
+In addition, if you have registered multiple accounts, measures may be taken on all of those accounts:
+
+### D1 P15
+(1) when there is a delay in payment of the Charges payable to us and, despite being formally demanded by us to make payment within a reasonable period, you fail to do so within the foregoing period on multiple occasions, and we reasonably determine that it is difficult to maintain our contractual relationship with you;
+
+(2) when the use of a credit card or bank account designated as the method for settlement of Charges of the Service (including Yahoo! JAPAN Wallet) is suspended, and despite being formally demanded by us repeatedly to register another valid credit card or bank account, you fail to do so within a reasonable period, and we reasonably determine that it is difficult to maintain our contractual relationship with you; and
+
+(3) when our claims held against you are subject to attachment, or we reasonably determine that you are facing credit uncertainty such as when you receive a petition for commencement of bankruptcy, civil rehabilitation or other similar proceedings, or you independently file the foregoing petitions.
+
+**18\. Compensation to us**
+
+If we suffer any damage due to your willful misconduct or negligence, you must compensate the damage that we suffered immediately when we demand such compensation.
+
+**19\. Disclaimer**
+
+19.1. We shall be exempt from liability, irrespective of the nature thereof, unless it is due to our willful intent or gross negligence.
+
+### D1 P16
+19.2. Notwithstanding the provisions of the preceding paragraph, if a contract with a User regarding the use of the Services under these Terms of Use falls under a consumer contract as defined under the Consumer Contract Act of Japan, we will be liable for compensation for loss or damage within the range of the loss or damage that would normally occur, up to the maximum of the amount of the Charges for paid Services (equivalent to one month’s fees in the case of Subscription Services), and will not be liable for lost profits or other damages arising due to special circumstances, except for cases arising out of our willful intent or gross negligence.
+
+19.3. If we cause damage to you due to gross negligence on our part, we will not be liable for lost profits or other damages arising due to special circumstances, and will be liable for compensation for loss or damage within the range of the loss or damage that would normally occur, up to the maximum of the amount of the Charges for paid Services (equivalent to one month’s fees in the case of Subscription Services); save for cases where a contract with a User regarding the use of the Services under these Terms of Use falls under a consumer contract as defined under the Consumer Contract Act of Japan.
+
+**20\. Individual Conditions of Use**
+
+For certain Services, Individual Conditions of Use may be prescribed in addition to these Terms of Use.
+
+### D1 P17
+If there is any difference between these Terms of Use and the Individual Conditions of Use, unless otherwise specified, the Individual Conditions of Use shall prevail over these Terms of Use in relation to such Services.
+
+**21\. Third-party services**
+
+The Services may contain services or Contents provided by third parties other than us. Such third parties shall bear any and all responsibility regarding such services and/or Contents. Furthermore, there may be conditions of use provided by such third party which are applicable to such services and Contents.
+
+**22\. Notification or contact**
+
+22.1. Any communication from us to you in relation to the Services will be made by way of posting on the Services or at a proper location in our website or any other method that we deem appropriate.
+
+22.2. If you wish to contact us, please do so according to the method designated by us, such as by using the inquiry form provided by us or by e-mail to the e-mail address specified by us.
+
+22.3. As a general rule, we will respond to inquiries from Users only by using the message function or by e-mail.
+
+**23\. Privacy**
+
+23.1. We place top priority on the privacy of its Users.
+
+23.2. We will appropriately handle information related to individual Users in accordance with the [LY Corporation Privacy Policy].
+
+23.3. We promise to exercise the utmost care and attention to its security measures to ensure the safe management of any and all information collected from Users.
+
+### D1 P18
+**24\. Revision to these Terms of Use**
+
+We may revise these Terms of Use in any of the following cases.
+
+In the foregoing case, we will make public, by indicating on the Services or our website, or notifying Users according to a method prescribed by us, to the effect that these Terms of Use will be revised, as well as the subject matter and effective date of the revised version of these Terms of Use. In the case of Item (2) below, we will make the revision public a reasonable period before the effective date of the revision. The revised version of these Terms of Use shall come into effect from the effective date:
+
+(1) when revision to these Terms of Use conforms to the general interests of Users; or
+
+(2) when revision to these Terms of Use is not in breach of the purpose of any contract, and is rational in light of the necessity of such revision, appropriateness of the subject matter after revision, and other circumstances concerning the revision.
+
+**25\. Governing law and jurisdiction**
+
+The Japanese version of these Terms of Use shall be the official text, and the establishment, coming into force, and interpretation of these Terms of Use shall be governed by the laws of Japan.
+
+Any dispute arising between the User and us attributable or related to the Services (including the content of posts, advertising, etc.) shall be subject to the exclusive jurisdiction of Tokyo District Court as the court of first instance.
+
+**26\. Restriction on application of these Terms of Use**
+
+### D1 P19
+If a provision in these Terms of Use is considered to be contrary to relevant laws and regulations which are applicable to an agreement with a User that is based on these Terms of Use, the said provision shall not be applicable to the agreement with the said User to that extent.
+
+However, even in such instance, the validity of all of the other provisions of these Terms of Use shall be not affected.
+
+**Chapter 2 Software Regulations (Guidelines)**
+
+**1\. Software**
+
+These Guidelines are regulations that apply to the software we provide. In this Chapter, “software” refers to the application programs we provide (including programs such as widgets), application programming interfaces (APIs) for our web Services, developer support tools such as software development kits (SDK) (including Services such as our web Services provided through these), software necessary for using the Services, such as Content viewers, and all other software we provide (including updated versions, modified versions, substitutes and reproductions). Furthermore, “software” also includes that which Users can develop by themselves through the use of the above software. The User is solely responsible for software components developed by the User using such software (hereinafter, “Developed Software”).
+
+**2\. Usage restrictions**
+
+### D1 P20
+We may, according to Paragraph 2 of “13. Warranty of and Modification to the Services” of Chapter 1 General Rules, restrict the use of software and certain functionalities (e.g. use software to restrict the number of accesses to and access time of the Services). In addition, we may, according to the foregoing Paragraph, provide or terminate support for software and modified versions (including updated versions).
+
+**3\. Compliance required for software use**
+
+The following acts are prohibited in using the software:
+
+(1) reverse engineering, disassembling, or decoding the source code by any other means for unjustifiable purposes or in a wrongful manner;
+
+(2) using software to control equipment or the like in such a way that could cause a serious risk to human life, personal safety, or property;
+
+(3) using by oneself, or causing a third party to use, software or Developed Software for the purpose of receiving compensation;
+
+(4) selling, renting, or licensing the software without our prior consent expressed either in writing or by some other method specified by us;
+
+(5) using or misusing the software in excess of a reasonably necessary amount, or using the software in a way that does not comply with the instructions set by us regarding software use; and
+
+(6) using the software in a manner that is not within the purpose for which the software is provided, or using the software by a method or in a manner that we deem inappropriate.
+
+**4\. Rights-related matters**
+
+### D1 P21
+All rights related to the software, executable files, and other software belong to us or our affiliates as owners of copyrights to the applicable software.
+
+However, if a User has rights to Developed Software under the Copyright Act of Japan, the above provision regarding rights shall not apply.
+
+**5\. No warranty**
+
+With regard to the software we provide, as stipulated in Chapter 1 General Rules, we make no guarantee, whether express or implied, about the nonexistence of problems (including, without limitation, security-related defects, errors and bugs and infringement of rights), or about its security, reliability, accuracy, completeness, effectiveness and suitability for a particular purpose, and continuity of the provision of software. We are not obligated to provide the software to you upon eliminating such problems.
+
+**Chapter 3 Yahoo! JAPAN Wallet Regulations (Guidelines)**
+
+**1\. Registration in Yahoo! JAPAN Wallet**
+
+When using certain Services designated by us among the Services, you need to register the method of paying the Charges in Yahoo! JAPAN Wallet.
+
+If there is any change to the information registered in Yahoo! JAPAN Wallet, you need to immediately take measures to make such change.
+
+**2\. Restrictions on use**
+
+The credit card companies (types) and bank accounts that you can register in Yahoo! JAPAN Wallet are limited to those prescribed by us in advance, and must be in your name.
+
+### D1 P22
+When we deem necessary, we may set a credit limit on your payment of the Charges that can be made using Yahoo! JAPAN Wallet.
+
+**3\. Agency payment service and subcontracting**
+
+If you designate Yahoo! JAPAN Wallet as the method of paying the Charges of transactions concluded between you and the provider of products or services other than us, we will receive payment from you based on authorization from the provider of products or services to receive payment of the Charges of such products and services on its behalf based on a contract with such provider of products or services (hereinafter referred to as the “Agency Payment Service” in this Chapter).
+
+In the foregoing case, your payment of the Charges of products or services will be completed when your payment to us is completed.
+
+We may subcontract all or a part of the Agency Payment Service to a payment service agent upon imposing confidentiality obligations on the payment service agent.
+
+We may also consign to a service provider all or a part of the service of paying rewards, compensations or refunds to you upon imposing confidentiality obligations on the service provider.
+
+**4\. Billing and payment**
+
+If you are using products or services provided by us, as a general rule, the cut-off date of use will be the last day of each month, and we will bill you in the following month (prescribed date).
+
+For the cut-off date of billing if you are using credit card payment, please confirm with each credit card company.
+
+### D1 P23
+We will not issue any receipt, etc. for the payment of Charges made by you using Yahoo! JAPAN Wallet.
+
+**5\. Suspension of use of Yahoo! JAPAN Wallet**
+
+If you wish to suspend the use of Yahoo! JAPAN Wallet, you can do so at any time according to the procedures prescribed by us.
+
+However, if you are using a paid service, you cannot suspend the use of Yahoo! JAPAN Wallet unless you take the cancellation procedures of all paid services.
+
+**6\. Scope of our responsibility**
+
+We will not have any contractual relationship with you concerning products and services that you purchase or use using Yahoo! JAPAN Wallet other than the products and services provided by us.
+
+If you suspend the use of Yahoo! JAPAN Wallet, if there is any deficiency in the registered information such as information related to the registered credit card or bank account, or if you are unable to make or receive payment due to your own reasons, we will not be liable for any damage that you suffer.
+
+**7\. Assignment of claims**
+
+If you delay payment to us, we may assign the claim thereof to a third party, and you accept such assignment.
+
+**Chapter 4 Coin Regulations (Guidelines)**
+
+1\. “Coins” means prepaid payment instruments or the like, issued by us, which Users may exchange for the Services and Contents which are provided for a fee within the Services.
+
+### D1 P24
+2\. Coins will be provided to the User’s account by the means specified by us, such as purchases in the Services, special offers and the like. The purchase unit, method of payment, and any other conditions for granting the Coins will be determined by us and indicated in the Services or on our website.
+
+3\. Coins may not be exchanged or used for cash, property or other economic value other than the Services and Contents designated by us. The number of Coins required for receiving the Services or Contents, as well as other conditions for the exchange of Coins, will be determined by us and indicated in the Services or on our website.
+
+4\. Coins may only be used by the account that obtained the same. Furthermore, Coins provided by terminal devices of different operating systems may not be carried over or combined, even if they are under the same name, since the types of Coins are different.
+
+5\. Coins will not be refunded for any reason whatsoever; provided, however, that this shall not apply if necessary under applicable laws and regulations. In such case, we will determine the process for refunds in accordance with the relevant laws and regulations, and such information will be made available on our website, etc.
+
+(Revised on October 1, 2023)
+
+[LINE Terms and Conditions of Use]
+
+[Yahoo! JAPAN Terms of Use]
+
+(Revised on February 3, 2025)
+
+**Special Provisions for European Union Users**
+
+### D1 P25
+These Provisions describe the matters to be provided under the provisions of the European Union’s Digital Services Act (the “DSA”).
+
+**1\. Points of contact for recipients of the service**
+
+Users in the European Union may make inquiries and make reports on posted contents from the following form.
+
+[<Inquiry form>]
+
+**2\. Points of contact for Member States’ authorities, the Commission and the Board & Legal representative**
+
+The authorities of European Union’s Member States, the European Commission, and the European Board for Digital Services may contact us regarding the DSA by the following form or through the DSA Legal Representative.
+
+This is available in English and German.
+
+[<Contact points：Authorities>]
+
+<DSA Legal Representative>
+
+PLANIT // Consulting GmbH
+
+Jungfernstieg 1, 20095 Hamburg, Germany
+
+DSA\_Rep@planit.legal
+
++49 40 609 44 190
+
+**3\. Content moderation**
+
+We are doing its best to maintain the integrity of the service through patrols so that the services provided by us are safe and secure for the Users and can be used with comfort.
+
+We have set up a monitoring center and conducts patrols of areas where Users can freely post and view, and are available to the public.
+
+### D1 P26
+\- The exchanges of messages between individuals in the chats of the LINE app are not patrolled in accordance with the secrecy of communications under the Telecommunications Business Act of Japan. However, if there is a report from a User with respect to an area not available to the public, such as in the chats of the LINE app, the contents provided by such User will be confirmed.
+
+In addition, if a User discovers a post that is prohibited by the laws and regulations or the terms of use of each service, such User may report that to us by using the inquiry form.
+
+We will determine whether such post violates the laws and regulations or the terms of use under our guidelines, which are based on the laws and regulations and the prohibited matters set forth in the terms of use, and if a violation is recognized, we will hide or delete such post, or will suspend or terminate the provision of the service on which such post was made. In addition, if a post is determined to be malicious, the account that made such post itself may be suspended or deleted.
+
+（established on February 16, 2024）
+
+
+## Cases for D1 (LINE, Terms of Service)
+
+- C1. "You must create an account to use this service". Description: You must provide the service with your information in order to use it Classification: neutral.
+- C2. "You must provide your identifiable information". Description: The Service requires users to provide their identifiable information, including phone number, iD number or other information, even though this data collection isn’t essential for the purposes of the service. They may still allow pseudonyms in the foreground. Classification: bad.
+- C3. "Your account can be suspended for several reasons". Description: (none) Classification: neutral.
+- C4. "The service can stop being provided at any time". Description: They may discontinue the services without prior notice, at any time, for any or no reason. They usually assume no liability for losses and damages resulting from this suspension. Classification: neutral.
+- C5. "You have the right to leave this service at any time". Description: You can stop using the service and/or cancel or delete your account at any time for any reason. Moreover, the termination is reasonably fast and simple. Classification: good.
+
+## D2: LinkedIn, Privacy Policy (current version, 53 pieces)
+
+### D2 P1
+LinkedIn European Regional Privacy Notice
+
+=========================================
+
+On November 3, 2025, we updated this notice to provide information about our reliance on Legitimate Interests as the legal basis for training content-generating AI models used in our products. You can opt out any time in your [settings] if you’d prefer not to have your data used in this way﻿[]
+
+_[Effective August 21, 2026]_
+
+This European Regional Privacy Notice (this “Notice”) supplements LinkedIn’s [Privacy Policy] and contains additional information for Members and Visitors located in the Designated Countries (as defined in the Introduction to the [Privacy Policy]) and the United Kingdom. If there is a discrepancy between the [Privacy Policy] and this Notice, the information in this Notice will apply to you. Unless otherwise indicated below, the information in this Notice applies to members in both the Designated Countries and the UK.
+
+#### **Data Controller**
+
+As set out in our [Privacy Policy], if you are located in the Designated Countries, LinkedIn Ireland Unlimited Company with its address at Wilton Place, Dublin 2, Ireland, is the data controller of your personal data. If you are located in the United Kingdom, LinkedIn Corporation with its address at 1000 W Maude Avenue, Sunnyvale, CA, is the data controller of your personal data. When we refer to “**LinkedIn”** in this Notice we mean LinkedIn Ireland Unlimited Company or LinkedIn Corporation, as it applies to you.
+
+### D2 P2
+#### **Legal bases for processing your personal data**
+
+LinkedIn only processes your personal data when we have a legal basis. We set out in this section each of the legal bases we rely on, why and how we use your data, and the categories of personal data we process.
+
+#### **To perform our contract with you**
+
+LinkedIn processes personal data when it is necessary to perform our contract (the [User Agreement]) with our Members. Where we need your personal data to perform a contract with you and you do not provide the data, we will not be able to enter into the contract, or we may have to suspend or cancel any existing contract we have with you.
+
+| | |
+
+| --- | --- |
+
+| **Why and how we use your data** | **Data we use** |
+
+| To allow Members to register for and manage access to their LinkedIn account, to view the LinkedIn platform in their preferred language, and to receive the core Services under our User Agreement. | Your account information: your name, email address, [login] and [two-step verification] information, [payment information] (for paid Services), subscription information, and Member-chosen language.<br><br>Data relating to your use of our Services: IP address, device ID, user agent, location data, browser type and version, operating system and platform, and other online identifiers collected from [Cookies] and other similar technologies. |
+
+#### **Consent**
+
+### D2 P3
+We may process your personal data with your consent. You can withdraw your consent by using your Member settings or by [contacting us].
+
+LinkedIn processes personal data when Members give us consent, such as via their [Account and Privacy Settings], by agreeing to our terms, and through in-product experiences. Where we rely on consent, you can withdraw your consent at any time, however this will not affect our use of your data up to that point.
+
+| | |
+
+| --- | --- |
+
+| **Why and how we use your data** | **Data we use** |
+
+| So Members can add information to their profiles and display it to their connections, network and Visitors on LinkedIn, and display it off LinkedIn on their publicly-visible profile and in the applications of [Affiliates], partners, customers and developers. | Data that you or others provide in [your LinkedIn profile:] your name, photo, current position, education, location, skills, endorsements, recommendations, and contact details |
+
+| To enable two-factor authentication for Members to protect their LinkedIn accounts, or recover access to their LinkedIn accounts. | Two-factor verification information (e.g., phone number)<br><br>Name<br><br>Year of birth<br><br>City, state/province, country<br><br>ID type and issue<br><br>Redacted copy of ID, with only the full name and face portrait being visible |
+
+| To allow Members to make and accept new connections. | Connect functionality on Member profiles<br><br>Contact information (email, telephone, etc.) |
+
+### D2 P4
+| So Members can show their profile alongside information about their company or institution, or their stated interests on LinkedIn. | Data that you or others provide in [your LinkedIn profile]: your name, photo, current position, education, location, skills, endorsements, recommendations, and contact details |
+
+| So that Members can verify certain information about themselves, to include a verification and related information on their profile and elsewhere where their profile information appears, and, depending on the verification method, to receive and store verification data, and to use it for security purposes. | Verification data (work or educational institution email address, profile verification badge and information, Member ID, hashed unique identifier, country of issuance for government IDs used to obtain verification badge via our verification partner)<br><br>LinkedIn profile name<br><br>Name from your government ID used to verify your identity<br><br>Phone number<br><br>Alternative names used by you (other than the name on your profile) to help us verify your identity |
+
+### D2 P5
+| So Members can interact with our platform functionality, features and tools, such as certain tools and solutions that leverage AI. | Member inputted information (e.g., learning goals, topics of interest, uploaded CVs)<br><br>Publicly-viewable information on Members<br><br>Data that you or others provide in [your LinkedIn profile:] your name, photo, current position, education, location, skills, endorsements, recommendations, and contact details |
+
+| For LinkedIn or third parties to send Members marketing communications (e.g., emails or SMS messages) in order to market products, services and events. | Contact details (e.g., email address, phone number, InMail handle), location and current position<br><br>Other data submitted through Lead Generation Forms (e.g. name, company, answers to custom questions) |
+
+| To enable Members to discover, signal interest in and apply for jobs and opportunities on LinkedIn; and to enable Members to be discovered by hirers for job and opportunities. | Location<br><br>Job search filters (e.g. industry, experience level, job type, remote status, salary, benefits etc.)<br><br>Job preferences (as set by Members), including "Open to Work"<br><br>Uploaded CVs<br><br>Member profile information submitted by Members as part of a job application<br><br>Job account information |
+
+### D2 P6
+| For LinkedIn to use non-essential cookies and similar tracking technologies to identify Members, to deliver ads, and to conduct analytics related to user interaction with LinkedIn pages, advertising and research purposes. | Data relating to your use of our Services: IP address, device ID, user agent, location data, browser type and version, operating system and platform, and other online identifiers collected from [Cookies] and similar technologies |
+
+### D2 P7
+| **For Personalised Ads in the Designated Countries:**<br><br>1\. To display, measure, and improve certain personalised (not contextual) ads on and off LinkedIn that are relevant to your interests, based on certain data we observe or infer about you from use of our Services.<br><br>2\. To target, measure, and improve certain personalised (not contextual) ads on and off LinkedIn based on data we obtain from third parties | **1\. LinkedIn Data**<br><br>Inferred City, Country and Continent Location (from your IP address)<br><br>Inferred Gender<br><br>Inferred Age Range<br><br>[Your activity data]: This is data that we observe over time about your engagement with our Services, such as company page visits, videos you watch, actions you take on ads (views and clicks) and your participation in events on LinkedIn.<br><br>Inferred Interests (e.g. your general, product and service interests) and Traits (e.g. that you are an expat, frequent traveler, job seeker) based on your LinkedIn profile and activity on LinkedIn<br><br>Data relating to your use of our Services: IP address, device ID, user agent, location data, browser type and version, operating system and platform, and other online identifiers collected from [Cookies] and similar technologies<br><br>**2\. Off-LinkedIn Data**<br><br>Ad Partners Data for Ads off LinkedIn and ad measurement: IP addresses, cookies, as ID, other online identifiers, views and clicks<br><br>Advertiser Data for Ads: contact information (hashed email, nam
+
+### D2 P8
+e, ad ID), device information, visits, views and clicks.<br><br>Advertiser Data to Measure Ad Success: Visits, sign-ups, purchases.<br><br>Data relating to your use of third party services: IP address, device ID, user agent, location data, browser type and version, operating system and platform, and other online identifiers collected from [Cookies] and similar technologies that customers share with LinkedIn<br><br>You can [learn more] about how LinkedIn uses data from others for ads.<br><br>You can [amend your settings] at any time and learn more about [adjusting your settings].<br><br>You can [learn more] about the ad technologies we use, our advertising services and our advertising partners. |
+
+| **For Personalised Ads in the UK:**<br><br>For LinkedIn and its customers to use data we receive form third parties to display personalised advertisements to Members and Visitors | Information from advertising [partners], vendors and [publishers] (e.g., LinkedIn advertiser customers who install a LinkedIn [tag] on their websites)<br><br>[Learn more] about the ad technologies we use, our advertising services and our advertising partners<br><br>You can control how we use your personal data for this type of advertising [here]. |
+
+### D2 P9
+| To tailor, measure and optimise ads when you choose to submit a Lead Generation Form or take part in a brand lift survey through our Services | Contact details (e.g., email address, first and last name, LinkedIn profile URL), and current position, company name, company size and industry<br><br>Other data submitted through Lead Generation Forms or surveys (e.g., name, company, answers to custom questions) |
+
+| To perform analytics to provide aggregated workforce and salary insights to Members, customers and others based on Member-provided data. | Member provided demographic data (e.g. disability and gender) |
+
+#### **Legitimate Interest**
+
+Where we rely on legitimate interests we balance the interests the processing supports against your rights and freedoms before processing your personal data, and you have the right to object or to ask for restriction of our processing we describe in this notice at any time.
+
+#### **When does LinkedIn rely on legitimate interests?**
+
+### D2 P10
+In some cases, the collection and processing of your personal data is based on our legitimate interests and/or the legitimate interests of third parties (e.g., LinkedIn customers and our Members), provided that our interest in processing does not outweigh your interests or fundamental rights and freedoms. These interests include commercial interests, the interests of our Members and broader societal benefits. In each instance, we have considered whether these interests are outweighed by your rights and freedoms, and have concluded, based on the limited impact of the processing, the strong safeguards we apply, and the controls we offer you over your data, that we can proceed with the processing.
+
+If you have questions about how LinkedIn processes your personal data, you can view our [Privacy Policy], the many articles and resources on our [Help Centre] or you can [Contact us].
+
+| | How we use your data | Legitimate interests relied on | Personal data used |
+
+| --- | --- | --- | --- |
+
+### D2 P11
+| **Safety and security:** | To help protect you, us, or others from threats, we log users' activity on LinkedIn to identify and investigate harmful or fraudulent behaviour that violates our [User Agreement]. Examples of the behaviour include: security threats, hacks, scraping, fake accounts and information, bots, malicious actors, or fraud.<br><br>To enforce LinkedIn's minimum age, as defined in our [User Agreement]<br><br>To verify certain information you have provided e.g. your workplace, educational institution or your identity.<br><br>To share data with our Affiliates including our parent company, Microsoft, for security purposes, to prevent, detect investigate and address possible fraud or harmful behaviour or other violations of the law or our User Agreement, attempts to harm our Members, Visitors, our Affiliates or others, and to protect the security and integrity of our site.<br><br>To share data with other organisations for security purposes to prevent, detect, investigate and address threats, harmful behaviour, possible fraud or other violations of the law.<br><br>To use automated systems such as generative AI to detect and prevent harmful content on your feed and in [messages], and train and improve our AI systems for these trust and security-related purposes.<br><br>To verify your account following account restriction or closure for breaches of our User Agreement. | To improve the safety, security, authenticity of our Services.<br><br>To ensure the protection of
+
+### D2 P12
+children under 16 and the provision of adequate safeguards for 16 and 17 year olds on LinkedIn<br><br>To better protect the personal data of our Members and Visitors.<br><br>To detect, investigate and address threats, bad actors and malicious activity on LinkedIn.<br><br>So that our Affiliates, including our parent company, Microsoft, can detect, investigate and address threats, possible fraud, bad actors, harmful behaviour and malicious activity against LinkedIn, Microsoft, our Affiliates, and others.<br><br>So that LinkedIn and other organisations can detect, investigate and address threats, possible fraud, bad actors and malicious activity online. | Data relating to your use of our Services: IP address, device ID, user agent, location data, browser type and version, operating system and platform, and other online identifiers collected from [Cookies] and other similar technologies<br><br>Your attestation that you are over or under the age of majority in your region, and if you are under the age of majority in your region, your date of birth<br><br>Your account information: your email address, [login] and [two-step verification] information, [payment] and subscription information<br><br>Data that you or others provide in [your LinkedIn profile:] your name, photo, current position, education, location, skills, endorsements, recommendations, and contact details<br><br>[Your activity data]: This is data that you or others provide in posts, comments, articles, or other content o
+
+### D2 P13
+n our Services including search history, feed, content you read, content you share, who you follow or is following you, connections, participation, page visits, videos you watch, actions you take on ads (views and clicks) and your job searches<br><br>Data that you provide when you [contact us] or [request support] via email, our ticket system or live chat. This may include your name, email address, LinkedIn account details, phone number, payment information and the details of your query or issue<br><br>[Inferences we make about you]<br><br>Your connections and group memberships<br><br>Reports from you, or reports that others make about you relating to possible violations of [LinkedIn's User Agreement] or [Professional Community Policies]<br><br>Your verification badge and verification information when you have verified certain information on the platform<br><br>Where permitted, [Government ID] and other personal identification documentation for account recovery purposes |
+
+### D2 P14
+| **Business administration**: | To enable or administer our business, such as for quality control, preparing consolidated reports on our business, and customer service.<br><br>To manage corporate transactions, such as mergers, acquisitions or sales.<br><br>To monitor the use of our Member and customer service offerings and perform analytics to produce reports on the effectiveness of our Member and Customer support services.<br><br>To perform analytics to produce reports and metrics on how our Services are used to help evaluate product performance, fix issues, improve and deliver our Services.<br><br>To understand and improve our business or customer relationships generally.<br><br>To make business and financial projections.<br><br>To [Transfer Member and Customer data] to be processed and stored on LinkedIn Corporation's data centres in the US.<br><br>To create reports and metrics based on your use of our products, such as interactions with ads, to enable us to invoice our customers for our products and services, and to understand usage of our Services. | To run our business efficiently and effectively.<br><br>To comply with laws regarding business operations, consumer protection and tax compliance.<br><br>To fulfil the expectations of our Members, Visitors, and customers about the high quality of our Services.<br><br>To enhance, grow, strengthen and otherwise manage our business and assets.<br><br>To meet the needs of our Visitors, Members and Customers, and better ensure t
+
+### D2 P15
+hat our Members, customers and Visitors receive quality services from LinkedIn. | Data relating to your use of our Services: IP address, device ID, user agent, location data, browser type and version, operating system and platform, and other online identifiers collected from [Cookies] and other similar technologies<br><br>Your account information including payment and subscription information<br><br>Data that you provide when you [contact us] or [request support] via email, our ticket system or live chat. This may include your name, email address, LinkedIn account details, phone number, payment information and the details of your query or issue<br><br>Information received by post at any of our LinkedIn offices worldwide<br><br>Data that you or others provide in [your LinkedIn profile:] your name, photo, current position, education, location, skills, endorsements, recommendations, and contact details<br><br>[Your activity data]: This is data that you or others provide in posts, comments, articles, or other content on our Services including search history, feed, content you read, content you share, who you follow or is following you, connections, participation, page visits, videos you watch, actions you take on ads (views and clicks) and your job searches<br><br>Your connections and group memberships<br><br>[Inferences we make about you]<br><br>[Personal demographic data]<br><br>Reports from you, or reports that others make about you relating to possible violations of [LinkedIn
+
+### D2 P16
+'s User Agreement] or [Professional Community Policies]<br><br>Data about your use of some of the other services provided by us or our Affiliates, including [Microsoft] |
+
+### D2 P17
+| **Personalising your LinkedIn experience:** | To perform analytics (excluding for personalised ads purposes) and to personalise content and recommendations LinkedIn uses information you've provided, and information inferred from you and your network to personalise content and recommendations. LinkedIn may use profiling techniques to achieve these purposes. These include seeing posts and people that we think might interest you on your LinkedIn feed.<br><br>To make suggestions for how you can [expand your network] by [recommending connections], [groups] and topics you may like to follow or [contribute] to.<br><br>To [recommend jobs].<br><br>To provide personalised features to customers in LinkedIn subscription services such as LinkedIn Premium.<br><br>Allowing LinkedIn Customers to search for and contact Members that may be interested in purchasing products or services<br><br>To allow LinkedIn customers to search for and contact Members that may be interested in purchasing products or services.<br><br>To allow LinkedIn customers to search for job candidates who match their job criteria and contact Members directly about job opportunities. | To fulfil our mission to connect the world's professionals to make them more productive and successful.<br><br>To create economic opportunity for our Members, customers and Visitors.<br><br>To enable our Members and Visitors to make real world connections with each other, find jobs and economic opportunity, express opinions, exchange infor
+
+### D2 P18
+mation, and conduct business.<br><br>To meet LinkedIn's customers' interests in ensuring they can advertise jobs, products or services to Members who may be interested in them.<br><br>To provide Members with access to business development opportunities derived from B2B marketing.<br><br>To connect Members with jobs and opportunities to match their skills, experience and career aspirations. | Data relating to your use of our Services: IP address, device ID, user agent, location data, browser type and version, operating system and platform, and other online identifiers collected from [Cookies] and other similar technologies<br><br>Data that you or others provide in [your LinkedIn profile:] your name, photo, current position, education, location, skills, endorsements, recommendations, and contact details<br><br>[Your activity data]: This is data that you or others provide in posts, comments, articles, or other content on our Services including search history, feed, content you read, content you share, who you follow or is following you, connections, participation, page visits, videos you watch, actions you take on ads (views and clicks) and your job searches<br><br>Your connections and group memberships<br><br>[Inferences we make about you]<br><br>[Personal demographic data] |
+
+### D2 P19
+| **Law enforcement and legal requests:** | To disclose information about you when required by law, subpoena, or other legal process or if we have a good faith belief that disclosure is reasonably necessary for any of the following reasons:<br><br>\- To investigate, prevent or take action regarding suspected or actual illegal activities or to assist government enforcement agencies;<br><br>\- To enforce our agreements with you and our customers;<br><br>\- To investigate and defend ourselves against any claims and allegations, including third-party claims;<br><br>\- To protect the security or integrity of our Services (such as by sharing with companies facing similar threats);<br><br>\- To exercise or protect the rights and safety of LinkedIn, our Members, personnel or others. | To advance the legitimate interests of LinkedIn and our wider community (including Members, Visitors and customers) to comply with the law.<br><br>To avoid sanctions for non-compliance.<br><br>To better protect against illegal or harmful activity in connection with our Services. | Data relating to your use of our Services: IP address, device ID, user agent, location data, browser type and version, operating system and platform, and other online identifiers collected from [Cookies] and other similar technologies<br><br>Data that you or others provide in [your LinkedIn profile:] your name, photo, current position, education, location, skills, endorsements, recommendations, and contact details<br><br>[Your
+
+### D2 P20
+activity data]: This is data that you or others provide in posts, comments, articles, or other content on our Services including search history, feed, content you read, content you share, who you follow or is following you, connections, participation, page visits, videos you watch, actions you take on ads (views and clicks) and your job searches<br><br>Your connections and group memberships<br><br>Your communications with LinkedIn, including information received by post at any of our LinkedIn offices worldwide |
+
+| **Legal advice and litigation:** | We retain and share information with our lawyers and relevant experts when we seek legal advice or are involved in litigation. regulatory inquiries or disputes. | LinkedIn's interest to protect LinkedIn and its Affiliates, their brands, employees and business interests from legal challenges, regulatory investigations or criminal activity.<br><br>To better protect the interests of our Members, Visitors and customers by identifying and addressing illegal, unfair or harmful activity. | Any data relating to you that is relevant to the legal advice, possible litigation or ongoing litigation. This will depend on the nature of the legal issue and could involve any information related to your use of LinkedIn's products and the Services |
+
+### D2 P21
+| **Research, development, statistics/insights and addressing errors:** | To review our products, conduct research and introduce new product features that help us better serve our Members and customers.<br><br>To generate metrics to understand how our Services are used, to inform and improve product direction and development. For example, we may measure how many users visit a certain page, how long they stay, or what actions they take on that page.<br><br>To undertake testing to evaluate the impact of new features.<br><br>To invite you to take surveys or provide feedback and analyse your responses to gain insights into users' views, preferences, needs, or experiences with our Services and to identify corrections and/or improvements for our products.<br><br>To produce aggregate insights to deliver data to Members, advertisers, and others relating to global workforce trends, to measure and improve equality of e.g. job opportunities.<br><br>To provide access to third party researchers who may conduct research regarding online safety and other areas where LinkedIn is required to allow access to certain data.<br><br>To identify and report aggregated trends like talent migration, hiring rates, and in-demand skills by region using [LinkedIn's Economic Graph]. | To help us connect people to economic opportunity in new ways and by partnering with governments and organisations around the world.<br><br>To fulfil our mission to connect the world's professionals to make them more producti
+
+### D2 P22
+ve and successful.<br><br>To create economic opportunity for our Members and Visitors.<br><br>To understand how people use our Services and what new features they like, so we can improve existing features and create more useful products in the future.<br><br>In furtherance of our legal and other obligations to provide safe, secure, fair and legal service. | [Personal demographic data]<br><br>Your connections and group memberships<br><br>[Inferences we make about you]<br><br>Data that you or others provide in [your LinkedIn profile:] your name, photo, current position, education, location, skills, endorsements, recommendations, and contact details<br><br>[Your activity data]: This is data that you or others provide in posts, comments, articles, or other content on our Services including search history, feed, content you read, content you share, who you follow or is following you, connections, participation, page visits, videos you watch, actions you take on ads (views and clicks) and your job searches<br><br>Data relating to your use of our Services: IP address, device ID, user agent, location data, browser type and version, operating system and platform, and other online identifiers collected from [Cookies] and other similar technologies |
+
+### D2 P23
+| **For Personalised Ads in the Designated Countries:**<br><br>**1\. To display personalised ads:**<br><br>**2\. Use of personal data you give to us to perform and provide ads analytics and insights** | 1\. For personalised ads (including improving our ad tools) that are relevant to your interests, based on data from your LinkedIn profile and limited data we infer about you.<br><br>To display certain ads that are relevant to your interests and preferences, based on the data we collect from our Services.<br><br>To show you ads while you visit websites or apps on the LinkedIn Audience Network.<br><br>2\. To measure ad performance so that we can create aggregated reports (that don't identify you) for our customers on the performance and effectiveness of their ads and other informational promotional activities on our Services, and the professional characteristics of the audiences they reach.<br><br>So that we can bill and invoice our customers for our ad services and provide them with details about their advertising spend and return on investment, and support their ad budget management.<br><br>To identify members who have viewed an ad and consented to receive surveys so that our customers can measure the impact of an ad.<br><br>To monitor and prevent as fraud and inauthentic traffic; validate accuracy of ad measurement reporting, to support our internal ad site operations, and for LinkedIn's internal financial and operational business reporting. | 1\. To advance our mission to co
+
+### D2 P24
+nnect the world's professionals and to make them more productive and successful.<br><br>To enable our members to build their professional networks, and help them pursue professional and economic goals by offering more targeted, personalised and relevant ads to our members.<br><br>To generate income which enables LinkedIn to continue to operate its business. This also enables LinkedIn to provide its services for free to members, which is in LinkedIn's interests and also those of our members.<br><br>To support our advertising customers' interests in advertising jobs, products or services to members that are likely to be interested in them. This enables them to conduct and grow their business.<br><br>To support the interests of LinkedIn members as a whole by enabling and assisting LinkedIn members to: (i) access and provide services, (ii) assemble and associate, (iii) express themselves, including imparting and receiving information, (iv) educate themselves, (v) choose an occupation, engage in and move for work; and (vi) establish and conduct business.<br><br>To support general public interests including (i) support members advance professionally by creating opportunities for skills development and employment, and helping job-seekers and employers find each other; (ii) supporting effective and efficient labour markets; (iii) supporting the free movement of workers; and (iv) supporting innovation and knowledge-sharing in the economy.<br><br>2\. To help our customers measure and i
+
+### D2 P25
+mprove the impact and relevance of their ads, and to provide them with information about the types or categories of professionals they want to connect with.<br><br>To assist our customers in assessing the value of our advertising Services.<br><br>To generate income which enables LinkedIn to continue to operate its business. This also enables LinkedIn to provide its services for free to members, which is in LinkedIn's interests and also those of our members. | 1\. Data that you provide in [your LinkedIn profile]: your connections, companies you follow, education, job information, employer, skills, profile location, as well as the profile data provided by members that "look like" you, i.e. have similar professional profile attributes.<br><br>Skills derived from your profile<br><br>You can [amend your choices] at any time.<br><br>You can [learn more] about our legitimate interests.<br><br>2\. Data relating to your use of our Services: IP address, device ID, user agent, location data, browser type and versions, operating system and platform, and other online identifiers collected from [Cookies] and other similar technologies.<br><br>Data that you or others provide in [your LinkedIn profile]: your connections, companies you follow, education, job information, employer, profile location<br><br>Data about [actions you took in response to ads] on LinkedIn: Ad impressions, dwell time on an ad, ad clicks, video, ad full views.<br><br>You can [learn more] about our ads measurement and r
+
+### D2 P26
+eporting.<br><br>You can [amend your choices] at any time.<br><br>You can [learn more] about the ad technologies we use, our advertising services and our advertising partners. |
+
+### D2 P27
+| **To display personalised ads and for ads analytics and insights if you are in the UK** | To display certain ads that are relevant to your interests, based on the data we collect from our Services.<br><br>To show you ads while you visit websites or apps off LinkedIn. | To advance our mission to connect the world's professionals and to make them more productive and successful.<br><br>To enable our members to build their professional networks, and help them pursue professional and economic goals by offering more targeted, personalised and relevant ads to our members.<br><br>To generate income which enables LinkedIn to continue to operate its business. This also enables LinkedIn to provide its services for free to members, which is in LinkedIn's interests and also those of our members.<br><br>To support our advertising customers' interests in advertising jobs, products or services to members that are likely to be interested in them. This enables them to conduct and grow their business.<br><br>To support the interests of LinkedIn members as a whole by enabling and assisting LinkedIn members to: (i) access and provide services, (ii) assemble and associate, (iii) express themselves, including imparting and receiving information, (iv) educate themselves, (v) choose an occupation, engage in and move for work; and (vi) establish and conduct business.<br><br>To support general public interests including (i) support members advance professionally by creating opportunities for skills d
+
+### D2 P28
+evelopment and employment, and helping job-seekers and employers find each other; (i) supporting effective and efficient labour markets; (iii) supporting the free movement of workers; and (iv) supporting innovation and knowledge-sharing in the economy | Data that you provide in [your LinkedIn profile]: your connections, companies you follow, education, job information, employer. skills (that you or others provide about you), profile location<br><br>[Your activity data]: This is data that we observe over time about your engagement with our Services, such as company page visits, videos you watch, actions you take on ads (views and clicks) and your participation in events on LinkedIn, as well as the profile data provided by members that "look like" you, i.e. have similar professional profile attributes.<br><br>[Inferences we make about you] including your city, country and continent based on IP address, your age range and gender, and inferred interests and traits<br><br>Actions by Members with similar profiles to yours<br><br>Third party requests to show ads to LinkedIn Members<br><br>Data relating to your use of our services, such as IP address, device ID, user agent, location data, browser type and versions, operating system and platform, and other online identifiers collected from [Cookies] and other similar technologies<br><br>You can [amend your choices] at any time<br><br>[Learn more] about the ad technologies we use, our advertising services and our advertising partners.
+
+### D2 P29
+|
+
+| **To count ad clicks and conversions** | To perform ads measurement of conversion counts and value for business reporting purposes and to demonstrate the performance of our ads services to ads customers. | To advance our mission to connect the world's professionals and to make them more productive and successful.<br><br>To support our understanding of our advertising business and its effectiveness, allowing us to improve our business as a whole and advance our mission.<br><br>To support our advertising customers' interests in: (i) understanding the effectiveness of their advertising campaigns, and (ii) advertising jobs, products or services to members that are likely to be interested in them, This enables them to conduct and grow their business. | Data about [actions you took] on LinkedIn: Ad impressions, dwell time on an ad, ad clicks, video as full views<br><br>Device information: App version, operating system<br><br>Conversion information from ads customers that does not identify you |
+
+### D2 P30
+| **Our AI features generally:** | Members or customers may provide personal data as an input to an AI or [generative AI] feature ("AI-powered feature"), which could result in personal data being included within output. <br><br>Automatically processing your data (including your profile data and posts) as an input for an AI-powered feature (e.g. providing more relevant responses to your queries or in connection with your inputs to a generative AI feature). <br><br>To power our [Hiring Assistant AI] features we process profile and resume data of Members to help hirers using our Recruiter and Jobs products review and source potential candidates including through matching job qualifications to Member data and providing AI generated summaries and explanations of a candidate potential match to a relevant position.<br><br>Using automated techniques, including generative AI-powered tools as part of our online safety and security efforts. | To enable economic opportunity and help our Members and customers be more productive and successful. <br><br>To enhance the safety and security of our platform. <br><br>To improve the efficiency and effectiveness of providing our Services. <br><br>To ensure that our products, features and Services are innovative, relevant and high quality. <br><br>For our Hiring Assistant AI features: <br><br>To make the recruiting and job seeking processes easier for customers and Members, which helps LinkedIn conduct its business more effectively. <br><br>To enab
+
+### D2 P31
+le our customers to organise information quickly and identify suitable candidates based on various criteria, benefiting Member job seekers by connecting them with relevant opportunities and broadening the candidate pool. <br><br>To provide economic opportunities for every member of the global workforce. <br><br>So that Members can exercise their right to free movement for work.<br><br>So that Members can be discovered for appropriate job opportunities that match their skills and experience.<br><br>To increase access to the labour market and ensure that underrepresented groups with the required or desired skills are considered along with candidates who meet more traditional criteria. | Personal data manually input into an AI powered feature by Members <br><br>Feedback you provide on AI features <br><br>Data that you or others provide in a resume you provide or [your LinkedIn profile]: your name, photo, current position and work experience, volunteer experience, education, location, skills, endorsements, recommendations, honours and awards, people and companies you follow, skills, patents, publications, licenses and certifications, recommendations, interests, and contact details <br><br>Your connections and group memberships <br><br>Conversation data that users input into our GAI features (prompts, search text, queries, chats, responses, and other input and output data) <br><br>Member generated content (posts, articles, poll responses, contributions and comments) <br><br>For ou
+
+### D2 P32
+r Hiring Assistant AI features: LinkedIn profile data (the following sections, if complete): work experience, location, education, skills, summary, certifications and licenses, volunteering experience, publications, and patents. Your Open to Work status and preferences. Your resumes (if you have made them available). Responses to screening questions (if you have made them available). <br><br>[Learn more] about our Hiring Assistants and how you can exercise your rights. <br><br>Data relating to your use of our Services: IP address, device ID, user agent, location data, browser type and version, operating system and platform, and other online identifiers collected from [Cookies] and other similar technologies <br><br>[Inferences we make about you] <br><br>[Your activity data]: This is data that you or others provide in posts, comments, articles, or other content on our Services including search history, feed, content you read, content you share, who you follow or is following you, connections, participation, page visits, videos you watch, actions you take on ads (views and clicks) and your job searches <br><br>[Learn more] about our use of your data for Generative AI. |
+
+### D2 P33
+| **To offer our content-generating Generative AI features to Members** | To provide our Generative AI-powered Services to LinkedIn Members, including through Generative AI processing of the data described in the “Data used” column of this row to: <br><br>\- Suggest textual content to Members for those Members to use in a post or in their profiles. <br><br>\- Prepare draft InMails or messages for Member or customer users to send. <br><br>\- Create content that LinkedIn directly publishes on the platform (e.g., Collaborative Articles, Account IQ). <br><br>\- Suggest advertising copy to LMS customers. <br><br>\- Provide chatbot conversations to assist Members and customers in completing a task. <br><br>If the output of the GenAI model is used for relevancy or ranking purposes, to: <br><br>\- Support relevancy, ranking, search, and similar functionalities on the LinkedIn platform. | To enable economic opportunity and help our Members and customers be more productive and successful. <br><br>To improve the efficiency and effectiveness of providing our Services. <br><br>To ensure that our products, features and Services are innovative, relevant and high quality. | Data that you or others provide in [your LinkedIn profile]: your name, photo, current position and work experience, education, location, skills, summary, certifications, licenses, volunteering experiences, publications, patents, endorsements, and recommendations<br><br>[Your activity data]: This is data that we observe ov
+
+### D2 P34
+er time about your engagement with our Services, such as company page visits, videos you watch, actions you take on ads (views and clicks) and your participation in events on LinkedIn <br><br>Conversation data that users input into our GAI features (prompts, search text, queries, chats, responses, and other input and output data) <br><br>Personal data manually input into an AI powered feature by Members <br><br>Member generated content (posts, articles, poll responses, contributions and comments) <br><br>Feedback you provide on AI features <br><br>Data relating to your use of our Services: IP address, device ID, user agent, location data, browser type and version, operating system and platform, and other online identifiers collected from [Cookies] and other similar technologies <br><br>[Inferences we make about you] |
+
+### D2 P35
+| **To train our content-generating Generative AI systems** | To train, fine-tune, evaluate and improve our Generative AI models used to create content (textual, audio, visual, and other media, or multimedia) on the LinkedIn platform (or elsewhere) and in LinkedIn’s lines of business. Content creation includes: <br><br>\- Suggesting textual content to Members for those Members to use in a post or in their profiles. <br><br>\- Preparing draft InMails or messages for Members or customer users to send (e.g., InBart (a LinkedIn GAI model), which was trained to create draft messages for recruiters). <br><br>\- Creating content that LinkedIn directly publishes on the platform (e.g., Collaborative Articles, Account IQ). <br><br>\- Suggesting advertising copy to LMS customers. <br><br>\- Responding to Member and customer prompts through a conversational assistant. | To provide and improve assistant experiences offered to LinkedIn members, customers, and others, enabling them to find economic opportunity and be more productive and successful. <br><br>To ensure that LinkedIn’s foundation models are fair, safe, accurate, and effective in the LinkedIn professional context. <br><br>To provide a conversational assistant to assist members for a variety of beneficial tasks on the LinkedIn platform and to promote an accurate, responsive, safe, and responsible experience for members and customers. | Data that you or others provide in [your LinkedIn profile]: your name, photo, current position
+
+### D2 P36
+and work experience, education, location, skills, summary, certifications, licenses, volunteering experiences, publications, patents, endorsements, and recommendations <br><br>\- Conversation data that users input into our GAI features (prompts, search text, queries, chats, responses, and other input and output data) <br><br>\- Group activity and group messages <br><br>\- Member generated content (posts, articles, poll responses, contributions and comments) <br><br>\- Responses to screening questions and resumes that members provide add to their LinkedIn account on the LinkedIn platform for ongoing LinkedIn use <br><br>You can [opt out] of our use of your data to train our content-generating AI models at any time. <br><br>[Learn more] about our use of your data for Generative AI. |
+
+### D2 P37
+| **To improve LinkedIn's products and Services generally** | To ensure our products and Services function as intended, to identify and resolve issues that may arise, and to evaluate the performance and reliability of new features, including gathering insights to inform product development, validating design assumptions, and understanding user preferences. <br><br>To engage in research activities—such as user studies and feedback collection—to assess satisfaction and identify areas for improvement across our offerings and brand experience (including using Members' feedback to improve, correct or modify our Gen AI-powered features. <br><br>To train, pre-train, fine-tune, evaluate, and improve AI systems that support critical functions such as content classification, trust and safety enforcement, and security threat detection | To ensure that our products and Services function as intended. This includes monitoring performance, identifying technical issues, and implementing fixes to maintain a consistent and reliable user experience. <br><br>To develop and improve our offerings, including testing new features, evaluating their effectiveness, and iterating based on performance and user interaction to ensure our products remain competitive and relevant. <br><br>To align product development with user needs and expectations to help us deliver features that are meaningful and valuable to our members and customers. <br><br>To better understand how our products are used and perceived s
+
+### D2 P38
+o that we can make informed business decisions and enhance our brand reputation. <br><br>To optimise internal operations, resource allocation, and long-term planning <br><br>To ensure the safety and security of our platform, products and Services. <br><br>To enhance the accuracy and reliability of our AI-driven moderation and classification tools to maintain trust and integrity. <br><br>To improve operational efficiency and product performance by refining AI systems that support scalable enforcement and compliance across our Services. <br><br>To foster innovation and economic opportunity by advancing AI capabilities that power professional tools and Services for our Members and customers. | Data that you or others provide in [your LinkedIn profile]: your name, photo, current position and work experience, education, location, skills, summary, certifications, licenses , volunteering experiences, publications, patents, endorsements, and recommendations <br><br>Conversation data that users input into our GAI features (prompts, search text, queries, chats, responses, and other input and output data)<br><br>[Your activity data]: This is data that we observe over time about your engagement with our Services, such as company page visits, videos you watch, actions you take on ads (views and clicks) and your participation in events on LinkedIn<br><br>Your connections and group memberships<br><br>Your group activity and group messages<br><br>Member generated content (posts, articles, po
+
+### D2 P39
+ll responses, contributions and comments)<br><br>Responses to screening questions and resumes that Members provide add to their LinkedIn account on the LinkedIn platform and for ongoing LinkedIn use<br><br>Feedback you provide on our Services (including about our AI powered features)<br><br>Data that you provide when you [contact us] or [request support] via email, our ticket system or live chat. This may include your name, email address, LinkedIn account details, phone number, payment information and the details of your query or issue<br><br>Data relating to your use of our Services: IP address, device ID, user agent, location data, browser type and version, operating system and platform, and other online identifiers collected from [Cookies] and other similar technologies<br><br>[Inferences we make about you]<br><br>Please see the "Objecting to the use of your data" section below for information on how to object to the use of your data for general product improvement purposes.<br><br>[Learn more] about our use of your data for Generative AI. |
+
+### D2 P40
+| **Direct Marketing:** | Where permitted, sending marketing [emails] and other marketing communications about LinkedIn content, products or offers that we think will interest you. LinkedIn may use profiling techniques to achieve this purpose.<br><br>Promoting LinkedIn subscription services and other products and features we think you'd like on and off LinkedIn. | To enable economic opportunity and help our Members be more productive and successful.<br><br>To enhance and grow our business, meet the needs of our Visitors, Members and customers, and better ensure that our Members, customers and Visitors receive the quality services from LinkedIn. | Data that you or others provide in [your LinkedIn profile]: your name, photo, current position, education, location, skills, endorsements, recommendations, and contact details<br><br>[Your activity data]: This is data that you or others provide in posts, comments, articles, or other content on our Services including search history, feed, content you read, content you share, who you follow or is following you, connections, participation, page visits, videos you watch, actions you take on ads (views and clicks) and your job searches<br><br>Your email address<br><br>Your connections and group memberships<br><br>[Inferences we make about you]<br><br>[Personal demographic data]<br><br>Data relating to your use of our Services: IP address, device ID, user agent, location data, browser type and version, operating system and platform, and ot
+
+### D2 P41
+her online identifiers collected from [Cookies] and other similar technologies |
+
+| **If you are in the UK:**<br><br>Sharing data with our parent company, Microsoft for its AI training purposes | To share certain member data with Microsoft so that it can train, fine-tune, and evaluate, and otherwise improve Microsoft’s AI models. | To enable Microsoft to train AI models to produce fair, accurate, and relevant information that is reflective of the diversity of the communities in which AI models are deployed, and so that these models work just as well for all users. <br><br>To enable Microsoft to improve its products and services for the benefit of its affiliates, including LinkedIn, and our members and customers. | Your posts, comments, articles, collaborative articles and LinkedIn video you create <br><br>LinkedIn Learning Videos and Transcripts <br><br>Company Page Data <br><br>Job Postings <br><br>You can [opt out] of our use of your data for this purpose any time. |
+
+#### **Compliance with Legal Obligations**
+
+### D2 P42
+LinkedIn processes information to comply with a legal obligation, such as preserving or disclosing certain information to adhere to a valid legal request from law enforcement agencies, courts or regulators, or to comply with financial or consumer law obligations. New legal obligations may arise over time requiring the processing of Member and Visitor personal data, below you can see examples of the types of obligations that apply to LinkedIn Ireland Unlimited Company. The data that we are required to process depends on e.g. the nature of the legal obligation or the legal request. See section 3.6 of our [Privacy Policy] for more information.
+
+| | |
+
+| --- | --- |
+
+| **Applicable laws** | **Our legal obligations** |
+
+| Civil and Commercial laws such as Regulation 2001/1206 on the Cooperation between the courts of the Member States in the taking of evidence in civil or commercial matters. | To comply with court orders requiring the processing of personal data. |
+
+| Criminal laws such as the Criminal Justice (Theft and Fraud Offences) Act 2001. | To comply with search warrants and production orders requiring the processing of personal data. |
+
+| Consumer laws such as the Competition and Consumer Protection Act 2014. | To comply with regulatory requests requiring the processing of personal data. |
+
+| Company and Tax laws such as the Companies Act 2014. | To comply with regulatory requests requiring the processing of personal data. |
+
+### D2 P43
+| Regulatory laws such as the General Data Protection Regulation, the Data Protection Act 2018, the ePrivacy Regulations. | To comply with regulatory requests or orders requiring the processing of personal data. |
+
+#### **Public Interest**
+
+LinkedIn will process personal data where it is necessary to carry out a task in the public interest e.g. to protect children from harm. Where we rely on this legal basis you have the right to object to our processing by using this [form].
+
+| | |
+
+| --- | --- |
+
+| **Why and how we use your data** | **Data we use** |
+
+| To detect and combat the spread of Child Sexual Abuse Material, LinkedIn analyses images and videos sent via messaging on our platform. | Images and video files content in Member messages. |
+
+#### **Special Category Data**
+
+LinkedIn does not encourage you to provide data that includes genetic, biometric and health data, or data revealing racial and ethnic origin, political opinions, religious or ideological convictions or trade union membership (“Special Category Data”) when using our Services. LinkedIn may process Special Category Data, based on our legitimate interests to provide our Services and for the benefit of our members and customers, on the basis of consent or, in certain cases, where such data has been manifestly made public.
+
+#### **If we have reason to believe you’re 16 or 17 years old**
+
+### D2 P44
+LinkedIn’s Privacy Policy and this Regional Privacy Notice apply, as they do for other members. You can **[Learn More]** about additional protections we seek to provide for members who we think may be 16 or 17 years old.
+
+#### **Data Sharing with Third Parties**
+
+In addition to Section 3 of our [Privacy Policy], we have set our further information below on how LinkedIn may share your personal data for specific purposes with its partners, third-party service providers, customers, regulators and law enforcement agencies, other services such as online search result tools, and our Affiliates including our parent company, Microsoft, and other LinkedIn entities.
+
+#### LinkedIn Developer Programs
+
+Participants in LinkedIn’s Developer Programs can access limited Member personal data via LinkedIn’s Talent, Marketing, Sales and Learning Solutions APIs under our partnership agreements.
+
+#### Third Party Service Providers
+
+### D2 P45
+LinkedIn may also share your data with third-party service providers and processors. These include our parent company, Microsoft, cloud service providers, content delivery networks, telecommunications providers, maintenance providers, Member support providers, ID verification providers, development service providers, market researchers, anti-fraud and anti-abuse services providers, marketing and analytics providers, payment processors, external auditors and advisors, managed services providers, consultancy and professional services firms, such as legal and tax advisors.
+
+#### Regulators and Law Enforcement Agencies
+
+In addition to the above, LinkedIn may also share your personal data with regulators and law enforcement agencies where it is required to do so by law. For more information on this, see section “**Compliance with Legal Obligations**” above.
+
+#### Affiliates
+
+_Our parent company_
+
+LinkedIn shares data with our parent company Microsoft, as set out in our [Privacy Policy] and this Notice, to combat harmful or fraudulent behaviour, to protect the security and integrity of our site and the services of Microsoft and others, and, where permitted, so that Microsoft can train and improve its AI models (in accordance with [Microsoft’s privacy policies]).
+
+_LinkedIn Entities_
+
+### D2 P46
+LinkedIn Ireland Unlimited Company shares personal data of all of our Members and Visitors with LinkedIn Corporation in the United States for processing and storage at our data centres, and may share certain personal data with other LinkedIn entities for the LinkedIn group’s business and security purposes.
+
+With other organisations for safety and security
+
+We may also share personal data in order to protect the security or integrity of our Services (e.g. sharing examples of security or safety threats with other companies facing similar threats), or the rights and safety of LinkedIn, our Members, Visitors, and others.
+
+#### **How you can control your data**
+
+You can access, correct, rectify, delete your personal data, object to or ask us to restrict our processing or change your settings. You have many choices about how your data is collected, used and shared.
+
+We offer a variety of ways for Members and Visitors to control their data. The easiest way to control how your data is processed if you are a Member is [via your account settings] and if you are a Visitor [via your Guest settings].
+
+If you are a Visitor and you would like to contact LinkedIn about processing of your data or exercising the rights outlined in this section, you can reach out using the details in the “Contact Us” Section below or by using this [form].
+
+Members can also object, correct inaccurate data, delete data, port data and in some cases restrict the use of their data as set out in this section:
+
+### D2 P47
+#### **Accessing your data**
+
+Members can access and download their data at any time. We will provide your data in a structured readable format. You can start the download process from the Data Privacy section of your [Member Settings]. You can learn more about how to download your data [here.]
+
+#### **Correct and rectify your data**
+
+When Members are signed in to our platform you can always review and update your profile information. You can also ask us to change, rectify or not use your data if it is not accurate. You can edit or correct most of your personal data at any time directly in your account settings. If there is any personal data not listed in your account settings that you would like to correct or update you can [complete a data rectification form.] You can learn more about how you can change or correct your personal data [here].
+
+#### **Deleting your data**
+
+You can request that we delete your personal data. Most of your profile data can be deleted [through your account settings.] You can learn more about deleting your data [here.] For any data that cannot be deleted in your settings, you can submit a [Data Deletion request form]. If you would like to delete all your personal data from LinkedIn, you can always choose to [close your account.]
+
+#### **Restricting the use of your data**
+
+### D2 P48
+One of the ways you can restrict how your data is used is in your [Data Privacy settings] and your [Advertising Data settings]. You can also request that processing of your data is restricted if the data is inaccurate or if you believe that the processing is unlawful by using the details in the “Contact Us” Section below or by using this [form].
+
+#### **Objecting to the use of your data**
+
+You also have the right to object to processing your data where legitimate interest or public interest is the legal basis for processing that data. To exercise your right to object you can contact us by using the details in the “Contact Us” Section below or complete our [Data Processing Objection form].
+
+Where you raise an objection, we will consider your request, our legal obligations, and whether we have a compelling interest in continuing to process your data. In certain cases, consistent with your legal rights and our obligations, we may not be able to fulfil your request—for example, we cannot stop processing your IP address when it is used to authenticate your login details, as this is a security measure that is essential to protect our site. In contrast, you can remove information about your education or work experience from your profile (although as a result, the job recommendations you receive may not be relevant to you) so that we don’t process it.
+
+### D2 P49
+Where we use your data for direct marketing (e.g. to send you marketing emails) or profiling for the purposes of direct marketing, you always have the right to object and we will stop using your data for this purpose.
+
+#### **Portability**
+
+If we use your personal data to perform a contract with you, or with your consent, you have the right to receive your data and port it to another controller. You can download your data anytime in a structured readable format. You can start the download process from the Data Privacy section of your [Member Settings] and can learn more about how to download your data [here.] LinkedIn also provides an [API program] to enable third parties to build integrations with LinkedIn to port data on a Member’s consent in the EEA, EU and Switzerland only. You can find more details in the [Member Portability APIs] help centre article.
+
+#### **Withdrawing your consent**
+
+When you give us consent to use your personal data, you can withdraw that consent at any time. You can withdraw your consent via Member settings for certain processing, or by contacting us [here]. When you withdraw your consent, this won’t affect our use of your data up to that point.
+
+#### **Joint Controller Relationship**
+
+### D2 P50
+We share insights with entities who have LinkedIn Business Pages on our platform, which include certain Member profile information and interaction data. We are a joint controller with the organisation or legal entity who administers the Business Page for this purpose, and Members can find out more information about LinkedIn’s responsibilities [here].
+
+#### **Data Retention**
+
+We generally retain your personal data as long as you keep your account open or as needed to provide you Services. This includes data you or others provided to us and data generated or inferred from your use of our Services. Even if you only use our Services when looking for a new job every few years, we will retain your information and keep your profile open, unless you close your account. In some cases we choose to retain certain information (e.g., insights about Services use) in a depersonalised or aggregated form.
+
+### D2 P51
+You can [delete data from your profile or your activity] on LinkedIn. If you close your account with LinkedIn, it is closed immediately. However, it may take up to 72 hours for your public profile to be removed from LinkedIn. Search engines like Bing, Google and Yahoo! may still display your information temporarily due to the way they collect and update their search data. Learn more about [how your profile shows up in search engine results]. Where we share your data with other third parties, as set out in our [Privacy Policy], e.g. via the LinkedIn Developer Program, they may retain data in accordance with their own retention policies, or in line with our contractual agreements with them.
+
+For data that LinkedIn collects using cookies, you can see how long LinkedIn processes it for by checking the expiration periods in our [Cookie table]. LinkedIn may also collect information about you from cookies on third party websites. For data collected from third party websites where a LinkedIn customer has installed LinkedIn’s tag, LinkedIn de-identifies your personal data after 7 days and permanently deletes it after 180 days.
+
+There are a number of reasons why we might need to retain some of your data for longer than usual. These may include:
+
+* Where LinkedIn has suspended your account for inappropriate, harmful or illegal activity that breaches our Professional Community Guidelines and/or we need to resolve complaints relating to your account.
+
+### D2 P52
+* Where there is ongoing or potential legal or regulatory proceedings related to your account.
+
+* Where we are required by law to retain your data. For more information on when we may be required to retain your data for these purposes, see the “**Compliance with Legal Obligations**” section above.
+
+#### **Transfers of your data outside the Designated Countries and the UK**
+
+LinkedIn may transfer personal data outside of the Designated Countries and the UK as part of its Services e.g. LinkedIn stores personal data on its servers located in the US, so data flows from the EU, EEA, United Kingdom and Switzerland to the US, and back. LinkedIn will always use a lawful transfer mechanism to transfer your data outside of the Designated Countries including transfers based on an adequacy decision by an approved authority, standard contractual clauses or, where appropriate, derogations permitted by law.
+
+LinkedIn is certified to the EU-U.S. Data Privacy Framework, the UK Extension to the EU-U.S. Data Privacy Framework and the Swiss-U.S. Data Privacy Framework, and you can find out more information about our participation in the Data Privacy Framework [here].
+
+### D2 P53
+LinkedIn also relies on the European Commission-approved Standard Contractual Clauses for transfers of certain personal data from the EU/EEA and Switzerland and on the UK Data Transfer Addendum for certain transfers from the UK. These clauses are contractual commitments between companies (e.g. between LinkedIn Ireland Unlimited Company and LinkedIn Corporation or suppliers). You can request a copy of LinkedIn’s Standard Contractual clauses [here].
+
+#### **Contacting your Supervisory Authority**
+
+If you have a concern or complaint about the use of your personal data that you feel has not been addressed by us, you always have the right to raise a concern with the supervisory authority in your jurisdiction.
+
+#### **Contact Us**
+
+If you have a question about our practices or your choices, you can reach us in the following ways:
+
+#### **Online:**
+
+LinkedIn online support can be contacted using this [form]**,** or [live chat] for Members.
+
+#### **By Mail:**
+
+If you are in the Designated Countries:
+
+℅ Data Protection Officer
+
+LinkedIn Ireland Unlimited Company
+
+Wilton Plaza
+
+Dublin 2
+
+Ireland
+
+﻿If you are in the UK:
+
+℅ Data Protection Officer
+
+1000 W Maude Avenue
+
+Sunnyvale
+
+CA
+
+#### **Data Protection Officer:**
+
+Our Data Protection Officer can be contacted directly using this [form].
+
+
+## Cases for D2 (LinkedIn, Privacy Policy)
+
+- C1. "The service will resist legal requests for your information where reasonably possible". Description: The service will attempt to protect user information to a great extent, even so far as stating that they will only follow legal requirements to disclose user information in circumstances where this cannot be reasonably resisted. Classification: good.
+- C2. "You can opt out of targeted advertising". Description: The service employs your data to target ads to you, but you can opt-out of this interest-based advertising. Classification: good.
+- C3. "This service receives your precise location through GPS coordinates". Description: Unless the service relies on Geo Location, this case is to be assigned to points that don't need your GPS coordinates to function properly. Classification: bad.
+- C4. "You are informed about the risk of publishing personal info online". Description: (none) Classification: good.
+
+## D3: Parler, Terms of Service (current version, 27 pieces)
+
+### D3 P1
+[Parler][Parler Play]
+
+Parler Terms of Service
+
+=======================
+
+Modified: April 28, 2026
+
+These terms govern your relationship with Sovren Technologies, Inc. ("Sovren," "Parler," "we," "our," or "us") and your use of and access to all services, websites, and products provided under the Parler brand (collectively, the Services). Parler is a service operated by Sovren Technologies, Inc. You agree that by accessing or using any part of the Services you are bound by the terms of this Agreement (the Terms), including the applicable [Privacy Policy] and [Community Guidelines] incorporated herein.
+
+You may not use the Services unless all of the following apply to you, and you affirm that all of the following apply to you:
+
+* You are at least 18 years old;
+
+* You are legally allowed to use the Services where you live;
+
+* You are not using the Services or accepting the Terms on behalf of any other entity, such as a company or organization, unless you have the authority to bind that entity to these Terms;
+
+* You have not been banned by Parler from using the Services.
+
+User Content and Privacy
+
+------------------------
+
+The Parler [Privacy Policy] describes what Parler can do with information about you received by Parler when you use the Services. You agree to the terms of the [Privacy Policy], including the transfer of information to other countries for storage, processing, and use, if applicable.
+
+### D3 P2
+Any content that you post to the Services must satisfy all of the following criteria, and you affirm that any content posted, submitted, or otherwise provided by you to the Services satisfies these criteria:
+
+* You have the legal right to post the content to the Services.
+
+* The content and the purpose for posting it complies with all laws, rules, and regulations that may apply.
+
+* The content does not infringe the intellectual property rights (such as copyrights and trademark rights) of any other person or entity.
+
+* The content does not include non-public personal private information belonging to someone else, such as another person's birthdate, home address, or telephone number.
+
+* The content complies with the Parler [Community Guidelines].
+
+You are responsible for your use of the Services and for any content that you post. Parler does not endorse, support, represent, or affirm the completeness, truthfulness, accuracy, or reliability of any of the content posted through the Services, nor does Parler endorse any opinions expressed through the Services. All content is the sole responsibility of the person who originated the content, and Parler does not take responsibility for such content.
+
+YouTube Content
+
+---------------
+
+### D3 P3
+With respect to any content you contribute that uses YouTube services via Parler, you affirm that, in addition to complying with Parler's own Terms and [Community Guidelines], you are also complying with YouTube's more restrictive Terms. Users are encouraged to use Parler's own native video capabilities whenever they wish to avoid the application of these more restrictive terms.
+
+Blockchain Integration
+
+----------------------
+
+Parler has integrated blockchain technology into some of its products and services. Blockchain technology provides transparency, security, and decentralization, enabling enhanced user experiences. This integration allows users to actively participate in blockchain-enabled features, such as receiving digital rewards through participation in supported features.
+
+Users acknowledge and agree that blockchain-related features involve emerging technologies and may carry certain risks, including but not limited to potential technical errors, transaction delays, or issues related to blockchain network stability. Parler does not guarantee the performance or outcomes of these blockchain features and is not responsible for losses incurred from blockchain-related actions.
+
+Users are solely responsible for managing their blockchain-related credentials, such as private keys, wallet addresses, or other identifiers. Parler does not store, manage, or recover these credentials for users.
+
+### D3 P4
+By engaging with blockchain-enabled features, users agree to comply with all applicable laws and regulations governing blockchain use in their jurisdiction.
+
+Boosted Posts
+
+-------------
+
+Parler offers users the optional ability to "Boost" their posts for increased visibility across the Parler platform. Users may elect to pay for a Boosted Post either by (a) paying a flat fee in United States Dollars (USD) or (b) using OPT digital rewards based on the current market value of OPT as determined by CoinStore, an independent third-party digital asset exchange.
+
+By choosing to Boost a post, users acknowledge and agree that:
+
+* Use of OPT for Boosted Posts is entirely voluntary and at their sole discretion.
+
+* OPT is a utility token earned through participation and contribution to the decentralized Optio blockchain network. It is intended for use within supported platform features and is not offered as an investment or financial instrument.
+
+* Parler does not operate or control CoinStore or any other third-party exchange and is not responsible for any changes in the market valuation of OPT.
+
+* Parler makes no warranties, representations, or guarantees regarding the value, performance, or future price of OPT.
+
+* Users are solely responsible for verifying the current value of OPT and making an informed decision prior to completing any Boosted Post transaction using OPT.
+
+### D3 P5
+* Parler is not a digital asset exchange and does not engage in the sale, trading, custody, or transfer of digital assets.
+
+All Boosted Post transactions are final, non-refundable, and subject to the Terms and Conditions herein.
+
+There can be no guarantee that Boosted Posts will be successful or achieve particular success. Neither Parler nor Optio is responsible for any aspect of a user's content, website, or applications with which Boosted Posts may be associated. User represents, warrants, and covenants that (i) all Posts are, and will be updated to remain, current and accurate; (ii) your Posts are either original to you or you have secured all necessary rights, consents, waivers and licenses for their use as contemplated by the Agreement, and you are responsible for all royalties, payments, and fees with respect thereto (e.g., performing rights society fees); and (iii) if your Post is an advertisement, you will clearly and conspicuously disclose that such Post is an advertisement within the content of that Post as required by applicable laws and regulations, including all advertising laws and, where applicable, FTC regulations including the FTC's Guides Concerning the Use of Endorsements and Testimonials in Advertising, 16 C.F.R. Part 255.
+
+### D3 P6
+At any time, for any or no reason, we may terminate Boosted Posts, and you or we may terminate this Agreement. At any time and at our sole discretion, we may update or modify the features or functionality of Boosted Posts, or this Agreement. We may also, at our sole discretion, terminate your participation in or suspend and/or limit your participation in Boosted Posts, including suspending or removing your associated Post(s). Neither Parler nor Optio will have any liability regarding the foregoing decisions.
+
+Tipping (USD and OPT)
+
+---------------------
+
+Parler may provide an optional tipping feature that allows users to send paid interactions, comments, or other paid messages ("Tips") to creators or other users where enabled. Tip amounts and associated messages may be displayed publicly within comment feeds or alongside content.
+
+Users may fund Tips using either:
+
+* Fiat currency (USD) through third-party payment processors integrated into Parler; or
+
+* OPT tokens, with token valuations determined solely by independent third-party digital asset exchanges at the time of transaction.
+
+Parler does not control or guarantee the value, availability, liquidity, or price of OPT tokens, and users assume all risks relating to fluctuations or volatility of any digital asset.
+
+All tipping transactions are final and non-refundable. Users acknowledge and agree that:
+
+* Parler is not responsible for payment errors, processing delays, chargebacks, or third-party transaction failures; and
+
+### D3 P7
+* Parler does not mediate disputes between users and creators regarding tipping amounts, content, or expectations.
+
+When a Tip is funded using OPT, certain transaction data may be recorded on a blockchain or distributed ledger, which may be public and immutable. Users should not include sensitive personal information in any content or message that could be associated with an on-chain transaction.
+
+Parler does not store, manage, or recover user wallets, private keys, seed phrases, or other digital asset credentials. Users are solely responsible for managing their digital assets and securing their credentials.
+
+Users are solely responsible for ensuring compliance with all applicable laws, including tax reporting obligations related to tipping transactions, whether made in USD or OPT. Parler does not provide tax advice.
+
+Users acknowledge and agree that:
+
+* OPT tokens are utility tokens for use within supported Parler features;
+
+* OPT tokens are not securities, investments, or financial instruments regulated under U.S. or international securities laws;
+
+* Parler makes no promises regarding the future value, liquidity, or tradability of OPT tokens; and
+
+* All transactions involving OPT tokens are at the user's own risk, and Parler is not responsible for any losses resulting from third-party exchange issues, wallet mismanagement, or market conditions.
+
+Child Sexual Abuse and Exploitation (CSAE) Compliance
+
+-----------------------------------------------------
+
+### D3 P8
+Parler is committed to ensuring the safety and security of its users by strictly prohibiting any content, activities, or behaviors related to child sexual abuse and exploitation (CSAE). Parler does not tolerate content that promotes, depicts, or facilitates CSAE and will take immediate action against users who violate this policy.
+
+Prohibited Content: Users may not upload, share, or distribute content that involves the sexual exploitation of minors, including but not limited to images, videos, texts, or any material that promotes, glorifies, or facilitates such conduct.
+
+Zero-Tolerance Policy: Any user found engaging in CSAE-related activities will have their account permanently terminated and may be reported to the appropriate law enforcement authorities.
+
+Automated and Human Review: Parler utilizes automated detection tools via Hive Moderation tools and human moderation to proactively identify and remove CSAE content. Content suspected of violating CSAE laws will be immediately flagged and reviewed by our compliance team.
+
+Reporting Mechanism: Users are encouraged to report any CSAE-related content or activities through the in-app reporting tools or by emailing [support@parler.com]. Reports will be reviewed promptly, and appropriate actions will be taken, including reporting to the National Center for Missing & Exploited Children (NCMEC) where required by law.
+
+### D3 P9
+Law Enforcement Cooperation: Parler cooperates with law enforcement agencies, the National Center for Missing & Exploited Children (NCMEC), and other relevant authorities to report and prevent the dissemination of CSAE content.
+
+Parler's CSAE Policy: For more details on Parler's CSAE enforcement procedures, moderator guidelines, and compliance framework, please review the Parler [Community Guidelines].
+
+Intellectual Property
+
+---------------------
+
+Parler's Intellectual Property. The Services and any related content, features, and functionality (including but not limited to all information, software, text, displays, images, video, and audio, and the design, selection, and arrangement thereof) are owned by Parler, Parler's licensors, or other providers of such material and are protected by United States and international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws. Parler's name, and all related names, logos, product and service names, designs, and slogans are trademarks that are owned by Parler, Parler's affiliates, or Parler's licensors. You must not use such marks without our prior written permission. All other names, logos, product and service names, designs, and slogans are the trademarks of their respective owners.
+
+### D3 P10
+Right to Distribute. You grant to Parler a license to any content posted by you to the Services, including a worldwide, non-exclusive, royalty-free license (with the right to sublicense) to use, copy, reproduce, process, adapt, modify, publish, transmit, display, distribute, promote, market, advertise, feature, and otherwise use your content in connection with the Services and related business operations. This license includes the right to resize, crop, reformat, encode, transcode, excerpt, create thumbnails from, and otherwise technically modify content as necessary for display, compatibility, promotion, distribution, and operation of the Services across devices, applications, and media formats. You agree that Parler or its service providers or partners may display advertising in connection with your content and otherwise monetize your content without compensation to you, unless you are a participant in our Influencer Network and then you will be compensated according to the terms of that program. You warrant that you have all rights necessary to grant these rights to Parler and other members of the Parler community. You also grant a limited non-exclusive, royalty-free license to any Parler community member to use, copy, reproduce, process, adapt, modify, publish, transmit, display, and distribute any content posted by you to the Services solely in connection with that member's use of the Services. The licenses granted by you hereunder do not include any moral rights or righ
+
+### D3 P11
+t of attribution.
+
+Direct Messages
+
+---------------
+
+Parler provides direct messaging features that allow users to send private messages to other users. Direct messages are not end-to-end encrypted. Parler may access, review, and retain direct message content and metadata as needed to operate the Services, enforce these Terms and the [Community Guidelines], comply with legal obligations, respond to user reports, and protect the safety of users.
+
+Users may report direct messages that violate these Terms or the [Community Guidelines] through the in-app reporting tools. Parler may remove direct messages, restrict messaging features, or terminate accounts in accordance with these Terms. Users are responsible for the content of their direct messages.
+
+Stories
+
+-------
+
+Parler offers a Stories feature that allows users to post temporary content to their followers or to a selected audience such as Close Friends. Stories may include interactive elements such as polls, quizzes, sliders, questions, and countdowns.
+
+When you respond to an interactive Story element, your response, including in some cases your username, may be visible to the user who posted the Story. View counts and reactions to Stories may be visible to the Story owner. Stories may be reported through the in-app reporting tools and are subject to these Terms and the [Community Guidelines].
+
+Lounges
+
+-------
+
+### D3 P12
+Parler offers Lounges, which are user-created community spaces with channels, moderators, and member management features. Lounge creators and designated moderators are responsible for managing membership, channels, and content posted in their Lounge in accordance with these Terms and the [Community Guidelines]. Lounge creators may invite, remove, or ban members and may set channel-specific rules.
+
+Content posted in a Lounge is governed by these Terms, including the license set forth in the Right to Distribute section. Parler may remove Lounges, channels, or content, and may terminate Lounge creator or member accounts, where Parler determines that a Lounge or its content violates these Terms or the [Community Guidelines]. Users joining a Lounge acknowledge that Lounge creators and moderators may have access to information about member activity within the Lounge.
+
+Shop/Commerce
+
+-------------
+
+Parler offers a Shop feature that allows users to view, select, and purchase products. Payments are processed by third-party payment processors, including Stripe. By making a purchase, you agree to the applicable payment processor's terms and authorize Parler and the payment processor to charge your selected payment method for the purchase amount, including any applicable taxes and shipping fees.
+
+### D3 P13
+Products in the Parler Shop are sold by third-party sellers. The seller of record for each product is identified at checkout. Disputes regarding marketplace purchases are handled directly with the seller, except where required by law.
+
+Refunds and returns are governed by Parler's Refund Policy, which is incorporated by reference into these Terms. Sales taxes will be collected as required by applicable law. Shipping availability and timing are determined at the time of purchase. Parler is not responsible for the products themselves or for any disputes between buyers and third-party sellers, except as required by applicable law.
+
+DMCA
+
+----
+
+### D3 P14
+Copyright infringement is not allowed on the Services, and Parler will, in appropriate circumstances, terminate the account of any repeat infringer. If your copyright has been infringed by any content on the Services and you did not grant a license for this use by uploading your copyrighted work to the Services, you may submit a notice that meets all of the requirements of the Digital Millennium Copyright Act (DMCA), 17 U.S.C. 512(c)(3), to Darin Deaver at [dmca@plunksmith.com] or 2801 Network Boulevard Suite 300, Frisco, TX 75034. Your notice must include: (1) electronic or physical signature of the copyrighted work owner (or person authorized by the copyright owner), (2) a description of the copyrighted work, including the URL where the infringing content is available, or a copy of it, (3) contact details of the person submitting the notice, including email address, telephone, and mailing address, (4) statement in "good faith belief" that the work is not authorized by the copyright owner, and (5) a statement by the sender that all of the above information is accurate, and that the person sending the notice is either the copyright owner or is authorized to act on behalf of the copyright owner. Upon receiving a notice satisfying these requirements, Parler will take whatever action, in its sole discretion, it deems appropriate, including removal of the challenged content from the services.
+
+Access, Accounts, and Service Availability
+
+------------------------------------------
+
+### D3 P15
+You may not interfere with the Services in any way, such as by accessing the Services through automated means in a manner that puts excessive demand on the Services; by hacking the Services; by accessing without authorization areas of the Services that are protected by technical measures designed to prevent unauthorized access; by testing the vulnerability of the Services; by impersonating Parler on the Services; by accessing the Services for any purpose that competes with the interests of Parler; by spamming Parler community members; by failing to respond to operational communications or requests from Parler; or through any other type of interference with the Services or Parler's relationships with others.
+
+Parler reserves the right to withdraw or amend the Services, in our sole discretion without notice. Parler will not be liable if for any reason all or any part of the Services are unavailable at any time or for any period. From time to time, we may restrict access to all or some parts of Services.
+
+### D3 P16
+To access the Services, you may be asked to provide certain registration details or other information. It is a condition of your use of the Services that all the information you provide to Parler is correct, current, and complete. You agree that all information that you provide to or is otherwise collected by Parler through the Services is governed by our [Privacy Policy], and you consent to all actions Parler may take with respect to your information consistent with our [Privacy Policy].
+
+If you choose, or are provided with, a username, password, or any other piece of information as part of our security procedures, you must treat such information as confidential, and you must not disclose it to any other person or entity. You also acknowledge that your account is personal to you and agree not to provide any other person with access to this Services or portions of it using your username, password, or other security information. You agree to notify Parler immediately of any unauthorized access to or use of your username or password or any other breach of security. Parler has the right to disable any username, password, or other identifier, whether chosen by you or provided by Parler, at any time in Parler's sole discretion for any or no reason, including if, in Parler's opinion, you have violated any provision of these Terms of Use.
+
+Guest Access
+
+------------
+
+### D3 P17
+Parler allows limited browsing of the Services without creating an account. By using Parler in guest mode, you agree to these Terms and the [Privacy Policy]. Certain features, including posting, messaging, commerce, and interactions with other users, require account creation.
+
+Parler is operated from and primarily intended for users in the United States. Parler makes no representation that the Services or their content are appropriate or available for use in other locations, and access from certain jurisdictions may be restricted. If you access the Services from outside the United States, you do so on your own initiative and at your own risk, and you are responsible for compliance with all applicable local laws. Certain features, including blockchain-related features and commerce features, may not be available in all locations.
+
+Termination and Communications
+
+------------------------------
+
+### D3 P18
+Parler may remove any content and terminate your access to the Services at any time and for any reason, including without limitation, to the extent Parler reasonably believes (a) you have violated these Terms or Parler's [Community Guidelines], (b) you create risk or possible legal exposure for Parler, or (c) you are otherwise engaging in unlawful conduct, although Parler endeavors to allow all free speech that is lawful and does not infringe the legal rights of others. Any invitation made by Parler to you to use the Services or submit content to the Services, or the fact that Parler may receive a benefit from your use of the Services or provision of content to the Services, will not obligate Parler to maintain any content or maintain your access to the Services. Parler will have no liability to you for removing any content, for terminating your access to the Services, or for modifying or terminating the Services. In addition, accounts which are inactive (without login) for nine (9) months are subject to username relinquishment or account removal.
+
+### D3 P19
+If you provide a phone number to Parler, you agree that Parler may send you transactional text messages, including one-time verification codes, account alerts, and security notices. Standard message and data rates may apply. Where Parler offers marketing text messages, separate consent will be obtained at the point of sign-up, and you may opt out of marketing messages at any time by replying STOP. Opting out of transactional messages may limit your ability to access certain features. You agree to notify Parler when you no longer own or control any phone number you have provided so that communications are not sent to others who may acquire that number.
+
+SMS Invitations
+
+---------------
+
+Parler processes SMS invitations solely to deliver your invitation to the intended recipient. We do not store recipient phone numbers or share them with any third parties. Parler is committed to maintaining the privacy and confidentiality of all data related to SMS invitations, ensuring compliance with applicable privacy laws.
+
+Account Deletion
+
+----------------
+
+### D3 P20
+You may delete your account at any time through the account settings in the app. When you delete your account, your profile, posts, and direct messages will be removed from active display on the Services within a reasonable period. Parler may retain certain information after account deletion as required to comply with legal obligations, resolve disputes, prevent fraud, enforce agreements, or as otherwise described in the [Privacy Policy]. Some content you have shared with other users, including direct messages received by other users and content reposted or saved by others, may remain on the Services after your account is deleted.
+
+Disclaimers and Limitation of Liability
+
+---------------------------------------
+
+The Services are provided to you as-is and at your own risk. The Services come with no express or implied warranties, except those that cannot be disclaimed under the law.
+
+You understand that Parler cannot and does not guarantee or warrant that files available for downloading through the Services will be free of viruses or other destructive code. You are responsible for implementing sufficient procedures and checkpoints to satisfy your particular requirements for anti-virus protection and accuracy of data input and output, and for maintaining a means external to the Services for any reconstruction of any lost data.
+
+### D3 P21
+TO THE FULLEST EXTENT PROVIDED BY LAW, PARLER WILL NOT BE LIABLE FOR ANY LOSS OR DAMAGE CAUSED BY A DISTRIBUTED DENIAL-OF-SERVICE ATTACK, VIRUSES, OR OTHER TECHNOLOGICALLY HARMFUL MATERIAL THAT MAY INFECT YOUR COMPUTER EQUIPMENT, COMPUTER PROGRAMS, DATA, OR OTHER PROPRIETARY MATERIAL DUE TO YOUR USE OF THE SERVICES.
+
+### D3 P22
+PARLER DISCLAIMS ALL EXPRESS OR IMPLIED WARRANTIES AND CONDITIONS, SUCH AS MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. Parler makes no representation or endorsement about the function of the Services or any content available through the Services. Parler has no responsibility or liability to you arising from your use of the Services. Parler has no responsibility or liability to you arising from content provided by you or any other person, even if such content is untrue, harmful, damaging, offensive, inappropriate, fraudulent, tortious, unlawful, contrary to social norms, etc. Although Parler may make efforts to review or monitor content, you agree that you will not rely on this fact for any purpose. Parler has no responsibility or liability to you arising from hacking event, data breach, theft, misuse of information, conspiracy, racket, fraud, act of terrorism, misappropriation of information, technical malfunction, interruption of service, or similar event that may cause you to suffer damage, loss, or injury, including without limitation any damage to or loss of your personal property, data, operations, information, reputation, goodwill, profits, etc.
+
+### D3 P23
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, AND REGARDLESS OF THE NATURE OF THE CAUSE OF ACTION, PARLER WILL NOT BE LIABLE TO YOU FOR ANY DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR PUNITIVE DAMAGES, OR FOR ANY LOST PROFITS, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR FOR INTANGIBLE LOSSES, ARISING FROM (a) YOUR ACCESS TO OR USE OF (OR INABILITY TO ACCESS OR USE) THE SERVICES; (b) FROM THE ACTS OR OMISSIONS OF ANY OTHER PERSON OR THIRD PARTY, INCLUDING, WITHOUT LIMITATION, ANY DEFAMATORY, OFFENSIVE, OR ILLEGAL CONDUCT OF OTHER PERSONS OR THIRD PARTIES; (c) ANY CONTENT OBTAINED FROM THE SERVICES; OR (d) UNAUTHORIZED ACCESS, USE, OR ALTERATION OF YOUR CONTENT OR COMMUNICATIONS THROUGH THE SERVICES. IN NO EVENT SHALL THE AGGREGATE LIABILITY OF PARLER ARISING OUT OF OR RELATING TO THESE TERMS OR THE SERVICES EXCEED THE GREATER OF TWO HUNDRED U.S. DOLLARS (U.S. $200.00) OR THE AMOUNT YOU PAID PARLER, IF ANY, IN THE PAST SIX MONTHS FOR THE SERVICES GIVING RISE TO THE CLAIM. THE LIMITATIONS OF THIS SECTION SHALL APPLY TO ANY THEORY OF LIABILITY, WHETHER BASED ON WARRANTY, CONTRACT, STATUTE, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, AND SHALL FURTHER APPLY WHETHER OR NOT PARLER HAS BEEN INFORMED OF THE POSSIBILITY OF ANY SUCH DAMAGES AND EVEN IF A REMEDY LAID OUT IN THESE TERMS IS FOUND TO HAVE FAILED ITS ESSENTIAL PURPOSE.
+
+### D3 P24
+You agree to defend, indemnify, and hold Parler harmless, along with Parler's affiliates, licensors, and service providers, and our and their respective officers, directors, employees, contractors, agents, licensors, suppliers, successors, and assigns from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising out of or relating to your violation of these Terms of Use or your use of the Services.
+
+Applicable Law and Dispute Resolution
+
+-------------------------------------
+
+The laws of Nevada will govern these Terms and any dispute that arises between you and Parler. You agree that all disputes related to these Terms or the Services will first be mediated, in good faith, within sixty (60) days of the demanding party's provision of a written demand, unless expressly agreed otherwise in a signed writing. In the event that a full settlement is not achieved during mediation, you agree that any dispute, action or proceeding seeking to enforce any provision of, or based on any right arising out of these Terms or otherwise, shall then be settled exclusively by arbitration as set forth hereunder and you hereby waive the right to a jury trial before any court of competent jurisdiction.
+
+### D3 P25
+Jury Trial Waiver. BY USING THE SERVICES, YOU WAIVE A TRIAL BY JURY IN ANY ACTION, PROCEEDING, OR COUNTER-CLAIM BROUGHT OR ASSERTED BY EITHER YOU OR PARLER AGAINST THE OTHER ON ANY MATTERS WHATSOEVER RELATING TO OR ARISING OUT OF THESE TERMS, INCLUDING THE FORMATION OF AN AGREEMENT BETWEEN THE PARTIES BASED ON THESE TERMS.
+
+ARBITRATION REQUIREMENT. At PARLER'S sole discretion, Parler may require all claims, controversies, disputes and other matters in question arising out of, or relating to these Terms, the breach hereof or the rights, privileges, responsibilities or duties between or among you and Parler, to be decided by confidential arbitration in Nevada, USA in accordance with the Commercial Arbitration Rules of the American Arbitration Association ("AAA") then existing, unless all parties to any such claim, controversy or dispute, or other matter in question, unanimously agree to the contrary. The provisions contained in this Paragraph shall be specifically enforceable under the prevailing arbitration law.
+
+### D3 P26
+The arbitrator or arbitrators for any proceeding conducted hereunder shall be a person or persons with experience in the social media business, selected in accordance with the AAA's Commercial Arbitration Rules then in effect. The parties will be entitled to conduct discovery in accordance with the provisions of Nevada's or applicable code of civil procedure. The remedial authority of the arbitrator or arbitrators will be the same as, but no greater than, would be the remedial power of a court having jurisdiction over the Parties and their dispute. The arbitrator or arbitrators will render a written opinion based on Nevada law, and specify an award, which will be final and binding upon the Parties.
+
+You affirm that you are competent to agree to be bound by this Agreement, meaning that you are over the age of 18 and, if applicable, have the consent of any designated guardian. In addition to the NSFW filters made available by Parler, there are "Parental Control" products and features available on the market, which can help you tailor your experience on our platform.
+
+Waiver
+
+------
+
+Parler cannot waive any right to enforce this Agreement, unless it does so expressly in writing. No waiver of any part of this Agreement will be a further or continuing waiver of that part or any other part, and no failure to enforce any part of this Agreement will be deemed a waiver of any kind.
+
+Modifications
+
+-------------
+
+### D3 P27
+Parler may modify the Terms of this Agreement in any way and at any time by posting such modifications through the Services. All changes are effective immediately when we post them, and you agree to be responsible for making yourself aware of any modification of the Terms and to be bound by any modification of the Terms when you continue to access or use the Services after any such modification. As a matter of courtesy, Parler endeavors to inform its community members of any such changes. These Terms supersede all prior agreements between you and Parler pertaining to the Services. Except for the statements in this document and the documents expressly incorporated herein by reference, no statement by Parler or anyone associated with Parler, whether verbal or written, can modify or supplement the Terms of this Agreement unless the modification or supplement is stated expressly in writing by referring to this Agreement. If any of the Terms in the Agreement are held to be invalid or unenforceable by a court or arbitrator or by operation of law, the remaining Terms will remain in effect.
+
+
+## Cases for D3 (Parler, Terms of Service)
+
+- C1. "Any liability on behalf of the service is only limited to the fees you paid as a user". Description: Even if the service, for some reason, were to be liable to you, then compensation is limited up to whatever you had paid beforehand (and even if you hadn’t paid any amount to the service, you’re agreeing to compensation by a maximum imposed by the service). Classification: bad.
+- C2. "Your content can be deleted if you violate the terms". Description: Content infringing the Terms of Service (or the Acceptable Use Policy or equivalent)  may be removed, with or without notice. Classification: neutral.
+- C3. "This service offers a symbolic but nonbinding statement about a matter of opinion, ethics, society, or politics". Description: If a service expresses a worldview antithetical to the user’s, that is a good signal that they should not use the service. Or conversely, if the service expresses an uncommonly-held belief that the user agrees with and thinks is relevant to the service-user relationship and/or important, they may wish to use that to choose between otherwise comparable services. Classification: good.
+- C4. " Terms may be changed any time at their discretion, without notice to you ". Description: The Agreements can be updated at any time, including in a way that negatively affects user rights, without notifying before or after the changes. Classification: bad.
+- C5. "No guarantee is made reguarding the accuracy and/or reliability of the information provided". Description: This service makes no warranty regarding the accuracy or reliability of any information that is given on its website or the results that may be obtained from the use of the service. Classification: neutral.
+
+## D4: Pinterest, Community Guidelines (current version, 16 pieces)
+
+### D4 P1
+Community Guidelines
+
+========================
+
+Table of contents
+
+_We're updating our Community Guidelines, effective 12 November 2026. You can preview the updated Community Guidelines ._
+
+Our mission
+
+===========
+
+Pinterest's mission is to provide everyone with the inspiration to create a life they love. Having said that, not all content is inspiring – so we have community guidelines to outline what we do and don’t allow on Pinterest. These guidelines are our acceptable use policy, so if you find content that shouldn’t be on Pinterest, please . We appreciate your feedback and work hard to review your report and take appropriate action in a timely fashion. We use your reports to learn and evolve our standards, and work with subject matter experts to inform and update our guidelines. You can learn more about how we enforce these guidelines in our biannual .
+
+Content safety
+
+==============
+
+Pinterest isn’t a place for antagonistic, explicit, false or misleading, harmful, hateful, or violent content or behaviour. We may remove, limit or block the distribution of such content and the accounts, individuals, groups and domains that create or spread it based on how much harm it poses. Our policies apply to everyone and to all types of content, including synthetically generated content.
+
+### D4 P2
+We do not allow accounts that belong to violent actors, hate groups or malicious misinformation actors. We may consider off-platform actions in assessing enforcement against a Pinterest account belonging to one of these groups or associated individuals.
+
+You can read more about how we put our Community Guidelines into practice on our Enforcement page .
+
+We’re committed to presenting you with clear and transparent expectations that are easy to understand and follow. If you have questions or encounter problems on Pinterest, please .
+
+### Adult sexual content and nudity
+
+Pinterest isn’t a place for sexual content or visible intimate body parts. We remove or limit the distribution of this type of content, including:
+
+* Sexually explicit depictions or descriptions.
+
+* Sexually suggestive depictions or descriptions.
+
+* Visible intimate body parts (e.g. genitals, anus, breasts or buttocks).
+
+* Promotion of erotic practices such as BD/SM.
+
+* Promotion of commercial sexual services such as escort services, sexual chats or webcams.
+
+* Instructions, tools or services for creating sexually explicit or nudity content (e.g. “nudifiers”).
+
+* Instructions, tools or services for intimate image abuse or financial sextortion.
+
+* Sexual enhancement products.
+
+### D4 P3
+* Non-consensual creation and/or distribution of intimate images including intimate image abuse (referred to as “NCII” or “IBSA”), upskirting, down-blousing and hidden camera images, or the threat to do so (referred to as “sextortion”). We’ve put together and if you come across NCII, .
+
+### Prohibited and regulated goods, services and activities
+
+Pinterest isn’t a place for offering, manufacturing or promoting substances, products, activities or exploitative practices that risk harm to humans or animals. We remove or limit the distribution of such content and accounts, including those involving instructions, offers, glorification or promotion of:
+
+* Unauthorised sellers of regulated substances or products including alcohol, supplements, steroids or prescription-only drugs. This includes individuals and unverified, unapproved or rogue online pharmacies.
+
+* Unauthorised manufacturing, modification, access or use of regulated substances, products and their components including 3D-printed weapons, chemical precursors, pill presses, punches and dies.
+
+* Marijuana, marijuana products and paraphernalia.
+
+* Illicit or synthetic drugs.
+
+* Tobacco, nicotine or similar products and paraphernalia.
+
+* Promotion of excessive drug or alcohol use.
+
+* Firearms, attachments, components, ammunition and other regulated weapons.
+
+* Explosives, chemical or biological weapons
+
+**Harmful or deceptive products and practices**
+
+### D4 P4
+Pinterest isn’t a place for practices and products that may be harmful or deceptive. We remove or limit the distribution of such content and accounts, including instructions and offers or promotion of:
+
+* Counterfeit products, documents or currency.
+
+* Stolen bank account or other personal information.
+
+* Social media or similar accounts and account credentials.
+
+* Hacking, cracking or bypassing safety or security measures.
+
+* Test cheating services or products.
+
+* Products or services for evading detection, enabling deception or privacy violation.
+
+* Exploitative financial practices including get-rich-quick schemes.
+
+* Online gambling and lotteries.
+
+**Dangerous activities**
+
+* Harmful pranks or challenges that risk imminent physical harm or extreme emotional distress, especially if showing or encouraging the participation of minors
+
+**Animal exploitation**
+
+* The sale of wild animals or protected and endangered wildlife. For a full list of prohibited wildlife products, please visit our partner, the .
+
+* Corpses, animal parts or products derived from cat or dog parts, or protected and endangered wildlife, including ivory.
+
+* Irresponsible and harmful animal tourism or otherwise exploitative practices such as organised animal fighting.
+
+**Exploitative financial or labour practices**
+
+* Human trafficking, slavery, servitude, and forced or compulsory labour
+
+* Other illegal commercial exploitation, such as trading of organs or products made from human remains or body parts
+
+### D4 P5
+### Hateful activities
+
+Pinterest isn’t a place for hateful content or the people and groups that promote hateful activities. We remove or limit the distribution of such content and accounts, including:
+
+* Slurs or negative stereotypes, caricatures and generalisations
+
+* Support for hate groups and people promoting hateful activities, prejudice and conspiracy theories
+
+* Condoning or trivialising violence because of a victim’s membership in a vulnerable or protected group
+
+* Support for white supremacy, limiting women’s rights and other discriminatory ideas
+
+* Hate-based conspiracy theories and misinformation, such as Holocaust denial
+
+* Denial of an individual’s gender identity or sexual orientation, and support for conversion therapy and related programmes
+
+* Attacks on individuals including public figures based on their membership in a vulnerable or protected group
+
+* Mocking or attacking the beliefs, sacred symbols, movements or institutions of the protected or vulnerable groups identified below
+
+Protected and vulnerable groups include people grouped together based on their actual or perceived race, colour, caste, ethnicity, immigration status, national origin, religion or faith, sex or gender identity, sexual orientation, disability or medical condition. It also includes people who are grouped together based on lower socio-economic status, age, weight or size, pregnancy or veteran status.
+
+### Harassment and criticism
+
+### D4 P6
+Pinterest isn’t a place to attack or antagonise individuals or groups of people. We may remove or limit the distribution of content including:
+
+* Cyberbullying.
+
+* Content that is synthetically generated or manipulated to degrade and/or shame.
+
+* Shaming people for their bodies or assumed sexual or romantic history.
+
+* Sexual remarks about people’s bodies and solicitations or offers of sexual acts
+
+* Personal attacks with name calling, profanity and other insulting language or imagery.
+
+* Mocking someone for experiencing sadness, grief, loss or outrage.
+
+We’ve also put together for you to protect yourself.
+
+### Child safety
+
+Pinterest does not tolerate child sexual exploitation of any kind. That means we enforce a strict, zero-tolerance policy for any content or accounts that might exploit or endanger minors. Pinterest prohibits not just illegal child sexual abuse material (CSAM), but goes a step further to prohibit any content that contributes to the sexualisation of minors, including in imagery and text. We also work closely with the National Center for Missing and Exploited Children (NCMEC) to combat this type of activity, and report content violations ​​as required under the law. The types of content we remove includes:
+
+* Illegal child sexual abuse material.
+
+* Sexualised imagery of minors, including sexualised poses, performances, settings or attire.
+
+* Solicitation, sextortion and inappropriate interactions with minors, including:
+
+* Grooming behaviours
+
+### D4 P7
+* Sexual remarks directed at minors or imagery depicting minors, such as comments on photos of minors or in private messages
+
+* Facilitating unsolicited contact with minors or inviting a minor to engage in a sexual act, meet in person, connect off platform or share sexual images.
+
+* Nudity and partial exposure of minors, including minors in underwear.
+
+* The intentional misuse of otherwise non-violating content depicting minors. For example, we will deactivate users who save otherwise non-violating content into collections or in other contexts that suggest the intent is sexualisation of minors.
+
+In addition to enforcing strict policies for content or accounts that may exploit or endanger minors, Pinterest strives to provide minors with safe, age-appropriate experiences on our services. These efforts include:
+
+* Requiring users to be to use Pinterest.
+
+* Accounts for users under 16 are set to private, and we offer stricter privacy and safety .
+
+* Offering parents and carers the ability to provide guidance on your teenager's account by setting up a .
+
+### Private information
+
+We don’t allow content or behaviour that reveals personally identifiable information or other sensitive information. This includes, but is not limited to:
+
+* Personal identity documents and information, such as social security numbers (SSNs), national identity numbers, passport information or other government-issued IDs
+
+### D4 P8
+* Private contact information such as residential addresses, email addresses and phone numbers
+
+* Health and medical records or other health-related data
+
+* Online login information or account authentication data such as usernames, passwords, security questions and answers
+
+* Photos of private people posted on Pinterest without their permission
+
+* Personal financial information, such as credit card or bank account numbers, or any financial account details
+
+* Other private information considered personal or confidential
+
+If you come across unwanted photos of or information about you, you can . Minors or their authorised representatives can also email about unwanted photos or information.
+
+### Self-injury and harmful behaviour
+
+**If you or someone you know is struggling with suicidal thoughts or is considering hurting themselves, we have in our Help Centre, where you can get free, confidential and immediate support.**
+
+Pinterest isn’t a place for content that displays, rationalises or encourages self-harm including suicide, self-injury, eating disorders or substance abuse. We’ll remove or limit the distribution of such content, including:
+
+* Self-harm instructions
+
+* Suicidal thinking and quotes
+
+* Graphic or otherwise triggering imagery or descriptions of self-harm
+
+* Self-harm promotion, assistance or encouragement
+
+* Mocking of people who self-harm or who have attempted or died by suicide
+
+* Content including diets and coaching that encourages disordered eating.
+
+### D4 P9
+* Images of accessories used to self-harm
+
+* Negative self-talk and insensitive humour about self-harming behaviour
+
+* Suicide pacts, challenges and hoaxes
+
+### Violence and threats
+
+Pinterest isn’t a place for graphic violence or threatening language. We remove or limit the distribution of such content, including:
+
+* Content that shows the use of violence
+
+* Content showing or purporting to show disturbing scenes from before, during or after violent events
+
+* Threats or language that glorifies violence
+
+In a few cases, we allow the saving of disturbing images dedicated to remembrance and advocacy, but limit distribution of such content in public parts of the platform.
+
+### Violent actors
+
+Pinterest isn’t a place for violent content, groups or individuals. We remove or limit the distribution of content and accounts that encourage, belong to, impersonate, praise, promote or provide aid to dangerous actors or groups and their activities. This includes:
+
+* Extremists
+
+* Terrorist organisations
+
+* Gangs and other criminal organisations
+
+* Perpetrators of mass or serial violence
+
+We work with industry, government and security experts to help us identify these groups.
+
+### Misinformation
+
+Pinterest isn’t a place for misinformation, disinformation, mal-information or for the individuals or groups spreading or creating it. We remove or limit distribution of false or misleading content that may harm Pinners' or the public's well-being, safety or trust, including:
+
+### D4 P10
+* False or misleading content about individuals or protected groups that promotes fear, hate or prejudice
+
+* Content that originates from disinformation campaigns, including about climate change or civic participation
+
+* Factual information that's published or deliberately modified to erode trust or inflict harm, such as changing or omitting of context, date or time
+
+* Fabricated or meaningfully manipulated visual or audio content that erodes trust or causes harm
+
+**Health misinformation**
+
+Medically unsupported health claims that risk public health and safety, including:
+
+* The promotion of false cures or "miracle cure" products
+
+* Anti-vaccination advice
+
+* Misinformation about public health emergencies
+
+**Conspiracy theories**
+
+* Conspiracy theory content that encourages turning individuals, groups of people, places or organisations into targets of harassment or physical violence
+
+* Hate-based conspiracy theories
+
+* Conspiracy theories about mass atrocities
+
+* Conspiracy theories about climate change or that impedes an election's integrity or civic participation
+
+**Civic misinformation**
+
+This policy is always applicable, meaning before, during and after major civic participation event (e.g. elections).
+
+* False or misleading content that impedes an election’s integrity or an individual's or group's civic participation, including registering to vote, voting and being counted in a census.
+
+### D4 P11
+* False or misleading information about the dates, times, locations and procedure for voting or census participation.
+
+* Content that misleads voters about how to correctly fill in and submit a ballot, including a postal ballot or census form.
+
+* False or misleading information about who can vote or participate in the census and what information must be provided to participate.
+
+* False or misleading statements about who is collecting information and/or how it will be used.
+
+* False or misleading information about public safety that is intended to deter people from exercising their right to vote or participate in a census.
+
+* Content that encourages or instructs voters or participants to misrepresent themselves or illegally participate.
+
+* Content apparently intended to delegitimise election results on the basis of false or misleading claims.
+
+* Fabricated or manipulated content (e.g. content generated with AI tools) making someone appear to do or say something they didn't with the clear intent of influencing public sentiment about a political figure and/or election.
+
+* Our policies also prohibit threats against voting locations, census or voting personnel, or voters or census participants, including intimidation and doxxing of vulnerable or protected group voters or participants.
+
+**Climate misinformation**
+
+* Content that denies the existence or effects of climate change, the human influence on climate change, or that climate change is backed by scientific consensus.
+
+### D4 P12
+* False or misleading content about climate change solutions that contradict well-established scientific consensus.
+
+* Content that misrepresents scientific data, including by omission or cherry picking, in order to erode trust in climate science and experts.
+
+* Harmful false or misleading content about public safety emergencies including natural disasters and extreme weather events.
+
+### Impersonation
+
+We don’t allow accounts that impersonate or misrepresent their affiliation with any person or organisation. We’ll deactivate accounts that use the name, images or other identifying information about a person or organisation in a misleading or deceiving manner, as well as remove synthetically generated or manipulated content that impersonates a person or organisation.
+
+We allow fan, parody or commentary accounts for public figures or brands in certain contexts. It should be clear through your username or other account details that you aren’t officially affiliated with them.
+
+If you have identified an account you believe to be impersonating you or someone else, you can .
+
+### Comments
+
+All of our Community Guidelines apply in comments posted on Pins. In addition, comments should be relevant. We may remove comments that violate our guidelines, including those that contain:
+
+* Irrelevant or non-purposeful material
+
+* Spam
+
+* Sexually explicit content
+
+* Self-harm content
+
+* Misinformation
+
+* Hateful activities
+
+* Harassment or privacy violations, including
+
+### D4 P13
+* Copyright or trademark infringement
+
+### Messages
+
+All of our apply to messages sent between Pinners. Messages should also be welcomed and relevant. In addition to Pinners’ ability to unwelcome messages, we may warn or suspend accounts that violate our guidelines, including by sending messages that contain:
+
+* Spam
+
+* Sharing or solicitation of sexually explicit content
+
+* Self-harm or suicide content
+
+* Misinformation
+
+* Hateful activities such as racial slurs
+
+* Harassing content or behaviour, including
+
+* Exploitation of private information
+
+* Provoking or threatening violence
+
+Intellectual property and other rights
+
+======================================
+
+To respect the rights of people on and off Pinterest, please:
+
+* Don’t infringe anyone's intellectual property, privacy or other rights.
+
+* Don’t do anything or post any content that violates laws or regulations.
+
+* Don’t use Pinterest’s name, logo or trademark in a way that confuses people (check out our for more details).
+
+Site security and access
+
+========================
+
+To protect the Pinterest platform, we ask that you please:
+
+* Don’t access, use or tamper with our systems or our technical providers’ systems.
+
+* Don’t break or circumvent our security measures or test the vulnerability of our systems or networks, except as part of an authorised Pinterest .
+
+* Don’t use any undocumented or unsupported method to access, search, scrape, download or change any part of Pinterest.
+
+### D4 P14
+* Don’t try to reverse-engineer our software.
+
+* Don’t try to interfere with people on Pinterest or our hosts or networks, such as by sending a virus, overloading, spamming or email-bombing.
+
+* Don’t collect or store personally identifiable information from Pinterest or people on Pinterest without permission.
+
+* Don’t share your password, let anyone access your account or do anything that might put your account at risk.
+
+* Don’t attempt to buy or sell access to your account, boards or usernames, or otherwise transfer account features for compensation.
+
+You can’t use Pinterest if it would be prohibited by . Personal accounts and business accounts are currently not available in North Korea. Business accounts are currently not available in Crimea, Cuba, Donetsk People's Republic, Iran, Luhansk People's Republic, North Korea or Syria.
+
+Spam
+
+====
+
+We want the inspiration and ideas on Pinterest to be high quality and useful, so we remove spam when we find it. We ask that you be considerate of others' experiences on Pinterest and don't spread spam or engage in spammy behaviour.
+
+Our guidelines around spam are:
+
+* Don't use automation that hasn't been explicitly approved by Pinterest. This includes unauthorised services that automatically perform actions on your behalf. You can find information on approved partner tools on our .
+
+* Don't create or operate accounts that aren't authentic, create accounts en masse, or create new accounts for the purpose of violating these guidelines.
+
+### D4 P15
+* Don't create or save content that is repetitive, deceptive or irrelevant in an attempt to make money. To learn how to make great Pins, you can always refer to our .
+
+* In general, don't attempt to make money from Pinners or Pinner web traffic in ways that are misleading, detract from the Pinner experience or don't add value for Pinners.
+
+* Don't link to websites that are unsafe, deceptive, untrustworthy, unoriginal, or that facilitate or encourage spam. Websites should have original content that adds unique value for Pinners.
+
+* Don't send repeated, unsolicited messages, especially if your messages are commercial or deceptive in nature.
+
+* Don’t make repetitive or irrelevant comments. Comments should be authentic and original. We also ask you to be kind to others by keeping your commentary respectful and constructive.
+
+* Don't operate multiple accounts or coordinate with other people with the purpose of manipulating the Pinterest platform.
+
+* Don’t use any other unscrupulous tactics to attempt to improperly influence distribution, clicks or other metrics, including buying or selling engagement, "stuffing" irrelevant keywords, generating inauthentic traffic, or redirecting existing Pins to new destinations.
+
+* Don't attempt to evade our anti-spam systems. For example, don’t use redirection to attempt to link to a site that is not permitted on Pinterest.
+
+### D4 P16
+* With respect to redirection, we encourage you to follow a “no surprises” principle – Pinners should be able to reasonably anticipate where your link will take them. Links that exhibit excessive or deceptive redirection, as well as shortener services that are abused for spam, may be blocked.
+
+Last updated: May 2026
+
+Table of contents
+
+-----------------
+
+
+## Cases for D4 (Pinterest, Community Guidelines)
+
+- C1. "The posting of pornographic content is prohibited". Description: Users are not allowed to post any content of pornographic nature. This includes adult content, things that are sexually explicit, or obscene. Classification: neutral.
+- C2. "You are prohibited from posting content which promotes violence or politically or religiously extremist values". Description: Users are not allowed to post extremist political or religious content. They are also not allowed to post content that glorifies violence. Classification: neutral.
+- C3. "You are prohibited from publishing any third party’s personally identifiable information without their consent". Description: Users agree not to publicly post personally identifiable information (name, postal address, contact information…) without the owner’s knowledge or consent Classification: good.
+- C4. "You are prohibited from sending chain letters, junk mail, spam or any unsolicited messages". Description: Users are not allowed to use the service for chain letters, junk mail, spamming or any other distribution of content to people who have not agreed to receiving it. Classification: neutral.
+
+codex
+{
+  "D1": {
+    "C1": [],
+    "C2": [],
+    "C3": [
+      {
+        "piece": "P13",
+        "quote": "17.1. In any of the following cases, in order to appropriately operate the Services we provide, we may, without prior notice, take such measures as deleting data or Contents, prohibiting the use of all or part of the Services, or deleting User’s accounts.\n\nIn addition, if you have registered multiple accounts, measures may be taken on all of those accounts:\n\n(1) when you violate any of the matters stipulated in the laws and regulations, these Terms of Use or the Individual Conditions of Use, or when we reasonably determine that there is a risk of such a violation;"
+      },
+      {
+        "piece": "P26",
+        "quote": "In addition, if a post is determined to be malicious, the account that made such post itself may be suspended or deleted."
+      },
+      {
+        "piece": "P14",
+        "quote": "17.2. When we reasonably determine that you are facing credit uncertainty such as when our claims held against you are subject to attachment or provisional attachment, or when you receive a petition for commencement of bankruptcy, civil rehabilitation or other similar proceedings, or you independently file the foregoing petitions, in order to appropriately operate the Services, we may, without prior notice, take such measures as suspending the use of our paid services and our payment settlement services (including Yahoo! JAPAN Wallet) or terminating the contract related to the provision of such services. In addition, if you have registered multiple accounts, measures may be taken on all of those accounts."
+      }
+    ],
+    "C4": [],
+    "C5": [
+      {
+        "piece": "P3",
+        "quote": "4.2. Any User who has registered an account may delete such User’s account at any time."
+      },
+      {
+        "piece": "P4",
+        "quote": "5.2. Excluding the cases set out in the Individual Conditions of Use, Users may take procedures for the cancellation of Subscription Services at any time; provided, however, that even if a User takes the procedures for cancellation prior to the intended period of use, the User may not change such period of use, nor may the User cancel the purchase of the Subscription Services."
+      },
+      {
+        "piece": "P23",
+        "quote": "If you wish to suspend the use of Yahoo! JAPAN Wallet, you can do so at any time according to the procedures prescribed by us.\n\nHowever, if you are using a paid service, you cannot suspend the use of Yahoo! JAPAN Wallet unless you take the cancellation procedures of all paid services."
+      }
+    ]
+  },
+  "D2": {
+    "C1": [],
+    "C2": [
+      {
+        "piece": "P49",
+        "quote": "Where we use your data for direct marketing (e.g. to send you marketing emails) or profiling for the purposes of direct marketing, you always have the right to object and we will stop using your data for this purpose."
+      },
+      {
+        "piece": "P8",
+        "quote": "For LinkedIn and its customers to use data we receive form third parties to display personalised advertisements to Members and Visitors | Information from advertising [partners], vendors and [publishers] (e.g., LinkedIn advertiser customers who install a LinkedIn [tag] on their websites)<br><br>[Learn more] about the ad technologies we use, our advertising services and our advertising partners<br><br>You can control how we use your personal data for this type of advertising [here]."
+      }
+    ],
+    "C3": [],
+    "C4": []
+  },
+  "D3": {
+    "C1": [
+      {
+        "piece": "P23",
+        "quote": "IN NO EVENT SHALL THE AGGREGATE LIABILITY OF PARLER ARISING OUT OF OR RELATING TO THESE TERMS OR THE SERVICES EXCEED THE GREATER OF TWO HUNDRED U.S. DOLLARS (U.S. $200.00) OR THE AMOUNT YOU PAID PARLER, IF ANY, IN THE PAST SIX MONTHS FOR THE SERVICES GIVING RISE TO THE CLAIM."
+      }
+    ],
+    "C2": [
+      {
+        "piece": "P12",
+        "quote": "Parler may remove Lounges, channels, or content, and may terminate Lounge creator or member accounts, where Parler determines that a Lounge or its content violates these Terms or the [Community Guidelines]."
+      },
+      {
+        "piece": "P18",
+        "quote": "Parler may remove any content and terminate your access to the Services at any time and for any reason, including without limitation, to the extent Parler reasonably believes (a) you have violated these Terms or Parler's [Community Guidelines], (b) you create risk or possible legal exposure for Parler, or (c) you are otherwise engaging in unlawful conduct, although Parler endeavors to allow all free speech that is lawful and does not infringe the legal rights of others."
+      },
+      {
+        "piece": "P11",
+        "quote": "Users may report direct messages that violate these Terms or the [Community Guidelines] through the in-app reporting tools. Parler may remove direct messages, restrict messaging features, or terminate accounts in accordance with these Terms."
+      },
+      {
+        "piece": "P8",
+        "quote": "Parler utilizes automated detection tools via Hive Moderation tools and human moderation to proactively identify and remove CSAE content."
+      },
+      {
+        "piece": "P14",
+        "quote": "If your copyright has been infringed by any content on the Services and you did not grant a license for this use by uploading your copyrighted work to the Services, you may submit a notice that meets all of the requirements of the Digital Millennium Copyright Act (DMCA), 17 U.S.C. 512(c)(3), to Darin Deaver at [dmca@plunksmith.com] or 2801 Network Boulevard Suite 300, Frisco, TX 75034. Your notice must include: (1) electronic or physical signature of the copyrighted work owner (or person authorized by the copyright owner), (2) a description of the copyrighted work, including the URL where the infringing content is available, or a copy of it, (3) contact details of the person submitting the notice, including email address, telephone, and mailing address, (4) statement in \"good faith belief\" that the work is not authorized by the copyright owner, and (5) a statement by the sender that all of the above information is accurate, and that the person sending the notice is either the copyright owner or is authorized to act on behalf of the copyright owner. Upon receiving a notice satisfying these requirements, Parler will take whatever action, in its sole discretion, it deems appropriate, including removal of the challenged content from the services."
+      }
+    ],
+    "C3": [
+      {
+        "piece": "P18",
+        "quote": "Parler endeavors to allow all free speech that is lawful and does not infringe the legal rights of others."
+      }
+    ],
+    "C4": [
+      {
+        "piece": "P27",
+        "quote": "Parler may modify the Terms of this Agreement in any way and at any time by posting such modifications through the Services. All changes are effective immediately when we post them, and you agree to be responsible for making yourself aware of any modification of the Terms and to be bound by any modification of the Terms when you continue to access or use the Services after any such modification. As a matter of courtesy, Parler endeavors to inform its community members of any such changes."
+      }
+    ],
+    "C5": [
+      {
+        "piece": "P2",
+        "quote": "Parler does not endorse, support, represent, or affirm the completeness, truthfulness, accuracy, or reliability of any of the content posted through the Services, nor does Parler endorse any opinions expressed through the Services."
+      },
+      {
+        "piece": "P22",
+        "quote": "Parler makes no representation or endorsement about the function of the Services or any content available through the Services."
+      }
+    ]
+  },
+  "D4": {
+    "C1": [
+      {
+        "piece": "P2",
+        "quote": "Pinterest isn’t a place for sexual content or visible intimate body parts. We remove or limit the distribution of this type of content, including:\n\n* Sexually explicit depictions or descriptions."
+      },
+      {
+        "piece": "P6",
+        "quote": "Pinterest prohibits not just illegal child sexual abuse material (CSAM), but goes a step further to prohibit any content that contributes to the sexualisation of minors, including in imagery and text."
+      },
+      {
+        "piece": "P12",
+        "quote": "We may remove comments that violate our guidelines, including those that contain:\n\n* Irrelevant or non-purposeful material\n\n* Spam\n\n* Sexually explicit content"
+      },
+      {
+        "piece": "P13",
+        "quote": "In addition to Pinners’ ability to unwelcome messages, we may warn or suspend accounts that violate our guidelines, including by sending messages that contain:\n\n* Spam\n\n* Sharing or solicitation of sexually explicit content"
+      }
+    ],
+    "C2": [
+      {
+        "piece": "P9",
+        "quote": "Pinterest isn’t a place for violent content, groups or individuals. We remove or limit the distribution of content and accounts that encourage, belong to, impersonate, praise, promote or provide aid to dangerous actors or groups and their activities. This includes:\n\n* Extremists\n\n* Terrorist organisations"
+      },
+      {
+        "piece": "P9",
+        "quote": "Pinterest isn’t a place for graphic violence or threatening language. We remove or limit the distribution of such content, including:\n\n* Content that shows the use of violence\n\n* Content showing or purporting to show disturbing scenes from before, during or after violent events\n\n* Threats or language that glorifies violence"
+      },
+      {
+        "piece": "P5",
+        "quote": "Pinterest isn’t a place for hateful content or the people and groups that promote hateful activities. We remove or limit the distribution of such content and accounts, including:\n\n* Slurs or negative stereotypes, caricatures and generalisations\n\n* Support for hate groups and people promoting hateful activities, prejudice and conspiracy theories\n\n* Condoning or trivialising violence because of a victim’s membership in a vulnerable or protected group\n\n* Support for white supremacy, limiting women’s rights and other discriminatory ideas"
+      },
+      {
+        "piece": "P13",
+        "quote": "In addition to Pinners’ ability to unwelcome messages, we may warn or suspend accounts that violate our guidelines, including by sending messages that contain:\n\n* Spam\n\n* Sharing or solicitation of sexually explicit content\n\n* Self-harm or suicide content\n\n* Misinformation\n\n* Hateful activities such as racial slurs\n\n* Harassing content or behaviour, including\n\n* Exploitation of private information\n\n* Provoking or threatening violence"
+      },
+      {
+        "piece": "P1",
+        "quote": "Pinterest isn’t a place for antagonistic, explicit, false or misleading, harmful, hateful, or violent content or behaviour. We may remove, limit or block the distribution of such content and the accounts, individuals, groups and domains that create or spread it based on how much harm it poses."
+      }
+    ],
+    "C3": [
+      {
+        "piece": "P7",
+        "quote": "We don’t allow content or behaviour that reveals personally identifiable information or other sensitive information."
+      },
+      {
+        "piece": "P11",
+        "quote": "Our policies also prohibit threats against voting locations, census or voting personnel, or voters or census participants, including intimidation and doxxing of vulnerable or protected group voters or participants."
+      }
+    ],
+    "C4": [
+      {
+        "piece": "P15",
+        "quote": "Don't send repeated, unsolicited messages, especially if your messages are commercial or deceptive in nature."
+      },
+      {
+        "piece": "P14",
+        "quote": "We want the inspiration and ideas on Pinterest to be high quality and useful, so we remove spam when we find it. We ask that you be considerate of others' experiences on Pinterest and don't spread spam or engage in spammy behaviour."
+      },
+      {
+        "piece": "P14",
+        "quote": "Don’t try to interfere with people on Pinterest or our hosts or networks, such as by sending a virus, overloading, spamming or email-bombing."
+      },
+      {
+        "piece": "P13",
+        "quote": "In addition to Pinners’ ability to unwelcome messages, we may warn or suspend accounts that violate our guidelines, including by sending messages that contain:\n\n* Spam"
+      },
+      {
+        "piece": "P12",
+        "quote": "We may remove comments that violate our guidelines, including those that contain:\n\n* Irrelevant or non-purposeful material\n\n* Spam"
+      }
+    ]
+  }
+}
+tokens used
+63,328
+{
+  "D1": {
+    "C1": [],
+    "C2": [],
+    "C3": [
+      {
+        "piece": "P13",
+        "quote": "17.1. In any of the following cases, in order to appropriately operate the Services we provide, we may, without prior notice, take such measures as deleting data or Contents, prohibiting the use of all or part of the Services, or deleting User’s accounts.\n\nIn addition, if you have registered multiple accounts, measures may be taken on all of those accounts:\n\n(1) when you violate any of the matters stipulated in the laws and regulations, these Terms of Use or the Individual Conditions of Use, or when we reasonably determine that there is a risk of such a violation;"
+      },
+      {
+        "piece": "P26",
+        "quote": "In addition, if a post is determined to be malicious, the account that made such post itself may be suspended or deleted."
+      },
+      {
+        "piece": "P14",
+        "quote": "17.2. When we reasonably determine that you are facing credit uncertainty such as when our claims held against you are subject to attachment or provisional attachment, or when you receive a petition for commencement of bankruptcy, civil rehabilitation or other similar proceedings, or you independently file the foregoing petitions, in order to appropriately operate the Services, we may, without prior notice, take such measures as suspending the use of our paid services and our payment settlement services (including Yahoo! JAPAN Wallet) or terminating the contract related to the provision of such services. In addition, if you have registered multiple accounts, measures may be taken on all of those accounts."
+      }
+    ],
+    "C4": [],
+    "C5": [
+      {
+        "piece": "P3",
+        "quote": "4.2. Any User who has registered an account may delete such User’s account at any time."
+      },
+      {
+        "piece": "P4",
+        "quote": "5.2. Excluding the cases set out in the Individual Conditions of Use, Users may take procedures for the cancellation of Subscription Services at any time; provided, however, that even if a User takes the procedures for cancellation prior to the intended period of use, the User may not change such period of use, nor may the User cancel the purchase of the Subscription Services."
+      },
+      {
+        "piece": "P23",
+        "quote": "If you wish to suspend the use of Yahoo! JAPAN Wallet, you can do so at any time according to the procedures prescribed by us.\n\nHowever, if you are using a paid service, you cannot suspend the use of Yahoo! JAPAN Wallet unless you take the cancellation procedures of all paid services."
+      }
+    ]
+  },
+  "D2": {
+    "C1": [],
+    "C2": [
+      {
+        "piece": "P49",
+        "quote": "Where we use your data for direct marketing (e.g. to send you marketing emails) or profiling for the purposes of direct marketing, you always have the right to object and we will stop using your data for this purpose."
+      },
+      {
+        "piece": "P8",
+        "quote": "For LinkedIn and its customers to use data we receive form third parties to display personalised advertisements to Members and Visitors | Information from advertising [partners], vendors and [publishers] (e.g., LinkedIn advertiser customers who install a LinkedIn [tag] on their websites)<br><br>[Learn more] about the ad technologies we use, our advertising services and our advertising partners<br><br>You can control how we use your personal data for this type of advertising [here]."
+      }
+    ],
+    "C3": [],
+    "C4": []
+  },
+  "D3": {
+    "C1": [
+      {
+        "piece": "P23",
+        "quote": "IN NO EVENT SHALL THE AGGREGATE LIABILITY OF PARLER ARISING OUT OF OR RELATING TO THESE TERMS OR THE SERVICES EXCEED THE GREATER OF TWO HUNDRED U.S. DOLLARS (U.S. $200.00) OR THE AMOUNT YOU PAID PARLER, IF ANY, IN THE PAST SIX MONTHS FOR THE SERVICES GIVING RISE TO THE CLAIM."
+      }
+    ],
+    "C2": [
+      {
+        "piece": "P12",
+        "quote": "Parler may remove Lounges, channels, or content, and may terminate Lounge creator or member accounts, where Parler determines that a Lounge or its content violates these Terms or the [Community Guidelines]."
+      },
+      {
+        "piece": "P18",
+        "quote": "Parler may remove any content and terminate your access to the Services at any time and for any reason, including without limitation, to the extent Parler reasonably believes (a) you have violated these Terms or Parler's [Community Guidelines], (b) you create risk or possible legal exposure for Parler, or (c) you are otherwise engaging in unlawful conduct, although Parler endeavors to allow all free speech that is lawful and does not infringe the legal rights of others."
+      },
+      {
+        "piece": "P11",
+        "quote": "Users may report direct messages that violate these Terms or the [Community Guidelines] through the in-app reporting tools. Parler may remove direct messages, restrict messaging features, or terminate accounts in accordance with these Terms."
+      },
+      {
+        "piece": "P8",
+        "quote": "Parler utilizes automated detection tools via Hive Moderation tools and human moderation to proactively identify and remove CSAE content."
+      },
+      {
+        "piece": "P14",
+        "quote": "If your copyright has been infringed by any content on the Services and you did not grant a license for this use by uploading your copyrighted work to the Services, you may submit a notice that meets all of the requirements of the Digital Millennium Copyright Act (DMCA), 17 U.S.C. 512(c)(3), to Darin Deaver at [dmca@plunksmith.com] or 2801 Network Boulevard Suite 300, Frisco, TX 75034. Your notice must include: (1) electronic or physical signature of the copyrighted work owner (or person authorized by the copyright owner), (2) a description of the copyrighted work, including the URL where the infringing content is available, or a copy of it, (3) contact details of the person submitting the notice, including email address, telephone, and mailing address, (4) statement in \"good faith belief\" that the work is not authorized by the copyright owner, and (5) a statement by the sender that all of the above information is accurate, and that the person sending the notice is either the copyright owner or is authorized to act on behalf of the copyright owner. Upon receiving a notice satisfying these requirements, Parler will take whatever action, in its sole discretion, it deems appropriate, including removal of the challenged content from the services."
+      }
+    ],
+    "C3": [
+      {
+        "piece": "P18",
+        "quote": "Parler endeavors to allow all free speech that is lawful and does not infringe the legal rights of others."
+      }
+    ],
+    "C4": [
+      {
+        "piece": "P27",
+        "quote": "Parler may modify the Terms of this Agreement in any way and at any time by posting such modifications through the Services. All changes are effective immediately when we post them, and you agree to be responsible for making yourself aware of any modification of the Terms and to be bound by any modification of the Terms when you continue to access or use the Services after any such modification. As a matter of courtesy, Parler endeavors to inform its community members of any such changes."
+      }
+    ],
+    "C5": [
+      {
+        "piece": "P2",
+        "quote": "Parler does not endorse, support, represent, or affirm the completeness, truthfulness, accuracy, or reliability of any of the content posted through the Services, nor does Parler endorse any opinions expressed through the Services."
+      },
+      {
+        "piece": "P22",
+        "quote": "Parler makes no representation or endorsement about the function of the Services or any content available through the Services."
+      }
+    ]
+  },
+  "D4": {
+    "C1": [
+      {
+        "piece": "P2",
+        "quote": "Pinterest isn’t a place for sexual content or visible intimate body parts. We remove or limit the distribution of this type of content, including:\n\n* Sexually explicit depictions or descriptions."
+      },
+      {
+        "piece": "P6",
+        "quote": "Pinterest prohibits not just illegal child sexual abuse material (CSAM), but goes a step further to prohibit any content that contributes to the sexualisation of minors, including in imagery and text."
+      },
+      {
+        "piece": "P12",
+        "quote": "We may remove comments that violate our guidelines, including those that contain:\n\n* Irrelevant or non-purposeful material\n\n* Spam\n\n* Sexually explicit content"
+      },
+      {
+        "piece": "P13",
+        "quote": "In addition to Pinners’ ability to unwelcome messages, we may warn or suspend accounts that violate our guidelines, including by sending messages that contain:\n\n* Spam\n\n* Sharing or solicitation of sexually explicit content"
+      }
+    ],
+    "C2": [
+      {
+        "piece": "P9",
+        "quote": "Pinterest isn’t a place for violent content, groups or individuals. We remove or limit the distribution of content and accounts that encourage, belong to, impersonate, praise, promote or provide aid to dangerous actors or groups and their activities. This includes:\n\n* Extremists\n\n* Terrorist organisations"
+      },
+      {
+        "piece": "P9",
+        "quote": "Pinterest isn’t a place for graphic violence or threatening language. We remove or limit the distribution of such content, including:\n\n* Content that shows the use of violence\n\n* Content showing or purporting to show disturbing scenes from before, during or after violent events\n\n* Threats or language that glorifies violence"
+      },
+      {
+        "piece": "P5",
+        "quote": "Pinterest isn’t a place for hateful content or the people and groups that promote hateful activities. We remove or limit the distribution of such content and accounts, including:\n\n* Slurs or negative stereotypes, caricatures and generalisations\n\n* Support for hate groups and people promoting hateful activities, prejudice and conspiracy theories\n\n* Condoning or trivialising violence because of a victim’s membership in a vulnerable or protected group\n\n* Support for white supremacy, limiting women’s rights and other discriminatory ideas"
+      },
+      {
+        "piece": "P13",
+        "quote": "In addition to Pinners’ ability to unwelcome messages, we may warn or suspend accounts that violate our guidelines, including by sending messages that contain:\n\n* Spam\n\n* Sharing or solicitation of sexually explicit content\n\n* Self-harm or suicide content\n\n* Misinformation\n\n* Hateful activities such as racial slurs\n\n* Harassing content or behaviour, including\n\n* Exploitation of private information\n\n* Provoking or threatening violence"
+      },
+      {
+        "piece": "P1",
+        "quote": "Pinterest isn’t a place for antagonistic, explicit, false or misleading, harmful, hateful, or violent content or behaviour. We may remove, limit or block the distribution of such content and the accounts, individuals, groups and domains that create or spread it based on how much harm it poses."
+      }
+    ],
+    "C3": [
+      {
+        "piece": "P7",
+        "quote": "We don’t allow content or behaviour that reveals personally identifiable information or other sensitive information."
+      },
+      {
+        "piece": "P11",
+        "quote": "Our policies also prohibit threats against voting locations, census or voting personnel, or voters or census participants, including intimidation and doxxing of vulnerable or protected group voters or participants."
+      }
+    ],
+    "C4": [
+      {
+        "piece": "P15",
+        "quote": "Don't send repeated, unsolicited messages, especially if your messages are commercial or deceptive in nature."
+      },
+      {
+        "piece": "P14",
+        "quote": "We want the inspiration and ideas on Pinterest to be high quality and useful, so we remove spam when we find it. We ask that you be considerate of others' experiences on Pinterest and don't spread spam or engage in spammy behaviour."
+      },
+      {
+        "piece": "P14",
+        "quote": "Don’t try to interfere with people on Pinterest or our hosts or networks, such as by sending a virus, overloading, spamming or email-bombing."
+      },
+      {
+        "piece": "P13",
+        "quote": "In addition to Pinners’ ability to unwelcome messages, we may warn or suspend accounts that violate our guidelines, including by sending messages that contain:\n\n* Spam"
+      },
+      {
+        "piece": "P12",
+        "quote": "We may remove comments that violate our guidelines, including those that contain:\n\n* Irrelevant or non-purposeful material\n\n* Spam"
+      }
+    ]
+  }
+}

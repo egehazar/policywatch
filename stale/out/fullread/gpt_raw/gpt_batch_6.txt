@@ -1,0 +1,519 @@
+{
+  "D1": {
+    "C1": [
+      {
+        "piece": "P4",
+        "quote": "We also use ‘cookies’ or similar technologies to obtain log data. For example, we use cookies to store your language preferences or other settings so you don‘t have to set them up every time you visit Pinterest."
+      }
+    ],
+    "C2": [
+      {
+        "piece": "P7",
+        "quote": "Sometimes we get this information through the Pinterest Tag (a piece of code an advertiser puts on their site), which delivers insights to us and our ad partners about actions that a person takes on their website after viewing an ad on our Services."
+      },
+      {
+        "piece": "P11",
+        "quote": "Advertise Pinterest products and services to you on other sites and apps. To do this, we disclose information such as cookie IDs, your IP address or a hashed version of your email address to third parties, such as Facebook Ads, Google Marketing Platform and others, who may combine that information with other information they already have about you and deliver ads about Pinterest to you."
+      },
+      {
+        "piece": "P21",
+        "quote": "Advertise Pinterest products and services to you on other sites. To do this, we disclose information such as cookie IDs, your IP address and a hashed version of your email address to services we use to market Pinterest to you on sites and apps other than Pinterest, such as Facebook Ads and Google Marketing Platform."
+      }
+    ],
+    "C3": [
+      {
+        "piece": "P2",
+        "quote": "Pinterest Europe Ltd is the responsible controller for fulfilling key obligations under the GDPR."
+      },
+      {
+        "piece": "P13",
+        "quote": "The below section only applies to residents in the EEA, Switzerland and the UK. Under applicable data protection law in the European Region (such as the GDPR), companies must have a legal justification to process your information for the various purposes described in this Privacy Policy."
+      },
+      {
+        "piece": "P25",
+        "quote": "If you live in the EEA, the UK or Switzerland, you also have some additional rights:\n\n* **Right to object or restrict processing**: You can object to direct marketing from us or where we rely on legitimate interests to process your information, such as where features supported by generative artificial intelligence are based on legitimate interests."
+      },
+      {
+        "piece": "P26",
+        "quote": "**Right to lodge a complaint**: If you reside in the EEA, Switzerland or the UK, you have the right to lodge a complaint with the supervisory authority of your country."
+      },
+      {
+        "piece": "P30",
+        "quote": "If you live in the EEA, Switzerland or the UK, we take additional steps related to data transfers."
+      }
+    ],
+    "C4": [
+      {
+        "piece": "P7",
+        "quote": "Sometimes we get this information through the Pinterest Tag (a piece of code an advertiser puts on their site), which delivers insights to us and our ad partners about actions that a person takes on their website after viewing an ad on our Services."
+      },
+      {
+        "piece": "P4",
+        "quote": "This log data includes, for example, your Internet Protocol (IP) address, activity on websites you visit that incorporate Pinterest features (such as the 'Save' button), browser type and settings, and the date and time when you accessed the Services."
+      },
+      {
+        "piece": "P6",
+        "quote": "Further, some third-party applications use Pinterest features such as our ‘Save’ button, or you can install our ‘Save’ button for your browser. If so, we collect log data from those sites or apps, including usage data."
+      },
+      {
+        "piece": "P12",
+        "quote": "When we use cookies to learn about your behaviour on or off of our services, we or our partners will obtain consent that we may need under applicable law."
+      },
+      {
+        "piece": "P11",
+        "quote": "Where we use cookies to identify your off-site interests, we’ll get your consent where required."
+      }
+    ],
+    "C5": [
+      {
+        "piece": "P24",
+        "quote": "**Access**: You can request access to the information that we collect and hold about you in a portable format."
+      }
+    ],
+    "C6": [
+      {
+        "piece": "P1",
+        "quote": "This applies only if you are a resident of a US state governed by a state-level privacy law. This page also serves as our California Notice at Collection."
+      }
+    ],
+    "C7": [],
+    "C8": [
+      {
+        "piece": "P32",
+        "quote": "Pinterest, Inc. commits to refer unresolved complaints concerning our handling of personal data received in reliance on the Data Privacy Frameworks to JAMS, an alternative dispute resolution provider based in the United States. If you do not receive timely acknowledgment of your DPF Principles-related complaint from us, or if we have not addressed your DPF Principles-related complaint to your satisfaction, please visit for more information or to file a complaint."
+      },
+      {
+        "piece": "P26",
+        "quote": "**Right to lodge a complaint**: If you reside in the EEA, Switzerland or the UK, you have the right to lodge a complaint with the supervisory authority of your country.\n\n* In the UK, the relevant data protection authority is the Information Commissioner's Office, Wycliffe House, Water Lane, Wilmslow, Cheshire, SK9 5AF, +44 (0303) 123 1113, email: casework@ico.org.uk.\n\n* In Ireland, the relevant data protection authority is the Data Protection Commission, 21 Fitzwilliam Square South, Dublin 2, D02 RD28, +353 (0)1 7650100 / + 353 1800 437737, email: info@dataprotection.ie or by using the following online form: ."
+      },
+      {
+        "piece": "P32",
+        "quote": "In compliance with the Data Privacy Frameworks, Pinterest, Inc. commits to resolve DPF Principles-related complaints about our collection and use of your information. EU, UK and Swiss individuals with enquiries or complaints regarding our handling of personal data received in reliance on the Data Privacy Frameworks should first contact Pinterest Inc. at ."
+      },
+      {
+        "piece": "P26",
+        "quote": "If we deny your request to exercise your rights, you may have the right to appeal our decision by contacting us at ."
+      },
+      {
+        "piece": "P33",
+        "quote": "Under certain conditions, it may be possible to invoke binding arbitration for complaints regarding DPF compliance not resolved by any of the other DPF mechanisms, see for additional information."
+      }
+    ],
+    "C9": [
+      {
+        "piece": "P9",
+        "quote": "We use your information in our efforts to improve our Services, keep our users and the public safe, and protect legal interests."
+      },
+      {
+        "piece": "P11",
+        "quote": "Depending on your age, location and privacy settings, we customise the ads we show you by identifying your interests based on your on-site and off-site activities, as well as by using information we receive from ad partners or other third parties."
+      },
+      {
+        "piece": "P11",
+        "quote": "Advertise Pinterest products and services to you on other sites and apps. To do this, we disclose information such as cookie IDs, your IP address or a hashed version of your email address to third parties, such as Facebook Ads, Google Marketing Platform and others, who may combine that information with other information they already have about you and deliver ads about Pinterest to you."
+      },
+      {
+        "piece": "P16",
+        "quote": "Conduct analytics and research on who is using Pinterest and what they are doing. For example, by logging how often people use two different versions of a feature on Pinterest, we can understand which version is better."
+      },
+      {
+        "piece": "P10",
+        "quote": "Improve the products and services of our family of companies and offer new features. For example, using information to train, develop and improve our technology, such as our machine learning models, regardless of when Pins were posted."
+      }
+    ],
+    "C10": [
+      {
+        "piece": "P24",
+        "quote": "**Access**: You can request access to the information that we collect and hold about you in a portable format."
+      },
+      {
+        "piece": "P24",
+        "quote": "**Correction/rectification**: You can correct your information by updating information in your profile."
+      },
+      {
+        "piece": "P24",
+        "quote": "**Deletion/erasure**: You can have your information deleted. In your settings, select 'Delete your data and account' and follow the instructions."
+      }
+    ]
+  },
+  "D2": {
+    "C1": [
+      {
+        "piece": "P10",
+        "quote": "Following termination or deactivation of your account, or User Content removal from Pinterest, we may keep your User Content for a reasonable period of time for backup, archival or audit purposes."
+      },
+      {
+        "piece": "P10",
+        "quote": "Copies of User Content shared with others may remain even if the User Content or your account have been deleted."
+      }
+    ],
+    "C2": [
+      {
+        "piece": "P11",
+        "quote": "If you choose to submit comments, ideas or feedback, you agree that we have no obligation to keep your feedback confidential or to compensate you for the feedback."
+      }
+    ],
+    "C3": [
+      {
+        "piece": "P16",
+        "quote": "In no event shall our aggregate liability for all claims relating to the Service exceed one hundred US dollars (US $100.00)."
+      }
+    ],
+    "C4": [
+      {
+        "piece": "P3",
+        "quote": "If we have previously disabled your account for violation of these Terms, any of our policies or for legal reasons, you will not create a new Pinterest account without our express written permission, which is provided at our sole discretion."
+      },
+      {
+        "piece": "P5",
+        "quote": "Unless we have agreed otherwise, if your account has been suspended, you can’t return to Pinterest."
+      }
+    ],
+    "C5": [
+      {
+        "piece": "P3",
+        "quote": "If you are aged 13 to 18, you may only use the Service with the permission of your parent or legal guardian."
+      }
+    ],
+    "C6": [
+      {
+        "piece": "P12",
+        "quote": "Please notify us immediately of any unauthorised access to your account or any other breach of security."
+      }
+    ],
+    "C7": [
+      {
+        "piece": "P14",
+        "quote": "If you use Pinterest for commercial purposes without agreeing to our as required by Section 2(c) of these Terms, you agree to indemnify and hold harmless Pinterest, Inc., Pinterest Europe Ltd. and their affiliates from any claims (including reasonable legal fees) relating to your use of our Service."
+      },
+      {
+        "piece": "P14",
+        "quote": "If you are a business user and Pinterest is sued because of your use of the Service, you’re financially responsible."
+      }
+    ],
+    "C8": [
+      {
+        "piece": "P5",
+        "quote": "If you want to use Pinterest for commercial purposes, you must create a business account and agree to our ."
+      },
+      {
+        "piece": "P5",
+        "quote": "If you use Pinterest for commercial purposes, you need to set up a business account."
+      }
+    ],
+    "C9": [
+      {
+        "piece": "P12",
+        "quote": "Keep your password secure and do not disclose it to any other person or entity."
+      }
+    ],
+    "C10": [
+      {
+        "piece": "P23",
+        "quote": "Effective date: 30 April 2025"
+      }
+    ]
+  },
+  "D3": {
+    "C1": [],
+    "C2": [
+      {
+        "piece": "P16",
+        "quote": "We do not sell your personal information to third parties, nor do we sell personal information from users under 16 years old."
+      }
+    ],
+    "C3": [
+      {
+        "piece": "P6",
+        "quote": "Marketing and Promotions. For marketing and promotional purposes, such as to send you news, special offers, promotions, or to otherwise contact you about products or information we think may interest you, including information about third-party products and services."
+      },
+      {
+        "piece": "P15",
+        "quote": "Use. The section above titled How We Use Your Information discloses that the categories of personal information we collect are used to provide our services, for personalization, for billing and payment, to provide advertising, to promote our services to you, to enable communications with other users, to analyze how our services are used, to comply with law, and to prevent misuse of the Quora Platform."
+      },
+      {
+        "piece": "P6",
+        "quote": "Advertising. To display interest-based, retargeted, contextual, and behavioral advertising to you in the Quora Platform. We also may use your information, to improve our advertising and measurement systems so we can show you relevant ads and to measure the effectiveness and reach of ads and services."
+      },
+      {
+        "piece": "P5",
+        "quote": "Personalization. To tailor the content and information that we or our third party content publishers or advertisers may send or display to you in the Quora Platform."
+      },
+      {
+        "piece": "P4",
+        "quote": "Third party advertisers who use our Ad Services may also provide us with information about you as part of their ad campaigns (e.g., email addresses) to create custom audiences for personalizing their ad campaigns or for measuring the effectiveness of their ads."
+      }
+    ],
+    "C4": [
+      {
+        "piece": "P12",
+        "quote": "You can opt out of receiving emails or other notifications from us by configuring your Emails and Notifications settings, but we will still send you transactional emails about your account."
+      },
+      {
+        "piece": "P6",
+        "quote": "Where applicable, we obtain your consent before sending such marketing communications and you can unsubscribe anytime."
+      },
+      {
+        "piece": "P11",
+        "quote": "You can update your privacy settings, control the types of notifications and communications we send, and limit the information shared within the Quora Platform anytime."
+      }
+    ],
+    "C5": [
+      {
+        "piece": "P3",
+        "quote": "We and our third party providers use cookies, log files, pixel tags, local storage objects, and other similar technologies to automatically collect information about your activities, such as your searches, page views, date and time of your visit, and other information about your use of the Quora Platform. We also collect information about your web browser or mobile device in connection with your use of the Quora Platform such as your browser type, type of computer or mobile device, browser language, IP address, mobile carrier, unique device identifier, and requested and referring URLs."
+      },
+      {
+        "piece": "P4",
+        "quote": "We collect platform engagement and browsing information, such as IP address, date and time stamp, user agent, Quora cookie ID, URLs visited, unique advertising identifiers (including mobile device advertising identifiers) or content identifiers (if applicable), time zone, and other information about your activity on the Quora Platform. We also collect this information from third-party sites and services that have embedded our Quora Ppixels (“Pixels”), widgets, plug-ins, buttons, or related technologies."
+      }
+    ],
+    "C6": [
+      {
+        "piece": "P1",
+        "quote": "Effective date: August 25, 2023"
+      }
+    ],
+    "C7": [
+      {
+        "piece": "P4",
+        "quote": "We collect platform engagement and browsing information, such as IP address, date and time stamp, user agent, Quora cookie ID, URLs visited, unique advertising identifiers (including mobile device advertising identifiers) or content identifiers (if applicable), time zone, and other information about your activity on the Quora Platform. We also collect this information from third-party sites and services that have embedded our Quora Ppixels (“Pixels”), widgets, plug-ins, buttons, or related technologies."
+      }
+    ],
+    "C8": [
+      {
+        "piece": "P10",
+        "quote": "Once our relationship with you has come to an end, we will retain your personal information for a period of time that enables us to maintain business records for audit purposes, comply with record retention requirements under the law, and defend or bring any existing or potential legal claims."
+      },
+      {
+        "piece": "P16",
+        "quote": "Once our relationship with you has come to an end, we will retain your personal information for a period of time that enables us to maintain business records for audit purposes, comply with record retention requirements under the law, and defend or bring any existing or potential legal claims."
+      }
+    ],
+    "C9": [
+      {
+        "piece": "P3",
+        "quote": "We also collect information about your web browser or mobile device in connection with your use of the Quora Platform such as your browser type, type of computer or mobile device, browser language, IP address, mobile carrier, unique device identifier, and requested and referring URLs."
+      }
+    ],
+    "C10": [
+      {
+        "piece": "P8",
+        "quote": "We share your information with third-party service providers who use this information to perform services for us, such as payment processors, hosting providers, auditors, advisors, consultants, customer service providers, as well as service providers who assist us in providing the Ad Services."
+      },
+      {
+        "piece": "P16",
+        "quote": "As we describe in more detail in the section above titled How We Share Your Information, we may disclose the following categories of personal information for business purposes with service providers, affiliates, law enforcement authorities, in the context of a merger or acquisition, as required by law, for the protection of rights, and as directed by you: (1) identifiers, (2) protected classification characteristics, (3) Internet or other similar network activity, (4) geolocation data, (5) photos or visual information, (6) employment information, (7) education information, and (8) inferences."
+      }
+    ],
+    "C11": [
+      {
+        "piece": "P1",
+        "quote": "We collect information directly from you, from third parties, and automatically through your use of the Quora Platform."
+      },
+      {
+        "piece": "P4",
+        "quote": "Third party advertisers who use our Ad Services may also provide us with information about you as part of their ad campaigns (e.g., email addresses) to create custom audiences for personalizing their ad campaigns or for measuring the effectiveness of their ads."
+      },
+      {
+        "piece": "P2",
+        "quote": "You can log into your Quora account using third party applications (e.g., Facebook, Google, and Apple). When you log in using this method, you allow us to we collect and process your name and email address associated with that third party application for authentication and identity verification purposes."
+      },
+      {
+        "piece": "P4",
+        "quote": "We collect platform engagement and browsing information, such as IP address, date and time stamp, user agent, Quora cookie ID, URLs visited, unique advertising identifiers (including mobile device advertising identifiers) or content identifiers (if applicable), time zone, and other information about your activity on the Quora Platform. We also collect this information from third-party sites and services that have embedded our Quora Ppixels (“Pixels”), widgets, plug-ins, buttons, or related technologies. Please visit our [Quora Pixel Privacy Terms] to learn more, including how to opt out. We may also receive these types of information about you from third parties, such as our partners (including ad partners) or Quora affiliates."
+      },
+      {
+        "piece": "P14",
+        "quote": "we collect personal information directly from consumers, automatically when consumers use the Quora Platform, and from other sources (such as from other users, partners, including ad partners, or our affiliated companies)"
+      }
+    ],
+    "C12": [
+      {
+        "piece": "P2",
+        "quote": "You can also choose to import your contacts to your Quora account to connect with your friends on the Quora Platform."
+      },
+      {
+        "piece": "P4",
+        "quote": "We collect platform engagement and browsing information, such as IP address, date and time stamp, user agent, Quora cookie ID, URLs visited, unique advertising identifiers (including mobile device advertising identifiers) or content identifiers (if applicable), time zone, and other information about your activity on the Quora Platform. We also collect this information from third-party sites and services that have embedded our Quora Ppixels (“Pixels”), widgets, plug-ins, buttons, or related technologies."
+      },
+      {
+        "piece": "P12",
+        "quote": "In addition, users may be able to send communications and invites to their imported contacts through their Quora account, by email, text, or phone."
+      }
+    ],
+    "C13": [
+      {
+        "piece": "P17",
+        "quote": "Opt out of having your personal information shared for targeted advertising. You can exercise this right by visiting the “Your Privacy Choices” link on our site."
+      },
+      {
+        "piece": "P14",
+        "quote": "Depending on your location you may have the right to opt out of having your personal information shared or used for targeted advertising."
+      },
+      {
+        "piece": "P4",
+        "quote": "Third party advertisers who use our Ad Services may also provide us with information about you as part of their ad campaigns (e.g., email addresses) to create custom audiences for personalizing their ad campaigns or for measuring the effectiveness of their ads."
+      },
+      {
+        "piece": "P6",
+        "quote": "Advertising. To display interest-based, retargeted, contextual, and behavioral advertising to you in the Quora Platform. We also may use your information, to improve our advertising and measurement systems so we can show you relevant ads and to measure the effectiveness and reach of ads and services."
+      },
+      {
+        "piece": "P5",
+        "quote": "Personalization. To tailor the content and information that we or our third party content publishers or advertisers may send or display to you in the Quora Platform."
+      }
+    ],
+    "C14": [
+      {
+        "piece": "P2",
+        "quote": "Note that your use of any third party application and the personal data you provide them is governed by their terms of use, privacy policies, and other policies."
+      },
+      {
+        "piece": "P12",
+        "quote": "However, we have no control over deletions or changes to your content if it has been shared manually by others."
+      }
+    ],
+    "C15": [
+      {
+        "piece": "P10",
+        "quote": "Quora Inc. is headquartered in the United States, and has operations, entities, and service providers in the United States and throughout the world. As such, we and our service providers may transfer your personal information to, or access it in, jurisdictions that may not provide equivalent levels of data protection as your home jurisdiction."
+      }
+    ],
+    "C16": [
+      {
+        "piece": "P18",
+        "quote": "We may occasionally update this Privacy Policy to reflect changes in our privacy practices or relevant data protection laws. We will notify you if we make any material changes and will revise the \"Last Updated\" date at the top of this Privacy Policy."
+      }
+    ],
+    "C17": [
+      {
+        "piece": "P17",
+        "quote": "Opt out of having your personal information shared for targeted advertising. You can exercise this right by visiting the “Your Privacy Choices” link on our site."
+      },
+      {
+        "piece": "P14",
+        "quote": "Depending on your location you may have the right to opt out of having your personal information shared or used for targeted advertising. Please visit the “Your Privacy Choices” link on our site to learn more."
+      },
+      {
+        "piece": "P11",
+        "quote": "Depending on where you live and the local laws, you may have certain rights regarding your personal information. These may include rights to:\n\n* Access your personal information\n\n* Rectify the personal information we hold about you\n\n* Erase your personal information\n\n* Restrict our use of your personal information\n\n* Object to our use of your personal information\n\n* Opt out of targeted advertising"
+      },
+      {
+        "piece": "P4",
+        "quote": "Third party advertisers who use our Ad Services may also provide us with information about you as part of their ad campaigns (e.g., email addresses) to create custom audiences for personalizing their ad campaigns or for measuring the effectiveness of their ads. To learn more, including about how to opt -out of certain Ad Services, refer to our [Cookie Policy]."
+      }
+    ],
+    "C18": [
+      {
+        "piece": "P8",
+        "quote": "We share your information with third-party service providers who use this information to perform services for us, such as payment processors, hosting providers, auditors, advisors, consultants, customer service providers, as well as service providers who assist us in providing the Ad Services."
+      },
+      {
+        "piece": "P3",
+        "quote": "We and our third party providers use cookies, log files, pixel tags, local storage objects, and other similar technologies to automatically collect information about your activities, such as your searches, page views, date and time of your visit, and other information about your use of the Quora Platform."
+      },
+      {
+        "piece": "P2",
+        "quote": "You can log into your Quora account using third party applications (e.g., Facebook, Google, and Apple)."
+      },
+      {
+        "piece": "P10",
+        "quote": "Quora Inc. is headquartered in the United States, and has operations, entities, and service providers in the United States and throughout the world."
+      },
+      {
+        "piece": "P16",
+        "quote": "As we describe in more detail in the section above titled How We Share Your Information, we may disclose the following categories of personal information for business purposes with service providers, affiliates, law enforcement authorities, in the context of a merger or acquisition, as required by law, for the protection of rights, and as directed by you: (1) identifiers, (2) protected classification characteristics, (3) Internet or other similar network activity, (4) geolocation data, (5) photos or visual information, (6) employment information, (7) education information, and (8) inferences."
+      }
+    ],
+    "C19": []
+  },
+  "D4": {
+    "C1": [
+      {
+        "piece": "P5",
+        "quote": "By submitting, posting, displaying, or transmitting Your Content on or through the Quora Platform, you grant Quora and its affiliated companies a nonexclusive, worldwide, royalty free, fully paid up, transferable, sublicensable (through multiple tiers), license to use, copy, reproduce, process, adapt, modify, create derivative works from, publish, transmit, store, display and distribute, translate, communicate and make available to the public, and otherwise use Your Content in connection with the operation or use of the Quora Platform or, subject to our [Privacy Policy], the promotion, advertising or marketing of the Quora Platform or our business partners, in any and all media or distribution methods (now known or later developed), including via means of automated distribution, such as through an application programming interface (also known as an “API”)."
+      }
+    ],
+    "C2": [
+      {
+        "piece": "P8",
+        "quote": "You are responsible for ensuring that Your Content does not violate Quora’s [Acceptable Use Policy], [Copyright Policy], [Trademark Policy], any other published Quora policy, or any applicable law or regulation."
+      }
+    ],
+    "C3": [
+      {
+        "piece": "P44",
+        "quote": "Our failure to assert a right or provision under these Terms shall not constitute a waiver of such right or provision."
+      }
+    ],
+    "C4": [
+      {
+        "piece": "P38",
+        "quote": "These Terms shall be governed by the laws of the State of California, excluding its conflict of laws provision and the parties expressly consent to exclusive jurisdiction in Santa Clara County, California for any litigation other than small claims court actions."
+      }
+    ],
+    "C5": [
+      {
+        "piece": "P43",
+        "quote": "If any provision in these Terms is found to be unenforceable, then that provision will not affect the enforceability of the remaining provisions of these Terms, which will remain in full force and effect."
+      },
+      {
+        "piece": "P26",
+        "quote": "Except as set forth in Sections 11.5 & 11.6 below, if any provision of this Arbitration Agreement is found by an arbitrator or court of competent jurisdiction to be invalid, the parties nevertheless agree that the arbitrator or court should endeavor to give effect to the parties' intentions as reflected in the provision, and the other provisions thereof remain in full force and effect."
+      },
+      {
+        "piece": "P34",
+        "quote": "If there is a final judicial determination that applicable law precludes enforcement of this Paragraph’s limitations as to a particular remedy, then that remedy (and only that remedy) must be severed from the arbitration and may be sought in court. The parties agree, however, that any adjudication of remedies not subject to arbitration shall be stayed pending the outcome of any arbitrable claims and remedies."
+      },
+      {
+        "piece": "P34",
+        "quote": "If there is a final judicial determination that either the Class Arbitration Action and Collective Relief Waiver or the provisions in Section 11.4 are not enforceable as to a particular claim or request for relief, then the parties agree that that particular claim or request for relief may proceed in court but shall be severed and stayed pending arbitration of the remaining claims."
+      }
+    ],
+    "C6": [
+      {
+        "piece": "P12",
+        "quote": "We make no warranties or representations about the accuracy, completeness, or timeliness of any content posted on the Quora Platform by anyone."
+      },
+      {
+        "piece": "P19",
+        "quote": "QUORA MAKES NO WARRANTY THAT: (a) THE QUORA PLATFORM WILL MEET YOUR REQUIREMENTS; (b) THE QUORA PLATFORM WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE; (c) THE RESULTS OR INFORMATION THAT YOU MAY OBTAIN FROM THE USE OF THE QUORA PLATFORM, A PROFESSIONAL CONTRIBUTOR, OR ANY OTHER USER WILL BE ACCURATE OR RELIABLE; OR (d) THE QUALITY OF ANY PRODUCTS, SERVICES, INFORMATION, OR OTHER MATERIAL OBTAINED OR PURCHASED BY YOU THROUGH THE QUORA PLATFORM WILL BE SATISFACTORY."
+      },
+      {
+        "piece": "P18",
+        "quote": "WITHOUT LIMITING THE FOREGOING, QUORA ENTITIES EXPRESSLY DISCLAIM ANY AND ALL WARRANTIES AND CONDITIONS OF MERCHANTABILITY, TITLE, ACCURACY AND COMPLETENESS, UNINTERRUPTED OR ERROR-FREE SERVICE, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT, NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR TRADE USAGE."
+      }
+    ],
+    "C7": [
+      {
+        "piece": "P5",
+        "quote": "By submitting, posting, displaying, or transmitting Your Content on or through the Quora Platform, you grant Quora and its affiliated companies a nonexclusive, worldwide, royalty free, fully paid up, transferable, sublicensable (through multiple tiers), license to use, copy, reproduce, process, adapt, modify, create derivative works from, publish, transmit, store, display and distribute, translate, communicate and make available to the public, and otherwise use Your Content in connection with the operation or use of the Quora Platform or, subject to our [Privacy Policy], the promotion, advertising or marketing of the Quora Platform or our business partners, in any and all media or distribution methods (now known or later developed), including via means of automated distribution, such as through an application programming interface (also known as an “API”)."
+      },
+      {
+        "piece": "P4",
+        "quote": "You, or your licensors, as applicable, retain ownership of the copyright and other intellectual property in Your Content, subject to the non-exclusive rights granted below."
+      }
+    ],
+    "C8": [
+      {
+        "piece": "P16",
+        "quote": "For more information, including detailed information about how to submit a request for takedown if you believe content on the Quora Platform infringes your intellectual property rights, please read our [Copyright Policy] and [Trademark Policy]. For your convenience, we provide you the following [Copyright Infringement Claim Form] and [Trademark Infringement Claim Form], which you should use, as applicable, for fastest processing."
+      },
+      {
+        "piece": "P3",
+        "quote": "If you believe that conduct on Quora violates our Copyright or Trademark policy, you may report that violation using the methods described in those policies."
+      }
+    ],
+    "C9": [
+      {
+        "piece": "P18",
+        "quote": "WE ARE PROVIDING YOU THE QUORA PLATFORM, ALONG WITH OUR CONTENT AND MATERIALS AND THE OPPORTUNITY TO CONNECT WITH OTHERS, ON AN “AS IS” AND “AS AVAILABLE” BASIS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED."
+      },
+      {
+        "piece": "P19",
+        "quote": "QUORA MAKES NO WARRANTY THAT: (a) THE QUORA PLATFORM WILL MEET YOUR REQUIREMENTS; (b) THE QUORA PLATFORM WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE; (c) THE RESULTS OR INFORMATION THAT YOU MAY OBTAIN FROM THE USE OF THE QUORA PLATFORM, A PROFESSIONAL CONTRIBUTOR, OR ANY OTHER USER WILL BE ACCURATE OR RELIABLE; OR (d) THE QUALITY OF ANY PRODUCTS, SERVICES, INFORMATION, OR OTHER MATERIAL OBTAINED OR PURCHASED BY YOU THROUGH THE QUORA PLATFORM WILL BE SATISFACTORY."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1709 @@
+OpenAI Codex v0.154.0
+--------
+workdir: C:\Users\egeha\AppData\Local\Temp\claude\8e505c2afe5694b7\c49ddd07-ca2e-4999-982e-7a6829474768\scratchpad\gpt_grade\empty
+model: gpt-6-astra
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 01a1dfcb-413b-7ac2-88e6-7b47704e3b6d
+--------
+user
+You are a rater in a pre-registered evaluation. Your only input is the task file pasted below, after the line of
+equals signs. Read ALL of it before answering. The task instructions are at the top of it. Follow them exactly.
+
+Rules:
+- Do not open, list or search any file or directory, do not run commands, and do not use the web. Judge from the
+  text below only.
+- Quote verbatim: copy the span exactly from the piece you cite.
+- Cover every listed case of every document in the file. Use an empty list when a case is not stated.
+- Where the task says to write the JSON object to an output file: do not write any file. Instead, your final reply
+  must be ONLY that JSON object, with nothing before or after it.
+
+==========================================================================================
+# Rating task: where does this policy state each case?
+
+ToS;DR (Terms of Service; Didn't Read) summarises policies with "cases", for example "You must create an account to
+use this service". Below are one or more platform documents in their CURRENT version, each cut into numbered pieces
+(P1, P2, ...) in document order, followed by a list of cases for that document (C1, C2, ...). Each case has a title,
+ToS;DR's description and its classification (good / neutral / bad / blocker: which way it cuts for users).
+
+Read the whole document. For EACH listed case, find EVERY passage that states or clearly implies the case for this
+platform, so that a ToS;DR curator could quote it as the evidence. A passage that is only on the same topic, states
+the opposite, or needs another passage to make the case does not count. Some cases are stated in several places;
+some are not stated at all in this version.
+
+For each passage you find, give the piece label and a verbatim quote of the shortest span (usually one or two
+sentences) that states the case, copied exactly from that piece. List at most 5 passages per case, the clearest
+first. If the document does not state the case, give an empty list.
+
+Write ONLY a JSON object to the output file named in your instructions, in this shape, covering every listed case of
+every document:
+  {{"D1": {{"C1": [{{"piece": "P12", "quote": "exact text"}}, ...], "C2": [], ...}}, "D2": {{...}}}}
+
+
+## D1: Snapchat, Terms of Service (current version, 87 pieces)
+
+### D1 P1
+Snap Terms of Service
+
+* Snap Terms of Service
+
+* [Summary]
+
+* [Snap Inc. Terms of Service]
+
+* [Snap Group Limited Terms of Service]
+
+**We've updated our Terms of Service, effective 21 September 2026. You can view the prior Terms of Service, which apply to all users until 21 September 2026,** [**here**]**.**
+
+Click here for a helpful summary of the Snap Terms of Service
+
+The [Snap Terms of Service] is a contract between you and Snap. It explains the rules for using Snapchat and our other services (which we call our “Services”). These rules are legally binding, so it's important to understand them. Here’s a quick breakdown of the key points, but you should still read the whole thing:
+
+* **You must be 13 (or older, depending on where you live) to use Snapchat**: And some of our other Services may require that you are 18 or older.
+
+* **We collect and use your information to provide the Services**: See our [Privacy Policy] for details.
+
+* **Our Services provide a personalised experience**: We show ads and recommend content based on your interests as explained [here].
+
+* **You are responsible for your content and any activity that occurs under your account**: But we can change, limit access to or remove that content. Don’t use or share anyone else’s content without their permission. And don’t use the Services to create or share any content that violates someone’s rights, including intellectual property or privacy.
+
+### D1 P2
+* **Our Services include AI-enabled features:** These features use the inputs directed by you to generate outputs like content or responses, which may not be accurate or appropriate, so you use them at your own risk. All inputs and anything you generate using the AI features or ask the AI features to generate must comply with the [Snap Terms of Service]. Outputs of our AI-enabled features are not Snap representations.
+
+* **You allow us to use your content to provide, improve and promote our services**: Other users may also be able to view and interact with your content, depending on the feature and your settings. This includes content created using AI-enabled features.
+
+* **We don't have any control or responsibility over the content of others**: You might be exposed to content that is offensive, illegal or inappropriate, but we have systems in place to try to remove harmful content which you can read about [here].
+
+* **You must follow Snap’s** [**Community Guidelines**]: These guidelines apply to all behaviour, forms of communication and content on our Services.
+
+* **You must also comply with Snap’s other acceptable use terms:** Among other things, you must not:
+
+* create another account without our permission if we have disabled your old one;
+
+* use the Services in ways we prohibit, like copying or trying to reverse-engineer our Services or any content on the Services without permission;
+
+### D1 P3
+* use automated methods to extract data or content from our Services without our permission;
+
+* do anything that could harm other users’ experience or the security of the services; or
+
+* break any laws when using the Services.
+
+* **If you don’t comply with the** [**Snap Terms of Service**] **and the** [**Community Guidelines**]**, your account may be suspended or terminated:** We may also notify third parties, including law enforcement, and provide them data from your account. You may also have to pay compensation if you cause damage to us or others. If you disagree with something we decide about your account or content, you may be able to challenge it as explained [here] for content-related appeals and [here] for account-related appeals.
+
+* **Some features may be subject to additional legal terms:** If they are, we'll let you know and they will also become part of the [Snap Terms of Service].
+
+* **Our Services are evolving over time and we may not always notify you of every change**: We may also update the [Snap Terms of Service] when needed, and will notify you of any significant changes.
+
+* **You use the Services at your own risk:** We don’t make guarantees about the quality, security or availability of the services, and we’re not responsible for third-party content or services linked through the Services.
+
+### D1 P4
+* **There are limitations on our liability to you**: We’re not responsible for content or activities that aren’t ours. Where permitted by law, we also limit our liability for issues like not being able to access the Services, problems caused by others or unauthorised use of your account.
+
+* **The** [**Snap Terms of Service**] **include something called an "Arbitration Clause" that explains how we will resolve most disputes.** This means that, except for certain types of disputes mentioned in the Arbitration Clause, disputes between us will be resolved by mandatory binding arbitration instead of a proceeding in court, and we both waive the right to participate in a class-action lawsuit or class-wide arbitration. Depending on where you live, this may not apply to you and you have the right to opt out of arbitration. The details are explained in the Arbitration Clause.
+
+* **If there is a dispute between us, the governing law will depend on the Snap entity providing the Services to you.** And nothing in the [Snap Terms of Service] will affect whatever statutory rights you have as a consumer under any law that applies to you.
+
+* **We can restrict or terminate your access to the Services at any time**: You can also choose to stop using the Services or delete your account at any time.
+
+This summary simplifies the main points, but remember, the full [Snap Terms of Service] is the official agreement between us that governs your use of our Services.
+
+### D1 P5
+If you live in the United States or if your principal place of business is in the United States, you are agreeing to the [Snap Inc. Terms of Service].
+
+If you live outside the United States or if your principal place of business is outside of the United States, you are agreeing to the [Snap Group Limited Terms of Service].
+
+Snap Terms of Service
+
+-------------------------
+
+Snap Inc. Terms of Service
+
+------------------------------
+
+Effective: September 21, 2026
+
+Welcome!
+
+We’ve drafted these Terms of Service (which we call the “Terms”) so you’ll know the rules that govern our relationship with you as a user of Snapchat, Bitmoji or any of our other products or services that are subject to these Terms, such as My AI (which we refer to collectively as the “Services”). Our Services are personalized and we provide information about how they work in these Terms, our [Privacy, Safety and Policy Hub], on our [Support Site] and within the Services (such as notices, consents and settings). The information we provide forms the main subject matter of these Terms.
+
+Although we have tried our best to strip the legalese from the Terms, there are places where they may still read like a traditional contract. There’s a good reason for that: these Terms form a legally binding contract between you and Snap Inc. (“Snap”). So please read them carefully.
+
+### D1 P6
+By using any of our Services, you agree to the Terms. If so, Snap grants you a non-assignable, non-exclusive, revocable and non-sublicensable license to use the Services in accordance with these Terms and our policies. Of course, if you don’t agree with the Terms, then don’t use the Services.
+
+These Terms apply if you live in the United States or if your principal place of business is in the United States. If you live outside of the United States or if your principal place of business is outside of the United States, Snap Group Limited provides you the Services and your relationship is governed by the [Snap Group Limited Terms of Service].
+
+Where we have provided summary sections in these Terms, these summaries have been included for your convenience only, and you should read these Terms in full to understand your legal rights and obligations.
+
+**ARBITRATION NOTICE: THESE TERMS CONTAIN AN** [**ARBITRATION CLAUSE**] **A LITTLE LATER ON. YOU AND SNAP AGREE THAT, EXCEPT FOR CERTAIN TYPES OF DISPUTES MENTIONED IN THAT ARBITRATION CLAUSE, DISPUTES BETWEEN US WILL BE RESOLVED BY MANDATORY BINDING ARBITRATION, AND YOU AND SNAP WAIVE ANY RIGHT TO PARTICIPATE IN A CLASS-ACTION LAWSUIT OR CLASS-WIDE ARBITRATION. YOU HAVE THE RIGHT TO OPT OUT OF ARBITRATION AS EXPLAINED IN THAT ARBITRATION CLAUSE.**
+
+1\. Who Can Use the Services
+
+### D1 P7
+Our Services are not directed to children under the age of 13 or those below the applicable minimum age at which you may use the Services in your state, province or country if older than 13. You must confirm that you are older than that applicable minimum age to create an account and use the Services. If we have actual knowledge that you are not, we will cease providing the Services to you and lock or delete your account and your data. We may require you to verify your age before you are allowed to use our Services.
+
+We may offer additional Services with additional terms that may require you to be even older to use them. So please read all such terms carefully. By using the Services, you represent, warrant and agree that:
+
+* you can form a binding contract with Snap;
+
+* you are not a person who is barred from using the Services under the laws of the United States or any other applicable jurisdiction – including, for example, that you do not appear on the US Treasury Department's list of Specially Designated Nationals or face any other similar prohibition;
+
+* you are not a convicted sex offender; and
+
+* you will comply with these Terms (including any other terms and policies referenced in these Terms, such as the [Community Guidelines], [Music on Snapchat Guidelines] and the [Commercial Content Policy]) and all applicable local, state, national and international laws, rules and regulations.
+
+### D1 P8
+If you are using the Services on behalf of a business or some other entity, you represent that you are authorized to bind that business or entity to these Terms and you agree to these Terms on behalf of that business or entity (and all references to “you” and “your” in these Terms will mean both you as the end user and that business or entity). If you are using the Services on behalf of an entity of the US Government, you agree to the [Amendment to Snap Inc. Terms of Service for US Government Users].
+
+_In summary: Our Services are not directed to anyone under the age of 13 or the minimum age at which a person may use the Services in your state, province or country if it is older than 13. If we become aware that you are under this age, we will suspend your use of the Services and delete your account and data. You may be required to verify your age. Other terms may apply to our Services which require you to be even older to use them, so please review these carefully when prompted._
+
+2\. Rights You Grant Us
+
+Many of our Services let you create, upload, post, send, receive and store content. When you do that, you retain whatever ownership rights in that content you had to begin with. But you grant us a license to use that content. How broad that license is depends on which Services you use and the settings you have selected.
+
+### D1 P9
+For all content you create using the Services, or submit or make available to the Services (including Public Content), you grant Snap and our affiliates a worldwide, royalty-free, sublicensable and transferable license to host, store, cache, use, display, reproduce, modify, adapt, edit, publish, analyze, transmit and distribute that content, including the name, image, likeness or voice of anyone featured in it. This license is for the purpose of operating, developing, providing, promoting and improving the Services and researching and developing new ones. This license includes a right for us to make your content available to, and pass these rights along to, service providers with whom we have contractual relationships related to the provision of the Services, solely for the purpose of providing and improving such Services.
+
+### D1 P10
+We call Public Story submissions and any other content you submit to public Services, like Public Profiles, Spotlight, Snap Map or Lens Studio, "Public Content". Because Public Content is inherently public, you grant Snap, our affiliates, other users of the Services and our business partners an unrestricted, worldwide, royalty-free, irrevocable and perpetual right and license to create derivative works from, promote, exhibit, broadcast, syndicate, reproduce, distribute, synchronize, overlay graphics and auditory effects on, publicly perform and publicly display all or any portion of your Public Content in any form and in any and all media or distribution methods, now known or later developed, for commercial and non-commercial purposes. This license applies to the separate video, image, sound recording or musical compositions contained in your Public Content, as well as the name, image, likeness and voice of anyone featured in Public Content that you create, upload, post, send or appear in (including as reflected in your Bitmoji). This means, among other things, that you will not be entitled to any compensation if your content, including videos, photos, sound recordings, musical compositions, name, image, likeness or voice included in your content are used by us, our affiliates, users of the Services or our business partners. For information about how to tailor who can watch your content, please take a look at our [Privacy Policy] and [Support Site]. All Public Content must be
+
+### D1 P11
+appropriate for people ages 13+.
+
+While we’re not required to do so, we may access, review, screen and delete your content at any time and for any reason, including to provide and develop the Services or if we think your content violates these Terms or any applicable laws, and we will not be liable to you for any such actions taken. You alone, though, remain responsible for the content you create, upload, post, send or store through the Services.
+
+We, our affiliates, and our third-party partners may place advertising on the Services, including personalized advertising based on the information you provide us, we collect or we obtain about you. Advertising may sometimes appear near, between, over or in your content.
+
+We always love to hear from our users. But if you provide feedback or suggestions, just know that we can use them without compensating you and without any restriction or obligation to you. You agree that we will own all rights in anything we develop based on such feedback or suggestions.
+
+_In summary: If you post content that you own to the Services, you remain the owner, but you allow us and others to use it to provide and promote our Services. You also allow other users to view and, in some cases, use any content you make available to others on the Services. We have various rights to change and remove your content, but you always remain responsible for everything you create, post or share, or direct us to use on the Services._
+
+### D1 P12
+3\. Additional Terms and Policies That May Apply
+
+Additional terms and conditions listed on the [Terms & Policies] page or that are otherwise made available to you will apply to you depending on the specific Services you use. If those additional terms apply (for example, because you use the applicable Services), then they will become part of these Terms, meaning that you must comply with them. For example, if you purchase or use any paid features that we make available to you on Snapchat (such as a Snapchat+ subscription, but excluding advertising services) you agree that our [Paid Features Terms] apply. If any of the applicable additional terms conflict with these Terms, the additional terms will override and apply in place of the conflicting parts of these Terms.
+
+_In summary: Additional terms may apply, please take the time to read them carefully._
+
+4\. Privacy
+
+Your privacy matters to us. You can learn how your information is handled when you use our Services by reading our [Privacy Policy]. You can also learn more about our privacy practices, including how certain features use your data, on our [Privacy, Safety and Policy Hub].
+
+5\. Personalized Recommendations
+
+### D1 P13
+Our Services provide a personalized experience to make them more relevant and engaging for you. We will recommend content, advertising and other information to you based on what we know and infer about your and others' interests from use of our Services. It is necessary for us to handle your personal information for this purpose, as we explain in our [Privacy Policy]. Personalization is also a condition of our contract with you for us to be able to do so, unless you opt to receive less personalization in the Services. You can find more information on personalized recommendations on our [Support Site].
+
+_In summary: Our Services provide a personalized experience, including advertising and other recommendations to you based on data we collect as explained_ [_here_] _and in our_ [_Privacy Policy_]_._
+
+6\. AI Features
+
+### D1 P14
+Our Services include AI-enabled features (“AI Features”) that use inputs like text, images, audio files, videos, documents, data or other content provided by you or used at your direction (“Inputs”) to generate content and responses based on those Inputs (“Outputs”). All Inputs and Outputs will be treated for the purpose of these Terms as content you submit to the Services and accordingly any rights and licenses granted to us and obligations on you in respect of content submitted or made available by you in these Terms applies to Inputs and Outputs, including the licenses set out in “Rights You Grant Us” above. We collect, use, disclose and retain Inputs and Outputs in accordance with our Privacy Policy.
+
+While we integrate certain safeguards into AI Features, Outputs may not be reviewed in advance and may be inaccurate, incomplete, misleading, offensive, objectionable, inappropriate, infringing, unsuitable, unlawful, unfit for particular purposes or the same or similar to content generated for other users of the Services. Outputs may also contain content inconsistent with Snap’s view, and Snap does not endorse any content included in any Outputs. If Outputs reference individuals or third parties including their products or services, it does not mean the individual or third party endorses Snap, or that they or these products are affiliated with Snap.
+
+### D1 P15
+AI Features and Outputs are provided as-is and made available to you without representations or warranties of any kind, whether express or implied. This means that your use of any AI Features and Outputs is at your own risk, and you should not rely on them for any purpose, including to make decisions or for professional, medical, legal, financial, educational or other advice. Outputs are not Snap representations.
+
+When using our AI Features, unless we give our permission, you must not, and must not take any action that would reasonably be expected to:
+
+* use Inputs that contain or make use of, and otherwise could reasonably be expected to generate Outputs that contain or make use of, content that you do not have permission to use, would violate the rights of others, or has otherwise been unlawfully obtained;
+
+* violate any submission guidelines or other policies we make available to you that apply to your use of AI Features or submission of Inputs;
+
+* direct AI Features to generate any Outputs in violation of these Terms, the Community Guidelines or any applicable intellectual property right, contractual restriction or applicable laws, or which might otherwise cause harm;
+
+* alter, obscure or remove any watermark or disclosure applied to Outputs by the AI Features;
+
+* circumvent any safety or privacy features, safeguards or mechanisms in the AI Features;
+
+* use or share Outputs that will be used to train, develop or fine tune models, services or other AI technologies; or
+
+### D1 P16
+* misrepresent Outputs as having been human-generated or otherwise generated without the use of artificial intelligence.
+
+Separate terms apply to any AI Features you use through or in connection with our business Services and Lens Studio instead of those set out above, and will be displayed to you in connection with your use of those other Services.
+
+_In summary: Inputs and Outputs from AI Features may be used in accordance with our Terms of Service, Privacy Policy and terms relevant to the AI-specific products you use. AI Features may not be accurate or appropriate and you should not rely on them as a source of truth, facts or substitute for human judgment._
+
+7\. Content Moderation
+
+Much of the content on our Services is produced by users, publishers and other third parties. Whether that content is posted publicly or sent privately, the content is the sole responsibility of the user or entity that submitted it. To the fullest extent permitted by applicable law, Snap reserves the right to review, moderate or remove all content that appears on the Services. You can read more about Snap's approach to content moderation and how we aim to take down illegal or potentially harmful content quickly once it is detected in our [Snapchat Moderation, Enforcement and Appeals Explainer].
+
+### D1 P17
+However, we do not review all content on our Services. So we cannot – and do not – guarantee that other users or the content they provide through the Services will comply with our Terms, [Community Guidelines] or our other terms, policies or guidelines.
+
+Users can report content on the Services and other accounts for violation of our Terms and policies, including our [Community Guidelines]. More information about how to report content and accounts is available on our [Support Site].
+
+We may also take action on content or accounts to comply with applicable law, legal orders or valid notices alleging unlawful or prohibited content or activity. Our decision to take any action under this Section – including restricting, suspending or terminating accounts, limiting access to content or features, or implementing device-based restrictions or blocks – is made in our sole discretion. You can read more in our [Snapchat Moderation, Enforcement and Appeals Explainer].
+
+We hope you'll understand any decisions we make about content or user accounts, but in some cases you can appeal our decisions. More information about appeals is available on our [Support Site].
+
+### D1 P18
+You can also find more information on our [Support Site] about how Snap complies with certain online platform and safety laws that may apply to you depending on where you live. This includes how we handle content reports and appeals, and the steps you can take if you believe that we have not complied with our obligations under those laws (if they apply to you), such as challenging us if we have restricted your account or removed your content in a way that violates these Terms.
+
+Some of those laws also require us to publish transparency reports that explain our approach to content moderation and platform safety, including the risks we have identified on our Services and our safety efforts to address them. You can find this in our [Transparency Hub]. The information provided in our [Transparency Hub] and any other safety support pages mentioned in this Section are for informational purposes only.
+
+_In summary: Most content on the Services is owned or controlled by others, and we don't have any control or responsibility over that content. We have content moderation policies and processes in place that apply to content on the Services. You may be able to appeal our decisions or make a complaint if you believe we have failed to comply with these Terms or laws that may apply to you depending on where you live._
+
+8\. Respecting the Services and Snap’s Rights
+
+### D1 P19
+As between you and us, Snap is the owner of the Services, which includes all related brands, works of authorship, Bitmoji avatars that you assemble, software and other proprietary content, features and technology. The Services may also be covered by patents owned by Snap or its affiliates, including those listed at [www.snap.com/patents].
+
+You must also respect Snap’s rights and adhere to the [Snapchat Brand Guidelines], [Bitmoji Brand Guidelines] and any other guidelines, support pages, or FAQs published by Snap or our affiliates. That means, among other things, you may not do, attempt to do, enable or encourage anyone else to do any of the following; and doing so may result in us terminating or suspending your access to the Services:
+
+* use branding, logos, icons, user interface elements, product or brand look and feel, designs, photographs, videos or any other materials Snap makes available via the Services, except as explicitly allowed by these Terms, the [Snapchat Brand Guidelines], [Bitmoji Brand Guidelines] or other brand guidelines published by Snap or our affiliates;
+
+* violate or infringe Snap’s, our affiliates’ or any other third party’s rights of publicity, privacy, copyrights, trademarks or other intellectual property rights, including by using the Services to submit, display, post, create or generate any infringing content;
+
+### D1 P20
+* copy, modify, archive, download, upload, disclose, distribute, sell, lease, syndicate, broadcast, perform, display, make available, make derivatives of or otherwise use the Services or the content on the Services, other than temporary files that are automatically cached by your web browser for display purposes, as otherwise expressly permitted in these Terms, as otherwise expressly permitted by us in writing, or as enabled by the Service’s intended functionality;
+
+* attempt to access the Services through unauthorized third-party applications, solicit login credentials from other users, or buy, sell, rent or lease access to your account, a username, Snaps or a friend link;
+
+* reverse engineer, make unauthorized copies or derivative works of, decompile, disassemble, modify or decode the Services (including any underlying idea, technology or algorithm) or any content included therein, or otherwise extract the source code of the software of the Services, without our written permission, except to the extent an exception or limitation applies under an open source license or applicable laws;
+
+* use any robot, spider, crawler, scraper, script, software or other automated or semi-automated means, processes or interfaces to access, scrape, extract or copy the Services, including any user data, content or other data contained in the Services;
+
+### D1 P21
+* use or develop any third-party applications that interact with the Services or other users’ content or information without our written consent;
+
+* use the Services in a way that could interfere with, disrupt, negatively affect or inhibit other users from fully enjoying the Services, or that could damage, disable, overburden or impair the functioning of the Services;
+
+* upload viruses or other malicious code or otherwise compromise, bypass or circumvent the security of the Services;
+
+* attempt to circumvent any content-filtering techniques we employ or attempt to access areas or features of the Services that you are not authorized to access;
+
+* use the Services to create or develop a competing product or service;
+
+* state or imply that we endorse your content;
+
+* probe, scan or test the vulnerability of our Services or any system or network;
+
+* violate any applicable law or regulation in connection with your access to or use of the Services; or
+
+* access or use the Services in any way not expressly permitted by these Terms or our [Community Guidelines].
+
+_In summary: We own or control all of the content, features and functionalities of the Services, except your content. To ensure the Services and other users are protected from harm, there are rules we need you to follow when you use our Services. Failure to comply with these rules may result in suspension or termination of your account._
+
+9\. Respecting Others' Rights
+
+### D1 P22
+Snap respects the rights of others. And so should you. You therefore may not use the Services, or enable anyone else to use the Services, in a manner that violates or infringes someone else’s rights of publicity, privacy, copyright, trademark or other intellectual property rights. When you submit content to the Services, you agree and represent that you own that content, or that you have received all necessary permissions, clearances, licenses and authorizations in order to submit it to the Services (including, if applicable, the right to make mechanical reproductions of the musical works embodied in any sound recordings, synchronize any compositions to any content, publicly perform any compositions or sound recordings, or any other applicable rights for any music not provided by Snap that you include in your content) and grant the rights and licenses contained in these Terms for your content. You also agree that you will not use or attempt to use another user's account except as permitted by Snap or its affiliates.
+
+### D1 P23
+Snap honors trademark, copyright and other intellectual property laws, including the Digital Millennium Copyright Act and takes reasonable steps to expeditiously remove from our Services any infringing material that we become aware of. If Snap becomes aware that a user has repeatedly infringed copyrights, we will take reasonable steps within our power to suspend or terminate the user's account. If you believe that anything on the Services infringes a copyright that you own or control, please report it using the form accessible through this [tool]. Or you may file a notice with our designated agent: Snap Inc., Attn: Copyright Agent, 3000 31st Street, Santa Monica, CA 90405, email: copyright@snap.com. Don’t use this email address for anything other than reporting copyright infringement, as such emails will be ignored. To report other forms of infringement, including trademark infringement, on the Services, please use the tool accessible [here].
+
+If you file a notice with our Copyright Agent, it must comply with the requirements set forth at [17 U.S.C. § 512(c)(3)]. That means the notice must:
+
+* contain the physical or electronic signature of a person authorized to act on behalf of the copyright owner;
+
+* identify the copyrighted work claimed to have been infringed;
+
+### D1 P24
+* identify the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed, or access to which is to be disabled, and information reasonably sufficient to let us locate the material;
+
+* provide your contact information, including your address, telephone number and an email address;
+
+* provide a personal statement that you have a good-faith belief that the use of the material in the manner complained of is not authorized by the copyright owner, its agent or the law; and
+
+* provide a statement that the information in the notification is accurate and, under penalty of perjury, that you are authorized to act on behalf of the copyright owner.
+
+_In summary: Make sure you own or have the right to use any content you make available on the Services. If you use content owned by someone else without permission, we may terminate your account. If you see anything which you believe infringes your intellectual property rights, let us know._
+
+10\. Safety
+
+### D1 P25
+We work hard to help ensure our Services offer a fun and safe experience for all users, but we can’t guarantee it. We take behavior that threatens the safety of our community very seriously, particularly when the threat of harm is severe. If you encounter potentially harmful or unlawful content on the Services, we encourage you to report it. You can learn more about the different ways we strive to keep illegal or potentially harmful content off of the Services in our [Community Guidelines.]
+
+By using the Services, you agree that you will at all times comply with these Terms, including our [Community Guidelines] and any other policies Snap makes available in order to maintain the safety of the Services.
+
+If you fail to comply, we reserve the right to remove any offending content; terminate or limit the visibility of your account or access to certain features; retain data relating to your account in accordance with our data retention policies; and notify third parties – including law enforcement – and provide those third parties with data and any other information relating to your account. This step may be necessary to protect the safety of our users and others; to investigate, remedy and enforce potential violations of our Terms; and to detect and resolve any fraud or security concerns.
+
+### D1 P26
+Snap’s policy is to respond to legally valid governmental requests for user information in the United States. Governmental agencies and courts in the European Union (“EU”) may also send us requests for user information. Such requests may include “European Production Orders” under the EU e-Evidence Regulation, and certain other legal requests. If we receive a legally valid request, Snap may share the requested information – which can include user content – through one of our EU affiliates, without contesting potential conflicts of law.
+
+We also care about your physical safety and wellbeing while using our Services. So do not use our Services in a way that would distract you from obeying traffic or safety laws. For example, never use the Services while driving. And never put yourself or others in harm's way just to capture a Snap or to engage with other Snapchat features.
+
+_In summary: We try to make our Services as safe as possible, but we need your help. These Terms, our Community Guidelines and other Snap policies contain important information about how to keep the Services and other users safe. And never put yourself or others in harm's way when using our Services._
+
+11\. Your Account
+
+### D1 P27
+To use certain Services, you need to create an account. You agree to provide us with accurate, complete and updated information for your account. You are responsible for any activity that occurs in your account. So it’s important that you keep your account secure. One way to help keep your account secure is to select a strong password that you don’t use for any other account and to enable two-factor authentication. If you think that someone has gained access to your account, please immediately reach out to [Support]. Any software that we provide to you may automatically download and install upgrades, updates, or other new features. You may be able to adjust these automatic downloads through your device’s settings. You agree not to create any account if we have previously removed or banned you or your account from any of our Services, unless we consent otherwise.
+
+_In summary: Keep your account details safe and secure. Only use an account if you are authorised by us to do so._
+
+12\. Memories
+
+### D1 P28
+Memories is our personalized data-storage service. Your content in Memories might become unavailable for any number of reasons, including things like an operational glitch or a decision on our end to terminate your account. Since we can’t promise that your content will always be available, we recommend keeping a separate copy of content you save to Memories. We make no promise that Memories will be able to accommodate your precise storage needs. We reserve the right to set storage limits for Memories or to prohibit certain types of content from being eligible for use with Memories, and we may change these limits and prohibitions from time to time in our sole discretion.
+
+_In summary: Memories is a personalised storage service. It will be automatically enabled, but you can control some features. We cannot guarantee that any Memories will be stored forever either, so please do keep a backup._
+
+13\. Data Charges and Mobile Phones
+
+You are responsible for any mobile charges that you may incur for using our Services. This includes data charges and charges for messaging, such as SMS. MMS or other messaging protocols or technologies (collectively, "Messages"). If you’re unsure what those charges may be, you should ask your service provider before using the Services.
+
+### D1 P29
+By providing us with your mobile phone number you agree, among other things, to receive Messages from Snap related to the Services, including about promotions (where we have consent or as permitted by law), your account and your relationship with Snap. You agree that these Messages may be received even if your mobile phone number is registered on any state or federal Do Not Call list or international equivalent.
+
+If you change or deactivate the mobile phone number that you used to create an account, you must update your account information through Settings within 72 hours to prevent us from sending messages intended for you to someone else.
+
+_In summary: We may send you Messages, and mobile charges may apply when you use our Services._
+
+14\. Third-Party Materials and Services
+
+### D1 P30
+Certain Services may display, include, or make available content, data, information, applications, features or materials from third parties (“Third-Party Materials”), provide links to certain third-party websites, or permit the use of Third-Party Materials or third-party services in connection with them. If you use any Third-Party Materials or third-party services made available through or in connection with our Services (including Services we jointly offer with the third-party), the applicable third-party's terms will govern their relationship with you. Neither Snap nor any of our affiliates is responsible or liable for a third-party's terms or actions taken under any third-party's terms. Further, by using the Services, you acknowledge and agree that Snap is not responsible for examining or evaluating the content, accuracy, completeness, availability, timeliness, validity, copyright compliance, legality, decency, quality or any other aspect of such Third-Party Materials or third-party services or websites. We do not warrant or endorse and do not assume and will not have any liability or responsibility to you or any other person for any third-party services, Third-Party Materials or third-party websites or for any other materials, products or services of third-parties. Third-Party Materials, the availability of third-party services and links to other websites are provided solely as a convenience to you.
+
+### D1 P31
+_In summary: Snap isn't responsible for third-party features, content or services accessible via or in connection with our Services – please make sure you read the third-party's terms._
+
+15\. Modifying the Services and These Terms
+
+We’re relentlessly improving our Services and creating new ones all the time. That means we may add or remove features, products or functionalities, and we may also suspend or stop the Services altogether. We may take any of these actions at any time for any reason, and when we do, we may not provide you with any notice beforehand.
+
+This also means we may need to update these Terms to reflect any changes to our Services or how we provide them, as well as to comply with legal requirements, or for other legal or security reasons. If those changes to these Terms are material we will provide you with reasonable advance notice (unless changes are required sooner, for example, as a result of a change in legal requirements or where we are launching new Services or features). If you continue to use the Services once the changes come into effect, we will take that as your acceptance.
+
+_In summary: Our Services are going to evolve over time. We may update these Terms from time to time to reflect these changes or for other reasons._
+
+16\. Termination and Suspension
+
+### D1 P32
+While we hope you remain a lifelong Snapchatter, you can terminate these Terms at any time if you do not agree with any changes we make to these Terms, or for any other reason, by deleting your Snapchat account (or, in some cases, the account associated with the applicable part of the Services you are using).
+
+We may restrict, terminate or temporarily suspend your access to the Services if you fail to comply with these Terms, our [Community Guidelines] or the law, for reasons outside of our control, or for any other reason. That means that we may terminate these Terms, stop providing you with all or any part of the Services, or impose new or additional limits on your ability to use our Services. For example, we may terminate your account due to prolonged inactivity, and we may reclaim your username at any time for any reason. And while we’ll try to give you reasonable notice beforehand, we can’t guarantee that notice will be possible in all circumstances.
+
+Where we restrict, terminate or suspend your access to the Services for violation of our [Community Guidelines], we will notify you and provide an opportunity for you to appeal as explained in our [Moderation, Enforcement and Appeals Explainer].
+
+### D1 P33
+Before we restrict, terminate or suspend your access to the Services, we will take into account all relevant facts and circumstances apparent from the information available to us, depending on the underlying reason for taking that action. For example, if you violate our [Community Guidelines] we consider the severity, frequency and impact of the violations as well as the intention behind the violation. This will inform our decision whether to restrict, terminate or suspend your access to the Services and, in the event of suspension, how long we suspend your access. You can find out more about how we assess and take action against misuse of our Services on our [Support Site].
+
+Regardless of who terminates these Terms, both you and Snap continue to be bound by Sections 2, 3 (to the extent any additional terms and conditions would, by their terms, survive), and 6–25 of the Terms.
+
+_In summary: You can stop using the Services or delete your account at any time and for any reason, including if you don't like any changes to these Terms. We can restrict or terminate your access to the Services for the reasons set out above. When we do, we'll provide you notice in most cases, as well as an opportunity to appeal the decision._
+
+17\. Indemnity
+
+### D1 P34
+You agree, to the extent permitted by law, to indemnify, defend and hold harmless Snap, our affiliates, directors, officers, stockholders, employees, licensors and agents from and against any and all complaints, charges, claims, damages, losses, costs, liabilities and expenses (including attorneys' fees) due to, arising out of or relating in any way to: (a) your access to or use of the Services or any products or services provided by a third party in connection with the Services, even if recommended, made available or approved by Snap, (b) your content, including infringement claims related to your content, (c) your breach of these Terms or any applicable law or regulation, or (d) your negligence or willful misconduct.
+
+_In summary: If you cause us some damage, you will compensate us._
+
+18\. Disclaimers
+
+We try to keep the Services up and running and free of annoyances. But we make no promises that we will succeed.
+
+### D1 P35
+THE SERVICES ARE PROVIDED “AS IS” AND “AS AVAILABLE” AND TO THE EXTENT PERMITTED BY LAW WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN ADDITION, WHILE WE ATTEMPT TO PROVIDE A GOOD USER EXPERIENCE, WE DO NOT REPRESENT OR WARRANT THAT: (A) THE SERVICES WILL ALWAYS BE SECURE, ERROR-FREE OR TIMELY, (B) THE SERVICES WILL ALWAYS FUNCTION WITHOUT DELAYS, DISRUPTIONS OR IMPERFECTIONS OR (C) THAT ANY CONTENT, USER CONTENT OR INFORMATION YOU OBTAIN ON OR THROUGH THE SERVICES WILL BE TIMELY OR ACCURATE.
+
+NEITHER WE NOR OUR AFFILIATES TAKE RESPONSIBILITY OR ASSUME LIABILITY FOR ANY CONTENT THAT YOU, ANOTHER USER OR A THIRD PARTY CREATES, UPLOADS, POSTS, SENDS, RECEIVES OR STORES ON OR THROUGH OUR SERVICES. YOU UNDERSTAND AND AGREE THAT YOU MAY BE EXPOSED TO CONTENT THAT MIGHT BE OFFENSIVE, ILLEGAL, MISLEADING OR OTHERWISE INAPPROPRIATE, NONE OF WHICH WE OR OUR AFFILIATES WILL BE RESPONSIBLE FOR.
+
+_In summary: Snap will try to make the Services available to you, but we do not make any promises regarding quality and will not be liable for any content which is not ours._
+
+19\. Limitation of Liability
+
+### D1 P36
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE AND OUR MANAGING MEMBERS, SHAREHOLDERS, EMPLOYEES, AFFILIATES, LICENSORS, AGENTS AND SUPPLIERS WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE OR MULTIPLE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL OR OTHER INTANGIBLE LOSSES, RESULTING FROM: (A) YOUR ACCESS TO OR USE OF OR INABILITY TO ACCESS OR USE THE SERVICES, (B) THE CONDUCT OR CONTENT OF OTHER USERS OR THIRD-PARTIES ON OR THROUGH THE SERVICES, OR (C) UNAUTHORIZED ACCESS, USE OR ALTERATION OF YOUR CONTENT, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN NO EVENT WILL OUR AGGREGATE LIABILITY FOR ALL CLAIMS RELATING TO THE SERVICES EXCEED THE GREATER OF $100 USD OR THE AMOUNT YOU PAID US IN THE 12 MONTHS PRECEDING THE DATE OF THE ACTIVITY GIVING RISE TO THE CLAIM.
+
+_In summary: We limit our liability for anything you do, instances where you cannot access the Services, things others do and any issues resulting from unauthorized use of our Services. Where we are liable to you and, you have suffered some loss, we limit our liability to a set amount._
+
+20\. Arbitration, Class-Action Waiver and Jury Waiver
+
+### D1 P37
+PLEASE READ THE FOLLOWING PARAGRAPHS CAREFULLY BECAUSE THEY PROVIDE THAT YOU AND SNAP AGREE TO RESOLVE ALL DISPUTES BETWEEN US THROUGH BINDING INDIVIDUAL ARBITRATION AND INCLUDE A CLASS ACTION WAIVER AND JURY TRIAL WAIVER. This Arbitration Agreement supersedes all prior versions.
+
+### D1 P38
+a. Applicability of Arbitration Agreement. In this Section 20 (the “Arbitration Agreement”), you and Snap, including Snap’s officers, directors, employees, contractors and vendors, agree that all claims and disputes (whether contract, tort or otherwise), including all statutory claims and disputes, arising out of or relating to these Terms or the use of the Services or any communications between you and Snap that are not brought in small claims court will be resolved by binding arbitration on an individual basis, except that you and Snap are not required to arbitrate any: (i) disputes or claims within the jurisdiction of a small claims court consistent with the jurisdictional and dollar limits that may apply, as long as it is an individual dispute and not a class action, (ii) disputes or claims where the only relief sought is injunctive relief, and (iii) disputes in which either party seeks equitable relief for the alleged unlawful use of copyrights, trademarks, trade names, logos, trade secrets, patents or other intellectual property rights. To be clear: the phrase “all claims and disputes” also includes claims and disputes that arose between us before the effective date of these Terms. In addition, all disputes concerning the arbitrability of a claim (including disputes about the scope, applicability, enforceability, revocability or validity of the Arbitration Agreement) shall be decided by the arbitrator, except as expressly provided below. This provision shall be binding
+
+### D1 P39
+upon and enforceable against you, your estate, heirs, executors, administrators, successors and assigns, including any party who is deceased at the time the dispute arises.
+
+### D1 P40
+b. Informal Dispute Resolution First. We want to address any disputes without needing arbitration. If you have a dispute with Snap that is subject to arbitration, then prior to initiating arbitration, you agree to mail an individualized request (“Pre-Arbitration Demand”) to Snap Inc., ATTN: Litigation Department, 3000 31st Street, Santa Monica, CA 90405 so that we can work together to resolve the dispute. A Pre-Arbitration Demand is valid only if it pertains to, and is on behalf of, a single individual. A Pre-Arbitration Demand brought on behalf of multiple individuals is invalid as to all. The Pre-Arbitration Demand must include: (i) your name, (ii) your Snapchat username, (iii) your name, telephone number, email address and mailing address or the name, telephone number, mailing address and email address of your counsel, if any, (iv) a description of your dispute, and (v) your signature. Likewise, if Snap has a dispute with you, Snap will send an email or text message with its individualized Pre-Arbitration Demand, including the requirements listed above, to the email address or phone number associated with your Snapchat account. If the dispute is not resolved within sixty (60) days of the date that you or Snap send your Pre-Arbitration Demand, arbitration may then be filed. You agree that compliance with this subsection is a condition precedent to commencing arbitration, and that the arbitrator shall dismiss any arbitration filed without fully and completely complying with
+
+### D1 P41
+these informal dispute resolution procedures. Notwithstanding any other provision of this Agreement, the Arbitration Agreement or ADR Services’ Rules, the party against whom an arbitration has been filed has the right to seek a judicial declaration in court regarding whether the arbitration should be dismissed for failure to comply with the informal dispute resolution process set forth in this subsection.
+
+### D1 P42
+c. Arbitration Rules. The Federal Arbitration Act, including its procedural provisions, governs the interpretation and enforcement of this dispute resolution provision, and not state law. If, after completing the informal dispute resolution process described above, you or Snap wishes to initiate arbitration, the arbitration will be conducted by ADR Services, Inc. (“ADR Services”) ([https://www.adrservices.com/]). If ADR Services is not available to arbitrate, the arbitration will be conducted by National Arbitration and Mediation (“NAM") ([https://www.namadr.com/]). The rules of the arbitral forum will govern all aspects of this arbitration, except to the extent those rules conflict with these Terms. The arbitration will be conducted by a single neutral arbitrator. The arbitrator may issue orders (including subpoenas to third parties, to the extent permitted by law) allowing the parties to conduct discovery sufficient to allow each party to prepare that party's claims and/or defenses, taking into consideration that arbitration is designed to be a speedy and efficient method for resolving disputes. Any claims or disputes where the total amount sought is less than $10,000 USD may be resolved through binding non-appearance-based arbitration, at the option of the party seeking relief. For claims or disputes where the total amount sought is $10,000 USD or more, the right to a hearing will be determined by the arbitral forum’s rules. Any judgment on the award rendered by the arbitr
+
+### D1 P43
+ator may be entered in any court of competent jurisdiction.
+
+d. Additional Rules for Non-appearance Arbitration. If non-appearance arbitration is elected, the arbitration will be conducted by telephone, online, written submissions or any combination of the three; the specific manner will be chosen by the party initiating the arbitration. The arbitration will not involve any personal appearance by the parties or witnesses unless the parties mutually agree otherwise.
+
+e. Fees. If Snap is the party initiating an arbitration against you, Snap will pay all costs associated with the arbitration, including the entire filing fee. If you are the party initiating an arbitration against Snap, you will be responsible for the non-refundable Initial Filing Fee and the nonrefundable Administrative Fee. If, however, the combined amount of the Initial Filing Fee and the Administrative Fee (the “Initiating Fees”) is more than you would have to pay to file a Complaint in the United States District Court for the Central District of California (or, for cases where that court would lack original jurisdiction, the California Superior Court, County of Los Angeles), Snap will pay the difference between the Initiating Fees and the amount you would have to pay to file a Complaint in Court. Otherwise, ADR Services sets forth fees for its services, which are available at [https://www.adrservices.com/rate-fee-schedule/].
+
+### D1 P44
+f. Authority of the Arbitrator. The arbitrator will decide the jurisdiction of the arbitrator and the rights and liabilities, if any, of you and Snap. The dispute will not be consolidated with any other matters or joined with any other cases or parties. The arbitrator will have the authority to grant motions dispositive of all or part of any claim or dispute. The arbitrator will have the authority to award monetary damages and to grant any non-monetary remedy or relief available to an individual under law, the arbitral forum’s rules and the Terms. The arbitrator will issue a written award and statement of decision describing the essential findings and conclusions on which the award is based, including the calculation of any damages awarded. The arbitrator has the same authority to award relief on an individual basis that a judge in a court of law would have. The award of the arbitrator is final and binding upon you and Snap.
+
+### D1 P45
+g. Settlement Offers and Offers of Judgement. At least ten (10) calendar days before the date set for the arbitration hearing, you or Snap may serve a written offer of judgment on the other party to allow judgment on specified terms. If the offer is accepted, the offer with proof of acceptance shall be submitted to the arbitration provider, who shall enter judgment accordingly. If the offer is not accepted prior to the arbitration hearing or within thirty (30) calendar days after it is made, whichever is first, it shall be deemed withdrawn and cannot be given as evidence in the arbitration. If an offer made by one party is not accepted by the other party, and the other party fails to obtain a more favorable award, the other party shall not recover their post-offer costs and shall pay the offering party’s costs (including all fees paid to the arbitral forum) from the time of the offer.
+
+h. Waiver of Jury Trial. YOU AND SNAP WAIVE ANY CONSTITUTIONAL AND STATUTORY RIGHTS TO GO TO COURT AND HAVE A TRIAL IN FRONT OF A JUDGE OR A JURY. You and Snap are instead electing to have claims and disputes resolved by arbitration. Arbitration procedures are typically more limited, more efficient and less costly than rules applicable in court and are subject to very limited review by a court. In any litigation between you and Snap over whether to vacate or enforce an arbitration award, YOU AND SNAP WAIVE ALL RIGHTS TO A JURY TRIAL, and elect instead to have the dispute be resolved by a judge.
+
+### D1 P46
+i. Waiver of Class or Consolidated Actions. ALL CLAIMS AND DISPUTES WITHIN THE SCOPE OF THIS ARBITRATION AGREEMENT MUST BE ARBITRATED OR LITIGATED ON AN INDIVIDUAL BASIS AND NOT ON A CLASS BASIS. CLAIMS OF MORE THAN ONE CUSTOMER OR USER CANNOT BE ARBITRATED OR LITIGATED JOINTLY OR CONSOLIDATED WITH THOSE OF ANY OTHER CUSTOMER OR USER. This subsection does not prevent you or Snap from participating in a class-wide settlement of claims. Notwithstanding any other provision of this Agreement, the Arbitration Agreement or ADR Services' Rules, disputes regarding the interpretation, applicability or enforceability of this waiver may be resolved only by a court and not by an arbitrator. IF THIS CLASS ACTION WAIVER IS LIMITED, VOIDED OR FOUND UNENFORCEABLE, THEN, UNLESS THE PARTIES MUTUALLY AGREE OTHERWISE, THE PARTIES’ AGREEMENT TO ARBITRATE SHALL BE NULL AND VOID WITH RESPECT TO SUCH PROCEEDING SO LONG AS THE PROCEEDING IS PERMITTED TO PROCEED AS A CLASS ACTION. IN SUCH CIRCUMSTANCES, ANY PUTATIVE CLASS, PRIVATE ATTORNEY GENERAL OR CONSOLIDATED OR REPRESENTATIVE ACTION THAT IS PERMITTED TO PROCEED MUST BE BROUGHT IN A COURT OF PROPER JURISDICTION AND NOT IN ARBITRATION.
+
+j. Right to Waive. Any rights and limitations set forth in this Arbitration Agreement may be waived by the party against whom the claim is asserted. Such waiver will not waive or affect any other portion of this Arbitration Agreement.
+
+### D1 P47
+k. Opt-out. You may opt out of this Arbitration Agreement. If you do so, neither you nor Snap can force the other to arbitrate. To opt out, you must notify Snap in writing no later than 30 days after first becoming subject to this Arbitration Agreement; otherwise you shall be bound to arbitrate disputes on a non-class basis in accordance with these Terms. If you opt out of only the arbitration provisions, and not also the class action waiver, the class action waiver still applies. You may not opt out of only the class action waiver and not also the arbitration provisions. Your notice must include your name and address, your Snapchat username and the email address you used to set up your Snapchat account (if you have one), and an unequivocal statement that you want to opt out of this Arbitration Agreement. You must either mail your opt-out notice to this address: Snap Inc., Attn: Arbitration Opt-out, 3000 31st Street, Santa Monica, CA 90405, or email the opt-out notice to arbitration-opt-out @ snap.com.
+
+l. Small Claims Court. Notwithstanding the foregoing, either you or Snap may bring an individual action in small claims court.
+
+m. Arbitration Agreement Survival. This Arbitration Agreement will survive the termination of your relationship with Snap, including any revocation of consent or other action by you to end your participation in the Service or any communication with Snap.
+
+### D1 P48
+_In summary: Unless you exercise your right to opt out, Snap and you will resolve all claims and disputes first through an informal dispute resolution process and, if that does not resolve the issue, on an individual basis using binding arbitration. This means that you cannot bring a class action suit against us in the event of a claim or dispute._
+
+21\. Exclusive Venue
+
+To the extent that these Terms allow you or Snap to initiate litigation in a court, both you and Snap agree that, except for a claim that may be brought in small claims court, all claims and disputes (whether contract, tort or otherwise), including statutory claims and disputes, arising out of or relating to the Terms or the use of the Services will be litigated exclusively in the United States District Court for the Central District of California. If, however, that court would lack original jurisdiction over the litigation, then all such claims and disputes will be litigated exclusively in the Superior Court of California, County of Los Angeles. You and Snap consent to the personal jurisdiction of both courts.
+
+22\. Choice of Law
+
+Except to the extent they are preempted by U.S. federal law, the laws of California, other than its conflict-of-laws principles, govern these Terms and any claims and disputes (whether contract, tort or otherwise) arising out of or relating to these Terms or their subject matter.
+
+23\. Severability
+
+### D1 P49
+If any provision of these Terms is found unenforceable, then that provision will be removed from these Terms and not affect the validity and enforceability of any remaining provisions.
+
+24\. California Residents
+
+If you are a California resident, in accordance with Cal. Civ. Code § 1789.3, you may report complaints to the Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs by contacting them in writing at 1625 North Market Blvd., Suite N 112 Sacramento, CA 95834, or by telephone at (800) 952-5210.
+
+25\. Final Terms
+
+These Terms, including the additional terms referenced in Section 3, make up the entire agreement between you and Snap, and supersede any prior agreements. These Terms do not create or confer any third-party beneficiary rights. If we do not enforce a provision in these Terms, it will not be considered a waiver of our rights to enforce these Terms. We reserve the right to transfer our rights under these Terms and provide the Services using another entity, provided that entity upholds these Terms. You may not transfer any of your rights or obligations under these Terms without our consent. We reserve all rights not expressly granted to you.
+
+26\. Contact Us
+
+Snap welcomes comments, questions, concerns or suggestions. You can contact us or get support [here].
+
+Snap Inc. is located in the United States at 3000 31st Street, Santa Monica, California 90405.
+
+Snap Group Limited Terms of Service
+
+### D1 P50
+---------------------------------------
+
+Effective: September 21, 2026
+
+Welcome!
+
+We’ve drafted these Terms of Service (which we call the “Terms”) so you’ll know the rules that govern our relationship with you as a user of Snapchat, Bitmoji or any of our other products or services that are subject to these Terms, such as My AI (which we refer to collectively as the “Services”). Our Services are personalised and we provide information about how they work in these Terms, our [Privacy, Safety and Policy Hub], on our [Support Site], and within the Services (such as notices, consents and settings). The information we provide forms the main subject matter of these Terms.
+
+Although we have tried our best to strip the legalese from the Terms, there are places where they may still read like a traditional contract. There’s a good reason for that: these Terms form a legally binding contract between you and Snap Group Limited (“Snap”). So please read them carefully.
+
+In order to use our Services, you must accept these Terms (and any other notice or consent), which are presented to you when you first open the Service. If so, Snap grants you a non-assignable, non-exclusive, revocable and non-sublicensable licence to use the Services in accordance with these Terms and our policies. Of course, if you don’t accept them, then don’t use the Services.
+
+### D1 P51
+These Terms apply if you live outside the United States or if your principal place of business is outside of the United States. If you live in the United States or if your principal place of business is in the United States, Snap Inc. provides you the Services and your relationship is governed by the [Snap Inc. Terms of Service].
+
+Where we have provided summary sections in these Terms, these summaries have been included for your convenience only, and you should read these Terms in full to understand your legal rights and obligations.
+
+ARBITRATION NOTICE: IF YOU’RE USING THE SERVICES ON BEHALF OF A BUSINESS, THEN YOUR BUSINESS WILL BE BOUND BY THE ARBITRATION CLAUSE THAT APPEARS LATER IN THESE TERMS.
+
+1\. Who Can Use the Services
+
+Our Services are not directed to children under the age of 13 or those below the applicable minimum age at which you may use the Services in your state, province, or country if older than 13. You must confirm that you are older than that applicable minimum age to create an account and use the Services. If we have actual knowledge that you are not, we will cease providing the Services to you and lock or delete your account and your data. We may require you to verify your age before you are allowed to use our Services.
+
+We may also offer additional Services with additional terms that may require you to be even older to use them. So please read all such terms carefully. By using the Services, you confirm that (and represent and warrant that):
+
+### D1 P52
+* you are forming a binding contract with Snap;
+
+* you are not a person who is barred from using the Services under the laws of the United States, the United Kingdom or any other applicable jurisdiction – including, for example, that you do not appear on the US Treasury Department's list of Specially Designated Nationals or face any other similar prohibition;
+
+* you are not a convicted sex offender; and
+
+* you will comply with these Terms (including any other terms and policies referenced in these Terms, such as the [Community Guidelines], [Music on Snapchat Guidelines] and the [Commercial Content Policy]) and all applicable local, state, national and international laws, rules and regulations.
+
+If you are using the Services on behalf of a business or some other entity, you confirm that you are authorised to bind that business or entity to these Terms and you agree to these Terms on behalf of that business or entity (and all references to "you" and "your" in these Terms will mean both you as the end user and that business or entity).
+
+### D1 P53
+_In summary: Our Services are not directed to anyone under the age of 13 or the minimum age at which a person may use the Services in your state, province or country if it is older than 13. If we become aware that you are under this age, we will suspend your use of the Services and delete your account and data. You may be required to verify your age. Other terms may apply to our Services which require you to be even older to use them, so please review these carefully when prompted._
+
+2\. Rights You Grant Us
+
+Many of our Services let you create, upload, post, send, receive and store content. When you do that, you retain whatever ownership rights to that content you had to begin with. But, you grant us a licence to use that content. How broad that licence is depends on which Services you use and the settings you have selected.
+
+### D1 P54
+For all content you create using the Services, or submit or make available to the Services (including Public Content), you grant Snap and our affiliates a worldwide, royalty-free (meaning that there is no ongoing payment to you required), sublicensable and transferable licence to host, store, cache, use, display, reproduce, modify, adapt, edit, publish, analyse, transmit and distribute that content, including the name, image, likeness or voice of anyone featured in it. This licence is for the limited purpose of operating, developing, providing, promoting and improving the Services and researching and developing new ones. This licence includes a right for us to make your content available to, and pass these rights along to, service providers with whom we have contractual relationships related to the provision of the Services, solely for the purpose of providing and improving such Services.
+
+### D1 P55
+We call Public Story submissions and any other content you submit to public Services, like Public Profiles, Spotlight, Snap Map or Lens Studio, "Public Content". Because Public Content is inherently public, you grant Snap, our affiliates, other users of the Services and our business partners a worldwide, royalty-free and irrevocable right and licence to create derivative works from, promote, exhibit, broadcast, syndicate, reproduce, distribute, synchronise, overlay graphics and auditory effects on, publicly perform and publicly display all or any portion of your Public Content in any form and in any and all media or distribution methods, now known or later developed. This licence applies to the separate video, image, sound recording or musical compositions contained in your Public Content, as well as the name, image, likeness and voice of anyone featured in Public Content that you create, upload, post, send or appear in (including as reflected in your Bitmoji). This means, among other things, that you will not be entitled to any compensation if your content, including videos, photos, sound recordings, musical compositions, name, image, likeness or voice included in your content are used by us, our affiliates, users of the Services or our business partners. The licences granted by you for Public Content continue for so long as the Public Content is on the Services and for a reasonable period of time after you remove or delete the Public Content from the Services (provided we m
+
+### D1 P56
+ay retain server copies of your Public Content indefinitely). For information about how to tailor who can watch your content, please have a look at our [Privacy Policy] and [Support Site]. All Public Content must be appropriate for people ages 13+.
+
+To the extent permissible by law, you irrevocably waive – or agree not to assert against Snap or its affiliates – any moral rights or equivalent rights you may have in content you share on the Services throughout the world.
+
+While we’re not required to do so, we reserve the right to access, review, screen and delete any content: (i) which we think violates these Terms or any applicable laws, including any additional terms referenced in Section 3, or our policies, such as our [Community Guidelines], or (ii) if necessary to comply with our legal obligations, and we will not be liable to you for any such actions taken. You alone, though, remain responsible for the content you create, upload, post, send or store through the Services.
+
+We, Snap Inc., our affiliates and our third-party partners may place advertising on the Services, including personalised advertising – with your consent, where required – based on the information you provide us, we collect or we obtain about you. Advertising may sometimes appear near, between, over or in your content.
+
+### D1 P57
+We always love to hear from our users. But if you provide feedback or suggestions, just know that we can use them without compensating you and without any restriction or obligation to you. You agree that we will own all rights in anything we develop based on such feedback or suggestions.
+
+_In summary: If you post content that you own to the Services, you remain the owner, but you allow us and others to use it to provide and promote our Services. You also allow other users to view and, in some cases, use any content you make available to others on the Services. We have various rights to change and remove your content, but you always remain responsible for everything you create, post or share, or direct us to use on the Services._
+
+3\. Additional Terms and Policies That May Apply
+
+### D1 P58
+Additional terms and conditions listed on the [Terms & Policies] page or that are otherwise made available to you will apply to you depending on the specific Services you use or where you are located. If those additional terms apply (for example, because you use the applicable Services) then they will then become part of these Terms, meaning that you must comply with them. For example, if you purchase or use any paid features that we make available to you on Snapchat (such as a Snapchat+ subscription, but excluding advertising services) you agree that our [Paid Features Terms] apply. If any of the applicable additional terms conflict with these Terms, the additional terms will override and apply in place of the conflicting parts of these Terms.
+
+_In summary: Additional terms may apply, please take the time to read them carefully._
+
+4\. Privacy
+
+Your privacy matters to us. You can learn how your information is handled when you use our Services by reading our [Privacy Policy]. You can also learn more about our privacy practices, including how certain features use your data, on our [Privacy, Safety and Policy Hub].
+
+5\. Personalised Recommendations
+
+### D1 P59
+Our Services provide a personalised experience to make them more relevant and engaging for you. We will recommend content, advertising and other information to you based on what we know and infer about your and others' interests from use of our Services. It is necessary for us to handle your personal information for this purpose, as we explain in our [Privacy Policy]. Personalisation is also a condition of our contract with you for us to be able to do so, unless you opt to receive less personalisation in the Services. You can find more information on personalised recommendations on our [Support Site].
+
+_In summary: Our Services provide a personalised experience, including advertising and other recommendations to you based on data we collect as explained_ [_here_] _and in our_ [_Privacy Policy_]_._
+
+6\. AI Features
+
+### D1 P60
+Our Services include AI-enabled features (“AI Features”) that use inputs like text, images, audio files, videos, documents, data or other content provided by you or used at your direction (“Inputs”) to generate content and responses based on those Inputs (“Outputs”). All Inputs and Outputs will be treated for the purpose of these Terms as content you submit to the Services and accordingly any rights and licences granted to us and obligations on you in respect of content submitted or made available by you in these Terms applies to Inputs and Outputs, including the licences set out in “Rights You Grant Us” above. We collect, use, disclose and retain Inputs and Outputs in accordance with our Privacy Policy.
+
+While we integrate certain safeguards into AI Features, Outputs may not be reviewed in advance and may be inaccurate, incomplete, misleading, offensive, objectionable, inappropriate, infringing, unsuitable, unlawful, unfit for particular purposes or the same or similar to content generated for other users of the Services. Outputs may also contain content inconsistent with Snap’s view, and Snap does not endorse any content included in any Outputs. If Outputs reference individuals or third parties including their products or services, it does not mean the individual or third party endorses Snap, or that they or these products are affiliated with Snap.
+
+### D1 P61
+AI Features and Outputs are provided as-is and made available to you without representations or warranties of any kind, whether express or implied. This means that your use of any AI Features and Outputs is at your own risk, and you should not rely on them for any purpose, including to make decisions or for professional, medical, legal, financial, educational or other advice. Outputs are not Snap representations.
+
+When using our AI Features, unless we give our permission, you must not take any action that would reasonably be expected to:
+
+* use Inputs that contain or make use of, and otherwise could reasonably be expected to generate Outputs that contain or make use of, content that you do not have permission to use, would violate the rights of others, or has otherwise been unlawfully obtained;
+
+* violate any submission guidelines or other policies we make available to you that apply to your use of AI Features or submission of Inputs;
+
+* direct AI Features to generate any Outputs in violation of these Terms, the Community Guidelines or any applicable intellectual property rights, contractual restriction or applicable laws, or which might otherwise cause harm;
+
+* alter, obscure or remove any watermark or disclosure applied to Outputs by the AI Features;
+
+* circumvent any safety or privacy features, safeguards or mechanisms in the AI Features;
+
+* use or share Outputs that will be used to train, develop or fine tune models, services or other AI technologies; or
+
+### D1 P62
+* misrepresent Outputs as having been human-generated or otherwise generated without the use of artificial intelligence.
+
+Separate terms apply to any AI Features you use through or in connection with our business Services and Lens Studio instead of those set out above, and will be displayed to you in connection with your use of those other Services.
+
+_In summary: Inputs and Outputs from AI Features may be used in accordance with our Terms of Service, Privacy Policy and terms relevant to the AI-specific products you use. AI Features may not be accurate or appropriate and you should not rely on them as a source of truth, facts or substitute for human judgment._
+
+7\. Content Moderation
+
+Much of the content on our Services is produced by users, publishers and other third parties. Whether that content is posted publicly or sent privately, the content is the sole responsibility of the user or entity that submitted it. To the fullest extent permitted by applicable law, Snap reserves the right to review, moderate or remove all content that appears on the Services. You can read more about Snap's approach to content moderation and how we aim to take down illegal or potentially harmful content quickly once it is detected in our [Snapchat Moderation, Enforcement and Appeals Explainer].
+
+### D1 P63
+However, we do not review all content on our Services. So we cannot – and do not – guarantee that other users or the content they provide through the Services will comply with our Terms, [Community Guidelines] or our other terms, policies or guidelines.
+
+Users can report content on the Services and other accounts for violation of our Terms and policies, including our [Community Guidelines]. More information about how to report content and accounts is available on our [Support Site].
+
+We may also take action on content or accounts to comply with applicable law, legal orders or valid notices alleging unlawful or prohibited content or activity. Our decision to take any action under this Section – including restricting, suspending or terminating accounts, limiting access to content or features, or implementing device-based restrictions or blocks – is made in our sole discretion. You can read more in our [Snapchat Moderation, Enforcement and Appeals Explainer].
+
+We hope you'll understand any decisions we make about content or user accounts, but in some cases you can appeal our decisions. More information about appeals is available on our [Support Site]. You must submit any complaints within six months of the actions being taken against your content or account.
+
+Upon receiving a complaint, we strive to:
+
+* review it in a timely, non-discriminatory, diligent and non-arbitrary manner, and reverse our decision if we determine our initial assessment was incorrect; and
+
+### D1 P64
+* inform you of our decision and of any possibilities for redress promptly.
+
+You can also find more information on our [Support Site] about how Snap complies with certain online platform and safety laws that may apply to you depending on where you live. This includes how we handle content reports and appeals, and the steps you can take if you believe that we have not complied with our obligations under those laws (if they apply to you), such as challenging us if we have restricted your account or removed your content in a way that violates these Terms.
+
+Some of those laws also require us to publish transparency reports that explain our approach to content moderation and platform safety, including the risks we have identified on our Services and our safety efforts to address them. You can find this in our [Transparency Hub]. The information provided in our [Transparency Hub] and any other safety support pages mentioned in this Section are for informational purposes only.
+
+_In summary: Most content on the Services is owned or controlled by others, and we don't have any control or responsibility over that content. We have content moderation policies and processes in place that apply to content on the Services. You may be able to appeal our decisions or make a complaint if you believe we have failed to comply with these Terms or laws that may apply to you depending on where you live._
+
+8\. Respecting the Services and Snap’s Rights
+
+### D1 P65
+As between you and us, Snap is the owner of the Services, which includes all related brands, works of authorship, Bitmoji avatars that you assemble, software and other proprietary content, features and technology. The Services may also be covered by patents owned by Snap or its affiliates, including those listed at [www.snap.com/patents].
+
+You must also respect Snap’s rights and adhere to the [Snapchat Brand Guidelines], [Bitmoji Brand Guidelines] and any other guidelines, support pages, or FAQs published by Snap or our affiliates. That means, among other things, you may not do, attempt to do, enable or encourage anyone else to do any of the following; and doing so may result in us terminating or suspending your access to the Services:
+
+* use branding, logos, icons, user interface elements, product or brand look and feel, designs, photographs, videos or any other materials Snap makes available via the Services, except as explicitly allowed by these Terms, the [Snapchat Brand Guidelines], [Bitmoji Brand Guidelines] or other brand guidelines published by Snap or our affiliates;
+
+* violate or infringe Snap’s, our affiliates’ or any other third party’s rights of publicity, privacy, copyrights, trademarks or other intellectual property rights, including by using the Services to submit, display, post, create or generate any infringing content;
+
+### D1 P66
+* copy, modify, archive, download, upload, disclose, distribute, sell, lease, syndicate, broadcast, perform, display, make available, make derivatives of or otherwise use the Services or the content on the Services, other than temporary files that are automatically cached by your web browser for display purposes, as otherwise expressly permitted in these Terms, as otherwise expressly permitted by us in writing, or as enabled by the Services’ intended functionality;
+
+* attempt to access the Services through unauthorised third-party applications, solicit login credentials from other users, or buy, sell, rent or lease access to your account, a username, Snaps or a friend link;
+
+* reverse engineer, make unauthorised copies or derivative works of, decompile, disassemble, modify or decode the Services (including any underlying technology, idea or algorithm) or any content included therein, or otherwise extract the source code of the software of the Services, without our written permission, except to the extent an exception or limitation applies under an open source license or applicable laws;
+
+### D1 P67
+* use any robot, spider, crawler, scraper, script, software or other automated or semi-automated means, processes or interfaces to access, scrape, extract or copy the Services, including any user data, content or other data contained in the Services. However, this restriction does not limit any right to automated data collection by eligible researchers collecting publicly available data under the European Union (“EU”) Digital Services Act;
+
+* use or develop any third-party applications that interact with the Services or other users’ content or information without our written consent;
+
+* use the Services in any manner that could interfere with, disrupt, negatively affect or inhibit other users from fully enjoying the Services, or that could damage, disable, overburden or impair the functioning of the Services in any manner;
+
+* upload viruses or other malicious code or otherwise compromise, bypass or circumvent the security of the Services;
+
+* attempt to circumvent any content-filtering techniques we employ or attempt to access areas or features of the Services that you are not authorised to access;
+
+* use the Services to create or develop a competing product or service;
+
+* state or imply that we endorse your content;
+
+* probe, scan or test the vulnerability of our Services or any system or network;
+
+* violate any applicable law or regulation in connection with your access to or use of the Services; or
+
+### D1 P68
+* access or use the Services in any way not expressly permitted by these Terms or our [Community Guidelines].
+
+_In summary: We own or control all of the content, features and functionalities of the Services, except your content. To ensure the Services and other users are protected from harm, there are rules we need you to follow when you use our Services. Failure to comply with these rules may result in suspension or termination of your account._
+
+9\. Respecting Others' Rights
+
+### D1 P69
+Snap respects the rights of others. And so should you. You therefore may not use the Services, or enable anyone else to use the Services, in a manner that violates or infringes someone else’s rights of publicity, privacy, copyright, trademark or other intellectual property rights. When you submit content to the Services, you are solely responsible for ensuring and must ensure that you own that content, or that you have received all necessary permissions, clearances, licences and authorisations in order to submit it to the Services (including, if applicable, the right to make mechanical reproductions of the musical works embodied in any sound recordings, synchronise any compositions to any content, publicly perform any compositions or sound recordings, or any other applicable rights for any music not provided by Snap that you include in your content) and grant the rights and licences contained in these Terms for your content. You also agree that you will not use or attempt to use another user's account except as permitted by Snap or its affiliates.
+
+### D1 P70
+Snap honours trademark, copyright and other intellectual property laws, including the Digital Millennium Copyright Act and takes reasonable steps to expeditiously remove from our Services any infringing material that we become aware of. If Snap becomes aware that a user has repeatedly infringed copyrights, we will take reasonable steps within our power to suspend or terminate the user's account. If you believe that anything on the Services infringes a copyright that you own or control, please report it using the form accessible through this [tool]. Or you may file a notice with our designated agent: Snap Inc., Attn: Copyright Agent, 3000 31st Street, Santa Monica, CA 90405, email: copyright@snap.com. Don’t use this email address for anything other than reporting copyright infringement, as such emails will be ignored. To report other forms of infringement, including trademark infringement, on the Services, please use the tool accessible [here]. If you file a notice with our Copyright Agent, it must:
+
+* contain the physical or electronic signature of a person authorised to act on behalf of the copyright owner;
+
+* identify the copyrighted work claimed to have been infringed;
+
+* identify the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed, or access to which is to be disabled, and information reasonably sufficient to let us locate the material;
+
+### D1 P71
+* provide your contact information, including your address, telephone number and an email address;
+
+* provide a personal statement that you have a good-faith belief that the use of the material in the manner complained of is not authorised by the copyright owner, its agent or the law; and
+
+* provide a statement that the information in the notification is accurate and, under penalty of perjury, that you are authorised to act on behalf of the copyright owner.
+
+_In summary: Make sure you own or have the right to use any content you make available on the Services. If you use content owned by someone else without permission, we may terminate your account. If you see anything which you believe infringes your intellectual property rights, let us know._
+
+10\. Safety
+
+We work hard to help ensure our Services offer a fun and safe experience for all users, but we can’t guarantee it. We take behaviour that threatens the safety of our community very seriously, particularly when the threat of harm is severe. If you encounter potentially harmful or unlawful content on the Services, we encourage you to report it. You can learn more about the different ways we strive to keep illegal or potentially harmful content off of the Services in our [Community Guidelines.] We implement safety-by-design features and system controls intended to mitigate the risks of users encountering content involving [Severe Harms].
+
+### D1 P72
+By using the Services, you agree that you will at all times comply with these Terms, including our [Community Guidelines] and any other policies Snap makes available in order to maintain the safety of the Services.
+
+If you fail to comply, we reserve the right to remove any offending content; terminate or limit the visibility of your account or access to certain features; retain data relating to your account in accordance with our data retention policies; and notify third parties – including law enforcement – and provide those third parties with data and any other information relating to your account. This step may be necessary to protect the safety of our users and others; to investigate, remedy and enforce potential violations of our Terms; and to detect and resolve any fraud or security concerns.
+
+Snap’s policy is to respond to legally valid governmental requests for user information in the United States. Governmental agencies and courts in the EU may also send us requests for user information. Such requests may include “European Production Orders” under the EU e-Evidence Regulation, and certain other legal requests. If we receive a legally valid request, Snap may decide to share the requested information – which can include user content – through one of our EU affiliates, without contesting potential conflicts of law.
+
+### D1 P73
+We also care about your physical safety and well-being while using our Services. So do not use our Services in a way that would distract you from obeying traffic or safety laws. For example, never use the Services while driving. And never put yourself or others in harm's way just to capture a Snap or to engage with other Snapchat features.
+
+_In summary: We try to make our Services as safe as possible, but we need your help. These Terms, our Community Guidelines and other Snap policies contain important information about how to keep the Services and other users safe. And never put yourself or others in harm's way when using our Services._
+
+11\. Your Account
+
+### D1 P74
+To use certain Services, you need to create an account. You agree to provide us with accurate, complete and updated information for your account. Except in the unlikely event that activity occurs in your account outside of your control, you are responsible for any activity that occurs in your account. So it’s important that you keep your account secure. One way to help keep your account secure is to select a strong password that you don’t use for any other account and to enable two-factor authentication. If you think that someone has gained access to your account, please reach out to [Support] immediately. Any software that we provide to you may automatically download and install upgrades, updates or other new features. You may be able to adjust these automatic downloads through your device’s settings. You agree not to create any account if we have previously removed or banned you or your account from any of our Services, unless we consent otherwise.
+
+_In summary: Keep your account details safe and secure. Only use an account if you are authorised by us to do so._
+
+12\. Memories
+
+### D1 P75
+Memories is our personalised data-storage service. Your content in Memories might become unavailable for any number of reasons, including things like an operational glitch or a decision on our end to terminate your account. Since we can’t promise that your content will always be available, we recommend keeping a separate copy of content you save to Memories. We make no promise that Memories will be able to accommodate your precise storage needs. We reserve the right to set storage limits for Memories or to prohibit certain types of content from being eligible for use with Memories, and we may change these limits from time to time in our sole discretion.
+
+_In summary: Memories is a personalised storage service. It will be automatically enabled, but you can control some features. We cannot guarantee that any Memories will be stored forever either, so please do keep a backup._
+
+13\. Data Charges and Mobile Phones
+
+You are responsible for any mobile charges that you may incur for using our Services. This includes data charges and charges for messaging, such as SMS, MMS or other messaging protocols or technologies (collectively, "Messages"). If you’re unsure what those charges may be, you should ask your service provider before using the Services.
+
+### D1 P76
+By providing us with your mobile phone number you agree, among other things, to receive Messages from Snap related to the Services, including about promotions (where we have consent or as permitted by law), your account and your relationship with Snap. These Messages may be received even if your mobile phone number is registered on any kind of “Do Not Call” list, or international equivalent.
+
+If you change or deactivate the mobile phone number that you used to create an account, you must update your account information through Settings within 72 hours to prevent us from sending to someone else messages intended for you.
+
+_In summary: We may send you Messages, and mobile charges may apply when you use our Services._
+
+14\. Third-Party Materials and Services
+
+### D1 P77
+Certain Services may display, include or make available content, data, information, applications, features or materials from third parties (“Third-Party Materials”), provide links to certain third-party websites or permit the use of Third-Party Materials or third-party services in connection with them. If you use any Third-Party Materials or third-party services made available through or in connection with our Services (including Services we jointly offer with third-party), the applicable third-party's terms will govern their relationship with you. Neither Snap nor any of our affiliates is responsible or liable for a third-party's terms or actions taken under any third-party's terms. Further, by using the Services, you acknowledge and agree that Snap is not responsible for examining or evaluating the content, accuracy, completeness, availability, timeliness, validity, copyright compliance, legality, decency, quality or any other aspect of such Third-Party Materials or third-party services or websites. We do not provide any assurances or endorse and do not assume and will not have any liability or responsibility to you or any other person for any third-party services, Third-Party Materials or third-party websites, or for any other materials, products or services of third parties. Third-Party Materials, the availability of third-party services and links to other websites are provided solely as a convenience to you.
+
+### D1 P78
+_In summary: Snap isn't responsible for third party features, content or services accessible via or in connection with our Services – please make sure you read the third party's terms._
+
+15\. Modifying the Services and These Terms
+
+We’re relentlessly improving our Services and creating new ones all the time. That means we may add or remove features, products or functionalities over time, and we may also suspend, stop or terminate the Services altogether. We may take any of these actions at any time, and when we do, we will try to notify you beforehand – but this won't always be possible.
+
+This also means we may need to update these Terms to reflect any changes to our Services or how we provide them, as well as to comply with legal requirements, or for other legal or security reasons. If those changes to these Terms are material we will provide you with reasonable advance notice (unless changes are required sooner, for example, as a result of a change in legal requirements or where we are launching new Services or features). If you continue to use the Services once the changes come into effect, we will take that as your acceptance.
+
+_In summary: Our Services are going to evolve over time. We may update these Terms from time to time to reflect these changes or for other reasons._
+
+16\. Termination and Suspension
+
+### D1 P79
+While we hope you remain a lifelong Snapchatter, you can terminate these Terms at any time if you do not agree with any changes we make to these Terms, or for any other reason, by deleting your Snapchat account (or, in some cases, the account associated with the applicable part of the Services you are using).
+
+We may restrict, terminate or temporarily suspend your access to the Services if you fail to comply with these Terms, our [Community Guidelines] or the law, for reasons outside of our control, or for any other reason. That means that we may terminate these Terms, stop providing you with all or any part of the Services, or impose new or additional limits on your ability to use our Services. For example, we may terminate your account due to prolonged inactivity, and we may reclaim your username at any time for any reason. And while we'll try to give you reasonable notice beforehand, we can't guarantee that notice will be possible in all circumstances.
+
+Where we restrict, terminate or suspend your access to the Services for violation of our [Community Guidelines], we will notify you and provide an opportunity for you to appeal as explained in our [Moderation, Enforcement and Appeals Explainer].
+
+### D1 P80
+Before we restrict, terminate or suspend your access to the Services, we will take into account all relevant facts and circumstances apparent from the information available to us, depending on the underlying reason for taking that action. For example, if you violate our [Community Guidelines] we consider the severity, frequency and impact of the violations as well as the intention behind the violation. This will inform our decision whether to restrict, terminate or suspend your access to the Services and, in the event of suspension, how long we suspend your access. You can find out more about how we assess and take action against misuse of our Services on our [Support Site].
+
+Regardless of who terminates these Terms, both you and Snap continue to be bound by Sections 2, 3 (to the extent any additional terms and conditions would, by their terms, survive) and 6–24 of the Terms.
+
+_In summary: You can stop using the Services or delete your account at any time and for any reason, including if you don't like any changes to these Terms. We can restrict or terminate your access to the Services for the reasons set out above. When we do, we'll provide you notice in most cases, as well as an opportunity to appeal the decision._
+
+17\. Indemnity
+
+### D1 P81
+You agree, to the extent permitted by law, to indemnify, defend and hold harmless Snap, our affiliates, directors, officers, stockholders, employees, licensors and agents from and against any and all complaints, charges, claims, damages, losses, costs, liabilities and expenses (including attorneys' fees) due to, arising out of, or relating in any way to: (a) your access to or use of the Services, (b) your content, including infringement claims related to your content, (c) your breach of these Terms or any applicable law or regulation, or (d) your negligence or intentional misconduct.
+
+_In summary: If you cause us some damage, you will compensate us._
+
+18\. Disclaimers
+
+We will try hard to keep the Services up and running and free of annoyances. But we make no promises that we will succeed.
+
+### D1 P82
+The Services are provided "as is" and "as available" and to the extent permitted by law and except as stated above, without warranties of any kind, either express or implied, including, in particular implied warranties, conditions or other terms relating to: (a) merchantability, satisfactory quality, fitness for a particular purpose, title, quiet enjoyment, non-infringement, or (b) arising from a course of dealing. In addition, while we attempt to provide a good user experience, we do not represent or warrant that: (i) the Services will always be entirely secure, error-free or timely, (ii) the Services will always function without delays, disruption or imperfections, or (iii) any content or information you obtain through the Services will always be timely or accurate.
+
+IF THE LAW OF THE COUNTRY WHERE YOU LIVE DOES NOT ALLOW THE EXCLUSIONS PROVIDED FOR IN THIS CLAUSE, THOSE EXCLUSIONS SHALL NOT APPLY TO THE EXTENT PROHIBITED.
+
+To the fullest extent permitted by law, Snap, Snap Inc. and our affiliates take no responsibility and assume no liability for any content that you, another user or a third-party creates, uploads, posts, sends, receives, views or stores on or through our Services, and you understand and agree that you may be exposed to content that might be offensive, illegal, misleading or otherwise inappropriate, none of which Snap, Snap Inc. nor our affiliates will be responsible for.
+
+### D1 P83
+Nothing in these Terms will exclude or limit any responsibility we may have to remove content if so required by the law of the country where you live.
+
+_In summary: Snap will try to make the Services available to you, but we do not make any promises regarding quality and will not be liable for any content which is not ours._
+
+19\. Limitation of Liability
+
+Snap, Snap Inc. and our affiliates, directors, officers, stockholders, employees, licensors, suppliers and agents will not be liable for any indirect, incidental, special, consequential, punitive or multiple damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill or other intangible losses, resulting from: (a) your use of the Services or inability to use the Services, (b) your access to or inability to access the Services, (c) the conduct or content of other users or third parties on or through the Services, or (d) unauthorised access, use or alteration of your content. Except to the extent specified otherwise in any other applicable terms of Snap, Snap Inc. or our affiliates, in no event will Snap, Snap Inc. or our affiliates’ aggregate liability for all claims relating to the Services exceed the greater of (a) €100 EUR, and (b) the amount you paid Snap in the last 12 months for any Services.
+
+### D1 P84
+Nothing in these Terms (or for the avoidance of doubt any other terms to which you are subject in respect of the provision of Services by Snap, Snap Inc. or our affiliates) shall exclude or limit Snap’s, Snap Inc.’s or our affiliates’ liability for: (a) death or personal injury arising from their own respective intent or negligence, (b) fraud or fraudulent misrepresentation, or (c) any other liability to the extent that such liability may not be excluded or limited as a matter of law.
+
+IF THE LAW OF THE COUNTRY WHERE YOU LIVE DOES NOT ALLOW ANY LIMITATION OF LIABILITY PROVIDED FOR IN THIS CLAUSE, THAT LIMITATION WILL NOT APPLY TO THE EXTENT PROHIBITED.
+
+FURTHER, NOTHING IN THESE TERMS AFFECTS YOUR STATUTORY RIGHTS AS A CONSUMER.
+
+_In summary: We limit our liability for anything you do, instances where you cannot access the Services, things others do and any issues resulting from unauthorised use of our Services. Where we are liable to you and, you have suffered loss, we limit our liability to a set amount._
+
+20\. Dispute Resolution and Arbitration
+
+If you have a concern, let’s talk. Go ahead and [contact us] first, and we’ll do our best to resolve the issue.
+
+Some of our Services may have additional terms that contain dispute resolution provisions unique to that Service or your residency.
+
+### D1 P85
+If you are using the Services on behalf of a business (rather than for your personal use), you and Snap agree that to the extent permitted by law, all claims and disputes between us arising out of or relating to these Terms or the use of the Services will be finally settled through binding arbitration under the [LCIA Arbitration Rules], which are incorporated by reference into this clause. There will be one arbitrator (to be appointed by the LCIA), the arbitration will take place in London and the arbitration will be conducted in English. If you do not wish to agree to this clause, you must not use the Services.
+
+_In summary: Get in touch with us if you have a complaint. Disputes with business users will be settled through arbitration._
+
+21\. Exclusive Venue
+
+To the extent that these Terms allow you or Snap to initiate litigation in a court, both you and Snap agree that all claims and disputes (whether contractual or otherwise) arising out of or relating to the Terms or the use of the Services will be litigated exclusively in the courts of England in the United Kingdom, unless this is prohibited by the laws of the country where you reside. You and Snap consent to the exclusive jurisdiction of those courts.
+
+22\. Choice of Law
+
+### D1 P86
+The laws of England and Wales govern these Terms and any claims and disputes (whether contract, tort or otherwise) arising out of or relating to these Terms or their subject matter. The courts in some countries may not apply the laws of England and Wales to some disputes related to these Terms. If you reside in one of those countries, the laws of your home country may apply to those disputes.
+
+23\. Severability
+
+If any provision of these Terms is found unenforceable, then that provision will be removed from these Terms and not affect the validity and enforceability of any remaining provisions.
+
+24\. Final Terms
+
+These Terms, including the additional terms referenced in Section 3, make up the entire agreement between you and Snap, and supersede any prior agreements. These Terms do not create or confer any rights to third parties. If we do not enforce a provision in these Terms, it will not be considered a waiver of our rights to enforce these Terms. We reserve the right to transfer our rights under these Terms and provide the Services using another entity, provided that entity upholds these Terms. You may not transfer any of your rights or obligations under these Terms without our consent. We reserve all rights not expressly granted to you.
+
+25\. Contact Us
+
+Snap welcomes comments, questions, concerns or suggestions. You can contact us or get support [here].
+
+### D1 P87
+If you live in the Asia-Pacific region or if your principal place of business is in the Asia-Pacific region, which for the purposes of these Terms includes Afghanistan, India, Kyrgyzstan, Kazakhstan, Pakistan, Tajikistan, Turkmenistan and Uzbekistan, but does not include Armenia, Azerbaijan, Georgia, Russian Federation and Turkey, then:
+
+* the company responsible for the Services is Snap Group Limited Singapore Branch and is located in Singapore at #16-03/04, 12 Marina Boulevard, Marina Bay Financial Centre Tower 3, Singapore 018982. UEN: T20FC0031F. VAT ID: M90373075A; and
+
+* any references to "Snap" in these Terms means Snap Group Limited Singapore Branch.
+
+Otherwise, the company responsible for the Services outside the United States and the Asia-Pacific region is Snap Group Limited and is located in the United Kingdom at 50 Cowcross Street, Level 2, London, EC1M 6AL, United Kingdom. Registered company number: 09763672. VAT ID: GB 237218316.
+
+
+## Cases for D1 (Snapchat, Terms of Service)
+
+- C1. "You have the right to leave this service at any time". Description: You can stop using the service and/or cancel or delete your account at any time for any reason. Moreover, the termination is reasonably fast and simple. Classification: good.
+- C2. "Private messages can be read". Description: The Service is able to access, scan, review or read all user communications, including private messages, which may contain personal or sensitive data. Classification: blocker.
+- C3. "Any liability on behalf of the service is only limited to the fees you paid as a user". Description: Even if the service, for some reason, were to be liable to you, then compensation is limited up to whatever you had paid beforehand (and even if you hadn’t paid any amount to the service, you’re agreeing to compensation by a maximum imposed by the service). Classification: bad.
+- C4. "Other rules, terms, conditions and/or guidelines may apply". Description: Use of the service is subject also to an exhaustive list of other documents containing rules, guidelines, terms or policies (in addition to the obvious Terms of Service/Terms of Use and Privacy Policy/Data Use Policy) Classification: neutral.
+
+## D2: Spotify, Privacy Policy (current version, 35 pieces)
+
+### D2 P1
+**Spotify Privacy Policy**
+
+==========================
+
+Effective as of July 1, 2026
+
+[1\. About this Policy]
+
+[2\. Your personal data rights and controls]
+
+[3\. Personal data we collect about you]
+
+[4\. Our purpose for using your personal data]
+
+[5\. Disclosing your personal data]
+
+[6\. Data retention]
+
+[7\. Transfer to other countries]
+
+[8\. Keeping your personal data safe]
+
+[9\. Children]
+
+[10\. Third-Party Links]
+
+[11\. Privacy Request Metrics]
+
+[12\. Changes to this Policy]
+
+[13\. How to contact us]
+
+1\. About this Policy
+
+---------------------
+
+This Privacy Policy describes how we at Spotify USA Inc. process personal data of U.S. residents. From now on, we’ll call it the ‘Policy’.
+
+It applies to your use of:
+
+* all Spotify streaming services as a user. For example this includes:
+
+* your use of Spotify on any device
+
+* the personalization of your user experience. Watch [our personalization explainer video] to learn more about this.
+
+* the infrastructure required to provide our services
+
+* connection of your Spotify account with another application
+
+* our free or paid streaming options (each a ‘**Service Option**’)
+
+* other Spotify services which include a link to this Policy. These include Spotify websites, Customer Service, and the Community Site.
+
+From now on, we’ll collectively call these the ‘**Spotify Service**’.
+
+### D2 P2
+From time to time, we may develop new or offer additional services. They’ll also be subject to this Policy, unless stated otherwise when we introduce them. Our [California Notice at Collection] as required by the California Consumer Privacy Act applies to residents of California. If you are a resident of California, you should read this notice together with this Policy.
+
+**This Policy is _not_...**
+
+* the Spotify [Terms of Use], which is a separate document. The Terms of Use outline the legal contract between you and Spotify for using the Spotify Service. It also describes the rules of Spotify and your rights under your agreement.
+
+* about your use of other Spotify services which have their own privacy policy, such as Megaphone.
+
+**Other resources and settings**
+
+Key information about your personal data is right here in this Policy. However, you might want to take a look at our other privacy resources and controls:
+
+* [Safety & Privacy Center]: A user-friendly hub with summaries of key topics and helpful videos. It includes the ‘Your Privacy Controls’ video which shows you how to exercise your user rights and make choices about the way we process your data. See [Section 2 ‘Your personal data rights and controls’] for more on user rights.
+
+* [Account Privacy]: Control the processing of certain personal data.
+
+* [Notification Settings]: Set which marketing communications you get from Spotify.
+
+### D2 P3
+* Settings (found in the Desktop and Mobile versions of Spotify): Control certain aspects of the Spotify Service such as ‘Social’ or ‘Explicit Content’. On the ‘Social’ setting, you can:
+
+* start a Private session
+
+* choose whether to share what you listen to on Spotify with your followers
+
+* choose whether to show your recently played artists on your public profile
+
+* turn off messaging with other users (if messaging is available in your market)
+
+On the ‘Explicit Content’ setting you can control whether explicit-rated content can be played on your Spotify account.
+
+* [Cookies Policy]: Information on how we use cookies and how to manage your cookie preferences. Cookies are files saved on your phone, tablet or computer when you visit a website.
+
+2\. Your personal data rights and controls
+
+------------------------------------------
+
+Certain U.S. states have adopted privacy laws that give certain rights to individuals over their personal data. We provide these rights to all residents of the U.S., regardless of where they live.
+
+The table below explains:
+
+* your rights
+
+* how to exercise them
+
+You can also watch our video about [Your Privacy Controls]. You will not receive discriminatory treatment for exercising any of your privacy rights.
+
+| **It’s your right to...** | | **How?** |
+
+| --- | --- | --- |
+
+### D2 P4
+| **Be informed** | **Be informed of the personal data we process about you and how we process it.** | We inform you:<br><br>* through this Policy<br>* through information provided to you as you use the Spotify Service<br>* by answering your specific questions and requests when you [contact us] |
+
+| **Know/Access** | **Request to know and access the personal data we process about you.** | To request a copy of your personal data from Spotify, either:<br><br>* use the ‘Download your data’ tool on your [Account Privacy] page, or<br>* [contact us]<br><br>When you download your data you will receive the information about your data that Spotify has to provide under applicable laws. If you would like more details about how we process your personal data, you can [contact us]. |
+
+| **Correction** | **Request that we amend or update your personal data where it’s inaccurate.** | You can edit your User Data under ‘Edit profile’ in your account or by [contacting us]. |
+
+### D2 P5
+| **Deletion** | **Request that we delete certain of your personal data.**<br><br>Please note there are situations where Spotify is unable to delete your data, for example when:<br><br>* it’s still necessary to process the data for the purpose we collected it for<br>* we have an overriding interest in continuing to process the data, for example where we need the data to protect our services from fraud<br>* Spotify has a legal obligation to keep the data, or<br>* Spotify needs the data to establish, exercise or defend legal claims. For example, if there’s an unresolved issue relating to your account | There are several ways you can delete personal data from Spotify:<br><br>* to remove audio content you have saved, select the relevant content and choose to remove it. For example you can remove a track from your playlist or remove an artist you’ve saved to your library<br>* to request deletion of your account data from Spotify and close your account, follow the steps on our [support page]. This data includes your User Data, Usage Data and other data listed in [Section 3 ‘Personal data we collect about you]’<br>* for any other deletion requests, you can [contact us] |
+
+### D2 P6
+| **Opt-out of tailored advertising** | **Request to opt out of the processing of your personal data for tailored advertising.**<br><br>For more information about our processing for these purposes, see the section ‘[Tailored advertising controls]’ below. | You can exercise your right to opt out through the ‘[Tailored Ads]’ setting.<br><br>If you do not have an account or are not logged in, you can also opt-out by clicking the ['Your Privacy Choices'] link at the footer of our website. |
+
+| **Data portability** | **Request a copy of your personal data in electronic format and the right to transmit that personal data for use in another party’s service.** | For information about how to exercise the right to portability, see ‘Know/Access’ above. |
+
+| **Not be subject to automated decision making** | **Not be subject to a decision based solely on automated decision making (decisions without human involvement), including profiling, where the decision would have a legal effect on you or produce a similarly significant effect.** | Spotify does not carry out this type of automated decision making in the Spotify Service. |
+
+| **Withdrawal of consent** | **Withdraw your consent to us collecting or using your personal data.**<br><br>You can do this if Spotify is processing your personal data solely based on your consent. | To withdraw your consent, you can:<br><br>• adjust the relevant control on Spotify<br><br>• [contact us] |
+
+**Verifying requests, generally**
+
+### D2 P7
+To verify a request to know, request to delete, and request to correct, we ask you to provide certain details related to your Spotify account. Please note, if you do not have a Spotify account we will not have enough information about you to verify your identity and respond to your requests, as we do not keep sufficient information necessary to re-identify and link you to a prior visit to the Spotify Service where data may have been collected. As such, we will be unable to verify and honor your requests.
+
+**Household requests**
+
+If all the members of a household make an access, correction or deletion request, we will respond as if the requests are individual requests.
+
+**Requests made through agents**
+
+You may designate, in writing or through a power of attorney (in accordance with local law), an authorized agent to make requests on your behalf to exercise your rights. Before accepting such a request, we will require the agent to provide proof you have authorized it to act on your behalf, and we may need you to verify your identity directly with us.
+
+**Appeals process**
+
+If your request is denied you may have the right to appeal the denial in accordance with the instructions provided to you when the denial was made.
+
+**Tailored advertising controls**
+
+What is tailored advertising?
+
+### D2 P8
+* This is when we use information about you to personalize ads to be more relevant. This is also known as interest based advertising, targeted advertising, or what some states may define as, ‘sharing or selling’ for purposes of cross-context behavioural advertising.
+
+* An example of tailored advertising is when an advertising partner provides us with information about topics you may be interested in, such as suggesting you might enjoy cooking. This could enable us to show you ads about blenders.
+
+How to control tailored advertising:
+
+* You can control tailored advertising through the ‘[Tailored Ads]’ setting.
+
+* If you do not have an account or are not logged in, you can also opt-out by clicking the ['Your Privacy Choices'] link at the footer of our website.
+
+* You can also control tailored advertising for some podcasts using the link in the episode’s show description. This applies where the content provider inserts advertising into the podcast to fund it. The hosting provider, which might not be Spotify, manages these controls for the podcast.
+
+* You can also visit our services via a browser with a recognized opt-out preference signal enabled, such as the Global Privacy Control (GPC). If you use a preference signal you may need to renew your preferences if you visit the Spotify Service with another device or browser, or if you clear your cookies.
+
+### D2 P9
+If you are ‘opted out’ of tailored advertising, you will receive less relevant advertising, including on our free Service Option, as well as our paid Service Option, as applicable (for example, advertising in podcasts). This type of advertising is based on your registration information and information about your real-time usage of Spotify, such as what you are currently listening to on our services. For example, if you are listening to a cooking podcast, you may hear an ad for a food processor.
+
+Appropriate age for tailored advertising:
+
+* Younger users may have tailored advertising turned off by default. When you reach the appropriate age, you will start to receive tailored advertising. When this happens, you will receive a message within the Spotify Service to let you know. This message will contain a link to the [Tailored Ads] setting where you can change your preferences or ‘opt-out’ of tailored advertising at any time.
+
+3\. Personal data we collect about you
+
+--------------------------------------
+
+These tables set out the categories of personal data we collect from you. You can also watch our video about [Personal Data at Spotify].
+
+| **Collected when you sign up for the Spotify Service or when you update your account** | |
+
+| --- | --- |
+
+| **Categories** | **Description** |
+
+### D2 P10
+| User Data | Personal data that we need to create your Spotify account and that enables you to use the Spotify Service.<br><br>The type of data collected and used depends on the type of Service Option you have. It also depends on how you create your account, the country you are in, and if you use third party services to sign in. This may include your:<br><br>* display name<br>* email address<br>* password<br>* phone number<br>* date of birth<br>* gender<br>* street address (see further details below)<br>* country<br>* university/college (for Spotify Premium Student)<br>* estimated or confirmed age from an Age Check by a third party provider<br><br>We receive some of this data from you e.g. from the sign up form or account page.<br><br>We also collect some of this data from your device e.g. country or region. For more information about how we collect and use this data, see ‘[Your general (non-precise) location]’ in the Usage Data category. |
+
+| Street Address Data | We may ask for and process your street address for the following reasons:<br><br>* to check eligibility for a Service Option<br>* to deliver notices which are required by law<br>* to deliver support options<br>* for billing and tax administration<br>* to deliver physical goods or gifts which you have purchased or requested<br><br>In some cases, we may use a third party application to help you verify your address, such as Google Maps. |
+
+| **Collected through your use of the Spotify Service** | |
+
+| --- | --- |
+
+### D2 P11
+| **Categories** | **Description** |
+
+### D2 P12
+| Usage Data | Personal data collected and processed about you when you’re accessing or using the Spotify Service.<br><br>This includes information such as:<br><br>**Information about how you use Spotify**<br><br>Examples:<br><br>* information about your Spotify Service Option<br>* your actions with the Spotify Service (including date and time), such as:<br> * search queries<br> * streaming history<br> * playlists you create<br> * your library<br> * browsing history<br> * account settings<br> * interactions with other Spotify users<br> * prompts in AI powered features<br> * transcripts<br> * engagement with ads<br> * your use of third party services, devices and applications in connection with the Spotify Service<br>* inferences (i.e., our understanding) of your age, interests and preferences based on your usage of the Spotify Service<br>* content you provide when participating in Spotify promotions, such as contests or sweepstakes<br>* content you post to any part of the Spotify Service. For example: images, audio, text, titles, descriptions, communications, and other types of content<br><br>**Your technical data**<br><br>Examples include:<br><br>* URL information<br>* online identifiers such as [cookie data] and IP addresses<br>* information about the devices you use such as:<br> * device IDs<br> * network connection type (e.g. wifi, 4G, LTE, Bluetooth)<br> * provider<br> * network and device performance<br> * browser type<br> * language<br> * information enabling digital r
+
+### D2 P13
+ights management<br> * operating system<br> * Spotify application version<br>* information which enables us to discover and connect with third party devices and applications. Examples of this information are the device name, device identifiers, brand and version. Examples of third party devices and applications are:<br> * devices on your wifi network (such as speakers) which can connect to the Spotify Service<br> * devices your operating system makes available when connecting via Bluetooth, plugin, and installation<br> * Spotify partner applications to determine whether the application is installed on your device<br><br>**Your general (non-precise) location**<br><br>Your general location includes country, region, state or city. We may learn this from technical data (e.g. your IP address, language setting of your device) or payment currency.<br><br>We need this to:<br><br>* meet geographic requirements in our agreements with the owners of content on the Spotify Service<br>* deliver content, advertising and recommendations that are relevant to you<br><br>**Your device sensor data**<br><br>Motion-generated or orientation-generated device sensor data if needed to provide features of the Spotify Service that require this data. This is data which your device collects about the way you move or hold your device. |
+
+| **Additional data you may choose to give us** | |
+
+| --- | --- |
+
+| **Categories** | **Description** |
+
+### D2 P14
+| Voice Data | If voice features are available in your market and you’ve chosen to use a voice feature, we collect and process voice data. Voice data means audio recordings of your voice. |
+
+| Message Data | If messaging is available in your market and where you’ve chosen to use messaging, we collect and process message data. Message data means text or other content you send directly to another user. |
+
+| Age Check Data | Age Check Data is the data you provide if you (i) choose to use a feature that is subject to an Age Check or (ii) are a parent or legal guardian providing parental consent for a Managed Account (“Age Check”). Examples of Age Check methods we use, which are powered by a third party provider, are:<br><br>* identity document verification: a photo of your identity document is used to confirm your age. In some cases, we may also use a photo of your face to verify that your ID belongs to you<br>* facial age estimation: a photo of your face which is used to estimate your age<br><br>All Age Check Data is deleted immediately after the Age Check. |
+
+### D2 P15
+| Payment and Purchase Data | If you make any purchases from Spotify or sign up for certain Service Options or a trial, we will need to process your payment data.<br><br>The exact personal data collected and used will vary depending on the payment method. It will include information such as:<br><br>* name<br>* date of birth<br>* payment method type (e.g. credit or debit card)<br>* if using a debit or credit card, the card type, expiry date and certain digits of your card number. Note: For security, Spotify never stores your full card number<br>* ZIP/postal code<br>* mobile phone number<br>* details of your purchase and payment history |
+
+| Precise Location Data | Spotify will only use your precise location data with your permission. You can grant this access through the in-app pop-up and in your device settings. This information allows Spotify to offer a number of features such as better recommendations for nearby concerts and events. |
+
+| Survey and Research Data | When you respond to a survey or take part in user research, we collect and use the personal data you provide as described in the survey or research. |
+
+| Customer Service Data | Information about your contacts with our Customer Service, such as chat conversations and email correspondence. |
+
+We receive some of the data mentioned above from third parties. The below table describes the categories of those third parties.
+
+| **Third party sources that we receive your data from** | | |
+
+| --- | --- | --- |
+
+### D2 P16
+| **Categories of third parties** | **Description** | **Data categories** |
+
+| Authentication partners | If you register for or log into the Spotify Service using another service, that service will send your information to us. This information helps create your account with us. | User Data |
+
+| Third party applications, services and devices you connect to your Spotify account | If you connect your Spotify account to a third party application, service or device, we may collect and use information from them. This collection is to make the integration possible.<br><br>These third party apps, services or devices may include:<br><br>* social media<br>* devices including:<br> * audio (e.g. speakers and headphones)<br> * wearables (e.g., smart watches)<br> * televisions<br> * mobile phones and tablets<br> * automotive (e.g. cars)<br> * games consoles<br>* services or platforms such as voice assistants or content platforms<br><br>We’ll ask your permission before we collect your information from certain third parties. | User Data<br><br>Usage Data |
+
+| Technical service partners | We work with technical service partners that give us certain data. This includes mapping IP addresses to non-precise location data (e.g., country or region, city, state).<br><br>This makes it possible for Spotify to provide the Spotify Service, content, and features.<br><br>We also work with technical service partners who help us protect user accounts. | User Data<br><br>Usage Data |
+
+### D2 P17
+| Payment partners and Merchants | If you choose to pay through third parties or by invoice, we may get data from our payment partners.<br><br>This allows us to:<br><br>* send you invoices<br>* process your payment<br>* give you what you’ve purchased<br><br>If we direct you to a merchant, we receive data from the merchant that is related to your purchase. For example, we might direct you to an artist’s merchandise store on a third party platform or to a third party ticketing website.<br><br>Receiving this data allows us to:<br><br>* calculate any commissions owed to us<br>* analyze the effectiveness of our partnership with these merchant partners<br>* understand your interests | Payment and Purchase Data |
+
+| Advertising and marketing partners | We receive data about you from certain advertising or marketing partners, including device identifiers such as hashed contact information. They also provide us with inferences, which are the partners’ understanding of your interests and preferences.<br><br>This allows us to deliver more relevant ads and marketing and measure their performance. | Usage Data |
+
+| Acquired companies | We may receive data about you from companies we acquire. This is to enhance our services, products, and offerings. | User Data<br><br>Usage Data |
+
+### D2 P18
+If you download the Spotify mobile app and try Spotify using a logged out user experience, we will collect limited information about your usage of the Spotify Service, including Usage Data. We do this to understand how you are accessing and using the Service. We also do this to ensure we provide the right experience for you, for example based on your country or region. If you decide to create a Spotify account to experience our service in full, then we will combine this data with your Spotify account data.
+
+4\. Our purpose for using your personal data
+
+--------------------------------------------
+
+The table below sets out:
+
+* our purpose for processing your personal data
+
+* categories of personal data which we use for each purpose. See more about these categories in [Section 3 ‘Personal data we collect about you’]
+
+You can also watch our video about [Personal Data at Spotify].
+
+| **Purpose for processing your data** | **Categories of personal data used for the purpose** |
+
+| --- | --- |
+
+### D2 P19
+| To provide the Spotify Service.<br><br>For example, when we use your personal data to:<br><br>* set up an account for you<br>* personalize your account including your content recommendations, or<br>* provide the Spotify app when you download it onto your device,<br>* enable you to share a link to Spotify content with someone else, or<br>* provide an age-appropriate experience, or<br>* provide various optional features of the Spotify Service | * User Data<br>* Street Address Data<br>* Usage Data<br>* Voice Data<br>* Message Data<br>* Payment and Purchase Data<br>* Survey and Research Data<br>* Age Check Data |
+
+| To improve our personalized recommendations and to improve the Spotify experience for all users, based on precise location data (where available and explicitly permitted by you).<br><br>For example, we can provide better personalized concert and event recommendations or let you know what is trending at your specific location. What we learn from your streaming at one location, could be used to suggest similar content to other users close to that location. | * Precise Location Data |
+
+| To diagnose, troubleshoot, and fix issues with the Spotify Service. | * User Data<br>* Usage Data<br>* Voice Data<br>* Message Data<br>* Customer Service Data |
+
+### D2 P20
+| To evaluate and develop new features, technologies, and improvements to the Spotify Service. This includes development and training of algorithmic and machine learning models, which help us to keep our service safe and enhance our users’ experience. For example:<br><br>For example:<br><br>* to help us develop and improve our personalized recommendations<br>* to help analyze how our users react to a particular new feature and see whether we should make any changes<br>* so we can build AI features such as AI DJ and AI playlist<br>* to help us enforce our [User Guidelines], [Platform Rules] and [Spotify for Creators Community Guidelines]. | * User Data<br>* Usage Data<br>* Voice Data<br>* Survey and Research Data<br>* Customer Service Data |
+
+| For marketing or advertising purposes.<br><br>For example:<br><br>* when we use your personal data to tailor advertising to your interests, or<br>* when we send you email marketing | * User Data<br>* Usage Data<br>* Survey and Research Data |
+
+### D2 P21
+| To comply with a legal obligation that we are subject to.<br><br>This might be:<br><br>* an obligation under the law of the country/region you are in<br>* Swedish law (because of our headquarters in Sweden), or<br>* EU law that applies to us<br><br>For example, when we use your date of birth when required for age assurance purposes. | * User Data<br>* Street Address Data<br>* Usage Data<br>* Voice Data<br>* Message Data<br>* Payment and Purchase Data<br>* Survey and Research Data<br>* Precise Location Data<br>* Customer Service Data |
+
+| To fulfill contractual obligations with third parties.<br><br> <br><br>For example, when we provide pseudonymized data about our users’ listening because we have an agreement with a Spotify rightsholder to do so.<br><br> <br><br>Pseudonymized data means that your data is identified by a code rather than your name or other directly identifying information. | * User Data<br>* Usage Data<br>* Voice Data<br>* Payment and Purchase Data |
+
+| To detect, investigate and take appropriate action on reports of possible inappropriate content or violation of our Terms of Use or other Spotify terms, policies, rules or guidelines. | * User Data<br>* Usage Data<br>* Voice Data<br>* Message Data<br>* Payment and Purchase Data<br>* Customer Service Data |
+
+### D2 P22
+| To establish, exercise, or defend legal claims.<br><br> <br><br>For example, if we are involved in litigation, we need to provide information to our lawyers in relation to that legal case. | * User Data<br>* Street Address Data<br>* Usage Data<br>* Voice Data<br>* Message Data<br>* Payment and Purchase Data<br>* Survey and Research Data<br>* Customer Service Data |
+
+| To conduct business planning, reporting, and forecasting.<br><br> <br><br>For example, when we look at aggregated user data like the number of new sign ups in a country in order to plan new locations to launch our products and features in. | * User Data<br>* Usage Data<br>* Payment and Purchase Data |
+
+| To process your payment.<br><br> <br><br>For example, when we use your personal data to let you purchase a Spotify subscription. | * User Data<br>* Payment and Purchase Data<br>* Street Address Data |
+
+| To keep the Spotify Service secure and to detect and prevent fraud.<br><br> <br><br>For example, when we analyze Usage Data to check for fraudulent use of the Spotify Service. | * User Data<br>* Street Address Data<br>* Message Data<br>* Usage Data<br>* Payment and Purchase Data<br>* Customer Service Data |
+
+| To conduct research and surveys.<br><br> <br><br>For example, when we contact our users to ask for your feedback. | * User Data<br>* Usage Data<br>* Voice Data<br>* Survey and Research Data |
+
+5\. Disclosing your personal data
+
+---------------------------------
+
+### D2 P23
+This section sets out who receives personal data which is collected or generated through your use of the Spotify Service.
+
+**Information available to other Spotify users**
+
+The following personal data is available to other Spotify users:
+
+* your profile name
+
+* your profile photo, if you choose to upload one
+
+* your public playlists, and any associated titles, descriptions and images
+
+* other content you post on the Spotify Service, and any associated titles, descriptions and images
+
+* the number of people who you follow and the number of people who follow you on the Spotify Service (the profiles of those people may be visible depending on your settings)
+
+You or another user can share certain information on third party services, like social media or messaging platforms. This includes:
+
+* your profile
+
+* any content you post on Spotify and details about that content
+
+* your playlists and any associated titles, descriptions and images
+
+When this sharing occurs, the third party service may store a copy of it to support their features.
+
+**Personal data you may choose to disclose**
+
+We will only disclose the following personal data with those outlined in the table below
+
+* where you have chosen to use a Spotify Service feature, or a third party application, service or device, and we need to disclose personal data to enable this, or
+
+### D2 P24
+* if you otherwise grant us your permission to disclose the personal data. For example, you can do it by selecting the appropriate setting in the Spotify Service or by giving your consent.
+
+| **Categories of recipients** | **Categories of data you can choose to share** | **Reason for choosing to share** |
+
+| --- | --- | --- |
+
+| Third party applications, services and devices you connect to your Spotify account | * User Data<br>* Usage Data | To connect your Spotify account, or so that you can use the Spotify Service in connection with third party applications, services or devices.<br><br>Examples of such third party applications, services and devices include:<br><br>* social media applications<br>* speaker devices<br>* televisions<br>* automotive platforms<br>* voice assistants<br><br>You can see and remove many third party connections under ‘[Apps]’ in your account. |
+
+| Support community | * User Data | To enable you to use the [Spotify Support Community service].<br><br>When you register for an account on the Spotify Support Community, we’ll ask you to create a profile name. This will be publicly displayed to anyone who uses the Spotify Support Community. We’ll also display any questions or comments you post. |
+
+### D2 P25
+| Other Spotify users | * User Data<br>* Usage Data<br>* Message Data | To share information about your use of the Spotify Service with other Spotify users. These could include your followers on Spotify.<br><br>For example, under ‘Social’ settings you can choose to share your recently played artists and your playlists on your profile. You can also choose to create or join a shared playlist with other users. Shared playlists give you social recommendations based on your listening activity. |
+
+| Artists and record labels | * User Data | To receive news or promotional offers from artists, record labels or other partners.<br><br>You may choose to share your User Data for this purpose when you sign up to the Spotify Service. You’ll always have the option to change your mind and [withdraw your consent at any time]. |
+
+**Information we may disclose**
+
+See this table for details of who we disclose to and why.
+
+| **Categories of recipients** | **Categories of data** | **Reason for disclosing** |
+
+| --- | --- | --- |
+
+### D2 P26
+| Service providers | * User Data<br>* Street Address Data<br>* Usage Data<br>* Voice Data<br>* Message Data<br>* Payment and Purchase Data<br>* Survey and Research Data<br>* Age Check Data | So they can provide their services to Spotify.<br><br>Examples of such service providers include those we hire to:<br><br>* give customer support<br>* operate the technical infrastructure we need to provide the Spotify Service<br>* assist in protecting and securing our systems and services (e.g. Google’s reCAPTCHA)<br>* help market Spotify’s (and our partners’) products, services, events and promotions<br>* verify your eligibility for certain types of Service Options (e.g., Spotify Premium Student) |
+
+| Payment partners | * User Data<br>* Payment and Purchase Data | So they can process your payments, and for anti-fraud purposes. |
+
+| Advertising partners | * User Data<br>* Usage Data | So Spotify and our advertising partners can deliver more relevant advertising to you on the Spotify Service and online, and help measure the effectiveness of ads.<br><br>We do not disclose personal data to advertising partners for users under the age of 18. |
+
+### D2 P27
+| Marketing Partners | * User Data<br>* Usage Data | To promote Spotify with our partners. We disclose certain User Data and Usage Data to these partners where necessary to:<br><br>* enable you to participate in Spotify promotions, including trials or other bundled offers<br>* to promote Spotify in media and advertising published on other online services<br>* help us and our partners to measure the effectiveness of Spotify promotions<br><br>Examples of partners include:<br><br>* marketing or sponsorship partners<br>* websites and mobile apps who sell us advertising space on their services<br>* device, app and mobile partners who also offer Spotify promotions<br><br>Our partners may also combine the personal data we disclose to them with other data they collect about you, e.g. your use of their services. We and our partners may use this information to present you with offers, promotions, or other marketing that we think you’ll find relevant.<br><br>With respect to Spotify Service users under the age of 18, we do not disclose personal data to marketing partners by default. |
+
+| Ticketing and event partners | * User Data | For every event for which we sell tickets, we will need to disclose your name, email or other order details to our event partners such as ticketing agent or venue box office where the event is taking place so that you can check-in as a verifiable guest who purchased tickets through Spotify’s ticketing platform. |
+
+### D2 P28
+| Podcast Hosting Platforms | * Usage Data | Hosting platforms host podcasts so that they can deliver them to you. We disclose certain data, such as your IP address, to the podcast hosting platforms when you play a podcast. We also allow you to stream podcasts available from other hosting platforms not owned by Spotify.<br><br>Podcast providers should explain in the show or episode description which platform is hosting the podcast. See the hosting platform’s own privacy policy for how they use data disclosed to them. |
+
+| Academic researchers | * User Data<br>* Usage Data | For activities such as statistical analysis and academic study, but only in a pseudonymized format. |
+
+| Other Spotify group companies, including companies that Spotify acquires | * User Data<br>* Street Address Data<br>* Usage Data<br>* Voice Data<br>* Message Data<br>* Payment and Purchase Data<br>* Survey and Research Data | To carry out our daily business operations and so we can maintain, improve and provide the Spotify Service and acquired companies’ services to you.<br><br>For example:<br><br>* enabling our employees who work for different group companies to develop and improve features for the Spotify Service<br>* disclosing data to our measurement companies to measure the effectiveness of ad campaigns that run on the Spotify Service<br>* disclosing data to our podcast companies to better understand user listening trends |
+
+### D2 P29
+| Purchasers of our business | * User Data<br>* Street Address Data<br>* Usage Data<br>* Voice Data<br>* Message Data<br>* Message Data<br>* Payment and Purchase Data<br>* Survey and Research Data | If we were to sell or negotiate to sell any part of our business to a buyer or possible buyer.<br><br> <br><br>In this case, we may transfer your personal data to a successor or affiliate as part of that transaction. |
+
+**Courts and Authorities:** We may process and share your personal data to comply with a request from courts, authorities, parties to litigation, or other authorized third parties. We will do so when we believe in good faith it is necessary, including:
+
+* to comply with a legal obligation
+
+* to respond to a valid legal process (such as a search warrant, court order, or subpoena)
+
+* for our own or a third party's justifiable interest such as criminal investigations, litigation, protecting someone’s safety, or preventing death or imminent bodily harm
+
+The categories of personal data processed or shared will depend on the nature of the specific request.
+
+6\. Data retention
+
+------------------
+
+We keep your personal data only as long as necessary to provide you with the Spotify Service and for Spotify’s legitimate and essential business purposes, such as:
+
+* maintaining the performance of the Spotify Service
+
+* making data-driven business decisions about new features and offerings
+
+* complying with our legal obligations
+
+* resolving disputes
+
+### D2 P30
+Here are some of the categories of our retention periods, and the criteria we use to determine them:
+
+* **Data retained until you remove it**
+
+It’s your right to request that we delete certain of your personal data. See the section on ‘[Deletion]’ in [Section 2 ‘Your personal data rights and controls’] for more information, and the circumstances in which we can act on your request.
+
+You can also delete certain personal data directly from the Spotify Service: for example, you can edit or delete your profile picture. Where users are able to see and update the personal data themselves, we keep the information for as long as the user chooses unless one of the limited purposes described below applies.
+
+* **Data that expires after a specific period of time**
+
+Subject to other applicable retention rules listed in this Section 6, we have set certain retention periods so that data expires after a specific period of time. For example, personal data you may input as part of search queries is deleted after 90 days.
+
+* **Data retained until your Spotify account is deleted**
+
+### D2 P31
+We keep some data until your Spotify account is deleted. Examples of this include your Spotify username and profile information. We also keep streaming history for the life of an account, for example, to provide retrospective playlists that users enjoy and personalized recommendations that take listening habits into account (for example, Your Time Capsule or Your Summer Rewind). When your Spotify account is deleted, this category of data is deleted or de-identified.
+
+* **Data retained for extended time periods for limited purposes**
+
+After your account is deleted, we keep some data for a longer time period but for very limited purposes. For example, we may be subject to legal or contractual obligations that require this. These may include mandatory data retention laws, government orders to preserve data relevant to an investigation, or data kept for the purposes of litigation. We may also keep data that has been removed from the Spotify Service for a limited period of time. This could be:
+
+* to help ensure user safety, or
+
+* to protect against harmful content on our platform.
+
+* **Age Check Data** is deleted immediately after your Age Check is complete.
+
+7\. Transfer to other countries
+
+-------------------------------
+
+Because of the global nature of our business, Spotify transfers personal data internationally with Spotify group companies, subcontractors and partners when carrying out the activities described in this Policy.
+
+### D2 P32
+Whenever we transfer personal data internationally, we use tools to make sure the data transfer complies with applicable law.
+
+We also identify and use additional protections as appropriate for each data transfer. For example, we use:
+
+* technical protections, such as encryption and pseudonymization
+
+* policies and processes to challenge disproportionate or unlawful government authority requests
+
+8\. Keeping your personal data safe
+
+-----------------------------------
+
+We’re committed to protecting our users’ personal data. We put in place appropriate technical and organizational measures to help protect the security of your personal data. However, be aware that no system is ever completely secure.
+
+We have put various safeguards in place to guard against unauthorized access and unnecessary retention of personal data in our systems. These include pseudonymization, encryption, access, and retention policies.
+
+To protect your user account, we encourage you to:
+
+* use a strong password which you only use for your Spotify account
+
+* never share your password with anyone
+
+* limit access to your computer and browser
+
+* log out once you have finished using the Spotify Service on a shared device
+
+* read more detail on [protecting your account]
+
+You can log out of Spotify in multiple places at once by using the ‘Sign out everywhere’ function on [your account page].
+
+### D2 P33
+If other individuals have access to your Spotify account, then they can access personal data, controls and the Spotify Service available in your account. For example, someone might use your account on a shared device.
+
+It’s your responsibility to only allow this to happen if you’re comfortable sharing your personal data with them. Anyone else’s use of your Spotify account may impact your personalized recommendations.
+
+9\. Children
+
+------------
+
+Note: This Policy doesn't apply to [Managed Accounts] or [Spotify Kids] except where those respective privacy notices say so.
+
+The Spotify Service (outside of Managed Accounts or Spotify Kids) that is tied to this privacy policy has a minimum age limit in each country or region (the “Age Limit”).
+
+If you’re under the Age Limit, do not create or use the standard Spotify Service. Instead, we recommend asking a parent or guardian to create a Managed Account for you, where available. If you are above the Age Limit but under the age of majority in your country (a “Minor”), you may use the Spotify Service only with the consent of your parent or legal guardian.
+
+### D2 P34
+We do not knowingly collect or use personal data from children under the applicable Age Limit outside of Managed Accounts or Spotify Kids. If you are a parent or guardian and become aware that your child, who is under the application Age Limit, has provided personal data to Spotify in any other context, [contact us]. If we learn that we’ve collected the personal data of a child under the applicable Age Limit, we’ll take reasonable steps to delete the personal data. This may require us to delete the Spotify account for that child.
+
+When using a shared device on the Spotify Service, be cautious about playing or recommending any inappropriate content to individuals to Minors.
+
+10\. Third-Party Links
+
+----------------------
+
+The Spotify Service may include links to third-party websites, plug-ins and applications. Clicking on such links may allow third parties to collect or share data about you. Spotify does not control these third-party websites and is not responsible for their privacy practices.
+
+11\. Privacy Request Metrics
+
+----------------------------
+
+The following chart contains statistics about global requests we received from users between 1 January and 31 December 2025:
+
+| **Type of request** | **Received** | **Complied** | **Denied** | **Average response rate** |
+
+| --- | --- | --- | --- | --- |
+
+| Right to Know / Access | 1,498,726 | 1,498,724 | 2 | 3.89 days |
+
+| Request to Delete | 8,260,593 | 8,260,593 | 0 | 15.47 days |
+
+### D2 P35
+| Request to Correct\* | 512 | 428 | 84 | 23.4 days |
+
+| Request to Opt-Out of Data Sharing for Tailored Ads | 3,379,178 | 3,379,178 | 0 | 1 day |
+
+\*Adjustments in the user account within the Service made either by the user themselves or aided by customer services are not counted as correction requests (e.g., user updated their display name)
+
+12\. Changes to this Policy
+
+---------------------------
+
+We may occasionally make changes to this Policy.
+
+When we make material changes to this Policy, we’ll provide you with prominent notice as appropriate under the circumstances. For example, we may display a prominent notice within the Spotify Service or send you an email or device notification.
+
+13\. How to contact us
+
+----------------------
+
+For any questions or concerns about this Policy, contact our Data Protection Officer any one of these ways:
+
+* Email us at privacy@spotify.com
+
+* write to us at: Spotify USA Inc., 150 Greenwich Street, Floor 62, New York, NY 10007, USA, Attn: Data Protection Officer
+
+Spotify USA Inc. is the data controller of personal data processed under this Policy.
+
+© Spotify USA Inc.
+
+
+## Cases for D2 (Spotify, Privacy Policy)
+
+- C1. "Your biometric data is collected". Description: This service can collect or use your biometric data. This includes but is not limited to facial recognition, fingerprints, and iris scans. Although this feature can sometimes be convenient to the user, providing this type of information to the service could open your personal data to being sold or stolen. Classification: bad.
+- C2. "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction". Description: If the service gets acquired or is involved in a merger, bankruptcy, reorganisation or sale, your personal data may be transferred or sold. Classification: bad.
+- C3. "Your personal data may be disclosed to comply with government requests without notice to you". Description: If the Government governing the Terms requests personal data of a user of this service, they may not inform/notify the user while complying with the request. Classification: bad.
+- C4. "Many different types of personal data are collected". Description: The service collects different kinds of personal data, such as name, demographic information, postal address, biometric data, device information, IDs, contacts, call logs... Classification: bad.
+- C5. "You can opt out of targeted advertising". Description: The service employs your data to target ads to you, but you can opt-out of this interest-based advertising. Classification: good.
+- C6. "You can limit how your information is used by third parties and the service". Description: Usually it's related to the right to object to data processing or restrict it under the GDPR. Users may be able to refuse the use of their data for marketing purposes for instance. Classification: good.
+- C7. "You are responsible for maintaining the security of your account and for the activities on your account". Description: You are responsible for protecting the confidentiality of your password and for maintaining the security of your account. Any activity occurring under your account is your responsibility, whether authorized by you or not. Classification: neutral.
+
+codex
+{
+  "D1": {
+    "C1": [
+      {
+        "piece": "P32",
+        "quote": "While we hope you remain a lifelong Snapchatter, you can terminate these Terms at any time if you do not agree with any changes we make to these Terms, or for any other reason, by deleting your Snapchat account (or, in some cases, the account associated with the applicable part of the Services you are using)."
+      },
+      {
+        "piece": "P79",
+        "quote": "While we hope you remain a lifelong Snapchatter, you can terminate these Terms at any time if you do not agree with any changes we make to these Terms, or for any other reason, by deleting your Snapchat account (or, in some cases, the account associated with the applicable part of the Services you are using)."
+      },
+      {
+        "piece": "P33",
+        "quote": "You can stop using the Services or delete your account at any time and for any reason, including if you don't like any changes to these Terms."
+      },
+      {
+        "piece": "P80",
+        "quote": "You can stop using the Services or delete your account at any time and for any reason, including if you don't like any changes to these Terms."
+      },
+      {
+        "piece": "P4",
+        "quote": "You can also choose to stop using the Services or delete your account at any time."
+      }
+    ],
+    "C2": [
+      {
+        "piece": "P16",
+        "quote": "Whether that content is posted publicly or sent privately, the content is the sole responsibility of the user or entity that submitted it. To the fullest extent permitted by applicable law, Snap reserves the right to review, moderate or remove all content that appears on the Services."
+      },
+      {
+        "piece": "P62",
+        "quote": "Whether that content is posted publicly or sent privately, the content is the sole responsibility of the user or entity that submitted it. To the fullest extent permitted by applicable law, Snap reserves the right to review, moderate or remove all content that appears on the Services."
+      },
+      {
+        "piece": "P11",
+        "quote": "While we’re not required to do so, we may access, review, screen and delete your content at any time and for any reason, including to provide and develop the Services or if we think your content violates these Terms or any applicable laws, and we will not be liable to you for any such actions taken."
+      },
+      {
+        "piece": "P56",
+        "quote": "While we’re not required to do so, we reserve the right to access, review, screen and delete any content: (i) which we think violates these Terms or any applicable laws, including any additional terms referenced in Section 3, or our policies, such as our [Community Guidelines], or (ii) if necessary to comply with our legal obligations, and we will not be liable to you for any such actions taken."
+      }
+    ],
+    "C3": [
+      {
+        "piece": "P36",
+        "quote": "IN NO EVENT WILL OUR AGGREGATE LIABILITY FOR ALL CLAIMS RELATING TO THE SERVICES EXCEED THE GREATER OF $100 USD OR THE AMOUNT YOU PAID US IN THE 12 MONTHS PRECEDING THE DATE OF THE ACTIVITY GIVING RISE TO THE CLAIM."
+      },
+      {
+        "piece": "P83",
+        "quote": "Except to the extent specified otherwise in any other applicable terms of Snap, Snap Inc. or our affiliates, in no event will Snap, Snap Inc. or our affiliates’ aggregate liability for all claims relating to the Services exceed the greater of (a) €100 EUR, and (b) the amount you paid Snap in the last 12 months for any Services."
+      }
+    ],
+    "C4": [
+      {
+        "piece": "P12",
+        "quote": "Additional terms and conditions listed on the [Terms & Policies] page or that are otherwise made available to you will apply to you depending on the specific Services you use. If those additional terms apply (for example, because you use the applicable Services), then they will become part of these Terms, meaning that you must comply with them."
+      },
+      {
+        "piece": "P58",
+        "quote": "Additional terms and conditions listed on the [Terms & Policies] page or that are otherwise made available to you will apply to you depending on the specific Services you use or where you are located. If those additional terms apply (for example, because you use the applicable Services) then they will then become part of these Terms, meaning that you must comply with them."
+      },
+      {
+        "piece": "P7",
+        "quote": "you will comply with these Terms (including any other terms and policies referenced in these Terms, such as the [Community Guidelines], [Music on Snapchat Guidelines] and the [Commercial Content Policy]) and all applicable local, state, national and international laws, rules and regulations."
+      },
+      {
+        "piece": "P52",
+        "quote": "you will comply with these Terms (including any other terms and policies referenced in these Terms, such as the [Community Guidelines], [Music on Snapchat Guidelines] and the [Commercial Content Policy]) and all applicable local, state, national and international laws, rules and regulations."
+      },
+      {
+        "piece": "P19",
+        "quote": "You must also respect Snap’s rights and adhere to the [Snapchat Brand Guidelines], [Bitmoji Brand Guidelines] and any other guidelines, support pages, or FAQs published by Snap or our affiliates."
+      }
+    ]
+  },
+  "D2": {
+    "C1": [
+      {
+        "piece": "P14",
+        "quote": "In some cases, we may also use a photo of your face to verify that your ID belongs to you<br>* facial age estimation: a photo of your face which is used to estimate your age"
+      }
+    ],
+    "C2": [
+      {
+        "piece": "P29",
+        "quote": "If we were to sell or negotiate to sell any part of our business to a buyer or possible buyer.<br><br> <br><br>In this case, we may transfer your personal data to a successor or affiliate as part of that transaction."
+      }
+    ],
+    "C3": [],
+    "C4": [
+      {
+        "piece": "P10",
+        "quote": "This may include your:<br><br>* display name<br>* email address<br>* password<br>* phone number<br>* date of birth<br>* gender<br>* street address (see further details below)<br>* country<br>* university/college (for Spotify Premium Student)<br>* estimated or confirmed age from an Age Check by a third party provider<br><br>We receive some of this data from you e.g. from the sign up form or account page."
+      },
+      {
+        "piece": "P12",
+        "quote": "Personal data collected and processed about you when you’re accessing or using the Spotify Service.<br><br>This includes information such as:<br><br>**Information about how you use Spotify**<br><br>Examples:<br><br>* information about your Spotify Service Option<br>* your actions with the Spotify Service (including date and time), such as:<br> * search queries<br> * streaming history<br> * playlists you create<br> * your library<br> * browsing history<br> * account settings"
+      },
+      {
+        "piece": "P15",
+        "quote": "The exact personal data collected and used will vary depending on the payment method. It will include information such as:<br><br>* name<br>* date of birth<br>* payment method type (e.g. credit or debit card)<br>* if using a debit or credit card, the card type, expiry date and certain digits of your card number. Note: For security, Spotify never stores your full card number<br>* ZIP/postal code<br>* mobile phone number<br>* details of your purchase and payment history"
+      }
+    ],
+    "C5": [
+      {
+        "piece": "P6",
+        "quote": "You can exercise your right to opt out through the ‘[Tailored Ads]’ setting.<br><br>If you do not have an account or are not logged in, you can also opt-out by clicking the ['Your Privacy Choices'] link at the footer of our website."
+      },
+      {
+        "piece": "P8",
+        "quote": "How to control tailored advertising:\n\n* You can control tailored advertising through the ‘[Tailored Ads]’ setting.\n\n* If you do not have an account or are not logged in, you can also opt-out by clicking the ['Your Privacy Choices'] link at the footer of our website."
+      },
+      {
+        "piece": "P9",
+        "quote": "This message will contain a link to the [Tailored Ads] setting where you can change your preferences or ‘opt-out’ of tailored advertising at any time."
+      },
+      {
+        "piece": "P8",
+        "quote": "You can also visit our services via a browser with a recognized opt-out preference signal enabled, such as the Global Privacy Control (GPC)."
+      },
+      {
+        "piece": "P8",
+        "quote": "You can also control tailored advertising for some podcasts using the link in the episode’s show description. This applies where the content provider inserts advertising into the podcast to fund it."
+      }
+    ],
+    "C6": [
+      {
+        "piece": "P6",
+        "quote": "**Withdraw your consent to us collecting or using your personal data.**<br><br>You can do this if Spotify is processing your personal data solely based on your consent."
+      },
+      {
+        "piece": "P25",
+        "quote": "To receive news or promotional offers from artists, record labels or other partners.<br><br>You may choose to share your User Data for this purpose when you sign up to the Spotify Service. You’ll always have the option to change your mind and [withdraw your consent at any time]."
+      },
+      {
+        "piece": "P6",
+        "quote": "You can exercise your right to opt out through the ‘[Tailored Ads]’ setting.<br><br>If you do not have an account or are not logged in, you can also opt-out by clicking the ['Your Privacy Choices'] link at the footer of our website."
+      },
+      {
+        "piece": "P2",
+        "quote": "[Account Privacy]: Control the processing of certain personal data."
+      },
+      {
+        "piece": "P15",
+        "quote": "Spotify will only use your precise location data with your permission. You can grant this access through the in-app pop-up and in your device settings."
+      }
+    ],
+    "C7": []
+  }
+}
+tokens used
+43,900
+{
+  "D1": {
+    "C1": [
+      {
+        "piece": "P32",
+        "quote": "While we hope you remain a lifelong Snapchatter, you can terminate these Terms at any time if you do not agree with any changes we make to these Terms, or for any other reason, by deleting your Snapchat account (or, in some cases, the account associated with the applicable part of the Services you are using)."
+      },
+      {
+        "piece": "P79",
+        "quote": "While we hope you remain a lifelong Snapchatter, you can terminate these Terms at any time if you do not agree with any changes we make to these Terms, or for any other reason, by deleting your Snapchat account (or, in some cases, the account associated with the applicable part of the Services you are using)."
+      },
+      {
+        "piece": "P33",
+        "quote": "You can stop using the Services or delete your account at any time and for any reason, including if you don't like any changes to these Terms."
+      },
+      {
+        "piece": "P80",
+        "quote": "You can stop using the Services or delete your account at any time and for any reason, including if you don't like any changes to these Terms."
+      },
+      {
+        "piece": "P4",
+        "quote": "You can also choose to stop using the Services or delete your account at any time."
+      }
+    ],
+    "C2": [
+      {
+        "piece": "P16",
+        "quote": "Whether that content is posted publicly or sent privately, the content is the sole responsibility of the user or entity that submitted it. To the fullest extent permitted by applicable law, Snap reserves the right to review, moderate or remove all content that appears on the Services."
+      },
+      {
+        "piece": "P62",
+        "quote": "Whether that content is posted publicly or sent privately, the content is the sole responsibility of the user or entity that submitted it. To the fullest extent permitted by applicable law, Snap reserves the right to review, moderate or remove all content that appears on the Services."
+      },
+      {
+        "piece": "P11",
+        "quote": "While we’re not required to do so, we may access, review, screen and delete your content at any time and for any reason, including to provide and develop the Services or if we think your content violates these Terms or any applicable laws, and we will not be liable to you for any such actions taken."
+      },
+      {
+        "piece": "P56",
+        "quote": "While we’re not required to do so, we reserve the right to access, review, screen and delete any content: (i) which we think violates these Terms or any applicable laws, including any additional terms referenced in Section 3, or our policies, such as our [Community Guidelines], or (ii) if necessary to comply with our legal obligations, and we will not be liable to you for any such actions taken."
+      }
+    ],
+    "C3": [
+      {
+        "piece": "P36",
+        "quote": "IN NO EVENT WILL OUR AGGREGATE LIABILITY FOR ALL CLAIMS RELATING TO THE SERVICES EXCEED THE GREATER OF $100 USD OR THE AMOUNT YOU PAID US IN THE 12 MONTHS PRECEDING THE DATE OF THE ACTIVITY GIVING RISE TO THE CLAIM."
+      },
+      {
+        "piece": "P83",
+        "quote": "Except to the extent specified otherwise in any other applicable terms of Snap, Snap Inc. or our affiliates, in no event will Snap, Snap Inc. or our affiliates’ aggregate liability for all claims relating to the Services exceed the greater of (a) €100 EUR, and (b) the amount you paid Snap in the last 12 months for any Services."
+      }
+    ],
+    "C4": [
+      {
+        "piece": "P12",
+        "quote": "Additional terms and conditions listed on the [Terms & Policies] page or that are otherwise made available to you will apply to you depending on the specific Services you use. If those additional terms apply (for example, because you use the applicable Services), then they will become part of these Terms, meaning that you must comply with them."
+      },
+      {
+        "piece": "P58",
+        "quote": "Additional terms and conditions listed on the [Terms & Policies] page or that are otherwise made available to you will apply to you depending on the specific Services you use or where you are located. If those additional terms apply (for example, because you use the applicable Services) then they will then become part of these Terms, meaning that you must comply with them."
+      },
+      {
+        "piece": "P7",
+        "quote": "you will comply with these Terms (including any other terms and policies referenced in these Terms, such as the [Community Guidelines], [Music on Snapchat Guidelines] and the [Commercial Content Policy]) and all applicable local, state, national and international laws, rules and regulations."
+      },
+      {
+        "piece": "P52",
+        "quote": "you will comply with these Terms (including any other terms and policies referenced in these Terms, such as the [Community Guidelines], [Music on Snapchat Guidelines] and the [Commercial Content Policy]) and all applicable local, state, national and international laws, rules and regulations."
+      },
+      {
+        "piece": "P19",
+        "quote": "You must also respect Snap’s rights and adhere to the [Snapchat Brand Guidelines], [Bitmoji Brand Guidelines] and any other guidelines, support pages, or FAQs published by Snap or our affiliates."
+      }
+    ]
+  },
+  "D2": {
+    "C1": [
+      {
+        "piece": "P14",
+        "quote": "In some cases, we may also use a photo of your face to verify that your ID belongs to you<br>* facial age estimation: a photo of your face which is used to estimate your age"
+      }
+    ],
+    "C2": [
+      {
+        "piece": "P29",
+        "quote": "If we were to sell or negotiate to sell any part of our business to a buyer or possible buyer.<br><br> <br><br>In this case, we may transfer your personal data to a successor or affiliate as part of that transaction."
+      }
+    ],
+    "C3": [],
+    "C4": [
+      {
+        "piece": "P10",
+        "quote": "This may include your:<br><br>* display name<br>* email address<br>* password<br>* phone number<br>* date of birth<br>* gender<br>* street address (see further details below)<br>* country<br>* university/college (for Spotify Premium Student)<br>* estimated or confirmed age from an Age Check by a third party provider<br><br>We receive some of this data from you e.g. from the sign up form or account page."
+      },
+      {
+        "piece": "P12",
+        "quote": "Personal data collected and processed about you when you’re accessing or using the Spotify Service.<br><br>This includes information such as:<br><br>**Information about how you use Spotify**<br><br>Examples:<br><br>* information about your Spotify Service Option<br>* your actions with the Spotify Service (including date and time), such as:<br> * search queries<br> * streaming history<br> * playlists you create<br> * your library<br> * browsing history<br> * account settings"
+      },
+      {
+        "piece": "P15",
+        "quote": "The exact personal data collected and used will vary depending on the payment method. It will include information such as:<br><br>* name<br>* date of birth<br>* payment method type (e.g. credit or debit card)<br>* if using a debit or credit card, the card type, expiry date and certain digits of your card number. Note: For security, Spotify never stores your full card number<br>* ZIP/postal code<br>* mobile phone number<br>* details of your purchase and payment history"
+      }
+    ],
+    "C5": [
+      {
+        "piece": "P6",
+        "quote": "You can exercise your right to opt out through the ‘[Tailored Ads]’ setting.<br><br>If you do not have an account or are not logged in, you can also opt-out by clicking the ['Your Privacy Choices'] link at the footer of our website."
+      },
+      {
+        "piece": "P8",
+        "quote": "How to control tailored advertising:\n\n* You can control tailored advertising through the ‘[Tailored Ads]’ setting.\n\n* If you do not have an account or are not logged in, you can also opt-out by clicking the ['Your Privacy Choices'] link at the footer of our website."
+      },
+      {
+        "piece": "P9",
+        "quote": "This message will contain a link to the [Tailored Ads] setting where you can change your preferences or ‘opt-out’ of tailored advertising at any time."
+      },
+      {
+        "piece": "P8",
+        "quote": "You can also visit our services via a browser with a recognized opt-out preference signal enabled, such as the Global Privacy Control (GPC)."
+      },
+      {
+        "piece": "P8",
+        "quote": "You can also control tailored advertising for some podcasts using the link in the episode’s show description. This applies where the content provider inserts advertising into the podcast to fund it."
+      }
+    ],
+    "C6": [
+      {
+        "piece": "P6",
+        "quote": "**Withdraw your consent to us collecting or using your personal data.**<br><br>You can do this if Spotify is processing your personal data solely based on your consent."
+      },
+      {
+        "piece": "P25",
+        "quote": "To receive news or promotional offers from artists, record labels or other partners.<br><br>You may choose to share your User Data for this purpose when you sign up to the Spotify Service. You’ll always have the option to change your mind and [withdraw your consent at any time]."
+      },
+      {
+        "piece": "P6",
+        "quote": "You can exercise your right to opt out through the ‘[Tailored Ads]’ setting.<br><br>If you do not have an account or are not logged in, you can also opt-out by clicking the ['Your Privacy Choices'] link at the footer of our website."
+      },
+      {
+        "piece": "P2",
+        "quote": "[Account Privacy]: Control the processing of certain personal data."
+      },
+      {
+        "piece": "P15",
+        "quote": "Spotify will only use your precise location data with your permission. You can grant this access through the in-app pop-up and in your device settings."
+      }
+    ],
+    "C7": []
+  }
+}

@@ -1,0 +1,602 @@
+{
+ "S001": {
+  "verdict": "NO",
+  "why": "The passage discusses privacy rights and data collection, not guarantees about meeting requirements."
+ },
+ "S002": {
+  "verdict": "YES",
+  "why": "Using Twitch for illegal purposes or in violation of applicable laws is prohibited."
+ },
+ "S003": {
+  "verdict": "YES",
+  "why": "Spotify explicitly uses precise location data with your permission."
+ },
+ "S004": {
+  "verdict": "PARTLY",
+  "why": "Content is deleted following termination without notice, but independent removal of specific content is not addressed."
+ },
+ "S005": {
+  "verdict": "YES",
+  "why": "Invalid provisions do not affect the validity or enforceability of the remaining provisions."
+ },
+ "S006": {
+  "verdict": "YES",
+  "why": "Phone numbers, saved addresses, and shopping activity may be used to personalize advertisements."
+ },
+ "S007": {
+  "verdict": "YES",
+  "why": "Claims must be brought individually rather than as a plaintiff or member of a class action."
+ },
+ "S008": {
+  "verdict": "YES",
+  "why": "Headspace may terminate all access at its sole discretion, with or without prior notice."
+ },
+ "S009": {
+  "verdict": "YES",
+  "why": "Meta says it uses cookies when you use its own websites and products."
+ },
+ "S010": {
+  "verdict": "PARTLY",
+  "why": "Occasional amendments are contemplated, but regular review is not promised."
+ },
+ "S011": {
+  "verdict": "PARTLY",
+  "why": "A real name is required, but the passage does not specifically require your legal name."
+ },
+ "S012": {
+  "verdict": "YES",
+  "why": "Information supports research, advertising, personalization, product improvement, and troubleshooting."
+ },
+ "S013": {
+  "verdict": "YES",
+  "why": "Google Analytics processes visitor data and produces usage reports on Alibaba's behalf."
+ },
+ "S014": {
+  "verdict": "NO",
+  "why": "The passage restricts licensed uses and contains no severability provision."
+ },
+ "S015": {
+  "verdict": "YES",
+  "why": "The policy uses plain language, short sentences, and straightforward explanations."
+ },
+ "S016": {
+  "verdict": "YES",
+  "why": "The passage describes password protection and recommends measures against unauthorized account access."
+ },
+ "S017": {
+  "verdict": "PARTLY",
+  "why": "Collection of country or region is stated, but collection of IP addresses is not."
+ },
+ "S018": {
+  "verdict": "YES",
+  "why": "Your information may explicitly be used to provide, personalize, and improve advertising and marketing."
+ },
+ "S019": {
+  "verdict": "NO",
+  "why": "The passage grants content licenses without disclaiming liability for damages."
+ },
+ "S020": {
+  "verdict": "PARTLY",
+  "why": "Third-party data processing is described for legally required verification, rather than nonessential purposes."
+ },
+ "S021": {
+  "verdict": "PARTLY",
+  "why": "Information is retained for development, but the passage describes removing identifying information from it."
+ },
+ "S022": {
+  "verdict": "YES",
+  "why": "You expressly grant Malwarebytes a non-exclusive license to your content."
+ },
+ "S023": {
+  "verdict": "NO",
+  "why": "The passage describes privacy rights without stating any business or legal retention exception."
+ },
+ "S024": {
+  "verdict": "YES",
+  "why": "The service explicitly says its collected log information may include IP addresses."
+ },
+ "S025": {
+  "verdict": "NO",
+  "why": "The passage stops before listing user rights and does not establish a right to retrieve data."
+ },
+ "S026": {
+  "verdict": "PARTLY",
+  "why": "Third-party cookies are described for targeted advertising, but statistical use is not stated."
+ },
+ "S027": {
+  "verdict": "PARTLY",
+  "why": "Third-party recipients are listed, but the passage does not establish which are nonessential to operation."
+ },
+ "S028": {
+  "verdict": "NO",
+  "why": "The non-exclusive license is granted to users, rather than to Malwarebytes for users' content."
+ },
+ "S029": {
+  "verdict": "PARTLY",
+  "why": "Individual relief and proceedings are discussed, but the passage does not itself prohibit class actions."
+ },
+ "S030": {
+  "verdict": "YES",
+  "why": "Users may register only one account unless Alibaba approves additional accounts."
+ },
+ "S031": {
+  "verdict": "PARTLY",
+  "why": "It says collection methods are explained in the policy, but this excerpt does not describe them."
+ },
+ "S032": {
+  "verdict": "YES",
+  "why": "Subscriptions are restricted to personal, non-commercial use unless an exception applies."
+ },
+ "S033": {
+  "verdict": "YES",
+  "why": "A Git repository provides the document's change history."
+ },
+ "S034": {
+  "verdict": "PARTLY",
+  "why": "The passage describes limited promotional uses rather than a broad range of purposes."
+ },
+ "S035": {
+  "verdict": "NO",
+  "why": "Restrictions on user automation and scraping do not establish automated processing of personal data by Reddit."
+ },
+ "S036": {
+  "verdict": "YES",
+  "why": "Disputes must be brought individually, and participation in class proceedings is prohibited."
+ },
+ "S037": {
+  "verdict": "YES",
+  "why": "The passage explicitly allows opting out of marketing communications at any time."
+ },
+ "S038": {
+  "verdict": "NO",
+  "why": "Content moderation and service availability are discussed without establishing ownership of user content."
+ },
+ "S039": {
+  "verdict": "YES",
+  "why": "X expressly disclaims any warranty that its services will meet your requirements."
+ },
+ "S040": {
+  "verdict": "YES",
+  "why": "X collects the contents of Direct Messages, along with recipients and timestamps."
+ },
+ "S041": {
+  "verdict": "NO",
+  "why": "Policy scope and security commitments do not establish a right to leave the service."
+ },
+ "S042": {
+  "verdict": "PARTLY",
+  "why": "The liability disclaimer covers damages from third-party sites, rather than all damages users incur."
+ },
+ "S043": {
+  "verdict": "PARTLY",
+  "why": "New York law and courts are specified, but weaker privacy protection is not established."
+ },
+ "S044": {
+  "verdict": "NO",
+  "why": "The passage contains conduct restrictions and trademark rules, without selecting a governing jurisdiction."
+ },
+ "S045": {
+  "verdict": "NO",
+  "why": "Public-data access and general disclosure powers do not establish access to private messages."
+ },
+ "S046": {
+  "verdict": "NO",
+  "why": "The passage discusses retention and international transfers, not collection through promotions."
+ },
+ "S047": {
+  "verdict": "YES",
+  "why": "Services are provided as is and as available, with all warranties disclaimed."
+ },
+ "S048": {
+  "verdict": "YES",
+  "why": "Users expressly agree not to violate any law while using Twitch."
+ },
+ "S049": {
+  "verdict": "NO",
+  "why": "Content rights and licensing are described, but removal following copyright claims is not."
+ },
+ "S050": {
+  "verdict": "NO",
+  "why": "The passage discusses termination without specifying governing law or courts."
+ },
+ "S051": {
+  "verdict": "YES",
+  "why": "Marketing communications are sent unless the recipients have opted out."
+ },
+ "S052": {
+  "verdict": "YES",
+  "why": "Meta explicitly places cookies when users visit its own products."
+ },
+ "S053": {
+  "verdict": "YES",
+  "why": "Information supports personalization, communications, safety checks, legal proceedings, analytics, and research."
+ },
+ "S054": {
+  "verdict": "YES",
+  "why": "Users are ineligible if Instagram previously disabled their account for violating laws or policies."
+ },
+ "S055": {
+  "verdict": "YES",
+  "why": "Sending promotions and special offers is expressly identified as a use of personal data."
+ },
+ "S056": {
+  "verdict": "NO",
+  "why": "Accuracy and anti-impersonation requirements do not require a legal name or prohibit pseudonyms."
+ },
+ "S057": {
+  "verdict": "NO",
+  "why": "Element retains ownership of its services, but ownership of user content is not addressed."
+ },
+ "S058": {
+  "verdict": "YES",
+  "why": "Spotify explicitly uses IP addresses to learn your general location."
+ },
+ "S059": {
+  "verdict": "PARTLY",
+  "why": "Sharing with partners and other recipients is stated, but their nonessential role is not established."
+ },
+ "S060": {
+  "verdict": "NO",
+  "why": "Policy updates and regional privacy rights do not establish a right to leave."
+ },
+ "S061": {
+  "verdict": "YES",
+  "why": "Purchase information is retained for seven years after services end because of legal obligations."
+ },
+ "S062": {
+  "verdict": "PARTLY",
+  "why": "Access can terminate immediately for violations, but termination without a reason is not authorized."
+ },
+ "S063": {
+  "verdict": "YES",
+  "why": "Reddit removes infringing material and may terminate repeat infringers following its copyright reporting process."
+ },
+ "S064": {
+  "verdict": "YES",
+  "why": "Google may use contact information to send marketing communications such as printing promotions."
+ },
+ "S065": {
+  "verdict": "NO",
+  "why": "User responsibility for content does not establish continued ownership of that content."
+ },
+ "S066": {
+  "verdict": "NO",
+  "why": "A waiver affecting California residents does not select governing law or a court."
+ },
+ "S067": {
+  "verdict": "NO",
+  "why": "A version number and date do not establish that earlier agreements are accessible."
+ },
+ "S068": {
+  "verdict": "YES",
+  "why": "The service expressly claims exclusive ownership of all rights to submitted creative ideas."
+ },
+ "S069": {
+  "verdict": "YES",
+  "why": "Web beacons and other technologies identify visitors' devices across websites and services."
+ },
+ "S070": {
+  "verdict": "YES",
+  "why": "Accounts are strictly personal, and commercial use of Steam content is identified as a violation."
+ },
+ "S071": {
+  "verdict": "YES",
+  "why": "Users can obtain copies of all personal data in a commonly used, machine-readable format."
+ },
+ "S072": {
+  "verdict": "PARTLY",
+  "why": "Massachusetts governing law is specified, but comparatively weaker privacy protection is not established."
+ },
+ "S073": {
+  "verdict": "NO",
+  "why": "Rights to control or delete personal information do not establish a right to terminate service."
+ },
+ "S074": {
+  "verdict": "YES",
+  "why": "Collected usage data includes content provided during contests, sweepstakes, and other promotions."
+ },
+ "S075": {
+  "verdict": "YES",
+  "why": "One user may register only one account unless Alibaba approves otherwise."
+ },
+ "S076": {
+  "verdict": "YES",
+  "why": "Advertisers receive aggregated statistics about viewers' demographics and interactions."
+ },
+ "S077": {
+  "verdict": "YES",
+  "why": "Information supports accounts, integrations, messaging, advertising, AI features, analytics, and troubleshooting."
+ },
+ "S078": {
+  "verdict": "YES",
+  "why": "The passage explicitly states that collected usage logs may include IP addresses."
+ },
+ "S079": {
+  "verdict": "YES",
+  "why": "Users expressly retain ownership and other applicable rights in their content."
+ },
+ "S080": {
+  "verdict": "YES",
+  "why": "Information collected about you is combined into aggregate reports for partners."
+ },
+ "S081": {
+  "verdict": "YES",
+  "why": "Users can complain to the CNIL if their interaction with Orange is unsatisfactory."
+ },
+ "S082": {
+  "verdict": "YES",
+  "why": "The passage describes information reaching Snap through integrations and its use of TrueDepth camera information."
+ },
+ "S083": {
+  "verdict": "NO",
+  "why": "Refund procedures do not establish a cap on the service's liability."
+ },
+ "S084": {
+  "verdict": "PARTLY",
+  "why": "Promotional data sharing and combination are described, but extra collection through promotions is not explicit."
+ },
+ "S085": {
+  "verdict": "PARTLY",
+  "why": "Disclosure for governmental requests is authorized, but whether users receive notice is unspecified."
+ },
+ "S086": {
+  "verdict": "YES",
+  "why": "Personal information is used to operate services, maintain profiles, authenticate users, and provide security features."
+ },
+ "S087": {
+  "verdict": "YES",
+  "why": "Pixels, tags, and similar tracking technologies collect activity data and maintain unique identifiers."
+ },
+ "S088": {
+  "verdict": "PARTLY",
+  "why": "De-identification is described, but concrete security safeguards are not provided."
+ },
+ "S089": {
+  "verdict": "YES",
+  "why": "IP addresses are explicitly included among the device and network information collected and processed."
+ },
+ "S090": {
+  "verdict": "NO",
+  "why": "Collection is tied to interactions with the service, including visits and posts."
+ },
+ "S091": {
+  "verdict": "YES",
+  "why": "The service describes exchanging information to detect and prevent fraud, spam, malware, and security problems."
+ },
+ "S092": {
+  "verdict": "NO",
+  "why": "Warranty disclaimers do not impose personal or non-commercial use restrictions."
+ },
+ "S093": {
+  "verdict": "PARTLY",
+  "why": "The non-sharing promise covers nonpublic information, rather than all personal data."
+ },
+ "S094": {
+  "verdict": "YES",
+  "why": "Marketing uses expressly include emailing users about printing promotions."
+ },
+ "S095": {
+  "verdict": "YES",
+  "why": "Information may remain after account deletion to satisfy seven-year legal retention requirements."
+ },
+ "S096": {
+  "verdict": "NO",
+  "why": "The passage lists prohibited activities without granting rights to user content."
+ },
+ "S097": {
+  "verdict": "YES",
+  "why": "Direct Messages may be shared with third-party services used by their recipients."
+ },
+ "S098": {
+  "verdict": "YES",
+  "why": "Liability cannot exceed fees paid during the preceding twelve months and may be capped even lower."
+ },
+ "S099": {
+  "verdict": "YES",
+  "why": "Agents receiving information are described as generally bound by confidentiality obligations."
+ },
+ "S100": {
+  "verdict": "PARTLY",
+  "why": "Termination for any or no reason is allowed, but prior notice is not addressed."
+ },
+ "S101": {
+  "verdict": "NO",
+  "why": "The passage licenses Element's services without addressing ownership of user content."
+ },
+ "S102": {
+  "verdict": "YES",
+  "why": "Users agree to indemnify and hold Spotify harmless for damages related to their service activity."
+ },
+ "S103": {
+  "verdict": "YES",
+  "why": "Google can share your location so others can find you on a map."
+ },
+ "S104": {
+  "verdict": "NO",
+  "why": "The modification date and policy introduction do not provide access to prior versions."
+ },
+ "S105": {
+  "verdict": "NO",
+  "why": "Announcing changes does not establish that earlier agreements are archived."
+ },
+ "S106": {
+  "verdict": "PARTLY",
+  "why": "Account deletion is listed as a possible control, without an unconditional right to leave at any time."
+ },
+ "S107": {
+  "verdict": "YES",
+  "why": "The passage explicitly says you retain ownership of intellectual property posted to Tumblr."
+ },
+ "S108": {
+  "verdict": "PARTLY",
+  "why": "The account must use your real name, but a legal name is not specifically required."
+ },
+ "S109": {
+  "verdict": "YES",
+  "why": "Information supports safety investigations, photo searches, interest profiling, and personalized advertising."
+ },
+ "S110": {
+  "verdict": "YES",
+  "why": "Spotify uses permitted precise location data to improve recommendations and identify local trends."
+ },
+ "S111": {
+  "verdict": "YES",
+  "why": "The passage describes information supplied during registration, generated through use, and received from other sources."
+ },
+ "S112": {
+  "verdict": "YES",
+  "why": "Devices send location, sensor, cell tower, and Wi-Fi information to Google Location services."
+ },
+ "S113": {
+  "verdict": "YES",
+  "why": "The passage explains that browsing behavior and app usage are used for targeted advertising."
+ },
+ "S114": {
+  "verdict": "PARTLY",
+  "why": "Third-party information collection is described, but collection without direct interaction is not clearly established."
+ },
+ "S115": {
+  "verdict": "PARTLY",
+  "why": "Controls over the service's processing are provided, but controls over third-party use are not established."
+ },
+ "S116": {
+  "verdict": "YES",
+  "why": "The passage expressly says the same information is processed for different purposes under different legal bases."
+ },
+ "S117": {
+  "verdict": "YES",
+  "why": "Reddit explicitly describes removing content in response to copyright notices."
+ },
+ "S118": {
+  "verdict": "YES",
+  "why": "Alibaba may receive personal information from social media platforms used for registration."
+ },
+ "S119": {
+  "verdict": "YES",
+  "why": "All warranties are excluded, including fitness for a particular purpose."
+ },
+ "S120": {
+  "verdict": "PARTLY",
+  "why": "A heading disclaims content guarantees, but service requirements and expectations are not substantively addressed."
+ },
+ "S121": {
+  "verdict": "NO",
+  "why": "Legal bases for processing are discussed without mentioning aggregation or statistics."
+ },
+ "S122": {
+  "verdict": "YES",
+  "why": "The passage explicitly states that collected personal data is not shared with third parties."
+ },
+ "S123": {
+  "verdict": "YES",
+  "why": "Users can always stop using the services and delete their accounts."
+ },
+ "S124": {
+  "verdict": "YES",
+  "why": "Providing information to third parties for marketing is permitted with prior consent."
+ },
+ "S125": {
+  "verdict": "NO",
+  "why": "Payment deadlines, fees, and taxes do not establish a liability cap."
+ },
+ "S126": {
+  "verdict": "YES",
+  "why": "IP addresses are collected and explicitly used to estimate general location."
+ },
+ "S127": {
+  "verdict": "YES",
+  "why": "Users can opt out of advertising partners using information supplied by the service to tailor ads."
+ },
+ "S128": {
+  "verdict": "YES",
+  "why": "The homeserver owner cannot claim intellectual property rights over users' messages and files absent a separate agreement."
+ },
+ "S129": {
+  "verdict": "PARTLY",
+  "why": "Accounts may be terminated for any or no reason, but prior notice is not addressed."
+ },
+ "S130": {
+  "verdict": "NO",
+  "why": "A heading about policy changes does not establish regular review."
+ },
+ "S131": {
+  "verdict": "NO",
+  "why": "The passage discusses tracking technologies and preferences, not agreement archives."
+ },
+ "S132": {
+  "verdict": "NO",
+  "why": "Restrictions on sharing account credentials do not prohibit one user from holding multiple accounts."
+ },
+ "S133": {
+  "verdict": "NO",
+  "why": "The introduction and contents list do not establish sharing with nonessential third parties."
+ },
+ "S134": {
+  "verdict": "NO",
+  "why": "Personal-information deletion and advertising controls do not establish a right to terminate service."
+ },
+ "S135": {
+  "verdict": "YES",
+  "why": "Google Analytics uses cookies to analyze how people use the service."
+ },
+ "S136": {
+  "verdict": "NO",
+  "why": "Account trading and automated access restrictions do not prohibit banned users from registering again."
+ },
+ "S137": {
+  "verdict": "NO",
+  "why": "Liability limits and general agreement terms do not grant a content license."
+ },
+ "S138": {
+  "verdict": "YES",
+  "why": "The collection categories explicitly include information received from third parties."
+ },
+ "S139": {
+  "verdict": "NO",
+  "why": "The passage contains disclaimers and licensing terms without discussing government-requested disclosure."
+ },
+ "S140": {
+  "verdict": "YES",
+  "why": "Prior policy versions are stored on GitHub for comparison over time."
+ },
+ "S141": {
+  "verdict": "NO",
+  "why": "Indemnification and transaction provisions do not restrict the number of accounts."
+ },
+ "S142": {
+  "verdict": "YES",
+  "why": "Meta receives IP addresses and explicitly uses them to estimate general location."
+ },
+ "S143": {
+  "verdict": "PARTLY",
+  "why": "Cookie use is acknowledged, but the specifically identified cookies belong to other companies."
+ },
+ "S144": {
+  "verdict": "NO",
+  "why": "The listed data categories do not establish collection from people who never interacted with the service."
+ },
+ "S145": {
+  "verdict": "NO",
+  "why": "The passage discusses vendors and research recipients without mentioning IP addresses."
+ },
+ "S146": {
+  "verdict": "NO",
+  "why": "Providing a name in a dispute notice does not establish a legal-name requirement or pseudonym prohibition."
+ },
+ "S147": {
+  "verdict": "YES",
+  "why": "The license explicitly permits using submitted content, which may include personal information, to train AI models."
+ },
+ "S148": {
+  "verdict": "YES",
+  "why": "Information supports communications, compliance, fraud prevention, safety, traffic analysis, and advertising."
+ },
+ "S149": {
+  "verdict": "PARTLY",
+  "why": "Content may be removed at any time for any reason, but prior notice is not addressed."
+ },
+ "S150": {
+  "verdict": "YES",
+  "why": "The policy explicitly promises that signup information will never be sold."
+ }
+}

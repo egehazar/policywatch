@@ -1,0 +1,1370 @@
+OpenAI Codex v0.154.0
+--------
+workdir: C:\Users\egeha\AppData\Local\Temp\claude\8e505c2afe5694b7\c49ddd07-ca2e-4999-982e-7a6829474768\scratchpad\gpt_grade\empty
+model: gpt-6-astra
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 01a1dec9-c2e8-7353-802c-510f52abd40f
+--------
+user
+You are a rater in a pre-registered evaluation. Your only input is the task file pasted below, after the line of
+equals signs. Read ALL of it before answering. The task instructions are at the top of it. Follow them exactly.
+
+Rules:
+- Do not open, list or search any file or directory, do not run commands, and do not use the web. Judge from the
+  text below only.
+- Quote verbatim: copy the span exactly from the piece you cite.
+- Cover every listed case of every document in the file. Use an empty list when a case is not stated.
+- Where the task says to write the JSON object to an output file: do not write any file. Instead, your final reply
+  must be ONLY that JSON object, with nothing before or after it.
+
+==========================================================================================
+# Rating task: where does this policy state each case?
+
+ToS;DR (Terms of Service; Didn't Read) summarises policies with "cases", for example "You must create an account to
+use this service". Below are one or more platform documents in their CURRENT version, each cut into numbered pieces
+(P1, P2, ...) in document order, followed by a list of cases for that document (C1, C2, ...). Each case has a title,
+ToS;DR's description and its classification (good / neutral / bad / blocker: which way it cuts for users).
+
+Read the whole document. For EACH listed case, find EVERY passage that states or clearly implies the case for this
+platform, so that a ToS;DR curator could quote it as the evidence. A passage that is only on the same topic, states
+the opposite, or needs another passage to make the case does not count. Some cases are stated in several places;
+some are not stated at all in this version.
+
+For each passage you find, give the piece label and a verbatim quote of the shortest span (usually one or two
+sentences) that states the case, copied exactly from that piece. List at most 5 passages per case, the clearest
+first. If the document does not state the case, give an empty list.
+
+Write ONLY a JSON object to the output file named in your instructions, in this shape, covering every listed case of
+every document:
+  {{"D1": {{"C1": [{{"piece": "P12", "quote": "exact text"}}, ...], "C2": [], ...}}, "D2": {{...}}}}
+
+
+## D1: Spotify, Terms of Service (current version, 47 pieces)
+
+### D1 P1
+[Spotify Terms of Use]
+
+=============================================
+
+Last Updated: September 4, 2026
+
+1. [Introduction]
+
+2. [The Spotify Service]
+
+3. [Your Use of the Spotify Service]
+
+4. [Content and Intellectual Property Rights]
+
+5. [Customer Support, Information, Questions, and Complaints]
+
+6. [Problems and Disputes]
+
+7. [About These Terms]
+
+[]**1\. Introduction**
+
+---------------------------------------
+
+Please read these Terms of Use ("**Terms**") carefully as they govern your use of (which includes access to) Spotify's personalized services for streaming music and other content, including all of our websites and software applications that incorporate or link to these Terms (collectively, the "**Spotify Service**") and any music, videos, podcasts, audiobooks, or other material that is made available through the Spotify Service ("**Content**").
+
+Use of the Spotify Service is subject to additional terms and conditions presented by Spotify, all of which are made part of these Terms by this reference (collectively, the "**Agreements**"). Please refer to Section 7 below for information about those additional terms and how we may change these Terms or the additional terms incorporated by reference. To learn more about how Spotify collects, uses, shares and protects your personal data, please see the [Spotify Privacy Policy].
+
+### D1 P2
+By signing up for, or otherwise using, the Spotify Service, you agree to these Terms. If you do not agree to these Terms, then you must not use the Spotify Service or access any Content.
+
+THESE TERMS CONTAIN A MANDATORY ARBITRATION PROVISION THAT, AS FURTHER SET FORTH IN SECTION 6 BELOW, REQUIRES THE USE OF ARBITRATION ON AN INDIVIDUAL BASIS TO RESOLVE DISPUTES, RATHER THAN JURY TRIALS OR ANY OTHER COURT PROCEEDINGS, OR CLASS ACTIONS OF ANY KIND. IN ARBITRATION THERE IS LESS DISCOVERY AND APPELLATE REVIEW THAN IN COURT.
+
+### []**Service provider**
+
+These Terms are between you and Spotify USA Inc., 4 World Trade Center, 150 Greenwich Street, 62nd Floor, New York, NY, 10007.
+
+### []**Age and eligibility requirements**
+
+### D1 P3
+BY USING THE SPOTIFY SERVICE, YOU AFFIRM THAT YOU ARE 18 YEARS OR OLDER TO ENTER INTO THESE TERMS, OR, IF YOU ARE NOT, THAT YOU ARE 13 YEARS OR OLDER AND HAVE OBTAINED PARENTAL OR GUARDIAN CONSENT TO ENTER INTO THESE TERMS. Additionally, in order to use the Spotify Service and access any Content, you represent that: you reside in the United States, and any registration and account information that you submit to Spotify is true, accurate, and complete, and you agree to keep it that way at all times. If you do not meet the minimum age requirements then you must not register as a user. In certain markets, Spotify may offer primary account holders the opportunity to allow access to a kids experience as part of a family subscription. By enabling such access, the primary account holder confirms they are the legal guardian of any user accessing the experience and that they give permission for the younger user to use Spotify.
+
+[]**2\. The Spotify Service Provided by Us**
+
+-----------------------------------------------------------------------------------
+
+### []**Spotify Service options**
+
+### D1 P4
+We provide numerous Spotify Service options. Certain Spotify Service options are provided free of charge, while other options require payment before they can be accessed ("**Paid Subscriptions**"). We may also offer special promotional plans, memberships, or services, including offerings of third-party products and services. We are not responsible for the products and services provided by such third parties.
+
+### []**Trials**
+
+From time to time, we or others on our behalf may offer trials of Paid Subscriptions for a specified period without payment or at a reduced rate ("**Trial**"). By using a Spotify Service via a Trial, you agree to the [Spotify Paid Subscription Terms].
+
+### []**Third-party applications, devices and open source software**
+
+The Spotify Service may be integrated with, or may otherwise interact with, third-party applications, websites, and services ("**Third-Party Applications**") and third-party personal computers, mobile handsets, tablets, wearable devices, speakers, and other devices ("**Devices**"). Your use of such Third-Party Applications and Devices may be subject to additional terms, conditions, and policies provided to you by the applicable third party. Spotify does not guarantee that Third-Party Applications and Devices will be compatible with the Spotify Service.
+
+### []**Service limitations and modifications**
+
+### D1 P5
+We use reasonable efforts to keep the Spotify Service operational and to provide you with a personalized, immersive audio experience. However, Spotify reserves the right to change our Spotify Service offerings and their availability from time to time, without notice or liability to you. For example:
+
+* The Spotify Service may experience temporary interruptions due to technical difficulties, maintenance or testing, or updates, including those required to reflect changes in relevant laws and regulatory requirements.
+
+* We aim to evolve and improve the Spotify Service constantly, and we may modify, suspend, or stop (permanently or temporarily) providing all or part of the Spotify Service (including particular functions, features, subscription plans, and promotional offerings).
+
+* Our dynamic content offering is constantly evolving and adapting to the needs of the Spotify community. Spotify has no obligation to provide any specific content through the Spotify Service, and Spotify or the applicable owners may remove access to particular songs, videos, podcasts, audiobooks and other Content without notice.
+
+Your right to terminate these Terms if you no longer want to use the Spotify Service is set forth in Section 6 below.
+
+### D1 P6
+If you have prepaid fees directly to Spotify for a Paid Subscription that Spotify permanently discontinues prior to the end of your Prepaid Period (as that term is defined in the "Payments and cancellations" section below), Spotify will refund you the prorated portion of the prepaid fees for the Pre-Paid Period after such discontinuation. Your account and billing information must be up to date in order for us to refund you.
+
+Spotify has no liability to you, nor any obligation to provide a refund to you, in connection with internet or other Spotify Service outages or failures that are caused by the actions of government authorities, other third parties, or events beyond our control.
+
+[]**3\. Your Use of the Spotify Service**
+
+-----------------------------------------------------------------------------
+
+### []**Creating a Spotify account**
+
+You may need to create a Spotify account to use all or part of the Spotify Service, and this account must be in your country of residence. Your username and password are for your personal use only and should be kept confidential. You understand that you are responsible for all use (including any unauthorized use) of your username and password. Notify our [Customer Service] team immediately if your username or password is lost or stolen, or if you believe there has been unauthorized access to your account.
+
+Spotify may reclaim, or require you to change, your username for any reason.
+
+### []**Your rights to use the Spotify Service**
+
+### D1 P7
+**Access to the Spotify Service**
+
+Subject to your compliance with these Terms (including any other applicable terms and conditions), we grant to you limited, non-exclusive, revocable permission to make personal, non-commercial use of the Spotify Service and the Content (collectively, "**Access**"). You must only Access the version of the Spotify Service offered in your country of residence. This Access shall remain in effect unless and until terminated by you or Spotify. You agree that you will not redistribute, sell or transfer the Spotify Service or the Content.
+
+The Spotify software applications and the Content are licensed, not sold or transferred to you, and Spotify and its licensors retain ownership of all copies of the Spotify software applications and Content even after installation on your Devices.
+
+**Spotify's proprietary rights**
+
+The Spotify Service and the Content are the property of Spotify or Spotify's licensors. All Spotify trademarks, service marks, trade names, logos, domain names, and any other features of the Spotify brand ("**Spotify Brand Features**") are the sole property of Spotify or its licensors. These Terms do not grant you any rights to use any Spotify Brand Features whether for commercial or non-commercial use.
+
+You agree to abide by the [Spotify User Guidelines] and the [Platform Rules] and not to use the Spotify Service, the Content, or any part thereof in any manner not expressly permitted by the Agreements.
+
+### D1 P8
+### []**Payments and cancellation**
+
+**Paid Subscriptions**
+
+You may purchase a Paid Subscription directly from Spotify or through a third party either by:
+
+* paying a subscription fee plus applicable taxes in advance on a monthly basis or some other recurring interval disclosed to you prior to your purchase; or
+
+* prepayment giving you access to the Spotify Service for a specific time period ("**Prepaid Period**").
+
+Tax rates are calculated based on the information you provide and the applicable rate at the time of your monthly charge.
+
+If you purchase access to a Paid Subscription through a third party, separate terms and conditions with such third party may apply to your use of the Spotify Service in addition to these Terms. Please contact the third party regarding any refunds or to manage your subscription. If you purchase a Paid Subscription using a code, gift card, pre-paid offer, or other offer provided or sold by or on behalf of Spotify for access to a Paid Subscription ("**Codes**"), you must agree to the Spotify [Card Terms].
+
+If you purchase Audiobook Content outside of your Paid Subscription, your purchase will be governed by the [Audiobook Purchase Terms and Conditions].
+
+**Price and tax changes**
+
+### D1 P9
+Spotify may from time to time make changes to Paid Subscriptions, including recurring subscription fees, the Prepaid Period (for periods not yet paid), or Codes, and will communicate any price changes to you in advance. Price changes will take effect at the start of the next subscription period following the date of the price change and, by continuing to use the Spotify Service after the price change takes effect, you will have accepted the new price. If you do not agree to a price change, you can reject the change by unsubscribing from the applicable Paid Subscription prior to the price change going into effect.
+
+Tax rates are based on the rates applicable at the time of your monthly charge. These amounts can change over time with local tax requirements in your country, state, territory, county, or city. Any change in tax rate will be automatically applied based on the account information you provide.
+
+The price of a Paid Subscription or Trial is specific to the version of the Spotify Service offered in your country of residence and you agree not to engage in any means to Access the Paid Subscription or Trial without paying the applicable price or to frustrate Spotify's legitimate attempts to collect payment for such Access.
+
+**Billing and cancellation**
+
+### D1 P10
+Unless otherwise indicated (for example, if you have signed up for a Prepaid Period), Paid Subscriptions continue indefinitely until cancelled. You will be billed on a recurring basis on the first day of each billing period and you will pay and you authorise us (or the applicable third party, if you sign up through a third party) to charge your payment method the then-current subscription fee.
+
+You may cancel your Paid Subscription at any time by logging into your Spotify account and following the prompts on the Account page or by clicking [here] and following the instructions. Unless otherwise indicated, cancellation will take effect from the end of the billing period in which you cancel and you will be downgraded to the free version of the Spotify Service. Unless otherwise required by law, we do not provide refunds or credits for any partial subscription periods, except as expressly stated in these Terms.
+
+If you have purchased a Paid Subscription using a Code, your subscription will automatically terminate at the end of the period stated with your Code, or when there is an insufficient prepaid balance to pay for the Spotify Service.
+
+### D1 P11
+In addition to, and notwithstanding, any other rights we may have under these Terms, we reserve the right to terminate a Paid Subscription at any time, on no less than 14 days' notice to you. Unless we inform you otherwise, we will allow you to retain access to the Paid Subscription for the remainder of the then-current billing period, after which we will downgrade your account to the free version of the Spotify Service.
+
+### []**User guidelines**
+
+We've established guidelines for using the Spotify Service, to make sure the Spotify Service stays enjoyable for everyone ("**Spotify User Guidelines**"). In using the Spotify Service, you must comply with the [Spotify User Guidelines] and the [Platform Rules], as well as all applicable laws, rules, and regulations, and respect the intellectual property, privacy, and other rights of third parties.
+
+### []**Brand accounts**
+
+If you establish a Spotify account on behalf of a company, organization, entity, or brand ( "**Brand**," and such account a "**Brand Account**"), the terms "you" and "your," as used throughout these Terms (including other Spotify terms and conditions incorporated by reference herein), apply to both you and the Brand.
+
+If you create a Brand Account, you represent and warrant that you are authorized to grant all permissions and licenses provided in these Terms (including any other applicable Spotify terms and conditions) and to bind the Brand to these Terms.
+
+### D1 P12
+A Brand may follow users and create and share playlists, provided that the Brand does not take any action that implies an endorsement or commercial relationship between the Brand and the followed user, artist, songwriter, or any other person, unless the Brand has independently obtained the rights to imply such an endorsement. In addition, Brands must be transparent to our users about disclosing any endorsements or consideration provided to artists, songwriters, users, or any other party and must comply with all applicable laws, regulations, and codes of practice when engaging in the foregoing practices.
+
+### []**Export control and sanctions**
+
+You represent and warrant that you are (1) not located in, organized under the laws of, or ordinarily resident in any country or territory subject to territorial sanctions (collectively "**Sanctioned Country**"), nor are you owned or acting on behalf of a government subject to asset-blocking sanctions or any person or entity organized, located or ordinarily resident in a Sanctioned Country; and (2) not a person identified on, or more than 50% owned or controlled, directly or indirectly, by or acting on behalf or at the direction of any entity identified on, E.U., U.K., or U.S., or other applicable government restricted party lists, such as the consolidated list of persons, groups and entities subject to EU financial sanctions, or the UK Consolidated List, or Specifically Designated Nationals list maintained by the US government.
+
+### D1 P13
+Spotify's products may be subject to export control and economic sanctions laws of the European Union, the United Kingdom, the United States, including but not limited to Regulation 2021/821 as amended (EU Dual-Use Regulation), the UK Export Control Act 2002 and the UK Export Control Order 2008, the Export Administration Regulations maintained by the U.S. Department of Commerce, trade and economic sanctions maintained by the Treasury Department's Office of Foreign Assets Control and the International Traffic in Arms Regulations maintained by the Department of State, (collectively, "**Trade Control Laws**").
+
+You agree to comply with all applicable Trade Control Laws in your use of Spotify's products or services. Specifically, you agree not to – directly or indirectly – use, sell, export, reexport, transfer, divert, release, or otherwise dispose of any products, software, or technology (including products derived from or based on such technology) received from Spotify under these Terms to any destination, entity, or person or for any end-use prohibited by the Trade Control Laws. Spotify shall not be required to act in any way that is prohibited under applicable Trade Control Laws, and it shall be in the sole discretion of Spotify to refrain from being directly or indirectly involved in the provision of products or services that may be prohibited under applicable Trade Control Laws.
+
+[]**4\. Content and Intellectual Property Rights**
+
+### D1 P14
+-----------------------------------------------------------------------------------------------
+
+### []**User Content**
+
+**The content you post on the Spotify Service**
+
+Spotify users may post, upload, or otherwise contribute content to the Spotify Service ("**User Content**"). For the avoidance of doubt, User Content includes all information, materials, messages or other communications, and any other content that is added, created, uploaded, submitted, distributed, or posted to or through the Spotify Service by users. For more information on User Content or other third-party content and its moderation, see our [Platform Rules], information about [Content Actions], our [Safety & Privacy Center] and our [Intellectual Property Policy].
+
+You are solely responsible for all User Content that you post.
+
+You promise that, with respect to any User Content you post on Spotify, (1) you own or have the right to post such User Content; and (2) such User Content, or its use by Spotify pursuant to the license granted below, does not: (i) violate these Terms, including the Spotify User Guidelines, applicable law, or the intellectual property or other rights of any third party; or (ii) imply any affiliation with or endorsement of you or your User Content by Spotify or any artist, band, label, or other individual or entity without the prior express written consent from Spotify or such individual or entity.
+
+### D1 P15
+We may provide you with the ability to post or share User Content in different ways on the Spotify Service, including by sending messages or communications to other Spotify users. In posting or sharing User Content or other information on the Spotify Service, please keep in mind that, depending on the method of posting or sharing, content and other information may be privately transmitted to one or more users or it may be publicly accessible, and may be used and re-shared by others on the Spotify Service and across the web, so please use caution in posting or sharing on the Spotify Service, and be mindful of your account settings. Spotify is not responsible for what you or others post or share on the Spotify Service.
+
+**Monitoring user content**
+
+Spotify may, but has no obligation to, monitor or review User Content (whether publicly posted or privately shared). Spotify reserves the right to remove or disable access to any User Content for any or no reason. Spotify may take these actions without prior notification to you.
+
+### []**Licenses that you grant to us**
+
+**User Content**
+
+### D1 P16
+You retain ownership of your User Content when you post it to the Spotify Service. However, in order for us to make your User Content available on the Spotify Service and to provide you with certain features and functions, we do need a limited license from you to that User Content. Accordingly, you hereby grant to Spotify a non-exclusive, transferable, sublicensable, royalty-free, fully paid, irrevocable, worldwide license to reproduce, make available, perform and display, translate, modify, create derivative works from, distribute, and otherwise use any such User Content through any medium, whether alone or in combination with other Content or materials, in any manner and by any means, method or technology, whether now known or hereafter created, in connection with the Spotify Service. Where applicable and to the extent permitted under applicable law, you also agree to waive, and not to enforce, any "moral rights" or equivalent rights, such as your right to be identified as the author of any User Content, including Feedback, and your right to object to derogatory treatment of such User Content.
+
+**Feedback**
+
+If you provide ideas, suggestions, or other feedback in connection with your use of the Spotify Service or any Content ("**Feedback**"), such Feedback is not confidential and may be used by Spotify without restriction and without payment to you. Feedback is considered a type of User Content under these Terms.
+
+**Your Device**
+
+### D1 P17
+You also grant to us the right (1) to allow the Spotify Service to use the processor, bandwidth, and storage hardware on your Device in order to facilitate the operation of the Spotify Service, and (2) to provide advertising and other information to you, and (3) to allow our business partners to do the same.
+
+**Content experience**
+
+At Spotify, we aim to create great and unique experiences for each user. In [Understanding recommendations on Spotify], you can learn more about how our recommendation systems work, including how and why certain content is displayed to you.
+
+In any part of the Spotify Service, the Content that you access, including its selection and placement, may be influenced by commercial considerations, including Spotify's agreements with third parties.
+
+Some Content licensed by, provided to, created by, or otherwise made available by Spotify (e.g., podcasts or shows) may incorporate advertising or other promotional messages.
+
+**Infringement claims**
+
+Spotify respects the rights of intellectual property owners. If you believe that any Content infringes your copyright, trademark or other intellectual property rights, please see the [Spotify Intellectual Property Policy.]
+
+[]**5\. Customer Support, Information, Questions, and Complaints**
+
+----------------------------------------------------------------------------------------------------------------------------
+
+### []**Spotify support community**
+
+### D1 P18
+[Spotify Community] is a place for discussions and exchange of information, tips, and other materials related to the Spotify Service. By using Spotify Community, you agree to the [Community Terms].
+
+### []**Customer support, information, questions, and complaints**
+
+For customer support with account- and payment-related questions ("**Customer Support Queries**"), please use Customer Support resources listed on the [About Us] section of our website.
+
+If you have any questions concerning the Spotify Service or these Terms (including any additional Spotify terms and conditions incorporated herein), please contact Spotify Customer Service by visiting the About Us section of our website. You may also contact us at the mailing address set forth in the "Service Provider" section at the start of these Terms.
+
+In addition, under California Civil Code Section 1789.3, you may contact the Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs in writing at 1625 N. Market Blvd., Suite N 112, Sacramento, California 95834, or by telephone at 1-800-952-5210 in order to resolve a complaint regarding the Spotify Service or to receive further information regarding use of the Spotify Service.
+
+[]**6\. Problems and Disputes**
+
+---------------------------------------------------------
+
+### []**Suspending and terminating the Spotify Service**
+
+### D1 P19
+These Terms will continue to apply to you until terminated by either you or Spotify. Spotify may terminate these Terms (including any additional terms and conditions incorporated herein) or suspend your access to the Spotify Service at any time if we believe you have breached any of these Terms, if we stop providing the Spotify Service or any material component thereof, or as we believe necessary to comply with applicable law. If you or Spotify terminate these Terms, or if Spotify suspends your access to the Spotify Service, you agree that Spotify shall have no liability or responsibility to you, and (except as expressly provided in these Terms) Spotify will not refund any amounts that you have already paid. You may terminate these Terms at any time, in which case you may not continue accessing or using the Spotify Service. To learn how to terminate your Spotify account, please use the Customer Support resources on our [About Us] page.
+
+The following sections shall survive termination: Sections 2 (The Spotify Service), 3 (Your Use of the Spotify Service) (except as set forth therein), 4 (Content and Intellectual Property Rights), 6 (Problems and Disputes), 7 (About These Terms), as well as any other sections of these Terms that, either explicitly or by their nature, must remain in effect even after termination of these Terms.
+
+### []**Warranty disclaimers**
+
+### D1 P20
+Some jurisdictions do not allow the exclusion of implied warranties or limitations on applicable statutory rights of a consumer, so the exclusion and limitations in this section may not apply to you.
+
+### D1 P21
+THE SPOTIFY SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT ANY WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY. FURTHER, SPOTIFY AND ALL OWNERS OF THE CONTENT DISCLAIM ANY EXPRESS, IMPLIED, AND STATUTORY WARRANTIES REGARDING THE CONTENT, INCLUDING WARRANTIES OF SATISFACTORY QUALITY, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. NEITHER SPOTIFY NOR ANY OWNER OF CONTENT WARRANTS THAT THE SPOTIFY SERVICE OR CONTENT IS FREE OF MALWARE OR OTHER HARMFUL COMPONENTS. IN ADDITION, SPOTIFY MAKES NO REPRESENTATION REGARDING, NOR DOES IT WARRANT OR ASSUME ANY RESPONSIBILITY FOR, ANY THIRD-PARTY APPLICATIONS (OR THE CONTENT THEREOF), USER CONTENT, DEVICES OR ANY PRODUCT OR SERVICE ADVERTISED, PROMOTED OR OFFERED BY A THIRD PARTY ON OR THROUGH THE SPOTIFY SERVICE OR ANY HYPERLINKED WEBSITE, AND SPOTIFY IS NOT RESPONSIBLE FOR ANY TRANSACTIONS BETWEEN YOU AND ANY THIRD-PARTY PROVIDERS OF THE FOREGOING. NO ADVICE OR INFORMATION WHETHER ORAL OR IN WRITING OBTAINED BY YOU FROM SPOTIFY SHALL CREATE ANY WARRANTY ON BEHALF OF SPOTIFY. WHILE USING THE SPOTIFY SERVICE, YOU MAY HAVE ACCESS TO EXPLICIT CONTENT FILTERING FEATURES, BUT USE OF THESE FEATURES MAY STILL RESULT IN SOME EXPLICIT CONTENT BEING SERVED AND YOU SHOULD NOT RELY ON SUCH FEATURES TO FILTER ALL EXPLICIT CONTENT. THIS SECTION APPLIES TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW.
+
+### []**Limitation of liability and time for filing a claim**
+
+### D1 P22
+YOU AGREE THAT YOUR SOLE AND EXCLUSIVE REMEDY FOR ANY PROBLEMS OR DISSATISFACTION WITH THE SPOTIFY SERVICE IS TO UNINSTALL ANY SPOTIFY SOFTWARE AND TO STOP USING THE SPOTIFY SERVICE. YOU AGREE THAT SPOTIFY HAS NO OBLIGATION OR LIABILITY ARISING FROM OR RELATED TO THIRD-PARTY APPLICATIONS OR THE CONTENT THEREOF MADE AVAILABLE THROUGH OR IN CONNECTION WITH THE SPOTIFY SERVICE, AND WHILE YOUR RELATIONSHIP WITH SUCH THIRD-PARTY APPLICATIONS MAY BE GOVERNED BY SEPARATE AGREEMENTS WITH SUCH THIRD PARTIES, YOUR SOLE AND EXCLUSIVE REMEDY, AS WITH RESPECT TO SPOTIFY, FOR ANY PROBLEMS OR DISSATISFACTION WITH ANY THIRD-PARTY APPLICATIONS OR THE CONTENT THEREOF, IS TO UNINSTALL OR STOP USING SUCH THIRD-PARTY APPLICATIONS.
+
+### D1 P23
+TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL SPOTIFY, ITS OFFICERS, SHAREHOLDERS, EMPLOYEES, AGENTS, DIRECTORS, SUBSIDIARIES, AFFILIATES, SUCCESSORS, ASSIGNS, SUPPLIERS, OR LICENSORS BE LIABLE FOR (1) ANY INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE, EXEMPLARY, OR CONSEQUENTIAL DAMAGES; (2) ANY LOSS OF USE, DATA, BUSINESS, OR PROFITS (WHETHER DIRECT OR INDIRECT), IN ALL CASES ARISING OUT OF THE USE OF OR INABILITY TO USE THE SPOTIFY SERVICE, DEVICES, THIRD-PARTY APPLICATIONS, OR THIRD-PARTY APPLICATION CONTENT, REGARDLESS OF LEGAL THEORY, WITHOUT REGARD TO WHETHER SPOTIFY HAS BEEN WARNED OF THE POSSIBILITY OF THOSE DAMAGES, AND EVEN IF A REMEDY FAILS OF ITS ESSENTIAL PURPOSE; OR (3) AGGREGATE LIABILITY FOR ALL CLAIMS RELATING TO THE SPOTIFY SERVICE, THIRD-PARTY APPLICATIONS, OR THIRD-PARTY APPLICATION CONTENT MORE THAN THE GREATER OF (A) THE AMOUNTS PAID BY YOU TO SPOTIFY DURING THE TWELVE MONTHS PRIOR TO THE FIRST CLAIM; OR (B) $30.00.
+
+For clarification, these Terms do not limit Spotify's liability for fraud, fraudulent misrepresentation, death or personal injury to the extent that applicable law would prohibit such a limitation.
+
+### D1 P24
+TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, ANY CLAIM ARISING UNDER THESE TERMS MUST BE COMMENCED (BY FILING A DEMAND OR FILING AN INDIVIDUAL ACTION AS SPECIFIED UNDER THE ARBITRATION AGREEMENT BELOW) WITHIN ONE (1) YEAR AFTER THE DATE THE PARTY ASSERTING THE CLAIM FIRST KNOWS OR REASONABLY SHOULD KNOW OF THE ACT, OMISSION, OR DEFAULT GIVING RISE TO THE CLAIM; AND THERE SHALL BE NO RIGHT TO ANY REMEDY FOR ANY CLAIM NOT ASSERTED WITHIN THAT TIME PERIOD.
+
+### []**Third-party rights**
+
+You acknowledge and agree that the owners of the Content and certain distributors (such as app store providers) are intended beneficiaries of these Terms and have the right to enforce these Terms directly against you. Other than as set out in this section, (1) these Terms are not intended to grant rights to anyone except you and Spotify; and (2) in no event shall these Terms create any third-party beneficiary rights.
+
+### D1 P25
+If you have downloaded any of our mobile software applications (each, an "**App**") from the Apple Inc. ("**Apple**") App Store or if you are using the App on an iOS device, you acknowledge that you have read, understood, and agree to the following notice regarding Apple. These Terms are between you and Spotify only, not with Apple, and Apple is not responsible for the Spotify Service and the content thereof. Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the Spotify Service. In the event of any failure of the Spotify Service to conform to any applicable warranty, you may notify Apple and Apple will refund the applicable purchase price for the App to you; and, to the maximum extent permitted by applicable law, Apple has no other warranty obligation whatsoever with respect to the Spotify Service. Apple is not responsible for addressing any claims by you or any third party relating to the Spotify Service or your possession or use of the Spotify Service, including: (1) product liability claims; (2) any claim that the Spotify Service fails to conform to any applicable legal or regulatory requirement; (3) claims arising under consumer protection or similar legislation; and (4) claims with respect to intellectual property infringement. Apple is not responsible for the investigation, defense, settlement, and discharge of any third-party claim that the Spotify Service or your possession and use of the App infringe that third party's
+
+### D1 P26
+intellectual property rights. You agree to comply with any applicable third-party terms, when using the Spotify Service. Apple, and Apple's subsidiaries, are third-party beneficiaries of these Terms, and upon your acceptance of these Terms, Apple will have the right (and will be deemed to have accepted the right) to enforce these Terms against you as a third-party beneficiary of these Terms.
+
+### []**Indemnification**
+
+You agree to indemnify and hold Spotify harmless from and against all damages, losses, and expenses of any kind (including reasonable attorneys' fees and costs) arising out of or related to: (1) your breach of any of these Terms (including any additional Spotify terms and conditions incorporated herein); (2) any User Content you post or otherwise contribute; (3) any activity in which you engage on or through the Spotify Service; and (4) your violation of any law or the rights of a third party.
+
+### []**Governing law, jurisdiction, class action waiver, and jury trial waiver**
+
+### D1 P27
+To the fullest extent permitted by applicable law, these Terms and any dispute, claim, and/or controversy that in any way relates to or arises in connection with these Terms or your relationship with Spotify as a user of the Spotify Service ("**Dispute**") are governed by and shall be construed in accordance with the laws of the state of New York, except to the extent preempted by or inconsistent with federal law. Further, to the fullest extent permitted by applicable law, you and Spotify agree to the exclusive jurisdiction of the federal or state courts located in New York, New York, to resolve any Dispute that is not subject to mandatory arbitration under the Arbitration Agreement below (including, but not limited to, any Dispute involving the applicability and enforceability of the Arbitration Agreement), and waive any jurisdictional, venue, or inconvenient forum objections to such courts.
+
+To the fullest extent permitted by applicable law, you and Spotify agree that each party may bring claims (whether in court or in arbitration) against the other only in an individual capacity. Neither party may participate as a plaintiff, claimant, or class member in any class, collective, consolidated, private attorney general, or representative proceeding (whether in court or arbitration). Notwithstanding the foregoing, you or Spotify may participate in a class-wide, collective, or representative settlement of claims.
+
+### D1 P28
+To the fullest extent permitted by applicable law, the parties agree to waive any right to a jury trial.
+
+### []**ARBITRATION AGREEMENT**
+
+This Arbitration Agreement section sets forth the terms and conditions pursuant to which Disputes between you and Spotify will be resolved through individual arbitration ("**Arbitration Agreement**").
+
+#### []**Dispute resolution and arbitration**
+
+### D1 P29
+Subject to the exceptions set forth in the "Exceptions to arbitration" section below, you and Spotify agree that any Dispute between you and Spotify (whether based in contract, tort, statute, fraud, misrepresentation, or any other legal theory, whether the claims arose before the existence of this or any prior Arbitration Agreement, and whether the claims arise after the termination of these Terms) will be determined by binding individual (not class) arbitration. The arbitrator has the authority to rule on all issues except that a court has exclusive authority to: (1) decide arbitrability, as well as scope, validity, and enforceability of this Arbitration Agreement, including, but not limited to, any Dispute over the applicable version of the Arbitration Agreement; (2) decide whether you and Spotify have complied with the pre-arbitration filing requirements (including the requirements described in the "Pre-arbitration notice of dispute and informal resolution period" section below); (3) enforce the prohibition on class or representative actions; (4) enforce the provisions regarding mass arbitrations; and (5) enjoin an arbitration from proceeding if it does not comply with this Arbitration Agreement. THERE IS NO JUDGE OR JURY IN ARBITRATION, AND COURT REVIEW OF AN ARBITRATION AWARD IS LIMITED. The arbitrator can award the same damages and relief as a court (including attorneys' fees and costs where allowable under applicable law), except that (as discussed below) the arbitrato
+
+### D1 P30
+r may not award any relief, including declaratory or injunctive relief, benefiting anyone but the parties to the arbitration. This arbitration provision will survive termination of these Terms.
+
+#### []**Exceptions to arbitration**
+
+You and Spotify both agree that any Dispute relating to any actual or alleged infringement of your or Spotify's intellectual property rights shall be brought in the federal courts of New York, New York, and that nothing in this Arbitration Agreement will be deemed to waive, preclude, or otherwise limit either of your or Spotify's rights, at any time, to elect to have an individual action heard in: (1) a U.S. small claims court (so long as the action is litigated exclusively in small claims court and is not removed or appealed to a court of general jurisdiction); or (2) a court of law, in accordance with the jurisdiction and venue described in the "Governing law, jurisdiction, class action waiver, and jury trial waiver" section above, seeking only temporary or preliminary individualized injunctive relief, pending a final ruling from the arbitrator. In addition, this Arbitration Agreement does not stop you or us from bringing issues to the attention of federal, state, or local agencies. Such agencies can, if the law allows, seek relief against us on your behalf (or vice versa). Nor does this Arbitration Agreement preclude you or us from entering into or participating in a class-wide, collective, or representative settlement of claims.
+
+### D1 P31
+#### []**No class or representative proceedings and class action waiver**
+
+YOU AND SPOTIFY AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER IN ARBITRATION OR LITIGATION ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS, COLLECTIVE, CONSOLIDATED, PRIVATE ATTORNEY GENERAL, OR REPRESENTATIVE ACTION. Unless both you and Spotify agree, no arbitrator or judge may consolidate more than one person's claims or otherwise preside over any form of representative or class proceeding. The arbitrator may award injunctive relief only in favor of the individual party seeking relief and only to the extent necessary to provide relief warranted by that party's individual claim. If a court decides that applicable law precludes enforcement of any of this paragraph's limitations as to a particular claim for relief or request for relief (such as a request for public injunctive relief) and all appeals have been exhausted or the decision is otherwise final, then the parties agree that such a claim or request for relief shall be decided by a court only after all other claims and requests for relief are arbitrated.
+
+#### []**Pre-arbitration notice of dispute and informal resolution period**
+
+### D1 P32
+A party who intends to seek arbitration must first send a written notice of the Dispute ("**Notice**") to the other. Notices to Spotify must be sent by email to [tounotice@spotify.com], and Notices to you must be sent to the email address associated with your Spotify account. All Notices must: (1) be personally signed by the party sending the Notice; (2) provide the relevant user's name, email address associated with the user's Spotify account, and Spotify username; (3) provide the claimant's address of residence (and if different, mailing address); (4) describe with specificity the nature and basis of the Dispute; and (5) set forth the alleged damage and harm suffered and the specific relief sought with a calculation for it.
+
+### D1 P33
+After a Notice containing all of the information required above is received, the parties agree to engage in good faith for a period of sixty (60) days in an effort to resolve the Dispute (this time period may be extended by agreement of the parties) ("**Informal Resolution Period**"). The party receiving the Notice may request a telephone or video settlement conference during the Informal Resolution Period in an effort to facilitate resolution of the Dispute ("**Informal Settlement Conference**"). The Informal Settlement Conference, if any, will take place at a mutually agreeable time, which can be after the sixty (60) day Informal Resolution Period if needed to accommodate the parties' schedules. During the Informal Settlement Conference, you and a Spotify representative must both personally participate in a good-faith effort to resolve the Dispute without the need to proceed with arbitration. Any counsel representing the parties also may participate. Personal participation in an Informal Settlement Conference will not be required if both you and Spotify agree in writing.
+
+### D1 P34
+The Notice, Informal Resolution Period, and Informal Settlement Conference are intended to give the parties a meaningful opportunity to resolve Disputes informally. If any aspect of this "Pre-arbitration notice of dispute and informal resolution period" section has not been met, the parties agree that a court can enjoin the filing or prosecution of an arbitration and, unless prohibited by law, the arbitration administrator shall not accept or administer an arbitration nor demand fees in connection with such an arbitration. Notwithstanding the foregoing, a party retains the right to raise non-compliance with the requirements of this section and seek appropriate relief in arbitration, if neither party wishes to bring the issue to a court.
+
+Any applicable statute of limitations or contractual limitations period will be tolled for any claims and requests for relief set forth in a Notice from the date that either you or Spotify sends the other a fully complete Notice until: (1) thirty (30) days after completion of the Informal Resolution Period, if no Informal Settlement Conference is held; or (2) thirty (30) days after completion of the Informal Settlement Conference if an Informal Settlement Conference is held ("**Tolling Period**").
+
+Neither you nor Spotify may commence an arbitration proceeding until after the Tolling Period has ended.
+
+### []**Arbitration rules and fees**
+
+### D1 P35
+Either you or Spotify may start arbitration proceedings. Any arbitration between you and Spotify will be administered by National Arbitration and Mediation ("**NAM**") in accordance with their rules applicable to the nature of the Dispute, including the Comprehensive Dispute Resolution Rules and Procedures and/or the Supplemental Rules for Mass Arbitration Filings ("**NAM Rules**"), as modified by this Arbitration Agreement. You and Spotify agree that the substantive and procedural provisions of the Federal Arbitration Act (and not state arbitration law) apply and govern the interpretation and enforcement of this Arbitration Agreement (despite the choice of law provision above). The NAM Rules, as well as instructions on how to file a demand for arbitration ("**Demand**") with NAM, appear at [www.namadr.com/resources/rules-fees-forms/]. The Demand must attach the relevant Notice and be personally signed by the party initiating the arbitration (and their counsel, if represented). The Demand shall also disclose any person or entity that is funding the prosecution of, or has a financial interest in, the arbitration.
+
+### D1 P36
+If NAM is unavailable, unwilling, or otherwise unable to administer an arbitration in accordance with this Arbitration Agreement, then another administrator that will do so will be selected by agreement of the parties. If the parties cannot agree, then they will jointly petition a court to appoint an administrator that will do so. To start an arbitration, the claimant shall send a copy of the Demand to NAM and the other party. If you initiate arbitration, you shall serve the Demand on Spotify via email at [tounotice@spotify.com] and to Spotify's registered agent at CT Corporation System, 28 Liberty Street, New York, New York, 10005. If Spotify initiates arbitration, Spotify shall serve the Demand on you at the email address associated with your Spotify account. The claimant must certify in the Demand that the requirements set forth in the "Pre-arbitration notice of dispute and informal resolution period" section above have been met, and must attach a copy of the Notice to the Demand.
+
+Each party retains the right to request a hearing in arbitration from the arbitrator. Any arbitration hearings will be conducted by phone or videoconference to the extent possible, but if the arbitrator determines that a hearing should be conducted in person, the locale for such hearing shall be in the county or parish where you reside or at another agreed upon locale.
+
+### D1 P37
+As in court, any counsel participating in an arbitration certifies that they are complying with the requirements of Federal Rule of Civil Procedure 11(b), including a certification that the claim or the relief sought is neither frivolous nor brought for an improper purpose. The arbitrator is authorized to impose any sanctions available under the NAM Rules, Federal Rule of Civil Procedure 11, or applicable federal or state law against all appropriate represented parties and counsel.
+
+Spotify will pay all filing, administration, case-management, hearing, and arbitrator fees ("**Arbitration Fees**") if it initiates an arbitration. If you choose to file an arbitration proceeding, the allocation and payment of Arbitration Fees will be governed by the NAM Rules, unless a different allocation is required by court order or for this Arbitration Agreement to be enforced. You and Spotify agree that arbitration should be cost effective for all parties. Either party may engage with the arbitration administrator around fee reductions and deferred payments.
+
+### D1 P38
+Regardless of the manner in which the arbitration is conducted, the arbitrator shall issue a reasoned written decision sufficient to explain the essential findings and conclusions on which the decision and award, if any, are based. The arbitrator may consider rulings in other arbitrations involving different users, but an arbitrator's ruling will not be binding or have preclusive effect in any proceeding involving different users. An arbitration award that has been satisfied may not be filed or entered in court.
+
+### []**Mass arbitration**
+
+If you elect to have your claim addressed as part of a mass arbitration (defined below), you agree to the additional procedures set forth below.
+
+If twenty-five (25) or more claimants submit Notices or attempt to file Demands raising similar claims, are represented by the same or coordinated counsel (regardless of whether the Notices or Demands are submitted simultaneously), and the parties cannot resolve the cases during the Informal Resolution Period, all of the cases must be resolved in arbitration through staged sets of proceedings. You agree to this process even though it may delay the arbitration of your case.
+
+### D1 P39
+These mass filing procedures are intended to facilitate the efficient and orderly resolution and settlement of mass arbitrations. If any aspect of this "Mass arbitration" section has not been met, the parties agree that a court can enjoin the filing or prosecution of arbitrations inconsistent with this section and, unless prohibited by law, the arbitration administrator shall not accept or administer an arbitration, nor will the administrator demand fees in connection with such arbitrations, until such issues are finally resolved. Similarly, any claimants who dispute whether their claims are part of a mass arbitration or are otherwise subject to the requirements of this section may ask a court to resolve that Dispute. Notwithstanding the foregoing, if neither party wishes to bring the issue to a court, both parties retain the right to raise issues regarding compliance with or applicability of the requirements of this section and seek appropriate relief in arbitration, including from a NAM Procedural Arbitrator.
+
+If these mass filing procedures apply to your case, the Tolling Period for your claims will be extended until your case is selected to proceed as part of a staged proceeding, withdrawn, opted out of arbitration (as set forth below), or otherwise resolved.
+
+### D1 P40
+First Stage: In the first stage, counsel for the parties shall each select twenty-five (25) cases per side (50 cases total) to be filed in arbitration and to proceed individually in accordance with this Arbitration Agreement, with each case assigned to a separate and different arbitrator (unless the parties agree otherwise). In the meantime, any remaining cases shall not be filed or deemed filed in arbitration, nor shall any Arbitration Fees be assessed in connection with those cases unless and until they are selected to be filed in individual arbitration proceedings as part of a staged process. After the first stage is completed, the parties shall engage in a global, non-binding, and confidential mediation of all remaining cases with a retired federal or state court judge, and Spotify shall pay the mediator's fee.
+
+Second Stage: If the parties are unable to resolve the remaining cases after the mediation, the parties shall repeat the same process as in the first stage outlined above. After the second stage is completed, the parties will again engage in a global, non-binding, and confidential mediation of all remaining cases with a retired federal or state court judge, with the mediator's fee paid for by Spotify.
+
+If the parties are unable to resolve any remaining cases after a second global mediation session:
+
+### D1 P41
+Option One: You and Spotify, separately or by agreement, may opt out of arbitration and elect to have your case heard in a court of competent jurisdiction consistent with the remainder of these Terms. You may opt out of arbitration by providing an individual, personally signed notice of your intention to opt out of arbitration to Spotify via email at [tounotice@spotify.com] within thirty (30) days after the conclusion of the second global mediation session. Spotify may opt your case out of arbitration by sending a notice of intent to opt out to your counsel within fourteen (14) days after your 30-day opt-out-period ends. Counsel for the parties may agree to adjust these deadlines.
+
+OR
+
+### D1 P42
+Option Two: If neither you nor Spotify elects to have your case heard in court consistent with Option One, then you agree that your case will be resolved through continuing staged proceedings as set forth below. Assuming the number of remaining cases exceeds two hundred (200), then two hundred (200) cases shall be randomly selected (or selected through a process agreed to by counsel for the parties) to be filed and to proceed in individual arbitrations as part of a staged process. The parties shall meet and confer regarding ways to increase the efficiency of the process, including whether to allow more than two hundred (200) cases to be brought at a time. If the number of remaining cases is fewer than two hundred (200), then all of those cases shall be filed and proceed in individual arbitrations. No more than five (5) cases within any set of two hundred (200) cases may be assigned to the same arbitrator to proceed individually, unless the parties agree otherwise in writing. Any remaining cases shall not be filed or deemed filed in arbitration, nor shall any Arbitration Fees be assessed in connection with those cases unless and until they are selected to be filed in individual arbitration proceedings as part of a staged process.
+
+### D1 P43
+Throughout the staged process above, the arbitrators for the cases are encouraged to resolve the cases within one hundred twenty (120) days of appointment or as swiftly as possible thereafter, consistent with fairness to the parties. If any case selected for a staged set of proceedings is withdrawn prior to the arbitrator's award (and without the consent of the other party), another case shall be selected to proceed individually in arbitration consistent with the process set forth above.
+
+A court of competent jurisdiction will have the authority to enforce this "Mass arbitration" section and, if necessary, to enjoin the filing or prosecution of arbitrations or the assessment or collection of Arbitration Fees. This "Mass arbitration" section and each of its requirements are intended to be severable from the rest of this Arbitration Agreement. But if a court of competent jurisdiction decides that the staging process set forth in this "Mass arbitration" section applies to your Dispute and is not enforceable (and after exhaustion of all appeals), then your Dispute will proceed in a court of competent jurisdiction, consistent with the remainder of the Terms, and will not proceed in arbitration.
+
+### []**Enforceability**
+
+### D1 P44
+If in the process of arbitrating or litigating a Dispute this Arbitration Agreement is invalidated in whole, the parties agree that they may seek to resolve the Dispute in a U.S. small claims court or in the federal or state courts of New York, New York, consistent with the "Governing law, jurisdiction, class action waiver, and jury trial waiver" section above. To the fullest extent permitted by applicable law, each party may bring a Dispute against the other party only in an individual capacity and not participate as a plaintiff, claimant, or class member in any class, collective, consolidated, private attorney general, or representative proceeding. Notwithstanding the foregoing, either party may participate in a class-wide settlement.
+
+[]**7\. About These Terms**
+
+-------------------------------------------------
+
+Under applicable law, you may have certain rights that can't be limited by a contract. These Terms are in no way intended to restrict those rights.
+
+### []**Changes**
+
+### D1 P45
+We may make changes to these Terms (including any additional Spotify terms and conditions incorporated by reference herein) from time to time by notifying you of such changes by any reasonable means, including by posting the revised Terms on the applicable Spotify Service (provided that, for material changes, we will seek to supplement such notice by email, an in-service pop-up message, or other prominent notice within the Spotify Service, or other means). Your use of the Spotify Service following any changes to these Terms will constitute your acceptance of such changes. Premium Subscribers who do not wish to continue using the Spotify Service under the updated Terms must close their Spotify account prior to their renewal date or thirty (30) days after the Effective Date, whichever occurs first. If Spotify makes any material change to the Arbitration Agreement (other than a change to the notice address), you may reject any such change by sending us a personally signed, written notice of your decision to opt out of those changes via email to tounotice@spotify.com. This opt-out notice must be sent within thirty (30) days of when we notify users of the change and include: (1) your name, address, email address associated with your Spotify account, phone number, and Spotify username. Such an opt-out must be sent by you personally from your personal email address, and not by your agent, attorney, or anyone else purporting to act on your behalf. The opt-out notice also must include
+
+### D1 P46
+a statement that you wish to reject the change to the Arbitration Agreement. Opting out of a material change to the Arbitration Agreement is not an opt-out of arbitration altogether. Even if you opt out of a material change to the Arbitration Agreement, you and Spotify agree that any Dispute will be determined by binding individual (not class) arbitration in accordance with the Arbitration Agreement in effect immediately before any such opt-out.
+
+### []**Entire agreement**
+
+Other than as stated in this section or as explicitly agreed upon in writing between you and Spotify, these Terms constitute all the terms and conditions agreed upon between you and Spotify and supersede any prior agreements in relation to the subject matter of these Terms, whether written or oral. As noted above, other terms and conditions, guidelines and policies governing use of the Spotify Service are incorporated herein by reference. These include the following (a) additional terms and conditions related to specific services offered on the Spotify Service: the [Spotify Paid Subscription Terms]; the [Spotify Audiobook Purchase Terms and Conditions]; [Spotify's Card Terms]; and [Spotify Support Community Terms]; and (b) guidelines and policies: the [Spotify Privacy Policy]; the [Spotify User Guidelines]; the [Spotify Platform Rules] and the [Spotify Intellectual Property Policy].
+
+### []**Severability and waiver**
+
+### D1 P47
+Unless as otherwise stated in these Terms, should any provision of these Terms be held invalid or unenforceable for any reason or to any extent, the remaining provisions of these Terms will not be affected, and the application of that provision shall be enforced to the extent permitted by law.
+
+Any failure by Spotify or any third-party beneficiary to enforce these Terms or any provision thereof shall not waive Spotify's or the applicable third-party beneficiary's right to do so.
+
+### []**Assignment**
+
+Spotify may assign any or all of these Terms, and may assign or delegate, in whole or in part, any of its rights or obligations under these Terms. You may not assign these Terms, in whole or in part, nor transfer or sublicense your rights under these Terms to any third party.
+
+
+## Cases for D1 (Spotify, Terms of Service)
+
+- C1. "This service has a no refund policy with some exceptions". Description: Payments can be refunded if some requirements are fulfilled. Classification: neutral.
+- C2. "Your account may be suspended and/or terminated for breaching the Terms of Service". Description: Your account can be terminated for having been in breach of the Terms of Service/Community Guidelines/any other relevant policy. Your account can not be terminated without a reason. Classification: good.
+- C3. "No guarantee is given regarding quality". Description: The Service doesn't warrant or guarantee the quality of the products or services provided. Classification: neutral.
+- C4. "You are forced into binding arbitration in case of disputes". Description: This service forces users to use their own contracted arbitrator and forces users to waive their rights to jury trial. Classification: bad.
+- C5. "There is a date of the last update of the agreements". Description: The given text has a date that allows to know when it was last updated. Classification: neutral.
+
+## D2: Telegram, Privacy Policy (current version, 32 pieces)
+
+### D2 P1
+Telegram Datenschutzerklärung
+
+=============================
+
+> Für Nutzer, die auf Telegram aus der Europäischen Union zugreifen, ist die [Leitlinie für das EU-Gesetz über digitale Dienste (“DSA”)] auch Bestandteil unserer [Nutzungsbedingungen].
+
+### []1\. Einleitung
+
+Diese Datenschutzerklärung beschreibt, wie wir, Telegram Messenger Inc. **(“Telegram”)**, deine personenbezogenen Daten im Zusammenhang mit deiner Nutzung unserer Cloud-basierten Messaging-Dienste (nachfolgend **“Dienste”**) verarbeiten und schützen. Nachfolgend bezieht sich **“wir”**, **“uns”** und **“unser”** auf Telegram, und **“du”** bezieht sich auf dich, den Nutzer bzw. die Nutzerin der Dienste.
+
+#### []1.1. Datenschutzgrundsätze
+
+Telegram hat zwei grundlegende Prinzipien, wenn es um die Erhebung und Verarbeitung personenbezogener Daten von Nutzern geht:
+
+* Wir verwenden weder die Inhalte deiner Chats noch deine Kontaktlisten, um dir Werbung anzuzeigen.
+
+* Wir speichern nur die Daten, die Telegram benötigt, um ein sicherer und funktionsreicher Messaging-Dienst zu sein und diesen Dienst unseren Nutzern zur Verfügung zu stellen.
+
+#### []1.2. Nutzungsbedingungen
+
+Diese Datenschutzerklärung ist Teil unserer Nutzungsbedingungen, die die Bedingungen beschreiben, unter denen du unsere Dienste nutzen kannst und die unter **[][https://telegram.org/tos/de]** verfügbar sind. Diese Datenschutzerklärung sollte daher in Verbindung mit den Nutzungsbedingungen gelesen werden.
+
+#### []1.3. Inhaltsverzeichnis
+
+### D2 P2
+In dieser Datenschutzerklärung wird Folgendes erläutert:
+
+* [die Rechtsgrundlage für die Verarbeitung deiner personenbezogenen Daten;]
+
+* [welche personenbezogenen Daten wir von dir erheben können;]
+
+* [wie wir deine persönlichen Daten schützen;]
+
+* [für welche Zwecke wir deine personenbezogenen Daten verarbeiten;]
+
+* [mit wem wir deine personenbezogenen Daten teilen dürfen] und
+
+* [deine Rechte bezüglich deiner personenbezogenen Daten.]
+
+#### []1.4. EWR-Vertreter
+
+Wenn du dich in einem Land des [Europäischen Wirtschaftsraums] (EWR) aufhältst, werden die Dienste von Telegram bereitgestellt, die der Verantwortliche im Sinne der geltenden Datenschutzgesetze für die Verarbeitung der personenbezogenen Daten ist. Da Telegram (mit eingetragenem Sitz in Commerce House, Wickhams Cay 1, PO Box 3140, Road Town, Tortola, VG1110, Britische Jungferninseln) außerhalb des EWR ansässig ist, haben wir das European Data Protection Office (EDPO), eine von Telegram unabhängige Gesellschaft, als [Vertreter] nach Artikel 27 DSGVO benannt. An EDPO können alle Fragen und die Geltendmachung deiner Rechte gesendet werden, die du im Zusammenhang mit unserer Verarbeitung deiner personenbezogenen Daten hast, indem du diese
+
+* per [Online-Anfrageformular] des EDPO stellst, oder
+
+* schriftlich an die Anschrift des EDPO, Avenue Huart Hamoir 71, 1030 Brüssel, Belgien, sendest.
+
+### []2\. Rechtsgrundlage für die Verarbeitung personenbezogener Daten
+
+### D2 P3
+Wir verarbeiten deine personenbezogenen Daten im Rahmen unserer berechtigten Interessen (einschließlich: _(1)_ Bereitstellung effektiver und innovativer Dienste für unsere Nutzer; _(2)_ um Betrug oder Sicherheitsprobleme in Bezug auf die Erbringung unserer Dienste aufzudecken, zu verhindern oder anderweitig zu bekämpfen), es sei denn, diese Interessen treten hinter deine Interessen oder Grundrechten und Grundfreiheiten zurück, die den Schutz personenbezogener Daten erfordern.
+
+### []3\. Welche personenbezogenen Daten wir verarbeiten
+
+#### []3.1. Grundlegende Kontodaten
+
+Telegram ist ein Kommunikationsdienst. Du gibst deine Handynummer und grundlegende Kontodaten (einschließlich Profilname, Profilbild und sonstige Informationen) an, um ein Telegram-Konto zu erstellen.
+
+Insbesondere um es deinen Kontakten und anderen Personen zu ermöglichen, mit dir über die Dienste zu kommunizieren und es ihnen leichter zu machen, dich zu erreichen und zu erkennen, sind der von dir gewählte Anzeigename, deine öffentlichen Profilbilder und dein [Benutzername] (falls du einen festlegen möchtest) auf Telegram immer öffentlich. Wir möchten nicht deinen echten Namen, dein Geschlecht, dein Alter oder deine Vorlieben, wissen.
+
+### D2 P4
+Wir verlangen **nicht**, dass dein Anzeigename dein richtiger Name ist. Beachte, dass Nutzer, die dich in ihren Kontakten haben, dich mit dem Namen sehen, den sie gespeichert haben, und nicht nach deinem Anzeigenamen. Auf diese Weise kann deine Mutter z.B. den Anzeigenamen “Johnny Depp” tragen, während sie dir gegenüber als “Mama” und ihren Mitarbeitern gegenüber als “Chef” angezeigt wird (oder umgekehrt).
+
+#### []3.1.1 Optionale Daten
+
+Wenn du möchtest, kannst du deinen Geburtstag (mit oder ohne Jahreszahl) zu deinem Telegram-Profil hinzufügen. Du kannst genau festlegen, welche Nutzer deinen Geburtstag in deinem Profil sehen können. Standardmäßig sind das deine Kontakte, die an diesen Tag erinnert werden. Wir können Informationen über dein Alter verwenden, um zu bestimmen, ob du Zugang zu altersspezifischen Inhalten hast.
+
+[Telegram Business] Abonnenten können ihrem Profil einen festen Standort und eine Liste der Öffnungszeiten hinzufügen, um es Kunden zu erleichtern, ihr Geschäft auf Telegram zu finden und mit ihnen in Kontakt zu treten. Diese Informationen sind immer öffentlich.
+
+#### []3.2. Deine E-Mail-Adresse
+
+### D2 P5
+Wenn du die zweistufige Bestätigung für dein Konto aktivierst oder Dokumente mithilfe der Telegram Passport-Funktion speicherst, kannst du eine E-Mail-Adresse zur Passwortwiederherstellung einrichten. Diese Adresse wird nur verarbeitet, um dir einen Code zur Passwortwiederherstellung zu senden, wenn du es vergessen haben solltest. Wir versenden insbesondere keine Marketing- oder “wir vermissen dich” und ähnliche Nonsense-Mails an dich.
+
+Ab September 2022 können wir einige Nutzer bitten, eine E-Mail-Adresse anzugeben, um Anmeldecodes per E-Mail statt per SMS zu erhalten (kann mit der Option, “Mit Google anmelden” / “Mit Apple anmelden” ausgewählt werden). In diesem Fall erhalten wir eine E-Mail-Adresse, die getrennt von der Wiederherstellungs-E-Mail gespeichert wird und nur dazu verwendet wird, dir Authentifizierungscodes zu schicken, wenn du dich bei deinem Konto anmeldest. Die Anmelde-E-Mail-Adresse wird so lange gespeichert, bis sie geändert wird oder das Konto gelöscht wird.
+
+#### []3.3. Deine Nachrichten
+
+##### []3.3.1. Cloud Chats
+
+### D2 P6
+Telegram ist ein Cloud-Dienst. Wir speichern Nachrichten, Fotos, Videos und Dokumente aus deinen _Cloud Chats_ auf unseren Servern, sodass du jederzeit von jedem deiner Geräte auf deine Daten zugreifen kannst, ohne auf Backups von Drittanbietern angewiesen zu sein. Alle deine personenbezogenen Daten werden verschlüsselt gespeichert, und die Verschlüsselungsschlüssel werden jeweils in mehreren anderen Rechenzentren in verschiedenen Ländern abgelegt. Auf diese Weise können lokale Techniker oder unautorisierte Dritte keinen Zugriff auf Nutzerdaten erhalten.
+
+##### []3.3.2. Geheime Chats
+
+Geheime Chats verwenden eine Ende-zu-Ende-Verschlüsselung. Das bedeutet, dass alle Daten mit einem Schlüssel verschlüsselt werden, den nur du und der Empfänger kennen. Nur Personen **mit direktem Zugriff** auf dein Endgerät haben die Möglichkeit zu erfahren, welche Inhalte in diesen Nachrichten gesendet werden. Wir speichern deine Geheimen Chats nicht auf unseren Servern. Wir führen auch keine Protokolle für Nachrichten in Geheimen Chats, sodass dem Server nach kurzer Zeit nicht bekannt ist, an wen oder wann du über Geheime Chats Nachrichten gesendet hast. Aus denselben Gründen sind Geheime Chats in der Cloud nicht verfügbar – du kannst nur auf diese Nachrichten von dem Gerät zugreifen, _an das_ sie oder _von dem_ sie gesendet wurden.
+
+##### []3.3.3. Medien in Geheimen Chats
+
+### D2 P7
+Wenn du Fotos, Videos oder Dateien über Geheime Chats sendest, wird vor dem Hochladen jedes Element mit einem separaten Schlüssel verschlüsselt, der dem Server nicht bekannt ist. Dieser Schlüssel und der Speicherort der Datei werden dann wieder verschlüsselt, dieses Mal mit dem Geheimen Chat-Schlüssel - und an deinen Empfänger gesendet. Du kannst die Datei dann herunterladen und dann entschlüsseln. Das bedeutet, dass die Datei technisch auf einem der Telegram-Server gespeichert ist, aber sie sieht für jeden außer für dich und den Empfänger wie ein Stück zufälligen, nicht lesbaren Mülls aus (“Zufallsdaten”). Wir wissen nicht, wofür diese Zufallsdaten stehen, und wir können nicht nachvollziehen, zu welchem speziellen Chat sie gehören. Wir löschen diese Zufallsdaten regelmäßig von unseren Servern, um Speicherplatz zu sparen.
+
+##### []3.3.4. Öffentliche Chats
+
+Neben privaten Nachrichten unterstützt Telegram auch öffentliche Kanäle und öffentliche Gruppen. Alle öffentlichen Chats sind Cloud Chats (siehe [Abschnitt 3.3.1] oben). Wie alles auf Telegram werden deine personenbezogenen Daten, die du in öffentlichen Bereichen veröffentlichst, sowohl beim Speichern als auch beim Transport verschlüsselt – aber alles, was du öffentlich postest, ist für alle zugänglich und einsehbar.
+
+#### []3.4. Telefonnummer und Kontakte
+
+### D2 P8
+Telegram verwendet deine Telefonnummer als eindeutige Kennung, sodass du ganz einfach von SMS- und anderen Messaging-Apps wechseln und dein soziales Umfeld beibehalten kannst. Wir bitten um deine Einwilligung, bevor deine Kontakte synchronisiert werden.
+
+Sofern du solch eine Einwilligung erteilst, speichern wir deine aktuellen Kontakte, um dich benachrichtigen zu können, sobald sich einer deiner Kontakte bei Telegram anmeldet und um die Namen in Benachrichtigungen korrekt anzuzeigen. Wir benötigen nur die Nummer und den Namen, damit dies funktioniert, und speichern keine anderen Daten über deine Kontakte.
+
+Unsere automatischen Algorithmen können auch anonymisierte Reihen von Telefonnummern verwenden, um die ungefähre Anzahl potenzieller Kontakte zu berechnen, die eine nicht auf Telegram registrierte Telefonnummer haben kann. Wenn du das Menü “Freunde einladen” öffnest, zeigen wir die Ergebnisse neben deinen Kontakten an, um dir einen Eindruck zu geben, wer am meisten von der Teilnahme an Telegram profitieren könnte.
+
+In den Telegram _Einstellungen_ unter _Privatsphäre und Sicherheit_ (bei iOS im Untermenü _Dateneinstellungen_) kannst du die Synchronisierung von Kontakten jederzeit beenden oder die Kontakte von unseren Servern löschen.
+
+### D2 P9
+> Wenn du Android verwendest, wirst du von Telegram um deine Einwilligung zum Zugriff auf deine Telefonanrufliste (READ\_CALL\_LOG) gebeten. Wenn du diese Einwilligung erteilst, kann Telegram dein Konto verifizieren, indem Telegram dich anruft, anstatt dich zur Eingabe eines Codes aufzufordern. Telegram verwendet diese Berechtigung nur, um den Empfang des Bestätigungsanrufs zu bestätigen, indem die Nummer in der Anrufliste überprüft wird.
+
+#### []3.5. Standortdaten
+
+Wenn du einen Standort in einem Chat freigibst, werden diese Standortdaten wie andere Nachrichten in [Cloud Chats] bzw. [Geheimen Chats] behandelt.
+
+Wenn du deinen [Live-Standort] in einem Chat teilst oder _“Mich sichtbar machen”_ bei [Leute in der Nähe] aktivierst, verwendet Telegram deine Daten, um deinen Standort jenen Nutzern anzuzeigen, mit denen du ihn teilst, und zwar auch, wenn die App geschlossen ist – solange du diese optionalen Funktionen aktiviert hast.
+
+#### []3.6. Cookies
+
+### D2 P10
+Die einzigen Cookies, die wir verwenden, sind diejenigen, die zur Erbringung und Bereitstellung unserer Dienste im Internet erforderlich sind. Wir verwenden keine Cookies für Profiling oder Werbung. Die von uns verwendeten Cookies sind kleine Textdateien, die es uns ermöglichen, unsere Dienste bereitzustellen und anzupassen und dir so ein verbessertes Nutzererlebnis zu bieten. Dein Browser sollte es ermöglichen, diese Cookies zu kontrollieren, u. a. ob du sie akzeptieren oder ablehnen willst und wie du sie entfernen kannst. Du kannst Cookies mit deinem Webbrowser blockieren, wenn du diese Cookies jedoch deaktivierst, kannst du dich nicht bei Telegram Web anmelden.
+
+### []4\. Schutz personenbezogener Daten
+
+#### []4.1. Speichern von personenbezogenen Daten
+
+Wenn du dich aus dem EWR für Telegram angemeldet hast, werden deine Daten in Rechenzentren in den Niederlanden gespeichert. Dies sind von Drittanbietern bereitgestellte Rechenzentren, in denen Telegram einen bestimmten Raum angemietet hat. Die Server und Netzwerke, die sich in diesen Rechenzentren befinden und auf denen deine personenbezogenen Daten gespeichert werden, sind jedoch Eigentum von Telegram. Daher geben wir deine personenbezogenen Daten nicht an die Betreiber solcher Rechenzentren weiter. Alle Daten werden stark verschlüsselt gespeichert, sodass lokale Telegram-Techniker, Mitarbeiter des Rechenzentrums oder sonstige Personen keinen Zugriff auf deine Daten erhalten.
+
+#### []4.2. Ende-zu-Ende verschlüsselte Daten
+
+### D2 P11
+Deine Nachrichten, Medien und Dateien und andere personenbezogenen Daten aus Geheimen Chats (siehe [Abschnitt 3.3.2] oben) sowie der Inhalt deiner Anrufe und die Daten, die du in deinem [Telegram Passport] speicherst, werden nur auf deinem Gerät und auf dem Gerät des Empfängers verarbeitet. Bevor diese Daten unsere Server erreichen, werden sie mit einem Schlüssel gesichert, der nur dir und dem Empfänger bekannt ist. Obwohl Telegram-Server diese Ende-zu-Ende verschlüsselten Daten verarbeiten, um sie an den Empfänger zu übermitteln – oder sie im Falle von Telegram Passport-Daten speichern – haben wir keine Möglichkeit, die Inhalte zu entschlüsseln. In diesem Fall speichern und verarbeiten wir deine personenbezogenen Daten nicht, sondern speichern und verarbeiten zufällige Sequenzen von Symbolen, die ohne die Schlüssel, die wir nicht haben, keine Bedeutung haben.
+
+#### []4.3. Aufbewahrung
+
+Sofern in dieser Datenschutzerklärung nicht anders angegeben, werden deine personenbezogenen Daten, die wir verarbeiten, nur so lange gespeichert, wie es für uns zur Erfüllung unserer Verpflichtungen in Bezug auf die Erbringung der Dienste erforderlich ist.
+
+### []5\. Verarbeitung von personenbezogenen Daten
+
+#### []5.1. Unsere Dienste
+
+### D2 P12
+Telegram ist ein Cloud-Dienst. Wir verarbeiten deine personenbezogenen Daten, um deinen Cloud Chat-Verlauf einschließlich Nachrichten, Medien und Dateien auf beliebige Geräte deiner Wahl zu übertragen, ohne dass du Datensicherungen (Backups) von Drittanbietern oder Cloud-Speicher verwenden musst.
+
+#### []5.2. Sicherheit
+
+Telegram ermöglicht es, große Gemeinschaften zu bilden, die wir in Bezug auf Missbrauch und Verstöße gegen die Nutzungsbedingungen moderieren müssen. Telegram hat zudem mehr als [800 Millionen] Nutzer, was es zu einem lukrativen Ziel für Spammer macht. Um die Sicherheit deines Kontos zu verbessern und [Spam], Missbrauch und andere Verstöße gegen unsere Nutzungsbedingungen zu verhindern, können wir Metadaten wie deine IP-Adresse, Geräte und Telegram Apps, die du verwendet hast, den Verlauf der Änderungen von Nutzernamen usw. erheben und verarbeiten. Diese Metadaten können wir, sofern wir sie erheben, für maximal 12 Monate für obige Zwecke speichern.
+
+#### []5.3. Spam und Missbrauch
+
+### D2 P13
+Um Phishing, Spam und andere Arten von Missbrauch und Verstößen gegen Nutzungsbedingungen von Telegram zu verhindern, können unsere Moderatoren Nachrichten überprüfen, die ihnen von den Empfängern gemeldet und zugesendet wurden. Wenn eine Spam-Beschwerde über eine von dir gesendete Nachricht von unseren Moderatoren bestätigt wird, kann es sein, dass dein Konto keine Fremden mehr kontaktieren kann - vorübergehend oder dauerhaft. Du kannst eine Beschwerde an [@Spambot] senden. Im Falle schwerwiegenderer Verstöße kann dein Konto gesperrt werden. Wir können auch automatisierte Algorithmen verwenden, um Cloud Chats zu analysieren, um Spam und Phishing zu verhindern.
+
+#### []5.4. Geräteübergreifende Verfügbarkeit
+
+Wir können auch einige aggregierte Metadaten speichern, um Telegram-Funktionen zu erstellen (siehe [Abschnitt 5.5] unten), die auf allen deinen Geräten funktionieren.
+
+#### []5.5. Erweiterte Funktionen
+
+### D2 P14
+Wir können bestimmte aggregierte Daten darüber verwenden, wie du Telegram nutzt, um nützliche Funktionen zu erstellen. Wenn du beispielsweise das Menü ‚Suchen‘ öffnest, zeigt Telegram in einem Kasten oben auf dem Bildschirm die Personen an, die du mit größerer Wahrscheinlichkeit ansprechen möchtest. Zu diesem Zweck berechnen wir eine Bewertung, die anzeigt, welche Personen du häufig anschreibst. Eine ähnliche Bewertung wird für Inline-Bots berechnet, sodass die App die Bots vorschlagen kann, die du am ehesten im Anlage-Menü verwendest (oder wenn du eine neue Nachricht mit “@” startest). Um diese Funktion zu deaktivieren und die relevanten Daten zu löschen, gehe zu _Einstellungen > Privatsphäre und Sicherheit_ (bei iOS zusätzlich _Dateneinstellungen_) und deaktiviere “Häufige Kontakte vorschlagen”.
+
+#### []5.6. Keine Werbung auf Grundlage von Chat-Inhalten oder Kontaktlisten
+
+Im Gegensatz zu anderen Diensten verwenden wir weder die Inhalte Ihrer privaten Chats noch Ihre Kontaktlisten für zielgerichtete Werbung oder sonstige kommerzielle Zwecke. Telegram speichert ausschließlich die Informationen, die notwendig sind, um als sicherer und funktionsreicher Cloud-Dienst zu funktionieren.
+
+### D2 P15
+Telegram bietet Werbetreibenden ein [Werkzeug], mit dem sie ihre Nachrichten in [öffentlichen Kanälen für ein großes Publikum] (mit mindestens 1.000 Abonnenten) sowie in Bots, Storys und der öffentlichen Suche von Telegram bewerben können. Standardmäßig basieren diese gesponserten Nachrichten ausschließlich auf dem Thema der öffentlichen Kanäle oder den Suchbegriffen, bei denen sie angezeigt werden. Inhalte privater Chats oder Kontaktlisten werden weder ausgewertet noch analysiert, um Werbung oder gesponserte Nachrichten anzuzeigen.
+
+> Nutzer von Telegram Premium sehen keine Werbung und sind von der [Telegram Ad Platform] nicht betroffen.
+
+##### []5.6.1. Zusätzliche Werbewerkzeuge
+
+> Unaufdringliche Werbemodelle helfen uns dabei, unsere Dienste dauerhaft anzubieten. Die zur Anzeige von Werbung herangezogenen Daten werden auf Grundlage des berechtigten Interesses von Telegram verarbeitet, dir effektive und innovative Dienste bereitzustellen. Diese Daten dürfen nicht an Dritte weitergegeben werden, auch nicht an Werbetreibende.
+
+>
+
+> Nutzer von Telegram Premium sehen keine Werbung und sind von der Werbeplattform nicht betroffen. Die in diesem Abschnitt genannten Daten zur zielgerichteten Werbung werden für diese Nutzer nicht verarbeitet.
+
+### D2 P16
+In großen öffentlichen Kanälen für ein großes Publikum (mit **mindestens 1.000 Abonnenten**) und in öffentlichen Suchergebnissen kann Werbung auf Grundlage der Sprache der Inhalte angezeigt werden. Diese Sprache kann jedoch in mehreren verschiedenen Ländern verbreitet sein. Um die Relevanz der Werbung zu gewährleisten, kann Werbung in einem **bestimmten Land und einer bestimmten Stadt** angezeigt werden, wobei der ungefähre Standort anhand des Landes und der Vorwahl der Telefonnummer eines Nutzers oder anhand seiner IP-Adresse bestimmt wird. Diese Daten werden niemals an Werbetreibende weitergegeben. Andere Standortdaten werden hierfür nicht verwendet und eine genaue Standortverfolgung findet zu diesen Zwecken nicht statt. Dadurch können Werbetreibende die Sichtbarkeit ihrer Werbung auf bestimmte Länder oder Regionen beschränken. Beispielsweise können sie eine Anzeige für ein spanischsprachiges Publikum erstellen, diese jedoch nicht innerhalb Spaniens anzeigen lassen.
+
+Nutzer, die einer ausreichenden Anzahl großer öffentlicher Kanäle für ein großes Publikum folgen (z. B. _Finanzen, Wirtschaft & Unternehmertum oder Humor & Memes_), können auch in anderen großen öffentlichen Kanälen oder anderen Bots Werbung aus der entsprechenden Kategorie sehen. Nutzern kann außerdem Werbung auf Grundlage der von ihnen abonnierten Kanäle angezeigt werden. Diese Daten werden niemals an Werbetreibende weitergegeben.
+
+> Deine in Abschnitt 9 unten beschriebenen Rechte bleiben hiervon unberührt.
+
+### D2 P17
+### []6\. Bot-Nachrichten
+
+#### []6.1. Ökosystem
+
+Telegram verfügt über eine API, der es Drittentwicklern ermöglicht, Bots zu erstellen. [Bots] sind Apps, die wie Telegram Nutzer aussehen. Du kannst mit ihnen aus deiner Chatliste chatten, sie zu Gruppen hinzufügen oder eine spezielle [Inline-Benutzeroberfläche] verwenden, um auf ihre Funktionen zuzugreifen. Wenn du eine dieser Aktionen ausführst, werden einige deiner Daten an die entsprechenden Bot-Entwickler übermittelt.
+
+#### []6.2. Wie Bots Daten empfangen können
+
+Du kannst Daten an Bot-Entwickler senden, wenn du mit ihren Bots auf eine der folgenden Arten interagierst:
+
+* Durch das Senden von Nachrichten an einen Bot.
+
+* Mit einem [Inline-Bot].
+
+* Durch die Teilnahme an einer Gruppe mit einem Bot.
+
+* Durch Drücken von Tasten in Nachrichten, die von einem Bot gesendet werden.
+
+* Durch Bezahlung von Waren und Dienstleistungen über Bots (siehe [Abschnitt 7] unten).
+
+#### []6.3. Welche personenbezogenen Daten an Bots übermittelt werden
+
+In jedem der oben genannten Fälle können die Entwickler eines automatisierten Nutzers (Bot) deine öffentlichen Kontodaten abrufen (siehe [Abschnitt 3.1] oben): deinen Anzeigenamen, Benutzernamen und Profilbild(er).
+
+Bots können auch die folgenden Daten erhalten, wenn du mit ihnen interagierst.
+
+* Bots erhalten offensichtlich deine Nachricht, wenn du ihnen eine Nachricht sendest.
+
+### D2 P18
+* Wenn du auf die vom Bot bereitgestellten Links oder Tasten klickst, kann der Bot möglicherweise deine IP-Adresse abrufen (vorausgesetzt, dass er die Website steuert, zu der der Link führt).
+
+* Wenn du und der Bot die Mitglieder derselben Gruppe sind, kann der Bot wissen, dass du ein Mitglied bist.
+
+* Wenn du deine Nachricht mit dem Benutzernamen eines [Inline-Bot] (z. B. [@gif]) beginnst, wandelt sich die Schnittstelle so um, dass alles, was du eingibst, zu einer Anfrage an diesen Bot wird. Diese Anfrage wird an den Bot gesendet, damit er seinen Dienst bereitstellen kann. Wir werden dich darauf aufmerksam machen, wenn du zum ersten Mal einen Inline-Bot verwendest.
+
+* Bots, die zu Gruppen hinzugefügt werden, können in zwei Modi arbeiten: mit Zugriff auf Nachrichten in der Gruppe oder [ohne Zugriff]. Wenn der Bot Zugriff auf Nachrichten hat, kann er alles sehen, was in der Gruppe passiert. Die Schnittstelle zeigt eindeutig an, ob ein Bot Zugriff auf Nachrichten in Gruppen hat oder nicht.
+
+#### []6.4. Bots werden nicht von Telegram verwaltet
+
+Mit Ausnahme unserer eigenen Bots sind keine anderen Bots oder Drittanbieter-Bot-Entwickler mit Telegram verbunden oder beauftragt. Sie sind völlig unabhängig von uns. Sie sollten dich um Erlaubnis bitten, bevor sie auf deine Daten zugreifen oder du sie ihnen zur Verfügung stellst.
+
+#### []6.5. Telegram Business Chatbots
+
+### D2 P19
+[Telegram Business] Abonnenten können Bots Dritter mit ihrem Telegram-Konto verknüpfen, um automatisch Nutzernachrichten zu verarbeiten und zu beantworten.
+
+#### []6.5.1. Kommunikation mit einem Business Chatbot
+
+Telegram-Nutzer können bereits seit 2015 mit Bots kommunizieren. Dazu gehören auch Bots, die von Unternehmen betrieben werden. Mit der Einführung von Telegram Business können Nutzer auch in privaten Chats mit Telegram Business Nutzern, die einen Chatbot mit ihrem Konto verbunden haben, reibungslos mit Bots kommunizieren.
+
+Wenn du eine Nachricht an einen Telegram Business Nutzer sendest, der einen Chatbot mit seinem Konto verknüpft hat, kommunizierst du möglicherweise mit einem Bot, der grundlegende Daten über dich erhält, wie in [Abschnitt 6.3] beschrieben.
+
+#### []6.5.2. Einen Business-Chatbot zur Verwaltung deiner Chats verwenden
+
+Wenn du einen Bot eines Drittanbieters über Telegram Business mit deinem Konto verbindest, hat der Bot Zugriff auf grundlegende Informationen über dein Konto (siehe [Abschnitt 6.3]) und kann dir private Nachrichten senden.
+
+Außerdem hat der Bot Zugriff auf alle Nachrichten, Medien und Dateien in den privaten Chats, die du ihm erlaubst zu verwalten. Wenn du ihm diese Erlaubnis erteilst (und nur in den privaten Chats, die du ihm zugewiesen hast), kann der Bot in deinem Namen Nachrichten versenden und andere Aktionen durchführen.
+
+### D2 P20
+Du kannst die Berechtigungen des Bots, einschließlich der Liste der Chats, auf die er zugreifen kann, jederzeit unter _Einstellungen > Telegram Business > Chatbots_ in den offiziellen Telegram-Apps ändern oder widerrufen.
+
+### []7\. Zahlungsdienste Dritter
+
+#### []7.1. Zahlungsinformationen
+
+Die [Zahlungsplattform für Bots] steht Nutzern ab [Telegram 4.0] zur Verfügung. Telegram verarbeitet nicht selbst Zahlungen von Nutzern und setzt stattdessen verschiedene Zahlungsanbieter auf der ganzen Welt ein. Es sind die Zahlungsanbieter, welche deine Zahlungsdaten (z.B. Kreditkartendaten) verarbeiten und speichern. Weder Telegram noch die Händler auf der Plattform (Bot-Entwickler) haben Zugriff auf diese Informationen. Obwohl wir mit Zahlungsanbietern zusammenarbeiten, sind sie völlig unabhängig von Telegram. Bitte lies ihre entsprechenden Datenschutzrichtlinien, bevor du deine Daten ihnen zur Verfügung stellst.
+
+#### []7.2. Kreditkarteninformationen
+
+### D2 P21
+Bei einem Kauf gibst du deine Zahlungsdaten (z.B. Kreditkartendaten) in ein Formular ein, das vom Zahlungsbetreiber bereitgestellt wird, der die Zahlung verarbeitet; diese Informationen gehen direkt an den Server des Zahlungsbetreibers. Deine Zahlungsdaten erreichen nie die Server von Telegram. Wir greifen nicht auf deine Zahlungsdaten zu und speichern diese nicht. Wenn du deine Zahlungsdaten speicherst, werden diese auf den Servern des jeweiligen Zahlungsbetreibers gespeichert und der Zahlungsbetreiber gibt Telegram einen _Token_, den du für zukünftige Zahlungen wiederverwenden kannst. Es ist für Telegram nicht möglich, deine Zahlungsdaten aus dem Token zu rekonstruieren.
+
+#### []7.3. Versandinformationen
+
+Wenn du bei der Bestellung Versandinformationen eingibst, senden wir diese direkt an den Entwickler des Händlerbots. Wir können deine Versandinformationen für dich speichern, wenn du sie für zukünftige Einkäufe speichern möchtest. Wir werden diese Informationen umgehend löschen, wenn du uns darum bittest.
+
+#### []7.4. Zahlungsdaten löschen
+
+### D2 P22
+Du kannst alle Zahlungsinformationen, die mit deinem Konto verknüpft sind, jederzeit löschen, indem du zu Telegram _Einstellungen > Privatsphäre und Sicherheit > Dateneinstellungen_ gehst und "Zahlungsinfo löschen“ auswählst. Wenn du deine Daten entfernen möchtest, löschen wir deine gespeicherten Versandinformationen und Zahlungs-Token von allen Anbietern und fordern die Zahlungsbetreiber auf, deine von ihnen gespeicherten Kreditkarteninformationen zu entfernen.
+
+#### []7.5. Zahlungsstreitigkeiten
+
+Aufgrund der Tatsache, dass Telegram keine Kreditkartendaten oder Transaktionsinformationen speichert, ist es uns unmöglich, Beschwerden oder Rückzahlungsforderungen zu bearbeiten. Strittige Zahlungen liegen in der Verantwortung der Bot-Entwickler, Zahlungsbetreiber und Banken, die am Handel teilgenommen haben.
+
+### []8\. Mit wem deine personenbezogenen Daten geteilt werden können
+
+#### []8.1. Andere Telegram-Nutzer
+
+### D2 P23
+Andere Nutzer unserer Dienste, mit denen du dich entscheidest, bestimmte Informationen zu teilen und diese weiterzugeben, könnten sich möglicherweise außerhalb des EWR befinden. Beachte, dass du uns durch und die Entscheidung, mit solchen anderen Nutzern von Telegram zu kommunizieren, anweist, deine personenbezogenen Daten in deinem Namen gemäß dieser Datenschutzerklärung an diese Nutzer zu übermitteln. Wir setzen alle geeigneten technischen und organisatorischen Maßnahmen (einschließlich Verschlüsselung deiner personenbezogenen Daten) ein, um ein dem Risiko angemessenes Sicherheitsniveau für deine personenbezogenen Daten zu gewährleisten.
+
+#### []8.2. Telegrams Konzerngesellschaften
+
+### D2 P24
+Um unsere Dienste bereitzustellen, zu verbessern und deren Erbringung zu unterstützen, können wir deine personenbezogenen Daten an folgende Gesellschaften weitergeben: _(1)_ unsere Muttergesellschaft, Telegram Group Inc., mit Sitz auf den Britischen Jungferninseln; _(2)_ Telegraph Inc., eine Konzerngesellschaft, auch mit Sitz auf den Britischen Jungferninseln; und _(3)_ Telegram FZ-LLC, eine Konzerngesellschaft mit Sitz in Dubai. Wir werden angemessene Sicherheitsvorkehrungen treffen, um die Sicherheit und Integrität deiner personenbezogenen Daten zu schützen. Dies wird in Form der von der Europäischen Kommission genemigten Standardvertragsklauseln in einer Vereinbarung zwischen uns und unseren jeweiligen Konzerngesellschaften erfolgen. Wenn du weitere Informationen zu diesen Klauseln wünschst, kontaktiere bitte unseren EWR-Vertreter (siehe dazu [Abschnitt 1.4] oben).
+
+#### []8.3. Strafverfolgungsbehörden
+
+Wenn Telegram eine gültige Anordnung von den zuständigen Justizbehörden erhält, die bestätigt, dass du in einem Fall, der kriminelle Aktivitäten betrifft, die gegen die Nutzungsbedingungen von Telegram verstoßen, verdächtig bist, werden wir eine rechtliche Analyse der Anfrage durchführen und können deine IP-Adresse und Telefonnummer an die zuständigen Behörden weitergeben. Wenn Daten weitergegeben werden, werden wir solche Vorkommnisse in einen vierteljährlichen Transparenzbericht aufnehmen, der unter [][https://t.me/transparency] veröffentlicht wird.
+
+### D2 P25
+#### []8.4. Übersetzung von Nachrichten auf Wunsch des Nutzers
+
+Nutzer können eine bestimmte Textnachricht in eine andere Sprache übersetzen, indem sie im Aktivitätsmenü der Nachricht auf „Übersetzen“ tippen (um diese Option zu aktivieren, sollte der Nutzer zuerst die Übersetzungsdienste über _Einstellungen > Sprache_ aktivieren).
+
+Da Telegram bei der automatischen Übersetzung von Nachrichten auf eine Drittpartei, Google LLC, eine Tochtergesellschaft von Alphabet Inc, zurückgreifen kann, kann der Text der Nachricht oder bestimmter Nachrichten, die Nutzer übersetzen möchten, an Google weitergegeben werden, um deren übersetzten Versionen zu erhalten. Google greift nur zur Bereitstellung einer Übersetzung auf die Daten zu und verwendet sie nicht für andere Google-Produkte, -Dienste oder -Werbung.
+
+#### []8.5. Transkription von Sprachnachrichten auf Wunsch des Nutzers
+
+### D2 P26
+Einige Nutzer können eine Sprachnachricht in Text umwandeln, indem sie auf das in Sprachnachrichten angezeigte Sprache-zu-Text-Symbol („→A“) tippen (um diese Option nutzen zu können, sollten Nutzer Telegram Premium über Einstellungen > Telegram Premium abonnieren). Da Telegram bei der Sprache-zu-Text Umwandlung auf eine Drittpartei, Google LLC, eine Tochtergesellschaft von Alphabet Inc, zurückgreifen kann, können die Audiodaten von Sprachnachrichten, die Nutzer in Text konvertieren möchten, an Google weitergegeben werden, um deren transkribierten Versionen zu erhalten. Es dürfen nur Audiodaten zu diesem Zweck weitergegeben werden (es werden keine anderen Daten, wie die IP-Adresse des Nutzers oder Informationen über sein Konto, weitergegeben). Gemäß der Vereinbarung zwischen Telegram und Google wird Telegram die Transkriptionen im Namen seiner Nutzer bezahlen und Google wird nur auf die Audiodaten zugreifen, um eine transkribierte Version bereitzustellen – es werden keine Audiodaten oder Transkripte protokolliert und die Daten nicht für andere Google-Produkte, -Dienste oder -Werbung verwendet.
+
+### []9\. Deine Rechte in Bezug auf die personenbezogenen Daten, die wir verarbeiten
+
+#### []9.1. Deine Rechte
+
+### D2 P27
+Gemäß geltendem Datenschutzrecht hast du unter bestimmten Umständen Rechte in Bezug auf deine personenbezogenen Daten. Du hast das Recht, _(1)_ eine Kopie aller deiner personenbezogenen Daten, die wir speichern, anzufordern und diese Kopie an einen anderen Verantwortlichen zu übermitteln, _(2)_ deine personenbezogenen Daten zu löschen oder zu ändern, _(3)_ die Verarbeitung deiner personenbezogenen Daten zu beschränken oder dieser zu widersprechen, _(4)_ einer Korrektur aller unzutreffenden oder unvollständigen personenbezogenen Daten zu verlangen, die wir über dich gespeichert haben, und _(5)_ dich über uns bei den nationalen Datenschutzbehörden über unsere Verarbeitung deiner personenbezogenen Daten zu beschweren.
+
+#### []9.2. Ausübung deiner Rechte
+
+Wenn du eine dieser Rechte ausüben möchtest, kontaktiere bitte unseren EWR-Vertreter gemäß [Abschnitt 1.4] oben.
+
+#### []9.3. Datenschutzeinstellungen
+
+Unter _Einstellungen > Privatsphäre und Sicherheit_ (bei iOS im Untermenü _Dateneinstellungen_), mit einer unserer mobilen Apps kannst du steuern, wie deine Daten verwendet werden (z. B. synchronisierte Kontakte löschen).
+
+Wenn du mit den Mindestanforderungen von Telegram nicht einverstanden bist, wird es uns leider nicht möglich sein, dir unsere Dienste zur Verfügung zu stellen. Du kannst dein Telegram-Konto löschen, indem du zur [Deaktivierungsseite] gehst.
+
+### []10\. Löschen von Daten
+
+#### []10.1. Konten
+
+### D2 P28
+Wenn du dein Konto löschen möchtest, kannst du dies auf der [Deaktivierungsseite] tun. Wenn du dein Konto löschst, werden alle Nachrichten, Medien, Kontakte und alle anderen Daten, die du in der Telegram Cloud gespeichert hast, entfernt. Diese Aktion muss über dein Telegram-Konto bestätigt werden und kann nicht rückgängig gemacht werden.
+
+#### []10.2. Nachrichten
+
+* In Geheimen Chats weist das Löschen einer Nachricht die App am anderen Ende immer an, sie ebenfalls zu löschen.
+
+* In Cloud Chats kannst du eine Nachricht für alle Teilnehmer innerhalb von mindestens 48 Stunden nach dem Senden löschen. Andernfalls wird eine gelöschte Nachricht auch aus dem Nachrichtenverlauf gelöscht. Das bedeutet, dass eine Kopie im Nachrichtenverlauf deines Kommunikationspartners auf dem Server verbleiben wird. Sobald dein Kommunikationspartner sie ebenfalls löscht, ist sie für immer verschwunden.
+
+* Ab Version [5.5] kann jeder Teilnehmer alle gesendeten und empfangenen Nachrichten in Einzelchats für beide Seiten löschen. Es gibt keine zeitliche Begrenzung. Jede Partei kann sich auch dafür entscheiden, den gesamten Chat-Verlauf für beide Parteien zu löschen. In diesem Fall werden die Apps angewiesen, alle Nachrichten in diesem Chat zu entfernen, unabhängig davon, wie viele Nachrichten von jedem der Teilnehmer gespeichert wurden.
+
+### D2 P29
+* In [Supergruppen] und Kanälen entfernt das Löschen einer Nachricht diese für alle Teilnehmer. Beachte, dass gelöschte Nachrichten und Originalversionen bearbeiteter Nachrichten aus Supergruppen nach dem Löschen 48 Stunden lang gespeichert werden, um im [Adminprotokoll] angezeigt zu werden.
+
+#### []10.3. Selbstzerstörende Nachrichten
+
+Nachrichten in Geheimen Chats können zur [Selbstzerstörung] angewiesen werden. Sobald eine solche Nachricht [gelesen] wird (es erscheinen 2 Haken), beginnt der Countdown. Nach Ablauf des Timers werden beide Endgeräte, die an einem Geheimen Chat teilnehmen, aufgefordert, die Nachricht (Foto, Video usw.) zu löschen. Medien mit kurzen Timern (weniger als eine Minute) werden mit unscharfen Vorschauen angezeigt. Der Timer wird ausgelöst, wenn sie angezeigt werden.
+
+#### []10.4. Selbstlöschung des Kontos
+
+Wenn du Telegram nicht mehr verwenden willst und mindestens 18 Monate lang nicht online bist, wird dein Konto mit allen Nachrichten, Medien, Kontakten und allen anderen Daten, die du in der Telegram Cloud gespeichert hast, standardmäßig gelöscht. Du kannst in die _Einstellungen_ wechseln, um den genauen Zeitraum zu ändern, nach dessen Ablauf dein inaktives Konto automatisch gelöscht wird.
+
+### []11\. Änderungen an dieser Datenschutzerklärung
+
+### D2 P30
+Wir werden diese Datenschutzerklärung von gelegentlich überprüfen und gegebenenfalls aktualisieren. Alle Änderungen an dieser Datenschutzerklärung treten in Kraft, wenn wir die überarbeitete Datenschutzerklärung auf dieser Seite **[www.telegram.org/privacy/de]** veröffentlichen. Bitte überprüfe unsere Internetseite regelmäßig, um Aktualisierungen oder Änderungen unserer Datenschutzerklärung zu sehen, deren Änderung wir nachfolgend zusammengefasst darlegen.
+
+**25\. März 2019**
+
+* [10.2] erweitert. Löschen von Nachrichten mit Daten zu den neuen Funktionen in [Version 5.5], die es beiden Teilnehmern ermöglichen, Nachrichten aus Einzelchats für beide Seiten ohne Zeitlimit zu entfernen.
+
+**24\. März 2021**
+
+* [3.5]. Standortdaten hinzugefügt.
+
+* Verbesserte Struktur, Verschiebung von 3.3.5 auf 3.4 und 3.3.6 auf 3.6.
+
+**26\. Oktober 2021**
+
+* [5.6] erweitert. Keine Werbung aufgrund von Nutzerdaten mit Informationen zu gesponserten Nachrichten in öffentlichen Kanälen.
+
+**19\. Juni 2022**
+
+* [8.4]. Übersetzung von Nachrichten auf Wunsch des Nutzers
+
+* [8.5]. Transkription von Sprachnachrichten auf Anforderung des Nutzers hinzugefügt.
+
+**8\. September 2022**
+
+* [3.2. Deine Email-Adresse] mit Informationen zu Anmelde-E-Mails, die ab Telegram 9.0 verfügbar sind, ergänzt.
+
+**3\. Februar 2022**
+
+* [8.4] und [8.5] aktualisiert, um zu zeigen, dass die neue Premium-Funktion komplette Chats übersetzen kann.
+
+**24\. April 2023**
+
+### D2 P31
+* [1.4], [9.2] und [12] mit Angaben von Telegrams EWR-Vertreter für DSGVO (GDPR) ergänzt.
+
+* [8.2] erwähnt nun Telegraph Inc., ein Mitglied der Telegram-Gruppe.
+
+**31\. März 2024**
+
+* [3.1.1. Optionale Daten].
+
+* Infos über [Telegram Buisness Chatbots] den [Botnachrichten] Abschnitt (6.2, 6.3, 6.5) hinzugefügt.
+
+**23\. September 2024**
+
+* [8.3] aktualisiert, siehe [diesen Beitrag] mit allen Details.
+
+**September 29, 2024**
+
+* [10.4] aktualisiert, um den neuen Standardzeitraum für die Selbstzerstörung von Konten anzuzeigen.
+
+**21\. August 2026**
+
+* Die Datenschutzerklärung wurde überarbeitet, um geografische Einschränkungen sowie zusätzliche Werbewerkzeuge zu erläutern, die Einfluss darauf haben können, wie Werbung dargestellt wird.
+
+Wesentliche Änderungen an dieser Datenschutzerklärung werden über Telegram mitgeteilt.
+
+### []12\. Weitere Informationen
+
+Wenn du Fragen hast, kannst du dich in unseren [FAQ] informieren oder unsere freiwilligen Helfer im Chat-Support über _Einstellungen > Frage stellen_ in der App direkt kontaktieren.
+
+Falls du in der EU lebst und eine DSGVO-bezogene Anfrage stellen möchtest, schau bitte [hier].
+
+Telegram ist ein Open-Source-Projekt. Weitere Informationen findest du über folgende Links:
+
+* API: [][https://core.telegram.org/api]
+
+* Bot-Plattform: [][https://core.telegram.org/bots]
+
+* Protokoll: [][https://core.telegram.org/mtproto]
+
+* Quelltext: [][https://telegram.org/apps#source-code]
+
+### D2 P32
+* Verifiziere, dass die Telegram Apps aus den App-Stores den gleichen Quelltext verwenden, den wir unter [][https://core.telegram.org/reproducible-builds] veröffentlichen.
+
+
+## Cases for D2 (Telegram, Privacy Policy)
+
+- C1. "Private messages can be read". Description: The Service is able to access, scan, review or read all user communications, including private messages, which may contain personal or sensitive data. Classification: blocker.
+
+## D3: TikTok, Copyright Claims Policy (current version, 12 pieces)
+
+### D3 P1
+_Released March 27, 2025_
+
+_Effective April 26, 2025_
+
+TikTok respects the intellectual property rights of others and requires compliance with the [Terms of Service] and [Community Guidelines] which do not allow content that violates or infringes someone else's intellectual property rights, including copyright and trademark.
+
+**Copyright**
+
+-------------
+
+Copyright is a legal right that protects original works of authorship (e.g., music, videos, etc.). Generally, copyright protects an original expression of an idea (e.g., the specific way a video or music is expressed or created) but does not protect underlying ideas or facts.
+
+### **Copyright Infringement**
+
+We do not allow any content that infringes copyright. The use of copyrighted content of others without proper authorization or legally valid reason may lead to a violation of TikTok's policies.
+
+At the same time, not all unauthorized uses of copyrighted content constitute an infringement. In many countries, exceptions to copyright infringement allow the use of copyrighted works under certain circumstances without authorization from the copyright holder. These include the fair use doctrine in the United States, permitted acts of fair dealing in the European Union (EU), and other equivalent exceptions under applicable local laws in other countries.
+
+### **Removal of Content; Account Bans**
+
+### D3 P2
+Any user content that infringes another person's copyright may be removed. If a user infringes copyright by using the LIVE feature, we may also temporarily restrict their access to LIVE feature.
+
+We have adopted and reasonably implemented an intellectual property repeat infringer policy under which we, in appropriate circumstances, ban the account of a user who repeatedly commits copyright infringement. We may exercise our discretion to immediately ban any account in cases of severe copyright violations. We reserve the right to refuse any account holder whose account was used for improper activities from opening a new TikTok account.
+
+### **Information for Rightsholders**
+
+**Copyright Infringement Report**
+
+If you believe someone is using your copyrighted work without your permission, you are encouraged to first contact the user for a quick and direct resolution of the matter.
+
+### D3 P3
+You may also file a Copyright Infringement Report to request the removal of the alleged infringing content from TikTok via our [online form] or in-app. Please be aware that the United States Digital Millennium Copyright Act (DMCA) or similar laws in other countries outline the statutory requirements necessary for reporting copyright infringement by submitting a compliant notification. To facilitate the evaluation of your report, you'll need to provide all the information requested in our online Copyright Infringement Report form. If you submit a report to us, we may contact you if we have questions about your report. Failure to include necessary information may limit our ability to investigate your claims and may result in your report being denied. We may provide the user with information about your report, such as the name of the copyright owner.
+
+Before submitting a report, you should consider whether the content you want to report may be a permissible use of your copyright. Please also be aware that intentionally submitting a misleading or fraudulent report will result in your report being denied and may lead to liability for damages under section 512(f) of the United States DMCA or similar laws in other countries.
+
+**EU Copyright Directive**
+
+### D3 P4
+Pursuant to Article 17 of the Copyright Directive (EU 2019/790), if you want to make an enquiry about granting an authorisation to TikTok to make your copyright-protected works available on TikTok, please use [this form]. We will review your request and be in touch.
+
+If you want to request that your music or audiovisual works are made unavailable in the EU, we need you to file [this form]. So that TikTok can consider your request, you will have to provide us with relevant and necessary information about you and your copyrighted works. Upon receiving this information and validating your request, TikTok will do its best to ensure that your copyrighted work is made unavailable on TikTok in the EU.
+
+You may ask us to prevent future copies of a video from re-appearing on the platform when you submit a report via our online Copyright Infringement Report form. If you do so, and where a video is removed due to your report, we will use our best efforts to prevent the same video from re-appearing on the platform.
+
+### **Information for Users: Copyright Infringement Appeal**
+
+**If you are a user located outside of the European Union**
+
+You'll receive an in-app notification if your content has been removed due to a copyright infringement report. We delete the removed content after a period of time in accordance with applicable laws and our data retention policy. After the deletion, your content can no longer be reinstated.
+
+### D3 P5
+If you believe your content has been removed in error or believe that you are authorised to use the content, you can reach out to the copyright owner directly to request a retraction.
+
+You may also submit an appeal within the TikTok app, which can be accessed from the in-app notification sent to you. Please be aware that the United States DMCA or similar laws in other countries provide instructions on how an affected user can appeal a removal by submitting a compliant counter-notification. To facilitate the evaluation of your appeal, you'll need to provide all required information, including your contact information and any evidence to support your claim. If you submit an appeal to us, we may contact you if we have additional questions about your appeal. Failure to include necessary information may limit our ability to investigate your claims and may result in your appeal being denied. Please note that, where appropriate and authorised by law, we will forward your entire appeal to the original reporter, including any contact information you provide, in accordance with our Terms of Service and Privacy Policy. The copyright claimant may use this information to file a lawsuit against you. For example, the copyright claimant may file an action seeking a court order to keep the content down pursuant to the United States DMCA or similar laws in other countries.
+
+### D3 P6
+We may reinstate your content if the content does not infringe on the rightsholder's copyright or we do not receive notice that the copyright claimant has filed an action seeking a court order to keep the content down pursuant to the United States DMCA or similar laws in other countries. The decision to reinstate any content is at TikTok’s sole discretion.
+
+**If you are a user located in the European Union**
+
+You'll receive an in-app notification if your content has been removed due to a copyright infringement report. We delete the removed content after a period of time in accordance with applicable laws and our data retention policy. After the deletion, your content can no longer be reinstated. If you receive a copyright infringement report and believe that you have the right to post the content in question, you can submit an appeal within the TikTok app, which can be accessed from the in-app notification sent to you.
+
+Under EU law, users are allowed to use copyright works without the authorization of the copyright holder for quotation, criticism, review and for the purpose of caricature, parody or pastiche provided that such use is fair. EU countries may also provide for additional exceptions. See below some further information about the exceptions and limitations to copyright available in the EU:
+
+* **_Quotation, criticism and review_**
+
+### D3 P7
+Quotation is the use of an extract from a copyright-protected work for purposes such as illustrating an assertion, defending an opinion or engaging in debate. Quotations may also be used for the purposes of criticising a copyrighted work (e.g. critical commentary on a movie) or reviewing one (e.g. reviewing a book or an album).
+
+* **_Caricature, parody and pastiche_**
+
+Caricatures aim at exaggerating or distorting reality, usually for humorous purposes. A parody will evoke an existing copyrighted work while being noticeably different from it and should constitute an expression of humor or mockery. A pastiche will usually incorporate distinctive elements from other works or styles into a new work.
+
+In order for any use of copyrighted work to come within an exception or limitation, it must be fair. This means that it should, where applicable: (i) be no longer than necessary; (ii) be accompanied by sufficient acknowledgement of the source material and (iii) not unreasonably harm the legitimate interests of the rightholder.
+
+**Trademark**
+
+-------------
+
+A trademark is a word, symbol, slogan, design, or combination of any of the foregoing that identifies the source of a product or service and distinguishes it from other products or services.
+
+### **Trademark Infringement**
+
+### D3 P8
+Trademark laws prohibit trademark infringement, which is generally the unauthorized use of an identical or a similar trademark or service mark in connection with goods or services in a way that is likely to cause confusion, deception or mistake about the source, origin, sponsorship or affiliation of the associated goods and/or services.
+
+At the same time, the use of another’s trademark for purposes of accurately referencing, lawfully commenting, criticizing, parodying, or reviewing the trademark owner’s products or services, or for purposes of comparing them to other products or services, where the mark is not used to designate the user’s own goods or services or those of a third party, is generally not considered a violation of our policies. Likewise, it is generally permissible to make a fan page about a brand, even without the brand’s permission, provided that the user does not claim to speak for or be associated with the brand or otherwise violate the brand’s intellectual property rights.
+
+### **Counterfeiting**
+
+Counterfeiting is the illegal manufacturing, importing and exporting, distributing, selling, facilitating the trade of, or otherwise dealing in goods under a trademark that is identical to or substantially similar to a registered trademark, without the trademark owner's permission, thereby infringing the rights of the trademark owner.
+
+### **Removal of Content; Account Bans**
+
+### D3 P9
+Any content that violates another’s trademark rights may be taken down and we do not permit the purchase, sale, trade, promotion, or solicitation of counterfeit goods on TikTok, and will remove such content. In some cases, for trademark violations in connection with the use of the LIVE feature, we may also temporarily restrict access to the LIVE feature of the violating user.
+
+We have adopted and reasonably implemented an intellectual property repeat infringer policy under which we, in appropriate circumstances, ban the account of a user who repeatedly commits trademark infringement. We may exercise our discretion to immediately ban any account in cases of severe trademark violations. We reserve the right to refuse any account holder whose account was used for improper activities from opening a new TikTok account.
+
+### **Information for Rightsholders: Trademark Infringement Report**
+
+If you believe someone has infringed on your trademark rights, you are encouraged to first contact the user for a quick and direct resolution of the matter.
+
+### D3 P10
+You may also file a Trademark Infringement Report to request the removal of the alleged infringing content from TikTok via our [online form] or in-app. All reports should contain the information requested in our online Trademark Infringement Report form. If you submit a report to us, we may contact you if we have additional questions about your report. Failure to include necessary information may limit our ability to investigate your claims and may result in your report being denied. We may provide the user with information about your report, such as the name of the trademark owner. Before submitting a report, you should consider the applicability of permitted acts under trademark laws. Please also be aware that intentionally submitting a misleading or fraudulent report will result in your report being denied and may lead to liability for damages under applicable laws.
+
+### **Information for Users: Trademark Infringement Appeal**
+
+You'll receive an in-app notification if your content has been removed due to a trademark infringement report. We delete the removed content after a period of time in accordance with applicable laws and our data retention policy. After the deletion, your content will no longer be reinstated.
+
+If you believe your content has been removed in error or believe that you are authorised to use the content, you can reach out to the trademark owner directly to request a retraction.
+
+### D3 P11
+You may also submit an appeal within the TikTok app, which can be accessed from the in-app notification sent to you. You'll need to provide all required information, including your contact information and any evidence to support your claim. If you submit an appeal to us, we may contact you if we have additional questions about your appeal. Failure to include necessary information may limit our ability to investigate your claims and may result in your appeal being denied. Please note that, where appropriate and authorised by law, we will forward your appeal to the original reporter, including any contact information you provide, in accordance with our Terms of Services and Privacy Policy.
+
+**General Note**
+
+----------------
+
+As a TikTok user, you are responsible for the content you post. If you have questions about copyright law or trademark law, such as questions about whether your content or your use of another person’s name or brand infringes or otherwise violates another person’s rights, you may want to contact an attorney.
+
+As a holder of intellectual property rights, if you are unsure whether the content you plan to report to us is infringing your intellectual property rights, you may wish to first seek legal advice before reporting such content to us.
+
+### D3 P12
+Please note that, TikTok is not in a position to adjudicate disputes between third parties, and may not be able to remove the content or suspend the account being reported. In accordance with our legal obligations, we provide users and rightholders with an intellectual property rights infringement dispute resolution mechanism. Users or rightholders may have other ways to seek resolution, such as out-of-court dispute settlement processes or in-court proceedings under laws in their countries.
+
+
+## Cases for D3 (TikTok, Copyright Claims Policy)
+
+- C1. "If you are the target of a copyright claim, your content and/or your account may be removed". Description: The content you have published on the service may be removed if it infringes copyright. Also your account can be deleted in the process aswell. Classification: neutral.
+
+## D4: Tumblr, Privacy Policy (current version, 35 pieces)
+
+### D4 P1
+Privacy Policy
+
+==============
+
+Last Modified: 2026-10-20
+
+The original version of this Privacy Policy is written in English. To the extent any translated version of this Privacy Policy conflicts with the English version, the English version controls.
+
+Tumblr, Inc. ("**Tumblr,**" "**we,**" "**us,**" or "**our**") takes the private nature of your information very seriously. This policy regarding our privacy practices (the "**Privacy Policy**") describes how we treat the information we collect or receive when you visit and use tumblr.com (the "**Site**") and/or Tumblr’s other domains, products, advertising products, services, and/or content, including our iOS and Android mobile applications (collectively with the Site, the "**Services**"). Tumblr is a subsidiary of [Automattic], a technology company that empowers people to build beautiful websites, tell their stories, and find and grow their audience. The way we handle your information hasn’t changed, so this Privacy Policy still governs when you are on Tumblr, using a Tumblr app or interacting with our products, services or technologies. We may share non-personal information with our family companies for purposes such as product improvements, research and analysis, and to help them provide you with more relevant experiences. When you use the Services, you also consent to the collection, transfer, manipulation, storage, disclosure and other uses of your information as described in this Privacy Policy; please read it carefully.
+
+### D4 P2
+What This Privacy Policy Covers
+
+-------------------------------
+
+This Privacy Policy covers our treatment of information gathered when you are using or accessing the Services. This Privacy Policy also covers our treatment of any information about you that our partners share with us or that we share with our partners.
+
+This Privacy Policy does not apply to the practices of third parties that we do not own, control, or manage, including but not limited to any third party websites, services, applications, or businesses (“**Third Party Services**”). This includes third parties you provide with information about yourself as part of enabling or using a Tumblr feature. While we try to work only with those Third Party Services that share our respect for your privacy, we don't take responsibility for the content or privacy policies of those Third Party Services. We encourage you to carefully review the privacy policies of all Third Party Services you access.
+
+Also: This Privacy Policy doesn’t govern what our users do on their Tumblr blogs and we aren't responsible for the information collection and use practices of our individual blogs and bloggers. One of the great features of Tumblr's products is customizability, and bloggers have a lot of flexibility in how their blogs behave. When you visit a blog in our network, that blog may collect more information than we do, and may provide information to third parties that we have no relationship with, including to advertisers.
+
+### D4 P3
+What We Collect and How We Use It
+
+---------------------------------
+
+**Account Information:** When you create an account on the Services (an "**Account**"), we’ll ask you for information such as your username, password, age, and email address (“**Account Information**”). We may use Account Information, alone or together with other information, to enhance and improve the Services, such as by personalization. We use your age to verify that you can lawfully use the Services. We use your email address to verify your Account and to communicate with you, as described in more detail below.
+
+You can keep yourself fairly anonymous on Tumblr, but remember that your posts, blogs, pages, and username are all visible to the public by default.
+
+**Email Communications with Us:** As part of the Services, you may occasionally receive email and other communications from us. Administrative communications relating to your Account (e.g., for purposes of Account recovery or password reset) are considered part of the Services and your Account, which you may not be able to opt-out from receiving. We also may send you other kinds of emails, which you can opt-out of either from your Account Settings page or by using the “Opt-Out” link in the emails themselves. **Note that we will _never_ email you to ask for your password or other Account Information; if you receive such an email, please [forward it to us].**
+
+### D4 P4
+We send two kinds of email: ones about fun stuff happening on Tumblr, and ones with important information about your account. You can opt out of the former, but not the latter.
+
+**Information about Your Accounts on Third Party Services:** You can link your Account to certain Third Party Services. In order to do so, you may provide us with your username or other user ID for a Third Party Service, and you may then be required to log into that Service. After you complete this login process, we will receive a token that allows us to access your account on that service so that we can, for example, post your content to that service when you ask us to. We do not receive or store your passwords for your Third Party Service accounts.
+
+**Information Obtained from Third Party Services:** In some cases, we partner with Third Party Services that may provide information about you. Such information could include, for example, your gender, if you have disclosed that information to that third party and made it available for Tumblr to access. To the extent we obtain such information, we may use it to develop new Services or to improve or enhance the Services.
+
+When you connect other services to your Tumblr account, those services might share information about you with us. What gets shown to us is determined by their privacy policies, which are long and boring, but which you should probably read if you have questions or concerns.
+
+### D4 P5
+**User Content:** By default, all sharing through the Services is public, and when you provide us with content it is published so that anyone can view it. Although we do provide tools, like password-protected blogs, Asks, and Fan Mail, that let you publish content privately, you should assume that anything you publish is publicly accessible unless you have explicitly selected otherwise. Also, please keep in mind that anything you share privately with another user, particularly through an Ask, Fan Mail, or submitted post, may be posted publicly by that user. Content published and shared publicly is accessible to everyone, including search engines, and you may lose any privacy rights you might have regarding that content. In addition, information shared publicly may be copied and shared throughout the Internet, including through actions or features native to the Services, such as reblogging.
+
+At its heart, Tumblr is a public platform. Don’t be afraid to share amazing things, but do understand that it can be hard to completely remove things from the internet once they’ve been reblogged a few times.
+
+### D4 P6
+**Native Actions:** The Services allow you to perform native actions that are integral to our products, such as liking a post, reblogging a post, replying to a post, and following a blog. Liking, reblogging, and replying are public actions – anyone can expand the “notes” view on a post, for example, to see who liked, reblogged, or replied to a post. We use information about native actions to improve the Services, develop new Services, and, particularly, to personalize your Tumblr experience. Personalization using this information may include presenting you with new posts relevant to what you’ve liked, providing you with better search results, and showing you advertising more relevant to your interests.
+
+Reblogs, Likes, and Replies are a matter of public record, so if you’re truly ashamed of your desires it’s best to keep them to yourself. But why? Be proud of who you are. You’re beautiful. We’re looking you in the eyes and telling you how beautiful you are.
+
+**Information About User Content:** In some cases, we may collect information about content you provide to the Services. For example, when it's included as part of your images, we may collect information describing your camera, camera settings, or [EXIF information]. This information allows us to improve the Services and provide additional features and functionality.
+
+### D4 P7
+**Contact and Financial Information**: There are various ways in which you may provide us financial information and contact information. For example, if you buy something from us (like Blaze, Premium Themes, or a domain name), or earn revenue through your site, you provide additional personal and payment information like your name, credit card information, and contact information. We may also keep a record of the purchases you’ve made. You may also provide us with financial details to set up a payments integration, like the email address for your Stripe account.
+
+We do not, however, store that financial information; such information is stored by our payment processor (the "**Payment Processor**"). Please note that if you use the Payment Processor’s services, your data will be handled in accordance with the Payment Processor’s privacy policy and practices. They have their own rules about information collection, use, storage, and sharing, which you should review before using the Payment Processor’s services. We do receive certain information from our Payment Processor: (1) a unique token that we connect with your Account to enable you to make further purchases using the information stored by our Payment Processor and (2) in certain cases, the last four digits of the credit card number associated with that token, so that we can prevent fraudulent transactions and identity theft.
+
+### D4 P8
+**Information Related to Use of the Services:** We collect information about how people use the Services, including those with an Account. This type of information may be collected in our log files each time you interact with (i.e., make a request to) the Services. We use internal tools and third party applications and services (like Google Analytics or comScore) to collect and analyze this information. Some of this information may also be associated with the Internet Protocol Address (“**IP Address**”) used to access the Services; some may be connected with your Account; and some may only be collected and used in aggregate form (as a statistical measure that wouldn’t identify you or your Account). We also collect your IP Address when you make a post, particularly when you submit an anonymous “Ask.” We may use this information about how you and others interact with the Services for a number of things generally related to enhancing, improving, protecting, and developing new Services, including but not limited to: providing users with personalized content; providing users with targeted advertising; improving our search results; identifying trending or popular content; fighting spam, malware, identity theft and generally keeping our users and community safe; and for legal and safety reasons as set forth in “Information Disclosed for Our Protection and the Protection of Others.”
+
+### D4 P9
+We use information about how you interact with Tumblr in order to personalize it for you, to keep both you and our community safe from harm, and to improve Tumblr for everyone who uses it.
+
+**Information Related to Your Web Browser:** We automatically receive and record information from your web browser when you interact with the Services, such as your browser type and version, what sort of device you are using, your operating system and version, your language preference, the website or service that referred you to the Services, the date and time of each request you make to the Services, your screen display information, and information from any cookies we have placed on your web browser (as described below). We also sometimes detect whether you are using certain web browser extensions and store that information in a manner associated with your Account. We use web browser-related information to enhance and improve the Services.
+
+**Location Information:** In some cases we collect and store information about where you are located, such as by converting your IP Address into a rough geolocation. We may also ask you to provide information about your location, for example to use your geolocation information from your mobile device to geotag a post. We may use location information to improve and personalize the Services for you, for example by showing you relevant local content.
+
+### D4 P10
+Tumblr may determine your location by using drone technology and live video feeds. Ha ha, no, we just check out your [IP address] or any location data you attach to a post. Normal stuff.
+
+**Information Related to Your Mobile Device:** We may collect and store information related to your mobile device. In some cases, we may receive, generate, or assign your mobile device a unique identifier for the purposes described above in “Information Related to Use of the Services.” We may also ask you to provide your phone number to enable new products and improve the Services, such as by enabling multi-factor authentication for Account login. We will always ask you whether it’s OK for us to collect and store your phone number.
+
+### D4 P11
+**Information Collected Using Cookies and Other Technologies:** A cookie is a string of information that a website stores on a visitor’s computer, and that the visitor’s browser provides to the website each time the visitor returns. Pixel tags (also called web beacons) are small blocks of code placed on websites that allow Tumblr or a third party to see that you have looked at that page. We use cookies and web tags to enable our servers to recognize your web browser and tell us how and when you use the Services. Some services that we use (including Third Party Services), such as Google Analytics, Nielsen, and comScore, may use their own web tags or place their own cookies on your browser. If you are a Tumblr user in the EU, UK, Canada, or in some US states you can customize your cookie preferences from your [privacy settings].
+
+Cookies and web tags let us learn how people use Tumblr, which in turn helps us make a better product for you to use. Tumblr gives you some choices over which cookies we set and how we use your data.
+
+### D4 P12
+**Information About Your Contacts:** Certain features of the Services allow you to provide us with your contact lists, so that we can connect you with people in our Services that are also on those contact lists. For example, you can temporarily connect your email contact information to your Account, so that we can provide you with a list of your email contacts that use the Services. As another example, you can send us your mobile phone contact information through our mobile applications, which then allows us to provide you with a list of those contacts that use the Services so that you can “follow” their blogs. We will give you a choice as to whether or not you provide us such information, and we will disclose fully, within the appropriate feature, how we use that information.
+
+We won’t look at (or be able to look at) your contact list unless you ask us to. Why would you ask us to? Because that’s how you would find out if any of your contacts are on Tumblr. We discard this information immediately afterward.
+
+**Derived Information:** As described above in “Native Actions” and “Information Related to Use of the Services,” we analyze your actions on the Services in order to derive or infer characteristics that may be descriptive of your Account (for example, what kinds of blogs you follow or what kinds of posts you view, like, or reblog). We use this information for all of the purposes set forth in “Information Related to Use of the Services,” above.
+
+### D4 P13
+Personalized Advertising on Tumblr
+
+----------------------------------
+
+In order to provide you with all of this Tumblr content for free, Tumblr selectively runs advertisements. We, and our parent company, Automattic, work with online advertising companies to provide you with advertising that is as relevant and useful as possible. To make our ads more relevant and useful, we make educated guesses about your interests based on your activity on our sites and services. The ads we show you often reflect these interests and educated guesses.
+
+To learn more about how we select the ads you see, you can check out [Tumblr’s Advertising] and affiliate policies.
+
+**Managing your choices for personalized advertising experiences**: In some geographic locations, Tumblr users have the legal right to opt-out of having ads personalized to them. Note that if you opt-out you will continue to see advertisements on Tumblr, though they will be less relevant and useful to you.
+
+If you are a Tumblr user in the EU, UK, Canada, or in some US states you can customize your advertising preferences from within your [privacy settings].
+
+When using the mobile app version of Tumblr on Apple iOS devices you can also opt out of personalized advertising by selecting "Limit Ad Tracking" in the iOS settings. For more information about these iOS options:
+
+1. Open Settings;
+
+2. Select Privacy; and
+
+3. Select Advertising and follow the on-screen instructions.
+
+### D4 P14
+When using the mobile app version of Tumblr on Android devices you can opt-out of personalized advertising by selecting "Opt out of Interest Based Ads” in Google settings. For more information about these Android options:
+
+1. Open Settings;
+
+2. Select Google;
+
+3. Select Privacy; and
+
+4. Select Ads and follow the on-screen instructions.
+
+More information about options for hiding, reporting, and controlling the ads you see on Tumblr can be found in our [Tumblr Ads & You] support doc.
+
+With Whom Your Information Is Shared
+
+------------------------------------
+
+We never share information we receive from you unless: (a) we have your permission to share that information; (b) we have given you prior notice that the information will be shared, and with whom (such as in this Privacy Policy); or (c) that information is aggregate information or other information that does not identify you.
+
+### D4 P15
+**Information Shared with and Received from our Corporate Parents:** We are a wholly-owned subsidiary of Automattic, and a member of the Automattic family of companies. Because we are a wholly-owned subsidiary, Automattic and the rest of our family of companies may receive any information we do, and may share information they have with us. Our family of companies may use the information they receive from us to help us provide, understand, and improve the Services (including by providing us analytics) and in connection with their products and services (including by providing you with a more personalized experience). For details about how Automattic treats the information it collects, please review this [Privacy Policy].
+
+Automattic owns us and we share with it and the Automattic family of companies.
+
+**Information Shared with the Public Through the Services:** As noted in “User Content” and “Native Actions,” above, by default, content published through the Services and many actions you take on the Services are shared with the public. Because this kind of information can be seen by anyone and may be indexed by search engines, you should be careful about what you choose to disclose publicly and make sure it’s information you want to share with everyone.
+
+The content you create on Tumblr is, by default, public. This means that anyone can see it, and that search engines can index it. If these things bother you, take a look at some of the additional [privacy features] we offer.
+
+### D4 P16
+**Information Shared Between the Services:** We may, if possible, aggregate information about your use of multiple Services and use that consolidated information to enhance and improve the Services, and to develop new Services.
+
+**Information You Share with Third Party Services:** You may access Third Party Services through the Services, for example by clicking on externally-pointing links. You may also choose to share information that you provide to us, like blog posts, with those Third Party Services (for example, by sharing posts to Twitter or Facebook). This Privacy Policy only governs information we collect and you are responsible for reading and understanding those Third Party Services' privacy policies.
+
+You can automatically publish the posts you make on Tumblr to other sites (like Facebook or Twitter). That’s where our Privacy Policy ends and their policies begin. Make sure you’re cool with the policies of any services you’re considering sharing to before connecting them to your Tumblr account.
+
+### D4 P17
+**Information Shared with Our Agents in Order to Operate and Improve the Services:** In some cases, we share information we store (such as IP addresses) with third parties, such as service providers, consultants, and other agents ("**Agents**"), for the purposes of operating, enhancing, and improving the Services, and developing new products and services. For example, we may share information with service providers that help us fight spam, payment providers that process your credit and debit card information, customer chat and email support services that help us communicate with you (hey there!), registrars and registries that allow us to provide domain registration services, analytics providers that help us understand and improve our services, and third party partners that pitch in on our marketing efforts (like identifying a specific marketing target group or improving our marketing campaigns, and by placing ads to market our services), along with third-party consultants who may have access to information in the process of improving our processes and technology. Agents with whom we share such information for these reasons are generally bound by confidentiality obligations and, unless we tell you differently, our agents do not have any right to use information we share with them beyond the scope and duration of what is necessary to assist us.
+
+### D4 P18
+**Information Disclosed Pursuant to Business Transfers:** In some cases, we may choose to buy or sell business assets. In these transactions, user information is typically one of the transferred business assets. Moreover, if we, or substantially all of our assets, were acquired, or if we go out of business or enter bankruptcy, user information would be one of the assets that is transferred or acquired by a third party. You acknowledge that such transfers may occur, and that any acquirer of us or our assets may continue to use your Personal Information as set forth in this policy.
+
+Should we happen to get acquired (again!) or go out of business (no way), the transfer of assets from us to our buyer may very well include user information. They are allowed to use it only in the ways outlined here, in the Privacy Policy you are reading right now.
+
+### D4 P19
+**Information Disclosed to Comply With Legal and Regulatory Requirements:** We believe in freedom of expression, and, to the extent reasonable, we try to protect our community from baseless legal demands. That said, we may disclose information about you in response to a subpoena, court order, or other governmental request. For more information on how we respond to requests for information about Tumblr users, please see our [Law Enforcement Guidelines]. Additionally, if you have a domain registered with us, we may share your information to comply with the Internet Corporation for Assigned Names and Numbers’ (ICANN) regulations, rules, or policies. For example, your information relating to your domain registration may be available in the WHOIS database, or we may be required to share your information with ICANN-approved Dispute Resolution Service Providers. Please see our [Domain Registrations and Privacy] support document for more details.
+
+### D4 P20
+**Information Disclosed for Our Protection and the Protection of Others:** We reserve the right to access, preserve, and disclose any information as we reasonably believe is necessary, in our sole discretion, to (i) satisfy any law, regulation, or governmental request, (ii) enforce this Privacy Policy and our [Terms of Service], including investigation of potential violations hereof, (iii) detect, prevent, or otherwise address fraud, security, trust and safety, or technical issues (including exchanging information with other companies and organizations for the purposes of improving security and preventing fraud, spam, and malware), (iv) respond to user support requests, or (v) protect the rights, property, health or safety of us, our users, any third parties or the public in general, including but not limited to situations involving possible violence, suicide, or self-harm.
+
+Don’t make us narc on you. We don’t want to. But we do need to protect everyone who uses Tumblr from harming us, each other, or themselves. We work hard to balance privacy and community, and we’re sure you can appreciate the challenges in that, and the seriousness with which we take those challenges.
+
+**Information We Share with Your Consent or at Your Request:** If you ask us to release information that we have about your Account, we will do so if reasonable and not unduly burdensome.
+
+### D4 P21
+**Information Shared with Other Third Parties:** We may share or disclose non-private information, Aggregate Information, or other non-personally identifying information with people and entities that we do business with.
+
+Security and Retention of Your Information
+
+------------------------------------------
+
+Your Account Information is protected by a password for your privacy and security. We may enable additional security features in the future, like multi-factor authentication. You need to prevent unauthorized access to your Account and information by creating a unique, secure, and protected password and limiting access to your computer and browser by signing off after you have finished accessing your Account on the Services.
+
+We seek to protect your information (including your Account Information) to ensure that it is kept private; however, we can't guarantee the security of any information. Unauthorized entry or use, hardware or software failure, and other factors may compromise the security of user information at any time.
+
+It’s really important that you have a unique password for all of your accounts on the internet, including your Tumblr account. If you have trouble remembering passwords then you might consider using a service like [1Password] or [LastPass].
+
+### D4 P22
+Tumblr will retain your information only for as long as is necessary for the purposes set out in this Privacy Policy, for as long as your Tumblr account is active or as needed to provide you with the Services. If you no longer want Tumblr to use your information to provide you with the Services, you may close your account and Tumblr will delete the information it holds about you unless we need to retain and use your information to comply with our legal obligations, to resolve disputes, to prevent the use of our services for activities that violate our Terms of Service, to enforce our agreements, or as otherwise permitted by law.
+
+What Information You Can Access
+
+-------------------------------
+
+If you are a registered user, you can download a personal data report by submitting a request in the Privacy section of your Settings. You need to be signed in to your Tumblr account to submit this request, and you will have to log in to your account to access the summary or the report. You can also [download/export a copy of the content you post to Tumblr.]
+
+How to Delete Your Account and What Happens When You Delete Your Account
+
+------------------------------------------------------------------------
+
+### D4 P23
+If you want to delete your Account, you can do so from your [Account Settings]. Deleting your Account may not fully remove the content you have published from our systems, as caching of, backups of, copies of, or references to your Account Information may not be immediately removed. In addition, given the nature of sharing on the Services, some of the public activity on your Account prior to deletion (such as reblogs of your blog posts) may remain stored on our servers and accessible to the public.
+
+You’ll do great things on Tumblr, surely, but if it ever comes time to say goodbye, then you’re free to delete your account at any time and for any reason. We’ll keep your data for 30 days in case you regret your decision. After 30 days, your account will be deleted and cannot be recovered.
+
+What won’t get scrubbed are Reblogs of your posts. Those will remain on whatever blog reblogged them. Like we said before, it can be really, really hard to delete something once it goes out onto the internet, so be sure you’re only publishing stuff that you’re certain you want to publish.
+
+Privacy Rights
+
+--------------
+
+If you’re a resident of Canada and certain US states you have a number of rights and choices about your personal information. To learn more, see the applicable [Supplemental US Privacy Notice] or [Supplemental Canadian Privacy Notice] below.
+
+Changes to This Privacy Policy
+
+------------------------------
+
+### D4 P24
+We may amend this Privacy Policy from time to time, using the process for modifications set forth in our [Terms of Service]. Use of information we collect is subject to the Privacy Policy in effect at the time such information is collected.
+
+Where to Direct Questions or Concerns
+
+-------------------------------------
+
+If you have any questions or concerns regarding privacy using the Services, [send us a detailed message].
+
+Link to Prior Versions
+
+----------------------
+
+You will find a link to prior versions of our Privacy Policy below. We have stored these versions on GitHub, which will also allow you to compare different versions and see what terms have changed:
+
+[https://github.com/tumblr/policy/commits/master/privacy-policy.txt]
+
+Supplemental US Privacy Notice
+
+------------------------------
+
+Laws in some US states require us to provide residents with additional information about the categories of personal information we collect and share, where we get that personal information, and how and why we use it.
+
+### Summary of Information We Collect
+
+In the last 12 months, we collected the following categories of personal information (as those terms are defined by applicable law)
+
+* Identifiers (such as username and email address);
+
+* Commercial information (such as transaction data);
+
+* Financial data (such as credit card and other financial account information);
+
+* Internet or other network or device activity (such as unique identifiers, browsing history or other usage data);
+
+### D4 P25
+* Geolocation information (general location);
+
+* Inference data about you;
+
+* Legally protected classifications (such as gender);
+
+* Physical characteristics or description (such as when you voluntarily submit a photo);
+
+* Or other information that identifies or can be reasonably associated with you.
+
+You can find more information about what we collect, the business and commercial purposes we use it for, and the sources of that information in the [“What We Collect and How We Use It”] section above.
+
+We share this information with the categories of third parties described above in [“With Whom Your Information Is Shared."]We retain this information for the length of time described in our [Security and Retention of Your Information] section.
+
+We may also use the categories of personal information for compliance with applicable laws and regulations. We may aggregate the information we collect or de-identify it in order to limit or prevent the identification of any particular user or device.
+
+In some US states, you have additional rights subject to any exemptions provided by your state’s respective law. You can find detailed metrics about Tumblr's compliance with these rights in our Privacy Report [here].
+
+### D4 P26
+* **Access:** Depending on your state’s relevant laws, you may have the right to request a copy of some or all of the following: a copy of the information we hold about you, the categories of personal information we have collected or disclosed about you in the last twelve months, the categories of sources of such information, the business or commercial purpose for collecting or sharing that information, the categories of third parties with whom we shared that information, and/or the list of specific third parties (other than natural persons) to which we have disclosed personal information. As described in the section ‘What Information You Can Access,’ you can download a personal data report by submitting a request in the Privacy section of your Settings. You need to be signed in to your Tumblr account to submit this request, and you will have to log in to your account to access the summary or the report. If you want to request the summary described above, require additional assistance, or if you do not have a Tumblr account, submit a support ticket [here] or email us at privacy@tumblr.com.
+
+### D4 P27
+* **Delete:** In some US states you also have the right to delete certain information we have about you. You can delete much of your information by logging in to your account. If you cannot do this, or you do not have a Tumblr account, please submit a support ticket [here], or email us at privacy@tumblr.com. For more information on deleting your account or leaving Tumblr, please refer to the section ‘How to Delete Your Account.’
+
+* **Non-Discrimination:** You also have the right not to be discriminated against (as provided for in applicable law) for exercising your rights.
+
+* **Correct:** In general you can correct any information Tumblr has about you by editing your account. For example, you can update your email address from [your account settings]. If there’s any information we have about you that you would like corrected, that you can’t change yourself, you can [contact our support team] to request this.
+
+* **Opt-Out:** You may have the right to opt-out of having your data sold or shared (as those terms are defined in your state’s law). More on how to do that below.
+
+* **Content Portability:** At Tumblr it’s totally possible to [export your blog]. It’s your stuff, not ours. We make it easy for you to grab a copy of it.
+
+Certain information may be exempt from these rights under applicable law. For example, we need certain types of information so that we can provide you with the Services. If you ask us to delete them, you may no longer be able to access or use the Services.
+
+### D4 P28
+Before we can satisfy your request, you’ll need to give us enough information so that we can be certain of your identity. To do that, you’ll need to log in to your account or give us certain information about you and/or your use of the Services. You can also designate an authorized agent to make a request on your behalf. To do so, you have to give us written authorization for the agent to act on your behalf. You’ll still need to verify your identity directly with us.
+
+**Right to Opt-Out:** Tumblr selectively runs advertisements so we can provide you with Tumblr content for free. To help select which ads to show you, we may share some of your information with advertising partners, or allow our advertising partners to “collect” certain information. The personal information we share includes online identifiers and internet or other network or device activity (such as cookie information, other device identifiers, and IP address), and geolocation data. In some US states, this data sharing may be considered a “sale.” To learn more about how we select the ads you see, check out [Tumblr’s Ads & You]. We do not sell (or share) information that identifies you personally, like your name or contact information, in our ads program. Also, we do not knowingly "sell" your personal information if you are under 16.
+
+### D4 P29
+Learn how you can opt out by going to [Your Advertising Choices]. If you are a user who has told us you are under 16, you’ll see in [your settings] that we’ve already opted you out.
+
+In addition to the data sharing related to our ads program, sometimes Tumblr shares your information with our third-party service providers to provide our services to you. To the extent that we share your information with certain advertising, marketing, or analytics vendors, this can be considered a "sale" or “share” in certain U.S. States, which you may have the right to opt out of. This opt-out is controlled through the same opt-out as the personalized ads program opt-out, found in [your settings]. We also respect the GPC browser signal and will treat it as a valid means of communicating your desire to opt out.
+
+We do not collect or process your sensitive (and potentially sensitive) personal information except where it is strictly necessary to provide you with our service, where the processing is not for the purpose of inferring characteristics about you, or for other purposes that do not require an option to limit under California law.
+
+### Appeals Process for Denied Requests
+
+### D4 P30
+In some circumstances we may deny your request to exercise one of these rights. For example, if we cannot verify that you are the account owner we may deny your request to access the personal information associated with your account. As another example, if we are legally required to maintain a copy of your personal information we may deny your request to delete your personal information.
+
+In the event that we deny your request, we will communicate this fact to you in writing. You may appeal our decision by responding in writing to our denial email and stating that you would like to appeal.
+
+If your appeal is denied, in some US states you may refer the denied appeal to the state attorney general if you believe the denial is in conflict with your legal rights.
+
+### Contacting Us About These Rights
+
+You can usually access, correct, or delete your personal data using your account settings and tools that we offer, but if you aren’t able to or you’d like to contact us about one of the other rights, scroll up to [“Where to Direct Questions or Concerns”] to, well, find out where to direct your questions or concerns.
+
+Supplemental Canadian Privacy Notice
+
+------------------------------------
+
+If you are a Canadian resident, you may have additional rights over the personal data Tumblr processes about you, including:
+
+### D4 P31
+**Consent:** By submitting personal information to us, or our service providers and agents, you consent to the collection use, disclosure, and transfer of your personal information in accordance with this Privacy Policy and as permitted or required by law. You may withdraw your consent at any time to the collection, use, disclosure, or transfer of your personal information time by adjusting your privacy choices from your [privacy settings] and/or by [sending us a detailed message] about the processing you want to withdraw consent for. If you withdraw your consent (or if you decide not to provide certain personal information), you acknowledge that we may not be able to provide you, or continue to provide you, with certain products, services, or information that may be of value to you.
+
+### D4 P32
+**Access and Correction:** We will take reasonable steps to ensure the personal information we hold is accurate, complete and up-to-date. Upon your written request, and subject to certain exceptions provided by law, we will inform you of the existence, use, and disclosure of your personal information and give you access to that information. We may charge a minimal fee for providing such access to you. If you believe that the personal information that we hold about you is not accurate or complete, you may [send us a detailed message]. If you are able to establish that the information is not accurate or complete, we will take reasonable steps to delete and/or correct the information so that it is accurate, complete, and up-to-date. In order to facilitate a request to correct or update information, we may ask you to provide additional information to confirm your identity. Any such information will only be used for the purpose of confirming your identity and will not be retained by us.
+
+If you are a **resident of Quebec**, you also have the right to data portability, which is the right to receive your personal information in a structured, commonly used and technological format and to have this information transferred from us to another service provider.
+
+### D4 P33
+Quebec users also have the right to be informed if we exclusively use automated processing to render a decision about you. You also have the right to request information about the personal information used to make that decision, and to request that the information be corrected.
+
+**Transfers out of Canada/Quebec**: Note that personal information may be stored, accessed, used and otherwise processed inside and outside of Quebec and/or Canada. When personal information is located outside Quebec and/or Canada, it may be subject to laws that have different standards of protection and may allow for foreign law enforcement and governmental access.
+
+As described in the section ‘What Information You Can Access,’ you can download a personal data report by submitting a request in the Privacy section of your Settings. You need to be signed in to your Tumblr account to submit this request, and you will have to log in to your account to access the summary or the report.
+
+To exercise any of the above rights, submit a support ticket [here] or email us at privacy@tumblr.com.
+
+### Advertising on Tumblr
+
+### D4 P34
+Tumblr selectively runs advertisements so we can provide you with Tumblr content for free. To help select which ads to show you, we may share some of your information with advertising partners, or allow our advertising partners to “collect” certain information. The personal information we share includes online identifiers and internet or other network or device activity (such as cookie information, other device identifiers, and IP address), and geolocation data. To learn more about how we select the ads you see, check out [Tumblr’s Ads & You.]
+
+If you are viewing Tumblr from within Canada, you will be shown our cookie banner when you first access our site or service, and periodically it will resurface in the future. From this banner you have a variety of controls that allow you to customize the way Tumblr uses your data for our advertising program, as well as for some other non-advertising uses like measuring how you use Tumblr so we can make it better.
+
+You can view and modify your consent choices at any time by clicking “Update Privacy Consent” from [your privacy settings]. We also respect the GPC browser signal and will treat it as a valid means of communicating your desire to withdraw your consent from having your data used to personalize the advertisements shown to you on Tumblr.
+
+### D4 P35
+**Canada’s Anti Spam Law (“CASL”)**: We will only send you commercial electronic messages (“CEMs”) where we have your express or implied consent to do so. Your consent to receive CEMs is implied where we have an existing business relationship with you, or you have reached out to us and made an inquiry within a certain time frame. You may unsubscribe from receiving CEMs at any time, by clicking the unsubscribe button on an email or following the direction provided in a text message. You cannot unsubscribe from important, account related communications.
+
+
+## Cases for D4 (Tumblr, Privacy Policy)
+
+- C1. "Third-party cookies are employed, but with opt out instructions". Description: (none) Classification: bad.
+- C2. "This service receives your precise location through GPS coordinates". Description: Unless the service relies on Geo Location, this case is to be assigned to points that don't need your GPS coordinates to function properly. Classification: bad.
+- C3. "You can delete your content from this service". Description: You can ask the service to remove your content at any time, and it's deleted within a reasonable time. Classification: good.
+- C4. "Information is provided about how your personal data is used". Description: The Privacy Policy explains the purposes for which data is collected and the way it is processed, used and shared. Classification: good.
+
+ERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 6:18 PM.
+ERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 6:18 PM.

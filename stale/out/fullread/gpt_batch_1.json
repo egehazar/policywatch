@@ -1,0 +1,80 @@
+{
+ "D1": {
+  "C1": [
+   {
+    "piece": "P83",
+    "quote": "Our systems automatically process information we have collected and stored associated with you and others to assess and understand your interests and your preferences and provide you personalised experiences across the Meta Products in accordance with our terms."
+   },
+   {
+    "piece": "P96",
+    "quote": "Our systems automatically process information we have collected and stored associated with you and others to assess and understand your interests and your preferences and provide you personalised experiences across the Meta Products in accordance with our terms."
+   },
+   {
+    "piece": "P77",
+    "quote": "If we show you ads, our ads system automatically processes information that we've collected and stored associated with you. In accordance with your Ad preferences, our ads system uses this information to understand your interests and your preferences and personalize your ads on and off the Meta Company Products."
+   },
+   {
+    "piece": "P56",
+    "quote": "For example, your videos can help train our products to recognize objects, like trees, or activities, like when a dog chases a ball. They can also help train tools that let people and businesses create content, like images and videos."
+   },
+   {
+    "piece": "P30",
+    "quote": "We also use manual review to analyze content to train our algorithms to review content the same way a person would. This improves our automatic processing, which in turn helps us improve our products."
+   }
+  ],
+  "C2": [
+   {
+    "piece": "P24",
+    "quote": "We use location-related information that you allow us to receive if you turn on the Location Services device setting. This includes things like your GPS location and, depending on the operating system you're using, other [device signals\\[31\\]]."
+   },
+   {
+    "piece": "P81",
+    "quote": "Collecting information that you allow us to receive through the device-based settings you enable (such as access to your GPS location, camera or photos) which we use to provide the features or services described when you enable the setting."
+   },
+   {
+    "piece": "P7",
+    "quote": "Information you’ve shared with us through device settings, like GPS location, camera access, photos and [related metadata\\[16\\]]"
+   },
+   {
+    "piece": "P32",
+    "quote": "He has turned on Location Services on his device and allowed location access on the Facebook app, so we can use his GPS information to help him find the most relevant public Wi-Fi networks. We’ll also use this information to show him ads for local businesses near the airport."
+   }
+  ],
+  "C3": [
+   {
+    "piece": "P117",
+    "quote": "We’ll collect and store your information and use it to send marketing communications to you, like an e-mail."
+   },
+   {
+    "piece": "P130",
+    "quote": "We’ll collect and store your information and use it to send marketing communications to you, like an e-mail address."
+   },
+   {
+    "piece": "P49",
+    "quote": "We share information about you with [marketing vendors\\[57\\]]. For example, we share your device identifier or other identifiers with marketing vendors to help us serve you ads most relevant to your interests."
+   },
+   {
+    "piece": "P22",
+    "quote": "To provide our Products for free, we use your information to show you ads, which advertisers, businesses, organizations and others pay us to show you."
+   },
+   {
+    "piece": "P27",
+    "quote": "* We send messages about the Products we know you use, using the email you register to your account\n\n* Depending on your settings, we send marketing communications about Products you might like"
+   }
+  ],
+  "C4": [
+   {
+    "piece": "P32",
+    "quote": "Later on his trip, he opens the Facebook app, and we can use the IP address we receive to estimate Marcus’ general location and show him ads for businesses nearby."
+   },
+   {
+    "piece": "P24",
+    "quote": "We also receive and use some location-related information even if Location Services is turned off. This includes:\n\n* [IP addresses\\[32\\]], which we use to estimate your general location."
+   },
+   {
+    "piece": "P7",
+    "quote": "* Information about the network you connect your device to and your connection, including your [IP address\\[17\\]]. [See more examples\\[18\\]].\n\n* Some [location-related information], even if Location Services is turned off in your device settings. This includes using IP addresses to estimate your general location."
+   }
+  ]
+ }
+}

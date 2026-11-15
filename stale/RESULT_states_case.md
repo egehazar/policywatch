@@ -105,3 +105,31 @@ passages near 0 or 1 (212 of 307), and those extremes are about right; Kev sprea
 and .8 (e.g. passages it scored .6-.7 were rated YES 54% of the time). So on this task the decision-model training
 was not shown to add calibration either. The labelled passages are mostly the methods' top picks, not a random
 sample, and the raters are Claude models.
+
+## The same cards re-rated by GPT (2026-11-15; exploratory, `stale/PREREG_states_case_gpt.md`)
+The plan and scorer were hashed at 10:38 UTC, before GPT saw a card; fed the Claude raters' verdicts, the scorer
+reproduces every figure above exactly. GPT (Codex CLI 0.154.0, gpt-6-astra, reasoning xhigh, read-only sandbox, an
+empty folder, no web) rated the 337 cards of `audit_states`, `audit_states2` and `audit_states3` blind, one run per
+folder, each given that folder's README and cards verbatim. The first attempts hit the Codex usage limit (no reply,
+logged); each folder then ran once at 15:28-15:35 UTC. Raw replies and logs: `stale/out/states_gpt_raw/`; verdicts:
+`stale/<folder>/verdicts_gpt.json`; scores: `stale/out/states_case_gpt.json`.
+
+| 120 points | KEV | QWEN | RERANK | BM25 |
+|---|---|---|---|---|
+| States the case @1, Claude raters | .725 | .733 | .608 | .417 |
+| States the case @1, GPT | .742 | .750 | .600 | .475 |
+| YES or PARTLY @1, GPT | .908 | .950 | .775 | .683 |
+
+- KEV - RERANK: +.142 [+.053, +.228], KEV better (Claude raters: +.117 [+.034, +.200]).
+- KEV - BM25: +.267 [+.184, +.355], KEV better.
+- KEV - QWEN: -.008 [-.053, +.035], no difference shown. QWEN - RERANK: +.150 [+.080, +.223], QWEN better.
+- Checks: 1 of 30 random controls rated YES (valid; the bar was at most 3). The 30 anchor passages, rated twice in two
+  folders, got the same YES / not-YES call both times (30 of 30). Card by card, GPT and the Claude raters agree on 298
+  of 337 (kappa .768); GPT said YES 165 times, Claude 156.
+
+**Reading (fixed in the plan): HOLDS UNDER GPT.** All three conclusions survive a rater from another company: a
+language model asked about each passage picks a passage that states the case more often than the reranker and BM25,
+and Kev's decision-model training adds nothing over its base family on this measure. Predicted: KEV .65-.75 (.742),
+RERANK .55-.65 (.600), BM25 .35-.45 (.475, above), KEV - RERANK +.05 to +.12 with even odds of clearing 0 (+.142,
+cleared), kappa .55-.75 (.768, just above). GPT and the Claude raters are both language models, so the risk named
+above (a rater that shares a model's sense of relevance) is narrowed, not removed.
