@@ -1,6 +1,6 @@
 # The 60 gate cards, answered by GPT and Fable instead of a person (written before either rater runs)
 
-Written 2026-11-15 ~09:40 UTC. A disclosed change to `stale/PREREG_suggest.md`.
+Written 2026-11-15 ~10:20 UTC. A disclosed change to `stale/PREREG_suggest.md`.
 
 ## Why
 `stale/PREREG_suggest.md` made the stale-suggestion result (`stale/RESULT_suggest.md`) final only if a person
