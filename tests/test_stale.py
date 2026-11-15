@@ -298,5 +298,26 @@ class TestDailyDigest(unittest.TestCase):
         self.assertEqual(report.sid('Proton Mail'), 'proton-mail'); self.assertEqual(report.sid('???'), 'x')
 
 
+
+class TestDropAudit(unittest.TestCase):
+    def test_plain_window_wilson(self):
+        from stale import drop_audit as A
+        self.assertEqual(A.plain('li>\n<li>Information you <b>shared</b> stays.\n</p>\n<'), 'Information you shared stays.')
+        ps = ['Intro.', 'We sell data to brokers for profit.', 'x' * 2000]
+        i, share = A.best(ps, 'We sell data to brokers')
+        self.assertEqual(i, 1); self.assertEqual(share, 1.0)
+        self.assertEqual(A.window(ps, 1, 'We sell'), 'Intro.\n\nWe sell data to brokers for profit.')   # the long neighbour stays out
+        self.assertLessEqual(len(A.window(ps, 2, '')), A.CAP + 6)
+        lo, hi = A.wilson(27, 30); self.assertAlmostEqual(lo, .744, places=3); self.assertAlmostEqual(hi, .965, places=3)
+        self.assertEqual(A.wilson(0, 0), [None, None])
+
+    def test_draw_is_fixed_and_blind(self):
+        from stale import drop_audit as A
+        if not os.path.exists(os.path.join(ROOT, 'stale', 'wide', 'contrib', 'out', 'points.jsonl')): self.skipTest('no contrib run')
+        c1, n1 = A.draw(); c2, _ = A.draw()
+        self.assertEqual([(k, r['point']) for k, r in c1], [(k, r['point']) for k, r in c2])
+        self.assertEqual(sorted(k for k, _ in c1).count('L'), 30)
+
+
 if __name__ == '__main__':
     unittest.main()
