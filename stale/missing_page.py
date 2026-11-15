@@ -36,8 +36,8 @@ def accuracy(arm):
     r = json.load(open(p, encoding='utf-8')); a = r['precision_at_10'][arm]; lo, hi = a['wilson95']
     return (f'<p class="note"><b>Measured accuracy:</b> in the pilot&rsquo;s blind check, an AI rater (a Claude model, '
             f'not a person) judged that {a["yes"]} of this method&rsquo;s {a["cards"]} top-10 suggestions state the case '
-            f'({a["yes_share"]:.0%}, 95% interval {lo:.0%} to {hi:.0%}); {a["yes_or_partly_share"]:.0%} state it at least '
-            f'partly. {gpt(arm)}Pilot reading: {esc(r["reading"].lower())}. Four documents only; '
+            f'({a["yes_share"]:.0%}, 95% interval {lo:.0%} to {hi:.0%}), and {a["yes_or_partly_share"]:.0%} to state it at '
+            f'least partly. {gpt(arm)}Pilot reading: {esc(r["reading"].lower())}. Four documents only; '
             f'<code>stale/RESULT_missing.md</code>.</p>')
 
 
@@ -46,7 +46,7 @@ def gpt(arm):
     if not os.path.exists(p): return ''
     g = json.load(open(p, encoding='utf-8')); a = g['gpt']['precision_at_10'][arm]; ag = g['agreement']
     return (f'A second AI rater (GPT) judged {a["yes"]} of the {a["cards"]} to state the case; the two agreed on '
-            f'{ag["agree"]} of {ag["cards"]} cards. ')
+            f'whether a card states the case for {ag["agree"]} of {ag["cards"]} cards. ')
 
 
 def build(arm=None):
@@ -74,7 +74,8 @@ def build(arm=None):
         plat, name = d['doc'].split('/', 1)
         secs.append(f'<h2>{esc(plat)}: {esc(name[:-3] if name.endswith(".md") else name)}</h2>'
                     f'<p class="sm mut">{len(d["positives"])} cases already have an approved point quoting this document; '
-                    f'{len(d["excluded"])} more are approved for {esc(plat)} elsewhere and are not suggested. Asked: '
+                    f'{len(d["excluded"])} more are approved for {esc(plat)} (on another document, or on this one with a quote that is '
+                    f'gone, partial or short) and are not suggested. Asked: '
                     f'{len(d["negatives"])} cases that ToS;DR often approves on {esc(d["type"])} documents and has no point '
                     f'for on {esc(plat)}. <a href="{REPO}{esc(d["doc"])}">Current text</a>.</p>' + ''.join(items))
     body = (f'<h1>Possible missing points</h1>'

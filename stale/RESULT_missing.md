@@ -52,7 +52,7 @@ Card-level agreement on YES vs not YES: 96 of 107 cards, kappa 0.717 (Claude YES
 
 ## Measure 4: cost
 
-Kev-4B Q8, one request per passage with all of the document's questions not already cached (CPU otherwise quiet). Predicted from the cost benchmark: 7.38 s per passage + 0.931 s per question. The instruct model's cost for the same cells is the benchmark's 6.33 s per passage-question (it is not run).
+Kev-4B Q8, one request per passage with all of the document's questions not already cached (no other model job on the CPU; light editing, git commands and tests of mine ran at times). Predicted from the cost benchmark: 7.38 s per passage + 0.931 s per question. The instruct model's cost for the same cells is the benchmark's 6.33 s per passage-question (it is not run).
 
 | Document | passages | questions | cells asked (cached) | Kev s | Kev s per passage | predicted | instruct s (est.) | instruct / Kev | reranker s |
 |---|---|---|---|---|---|---|---|---|---|
@@ -85,7 +85,7 @@ Kev per asked cell: 1.10 s; instruct model: 6.33 s. Kev took 1.04x the benchmark
   as "at least the reranker's"; the difference itself is not tested). In the relocation tests Kev was better than the
   reranker in one of three parts.
 - **What this does not show: that the lead comes from decision-model training.** Kev's base family (Qwen3.5-4B
-  instruct) was not run (pre-registered, for cost: about 10 h). Wherever the base family was run so far it showed no
+  instruct) was not run (pre-registered, for cost: about 13 h for every cell). Wherever the base family was run so far it showed no
   difference from Kev, so the likely reading is again "an LLM asked about each passage", with Kev as the cheap way to
   ask it.
 - **This is the workload the decision-model API is for.** 62-78 questions per passage; Kev took 1.8 h where the
@@ -93,42 +93,61 @@ Kev per asked cell: 1.10 s; instruct model: 6.33 s. Kev took 1.04x the benchmark
   it ran at 1.04x the benchmark's prediction. The reranker is cheaper still: 0.72 h for all 7,029 cells (0.37 s a
   cell), against about 2.0 h for Kev on all of them by the fit: about 2.8x the reranker's time for twice the YES
   suggestions.
-- **Measure 1 came in lower than predicted (KEV .76 against .85-.92) for all three arms.** Two reasons sit in the
-  design: the negatives are cases ToS;DR often approves on this document type (on-topic, hard negatives), and some
-  of them are in fact stated (the pilot found 18 in Kev's top 10 alone), which pulls every arm's AUROC down. BM25 at
-  .54 is near chance: case titles share few words with policy text.
+- **Measure 1 came in lower than predicted (KEV .76 against .85-.92) for all three arms**, and KEV - RERANK read
+  KEV better where no difference was predicted. Two likely reasons sit in the design: the negatives are cases ToS;DR
+  often approves on this document type (on-topic, hard negatives), and the rater judged some of them stated (22
+  negatives rated YES across the cards), which pulls every arm's AUROC down. They explain part of the miss at most:
+  without those 22 negatives (exploratory, after scoring) Kev reaches .821, the reranker .711 and BM25 .560, all
+  still below their predicted ranges. BM25 near chance fits case titles sharing few words with policy text.
+- Predictions against results: Kev's precision@10 (.45) is inside its range (.30-.50); the reranker's (.225) is
+  below its range (.25-.40) and BM25's (.150) at its bottom edge; P(worth building) was put at 55%.
 
 ## What Kev's 18 YES cards are (exploratory, after scoring; my reading, not blind)
 - By document: X privacy policy 6, YouTube terms 5, Pinterest terms 4, Bluesky privacy policy 3.
-- Three are variants of a case already approved for the same service, which a curator may have chosen on purpose:
-  X "Many third parties are involved in operating the service" (X has "Third parties are involved in operating the
-  service"), Bluesky "Third parties are involved in operating the service" (Bluesky has "This service gives your
-  personal data to third parties involved in its operation"), YouTube "Your account may be suspended and/or
-  terminated for breaching the Terms of Service" (YouTube has "Your account can be suspended for several reasons").
-  Two more sit close to an approved one: X "This service gives your personal data to third parties involved in its
-  operation" and YouTube "No guarantee is given regarding quality".
-- The other 13 have no close counterpart on the service, for example Pinterest "You waive your right to a class
-  action" (passage: "You and Pinterest are each waiving the right to a trial by jury or to participate in a class
-  action"), X "The service claims to be GDPR compliant for European users", X "Promises will be kept after a merger
-  or acquisition", Bluesky "You can retrieve an archive of your data", YouTube "This service assumes no
-  responsibility and liability for the contents of links to other websites", and the copyright-claim case on both
-  Pinterest and YouTube.
-- Live check (2026-11-15 20:35 UTC, ToS;DR's public API, one request per service): none of the cards' cases has an
-  approved point on its service today. The public API lists approved points only, so a pending or declined point
-  cannot be ruled out; a curator sees those in the edit interface.
+- Four are variants of, or successors to, a case already approved for the same service, which a curator may have
+  chosen on purpose: X "Many third parties are involved in operating the service" (X has "Third parties are involved
+  in operating the service"), Bluesky "Third parties are involved in operating the service" (Bluesky has "This
+  service gives your personal data to third parties involved in its operation"), YouTube "Your account may be
+  suspended and/or terminated for breaching the Terms of Service" (YouTube has "Your account can be suspended for
+  several reasons"), and YouTube "This service assumes no responsibility and liability for the contents of links to
+  other websites" (YouTube has an approved point on its deprecated predecessor, "The service is not responsible for
+  linked or (clearly) quoted content from third-party content providers").
+- Five more sit close to an approved case on the service: X "This service gives your personal data to third parties
+  involved in its operation" (X lists its third parties), X "Information is provided about how your personal data
+  is collected" (X has "... what kind of personal information is collected"), and three no-guarantee cases: YouTube
+  and Pinterest "No guarantee is given regarding quality" and YouTube "This service does not guarantee that it or
+  the products obtained through it meet your expectations or requirements" (both services have "No guarantee is made
+  regarding the accuracy and/or reliability ..." or a no-warranty case).
+- About 9 have no close counterpart on the service: Pinterest "You waive your right to a class action" (passage:
+  "You and Pinterest are each waiving the right to a trial by jury or to participate in a class action"; Pinterest
+  does have "You are forced into binding arbitration", a separate case), Pinterest's and YouTube's copyright-claim
+  case, Pinterest "Other rules, terms, conditions and/or guidelines may apply", X "The service claims to be GDPR
+  compliant for European users", X "Promises will be kept after a merger or acquisition", X "The service claims that
+  third parties it shares your personal information with are bound by confidentiality obligations", Bluesky "You can
+  retrieve an archive of your data" and Bluesky "Information is provided about security practices". The first
+  version of this section said 13; an independent fact-check found four more with a close counterpart.
+- Live check (2026-11-15 20:33 UTC, ToS;DR's public API, one request per service; `stale/out/missing_live_check.json`,
+  replies in `stale/out/missing_live_tosdr/`): none of the cards' case titles has an approved point on its service
+  today (the deprecated predecessor above has a different title). The public API lists approved points only, so a
+  pending or declined point cannot be ruled out; a curator sees those in the edit interface.
 
 ## Caveats
 - Four documents, 40 cards per arm: wide intervals. Both raters are language models (Claude Opus, GPT); no person
   checked a card.
 - "No approved point" is not "no point": see the live check above.
-- The rater finished in 3.3 minutes; its tool-call log (`stale/audit_missing/rater_toolcalls.txt`) shows it read only
+- The rater's first and last tool calls are 3.2 minutes apart; its tool-call log (`stale/audit_missing/rater_toolcalls.txt`) shows it read only
   its folder and wrote its answers in three batches through a small merge script in the session's scratch folder.
   GPT: one run, 20:26-20:32 UTC (Codex CLI, gpt-6-astra, reasoning xhigh, read-only sandbox, empty folder); prompt,
   reply and log in `stale/out/missing_gpt_raw/`; its reply was hashed before it was ingested.
 - Errata to the hashed pre-registration, found by an independent fact-check after hashing (the hashed file is left as
   it was): "the curator pages ask 1-7 questions per document" should read 1-18 on the 20 platforms and up to 43 on
   contrib (median about 3); "decision-model training adds no accuracy over its base family" should read "was not
-  shown to add". BM25's measure 1 figure (.541) was seen before hashing (disclosed in the plan).
+  shown to add". The plan's "about 15 h" for the instruct model on these documents should read about 12.9 h (7,029
+  cells at its 6.6 s); the 10.4 h above is for the 5,922 cells Kev asked, at the benchmark's 6.33 s. The plan says it
+  was written at ~11:05 UTC; it was committed and hashed at 11:02. BM25's measure 1 figure (.541) was seen before
+  hashing (disclosed in the plan).
+- The rater instructions (copied unchanged from the states-the-case test) use "You waive your right to a class
+  action" as their example of a case, and that case is on two of this pilot's cards (M037, M058).
 
 ## Next
 A pilot is a reason to run a larger pre-registered test, not a result to quote as general. That test should add

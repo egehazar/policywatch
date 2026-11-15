@@ -78,8 +78,8 @@ def build(out=OUT, dest=None, docs=DOCS):
               f'(Claude YES {a["claude_yes"]}, GPT YES {a["gpt_yes"]}).', '']
     if kt:
         L += ['## Measure 4: cost', '',
-              'Kev-4B Q8, one request per passage with all of the document\'s questions not already cached (CPU otherwise '
-              'quiet). Predicted from the cost benchmark: 7.38 s per passage + 0.931 s per question. The instruct model\'s '
+              'Kev-4B Q8, one request per passage with all of the document\'s questions not already cached (no other model '
+              'job on the CPU; light editing, git commands and tests of mine ran at times). Predicted from the cost benchmark: 7.38 s per passage + 0.931 s per question. The instruct model\'s '
               'cost for the same cells is the benchmark\'s 6.33 s per passage-question (it is not run).', '',
               '| Document | passages | questions | cells asked (cached) | Kev s | Kev s per passage | predicted | instruct s (est.) | instruct / Kev | reranker s |',
               '|---|---|---|---|---|---|---|---|---|---|']

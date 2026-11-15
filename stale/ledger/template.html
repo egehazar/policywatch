@@ -77,7 +77,7 @@ code{font:.82rem var(--f-mono);background:var(--accent-soft);padding:1px 5px;bor
   <div class="eyebrow">policywatch · state on 15 Nov 2026, 20:45 UTC</div>
   <h1>Which approved ToS;DR points lost their evidence, and where is the case stated now?</h1>
   <p class="lede">ToS;DR&rsquo;s volunteer curators back every point (&ldquo;You waive your right to a class action&rdquo;) with a quote from a service&rsquo;s terms. Open Terms Archive records every version of those terms. policywatch checks every approved quote against every version, lists the points whose quote disappeared in a platform&rsquo;s own edit, and suggests where the case may be stated now. It runs on a desktop CPU; every test below was written down and hashed before it was scored, failures included.</p>
-  <div class="status"><span class="pill p-good">Missing-points pilot: worth building (Kev 18 of 40 new cases, reranker 9; LLM raters)</span><span class="pill p-warn">Stale-point suggestions provisional: graded by two AIs (Opus, GPT), no person checked</span></div>
+  <div class="status"><span class="pill p-good">Missing-points pilot: worth building (Kev 18 of 40 cases with no approved point, reranker 9; LLM raters)</span><span class="pill p-warn">Stale-point suggestions provisional: graded by two AIs (Opus, GPT), no person checked</span></div>
 </header>
 
 <section>
@@ -136,7 +136,7 @@ code{font:.82rem var(--f-mono);background:var(--accent-soft);padding:1px 5px;bor
     <tr><td>Mark a suggestion &ldquo;Clear&rdquo;</td><td><span class="pill p-good">Shipped</span></td><td class="num">50 of 53 clear ones right</td><td>Curator&rsquo;s quote</td></tr>
     <tr><td>Shorter question layout for Kev</td><td><span class="pill p-bad">Not adopted</span></td><td class="num">&minus;2.5 [&minus;5.3, +0.5]</td><td>Curator&rsquo;s quote</td></tr>
     <tr><td>Suggestions on the 141 stale points</td><td><span class="pill p-warn">Provisional</span></td><td class="num">Kev 74% (document mean)</td><td>Opus answer key; GPT and Fable agree with it (kappa .67, .82); GPT&rsquo;s own whole key gives Kev 78%; no human check</td></tr>
-    <tr><td>Missing points pilot: cases with no ToS;DR point yet, 4 documents</td><td><span class="pill p-good">Worth building, on Kev</span></td><td class="num">top 10 rated YES: Kev 18/40 · reranker 9 · BM25 6; AUROC .76 · .68 · .54</td><td>Claude rater, blind; GPT agrees (kappa .72; Kev 20/40)</td></tr>
+    <tr><td>Missing points pilot: cases with no approved ToS;DR point yet, 4 documents (base family not run)</td><td><span class="pill p-good">Worth building, on Kev</span></td><td class="num">top 10 rated YES: Kev 18/40 · reranker 9 · BM25 6; AUROC .76 · .67 · .54</td><td>Claude rater, blind; GPT agrees (kappa .72; Kev 20/40)</td></tr>
     <tr><td>Label a point &ldquo;case no longer stated&rdquo;</td><td><span class="pill p-bad">Not shipped</span></td><td class="num">6 of 12 flags right</td><td>LLM rater</td></tr>
     <tr class="grp"><td colspan="4">Meaning-diff scanner (the original idea)</td></tr>
     <tr><td>Rank which answers an update changed</td><td><span class="pill p-bad">Failed</span></td><td class="num">needed 684 reviews, bar 182</td><td>Two LLM raters</td></tr>
