@@ -75,6 +75,10 @@ result in `stale/PREREG_relocate_d.sha256`).
   clear, 59 right (.952 [.893, 1.000]); the rule would read LABEL ADOPTED (`stale/margin_cascade.py`,
   `stale/out/margin_cascade.json`). The cut was not tuned on part D, but this check was not registered, so the wider
   (cascade) pages show the label with a note saying it was checked after the test.
+- **Exploratory: the label on the 141 real stale points.** Against the full-read rater's gold (an LLM rater until the
+  human gate is answered; `stale/margin_stale.py`), all 16 Clear suggestions on the 20-platform page have a top
+  passage that states the case, and none falls on the 15 points whose case the rater found no longer stated. The 125
+  Close ones: .592 at the top, .784 in the top 3. Small and pooled over points; no interval claimed.
 - **Cost, corrected.** The generated cost line says both arms shared the CPU with `run_resume.sh`. Only partly:
   `run_resume.sh` was stopped by PID at 01:20 UTC, 11 minutes into the Kev arm (01:09:31 to 07:16:12 UTC, 22,001 s for
   2,339 pieces: 9.4 s per piece, 3.08 s per cell; part B's cost model predicts 10.1 s per piece at 3.05 questions per

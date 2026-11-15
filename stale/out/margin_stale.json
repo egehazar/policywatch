@@ -1,0 +1,13 @@
+{
+ "points": 141,
+ "stated": 126,
+ "clear": 16,
+ "clear_on_not_stated": 0,
+ "clear_hit1": 1.0,
+ "clear_right": 16,
+ "rest": 125,
+ "rest_hit1": 0.592,
+ "rest_hit3": 0.784,
+ "stated_rest_hit1": 0.673,
+ "note": "exploratory; gold is an LLM rater (full read) until the human gate; pooled over points"
+}
