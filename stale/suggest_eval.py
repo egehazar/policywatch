@@ -1,6 +1,6 @@
 """Evaluate the stale-point suggestions and the "not stated any more" question against full-read gold
 (stale/PREREG_suggest.md). Reads stale/out/fullread/key.json, gold_<family>.json, human_gate.json (when present) and
-stale/out/suggest_<arm>.jsonl.  Usage  py -m stale.suggest_eval  -> stale/out/suggest_result.json
+stale/out/suggest_<arm>.jsonl.  Usage  py -m stale.suggest_eval  -> stale/out/suggest_result.json  ( --primary <family>: that key instead, -> suggest_result_<family>.json)
 """
 import json, os, random, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE); OUT = os.path.join(HERE, 'out')
@@ -32,11 +32,11 @@ def ci(xs):
     return [round(xs[int(.025 * len(xs))], 3), round(xs[int(.975 * len(xs)) - 1], 3)] if xs else None
 
 
-def main():
+def main(primary=PRIMARY, second=SECOND, out_name='suggest_result.json'):
     key = json.load(open(os.path.join(FDIR, 'key.json'), encoding='utf-8'))
-    G = {f: json.load(open(os.path.join(FDIR, f'gold_{f}.json'), encoding='utf-8')) for f in (PRIMARY, SECOND)
+    G = {f: json.load(open(os.path.join(FDIR, f'gold_{f}.json'), encoding='utf-8')) for f in (primary, second)
          if os.path.exists(os.path.join(FDIR, f'gold_{f}.json'))}
-    assert PRIMARY in G, 'primary rater gold missing'
+    assert primary in G, 'primary rater gold missing'
     S = {}
     for a in ARMS:
         rows = [json.loads(l) for l in open(os.path.join(OUT, f'suggest_{a}.jsonl'), encoding='utf-8')]
@@ -49,7 +49,7 @@ def main():
             if it['kind'] == 'stale':
                 for p in it['points']: label[p] = (d, it['label'])
     assert set(label) == set(R), 'gold plan and stale list differ'
-    gold = {p: set(G[PRIMARY]['gold'][d][l]) for p, (d, l) in label.items()}
+    gold = {p: set(G[primary]['gold'][d][l]) for p, (d, l) in label.items()}
     stated = {p: bool(g) for p, g in gold.items()}
     res = {'archive_head': key['archive_head'], 'points': len(R), 'stated': sum(stated.values()),
            'none': len(R) - sum(stated.values()), 'verify_stats': {f: G[f]['stats'] for f in G}}
@@ -59,9 +59,9 @@ def main():
         ctl = [(d, it) for d, items in key['plan'].items() for it in items if it['kind'] == 'control' and it['label'] in G[f]['gold'].get(d, {})]
         rq[f] = {'controls': len(ctl), 'control_recall': round(sum(bool(set(G[f]['gold'][d][it['label']]) & set(it['gold'])) for d, it in ctl) / max(1, len(ctl)), 3),
                  'control_none': sum(not G[f]['gold'][d][it['label']] for d, it in ctl)}
-    if SECOND in G:
-        shared = [(d, it['label']) for d, items in key['plan'].items() for it in items if it['kind'] == 'stale' and it['label'] in G[SECOND]['gold'].get(d, {})]
-        a = [bool(G[PRIMARY]['gold'][d][l]) for d, l in shared]; b = [bool(G[SECOND]['gold'][d][l]) for d, l in shared]
+    if second in G:
+        shared = [(d, it['label']) for d, items in key['plan'].items() for it in items if it['kind'] == 'stale' and it['label'] in G[second]['gold'].get(d, {})]
+        a = [bool(G[primary]['gold'][d][l]) for d, l in shared]; b = [bool(G[second]['gold'][d][l]) for d, l in shared]
         k = kappa(a, b)
         rq['stated_agreement'] = {'cases': len(shared), 'agree': sum(x == y for x, y in zip(a, b)), 'kappa': round(k, 3) if k is not None else None}
     res['raters'] = rq
@@ -115,7 +115,7 @@ def main():
     hg_path = os.path.join(FDIR, 'human_gate.json')
     hg = json.load(open(hg_path, encoding='utf-8')) if os.path.exists(hg_path) else None
     gate = None if hg is None else bool(hg.get('kappa') is not None and hg['kappa'] >= .6)
-    au = nq['auroc_kev_max']['ci95']; cr = rq[PRIMARY]['control_recall']
+    au = nq['auroc_kev_max']['ci95']; cr = rq[primary]['control_recall']
     conds = {'auroc_lower_ge_.70': bool(au and au[0] >= .70), 'flags_ge_8': nq['flag']['flagged'] >= 8,
              'flag_precision_ge_.75': nq['flag']['flagged'] > 0 and nq['flag']['none_among_flagged'] >= .75 * nq['flag']['flagged'],
              'control_recall_ge_.85': cr >= .85, 'human_gate': gate}
@@ -126,9 +126,13 @@ def main():
     res['page_leads_with'] = lead[0] if len(lead) == 1 else ('kev' if not lead else max(lead, key=lambda a: sug['gone']['p1_doc_mean'][a]))
     res['status'] = 'PROVISIONAL (human gate pending)' if gate is None else ('VOID (human gate failed)' if gate is False else 'FINAL')
     res['human_gate'] = hg
-    with open(os.path.join(OUT, 'suggest_result.json'), 'w', encoding='utf-8') as f: json.dump(res, f, indent=1)
+    with open(os.path.join(OUT, out_name), 'w', encoding='utf-8') as f: json.dump(res, f, indent=1)
     print(json.dumps(res, indent=1))
 
 
 if __name__ == '__main__':
-    main()
+    if '--primary' in sys.argv:            # exploratory: another rater's key in place of Opus's (stale/PREREG_fullread_gpt.md)
+        f = sys.argv[sys.argv.index('--primary') + 1]
+        main(primary=f, second=PRIMARY, out_name=f'suggest_result_{f}.json')
+    else:
+        main()
