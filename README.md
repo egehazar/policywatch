@@ -5,23 +5,26 @@
 action") backed by a quote from those documents.
 policywatch watches the archive for the moment a curator's evidence stops being there.
 
-- **Stale evidence finder (`stale/`, working).** Checks every approved ToS;DR quote against every archived version.
-  Lists the points whose quote disappeared in an edit by the platform itself, with the archive commit and the passage
-  that replaced it, and suggests where the case may be stated now, with a sentence to quote. It found 141 such points
-  on 18 of the 20 platforms and 544 more on 69 other services; a blind audit (an LLM rater) found 27 of 30 sampled drops to be
-  real edits, the rest mostly the archive saving another language or region of the page. A daily watch (built, run
-  twice so far, not scheduled) lists new ones: its 2026-11-15 run found Pinterest's rewrite of 12 November. To find the
-  passage that states a case, on test points whose answer is the curator's own quote, Kev-4B ranks the right passage
-  first 62-75% of the time, BM25 and bge-small 30-43%, in three pre-registered samples. Against a cross-encoder
-  reranker, which uses a fraction of the CPU, the curator-quote measure favoured Kev in one sample and did not separate
-  them in two (Kev's lead +.06 to +.10 in all three); on whether the top passage states the case at all (blind LLM
-  raters, 120 points) Kev is ahead, 73% to 61%. Letting the reranker shortlist 10 passages per case for Kev lost at
-  most about 2 points (63% vs 62.5%), so the wider pages' suggestions are being recomputed that way, and a suggestion whose top passage clearly leads is marked
-  Clear (right 50 times in 53 in the held-out test). The base family limits the
-  claim: an ordinary 4B instruct model asked the same yes/no question showed no difference from Kev on either
-  measure (73% on the second). What the decision-model endpoint added was cost against that model: 1.9x (part B) to
-  3.1x (part A) less time per passage and question, growing with the number of questions per document; with one
-  question per document Kev is the slower one.
+- **Stale evidence finder (`stale/`, working).**
+  - *What it finds.* Checks every approved ToS;DR quote against every archived version and lists the points whose
+    quote disappeared in an edit by the platform itself, with the archive commit and the passage that replaced it:
+    141 on 18 of the 20 platforms and 544 more on 69 other services. For 662 of the 685, ToS;DR's own stored copy
+    still holds the quote, so ToS;DR does not know yet; 10 of its documents hold 257 of those. A blind audit (an LLM
+    rater) found 27 of 30 sampled drops to be real edits. A daily watch (built, run twice so far, not scheduled) lists
+    new ones: its 2026-11-15 run found Pinterest's rewrite of 12 November.
+  - *What the model does.* For each stale point it suggests the passages of the current text where the case may be
+    stated now, and a sentence to quote. On test points whose answer is the curator's own quote, Kev-4B ranks the
+    right passage first 62-75% of the time in three pre-registered samples, against 30-43% for BM25 and bge-small. A
+    cross-encoder reranker, at a fraction of the CPU, is a few points behind (Kev led by 6-10 points in each sample,
+    with the interval clear of zero in one; about 8 pooled after the fact). On whether the top passage states the case
+    at all (blind LLM raters, 120 points) Kev is ahead of the reranker, 73% to 61%. A suggestion whose top passage
+    clearly leads is marked Clear (right 50 times in 53 in a held-out test). Letting the reranker shortlist 10 passages
+    per case lost at most about 2 points, so the wider pages' suggestions are recomputed that way.
+  - *What the decision model adds.* Its base family's ordinary 4B instruct model, asked the same yes/no question,
+    showed no difference from Kev on either measure, and its probabilities were not better calibrated (exploratory).
+    What the decision-model endpoint added is cost: it reads a passage once for all its questions, so it took 1.9x
+    (part B) to 3.1x (part A) less time per passage and question than the instruct model, growing with the number of
+    questions per document; with one question per document Kev is the slower one.
 - **Meaning-diff scanner (`policywatch/`, the original goal, failed its tests).** Asks a decision model a fixed bank of
   questions about the old and new text of every update and lists the answers whose score moved. It did not find real
   changes well enough; the results are below.
@@ -38,11 +41,11 @@ Each test was hashed before scoring. All results are reported, including failure
 | Find where a ToS;DR case is stated in a platform's current text | **Decision model better** than BM25 and bge | Top-1 on 200 points: Kev-4B 62%, BM25 36%, bge-small 30%. Gold is the curators' own quotes. | [Stale evidence](#stale-evidence-for-tosdr-points-stale) |
 | Same, on 202 held-out points from 41 other services | **Replicated** | Kev 75%, BM25 41%, bge 43%, on ToS;DR's own stored text. | `stale/RESULT_relocate2.md` |
 | Same, a third time: 200 points from 47 services on Open Terms Archive's contrib collection (part D) | **Replicated** | Kev 62.5%, BM25 34.5%, bge 34%; Kev - BM25 +.28 [+.20, +.36], Kev - bge +.29 [+.21, +.36]. | `stale/RESULT_relocate_d.md` |
-| Reranker shortlists each case's top 10 passages, Kev ranks only those (part D) | **Adopted** for the wider pages | 63.0% vs Kev alone 62.5%: +.005 [-.021, +.031], inside the bar (lower bound at least -.03). Kev is asked 27% of the cells but still reads 48% of the passages: about 62% of full Kev's time with the reranker's (an estimate). | `stale/RESULT_relocate_d.md` |
-| Mark a Kev suggestion "Clear" when its top passage leads the next by at least .30 (part D, addendum 1) | **Shipped** | 53 of 200 points clear, 50 of them right (.94 [.88, 1.00]; bar .85, lower bound .75); the other 147 right 51% at the top, 78% in the top 3. On the cascade (exploratory, checked after the result): 59 of 62. On the 141 real stale points (exploratory, LLM rater's answer key): all 16 Clear ones right, none on a point whose case is gone. | `stale/RESULT_relocate_d.md` |
 | Kev vs its base family (Qwen3.5-4B asked the same yes/no question) | **No difference shown**, in both parts | 62% vs 60% and 75% vs 74%. The win was not shown to come from decision-model training. Qwen took 1.9-3.1x Kev's time per passage-question. | `stale/RESULT_relocate2.md` |
 | Kev vs a cross-encoder reranker (bge-reranker-v2-m3) | **Not shown to beat it** (one of three parts says Kev better) | 62% vs 55% (no difference shown); 75% vs 65% (Kev better); part D 62.5% vs 56.5%, +.06 [-.005, +.13] (no difference shown). The reranker took 0.39, 0.98 and 0.64 s per passage-question, Kev 1.94, 3.52 and 3.08 (wall clock, same CPU; part D's reranker shared it with another job, its Kev arm almost not). Pooled over all three (exploratory, after the results; `stale/pool_rerank.py`): +.08 [+.04, +.12] on 602 points, and Kev - base family +.02 [-.02, +.05] on 402. | `stale/RESULT_relocate2.md`, `stale/RESULT_relocate_d.md` |
 | Does the top passage state the case, curator's or not? (120 points, blind LLM raters, pre-registered with one extension) | **KEV better than the reranker and BM25; its base family, no different from KEV, also better than the reranker** (by LLM raters) | States the case @1: KEV .73, RERANK .61, BM25 .42 (hit@1 on the same points .63 / .54 / .37). KEV - RERANK +.12 [+.03, +.20]; KEV - BM25 +.31 [+.21, +.41]. Kev's misses state the case more often (24 of 45, against 19 of 55 for the reranker). Kev's base family (Qwen3.5-4B): .73, no difference shown from KEV (-.01 [-.06, +.04]; 82 of its 120 top passages are Kev's), QWEN - RERANK +.13 [+.05, +.21]: the lead belongs to an LLM per passage, not shown to come from decision-model training. Raters are Claude models, not people. | `stale/RESULT_states_case.md`, `stale/RESULT_miss_audit.md` |
+| Reranker shortlists each case's top 10 passages, Kev ranks only those (part D) | **Adopted** for the wider pages | 63.0% vs Kev alone 62.5%: +.005 [-.021, +.031], inside the bar (lower bound at least -.03). Kev is asked 27% of the cells but still reads 48% of the passages: about 62% of full Kev's time with the reranker's (an estimate). | `stale/RESULT_relocate_d.md` |
+| Mark a Kev suggestion "Clear" when its top passage leads the next by at least .30 (part D, addendum 1) | **Shipped** | 53 of 200 points clear, 50 of them right (.94 [.88, 1.00]; bar .85, lower bound .75); the other 147 right 51% at the top, 78% in the top 3. On the cascade (exploratory, checked after the result): 59 of 62. On the 141 real stale points (exploratory, LLM rater's answer key): all 16 Clear ones right, none on a point whose case is gone. | `stale/RESULT_relocate_d.md` |
 | Propose the sentence to quote, from the top passage | **Shipped** | When the passage was right, Kev's sentence matched the curator's quote 83% of the time; BM25's 56%. | `stale/RESULT_relocate2.md` |
 | Kev's short question layout for relocation | **Not adopted** | 20 platforms: -2.5 points [-5.3, +0.5], failing the bar (lower bound at least -5). Held-out services: 0.0 [-3.6, +4.0], passing. No rule for the disagreement; the page keeps the layout that passed on its own platforms. | `stale/RESULT_relocate2.md` |
 | Suggest where a stale point's case is now stated (141 points) | **Page leads with Kev** (provisional) | Top-1 on 69 points whose quote is gone, averaged over documents: Kev 74%, BM25 with the old quote 77% (no difference shown), bge 49%, BM25 40%. Pooled over points the first two swap (Kev .70, BM25 with the old quote .61). Gold is a model rater's until a human check. | `stale/RESULT_suggest.md` |
