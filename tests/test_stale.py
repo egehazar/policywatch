@@ -319,5 +319,25 @@ class TestDropAudit(unittest.TestCase):
         self.assertEqual(sorted(k for k, _ in c1).count('L'), 30)
 
 
+class TestStatesCase(unittest.TestCase):
+    def test_top_breaks_ties_to_the_earliest_passage(self):
+        from stale.states_case import top
+        self.assertEqual(top([.2, .9, .9, .1]), 1); self.assertEqual(top([0, 0, 0]), 0)
+
+    def test_rows_reuse_one_verdict_per_shared_passage(self):
+        from stale.states_case_ext import rows_of, summary
+        K = {'cards': {'T1': {'part': 'A', 'point': 1, 'piece': 3, 'arms': ['KEV', 'RERANK']},
+                       'T2': {'part': 'A', 'point': 1, 'piece': 5, 'arms': ['BM25']},
+                       'T3': {'part': 'A', 'point': 1, 'piece': 7, 'arms': ['RANDOM']},
+                       'T4': {'part': 'B', 'point': 2, 'piece': 0, 'arms': ['KEV', 'RERANK', 'BM25']}},
+             'points': [{'part': 'A', 'point': 1, 'doc': 'd1', 'tops': {'KEV': 3, 'RERANK': 3, 'BM25': 5}, 'hit1': {'KEV': 1, 'RERANK': 1, 'BM25': 0}},
+                        {'part': 'B', 'point': 2, 'doc': 'd2', 'tops': {'KEV': 0, 'RERANK': 0, 'BM25': 0}, 'hit1': {'KEV': 0, 'RERANK': 0, 'BM25': 0}}]}
+        V = {'T1': {'verdict': 'YES'}, 'T2': {'verdict': 'PARTLY'}, 'T3': {'verdict': 'YES'}, 'T4': {'verdict': 'NO'}}
+        rows = rows_of(K, V)
+        self.assertEqual([r['KEV']['yes'] for r in rows], [1, 0]); self.assertEqual(rows[0]['BM25'], {'yes': 0, 'yes_or_partly': 1, 'hit1': 0})
+        s = summary(rows)
+        self.assertEqual(s['states_at1'], {'KEV': .5, 'RERANK': .5, 'BM25': 0.0}); self.assertEqual(s['KEV_minus_BM25']['point'], .5)
+
+
 if __name__ == '__main__':
     unittest.main()
