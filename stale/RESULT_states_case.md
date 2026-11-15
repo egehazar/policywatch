@@ -88,3 +88,20 @@ states-the-case measure, the reranker; Kev's decision-model training was not sho
 family (82 of the 120 top passages are the same, so only 38 points could differ). What Kev adds is cost: it reads a
 passage once for all of a document's questions, 1.9x (part B) to 3.1x (part A; corrected 11-15 from 3.2x, see RESULT_relocate2.md) less time than the instruct model,
 growing with the number of questions per document.
+
+## Exploratory, 2026-11-15 ~08:15 UTC: are Kev's probabilities better calibrated? (`stale/calib.py`)
+Not pre-registered. Kev-4B is trained to return calibrated p(yes); its base family's instruct model gives the log-odds
+of "yes" against "no", read as a probability. Both scored every passage of parts A and B, so every passage the blind
+raters judged above (anchors left out) has both scores: 307 passage-case pairs, 46% rated YES.
+
+| | Brier | log loss | calibration error (10 bins) | AUROC |
+|---|---|---|---|---|
+| Kev-4B p(yes) | .140 | .444 | .116 | .903 |
+| Qwen3.5-4B instruct, logistic(log-odds) | .135 | .455 | .105 | .909 |
+
+Kev minus the instruct model on Brier: +.004 [-.013, +.021] (bootstrap over passages, not clustered): no difference
+shown. With PARTLY left out (247 pairs): +.012 [-.005, +.027]. The shapes differ: the instruct model puts most
+passages near 0 or 1 (212 of 307), and those extremes are about right; Kev spreads them out but runs high between .3
+and .8 (e.g. passages it scored .6-.7 were rated YES 54% of the time). So on this task the decision-model training
+was not shown to add calibration either. The labelled passages are mostly the methods' top picks, not a random
+sample, and the raters are Claude models.

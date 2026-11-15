@@ -145,6 +145,9 @@ anything.
       lead is +.07, +.10 and +.06, and only part B's interval excludes zero. Pooled after the fact (exploratory,
       `stale/pool_rerank.py`): +.08 [+.04, +.12] on 602 points; its base family's lead over the reranker on parts A and
       B is about the same (+.07 [+.02, +.12]), so this too belongs to an LLM per passage.
+    - Calibration (exploratory, `stale/calib.py`): on the 307 passages the blind raters judged, Kev's p(yes) was not
+      better calibrated than the instruct model's yes/no log-odds (Brier .140 vs .135, difference +.004 [-.013,
+      +.021]; AUROC .90 vs .91). The decision-model training was not shown to add calibration either.
     - The cascade: the reranker shortlists each case's top 10 passages and Kev ranks only those. 63.0% against Kev
       alone 62.5%, inside the pre-registered bar (it lost at most about 2 points), so the wider pages' suggestions are
       being recomputed with it. Kev still reads about half the passages (it reads a passage once for all its
