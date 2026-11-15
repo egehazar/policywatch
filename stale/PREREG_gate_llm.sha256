@@ -1,0 +1,4 @@
+# written 2026-11-15T10:24Z, before either rater ran
+cf1a22d5b1c5aa9c076dd501e4e0578bbfb80fb850b0c5a23ae83a93f1aa46ed *stale/PREREG_gate_llm.md
+f0574f144ec4aab2c46c3d678cb33bd4d2f6e2b940e362338a833597341a36b9 *audit/gate/data.json
+85e41675b41442dd9f0e674389a510e55ed98424d9c9a3fc57c3beee305ba648  prompt sent to both raters (built from audit/gate/data.json)
