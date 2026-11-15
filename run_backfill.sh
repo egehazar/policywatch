@@ -12,7 +12,8 @@ echo "wide chain ended $(date -u +%T) UTC: $(grep -E 'wide all done|FAILED|INCOM
 if up; then
   echo "missing pilot start $(date -u +%T) UTC"
   py -m stale.missing kev >> stale/out/missing_kev.log 2>&1; echo "missing kev exit $? at $(date -u +%T) UTC"
-  py -m stale.missing rerank >> stale/out/missing_rerank.log 2>&1; echo "missing rerank exit $? at $(date -u +%T) UTC"
+  # the reranker needs the venv with sentence-transformers and the cached model (system py has neither; fixed 15:55 UTC)
+  HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 /c/Users/egeha/projects/dedupe-research/.venv/Scripts/python.exe -m stale.missing rerank >> stale/out/missing_rerank.log 2>&1; echo "missing rerank exit $? at $(date -u +%T) UTC"
   py -m stale.missing measures > stale/out/missing_measures.log 2>&1; echo "missing measures exit $? at $(date -u +%T) UTC"
   echo "missing pilot done $(date -u +%T) UTC"
 else echo "KEV SERVER DOWN at $(date -u +%T) UTC: missing pilot not run"; fi
