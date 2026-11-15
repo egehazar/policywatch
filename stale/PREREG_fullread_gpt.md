@@ -1,6 +1,6 @@
 # A second full answer key from another company: GPT re-grades the 141 stale points (written before GPT runs)
 
-Written 2026-11-15 ~10:50 UTC. Exploratory addition to `stale/PREREG_suggest.md`; it changes no reading there.
+Written 2026-11-15 ~10:35 UTC. Exploratory addition to `stale/PREREG_suggest.md`; it changes no reading there.
 
 ## Why
 The stale-point suggestion result (`stale/RESULT_suggest.md`: Kev's first suggestion right for 74% of the 69 "gone"
