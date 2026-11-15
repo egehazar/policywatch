@@ -107,6 +107,14 @@ def build(repo=REPO, arm='bm25', base=None, dest=None, noun='platforms'):
     if lack:     # the points a curator can act on now: ToS;DR's own copy has lost the quote too
         body.append('<p class="sm"><b>Start here</b> (approved, but ToS;DR&rsquo;s stored copy no longer holds the quote): '
                     + ' · '.join(f'<a href="#p{r["point"]}">{esc(r["platform"])}: {esc(r["case_title"])}</a>' for r in lack) + '</p>')
+    by_doc = {}                  # the stored documents whose re-crawl would surface the most of the held points (stale/recrawl.py)
+    for r in held: by_doc.setdefault((r['platform'], str(phx[r['point']].get('phoenix_doc'))), []).append(r)   # ToS;DR's document
+    if len(by_doc) > 1:
+        top = sorted(by_doc.items(), key=lambda kv: (-len(kv[1]), kv[0]))[:5]
+        body.append('<p class="sm"><b>Re-crawl first</b> (ToS;DR documents whose stored copy predates the edit, by the points '
+                    'that would then need a new quote): ' + ' · '.join(
+                        f'<a href="#p{v[0]["point"]}">{esc(p)}, {esc(v[0].get("tosdr_document") or "document " + d)}</a> ({len(v)})'
+                        for (p, d), v in top) + '</p>')
     n = {}
     for r in drops: n[r['platform']] = n.get(r['platform'], 0) + 1
     if len(n) > 1:
