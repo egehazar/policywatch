@@ -8,20 +8,23 @@ policywatch watches the archive for the moment a curator's evidence stops being 
 - **Stale evidence finder (`stale/`, working).**
   - *What it finds.* Checks every approved ToS;DR quote against every archived version and lists the points whose
     quote disappeared in an edit by the platform itself, with the archive commit and the passage that replaced it:
-    141 on 18 of the 20 platforms and 544 more on 69 other services. For 662 of the 685, ToS;DR's own stored copy
+    141 on 18 of the 20 platforms and 538 more on 69 other services. For 656 of the 679, ToS;DR's own stored copy
     still holds the quote, so ToS;DR does not know yet; 10 of its documents hold 257 of those. A blind audit (an LLM
     rater) found 27 of 30 sampled drops to be real edits. A daily watch (built, run twice so far, not scheduled) lists
     new ones: its 2026-11-15 run found Pinterest's rewrite of 12 November.
   - *What the model does.* For each stale point it suggests the passages of the current text where the case may be
     stated now, and a sentence to quote. On test points whose answer is the curator's own quote, Kev-4B ranks the
     right passage first 62-75% of the time in three pre-registered samples, against 30-43% for BM25 and bge-small. A
-    cross-encoder reranker, at a fraction of the CPU, is a few points behind (Kev led by 6-10 points in each sample,
-    with the interval clear of zero in one; about 8 pooled after the fact). On whether the top passage states the case
+    cross-encoder reranker, at a fraction of the CPU, was not shown to be worse in two of the three samples (Kev led by
+    6-10 points in each, with the interval clear of zero in one; about 8 pooled after the fact, exploratory). On whether the top passage states the case
     at all (blind LLM raters, 120 points) Kev is ahead of the reranker, 73% to 61%. A suggestion whose top passage
     clearly leads is marked Clear (right 50 times in 53 in a held-out test). Letting the reranker shortlist 10 passages
-    per case lost at most about 2 points, so the wider pages' 544 suggestions were computed that way (130 marked Clear).
+    per case lost at most about 2 points, so the wider pages' 538 points were done that way (544 suggestions: six GitHub
+    points sit under both GitHub's and GitHub Copilot's documents). 130 are marked Clear; on shortlisted suggestions
+    that label was checked only after the test (59 of 62, exploratory).
   - *What the decision model adds.* Its base family's ordinary 4B instruct model, asked the same yes/no question,
-    showed no difference from Kev on either measure, and its probabilities were not better calibrated (exploratory).
+    showed no difference from Kev on either measure, and Kev's probabilities were not shown to be better calibrated
+    (exploratory).
     What the decision-model endpoint added is cost: it reads a passage once for all its questions, so it took 1.9x
     (part B) to 3.1x (part A) less time per passage and question than the instruct model, growing with the number of
     questions per document; with one question per document Kev is the slower one.
@@ -43,12 +46,12 @@ Each test was hashed before scoring. All results are reported, including failure
 | Same, a third time: 200 points from 47 services on Open Terms Archive's contrib collection (part D) | **Replicated** | Kev 62.5%, BM25 34.5%, bge 34%; Kev - BM25 +.28 [+.20, +.36], Kev - bge +.29 [+.21, +.36]. | `stale/RESULT_relocate_d.md` |
 | Kev vs its base family (Qwen3.5-4B asked the same yes/no question) | **No difference shown**, in both parts | 62% vs 60% and 75% vs 74%. The win was not shown to come from decision-model training. Qwen took 1.9-3.1x Kev's time per passage-question. | `stale/RESULT_relocate2.md` |
 | Kev vs a cross-encoder reranker (bge-reranker-v2-m3) | **Not shown to beat it** (one of three parts says Kev better) | 62% vs 55% (no difference shown); 75% vs 65% (Kev better); part D 62.5% vs 56.5%, +.06 [-.005, +.13] (no difference shown). The reranker took 0.39, 0.98 and 0.64 s per passage-question, Kev 1.94, 3.52 and 3.08 (wall clock, same CPU; part D's reranker shared it with another job, its Kev arm almost not). Pooled over all three (exploratory, after the results; `stale/pool_rerank.py`): +.08 [+.04, +.12] on 602 points, and Kev - base family +.02 [-.02, +.05] on 402. | `stale/RESULT_relocate2.md`, `stale/RESULT_relocate_d.md` |
-| Does the top passage state the case, curator's or not? (120 points, blind LLM raters, pre-registered with one extension) | **KEV better than the reranker and BM25; its base family, no different from KEV, also better than the reranker** (by LLM raters) | States the case @1: KEV .73, RERANK .61, BM25 .42 (hit@1 on the same points .63 / .54 / .37). KEV - RERANK +.12 [+.03, +.20]; KEV - BM25 +.31 [+.21, +.41]. Kev's misses state the case more often (24 of 45, against 19 of 55 for the reranker). Kev's base family (Qwen3.5-4B): .73, no difference shown from KEV (-.01 [-.06, +.04]; 82 of its 120 top passages are Kev's), QWEN - RERANK +.13 [+.05, +.21]: the lead belongs to an LLM per passage, not shown to come from decision-model training. Raters are Claude models, not people; GPT re-rated all 337 cards blind and every conclusion held (KEV .74, RERANK .60, BM25 .48; KEV - RERANK +.14 [+.05, +.23]; KEV - QWEN -.01; card agreement with the Claude raters kappa .77). | `stale/RESULT_states_case.md`, `stale/RESULT_miss_audit.md` |
+| Does the top passage state the case, curator's or not? (120 points, blind LLM raters, pre-registered with one extension) | **KEV better than the reranker and BM25; its base family, no different from KEV, also better than the reranker** (by LLM raters) | States the case @1: KEV .73, RERANK .61, BM25 .42 (hit@1 on the same points .63 / .54 / .37). KEV - RERANK +.12 [+.03, +.20]; KEV - BM25 +.31 [+.21, +.41]. Kev's misses state the case more often (24 of 45, against 19 of 55 for the reranker). Kev's base family (Qwen3.5-4B): .73, no difference shown from KEV (-.01 [-.06, +.04]; 82 of its 120 top passages are Kev's), QWEN - RERANK +.13 [+.05, +.21]: the lead belongs to an LLM per passage, not shown to come from decision-model training. Raters are Claude models, not people; GPT re-rated all 337 cards blind (exploratory, plan hashed before it rated) and every conclusion held (KEV .74, RERANK .60, BM25 .48; KEV - RERANK +.14 [+.05, +.23]; KEV - QWEN -.01; card agreement with the Claude raters kappa .77). | `stale/RESULT_states_case.md`, `stale/RESULT_miss_audit.md` |
 | Reranker shortlists each case's top 10 passages, Kev ranks only those (part D) | **Adopted** for the wider pages | 63.0% vs Kev alone 62.5%: +.005 [-.021, +.031], inside the bar (lower bound at least -.03). Kev is asked 27% of the cells but still reads 48% of the passages: about 62% of full Kev's time with the reranker's (an estimate). | `stale/RESULT_relocate_d.md` |
 | Mark a Kev suggestion "Clear" when its top passage leads the next by at least .30 (part D, addendum 1) | **Shipped** | 53 of 200 points clear, 50 of them right (.94 [.88, 1.00]; bar .85, lower bound .75); the other 147 right 51% at the top, 78% in the top 3. On the cascade (exploratory, checked after the result): 59 of 62. On the 141 real stale points (exploratory, LLM rater's answer key): all 16 Clear ones right, none on a point whose case is gone. | `stale/RESULT_relocate_d.md` |
 | Propose the sentence to quote, from the top passage | **Shipped** | When the passage was right, Kev's sentence matched the curator's quote 83% of the time; BM25's 56%. | `stale/RESULT_relocate2.md` |
 | Kev's short question layout for relocation | **Not adopted** | 20 platforms: -2.5 points [-5.3, +0.5], failing the bar (lower bound at least -5). Held-out services: 0.0 [-3.6, +4.0], passing. No rule for the disagreement; the page keeps the layout that passed on its own platforms. | `stale/RESULT_relocate2.md` |
-| Suggest where a stale point's case is now stated (141 points) | **Page leads with Kev** (provisional) | Top-1 on 69 points whose quote is gone, averaged over documents: Kev 74%, BM25 with the old quote 77% (no difference shown), bge 49%, BM25 40%. Pooled over points the first two swap (Kev .70, BM25 with the old quote .61). Gold is a model rater's (Claude Opus) until a human check; a second whole key built by GPT from the same texts gives Kev 78%, still ahead of BM25 (34%) and bge (43%). | `stale/RESULT_suggest.md` |
+| Suggest where a stale point's case is now stated (141 points) | **Page leads with Kev** (provisional) | Top-1 on 69 points whose quote is gone, averaged over documents: Kev 74%, BM25 with the old quote 77% (no difference shown), bge 49%, BM25 40%. Pooled over points the first two swap (Kev .70, BM25 with the old quote .61). Gold is a model rater's (Claude Opus) until a human check; a second whole key built by GPT from the same texts (exploratory, plan hashed before GPT ran) gives Kev 78%, still ahead of BM25 (34%) and bge (43%). | `stale/RESULT_suggest.md` |
 | Label a stale point "case no longer stated" | **Not shipped** (provisional) | Kev ranks the 15 no-longer-stated points low (AUROC .92), but its flag was right for 6 of 12 flagged; the bar was 75%. | `stale/RESULT_suggest.md` |
 
 ### Meaning-diff scanner
@@ -98,12 +101,13 @@ anything.
     current text.
   - 521 quotes dropped in an edit by the platform itself, in 65 services (a blind audit rated 27 of 30 sampled ones
     real edits; see below). The largest are Netflix 48, Crunchyroll 43, NordVPN 41, W3Schools 39, Yahoo 39.
-    genai-contrib adds 20 and dating 3: 544 on 69 services in all.
+    genai-contrib adds 20 and dating 3: 544 on 69 services in all, 538 distinct ToS;DR points (six GitHub points sit
+    under both GitHub's and GitHub Copilot's archived documents).
   - For 507 of the 521, ToS;DR's stored copy still holds the quote (re-crawl pending); for 14 it does not. For 63 of
     the 78 documents behind those 507, the stored copy is closest to an archived version more than 3 years old
     (most from 2020-21); on the 20 platforms, 13 of 29 documents.
   - Re-crawl priority (`py -m stale.recrawl` -> `stale/out/recrawl_priority.csv`, one row per ToS;DR document): the
-    662 points still held by ToS;DR's stored copies sit in 126 documents, and 10 documents hold 257 of them (20 hold
+    656 points still held by ToS;DR's stored copies sit in 124 documents, and 10 documents hold 257 of them (20 hold
     390). The largest: Crunchyroll's terms 43, Netflix's privacy policy 39, Zoom's terms 25, Alibaba.com's privacy
     policy 24, W3Schools' terms 23.
   - Older captures fail in ways the archive files as edits: a page collapsed to a title, a login wall saved under
@@ -153,21 +157,23 @@ anything.
       +.021]; AUROC .90 vs .91). The decision-model training was not shown to add calibration either.
     - The cascade: the reranker shortlists each case's top 10 passages and Kev ranks only those. 63.0% against Kev
       alone 62.5%, inside the pre-registered bar (it lost at most about 2 points), so the wider pages' suggestions were
-      computed with it (done 11-15 16:59 UTC; on contrib Kev was asked 24% of the cells, 4.4 h after the reranker's 2.7 h). Kev still reads about half the passages (it reads a passage once for all its
+      computed with it (done 11-15 16:59 UTC; on contrib the reranker took 2.7 h, then Kev, asked 24% of the cells, 4.4 h). Kev still reads about half the passages (it reads a passage once for all its
       questions), so the estimated saving is about 38% of the time, not the 73% of cells it skips.
     - The label: a suggestion whose top passage leads the next by at least .30 (a cut chosen on parts A and B) is
       marked Clear. 53 of 200 were clear and 50 of those right; the rest are marked Close (51% right at the top, 78%
       in the top 3). On the 20 platforms' stale points 16 of 141 are Clear. For the cascade's suggestions the same
       rule was checked after the result (59 of 62 right), and the page says so.
-  - Cost: about 1.9 s per piece-question (wall clock), roughly 80 s per point for a 40-piece document.
+  - Cost, from the measured figures below: on a 40-piece document Kev takes about 5.5 min for one stale point and about
+    9 min for seven (80 s a point); the cascade cuts that to roughly 62% (an estimate).
   - Where the decision model's cost comes from (measured on an idle CPU, 60 passages of about 1,400 characters,
-    `bench/RESULT_cost_curve.md`): Kev takes 7.4 s to read a passage plus 0.93 s per question asked of it; the
+    `bench/RESULT_cost_curve.md`): Kev takes 7.4 s to read a passage plus 0.93 s per question asked of it (7.0 s and
+    0.95 s without five early calls slowed by other work on the machine); the
     instruct model takes 6.3 s per passage and question, and its later questions on a passage cost the same as the
     first (.99), so it reads the passage again for each one (likely because llama.cpp cannot reuse a hybrid recurrent
     model's state for a shared prefix; the effect is measured, the cause is not). So Kev is slower with one question
     per passage (0.83x) and cheaper from two on: 1.4x at 2, 2.4x at 4, 3.4x at 8, 4.7x at 16, toward a limit of 6.8x.
-    A curator page asks few questions per document; a tool asking a whole question bank of every document is where
-    it pays.
+    A curator page asks a few questions of most documents (median 3 on contrib; at most 18 on the 20 platforms, 43 on contrib);
+    a tool asking a whole question bank of every document is where it pays.
   - It covers points whose case is still stated. Whether Kev can tell that a case is no longer stated was tested on
     the 141 stale points: it ranks those points low (AUROC .92), but its flag was right 6 times in 12, under the 75%
     bar, so the page makes no such claim (`stale/RESULT_suggest.md`, provisional).

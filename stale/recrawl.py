@@ -5,7 +5,8 @@ String matching only, no model. Reads the stored-copy checks (stale/phoenix.py) 
 listed on the pages (dropped in an edit by the platform itself), and groups them by ToS;DR document. A point "breaks
 on re-crawl" when the stored copy still holds its quote (coverage at least .8, as the pages count it) while the
 archive's current text does not; it is "already lost" when the stored copy no longer holds it either.
-Rows are sorted by the points that break on re-crawl, then by the age of the stored copy.
+Rows are sorted by the points that break on re-crawl, then by the age of the stored copy. One ToS;DR document can sit
+behind two archived documents (GitHub's and GitHub Copilot's terms share ToS;DR's): it is one row, each point once.
 Usage  py -m stale.recrawl   -> stale/out/recrawl_priority.csv
 """
 import csv, glob, json, os
@@ -24,17 +25,22 @@ def rows():
     for coll, f in sources():
         for r in map(json.loads, open(f, encoding='utf-8')):
             if r.get('drop_kind') != 'platform edit': continue
-            k = (coll, r['phoenix_doc'] if r.get('phoenix_doc') is not None else r['doc'])
+            k = r['phoenix_doc'] if r.get('phoenix_doc') is not None else (coll, r['doc'])
             d = by.setdefault(k, {'collection': coll, 'service': r['platform'], 'archive_document': r['doc'],
                                   'tosdr_document_id': r.get('phoenix_doc'), 'tosdr_copy_updated': r.get('phoenix_doc_updated_at'),
                                   'tosdr_copy_matches_archive_of': r.get('phoenix_closest_version'),
-                                  'breaks_on_recrawl': [], 'already_lost': [], 'no_stored_text': [], 'dropped': []})
+                                  'breaks_on_recrawl': [], 'already_lost': [], 'no_stored_text': [], 'dropped': {}})
+            if r['doc'] not in d['archive_document'].split(' | '):           # a second archived document behind it
+                d['archive_document'] += ' | ' + r['doc']
+                for f, v in (('service', r['platform']), ('collection', coll)):
+                    if v not in d[f].split(' | '): d[f] += ' | ' + v
+            if r['point'] in d['dropped']: continue                           # each point once per ToS;DR document
             q = r.get('quote_in_phoenix')
             (d['no_stored_text'] if q is None else d['breaks_on_recrawl'] if q >= HOLDS else d['already_lost']).append(r['point'])
-            d['dropped'].append(r['dropped'])
+            d['dropped'][r['point']] = r['dropped']
     out = []
     for d in by.values():
-        ds = sorted(x for x in d.pop('dropped') if x)
+        ds = sorted(x for x in d.pop('dropped').values() if x)
         out.append({**{k: v for k, v in d.items() if not isinstance(v, list)},
                     'points_break_on_recrawl': len(d['breaks_on_recrawl']), 'points_already_lost': len(d['already_lost']),
                     'points_no_stored_text': len(d['no_stored_text']), 'first_drop': ds[0] if ds else '', 'last_drop': ds[-1] if ds else '',

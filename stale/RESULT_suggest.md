@@ -87,7 +87,9 @@ was close (.72 on 18 points). The label did not ship.
 Plan: `stale/PREREG_gate_llm.md` (hashed 10:24 UTC, before either rater ran). Scored with `py -m stale.gate_llm score`
 -> `stale/out/fullread/gate_llm.json`. Raw replies: `gate_raw_gpt.txt` (Codex CLI 0.154.0, gpt-6-astra, reasoning
 xhigh, read-only sandbox, empty folder), `gate_raw_fable.json` (Claude Fable 5.2 subagent; its log shows it opened only
-the cards file and wrote only its answers file). Both saw the page's instructions and the 60 cards, nothing else.
+the cards file and wrote only its answers file: `gate_fable_toolcalls.txt`). One wording slip in the plan: its
+"74% of the 141 points" means 74% averaged over the documents of the 69 gone points the grader found stated; the
+branch it sits in did not apply. Both saw the page's instructions and the 60 cards, nothing else.
 
 | | Cards answered yes/no | Agree with the grader | Kappa vs the grader |
 |---|---|---|---|
@@ -117,7 +119,7 @@ Plan: `stale/PREREG_fullread_gpt.md` (hashed 10:34 UTC with the 12 batch files a
 batch). GPT (Codex CLI 0.154.0, gpt-6-astra, reasoning xhigh, read-only sandbox, an empty folder, no web) read the same
 12 batch files Opus read (whole current documents cut into the same pieces, stale cases mixed with known-positive
 controls, no old quotes, no arm outputs) and cited the pieces that state each case. Batches 6-11 first hit the Codex
-usage limit (no reply, logged) and ran once at 15:20 UTC; no batch was rerun after a reply. Raw replies and logs:
+usage limit (no reply, logged) and then ran once each, at 15:20-15:27 UTC; no batch was rerun after a reply. Raw replies and logs:
 `stale/out/fullread/gpt_raw/`. Quotes checked as for Opus: 529 of 530 verbatim (1 dropped). Scored with
 `py -m stale.suggest_eval --primary gpt` -> `stale/out/suggest_result_gpt.json`; the official
 `suggest_result.json` is unchanged (hash 59041408...).
@@ -135,8 +137,8 @@ With GPT's key: BM25 minus Kev -.439 [-.615, -.264], bge minus Kev -.352 [-.571,
 [-.063, +.175] (reported, not read).
 
 **Reading (fixed in the plan): HOLDS UNDER A SECOND GRADER.** Kev's .783 is within .10 of .741, and Kev is ahead of
-BM25 and bge with intervals below zero, as with Opus's key. GPT's control recall is .851 (5 of 74 controls left
-without a piece): just over the .85 bar Opus had to pass (.932), so the key is not marked weaker, by a hair.
+BM25 and bge with intervals below zero, as with Opus's key. GPT's control recall is .851 (63 of 74 controls; 5 of
+the 74 got no piece at all): just over the .85 bar Opus had to pass (.932), so the key is not marked weaker, by a hair.
 
 How the two keys differ:
 - Stated / none on all 141 cases: they agree on 128 (kappa .633). Every disagreement but one is Opus finding the
@@ -151,5 +153,6 @@ Predicted against found: Kev .65-.80 (found .783); control recall .85-.95 (.851)
 just above); Kev still ahead of BM25 and bge (yes).
 
 What it means: the 74% does not hinge on one grader. A grader from another company, building its own key from the
-same texts, puts Kev's first suggestion at 78%, with the same order of methods; the old-quote BM25 match is level with
-Kev under both keys. Both graders are AI models; no person has checked either key.
+same texts, puts Kev's first suggestion at 78%, with the same order of methods; the old-quote BM25 match was not shown to
+differ from Kev under either key (it is a few points ahead under each, +.03 [-.05, +.15] and +.03 [-.06, +.18];
+reported, not read). Both graders are AI models; no person has checked either key.

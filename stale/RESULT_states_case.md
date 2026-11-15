@@ -89,7 +89,7 @@ family (82 of the 120 top passages are the same, so only 38 points could differ)
 passage once for all of a document's questions, 1.9x (part B) to 3.1x (part A; corrected 11-15 from 3.2x, see RESULT_relocate2.md) less time than the instruct model,
 growing with the number of questions per document.
 
-## Exploratory, 2026-11-15 ~08:15 UTC: are Kev's probabilities better calibrated? (`stale/calib.py`)
+## Exploratory, 2026-11-15 ~08:00 UTC: are Kev's probabilities better calibrated? (`stale/calib.py`)
 Not pre-registered. Kev-4B is trained to return calibrated p(yes); its base family's instruct model gives the log-odds
 of "yes" against "no", read as a probability. Both scored every passage of parts A and B, so every passage the blind
 raters judged above (anchors left out) has both scores: 307 passage-case pairs, 46% rated YES.
@@ -129,7 +129,8 @@ logged); each folder then ran once at 15:28-15:35 UTC. Raw replies and logs: `st
 
 **Reading (fixed in the plan): HOLDS UNDER GPT.** All three conclusions survive a rater from another company: a
 language model asked about each passage picks a passage that states the case more often than the reranker and BM25,
-and Kev's decision-model training adds nothing over its base family on this measure. Predicted: KEV .65-.75 (.742),
+and Kev's decision-model training was not shown to add anything over its base family on this measure (KEV - QWEN
+-.008 [-.053, +.035]). Predicted: KEV .65-.75 (.742),
 RERANK .55-.65 (.600), BM25 .35-.45 (.475, above), KEV - RERANK +.05 to +.12 with even odds of clearing 0 (+.142,
-cleared), kappa .55-.75 (.768, just above). GPT and the Claude raters are both language models, so the risk named
+above the range, cleared), kappa .55-.75 (.768, just above). GPT and the Claude raters are both language models, so the risk named
 above (a rater that shares a model's sense of relevance) is narrowed, not removed.

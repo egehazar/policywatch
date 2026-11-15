@@ -83,7 +83,7 @@ code{font:.82rem var(--f-mono);background:var(--accent-soft);padding:1px 5px;bor
 <section>
   <div class="eyebrow">What it finds</div>
   <div class="figs">
-    <div class="fig"><b>685</b><span>approved quotes that disappeared in a platform&rsquo;s edit, on 87 ToS;DR services</span></div>
+    <div class="fig"><b>679</b><span>approved quotes that disappeared in a platform&rsquo;s edit, on 87 ToS;DR services</span></div>
     <div class="fig"><b>23</b><span>of them still approved although ToS;DR&rsquo;s own stored copy lost the quote too</span></div>
     <div class="fig"><b>27 / 30</b><span>sampled drops judged real edits in a blind audit (LLM rater); the rest were another language or region of the page</span></div>
     <div class="fig"><b>8</b><span>points left stale by Pinterest&rsquo;s terms of 12 Nov 2026, caught by the daily watch&rsquo;s second run</span></div>
@@ -113,7 +113,7 @@ code{font:.82rem var(--f-mono);background:var(--accent-soft);padding:1px 5px;bor
 <section>
   <div class="eyebrow">Where the decision model pays</div>
   <h2>Cost: Kev reads a passage once, however many questions it answers</h2>
-  <p>Seconds per passage-question, measured on an idle 6-core CPU (60 passages, each read once per model). Kev costs 7.4 s to read a passage plus 0.93 s per question; the instruct model 6.3 s for every passage-question, later questions no cheaper than the first.</p>
+  <p>Seconds per passage-question, measured on an idle 6-core CPU (60 passages, each read once per model). Kev costs 7.4 s to read a passage plus 0.93 s per question (7.0 s and 0.95 s without five early calls slowed by other work); the instruct model 6.3 s for every passage-question, later questions no cheaper than the first.</p>
   <div class="chart"><!--CHART2--></div>
   <p class="small mute">With one question per passage Kev is the slower one (0.83x); it is 1.4 times cheaper than its base family at 2 questions, 2.4x at 4, 3.4x at 8 and 4.7x at 16. The reranker is cheaper still, and letting it shortlist 10 passages per case for Kev lost at most about 2 points (63% against 62.5%); Kev still reads about half the passages, so the estimated saving is about 38% of the time.</p>
 </section>

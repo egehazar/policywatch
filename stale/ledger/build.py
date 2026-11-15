@@ -35,7 +35,7 @@ c2 = (g + line(qwen, 'qw') + line(kev, 'kv') +
       f'<text x="{px(5)+8:.1f}" y="{py(qwen[-1])-10:.1f}" class="lab small" text-anchor="end">instruct model, re-reads the passage per question</text>'
       f'<text x="{px(2)+10:.1f}" y="{py(kev[2])+24:.1f}" class="lab small">Kev, reads the passage once</text>'
       f'<text x="{(PX0+PX1)/2:.1f}" y="{PY1+40}" class="tick" text-anchor="middle">questions asked of each passage</text>')
-chart2 = f'<svg viewBox="0 0 680 286" role="img" aria-label="Seconds per passage-question against questions per document, for Kev, the instruct model and the reranker">{c2}</svg>'
+chart2 = f'<svg viewBox="0 0 680 286" role="img" aria-label="Seconds per passage-question against questions per passage, for Kev, the instruct model and the reranker">{c2}</svg>'
 
 page = open(os.path.join(HERE, 'template.html'), encoding='utf-8').read()
 page = page.replace('<!--CHART1-->', chart1).replace('<!--CHART2-->', chart2)

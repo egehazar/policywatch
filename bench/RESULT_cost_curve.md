@@ -39,17 +39,19 @@ within .2 up to 8 questions; at 16 the measured 4.71x is above the predicted 4.2
   the same as the first (6.32 s against 6.39 s, .989), with llama.cpp's prompt cache on for the slot. So the reason
   the write-ups gave is now measured as an effect; its cause (llama.cpp cannot cut a hybrid recurrent model's state
   back to a shared prefix) is still the likely explanation, not an isolated one.
-- For policywatch: the curator pages ask 1-7 questions per document, where Kev runs from 0.83x (one question) to about
-  3x cheaper (seven, from the fit); a tool asking every
+- For policywatch: the curator pages ask 1-18 questions of a document on the 20 platforms and up to 43 on contrib
+  (median about 3), where Kev runs from 0.83x (one question) through about 1.9x (three) to 4.7x (18) and 5.7x (43),
+  from the fit; a tool asking every
   plausible case of a document (60-80 questions, the missing points pilot) is where the decision-model API pays most.
 
 ## Caveats
 - One CPU (6 threads per server), one quantization (Q8), one passage length (1,300-1,500 characters), 12 calls per
   level.
 - The CPU was idle apart from light work of mine during Kev's 13 minutes (a page export, a page build, git commands,
-  17:00-17:13 UTC). Three of Kev's 60 calls were slow (11.2, 13.9 and 19.1 s, each above its level's spread); the
-  medians in the table are barely affected, and refitting without the five calls more than 1.2x their level's
-  median gives 7.01 s + 0.950 s per question (exploratory, after the result). The instruct model's 372 calls ran
+  17:00-17:13 UTC). Five calls ran more than 1.2x their level's median, all among the first seven of the run (c01-c05,
+  at about 17:01 UTC, when the page export's files were written); the slowest were 11.2, 13.9 and 19.1 s. The
+  medians in the table are barely affected, but the fit (7.38 s + 0.931 s per question, quoted elsewhere) includes
+  them; refitting without those five gives 7.01 s + 0.950 s per question (exploratory, after the result). The instruct model's 372 calls ran
   5.3-7.8 s.
 - The reranker was not part of this benchmark; its 0.39-0.98 s per passage-question (parts A, B and D) were
   measured on a shared CPU.
