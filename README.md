@@ -283,9 +283,13 @@ python -m stale.propose                                # the sentence to quote f
 python -m stale.report  https://github.com/OpenTermsArchive/pga-versions kev   # out/site/stale.html
 python -m stale.export                                 # the same as a CSV
 python -m stale.daily   path/to/pga-versions           # what changed since the last run
+python -m stale.daily_suggest path/to/pga-versions kev # Kev's suggestions for the new drops in the daily digest
+python -m stale.recrawl                                # which ToS;DR documents to re-crawl first (all collections)
 ```
 The same for other Open Terms Archive collections (`stale/wide.py`; clone `<collection>-versions` and
 `<collection>-declarations` next to pga-versions): `python -m stale.wide map|pull|match|cheap|kev <collection>`.
+The cheaper suggestions adopted in part D: `<sentence-transformers python> -m stale.cascade rerank <collection>`,
+then `python -m stale.cascade kev <collection>`. `daily.cmd` chains the daily steps for Windows Task Scheduler.
 Python 3.12+ (tested on 3.14). The core is standard library only; the bge and reranker arms need
 sentence-transformers.
 
