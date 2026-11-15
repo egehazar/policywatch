@@ -1,262 +1,262 @@
 {
  "U001": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Each party may bring a Dispute only in an individual capacity and not as a class member in any class proceeding."
  },
  "U002": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Shows data shared with third-party apps and devices, but only ones the user chooses to connect, not sharing initiated by the service."
  },
  "U003": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "We may receive personal information about you from third parties engaged for verification, KYC and marketing."
  },
  "U004": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Advertisers see reports showing aggregated statistics about the audience seeing their ads."
  },
  "U005": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "We put the information we collect about you into aggregate reports for partners."
  },
  "U006": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Warns that buying from third-party advertisers is at your own risk, a narrower warning than third-party access generally."
  },
  "U007": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Website navigation text with nothing about content ownership."
  },
  "U008": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Disclaims liability for any damages only for use of the planning tool, not the service as a whole."
  },
  "U009": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only cross-references a Security and Retention section and mentions de-identification; no security practices are described."
  },
  "U010": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The non-exclusive license runs from Malwarebytes to the user; no license over user content is granted to the service."
  },
  "U011": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Describes content and accounts; nothing restricts negative opinions."
  },
  "U012": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "You may also be subject to additional terms and conditions when using other Element services or third-party content or software."
  },
  "U013": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Says Tumblr is a U.S. company subject to U.S. laws and jurisdiction, but does not name the court or law governing disputes under the terms."
  },
  "U014": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Gives a reporting form, the Copyright Agent's address and email, and the required contents of a notice."
  },
  "U015": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Collects your IP address and information about your approximate location."
  },
  "U016": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "If you send creative ideas or suggestions, we will own, exclusively, all rights to them."
  },
  "U017": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "An arbitration clause; nothing about meeting expectations or requirements."
  },
  "U018": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Warranty disclaimers and indemnity; nothing about alternative accounts."
  },
  "U019": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Covers user-initiated account deletion and disclaimers, not suspension for breach."
  },
  "U020": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Notice-update text and site footer; no tracking technologies mentioned."
  },
  "U021": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists several uses: recommendations from on- and off-site behaviour, responding to questions, building community, photo search."
  },
  "U022": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About Ryver's ownership of its software and service; no license from the user is described."
  },
  "U023": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Lists categories of information used, not the purposes they are used for."
  },
  "U024": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Covers information about you that partners share with the service, which only weakly implies collection without direct interaction."
  },
  "U025": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About account and content deletion timelines; nothing bars banned users from new accounts."
  },
  "U026": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists many uses: location-based customisation, updates, spam and abuse detection, age checks, legal claims, analytics and research."
  },
  "U027": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About API access to public data and legal disclosures; nothing on app device permissions."
  },
  "U028": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Has a generic survival clause for listed sections but says nothing about defending or indemnifying the service."
  },
  "U029": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "The agreement can be terminated for any reason without notice with user content removed, which is whole-account termination rather than removal of specific content."
  },
  "U030": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "The types of location data we collect and how long we store it depend on your device and account settings."
  },
  "U031": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists many processing purposes: accounts, partner sign-in, sharing, messaging, AI features, analytics, payments, troubleshooting, product testing."
  },
  "U032": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Purchase information is stored for seven years due to a legal obligation to retain business documentation."
  },
  "U033": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Introductory scope text; nothing about a license over user content."
  },
  "U034": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Google Location Sharing lets your location be shared so others can find you on a map, and IP address is collected."
  },
  "U035": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Accounts are permanently terminated for CSAE-related violations only, a narrower case than breaching the terms generally."
  },
  "U036": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Information is used for a personalized experience, ads, research, troubleshooting and the other purposes explained below."
  },
  "U037": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Data goes to third-party age verification vendors, but only where required by law, so not clearly non-essential."
  },
  "U038": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Information that is not public will not be sold, rented, or given to anyone."
  },
  "U039": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "General location (country, region, city) may be learned from technical data such as your IP address."
  },
  "U040": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About Cloudflare processing and security measures; no archive of past agreements."
  },
  "U041": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "You can choose to share your location in your profile and posts, but nothing says precise or GPS location is received."
  },
  "U042": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists how personal information is used: communications, personalization, marketing, advertising, legal compliance and fraud prevention."
  },
  "U043": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "The license includes the right to use Your Content to train AI and machine learning models."
  },
  "U044": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "This policy explains how we collect and use your data."
  },
  "U045": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Arbitrator may not award relief benefiting anyone but the parties and a class action waiver section is referenced, but the waiver itself is not stated."
  },
  "U046": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Says recipients can store or reshare what you send; nothing about the service reading private messages."
  },
  "U047": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About app ownership, backups and user postings; no ban on political content."
  },
  "U048": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Describes internal uses of data to provide and improve the service; no sharing with third parties."
  },
  "U049": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Spotify uses your precise location data with your permission to offer features like nearby concert recommendations."
  },
  "U050": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "We may remove any Content for reasons including breach of these Terms or our Rules and Policies."
  },
  "U051": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Shows only two purposes (sharing lead-ad info with advertisers, promoting creators), not many."
  },
  "U052": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Service providers such as Google Analytics use cookies and tracking technologies to analyze usage of the sites."
  },
  "U053": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "The policy includes removal of infringing material and termination of repeat infringers."
  },
  "U054": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About content licensing and community guidelines; no governing court or jurisdiction."
  },
  "U055": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "A content license clause; nothing about severability."
  },
  "U056": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Disputes go to binding individual (not class) arbitration and a court enforces the prohibition on class actions."
  },
  "U057": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Information about you is used across different areas of Snapchat (Memories, Map, Spotlight), not clearly combined across separate products."
  },
  "U058": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "The passage is written in plain, conversational language, but nothing states the terms are easy to read."
  },
  "U059": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Lists conspiracy content encouraging harassment or physical violence and hate-based content, narrower than violence or extremism generally, and prohibition is not explicit in the excerpt."
  },
  "U060": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Federal and state courts in Boston, Massachusetts are the legal forum for disputes."
  },
  "U061": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "No warranty that services are virus-free and you should scan any download, but it does not say you bear the resulting damages or losses."
  },
  "U062": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About Element's license to the user and its retained rights; nothing on ownership of user content."
  },
  "U063": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About withdrawal and reimbursement; no severability clause."
  },
  "U064": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Lists extensive device data collected (installed apps, battery, address book, precise location), but not app permissions as such."
  },
  "U065": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "We may show you personalized ads based on your interests, activity, or content from Google services."
  }
 }
