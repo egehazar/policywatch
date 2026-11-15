@@ -1,0 +1,39 @@
+{
+ "MISS": {
+  "n": 40,
+  "YES": 23,
+  "PARTLY": 9,
+  "NO": 8,
+  "yes_share": 0.575,
+  "yes_or_partly": 0.8
+ },
+ "GOLD": {
+  "n": 15,
+  "YES": 12,
+  "PARTLY": 3,
+  "NO": 0,
+  "yes_share": 0.8,
+  "yes_or_partly": 1.0
+ },
+ "RANDOM": {
+  "n": 15,
+  "YES": 0,
+  "PARTLY": 1,
+  "NO": 14,
+  "yes_share": 0.0,
+  "yes_or_partly": 0.067
+ },
+ "MISS_A": {
+  "n": 20,
+  "YES": 13
+ },
+ "MISS_B": {
+  "n": 20,
+  "YES": 10
+ },
+ "rater_reliable": true,
+ "estimate_states_case_at1": {
+  "A": 0.867,
+  "B": 0.876
+ }
+}

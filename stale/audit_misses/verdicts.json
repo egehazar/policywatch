@@ -1,282 +1,282 @@
 {
  "M01": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "States certain parts of Bluesky Social are licensed under open source terms including MIT and Apache."
  },
  "M02": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Grants the service a worldwide, non-exclusive, royalty-free license to use your Content."
  },
  "M03": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Says disputes will be decided through arbitration, not in court, with batched AAA arbitration."
  },
  "M04": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Liability limits and entire-agreement clause; nothing about suggestions or feedback."
  },
  "M05": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About security of User Content and a release of claims; no indemnification or survival clause."
  },
  "M06": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Any dispute shall be resolved by final and binding individual arbitration."
  },
  "M07": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Lists data visible to other users and shared to third parties; nothing about promotions."
  },
  "M08": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Prohibited-use rules for users; no warranty disclaimer."
  },
  "M09": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Security and retention text; nothing about leaving the service."
  },
  "M10": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Identity is verified (email ownership) only when you make a privacy-rights request, not generally."
  },
  "M11": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Describes request verification and agents; does not list the types of data collected."
  },
  "M12": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Usage Data includes content you provide when participating in Spotify promotions such as contests or sweepstakes."
  },
  "M13": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Unresolved complaints about handling of personal data can be filed with JAMS at no cost."
  },
  "M14": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Analytics data is collected through cookies, web beacons and other tracking technologies."
  },
  "M15": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Email address is collected to market to the mailing list after the original transaction."
  },
  "M16": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists many data types: name, email, password, phone, date of birth, gender, street address, country, university, age."
  },
  "M17": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Introduction and age requirement of the Reddit agreement; no warranty disclaimer."
  },
  "M18": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Log files may include Internet Protocol (IP) addresses."
  },
  "M19": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Malwarebytes is free to use Feedback on an unrestricted basis without any obligation to you, with no ownership transfer."
  },
  "M20": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Appeals and data subject rights; nothing about bankruptcy or business transfers."
  },
  "M21": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Personalized ads use advertiser information, and your phone number and saved places are used to make ads more relevant."
  },
  "M22": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Only the table of contents and introduction; no actual choices are described."
  },
  "M23": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Messages must be welcomed and relevant, and accounts sending spam may be warned or suspended."
  },
  "M24": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Prohibited AI practices and hosting; nothing about social media cookies or pixels."
  },
  "M25": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Meta places its own session and persistent cookies on your device when you use the Meta Products."
  },
  "M26": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Gives stamps.com your name, address, email and phone to mail items to you."
  },
  "M27": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "X may take enforcement action for violations, such as removing your Content."
  },
  "M28": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only the heading '8.2 No Refunds' appears; the clause body and its scope are cut off."
  },
  "M29": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Disclaims liability for damages only for damages arising from Third Party Sites."
  },
  "M30": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Disclaims liability only for damages from account ownership disputes or account blocking."
  },
  "M31": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "With Location Services on, Meta receives your GPS location."
  },
  "M32": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Announces one update with an effective date; says nothing about reviewing the policy regularly."
  },
  "M33": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Services such as Google Analytics, Nielsen and comScore place their own cookies to learn how people use Tumblr."
  },
  "M34": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists the purposes for which personal information is used."
  },
  "M35": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Account deletion and data retention; nothing about device permissions."
  },
  "M36": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Does not warrant that the Services will be operational, error free, secure, or without disruptions or delays."
  },
  "M37": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Information may be shared with the relevant entity in case of a merger, acquisition or collaboration."
  },
  "M38": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Services provided as is and as available; no warranty that they are reliable, current or error free."
  },
  "M39": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Account is strictly personal, may not be sold or transferred, and commercial use of Steam Content is a violation."
  },
  "M40": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Website navigation menu; nothing about names or pseudonyms."
  },
  "M41": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Warns that buying from third-party advertisers is at your own risk, narrower than third-party access generally."
  },
  "M42": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Advertising and disclosure rights; no warning about publishing personal info."
  },
  "M43": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Google can share your location via Location Sharing so others can find you on a map."
  },
  "M44": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Precludes you from bringing or participating in any class, collective or representative action."
  },
  "M45": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "You may opt out of third-party data being used for ad personalization and reject cookies."
  },
  "M46": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Lists deleting your registration account as a control, but not a right to leave at any time."
  },
  "M47": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Claims only in individual capacity, not as a class member in any class action."
  },
  "M48": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only weakly implies third-party email marketing services may be used; no data sharing stated."
  },
  "M49": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Illegal content violates policies and can lead to account action, but no explicit agreement not to use for illegal purposes."
  },
  "M50": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only AI Features are as-is and at your own risk; no general disclaimer of liability for damages."
  },
  "M51": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Uses data processors and Cloudflare to provide and secure the Services."
  },
  "M52": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "You can send a counter notification if content was wrongly removed after a copyright notice."
  },
  "M53": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About non-refundable fees; no liability cap."
  },
  "M54": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Personal information may go to hosting partners and others who assist in operating the website."
  },
  "M55": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Liability limitation clause; no class action waiver."
  },
  "M56": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Data is used for marketing except if the data subject has opted out from these communications at any moment."
  },
  "M57": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "You may not use the Twitch Services for any illegal purpose."
  },
  "M58": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Class action and jury trial waiver; nothing about a content license."
  },
  "M59": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Child sexual abuse material violates policies, one narrow form of harming minors."
  },
  "M60": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Sexually explicit content is prohibited only in messages between users."
  },
  "M61": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only says information goes to a new business owner 'only as the law allows'; otherwise definitions."
  },
  "M62": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Browser settings and sharing controls; nothing about illegal use."
  },
  "M63": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists many uses: location customization, updates, spam detection, enforcement, age checks, legal claims, analytics."
  },
  "M64": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "General location (country, region, city) may be learned from your IP address."
  },
  "M65": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Prohibited conduct rules; nothing about counter notices."
  },
  "M66": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "You have the right to access, rectification, and erasure of your personal information."
  },
  "M67": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Data sharing and security; nothing about minors."
  },
  "M68": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Lets you object to sharing; no access, correction or deletion right."
  },
  "M69": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Bans sharing your account with others, not holding multiple accounts."
  },
  "M70": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Content disclaimer and indemnification; nothing about open source licensing."
  }
 }

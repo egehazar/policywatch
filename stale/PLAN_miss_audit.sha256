@@ -4,3 +4,7 @@ cb62e4f2a9e754460c91cc479ca89d21b85837d121bb21ecc15521ed0d157b9c *stale/PLAN_mis
 09abf71772101e0526027e694ff33f4fa08721fae5f67714ab22d1e8474d9703 *stale/audit_misses/cards.md
 e7e24b3a14a8c0059030de57c827a0b1829e23f5d70730d63f56d7a3dd5a10da *stale/audit_misses/verdicts.json
 e45f191fba20d52d5d40e0fd1e7a8e78202bd58bac8c4b118d04c49f90251bd1 *stale/out/miss_audit_key.json
+# rater instructions 2026-11-15T02:02:39Z, written after the cards' hash, at the rater's start
+d12e1e7c2d14861c6ee006ea4f24baa1b1b3111c754117e77402598022c1dfc6 *stale/audit_misses/README.md
+# verdicts 2026-11-15T02:04:43Z, as returned, before scoring
+2ca3e6c68e94c6f7e36232062d6c352e43b8835c2f97d744e1d7e2fdc35fe747 *stale/audit_misses/verdicts.json
