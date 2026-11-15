@@ -1,0 +1,146 @@
+{
+ "items": 60,
+ "vs_grader": {
+  "gpt": {
+   "n": 60,
+   "agree": 51,
+   "kappa": 0.674
+  },
+  "fable": {
+   "n": 59,
+   "agree": 54,
+   "kappa": 0.817
+  }
+ },
+ "gpt_vs_fable": {
+  "n": 59,
+  "agree": 52,
+  "kappa": 0.744
+ },
+ "unsure": {
+  "gpt": 0,
+  "fable": 1
+ },
+ "by_stratum": {
+  "cited": {
+   "n": 22,
+   "opus_yes": 22,
+   "gpt_yes": 17,
+   "fable_yes": 19
+  },
+  "uncited": {
+   "n": 23,
+   "opus_yes": 0,
+   "gpt_yes": 4,
+   "fable_yes": 3
+  },
+  "none": {
+   "n": 15,
+   "opus_yes": 0,
+   "gpt_yes": 0,
+   "fable_yes": 0
+  }
+ },
+ "reading": "TWO OTHER AI RATERS AGREE WITH THE GRADER (still provisional: not a human check)",
+ "disagreements": [
+  {
+   "id": "g07",
+   "stratum": "cited",
+   "opus": "yes",
+   "gpt": "no",
+   "fable": "yes",
+   "gpt_why": "Mentions advertising controls without establishing an option to disable targeted advertising.",
+   "fable_why": "Says you can control how data is used to show ads via tools."
+  },
+  {
+   "id": "g10",
+   "stratum": "uncited",
+   "opus": "no",
+   "gpt": "yes",
+   "fable": "yes",
+   "gpt_why": "Message contents may be processed to comply with legal obligations, establishing access.",
+   "fable_why": "Message content you send and receive is listed among information processed."
+  },
+  {
+   "id": "g17",
+   "stratum": "uncited",
+   "opus": "no",
+   "gpt": "yes",
+   "fable": "no",
+   "gpt_why": "Users choose whether to share profile information and other data with partners.",
+   "fable_why": "About sharing account data with partner apps, not controlling content audience."
+  },
+  {
+   "id": "g19",
+   "stratum": "cited",
+   "opus": "yes",
+   "gpt": "no",
+   "fable": "unsure",
+   "gpt_why": "Severability applies only to the arbitration agreement, not the Terms of Service generally.",
+   "fable_why": "Severability stated only for the Arbitration Agreement, not the whole Terms."
+  },
+  {
+   "id": "g23",
+   "stratum": "cited",
+   "opus": "yes",
+   "gpt": "no",
+   "fable": "no",
+   "gpt_why": "References unspecified US states without identifying California or claiming CCPA compliance.",
+   "fable_why": "Mentions certain US states and opt-out signals, not CCPA or California."
+  },
+  {
+   "id": "g29",
+   "stratum": "uncited",
+   "opus": "no",
+   "gpt": "yes",
+   "fable": "yes",
+   "gpt_why": "Explicitly removes content promoting sexual violence and threatening or advocating rape.",
+   "fable_why": "Removes content that depicts, threatens or promotes sexual violence."
+  },
+  {
+   "id": "g30",
+   "stratum": "cited",
+   "opus": "yes",
+   "gpt": "no",
+   "fable": "yes",
+   "gpt_why": "Mentions advertising settings without establishing that users can opt out of personalized advertising.",
+   "fable_why": "Says you can control data use for personalised advertising and amend settings."
+  },
+  {
+   "id": "g32",
+   "stratum": "uncited",
+   "opus": "no",
+   "gpt": "no",
+   "fable": "yes",
+   "gpt_why": "Mentions a Last Updated field but supplies no actual update date.",
+   "fable_why": "States a Last Updated date sits at the top of the policy."
+  },
+  {
+   "id": "g43",
+   "stratum": "cited",
+   "opus": "yes",
+   "gpt": "yes",
+   "fable": "no",
+   "gpt_why": "Shares identifiable user data with Meta companies for business analytics beyond core messaging operations.",
+   "fable_why": "Recipients are Meta companies providing hosting, analytics and authentication services."
+  },
+  {
+   "id": "g47",
+   "stratum": "cited",
+   "opus": "yes",
+   "gpt": "no",
+   "fable": "yes",
+   "gpt_why": "Describes targeted advertising without establishing personal data sharing with advertising companies.",
+   "fable_why": "Uses your information for interest-based, retargeted and behavioral advertising."
+  },
+  {
+   "id": "g57",
+   "stratum": "uncited",
+   "opus": "no",
+   "gpt": "yes",
+   "fable": "no",
+   "gpt_why": "Explicitly uses collected information to personalize advertisements.",
+   "fable_why": "Describes personalising products and ads, not marketing communications to you."
+  }
+ ]
+}

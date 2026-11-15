@@ -8,6 +8,10 @@ archive HEAD b2ac8a9.
 final only when Ege's 60 blind cards (`audit/gate/`, drawn 01:27 UTC: 22 rater-cited pieces, 23 arm picks the rater did
 not cite, 15 "none" cases) agree with the rater at kappa >= .6. If they do not, the reading is void.
 
+**2026-11-15: Ege did not answer the cards and asked GPT and Fable to answer them instead** (plan written and hashed
+before either ran: `stale/PREREG_gate_llm.md`). Both agreed with the grader above the .6 bar (GPT .67, Fable .82). That
+is two more AI raters, not a person, so the result stays provisional. Details at the end.
+
 ## The population
 - 141 ToS;DR points whose quote disappeared from the platform's text in a platform edit.
 - The rater found the case still stated somewhere for 126 of them, and nowhere for 15.
@@ -22,7 +26,7 @@ The label needed all five conditions. One failed and one is pending:
 | The flag rule flags at least 8 points | 12 | pass |
 | At least 75% of flagged points are "none" | 6 of 12 (50%) | **fail** |
 | Rater control recall >= .85 | .932 (74 controls) | pass |
-| Human gate | pending | |
+| Human gate | not answered (two AI raters stood in: both agree with the grader, see the end) | |
 
 Kev ranks the 15 "none" points low (AUROC .92, against .78 for the quote-embedding arm), but its fixed flag
 threshold catches as many stated points as none points. The page keeps making no verdict, as pre-registered. The
@@ -68,9 +72,39 @@ was close (.72 on 18 points). The label did not ship.
 - Opus: 552 quotes checked, all verbatim in the text; control recall .932 on 74 control cases.
 - Sonnet cross-check on 3 batches: control recall .833 on 12. On the 16 shared cases the two agreed on stated / none
   15 times; kappa is uninformative there because almost every case was "stated".
-- The human gate is the real check.
+- The human gate is the real check. It was not answered; GPT and Fable answered its 60 cards instead (below).
 
 ## What this means for the system
 - The curator page (`out/site/stale.html`, rebuilt with Kev at 01:26 UTC) shows Kev's top 3 for each stale point, with
   the old-quote match and the diff passage beside it. It makes no "no longer stated" verdict.
 - Kev's ranking of "none" points is good enough to sort a queue (most likely gone first), not to label one.
+
+## The 60 gate cards, answered by GPT and Fable instead of a person (2026-11-15)
+Plan: `stale/PREREG_gate_llm.md` (hashed 10:24 UTC, before either rater ran). Scored with `py -m stale.gate_llm score`
+-> `stale/out/fullread/gate_llm.json`. Raw replies: `gate_raw_gpt.txt` (Codex CLI 0.154.0, gpt-6-astra, reasoning
+xhigh, read-only sandbox, empty folder), `gate_raw_fable.json` (Claude Fable 5.2 subagent; its log shows it opened only
+the cards file and wrote only its answers file). Both saw the page's instructions and the 60 cards, nothing else.
+
+| | Cards answered yes/no | Agree with the grader | Kappa vs the grader |
+|---|---|---|---|
+| GPT | 60 | 51 | .674 |
+| Fable | 59 (1 can't tell) | 54 | .817 |
+| GPT vs Fable | 59 | 52 | .744 |
+
+| Stratum | Cards | Grader yes | GPT yes | Fable yes |
+|---|---|---|---|---|
+| Pieces the grader cited | 22 | 22 | 17 | 19 |
+| Arm picks the grader did not cite | 23 | 0 | 4 | 3 |
+| Kev's top piece where the grader found none | 15 | 0 | 0 | 0 |
+
+**Reading (fixed in the plan): TWO OTHER AI RATERS AGREE WITH THE GRADER.** Still provisional: not a human check.
+
+What it means:
+- The 15 "none" cards are the cleanest part: neither rater found the case in Kev's top piece for any of them, so the
+  grader's "no longer stated anywhere" calls hold up for those pieces.
+- Both raters disagreed with the grader on 3 cards: 2 arm picks the grader did not cite that both call evidence (g10,
+  g29), and 1 cited piece both call not enough (g23). Each rater alone disagreed on a few more (GPT 6, Fable 2);
+  three of GPT's are cited advertising passages it read more strictly than the other two.
+- The errors run both ways (cited pieces called not enough, uncited picks called evidence), so this does not say
+  whether Kev's .74 is high or low; it says the grading it rests on is roughly how two other models read the cards.
+

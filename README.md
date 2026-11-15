@@ -170,8 +170,9 @@ anything.
   - It covers points whose case is still stated. Whether Kev can tell that a case is no longer stated was tested on
     the 141 stale points: it ranks those points low (AUROC .92), but its flag was right 6 times in 12, under the 75%
     bar, so the page makes no such claim (`stale/RESULT_suggest.md`, provisional).
-  - The page's suggestions for the 141 stale points now lead with Kev (`stale/RESULT_suggest.md`, provisional until a
-    human checks 60 blind cards).
+  - The page's suggestions for the 141 stale points now lead with Kev (`stale/RESULT_suggest.md`, provisional: graded
+    by an LLM rater; a person did not check the 60 blind cards, GPT and Fable answered them instead and agreed with
+    the grader, kappa .67 and .82).
 
 ## The meaning-diff scanner (`policywatch/`)
 The original goal, kept with its results: it failed its pre-registered tests as a detector of real changes.

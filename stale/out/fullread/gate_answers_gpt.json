@@ -1,0 +1,242 @@
+{
+ "g01": {
+  "v": "no",
+  "why": "Lists collected information without warning about risks of publishing personal information."
+ },
+ "g02": {
+  "v": "no",
+  "why": "Discusses retention and legal requests, not users' access, correction, or deletion rights."
+ },
+ "g03": {
+  "v": "no",
+  "why": "Restricting software functionality or ending support does not establish unrestricted service discontinuation."
+ },
+ "g04": {
+  "v": "yes",
+  "why": "Systems automatically assess users' interests and preferences to personalize content and recommendations."
+ },
+ "g05": {
+  "v": "yes",
+  "why": "Explicitly removes content supporting or glorifying designated hateful ideologies."
+ },
+ "g06": {
+  "v": "no",
+  "why": "Describes activity logging without identifying tracking pixels, fingerprinting, or unique device tracking identifiers."
+ },
+ "g07": {
+  "v": "no",
+  "why": "Mentions advertising controls without establishing an option to disable targeted advertising."
+ },
+ "g08": {
+  "v": "yes",
+  "why": "Explicitly prohibits revealing personally identifiable information, including government identification details."
+ },
+ "g09": {
+  "v": "yes",
+  "why": "Prohibits copyright infringement and explicitly permits removal of challenged content."
+ },
+ "g10": {
+  "v": "yes",
+  "why": "Message contents may be processed to comply with legal obligations, establishing access."
+ },
+ "g11": {
+  "v": "no",
+  "why": "Explains cookie usage without stating that blocking cookies limits service functionality."
+ },
+ "g12": {
+  "v": "no",
+  "why": "Mentions cookies and analytics without establishing that third-party cookies provide statistics."
+ },
+ "g13": {
+  "v": "no",
+  "why": "Contains content moderation rules, not copyright reporting instructions."
+ },
+ "g14": {
+  "v": "no",
+  "why": "Combines partner and browsing data, not profiles across multiple services owned by Pinterest."
+ },
+ "g15": {
+  "v": "yes",
+  "why": "Explicitly prohibits glorifying violent events, perpetrators, hateful ideologies, and violent organizations."
+ },
+ "g16": {
+  "v": "yes",
+  "why": "Explicitly uses pixel tags and unique device identifiers to collect activity information."
+ },
+ "g17": {
+  "v": "yes",
+  "why": "Users choose whether to share profile information and other data with partners."
+ },
+ "g18": {
+  "v": "no",
+  "why": "Explains requested deletion and retention exceptions, not content removal for violating terms."
+ },
+ "g19": {
+  "v": "no",
+  "why": "Severability applies only to the arbitration agreement, not the Terms of Service generally."
+ },
+ "g20": {
+  "v": "yes",
+  "why": "Explicitly includes sent and received message contents among information the service uses."
+ },
+ "g21": {
+  "v": "no",
+  "why": "Sharing statistics and mentioning third-party tracking do not establish statistical use of third-party cookies."
+ },
+ "g22": {
+  "v": "no",
+  "why": "General business purposes do not establish marketing use; direct marketing emails are expressly disclaimed."
+ },
+ "g23": {
+  "v": "no",
+  "why": "References unspecified US states without identifying California or claiming CCPA compliance."
+ },
+ "g24": {
+  "v": "no",
+  "why": "An eligibility section heading does not establish parental authorization requirements."
+ },
+ "g25": {
+  "v": "yes",
+  "why": "Explicitly requires parental or guardian permission for users aged 13 to 18."
+ },
+ "g26": {
+  "v": "yes",
+  "why": "Uses account and activity information to calculate user counts and other analytics metrics."
+ },
+ "g27": {
+  "v": "yes",
+  "why": "Moderators review reported messages, and automated algorithms may analyze cloud chats."
+ },
+ "g28": {
+  "v": "no",
+  "why": "Provides reporting procedures without specifying prohibitions on libelous, harassing, or threatening content."
+ },
+ "g29": {
+  "v": "yes",
+  "why": "Explicitly removes content promoting sexual violence and threatening or advocating rape."
+ },
+ "g30": {
+  "v": "no",
+  "why": "Mentions advertising settings without establishing that users can opt out of personalized advertising."
+ },
+ "g31": {
+  "v": "no",
+  "why": "Lists a disputes section without stating arbitration requirements or jury trial waivers."
+ },
+ "g32": {
+  "v": "no",
+  "why": "Mentions a Last Updated field but supplies no actual update date."
+ },
+ "g33": {
+  "v": "no",
+  "why": "General safety and abuse prevention language does not specify prohibited user content."
+ },
+ "g34": {
+  "v": "no",
+  "why": "Discusses users' processing objections, not resistance to legal demands for information."
+ },
+ "g35": {
+  "v": "no",
+  "why": "Offers an LLM training opt-out, not a targeted advertising opt-out."
+ },
+ "g36": {
+  "v": "yes",
+  "why": "Collects device-linked identifiers, including identifiers connecting the same device or account across Meta products."
+ },
+ "g37": {
+  "v": "no",
+  "why": "Voice data alone does not establish collection of biometric identifiers or biometric analysis."
+ },
+ "g38": {
+  "v": "no",
+  "why": "Describes partner access and sharing rules without excluding third-party services from this privacy policy."
+ },
+ "g39": {
+  "v": "no",
+  "why": "Authorizes disclosures for business and legal reasons without addressing retention after deletion."
+ },
+ "g40": {
+  "v": "no",
+  "why": "Describes advertising identifiers and interests without establishing collection and sharing of sensitive data."
+ },
+ "g41": {
+  "v": "yes",
+  "why": "Google Analytics collects and processes service usage data to help improve the service."
+ },
+ "g42": {
+  "v": "no",
+  "why": "Addresses arbitration waivers and severability, not failure to enforce contractual provisions."
+ },
+ "g43": {
+  "v": "yes",
+  "why": "Shares identifiable user data with Meta companies for business analytics beyond core messaging operations."
+ },
+ "g44": {
+  "v": "no",
+  "why": "Withdrawing processing consent does not establish a right to terminate service or delete accounts."
+ },
+ "g45": {
+  "v": "yes",
+  "why": "Explicitly lists GPS location shared through device settings among information used."
+ },
+ "g46": {
+  "v": "no",
+  "why": "Mentions location data without specifying precise location or GPS coordinates."
+ },
+ "g47": {
+  "v": "no",
+  "why": "Describes targeted advertising without establishing personal data sharing with advertising companies."
+ },
+ "g48": {
+  "v": "yes",
+  "why": "Shares research data with academics and international organizations, using categories including user content."
+ },
+ "g49": {
+  "v": "no",
+  "why": "Explains consequences of account termination without reserving unrestricted service discontinuation rights."
+ },
+ "g50": {
+  "v": "no",
+  "why": "Optional connections and partner rules do not establish user controls over subsequent data use."
+ },
+ "g51": {
+  "v": "no",
+  "why": "Grants content usage rights without providing copyright complaint instructions."
+ },
+ "g52": {
+  "v": "yes",
+  "why": "Explicitly grants a nonexclusive license, allowing users to license their content elsewhere."
+ },
+ "g53": {
+  "v": "no",
+  "why": "Discusses consent withdrawal and portability, not transfers during corporate or financial transactions."
+ },
+ "g54": {
+  "v": "no",
+  "why": "Only links other policies; no prohibition on violent or extremist content appears."
+ },
+ "g55": {
+  "v": "no",
+  "why": "Describes encrypted message retention, not undeletable contributions to an openly licensed knowledge resource."
+ },
+ "g56": {
+  "v": "no",
+  "why": "Links browser support resources, not a free Twitch help desk."
+ },
+ "g57": {
+  "v": "yes",
+  "why": "Explicitly uses collected information to personalize advertisements."
+ },
+ "g58": {
+  "v": "yes",
+  "why": "Collects device location for optional localized content, location sharing, and optimized search results."
+ },
+ "g59": {
+  "v": "no",
+  "why": "Lists eligibility and conduct restrictions without stating that accounts may be suspended."
+ },
+ "g60": {
+  "v": "no",
+  "why": "Lists collected device information without establishing mandatory or excessive app permissions."
+ }
+}
