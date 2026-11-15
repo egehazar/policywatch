@@ -61,7 +61,8 @@ def suggestion(s, arm, prop=None):
           f'was right, this pick matched the curator&rsquo;s own quote 83% of the time in testing; check it before use): '
           f'<ins>{esc(prop["quote"])}</ins></p>') if prop else ''
     return confidence(s, arm) + pq + (f'<details class="sm"><summary>Where the case may be stated now: top {len(s["top"])} passages of the current text by '
-            f'{esc(ARMS.get(arm, arm))}. A place to look, not a verdict: the case may no longer be stated at all.</summary>{tops}</details>')
+            f'{esc(ARMS.get(arm, arm))}{", among the reranker&rsquo;s top 10 for the case" if s.get("cascade") else ""}. '
+            f'A place to look, not a verdict: the case may no longer be stated at all.</summary>{tops}</details>')
 
 
 def sid(name):

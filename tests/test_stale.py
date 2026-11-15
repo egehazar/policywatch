@@ -108,6 +108,9 @@ class TestClearLabel(unittest.TestCase):
             self.assertIn('Close:', report.confidence(self.s(.9, .61), 'kev'))
             casc = report.confidence(self.s(.95, .2, cascade='rerank top 10'), 'kev')
             self.assertIn('Clear:', casc); self.assertIn('checked after the test', casc)
+            card = report.suggestion(self.s(.95, .2, cascade='rerank top 10'), 'kev')
+            self.assertIn('among the reranker', card); self.assertIn('1. passage 1', card)
+            self.assertNotIn('among the reranker', report.suggestion(self.s(.95, .2), 'kev'))
             self.assertEqual(report.confidence(self.s(.9, .1), 'bm25'), '')
         with mock.patch.object(report, 'label_adopted', return_value=False):
             self.assertEqual(report.confidence(self.s(.9, .1), 'kev'), '')
