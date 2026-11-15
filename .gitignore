@@ -9,3 +9,5 @@ stale/live/
 stale/wide/*/data/
 stale/wide/*/raw/
 stale/wide/live/
+stale/audit_drops/C*_before.md
+stale/audit_drops/C*_after.md

@@ -1,0 +1,8 @@
+# prereg 2026-11-15T01:17:26Z, before any card was built (time in the text corrected from ~01:40 to ~01:15)
+0ed3fc6d01e5876367346e70cb22532aa66232d4a5ec93c23401f8a9693050e0 *stale/PREREG_drop_audit.md
+c02f843a9ca6d05e899b351d48a5e9808eb81c210558deddc309c5a0b58b939a *stale/drop_audit.py
+# cards and key 2026-11-15T01:17:52Z, before any rating
+ef096f5a36d3756ce7c595e77e18fc4e74eac4fbb20ab11b273ebff77c6f2938 *stale/audit_drops/cards.md
+b358369e4178098e2315e2f34396600fac51a68e5db5c5784a21add214272c27 *stale/audit_drops/README.md
+b41aea92a57f7980c5d38f41e6411c5c31689537fada2b97b4b02d2d7b7f2b53 *stale/audit_drops/verdicts.json
+1c6af945e6b73716ff635b64be32e2a7df8063383cb424497b4e572306f28f7c *stale/out/drop_audit_key.json

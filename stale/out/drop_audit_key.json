@@ -1,0 +1,864 @@
+{
+ "populations": {
+  "P": 141,
+  "L": 521,
+  "G": 74
+ },
+ "sizes": {
+  "P": 10,
+  "L": 30,
+  "G": 10
+ },
+ "cases": {
+  "C01": {
+   "population": "G",
+   "point": 75620,
+   "platform": "Bing",
+   "doc": "Bing/Privacy Policy.md",
+   "last_present": {
+    "commit": "d99a13823d89d8677c225cb84d8eefebef2f62e5",
+    "date": "2024-06-25"
+   },
+   "dropped_at": {
+    "commit": "fe71faee58e90d1140fb054c5653fc855ba301b6",
+    "date": "2024-09-19",
+    "subject": "Record new changes of Bing Privacy Policy",
+    "coverage": 0.0
+   },
+   "drop_kind": "broken capture"
+  },
+  "C02": {
+   "population": "P",
+   "point": 318779,
+   "platform": "Spotify",
+   "doc": "Spotify/Terms of Service.md",
+   "last_present": {
+    "commit": "b792b42f7d017a170c6210a431c700b85f938fbb",
+    "date": "2025-10-03"
+   },
+   "dropped_at": {
+    "commit": "f521c79fa1d1edca167cf5632bcd33bbd138fd6d",
+    "date": "2026-09-04",
+    "subject": "Record new changes of Spotify Terms of Service",
+    "coverage": 0.707
+   },
+   "drop_kind": "platform edit"
+  },
+  "C03": {
+   "population": "L",
+   "point": 320559,
+   "platform": "Dailymotion",
+   "doc": "Dailymotion/Terms of Service.md",
+   "last_present": {
+    "commit": "770d26500338d66b377f7eb4489dd5651ed6adf4",
+    "date": "2026-06-03"
+   },
+   "dropped_at": {
+    "commit": "d3674c6034ae61a9d6d6e8772524d7d29c396950",
+    "date": "2026-06-30",
+    "subject": "Record new changes of Dailymotion Terms of Service",
+    "coverage": 0.267
+   },
+   "drop_kind": "platform edit"
+  },
+  "C04": {
+   "population": "P",
+   "point": 37392,
+   "platform": "Telegram",
+   "doc": "Telegram/Privacy Policy.md",
+   "last_present": {
+    "commit": "46634bd0c67a76dfd8fcbd54440cca8ae1f7cf85",
+    "date": "2023-05-31"
+   },
+   "dropped_at": {
+    "commit": "4cb557d95d1d7a7208a97116c2d016bc1408da9f",
+    "date": "2023-10-19",
+    "subject": "Record new changes of Telegram Privacy Policy",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C05": {
+   "population": "L",
+   "point": 18175,
+   "platform": "Orange",
+   "doc": "Orange/Privacy Policy.md",
+   "last_present": {
+    "commit": "b6880089b035daca59f9a9e00e87467ec8ead72d",
+    "date": "2020-12-18"
+   },
+   "dropped_at": {
+    "commit": "de5293f06bdb7716a50b2c576da624a9e4c5f81d",
+    "date": "2022-08-04",
+    "subject": "Update Orange Privacy Policy",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C06": {
+   "population": "L",
+   "point": 15680,
+   "platform": "Yahoo",
+   "doc": "Yahoo/Terms of Service.md",
+   "last_present": {
+    "commit": "75355bf3466e2fc15cc58792563600d1ad00e8d7",
+    "date": "2020-08-07"
+   },
+   "dropped_at": {
+    "commit": "0ce7092780a34f5b44d894cef717edc39a154fee",
+    "date": "2020-11-09",
+    "subject": "Update Yahoo Terms of Service",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C07": {
+   "population": "G",
+   "point": 75622,
+   "platform": "Bing",
+   "doc": "Bing/Privacy Policy.md",
+   "last_present": {
+    "commit": "d99a13823d89d8677c225cb84d8eefebef2f62e5",
+    "date": "2024-06-25"
+   },
+   "dropped_at": {
+    "commit": "fe71faee58e90d1140fb054c5653fc855ba301b6",
+    "date": "2024-09-19",
+    "subject": "Record new changes of Bing Privacy Policy",
+    "coverage": 0.0
+   },
+   "drop_kind": "broken capture"
+  },
+  "C08": {
+   "population": "L",
+   "point": 7844,
+   "platform": "BBC",
+   "doc": "BBC/Privacy Policy.md",
+   "last_present": {
+    "commit": "ae3fe3ee78d7723d4dfd30116941e9a4bcec8760",
+    "date": "2020-12-08"
+   },
+   "dropped_at": {
+    "commit": "2768e667a1f8215a580d7443cc952cda6b89c120",
+    "date": "2020-12-09",
+    "subject": "Update BBC Privacy Policy",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C09": {
+   "population": "L",
+   "point": 4274,
+   "platform": "Qwant",
+   "doc": "Qwant/Terms of Service.md",
+   "last_present": {
+    "commit": "8ece42eeded5293cecf6f14fcf1caa2e68f5be83",
+    "date": "2021-11-04"
+   },
+   "dropped_at": {
+    "commit": "1edd5577730583da25a4d96bdd78280bea9804d2",
+    "date": "2022-05-09",
+    "subject": "Update Qwant Terms of Service",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C10": {
+   "population": "L",
+   "point": 12808,
+   "platform": "Fox News",
+   "doc": "Fox News/Terms of Service.md",
+   "last_present": {
+    "commit": "3a3903722a27e40df913b680ac1d241034433c81",
+    "date": "2022-09-20"
+   },
+   "dropped_at": {
+    "commit": "21599d0ff5ac8a75810b718c115a7ae06f6ceb33",
+    "date": "2024-04-20",
+    "subject": "Record new changes of Fox News Terms of Service",
+    "coverage": 0.571
+   },
+   "drop_kind": "platform edit"
+  },
+  "C11": {
+   "population": "L",
+   "point": 18091,
+   "platform": "Zoom",
+   "doc": "Zoom/Terms of Service.md",
+   "last_present": {
+    "commit": "cf09ff11d436d3df96fe9b00725e7b90267b5ed0",
+    "date": "2023-02-01"
+   },
+   "dropped_at": {
+    "commit": "6cee2e467cdc921c98ea835e3bb9511dfd5c9544",
+    "date": "2023-04-01",
+    "subject": "Update Zoom Terms of Service",
+    "coverage": 0.174
+   },
+   "drop_kind": "platform edit"
+  },
+  "C12": {
+   "population": "L",
+   "point": 326397,
+   "platform": "Evernote",
+   "doc": "Evernote/Terms of Service.md",
+   "last_present": {
+    "commit": "7f348bef6cdaf001c14821e76017d89e94e02afd",
+    "date": "2026-09-03"
+   },
+   "dropped_at": {
+    "commit": "7148bf5d59540b8841bfaaa8876a5e992a7cf112",
+    "date": "2026-10-02",
+    "subject": "Record new changes of Evernote Terms of Service",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C13": {
+   "population": "P",
+   "point": 12209,
+   "platform": "Instagram",
+   "doc": "Instagram/Privacy Policy.md",
+   "last_present": {
+    "commit": "e2585e41672db97feedc7c8362b30cf1ff48e264",
+    "date": "2024-04-17"
+   },
+   "dropped_at": {
+    "commit": "13f6a9342f1ad25c5ba38439d11dd820f5bd44b6",
+    "date": "2024-08-16",
+    "subject": "Record new changes of Instagram Privacy Policy",
+    "coverage": 0.118
+   },
+   "drop_kind": "platform edit"
+  },
+  "C14": {
+   "population": "G",
+   "point": 95491,
+   "platform": "Apple Game Center",
+   "doc": "Apple Game Center/Terms of Service.md",
+   "last_present": {
+    "commit": "c097cdce16b4e8d905469530be559e2a72213bee",
+    "date": "2021-06-28"
+   },
+   "dropped_at": {
+    "commit": "1c282b7d140a4a93ae357e11296b4aca410f0ea9",
+    "date": "2022-06-17",
+    "subject": "Update Apple Game Center Terms of Service",
+    "coverage": 0.0
+   },
+   "drop_kind": "broken capture"
+  },
+  "C15": {
+   "population": "G",
+   "point": 75621,
+   "platform": "Bing",
+   "doc": "Bing/Privacy Policy.md",
+   "last_present": {
+    "commit": "d99a13823d89d8677c225cb84d8eefebef2f62e5",
+    "date": "2024-06-25"
+   },
+   "dropped_at": {
+    "commit": "fe71faee58e90d1140fb054c5653fc855ba301b6",
+    "date": "2024-09-19",
+    "subject": "Record new changes of Bing Privacy Policy",
+    "coverage": 0.0
+   },
+   "drop_kind": "broken capture"
+  },
+  "C16": {
+   "population": "P",
+   "point": 12253,
+   "platform": "Instagram",
+   "doc": "Instagram/Community Guidelines.md",
+   "last_present": {
+    "commit": "f35bb2369c47e1dc20f902849b5577cc46e16f74",
+    "date": "2024-11-12"
+   },
+   "dropped_at": {
+    "commit": "c5646e29be1bbe2c3401d7f7585674403d390519",
+    "date": "2024-12-09",
+    "subject": "Record new changes of Instagram Community Guidelines",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C17": {
+   "population": "P",
+   "point": 12252,
+   "platform": "Instagram",
+   "doc": "Instagram/Community Guidelines.md",
+   "last_present": {
+    "commit": "f35bb2369c47e1dc20f902849b5577cc46e16f74",
+    "date": "2024-11-12"
+   },
+   "dropped_at": {
+    "commit": "c5646e29be1bbe2c3401d7f7585674403d390519",
+    "date": "2024-12-09",
+    "subject": "Record new changes of Instagram Community Guidelines",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C18": {
+   "population": "L",
+   "point": 7563,
+   "platform": "Fox News",
+   "doc": "Fox News/Terms of Service.md",
+   "last_present": {
+    "commit": "3a3903722a27e40df913b680ac1d241034433c81",
+    "date": "2022-09-20"
+   },
+   "dropped_at": {
+    "commit": "21599d0ff5ac8a75810b718c115a7ae06f6ceb33",
+    "date": "2024-04-20",
+    "subject": "Record new changes of Fox News Terms of Service",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C19": {
+   "population": "P",
+   "point": 13586,
+   "platform": "Quora",
+   "doc": "Quora/Privacy Policy.md",
+   "last_present": {
+    "commit": "0f8e12222031a77d1261b4ce561b43fbc2b9cff1",
+    "date": "2022-07-30"
+   },
+   "dropped_at": {
+    "commit": "c416c76dcbc741057ddf30dd27640caec245866c",
+    "date": "2022-08-05",
+    "subject": "Update Quora Privacy Policy",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C20": {
+   "population": "L",
+   "point": 144244,
+   "platform": "GitHub",
+   "doc": "GitHub/Terms of Service.md",
+   "last_present": {
+    "commit": "c90a02a1ecef07464e6b6bc653627246cab32c45",
+    "date": "2021-09-22"
+   },
+   "dropped_at": {
+    "commit": "596b1b96908053620920da201a7eb6a971210a1f",
+    "date": "2021-12-09",
+    "subject": "Update GitHub Terms of Service",
+    "coverage": 0.78
+   },
+   "drop_kind": "platform edit"
+  },
+  "C21": {
+   "population": "L",
+   "point": 292179,
+   "platform": "GitHub",
+   "doc": "GitHub/Terms of Service.md",
+   "last_present": {
+    "commit": "b54d9fe8a6557e975dd11c4fc616aea4e03e600b",
+    "date": "2025-09-29"
+   },
+   "dropped_at": {
+    "commit": "816236baff907c6b33578783b43718052d712a09",
+    "date": "2026-04-28",
+    "subject": "Record new changes of GitHub Terms of Service",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C22": {
+   "population": "G",
+   "point": 23357,
+   "platform": "Skype",
+   "doc": "Skype/Privacy Policy.md",
+   "last_present": {
+    "commit": "8e850fae91eb3ca7482fb659f1d900573415a29f",
+    "date": "2024-06-25"
+   },
+   "dropped_at": {
+    "commit": "c4b485aede5e83a48727c5f665964283e51c51c8",
+    "date": "2024-09-19",
+    "subject": "Record new changes of Skype Privacy Policy",
+    "coverage": 0.0
+   },
+   "drop_kind": "broken capture"
+  },
+  "C23": {
+   "population": "L",
+   "point": 29707,
+   "platform": "thomsonreuters.com",
+   "doc": "thomsonreuters.com/Privacy Policy.md",
+   "last_present": {
+    "commit": "210eec93645b13a9191d91cbb407fb946a8af572",
+    "date": "2022-12-15"
+   },
+   "dropped_at": {
+    "commit": "45807fb36929608fd4b4c419625cd566b7a9e7f1",
+    "date": "2023-01-19",
+    "subject": "Update thomsonreuters.com Privacy Policy",
+    "coverage": 0.265
+   },
+   "drop_kind": "platform edit"
+  },
+  "C24": {
+   "population": "P",
+   "point": 13585,
+   "platform": "Quora",
+   "doc": "Quora/Privacy Policy.md",
+   "last_present": {
+    "commit": "0f8e12222031a77d1261b4ce561b43fbc2b9cff1",
+    "date": "2022-07-30"
+   },
+   "dropped_at": {
+    "commit": "c416c76dcbc741057ddf30dd27640caec245866c",
+    "date": "2022-08-05",
+    "subject": "Update Quora Privacy Policy",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C25": {
+   "population": "P",
+   "point": 189279,
+   "platform": "Twitch",
+   "doc": "Twitch/Trackers Policy.md",
+   "last_present": {
+    "commit": "18dc05a7ad1435f7ca3acf01a54e97f69a74270e",
+    "date": "2025-07-09"
+   },
+   "dropped_at": {
+    "commit": "f1244bb44dfd256ebfcf3091943582a0cc79a00c",
+    "date": "2026-01-06",
+    "subject": "Record new changes of Twitch Trackers Policy",
+    "coverage": 0.56
+   },
+   "drop_kind": "platform edit"
+  },
+  "C26": {
+   "population": "L",
+   "point": 28746,
+   "platform": "The Trade Desk",
+   "doc": "The Trade Desk/Privacy Policy.md",
+   "last_present": {
+    "commit": "ecad78813cedc01bafa9fa1f45501a442a363204",
+    "date": "2023-05-03"
+   },
+   "dropped_at": {
+    "commit": "361a15457e8faf5bdf5804b0f945404ef349eea7",
+    "date": "2023-09-12",
+    "subject": "Record new changes of The Trade Desk Privacy Policy",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C27": {
+   "population": "L",
+   "point": 7054,
+   "platform": "NordVPN",
+   "doc": "NordVPN/Terms of Service.md",
+   "last_present": {
+    "commit": "dc3b857c3c022c02318402cf46cfb8f2e8933489",
+    "date": "2026-01-12"
+   },
+   "dropped_at": {
+    "commit": "21baeb38180599587357b16f538f1a00ddbb4611",
+    "date": "2026-02-16",
+    "subject": "Record new changes of NordVPN Terms of Service",
+    "coverage": 0.741
+   },
+   "drop_kind": "platform edit"
+  },
+  "C28": {
+   "population": "P",
+   "point": 323712,
+   "platform": "LinkedIn",
+   "doc": "LinkedIn/Privacy Policy.md",
+   "last_present": {
+    "commit": "4c623783d9b37abc5f2909921b14e66d2ba2a2fa",
+    "date": "2025-04-22"
+   },
+   "dropped_at": {
+    "commit": "92248cc8a3f6c62956c7fda9d04f00306f8e15c8",
+    "date": "2025-06-10",
+    "subject": "Record new changes of LinkedIn Privacy Policy",
+    "coverage": 0.038
+   },
+   "drop_kind": "platform edit"
+  },
+  "C29": {
+   "population": "L",
+   "point": 318289,
+   "platform": "Google",
+   "doc": "Google/Privacy Policy.md",
+   "last_present": {
+    "commit": "75910037fe9bf671f77498ca912190fd9df14239",
+    "date": "2020-08-12"
+   },
+   "dropped_at": {
+    "commit": "b41a97a515d8bcbed7a6d2c73996ef5a25c45c50",
+    "date": "2020-08-18",
+    "subject": "Update Google Privacy Policy",
+    "coverage": 0.667
+   },
+   "drop_kind": "platform edit"
+  },
+  "C30": {
+   "population": "L",
+   "point": 22103,
+   "platform": "Alibaba.com",
+   "doc": "Alibaba.com/Terms of Service.md",
+   "last_present": {
+    "commit": "912e734defe7f56cf2b14cd5cc5d2ec46e63e0fa",
+    "date": "2024-02-06"
+   },
+   "dropped_at": {
+    "commit": "e5673b3f4b2b03951879c6a1910a931f44454c40",
+    "date": "2024-02-07",
+    "subject": "Record new changes of Alibaba.com Terms of Service",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C31": {
+   "population": "L",
+   "point": 7045,
+   "platform": "NordVPN",
+   "doc": "NordVPN/Privacy Policy.md",
+   "last_present": {
+    "commit": "20405318fed464ac77b7f601b8b09979fe92c457",
+    "date": "2022-06-13"
+   },
+   "dropped_at": {
+    "commit": "e792728151986be47f997f0f07fe0e7aa9c9f141",
+    "date": "2022-07-04",
+    "subject": "Update NordVPN Privacy Policy",
+    "coverage": 0.24
+   },
+   "drop_kind": "platform edit"
+  },
+  "C32": {
+   "population": "L",
+   "point": 322921,
+   "platform": "Wix",
+   "doc": "Wix/Terms of Service.md",
+   "last_present": {
+    "commit": "7dfa46c98f5f1b4eebac8e0565d7d16873bd4518",
+    "date": "2026-01-05"
+   },
+   "dropped_at": {
+    "commit": "c2eba2a51bd4c2f49fb590506d764e2568718a94",
+    "date": "2026-07-09",
+    "subject": "Record new changes of Wix Terms of Service",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C33": {
+   "population": "L",
+   "point": 12995,
+   "platform": "Netflix",
+   "doc": "Netflix/Privacy Policy.md",
+   "last_present": {
+    "commit": "fa82319d331ba8f3d99f1a1fec30e03a026c6d8c",
+    "date": "2022-09-20"
+   },
+   "dropped_at": {
+    "commit": "e1d76c63f7ecd3a304457e0dc24d06527f91a0c6",
+    "date": "2024-09-01",
+    "subject": "Record new changes of Netflix Privacy Policy",
+    "coverage": 0.621
+   },
+   "drop_kind": "platform edit"
+  },
+  "C34": {
+   "population": "L",
+   "point": 11021,
+   "platform": "Xfinity",
+   "doc": "Xfinity/Terms of Service.md",
+   "last_present": {
+    "commit": "3ec115a0009d14c59160a47df6a6d584efa64e48",
+    "date": "2023-02-23"
+   },
+   "dropped_at": {
+    "commit": "cc09225dc09ea73a60e999bc8696a59475fd7fba",
+    "date": "2024-02-13",
+    "subject": "Record new changes of Xfinity Terms of Service",
+    "coverage": 0.176
+   },
+   "drop_kind": "platform edit"
+  },
+  "C35": {
+   "population": "L",
+   "point": 12907,
+   "platform": "W3Schools",
+   "doc": "W3Schools/Terms of Service.md",
+   "last_present": {
+    "commit": "625af6fec1b53d73cfe95371bc9a4cebe2666c3f",
+    "date": "2024-11-25"
+   },
+   "dropped_at": {
+    "commit": "072999a8ccbd1fad394c3ae0255bffab934347db",
+    "date": "2025-02-20",
+    "subject": "Record new changes of W3Schools Terms of Service",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C36": {
+   "population": "L",
+   "point": 24141,
+   "platform": "Zoom",
+   "doc": "Zoom/Terms of Service.md",
+   "last_present": {
+    "commit": "cf09ff11d436d3df96fe9b00725e7b90267b5ed0",
+    "date": "2023-02-01"
+   },
+   "dropped_at": {
+    "commit": "6cee2e467cdc921c98ea835e3bb9511dfd5c9544",
+    "date": "2023-04-01",
+    "subject": "Update Zoom Terms of Service",
+    "coverage": 0.176
+   },
+   "drop_kind": "platform edit"
+  },
+  "C37": {
+   "population": "L",
+   "point": 15735,
+   "platform": "NordVPN",
+   "doc": "NordVPN/Terms of Service.md",
+   "last_present": {
+    "commit": "eb95ef4fecf2e7656fe529a75a88c8d6cd43b7de",
+    "date": "2022-06-13"
+   },
+   "dropped_at": {
+    "commit": "88e7e1f6f70123c6b025705904db3721ac45bb89",
+    "date": "2022-07-04",
+    "subject": "Update NordVPN Terms of Service",
+    "coverage": 0.438
+   },
+   "drop_kind": "platform edit"
+  },
+  "C38": {
+   "population": "G",
+   "point": 158401,
+   "platform": "Skype",
+   "doc": "Skype/Privacy Policy.md",
+   "last_present": {
+    "commit": "8e850fae91eb3ca7482fb659f1d900573415a29f",
+    "date": "2024-06-25"
+   },
+   "dropped_at": {
+    "commit": "c4b485aede5e83a48727c5f665964283e51c51c8",
+    "date": "2024-09-19",
+    "subject": "Record new changes of Skype Privacy Policy",
+    "coverage": 0.0
+   },
+   "drop_kind": "broken capture"
+  },
+  "C39": {
+   "population": "L",
+   "point": 31094,
+   "platform": "Crunchyroll",
+   "doc": "Crunchyroll/Terms of Service.md",
+   "last_present": {
+    "commit": "2c05640afeed4bb4bb2f5b13b0adb754e9fb3566",
+    "date": "2026-06-02"
+   },
+   "dropped_at": {
+    "commit": "c3c06539c20b218c3c09da8122b67f7ef854adfd",
+    "date": "2026-06-03",
+    "subject": "Record new changes of Crunchyroll Terms of Service",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C40": {
+   "population": "G",
+   "point": 257959,
+   "platform": "Apple Game Center",
+   "doc": "Apple Game Center/Terms of Service.md",
+   "last_present": {
+    "commit": "c097cdce16b4e8d905469530be559e2a72213bee",
+    "date": "2021-06-28"
+   },
+   "dropped_at": {
+    "commit": "1c282b7d140a4a93ae357e11296b4aca410f0ea9",
+    "date": "2022-06-17",
+    "subject": "Update Apple Game Center Terms of Service",
+    "coverage": 0.0
+   },
+   "drop_kind": "broken capture"
+  },
+  "C41": {
+   "population": "P",
+   "point": 23686,
+   "platform": "LINE",
+   "doc": "LINE/Privacy Policy.md",
+   "last_present": {
+    "commit": "4d7510359351ee9367458e188d4e8b903aecb3a9",
+    "date": "2023-09-01"
+   },
+   "dropped_at": {
+    "commit": "9b9ba4ca572bfb873772c3ea77f1b86460d3f37b",
+    "date": "2023-09-30",
+    "subject": "Record new changes of LINE Privacy Policy",
+    "coverage": 0.6
+   },
+   "drop_kind": "platform edit"
+  },
+  "C42": {
+   "population": "L",
+   "point": 150156,
+   "platform": "Netflix",
+   "doc": "Netflix/Privacy Policy.md",
+   "last_present": {
+    "commit": "fa82319d331ba8f3d99f1a1fec30e03a026c6d8c",
+    "date": "2022-09-20"
+   },
+   "dropped_at": {
+    "commit": "e1d76c63f7ecd3a304457e0dc24d06527f91a0c6",
+    "date": "2024-09-01",
+    "subject": "Record new changes of Netflix Privacy Policy",
+    "coverage": 0.609
+   },
+   "drop_kind": "platform edit"
+  },
+  "C43": {
+   "population": "L",
+   "point": 24116,
+   "platform": "IMDb",
+   "doc": "IMDb/Privacy Policy.md",
+   "last_present": {
+    "commit": "7ce5372345587d80067d02fdef7dbec0e123c135",
+    "date": "2023-01-19"
+   },
+   "dropped_at": {
+    "commit": "31e9cefbf8dacec4c6b318e05cf5deae1c2b1c95",
+    "date": "2023-07-01",
+    "subject": "Update IMDb Privacy Policy",
+    "coverage": 0.1
+   },
+   "drop_kind": "platform edit"
+  },
+  "C44": {
+   "population": "G",
+   "point": 10895,
+   "platform": "Skype",
+   "doc": "Skype/Privacy Policy.md",
+   "last_present": {
+    "commit": "8e850fae91eb3ca7482fb659f1d900573415a29f",
+    "date": "2024-06-25"
+   },
+   "dropped_at": {
+    "commit": "c4b485aede5e83a48727c5f665964283e51c51c8",
+    "date": "2024-09-19",
+    "subject": "Record new changes of Skype Privacy Policy",
+    "coverage": 0.0
+   },
+   "drop_kind": "broken capture"
+  },
+  "C45": {
+   "population": "L",
+   "point": 13632,
+   "platform": "Netflix",
+   "doc": "Netflix/Privacy Policy.md",
+   "last_present": {
+    "commit": "fa82319d331ba8f3d99f1a1fec30e03a026c6d8c",
+    "date": "2022-09-20"
+   },
+   "dropped_at": {
+    "commit": "e1d76c63f7ecd3a304457e0dc24d06527f91a0c6",
+    "date": "2024-09-01",
+    "subject": "Record new changes of Netflix Privacy Policy",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C46": {
+   "population": "L",
+   "point": 19444,
+   "platform": "Vinted",
+   "doc": "Vinted/Privacy Policy.md",
+   "last_present": {
+    "commit": "9550991e3a57ecdac28dcd3a78ac33273e40bf24",
+    "date": "2021-08-16"
+   },
+   "dropped_at": {
+    "commit": "22fcb2879ffeaa9fb6c9985a9ed84c58d17d5ef1",
+    "date": "2021-10-11",
+    "subject": "Update Vinted Privacy Policy",
+    "coverage": 0.0
+   },
+   "drop_kind": "platform edit"
+  },
+  "C47": {
+   "population": "L",
+   "point": 15730,
+   "platform": "NordVPN",
+   "doc": "NordVPN/Privacy Policy.md",
+   "last_present": {
+    "commit": "20405318fed464ac77b7f601b8b09979fe92c457",
+    "date": "2022-06-13"
+   },
+   "dropped_at": {
+    "commit": "e792728151986be47f997f0f07fe0e7aa9c9f141",
+    "date": "2022-07-04",
+    "subject": "Update NordVPN Privacy Policy",
+    "coverage": 0.7
+   },
+   "drop_kind": "platform edit"
+  },
+  "C48": {
+   "population": "G",
+   "point": 27572,
+   "platform": "Instacart",
+   "doc": "Instacart/Privacy Policy.md",
+   "last_present": {
+    "commit": "8cd869f20c93bb1916dab911df92f07dbe836134",
+    "date": "2021-09-20"
+   },
+   "dropped_at": {
+    "commit": "581b6fccf70c2dc0455aee2a287877c9ae90b15b",
+    "date": "2022-06-16",
+    "subject": "Update Instacart Privacy Policy",
+    "coverage": 0.0
+   },
+   "drop_kind": "broken capture"
+  },
+  "C49": {
+   "population": "G",
+   "point": 6407,
+   "platform": "Airbnb",
+   "doc": "Airbnb/Trackers Policy.md",
+   "last_present": {
+    "commit": "ab6d1a4622bc35d72cbe4e05a7afbca54afd9ff2",
+    "date": "2022-09-20"
+   },
+   "dropped_at": {
+    "commit": "80bdaea1ec23a31c16792474c508a1cc93141aa8",
+    "date": "2025-05-06",
+    "subject": "Record new changes of Airbnb Trackers Policy",
+    "coverage": 0.0
+   },
+   "drop_kind": "broken capture"
+  },
+  "C50": {
+   "population": "L",
+   "point": 13009,
+   "platform": "Netflix",
+   "doc": "Netflix/Terms of Service.md",
+   "last_present": {
+    "commit": "072b71594af7e3970b3fd889e996c7f69b2d4ea8",
+    "date": "2022-09-20"
+   },
+   "dropped_at": {
+    "commit": "96abc5dad5f8938fcd3fa4ffc6e21c35783be600",
+    "date": "2024-09-01",
+    "subject": "Record new changes of Netflix Terms of Service",
+    "coverage": 0.52
+   },
+   "drop_kind": "platform edit"
+  }
+ }
+}
