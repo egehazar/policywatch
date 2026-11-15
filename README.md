@@ -8,11 +8,14 @@ policywatch watches the archive for the moment a curator's evidence stops being 
 - **Stale evidence finder (`stale/`, working).** Checks every approved ToS;DR quote against every archived version.
   Lists the points whose quote disappeared in an edit by the platform itself, with the archive commit and the passage
   that replaced it, and suggests where the case may be stated now, with a sentence to quote. It found 141 such points
-  on 20 platforms and 544 more on 196 other services. A daily watch catches new ones: its 2026-11-15 run found
-  Pinterest's rewrite of 12 November. Finding the passage is where a small language model earns its place: on
-  curator-quoted passages, Kev-4B ranks the right one first 62-75% of the time, keyword search 36-41%. Its base family,
-  an ordinary 4B instruct model asked the same yes/no question, did about as well; what the decision-model endpoint
-  added was cost, about 2-3x less CPU per passage and question.
+  on 20 platforms and 544 more on 69 other services; a blind audit (an LLM rater) found 27 of 30 sampled drops to be
+  real edits, the rest mostly the archive saving another language or region of the page. A daily watch (built, run
+  twice so far, not scheduled) lists new ones: its 2026-11-15 run found Pinterest's rewrite of 12 November. To find the
+  passage that states a case, on test points whose answer is the curator's own quote, Kev-4B ranks the right passage
+  first 62-75% of the time, BM25 and bge-small 30-43%. Two controls limit the claim: its base family, an ordinary 4B
+  instruct model asked the same yes/no question, showed no difference, and a cross-encoder reranker was not shown to be
+  worse while using a fraction of the CPU. What the decision-model endpoint added was cost against the instruct model:
+  about 2-3x less CPU per passage and question.
 - **Meaning-diff scanner (`policywatch/`, the original goal, failed its tests).** Asks a decision model a fixed bank of
   questions about the old and new text of every update and lists the answers whose score moved. It did not find real
   changes well enough; the results are below.
@@ -25,14 +28,14 @@ Each test was hashed before scoring. All results are reported, including failure
 ### Stale evidence finder
 | Test | Reading | Key numbers | Details |
 |---|---|---|---|
-| Are the listed drops real platform edits? (blind audit, an LLM rater) | **Mostly** | 27 of 30 sampled contrib drops are real edits (.90 [.74, .97]), 8 of 10 on the 20 platforms; the misses are the archive saving another language or region of the page. The guard's 10 sampled set-asides were all broken captures. | `stale/RESULT_drop_audit.md` |
-| Find where a ToS;DR case is stated in a platform's current text | **Decision model better** than retrieval | Top-1 on 200 points: Kev-4B 62%, BM25 36%, bge-small 30%. Gold is the curators' own quotes. | [Stale evidence](#stale-evidence-for-tosdr-points-stale) |
+| Are the listed drops real platform edits? (blind audit, an LLM rater) | **Mostly** | 27 of 30 sampled contrib drops are real edits (.90 [.74, .97]), 8 of 10 on the 20 platforms; the misses are the archive saving another language or region of the page, or losing a page header. The guard's 10 sampled set-asides were all broken captures. | `stale/RESULT_drop_audit.md` |
+| Find where a ToS;DR case is stated in a platform's current text | **Decision model better** than BM25 and bge | Top-1 on 200 points: Kev-4B 62%, BM25 36%, bge-small 30%. Gold is the curators' own quotes. | [Stale evidence](#stale-evidence-for-tosdr-points-stale) |
 | Same, on 202 held-out points from 41 other services | **Replicated** | Kev 75%, BM25 41%, bge 43%, on ToS;DR's own stored text. | `stale/RESULT_relocate2.md` |
 | Kev vs its base family (Qwen3.5-4B asked the same yes/no question) | **No difference shown**, in both parts | 62% vs 60% and 75% vs 74%. The win was not shown to come from decision-model training. Qwen used about 2-3x Kev's CPU per passage-question. | `stale/RESULT_relocate2.md` |
 | Kev vs a cross-encoder reranker (bge-reranker-v2-m3) | **Not shown to beat it** (the parts disagree) | 62% vs 55% (no difference shown); 75% vs 65% (Kev better). The reranker used 0.39 and 0.98 CPU s per passage-question, Kev 1.94 and 3.52. | `stale/RESULT_relocate2.md` |
 | Propose the sentence to quote, from the top passage | **Shipped** | When the passage was right, Kev's sentence matched the curator's quote 83% of the time; BM25's 56%. | `stale/RESULT_relocate2.md` |
 | Kev's short question layout for relocation | **Not adopted** | 20 platforms: -2.5 points [-5.3, +0.5], failing the bar (lower bound at least -5). Held-out services: 0.0 [-3.6, +4.0], passing. No rule for the disagreement; the page keeps the layout that passed on its own platforms. | `stale/RESULT_relocate2.md` |
-| Suggest where a stale point's case is now stated (141 points) | **Page leads with Kev** (provisional) | Top-1 on 69 points whose quote is gone: Kev 74%, BM25 with the old quote 77% (no difference shown), bge 49%, BM25 40%. Gold is a model rater's until a human check. | `stale/RESULT_suggest.md` |
+| Suggest where a stale point's case is now stated (141 points) | **Page leads with Kev** (provisional) | Top-1 on 69 points whose quote is gone, averaged over documents: Kev 74%, BM25 with the old quote 77% (no difference shown), bge 49%, BM25 40%. Pooled over points the first two swap (Kev .70, BM25 with the old quote .61). Gold is a model rater's until a human check. | `stale/RESULT_suggest.md` |
 | Label a stale point "case no longer stated" | **Not shipped** (provisional) | Kev ranks the 15 no-longer-stated points low (AUROC .92), but its flag was right for 6 of 12 flagged; the bar was 75%. | `stale/RESULT_suggest.md` |
 
 ### Meaning-diff scanner
@@ -40,7 +43,7 @@ Each test was hashed before scoring. All results are reported, including failure
 |---|---|---|---|
 | Catch the changes Open Terms Archive's editors wrote memos about (10 memos) | **Failed** | Caught 1 of 10; a random ranking would catch about 2. | [Accuracy](#accuracy), item 2 |
 | Rank which answers an update changed (35 updates) | **Failed** | The bar was 24 of 25 changes in 182 reviews; the tool needed 684. | [Accuracy](#accuracy), item 1 |
-| Same ranking, Kev-4B vs Qwen3.5-4B on the same CPU | **No clear winner** | Within 182 reviews, Kev found 20 of 25 changes and Qwen 12, but Kev used 2.2x the CPU. | Item 4 |
+| Same ranking, Kev-4B vs Qwen3.5-4B on the same CPU | **No clear winner** | The pre-registered comparator (Qwen listing the changed questions) found 2 of 25. Against Qwen answering every question yes/no, an ablation with no verdict attached, Kev found 20 vs 12 within 182 reviews at 2.2x the CPU. | Item 4 |
 | Kev with bare yes/no options (cost fix) | **Adopted** | 21 of 25 changes at 0.57x Kev's CPU, now 1.26x Qwen's. | Item 4 |
 
 ## Stale evidence for ToS;DR points (`stale/`)
@@ -73,16 +76,19 @@ anything.
   - Run 2026-11-15 (11 new archive versions since 11-12): Pinterest's terms, privacy policy and community guidelines
     changed on 11-14 ("Effective date: 12 November 2026"), and 8 approved points lost their quote, 4 fully. One
     Pinterest quote came back. For example, the arbitration point's quote is gone because the section was rewritten
-    with a new notice step; the case still holds, in new words. No ToS;DR point was new or edited in those three days.
+    (arbitration moved from AAA to JAMS, batched arbitration became mass-filing rules, the notice of dispute became
+    mutual); the case still holds, in new words. No ToS;DR point was new or edited in those three days.
 - **Beyond the 20 platforms (`stale/wide.py`, 2026-11-14).** The same string matching over four more Open Terms
   Archive collections, mapped to 212 ToS;DR services by name or web domain. Folders holding the 20 platforms' own
   documents are left out.
-  - contrib: 4,447 approved points with a quote on 196 services, 2,494 still in the current text.
-  - 521 quotes dropped in an edit by the platform itself, in 65 services. The largest are Netflix 48, Crunchyroll
-    43, NordVPN 41, W3Schools 39, Yahoo 39. genai-contrib adds 20 and dating 3.
+  - contrib: 196 ToS;DR services mapped, 147 of them with approved quoted points: 4,447 points, 2,494 still in the
+    current text.
+  - 521 quotes dropped in an edit by the platform itself, in 65 services (a blind audit rated 27 of 30 sampled ones
+    real edits; see below). The largest are Netflix 48, Crunchyroll 43, NordVPN 41, W3Schools 39, Yahoo 39.
+    genai-contrib adds 20 and dating 3: 544 on 69 services in all.
   - For 507 of the 521, ToS;DR's stored copy still holds the quote (re-crawl pending); for 14 it does not.
   - Older captures fail in ways the archive files as edits: a page collapsed to a title, a login wall saved under
-    two documents. 74 such drops are set aside as broken captures, not listed.
+    two documents. 74 such drops on contrib (and 2 on genai-contrib) are set aside as broken captures, not listed.
   - A blind audit (`stale/RESULT_drop_audit.md`, pre-registered, rated by a Claude subagent) found 27 of 30 sampled
     listed contrib drops to be real edits. The 3 others, and 2 of 10 on the 20 platforms, were the archive saving
     another language or region of the page, or losing a page header. All 10 sampled set-asides were broken captures.
