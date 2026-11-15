@@ -19,7 +19,7 @@ policywatch watches the archive for the moment a curator's evidence stops being 
     with the interval clear of zero in one; about 8 pooled after the fact). On whether the top passage states the case
     at all (blind LLM raters, 120 points) Kev is ahead of the reranker, 73% to 61%. A suggestion whose top passage
     clearly leads is marked Clear (right 50 times in 53 in a held-out test). Letting the reranker shortlist 10 passages
-    per case lost at most about 2 points, so the wider pages' suggestions are recomputed that way.
+    per case lost at most about 2 points, so the wider pages' 544 suggestions were computed that way (130 marked Clear).
   - *What the decision model adds.* Its base family's ordinary 4B instruct model, asked the same yes/no question,
     showed no difference from Kev on either measure, and its probabilities were not better calibrated (exploratory).
     What the decision-model endpoint added is cost: it reads a passage once for all its questions, so it took 1.9x
@@ -152,8 +152,8 @@ anything.
       better calibrated than the instruct model's yes/no log-odds (Brier .140 vs .135, difference +.004 [-.013,
       +.021]; AUROC .90 vs .91). The decision-model training was not shown to add calibration either.
     - The cascade: the reranker shortlists each case's top 10 passages and Kev ranks only those. 63.0% against Kev
-      alone 62.5%, inside the pre-registered bar (it lost at most about 2 points), so the wider pages' suggestions are
-      being recomputed with it. Kev still reads about half the passages (it reads a passage once for all its
+      alone 62.5%, inside the pre-registered bar (it lost at most about 2 points), so the wider pages' suggestions were
+      computed with it (done 11-15 16:59 UTC; on contrib Kev was asked 24% of the cells, 4.4 h after the reranker's 2.7 h). Kev still reads about half the passages (it reads a passage once for all its
       questions), so the estimated saving is about 38% of the time, not the 73% of cells it skips.
     - The label: a suggestion whose top passage leads the next by at least .30 (a cut chosen on parts A and B) is
       marked Clear. 53 of 200 were clear and 50 of those right; the rest are marked Close (51% right at the top, 78%

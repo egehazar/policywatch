@@ -55,7 +55,7 @@ result in `stale/PREREG_relocate_d.sha256`).
   held three times (A: .62 against .36 and .30; B: .75 against .41 and .43).
 - **D1, the cheaper pipeline.** Letting the reranker choose each case's top 10 passages and asking Kev only about those
   scored .630 against Kev's .625, inside the registered bar (lower bound -.021, bar -.03). Adopted: the wider pages'
-  suggestions are being recomputed with it. The 27% of cells overstates the saving, because Kev's time is mostly per passage read (it reads a
+  suggestions were computed with it (done 2026-11-15 16:59 UTC; on contrib Kev was asked 5,101 of 21,508 cells, 24%, in 4.4 h, after the reranker's 2.7 h; 123 of 521 marked Clear). The 27% of cells overstates the saving, because Kev's time is mostly per passage read (it reads a
   passage once for all its questions): on part D's documents Kev still reads 48% of the passages, and with the reranker's
   own time the estimate is about 62% of full Kev (`stale/cascade_cost.py`, exploratory: Kev's terms from part B's
   timings, the reranker at 0.67 s per cell; part D's measured 0.638 gives 61%). On
