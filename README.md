@@ -99,6 +99,10 @@ anything.
   - For 507 of the 521, ToS;DR's stored copy still holds the quote (re-crawl pending); for 14 it does not. For 63 of
     the 78 documents behind those 507, the stored copy is closest to an archived version more than 3 years old
     (most from 2020-21); on the 20 platforms, 13 of 29 documents.
+  - Re-crawl priority (`py -m stale.recrawl` -> `stale/out/recrawl_priority.csv`, one row per ToS;DR document): the
+    662 points still held by ToS;DR's stored copies sit in 126 documents, and 10 documents hold 257 of them (20 hold
+    390). The largest: Crunchyroll's terms 43, Netflix's privacy policy 39, Zoom's terms 25, Alibaba.com's privacy
+    policy 24, W3Schools' terms 23.
   - Older captures fail in ways the archive files as edits: a page collapsed to a title, a login wall saved under
     two documents. 74 such drops on contrib (and 2 on genai-contrib) are set aside as broken captures, not listed.
   - A blind audit (`stale/RESULT_drop_audit.md`, pre-registered, rated by a Claude subagent) found 27 of 30 sampled

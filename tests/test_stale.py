@@ -357,5 +357,26 @@ class TestStatesCase(unittest.TestCase):
         self.assertEqual(s['states_at1'], {'KEV': .5, 'RERANK': .5, 'BM25': 0.0}); self.assertEqual(s['KEV_minus_BM25']['point'], .5)
 
 
+class TestRecrawl(unittest.TestCase):
+    """stale.recrawl: listed points only, grouped by ToS;DR document, split by what the stored copy holds."""
+    def test_rows(self):
+        from unittest import mock
+        from stale import recrawl
+        tmp = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, tmp)
+        P = lambda pt, doc, q, kind='platform edit', ver='2020-01-01': {
+            'point': pt, 'platform': 'S' + str(doc), 'doc': f'S{doc}/Terms.md', 'drop_kind': kind, 'dropped': '2024-05-0' + str(pt % 9 + 1),
+            'phoenix_doc': doc, 'phoenix_doc_updated_at': '2021-01-01', 'quote_in_phoenix': q, 'phoenix_closest_version': ver}
+        f = os.path.join(tmp, 'p.jsonl')
+        with open(f, 'w', encoding='utf-8') as fh:
+            for r in (P(1, 7, 1.0), P(2, 7, .8), P(3, 7, .2), P(4, 9, .95, ver='2019-01-01'), P(5, 9, None), P(6, 7, 1.0, 'archive change'),
+                      P(8, 5, .9, ver='2022-01-01'), P(9, 5, .9, ver='2022-01-01')):
+                fh.write(json.dumps(r) + '\n')
+        with mock.patch.object(recrawl, 'sources', return_value=[('c', f)]):
+            R = recrawl.rows()
+        self.assertEqual([r['tosdr_document_id'] for r in R], [7, 5, 9])        # 2 break, then 2 vs 1
+        a = R[0]; self.assertEqual((a['points_break_on_recrawl'], a['points_already_lost'], a['point_ids']), (2, 1, '1 2 3'))
+        self.assertEqual((R[2]['points_break_on_recrawl'], R[2]['points_no_stored_text']), (1, 1))
+
+
 if __name__ == '__main__':
     unittest.main()
