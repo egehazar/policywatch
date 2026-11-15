@@ -1,0 +1,881 @@
+{
+ "M001": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "This service cannot be held responsible for disputes that you may have with other users",
+  "piece": 13,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M002": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 18,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M003": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": " You are being tracked via social media cookies/pixels",
+  "piece": 5,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M004": {
+  "doc": "X/Privacy Policy.md",
+  "case": "This service is a subsidiary of Company X",
+  "piece": 8,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M005": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Third parties are involved in operating the service",
+  "piece": 2,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M006": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 14,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M007": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "Your account can be deleted or permanently suspended without prior notice and without a reason",
+  "piece": 15,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M008": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "The court of law governing the terms is in a jurisdiction that is less friendly to user privacy protection",
+  "piece": 19,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M009": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 21,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M010": {
+  "doc": "X/Privacy Policy.md",
+  "case": "Third-party cookies are employed, but with opt out instructions",
+  "piece": 14,
+  "arms": [
+   "BM25",
+   "RERANK"
+  ]
+ },
+ "M011": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 13,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M012": {
+  "doc": "X/Privacy Policy.md",
+  "case": "Third-party cookies are employed, but with opt out instructions",
+  "piece": 4,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "M013": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "The service claims that third parties it shares your personal information with are bound by confidentiality obligations",
+  "piece": 10,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M014": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "This service informs you that its Terms of Service does not apply to third-party services",
+  "piece": 12,
+  "arms": [
+   "BM25",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "M015": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "Specific content can be deleted without reason and may be removed without prior notice",
+  "piece": 22,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M016": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Third-party cookies are used for advertising",
+  "piece": 22,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M017": {
+  "doc": "X/Privacy Policy.md",
+  "case": "The data retention period is kept to the minimum necessary for fulfilling its purposes",
+  "piece": 17,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M018": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "If you offer suggestions to the service, they become the owner of the ideas that you give them",
+  "piece": 1,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M019": {
+  "doc": "X/Privacy Policy.md",
+  "case": "The service claims that third parties it shares your personal information with are bound by confidentiality obligations",
+  "piece": 21,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M020": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "You cannot distribute or disclose your account to third parties",
+  "piece": 5,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M021": {
+  "doc": "X/Privacy Policy.md",
+  "case": "The service claims that third parties it shares your personal information with are bound by confidentiality obligations",
+  "piece": 12,
+  "arms": [
+   "BM25",
+   "RERANK"
+  ]
+ },
+ "M022": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "You have a reduced time period to take legal action against the service",
+  "piece": 7,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M023": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "This service assumes no liability for unauthorized access to your personal information",
+  "piece": 15,
+  "arms": [
+   "BM25",
+   "RERANK"
+  ]
+ },
+ "M024": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "This service does not guarantee that it or the products obtained through it meet your expectations or requirements",
+  "piece": 18,
+  "arms": [
+   "BM25",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "M025": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "Alternative accounts are not allowed",
+  "piece": 14,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M026": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "Your content can be licensed to third parties",
+  "piece": 11,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M027": {
+  "doc": "X/Privacy Policy.md",
+  "case": "Your private content may be accessed by people working for the service",
+  "piece": 16,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M028": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "A free help desk is provided",
+  "piece": 3,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "M029": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+  "piece": 10,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "M030": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "You shall not interfere with another person's enjoyment of the service",
+  "piece": 6,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M031": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Tracking pixels are used in service-to-user communication",
+  "piece": 25,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "M032": {
+  "doc": "X/Privacy Policy.md",
+  "case": "Sensitive data is collected and shared to target advertising",
+  "piece": 5,
+  "arms": [
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "M033": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "This service assumes no responsibility and liability for the contents of links to other websites",
+  "piece": 20,
+  "arms": [
+   "BM25",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "M034": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 13,
+  "arms": [
+   "BM25",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "M035": {
+  "doc": "X/Privacy Policy.md",
+  "case": "Blocking first-party cookies may limit your ability to use the service",
+  "piece": 9,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "M036": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "You are responsible for maintaining the security of your account and for the activities on your account",
+  "piece": 11,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M037": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "You waive your right to a class action",
+  "piece": 18,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M038": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "If you are the target of a copyright claim, your content and/or your account may be removed",
+  "piece": 6,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M039": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "You can opt out of targeted advertising",
+  "piece": 13,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M040": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+  "piece": 20,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M041": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Your personal data may be sold unless you opt out",
+  "piece": 13,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M042": {
+  "doc": "X/Privacy Policy.md",
+  "case": "Your personal data may be sold unless you opt out",
+  "piece": 14,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M043": {
+  "doc": "X/Privacy Policy.md",
+  "case": "The service claims to be GDPR compliant for European users",
+  "piece": 27,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M044": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "App required for this service requires broad device permissions",
+  "piece": 20,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "M045": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+  "piece": 20,
+  "arms": [
+   "BM25",
+   "RERANK"
+  ]
+ },
+ "M046": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Referring and/or exit pages are tracked",
+  "piece": 5,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M047": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 6,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "M048": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+  "piece": 19,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "M049": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "This service is only available for use individually and non-commercially",
+  "piece": 3,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M050": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "You aren’t forced into binding arbitration in case of disputes",
+  "piece": 21,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M051": {
+  "doc": "X/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 19,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M052": {
+  "doc": "X/Privacy Policy.md",
+  "case": "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+  "piece": 5,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M053": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Sensitive data is collected and shared to target advertising",
+  "piece": 19,
+  "arms": [
+   "BM25",
+   "RERANK"
+  ]
+ },
+ "M054": {
+  "doc": "X/Privacy Policy.md",
+  "case": "Third-party cookies are used for statistics",
+  "piece": 7,
+  "arms": [
+   "BM25",
+   "RERANK"
+  ]
+ },
+ "M055": {
+  "doc": "X/Privacy Policy.md",
+  "case": "The service claims to be GDPR compliant for European users",
+  "piece": 23,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "M056": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "The service assumes no liability for any damages the user incurs",
+  "piece": 19,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M057": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+  "piece": 5,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M058": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "You waive your right to a class action",
+  "piece": 19,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M059": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Third-party cookies are used for advertising",
+  "piece": 5,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M060": {
+  "doc": "X/Privacy Policy.md",
+  "case": "Many third parties are involved in operating the service",
+  "piece": 12,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M061": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "This service assumes no liability for unauthorized access to your personal information",
+  "piece": 11,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M062": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 15,
+  "arms": [
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "M063": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "You must create an account to use this service",
+  "piece": 4,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M064": {
+  "doc": "X/Privacy Policy.md",
+  "case": "Promises will be kept after a merger or acquisition",
+  "piece": 16,
+  "arms": [
+   "BM25",
+   "KEV"
+  ]
+ },
+ "M065": {
+  "doc": "X/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 10,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M066": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "You aren’t forced into binding arbitration in case of disputes",
+  "piece": 16,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M067": {
+  "doc": "X/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 3,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M068": {
+  "doc": "X/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 6,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M069": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "If you are the target of a copyright claim, your content and/or your account may be removed",
+  "piece": 14,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M070": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "This service cannot be held responsible for disputes that you may have with other users",
+  "piece": 6,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M071": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "The service is provided 'as is' and to be used at your sole risk",
+  "piece": 20,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "M072": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 9,
+  "arms": [
+   "BM25",
+   "RERANK"
+  ]
+ },
+ "M073": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Your personal data may be sold unless you opt out",
+  "piece": 23,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M074": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "Your account can be deleted or permanently suspended without prior notice and without a reason",
+  "piece": 2,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M075": {
+  "doc": "X/Privacy Policy.md",
+  "case": "This service informs you that its Privacy Policy does not apply to third-party services",
+  "piece": 12,
+  "arms": [
+   "BM25",
+   "RERANK"
+  ]
+ },
+ "M076": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 21,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M077": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Tracking pixels are used in service-to-user communication",
+  "piece": 5,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M078": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Third parties are involved in operating the service",
+  "piece": 11,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M079": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "No guarantee is made regarding the correction of software errors",
+  "piece": 14,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M080": {
+  "doc": "X/Privacy Policy.md",
+  "case": "Many third parties are involved in operating the service",
+  "piece": 7,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M081": {
+  "doc": "X/Privacy Policy.md",
+  "case": "You can choose with whom you share content",
+  "piece": 12,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M082": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "You should revisit the terms periodically, although in case of material changes, the service will notify",
+  "piece": 20,
+  "arms": [
+   "BM25",
+   "RERANK"
+  ]
+ },
+ "M083": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "This service is only available for use individually and non-commercially",
+  "piece": 7,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M084": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "You can opt out of targeted advertising",
+  "piece": 9,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M085": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Your personal data is used to employ targeted third-party advertising",
+  "piece": 19,
+  "arms": [
+   "BM25",
+   "RERANK"
+  ]
+ },
+ "M086": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 20,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M087": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "You can opt out of targeted advertising",
+  "piece": 19,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M088": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "You can retrieve an archive of your data",
+  "piece": 14,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M089": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "The court of law governing the terms is in a jurisdiction that is less friendly to user privacy protection",
+  "piece": 21,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M090": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "You may be tracked on other websites",
+  "piece": 7,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "M091": {
+  "doc": "X/Privacy Policy.md",
+  "case": "This service gives your personal data to third parties involved in its operation",
+  "piece": 13,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M092": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 26,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M093": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "The service will only respond to government requests that are reasonable",
+  "piece": 20,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M094": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "Other rules, terms, conditions and/or guidelines may apply",
+  "piece": 4,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M095": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "You may be tracked on other websites",
+  "piece": 2,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M096": {
+  "doc": "X/Privacy Policy.md",
+  "case": "Many third parties are involved in operating the service",
+  "piece": 21,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M097": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "You can choose with whom you share content",
+  "piece": 10,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M098": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": " You are being tracked via social media cookies/pixels",
+  "piece": 21,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M099": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "You are prohibited from publishing any third party’s personally identifiable information without their consent",
+  "piece": 6,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M100": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "You have a reduced time period to take legal action against the service",
+  "piece": 21,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M101": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 15,
+  "arms": [
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "M102": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Promises will be kept after a merger or acquisition",
+  "piece": 12,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M103": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Many third parties are involved in operating the service",
+  "piece": 22,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M104": {
+  "doc": "X/Privacy Policy.md",
+  "case": "This service gives your personal data to third parties involved in its operation",
+  "piece": 12,
+  "arms": [
+   "BM25",
+   "RERANK"
+  ]
+ },
+ "M105": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "The court of law governing the terms is in a jurisdiction that is friendlier to user privacy protection",
+  "piece": 21,
+  "arms": [
+   "BM25"
+  ]
+ },
+ "M106": {
+  "doc": "YouTube/Terms of Service.md",
+  "case": "Your content can be licensed to third parties",
+  "piece": 6,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "M107": {
+  "doc": "Bluesky/Privacy Policy.md",
+  "case": "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+  "piece": 22,
+  "arms": [
+   "RERANK"
+  ]
+ }
+}

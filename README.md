@@ -21,13 +21,17 @@ policywatch watches the archive for the moment a curator's evidence stops being 
     clearly leads is marked Clear (right 50 times in 53 in a held-out test). Letting the reranker shortlist 10 passages
     per case lost at most about 2 points, so the wider pages' 538 points were done that way (544 suggestions: six GitHub
     points sit under both GitHub's and GitHub Copilot's documents). 130 are marked Clear; on shortlisted suggestions
-    that label was checked only after the test (59 of 62, exploratory).
+    that label was checked only after the test (59 of 62, exploratory). A pre-registered four-document pilot asked
+    the reverse question, which cases a document states that ToS;DR has no approved point for on the service: 18 of
+    Kev's 40 top-10 suggestions stated one (blind LLM raters; GPT 20), against 9 for the reranker and 6 for BM25.
+    Reading: worth building, on Kev (`stale/RESULT_missing.md`; a pilot, not a general result).
   - *What the decision model adds.* Its base family's ordinary 4B instruct model, asked the same yes/no question,
     showed no difference from Kev on either measure, and Kev's probabilities were not shown to be better calibrated
     (exploratory).
     What the decision-model endpoint added is cost: it reads a passage once for all its questions, so it took 1.9x
     (part B) to 3.1x (part A) less time per passage and question than the instruct model, growing with the number of
-    questions per document; with one question per document Kev is the slower one.
+    questions per document; with one question per document Kev is the slower one. On the missing-points pilot (62-78
+    questions per passage) Kev took 1.8 h where the instruct model would need about 10 h (5.7x, estimated).
 - **Meaning-diff scanner (`policywatch/`, the original goal, failed its tests).** Asks a decision model a fixed bank of
   questions about the old and new text of every update and lists the answers whose score moved. It did not find real
   changes well enough; the results are below.
@@ -52,6 +56,7 @@ Each test was hashed before scoring. All results are reported, including failure
 | Propose the sentence to quote, from the top passage | **Shipped** | When the passage was right, Kev's sentence matched the curator's quote 83% of the time; BM25's 56%. | `stale/RESULT_relocate2.md` |
 | Kev's short question layout for relocation | **Not adopted** | 20 platforms: -2.5 points [-5.3, +0.5], failing the bar (lower bound at least -5). Held-out services: 0.0 [-3.6, +4.0], passing. No rule for the disagreement; the page keeps the layout that passed on its own platforms. | `stale/RESULT_relocate2.md` |
 | Suggest where a stale point's case is now stated (141 points) | **Page leads with Kev** (provisional) | Top-1 on 69 points whose quote is gone, averaged over documents: Kev 74%, BM25 with the old quote 77% (no difference shown), bge 49%, BM25 40%. Pooled over points the first two swap (Kev .70, BM25 with the old quote .61). Gold is a model rater's (Claude Opus) until a human check; a second whole key built by GPT from the same texts (exploratory, plan hashed before GPT ran) gives Kev 78%, still ahead of BM25 (34%) and bge (43%). | `stale/RESULT_suggest.md` |
+| Missing points pilot: cases a document states that ToS;DR has no approved point for (4 documents, blind LLM raters) | **Worth building, on Kev** | Known positives ranked above negatives, AUROC: Kev .76, reranker .68, BM25 .54 (Kev - reranker +.08 [+.01, +.16], Kev better; Kev - BM25 +.22 [+.12, +.31]). New suggestions rated YES among each method's top 10 per document: Kev 18 of 40 (.45 [.31, .60]), reranker 9, BM25 6; GPT as second rater: 20, 9, 5 (kappa .72); 0 of 10 random controls YES. Kev 1.8 h, instruct model about 10.4 h (estimate), reranker 0.7 h. Base family not run, so the lead is not shown to come from decision-model training. | `stale/RESULT_missing.md` |
 | Label a stale point "case no longer stated" | **Not shipped** (provisional) | Kev ranks the 15 no-longer-stated points low (AUROC .92), but its flag was right for 6 of 12 flagged; the bar was 75%. | `stale/RESULT_suggest.md` |
 
 ### Meaning-diff scanner

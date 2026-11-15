@@ -1,0 +1,6 @@
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights:   6%|▌         | 23/393 [00:00<00:01, 203.18it/s]Loading weights:  13%|█▎        | 53/393 [00:00<00:01, 226.23it/s]Loading weights:  19%|█▉        | 76/393 [00:00<00:01, 205.18it/s]Loading weights:  25%|██▍       | 97/393 [00:00<00:01, 205.26it/s]Loading weights:  30%|███       | 118/393 [00:00<00:01, 161.62it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 591.53it/s]
+[1/4 640s] Bluesky/Privacy Policy.md
+[2/4 1280s] X/Privacy Policy.md
+[3/4 1854s] Pinterest/Terms of Service.md
+[4/4 2591s] YouTube/Terms of Service.md
+rerank done

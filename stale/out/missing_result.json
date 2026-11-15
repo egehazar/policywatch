@@ -1,0 +1,67 @@
+{
+ "random_yes": 0,
+ "random_n": 10,
+ "valid": true,
+ "precision_at_10": {
+  "KEV": {
+   "cards": 40,
+   "yes": 18,
+   "yes_share": 0.45,
+   "wilson95": [
+    0.307,
+    0.602
+   ],
+   "yes_or_partly_share": 0.875
+  },
+  "RERANK": {
+   "cards": 40,
+   "yes": 9,
+   "yes_share": 0.225,
+   "wilson95": [
+    0.123,
+    0.375
+   ],
+   "yes_or_partly_share": 0.65
+  },
+  "BM25": {
+   "cards": 40,
+   "yes": 6,
+   "yes_share": 0.15,
+   "wilson95": [
+    0.071,
+    0.291
+   ],
+   "yes_or_partly_share": 0.45
+  }
+ },
+ "reading": "WORTH BUILDING",
+ "method": "Kev",
+ "measures": {
+  "auroc": {
+   "KEV": 0.759,
+   "RERANK": 0.675,
+   "BM25": 0.541
+  },
+  "recall_at_20": {
+   "KEV": 0.471,
+   "RERANK": 0.404,
+   "BM25": 0.342
+  },
+  "KEV_minus_RERANK_auroc": {
+   "point": 0.084,
+   "ci95": [
+    0.009,
+    0.158
+   ],
+   "reading": "KEV better"
+  },
+  "KEV_minus_BM25_auroc": {
+   "point": 0.218,
+   "ci95": [
+    0.121,
+    0.312
+   ],
+   "reading": "KEV better"
+  }
+ }
+}

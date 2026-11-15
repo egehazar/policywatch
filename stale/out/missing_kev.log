@@ -1,0 +1,5 @@
+[1/4 1541s] Bluesky/Privacy Policy.md: 27 pieces x 63 questions, {'seconds': 1541.1, 'pieces': 27, 'questions': 63, 'asked_cells': 1377, 'cached_cells': 324}
+[2/4 3197s] X/Privacy Policy.md: 30 pieces x 62 questions, {'seconds': 1656.3, 'pieces': 30, 'questions': 62, 'asked_cells': 1530, 'cached_cells': 330}
+[3/4 4601s] Pinterest/Terms of Service.md: 23 pieces x 66 questions, {'seconds': 1404.0, 'pieces': 23, 'questions': 66, 'asked_cells': 1265, 'cached_cells': 253}
+[4/4 6542s] YouTube/Terms of Service.md: 25 pieces x 78 questions, {'seconds': 1940.6, 'pieces': 25, 'questions': 78, 'asked_cells': 1750, 'cached_cells': 200}
+kev done; asked 5922 cache hits 1107

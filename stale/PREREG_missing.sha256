@@ -3,3 +3,15 @@
 f4c46ca1649d7902df06124d27414b608e1c47ca72248a5b5c0a22fd6d624197 *stale/missing.py
 aa86fb689593b49dcf0b198d0ae159b0a8664eea5c326cf95337daf626819c72 *stale/out/missing_docs.json
 c8704c66090fe753ae05e29449e2d6cd5bceffcbbaf821e206e74bdfd968fe8b *stale/out/missing_bm25.json
+# Kev and reranker scores, measures, cards and key 2026-11-15T20:26:08Z, before any rating
+852a01d246760212a9d1668bf3e3be1f15eddff824405bc24943b2175d6f054b *stale/out/missing_kev.json
+4f64b2d056f83dd55b7fe2fe497ce13a20e9d966fa3c6891890050773ab1b5b9 *stale/out/missing_rerank.json
+bf113eb8374663e04a0daae5391a911ec8e17ba2c881ed57ff7e14db44563da0 *stale/out/missing_measures.json
+007de82482e65ace24b83d0aca847a3a8c7ca7aad329f9818fdd18d329ec6117 *stale/audit_missing/cards.md
+35648d82613e48d64f1b81d5a5166dbc1e6efdc9487c104c6050480e99bfba9c *stale/audit_missing/README.md
+b065a853d683873008cea304ace9fcde39f303fd4b9247f33585342fee457d75 *stale/audit_missing/verdicts.json
+d4f8d1766e11648fbd4614b31740481103851dd582fc4ded4d9c777491aea0c0 *stale/out/missing_key.json
+# verdicts 2026-11-15T20:29:56Z, as returned by the Claude Opus rater, before scoring
+efb0aa4a31f2708e81f31254663ae90750f28b49450fa9fe53af8e60c4382fd3 *stale/audit_missing/verdicts.json
+# GPT's raw reply 2026-11-15T20:32:49Z, before ingest (second rater, reported, not read)
+1439fa4010ac0e99274821326735e39234f2bfd2bf7316a45eeb48f9b1b5f2fe *C:/Users/egeha/AppData/Local/Temp/claude/8e505c2afe5694b7/c49ddd07-ca2e-4999-982e-7a6829474768/scratchpad/gpt_missing/out/gpt_missing.txt

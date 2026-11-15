@@ -1,0 +1,85 @@
+{
+ "gpt": {
+  "precision_at_10": {
+   "KEV": {
+    "cards": 40,
+    "yes": 20,
+    "yes_share": 0.5,
+    "wilson95": [
+     0.352,
+     0.648
+    ],
+    "yes_or_partly_share": 0.9
+   },
+   "RERANK": {
+    "cards": 40,
+    "yes": 9,
+    "yes_share": 0.225,
+    "wilson95": [
+     0.123,
+     0.375
+    ],
+    "yes_or_partly_share": 0.675
+   },
+   "BM25": {
+    "cards": 40,
+    "yes": 5,
+    "yes_share": 0.125,
+    "wilson95": [
+     0.055,
+     0.261
+    ],
+    "yes_or_partly_share": 0.5
+   }
+  },
+  "random_yes": 0
+ },
+ "claude": {
+  "precision_at_10": {
+   "KEV": {
+    "cards": 40,
+    "yes": 18,
+    "yes_share": 0.45,
+    "wilson95": [
+     0.307,
+     0.602
+    ],
+    "yes_or_partly_share": 0.875
+   },
+   "RERANK": {
+    "cards": 40,
+    "yes": 9,
+    "yes_share": 0.225,
+    "wilson95": [
+     0.123,
+     0.375
+    ],
+    "yes_or_partly_share": 0.65
+   },
+   "BM25": {
+    "cards": 40,
+    "yes": 6,
+    "yes_share": 0.15,
+    "wilson95": [
+     0.071,
+     0.291
+    ],
+    "yes_or_partly_share": 0.45
+   }
+  },
+  "random_yes": 0
+ },
+ "random_n": 10,
+ "agreement": {
+  "cards": 107,
+  "agree": 96,
+  "kappa": 0.717,
+  "gpt_yes": 26,
+  "claude_yes": 25,
+  "both_yes_by_arm": {
+   "KEV": 17,
+   "RERANK": 6,
+   "BM25": 4
+  }
+ }
+}

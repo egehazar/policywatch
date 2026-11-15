@@ -1,0 +1,430 @@
+{
+ "M001": {
+  "verdict": "PARTLY",
+  "why": "It disclaims liability for User Content posted by other persons, but says nothing about disputes between users."
+ },
+ "M002": {
+  "verdict": "YES",
+  "why": "YouTube does not give any specific promises about the Service, including its accuracy, reliability or ability to meet your needs."
+ },
+ "M003": {
+  "verdict": "PARTLY",
+  "why": "Third parties may use cookies and pixel tags to collect information, but social media trackers are not named."
+ },
+ "M004": {
+  "verdict": "NO",
+  "why": "It only mentions corporate affiliates sharing data; nothing says the service is a subsidiary of another company."
+ },
+ "M005": {
+  "verdict": "PARTLY",
+  "why": "The Services may include third-party plug-ins, applications and technology, but third parties operating the service is not stated."
+ },
+ "M006": {
+  "verdict": "PARTLY",
+  "why": "Pinterest may change or remove features and disclaims liability for suspension or termination of your access, but does not say the service itself may stop at any time."
+ },
+ "M007": {
+  "verdict": "NO",
+  "why": "Termination is limited to listed reasons and YouTube will notify you with the reason, which contradicts the case."
+ },
+ "M008": {
+  "verdict": "NO",
+  "why": "It covers class action waiver and batched arbitration; no jurisdiction or court is named."
+ },
+ "M009": {
+  "verdict": "YES",
+  "why": "We may revise these Terms from time to time and will notify you of any material changes before an update enters into effect."
+ },
+ "M010": {
+  "verdict": "NO",
+  "why": "It is about sharing data with third-party content partners and collaborators; no cookies or cookie opt-out are mentioned."
+ },
+ "M011": {
+  "verdict": "YES",
+  "why": "The Service is provided 'as is' without warranty of any kind, disclaiming merchantability and fitness for a particular purpose."
+ },
+ "M012": {
+  "verdict": "NO",
+  "why": "It lists content, interaction and device data collected; no third-party cookies or opt-out."
+ },
+ "M013": {
+  "verdict": "NO",
+  "why": "Shared information is subject to the third-party service's own privacy policy; no confidentiality obligation is stated."
+ },
+ "M014": {
+  "verdict": "PARTLY",
+  "why": "It disclaims responsibility for third-party sites and services, but does not say the Terms do not apply to them."
+ },
+ "M015": {
+  "verdict": "NO",
+  "why": "The passage is about the user's 14-day right of withdrawal, not content removal."
+ },
+ "M016": {
+  "verdict": "NO",
+  "why": "It says data is not shared for cross-context behavioural advertising and mentions no cookies."
+ },
+ "M017": {
+  "verdict": "PARTLY",
+  "why": "It gives bounded retention periods tied to account duration and use, but never says retention is limited to the minimum necessary."
+ },
+ "M018": {
+  "verdict": "NO",
+  "why": "Nothing about suggestions, feedback or ownership of ideas."
+ },
+ "M019": {
+  "verdict": "YES",
+  "why": "If data will be shared with a third party, we require them to maintain the same protections over your data that we provide directly."
+ },
+ "M020": {
+  "verdict": "PARTLY",
+  "why": "You must keep your password confidential, but there is no rule against sharing or disclosing the account itself."
+ },
+ "M021": {
+  "verdict": "NO",
+  "why": "It describes sharing with users and partners under settings; no confidentiality obligation on recipients."
+ },
+ "M022": {
+  "verdict": "NO",
+  "why": "The passage is about ownership and posting of User Content; no time limit for legal action."
+ },
+ "M023": {
+  "verdict": "YES",
+  "why": "We shall not be liable for losses resulting from unauthorised access, use or alteration of your transmissions or content."
+ },
+ "M024": {
+  "verdict": "YES",
+  "why": "YouTube gives no promises about the Service's ability to meet your needs."
+ },
+ "M025": {
+  "verdict": "PARTLY",
+  "why": "You must not use another channel only to circumvent strike restrictions; alternative accounts in general are not banned."
+ },
+ "M026": {
+  "verdict": "PARTLY",
+  "why": "You license content to YouTube, its affiliates and other users, but no general sublicensing to third parties is stated."
+ },
+ "M027": {
+  "verdict": "NO",
+  "why": "It covers sharing age and identity info with partners and affiliates, not staff access to private content."
+ },
+ "M028": {
+  "verdict": "NO",
+  "why": "Trade restrictions and licence terms; no help desk."
+ },
+ "M029": {
+  "verdict": "NO",
+  "why": "About uploading content and rights granted; nothing on notice of term changes."
+ },
+ "M030": {
+  "verdict": "PARTLY",
+  "why": "You may not interfere with the Service or spam, but interfering with other people's enjoyment is not stated."
+ },
+ "M031": {
+  "verdict": "NO",
+  "why": "Brazil LGPD legal bases; no tracking pixels in communications."
+ },
+ "M032": {
+  "verdict": "PARTLY",
+  "why": "Approximate location is collected partly to show relevant ads, but no sensitive data or sharing for ad targeting is stated."
+ },
+ "M033": {
+  "verdict": "YES",
+  "why": "YouTube has no control over, and assumes no responsibility for, such third-party websites and online services."
+ },
+ "M034": {
+  "verdict": "PARTLY",
+  "why": "Indemnification applies only if you use Pinterest commercially without agreeing to the required terms, narrower than the case."
+ },
+ "M035": {
+  "verdict": "NO",
+  "why": "Describes uses of information; nothing on cookies or blocking them."
+ },
+ "M036": {
+  "verdict": "PARTLY",
+  "why": "Keep your password secure and report unauthorised access, but responsibility for activity on the account is not stated."
+ },
+ "M037": {
+  "verdict": "YES",
+  "why": "You and Pinterest are each waiving the right to a trial by jury or to participate in a class action."
+ },
+ "M038": {
+  "verdict": "YES",
+  "why": "Infringing content can be removed and accounts of users who repeatedly or seriously infringe IP rights can be suspended or terminated."
+ },
+ "M039": {
+  "verdict": "NO",
+  "why": "Opt-outs cover marketing email, push notifications and location; targeted advertising is not mentioned."
+ },
+ "M040": {
+  "verdict": "NO",
+  "why": "Governing law and jurisdiction; no notice period for changes."
+ },
+ "M041": {
+  "verdict": "NO",
+  "why": "Privacy choices for email, push and DNT; nothing on selling data."
+ },
+ "M042": {
+  "verdict": "PARTLY",
+  "why": "Unless you opt out, data may be shared with third parties for their own purposes, but it says share, not sell."
+ },
+ "M043": {
+  "verdict": "YES",
+  "why": "Our approach to privacy compliance is broader than simply complying with the terms of the GDPR, which presupposes GDPR compliance."
+ },
+ "M044": {
+  "verdict": "NO",
+  "why": "Deidentified data, appeals and California disclosures; no app permissions."
+ },
+ "M045": {
+  "verdict": "PARTLY",
+  "why": "Changes come with at least 15 days' advance notice, not 30 days."
+ },
+ "M046": {
+  "verdict": "PARTLY",
+  "why": "It collects the links you click within Bluesky, but referring or exit pages are not named."
+ },
+ "M047": {
+  "verdict": "NO",
+  "why": "A list of prohibited uses; no statement about quality guarantees."
+ },
+ "M048": {
+  "verdict": "NO",
+  "why": "It is about sensitive data and targeted advertising, not collection about people who never interacted with the service."
+ },
+ "M049": {
+  "verdict": "PARTLY",
+  "why": "A limited, non-transferable licence that may not benefit unauthorised third parties, but no non-commercial restriction is stated."
+ },
+ "M050": {
+  "verdict": "NO",
+  "why": "About changes to the Terms and assignment; nothing on arbitration."
+ },
+ "M051": {
+  "verdict": "NO",
+  "why": "It explains how to access, download and delete your data, not how data is collected."
+ },
+ "M052": {
+  "verdict": "PARTLY",
+  "why": "It collects detailed device and browser data and links browsers and devices to your account, but web beacons, pixels or fingerprinting are not named."
+ },
+ "M053": {
+  "verdict": "NO",
+  "why": "It states the service does not sell or share sensitive information for targeted advertising."
+ },
+ "M054": {
+  "verdict": "PARTLY",
+  "why": "Cookies are used to collect website usage data, but they are not said to be third-party cookies."
+ },
+ "M055": {
+  "verdict": "NO",
+  "why": "About children's age limits; no claim of GDPR compliance."
+ },
+ "M056": {
+  "verdict": "NO",
+  "why": "Liability remains under statutory provisions and is only limited for slight negligence, contradicting the case."
+ },
+ "M057": {
+  "verdict": "PARTLY",
+  "why": "Personal information may be collected from third parties, but not about people who never used the service."
+ },
+ "M058": {
+  "verdict": "YES",
+  "why": "You are waiving the right to a trial by jury or to participate in a class action."
+ },
+ "M059": {
+  "verdict": "PARTLY",
+  "why": "Third parties may use cookies and pixel tags to collect information, but advertising is not given as the purpose."
+ },
+ "M060": {
+  "verdict": "PARTLY",
+  "why": "Certain third parties and service providers help offer or operate the services, but 'many' is not stated."
+ },
+ "M061": {
+  "verdict": "PARTLY",
+  "why": "It cannot guarantee unauthorised third parties won't defeat its security, but it does not disclaim liability."
+ },
+ "M062": {
+  "verdict": "NO",
+  "why": "Suspension or termination is limited to listed reasons with notice; the service stopping at any time is not stated."
+ },
+ "M063": {
+  "verdict": "PARTLY",
+  "why": "A Google account is needed only for certain features; some parts are available without one."
+ },
+ "M064": {
+  "verdict": "YES",
+  "why": "This Privacy Policy will apply to your personal information transferred to the new entity after a merger or acquisition."
+ },
+ "M065": {
+  "verdict": "PARTLY",
+  "why": "Information is used for account security, authentication and fraud defence, but how data is protected is not described."
+ },
+ "M066": {
+  "verdict": "PARTLY",
+  "why": "The arbitration section does not apply to EEA, Swiss or UK consumers, but others are bound by it."
+ },
+ "M067": {
+  "verdict": "YES",
+  "why": "It explains that preference data is collected when you set settings, biometrics with consent, and usage information when you use the services."
+ },
+ "M068": {
+  "verdict": "YES",
+  "why": "It explains that log information such as IP, referring page and cookie identifiers is collected when you view or interact with the services, even signed out."
+ },
+ "M069": {
+  "verdict": "YES",
+  "why": "YouTube responds to copyright notices and its policies provide for terminating repeat infringers' access, alongside strikes that can remove a channel."
+ },
+ "M070": {
+  "verdict": "PARTLY",
+  "why": "Pinterest is not responsible for User Content posted by any user, but disputes between users are not addressed."
+ },
+ "M071": {
+  "verdict": "NO",
+  "why": "Third-party links and changes to the Agreement; no 'as is' or sole-risk statement."
+ },
+ "M072": {
+  "verdict": "PARTLY",
+  "why": "Personal information is used for network security and detecting security incidents, but how data is protected is not described."
+ },
+ "M073": {
+  "verdict": "NO",
+  "why": "It states the service does not sell Personal Data."
+ },
+ "M074": {
+  "verdict": "NO",
+  "why": "It only bars creating a new account after one was disabled for violations; nothing on deletion without notice or reason."
+ },
+ "M075": {
+  "verdict": "NO",
+  "why": "It warns that shared info may reach a third-party service, but does not say the Privacy Policy does not apply to such services."
+ },
+ "M076": {
+  "verdict": "NO",
+  "why": "It says material changes will be notified before taking effect, contradicting changes without notice."
+ },
+ "M077": {
+  "verdict": "PARTLY",
+  "why": "Pixel tags are used on Bluesky, but not in emails or other communications to users."
+ },
+ "M078": {
+  "verdict": "YES",
+  "why": "Personal Data is shared with third-party service providers for IT support, hosting, payment processing and customer service."
+ },
+ "M079": {
+  "verdict": "PARTLY",
+  "why": "It does not warrant the Service will be free of errors, but says nothing about correcting them."
+ },
+ "M080": {
+  "verdict": "NO",
+  "why": "Cookies, embedded content and data received from other services; no third parties operating the service."
+ },
+ "M081": {
+  "verdict": "PARTLY",
+  "why": "Sharing depends on settings and includes direct messages and protected posts, but choosing the audience for content is not stated outright."
+ },
+ "M082": {
+  "verdict": "PARTLY",
+  "why": "Changes come with advance notice that points out material changes, but there is no advice to revisit the terms periodically."
+ },
+ "M083": {
+  "verdict": "YES",
+  "why": "You may not use the Service to view or listen to Content other than for personal, non-commercial use."
+ },
+ "M084": {
+  "verdict": "NO",
+  "why": "Opt-out covers marketing emails only; targeted advertising is not mentioned."
+ },
+ "M085": {
+  "verdict": "NO",
+  "why": "It states the service does not sell or share Personal Data for targeted advertising."
+ },
+ "M086": {
+  "verdict": "NO",
+  "why": "Governing law and jurisdiction; the notice section is only a heading."
+ },
+ "M087": {
+  "verdict": "NO",
+  "why": "It says data is not sold or shared for targeted advertising; no opt-out is described."
+ },
+ "M088": {
+  "verdict": "YES",
+  "why": "You can obtain a copy of your personal information and receive an electronic copy in a machine-readable format."
+ },
+ "M089": {
+  "verdict": "NO",
+  "why": "German law and local courts govern for German users, which is not a less privacy-friendly jurisdiction."
+ },
+ "M090": {
+  "verdict": "NO",
+  "why": "Cookies and analytics on Bluesky's own sites; no tracking on other websites."
+ },
+ "M091": {
+  "verdict": "YES",
+  "why": "Information is shared with service providers that perform functions on X's behalf, such as payments, hosting and fraud detection."
+ },
+ "M092": {
+  "verdict": "YES",
+  "why": "We make reasonable efforts to protect your information using physical and electronic safeguards."
+ },
+ "M093": {
+  "verdict": "NO",
+  "why": "Deidentified data, appeals and California disclosures; nothing on government requests."
+ },
+ "M094": {
+  "verdict": "YES",
+  "why": "Commercial users must agree to separate business terms and branded content is subject to separate guidelines."
+ },
+ "M095": {
+  "verdict": "PARTLY",
+  "why": "Using linked third-party services may let third parties collect your data, but tracking across other websites is not stated."
+ },
+ "M096": {
+  "verdict": "YES",
+  "why": "X uses data centers, cloud providers, affiliates, third-party partners and service providers in many parts of the world to help provide its services."
+ },
+ "M097": {
+  "verdict": "PARTLY",
+  "why": "You may share messages with other users, but most activity is public by design and audience choice is not stated."
+ },
+ "M098": {
+  "verdict": "NO",
+  "why": "Lists categories of personal data; no social media cookies or pixels."
+ },
+ "M099": {
+  "verdict": "PARTLY",
+  "why": "You may not collect or use information that might identify a person without permission, framed as harvesting rather than publishing."
+ },
+ "M100": {
+  "verdict": "NO",
+  "why": "Severance, assignment and governing law; no time limit for legal action."
+ },
+ "M101": {
+  "verdict": "YES",
+  "why": "YouTube may suspend or terminate your account if you materially or repeatedly breach this Agreement."
+ },
+ "M102": {
+  "verdict": "NO",
+  "why": "It only says data may be processed in a merger; nothing says existing promises will be kept."
+ },
+ "M103": {
+  "verdict": "PARTLY",
+  "why": "Data may be disclosed to several categories of third parties, including service providers needed to provide the Services, but 'many' operating it is not stated."
+ },
+ "M104": {
+  "verdict": "YES",
+  "why": "Certain third parties receive information to help offer or operate X's products and services."
+ },
+ "M105": {
+  "verdict": "YES",
+  "why": "For German users the Agreement is governed by German law and claims can be brought in local courts."
+ },
+ "M106": {
+  "verdict": "NO",
+  "why": "A list of user restrictions; nothing on licensing user content to third parties."
+ },
+ "M107": {
+  "verdict": "PARTLY",
+  "why": "Personal Data is collected from business partners and third-party providers, but not about people who never interacted with the service."
+ }
+}

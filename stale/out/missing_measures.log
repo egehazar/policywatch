@@ -1,0 +1,121 @@
+{
+ "docs": [
+  {
+   "doc": "Bluesky/Privacy Policy.md",
+   "positives": 41,
+   "negatives": 22,
+   "KEV_auroc": 0.802,
+   "KEV_recall20": 0.463,
+   "RERANK_auroc": 0.67,
+   "RERANK_recall20": 0.415,
+   "BM25_auroc": 0.578,
+   "BM25_recall20": 0.341
+  },
+  {
+   "doc": "X/Privacy Policy.md",
+   "positives": 38,
+   "negatives": 24,
+   "KEV_auroc": 0.726,
+   "KEV_recall20": 0.421,
+   "RERANK_auroc": 0.655,
+   "RERANK_recall20": 0.421,
+   "BM25_auroc": 0.449,
+   "BM25_recall20": 0.316
+  },
+  {
+   "doc": "Pinterest/Terms of Service.md",
+   "positives": 29,
+   "negatives": 37,
+   "KEV_auroc": 0.791,
+   "KEV_recall20": 0.517,
+   "RERANK_auroc": 0.767,
+   "RERANK_recall20": 0.448,
+   "BM25_auroc": 0.597,
+   "BM25_recall20": 0.379
+  },
+  {
+   "doc": "YouTube/Terms of Service.md",
+   "positives": 27,
+   "negatives": 51,
+   "KEV_auroc": 0.715,
+   "KEV_recall20": 0.481,
+   "RERANK_auroc": 0.609,
+   "RERANK_recall20": 0.333,
+   "BM25_auroc": 0.541,
+   "BM25_recall20": 0.333
+  }
+ ],
+ "auroc": {
+  "KEV": 0.759,
+  "RERANK": 0.675,
+  "BM25": 0.541
+ },
+ "recall_at_20": {
+  "KEV": 0.471,
+  "RERANK": 0.404,
+  "BM25": 0.342
+ },
+ "KEV_minus_RERANK_auroc": {
+  "point": 0.084,
+  "ci95": [
+   0.009,
+   0.158
+  ],
+  "reading": "KEV better"
+ },
+ "KEV_minus_BM25_auroc": {
+  "point": 0.218,
+  "ci95": [
+   0.121,
+   0.312
+  ],
+  "reading": "KEV better"
+ },
+ "cards": {
+  "total": 107,
+  "random": 10,
+  "per_arm": {
+   "KEV": 40,
+   "RERANK": 40,
+   "BM25": 40
+  }
+ },
+ "timing": {
+  "KEV": {
+   "Bluesky/Privacy Policy.md": {
+    "seconds": 1541.1,
+    "pieces": 27,
+    "questions": 63,
+    "asked_cells": 1377,
+    "cached_cells": 324
+   },
+   "X/Privacy Policy.md": {
+    "seconds": 1656.3,
+    "pieces": 30,
+    "questions": 62,
+    "asked_cells": 1530,
+    "cached_cells": 330
+   },
+   "Pinterest/Terms of Service.md": {
+    "seconds": 1404.0,
+    "pieces": 23,
+    "questions": 66,
+    "asked_cells": 1265,
+    "cached_cells": 253
+   },
+   "YouTube/Terms of Service.md": {
+    "seconds": 1940.6,
+    "pieces": 25,
+    "questions": 78,
+    "asked_cells": 1750,
+    "cached_cells": 200
+   }
+  },
+  "RERANK": {
+   "Bluesky/Privacy Policy.md": 640.4,
+   "X/Privacy Policy.md": 639.8,
+   "Pinterest/Terms of Service.md": 573.7,
+   "YouTube/Terms of Service.md": 736.9
+  }
+ }
+}

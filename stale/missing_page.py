@@ -37,7 +37,16 @@ def accuracy(arm):
     return (f'<p class="note"><b>Measured accuracy:</b> in the pilot&rsquo;s blind check, an AI rater (a Claude model, '
             f'not a person) judged that {a["yes"]} of this method&rsquo;s {a["cards"]} top-10 suggestions state the case '
             f'({a["yes_share"]:.0%}, 95% interval {lo:.0%} to {hi:.0%}); {a["yes_or_partly_share"]:.0%} state it at least '
-            f'partly. Pilot reading: {esc(r["reading"].lower())}. Four documents only.</p>')
+            f'partly. {gpt(arm)}Pilot reading: {esc(r["reading"].lower())}. Four documents only; '
+            f'<code>stale/RESULT_missing.md</code>.</p>')
+
+
+def gpt(arm):
+    p = os.path.join(OUT, 'missing_gpt.json')
+    if not os.path.exists(p): return ''
+    g = json.load(open(p, encoding='utf-8')); a = g['gpt']['precision_at_10'][arm]; ag = g['agreement']
+    return (f'A second AI rater (GPT) judged {a["yes"]} of the {a["cards"]} to state the case; the two agreed on '
+            f'{ag["agree"]} of {ag["cards"]} cards. ')
 
 
 def build(arm=None):
@@ -54,7 +63,7 @@ def build(arm=None):
         top = sorted(d['negatives'], key=lambda c: -sc[c][0])[:TOP]
         items = []
         for k, c in enumerate(top, 1):
-            s, i = sc[c]; t = d['pieces'][i]; n = 900
+            s, i = sc[c]; t = d['pieces'][i]; n = 1600            # pieces are at most 1,500 characters: shown whole
             case_id = cid[c].most_common(1)[0][0] if cid[c] else None
             link = f' <a class="sm" href="https://edit.tosdr.org/cases/{esc(case_id)}">case {esc(case_id)}</a>' if case_id else ''
             shown = f'p(yes) {s:.2f}' if arm == 'KEV' else f'score {s:.3g}'
@@ -72,7 +81,9 @@ def build(arm=None):
             f'<p>Cases these documents may state that ToS;DR has no point for on the service yet: for each document, the '
             f'{TOP} highest-scoring cases by {esc(NAMES[arm])}, each with the passage that scored highest. A place to '
             f'look, not a verdict: read the passage before proposing a point; a case may be stated weakly, only in part, '
-            f'or not at all.</p>' + accuracy(arm) + ''.join(secs))
+            f'or not at all. &ldquo;No point&rdquo; means no <em>approved</em> point: ToS;DR&rsquo;s public data does not '
+            f'show pending or declined ones, and a few suggestions are variants of a case already approved for the '
+            f'service.</p>' + accuracy(arm) + ''.join(secs))
     dest = os.path.join(ROOT, 'out', 'site', 'missing.html')
     with open(dest, 'w', encoding='utf-8') as f: f.write(page('Possible missing points', body))
     print(dest, arm, len(secs), 'documents')
