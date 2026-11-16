@@ -15,11 +15,30 @@ HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE);
 sys.path.insert(0, ROOT)
 from policywatch.report import page, esc, badge
 from stale.missing import DOCS, TOP, all_points, best, wilson
-from stale import missing2
+from stale import missing2, missing_wide
 
 FILES = {'KEV': 'missing_kev.json', 'RERANK': 'missing_rerank.json', 'BM25': 'missing_bm25.json'}
-# (documents file, scores file per arm): the pilot's four, then the larger test's ten
-SOURCES = ((DOCS, FILES), (missing2.DOCS, {a: f'missing2_{a.lower()}.json' for a in FILES}))
+
+
+def wide_note(arm):
+    if arm != 'KEV': return ''
+    m = os.path.join(OUT, 'missing_wide_measures.json'); r2 = os.path.join(OUT, 'missing2_result.json')
+    t = ('<p class="sm note">Not rated. On this document the reranker picked 3 passages per case and Kev read only '
+         'those (the cascade)')
+    if os.path.exists(r2):
+        a = json.load(open(r2, encoding='utf-8'))['precision_at_10']['CASCADE_KEV']
+        t += f'; in the larger test an AI rater judged {a["yes"]} of the cascade&rsquo;s {a["cards"]} top-10 suggestions to state the case'
+    if os.path.exists(m):
+        w = json.load(open(m, encoding='utf-8'))
+        t += (f'; on the {len(w["docs"])} documents of this run that already have 10 or more approved points, it ranked '
+              f'those cases above the rest with AUROC {w["auroc"]["CASCADE_KEV"]:.2f} (reranker {w["auroc"]["RERANK"]:.2f})')
+    return t + '.</p>'
+
+
+# (documents file, scores file per arm, a note under each document): the pilot's four, the larger test's ten, then the
+# remaining documents through the cascade (stale/PLAN_missing_wide.md)
+SOURCES = ((DOCS, FILES, None), (missing2.DOCS, {a: f'missing2_{a.lower()}.json' for a in FILES}, None),
+           (missing_wide.DOCS, {'KEV': 'missing_wide_kev.json', 'RERANK': 'missing_wide_rerank.json'}, wide_note))
 NAMES = {'KEV': 'the decision model (Kev-4B), p(yes) that the passage states the case',
          'RERANK': 'a cross-encoder reranker (bge-reranker-v2-m3), case title vs passage',
          'BM25': 'word match on the case title (BM25)'}
@@ -88,9 +107,9 @@ def build(arm=None):
     for r in all_points():
         cid[r['case_title']][r.get('case_id')] += 1; cls[r['case_title']][r.get('classification')] += 1
     secs = []
-    for docs, files in SOURCES:
+    for docs, files, note in SOURCES:
+        if arm not in files or not os.path.exists(os.path.join(OUT, files[arm])): continue
         p = os.path.join(OUT, files[arm])
-        if not os.path.exists(p): continue
         D = json.load(open(docs, encoding='utf-8'))['docs']; S = json.load(open(p, encoding='utf-8'))
         for d in D:
             if d['doc'] not in S: continue
@@ -113,7 +132,8 @@ def build(arm=None):
                         f'{len(d["excluded"]) + len(d["negatives"]) - len(neg)} more are approved for {esc(plat)} (on another document, or on this one with a quote that is '
                         f'gone, partial or short) and are not suggested. Asked: '
                         f'{len(neg)} cases that ToS;DR often approves on {esc(d["type"])} documents and has no point '
-                        f'for on {esc(plat)}. <a href="{REPO}{esc(d["doc"])}">Current text</a>.</p>' + ''.join(items))
+                        f'for on {esc(plat)}. <a href="{REPO}{esc(d["doc"])}">Current text</a>.</p>'
+                        + (note(arm) if note else '') + ''.join(items))
     body = (f'<h1>Possible missing points</h1>'
             f'<p>Cases these documents may state that ToS;DR has no point for on the service yet: for each document, the '
             f'{TOP} highest-scoring cases by {esc(NAMES[arm])}, each with the passage that scored highest. A place to '
