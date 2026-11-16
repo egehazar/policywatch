@@ -27,16 +27,16 @@ def build(out=OUT, dest=None):
     if M:
         a, d = M['auroc'], M['CASCADE_KEV_minus_RERANK_auroc']
         L += ['## The accuracy check (fixed in advance)',
-              f'On the {len(M["docs"])} documents with at least 10 cases that already have an approved point there: how well '
-              'each arm ranks those cases above the frequent cases the service has no approved point for (AUROC, mean over '
-              'the documents).', '',
+              f'On the {len(M["docs"])} documents with at least 10 known positives (cases whose approved ToS;DR quote is still '
+              'found in the current text of the document): how well each arm ranks those cases above the frequent cases the '
+              'service has no approved point for (AUROC, mean over the documents).', '',
               f'- CASCADE_KEV - RERANK: {ci(d)}.',
               f'- CASCADE_KEV (Kev on the reranker\'s top 3 passages per case) **{a["CASCADE_KEV"]:.3f}**, predicted .66-.76: '
               f'{band(a["CASCADE_KEV"], *PRED["CASCADE_KEV"])} the range.',
               f'- RERANK (every passage) **{a["RERANK"]:.3f}**, predicted .58-.68: {band(a["RERANK"], *PRED["RERANK"])} the range.',
               f'- Difference {d["point"]:+.3f}, predicted +.02 to +.10: {band(d["point"], *PRED["diff"])} the range '
               '(P(CASCADE_KEV better) was put at 50%).', '',
-              '| Document | Approved here | No point on the service | CASCADE_KEV | RERANK |', '|---|---:|---:|---:|---:|']
+              '| Document | Known positives | No point on the service | CASCADE_KEV | RERANK |', '|---|---:|---:|---:|---:|']
         for r in M['docs']:
             L.append(f'| {r["doc"][:-3]} | {r["positives"]} | {r["negatives"]} | {r["CASCADE_KEV_auroc"]:.3f} | {r["RERANK_auroc"]:.3f} |')
         L.append('')
@@ -46,8 +46,9 @@ def build(out=OUT, dest=None):
         L += ['## What the run built',
               f'- {len(D)} documents ({sum(x["type"] == "privacy" for x in D)} privacy policies, '
               f'{sum(x["type"] != "privacy" for x in D)} terms), {P:,} passages, {cells:,} passage-case cells.',
-              f'- {N:,} candidate cases the service has no approved point for (any quote length, from '
-              f'`stale/data/<platform>.json`), {sum(len(x["excluded"]) for x in D):,} excluded because it has one.',
+              f'- {N:,} document-case pairs ({len({c for x in D for c in x["negatives"]})} distinct cases) the service has no '
+              f'approved point for (any quote length, from `stale/data/<platform>.json`); {sum(len(x["excluded"]) for x in D):,} '
+              f'pairs ({len({c for x in D for c in x["excluded"]})} distinct cases) excluded because it has one.',
               f'- The private curator page lists each document\'s top 10 of those cases by Kev\'s score on its best '
               f'shortlisted passage: {sum(min(10, len(x["negatives"])) for x in D)} suggestions, marked "not rated".', '']
     if M and M.get('timing', {}).get('KEV'):

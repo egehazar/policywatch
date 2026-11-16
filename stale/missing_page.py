@@ -33,8 +33,8 @@ def wide_note(arm, d=None):
         t += f'; in the larger test an AI rater judged {a["yes"]} of the cascade&rsquo;s {a["cards"]} top-10 suggestions to state the case'
     if os.path.exists(m):
         w = json.load(open(m, encoding='utf-8'))
-        t += (f'; on the {len(w["docs"])} documents of this run that already have 10 or more approved points, it ranked '
-              f'those cases above the rest with AUROC {w["auroc"]["CASCADE_KEV"]:.2f} (reranker {w["auroc"]["RERANK"]:.2f})')
+        t += (f'; on the {len(w["docs"])} documents of this run with 10 or more approved cases whose quote is still in '
+              f'the text, it ranked those cases above the rest with AUROC {w["auroc"]["CASCADE_KEV"]:.2f} (reranker {w["auroc"]["RERANK"]:.2f})')
     return t + '.</p>'
 
 
