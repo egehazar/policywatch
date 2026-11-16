@@ -1,0 +1,65 @@
+{
+ "docs": [
+  {
+   "doc": "Facebook/Privacy Policy.md",
+   "positives": 19,
+   "negatives": 28,
+   "CASCADE_KEV_auroc": 0.699,
+   "RERANK_auroc": 0.763
+  },
+  {
+   "doc": "Reddit/Privacy Policy.md",
+   "positives": 41,
+   "negatives": 24,
+   "CASCADE_KEV_auroc": 0.813,
+   "RERANK_auroc": 0.66
+  },
+  {
+   "doc": "Snapchat/Terms of Service.md",
+   "positives": 46,
+   "negatives": 37,
+   "CASCADE_KEV_auroc": 0.765,
+   "RERANK_auroc": 0.668
+  },
+  {
+   "doc": "Spotify/Terms of Service.md",
+   "positives": 40,
+   "negatives": 43,
+   "CASCADE_KEV_auroc": 0.845,
+   "RERANK_auroc": 0.636
+  },
+  {
+   "doc": "Twitch/Terms of Service.md",
+   "positives": 26,
+   "negatives": 50,
+   "CASCADE_KEV_auroc": 0.775,
+   "RERANK_auroc": 0.769
+  },
+  {
+   "doc": "X/Terms of Service.md",
+   "positives": 53,
+   "negatives": 26,
+   "CASCADE_KEV_auroc": 0.789,
+   "RERANK_auroc": 0.763
+  },
+  {
+   "doc": "YouTube/Privacy Policy.md",
+   "positives": 42,
+   "negatives": 22,
+   "CASCADE_KEV_auroc": 0.711,
+   "RERANK_auroc": 0.594
+  }
+ ],
+ "auroc": {
+  "CASCADE_KEV": 0.771,
+  "RERANK": 0.693
+ },
+ "CASCADE_KEV_minus_RERANK_auroc": {
+  "point": 0.078,
+  "ci95": [
+   0.034,
+   0.121
+  ],
+  "reading": "CASCADE_KEV better"
+ }
+}

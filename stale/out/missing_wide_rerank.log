@@ -1,0 +1,22 @@
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights:   4%|▎         | 14/393 [00:00<00:03, 118.51it/s]Loading weights:   9%|▊         | 34/393 [00:00<00:02, 146.78it/s]Loading weights:  13%|█▎        | 53/393 [00:00<00:02, 163.60it/s]Loading weights:  20%|██        | 80/393 [00:00<00:01, 183.52it/s]Loading weights:  29%|██▉       | 113/393 [00:00<00:01, 224.71it/s]Loading weights:  35%|███▍      | 136/393 [00:00<00:01, 206.75it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 538.01it/s]
+[1/20 2813s] Facebook/Privacy Policy.md
+[2/20 3343s] Facebook/Terms of Service.md
+[3/20 4114s] Instagram/Privacy Policy.md
+[4/20 4856s] LINE/Privacy Policy.md
+[5/20 5582s] LINE/Terms of Service.md
+[6/20 6664s] LinkedIn/Privacy Policy.md
+[7/20 6746s] Mastodon/Privacy Policy.md
+[8/20 7299s] Parler/Privacy Policy.md
+[9/20 7601s] Quora/Privacy Policy.md
+[10/20 8717s] Quora/Terms of Service.md
+[11/20 9773s] Reddit/Privacy Policy.md
+[12/20 12268s] Snapchat/Terms of Service.md
+[13/20 13617s] Spotify/Terms of Service.md
+[14/20 14282s] Telegram/Privacy Policy.md
+[15/20 14909s] TikTok/Privacy Policy.md
+[16/20 15763s] Tumblr/Terms of Service.md
+[17/20 16874s] Twitch/Terms of Service.md
+[18/20 18088s] WhatsApp/Privacy Policy.md
+[19/20 19548s] X/Terms of Service.md
+[20/20 21156s] YouTube/Privacy Policy.md
+rerank done

@@ -5,3 +5,7 @@ ac7dbe8a87a33b85f6fc1b6172e182645427a32092a1443347d176e3d6eba227 *stale/PLAN_mis
 437f5531c91de64cc74a257d667ce4647f2af8ca6c49311445a39c633d14c98a *run_missing_wide.sh
 # plan corrected 2026-11-16T08:06:43Z before any score (passages 1,033 -> 1,003, the document list's count; written time ~08:20 -> ~08:05)
 a72552458e8d6d8821e73a9d8c844ec16b2ba6cef3f6ffff22a8caf0b5f3a73c *stale/PLAN_missing_wide.md
+# outputs 2026-11-16T16:13:14Z
+fc89451477607993f9bcd7eb80a325480222b203ab8cda1d1c5e666cbf5f9c6a *stale/out/missing_wide_rerank.json
+ea5a4e74942c7d80802086b1b2bfaa2de55cbafe8067dd8d8818cf19c024d3bf *stale/out/missing_wide_kev.json
+6ec7cb89168c277eb9224e95b69e68ac2dff5bc81503ae90b5789eb7a877ec97 *stale/out/missing_wide_measures.json

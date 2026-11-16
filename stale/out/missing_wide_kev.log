@@ -1,0 +1,21 @@
+[1/20 519s] Facebook/Privacy Policy.md: {'seconds': 518.9, 'pieces': 70, 'cells': 141, 'asked_cells': 116, 'cached_cells': 25}
+[2/20 841s] Facebook/Terms of Service.md: {'seconds': 322.0, 'pieces': 20, 'cells': 198, 'asked_cells': 198, 'cached_cells': 0}
+[3/20 1165s] Instagram/Privacy Policy.md: {'seconds': 323.6, 'pieces': 37, 'cells': 81, 'asked_cells': 81, 'cached_cells': 0}
+[4/20 1545s] LINE/Privacy Policy.md: {'seconds': 380.1, 'pieces': 39, 'cells': 153, 'asked_cells': 147, 'cached_cells': 6}
+[5/20 1950s] LINE/Terms of Service.md: {'seconds': 405.8, 'pieces': 26, 'cells': 225, 'asked_cells': 225, 'cached_cells': 0}
+[6/20 2365s] LinkedIn/Privacy Policy.md: {'seconds': 414.6, 'pieces': 40, 'cells': 168, 'asked_cells': 168, 'cached_cells': 0}
+[7/20 2563s] Mastodon/Privacy Policy.md: {'seconds': 197.8, 'pieces': 5, 'cells': 180, 'asked_cells': 180, 'cached_cells': 0}
+[8/20 2894s] Parler/Privacy Policy.md: {'seconds': 330.8, 'pieces': 25, 'cells': 186, 'asked_cells': 186, 'cached_cells': 0}
+[9/20 3133s] Quora/Privacy Policy.md: {'seconds': 239.3, 'pieces': 16, 'cells': 144, 'asked_cells': 144, 'cached_cells': 0}
+[10/20 3581s] Quora/Terms of Service.md: {'seconds': 448.3, 'pieces': 35, 'cells': 213, 'asked_cells': 210, 'cached_cells': 3}
+[11/20 3981s] Reddit/Privacy Policy.md: {'seconds': 400.1, 'pieces': 42, 'cells': 195, 'asked_cells': 155, 'cached_cells': 40}
+[12/20 4669s] Snapchat/Terms of Service.md: {'seconds': 687.6, 'pieces': 64, 'cells': 249, 'asked_cells': 223, 'cached_cells': 26}
+[13/20 5073s] Spotify/Terms of Service.md: {'seconds': 403.9, 'pieces': 35, 'cells': 249, 'asked_cells': 210, 'cached_cells': 39}
+[14/20 5424s] Telegram/Privacy Policy.md: {'seconds': 350.8, 'pieces': 25, 'cells': 186, 'asked_cells': 186, 'cached_cells': 0}
+[15/20 5776s] TikTok/Privacy Policy.md: {'seconds': 351.8, 'pieces': 38, 'cells': 120, 'asked_cells': 120, 'cached_cells': 0}
+[16/20 6173s] Tumblr/Terms of Service.md: {'seconds': 396.8, 'pieces': 29, 'cells': 234, 'asked_cells': 216, 'cached_cells': 18}
+[17/20 6604s] Twitch/Terms of Service.md: {'seconds': 431.9, 'pieces': 38, 'cells': 228, 'asked_cells': 204, 'cached_cells': 24}
+[18/20 6974s] WhatsApp/Privacy Policy.md: {'seconds': 369.9, 'pieces': 42, 'cells': 114, 'asked_cells': 111, 'cached_cells': 3}
+[19/20 7425s] X/Terms of Service.md: {'seconds': 450.2, 'pieces': 47, 'cells': 237, 'asked_cells': 187, 'cached_cells': 50}
+[20/20 7898s] YouTube/Privacy Policy.md: {'seconds': 473.0, 'pieces': 54, 'cells': 192, 'asked_cells': 159, 'cached_cells': 33}
+kev done; asked 3426 cache hits 267

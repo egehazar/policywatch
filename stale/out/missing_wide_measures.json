@@ -1,0 +1,231 @@
+{
+ "docs": [
+  {
+   "doc": "Facebook/Privacy Policy.md",
+   "positives": 19,
+   "negatives": 28,
+   "CASCADE_KEV_auroc": 0.699,
+   "RERANK_auroc": 0.763
+  },
+  {
+   "doc": "Reddit/Privacy Policy.md",
+   "positives": 41,
+   "negatives": 24,
+   "CASCADE_KEV_auroc": 0.813,
+   "RERANK_auroc": 0.66
+  },
+  {
+   "doc": "Snapchat/Terms of Service.md",
+   "positives": 46,
+   "negatives": 37,
+   "CASCADE_KEV_auroc": 0.765,
+   "RERANK_auroc": 0.668
+  },
+  {
+   "doc": "Spotify/Terms of Service.md",
+   "positives": 40,
+   "negatives": 43,
+   "CASCADE_KEV_auroc": 0.845,
+   "RERANK_auroc": 0.636
+  },
+  {
+   "doc": "Twitch/Terms of Service.md",
+   "positives": 26,
+   "negatives": 50,
+   "CASCADE_KEV_auroc": 0.775,
+   "RERANK_auroc": 0.769
+  },
+  {
+   "doc": "X/Terms of Service.md",
+   "positives": 53,
+   "negatives": 26,
+   "CASCADE_KEV_auroc": 0.789,
+   "RERANK_auroc": 0.763
+  },
+  {
+   "doc": "YouTube/Privacy Policy.md",
+   "positives": 42,
+   "negatives": 22,
+   "CASCADE_KEV_auroc": 0.711,
+   "RERANK_auroc": 0.594
+  }
+ ],
+ "auroc": {
+  "CASCADE_KEV": 0.771,
+  "RERANK": 0.693
+ },
+ "CASCADE_KEV_minus_RERANK_auroc": {
+  "point": 0.078,
+  "ci95": [
+   0.034,
+   0.121
+  ],
+  "reading": "CASCADE_KEV better"
+ },
+ "timing": {
+  "KEV": {
+   "Facebook/Privacy Policy.md": {
+    "seconds": 518.9,
+    "pieces": 70,
+    "cells": 141,
+    "asked_cells": 116,
+    "cached_cells": 25
+   },
+   "Facebook/Terms of Service.md": {
+    "seconds": 322.0,
+    "pieces": 20,
+    "cells": 198,
+    "asked_cells": 198,
+    "cached_cells": 0
+   },
+   "Instagram/Privacy Policy.md": {
+    "seconds": 323.6,
+    "pieces": 37,
+    "cells": 81,
+    "asked_cells": 81,
+    "cached_cells": 0
+   },
+   "LINE/Privacy Policy.md": {
+    "seconds": 380.1,
+    "pieces": 39,
+    "cells": 153,
+    "asked_cells": 147,
+    "cached_cells": 6
+   },
+   "LINE/Terms of Service.md": {
+    "seconds": 405.8,
+    "pieces": 26,
+    "cells": 225,
+    "asked_cells": 225,
+    "cached_cells": 0
+   },
+   "LinkedIn/Privacy Policy.md": {
+    "seconds": 414.6,
+    "pieces": 40,
+    "cells": 168,
+    "asked_cells": 168,
+    "cached_cells": 0
+   },
+   "Mastodon/Privacy Policy.md": {
+    "seconds": 197.8,
+    "pieces": 5,
+    "cells": 180,
+    "asked_cells": 180,
+    "cached_cells": 0
+   },
+   "Parler/Privacy Policy.md": {
+    "seconds": 330.8,
+    "pieces": 25,
+    "cells": 186,
+    "asked_cells": 186,
+    "cached_cells": 0
+   },
+   "Quora/Privacy Policy.md": {
+    "seconds": 239.3,
+    "pieces": 16,
+    "cells": 144,
+    "asked_cells": 144,
+    "cached_cells": 0
+   },
+   "Quora/Terms of Service.md": {
+    "seconds": 448.3,
+    "pieces": 35,
+    "cells": 213,
+    "asked_cells": 210,
+    "cached_cells": 3
+   },
+   "Reddit/Privacy Policy.md": {
+    "seconds": 400.1,
+    "pieces": 42,
+    "cells": 195,
+    "asked_cells": 155,
+    "cached_cells": 40
+   },
+   "Snapchat/Terms of Service.md": {
+    "seconds": 687.6,
+    "pieces": 64,
+    "cells": 249,
+    "asked_cells": 223,
+    "cached_cells": 26
+   },
+   "Spotify/Terms of Service.md": {
+    "seconds": 403.9,
+    "pieces": 35,
+    "cells": 249,
+    "asked_cells": 210,
+    "cached_cells": 39
+   },
+   "Telegram/Privacy Policy.md": {
+    "seconds": 350.8,
+    "pieces": 25,
+    "cells": 186,
+    "asked_cells": 186,
+    "cached_cells": 0
+   },
+   "TikTok/Privacy Policy.md": {
+    "seconds": 351.8,
+    "pieces": 38,
+    "cells": 120,
+    "asked_cells": 120,
+    "cached_cells": 0
+   },
+   "Tumblr/Terms of Service.md": {
+    "seconds": 396.8,
+    "pieces": 29,
+    "cells": 234,
+    "asked_cells": 216,
+    "cached_cells": 18
+   },
+   "Twitch/Terms of Service.md": {
+    "seconds": 431.9,
+    "pieces": 38,
+    "cells": 228,
+    "asked_cells": 204,
+    "cached_cells": 24
+   },
+   "WhatsApp/Privacy Policy.md": {
+    "seconds": 369.9,
+    "pieces": 42,
+    "cells": 114,
+    "asked_cells": 111,
+    "cached_cells": 3
+   },
+   "X/Terms of Service.md": {
+    "seconds": 450.2,
+    "pieces": 47,
+    "cells": 237,
+    "asked_cells": 187,
+    "cached_cells": 50
+   },
+   "YouTube/Privacy Policy.md": {
+    "seconds": 473.0,
+    "pieces": 54,
+    "cells": 192,
+    "asked_cells": 159,
+    "cached_cells": 33
+   }
+  },
+  "RERANK": {
+   "Facebook/Privacy Policy.md": 2813.3,
+   "Facebook/Terms of Service.md": 530.1,
+   "Instagram/Privacy Policy.md": 770.8,
+   "LINE/Privacy Policy.md": 741.4,
+   "LINE/Terms of Service.md": 725.9,
+   "LinkedIn/Privacy Policy.md": 1082.1,
+   "Mastodon/Privacy Policy.md": 82.5,
+   "Parler/Privacy Policy.md": 552.5,
+   "Quora/Privacy Policy.md": 302.4,
+   "Quora/Terms of Service.md": 1115.7,
+   "Reddit/Privacy Policy.md": 1055.9,
+   "Snapchat/Terms of Service.md": 2495.1,
+   "Spotify/Terms of Service.md": 1348.7,
+   "Telegram/Privacy Policy.md": 665.5,
+   "TikTok/Privacy Policy.md": 626.9,
+   "Tumblr/Terms of Service.md": 853.7,
+   "Twitch/Terms of Service.md": 1111.1,
+   "WhatsApp/Privacy Policy.md": 1214.1,
+   "X/Terms of Service.md": 1459.3,
+   "YouTube/Privacy Policy.md": 1608.5
+  }
+ }
+}
