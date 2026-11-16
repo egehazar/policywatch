@@ -316,6 +316,8 @@ python -m stale.report  https://github.com/OpenTermsArchive/pga-versions kev   #
 python -m stale.export                                 # the same as a CSV
 python -m stale.daily   path/to/pga-versions           # what changed since the last run
 python -m stale.daily_suggest path/to/pga-versions kev # Kev's suggestions for the new drops in the daily digest
+python -m stale.missing_watch check path/to/pga-versions # missing-points documents whose text changed since scored
+<sentence-transformers python> -m stale.missing_watch rerank; python -m stale.missing_watch kev; python -m stale.missing_page
 python -m stale.recrawl                                # which ToS;DR documents to re-crawl first (all collections)
 ```
 The same for other Open Terms Archive collections (`stale/wide.py`; clone `<collection>-versions` and

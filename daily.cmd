@@ -8,5 +8,12 @@ rem word match.
 cd /d %~dp0
 py -m stale.daily ..\decision-serving\data\pga-versions >> stale\live\daily.log 2>&1
 py -m stale.daily_suggest ..\decision-serving\data\pga-versions kev >> stale\live\daily.log 2>&1 || py -m stale.daily_suggest ..\decision-serving\data\pga-versions bm25 >> stale\live\daily.log 2>&1
+rem Missing points: re-score the page's documents whose archived text changed (reranker in the dedupe-research venv,
+rem offline, then Kev on the reranker's top 3 passages per case), then rebuild out\site\missing.html.
+py -m stale.missing_watch check ..\decision-serving\data\pga-versions >> stale\live\daily.log 2>&1
+set "HF_HUB_OFFLINE=1"
+set "TRANSFORMERS_OFFLINE=1"
+..\dedupe-research\.venv\Scripts\python.exe -m stale.missing_watch rerank >> stale\live\daily.log 2>&1 && py -m stale.missing_watch kev >> stale\live\daily.log 2>&1
+py -m stale.missing_page >> stale\live\daily.log 2>&1
 if not exist stale\wide\live mkdir stale\wide\live
 for %%c in (contrib genai-contrib dating) do py -m stale.wide_daily %%c >> stale\wide\live\daily.log 2>&1
