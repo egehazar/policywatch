@@ -472,6 +472,32 @@ class TestMissing2(unittest.TestCase):
         self.assertEqual(cs['CASCADE_KEV']['d']['a'], (.7, 2))               # only the shortlist; tie to the earliest
         self.assertEqual(cs['CASCADE_QWEN']['d']['a'], (3.0, 2))
 
+    def test_report_keeps_the_prose(self):
+        from stale import missing2 as M, missing2_report as R
+        tmp = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, tmp)
+        diff = lambda r: {'point': .05, 'ci95': [.01, .09], 'reading': r}
+        row = {'doc': 'P/Terms.md', 'positives': 12, 'negatives': 40, **{f'{a}_{m}': .7 for a in M.ARMS for m in ('auroc', 'recall20')}}
+        meas = {'docs': [row], 'auroc': {a: .7 for a in M.ARMS}, 'recall_at_20': {a: .4 for a in M.ARMS},
+                'KEV_minus_RERANK_auroc': diff('KEV better'), 'KEV_minus_BM25_auroc': diff('KEV better'),
+                'CASCADE_KEV_minus_CASCADE_QWEN_auroc': diff('no difference shown'),
+                'cards': {'total': 30, 'random': 2, 'per_arm': {a: 10 for a in M.CARD_ARMS}},
+                'timing': {'KEV': {'P/Terms.md': {'seconds': 100.0, 'pieces': 10, 'questions': 5, 'asked_cells': 50, 'cached_cells': 0}},
+                           'RERANK': {'P/Terms.md': 20.0}, 'QWEN': {'P/Terms.md': {'seconds': 60.0, 'cells': 10, 'pieces': 4, 'no_yes_no': 0}}}}
+        prec = {a: {'cards': 10, 'yes': 4, 'yes_share': .4, 'wilson95': [.17, .69], 'yes_or_partly_share': .6} for a in M.CARD_ARMS}
+        res = {'random_yes': 0, 'random_n': 2, 'valid': True, 'precision_at_10': prec,
+               'precision_diff': {'KEV_minus_RERANK': {'point': 0, 'ci95': [-.1, .1]}, 'CASCADE_KEV_minus_CASCADE_QWEN': {'point': 0, 'ci95': [-.1, .1]}},
+               'reading_replication': 'REPLICATED', 'reading_reranker': 'KEV better', 'reading_base_family': 'no difference shown',
+               'measures': {k: meas[k] for k in ('auroc', 'recall_at_20', 'KEV_minus_RERANK_auroc', 'KEV_minus_BM25_auroc', 'CASCADE_KEV_minus_CASCADE_QWEN_auroc')}}
+        json.dump(meas, open(os.path.join(tmp, 'missing2_measures.json'), 'w')); json.dump(res, open(os.path.join(tmp, 'missing2_result.json'), 'w'))
+        dest = os.path.join(tmp, 'RESULT.md'); import contextlib, io
+        with contextlib.redirect_stdout(io.StringIO()):
+            R.build(out=tmp, dest=dest)
+            with open(dest, 'a', encoding='utf-8') as f: f.write('Hand-written reading.\n')
+            R.build(out=tmp, dest=dest)
+        s = open(dest, encoding='utf-8').read()
+        self.assertIn('**Replication: REPLICATED.**', s); self.assertIn('6.00 s per cell measured here', s)
+        self.assertEqual(s.count(R.MARK), 1); self.assertTrue(s.endswith(R.MARK + '\n\nHand-written reading.\n'))
+
 
 if __name__ == '__main__':
     unittest.main()
