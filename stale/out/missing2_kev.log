@@ -1,0 +1,11 @@
+[1/10 2064s] Bluesky/Terms of Service.md: {'seconds': 2063.9, 'pieces': 25, 'questions': 80, 'asked_cells': 1775, 'cached_cells': 225}
+[2/10 3480s] Instagram/Terms of Service.md: {'seconds': 1415.8, 'pieces': 22, 'questions': 60, 'asked_cells': 1232, 'cached_cells': 88}
+[3/10 5861s] LinkedIn/Terms of Service.md: {'seconds': 2381.6, 'pieces': 27, 'questions': 83, 'asked_cells': 2160, 'cached_cells': 81}
+[4/10 8041s] Parler/Terms of Service.md: {'seconds': 2180.0, 'pieces': 27, 'questions': 76, 'asked_cells': 1971, 'cached_cells': 81}
+[5/10 9778s] Pinterest/Privacy Policy.md: {'seconds': 1736.6, 'pieces': 36, 'questions': 45, 'asked_cells': 1536, 'cached_cells': 84}
+[6/10 12671s] Reddit/Terms of Service.md: {'seconds': 2892.7, 'pieces': 38, 'questions': 82, 'asked_cells': 2590, 'cached_cells': 526}
+[7/10 14241s] Snapchat/Privacy Policy.md: {'seconds': 1570.7, 'pieces': 28, 'questions': 60, 'asked_cells': 1456, 'cached_cells': 224}
+[8/10 16160s] Spotify/Privacy Policy.md: {'seconds': 1918.6, 'pieces': 35, 'questions': 56, 'asked_cells': 1750, 'cached_cells': 210}
+[9/10 18270s] Tumblr/Privacy Policy.md: {'seconds': 2110.1, 'pieces': 35, 'questions': 69, 'asked_cells': 1995, 'cached_cells': 420}
+[10/10 19589s] WhatsApp/Terms of Service.md: {'seconds': 1318.9, 'pieces': 20, 'questions': 70, 'asked_cells': 1180, 'cached_cells': 220}
+kev done; asked 17645 cache hits 2159

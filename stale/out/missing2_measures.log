@@ -1,0 +1,202 @@
+{
+ "docs": [
+  {
+   "doc": "Bluesky/Terms of Service.md",
+   "positives": 34,
+   "negatives": 46,
+   "KEV_auroc": 0.866,
+   "KEV_recall20": 0.559,
+   "RERANK_auroc": 0.748,
+   "RERANK_recall20": 0.412,
+   "BM25_auroc": 0.592,
+   "BM25_recall20": 0.353,
+   "CASCADE_KEV_auroc": 0.855,
+   "CASCADE_KEV_recall20": 0.559,
+   "CASCADE_QWEN_auroc": 0.839,
+   "CASCADE_QWEN_recall20": 0.529
+  },
+  {
+   "doc": "Instagram/Terms of Service.md",
+   "positives": 12,
+   "negatives": 48,
+   "KEV_auroc": 0.59,
+   "KEV_recall20": 0.417,
+   "RERANK_auroc": 0.536,
+   "RERANK_recall20": 0.333,
+   "BM25_auroc": 0.484,
+   "BM25_recall20": 0.333,
+   "CASCADE_KEV_auroc": 0.618,
+   "CASCADE_KEV_recall20": 0.417,
+   "CASCADE_QWEN_auroc": 0.679,
+   "CASCADE_QWEN_recall20": 0.5
+  },
+  {
+   "doc": "LinkedIn/Terms of Service.md",
+   "positives": 12,
+   "negatives": 71,
+   "KEV_auroc": 0.779,
+   "KEV_recall20": 0.5,
+   "RERANK_auroc": 0.494,
+   "RERANK_recall20": 0.167,
+   "BM25_auroc": 0.528,
+   "BM25_recall20": 0.25,
+   "CASCADE_KEV_auroc": 0.777,
+   "CASCADE_KEV_recall20": 0.5,
+   "CASCADE_QWEN_auroc": 0.694,
+   "CASCADE_QWEN_recall20": 0.417
+  },
+  {
+   "doc": "Parler/Terms of Service.md",
+   "positives": 12,
+   "negatives": 64,
+   "KEV_auroc": 0.564,
+   "KEV_recall20": 0.417,
+   "RERANK_auroc": 0.551,
+   "RERANK_recall20": 0.333,
+   "BM25_auroc": 0.393,
+   "BM25_recall20": 0.25,
+   "CASCADE_KEV_auroc": 0.602,
+   "CASCADE_KEV_recall20": 0.417,
+   "CASCADE_QWEN_auroc": 0.592,
+   "CASCADE_QWEN_recall20": 0.417
+  },
+  {
+   "doc": "Pinterest/Privacy Policy.md",
+   "positives": 19,
+   "negatives": 26,
+   "KEV_auroc": 0.737,
+   "KEV_recall20": 0.684,
+   "RERANK_auroc": 0.66,
+   "RERANK_recall20": 0.526,
+   "BM25_auroc": 0.494,
+   "BM25_recall20": 0.368,
+   "CASCADE_KEV_auroc": 0.749,
+   "CASCADE_KEV_recall20": 0.684,
+   "CASCADE_QWEN_auroc": 0.749,
+   "CASCADE_QWEN_recall20": 0.684
+  },
+  {
+   "doc": "Reddit/Terms of Service.md",
+   "positives": 43,
+   "negatives": 39,
+   "KEV_auroc": 0.714,
+   "KEV_recall20": 0.326,
+   "RERANK_auroc": 0.668,
+   "RERANK_recall20": 0.256,
+   "BM25_auroc": 0.674,
+   "BM25_recall20": 0.326,
+   "CASCADE_KEV_auroc": 0.704,
+   "CASCADE_KEV_recall20": 0.302,
+   "CASCADE_QWEN_auroc": 0.701,
+   "CASCADE_QWEN_recall20": 0.302
+  },
+  {
+   "doc": "Snapchat/Privacy Policy.md",
+   "positives": 32,
+   "negatives": 28,
+   "KEV_auroc": 0.674,
+   "KEV_recall20": 0.469,
+   "RERANK_auroc": 0.775,
+   "RERANK_recall20": 0.5,
+   "BM25_auroc": 0.628,
+   "BM25_recall20": 0.438,
+   "CASCADE_KEV_auroc": 0.701,
+   "CASCADE_KEV_recall20": 0.469,
+   "CASCADE_QWEN_auroc": 0.757,
+   "CASCADE_QWEN_recall20": 0.5
+  },
+  {
+   "doc": "Spotify/Privacy Policy.md",
+   "positives": 24,
+   "negatives": 32,
+   "KEV_auroc": 0.807,
+   "KEV_recall20": 0.625,
+   "RERANK_auroc": 0.693,
+   "RERANK_recall20": 0.542,
+   "BM25_auroc": 0.602,
+   "BM25_recall20": 0.458,
+   "CASCADE_KEV_auroc": 0.771,
+   "CASCADE_KEV_recall20": 0.542,
+   "CASCADE_QWEN_auroc": 0.725,
+   "CASCADE_QWEN_recall20": 0.542
+  },
+  {
+   "doc": "Tumblr/Privacy Policy.md",
+   "positives": 42,
+   "negatives": 27,
+   "KEV_auroc": 0.679,
+   "KEV_recall20": 0.381,
+   "RERANK_auroc": 0.677,
+   "RERANK_recall20": 0.381,
+   "BM25_auroc": 0.626,
+   "BM25_recall20": 0.31,
+   "CASCADE_KEV_auroc": 0.674,
+   "CASCADE_KEV_recall20": 0.405,
+   "CASCADE_QWEN_auroc": 0.668,
+   "CASCADE_QWEN_recall20": 0.357
+  },
+  {
+   "doc": "WhatsApp/Terms of Service.md",
+   "positives": 26,
+   "negatives": 44,
+   "KEV_auroc": 0.781,
+   "KEV_recall20": 0.423,
+   "RERANK_auroc": 0.677,
+   "RERANK_recall20": 0.423,
+   "BM25_auroc": 0.58,
+   "BM25_recall20": 0.269,
+   "CASCADE_KEV_auroc": 0.757,
+   "CASCADE_KEV_recall20": 0.423,
+   "CASCADE_QWEN_auroc": 0.749,
+   "CASCADE_QWEN_recall20": 0.462
+  }
+ ],
+ "auroc": {
+  "KEV": 0.719,
+  "RERANK": 0.648,
+  "BM25": 0.56,
+  "CASCADE_KEV": 0.721,
+  "CASCADE_QWEN": 0.715
+ },
+ "recall_at_20": {
+  "KEV": 0.48,
+  "RERANK": 0.387,
+  "BM25": 0.336,
+  "CASCADE_KEV": 0.472,
+  "CASCADE_QWEN": 0.471
+ },
+ "KEV_minus_RERANK_auroc": {
+  "point": 0.071,
+  "ci95": [
+   0.025,
+   0.117
+  ],
+  "reading": "KEV better"
+ },
+ "KEV_minus_BM25_auroc": {
+  "point": 0.159,
+  "ci95": [
+   0.095,
+   0.223
+  ],
+  "reading": "KEV better"
+ },
+ "CASCADE_KEV_minus_CASCADE_QWEN_auroc": {
+  "point": 0.006,
+  "ci95": [
+   -0.018,
+   0.027
+  ],
+  "reading": "no difference shown"
+ },
+ "cards": {
+  "total": 230,
+  "random": 20,
+  "per_arm": {
+   "KEV": 100,
+   "RERANK": 100,
+   "CASCADE_KEV": 100,
+   "CASCADE_QWEN": 100
+  }
+ }
+}

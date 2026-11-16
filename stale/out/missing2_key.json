@@ -1,0 +1,2032 @@
+{
+ "N001": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "Other rules, terms, conditions and/or guidelines may apply",
+  "piece": 5,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N002": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "This service assumes no liability for unauthorized access to your personal information",
+  "piece": 22,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N003": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 10,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N004": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "Harming minors in any ways is prohibited",
+  "piece": 6,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N005": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "This service is only available to users over a certain age",
+  "piece": 2,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N006": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "Content you post may be edited by the service for any reason",
+  "piece": 6,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV"
+  ]
+ },
+ "N007": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 11,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N008": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "Your personal data may be aggregated into statistics",
+  "piece": 24,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N009": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "This service provides a list of third parties involved in its operation",
+  "piece": 25,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N010": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "Your content can be licensed to third parties",
+  "piece": 10,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N011": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "Your account can be suspended for several reasons",
+  "piece": 18,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV"
+  ]
+ },
+ "N012": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 26,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N013": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "A complaint mechanism is provided for the handling of personal data",
+  "piece": 32,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N014": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 2,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N015": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "Specific content can be deleted without reason and may be removed without prior notice",
+  "piece": 13,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N016": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "Many different types of personal data are collected",
+  "piece": 24,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN"
+  ]
+ },
+ "N017": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "Third parties are involved in operating the service",
+  "piece": 5,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N018": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "Many third parties are involved in operating the service",
+  "piece": 21,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN"
+  ]
+ },
+ "N019": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "You can opt out of receiving promotional communications",
+  "piece": 1,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N020": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "Your content can be deleted if you violate the terms",
+  "piece": 14,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N021": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "You can retrieve an archive of your data",
+  "piece": 1,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N022": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "This service does not guarantee that it or the products obtained through it meet your expectations or requirements",
+  "piece": 17,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N023": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "Many different types of personal data are collected",
+  "piece": 23,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N024": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 19,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N025": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "You aren’t forced into binding arbitration in case of disputes",
+  "piece": 19,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV"
+  ]
+ },
+ "N026": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "First-party cookies are used",
+  "piece": 8,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N027": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 11,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N028": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 16,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N029": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "First-party cookies are used",
+  "piece": 14,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N030": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "You can limit how your information is used by third parties and the service",
+  "piece": 28,
+  "arms": [
+   "CASCADE_KEV",
+   "RERANK"
+  ]
+ },
+ "N031": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "You have the right to leave this service at any time",
+  "piece": 12,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N032": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "Other rules, terms, conditions and/or guidelines may apply",
+  "piece": 18,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N033": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "You aren’t forced into binding arbitration in case of disputes",
+  "piece": 7,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N034": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "Spidering, crawling, or accessing the site through any automated means is not allowed",
+  "piece": 10,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N035": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 14,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "RERANK"
+  ]
+ },
+ "N036": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "Your personal information is used for many different purposes",
+  "piece": 18,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N037": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "Other rules, terms, conditions and/or guidelines may apply",
+  "piece": 5,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N038": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "This service shares your personal data with third parties that are not essential to its operation",
+  "piece": 27,
+  "arms": [
+   "CASCADE_KEV"
+  ]
+ },
+ "N039": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "Your content can be licensed to third parties",
+  "piece": 4,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N040": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "You are prohibited from attempting to gain unauthorized access to other computer systems",
+  "piece": 9,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N041": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "You are responsible for maintaining the security of your account and for the activities on your account",
+  "piece": 19,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N042": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "The service has non-exclusive use of your content",
+  "piece": 11,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N043": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+  "piece": 11,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N044": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "You maintain ownership of your content",
+  "piece": 8,
+  "arms": [
+   "CASCADE_QWEN",
+   "RERANK"
+  ]
+ },
+ "N045": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "You agree not to use the service for illegal purposes",
+  "piece": 12,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N046": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "Your private content may be accessed by people working for the service",
+  "piece": 5,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N047": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision",
+  "piece": 25,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N048": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "Many different types of personal data are collected",
+  "piece": 33,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N049": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision",
+  "piece": 21,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV"
+  ]
+ },
+ "N050": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "This service assumes no responsibility and liability for the contents of links to other websites",
+  "piece": 5,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N051": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "The service claims that third parties it shares your personal information with are bound by confidentiality obligations",
+  "piece": 5,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N052": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "This service assumes no responsibility and liability for the contents of links to other websites",
+  "piece": 14,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N053": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 16,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N054": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 2,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV"
+  ]
+ },
+ "N055": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "This service gives your personal data to third parties involved in its operation",
+  "piece": 5,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N056": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Many third parties are involved in operating the service",
+  "piece": 5,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N057": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "A free help desk is provided",
+  "piece": 1,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N058": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 31,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN"
+  ]
+ },
+ "N059": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 34,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N060": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 12,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N061": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "Referring and/or exit pages are tracked",
+  "piece": 8,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N062": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 36,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N063": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 8,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N064": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "This service assumes no liability for unauthorized access to your personal information",
+  "piece": 21,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N065": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "The data retention period is kept to the minimum necessary for fulfilling its purposes",
+  "piece": 32,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N066": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 23,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N067": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "Your provided identifiable information is actively checked by the service",
+  "piece": 17,
+  "arms": [
+   "KEV",
+   "RANDOM"
+  ]
+ },
+ "N068": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 32,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N069": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "This service assumes no responsibility and liability for the contents of links to other websites",
+  "piece": 6,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N070": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "This service informs you that its Terms of Service does not apply to third-party services",
+  "piece": 0,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N071": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "The service will only respond to government requests that are reasonable",
+  "piece": 18,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N072": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "Your content can be distributed through any media known now or in the future",
+  "piece": 4,
+  "arms": [
+   "CASCADE_QWEN",
+   "RERANK"
+  ]
+ },
+ "N073": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "The service has non-exclusive use of your content",
+  "piece": 9,
+  "arms": [
+   "CASCADE_QWEN",
+   "RERANK"
+  ]
+ },
+ "N074": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "You can limit how your information is used by third parties and the service",
+  "piece": 33,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N075": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "The service claims to be GDPR compliant for European users",
+  "piece": 20,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N076": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+  "piece": 16,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N077": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "You are informed about the risk of publishing personal info online",
+  "piece": 5,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N078": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "This service claims that your personal data is not being sold",
+  "piece": 20,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N079": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "Your data may be processed and stored anywhere in the world",
+  "piece": 32,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN"
+  ]
+ },
+ "N080": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 33,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N081": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "The data retention period is kept to the minimum necessary for fulfilling its purposes",
+  "piece": 28,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N082": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Extra data may be collected about you through promotions",
+  "piece": 23,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N083": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "Spidering, crawling, or accessing the site through any automated means is not allowed",
+  "piece": 7,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N084": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "Promises will be kept after a merger or acquisition",
+  "piece": 17,
+  "arms": [
+   "CASCADE_KEV"
+  ]
+ },
+ "N085": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "Many third parties are involved in operating the service",
+  "piece": 16,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N086": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "Third parties are involved in operating the service",
+  "piece": 9,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N087": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "You cannot distribute or disclose your account to third parties",
+  "piece": 15,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV"
+  ]
+ },
+ "N088": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "Specific content can be deleted without reason and may be removed without prior notice",
+  "piece": 8,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV"
+  ]
+ },
+ "N089": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 3,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N090": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "You must create an account to use this service",
+  "piece": 16,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N091": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "Your content can be licensed to third parties",
+  "piece": 9,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N092": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 10,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N093": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Third parties are involved in operating the service",
+  "piece": 18,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N094": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "A complaint mechanism is provided for the handling of personal data",
+  "piece": 34,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N095": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "This service informs you that its Privacy Policy does not apply to third-party services",
+  "piece": 32,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N096": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "This service gives your personal data to third parties involved in its operation",
+  "piece": 27,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N097": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "You can choose with whom you share content",
+  "piece": 24,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N098": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "The service has non-exclusive use of your content",
+  "piece": 8,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N099": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 1,
+  "arms": [
+   "CASCADE_QWEN",
+   "RERANK"
+  ]
+ },
+ "N100": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "Your personal data may be aggregated into statistics",
+  "piece": 7,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N101": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "The service will only respond to government requests that are reasonable",
+  "piece": 10,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N102": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "Tracking pixels are used in service-to-user communication",
+  "piece": 8,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N103": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "The terms for this service are translated into different languages",
+  "piece": 12,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N104": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "You agree not to use the service for illegal purposes",
+  "piece": 3,
+  "arms": [
+   "CASCADE_KEV"
+  ]
+ },
+ "N105": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "Your content can be deleted if you violate the terms",
+  "piece": 8,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV"
+  ]
+ },
+ "N106": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "No guarantee is made regarding the correction of software errors",
+  "piece": 10,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N107": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "Your content can be deleted if you violate the terms",
+  "piece": 6,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N108": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "Your content can be deleted if you violate the terms",
+  "piece": 2,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N109": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "You are prohibited from publishing any third party’s personally identifiable information without their consent",
+  "piece": 10,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N110": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 14,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N111": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "You can choose with whom you share content",
+  "piece": 27,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N112": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "Your content can be deleted if you violate the terms",
+  "piece": 15,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV"
+  ]
+ },
+ "N113": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "Spidering, crawling, or accessing the site through any automated means is not allowed",
+  "piece": 28,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N114": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "Your account can be suspended for several reasons",
+  "piece": 36,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N115": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 16,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N116": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "Sensitive data is collected and shared to target advertising",
+  "piece": 13,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N117": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 21,
+  "arms": [
+   "CASCADE_KEV"
+  ]
+ },
+ "N118": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "The service is provided 'as is' and to be used at your sole risk",
+  "piece": 17,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N119": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "Blocking first-party cookies may limit your ability to use the service",
+  "piece": 28,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N120": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+  "piece": 28,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N121": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "Spidering, crawling, or accessing the site through any automated means is not allowed",
+  "piece": 6,
+  "arms": [
+   "CASCADE_QWEN",
+   "RERANK"
+  ]
+ },
+ "N122": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 23,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N123": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "If you are the target of a copyright claim, your content and/or your account may be removed",
+  "piece": 13,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N124": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Referring and/or exit pages are tracked",
+  "piece": 16,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N125": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 14,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N126": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "A license is kept on user-generated content even after you close your account",
+  "piece": 21,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N127": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "The service suspends your account after inactivity for a certain or uncertain time",
+  "piece": 19,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N128": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "This service informs you that its Privacy Policy does not apply to third-party services",
+  "piece": 1,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N129": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "Other rules, terms, conditions and/or guidelines may apply",
+  "piece": 0,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN"
+  ]
+ },
+ "N130": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "The service claims to be GDPR compliant for European users",
+  "piece": 27,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N131": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "No guarantee is made reguarding the accuracy and/or reliability of the information provided",
+  "piece": 17,
+  "arms": [
+   "CASCADE_QWEN",
+   "RERANK"
+  ]
+ },
+ "N132": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "No refunds will be issued",
+  "piece": 4,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N133": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "You can limit how your information is used by third parties and the service",
+  "piece": 9,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N134": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "Your account can be suspended for several reasons",
+  "piece": 14,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N135": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "Your private content may be accessed by people working for the service",
+  "piece": 25,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N136": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "Sensitive data is collected and shared to target advertising",
+  "piece": 34,
+  "arms": [
+   "CASCADE_KEV"
+  ]
+ },
+ "N137": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "You must create an account to use this service",
+  "piece": 24,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N138": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": " You are being tracked via social media cookies/pixels",
+  "piece": 8,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N139": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "Content you post may be edited by the service for any reason",
+  "piece": 26,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N140": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+  "piece": 34,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N141": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "Your account can be suspended for several reasons",
+  "piece": 14,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N142": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 33,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N143": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "You may be tracked on other websites",
+  "piece": 26,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV"
+  ]
+ },
+ "N144": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "You must report to the service any unauthorized use of your account or any breach of security",
+  "piece": 15,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N145": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "Your personal data may be sold unless you opt out",
+  "piece": 8,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N146": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "Your account can be deleted or permanently suspended without prior notice and without a reason",
+  "piece": 8,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N147": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "No guarantee is made regarding the correction of software errors",
+  "piece": 14,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N148": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "This service cannot be held responsible for disputes that you may have with other users",
+  "piece": 6,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N149": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "This service shares your personal data with third parties that are not essential to its operation",
+  "piece": 6,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N150": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "Alternative accounts are not allowed",
+  "piece": 2,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N151": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "A complaint mechanism is provided for the handling of personal data",
+  "piece": 23,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N152": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "Content you post may be edited by the service for any reason",
+  "piece": 13,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N153": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "This service cannot be held responsible for disputes that you may have with other users",
+  "piece": 3,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N154": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "This service cannot be held responsible for disputes that you may have with other users",
+  "piece": 11,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N155": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "Private messages can be read",
+  "piece": 4,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N156": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "The service will only respond to government requests that are reasonable",
+  "piece": 27,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N157": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "You aren’t forced into binding arbitration in case of disputes",
+  "piece": 7,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N158": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "Third-party cookies are employed, but with opt out instructions",
+  "piece": 14,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N159": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 14,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N160": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 14,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N161": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "Your content can be deleted if you violate the terms",
+  "piece": 26,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N162": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "Other rules, terms, conditions and/or guidelines may apply",
+  "piece": 21,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N163": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "The service claims that third parties it shares your personal information with are bound by confidentiality obligations",
+  "piece": 33,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N164": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 14,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN"
+  ]
+ },
+ "N165": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "Your private content may be accessed by people working for the service",
+  "piece": 19,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N166": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "You must create an account to use this service",
+  "piece": 3,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV",
+   "RANDOM",
+   "RERANK"
+  ]
+ },
+ "N167": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "The data retention period is kept to the minimum necessary for fulfilling its purposes",
+  "piece": 29,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N168": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": " The service is only available in some countries approved by its government",
+  "piece": 13,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N169": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 5,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N170": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "No warranty is made regarding an uninterrupted, timely, secure and/or error-free experience",
+  "piece": 17,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N171": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "The service will only respond to government requests that are reasonable",
+  "piece": 28,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV"
+  ]
+ },
+ "N172": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "If you offer suggestions to the service, they may use that without your approval or compensation, but they do not become the owner",
+  "piece": 13,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N173": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "If you offer suggestions to the service, they may use that without your approval or compensation, but they do not become the owner",
+  "piece": 3,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N174": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "You maintain ownership of your content",
+  "piece": 10,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV"
+  ]
+ },
+ "N175": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 21,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N176": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+  "piece": 14,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N177": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "Your account can be suspended for several reasons",
+  "piece": 17,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN"
+  ]
+ },
+ "N178": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "Your private content may be accessed by people working for the service",
+  "piece": 27,
+  "arms": [
+   "CASCADE_KEV",
+   "RERANK"
+  ]
+ },
+ "N179": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage",
+  "piece": 21,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV"
+  ]
+ },
+ "N180": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "You can opt out of targeted advertising",
+  "piece": 3,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N181": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "Certain features may be throttled",
+  "piece": 12,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N182": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "This service gives your personal data to third parties involved in its operation",
+  "piece": 6,
+  "arms": [
+   "CASCADE_KEV"
+  ]
+ },
+ "N183": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "You can opt out of receiving promotional communications",
+  "piece": 24,
+  "arms": [
+   "CASCADE_KEV"
+  ]
+ },
+ "N184": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "You can opt out of receiving promotional communications",
+  "piece": 8,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N185": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 17,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N186": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+  "piece": 21,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N187": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Your private content may be accessed by people working for the service",
+  "piece": 27,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N188": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "This service claims that your personal data is not being sold",
+  "piece": 27,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N189": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "Defend, indemnify, hold harmless; survives termination",
+  "piece": 11,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N190": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "A secure, anonymized record of your data may be kept for analytical purposes after the data retention period ends",
+  "piece": 29,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N191": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "The service claims to be CCPA compliant for California users",
+  "piece": 28,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV"
+  ]
+ },
+ "N192": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "Third-party cookies are used for statistics",
+  "piece": 8,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N193": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "No guarantee is made regarding the correction of software errors",
+  "piece": 10,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N194": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "Spidering, crawling, or accessing the site through any automated means is not allowed",
+  "piece": 22,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N195": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 23,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV"
+  ]
+ },
+ "N196": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "This service informs you that its Privacy Policy does not apply to third-party services",
+  "piece": 33,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN"
+  ]
+ },
+ "N197": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "You have the right to leave this service at any time",
+  "piece": 19,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV"
+  ]
+ },
+ "N198": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "Sensitive data is collected and shared to target advertising",
+  "piece": 9,
+  "arms": [
+   "CASCADE_KEV"
+  ]
+ },
+ "N199": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "You may be tracked on other websites",
+  "piece": 33,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N200": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "Alternative accounts are not allowed",
+  "piece": 1,
+  "arms": [
+   "CASCADE_KEV",
+   "KEV"
+  ]
+ },
+ "N201": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "Your content can be deleted if you violate the terms",
+  "piece": 6,
+  "arms": [
+   "CASCADE_QWEN",
+   "RERANK"
+  ]
+ },
+ "N202": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "Third parties are involved in operating the service",
+  "piece": 4,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N203": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "Specific content can be deleted without reason and may be removed without prior notice",
+  "piece": 17,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N204": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "You can opt out of receiving promotional communications",
+  "piece": 34,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N205": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+  "piece": 19,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N206": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "You should revisit the terms periodically, although in case of material changes, the service will notify",
+  "piece": 3,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N207": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "Your private content may be accessed by people working for the service",
+  "piece": 4,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N208": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "Content you post may be edited by the service for any reason",
+  "piece": 17,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N209": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 17,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N210": {
+  "doc": "Parler/Terms of Service.md",
+  "case": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+  "piece": 26,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N211": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "You can choose with whom you share content",
+  "piece": 15,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N212": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "This service informs you that its Privacy Policy does not apply to third-party services",
+  "piece": 27,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N213": {
+  "doc": "Instagram/Terms of Service.md",
+  "case": "A license is kept on user-generated content even after you close your account",
+  "piece": 16,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N214": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "This service gives your personal data to third parties involved in its operation",
+  "piece": 18,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N215": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "You may be tracked on other websites",
+  "piece": 15,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N216": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "This service cannot be held responsible for disputes that you may have with other users",
+  "piece": 12,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N217": {
+  "doc": "LinkedIn/Terms of Service.md",
+  "case": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+  "piece": 3,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N218": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 21,
+  "arms": [
+   "CASCADE_KEV",
+   "RERANK"
+  ]
+ },
+ "N219": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 13,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N220": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 14,
+  "arms": [
+   "KEV"
+  ]
+ },
+ "N221": {
+  "doc": "Reddit/Terms of Service.md",
+  "case": "This service assumes no responsibility and liability for the contents of links to other websites",
+  "piece": 26,
+  "arms": [
+   "CASCADE_KEV",
+   "RERANK"
+  ]
+ },
+ "N222": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Third parties are involved in operating the service",
+  "piece": 5,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N223": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "You can choose with whom you share content",
+  "piece": 26,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N224": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "There is a date of the last update of the agreements",
+  "piece": 0,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV"
+  ]
+ },
+ "N225": {
+  "doc": "Bluesky/Terms of Service.md",
+  "case": "You aren’t forced into binding arbitration in case of disputes",
+  "piece": 17,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N226": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "Your personal data may be sold unless you opt out",
+  "piece": 7,
+  "arms": [
+   "RANDOM"
+  ]
+ },
+ "N227": {
+  "doc": "Tumblr/Privacy Policy.md",
+  "case": "Third-party cookies are used for advertising",
+  "piece": 28,
+  "arms": [
+   "RERANK"
+  ]
+ },
+ "N228": {
+  "doc": "WhatsApp/Terms of Service.md",
+  "case": "You must report to the service any unauthorized use of your account or any breach of security",
+  "piece": 7,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ },
+ "N229": {
+  "doc": "Spotify/Privacy Policy.md",
+  "case": "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+  "piece": 9,
+  "arms": [
+   "CASCADE_QWEN"
+  ]
+ },
+ "N230": {
+  "doc": "Snapchat/Privacy Policy.md",
+  "case": "Third-party cookies are used for advertising",
+  "piece": 14,
+  "arms": [
+   "CASCADE_KEV",
+   "CASCADE_QWEN",
+   "KEV",
+   "RERANK"
+  ]
+ }
+}

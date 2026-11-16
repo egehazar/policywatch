@@ -4,3 +4,13 @@ c20fb90f4ada1d50f422b6fb4dc3376d679ac4068a6e4ac6b4827f6c3a661317 *stale/missing2
 e1aca785192156798bbb6d92535a4d859f81f37733e086ffbae4c43569f19cd6 *stale/out/missing2_docs.json
 # correction 2026-11-15T20:43:04Z, still before any score: the plan's written-at time (~20:40, not ~21:05 UTC)
 8a5cf8a62475fcb351e967bbdd5b50091addff64bc2c9c4c5b6afd9c8d94ec67 *stale/PREREG_missing2.md
+# scores, measures, cards and key 2026-11-16T07:21:26Z, before any rating
+1b3e022fbf0a59dd1e8e909454cb91c673b6bf8257037f50f8e9e9136937a8e6 *stale/out/missing2_kev.json
+5773a9b84d67b583e3a2a60a273b9220dc07f773739551c0970732cd7db15d0b *stale/out/missing2_rerank.json
+7f37f29fc836b25a12f38eb3644627290d1d0a406a639afe9783d307f501f8b2 *stale/out/missing2_bm25.json
+2522b48bf405fceec53294a9c6c7ea284fb1f0599413a3820038f499cf850153 *stale/out/missing2_qwen.json
+382015ef4e1cf9b3698eed8af1603d20671319d1d714aa56e15b601c9ff89bac *stale/out/missing2_measures.json
+08a93e9975fd0b56c9ea126ff0066a4b0d092272f9195431e2800bb43d549f04 *stale/audit_missing2/cards.md
+35648d82613e48d64f1b81d5a5166dbc1e6efdc9487c104c6050480e99bfba9c *stale/audit_missing2/README.md
+12c9cd2f260a96f61a36162c51579a506a732d4a03950d54a8a2d8cccf4bf91a *stale/audit_missing2/verdicts.json
+44247280b402c93f10f4b7de25771e3c11ae46141352cc61b9a9bafdd73f5607 *stale/out/missing2_key.json
