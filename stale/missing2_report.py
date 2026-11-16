@@ -60,7 +60,8 @@ def build(out=OUT, dest=None):
         L += ['## Measure 3: new suggestions, rated blind (one Claude Opus subagent; case and passage only)', '',
               f'{c.get("total", "?")} cards: each card arm\'s top 10 negatives per document with its best passage, '
               f'deduplicated over document, case and passage, plus {c.get("random", "?")} random controls. A negative is a '
-              'case with no approved point on the service. BM25 is not a card arm in this test.', '',
+              'case with no approved point on the service (except 3 of the 425, whose approved point has a quote under 3 '
+              'words: see the caveats). BM25 is not a card arm in this test.', '',
               '| | ' + ' | '.join(SHORT[a] for a in CARD_ARMS) + ' |', '|---|' + '---|' * len(CARD_ARMS),
               '| Precision@10: rated YES [Wilson 95%] | ' + ' | '.join(pct(p[a]) for a in CARD_ARMS) + ' |',
               '| YES or PARTLY | ' + ' | '.join(f'{p[a]["yes_or_partly_share"]:.3f}' for a in CARD_ARMS) + ' |', '',

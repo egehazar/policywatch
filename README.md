@@ -24,14 +24,20 @@ policywatch watches the archive for the moment a curator's evidence stops being 
     that label was checked only after the test (59 of 62, exploratory). A pre-registered four-document pilot asked
     the reverse question, which cases a document states that ToS;DR has no approved point for on the service: 18 of
     Kev's 40 top-10 suggestions stated one (blind LLM raters; GPT 20), against 9 for the reranker and 6 for BM25.
-    Reading: worth building, on Kev (`stale/RESULT_missing.md`; a pilot, not a general result).
+    Reading: worth building, on Kev (`stale/RESULT_missing.md`; a pilot, not a general result). A larger
+    pre-registered test on 10 more documents replicated it: 69 of Kev's 100 top-10 suggestions rated YES (GPT 73)
+    against the reranker's 46, Kev better than the reranker on both measures, 2 of 20 random controls YES
+    (`stale/RESULT_missing2.md`). For 43 of Kev's 69, an AI check of the titles found nothing close among the
+    service's approved cases (exploratory; no person has checked a suggestion).
   - *What the decision model adds.* Its base family's ordinary 4B instruct model, asked the same yes/no question,
     showed no difference from Kev on either measure, and Kev's probabilities were not shown to be better calibrated
-    (exploratory).
+    (exploratory). The larger missing-points test ran it on the same shortlisted passages as Kev: again no difference
+    shown (AUROC .721 against .715; rated YES 73 against 70).
     What the decision-model endpoint added is cost: it reads a passage once for all its questions, so it took 1.9x
     (part B) to 3.1x (part A) less time per passage and question than the instruct model, growing with the number of
     questions per document; with one question per document Kev is the slower one. On the missing-points pilot (62-78
-    questions per passage) Kev took 1.8 h where the instruct model would need about 10 h (5.7x, estimated).
+    questions per passage) Kev took 1.8 h where the instruct model would need about 10 h (5.7x, estimated); in the
+    larger test the instruct model, measured, took 6.05 s per question against Kev's 1.11 s (5.4x).
 - **Meaning-diff scanner (`policywatch/`, the original goal, failed its tests).** Asks a decision model a fixed bank of
   questions about the old and new text of every update and lists the answers whose score moved. It did not find real
   changes well enough; the results are below.
@@ -57,6 +63,7 @@ Each test was hashed before scoring. All results are reported, including failure
 | Kev's short question layout for relocation | **Not adopted** | 20 platforms: -2.5 points [-5.3, +0.5], failing the bar (lower bound at least -5). Held-out services: 0.0 [-3.6, +4.0], passing. No rule for the disagreement; the page keeps the layout that passed on its own platforms. | `stale/RESULT_relocate2.md` |
 | Suggest where a stale point's case is now stated (141 points) | **Page leads with Kev** (provisional) | Top-1 on 69 points whose quote is gone, averaged over documents: Kev 74%, BM25 with the old quote 77% (no difference shown), bge 49%, BM25 40%. Pooled over points the first two swap (Kev .70, BM25 with the old quote .61). Gold is a model rater's (Claude Opus) until a human check; a second whole key built by GPT from the same texts (exploratory, plan hashed before GPT ran) gives Kev 78%, still ahead of BM25 (34%) and bge (43%). | `stale/RESULT_suggest.md` |
 | Missing points pilot: cases a document states that ToS;DR has no approved point for (4 documents, blind LLM raters) | **Worth building, on Kev** | Known positives ranked above negatives, AUROC: Kev .76, reranker .67, BM25 .54 (Kev - reranker +.08 [+.01, +.16], Kev better; Kev - BM25 +.22 [+.12, +.31]). New suggestions rated YES among each method's top 10 per document: Kev 18 of 40 (.45 [.31, .60]), reranker 9, BM25 6; GPT as second rater: 20, 9, 5 (kappa .72); 0 of 10 random controls YES. Kev 1.8 h, instruct model about 10.4 h (estimate), reranker 0.7 h. Base family not run, so the lead is not shown to come from decision-model training. | `stale/RESULT_missing.md` |
+| Missing points, larger test: 10 more documents, and Kev against its base family on the same passages (blind LLM raters) | **Replicated; Kev better than the reranker; no difference from the base family** | AUROC: Kev .72, reranker .65, BM25 .56 (Kev - reranker +.07 [+.03, +.12]; Kev - BM25 +.16 [+.10, +.22]); Kev and Qwen3.5-4B on the reranker's top 3 passages per case .721 and .715 (+.006 [-.018, +.027]). Rated YES among the top 10: Kev 69 of 100 [.59, .77], reranker 46, Kev on the shortlist 73, Qwen on the shortlist 70; GPT 73, 49, 76, 72 (kappa .79); 2 of 20 random controls YES. Kev 5.4 h; Qwen 6.05 s per question (5.4x Kev, measured); reranker 1.7 h. | `stale/RESULT_missing2.md` |
 | Label a stale point "case no longer stated" | **Not shipped** (provisional) | Kev ranks the 15 no-longer-stated points low (AUROC .92), but its flag was right for 6 of 12 flagged; the bar was 75%. | `stale/RESULT_suggest.md` |
 
 ### Meaning-diff scanner
