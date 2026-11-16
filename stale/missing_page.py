@@ -73,12 +73,17 @@ def accuracy(arm):
     r2 = json.load(open(p2, encoding='utf-8')) if os.path.exists(p2) else None
     if r2 and arm in r2['precision_at_10']:
         b = r2['precision_at_10'][arm]; y, n = a['yes'] + b['yes'], a['cards'] + b['cards']; plo, phi = wilson(y, n)
+        wide = ''
+        if arm == 'KEV' and os.path.exists(os.path.join(OUT, 'missing_wide_measures.json')):
+            wide = (f' The {len(json.load(open(missing_wide.DOCS, encoding="utf-8"))["docs"])} documents marked '
+                    '&ldquo;Not rated&rdquo; come from a later run through the cascade; none of their suggestions was '
+                    'rated (<code>stale/RESULT_missing_wide.md</code>).')
         return (f'<p class="note"><b>Measured accuracy:</b> in two blind checks, an AI rater (a Claude model, not a '
-                f'person) judged that {a["yes"]} of this method&rsquo;s {a["cards"]} top-10 suggestions on the first four '
-                f'documents state the case, and {b["yes"]} of {b["cards"]} on the other ten: {y} of {n} in all ({y / n:.0%}, '
-                f'95% interval {plo:.0%} to {phi:.0%}). {gpt(arm, b)}Readings: pilot {esc(r["reading"].lower())}; larger '
-                f'test {esc(r2["reading_replication"].lower())}. <code>stale/RESULT_missing.md</code>, '
-                f'<code>stale/RESULT_missing2.md</code>.</p>')
+                f'person) judged that {a["yes"]} of this method&rsquo;s {a["cards"]} top-10 suggestions on the pilot&rsquo;s '
+                f'four documents state the case, and {b["yes"]} of {b["cards"]} on the larger test&rsquo;s ten: {y} of {n} '
+                f'in all ({y / n:.0%}, 95% interval {plo:.0%} to {phi:.0%}). {gpt(arm, b)}Readings: pilot '
+                f'{esc(r["reading"].lower())}; larger test {esc(r2["reading_replication"].lower())}. '
+                f'<code>stale/RESULT_missing.md</code>, <code>stale/RESULT_missing2.md</code>.{wide}</p>')
     return (f'<p class="note"><b>Measured accuracy:</b> in the pilot&rsquo;s blind check, an AI rater (a Claude model, '
             f'not a person) judged that {a["yes"]} of this method&rsquo;s {a["cards"]} top-10 suggestions state the case '
             f'({a["yes_share"]:.0%}, 95% interval {lo:.0%} to {hi:.0%}), and {a["yes_or_partly_share"]:.0%} to state it at '
