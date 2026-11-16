@@ -499,5 +499,26 @@ class TestMissing2(unittest.TestCase):
         self.assertEqual(s.count(R.MARK), 1); self.assertTrue(s.endswith(R.MARK + '\n\nHand-written reading.\n'))
 
 
+class TestMissingWide(unittest.TestCase):
+    def test_report_reads_the_check_against_the_plan(self):
+        from stale import missing_wide_report as R
+        tmp = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, tmp)
+        docs = {'docs': [{'doc': 'P/Privacy Policy.md', 'type': 'privacy', 'pieces': ['a', 'b'], 'positives': ['x'] * 12,
+                          'excluded': ['e'], 'negatives': ['n%d' % i for i in range(14)], 'cases': ['x', 'n']}]}
+        meas = {'docs': [{'doc': 'P/Privacy Policy.md', 'positives': 12, 'negatives': 14, 'CASCADE_KEV_auroc': .8, 'RERANK_auroc': .6}],
+                'auroc': {'CASCADE_KEV': .8, 'RERANK': .6},
+                'CASCADE_KEV_minus_RERANK_auroc': {'point': .2, 'ci95': [.1, .3], 'reading': 'CASCADE_KEV better'},
+                'timing': {'KEV': {'P/Privacy Policy.md': {'seconds': 20.0, 'pieces': 2, 'cells': 6, 'asked_cells': 5, 'cached_cells': 1}},
+                           'RERANK': {'P/Privacy Policy.md': 4.0}}}
+        json.dump(docs, open(os.path.join(tmp, 'missing_wide_docs.json'), 'w')); json.dump(meas, open(os.path.join(tmp, 'missing_wide_measures.json'), 'w'))
+        dest = os.path.join(tmp, 'RESULT.md')
+        R.build(out=tmp, dest=dest)
+        with open(dest, 'a', encoding='utf-8') as f: f.write('Hand-written reading.\n')
+        R.build(out=tmp, dest=dest); s = open(dest, encoding='utf-8').read()
+        self.assertIn('**CASCADE_KEV better**', s); self.assertIn('**0.800**, predicted .66-.76: above the range', s)
+        self.assertIn('**0.600**, predicted .58-.68: inside the range', s); self.assertIn('4.00 s per asked cell', s)
+        self.assertIn('10 suggestions', s); self.assertTrue(s.endswith(R.MARK + '\n\nHand-written reading.\n'))
+
+
 if __name__ == '__main__':
     unittest.main()
