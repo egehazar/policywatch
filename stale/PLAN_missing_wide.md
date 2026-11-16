@@ -1,6 +1,6 @@
 # Missing points on the remaining documents: a build, with one accuracy check fixed in advance
 
-Written 2026-11-16 ~08:20 UTC, after the larger test's result (`stale/RESULT_missing2.md`) and before any score of
+Written 2026-11-16 ~08:05 UTC, after the larger test's result (`stale/RESULT_missing2.md`) and before any score of
 these documents exists from this run. Code: `stale/missing_wide.py` (its `measures` step tested on random stand-in
 scores only; `prep` run, its document list is below).
 
@@ -14,7 +14,7 @@ about 3 h of Kev.
 
 ## Documents (fixed rule, applied to `stale/out/reloc_docs.json`)
 Every document named exactly "Privacy Policy" or "Terms of Service" of the 20 platforms that neither test covered:
-20 documents, 1,033 passages, 59,014 reranker cells, at most 3,693 Kev cells. Candidate cases as in the tests (cases
+20 documents, 1,003 passages, 59,014 reranker cells, at most 3,693 Kev cells. Candidate cases as in the tests (cases
 approved at least MIN_POINTS times on that document type, plus the document's positives). One change on purpose:
 cases with any approved point on the platform in `stale/data/<platform>.json` are excluded, including points whose
 quote is under 3 words (the larger test's caveat: `stale/match.py` skips those).
