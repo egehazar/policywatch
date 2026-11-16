@@ -18,7 +18,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE);
 sys.path.insert(0, ROOT)
 from policywatch.report import page, esc, badge
 from stale.missing import DOCS, TOP, all_points, best, wilson
-from stale import missing2, missing_wide, missing_watch
+from stale import missing2, missing_wide, missing_watch, missing_rest
 
 FILES = {'KEV': 'missing_kev.json', 'RERANK': 'missing_rerank.json', 'BM25': 'missing_bm25.json'}
 
@@ -45,10 +45,16 @@ def watch_note(arm, d):
             'and Kev read only those.</p>')
 
 
+def rest_note(arm, d=None):
+    return ('<p class="sm note">Not rated. ToS;DR has no point matched to this document, so there was nothing to check '
+            'the ranking against here. The reranker picked 3 passages per case and Kev read only those (the cascade).</p>')
+
+
 # (documents file, scores file per arm, a note under each document): the pilot's four, the larger test's ten, then the
 # remaining documents through the cascade (stale/PLAN_missing_wide.md)
 SOURCES = ((DOCS, FILES, None), (missing2.DOCS, {a: f'missing2_{a.lower()}.json' for a in FILES}, None),
-           (missing_wide.DOCS, {'KEV': 'missing_wide_kev.json', 'RERANK': 'missing_wide_rerank.json'}, wide_note))
+           (missing_wide.DOCS, {'KEV': 'missing_wide_kev.json', 'RERANK': 'missing_wide_rerank.json'}, wide_note),
+           (missing_rest.DOCS, {'KEV': 'missing_rest_kev.json', 'RERANK': 'missing_rest_rerank.json'}, rest_note))
 NAMES = {'KEV': 'the decision model (Kev-4B), p(yes) that the passage states the case',
          'RERANK': 'a cross-encoder reranker (bge-reranker-v2-m3), case title vs passage',
          'BM25': 'word match on the case title (BM25)'}

@@ -13,7 +13,7 @@ A document whose passages change again is re-scored on the next run (each output
 import hashlib, json, os, sys, time
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE); OUT = os.path.join(HERE, 'out')
 sys.path.insert(0, ROOT)
-from stale import missing, missing2, missing_wide
+from stale import missing, missing2, missing_wide, missing_rest
 from stale.missing import save
 from stale.triage import TEMPLATE
 
@@ -21,7 +21,7 @@ DOCS = os.path.join(OUT, 'missing_watch_docs.json')
 F = {a: os.path.join(OUT, f'missing_watch_{a.lower()}.json') for a in ('KEV', 'RERANK')}
 # (documents file, its reranker scores, whether its suggestions were rated)
 SOURCES = ((missing.DOCS, 'missing_rerank.json', True), (missing2.DOCS, 'missing2_rerank.json', True),
-           (missing_wide.DOCS, 'missing_wide_rerank.json', False))
+           (missing_wide.DOCS, 'missing_wide_rerank.json', False), (missing_rest.DOCS, 'missing_rest_rerank.json', False))
 NOFILL = missing_wide.NOFILL
 
 
