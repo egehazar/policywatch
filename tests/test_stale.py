@@ -520,5 +520,55 @@ class TestMissingWide(unittest.TestCase):
         self.assertIn('10 suggestions', s); self.assertTrue(s.endswith(R.MARK + '\n\nHand-written reading.\n'))
 
 
+class TestMissingWatch(unittest.TestCase):
+    """A changed document is found from the archive's HEAD, re-scored reusing the reranker scores of unchanged passages,
+    Kev asked only on the shortlist, and skipped on the next run unless its text changes again."""
+
+    def test_check_rerank_kev(self):
+        import subprocess
+        from stale import missing_watch as W
+        from policywatch.scorer import qid
+        tmp = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, tmp, True); arch = os.path.join(tmp, 'arch'); os.makedirs(os.path.join(arch, 'P'))
+        g = lambda *a: subprocess.run(['git', '-C', arch, *a], capture_output=True, check=True)
+        g('init', '-q'); g('config', 'user.email', 't@t'); g('config', 'user.name', 't')
+        open(os.path.join(arch, 'P', 'Terms.md'), 'w', encoding='utf-8').write('Old words. ' * 80 + '\n\n' + 'Kept words here. ' * 60 + '\n')
+        open(os.path.join(arch, 'P', 'Same.md'), 'w', encoding='utf-8').write('Unchanged text.\n')
+        g('add', '.'); g('commit', '-qm', 'v1')
+        old = {'Terms': W.current_pieces(arch, 'P/Terms.md'), 'Same': W.current_pieces(arch, 'P/Same.md')}
+        open(os.path.join(arch, 'P', 'Terms.md'), 'w', encoding='utf-8').write('Data words. ' * 80 + '\n\n' + 'Kept words here. ' * 60 + '\n')
+        g('add', '.'); g('commit', '-qm', 'v2')
+        cases = ['data case', 'other case']
+        doc = lambda n: {'doc': f'P/{n}.md', 'type': 'terms', 'pieces': old[n], 'positives': [], 'excluded': [], 'negatives': cases, 'cases': cases}
+        src = os.path.join(tmp, 'docs.json'); json.dump({'docs': [doc('Terms'), doc('Same')]}, open(src, 'w'))
+        json.dump({'P/Terms.md': [{c: 1.0 for c in cases} for _ in old['Terms']]}, open(os.path.join(tmp, 'rr_old.json'), 'w'))
+        saved = (W.DOCS, W.F, W.SOURCES, W.OUT)
+        self.addCleanup(lambda: setattr(W, 'DOCS', saved[0]) or setattr(W, 'F', saved[1]) or setattr(W, 'SOURCES', saved[2]) or setattr(W, 'OUT', saved[3]))
+        W.DOCS = os.path.join(tmp, 'w_docs.json'); W.F = {a: os.path.join(tmp, f'w_{a}.json') for a in ('KEV', 'RERANK')}
+        W.SOURCES = ((src, 'rr_old.json', True),); W.OUT = tmp
+        import contextlib, io
+
+        class Model:
+            calls = 0
+            def predict(self, pairs, batch_size=16):
+                Model.calls += 1; return [.9 if 'data' in c and 'data' in p else .1 for c, p in pairs]
+
+        class Scorer:
+            asked = hits = 0
+            def score(self, piece, qs):
+                Scorer.asked += len(qs); return {qid(q): .8 for q in qs}
+        with contextlib.redirect_stdout(io.StringIO()):
+            W.check(arch)
+            D = json.load(open(W.DOCS, encoding='utf-8'))['docs']
+            self.assertEqual([d['doc'] for d in D], ['P/Terms.md']); self.assertTrue(D[0]['rated'])
+            self.assertEqual(len(D[0]['pieces']), 2); self.assertEqual(D[0]['pieces'][1], old['Terms'][1])
+            W.rerank(Model()); self.assertEqual(Model.calls, 1)       # only the new paragraph; the kept one reused
+            W.kev(scorer=Scorer())
+            R, K = json.load(open(W.F['RERANK'])), json.load(open(W.F['KEV']))
+            self.assertEqual(len(R['P/Terms.md']), len(D[0]['pieces'])); self.assertEqual(Scorer.asked, 2 * min(3, len(D[0]['pieces'])))
+            self.assertIn('P/Terms.md', W.current('KEV')); self.assertEqual(W.current('BM25'), {})
+            W.rerank(Model()); W.kev(scorer=Scorer())                 # nothing changed: nothing re-run
+        self.assertEqual(Model.calls, 1); self.assertEqual(Scorer.asked, 2 * min(3, len(D[0]['pieces'])))
+
+
 if __name__ == '__main__':
     unittest.main()
