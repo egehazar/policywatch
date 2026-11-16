@@ -1,0 +1,106 @@
+{
+ "gpt": {
+  "precision_at_10": {
+   "KEV": {
+    "cards": 100,
+    "yes": 73,
+    "yes_share": 0.73,
+    "wilson95": [
+     0.636,
+     0.807
+    ],
+    "yes_or_partly_share": 0.96
+   },
+   "RERANK": {
+    "cards": 100,
+    "yes": 49,
+    "yes_share": 0.49,
+    "wilson95": [
+     0.394,
+     0.587
+    ],
+    "yes_or_partly_share": 0.8
+   },
+   "CASCADE_KEV": {
+    "cards": 100,
+    "yes": 76,
+    "yes_share": 0.76,
+    "wilson95": [
+     0.668,
+     0.833
+    ],
+    "yes_or_partly_share": 0.98
+   },
+   "CASCADE_QWEN": {
+    "cards": 100,
+    "yes": 72,
+    "yes_share": 0.72,
+    "wilson95": [
+     0.625,
+     0.799
+    ],
+    "yes_or_partly_share": 0.97
+   }
+  },
+  "random_yes": 2
+ },
+ "claude": {
+  "precision_at_10": {
+   "KEV": {
+    "cards": 100,
+    "yes": 69,
+    "yes_share": 0.69,
+    "wilson95": [
+     0.594,
+     0.772
+    ],
+    "yes_or_partly_share": 0.95
+   },
+   "RERANK": {
+    "cards": 100,
+    "yes": 46,
+    "yes_share": 0.46,
+    "wilson95": [
+     0.366,
+     0.557
+    ],
+    "yes_or_partly_share": 0.74
+   },
+   "CASCADE_KEV": {
+    "cards": 100,
+    "yes": 73,
+    "yes_share": 0.73,
+    "wilson95": [
+     0.636,
+     0.807
+    ],
+    "yes_or_partly_share": 0.94
+   },
+   "CASCADE_QWEN": {
+    "cards": 100,
+    "yes": 70,
+    "yes_share": 0.7,
+    "wilson95": [
+     0.604,
+     0.781
+    ],
+    "yes_or_partly_share": 0.94
+   }
+  },
+  "random_yes": 2
+ },
+ "random_n": 20,
+ "agreement": {
+  "cards": 230,
+  "agree": 206,
+  "kappa": 0.792,
+  "gpt_yes": 119,
+  "claude_yes": 111,
+  "both_yes_by_arm": {
+   "KEV": 65,
+   "RERANK": 43,
+   "CASCADE_KEV": 68,
+   "CASCADE_QWEN": 64
+  }
+ }
+}

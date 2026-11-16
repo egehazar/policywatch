@@ -14,3 +14,7 @@ e1aca785192156798bbb6d92535a4d859f81f37733e086ffbae4c43569f19cd6 *stale/out/miss
 35648d82613e48d64f1b81d5a5166dbc1e6efdc9487c104c6050480e99bfba9c *stale/audit_missing2/README.md
 12c9cd2f260a96f61a36162c51579a506a732d4a03950d54a8a2d8cccf4bf91a *stale/audit_missing2/verdicts.json
 44247280b402c93f10f4b7de25771e3c11ae46141352cc61b9a9bafdd73f5607 *stale/out/missing2_key.json
+# verdicts 2026-11-16T07:29:49Z, as returned by the Claude Opus rater, before scoring
+21d1a6faa4118b7f727b4cb42c631ba96e459663764b8049109d24e941cdb682 *stale/audit_missing2/verdicts.json
+# GPT's raw reply 2026-11-16T07:32:24Z, before it was ingested
+ef4dd763f4e7c703370f88a72471e29507bf0daf3300294671f11597014c8637 *stale/out/missing2_gpt_raw/gpt_missing2.txt

@@ -1,0 +1,106 @@
+{
+ "random_yes": 2,
+ "random_n": 20,
+ "valid": true,
+ "precision_at_10": {
+  "KEV": {
+   "cards": 100,
+   "yes": 69,
+   "yes_share": 0.69,
+   "wilson95": [
+    0.594,
+    0.772
+   ],
+   "yes_or_partly_share": 0.95
+  },
+  "RERANK": {
+   "cards": 100,
+   "yes": 46,
+   "yes_share": 0.46,
+   "wilson95": [
+    0.366,
+    0.557
+   ],
+   "yes_or_partly_share": 0.74
+  },
+  "CASCADE_KEV": {
+   "cards": 100,
+   "yes": 73,
+   "yes_share": 0.73,
+   "wilson95": [
+    0.636,
+    0.807
+   ],
+   "yes_or_partly_share": 0.94
+  },
+  "CASCADE_QWEN": {
+   "cards": 100,
+   "yes": 70,
+   "yes_share": 0.7,
+   "wilson95": [
+    0.604,
+    0.781
+   ],
+   "yes_or_partly_share": 0.94
+  }
+ },
+ "precision_diff": {
+  "KEV_minus_RERANK": {
+   "point": 0.23,
+   "ci95": [
+    0.15,
+    0.32
+   ]
+  },
+  "CASCADE_KEV_minus_CASCADE_QWEN": {
+   "point": 0.03,
+   "ci95": [
+    -0.05,
+    0.12
+   ]
+  }
+ },
+ "reading_replication": "REPLICATED",
+ "reading_reranker": "KEV better",
+ "reading_base_family": "no difference shown",
+ "measures": {
+  "auroc": {
+   "KEV": 0.719,
+   "RERANK": 0.648,
+   "BM25": 0.56,
+   "CASCADE_KEV": 0.721,
+   "CASCADE_QWEN": 0.715
+  },
+  "recall_at_20": {
+   "KEV": 0.48,
+   "RERANK": 0.387,
+   "BM25": 0.336,
+   "CASCADE_KEV": 0.472,
+   "CASCADE_QWEN": 0.471
+  },
+  "KEV_minus_RERANK_auroc": {
+   "point": 0.071,
+   "ci95": [
+    0.025,
+    0.117
+   ],
+   "reading": "KEV better"
+  },
+  "KEV_minus_BM25_auroc": {
+   "point": 0.159,
+   "ci95": [
+    0.095,
+    0.223
+   ],
+   "reading": "KEV better"
+  },
+  "CASCADE_KEV_minus_CASCADE_QWEN_auroc": {
+   "point": 0.006,
+   "ci95": [
+    -0.018,
+    0.027
+   ],
+   "reading": "no difference shown"
+  }
+ }
+}

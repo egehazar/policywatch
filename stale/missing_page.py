@@ -26,6 +26,17 @@ NAMES = {'KEV': 'the decision model (Kev-4B), p(yes) that the passage states the
 REPO = 'https://github.com/OpenTermsArchive/pga-versions/blob/main/'
 
 
+def approved(plat, _cache={}):
+    """Every case title with an approved point on the platform (stale/data/<platform>.json), including the points whose
+    quote is under 3 words: stale/match.py skips those, so the tests' negatives can hold them (3 of the larger test's
+    425); the page never suggests them."""
+    if plat not in _cache:
+        p = os.path.join(HERE, 'data', plat + '.json')
+        d = json.load(open(p, encoding='utf-8')) if os.path.exists(p) else {}
+        _cache[plat] = {x['case_title'].strip() for x in d.get('points', []) if x.get('status') == 'approved'}
+    return _cache[plat]
+
+
 def method():
     if len(sys.argv) > 1: return sys.argv[1].upper()
     p = os.path.join(OUT, 'missing_result.json')
@@ -83,8 +94,9 @@ def build(arm=None):
         D = json.load(open(docs, encoding='utf-8'))['docs']; S = json.load(open(p, encoding='utf-8'))
         for d in D:
             if d['doc'] not in S: continue
-            rows = S[d['doc']]; sc = {c: best(rows, c) for c in d['negatives']}
-            top = sorted(d['negatives'], key=lambda c: -sc[c][0])[:TOP]
+            neg = [c for c in d['negatives'] if c.strip() not in approved(d['doc'].split('/', 1)[0])]
+            rows = S[d['doc']]; sc = {c: best(rows, c) for c in neg}
+            top = sorted(neg, key=lambda c: -sc[c][0])[:TOP]
             items = []
             for k, c in enumerate(top, 1):
                 s, i = sc[c]; t = d['pieces'][i]; n = 1600            # pieces are at most 1,500 characters: shown whole
@@ -98,17 +110,18 @@ def build(arm=None):
             plat, name = d['doc'].split('/', 1)
             secs.append(f'<h2>{esc(plat)}: {esc(name[:-3] if name.endswith(".md") else name)}</h2>'
                         f'<p class="sm mut">{len(d["positives"])} cases already have an approved point quoting this document; '
-                        f'{len(d["excluded"])} more are approved for {esc(plat)} (on another document, or on this one with a quote that is '
+                        f'{len(d["excluded"]) + len(d["negatives"]) - len(neg)} more are approved for {esc(plat)} (on another document, or on this one with a quote that is '
                         f'gone, partial or short) and are not suggested. Asked: '
-                        f'{len(d["negatives"])} cases that ToS;DR often approves on {esc(d["type"])} documents and has no point '
+                        f'{len(neg)} cases that ToS;DR often approves on {esc(d["type"])} documents and has no point '
                         f'for on {esc(plat)}. <a href="{REPO}{esc(d["doc"])}">Current text</a>.</p>' + ''.join(items))
     body = (f'<h1>Possible missing points</h1>'
             f'<p>Cases these documents may state that ToS;DR has no point for on the service yet: for each document, the '
             f'{TOP} highest-scoring cases by {esc(NAMES[arm])}, each with the passage that scored highest. A place to '
             f'look, not a verdict: read the passage before proposing a point; a case may be stated weakly, only in part, '
             f'or not at all. &ldquo;No point&rdquo; means no <em>approved</em> point: ToS;DR&rsquo;s public data does not '
-            f'show pending or declined ones, and a few suggestions are variants of a case already approved for the '
-            f'service.</p>' + accuracy(arm) + ''.join(secs))
+            f'show pending or declined ones. Some suggestions are variants of, or close to, a case already approved for '
+            f'the service: an AI check of the titles found 9 variants and 31 close ones among the 87 suggestions rated '
+            f'YES, and nothing close on the service for the other 47.</p>' + accuracy(arm) + ''.join(secs))
     dest = os.path.join(ROOT, 'out', 'site', 'missing.html')
     with open(dest, 'w', encoding='utf-8') as f: f.write(page('Possible missing points', body))
     print(dest, arm, len(secs), 'documents')

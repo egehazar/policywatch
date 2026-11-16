@@ -1,0 +1,922 @@
+{
+ "N001": {
+  "verdict": "YES",
+  "why": "It says other terms and policies may apply, naming the Channels Terms and guidelines."
+ },
+ "N002": {
+  "verdict": "YES",
+  "why": "It excludes liability for unauthorized access, use or alteration of your content or communications."
+ },
+ "N003": {
+  "verdict": "YES",
+  "why": "Services are provided as is, with no warranties and no guarantee they will be error-free or meet expectations."
+ },
+ "N004": {
+  "verdict": "NO",
+  "why": "The passage is about billing and notices, nothing about minors."
+ },
+ "N005": {
+  "verdict": "PARTLY",
+  "why": "Age is used to verify you can lawfully use the Services, which only implies an age limit."
+ },
+ "N006": {
+  "verdict": "PARTLY",
+  "why": "Content may be removed for any reason, but editing of content is not stated."
+ },
+ "N007": {
+  "verdict": "YES",
+  "why": "You agree to indemnify, defend and hold harmless Bluesky for claims related to your use."
+ },
+ "N008": {
+  "verdict": "YES",
+  "why": "We may aggregate the information we collect or de-identify it."
+ },
+ "N009": {
+  "verdict": "PARTLY",
+  "why": "It lists categories of recipients with one example, not a list of the third parties."
+ },
+ "N010": {
+  "verdict": "NO",
+  "why": "It forbids users from licensing data obtained from the service; nothing about licensing user content."
+ },
+ "N011": {
+  "verdict": "YES",
+  "why": "We may suspend or terminate your Account for any or no reason, including violating the Terms."
+ },
+ "N012": {
+  "verdict": "PARTLY",
+  "why": "Terms can change at any time, but notice is only a courtesy the service endeavors to give."
+ },
+ "N013": {
+  "verdict": "PARTLY",
+  "why": "It gives a support ticket and email to exercise privacy rights, not a complaint mechanism as such."
+ },
+ "N014": {
+  "verdict": "PARTLY",
+  "why": "Services may change without notice and the Terms may be updated, but no-notice is not said of the Terms."
+ },
+ "N015": {
+  "verdict": "NO",
+  "why": "Content is removed for violations or legal reasons, with notice and a reason given."
+ },
+ "N016": {
+  "verdict": "YES",
+  "why": "It lists several categories of personal information collected, such as geolocation, inferences and physical characteristics."
+ },
+ "N017": {
+  "verdict": "PARTLY",
+  "why": "Infrastructure is operated by Meta affiliates and external partners are mentioned, not clearly third parties operating the service."
+ },
+ "N018": {
+  "verdict": "YES",
+  "why": "Information is shared with business, integrated, anti-fraud and legal partners to provide the Services."
+ },
+ "N019": {
+  "verdict": "YES",
+  "why": "Notification Settings let you set which marketing communications you get."
+ },
+ "N020": {
+  "verdict": "PARTLY",
+  "why": "Access can be terminated for violations and accounts deleted for inactivity, but deletion of content is not stated."
+ },
+ "N021": {
+  "verdict": "YES",
+  "why": "You can download your data from within the app through a data download tool."
+ },
+ "N022": {
+  "verdict": "YES",
+  "why": "Services are as is with fitness for a particular purpose disclaimed and fitness for your purposes left to you."
+ },
+ "N023": {
+  "verdict": "YES",
+  "why": "We collected categories of personal information including identifiers, commercial, financial and network activity data."
+ },
+ "N024": {
+  "verdict": "NO",
+  "why": "The passage covers liability limits and court venue, not indemnification."
+ },
+ "N025": {
+  "verdict": "YES",
+  "why": "Disputes may be resolved in any competent court in your country of residence."
+ },
+ "N026": {
+  "verdict": "YES",
+  "why": "The service collects information through cookies and similar technologies."
+ },
+ "N027": {
+  "verdict": "YES",
+  "why": "We may change, suspend or discontinue any of our Services."
+ },
+ "N028": {
+  "verdict": "YES",
+  "why": "At least 30 days' advance notice of changes to the Terms is provided."
+ },
+ "N029": {
+  "verdict": "YES",
+  "why": "It describes how we and our partners use cookies on our Services."
+ },
+ "N030": {
+  "verdict": "YES",
+  "why": "You can opt out of personalized ads and of sale or sharing with vendors, including via GPC."
+ },
+ "N031": {
+  "verdict": "YES",
+  "why": "You can terminate your relationship with WhatsApp anytime for any reason by deleting your account."
+ },
+ "N032": {
+  "verdict": "YES",
+  "why": "Music Guidelines, Platform Terms and other additional terms also apply."
+ },
+ "N033": {
+  "verdict": "PARTLY",
+  "why": "Only EU moderation disputes are covered, where out-of-court bodies are optional and non-binding."
+ },
+ "N034": {
+  "verdict": "YES",
+  "why": "Accessing or collecting information in an automated way without express permission is prohibited."
+ },
+ "N035": {
+  "verdict": "YES",
+  "why": "It explains data is collected when you purchase, grant location permission, answer surveys or from third parties."
+ },
+ "N036": {
+  "verdict": "YES",
+  "why": "A table lists several purposes such as providing, personalizing, recommending and troubleshooting."
+ },
+ "N037": {
+  "verdict": "NO",
+  "why": "It only points to the Privacy Policy for more information, not to other rules that apply."
+ },
+ "N038": {
+  "verdict": "YES",
+  "why": "Data is shared with advertising partners so advertisers can show you ads on or off Pinterest."
+ },
+ "N039": {
+  "verdict": "PARTLY",
+  "why": "Trusted partners may use your content only to support Bluesky; no general licensing to third parties."
+ },
+ "N040": {
+  "verdict": "YES",
+  "why": "You can't attempt to access or collect information in unauthorized ways."
+ },
+ "N041": {
+  "verdict": "NO",
+  "why": "It covers account deletion and antivirus on your side, not account security or activity responsibility."
+ },
+ "N042": {
+  "verdict": "YES",
+  "why": "You grant us a non-exclusive, transferable, sub-licensable license to your content."
+ },
+ "N043": {
+  "verdict": "NO",
+  "why": "It describes data collected when you access or use Spotify, not data about people who never interacted."
+ },
+ "N044": {
+  "verdict": "YES",
+  "why": "You own all of your original content that you provide."
+ },
+ "N045": {
+  "verdict": "NO",
+  "why": "It disclaims responsibility for others' content; no ban on illegal use."
+ },
+ "N046": {
+  "verdict": "NO",
+  "why": "It describes private content and screenshots by recipients, not staff access."
+ },
+ "N047": {
+  "verdict": "YES",
+  "why": "No failure to enforce any part of this Agreement will be deemed a waiver."
+ },
+ "N048": {
+  "verdict": "PARTLY",
+  "why": "It lists a few data types shared with advertisers (identifiers, device activity, geolocation), not a broad collection list."
+ },
+ "N049": {
+  "verdict": "YES",
+  "why": "If we don't enforce a breach, that does not mean LinkedIn waived its right to enforce."
+ },
+ "N050": {
+  "verdict": "NO",
+  "why": "The passage is about legal and acceptable use, not links."
+ },
+ "N051": {
+  "verdict": "NO",
+  "why": "Nothing about third parties or confidentiality obligations."
+ },
+ "N052": {
+  "verdict": "YES",
+  "why": "Reddit does not control, endorse or take responsibility for any content linked to the Services."
+ },
+ "N053": {
+  "verdict": "YES",
+  "why": "It explains data is received from payment partners, merchants, advertising partners and acquired companies."
+ },
+ "N054": {
+  "verdict": "YES",
+  "why": "You can access and edit your information and delete your account or some information."
+ },
+ "N055": {
+  "verdict": "NO",
+  "why": "It describes data the service receives from third parties, not data it gives them."
+ },
+ "N056": {
+  "verdict": "PARTLY",
+  "why": "Third-party login platforms and technical service partners are mentioned, only weakly as operating the service."
+ },
+ "N057": {
+  "verdict": "NO",
+  "why": "Nothing about a help desk or support."
+ },
+ "N058": {
+  "verdict": "YES",
+  "why": "It names technical protections such as encryption and pseudonymisation."
+ },
+ "N059": {
+  "verdict": "YES",
+  "why": "Terms may change and material changes are notified by email or in the Services 30 days ahead."
+ },
+ "N060": {
+  "verdict": "YES",
+  "why": "We may discontinue some or all Services at any time after 30 days' notice, or without it in urgent cases."
+ },
+ "N061": {
+  "verdict": "PARTLY",
+  "why": "Pages viewed and pixels noting website visits are logged, but referring or exit pages are not named."
+ },
+ "N062": {
+  "verdict": "YES",
+  "why": "We may suspend or terminate your Account for violating these Terms."
+ },
+ "N063": {
+  "verdict": "NO",
+  "why": "It covers dispute remedies and account suspension, not ending the service."
+ },
+ "N064": {
+  "verdict": "YES",
+  "why": "Parler has no liability arising from hacking, data breach, theft or misappropriation of information."
+ },
+ "N065": {
+  "verdict": "YES",
+  "why": "We keep your information only so long as we need it to provide Pinterest and fulfil the stated purposes."
+ },
+ "N066": {
+  "verdict": "YES",
+  "why": "You agree to defend, indemnify and hold Parler harmless for claims relating to your use of the Services."
+ },
+ "N067": {
+  "verdict": "YES",
+  "why": "Information is used to verify Snapchatter identity or age, with automated tools confirming age-appropriate use."
+ },
+ "N068": {
+  "verdict": "YES",
+  "why": "Data is kept for legal obligations and legitimate purposes such as enforcing Terms and protecting rights."
+ },
+ "N069": {
+  "verdict": "YES",
+  "why": "The Services may contain third-party links and we are not responsible for any third party's websites."
+ },
+ "N070": {
+  "verdict": "NO",
+  "why": "It says the Meta Terms do not apply to Instagram, not that these Terms do not apply to third-party services."
+ },
+ "N071": {
+  "verdict": "PARTLY",
+  "why": "It tries to resist baseless legal demands to the extent reasonable, but may disclose on any governmental request."
+ },
+ "N072": {
+  "verdict": "YES",
+  "why": "Bluesky may reproduce, distribute and publicly display your Content in any format or media."
+ },
+ "N073": {
+  "verdict": "YES",
+  "why": "You grant Parler a worldwide, non-exclusive, royalty-free license to your content."
+ },
+ "N074": {
+  "verdict": "YES",
+  "why": "Cookie banner controls, consent settings and GPC let you limit how your data is used for ads and other uses."
+ },
+ "N075": {
+  "verdict": "NO",
+  "why": "It lists legal obligations under EU law as a purpose, but makes no claim of GDPR compliance."
+ },
+ "N076": {
+  "verdict": "YES",
+  "why": "At least 30 days' advance notice of changes to the Terms is given before they take effect."
+ },
+ "N077": {
+  "verdict": "YES",
+  "why": "It warns that public content is visible to everyone and others can screenshot or save what you share."
+ },
+ "N078": {
+  "verdict": "NO",
+  "why": "It describes sharing with service providers; nothing says personal data is not sold."
+ },
+ "N079": {
+  "verdict": "YES",
+  "why": "Personal information may be stored and processed inside and outside of Quebec and Canada."
+ },
+ "N080": {
+  "verdict": "YES",
+  "why": "You agree to defend, indemnify and hold Reddit harmless for claims arising from your use of the Services."
+ },
+ "N081": {
+  "verdict": "YES",
+  "why": "We keep your personal data only as long as necessary for the service and legitimate business purposes."
+ },
+ "N082": {
+  "verdict": "NO",
+  "why": "It covers lead ads and promoting creators, not data collected through promotions such as contests."
+ },
+ "N083": {
+  "verdict": "PARTLY",
+  "why": "Only automated use that interferes with or overburdens the Services is banned, not crawling in general."
+ },
+ "N084": {
+  "verdict": "YES",
+  "why": "Any acquirer may use your information only in the ways set out in this Privacy Policy."
+ },
+ "N085": {
+  "verdict": "YES",
+  "why": "Information is shared with many agents: spam, payment, support, registrars, analytics, marketing and consultants."
+ },
+ "N086": {
+  "verdict": "NO",
+  "why": "It covers third-party sites and apps users may access, not third parties operating the service."
+ },
+ "N087": {
+  "verdict": "YES",
+  "why": "You must not disclose your credentials or provide any other person with access to your account."
+ },
+ "N088": {
+  "verdict": "YES",
+  "why": "LinkedIn is not obligated to publish content and can remove it with or without notice."
+ },
+ "N089": {
+  "verdict": "PARTLY",
+  "why": "Notice is promised for material changes, but prior notice may be skipped for legally required changes or new features."
+ },
+ "N090": {
+  "verdict": "PARTLY",
+  "why": "Guest browsing is allowed; only posting, messaging, commerce and interactions require an account."
+ },
+ "N091": {
+  "verdict": "YES",
+  "why": "It refers to the service having already sublicensed your content to others."
+ },
+ "N092": {
+  "verdict": "YES",
+  "why": "Services are as is with no warranty that information is accurate, complete or useful, or that they are error free."
+ },
+ "N093": {
+  "verdict": "PARTLY",
+  "why": "Technical service partners and other third parties appear only as data sources, weakly implying their role."
+ },
+ "N094": {
+  "verdict": "YES",
+  "why": "For questions or concerns about the Policy you can contact the Data Protection Officer by email or post."
+ },
+ "N095": {
+  "verdict": "NO",
+  "why": "It excludes Managed Accounts and Spotify Kids, not third-party services."
+ },
+ "N096": {
+  "verdict": "YES",
+  "why": "Data is shared with vendors who process information on its behalf, such as security consultants."
+ },
+ "N097": {
+  "verdict": "PARTLY",
+  "why": "Social settings let you choose whether to share listening activity and join shared playlists, not who sees content generally."
+ },
+ "N098": {
+  "verdict": "YES",
+  "why": "You grant LinkedIn a non-exclusive license to your content."
+ },
+ "N099": {
+  "verdict": "YES",
+  "why": "You can access, update and delete your information within the app."
+ },
+ "N100": {
+  "verdict": "YES",
+  "why": "Some information is used only in aggregate form as a statistical measure."
+ },
+ "N101": {
+  "verdict": "NO",
+  "why": "The passage is about ads, not government requests."
+ },
+ "N102": {
+  "verdict": "PARTLY",
+  "why": "Pixels are named as a tracking technology, but not in emails or other communications to users."
+ },
+ "N103": {
+  "verdict": "NO",
+  "why": "The passage is about the shop and refunds, not translations of the terms."
+ },
+ "N104": {
+  "verdict": "NO",
+  "why": "It covers account security and user content, not a ban on illegal use."
+ },
+ "N105": {
+  "verdict": "PARTLY",
+  "why": "Accounts may be suspended or terminated for violating the Terms, but content deletion is not stated."
+ },
+ "N106": {
+  "verdict": "PARTLY",
+  "why": "It disclaims any guarantee the service will be error-free, but says nothing about correcting errors."
+ },
+ "N107": {
+  "verdict": "YES",
+  "why": "We may delete or remove Your Content for any reason, including for violating these Terms."
+ },
+ "N108": {
+  "verdict": "PARTLY",
+  "why": "Activity violating the Terms may be removed, which only loosely covers deleting content."
+ },
+ "N109": {
+  "verdict": "YES",
+  "why": "You can't post someone else's private or confidential information without permission."
+ },
+ "N110": {
+  "verdict": "YES",
+  "why": "LinkedIn may restrict, suspend or terminate your account if you breach this Contract."
+ },
+ "N111": {
+  "verdict": "PARTLY",
+  "why": "You can direct disclosure of content to third-party services, but no general audience choice is described."
+ },
+ "N112": {
+  "verdict": "YES",
+  "why": "We can remove any content you shared if it violates our policies or this Contract."
+ },
+ "N113": {
+  "verdict": "PARTLY",
+  "why": "Automated collection and scraping are banned without consent, but crawling is conditionally allowed per robots.txt."
+ },
+ "N114": {
+  "verdict": "YES",
+  "why": "We may suspend or terminate your Account for any or no reason, including violating the Terms or Rules."
+ },
+ "N115": {
+  "verdict": "NO",
+  "why": "It promises at least 30 days' advance notice of changes, the opposite of no notice."
+ },
+ "N116": {
+  "verdict": "NO",
+  "why": "Interests and saved Snaps are used for ads, but no sensitive data is mentioned."
+ },
+ "N117": {
+  "verdict": "PARTLY",
+  "why": "It mentions sharing with anti-fraud and security partners, not how data is secured."
+ },
+ "N118": {
+  "verdict": "YES",
+  "why": "Services are provided as is and as available, and verifying accuracy is your responsibility."
+ },
+ "N119": {
+  "verdict": "NO",
+  "why": "It covers ad and sale opt-outs and GPC, not the effect of blocking cookies."
+ },
+ "N120": {
+  "verdict": "YES",
+  "why": "In a merger, acquisition, bankruptcy or similar transaction your information would be shared with the party involved."
+ },
+ "N121": {
+  "verdict": "PARTLY",
+  "why": "Automated access is banned only when impermissible or unauthorized; automated account creation is banned outright."
+ },
+ "N122": {
+  "verdict": "YES",
+  "why": "You agree to defend, indemnify and hold Parler harmless for claims relating to your use of the Services."
+ },
+ "N123": {
+  "verdict": "PARTLY",
+  "why": "Content violating the Terms or law can be removed, but copyright claims are not mentioned."
+ },
+ "N124": {
+  "verdict": "NO",
+  "why": "It lists log data and cookie data as categories, not referring or exit pages."
+ },
+ "N125": {
+  "verdict": "YES",
+  "why": "If you violate these Terms, the service may stop providing the Service and terminate or disable your access."
+ },
+ "N126": {
+  "verdict": "NO",
+  "why": "The passage covers general contract terms, nothing about a content license after closing the account."
+ },
+ "N127": {
+  "verdict": "NO",
+  "why": "The passage is about liability and disputes, not inactivity."
+ },
+ "N128": {
+  "verdict": "NO",
+  "why": "It excludes other Spotify services such as Megaphone, not third-party services."
+ },
+ "N129": {
+  "verdict": "YES",
+  "why": "The Community Guidelines, Privacy Policy and Copyright Policy govern together with the Terms."
+ },
+ "N130": {
+  "verdict": "NO",
+  "why": "It describes US state opt-out rights, not GDPR compliance."
+ },
+ "N131": {
+  "verdict": "YES",
+  "why": "Accuracy warranties are disclaimed and content may not be accurate, complete or current."
+ },
+ "N132": {
+  "verdict": "PARTLY",
+  "why": "Only Boosted Post transactions are stated to be final and non-refundable."
+ },
+ "N133": {
+  "verdict": "PARTLY",
+  "why": "Permission is asked before collecting some extra data, a narrow control over use."
+ },
+ "N134": {
+  "verdict": "YES",
+  "why": "Access may be suspended or terminated for fraud, unlawful conduct, Terms violations or inactivity."
+ },
+ "N135": {
+  "verdict": "PARTLY",
+  "why": "Message and voice data go to service providers such as customer support, only weakly implying staff access to private content."
+ },
+ "N136": {
+  "verdict": "NO",
+  "why": "The passage covers request statistics and contact details, not sensitive data for ads."
+ },
+ "N137": {
+  "verdict": "PARTLY",
+  "why": "An account may be required only for certain features."
+ },
+ "N138": {
+  "verdict": "PARTLY",
+  "why": "Cookies and pixels are used, but not social media ones."
+ },
+ "N139": {
+  "verdict": "YES",
+  "why": "Reddit reserves the right to review, screen, edit or monitor Your Content."
+ },
+ "N140": {
+  "verdict": "YES",
+  "why": "Material changes are notified by email or in the Services at least 30 days before they take effect."
+ },
+ "N141": {
+  "verdict": "YES",
+  "why": "LinkedIn may restrict, suspend or terminate your account for breach, law violations or misuse."
+ },
+ "N142": {
+  "verdict": "YES",
+  "why": "Information is kept for legal and regulatory reasons, including after the account is deleted."
+ },
+ "N143": {
+  "verdict": "PARTLY",
+  "why": "Marketing partners may combine disclosed data with data they collect about you on their services."
+ },
+ "N144": {
+  "verdict": "YES",
+  "why": "You agree to notify Parler immediately of any unauthorized access or breach of security."
+ },
+ "N145": {
+  "verdict": "NO",
+  "why": "It covers opting out of tailored advertising, not sale of personal data."
+ },
+ "N146": {
+  "verdict": "PARTLY",
+  "why": "Accounts can be terminated without prior notice, but only for listed reasons such as violations."
+ },
+ "N147": {
+  "verdict": "PARTLY",
+  "why": "It disclaims that the Services are error free, but says nothing about correcting errors."
+ },
+ "N148": {
+  "verdict": "PARTLY",
+  "why": "Parler does not mediate user-creator disputes, limited to tipping."
+ },
+ "N149": {
+  "verdict": "PARTLY",
+  "why": "Mostly data received from advertisers; the Pinterest Tag sends insights to ad partners, a weak case of sharing."
+ },
+ "N150": {
+  "verdict": "NO",
+  "why": "It bans sharing your account or using someone else's, not having alternative accounts."
+ },
+ "N151": {
+  "verdict": "YES",
+  "why": "For questions or concerns regarding privacy you can send a detailed message."
+ },
+ "N152": {
+  "verdict": "NO",
+  "why": "Content may be removed for violations or labeled by fact-checkers, not edited for any reason."
+ },
+ "N153": {
+  "verdict": "NO",
+  "why": "The passage covers changes to terms and eligibility, not user disputes."
+ },
+ "N154": {
+  "verdict": "PARTLY",
+  "why": "Bluesky is not responsible for content shared by other users, but disputes are not addressed."
+ },
+ "N155": {
+  "verdict": "PARTLY",
+  "why": "Content shared privately may be made public by the recipient; nothing about the service reading messages."
+ },
+ "N156": {
+  "verdict": "NO",
+  "why": "The passage covers age assurance and policy updates, not government requests."
+ },
+ "N157": {
+  "verdict": "NO",
+  "why": "The passage covers promotions and prohibited conduct, not arbitration."
+ },
+ "N158": {
+  "verdict": "YES",
+  "why": "Partners' cookies are used and you can remove or reject cookies through browser settings."
+ },
+ "N159": {
+  "verdict": "YES",
+  "why": "Services are provided as is with no warranty that they are accurate, reliable or error free."
+ },
+ "N160": {
+  "verdict": "PARTLY",
+  "why": "Your access may be terminated anytime for misconduct, not the service ending for everyone."
+ },
+ "N161": {
+  "verdict": "YES",
+  "why": "We may delete or remove Your Content for any reason, including violating these Terms."
+ },
+ "N162": {
+  "verdict": "YES",
+  "why": "The Terms together with the Community Guidelines, Privacy Policy and Copyright Policy form the agreement."
+ },
+ "N163": {
+  "verdict": "NO",
+  "why": "The passage covers children, third-party links and request metrics, not confidentiality of recipients."
+ },
+ "N164": {
+  "verdict": "YES",
+  "why": "Parler may withdraw or amend the Services in its sole discretion without notice."
+ },
+ "N165": {
+  "verdict": "YES",
+  "why": "Tumblr reserves the right to access, preserve and disclose any information to enforce terms or handle support."
+ },
+ "N166": {
+  "verdict": "YES",
+  "why": "You must register for the Services with accurate information and a phone number."
+ },
+ "N167": {
+  "verdict": "PARTLY",
+  "why": "It describes retention categories and an expiry example, but not that retention is kept to the minimum necessary."
+ },
+ "N168": {
+  "verdict": "NO",
+  "why": "The passage covers intellectual property and content removal, not country availability."
+ },
+ "N169": {
+  "verdict": "PARTLY",
+  "why": "Only the Boosted Posts feature may be terminated at any time for any reason."
+ },
+ "N170": {
+  "verdict": "YES",
+  "why": "No representation that the Services will be uninterrupted or error-free."
+ },
+ "N171": {
+  "verdict": "YES",
+  "why": "Information is disclosed to authorities only if reasonably necessary to comply with law or a legal request."
+ },
+ "N172": {
+  "verdict": "NO",
+  "why": "The passage is about termination for cause, not suggestions."
+ },
+ "N173": {
+  "verdict": "PARTLY",
+  "why": "Suggestions count as your Content, which stays yours and is used to run Bluesky, but no-compensation use is not stated."
+ },
+ "N174": {
+  "verdict": "YES",
+  "why": "You own your original content and LinkedIn only has non-exclusive rights to it."
+ },
+ "N175": {
+  "verdict": "YES",
+  "why": "Changes are notified at least 30 days before the Terms are updated."
+ },
+ "N176": {
+  "verdict": "NO",
+  "why": "It is about notice before account restrictions, not notice of changes to the terms."
+ },
+ "N177": {
+  "verdict": "YES",
+  "why": "Access may be terminated for violations, legal risk, unlawful conduct or inactivity."
+ },
+ "N178": {
+  "verdict": "PARTLY",
+  "why": "Employees of group companies get user data including message data, only weakly implying access to private content."
+ },
+ "N179": {
+  "verdict": "YES",
+  "why": "If you continue to use the Service you will be bound by the updated Terms."
+ },
+ "N180": {
+  "verdict": "PARTLY",
+  "why": "You can change advertising settings for a less personalised experience, not clearly a full opt-out."
+ },
+ "N181": {
+  "verdict": "PARTLY",
+  "why": "Features may be removed or interrupted, but throttling is not stated."
+ },
+ "N182": {
+  "verdict": "NO",
+  "why": "It describes data received from advertisers, not data given to third parties operating the service."
+ },
+ "N183": {
+  "verdict": "PARTLY",
+  "why": "You can withdraw consent to data sharing for promotional offers from artists and partners only."
+ },
+ "N184": {
+  "verdict": "YES",
+  "why": "You can unsubscribe from promotional emails at any time."
+ },
+ "N185": {
+  "verdict": "YES",
+  "why": "It describes two-factor authentication, suspicious-activity alerts, URL scanning and automated abuse detection."
+ },
+ "N186": {
+  "verdict": "YES",
+  "why": "Changes are notified at least 30 days before the Terms are updated."
+ },
+ "N187": {
+  "verdict": "NO",
+  "why": "It describes sharing with partners and vendors, not staff access to private content."
+ },
+ "N188": {
+  "verdict": "PARTLY",
+  "why": "It does not sell personally identifying information, but admits ad sharing may count as a sale."
+ },
+ "N189": {
+  "verdict": "PARTLY",
+  "why": "You agree to indemnify, defend and hold harmless, but survival after termination is not stated."
+ },
+ "N190": {
+  "verdict": "NO",
+  "why": "It lists retention categories, nothing about keeping anonymized records for analytics."
+ },
+ "N191": {
+  "verdict": "PARTLY",
+  "why": "It offers sale/share opt-outs and refers to California law, without claiming CCPA compliance."
+ },
+ "N192": {
+  "verdict": "PARTLY",
+  "why": "Cookies and pixels are used, but not stated to be third-party or for statistics."
+ },
+ "N193": {
+  "verdict": "PARTLY",
+  "why": "It disclaims that the Services will be error free, but says nothing about correcting errors."
+ },
+ "N194": {
+  "verdict": "YES",
+  "why": "You agree not to use scripts, robots or crawlers to scrape or copy the Services."
+ },
+ "N195": {
+  "verdict": "PARTLY",
+  "why": "Services may change without notice and the Terms may be updated, but no-notice is not said of the Terms."
+ },
+ "N196": {
+  "verdict": "YES",
+  "why": "For linked third-party sites, Spotify does not control them and is not responsible for their privacy practices."
+ },
+ "N197": {
+  "verdict": "YES",
+  "why": "You may delete your account at any time through the account settings."
+ },
+ "N198": {
+  "verdict": "NO",
+  "why": "It covers data received from advertisers and contacts, no sensitive data."
+ },
+ "N199": {
+  "verdict": "PARTLY",
+  "why": "Clicking third-party links may let third parties collect data about you, a weak form of off-site tracking."
+ },
+ "N200": {
+  "verdict": "NO",
+  "why": "It says you need your own account and must not share it, not that alternative accounts are banned."
+ },
+ "N201": {
+  "verdict": "YES",
+  "why": "Bluesky detects and acts on prohibited content and terms violations, swiftly removing illegal content."
+ },
+ "N202": {
+  "verdict": "YES",
+  "why": "Trusted partners such as content moderation providers use your content to support Bluesky."
+ },
+ "N203": {
+  "verdict": "YES",
+  "why": "Parler may remove any content at any time and for any reason."
+ },
+ "N204": {
+  "verdict": "NO",
+  "why": "The passage covers request metrics and policy changes, not promotional communications."
+ },
+ "N205": {
+  "verdict": "YES",
+  "why": "If any part is invalid or unenforceable, the remaining parts remain in full force and effect."
+ },
+ "N206": {
+  "verdict": "PARTLY",
+  "why": "Material changes are notified, but revisiting the terms periodically is not asked of the user."
+ },
+ "N207": {
+  "verdict": "NO",
+  "why": "It warns that recipients may make private shares public; nothing about staff access."
+ },
+ "N208": {
+  "verdict": "PARTLY",
+  "why": "Parler may remove any content for any reason, but editing content is not stated."
+ },
+ "N209": {
+  "verdict": "YES",
+  "why": "It disclaims liability for quality, safety or reliability and provides the Services as is."
+ },
+ "N210": {
+  "verdict": "YES",
+  "why": "If any of the Terms are invalid or unenforceable, the remaining Terms remain in effect."
+ },
+ "N211": {
+  "verdict": "PARTLY",
+  "why": "You can choose to share posts to third-party services like Twitter or Facebook, not choose an audience generally."
+ },
+ "N212": {
+  "verdict": "NO",
+  "why": "It describes sharing with partners and vendors, not the policy's scope for third-party services."
+ },
+ "N213": {
+  "verdict": "YES",
+  "why": "Where others used your content under the license, the license continues to apply after account deletion."
+ },
+ "N214": {
+  "verdict": "NO",
+  "why": "It lists data received from other sources and ad uses, not data given to operating third parties."
+ },
+ "N215": {
+  "verdict": "NO",
+  "why": "It covers sharing your posts to other sites, not tracking you on other websites."
+ },
+ "N216": {
+  "verdict": "PARTLY",
+  "why": "Bluesky excludes liability for problems caused by others' posts and third-party claims, but user disputes are not addressed."
+ },
+ "N217": {
+  "verdict": "PARTLY",
+  "why": "Material changes are notified in advance, but no 30-day period is given."
+ },
+ "N218": {
+  "verdict": "YES",
+  "why": "Data is stored and preserved for legal obligations, and GDPR request correspondence is kept two years."
+ },
+ "N219": {
+  "verdict": "YES",
+  "why": "You agree to defend, indemnify and hold Reddit harmless for claims arising from your use of the Services."
+ },
+ "N220": {
+  "verdict": "PARTLY",
+  "why": "It describes monitoring logs and messages for spam and suspicious behaviour, not how data is secured."
+ },
+ "N221": {
+  "verdict": "YES",
+  "why": "The Services may contain third-party links and Reddit is not responsible for any third party's websites."
+ },
+ "N222": {
+  "verdict": "PARTLY",
+  "why": "Third-party login platforms and technical service partners appear as data sources, only weakly as operating the service."
+ },
+ "N223": {
+  "verdict": "NO",
+  "why": "It says public content is visible to anyone and lists device controls, not audience choices for content."
+ },
+ "N224": {
+  "verdict": "YES",
+  "why": "Last Modified: 2026-10-20."
+ },
+ "N225": {
+  "verdict": "NO",
+  "why": "It requires final and binding arbitration, the opposite of the case."
+ },
+ "N226": {
+  "verdict": "NO",
+  "why": "It describes usage and content information, not sale of data."
+ },
+ "N227": {
+  "verdict": "NO",
+  "why": "It covers sharing with ad vendors and opt-outs, with no mention of cookies."
+ },
+ "N228": {
+  "verdict": "YES",
+  "why": "You must notify WhatsApp promptly of any unauthorized use or security breach of your account."
+ },
+ "N229": {
+  "verdict": "NO",
+  "why": "It lists account data received from you, your device or sign-in providers, not data about people who never interacted."
+ },
+ "N230": {
+  "verdict": "YES",
+  "why": "Cookies are used with partners, including information from advertisers' websites, to show more relevant ads."
+ }
+}
