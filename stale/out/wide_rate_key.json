@@ -1,0 +1,5292 @@
+{
+ "W001": {
+  "doc": "Twitch/Terms of Service.md",
+  "case": "This service assumes no responsibility and liability for the contents of links to other websites",
+  "piece": 28,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 6
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W002": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 32,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W003": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 6,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W004": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 1,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W005": {
+  "doc": "Quora/Privacy Policy.md",
+  "case": "Information is provided about what kind of personal information is collected",
+  "piece": 14,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 6
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W006": {
+  "doc": "Reddit/Privacy Policy.md",
+  "case": "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+  "piece": 4,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W007": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Your data may be processed and stored anywhere in the world",
+  "piece": 30,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "a",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W008": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "This service gives your personal data to third parties involved in its operation",
+  "piece": 6,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "a",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W009": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "A license is kept on user-generated content even after you close your account",
+  "piece": 14,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W010": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "Your personal information is used for many different purposes",
+  "piece": 68,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W011": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "The posting of pornographic content is prohibited",
+  "piece": 9,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W012": {
+  "doc": "Quora/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is used",
+  "piece": 14,
+  "arms": {
+   "PAGE": 5,
+   "RERANK": 2
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W013": {
+  "doc": "YouTube/Privacy Policy.md",
+  "case": "Your provided identifiable information is actively checked by the service",
+  "piece": 39,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W014": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 32,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W015": {
+  "doc": "Telegram/Privacy Policy.md",
+  "case": "This service gives your personal data to third parties involved in its operation",
+  "piece": 25,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": false
+ },
+ "W016": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 18,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W017": {
+  "doc": "Reddit/Privacy Policy.md",
+  "case": "Your personal data may be sold unless you opt out",
+  "piece": 40,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W018": {
+  "doc": "Twitch/Terms of Service.md",
+  "case": "Minors must have the authorization of their legal guardians to use the service",
+  "piece": 7,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W019": {
+  "doc": "Reddit/Privacy Policy.md",
+  "case": "You can choose with whom you share content",
+  "piece": 14,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W020": {
+  "doc": "X/Terms of Service.md",
+  "case": "This service assumes no responsibility and liability for the contents of links to other websites",
+  "piece": 45,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W021": {
+  "doc": "Quora/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 38,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W022": {
+  "doc": "LINE/Privacy Policy.md",
+  "case": "Information is provided about what kind of personal information is collected",
+  "piece": 5,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W023": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "The service has non-exclusive use of your content",
+  "piece": 13,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 3
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W024": {
+  "doc": "Telegram/Privacy Policy.md",
+  "case": "You can opt out of targeted advertising",
+  "piece": 13,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": false
+ },
+ "W025": {
+  "doc": "Tumblr/Terms of Service.md",
+  "case": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision",
+  "piece": 25,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W026": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "You maintain ownership of your content",
+  "piece": 15,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W027": {
+  "doc": "Twitch/Privacy Policy.md",
+  "case": "This service informs you that its Privacy Policy does not apply to third-party services",
+  "piece": 17,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W028": {
+  "doc": "Telegram/Privacy Policy.md",
+  "case": "Third-party cookies are used for advertising",
+  "piece": 9,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": false
+ },
+ "W029": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "Your personal data may be used for marketing purposes",
+  "piece": 39,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W030": {
+  "doc": "Quora/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 10,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W031": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage",
+  "piece": 8,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W032": {
+  "doc": "Twitch/Privacy Policy.md",
+  "case": "Your personal data may be used for marketing purposes",
+  "piece": 12,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W033": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "A complaint mechanism is provided for the handling of personal data",
+  "piece": 47,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W034": {
+  "doc": "X/Terms of Service.md",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 21,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W035": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 36,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W036": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 62,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W037": {
+  "doc": "Telegram/Privacy Policy.md",
+  "case": "The service claims to be GDPR compliant for European users",
+  "piece": 1,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": false
+ },
+ "W038": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "This service cannot be held responsible for disputes that you may have with other users",
+  "piece": 14,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "a",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W039": {
+  "doc": "Reddit/Privacy Policy.md",
+  "case": "Your personal data may be disclosed to comply with government requests without notice to you",
+  "piece": 16,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W040": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "You can limit how your information is used by third parties and the service",
+  "piece": 136,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W041": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 63,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W042": {
+  "doc": "Quora/Terms of Service.md",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 16,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W043": {
+  "doc": "BeReal/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 6,
+  "arms": {
+   "PAGE": 10,
+   "RERANK": 1
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W044": {
+  "doc": "BeReal/Privacy Policy.md",
+  "case": "Information is provided about what kind of personal information is collected",
+  "piece": 20,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W045": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Third parties are involved in operating the service",
+  "piece": 5,
+  "arms": {
+   "PAGE": 9,
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W046": {
+  "doc": "X/Terms of Service.md",
+  "case": "This service is a subsidiary of Company X",
+  "piece": 5,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 9
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W047": {
+  "doc": "Twitch/Terms of Service.md",
+  "case": "You are prohibited from publishing any third party’s personally identifiable information without their consent",
+  "piece": 21,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W048": {
+  "doc": "YouTube/Privacy Policy.md",
+  "case": "Tracking pixels are used in service-to-user communication",
+  "piece": 54,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W049": {
+  "doc": "Reddit/Privacy Policy.md",
+  "case": "Sensitive data is collected and shared to target advertising",
+  "piece": 40,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W050": {
+  "doc": "LINE/Privacy Policy.md",
+  "case": "Information is provided about what kind of personal information is collected",
+  "piece": 9,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W051": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 90,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W052": {
+  "doc": "Mastodon/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 1,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W053": {
+  "doc": "Quora/Privacy Policy.md",
+  "case": "The service claims to be CCPA compliant for California users",
+  "piece": 13,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W054": {
+  "doc": "TikTok/Privacy Policy.md",
+  "case": "Extra data may be collected about you through promotions",
+  "piece": 2,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W055": {
+  "doc": "YouTube/Privacy Policy.md",
+  "case": "Extra data may be collected about you through promotions",
+  "piece": 42,
+  "arms": {
+   "PAGE": 7,
+   "RERANK": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W056": {
+  "doc": "YouTube/Privacy Policy.md",
+  "case": "This service gives your personal data to third parties involved in its operation",
+  "piece": 26,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W057": {
+  "doc": "Spotify/Terms of Service.md",
+  "case": "Content you post may be edited by the service for any reason",
+  "piece": 14,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W058": {
+  "doc": "BeReal/Privacy Policy.md",
+  "case": "Location data may be collected, used and/or shared",
+  "piece": 1,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 9
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W059": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 18,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W060": {
+  "doc": "Reddit/Privacy Policy.md",
+  "case": "You are informed about the risk of publishing personal info online",
+  "piece": 2,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W061": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": "You waive your moral rights",
+  "piece": 55,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 9
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W062": {
+  "doc": "Mastodon/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is used",
+  "piece": 1,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W063": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "Your provided identifiable information is actively checked by the service",
+  "piece": 86,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W064": {
+  "doc": "Spotify/Terms of Service.md",
+  "case": "Other rules, terms, conditions and/or guidelines may apply",
+  "piece": 10,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W065": {
+  "doc": "X/Terms of Service.md",
+  "case": "This service cannot be held responsible for disputes that you may have with other users",
+  "piece": 8,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W066": {
+  "doc": "Spotify/Terms of Service.md",
+  "case": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+  "piece": 44,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W067": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": "No guarantee is made regarding the correction of software errors",
+  "piece": 81,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W068": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": "You must create an account to use this service",
+  "piece": 26,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W069": {
+  "doc": "Twitch/Terms of Service.md",
+  "case": "Other rules, terms, conditions and/or guidelines may apply",
+  "piece": 1,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W070": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "Your content can be licensed to third parties",
+  "piece": 13,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W071": {
+  "doc": "YouTube/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 25,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W072": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "Your private content may be accessed by people working for the service",
+  "piece": 11,
+  "arms": {
+   "PAGE": 9,
+   "RERANK": 7
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W073": {
+  "doc": "Quora/Privacy Policy.md",
+  "case": "Location data may be collected, used and/or shared",
+  "piece": 14,
+  "arms": {
+   "PAGE": 7,
+   "RERANK": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W074": {
+  "doc": "LINE/Privacy Policy.md",
+  "case": "There is a date of the last update of the agreements",
+  "piece": 40,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W075": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "Your personal data is used for automated decision-making, profiling or AI training",
+  "piece": 32,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 2
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W076": {
+  "doc": "Tumblr/Terms of Service.md",
+  "case": "The service is provided 'as is' and to be used at your sole risk",
+  "piece": 18,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 1
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W077": {
+  "doc": "LINE/Privacy Policy.md",
+  "case": "This service is only available to users over a certain age",
+  "piece": 36,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W078": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "A complaint mechanism is provided for the handling of personal data",
+  "piece": 8,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W079": {
+  "doc": "BeReal/Terms of Service.md",
+  "case": "Your content can be distributed through any media known now or in the future",
+  "piece": 4,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W080": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "Your content can be licensed to third parties",
+  "piece": 5,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W081": {
+  "doc": "BeReal/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 11,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W082": {
+  "doc": "Reddit/Privacy Policy.md",
+  "case": "Your personal information is used for many different purposes",
+  "piece": 26,
+  "arms": {
+   "PAGE": 8,
+   "RERANK": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W083": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": "Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage",
+  "piece": 18,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W084": {
+  "doc": "LINE/Privacy Policy.md",
+  "case": "Your private content may be accessed by people working for the service",
+  "piece": 20,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W085": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "The service claims that third parties it shares your personal information with are bound by confidentiality obligations",
+  "piece": 59,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W086": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "If you are the target of a copyright claim, your content and/or your account may be removed",
+  "piece": 6,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "a",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W087": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 0,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W088": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "You must report to the service any unauthorized use of your account or any breach of security",
+  "piece": 3,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W089": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "Third parties are involved in operating the service",
+  "piece": 23,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 7
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W090": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+  "piece": 4,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W091": {
+  "doc": "Telegram/Terms of Service.md",
+  "case": "Harming minors in any ways is prohibited",
+  "piece": 0,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": false
+ },
+ "W092": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 4,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W093": {
+  "doc": "Telegram/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is used",
+  "piece": 1,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": false
+ },
+ "W094": {
+  "doc": "TikTok/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 33,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 1
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W095": {
+  "doc": "BeReal/Privacy Policy.md",
+  "case": "You can opt out of receiving promotional communications",
+  "piece": 17,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W096": {
+  "doc": "Reddit/Privacy Policy.md",
+  "case": "Third-party cookies are employed, but with opt out instructions",
+  "piece": 20,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 7
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W097": {
+  "doc": "BeReal/Terms of Service.md",
+  "case": "Any liability on behalf of the service is only limited to the fees you paid as a user",
+  "piece": 10,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W098": {
+  "doc": "LINE/Terms of Service.md",
+  "case": "This service does not guarantee that it or the products obtained through it meet your expectations or requirements",
+  "piece": 20,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W099": {
+  "doc": "Telegram/Privacy Policy.md",
+  "case": "Your personal data may be used for marketing purposes",
+  "piece": 13,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": false
+ },
+ "W100": {
+  "doc": "LINE/Terms of Service.md",
+  "case": "This service has a no refund policy with some exceptions",
+  "piece": 23,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W101": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "Extra data may be collected about you through promotions",
+  "piece": 80,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W102": {
+  "doc": "Twitch/Terms of Service.md",
+  "case": "The service assumes no liability for any damages the user incurs",
+  "piece": 23,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W103": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 19,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W104": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 57,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W105": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 58,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W106": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 22,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "a",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W107": {
+  "doc": "LINE/Privacy Policy.md",
+  "case": "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+  "piece": 9,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W108": {
+  "doc": "Tumblr/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 22,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 5
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W109": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "Information is provided about what kind of personal information is collected",
+  "piece": 33,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W110": {
+  "doc": "X/Terms of Service.md",
+  "case": "This service assumes no responsibility and liability for the contents of links to other websites",
+  "piece": 8,
+  "arms": {
+   "PAGE": 10,
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W111": {
+  "doc": "LINE/Terms of Service.md",
+  "case": "Any liability on behalf of the service is only limited to the fees you paid as a user",
+  "piece": 15,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W112": {
+  "doc": "LINE/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is used",
+  "piece": 5,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W113": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "Sensitive data is collected and shared to target advertising",
+  "piece": 13,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W114": {
+  "doc": "BeReal/Privacy Policy.md",
+  "case": "You can choose with whom you share content",
+  "piece": 16,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W115": {
+  "doc": "LINE/Terms of Service.md",
+  "case": "Your content can be deleted if you violate the terms",
+  "piece": 5,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 2
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W116": {
+  "doc": "Twitch/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 30,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 7
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W117": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "This service gives your personal data to third parties involved in its operation",
+  "piece": 44,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W118": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "You can opt out of receiving promotional communications",
+  "piece": 13,
+  "arms": {
+   "PAGE": 7,
+   "RERANK": 1
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W119": {
+  "doc": "Spotify/Terms of Service.md",
+  "case": "Other rules, terms, conditions and/or guidelines may apply",
+  "piece": 6,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W120": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": "This service does not guarantee that it or the products obtained through it meet your expectations or requirements",
+  "piece": 81,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W121": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "Many third parties are involved in operating the service",
+  "piece": 23,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W122": {
+  "doc": "Telegram/Terms of Service.md",
+  "case": "The posting of pornographic content is prohibited",
+  "piece": 0,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": false
+ },
+ "W123": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "This service is only available to users over a certain age",
+  "piece": 6,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W124": {
+  "doc": "Spotify/Terms of Service.md",
+  "case": "Your content can be distributed through any media known now or in the future",
+  "piece": 15,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W125": {
+  "doc": "Twitch/Privacy Policy.md",
+  "case": "This service informs you that its Privacy Policy does not apply to third-party services",
+  "piece": 13,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W126": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "Third-party cookies are used for statistics",
+  "piece": 79,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W127": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "The service claims that third parties it shares your personal information with are bound by confidentiality obligations",
+  "piece": 15,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W128": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 17,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W129": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "This service shares your personal data with third parties that are not essential to its operation",
+  "piece": 18,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "a",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W130": {
+  "doc": "Spotify/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 4,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 2
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W131": {
+  "doc": "BeReal/Privacy Policy.md",
+  "case": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+  "piece": 13,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W132": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 30,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W133": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "This service claims that your personal data is not being sold",
+  "piece": 16,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W134": {
+  "doc": "BeReal/Privacy Policy.md",
+  "case": "Your personal data is used to employ targeted third-party advertising",
+  "piece": 23,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W135": {
+  "doc": "TikTok/Privacy Policy.md",
+  "case": "There is a date of the last update of the agreements",
+  "piece": 0,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W136": {
+  "doc": "Mastodon/Privacy Policy.md",
+  "case": "Your private content may be accessed by people working for the service",
+  "piece": 3,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W137": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 2,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W138": {
+  "doc": "Quora/Privacy Policy.md",
+  "case": "Your personal information is used for many different purposes",
+  "piece": 14,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W139": {
+  "doc": "X/Terms of Service.md",
+  "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 21,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W140": {
+  "doc": "Quora/Terms of Service.md",
+  "case": "No warranty is made regarding an uninterrupted, timely, secure and/or error-free experience",
+  "piece": 18,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W141": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "Many third parties are involved in operating the service",
+  "piece": 38,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W142": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "You are responsible for maintaining the security of your account and for the activities on your account",
+  "piece": 3,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W143": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "The service is provided 'as is' and to be used at your sole risk",
+  "piece": 6,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 9
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W144": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "Information is gathered about you through third parties",
+  "piece": 7,
+  "arms": {
+   "PAGE": 5,
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W145": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "Your personal data may be used for marketing purposes",
+  "piece": 48,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W146": {
+  "doc": "Quora/Terms of Service.md",
+  "case": "You maintain ownership of your content",
+  "piece": 3,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 5
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W147": {
+  "doc": "BeReal/Terms of Service.md",
+  "case": "Banned users are prohibited from creating a new account",
+  "piece": 6,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 7
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W148": {
+  "doc": "Quora/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 16,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W149": {
+  "doc": "X/Terms of Service.md",
+  "case": "No guarantee is made regarding the correction of software errors",
+  "piece": 21,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W150": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": "Third parties are involved in operating the service",
+  "piece": 8,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W151": {
+  "doc": "Spotify/Terms of Service.md",
+  "case": "If you offer suggestions to the service, they may use that without your approval or compensation, but they do not become the owner",
+  "piece": 15,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W152": {
+  "doc": "Quora/Privacy Policy.md",
+  "case": "Your personal data may be aggregated into statistics",
+  "piece": 8,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W153": {
+  "doc": "LINE/Privacy Policy.md",
+  "case": "Your personal data may be aggregated into statistics",
+  "piece": 18,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W154": {
+  "doc": "Tumblr/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 2,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W155": {
+  "doc": "Telegram/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 11,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": false
+ },
+ "W156": {
+  "doc": "Telegram/Terms of Service.md",
+  "case": "The service assumes no liability for any damages the user incurs",
+  "piece": 11,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": false
+ },
+ "W157": {
+  "doc": "X/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 33,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W158": {
+  "doc": "Mastodon/Privacy Policy.md",
+  "case": "Third parties are involved in operating the service",
+  "piece": 3,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W159": {
+  "doc": "TikTok/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 21,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W160": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "Your IP address is collected, which can be used to view your approximate location",
+  "piece": 6,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W161": {
+  "doc": "BeReal/Terms of Service.md",
+  "case": "You maintain ownership of your content",
+  "piece": 4,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 2
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W162": {
+  "doc": "Telegram/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is used",
+  "piece": 2,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": false
+ },
+ "W163": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "You can limit how your information is used by third parties and the service",
+  "piece": 11,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W164": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 19,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W165": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": "You are prohibited from publishing any third party’s personally identifiable information without their consent",
+  "piece": 9,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 10
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W166": {
+  "doc": "Twitch/Privacy Policy.md",
+  "case": "This service claims that your personal data is not being sold",
+  "piece": 9,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W167": {
+  "doc": "LINE/Terms of Service.md",
+  "case": "Content you post may be edited by the service for any reason",
+  "piece": 5,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W168": {
+  "doc": "Telegram/Terms of Service.md",
+  "case": "This service is only available to users over a certain age",
+  "piece": 0,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": false
+ },
+ "W169": {
+  "doc": "Quora/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 38,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W170": {
+  "doc": "LINE/Terms of Service.md",
+  "case": "The posting of pornographic content is prohibited",
+  "piece": 10,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W171": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "This service is only available to users over a certain age",
+  "piece": 126,
+  "arms": {
+   "PAGE": 9,
+   "RERANK": 5
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W172": {
+  "doc": "BeReal/Privacy Policy.md",
+  "case": "Information is gathered about you through third parties",
+  "piece": 5,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W173": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 3,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W174": {
+  "doc": "Spotify/Terms of Service.md",
+  "case": "No refunds will be issued",
+  "piece": 18,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W175": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "This service provides a list of third parties involved in its operation",
+  "piece": 15,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W176": {
+  "doc": "BeReal/Privacy Policy.md",
+  "case": "There is a date of the last update of the agreements",
+  "piece": 0,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W177": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "Your provided identifiable information is actively checked by the service",
+  "piece": 62,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W178": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "The service claims to be GDPR compliant for European users",
+  "piece": 69,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W179": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Your data may be processed and stored anywhere in the world",
+  "piece": 1,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W180": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "You can opt out of receiving promotional communications",
+  "piece": 75,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W181": {
+  "doc": "Telegram/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 8,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": false
+ },
+ "W182": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 9,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W183": {
+  "doc": "LINE/Terms of Service.md",
+  "case": "Specific content can be deleted without reason and may be removed without prior notice",
+  "piece": 5,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W184": {
+  "doc": "Mastodon/Privacy Policy.md",
+  "case": "Third-party cookies are used for statistics",
+  "piece": 2,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W185": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "Other rules, terms, conditions and/or guidelines may apply",
+  "piece": 0,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W186": {
+  "doc": "Telegram/Privacy Policy.md",
+  "case": "You can choose with whom you share content",
+  "piece": 22,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": false
+ },
+ "W187": {
+  "doc": "LINE/Terms of Service.md",
+  "case": "The service has non-exclusive use of your content",
+  "piece": 5,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 1
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W188": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "Your content can be licensed to third parties",
+  "piece": 5,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W189": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": "Certain features may be throttled",
+  "piece": 12,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W190": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 101,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W191": {
+  "doc": "Mastodon/Privacy Policy.md",
+  "case": "Information is gathered about you through third parties",
+  "piece": 2,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W192": {
+  "doc": "Quora/Terms of Service.md",
+  "case": "You aren’t forced into binding arbitration in case of disputes",
+  "piece": 34,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W193": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": "Your content can be licensed to third parties",
+  "piece": 15,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W194": {
+  "doc": "X/Terms of Service.md",
+  "case": "The court of law governing the terms is in a jurisdiction that is friendlier to user privacy protection",
+  "piece": 24,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W195": {
+  "doc": "Spotify/Terms of Service.md",
+  "case": "No guarantee is made reguarding the accuracy and/or reliability of the information provided",
+  "piece": 20,
+  "arms": {
+   "PAGE": 9,
+   "RERANK": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W196": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "Third parties are involved in operating the service",
+  "piece": 67,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 7
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W197": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 18,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W198": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "You aren’t forced into binding arbitration in case of disputes",
+  "piece": 17,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W199": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": "Your account can be deleted or permanently suspended without prior notice and without a reason",
+  "piece": 12,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W200": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "Your personal data is used for automated decision-making, profiling or AI training",
+  "piece": 29,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W201": {
+  "doc": "TikTok/Privacy Policy.md",
+  "case": "Your personal data may be used for marketing purposes",
+  "piece": 23,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W202": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": "Your content can be licensed to third parties",
+  "piece": 14,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W203": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "This service is only available for use individually and non-commercially",
+  "piece": 3,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "a",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W204": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "You agree not to use the service for illegal purposes",
+  "piece": 7,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W205": {
+  "doc": "BeReal/Terms of Service.md",
+  "case": "Your account can be suspended for several reasons",
+  "piece": 6,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W206": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "You are responsible for maintaining the security of your account and for the activities on your account",
+  "piece": 11,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W207": {
+  "doc": "TikTok/Privacy Policy.md",
+  "case": "The data retention period is kept to the minimum necessary for fulfilling its purposes",
+  "piece": 42,
+  "arms": {
+   "PAGE": 9,
+   "RERANK": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W208": {
+  "doc": "Twitch/Terms of Service.md",
+  "case": "Your account can be suspended for several reasons",
+  "piece": 30,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W209": {
+  "doc": "Twitch/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 12,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 4
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W210": {
+  "doc": "Tumblr/Terms of Service.md",
+  "case": "You are responsible for maintaining the security of your account and for the activities on your account",
+  "piece": 7,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W211": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 10,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W212": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "Your personal data is used to employ targeted third-party advertising",
+  "piece": 7,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W213": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "You can opt out of receiving promotional communications",
+  "piece": 9,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W214": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": "Content you post may be edited by the service for any reason",
+  "piece": 10,
+  "arms": {
+   "PAGE": 9,
+   "RERANK": 2
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W215": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": "You have the right to leave this service at any time",
+  "piece": 18,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W216": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "Harming minors in any ways is prohibited",
+  "piece": 9,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W217": {
+  "doc": "Telegram/Terms of Service.md",
+  "case": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+  "piece": 7,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": false
+ },
+ "W218": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Many third parties are involved in operating the service",
+  "piece": 5,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W219": {
+  "doc": "Tumblr/Terms of Service.md",
+  "case": "A license is kept on user-generated content even after you close your account",
+  "piece": 10,
+  "arms": {
+   "PAGE": 7,
+   "RERANK": 10
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W220": {
+  "doc": "BeReal/Terms of Service.md",
+  "case": "Harming minors in any ways is prohibited",
+  "piece": 4,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W221": {
+  "doc": "TikTok/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 0,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W222": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": "If you offer suggestions to the service, they may use that without your approval or compensation, but they do not become the owner",
+  "piece": 56,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W223": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "Third-party cookies are used for advertising",
+  "piece": 9,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W224": {
+  "doc": "TikTok/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 8,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W225": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "You can opt out of receiving promotional communications",
+  "piece": 8,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 2
+  },
+  "folder": "a",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W226": {
+  "doc": "Telegram/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 5,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": false
+ },
+ "W227": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "Sensitive data is collected and shared to target advertising",
+  "piece": 143,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W228": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "This service assumes no liability for unauthorized access to your personal information",
+  "piece": 15,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "a",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W229": {
+  "doc": "Quora/Privacy Policy.md",
+  "case": "A complaint mechanism is provided for the handling of personal data",
+  "piece": 10,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W230": {
+  "doc": "Twitch/Terms of Service.md",
+  "case": "Minors must have the authorization of their legal guardians to use the service",
+  "piece": 3,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W231": {
+  "doc": "Twitch/Privacy Policy.md",
+  "case": "You can opt out of receiving promotional communications",
+  "piece": 7,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 5
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W232": {
+  "doc": "Twitch/Privacy Policy.md",
+  "case": "Information is provided about what kind of personal information is collected",
+  "piece": 2,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W233": {
+  "doc": "TikTok/Privacy Policy.md",
+  "case": "The service claims to be GDPR compliant for European users",
+  "piece": 35,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W234": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 1,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W235": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": "The service has non-exclusive use of your content",
+  "piece": 14,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 2
+  },
+  "folder": "a",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W236": {
+  "doc": "BeReal/Terms of Service.md",
+  "case": "Instructions are provided on how to submit a copyright claim",
+  "piece": 9,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "a",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W237": {
+  "doc": "X/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 8,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W238": {
+  "doc": "BeReal/Terms of Service.md",
+  "case": "There is a date of the last update of the agreements",
+  "piece": 0,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W239": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": "If you are the target of a copyright claim, your content and/or your account may be removed",
+  "piece": 14,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W240": {
+  "doc": "X/Terms of Service.md",
+  "case": "You should revisit the terms periodically, although in case of material changes, the service will notify",
+  "piece": 24,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 2
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W241": {
+  "doc": "X/Terms of Service.md",
+  "case": "You are prohibited from publishing any third party’s personally identifiable information without their consent",
+  "piece": 40,
+  "arms": {
+   "PAGE": 9,
+   "RERANK": 5
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W242": {
+  "doc": "TikTok/Privacy Policy.md",
+  "case": "You can limit how your information is used by third parties and the service",
+  "piece": 23,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W243": {
+  "doc": "TikTok/Privacy Policy.md",
+  "case": "You may be tracked on other websites",
+  "piece": 6,
+  "arms": {
+   "PAGE": 7,
+   "RERANK": 7
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W244": {
+  "doc": "Telegram/Privacy Policy.md",
+  "case": "The data retention period is kept to the minimum necessary for fulfilling its purposes",
+  "piece": 10,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": false
+ },
+ "W245": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "This service informs you that its Terms of Service does not apply to third-party services",
+  "piece": 12,
+  "arms": {
+   "PAGE": 7,
+   "RERANK": 10
+  },
+  "folder": "b",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W246": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "Your personal data may be sold unless you opt out",
+  "piece": 22,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W247": {
+  "doc": "BeReal/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is used",
+  "piece": 22,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W248": {
+  "doc": "Telegram/Privacy Policy.md",
+  "case": "Location data may be collected, used and/or shared",
+  "piece": 8,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 6
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": false
+ },
+ "W249": {
+  "doc": "Mastodon/Privacy Policy.md",
+  "case": "The service claims to be CCPA compliant for California users",
+  "piece": 3,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W250": {
+  "doc": "Twitch/Terms of Service.md",
+  "case": "This service is only available to users over a certain age",
+  "piece": 3,
+  "arms": {
+   "PAGE": 9,
+   "RERANK": 5
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W251": {
+  "doc": "TikTok/Privacy Policy.md",
+  "case": "A complaint mechanism is provided for the handling of personal data",
+  "piece": 32,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W252": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "You may be tracked on other websites",
+  "piece": 14,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W253": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 80,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W254": {
+  "doc": "Telegram/Terms of Service.md",
+  "case": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+  "piece": 5,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": false
+ },
+ "W255": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "This service informs you that its Privacy Policy does not apply to third-party services",
+  "piece": 14,
+  "arms": {
+   "PAGE": 5,
+   "RERANK": 2
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W256": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "Other rules, terms, conditions and/or guidelines may apply",
+  "piece": 3,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W257": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "Spidering, crawling, or accessing the site through any automated means is not allowed",
+  "piece": 1,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W258": {
+  "doc": "Reddit/Privacy Policy.md",
+  "case": " You are being tracked via social media cookies/pixels",
+  "piece": 36,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W259": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "A complaint mechanism is provided for the handling of personal data",
+  "piece": 75,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W260": {
+  "doc": "BeReal/Terms of Service.md",
+  "case": "Minors must have the authorization of their legal guardians to use the service",
+  "piece": 1,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W261": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "You must create an account to use this service",
+  "piece": 3,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W262": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "You can choose with whom you share content",
+  "piece": 13,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W263": {
+  "doc": "Mastodon/Privacy Policy.md",
+  "case": "The service claims that third parties it shares your personal information with are bound by confidentiality obligations",
+  "piece": 3,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W264": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "Your content can be deleted if you violate the terms",
+  "piece": 10,
+  "arms": {
+   "PAGE": 5,
+   "RERANK": 10
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W265": {
+  "doc": "Quora/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 18,
+  "arms": {
+   "PAGE": 9,
+   "RERANK": 9
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W266": {
+  "doc": "Reddit/Privacy Policy.md",
+  "case": "This service provides a list of third parties involved in its operation",
+  "piece": 15,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W267": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 17,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W268": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "Content you post may be edited by the service for any reason",
+  "piece": 3,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W269": {
+  "doc": "X/Terms of Service.md",
+  "case": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+  "piece": 49,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W270": {
+  "doc": "Telegram/Terms of Service.md",
+  "case": "You agree not to use the service for illegal purposes",
+  "piece": 0,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 2
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": false
+ },
+ "W271": {
+  "doc": "Quora/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 9,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W272": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 19,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W273": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "Many different types of personal data are collected",
+  "piece": 33,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W274": {
+  "doc": "Spotify/Terms of Service.md",
+  "case": "This service assumes no liability for unauthorized access to your personal information",
+  "piece": 5,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W275": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 18,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W276": {
+  "doc": "Mastodon/Privacy Policy.md",
+  "case": "Your personal data is used to employ targeted third-party advertising",
+  "piece": 3,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W277": {
+  "doc": "Telegram/Terms of Service.md",
+  "case": "No guarantee is made reguarding the accuracy and/or reliability of the information provided",
+  "piece": 7,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": false
+ },
+ "W278": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "You can limit how your information is used by third parties and the service",
+  "piece": 7,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W279": {
+  "doc": "Mastodon/Privacy Policy.md",
+  "case": "This service informs you that its Privacy Policy does not apply to third-party services",
+  "piece": 3,
+  "arms": {
+   "PAGE": 7,
+   "RERANK": 9
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W280": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 46,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W281": {
+  "doc": "Twitch/Privacy Policy.md",
+  "case": "Information is gathered about you through third parties",
+  "piece": 5,
+  "arms": {
+   "PAGE": 5,
+   "RERANK": 3
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W282": {
+  "doc": "LINE/Privacy Policy.md",
+  "case": "Third-party cookies are used for advertising",
+  "piece": 33,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 6
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W283": {
+  "doc": "LINE/Terms of Service.md",
+  "case": "You cannot distribute or disclose your account to third parties",
+  "piece": 12,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W284": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 24,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W285": {
+  "doc": "LINE/Terms of Service.md",
+  "case": "No guarantee is made reguarding the accuracy and/or reliability of the information provided",
+  "piece": 8,
+  "arms": {
+   "PAGE": 10,
+   "RERANK": 7
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W286": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "This service assumes no liability for unauthorized access to your personal information",
+  "piece": 14,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "b",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W287": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": "Alternative accounts are not allowed",
+  "piece": 11,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W288": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "A complaint mechanism is provided for the handling of personal data",
+  "piece": 6,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W289": {
+  "doc": "Telegram/Terms of Service.md",
+  "case": "You are prohibited from sending chain letters, junk mail, spam or any unsolicited messages",
+  "piece": 0,
+  "arms": {
+   "PAGE": 7,
+   "RERANK": 5
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": false
+ },
+ "W290": {
+  "doc": "BeReal/Terms of Service.md",
+  "case": "You should revisit the terms periodically, although in case of material changes, the service will notify",
+  "piece": 11,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W291": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "This service gives your personal data to third parties involved in its operation",
+  "piece": 5,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "b",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W292": {
+  "doc": "Reddit/Privacy Policy.md",
+  "case": "Many third parties are involved in operating the service",
+  "piece": 21,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W293": {
+  "doc": "Spotify/Terms of Service.md",
+  "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 25,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W294": {
+  "doc": "Tumblr/Terms of Service.md",
+  "case": "You have the right to leave this service at any time",
+  "piece": 12,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W295": {
+  "doc": "LINE/Terms of Service.md",
+  "case": "Minors must have the authorization of their legal guardians to use the service",
+  "piece": 1,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 3
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W296": {
+  "doc": "Reddit/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 37,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W297": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": "You must create an account to use this service",
+  "piece": 73,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W298": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "This service assumes no responsibility and liability for the contents of links to other websites",
+  "piece": 16,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W299": {
+  "doc": "Twitch/Privacy Policy.md",
+  "case": "You can limit how your information is used by third parties and the service",
+  "piece": 11,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W300": {
+  "doc": "Telegram/Terms of Service.md",
+  "case": "Other rules, terms, conditions and/or guidelines may apply",
+  "piece": 0,
+  "arms": {
+   "PAGE": 10,
+   "RERANK": 9
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": false
+ },
+ "W301": {
+  "doc": "Telegram/Privacy Policy.md",
+  "case": "Information is gathered about you through third parties",
+  "piece": 25,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": false
+ },
+ "W302": {
+  "doc": "Reddit/Privacy Policy.md",
+  "case": "You can choose with whom you share content",
+  "piece": 3,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W303": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "Your personal data is used for automated decision-making, profiling or AI training",
+  "piece": 35,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W304": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "The data retention period is kept to the minimum necessary for fulfilling its purposes",
+  "piece": 76,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W305": {
+  "doc": "Twitch/Terms of Service.md",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 32,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W306": {
+  "doc": "LINE/Privacy Policy.md",
+  "case": "A complaint mechanism is provided for the handling of personal data",
+  "piece": 33,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W307": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 18,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W308": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "You can opt out of targeted advertising",
+  "piece": 18,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W309": {
+  "doc": "BeReal/Terms of Service.md",
+  "case": "You agree not to submit libelous, harassing or threatening content",
+  "piece": 4,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 3
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W310": {
+  "doc": "Telegram/Privacy Policy.md",
+  "case": "Your personal data is used to employ targeted third-party advertising",
+  "piece": 14,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": false
+ },
+ "W311": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 6,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W312": {
+  "doc": "LINE/Privacy Policy.md",
+  "case": "Your personal data is used to employ targeted third-party advertising",
+  "piece": 17,
+  "arms": {
+   "PAGE": 9,
+   "RERANK": 5
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W313": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "The service claims that third parties it shares your personal information with are bound by confidentiality obligations",
+  "piece": 4,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W314": {
+  "doc": "Reddit/Privacy Policy.md",
+  "case": "This service is a subsidiary of Company X",
+  "piece": 13,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W315": {
+  "doc": "Mastodon/Privacy Policy.md",
+  "case": "Your personal data may be used for marketing purposes",
+  "piece": 3,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W316": {
+  "doc": "Twitch/Privacy Policy.md",
+  "case": "Your personal data is used for automated decision-making, profiling or AI training",
+  "piece": 6,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W317": {
+  "doc": "YouTube/Privacy Policy.md",
+  "case": "A secure, anonymized record of your data may be kept for analytical purposes after the data retention period ends",
+  "piece": 20,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W318": {
+  "doc": "YouTube/Privacy Policy.md",
+  "case": "Your private content may be accessed by people working for the service",
+  "piece": 16,
+  "arms": {
+   "PAGE": 8,
+   "RERANK": 7
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W319": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "The service will only respond to government requests that are reasonable",
+  "piece": 71,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W320": {
+  "doc": "Quora/Terms of Service.md",
+  "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 4,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W321": {
+  "doc": "Quora/Terms of Service.md",
+  "case": "Your account can be suspended for several reasons",
+  "piece": 15,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W322": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "Your private content may be accessed by people working for the service",
+  "piece": 29,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W323": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 13,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "b",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W324": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "You can choose with whom you share content",
+  "piece": 28,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "b",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W325": {
+  "doc": "Telegram/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 1,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": false
+ },
+ "W326": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 9,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W327": {
+  "doc": "BeReal/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 18,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W328": {
+  "doc": "BeReal/Privacy Policy.md",
+  "case": "Your personal data may be used for marketing purposes",
+  "piece": 22,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W329": {
+  "doc": "Tumblr/Terms of Service.md",
+  "case": "Your content can be licensed to third parties",
+  "piece": 10,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 3
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W330": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "Your account can be suspended for several reasons",
+  "piece": 4,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W331": {
+  "doc": "LINE/Terms of Service.md",
+  "case": "Certain features may be throttled",
+  "piece": 19,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W332": {
+  "doc": "Quora/Terms of Service.md",
+  "case": "You waive your right to a class action",
+  "piece": 0,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W333": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": "You cannot distribute or disclose your account to third parties",
+  "piece": 65,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W334": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 45,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W335": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "Your personal data may be disclosed to comply with government requests without notice to you",
+  "piece": 7,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W336": {
+  "doc": "YouTube/Privacy Policy.md",
+  "case": "The service claims to be GDPR compliant for European users",
+  "piece": 0,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W337": {
+  "doc": "LINE/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is used",
+  "piece": 16,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W338": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": "You aren’t forced into binding arbitration in case of disputes",
+  "piece": 37,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W339": {
+  "doc": "Twitch/Privacy Policy.md",
+  "case": "Your personal data is used to employ targeted third-party advertising",
+  "piece": 16,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W340": {
+  "doc": "BeReal/Terms of Service.md",
+  "case": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+  "piece": 11,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W341": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 19,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W342": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "You can opt out of receiving promotional communications",
+  "piece": 60,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W343": {
+  "doc": "Reddit/Privacy Policy.md",
+  "case": "Many different types of personal data are collected",
+  "piece": 38,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 6
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W344": {
+  "doc": "Tumblr/Terms of Service.md",
+  "case": "This service is only available to users over a certain age",
+  "piece": 4,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 8
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W345": {
+  "doc": "Tumblr/Terms of Service.md",
+  "case": "The service has non-exclusive use of your content",
+  "piece": 9,
+  "arms": {
+   "PAGE": 8,
+   "RERANK": 7
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W346": {
+  "doc": "Twitch/Terms of Service.md",
+  "case": "A license is kept on user-generated content even after you close your account",
+  "piece": 14,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W347": {
+  "doc": "Twitch/Privacy Policy.md",
+  "case": "Your personal information is used for many different purposes",
+  "piece": 4,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W348": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 24,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 2
+  },
+  "folder": "b",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W349": {
+  "doc": "Quora/Terms of Service.md",
+  "case": "This service assumes no responsibility and liability for the contents of links to other websites",
+  "piece": 14,
+  "arms": {
+   "PAGE": 7,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W350": {
+  "doc": "Twitch/Privacy Policy.md",
+  "case": "Referring and/or exit pages are tracked",
+  "piece": 3,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W351": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "Your private content may be accessed by people working for the service",
+  "piece": 26,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W352": {
+  "doc": "Quora/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 14,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W353": {
+  "doc": "Telegram/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 4,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": false
+ },
+ "W354": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "Your personal data may be used for marketing purposes",
+  "piece": 11,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W355": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+  "piece": 30,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W356": {
+  "doc": "Telegram/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 26,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 3
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": false
+ },
+ "W357": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is used",
+  "piece": 9,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W358": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "Your personal information is used for many different purposes",
+  "piece": 9,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W359": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "No guarantee is made regarding the correction of software errors",
+  "piece": 13,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "b",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W360": {
+  "doc": "BeReal/Privacy Policy.md",
+  "case": "You can opt out of targeted advertising",
+  "piece": 24,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 3
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W361": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "You maintain ownership of your content",
+  "piece": 4,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 3
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W362": {
+  "doc": "Quora/Privacy Policy.md",
+  "case": "This service shares your personal data with third parties that are not essential to its operation",
+  "piece": 7,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W363": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "If you are the target of a copyright claim, your content and/or your account may be removed",
+  "piece": 4,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W364": {
+  "doc": "Tumblr/Terms of Service.md",
+  "case": "This service assumes no liability for unauthorized access to your personal information",
+  "piece": 19,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W365": {
+  "doc": "BeReal/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 25,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W366": {
+  "doc": "BeReal/Privacy Policy.md",
+  "case": "Sensitive data is collected and shared to target advertising",
+  "piece": 24,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W367": {
+  "doc": "YouTube/Privacy Policy.md",
+  "case": "Third-party cookies are employed, but with opt out instructions",
+  "piece": 53,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W368": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": "Specific content can be deleted without reason and may be removed without prior notice",
+  "piece": 12,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W369": {
+  "doc": "LINE/Privacy Policy.md",
+  "case": "Your IP address is collected, which can be used to view your approximate location",
+  "piece": 8,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 2
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W370": {
+  "doc": "Telegram/Terms of Service.md",
+  "case": "You agree not to submit libelous, harassing or threatening content",
+  "piece": 0,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": false
+ },
+ "W371": {
+  "doc": "Telegram/Terms of Service.md",
+  "case": "You have the right to leave this service at any time",
+  "piece": 3,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": false
+ },
+ "W372": {
+  "doc": "TikTok/Privacy Policy.md",
+  "case": "Your personal data may be disclosed to comply with government requests without notice to you",
+  "piece": 15,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W373": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 34,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "b",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W374": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 9,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W375": {
+  "doc": "LINE/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 12,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 8
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W376": {
+  "doc": "BeReal/Privacy Policy.md",
+  "case": "Your personal data may be used for marketing purposes",
+  "piece": 24,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W377": {
+  "doc": "Mastodon/Privacy Policy.md",
+  "case": "First-party cookies are used",
+  "piece": 2,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W378": {
+  "doc": "Reddit/Privacy Policy.md",
+  "case": "Your private content may be accessed by people working for the service",
+  "piece": 15,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W379": {
+  "doc": "Quora/Privacy Policy.md",
+  "case": "Do Not Track (DNT) headers are ignored and you are tracked anyway even if you set this header",
+  "piece": 8,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W380": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "You waive your right to a class action",
+  "piece": 18,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 3
+  },
+  "folder": "b",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W381": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 13,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W382": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "This service assumes no responsibility and liability for the contents of links to other websites",
+  "piece": 6,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W383": {
+  "doc": "Quora/Privacy Policy.md",
+  "case": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+  "piece": 7,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W384": {
+  "doc": "YouTube/Privacy Policy.md",
+  "case": "This service gives your personal data to third parties involved in its operation",
+  "piece": 46,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W385": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "The service claims that third parties it shares your personal information with are bound by confidentiality obligations",
+  "piece": 145,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W386": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "The service claims to be GDPR compliant for European users",
+  "piece": 20,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W387": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "Extra data may be collected about you through promotions",
+  "piece": 16,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W388": {
+  "doc": "LINE/Privacy Policy.md",
+  "case": "The data retention period is kept to the minimum necessary for fulfilling its purposes",
+  "piece": 29,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W389": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": "You agree not to use the service for illegal purposes",
+  "piece": 21,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W390": {
+  "doc": "Quora/Privacy Policy.md",
+  "case": "Your IP address is collected, which can be used to view your approximate location",
+  "piece": 14,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W391": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "You can limit how your information is used by third parties and the service",
+  "piece": 7,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W392": {
+  "doc": "Quora/Terms of Service.md",
+  "case": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+  "piece": 35,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W393": {
+  "doc": "Spotify/Terms of Service.md",
+  "case": "You should revisit the terms periodically, although in case of material changes, the service will notify",
+  "piece": 44,
+  "arms": {
+   "PAGE": 5,
+   "RERANK": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W394": {
+  "doc": "Quora/Terms of Service.md",
+  "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 16,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 6
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W395": {
+  "doc": "LINE/Terms of Service.md",
+  "case": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+  "piece": 18,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W396": {
+  "doc": "Telegram/Privacy Policy.md",
+  "case": "Information is provided about what kind of personal information is collected",
+  "piece": 2,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": false
+ },
+ "W397": {
+  "doc": "TikTok/Privacy Policy.md",
+  "case": "You can opt out of targeted advertising",
+  "piece": 27,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W398": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "The service claims to be GDPR compliant for European users",
+  "piece": 25,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W399": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "Your personal data may be used for marketing purposes",
+  "piece": 9,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W400": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "No guarantee is made regarding the correction of software errors",
+  "piece": 0,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W401": {
+  "doc": "BeReal/Terms of Service.md",
+  "case": "The service suspends your account after inactivity for a certain or uncertain time",
+  "piece": 9,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W402": {
+  "doc": "X/Terms of Service.md",
+  "case": "You are forced into binding arbitration in case of disputes",
+  "piece": 25,
+  "arms": {
+   "PAGE": 5,
+   "RERANK": 3
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W403": {
+  "doc": "Mastodon/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 0,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W404": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "Your personal data may be disclosed to comply with government requests without notice to you",
+  "piece": 83,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W405": {
+  "doc": "Quora/Terms of Service.md",
+  "case": "This service has a no refund policy with some exceptions",
+  "piece": 30,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W406": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 7,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W407": {
+  "doc": "X/Terms of Service.md",
+  "case": "If you offer suggestions to the service, they may use that without your approval or compensation, but they do not become the owner",
+  "piece": 17,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W408": {
+  "doc": "BeReal/Terms of Service.md",
+  "case": "This service is only available to users over a certain age",
+  "piece": 1,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 10
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W409": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "There is a date of the last update of the agreements",
+  "piece": 0,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W410": {
+  "doc": "Tumblr/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 5,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W411": {
+  "doc": "Twitch/Privacy Policy.md",
+  "case": "The data retention period is kept to the minimum necessary for fulfilling its purposes",
+  "piece": 18,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W412": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "You aren’t forced into binding arbitration in case of disputes",
+  "piece": 8,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W413": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 56,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W414": {
+  "doc": "Mastodon/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 3,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W415": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 16,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W416": {
+  "doc": "Twitch/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 12,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 7
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W417": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "Sensitive data is collected and shared to target advertising",
+  "piece": 74,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W418": {
+  "doc": "Quora/Terms of Service.md",
+  "case": "Your content can be deleted if you violate the terms",
+  "piece": 15,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W419": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": "This service is only available to users over a certain age",
+  "piece": 10,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W420": {
+  "doc": "Spotify/Terms of Service.md",
+  "case": "No guarantee is made regarding the correction of software errors",
+  "piece": 20,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W421": {
+  "doc": "Twitch/Terms of Service.md",
+  "case": "You have a reduced time period to take legal action against the service",
+  "piece": 39,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W422": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "Your personal data may be disclosed to comply with government requests without notice to you",
+  "piece": 66,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W423": {
+  "doc": "Quora/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 15,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W424": {
+  "doc": "TikTok/Privacy Policy.md",
+  "case": "This service is only available to users over a certain age",
+  "piece": 35,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W425": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": "You agree not to use the service for illegal purposes",
+  "piece": 24,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W426": {
+  "doc": "LINE/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 9,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W427": {
+  "doc": "Twitch/Terms of Service.md",
+  "case": "This service is only available for use individually and non-commercially",
+  "piece": 9,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W428": {
+  "doc": "TikTok/Privacy Policy.md",
+  "case": "Your personal data may be used for marketing purposes",
+  "piece": 27,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W429": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "Third-party cookies are used for advertising",
+  "piece": 7,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W430": {
+  "doc": "Mastodon/Privacy Policy.md",
+  "case": "Information is gathered about you through third parties",
+  "piece": 3,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W431": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 9,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 3
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W432": {
+  "doc": "LINE/Terms of Service.md",
+  "case": "Your account can be deleted or permanently suspended without prior notice and without a reason",
+  "piece": 13,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W433": {
+  "doc": "BeReal/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is used",
+  "piece": 7,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W434": {
+  "doc": "Tumblr/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 5,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W435": {
+  "doc": "Quora/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 0,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W436": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 14,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "b",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W437": {
+  "doc": "YouTube/Privacy Policy.md",
+  "case": "Your personal information is used for many different purposes",
+  "piece": 64,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W438": {
+  "doc": "Telegram/Terms of Service.md",
+  "case": "You have the right to leave this service at any time",
+  "piece": 5,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": false
+ },
+ "W439": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "The service claims to be GDPR compliant for European users",
+  "piece": 24,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W440": {
+  "doc": "Pinterest/Terms of Service.md",
+  "case": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+  "piece": 24,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "b",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W441": {
+  "doc": "Tumblr/Terms of Service.md",
+  "case": "This service has a no refund policy with some exceptions",
+  "piece": 15,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W442": {
+  "doc": "LINE/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 19,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W443": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+  "piece": 9,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W444": {
+  "doc": "YouTube/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is used",
+  "piece": 2,
+  "arms": {
+   "PAGE": 5,
+   "RERANK": 2
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W445": {
+  "doc": "Twitch/Terms of Service.md",
+  "case": "Your content can be deleted if you violate the terms",
+  "piece": 25,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W446": {
+  "doc": "BeReal/Privacy Policy.md",
+  "case": "This service claims that your personal data is not being sold",
+  "piece": 23,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W447": {
+  "doc": "YouTube/Privacy Policy.md",
+  "case": "Your provided identifiable information is actively checked by the service",
+  "piece": 24,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W448": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 34,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W449": {
+  "doc": "Mastodon/Terms of Service.md",
+  "case": "Your content can be deleted if you violate the terms",
+  "piece": 5,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W450": {
+  "doc": "LINE/Privacy Policy.md",
+  "case": "Your personal data may be used for marketing purposes",
+  "piece": 12,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W451": {
+  "doc": "YouTube/Privacy Policy.md",
+  "case": "The data retention period is kept to the minimum necessary for fulfilling its purposes",
+  "piece": 20,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W452": {
+  "doc": "Mastodon/Privacy Policy.md",
+  "case": "Your personal information is used for many different purposes",
+  "piece": 1,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 2
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W453": {
+  "doc": "TikTok/Privacy Policy.md",
+  "case": "Third parties are involved in operating the service",
+  "piece": 7,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W454": {
+  "doc": "Reddit/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 3,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W455": {
+  "doc": "Spotify/Terms of Service.md",
+  "case": "You must create an account to use this service",
+  "piece": 5,
+  "arms": {
+   "PAGE": 7,
+   "RERANK": 3
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W456": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "The data retention period is kept to the minimum necessary for fulfilling its purposes",
+  "piece": 34,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 6
+  },
+  "folder": "b",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W457": {
+  "doc": "YouTube/Privacy Policy.md",
+  "case": "You may be tracked on other websites",
+  "piece": 71,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 4
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W458": {
+  "doc": "TikTok/Terms of Service.md",
+  "case": "You must create an account to use this service",
+  "piece": 5,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "b",
+  "run": "missing_rest",
+  "english": true
+ },
+ "W459": {
+  "doc": "Facebook/Terms of Service.md",
+  "case": "The court of law governing the terms is in location X",
+  "piece": 21,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W460": {
+  "doc": "Pinterest/Privacy Policy.md",
+  "case": "Extra data may be collected about you through promotions",
+  "piece": 24,
+  "arms": {
+   "PAGE": 10,
+   "RERANK": 5
+  },
+  "folder": "b",
+  "run": "missing_watch",
+  "english": true
+ },
+ "W461": {
+  "doc": "Quora/Terms of Service.md",
+  "case": "This service does not guarantee that it or the products obtained through it meet your expectations or requirements",
+  "piece": 18,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W462": {
+  "doc": "LinkedIn/Privacy Policy.md",
+  "case": "Location data may be collected, used and/or shared",
+  "piece": 14,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W463": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "Extra data may be collected about you through promotions",
+  "piece": 13,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W464": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "Information is gathered about you through third parties",
+  "piece": 4,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W465": {
+  "doc": "Telegram/Privacy Policy.md",
+  "case": "Your IP address is collected, which can be used to view your approximate location",
+  "piece": 15,
+  "arms": {
+   "PAGE": 5,
+   "RERANK": 8
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": false
+ },
+ "W466": {
+  "doc": "Parler/Privacy Policy.md",
+  "case": "Many different types of personal data are collected",
+  "piece": 6,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W467": {
+  "doc": "Instagram/Privacy Policy.md",
+  "case": "You can opt out of targeted advertising",
+  "piece": 10,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W468": {
+  "doc": "WhatsApp/Privacy Policy.md",
+  "case": "Your personal data is used to employ targeted third-party advertising",
+  "piece": 75,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W469": {
+  "doc": "Twitch/Terms of Service.md",
+  "case": "You have the right to leave this service at any time",
+  "piece": 29,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 4
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W470": {
+  "doc": "Snapchat/Terms of Service.md",
+  "case": "You are prohibited from sending chain letters, junk mail, spam or any unsolicited messages",
+  "piece": 7,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ },
+ "W471": {
+  "doc": "Facebook/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 61,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "b",
+  "run": "missing_wide",
+  "english": true
+ }
+}

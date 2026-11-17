@@ -1,0 +1,942 @@
+{
+ "W237": {
+  "verdict": "",
+  "why": ""
+ },
+ "W238": {
+  "verdict": "",
+  "why": ""
+ },
+ "W239": {
+  "verdict": "",
+  "why": ""
+ },
+ "W240": {
+  "verdict": "",
+  "why": ""
+ },
+ "W241": {
+  "verdict": "",
+  "why": ""
+ },
+ "W242": {
+  "verdict": "",
+  "why": ""
+ },
+ "W243": {
+  "verdict": "",
+  "why": ""
+ },
+ "W244": {
+  "verdict": "",
+  "why": ""
+ },
+ "W245": {
+  "verdict": "",
+  "why": ""
+ },
+ "W246": {
+  "verdict": "",
+  "why": ""
+ },
+ "W247": {
+  "verdict": "",
+  "why": ""
+ },
+ "W248": {
+  "verdict": "",
+  "why": ""
+ },
+ "W249": {
+  "verdict": "",
+  "why": ""
+ },
+ "W250": {
+  "verdict": "",
+  "why": ""
+ },
+ "W251": {
+  "verdict": "",
+  "why": ""
+ },
+ "W252": {
+  "verdict": "",
+  "why": ""
+ },
+ "W253": {
+  "verdict": "",
+  "why": ""
+ },
+ "W254": {
+  "verdict": "",
+  "why": ""
+ },
+ "W255": {
+  "verdict": "",
+  "why": ""
+ },
+ "W256": {
+  "verdict": "",
+  "why": ""
+ },
+ "W257": {
+  "verdict": "",
+  "why": ""
+ },
+ "W258": {
+  "verdict": "",
+  "why": ""
+ },
+ "W259": {
+  "verdict": "",
+  "why": ""
+ },
+ "W260": {
+  "verdict": "",
+  "why": ""
+ },
+ "W261": {
+  "verdict": "",
+  "why": ""
+ },
+ "W262": {
+  "verdict": "",
+  "why": ""
+ },
+ "W263": {
+  "verdict": "",
+  "why": ""
+ },
+ "W264": {
+  "verdict": "",
+  "why": ""
+ },
+ "W265": {
+  "verdict": "",
+  "why": ""
+ },
+ "W266": {
+  "verdict": "",
+  "why": ""
+ },
+ "W267": {
+  "verdict": "",
+  "why": ""
+ },
+ "W268": {
+  "verdict": "",
+  "why": ""
+ },
+ "W269": {
+  "verdict": "",
+  "why": ""
+ },
+ "W270": {
+  "verdict": "",
+  "why": ""
+ },
+ "W271": {
+  "verdict": "",
+  "why": ""
+ },
+ "W272": {
+  "verdict": "",
+  "why": ""
+ },
+ "W273": {
+  "verdict": "",
+  "why": ""
+ },
+ "W274": {
+  "verdict": "",
+  "why": ""
+ },
+ "W275": {
+  "verdict": "",
+  "why": ""
+ },
+ "W276": {
+  "verdict": "",
+  "why": ""
+ },
+ "W277": {
+  "verdict": "",
+  "why": ""
+ },
+ "W278": {
+  "verdict": "",
+  "why": ""
+ },
+ "W279": {
+  "verdict": "",
+  "why": ""
+ },
+ "W280": {
+  "verdict": "",
+  "why": ""
+ },
+ "W281": {
+  "verdict": "",
+  "why": ""
+ },
+ "W282": {
+  "verdict": "",
+  "why": ""
+ },
+ "W283": {
+  "verdict": "",
+  "why": ""
+ },
+ "W284": {
+  "verdict": "",
+  "why": ""
+ },
+ "W285": {
+  "verdict": "",
+  "why": ""
+ },
+ "W286": {
+  "verdict": "",
+  "why": ""
+ },
+ "W287": {
+  "verdict": "",
+  "why": ""
+ },
+ "W288": {
+  "verdict": "",
+  "why": ""
+ },
+ "W289": {
+  "verdict": "",
+  "why": ""
+ },
+ "W290": {
+  "verdict": "",
+  "why": ""
+ },
+ "W291": {
+  "verdict": "",
+  "why": ""
+ },
+ "W292": {
+  "verdict": "",
+  "why": ""
+ },
+ "W293": {
+  "verdict": "",
+  "why": ""
+ },
+ "W294": {
+  "verdict": "",
+  "why": ""
+ },
+ "W295": {
+  "verdict": "",
+  "why": ""
+ },
+ "W296": {
+  "verdict": "",
+  "why": ""
+ },
+ "W297": {
+  "verdict": "",
+  "why": ""
+ },
+ "W298": {
+  "verdict": "",
+  "why": ""
+ },
+ "W299": {
+  "verdict": "",
+  "why": ""
+ },
+ "W300": {
+  "verdict": "",
+  "why": ""
+ },
+ "W301": {
+  "verdict": "",
+  "why": ""
+ },
+ "W302": {
+  "verdict": "",
+  "why": ""
+ },
+ "W303": {
+  "verdict": "",
+  "why": ""
+ },
+ "W304": {
+  "verdict": "",
+  "why": ""
+ },
+ "W305": {
+  "verdict": "",
+  "why": ""
+ },
+ "W306": {
+  "verdict": "",
+  "why": ""
+ },
+ "W307": {
+  "verdict": "",
+  "why": ""
+ },
+ "W308": {
+  "verdict": "",
+  "why": ""
+ },
+ "W309": {
+  "verdict": "",
+  "why": ""
+ },
+ "W310": {
+  "verdict": "",
+  "why": ""
+ },
+ "W311": {
+  "verdict": "",
+  "why": ""
+ },
+ "W312": {
+  "verdict": "",
+  "why": ""
+ },
+ "W313": {
+  "verdict": "",
+  "why": ""
+ },
+ "W314": {
+  "verdict": "",
+  "why": ""
+ },
+ "W315": {
+  "verdict": "",
+  "why": ""
+ },
+ "W316": {
+  "verdict": "",
+  "why": ""
+ },
+ "W317": {
+  "verdict": "",
+  "why": ""
+ },
+ "W318": {
+  "verdict": "",
+  "why": ""
+ },
+ "W319": {
+  "verdict": "",
+  "why": ""
+ },
+ "W320": {
+  "verdict": "",
+  "why": ""
+ },
+ "W321": {
+  "verdict": "",
+  "why": ""
+ },
+ "W322": {
+  "verdict": "",
+  "why": ""
+ },
+ "W323": {
+  "verdict": "",
+  "why": ""
+ },
+ "W324": {
+  "verdict": "",
+  "why": ""
+ },
+ "W325": {
+  "verdict": "",
+  "why": ""
+ },
+ "W326": {
+  "verdict": "",
+  "why": ""
+ },
+ "W327": {
+  "verdict": "",
+  "why": ""
+ },
+ "W328": {
+  "verdict": "",
+  "why": ""
+ },
+ "W329": {
+  "verdict": "",
+  "why": ""
+ },
+ "W330": {
+  "verdict": "",
+  "why": ""
+ },
+ "W331": {
+  "verdict": "",
+  "why": ""
+ },
+ "W332": {
+  "verdict": "",
+  "why": ""
+ },
+ "W333": {
+  "verdict": "",
+  "why": ""
+ },
+ "W334": {
+  "verdict": "",
+  "why": ""
+ },
+ "W335": {
+  "verdict": "",
+  "why": ""
+ },
+ "W336": {
+  "verdict": "",
+  "why": ""
+ },
+ "W337": {
+  "verdict": "",
+  "why": ""
+ },
+ "W338": {
+  "verdict": "",
+  "why": ""
+ },
+ "W339": {
+  "verdict": "",
+  "why": ""
+ },
+ "W340": {
+  "verdict": "",
+  "why": ""
+ },
+ "W341": {
+  "verdict": "",
+  "why": ""
+ },
+ "W342": {
+  "verdict": "",
+  "why": ""
+ },
+ "W343": {
+  "verdict": "",
+  "why": ""
+ },
+ "W344": {
+  "verdict": "",
+  "why": ""
+ },
+ "W345": {
+  "verdict": "",
+  "why": ""
+ },
+ "W346": {
+  "verdict": "",
+  "why": ""
+ },
+ "W347": {
+  "verdict": "",
+  "why": ""
+ },
+ "W348": {
+  "verdict": "",
+  "why": ""
+ },
+ "W349": {
+  "verdict": "",
+  "why": ""
+ },
+ "W350": {
+  "verdict": "",
+  "why": ""
+ },
+ "W351": {
+  "verdict": "",
+  "why": ""
+ },
+ "W352": {
+  "verdict": "",
+  "why": ""
+ },
+ "W353": {
+  "verdict": "",
+  "why": ""
+ },
+ "W354": {
+  "verdict": "",
+  "why": ""
+ },
+ "W355": {
+  "verdict": "",
+  "why": ""
+ },
+ "W356": {
+  "verdict": "",
+  "why": ""
+ },
+ "W357": {
+  "verdict": "",
+  "why": ""
+ },
+ "W358": {
+  "verdict": "",
+  "why": ""
+ },
+ "W359": {
+  "verdict": "",
+  "why": ""
+ },
+ "W360": {
+  "verdict": "",
+  "why": ""
+ },
+ "W361": {
+  "verdict": "",
+  "why": ""
+ },
+ "W362": {
+  "verdict": "",
+  "why": ""
+ },
+ "W363": {
+  "verdict": "",
+  "why": ""
+ },
+ "W364": {
+  "verdict": "",
+  "why": ""
+ },
+ "W365": {
+  "verdict": "",
+  "why": ""
+ },
+ "W366": {
+  "verdict": "",
+  "why": ""
+ },
+ "W367": {
+  "verdict": "",
+  "why": ""
+ },
+ "W368": {
+  "verdict": "",
+  "why": ""
+ },
+ "W369": {
+  "verdict": "",
+  "why": ""
+ },
+ "W370": {
+  "verdict": "",
+  "why": ""
+ },
+ "W371": {
+  "verdict": "",
+  "why": ""
+ },
+ "W372": {
+  "verdict": "",
+  "why": ""
+ },
+ "W373": {
+  "verdict": "",
+  "why": ""
+ },
+ "W374": {
+  "verdict": "",
+  "why": ""
+ },
+ "W375": {
+  "verdict": "",
+  "why": ""
+ },
+ "W376": {
+  "verdict": "",
+  "why": ""
+ },
+ "W377": {
+  "verdict": "",
+  "why": ""
+ },
+ "W378": {
+  "verdict": "",
+  "why": ""
+ },
+ "W379": {
+  "verdict": "",
+  "why": ""
+ },
+ "W380": {
+  "verdict": "",
+  "why": ""
+ },
+ "W381": {
+  "verdict": "",
+  "why": ""
+ },
+ "W382": {
+  "verdict": "",
+  "why": ""
+ },
+ "W383": {
+  "verdict": "",
+  "why": ""
+ },
+ "W384": {
+  "verdict": "",
+  "why": ""
+ },
+ "W385": {
+  "verdict": "",
+  "why": ""
+ },
+ "W386": {
+  "verdict": "",
+  "why": ""
+ },
+ "W387": {
+  "verdict": "",
+  "why": ""
+ },
+ "W388": {
+  "verdict": "",
+  "why": ""
+ },
+ "W389": {
+  "verdict": "",
+  "why": ""
+ },
+ "W390": {
+  "verdict": "",
+  "why": ""
+ },
+ "W391": {
+  "verdict": "",
+  "why": ""
+ },
+ "W392": {
+  "verdict": "",
+  "why": ""
+ },
+ "W393": {
+  "verdict": "",
+  "why": ""
+ },
+ "W394": {
+  "verdict": "",
+  "why": ""
+ },
+ "W395": {
+  "verdict": "",
+  "why": ""
+ },
+ "W396": {
+  "verdict": "",
+  "why": ""
+ },
+ "W397": {
+  "verdict": "",
+  "why": ""
+ },
+ "W398": {
+  "verdict": "",
+  "why": ""
+ },
+ "W399": {
+  "verdict": "",
+  "why": ""
+ },
+ "W400": {
+  "verdict": "",
+  "why": ""
+ },
+ "W401": {
+  "verdict": "",
+  "why": ""
+ },
+ "W402": {
+  "verdict": "",
+  "why": ""
+ },
+ "W403": {
+  "verdict": "",
+  "why": ""
+ },
+ "W404": {
+  "verdict": "",
+  "why": ""
+ },
+ "W405": {
+  "verdict": "",
+  "why": ""
+ },
+ "W406": {
+  "verdict": "",
+  "why": ""
+ },
+ "W407": {
+  "verdict": "",
+  "why": ""
+ },
+ "W408": {
+  "verdict": "",
+  "why": ""
+ },
+ "W409": {
+  "verdict": "",
+  "why": ""
+ },
+ "W410": {
+  "verdict": "",
+  "why": ""
+ },
+ "W411": {
+  "verdict": "",
+  "why": ""
+ },
+ "W412": {
+  "verdict": "",
+  "why": ""
+ },
+ "W413": {
+  "verdict": "",
+  "why": ""
+ },
+ "W414": {
+  "verdict": "",
+  "why": ""
+ },
+ "W415": {
+  "verdict": "",
+  "why": ""
+ },
+ "W416": {
+  "verdict": "",
+  "why": ""
+ },
+ "W417": {
+  "verdict": "",
+  "why": ""
+ },
+ "W418": {
+  "verdict": "",
+  "why": ""
+ },
+ "W419": {
+  "verdict": "",
+  "why": ""
+ },
+ "W420": {
+  "verdict": "",
+  "why": ""
+ },
+ "W421": {
+  "verdict": "",
+  "why": ""
+ },
+ "W422": {
+  "verdict": "",
+  "why": ""
+ },
+ "W423": {
+  "verdict": "",
+  "why": ""
+ },
+ "W424": {
+  "verdict": "",
+  "why": ""
+ },
+ "W425": {
+  "verdict": "",
+  "why": ""
+ },
+ "W426": {
+  "verdict": "",
+  "why": ""
+ },
+ "W427": {
+  "verdict": "",
+  "why": ""
+ },
+ "W428": {
+  "verdict": "",
+  "why": ""
+ },
+ "W429": {
+  "verdict": "",
+  "why": ""
+ },
+ "W430": {
+  "verdict": "",
+  "why": ""
+ },
+ "W431": {
+  "verdict": "",
+  "why": ""
+ },
+ "W432": {
+  "verdict": "",
+  "why": ""
+ },
+ "W433": {
+  "verdict": "",
+  "why": ""
+ },
+ "W434": {
+  "verdict": "",
+  "why": ""
+ },
+ "W435": {
+  "verdict": "",
+  "why": ""
+ },
+ "W436": {
+  "verdict": "",
+  "why": ""
+ },
+ "W437": {
+  "verdict": "",
+  "why": ""
+ },
+ "W438": {
+  "verdict": "",
+  "why": ""
+ },
+ "W439": {
+  "verdict": "",
+  "why": ""
+ },
+ "W440": {
+  "verdict": "",
+  "why": ""
+ },
+ "W441": {
+  "verdict": "",
+  "why": ""
+ },
+ "W442": {
+  "verdict": "",
+  "why": ""
+ },
+ "W443": {
+  "verdict": "",
+  "why": ""
+ },
+ "W444": {
+  "verdict": "",
+  "why": ""
+ },
+ "W445": {
+  "verdict": "",
+  "why": ""
+ },
+ "W446": {
+  "verdict": "",
+  "why": ""
+ },
+ "W447": {
+  "verdict": "",
+  "why": ""
+ },
+ "W448": {
+  "verdict": "",
+  "why": ""
+ },
+ "W449": {
+  "verdict": "",
+  "why": ""
+ },
+ "W450": {
+  "verdict": "",
+  "why": ""
+ },
+ "W451": {
+  "verdict": "",
+  "why": ""
+ },
+ "W452": {
+  "verdict": "",
+  "why": ""
+ },
+ "W453": {
+  "verdict": "",
+  "why": ""
+ },
+ "W454": {
+  "verdict": "",
+  "why": ""
+ },
+ "W455": {
+  "verdict": "",
+  "why": ""
+ },
+ "W456": {
+  "verdict": "",
+  "why": ""
+ },
+ "W457": {
+  "verdict": "",
+  "why": ""
+ },
+ "W458": {
+  "verdict": "",
+  "why": ""
+ },
+ "W459": {
+  "verdict": "",
+  "why": ""
+ },
+ "W460": {
+  "verdict": "",
+  "why": ""
+ },
+ "W461": {
+  "verdict": "",
+  "why": ""
+ },
+ "W462": {
+  "verdict": "",
+  "why": ""
+ },
+ "W463": {
+  "verdict": "",
+  "why": ""
+ },
+ "W464": {
+  "verdict": "",
+  "why": ""
+ },
+ "W465": {
+  "verdict": "",
+  "why": ""
+ },
+ "W466": {
+  "verdict": "",
+  "why": ""
+ },
+ "W467": {
+  "verdict": "",
+  "why": ""
+ },
+ "W468": {
+  "verdict": "",
+  "why": ""
+ },
+ "W469": {
+  "verdict": "",
+  "why": ""
+ },
+ "W470": {
+  "verdict": "",
+  "why": ""
+ },
+ "W471": {
+  "verdict": "",
+  "why": ""
+ }
+}
