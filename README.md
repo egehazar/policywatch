@@ -347,6 +347,15 @@ python -m stale.missing_watch check path/to/pga-versions # missing-points docume
 <sentence-transformers python> -m stale.missing_watch rerank; python -m stale.missing_watch kev; python -m stale.missing_page
 python -m stale.recrawl                                # which ToS;DR documents to re-crawl first (all collections)
 ```
+Missing points, a new set of documents through the cascade (the pattern of `stale/missing_wide.py`, `missing_rest.py`
+and `missing_contrib.py`; the curator page is `out/site/missing.html`):
+```
+python -m stale.missing_contrib prep                   # draw the documents and their candidate cases (no model)
+<sentence-transformers python> -m stale.missing_contrib rerank   # reranker on every passage-case cell
+python -m stale.missing_contrib kev                    # Kev on the reranker's top 3 passages per case
+python -m stale.missing_contrib cards                  # blind cards for raters; then `score` once they are filled
+python -m stale.missing_page                           # rebuild the curator page
+```
 The same for other Open Terms Archive collections (`stale/wide.py`; clone `<collection>-versions` and
 `<collection>-declarations` next to pga-versions): `python -m stale.wide map|pull|match|cheap|kev <collection>`.
 The cheaper suggestions adopted in part D: `<sentence-transformers python> -m stale.cascade rerank <collection>`,
