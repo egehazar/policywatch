@@ -10,8 +10,9 @@ policywatch watches the archive for the moment a curator's evidence stops being 
   (679 so far; for 656, ToS;DR's own stored copy still holds the quote). For each, it suggests the passages of the
   current text that may state the case now. For each document, it suggests cases the text may state that ToS;DR has no
   point for on the service.
-- *How it is checked.* Each accuracy claim below is a test whose plan and code were hashed before scoring. Failures
-  are reported too: the original goal, a meaning-diff scanner, failed its tests and is kept at the end.
+- *How it is checked.* Each test in the tables below had its plan and code hashed before scoring, and failures are
+  reported too: the original goal, a meaning-diff scanner, failed its tests (its own section, further down). Figures
+  worked out after a result are labelled exploratory.
 - *Headline numbers.* Where a case is stated now: Kev-4B ranks the curator's own passage first 62-75% of the time in
   three pre-registered samples, against 30-43% for BM25 and bge-small. Missing points: on the last 28 documents, 190 of
   the page's 280 top-10 suggestions were rated as stating the case, against 150 for a cross-encoder reranker's own top
