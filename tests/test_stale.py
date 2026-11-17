@@ -570,5 +570,84 @@ class TestMissingWatch(unittest.TestCase):
         self.assertEqual(Model.calls, 1); self.assertEqual(Scorer.asked, 2 * min(3, len(D[0]['pieces'])))
 
 
+class TestWideRate(unittest.TestCase):
+    """The page rating (stale/wide_rate.py): each arm's top 10 per document plus random controls, a card both arms pick
+    rated once; scored against the plan's readings; and the page (stale.missing_page.rated_wide) uses a rating only
+    while it shows the passage text the card showed."""
+
+    def setUp(self):
+        import contextlib, io
+        from stale import wide_rate as W, missing_page as M
+        self.W, self.M, self.quiet = W, M, lambda: contextlib.redirect_stdout(io.StringIO())
+        tmp = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, tmp, True)
+        saved = (W.KEY, W.RESULT, W.FOLDERS, W.docs, M.OUT)
+        def restore(): W.KEY, W.RESULT, W.FOLDERS, W.docs, M.OUT = saved
+        self.addCleanup(restore)
+        W.KEY, W.RESULT = os.path.join(tmp, 'key.json'), os.path.join(tmp, 'wide_rate_result.json')
+        W.FOLDERS = {x: os.path.join(tmp, x) for x in 'ab'}; M.OUT = tmp
+        cases = [f'case {j}' for j in range(12)]
+        pieces = [f'Passage {i}: the service keeps what you post and it may share it with the partners of the company.' for i in range(6)]
+        # PAGE: case j scores 1 - j/20 on passage j % 6 (top 10 = cases 0-9); RERANK: j/20 on passage 0 (cases 11-2).
+        # The two pick the same card once per document: case 6, passage 0.
+        page = [{c: (1 - j / 20 if i == j % 6 else .1) for j, c in enumerate(cases)} for i in range(6)]
+        rer = [{c: (j / 20 if i == 0 else 0) for j, c in enumerate(cases)} for i in range(6)]
+        self.D = [('missing_wide', {'doc': f'P{n}/Terms.md', 'pieces': list(pieces)}, {'PAGE': page, 'RERANK': rer}, cases)
+                  for n in range(3)]
+        W.docs = lambda: self.D
+        with self.quiet(): W.cards()
+        self.K = json.load(open(W.KEY, encoding='utf-8'))
+
+    def rate(self, random_yes):
+        """PAGE cards YES, the reranker's own cards NO; the first random_yes random controls YES, the rest NO."""
+        rnd = sorted(c for c in self.K if 'RANDOM' in self.K[c]['arms'])
+        V = {c: 'YES' if c in rnd[:random_yes] else 'NO' if c in rnd else 'YES' if 'PAGE' in k['arms'] else 'NO'
+             for c, k in self.K.items()}
+        for x, f in self.W.FOLDERS.items():
+            json.dump({c: {'verdict': V[c], 'why': ''} for c in self.K if self.K[c]['folder'] == x}, open(os.path.join(f, 'verdicts.json'), 'w'))
+        with self.quiet(): self.W.score()
+        return V, json.load(open(self.W.RESULT, encoding='utf-8'))
+
+    def test_cards(self):
+        K = self.K; n = lambda a: sum(a in k['arms'] for k in K.values())
+        self.assertEqual((n('PAGE'), n('RERANK')), (30, 30))
+        both = [k for k in K.values() if 'PAGE' in k['arms'] and 'RERANK' in k['arms']]
+        self.assertEqual(sorted((k['doc'], k['case'], k['piece']) for k in both), [(f'P{i}/Terms.md', 'case 6', 0) for i in range(3)])
+        self.assertTrue(0 < n('RANDOM') <= 20)
+        for x, f in self.W.FOLDERS.items():
+            ids = [c for c in K if K[c]['folder'] == x]
+            self.assertEqual(json.load(open(os.path.join(f, 'verdicts.json'))).keys(), set(ids))
+            self.assertEqual(open(os.path.join(f, 'cards.md'), encoding='utf-8').read().count('\n## W'), len(ids))
+        with self.assertRaises(AssertionError): self.W.cards()      # never rebuilt once the key exists
+
+    def test_score_readings(self):
+        V, r = self.rate(3)
+        self.assertTrue(r['valid']); self.assertEqual(r['random_yes'], 3)
+        for a in self.W.ARMS:
+            cs = [c for c in self.K if a in self.K[c]['arms']]
+            self.assertEqual(r['precision_at_10'][a]['yes'], sum(V[c] == 'YES' for c in cs))
+        self.assertEqual(r['reading_page'], 'above the predicted range'); self.assertEqual(r['reading_compare'], 'PAGE better')
+        self.assertGreater(r['PAGE_minus_RERANK']['ci95'][0], 0)
+
+    def test_four_random_yes_void_the_readings(self):
+        _, r = self.rate(4)
+        self.assertFalse(r['valid'])
+        self.assertEqual((r['reading_page'], r['reading_compare']), ('NOT VALID (random controls)',) * 2)
+
+    def test_incomplete_verdicts_refused(self):
+        self.rate(0); f = os.path.join(self.W.FOLDERS['a'], 'verdicts.json'); V = json.load(open(f))
+        V[next(iter(V))]['verdict'] = ''; json.dump(V, open(f, 'w'))
+        with self.assertRaises(AssertionError): self.W.score()
+
+    def test_page_drops_a_rating_when_the_passage_changes(self):
+        V, _ = self.rate(0)
+        R = self.M.rated_wide()
+        self.assertEqual(len(R), len({(k['doc'], k['case'], k['piece']) for k in self.K.values()}))
+        self.assertTrue(all(R[(k['doc'], k['case'], k['piece'])] == V[c] for c, k in self.K.items()))
+        self.D[0][1]['pieces'][0] = 'A new first passage.'
+        R2 = self.M.rated_wide()
+        gone = {(k['doc'], k['case'], k['piece']) for k in self.K.values() if k['doc'] == 'P0/Terms.md' and k['piece'] == 0}
+        self.assertTrue(gone); self.assertEqual(set(R) - set(R2), gone)
+
+
 if __name__ == '__main__':
     unittest.main()
