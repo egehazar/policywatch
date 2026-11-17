@@ -1,0 +1,4 @@
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights:   2%|▏         | 7/393 [00:00<00:06, 64.19it/s]Loading weights:   4%|▍         | 17/393 [00:00<00:04, 81.87it/s]Loading weights:  11%|█▏        | 45/393 [00:00<00:02, 152.56it/s]Loading weights:  15%|█▌        | 60/393 [00:00<00:02, 118.09it/s]Loading weights:  20%|█▉        | 77/393 [00:00<00:02, 131.25it/s]Loading weights:  23%|██▎       | 91/393 [00:00<00:02, 128.40it/s]Loading weights:  27%|██▋       | 105/393 [00:00<00:02, 101.42it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 417.10it/s]
+Pinterest/Terms of Service.md {'seconds': 615.6, 'new_pieces': 16, 'pieces': 27}
+Pinterest/Privacy Policy.md {'seconds': 870.5, 'new_pieces': 35, 'pieces': 38}
+rerank done

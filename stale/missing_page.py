@@ -135,19 +135,27 @@ def build(arm=None):
         D = json.load(open(docs, encoding='utf-8'))['docs']; S = json.load(open(p, encoding='utf-8'))
         for d in D:
             if d['doc'] not in S: continue
-            rows, nt = S[d['doc']], note
-            if d['doc'] in watch: (d, rows), nt = watch[d['doc']], watch_note
+            rows, nt, before = S[d['doc']], note, None
             neg = [c for c in d['negatives'] if c.strip() not in approved(d['doc'].split('/', 1)[0])]
+            if d['doc'] in watch:                     # re-scored on its current text: mark what the change brought in
+                before = set(sorted(neg, key=lambda c: -best(rows, c)[0])[:TOP])
+                (d, rows), nt = watch[d['doc']], watch_note
             sc = {c: best(rows, c) for c in neg}
             top = sorted(neg, key=lambda c: -sc[c][0])[:TOP]
             items = []
+            nh = nt(arm, d) if nt else ''
+            if before is not None:
+                kept = sum(c in before for c in top)
+                nh = nh[:-len('</p>')] + (f' {kept} of these {len(top)} were in the top {TOP} before the change; the other '
+                                          f'{len(top) - kept} are marked new.</p>')
             for k, c in enumerate(top, 1):
+                new = ' <span class="badge">new since the text changed</span>' if before is not None and c not in before else ''
                 s, i = sc[c]; t = d['pieces'][i]; n = 1600            # pieces are at most 1,500 characters: shown whole
                 case_id = cid[c].most_common(1)[0][0] if cid[c] else None
                 link = f' <a class="sm" href="https://edit.tosdr.org/cases/{esc(case_id)}">case {esc(case_id)}</a>' if case_id else ''
                 shown = f'p(yes) {s:.2f}' if arm == 'KEV' else f'score {s:.3g}'
                 items.append(f'<div class="card"><div class="row"><b>{k}. {esc(c.strip())}</b> '
-                             f'{badge(cls[c].most_common(1)[0][0] if cls[c] else "")}{link}</div>'
+                             f'{badge(cls[c].most_common(1)[0][0] if cls[c] else "")}{link}{new}</div>'
                              f'<details class="sm"><summary>Best passage: {i + 1} of {len(d["pieces"])} ({shown})</summary>'
                              f'<div class="diff">{esc(t[:n])}{"…" if len(t) > n else ""}</div></details></div>')
             plat, name = d['doc'].split('/', 1)
@@ -157,7 +165,7 @@ def build(arm=None):
                         f'gone, partial or short) and are not suggested. Asked: '
                         f'{len(neg)} cases that ToS;DR often approves on {esc(d["type"])} documents and has no point '
                         f'for on {esc(plat)}. <a href="{REPO}{esc(d["doc"])}">Current text</a>.</p>'
-                        + (nt(arm, d) if nt else '') + ''.join(items))
+                        + nh + ''.join(items))
             unrated += bool(nt)
     body = (f'<h1>Possible missing points</h1>'
             f'<p>Cases these documents may state that ToS;DR has no point for on the service yet: for each document, the '
