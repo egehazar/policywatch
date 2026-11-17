@@ -711,6 +711,25 @@ class TestMissingContrib(unittest.TestCase):
         self.assertFalse(r['valid'])
         self.assertEqual({r['reading_page'], r['reading_compare'], r['reading_label']}, {'NOT VALID (random controls)'})
 
+    def test_page_part_verdicts_and_label_mark(self):
+        import collections
+        from stale import missing_page as M
+        X = self.X; cid, cls = collections.defaultdict(collections.Counter), collections.defaultdict(collections.Counter)
+        self.assertIn('not scored yet', M.contrib_part('KEV', cid, cls))
+        self.rate(lambda k: 'YES' if 'PAGE' in k['arms'] and X.shown(k['page_p']) >= .9 else 'NO')
+        lab = M.label(); self.assertEqual((lab['yes'], lab['cards']), (24, 24))
+        h = M.contrib_part('KEV', cid, cls, lab)
+        self.assertEqual(h.count('<h3>'), 4); self.assertEqual(h.count('judged 6 of these 10'), 4)
+        self.assertIn('judged 24 of these 40 suggestions', h); self.assertIn('carry a mark', h)
+        self.assertEqual(h.count('p(yes) 0.90 or more: 100% of such'), 24); self.assertEqual(h.count('AI rater: states it'), 24)
+        self.assertEqual(M.contrib_part('RERANK', cid, cls), '')
+        self.rate(lambda k: 'YES' if 'PAGE' in k['arms'] else 'NO')       # high and rest alike: no mark
+        self.assertIsNone(M.label())
+        h = M.contrib_part('KEV', cid, cls, M.label())
+        self.assertNotIn('p(yes) 0.90 or more:', h); self.assertIn('did not meet the bar', h)
+        self.rate(lambda k: 'YES')
+        self.assertIn('is not valid', M.contrib_part('KEV', cid, cls, M.label())); self.assertIsNone(M.label())
+
     def test_report_and_gpt(self):
         from stale import missing_contrib_report as Rp, missing_contrib_gpt as Gp
         X = self.X; self.rate(lambda k: 'YES' if 'PAGE' in k['arms'] and X.shown(k['page_p']) >= .9 else 'NO')

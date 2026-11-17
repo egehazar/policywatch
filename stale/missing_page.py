@@ -131,7 +131,16 @@ def accuracy(arm, unrated=0):
                     f'({q["yes_share"]:.0%}, 95% interval {wlo:.0%} to {whi:.0%}), against {rr["yes"]} of {rr["cards"]} '
                     f'for the reranker&rsquo;s own top 10 on the same documents (<code>stale/RESULT_wide_rate.md</code>).')
             pe = os.path.join(OUT, 'wide_rate_explore.json')
-            if os.path.exists(pe):
+            from stale import missing_contrib as X
+            xr = X.load(X.RESULT)
+            if xr and xr['valid']:
+                h = xr['label']['high']
+                wide += (f' Whether the p(yes) shown with each suggestion tells which to trust was then tested in advance '
+                         f'on 20 other documents (Other services, below): {h["yes"]} of the {h["cards"]} suggestions printed at '
+                         f'0.90 or more were rated as stating the case' +
+                         (', so those carry a mark.' if xr['reading_label'] == 'label adopted' else
+                          ', short of the bar set in advance for marking them.') + ' Each rated suggestion carries its verdict.')
+            elif os.path.exists(pe):
                 bk = json.load(open(pe, encoding='utf-8'))['by_printed_score']; hi = bk['0.9-1.0']
                 lo = [v for k, v in bk.items() if k != '0.9-1.0']
                 wide += (f' On those documents the p(yes) shown with each suggestion sorts them (exploratory, bands chosen after the result): {hi["yes"]} of '
@@ -169,12 +178,97 @@ def gpt(arm, larger=None):
             f'whether a card states the case for {ag["agree"]} of {ag["cards"]} cards. ')
 
 
+CONTRIB_REPO = 'https://github.com/OpenTermsArchive/contrib-versions/blob/main/'
+
+
+def rated_contrib():
+    """{(doc, case, passage index): verdict} from the contrib test (stale/PLAN_missing_contrib.md), once scored. Its
+    documents are shown on the text drawn (stored with the draw), so the cards always match."""
+    from stale import missing_contrib as X
+    if not os.path.exists(X.RESULT): return {}
+    K = X.load(X.KEY); V = {}
+    for f in X.FOLDERS.values(): V.update(X.load(os.path.join(f, 'verdicts.json')))
+    return {(k['doc'], k['case'], k['piece']): V[c]['verdict'] for c, k in K.items()}
+
+
+def label():
+    """The contrib test's high group ({'yes', 'cards', ...}) if it adopted the label (printed p(yes) 0.90 or more),
+    else None."""
+    from stale import missing_contrib as X
+    r = X.load(X.RESULT)
+    return r['label']['high'] if r.get('valid') and r.get('reading_label') == 'label adopted' else None
+
+
+def card(k, c, d, best_si, arm, R, cid, cls, new='', lab=None):
+    """One suggestion: rank k, case c on document d, its best passage (score, index), the rated verdict if any, and the
+    label's mark if the contrib test adopted it."""
+    s, i = best_si; t = d['pieces'][i]; n = 1600                       # pieces are at most 1,500 characters: shown whole
+    if lab and arm == 'KEV' and float(f'{s:.2f}') >= .90:
+        new += f' <span class="badge">p(yes) 0.90 or more: {lab["yes_share"]:.0%} of such were rated as stating the case</span>'
+    if (d['doc'], c, i) in R: new += f' <span class="badge">{VERDICT[R[(d["doc"], c, i)]]}</span>'
+    case_id = cid[c].most_common(1)[0][0] if cid[c] else None
+    link = f' <a class="sm" href="https://edit.tosdr.org/cases/{esc(case_id)}">case {esc(case_id)}</a>' if case_id else ''
+    shown = f'p(yes) {s:.2f}' if arm == 'KEV' else f'score {s:.3g}'
+    return (f'<div class="card"><div class="row"><b>{k}. {esc(c.strip())}</b> '
+            f'{badge(cls[c].most_common(1)[0][0] if cls[c] else "")}{link}{new}</div>'
+            f'<details class="sm"><summary>Best passage: {i + 1} of {len(d["pieces"])} ({shown})</summary>'
+            f'<div class="diff">{esc(t[:n])}{"…" if len(t) > n else ""}</div></details></div>')
+
+
+def contrib_part(arm, cid, cls, lab=None):
+    """The 20 documents drawn from Open Terms Archive's contrib collection (stale/PLAN_missing_contrib.md), as a second
+    part, once Kev has scored them; each suggestion with its verdict once the test is scored."""
+    from stale import missing_contrib as X
+    if arm != 'KEV' or not os.path.exists(X.F['KEV']): return ''
+    D = X.load(X.DOCS); S = X.load(X.F['KEV']); R = rated_contrib(); res = X.load(X.RESULT); secs = []
+    for d in D['docs']:
+        if d['doc'] not in S: continue
+        sc = {c: best(S[d['doc']], c) for c in d['negatives']}
+        top = sorted(d['negatives'], key=lambda c: -sc[c][0])[:TOP]
+        rv = [R[(d['doc'], c, sc[c][1])] for c in top if (d['doc'], c, sc[c][1]) in R]
+        nh = (f'<p class="sm note">Rated blind: an AI rater (a Claude model, not a person) judged {rv.count("YES")} of these '
+              f'{len(top)} to state the case.</p>' if rv and len(rv) == len(top) else '<p class="sm note">Not rated yet.</p>')
+        if not english(d['pieces']):
+            nh += '<p class="sm note">This archived text is not in English (by a simple word count).</p>'
+        svc, name = d['doc'].split('/', 1)
+        secs.append(f'<h3>{esc(svc)}: {esc(name[:-3] if name.endswith(".md") else name)}</h3>'
+                    f'<p class="sm mut">{len(d["positives"])} cases already have an approved point quoting this document; '
+                    f'{len(d["excluded"])} more are approved for {esc(svc)} (on another document, or on this one with a '
+                    f'quote that is gone, partial or short) and are not suggested. Asked: {len(d["negatives"])} cases that '
+                    f'ToS;DR often approves on {esc(d["type"])} documents and has no point for on {esc(svc)}. '
+                    f'<a href="{CONTRIB_REPO}{esc(d["doc"])}">Current text</a> (scored on the version of '
+                    f'{esc(D["archive_head"][:10])}).</p>' + nh +
+                    ''.join(card(k, c, d, sc[c], arm, R, cid, cls, '', lab) for k, c in enumerate(top, 1)))
+    if not secs: return ''
+    head = (f'<h2>Other services</h2><p>{len(secs)} privacy policies and terms drawn at random from Open Terms Archive&rsquo;s '
+            f'contrib collection: one document per service, from the {D["population"]} English ones of services ToS;DR '
+            f'covers with up to 80 passages. Same method as above: the reranker picked 3 passages per case and Kev read '
+            f'only those.')
+    if res and not res['valid']:
+        head += (f' The blind rating of these suggestions is not valid: {res["random_yes"]} of its {res["random_n"]} random '
+                 f'controls were rated as stating the case (at most {X.MAX_RANDOM_YES} allowed), so its figures are not shown.')
+    elif res:
+        p, r = res['precision_at_10']['PAGE'], res['precision_at_10']['RERANK']; lo, hi = p['wilson95']
+        h, o = res['label']['high'], res['label']['rest']
+        head += (f' A blind test fixed in advance rated them: AI raters (Claude models, not people) judged {p["yes"]} of '
+                 f'these {p["cards"]} suggestions to state the case ({p["yes_share"]:.0%}, 95% interval {lo:.0%} to '
+                 f'{hi:.0%}), against {r["yes"]} of {r["cards"]} for the reranker&rsquo;s own top 10. Of the suggestions '
+                 f'printed at p(yes) 0.90 or more, {h["yes"]} of {h["cards"]} were rated as stating the case; of the rest, '
+                 f'{o["yes"]} of {o["cards"]}' + ('; so suggestions at 0.90 or more carry a mark on this page.' if lab else
+                 '; this did not meet the bar set in advance for marking them.') +
+                 ' <code>stale/RESULT_missing_contrib.md</code>.')
+    else:
+        head += ' Their blind rating is not scored yet.'
+    return head + '</p>' + ''.join(secs)
+
+
 def build(arm=None):
     arm = arm or method()
     cid, cls = collections.defaultdict(collections.Counter), collections.defaultdict(collections.Counter)
     for r in all_points():
         cid[r['case_title']][r.get('case_id')] += 1; cls[r['case_title']][r.get('classification')] += 1
     secs = []; unrated = 0; watch = missing_watch.current(arm); R = rated_wide() if arm == 'KEV' else {}
+    lab = label() if arm == 'KEV' else None
     for docs, files, note in SOURCES:
         if arm not in files or not os.path.exists(os.path.join(OUT, files[arm])): continue
         p = os.path.join(OUT, files[arm])
@@ -205,15 +299,7 @@ def build(arm=None):
                        'test checked Kev on text that is not in English.</p>')
             for k, c in enumerate(top, 1):
                 new = ' <span class="badge">new since the text changed</span>' if before is not None and c not in before else ''
-                s, i = sc[c]; t = d['pieces'][i]; n = 1600            # pieces are at most 1,500 characters: shown whole
-                if (d['doc'], c, i) in R: new += f' <span class="badge">{VERDICT[R[(d["doc"], c, i)]]}</span>'
-                case_id = cid[c].most_common(1)[0][0] if cid[c] else None
-                link = f' <a class="sm" href="https://edit.tosdr.org/cases/{esc(case_id)}">case {esc(case_id)}</a>' if case_id else ''
-                shown = f'p(yes) {s:.2f}' if arm == 'KEV' else f'score {s:.3g}'
-                items.append(f'<div class="card"><div class="row"><b>{k}. {esc(c.strip())}</b> '
-                             f'{badge(cls[c].most_common(1)[0][0] if cls[c] else "")}{link}{new}</div>'
-                             f'<details class="sm"><summary>Best passage: {i + 1} of {len(d["pieces"])} ({shown})</summary>'
-                             f'<div class="diff">{esc(t[:n])}{"…" if len(t) > n else ""}</div></details></div>')
+                items.append(card(k, c, d, sc[c], arm, R, cid, cls, new, lab))
             plat, name = d['doc'].split('/', 1)
             secs.append(f'<h2>{esc(plat)}: {esc(name[:-3] if name.endswith(".md") else name)}</h2>'
                         f'<p class="sm mut">{len(d["positives"])} cases already have an approved point quoting this document; '
@@ -230,7 +316,8 @@ def build(arm=None):
             f'or not at all. &ldquo;No point&rdquo; means no <em>approved</em> point: ToS;DR&rsquo;s public data does not '
             f'show pending or declined ones. Some suggestions are variants of, or close to, a case already approved for '
             f'the service: an AI check of the titles found 9 variants and 31 close ones among the 87 suggestions rated '
-            f'YES, and nothing close on the service for the other 47.</p>' + accuracy(arm, unrated) + ''.join(secs))
+            f'YES, and nothing close on the service for the other 47.</p>' + accuracy(arm, unrated) + ''.join(secs)
+            + contrib_part(arm, cid, cls, lab))
     dest = os.path.join(ROOT, 'out', 'site', 'missing.html')
     with open(dest, 'w', encoding='utf-8') as f: f.write(page('Possible missing points', body))
     print(dest, arm, len(secs), 'documents')
