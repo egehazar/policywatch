@@ -1,0 +1,81 @@
+{
+ "gpt": {
+  "precision_at_10": {
+   "PAGE": {
+    "cards": 280,
+    "yes": 203,
+    "yes_share": 0.725,
+    "wilson95": [
+     0.67,
+     0.774
+    ],
+    "yes_or_partly_share": 0.943
+   },
+   "RERANK": {
+    "cards": 280,
+    "yes": 150,
+    "yes_share": 0.536,
+    "wilson95": [
+     0.477,
+     0.593
+    ],
+    "yes_or_partly_share": 0.868
+   }
+  },
+  "random_yes": 1,
+  "PAGE_minus_RERANK": {
+   "documents": 28,
+   "point": 0.189,
+   "ci95": [
+    0.121,
+    0.268
+   ]
+  }
+ },
+ "claude": {
+  "precision_at_10": {
+   "PAGE": {
+    "cards": 280,
+    "yes": 190,
+    "yes_share": 0.679,
+    "wilson95": [
+     0.622,
+     0.731
+    ],
+    "yes_or_partly_share": 0.939
+   },
+   "RERANK": {
+    "cards": 280,
+    "yes": 150,
+    "yes_share": 0.536,
+    "wilson95": [
+     0.477,
+     0.593
+    ],
+    "yes_or_partly_share": 0.821
+   }
+  },
+  "random_yes": 1,
+  "PAGE_minus_RERANK": {
+   "documents": 28,
+   "point": 0.143,
+   "ci95": [
+    0.075,
+    0.211
+   ]
+  }
+ },
+ "random_n": 20,
+ "agreement": {
+  "cards": 471,
+  "agree_yes_vs_not": 405,
+  "kappa_yes_vs_not": 0.717,
+  "agree_three_way": 376,
+  "gpt_yes": 270,
+  "claude_yes": 252,
+  "both_yes_by_arm": {
+   "PAGE": 179,
+   "RERANK": 130
+  }
+ }
+}
