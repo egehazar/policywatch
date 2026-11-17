@@ -203,6 +203,41 @@
    "candidates": 22
   }
  ],
+ "by_printed_score": {
+  "0.0-0.5": {
+   "cards": 2,
+   "yes": 0,
+   "wilson95": [
+    0.0,
+    0.658
+   ]
+  },
+  "0.5-0.7": {
+   "cards": 12,
+   "yes": 2,
+   "wilson95": [
+    0.047,
+    0.448
+   ]
+  },
+  "0.7-0.9": {
+   "cards": 87,
+   "yes": 39,
+   "wilson95": [
+    0.348,
+    0.553
+   ]
+  },
+  "0.9-1.0": {
+   "cards": 179,
+   "yes": 149,
+   "wilson95": [
+    0.771,
+    0.88
+   ]
+  }
+ },
  "spearman_yes_vs_known_positives": -0.563,
- "spearman_yes_vs_candidates": 0.63
+ "spearman_yes_vs_candidates": 0.63,
+ "spearman_known_positives_vs_candidates": -0.669
 }

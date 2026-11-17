@@ -127,16 +127,16 @@ def accuracy(arm, unrated=0):
             wlo, whi = q['wilson95']
             wide = (f' The {unrated} documents with a note under their title were scored later through the cascade (the '
                     'remaining documents, and any document whose text changed after it was scored). A third blind check '
-                    f'rated their suggestions afterwards: the AI rater judged {q["yes"]} of {q["cards"]} to state the case '
+                    f'rated their suggestions afterwards: two AI raters (Claude models, each on half the cards) judged {q["yes"]} of {q["cards"]} to state the case '
                     f'({q["yes_share"]:.0%}, 95% interval {wlo:.0%} to {whi:.0%}), against {rr["yes"]} of {rr["cards"]} '
                     f'for the reranker&rsquo;s own top 10 on the same documents (<code>stale/RESULT_wide_rate.md</code>).')
             pe = os.path.join(OUT, 'wide_rate_explore.json')
             if os.path.exists(pe):
-                bk = json.load(open(pe, encoding='utf-8'))['by_kev_score']; hi = bk['0.9-1.0']
+                bk = json.load(open(pe, encoding='utf-8'))['by_printed_score']; hi = bk['0.9-1.0']
                 lo = [v for k, v in bk.items() if k != '0.9-1.0']
-                wide += (f' On those documents the p(yes) shown with each suggestion sorts them (exploratory): {hi["yes"]} of '
+                wide += (f' On those documents the p(yes) shown with each suggestion sorts them (exploratory, bands chosen after the result): {hi["yes"]} of '
                          f'the {hi["cards"]} at 0.90 or more were rated as stating the case, {sum(v["yes"] for v in lo)} of '
-                         f'the {sum(v["cards"] for v in lo)} below. Each rated suggestion carries the rater&rsquo;s verdict.')
+                         f'the {sum(v["cards"] for v in lo)} below. Each rated suggestion carries its verdict.')
         elif unrated:
             wide = (f' The {unrated} documents marked &ldquo;Not rated&rdquo; were scored later through the cascade (the '
                     'remaining documents, and any document whose text changed after it was scored); none of their '
@@ -196,7 +196,8 @@ def build(arm=None):
                                           f'{len(top) - kept} are marked new.</p>')
             rv = [R[(d['doc'], c, sc[c][1])] for c in top if (d['doc'], c, sc[c][1]) in R]
             if rv and nh.startswith('<p class="sm note">Not rated. '):
-                who = f'these {len(top)}' if len(rv) == len(top) else f'the {len(rv)} of these {len(top)} it rated'
+                who = f'these {len(top)}' if len(rv) == len(top) else f'the {len(rv)} of these {len(top)} that were rated'
+                nh = re.sub(r'; in the larger test an AI rater judged \d+ of the cascade&rsquo;s \d+ top-10 suggestions to state the case', '', nh)
                 nh = nh.replace('Not rated. ', f'Rated afterwards, blind: an AI rater (a Claude model, not a person) judged '
                                                f'{rv.count("YES")} of {who} to state the case. ', 1)
             if not english(d['pieces']):

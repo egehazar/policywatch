@@ -1,9 +1,9 @@
 """Exploratory, after the page rating was scored (stale/RESULT_wide_rate.md); nothing here is a reading.
 
-- The PAGE cards' rated YES share by Kev's p(yes) on the shown passage: does the score the page prints tell a curator
-  which suggestions to read first?
-- Per document: PAGE YES count against the number of cases ToS;DR already approved on the document (known positives)
-  and the number of candidate cases: are the weak documents the well-covered ones?
+- The PAGE cards' rated YES share by Kev's p(yes) on the shown passage, unrounded and as the page prints it (two
+  decimals): does the score tell a curator which suggestions to read first? (Bins chosen after the result was known.)
+- Per document: PAGE YES count against the document's known positives (approved cases whose quote is still in its
+  text) and against its number of candidate cases; the two go together (Spearman between them reported too).
 -> stale/out/wide_rate_explore.json
 """
 import json, os, sys
@@ -36,9 +36,12 @@ def main():
     res = {'by_kev_score': {}, 'by_doc': []}
     page = [c for c in K if 'PAGE' in K[c]['arms']]
     s = {c: D[K[c]['doc']][1]['PAGE'][K[c]['piece']][K[c]['case']] for c in page}
-    for lo, hi in BINS:
-        cs = [c for c in page if lo <= s[c] < hi]; y = sum(V[c]['verdict'] == 'YES' for c in cs)
-        res['by_kev_score'][f'{lo:.1f}-{min(hi, 1):.1f}'] = {'cards': len(cs), 'yes': y, 'wilson95': wilson(y, len(cs))}
+    shown = {c: round(s[c], 2) for c in page}            # the page prints p(yes) to two decimals
+    res['by_printed_score'] = {}
+    for key, sc in (('by_kev_score', s), ('by_printed_score', shown)):
+        for lo, hi in BINS:
+            cs = [c for c in page if lo <= sc[c] < hi]; y = sum(V[c]['verdict'] == 'YES' for c in cs)
+            res[key][f'{lo:.1f}-{min(hi, 1):.1f}'] = {'cards': len(cs), 'yes': y, 'wilson95': wilson(y, len(cs))}
     for doc, (d, _) in sorted(D.items()):
         cs = [c for c in page if K[c]['doc'] == doc]
         res['by_doc'].append({'doc': doc, 'page_yes': sum(V[c]['verdict'] == 'YES' for c in cs),
@@ -46,6 +49,7 @@ def main():
     B = res['by_doc']
     res['spearman_yes_vs_known_positives'] = round(spearman([b['page_yes'] for b in B], [b['known_positives'] for b in B]), 3)
     res['spearman_yes_vs_candidates'] = round(spearman([b['page_yes'] for b in B], [b['candidates'] for b in B]), 3)
+    res['spearman_known_positives_vs_candidates'] = round(spearman([b['known_positives'] for b in B], [b['candidates'] for b in B]), 3)
     with open(os.path.join(OUT, 'wide_rate_explore.json'), 'w', encoding='utf-8') as f: json.dump(res, f, indent=1)
     print(json.dumps({k: v for k, v in res.items() if k != 'by_doc'}, indent=1))
 
