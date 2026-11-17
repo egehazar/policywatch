@@ -670,7 +670,7 @@ class TestMissingContrib(unittest.TestCase):
         rer = [{c: (j / 20 if i == 0 else 0) for j, c in enumerate(cases)} for i in range(30)]
         D = [{'doc': f'S{n}/Privacy Policy.md', 'type': 'privacy', 'pieces': pieces, 'positives': [], 'excluded': [],
               'negatives': cases, 'cases': cases} for n in range(4)]
-        json.dump({'docs': D}, open(X.DOCS, 'w')); json.dump({d['doc']: kev for d in D}, open(X.F['KEV'], 'w'))
+        json.dump({'archive_head': '954941f437ab', 'population': 99, 'docs': D}, open(X.DOCS, 'w')); json.dump({d['doc']: kev for d in D}, open(X.F['KEV'], 'w'))
         json.dump({d['doc']: rer for d in D}, open(X.F['RERANK'], 'w'))
         with self.quiet(): X.cards()
         self.K = json.load(open(X.KEY, encoding='utf-8'))
@@ -710,6 +710,25 @@ class TestMissingContrib(unittest.TestCase):
         r = self.rate(lambda k: 'YES')
         self.assertFalse(r['valid'])
         self.assertEqual({r['reading_page'], r['reading_compare'], r['reading_label']}, {'NOT VALID (random controls)'})
+
+    def test_report_and_gpt(self):
+        from stale import missing_contrib_report as Rp, missing_contrib_gpt as Gp
+        X = self.X; self.rate(lambda k: 'YES' if 'PAGE' in k['arms'] and X.shown(k['page_p']) >= .9 else 'NO')
+        out = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, out, True)
+        gv = os.path.join(out, 'gv.json')
+        json.dump({c: {'verdict': 'YES' if 'PAGE' in k['arms'] else 'NO', 'why': ''} for c, k in self.K.items()}, open(gv, 'w'))
+        with self.quiet(): Gp.report(gv=gv, res=os.path.join(out, 'missing_contrib_gpt.json'))
+        shutil.copy(X.DOCS, os.path.join(out, 'missing_contrib_docs.json')); shutil.copy(X.RESULT, os.path.join(out, 'missing_contrib_result.json'))
+        for a in ('KEV', 'RERANK'):
+            S = json.load(open(X.F[a])); docs = [k for k in S]
+            S['_timing'] = {k: ({'seconds': 10.0, 'asked_cells': 5} if a == 'KEV' else 36.0) for k in docs}
+            json.dump(S, open(os.path.join(out, f'missing_contrib_{a.lower()}.json'), 'w'))
+        dest = os.path.join(out, 'RESULT.md'); Rp.build(out=out, dest=dest)
+        with open(dest, 'a', encoding='utf-8') as f: f.write('Hand-written reading.\n')
+        Rp.build(out=out, dest=dest); t = open(dest, encoding='utf-8').read()
+        self.assertIn('**label adopted**', t); self.assertIn('4 drawn from 99 (contrib at 954941f437)', t)
+        self.assertIn('0.10 s per cell', t); self.assertIn('2.00 s per asked cell', t); self.assertIn('GPT on the label', t)
+        self.assertTrue(t.endswith(Rp.MARK + '\n\nHand-written reading.\n'))
 
 
 if __name__ == '__main__':
