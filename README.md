@@ -5,6 +5,24 @@
 action") backed by a quote from those documents.
 policywatch watches the archive for the moment a curator's evidence stops being there.
 
+**At a glance**
+- *What it does.* Finds ToS;DR points whose quote the platform has since edited out of its terms or privacy policy
+  (679 so far; for 656, ToS;DR's own stored copy still holds the quote). For each, it suggests the passages of the
+  current text that may state the case now. For each document, it suggests cases the text may state that ToS;DR has no
+  point for on the service.
+- *How it is checked.* Each accuracy claim below is a test whose plan and code were hashed before scoring. Failures
+  are reported too: the original goal, a meaning-diff scanner, failed its tests and is kept at the end.
+- *Headline numbers.* Where a case is stated now: Kev-4B ranks the curator's own passage first 62-75% of the time in
+  three pre-registered samples, against 30-43% for BM25 and bge-small. Missing points: on the last 28 documents, 190 of
+  the page's 280 top-10 suggestions were rated as stating the case, against 150 for a cross-encoder reranker's own top
+  10 (1 of 20 random controls).
+- *What it does not show.* No person has rated a suggestion; every rater is a Claude or GPT model. Kev was not shown
+  to beat the reranker at finding the curator's passage in two of three samples, and the reranker uses a fraction of
+  the CPU. The ordinary instruct model of Kev's base family, asked the same question, tied Kev; what the
+  decision-model endpoint added was speed (1.9-5.4x less time per question, measured, when many questions share a
+  passage).
+- *Runs on* a desktop CPU with no API key.
+
 - **Stale evidence finder (`stale/`, working).**
   - *What it finds.* Checks every approved ToS;DR quote against every archived version and lists the points whose
     quote disappeared in an edit by the platform itself, with the archive commit and the passage that replaced it:
