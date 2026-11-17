@@ -85,7 +85,12 @@ On the 7 documents with at least 10 known positives (cases whose approved ToS;DR
 - The cascade still saved about 10 h against Kev on every cell (estimated, not run). The Facebook run above is the one
   measured case: 18.6 h for one document. The first 70 passages took 16.2 h, all but their last minutes with the
   scanner backfill sharing the server; the other 76 took 2.4 h after it was paused (other page jobs ran alongside both).
-- A cheaper first filter in front of the reranker (BM25 takes milliseconds) would cut its 5.9 h; not tested.
+- A cheaper first filter in front of the reranker (BM25 takes milliseconds) would not cut much without changing the
+  shortlist (exploratory, from the run's own scores, `stale/bm25_prefilter.py`): letting the reranker see only BM25's
+  top 20 passages per case needs 40% of its cells, but changes 37% of the shortlists and the passage behind 23 of the
+  page's 200 suggestions; top 30 needs 58% and still changes 18% (10 of the 200). Case titles are short paraphrases,
+  and the words of the legal text often differ. A changed shortlist is not shown to be a worse one; Kev was not run
+  on the new passages.
 
 ## Order of events
 - Plan, code and the document list hashed 2026-11-16 08:06:32Z (`stale/PLAN_missing_wide.sha256`; the plan's

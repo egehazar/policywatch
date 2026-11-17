@@ -1,0 +1,55 @@
+{
+ "documents": 20,
+ "cases": 1231,
+ "reranker_cells": 59014,
+ "by_k": {
+  "3": {
+   "reranker_cells": 3693,
+   "share_of_cells": 0.063,
+   "shortlist_unchanged": 76,
+   "shortlist_unchanged_share": 0.062,
+   "page_passage_kept": 108,
+   "page_suggestions": 200
+  },
+  "5": {
+   "reranker_cells": 6155,
+   "share_of_cells": 0.104,
+   "shortlist_unchanged": 216,
+   "shortlist_unchanged_share": 0.175,
+   "page_passage_kept": 126,
+   "page_suggestions": 200
+  },
+  "10": {
+   "reranker_cells": 12010,
+   "share_of_cells": 0.204,
+   "shortlist_unchanged": 438,
+   "shortlist_unchanged_share": 0.356,
+   "page_passage_kept": 156,
+   "page_suggestions": 200
+  },
+  "15": {
+   "reranker_cells": 17865,
+   "share_of_cells": 0.303,
+   "shortlist_unchanged": 625,
+   "shortlist_unchanged_share": 0.508,
+   "page_passage_kept": 169,
+   "page_suggestions": 200
+  },
+  "20": {
+   "reranker_cells": 23624,
+   "share_of_cells": 0.4,
+   "shortlist_unchanged": 771,
+   "shortlist_unchanged_share": 0.626,
+   "page_passage_kept": 177,
+   "page_suggestions": 200
+  },
+  "30": {
+   "reranker_cells": 33972,
+   "share_of_cells": 0.576,
+   "shortlist_unchanged": 1011,
+   "shortlist_unchanged_share": 0.821,
+   "page_passage_kept": 190,
+   "page_suggestions": 200
+  }
+ }
+}
