@@ -47,9 +47,13 @@ On the 7 documents with at least 10 known positives (cases whose approved ToS;DR
 - Kev is higher on 6 of the 7 documents, but two of those are near ties (Twitch +.005, X +.025); the gain comes from
   Reddit's privacy policy (+.15), Spotify's terms (+.21), YouTube's privacy policy (+.12) and Snapchat's terms (+.10).
   The exception is Facebook's privacy policy (-.06: .699 against .763), the longest document in the run (146
-  passages). One guess, not tested here: with 3 of 146 passages per case, the shortlist misses more there. An
-  exploratory run of Kev on every passage of that document (6,862 cells; `stale/missing_wide_full.py`, its question
-  committed before it ran) is testing it.
+  passages). My guess was that with 3 of 146 passages per case the shortlist misses more there. An exploratory run of
+  Kev on every passage of that document (6,862 cells; `stale/missing_wide_full.py`, its question committed before it
+  ran) says no: Kev on every passage did worse, .656. Reading all 146 passages lifted the unapproved cases' best score
+  more than the approved ones' (mean .528 to .692, against .721 to .805), though 11 of the 19 known positives found
+  their best passage outside the shortlist. Recomputed after the fact from the same scores, a shortlist of 1, 5, 10,
+  20 or 50 passages gives .662-.671; 3 gives .699. On this document the reranker ranked better at any width. One
+  document, no interval (`stale/out/missing_wide_full.json`).
 - The base family (Qwen3.5-4B) was not run here. In the larger test (and in the relocation tests) it showed no
   difference from Kev, so this is probably a result about asking a language model each question on a passage rather
   than about decision-model training; this run does not show either.
@@ -76,7 +80,9 @@ On the 7 documents with at least 10 known positives (cases whose approved ToS;DR
   45-83, so each passage's prefill was shared by fewer questions. The run's own documents fit that: Mastodon's privacy
   policy, at 36 questions per request, ran at 1.10 s per asked cell, and Facebook's, at about 1.7 asked questions per
   request, at 4.47 s; the passages are about as long as the larger test's (1,281 against 1,257 characters on average).
-- The cascade still saved about 10 h against Kev on every cell (estimated, not run).
+- The cascade still saved about 10 h against Kev on every cell (estimated, not run). The Facebook run above is the one
+  measured case: 18.6 h for one document. The first 70 passages took 16.2 h, all but their last minutes with the
+  scanner backfill sharing the server; the other 76 took 2.4 h after it was paused (other page jobs ran alongside both).
 - A cheaper first filter in front of the reranker (BM25 takes milliseconds) would cut its 5.9 h; not tested.
 
 ## Order of events
