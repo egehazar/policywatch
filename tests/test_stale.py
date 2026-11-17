@@ -649,5 +649,68 @@ class TestWideRate(unittest.TestCase):
         self.assertTrue(gone); self.assertEqual(set(R) - set(R2), gone)
 
 
+class TestMissingContrib(unittest.TestCase):
+    """stale/missing_contrib.py: one document per service, 10 of each type; cards from both arms' top 10; the plan's
+    readings, including the p(yes) label (printed 0.90 or more)."""
+
+    def setUp(self):
+        import contextlib, io
+        from stale import missing_contrib as X
+        self.X, self.quiet = X, lambda: contextlib.redirect_stdout(io.StringIO())
+        tmp = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, tmp, True)
+        saved = (X.DOCS, X.F, X.KEY, X.RESULT, X.FOLDERS)
+        def restore(): X.DOCS, X.F, X.KEY, X.RESULT, X.FOLDERS = saved
+        self.addCleanup(restore)
+        X.DOCS, X.KEY, X.RESULT = (os.path.join(tmp, n) for n in ('docs.json', 'key.json', 'result.json'))
+        X.F = {a: os.path.join(tmp, f'{a}.json') for a in ('KEV', 'RERANK')}; X.FOLDERS = {x: os.path.join(tmp, x) for x in 'ab'}
+        cases = [f'case {j}' for j in range(12)]; pieces = [f'Passage {i} of the policy.' for i in range(30)]
+        # PAGE: case j on passage j, p(yes) .99 - j/100 for j < 6 (prints 0.94 or more), else .60 - j/100; the
+        # reranker: j/20 on passage 0. Per document the page's top 10 holds 6 high and 4 other cards.
+        kev = [{c: ((.99 - j / 100) if j < 6 else (.6 - j / 100)) if i == j else X.NOFILL for j, c in enumerate(cases)} for i in range(30)]
+        rer = [{c: (j / 20 if i == 0 else 0) for j, c in enumerate(cases)} for i in range(30)]
+        D = [{'doc': f'S{n}/Privacy Policy.md', 'type': 'privacy', 'pieces': pieces, 'positives': [], 'excluded': [],
+              'negatives': cases, 'cases': cases} for n in range(4)]
+        json.dump({'docs': D}, open(X.DOCS, 'w')); json.dump({d['doc']: kev for d in D}, open(X.F['KEV'], 'w'))
+        json.dump({d['doc']: rer for d in D}, open(X.F['RERANK'], 'w'))
+        with self.quiet(): X.cards()
+        self.K = json.load(open(X.KEY, encoding='utf-8'))
+
+    def rate(self, verdict):
+        for x, f in self.X.FOLDERS.items():
+            json.dump({c: {'verdict': verdict(k), 'why': ''} for c, k in self.K.items() if k['folder'] == x}, open(os.path.join(f, 'verdicts.json'), 'w'))
+        with self.quiet(): self.X.score()
+        return json.load(open(self.X.RESULT, encoding='utf-8'))
+
+    def test_draw_one_document_per_service_ten_of_each_type(self):
+        import random
+        pop = [(f'S{s}/{n}', t, ['p']) for s in range(40) for n, t in (('Privacy Policy.md', 'privacy'), ('Terms of Service.md', 'terms'))
+               if (t == 'privacy' and s % 3) or (t == 'terms' and s % 4)]
+        a = self.X.draw(pop, random.Random(1)); b = self.X.draw(pop, random.Random(1))
+        self.assertEqual(a, b); self.assertEqual(len(a), 20)
+        self.assertEqual(sorted(t for _, t, _ in a), ['privacy'] * 10 + ['terms'] * 10)
+        self.assertEqual(len({f.split('/')[0] for f, _, _ in a}), 20)
+
+    def test_cards_carry_the_printed_score_of_page_cards(self):
+        K = self.K; page = [k for k in K.values() if 'PAGE' in k['arms']]
+        self.assertEqual(len(page), 40); self.assertEqual(sum(self.X.shown(k['page_p']) >= .9 for k in page), 24)
+        self.assertTrue(all('page_p' not in k for k in K.values() if 'PAGE' not in k['arms']))
+        with self.assertRaises(AssertionError): self.X.cards()
+
+    def test_label_adopted_when_high_cards_hold(self):
+        r = self.rate(lambda k: 'YES' if 'PAGE' in k['arms'] and self.X.shown(k['page_p']) >= .9 else 'NO')
+        self.assertTrue(r['valid']); self.assertEqual(r['label']['high']['yes'], r['label']['high']['cards'])
+        self.assertEqual(r['label']['rest']['yes'], 0); self.assertEqual(r['reading_label'], 'label adopted')
+        self.assertEqual(r['precision_at_10']['PAGE']['cards'], 40)
+
+    def test_label_not_adopted_when_high_and_rest_alike(self):
+        r = self.rate(lambda k: 'YES' if 'PAGE' in k['arms'] else 'NO')
+        self.assertEqual(r['reading_label'], 'label not adopted'); self.assertEqual(r['reading_page'], 'above the predicted range')
+
+    def test_random_controls_void_every_reading(self):
+        r = self.rate(lambda k: 'YES')
+        self.assertFalse(r['valid'])
+        self.assertEqual({r['reading_page'], r['reading_compare'], r['reading_label']}, {'NOT VALID (random controls)'})
+
+
 if __name__ == '__main__':
     unittest.main()
