@@ -104,3 +104,16 @@ On the 7 documents with at least 10 known positives (cases whose approved ToS;DR
   means, the bootstrap interval with the seed) and every count and time; it found wording errors, fixed here: "10 or
   more approved points" (it is known positives), "every document" (34 of 40), case counts that were document-case
   pairs, a pilot that never ran the base family, and causes stated without a test.
+
+## After the fact (2026-11-18, exploratory): a text-blind baseline and document-level intervals
+An adversarial review (a Claude Fable 5.2 subagent, 2026-11-18) asked two questions that this test did not, and
+`py -m stale.prior_check` recomputes both (`stale/out/prior_check.json`).
+- **What does a ranking that never reads the document score?** PRIOR ranks a document's candidate cases by how many
+  approved points each case has on other services' documents of the same type.
+  Mean AUROC: PRIOR 0.671, CASCADE_KEV 0.771, RERANK 0.693. CASCADE_KEV - PRIOR +0.100, t-interval [+0.011, +0.188], bootstrap over documents [+0.031, +0.162], above 0 on 6 of 7 documents.
+  RERANK - PRIOR +0.022, t-interval [-0.035, +0.078], bootstrap over documents [-0.021, +0.064], above 0 on 4 of 7 documents. So the reranker on every passage was not shown to beat a ranking that
+  ignores the text, and part of every arm's AUROC measures which cases curators usually approve. CASCADE_KEV's margin
+  over PRIOR is the part shown to come from reading the text.
+- **Do the intervals hold across documents?** The intervals above resample positives and negatives within each fixed
+  document, so they speak for these documents only. Resampling the per-document differences instead: CASCADE_KEV - RERANK
+  +0.078, t-interval [-0.009, +0.164], bootstrap over documents [+0.013, +0.140], above 0 on 6 of 7 documents. With this few documents the t-interval is the safer of the two.

@@ -251,3 +251,16 @@ makes a distinguishably different claim; NONE = nothing approved on the service 
   both tests left out.
 - The exclusion rule should read every approved point (stale/data), not only those with a quote of 3 or more words;
   the page now does (`stale/missing_page.py`).
+
+## After the fact (2026-11-18, exploratory): a text-blind baseline and document-level intervals
+An adversarial review (a Claude Fable 5.2 subagent, 2026-11-18) asked two questions that this test did not, and
+`py -m stale.prior_check` recomputes both (`stale/out/prior_check.json`).
+- **What does a ranking that never reads the document score?** PRIOR ranks a document's candidate cases by how many
+  approved points each case has on other services' documents of the same type.
+  Mean AUROC: PRIOR 0.628, KEV 0.719, RERANK 0.648. KEV - PRIOR +0.091, t-interval [+0.027, +0.154], bootstrap over documents [+0.040, +0.144], above 0 on 10 of 10 documents.
+  RERANK - PRIOR +0.020, t-interval [-0.034, +0.073], bootstrap over documents [-0.025, +0.062], above 0 on 6 of 10 documents. So the reranker on every passage was not shown to beat a ranking that
+  ignores the text, and part of every arm's AUROC measures which cases curators usually approve. KEV's margin
+  over PRIOR is the part shown to come from reading the text.
+- **Do the intervals hold across documents?** The intervals above resample positives and negatives within each fixed
+  document, so they speak for these documents only. Resampling the per-document differences instead: KEV - RERANK
+  +0.071, t-interval [-0.000, +0.143], bootstrap over documents [+0.016, +0.131], above 0 on 9 of 10 documents. With this few documents the t-interval is the safer of the two.

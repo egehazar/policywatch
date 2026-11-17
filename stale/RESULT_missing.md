@@ -154,3 +154,16 @@ A pilot is a reason to run a larger pre-registered test, not a result to quote a
 documents (more platforms, both types), run the base family on the same cells or a fixed subsample to separate
 decision-model training from an LLM per passage, and have a person check a sample of cards. Until then the private
 page lists Kev's top 10 per document, with this pilot's measured accuracy.
+
+## After the fact (2026-11-18, exploratory): a text-blind baseline and document-level intervals
+An adversarial review (a Claude Fable 5.2 subagent, 2026-11-18) asked two questions that this test did not, and
+`py -m stale.prior_check` recomputes both (`stale/out/prior_check.json`).
+- **What does a ranking that never reads the document score?** PRIOR ranks a document's candidate cases by how many
+  approved points each case has on other services' documents of the same type.
+  Mean AUROC: PRIOR 0.647, KEV 0.758, RERANK 0.675. KEV - PRIOR +0.112, t-interval [-0.033, +0.257], bootstrap over documents [+0.044, +0.191], above 0 on 4 of 4 documents.
+  RERANK - PRIOR +0.029, t-interval [-0.077, +0.134], bootstrap over documents [-0.007, +0.095], above 0 on 2 of 4 documents. So the reranker on every passage was not shown to beat a ranking that
+  ignores the text, and part of every arm's AUROC measures which cases curators usually approve. KEV's margin
+  over PRIOR is the part that can come from reading the text (on 4 documents its t-interval still includes 0).
+- **Do the intervals hold across documents?** The intervals above resample positives and negatives within each fixed
+  document, so they speak for these documents only. Resampling the per-document differences instead: KEV - RERANK
+  +0.083, t-interval [+0.009, +0.158], bootstrap over documents [+0.045, +0.119], above 0 on 4 of 4 documents. With this few documents the t-interval is the safer of the two.

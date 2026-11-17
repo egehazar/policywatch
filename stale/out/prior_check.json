@@ -1,0 +1,272 @@
+{
+ "pilot": {
+  "docs": [
+   {
+    "doc": "Bluesky/Privacy Policy.md",
+    "PRIOR": 0.676,
+    "KEV": 0.802,
+    "RERANK": 0.67
+   },
+   {
+    "doc": "X/Privacy Policy.md",
+    "PRIOR": 0.663,
+    "KEV": 0.726,
+    "RERANK": 0.655
+   },
+   {
+    "doc": "Pinterest/Terms of Service.md",
+    "PRIOR": 0.766,
+    "KEV": 0.791,
+    "RERANK": 0.767
+   },
+   {
+    "doc": "YouTube/Terms of Service.md",
+    "PRIOR": 0.481,
+    "KEV": 0.715,
+    "RERANK": 0.609
+   }
+  ],
+  "mean_auroc": {
+   "PRIOR": 0.647,
+   "KEV": 0.758,
+   "RERANK": 0.675
+  },
+  "KEV-RERANK": {
+   "mean": 0.083,
+   "t95": [
+    0.009,
+    0.158
+   ],
+   "boot95_docs": [
+    0.045,
+    0.119
+   ],
+   "docs_above_0": 4,
+   "docs": 4
+  },
+  "KEV-PRIOR": {
+   "mean": 0.112,
+   "t95": [
+    -0.033,
+    0.257
+   ],
+   "boot95_docs": [
+    0.044,
+    0.191
+   ],
+   "docs_above_0": 4,
+   "docs": 4
+  },
+  "RERANK-PRIOR": {
+   "mean": 0.029,
+   "t95": [
+    -0.077,
+    0.134
+   ],
+   "boot95_docs": [
+    -0.007,
+    0.095
+   ],
+   "docs_above_0": 2,
+   "docs": 4
+  }
+ },
+ "larger test": {
+  "docs": [
+   {
+    "doc": "Bluesky/Terms of Service.md",
+    "PRIOR": 0.658,
+    "KEV": 0.866,
+    "RERANK": 0.748
+   },
+   {
+    "doc": "Instagram/Terms of Service.md",
+    "PRIOR": 0.576,
+    "KEV": 0.59,
+    "RERANK": 0.536
+   },
+   {
+    "doc": "LinkedIn/Terms of Service.md",
+    "PRIOR": 0.572,
+    "KEV": 0.779,
+    "RERANK": 0.494
+   },
+   {
+    "doc": "Parler/Terms of Service.md",
+    "PRIOR": 0.531,
+    "KEV": 0.564,
+    "RERANK": 0.551
+   },
+   {
+    "doc": "Pinterest/Privacy Policy.md",
+    "PRIOR": 0.618,
+    "KEV": 0.737,
+    "RERANK": 0.66
+   },
+   {
+    "doc": "Reddit/Terms of Service.md",
+    "PRIOR": 0.697,
+    "KEV": 0.714,
+    "RERANK": 0.668
+   },
+   {
+    "doc": "Snapchat/Privacy Policy.md",
+    "PRIOR": 0.67,
+    "KEV": 0.674,
+    "RERANK": 0.775
+   },
+   {
+    "doc": "Spotify/Privacy Policy.md",
+    "PRIOR": 0.781,
+    "KEV": 0.807,
+    "RERANK": 0.693
+   },
+   {
+    "doc": "Tumblr/Privacy Policy.md",
+    "PRIOR": 0.614,
+    "KEV": 0.679,
+    "RERANK": 0.677
+   },
+   {
+    "doc": "WhatsApp/Terms of Service.md",
+    "PRIOR": 0.566,
+    "KEV": 0.781,
+    "RERANK": 0.677
+   }
+  ],
+  "mean_auroc": {
+   "PRIOR": 0.628,
+   "KEV": 0.719,
+   "RERANK": 0.648
+  },
+  "KEV-RERANK": {
+   "mean": 0.071,
+   "t95": [
+    -0.0,
+    0.143
+   ],
+   "boot95_docs": [
+    0.016,
+    0.131
+   ],
+   "docs_above_0": 9,
+   "docs": 10
+  },
+  "KEV-PRIOR": {
+   "mean": 0.091,
+   "t95": [
+    0.027,
+    0.154
+   ],
+   "boot95_docs": [
+    0.04,
+    0.144
+   ],
+   "docs_above_0": 10,
+   "docs": 10
+  },
+  "RERANK-PRIOR": {
+   "mean": 0.02,
+   "t95": [
+    -0.034,
+    0.073
+   ],
+   "boot95_docs": [
+    -0.025,
+    0.062
+   ],
+   "docs_above_0": 6,
+   "docs": 10
+  }
+ },
+ "20 more documents (check fixed in advance)": {
+  "docs": [
+   {
+    "doc": "Facebook/Privacy Policy.md",
+    "PRIOR": 0.672,
+    "CASCADE_KEV": 0.699,
+    "RERANK": 0.763
+   },
+   {
+    "doc": "Reddit/Privacy Policy.md",
+    "PRIOR": 0.664,
+    "CASCADE_KEV": 0.813,
+    "RERANK": 0.66
+   },
+   {
+    "doc": "Snapchat/Terms of Service.md",
+    "PRIOR": 0.7,
+    "CASCADE_KEV": 0.765,
+    "RERANK": 0.668
+   },
+   {
+    "doc": "Spotify/Terms of Service.md",
+    "PRIOR": 0.633,
+    "CASCADE_KEV": 0.845,
+    "RERANK": 0.636
+   },
+   {
+    "doc": "Twitch/Terms of Service.md",
+    "PRIOR": 0.832,
+    "CASCADE_KEV": 0.775,
+    "RERANK": 0.769
+   },
+   {
+    "doc": "X/Terms of Service.md",
+    "PRIOR": 0.682,
+    "CASCADE_KEV": 0.789,
+    "RERANK": 0.763
+   },
+   {
+    "doc": "YouTube/Privacy Policy.md",
+    "PRIOR": 0.517,
+    "CASCADE_KEV": 0.711,
+    "RERANK": 0.594
+   }
+  ],
+  "mean_auroc": {
+   "PRIOR": 0.671,
+   "CASCADE_KEV": 0.771,
+   "RERANK": 0.693
+  },
+  "CASCADE_KEV-RERANK": {
+   "mean": 0.078,
+   "t95": [
+    -0.009,
+    0.164
+   ],
+   "boot95_docs": [
+    0.013,
+    0.14
+   ],
+   "docs_above_0": 6,
+   "docs": 7
+  },
+  "CASCADE_KEV-PRIOR": {
+   "mean": 0.1,
+   "t95": [
+    0.011,
+    0.188
+   ],
+   "boot95_docs": [
+    0.031,
+    0.162
+   ],
+   "docs_above_0": 6,
+   "docs": 7
+  },
+  "RERANK-PRIOR": {
+   "mean": 0.022,
+   "t95": [
+    -0.035,
+    0.078
+   ],
+   "boot95_docs": [
+    -0.021,
+    0.064
+   ],
+   "docs_above_0": 4,
+   "docs": 7
+  }
+ }
+}
