@@ -13,7 +13,7 @@ whose archived text changed after it was scored is shown as re-scored on the cur
 both are marked not rated.
 Usage  py -m stale.missing_page [KEV|RERANK|BM25]
 """
-import collections, json, os, sys
+import collections, json, os, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE); OUT = os.path.join(HERE, 'out')
 sys.path.insert(0, ROOT)
 from policywatch.report import page, esc, badge
@@ -43,6 +43,15 @@ def watch_note(arm, d):
             f'Archive version), after this document was first scored{" and its suggestions were rated" if d["rated"] else ""}. '
             'These suggestions are on the current text, through the cascade: the reranker picked 3 passages per case '
             'and Kev read only those.</p>')
+
+
+EN = set('the and of to you your we our is for in or with that this are'.split())
+
+
+def english(pieces):
+    """Share of common English function words; on the page's 40 documents Telegram's two (German) score .013 and .017,
+    every other document .26 or more."""
+    w = re.findall(r'[^\W\d_]+', ' '.join(pieces).lower()); return sum(x in EN for x in w) / max(len(w), 1) >= .10
 
 
 def rest_note(arm, d=None):
@@ -148,6 +157,9 @@ def build(arm=None):
                 kept = sum(c in before for c in top)
                 nh = nh[:-len('</p>')] + (f' {kept} of these {len(top)} were in the top {TOP} before the change; the other '
                                           f'{len(top) - kept} are marked new.</p>')
+            if not english(d['pieces']):
+                nh += ('<p class="sm note">This archived text is not in English (by a simple word count); no policywatch '
+                       'test checked Kev on text that is not in English.</p>')
             for k, c in enumerate(top, 1):
                 new = ' <span class="badge">new since the text changed</span>' if before is not None and c not in before else ''
                 s, i = sc[c]; t = d['pieces'][i]; n = 1600            # pieces are at most 1,500 characters: shown whole

@@ -67,9 +67,11 @@ On the 7 documents with at least 10 known positives (cases whose approved ToS;DR
 - Not every document of the 20 platforms. The rule took documents from `stale/out/reloc_docs.json`, which lists only
   documents with at least one approved ToS;DR point matched to them, so 6 of the 40 privacy policies and terms in the
   archive were left out: BeReal's privacy policy and terms, Mastodon's, Telegram's and TikTok's terms, and Twitch's
-  privacy policy. With these 20, the page covers 34 of the 40.
-- Telegram's privacy policy in the archive is in German; its suggestions quote German passages. No policywatch test
-  checked Kev on German text.
+  privacy policy. With these 20, the page covered 34 of the 40. The 6 were run afterwards through the same cascade
+  (`stale/missing_rest.py`, 2026-11-17); with no matched point there is nothing to check them against, so their
+  60 suggestions are on the page marked not rated, and the page covers all 40.
+- Telegram's privacy policy in the archive is in German (and so are its terms, added later); its suggestions quote
+  German passages, and the page says so on both. No policywatch test checked Kev on German text.
 - On the documents with the most known positives (Reddit's and YouTube's privacy policies, X's terms) few frequent
   cases are left unapproved: the tenth suggestion's score is .38-.53, the three lowest of the 20 documents, and X's
   9th and 10th (.498, .385) and YouTube's 10th (.488) are below .5, where Kev leans "no".
