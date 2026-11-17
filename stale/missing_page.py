@@ -82,6 +82,28 @@ def approved(plat, _cache={}):
     return _cache[plat]
 
 
+def rated_wide():
+    """{(doc, case, passage index): verdict} from the blind rating of the page's unrated documents
+    (stale/PLAN_wide_rate.md), once it is scored. A rating is used only while the page shows the same passage text the
+    card showed (checked against the card file), so a document whose text changes again loses its ratings."""
+    if not os.path.exists(os.path.join(OUT, 'wide_rate_result.json')): return {}
+    from stale import wide_rate
+    K = json.load(open(wide_rate.KEY, encoding='utf-8')); V, T = {}, {}
+    for x, f in wide_rate.FOLDERS.items():
+        V.update(json.load(open(os.path.join(f, 'verdicts.json'), encoding='utf-8')))
+        T[x] = open(os.path.join(f, 'cards.md'), encoding='utf-8').read()
+    P = {d['doc']: d['pieces'] for _, d, _, _ in wide_rate.docs()}; out = {}
+    for c, k in K.items():
+        t, i = P.get(k['doc'], []), k['piece']
+        block = '\n'.join([f'## {c}', f'**Case:** {k["case"]}', '', '**Passage:**', '', '```', t[i].strip() if i < len(t) else '', '```', ''])
+        if i < len(t) and block in T[k['folder']]:
+            out[(k['doc'], k['case'], i)] = V[c]['verdict']
+    return out
+
+
+VERDICT = {'YES': 'AI rater: states it', 'PARTLY': 'AI rater: partly', 'NO': 'AI rater: does not state it'}
+
+
 def method():
     if len(sys.argv) > 1: return sys.argv[1].upper()
     p = os.path.join(OUT, 'missing_result.json')
@@ -99,8 +121,16 @@ def accuracy(arm, unrated=0):
     r2 = json.load(open(p2, encoding='utf-8')) if os.path.exists(p2) else None
     if r2 and arm in r2['precision_at_10']:
         b = r2['precision_at_10'][arm]; y, n = a['yes'] + b['yes'], a['cards'] + b['cards']; plo, phi = wilson(y, n)
-        wide = ''
-        if unrated:
+        wide = ''; pw = os.path.join(OUT, 'wide_rate_result.json')
+        if unrated and os.path.exists(pw) and arm == 'KEV':
+            w = json.load(open(pw, encoding='utf-8')); q, rr = w['precision_at_10']['PAGE'], w['precision_at_10']['RERANK']
+            wlo, whi = q['wilson95']
+            wide = (f' The {unrated} documents with a note under their title were scored later through the cascade (the '
+                    'remaining documents, and any document whose text changed after it was scored). A third blind check '
+                    f'rated their suggestions afterwards: the AI rater judged {q["yes"]} of {q["cards"]} to state the case '
+                    f'({q["yes_share"]:.0%}, 95% interval {wlo:.0%} to {whi:.0%}), against {rr["yes"]} of {rr["cards"]} '
+                    f'for the reranker&rsquo;s own top 10 on the same documents (<code>stale/RESULT_wide_rate.md</code>).')
+        elif unrated:
             wide = (f' The {unrated} documents marked &ldquo;Not rated&rdquo; were scored later through the cascade (the '
                     'remaining documents, and any document whose text changed after it was scored); none of their '
                     'suggestions was rated (<code>stale/RESULT_missing_wide.md</code>).')
@@ -137,7 +167,7 @@ def build(arm=None):
     cid, cls = collections.defaultdict(collections.Counter), collections.defaultdict(collections.Counter)
     for r in all_points():
         cid[r['case_title']][r.get('case_id')] += 1; cls[r['case_title']][r.get('classification')] += 1
-    secs = []; unrated = 0; watch = missing_watch.current(arm)
+    secs = []; unrated = 0; watch = missing_watch.current(arm); R = rated_wide() if arm == 'KEV' else {}
     for docs, files, note in SOURCES:
         if arm not in files or not os.path.exists(os.path.join(OUT, files[arm])): continue
         p = os.path.join(OUT, files[arm])
@@ -157,12 +187,18 @@ def build(arm=None):
                 kept = sum(c in before for c in top)
                 nh = nh[:-len('</p>')] + (f' {kept} of these {len(top)} were in the top {TOP} before the change; the other '
                                           f'{len(top) - kept} are marked new.</p>')
+            rv = [R[(d['doc'], c, sc[c][1])] for c in top if (d['doc'], c, sc[c][1]) in R]
+            if rv and nh.startswith('<p class="sm note">Not rated. '):
+                who = f'these {len(top)}' if len(rv) == len(top) else f'the {len(rv)} of these {len(top)} it rated'
+                nh = nh.replace('Not rated. ', f'Rated afterwards, blind: an AI rater (a Claude model, not a person) judged '
+                                               f'{rv.count("YES")} of {who} to state the case. ', 1)
             if not english(d['pieces']):
                 nh += ('<p class="sm note">This archived text is not in English (by a simple word count); no policywatch '
                        'test checked Kev on text that is not in English.</p>')
             for k, c in enumerate(top, 1):
                 new = ' <span class="badge">new since the text changed</span>' if before is not None and c not in before else ''
                 s, i = sc[c]; t = d['pieces'][i]; n = 1600            # pieces are at most 1,500 characters: shown whole
+                if (d['doc'], c, i) in R: new += f' <span class="badge">{VERDICT[R[(d["doc"], c, i)]]}</span>'
                 case_id = cid[c].most_common(1)[0][0] if cid[c] else None
                 link = f' <a class="sm" href="https://edit.tosdr.org/cases/{esc(case_id)}">case {esc(case_id)}</a>' if case_id else ''
                 shown = f'p(yes) {s:.2f}' if arm == 'KEV' else f'score {s:.3g}'
