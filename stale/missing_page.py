@@ -130,6 +130,13 @@ def accuracy(arm, unrated=0):
                     f'rated their suggestions afterwards: the AI rater judged {q["yes"]} of {q["cards"]} to state the case '
                     f'({q["yes_share"]:.0%}, 95% interval {wlo:.0%} to {whi:.0%}), against {rr["yes"]} of {rr["cards"]} '
                     f'for the reranker&rsquo;s own top 10 on the same documents (<code>stale/RESULT_wide_rate.md</code>).')
+            pe = os.path.join(OUT, 'wide_rate_explore.json')
+            if os.path.exists(pe):
+                bk = json.load(open(pe, encoding='utf-8'))['by_kev_score']; hi = bk['0.9-1.0']
+                lo = [v for k, v in bk.items() if k != '0.9-1.0']
+                wide += (f' On those documents the p(yes) shown with each suggestion sorts them (exploratory): {hi["yes"]} of '
+                         f'the {hi["cards"]} at 0.90 or more were rated as stating the case, {sum(v["yes"] for v in lo)} of '
+                         f'the {sum(v["cards"] for v in lo)} below. Each rated suggestion carries the rater&rsquo;s verdict.')
         elif unrated:
             wide = (f' The {unrated} documents marked &ldquo;Not rated&rdquo; were scored later through the cascade (the '
                     'remaining documents, and any document whose text changed after it was scored); none of their '

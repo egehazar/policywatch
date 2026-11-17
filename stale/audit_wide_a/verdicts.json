@@ -1,946 +1,946 @@
 {
  "W001": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "States Twitch does not control or endorse linked Reference Sites and their use is solely at your own risk."
  },
  "W002": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About restricting or terminating a user's access for stated reasons, not the service stopping at any time."
  },
  "W003": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Indemnity covers claims related to breach of the terms, narrower than use of the service; no hold harmless."
  },
  "W004": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only headings on information sources (your activity, partners) without detail on how collection happens."
  },
  "W005": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists categories collected: network activity, photos, geolocation, employment, education, commercial info."
  },
  "W006": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Only covers information users provide directly; nothing about collection without direct interaction."
  },
  "W007": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"transfer and store your information outside your home country, including in the United States\"."
  },
  "W008": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Describes advertisers giving data to Pinterest, not Pinterest giving data to third parties."
  },
  "W009": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Licences end on account closure but continue after content removal in listed cases (reuse by others, legal duty)."
  },
  "W010": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Describes a single purpose (legal requests and law enforcement), not many purposes."
  },
  "W011": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Prohibits content that \"is obscene, pornographic or which promotes sexually explicit material\"."
  },
  "W012": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"categories of personal information we collect are used to provide our services, for personalization, for billing...\""
  },
  "W013": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About analytics and measurement, not checking identity information you provide."
  },
  "W014": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Technical protections, such as encryption and pseudonymisation\" used for data transfers."
  },
  "W015": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Voice message audio may be passed to Google LLC for speech-to-text transcription."
  },
  "W016": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About changes to the terms; the suspension section heading has no content."
  },
  "W017": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "States Reddit does not sell data, but it shares data with ad measurement partners unless you opt out."
  },
  "W018": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Nothing about minors or guardian consent."
  },
  "W019": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Sharing \"at your direction\" through social sharing features; no audience controls for content."
  },
  "W020": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Prohibitions on misuse; nothing about links to other websites."
  },
  "W021": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"may amend these Terms ... at any time\"; material amendments take effect after notice is sent."
  },
  "W022": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists phone number, email, survey answers, ID documents, profile info, address book, location."
  },
  "W023": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Licence is \"non-exclusive (this means you can still license your content to others)\"."
  },
  "W024": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Describes disabling frequent-contact suggestions and no ads from chat data; no targeted-ad opt-out."
  },
  "W025": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"The failure of either party to exercise ... any right ... shall not be deemed a waiver\"."
  },
  "W026": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"When you post content to the Platform, it remains yours.\""
  },
  "W027": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"This Privacy Notice does not apply to ... the tracking technologies and activities of Twitch Advertisers\"."
  },
  "W028": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "States the opposite: cookies are not used for profiling or advertising."
  },
  "W029": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Direct Marketing: ... sending marketing emails\" using profile and activity data, with profiling."
  },
  "W030": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Rights to access, rectify and erase personal information, exercised by email or form."
  },
  "W031": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Arbitration and severability; nothing about changes to terms."
  },
  "W032": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only implies direct marketing processing through the right to prevent it."
  },
  "W033": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Forms to request restriction or object to processing; not a complaint mechanism as such."
  },
  "W034": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Warranty disclaimer; no indemnification clause."
  },
  "W035": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "States security as a purpose of data use and points to a Security Help Center; no actual practices."
  },
  "W036": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Automated and human review to verify accounts and detect spam and security matters; generic purpose."
  },
  "W037": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Appoints EDPO as Art. 27 GDPR representative; implies GDPR applies but makes no compliance claim."
  },
  "W038": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Disclaims liability for user content, not for disputes between users."
  },
  "W039": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Shares data on government requests but will attempt prior notice where the law allows."
  },
  "W040": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"right to object to, and seek restriction of, such processing\"; objection upheld unless compelling grounds."
  },
  "W041": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Describes concrete measures: account verification, anti-scraping, account-takeover prevention, trusted device checks."
  },
  "W042": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"release, indemnify, and defend Quora Entities from all third-party claims ... related to: (1) your use\"."
  },
  "W043": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Depending on the violation may \"permanently suspend your account; or delete your account\"."
  },
  "W044": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Table of categories collected: identifiers such as name, username, phone, email, IP, device IDs."
  },
  "W045": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Third-party login platforms and \"technical service partners ... partners that help us power the ads\"."
  },
  "W046": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Names X Corp. as the contracting party; no parent company or subsidiary relationship stated."
  },
  "W047": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Prohibits collecting personal information about others without consent, not publishing it."
  },
  "W048": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Glossary defines pixel tags in emails but does not say the service uses them in its emails."
  },
  "W049": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Says sensitive personal information is not used or disclosed except to provide the Services."
  },
  "W050": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists identifiers, hashed email and phone, IP, device info, purchase, viewing, search and location history."
  },
  "W051": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Lists information categories used; no access, correction or deletion rights."
  },
  "W052": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Lists uses, security and retention; nothing on how data is collected."
  },
  "W053": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Section for California residents \"organized in accordance with the California Consumer Privacy Act\"."
  },
  "W054": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We collect Information You Provide if you choose to participate in a survey, research, promotion, contest\"."
  },
  "W055": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Mentions sending promotional communications, not collecting data through promotions."
  },
  "W056": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Describes data received from partners and legal bases; no disclosure to third parties."
  },
  "W057": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "May \"remove or disable access to any User Content for any or no reason\", but that is removal, not editing."
  },
  "W058": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "GPS location can be shared with content, precise by default for adults."
  },
  "W059": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"If you break them, we can take action against you which may include terminating your account.\""
  },
  "W060": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Public content visible, indexed by search engines and AI chatbots; \"take the public nature ... into consideration before posting\"."
  },
  "W061": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"you irrevocably waive ... any moral rights or equivalent rights\"."
  },
  "W062": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists uses: personalize experience, improve site, improve customer service, send periodic emails."
  },
  "W063": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Applies automated and human review to \"Verify accounts, identity and activity\"."
  },
  "W064": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"you must comply with the Spotify User Guidelines and the Platform Rules\"."
  },
  "W065": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Disclaims responsibility for content; nothing on disputes between users."
  },
  "W066": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Notice of material changes by email or pop-up, but no 30-day advance period."
  },
  "W067": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "No warranty that the Services will be error-free; nothing about correcting errors."
  },
  "W068": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "\"To use certain Services, you need to create an account\", not the whole service."
  },
  "W069": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Subject to Community Guidelines, Terms of Sale and additional guidelines incorporated by reference."
  },
  "W070": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Licence is \"sub-licensable (this means we can license your content to others...)\"."
  },
  "W071": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Lists information you provide and information collected as you use services; little on how."
  },
  "W072": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Business messages may be read by business staff and third-party providers possibly incl. Meta; not service staff generally."
  },
  "W073": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Geolocation data, such as approximate location data ... infer general location from your IP address\"."
  },
  "W074": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Date of last update: July 31, 2026\"."
  },
  "W075": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Processing includes \"profiling, ... automated processing\" and curating AI at Meta."
  },
  "W076": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"at your own risk ... PROVIDED TO YOU ON AN AS IS AND AS AVAILABLE BASIS\"."
  },
  "W077": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "General audience; minors need guardian consent; age restrictions only on certain services."
  },
  "W078": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Contact for \"complaints or requests regarding your information\" and right to complain to the Irish DPC."
  },
  "W079": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Licence to distribute globally shared content \"in any media or distribution methods\"."
  },
  "W080": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About licences you apply (e.g. Creative Commons), not the company licensing content to third parties."
  },
  "W081": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "May update at any time, but notifies before updates affecting rights, except security or legal ones."
  },
  "W082": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only says the same information may be processed for different purposes; details follow elsewhere."
  },
  "W083": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"you will be bound by them if you continue to access or use our Products\"."
  },
  "W084": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Transfers to subcontractors and group companies abroad; nothing on staff accessing private content."
  },
  "W085": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Sharing with partners at your request; no confidentiality obligations mentioned."
  },
  "W086": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "May remove infringing content and \"suspend or terminate accounts of users who repeatedly or seriously infringe\"."
  },
  "W087": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Says data comes from different sources incl. cookies on partner sites; overview only."
  },
  "W088": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You agree to notify the company immediately if you suspect your account has been compromised.\""
  },
  "W089": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Shares data \"externally with our partners, third parties and service providers\" to operate the services."
  },
  "W090": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Collects device data from guests browsing without an account, but they still interact directly."
  },
  "W091": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Prohibits activities illegal in most countries, naming child abuse (Kindesmissbrauch)."
  },
  "W092": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "May \"restrict, suspend, or close your account ... if ... you've broken any rule in these terms\"."
  },
  "W093": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only a table-of-contents entry announcing the purposes of processing."
  },
  "W094": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Retains information \"to comply with contractual and legal obligations, when we have a legitimate business interest\"."
  },
  "W095": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You can choose to stop receiving promotional text messages (SMS)\", reply STOP."
  },
  "W096": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "You can set your browser to reject \"first- and third-party cookies\" and update cookie preferences."
  },
  "W097": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Liability limited to the maximum extent permitted by law; no cap tied to fees paid."
  },
  "W098": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "No guarantee of software \"suitability for a particular purpose\"; software only."
  },
  "W099": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Says chat contents and contacts are not used for targeted ads or commercial purposes."
  },
  "W100": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Coins will not be refunded for any reason whatsoever\" except where required by law."
  },
  "W101": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Sharing with an advertiser at your direction; nothing about collecting data via promotions."
  },
  "W102": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "No liability for User Content or resulting loss or damage; narrower than any damages."
  },
  "W103": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About data use for legal advice and litigation, not security practices."
  },
  "W104": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Lists legal bases incl. legal obligation and legitimate interests for processing, not retention."
  },
  "W105": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"right to access and correct your information\" and to request that \"we erase your information\"."
  },
  "W106": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Stores and preserves information to meet legal obligations; keeps GDPR request correspondence two years."
  },
  "W107": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Collects personal data from Partners and from photos other users upload."
  },
  "W108": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "May terminate or suspend \"if you breach any of the terms or conditions of this Agreement\"."
  },
  "W109": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists engagement data, AI prompts, member content, IP, device ID, location data, inferences."
  },
  "W110": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Content \"including anything referenced therein\" is the poster's responsibility; links not explicit."
  },
  "W111": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Liability capped at \"the amount of the Charges for paid Services (equivalent to one month's fees)\"."
  },
  "W112": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Mostly what is collected; only the use of address-book numbers is described."
  },
  "W113": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Uses partner data to personalize ads; nothing about sensitive data."
  },
  "W114": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Each time you share you can allow friends of friends or the discovery feed; can block or hide users."
  },
  "W115": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "If you violate the Terms \"we may restrict the use of the Services, such as by deleting the Submitted Contents\"."
  },
  "W116": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "May block access \"for any reason, including ... if your use of the Twitch Services violates these Terms\"."
  },
  "W117": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"share your data with third-party service providers and processors\" incl. cloud, CDN, support, payment providers."
  },
  "W118": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You can unsubscribe from our promotional emails\" and opt out of promotional texts."
  },
  "W119": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Must abide by Spotify User Guidelines and Platform Rules and other applicable terms."
  },
  "W120": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Disclaims fitness for a particular purpose and error-free service; \"meet your requirements\" not stated."
  },
  "W121": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Shares with \"partners, third parties and service providers\" to operate; does not show many."
  },
  "W122": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Prohibits only illegal pornographic content on public channels and bots."
  },
  "W123": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You can only use the Platform if you are 13 years or older\"."
  },
  "W124": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"through any medium ... by any means, method or technology, whether now known or hereafter created\"."
  },
  "W125": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"The privacy practices of those third parties are not governed by this Privacy Notice.\""
  },
  "W126": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Partner data used for ads; nothing about third-party cookies for statistics."
  },
  "W127": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Providers must use data \"in accordance with our instructions and terms\"; confidentiality not stated."
  },
  "W128": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Retains data to comply with legal obligations, resolve disputes, prevent fraud; tax records kept after deletion."
  },
  "W129": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Describes communications and data used; no sharing with non-essential third parties."
  },
  "W130": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About changing service offerings without notice, not changing the terms."
  },
  "W131": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "In a merger, sale of assets or bankruptcy \"BeReal may share, sell or transfer information about you\"."
  },
  "W132": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Services may change without notice; material term changes get reasonable advance notice."
  },
  "W133": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only says it does not knowingly sell personal information of consumers under 16."
  },
  "W134": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Discloses data to \"Advertising and measurement partners\"; activities may count as targeted advertising."
  },
  "W135": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Last updated: 30 November 2025\"."
  },
  "W136": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Third-party contractors keep info confidential; nothing about staff accessing private content."
  },
  "W137": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We don't make guarantees about the quality, security or availability of the services\"."
  },
  "W138": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Data used for services, personalization, billing, advertising, promotion, communications, analysis, legal compliance."
  },
  "W139": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Warranty disclaimer; no defend or indemnify clause."
  },
  "W140": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"NO WARRANTY THAT ... THE QUORA PLATFORM WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE\"."
  },
  "W141": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Shares with Third-Party Service Providers and data centers to operate; \"many\" not shown."
  },
  "W142": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"responsible for all action taken using your account\" and must keep the password secret."
  },
  "W143": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You accept all risk ... provide the forum as is, without any warranty whatsoever.\""
  },
  "W144": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Data from advertising partners, vendors, publishers and customers' tags on third-party sites."
  },
  "W145": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "\"Where we use your data for direct marketing ... you always have the right to object\"; conditional."
  },
  "W146": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You, or your licensors ... retain ownership of the copyright and other intellectual property in Your Content\"."
  },
  "W147": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Any permanent termination results in a ban from creating a new account.\""
  },
  "W148": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Rights to request a copy of personal information (access) and correction."
  },
  "W149": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "No warranty of error-free service; nothing about correcting errors."
  },
  "W150": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Transfers data to \"partners, service providers, vendors\", \"necessary and essential to provide our Products\"."
  },
  "W151": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Feedback used \"without restriction and without payment\"; feedback is User Content, whose ownership you retain."
  },
  "W152": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Shares \"aggregate statistics, metrics, and reports\" with advertisers and aggregated information for research."
  },
  "W153": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Provides partners with \"statistical information\" prepared by combining personal data."
  },
  "W154": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"reserves the right to modify these Terms of Service ... by providing notice to you\"."
  },
  "W155": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Collects IP, device and username-change metadata to improve account security, kept at most 12 months."
  },
  "W156": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Telegram not liable for sanctions or fees arising from the giveaway feature only."
  },
  "W157": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "No guarantee of accuracy or reliability of Content; not the quality of the service itself."
  },
  "W158": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"trusted third parties who assist us in operating our site, conducting our business, or servicing you\"."
  },
  "W159": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Uses information to ensure stability and security; a generic purpose, not practices."
  },
  "W160": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"IP address (from which approximate or 'coarse' location may be inferred)\"."
  },
  "W161": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You own the content you share through our services\"."
  },
  "W162": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Processes data for legitimate interests: providing services and fighting fraud and security issues."
  },
  "W163": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Settings to limit sharing of certain information with other users; marketing choices only where required."
  },
  "W164": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Termination for good cause, \"specifically if a party violates obligations under these Terms\"."
  },
  "W165": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About ads and Meta not sharing identifying info; no user prohibition on publishing others' PII."
  },
  "W166": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Twitch is not in the business of selling our users' personal information to others.\""
  },
  "W167": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Licence includes adaptation and translation, plus deletion for business reasons; not editing for any reason."
  },
  "W168": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only EU users must be at least 18 to register."
  },
  "W169": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "May amend at any time in sole discretion; notice is given only for material terms."
  },
  "W170": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Prohibits submitting \"sexually explicit expressions, expressions corresponding to child pornography\"."
  },
  "W171": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Describes AI processing for adult users; no minimum age for using the service."
  },
  "W172": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Contact details received from friends using the app and a section on information provided by third parties."
  },
  "W173": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "\"We can restrict or terminate your access to the Services at any time\"; access, not the service itself."
  },
  "W174": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "No refund of amounts already paid upon termination or suspension, except as provided."
  },
  "W175": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Describes types of providers (telecom, content safety) and locations, not a named list."
  },
  "W176": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Last updated: November 3, 2026\"."
  },
  "W177": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Automated and human review \"to verify accounts and activity\"; identity information not specified."
  },
  "W178": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Relies on adequacy decisions, DPF and SCCs for EEA transfers; no general compliance claim."
  },
  "W179": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "EU and US joint controllers implies US processing only weakly; no transfer statement."
  },
  "W180": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"opt out of future direct marketing messages using the unsubscribe link\"."
  },
  "W181": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "No guarantee only that Premium improves download speed."
  },
  "W182": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Legal basis (legitimate interests) for processing, not how data is collected."
  },
  "W183": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "May delete content without prior notice, but for violations or when reasonably required for business."
  },
  "W184": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Cookies from the site or its service provider compile aggregate traffic data with third-party providers' help."
  },
  "W185": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"other additional terms and policies which may apply to you\", plus Germany and UK provisions."
  },
  "W186": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Refers to users you decide to share information with; no content audience controls described."
  },
  "W187": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Licence granted \"free of charge and non-exclusively\"."
  },
  "W188": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About fees and account creation; no content licensing."
  },
  "W189": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "May restrict use of certain features for a limited period after breaches; not throttling as such."
  },
  "W190": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Processing to verify accounts and detect harmful behavior; generic security purposes."
  },
  "W191": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Third-party providers help understand visitors on the site's behalf; not data from third parties about you."
  },
  "W192": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Confirms binding arbitration for all disputes, with only small-claims and IP exceptions."
  },
  "W193": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Implies others use content under the licence, which continues until they delete it."
  },
  "W194": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Texas law and courts; nothing about privacy-friendly jurisdiction."
  },
  "W195": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Broad as-is disclaimer; accuracy or reliability of information not specifically named."
  },
  "W196": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Shares information \"externally with our partners, measurement vendors, service providers and other third parties\" to operate."
  },
  "W197": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Promises at least 30 days' notice before changes."
  },
  "W198": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Requires binding individual arbitration (or small claims court)."
  },
  "W199": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Feature restrictions for breaches with notice and review; not deletion without reason."
  },
  "W200": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Automatically processes profile data for AI features and Hiring Assistant candidate matching."
  },
  "W201": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You may receive marketing messages about the Platform and third party products\" using your information."
  },
  "W202": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"non-exclusive, transferable, sub-licensable ... license\", shared with service providers."
  },
  "W203": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Personal, non-transferable licence and no use for unauthorised third parties; non-commercial not stated."
  },
  "W204": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"you must not use the Platform to: do anything illegal\"."
  },
  "W205": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Suspension depending on nature and severity of violations; no reasons beyond violations."
  },
  "W206": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "\"Keep your password secure ... notify us immediately of any unauthorised access\"; responsibility for activities missing."
  },
  "W207": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We retain user information for as long as reasonably necessary to fulfill the purpose\"."
  },
  "W208": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "May block access for any reason incl. ToS violations, fraud, technical or business reasons."
  },
  "W209": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"we may need to keep processing your information for certain legitimate interests or to comply with a legal obligation\"."
  },
  "W210": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"responsible for maintaining the confidentiality of your Account password and for the security of your Account\"."
  },
  "W211": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Logs activity to detect security threats, hacks, scraping, fake accounts; verifies provided information."
  },
  "W212": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Uses data received from third parties \"to display personalised advertisements\"."
  },
  "W213": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About ad personalization; nothing about opting out of promotional communications."
  },
  "W214": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"may access, review, screen and delete your content at any time and for any reason\"; \"rights to change and remove your content\"."
  },
  "W215": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "You can delete your account \"at any time\" and stop using the Products."
  },
  "W216": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Prohibits content \"that causes physical, mental or moral damage to minors\"."
  },
  "W217": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About Premium app versions and transcription; nothing about notice of term changes."
  },
  "W218": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Names several third-party sources (login platforms, technical partners, ad partners); \"many\" not shown."
  },
  "W219": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"this license to your User Content continues even if you stop using the Services\"."
  },
  "W220": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Does not tolerate child sexual exploitation; narrower than harming minors in any way."
  },
  "W221": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We collect your information in three ways: Information You Provide, Automatically Collected Information, and ... Other Sources\"."
  },
  "W222": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Feedback used without compensation, but the service owns what it develops; ownership of the feedback not addressed."
  },
  "W223": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Uses \"similar technologies for ads\" for optional features; third-party cookies not stated."
  },
  "W224": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Collects information from organisations, public sources, authorities, and when mentioned in content or complaints."
  },
  "W225": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You can unsubscribe from our promotional emails at any time\"."
  },
  "W226": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Reserves right to change these terms and fees, with at least 30 days' notice of material changes."
  },
  "W227": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Lists general activity and device data; no sensitive data or ad sharing."
  },
  "W228": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Not liable for damages from \"unauthorised access, use or alteration of your transmissions or content\"."
  },
  "W229": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Right to \"Lodge a complaint with your local data protection authority\" and to appeal decisions."
  },
  "W230": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Minors may only use the service \"under the supervision of a parent or legal guardian who agrees to be bound\"."
  },
  "W231": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Stop promotional materials via account settings or the \"unsubscribe\" instructions."
  },
  "W232": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists name, voice, image, content, chats, email, address, phone, date of birth, card and billing info."
  },
  "W233": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Relies on GDPR Art. 49 and SCCs for transfers; no general compliance claim."
  },
  "W234": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Collects personal info \"in a variety of ways, including when you register ..., sign up for communications, or make any purchases\"."
  },
  "W235": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"you grant us a non-exclusive, transferable, sub-licensable, and worldwide license\"."
  },
  "W236": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About inactivity deletion and trademarks; no copyright claim instructions."
  }
 }

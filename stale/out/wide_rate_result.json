@@ -1,0 +1,850 @@
+{
+ "random_yes": 1,
+ "random_n": 20,
+ "valid": true,
+ "precision_at_10": {
+  "PAGE": {
+   "cards": 280,
+   "yes": 190,
+   "yes_share": 0.679,
+   "wilson95": [
+    0.622,
+    0.731
+   ],
+   "yes_or_partly_share": 0.939
+  },
+  "RERANK": {
+   "cards": 280,
+   "yes": 150,
+   "yes_share": 0.536,
+   "wilson95": [
+    0.477,
+    0.593
+   ],
+   "yes_or_partly_share": 0.821
+  }
+ },
+ "PAGE_minus_RERANK": {
+  "documents": 28,
+  "point": 0.143,
+  "ci95": [
+   0.075,
+   0.211
+  ]
+ },
+ "reading_page": "in the predicted range",
+ "reading_compare": "PAGE better",
+ "by_run": {
+  "missing_wide": {
+   "PAGE": {
+    "cards": 200,
+    "yes": 129,
+    "yes_share": 0.645,
+    "wilson95": [
+     0.577,
+     0.708
+    ],
+    "yes_or_partly_share": 0.92
+   },
+   "RERANK": {
+    "cards": 200,
+    "yes": 101,
+    "yes_share": 0.505,
+    "wilson95": [
+     0.436,
+     0.574
+    ],
+    "yes_or_partly_share": 0.8
+   }
+  },
+  "missing_rest": {
+   "PAGE": {
+    "cards": 60,
+    "yes": 49,
+    "yes_share": 0.817,
+    "wilson95": [
+     0.701,
+     0.894
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 60,
+    "yes": 40,
+    "yes_share": 0.667,
+    "wilson95": [
+     0.541,
+     0.773
+    ],
+    "yes_or_partly_share": 0.917
+   }
+  },
+  "missing_watch": {
+   "PAGE": {
+    "cards": 20,
+    "yes": 12,
+    "yes_share": 0.6,
+    "wilson95": [
+     0.387,
+     0.781
+    ],
+    "yes_or_partly_share": 0.95
+   },
+   "RERANK": {
+    "cards": 20,
+    "yes": 9,
+    "yes_share": 0.45,
+    "wilson95": [
+     0.258,
+     0.658
+    ],
+    "yes_or_partly_share": 0.75
+   }
+  }
+ },
+ "english_only": {
+  "PAGE": {
+   "cards": 260,
+   "yes": 177,
+   "yes_share": 0.681,
+   "wilson95": [
+    0.622,
+    0.734
+   ],
+   "yes_or_partly_share": 0.938
+  },
+  "RERANK": {
+   "cards": 260,
+   "yes": 141,
+   "yes_share": 0.542,
+   "wilson95": [
+    0.482,
+    0.602
+   ],
+   "yes_or_partly_share": 0.819
+  },
+  "PAGE_minus_RERANK": {
+   "documents": 26,
+   "point": 0.138,
+   "ci95": [
+    0.069,
+    0.204
+   ]
+  }
+ },
+ "by_rank": {
+  "PAGE": {
+   "1-5": {
+    "cards": 140,
+    "yes": 108,
+    "yes_share": 0.771,
+    "wilson95": [
+     0.695,
+     0.833
+    ],
+    "yes_or_partly_share": 0.979
+   },
+   "6-10": {
+    "cards": 140,
+    "yes": 82,
+    "yes_share": 0.586,
+    "wilson95": [
+     0.503,
+     0.664
+    ],
+    "yes_or_partly_share": 0.9
+   }
+  },
+  "RERANK": {
+   "1-5": {
+    "cards": 140,
+    "yes": 81,
+    "yes_share": 0.579,
+    "wilson95": [
+     0.496,
+     0.657
+    ],
+    "yes_or_partly_share": 0.857
+   },
+   "6-10": {
+    "cards": 140,
+    "yes": 69,
+    "yes_share": 0.493,
+    "wilson95": [
+     0.411,
+     0.575
+    ],
+    "yes_or_partly_share": 0.786
+   }
+  }
+ },
+ "by_doc": {
+  "BeReal/Privacy Policy.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 8,
+    "yes_share": 0.8,
+    "wilson95": [
+     0.49,
+     0.943
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 9,
+    "yes_share": 0.9,
+    "wilson95": [
+     0.596,
+     0.982
+    ],
+    "yes_or_partly_share": 0.9
+   }
+  },
+  "BeReal/Terms of Service.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 7,
+    "yes_share": 0.7,
+    "wilson95": [
+     0.397,
+     0.892
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 8,
+    "yes_share": 0.8,
+    "wilson95": [
+     0.49,
+     0.943
+    ],
+    "yes_or_partly_share": 0.9
+   }
+  },
+  "Facebook/Privacy Policy.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 7,
+    "yes_share": 0.7,
+    "wilson95": [
+     0.397,
+     0.892
+    ],
+    "yes_or_partly_share": 0.9
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 2,
+    "yes_share": 0.2,
+    "wilson95": [
+     0.057,
+     0.51
+    ],
+    "yes_or_partly_share": 0.5
+   }
+  },
+  "Facebook/Terms of Service.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 7,
+    "yes_share": 0.7,
+    "wilson95": [
+     0.397,
+     0.892
+    ],
+    "yes_or_partly_share": 0.9
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 3,
+    "yes_share": 0.3,
+    "wilson95": [
+     0.108,
+     0.603
+    ],
+    "yes_or_partly_share": 0.5
+   }
+  },
+  "Instagram/Privacy Policy.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 3,
+    "yes_share": 0.3,
+    "wilson95": [
+     0.108,
+     0.603
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 3,
+    "yes_share": 0.3,
+    "wilson95": [
+     0.108,
+     0.603
+    ],
+    "yes_or_partly_share": 0.7
+   }
+  },
+  "LINE/Privacy Policy.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 8,
+    "yes_share": 0.8,
+    "wilson95": [
+     0.49,
+     0.943
+    ],
+    "yes_or_partly_share": 0.8
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 7,
+    "yes_share": 0.7,
+    "wilson95": [
+     0.397,
+     0.892
+    ],
+    "yes_or_partly_share": 1.0
+   }
+  },
+  "LINE/Terms of Service.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 9,
+    "yes_share": 0.9,
+    "wilson95": [
+     0.596,
+     0.982
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 6,
+    "yes_share": 0.6,
+    "wilson95": [
+     0.313,
+     0.832
+    ],
+    "yes_or_partly_share": 1.0
+   }
+  },
+  "LinkedIn/Privacy Policy.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 9,
+    "yes_share": 0.9,
+    "wilson95": [
+     0.596,
+     0.982
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 6,
+    "yes_share": 0.6,
+    "wilson95": [
+     0.313,
+     0.832
+    ],
+    "yes_or_partly_share": 0.8
+   }
+  },
+  "Mastodon/Privacy Policy.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 6,
+    "yes_share": 0.6,
+    "wilson95": [
+     0.313,
+     0.832
+    ],
+    "yes_or_partly_share": 0.7
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 6,
+    "yes_share": 0.6,
+    "wilson95": [
+     0.313,
+     0.832
+    ],
+    "yes_or_partly_share": 0.8
+   }
+  },
+  "Mastodon/Terms of Service.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 8,
+    "yes_share": 0.8,
+    "wilson95": [
+     0.49,
+     0.943
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 4,
+    "yes_share": 0.4,
+    "wilson95": [
+     0.168,
+     0.687
+    ],
+    "yes_or_partly_share": 0.8
+   }
+  },
+  "Parler/Privacy Policy.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 6,
+    "yes_share": 0.6,
+    "wilson95": [
+     0.313,
+     0.832
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 8,
+    "yes_share": 0.8,
+    "wilson95": [
+     0.49,
+     0.943
+    ],
+    "yes_or_partly_share": 1.0
+   }
+  },
+  "Pinterest/Privacy Policy.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 6,
+    "yes_share": 0.6,
+    "wilson95": [
+     0.313,
+     0.832
+    ],
+    "yes_or_partly_share": 0.9
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 6,
+    "yes_share": 0.6,
+    "wilson95": [
+     0.313,
+     0.832
+    ],
+    "yes_or_partly_share": 0.8
+   }
+  },
+  "Pinterest/Terms of Service.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 6,
+    "yes_share": 0.6,
+    "wilson95": [
+     0.313,
+     0.832
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 3,
+    "yes_share": 0.3,
+    "wilson95": [
+     0.108,
+     0.603
+    ],
+    "yes_or_partly_share": 0.7
+   }
+  },
+  "Quora/Privacy Policy.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 10,
+    "yes_share": 1.0,
+    "wilson95": [
+     0.722,
+     1.0
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 8,
+    "yes_share": 0.8,
+    "wilson95": [
+     0.49,
+     0.943
+    ],
+    "yes_or_partly_share": 1.0
+   }
+  },
+  "Quora/Terms of Service.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 9,
+    "yes_share": 0.9,
+    "wilson95": [
+     0.596,
+     0.982
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 7,
+    "yes_share": 0.7,
+    "wilson95": [
+     0.397,
+     0.892
+    ],
+    "yes_or_partly_share": 0.9
+   }
+  },
+  "Reddit/Privacy Policy.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 5,
+    "yes_share": 0.5,
+    "wilson95": [
+     0.237,
+     0.763
+    ],
+    "yes_or_partly_share": 0.9
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 2,
+    "yes_share": 0.2,
+    "wilson95": [
+     0.057,
+     0.51
+    ],
+    "yes_or_partly_share": 0.7
+   }
+  },
+  "Snapchat/Terms of Service.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 4,
+    "yes_share": 0.4,
+    "wilson95": [
+     0.168,
+     0.687
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 4,
+    "yes_share": 0.4,
+    "wilson95": [
+     0.168,
+     0.687
+    ],
+    "yes_or_partly_share": 0.8
+   }
+  },
+  "Spotify/Terms of Service.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 4,
+    "yes_share": 0.4,
+    "wilson95": [
+     0.168,
+     0.687
+    ],
+    "yes_or_partly_share": 0.9
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 3,
+    "yes_share": 0.3,
+    "wilson95": [
+     0.108,
+     0.603
+    ],
+    "yes_or_partly_share": 0.9
+   }
+  },
+  "Telegram/Privacy Policy.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 7,
+    "yes_share": 0.7,
+    "wilson95": [
+     0.397,
+     0.892
+    ],
+    "yes_or_partly_share": 0.9
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 4,
+    "yes_share": 0.4,
+    "wilson95": [
+     0.168,
+     0.687
+    ],
+    "yes_or_partly_share": 0.7
+   }
+  },
+  "Telegram/Terms of Service.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 6,
+    "yes_share": 0.6,
+    "wilson95": [
+     0.313,
+     0.832
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 5,
+    "yes_share": 0.5,
+    "wilson95": [
+     0.237,
+     0.763
+    ],
+    "yes_or_partly_share": 1.0
+   }
+  },
+  "TikTok/Privacy Policy.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 8,
+    "yes_share": 0.8,
+    "wilson95": [
+     0.49,
+     0.943
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 7,
+    "yes_share": 0.7,
+    "wilson95": [
+     0.397,
+     0.892
+    ],
+    "yes_or_partly_share": 1.0
+   }
+  },
+  "TikTok/Terms of Service.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 10,
+    "yes_share": 1.0,
+    "wilson95": [
+     0.722,
+     1.0
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 6,
+    "yes_share": 0.6,
+    "wilson95": [
+     0.313,
+     0.832
+    ],
+    "yes_or_partly_share": 0.9
+   }
+  },
+  "Tumblr/Terms of Service.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 10,
+    "yes_share": 1.0,
+    "wilson95": [
+     0.722,
+     1.0
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 9,
+    "yes_share": 0.9,
+    "wilson95": [
+     0.596,
+     0.982
+    ],
+    "yes_or_partly_share": 0.9
+   }
+  },
+  "Twitch/Privacy Policy.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 10,
+    "yes_share": 1.0,
+    "wilson95": [
+     0.722,
+     1.0
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 8,
+    "yes_share": 0.8,
+    "wilson95": [
+     0.49,
+     0.943
+    ],
+    "yes_or_partly_share": 1.0
+   }
+  },
+  "Twitch/Terms of Service.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 8,
+    "yes_share": 0.8,
+    "wilson95": [
+     0.49,
+     0.943
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 7,
+    "yes_share": 0.7,
+    "wilson95": [
+     0.397,
+     0.892
+    ],
+    "yes_or_partly_share": 1.0
+   }
+  },
+  "WhatsApp/Privacy Policy.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 4,
+    "yes_share": 0.4,
+    "wilson95": [
+     0.168,
+     0.687
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 4,
+    "yes_share": 0.4,
+    "wilson95": [
+     0.168,
+     0.687
+    ],
+    "yes_or_partly_share": 0.7
+   }
+  },
+  "X/Terms of Service.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 2,
+    "yes_share": 0.2,
+    "wilson95": [
+     0.057,
+     0.51
+    ],
+    "yes_or_partly_share": 0.7
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 2,
+    "yes_share": 0.2,
+    "wilson95": [
+     0.057,
+     0.51
+    ],
+    "yes_or_partly_share": 0.5
+   }
+  },
+  "YouTube/Privacy Policy.md": {
+   "PAGE": {
+    "cards": 10,
+    "yes": 3,
+    "yes_share": 0.3,
+    "wilson95": [
+     0.108,
+     0.603
+    ],
+    "yes_or_partly_share": 0.7
+   },
+   "RERANK": {
+    "cards": 10,
+    "yes": 3,
+    "yes_share": 0.3,
+    "wilson95": [
+     0.108,
+     0.603
+    ],
+    "yes_or_partly_share": 0.6
+   }
+  }
+ },
+ "by_folder": {
+  "a": {
+   "PAGE": {
+    "cards": 137,
+    "yes": 92,
+    "yes_share": 0.672,
+    "wilson95": [
+     0.589,
+     0.745
+    ],
+    "yes_or_partly_share": 0.934
+   },
+   "RERANK": {
+    "cards": 142,
+    "yes": 70,
+    "yes_share": 0.493,
+    "wilson95": [
+     0.412,
+     0.574
+    ],
+    "yes_or_partly_share": 0.768
+   }
+  },
+  "b": {
+   "PAGE": {
+    "cards": 143,
+    "yes": 98,
+    "yes_share": 0.685,
+    "wilson95": [
+     0.605,
+     0.756
+    ],
+    "yes_or_partly_share": 0.944
+   },
+   "RERANK": {
+    "cards": 138,
+    "yes": 80,
+    "yes_share": 0.58,
+    "wilson95": [
+     0.496,
+     0.659
+    ],
+    "yes_or_partly_share": 0.877
+   }
+  }
+ },
+ "verdict_counts": {
+  "YES": 252,
+  "NO": 79,
+  "PARTLY": 140
+ }
+}

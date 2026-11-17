@@ -1,0 +1,208 @@
+{
+ "by_kev_score": {
+  "0.0-0.5": {
+   "cards": 3,
+   "yes": 0,
+   "wilson95": [
+    0.0,
+    0.562
+   ]
+  },
+  "0.5-0.7": {
+   "cards": 11,
+   "yes": 2,
+   "wilson95": [
+    0.051,
+    0.477
+   ]
+  },
+  "0.7-0.9": {
+   "cards": 96,
+   "yes": 44,
+   "wilson95": [
+    0.362,
+    0.558
+   ]
+  },
+  "0.9-1.0": {
+   "cards": 170,
+   "yes": 144,
+   "wilson95": [
+    0.785,
+    0.893
+   ]
+  }
+ },
+ "by_doc": [
+  {
+   "doc": "BeReal/Privacy Policy.md",
+   "page_yes": 8,
+   "known_positives": 0,
+   "candidates": 56
+  },
+  {
+   "doc": "BeReal/Terms of Service.md",
+   "page_yes": 7,
+   "known_positives": 0,
+   "candidates": 64
+  },
+  {
+   "doc": "Facebook/Privacy Policy.md",
+   "page_yes": 7,
+   "known_positives": 19,
+   "candidates": 28
+  },
+  {
+   "doc": "Facebook/Terms of Service.md",
+   "page_yes": 7,
+   "known_positives": 4,
+   "candidates": 62
+  },
+  {
+   "doc": "Instagram/Privacy Policy.md",
+   "page_yes": 3,
+   "known_positives": 1,
+   "candidates": 26
+  },
+  {
+   "doc": "LINE/Privacy Policy.md",
+   "page_yes": 8,
+   "known_positives": 9,
+   "candidates": 42
+  },
+  {
+   "doc": "LINE/Terms of Service.md",
+   "page_yes": 9,
+   "known_positives": 0,
+   "candidates": 75
+  },
+  {
+   "doc": "LinkedIn/Privacy Policy.md",
+   "page_yes": 9,
+   "known_positives": 0,
+   "candidates": 56
+  },
+  {
+   "doc": "Mastodon/Privacy Policy.md",
+   "page_yes": 6,
+   "known_positives": 4,
+   "candidates": 56
+  },
+  {
+   "doc": "Mastodon/Terms of Service.md",
+   "page_yes": 8,
+   "known_positives": 0,
+   "candidates": 72
+  },
+  {
+   "doc": "Parler/Privacy Policy.md",
+   "page_yes": 6,
+   "known_positives": 1,
+   "candidates": 61
+  },
+  {
+   "doc": "Pinterest/Privacy Policy.md",
+   "page_yes": 6,
+   "known_positives": 19,
+   "candidates": 26
+  },
+  {
+   "doc": "Pinterest/Terms of Service.md",
+   "page_yes": 6,
+   "known_positives": 29,
+   "candidates": 37
+  },
+  {
+   "doc": "Quora/Privacy Policy.md",
+   "page_yes": 10,
+   "known_positives": 1,
+   "candidates": 47
+  },
+  {
+   "doc": "Quora/Terms of Service.md",
+   "page_yes": 9,
+   "known_positives": 5,
+   "candidates": 66
+  },
+  {
+   "doc": "Reddit/Privacy Policy.md",
+   "page_yes": 5,
+   "known_positives": 41,
+   "candidates": 24
+  },
+  {
+   "doc": "Snapchat/Terms of Service.md",
+   "page_yes": 4,
+   "known_positives": 46,
+   "candidates": 37
+  },
+  {
+   "doc": "Spotify/Terms of Service.md",
+   "page_yes": 4,
+   "known_positives": 40,
+   "candidates": 43
+  },
+  {
+   "doc": "Telegram/Privacy Policy.md",
+   "page_yes": 7,
+   "known_positives": 0,
+   "candidates": 62
+  },
+  {
+   "doc": "Telegram/Terms of Service.md",
+   "page_yes": 6,
+   "known_positives": 0,
+   "candidates": 82
+  },
+  {
+   "doc": "TikTok/Privacy Policy.md",
+   "page_yes": 8,
+   "known_positives": 0,
+   "candidates": 40
+  },
+  {
+   "doc": "TikTok/Terms of Service.md",
+   "page_yes": 10,
+   "known_positives": 0,
+   "candidates": 71
+  },
+  {
+   "doc": "Tumblr/Terms of Service.md",
+   "page_yes": 10,
+   "known_positives": 7,
+   "candidates": 71
+  },
+  {
+   "doc": "Twitch/Privacy Policy.md",
+   "page_yes": 10,
+   "known_positives": 0,
+   "candidates": 58
+  },
+  {
+   "doc": "Twitch/Terms of Service.md",
+   "page_yes": 8,
+   "known_positives": 26,
+   "candidates": 50
+  },
+  {
+   "doc": "WhatsApp/Privacy Policy.md",
+   "page_yes": 4,
+   "known_positives": 3,
+   "candidates": 35
+  },
+  {
+   "doc": "X/Terms of Service.md",
+   "page_yes": 2,
+   "known_positives": 53,
+   "candidates": 26
+  },
+  {
+   "doc": "YouTube/Privacy Policy.md",
+   "page_yes": 3,
+   "known_positives": 42,
+   "candidates": 22
+  }
+ ],
+ "spearman_yes_vs_known_positives": -0.563,
+ "spearman_yes_vs_candidates": 0.63
+}
