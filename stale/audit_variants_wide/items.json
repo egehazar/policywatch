@@ -1,0 +1,952 @@
+[
+ {
+  "id": "V001",
+  "service": "Reddit",
+  "case": "Many different types of personal data are collected"
+ },
+ {
+  "id": "V002",
+  "service": "Facebook",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service"
+ },
+ {
+  "id": "V003",
+  "service": "Parler",
+  "case": "Some personal data may be kept for business interests or legal obligations"
+ },
+ {
+  "id": "V004",
+  "service": "TikTok",
+  "case": "There is a date of the last update of the agreements"
+ },
+ {
+  "id": "V005",
+  "service": "BeReal",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service"
+ },
+ {
+  "id": "V006",
+  "service": "Quora",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service"
+ },
+ {
+  "id": "V007",
+  "service": "X",
+  "case": "You should revisit the terms periodically, although in case of material changes, the service will notify"
+ },
+ {
+  "id": "V008",
+  "service": "Telegram",
+  "case": "Location data may be collected, used and/or shared"
+ },
+ {
+  "id": "V009",
+  "service": "Reddit",
+  "case": "Many third parties are involved in operating the service"
+ },
+ {
+  "id": "V010",
+  "service": "BeReal",
+  "case": "There is a date of the last update of the agreements"
+ },
+ {
+  "id": "V011",
+  "service": "Twitch",
+  "case": "Referring and/or exit pages are tracked"
+ },
+ {
+  "id": "V012",
+  "service": "Quora",
+  "case": "Location data may be collected, used and/or shared"
+ },
+ {
+  "id": "V013",
+  "service": "Twitch",
+  "case": "Information is gathered about you through third parties"
+ },
+ {
+  "id": "V014",
+  "service": "Pinterest",
+  "case": "Information is provided about security practices"
+ },
+ {
+  "id": "V015",
+  "service": "Tumblr",
+  "case": "Your content can be licensed to third parties"
+ },
+ {
+  "id": "V016",
+  "service": "LinkedIn",
+  "case": "Location data may be collected, used and/or shared"
+ },
+ {
+  "id": "V017",
+  "service": "TikTok",
+  "case": "You maintain ownership of your content"
+ },
+ {
+  "id": "V018",
+  "service": "Telegram",
+  "case": "This service gives your personal data to third parties involved in its operation"
+ },
+ {
+  "id": "V019",
+  "service": "Telegram",
+  "case": "Other rules, terms, conditions and/or guidelines may apply"
+ },
+ {
+  "id": "V020",
+  "service": "Quora",
+  "case": "You can request access, correction and/or deletion of your data"
+ },
+ {
+  "id": "V021",
+  "service": "Telegram",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service"
+ },
+ {
+  "id": "V022",
+  "service": "Quora",
+  "case": "Information is provided about how your personal data is used"
+ },
+ {
+  "id": "V023",
+  "service": "BeReal",
+  "case": "Banned users are prohibited from creating a new account"
+ },
+ {
+  "id": "V024",
+  "service": "Pinterest",
+  "case": "Third parties are involved in operating the service"
+ },
+ {
+  "id": "V025",
+  "service": "LINE",
+  "case": "Your personal data may be aggregated into statistics"
+ },
+ {
+  "id": "V026",
+  "service": "TikTok",
+  "case": "A complaint mechanism is provided for the handling of personal data"
+ },
+ {
+  "id": "V027",
+  "service": "Facebook",
+  "case": "You have the right to leave this service at any time"
+ },
+ {
+  "id": "V028",
+  "service": "Mastodon",
+  "case": "Content you post may be edited by the service for any reason"
+ },
+ {
+  "id": "V029",
+  "service": "Telegram",
+  "case": "Information is provided about how your personal data is used"
+ },
+ {
+  "id": "V030",
+  "service": "Pinterest",
+  "case": "Some personal data may be kept for business interests or legal obligations"
+ },
+ {
+  "id": "V031",
+  "service": "Facebook",
+  "case": "The court of law governing the terms is in location X"
+ },
+ {
+  "id": "V032",
+  "service": "Pinterest",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes"
+ },
+ {
+  "id": "V033",
+  "service": "Instagram",
+  "case": "Third parties are involved in operating the service"
+ },
+ {
+  "id": "V034",
+  "service": "BeReal",
+  "case": "You can opt out of receiving promotional communications"
+ },
+ {
+  "id": "V035",
+  "service": "Facebook",
+  "case": "Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage"
+ },
+ {
+  "id": "V036",
+  "service": "Tumblr",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service"
+ },
+ {
+  "id": "V037",
+  "service": "LinkedIn",
+  "case": "Information is provided about what kind of personal information is collected"
+ },
+ {
+  "id": "V038",
+  "service": "YouTube",
+  "case": "You may be tracked on other websites"
+ },
+ {
+  "id": "V039",
+  "service": "Telegram",
+  "case": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance"
+ },
+ {
+  "id": "V040",
+  "service": "LINE",
+  "case": "A complaint mechanism is provided for the handling of personal data"
+ },
+ {
+  "id": "V041",
+  "service": "Quora",
+  "case": "Information is provided about security practices"
+ },
+ {
+  "id": "V042",
+  "service": "Mastodon",
+  "case": "Information is provided about how your personal data is used"
+ },
+ {
+  "id": "V043",
+  "service": "LINE",
+  "case": "The posting of pornographic content is prohibited"
+ },
+ {
+  "id": "V044",
+  "service": "Facebook",
+  "case": "You can opt out of receiving promotional communications"
+ },
+ {
+  "id": "V045",
+  "service": "Telegram",
+  "case": "Your IP address is collected, which can be used to view your approximate location"
+ },
+ {
+  "id": "V046",
+  "service": "Twitch",
+  "case": "You can request access, correction and/or deletion of your data"
+ },
+ {
+  "id": "V047",
+  "service": "TikTok",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service"
+ },
+ {
+  "id": "V048",
+  "service": "Twitch",
+  "case": "This service claims that your personal data is not being sold"
+ },
+ {
+  "id": "V049",
+  "service": "TikTok",
+  "case": "The service has non-exclusive use of your content"
+ },
+ {
+  "id": "V050",
+  "service": "Spotify",
+  "case": "Your content can be distributed through any media known now or in the future"
+ },
+ {
+  "id": "V051",
+  "service": "WhatsApp",
+  "case": "Information is provided about security practices"
+ },
+ {
+  "id": "V052",
+  "service": "Quora",
+  "case": "Your personal information is used for many different purposes"
+ },
+ {
+  "id": "V053",
+  "service": "Tumblr",
+  "case": "This service has a no refund policy with some exceptions"
+ },
+ {
+  "id": "V054",
+  "service": "Pinterest",
+  "case": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction"
+ },
+ {
+  "id": "V055",
+  "service": "Instagram",
+  "case": "Your personal data is used for automated decision-making, profiling or AI training"
+ },
+ {
+  "id": "V056",
+  "service": "Snapchat",
+  "case": "Content you post may be edited by the service for any reason"
+ },
+ {
+  "id": "V057",
+  "service": "Twitch",
+  "case": "Some personal data may be kept for business interests or legal obligations"
+ },
+ {
+  "id": "V058",
+  "service": "WhatsApp",
+  "case": "Information is provided about how your personal data is collected"
+ },
+ {
+  "id": "V059",
+  "service": "Parler",
+  "case": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction"
+ },
+ {
+  "id": "V060",
+  "service": "LinkedIn",
+  "case": "Information is provided about security practices"
+ },
+ {
+  "id": "V061",
+  "service": "Telegram",
+  "case": "You agree not to use the service for illegal purposes"
+ },
+ {
+  "id": "V062",
+  "service": "Quora",
+  "case": "The service claims to be CCPA compliant for California users"
+ },
+ {
+  "id": "V063",
+  "service": "TikTok",
+  "case": "You can opt out of targeted advertising"
+ },
+ {
+  "id": "V064",
+  "service": "X",
+  "case": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance"
+ },
+ {
+  "id": "V065",
+  "service": "TikTok",
+  "case": "Harming minors in any ways is prohibited"
+ },
+ {
+  "id": "V066",
+  "service": "LinkedIn",
+  "case": "Information is gathered about you through third parties"
+ },
+ {
+  "id": "V067",
+  "service": "Twitch",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service"
+ },
+ {
+  "id": "V068",
+  "service": "LINE",
+  "case": "The service has non-exclusive use of your content"
+ },
+ {
+  "id": "V069",
+  "service": "LinkedIn",
+  "case": "Your personal data may be used for marketing purposes"
+ },
+ {
+  "id": "V070",
+  "service": "Quora",
+  "case": "No guarantee is given regarding quality"
+ },
+ {
+  "id": "V071",
+  "service": "Parler",
+  "case": "Your personal data may be used for marketing purposes"
+ },
+ {
+  "id": "V072",
+  "service": "Twitch",
+  "case": "Your personal data is used for automated decision-making, profiling or AI training"
+ },
+ {
+  "id": "V073",
+  "service": "WhatsApp",
+  "case": "You can opt out of receiving promotional communications"
+ },
+ {
+  "id": "V074",
+  "service": "LINE",
+  "case": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder"
+ },
+ {
+  "id": "V075",
+  "service": "Facebook",
+  "case": "The service has non-exclusive use of your content"
+ },
+ {
+  "id": "V076",
+  "service": "Pinterest",
+  "case": "You can opt out of receiving promotional communications"
+ },
+ {
+  "id": "V077",
+  "service": "Mastodon",
+  "case": "Third parties are involved in operating the service"
+ },
+ {
+  "id": "V078",
+  "service": "Instagram",
+  "case": "A complaint mechanism is provided for the handling of personal data"
+ },
+ {
+  "id": "V079",
+  "service": "LINE",
+  "case": "Your personal data is used to employ targeted third-party advertising"
+ },
+ {
+  "id": "V080",
+  "service": "Snapchat",
+  "case": "You waive your moral rights"
+ },
+ {
+  "id": "V081",
+  "service": "Telegram",
+  "case": "You are prohibited from sending chain letters, junk mail, spam or any unsolicited messages"
+ },
+ {
+  "id": "V082",
+  "service": "Quora",
+  "case": "No warranty is made regarding an uninterrupted, timely, secure and/or error-free experience"
+ },
+ {
+  "id": "V083",
+  "service": "WhatsApp",
+  "case": "You can choose with whom you share content"
+ },
+ {
+  "id": "V084",
+  "service": "Pinterest",
+  "case": "This service informs you that its Terms of Service does not apply to third-party services"
+ },
+ {
+  "id": "V085",
+  "service": "Twitch",
+  "case": "Your content can be deleted if you violate the terms"
+ },
+ {
+  "id": "V086",
+  "service": "Mastodon",
+  "case": "This service informs you that its Privacy Policy does not apply to third-party services"
+ },
+ {
+  "id": "V087",
+  "service": "BeReal",
+  "case": "You agree not to submit libelous, harassing or threatening content"
+ },
+ {
+  "id": "V088",
+  "service": "LINE",
+  "case": "Your content can be deleted if you violate the terms"
+ },
+ {
+  "id": "V089",
+  "service": "LINE",
+  "case": "No guarantee is made reguarding the accuracy and/or reliability of the information provided"
+ },
+ {
+  "id": "V090",
+  "service": "Twitch",
+  "case": "You have the right to leave this service at any time"
+ },
+ {
+  "id": "V091",
+  "service": "Telegram",
+  "case": "You can request access, correction and/or deletion of your data"
+ },
+ {
+  "id": "V092",
+  "service": "Facebook",
+  "case": "You can limit how your information is used by third parties and the service"
+ },
+ {
+  "id": "V093",
+  "service": "Facebook",
+  "case": "Some personal data may be kept for business interests or legal obligations"
+ },
+ {
+  "id": "V094",
+  "service": "Pinterest",
+  "case": "No guarantee is given regarding quality"
+ },
+ {
+  "id": "V095",
+  "service": "Mastodon",
+  "case": "The service claims that third parties it shares your personal information with are bound by confidentiality obligations"
+ },
+ {
+  "id": "V096",
+  "service": "BeReal",
+  "case": "You maintain ownership of your content"
+ },
+ {
+  "id": "V097",
+  "service": "YouTube",
+  "case": "Information is provided about how your personal data is used"
+ },
+ {
+  "id": "V098",
+  "service": "Facebook",
+  "case": "Third parties are involved in operating the service"
+ },
+ {
+  "id": "V099",
+  "service": "Facebook",
+  "case": "This service is only available to users over a certain age"
+ },
+ {
+  "id": "V100",
+  "service": "Mastodon",
+  "case": "Your account can be suspended for several reasons"
+ },
+ {
+  "id": "V101",
+  "service": "LinkedIn",
+  "case": "You can request access, correction and/or deletion of your data"
+ },
+ {
+  "id": "V102",
+  "service": "Reddit",
+  "case": "Information is provided about how your personal data is collected"
+ },
+ {
+  "id": "V103",
+  "service": "Mastodon",
+  "case": "If you are the target of a copyright claim, your content and/or your account may be removed"
+ },
+ {
+  "id": "V104",
+  "service": "Telegram",
+  "case": "Information is provided about what kind of personal information is collected"
+ },
+ {
+  "id": "V105",
+  "service": "Pinterest",
+  "case": "You waive your right to a class action"
+ },
+ {
+  "id": "V106",
+  "service": "LINE",
+  "case": "Certain features may be throttled"
+ },
+ {
+  "id": "V107",
+  "service": "Twitch",
+  "case": "You have a reduced time period to take legal action against the service"
+ },
+ {
+  "id": "V108",
+  "service": "Twitch",
+  "case": "This service assumes no responsibility and liability for the contents of links to other websites"
+ },
+ {
+  "id": "V109",
+  "service": "TikTok",
+  "case": "You may be tracked on other websites"
+ },
+ {
+  "id": "V110",
+  "service": "Quora",
+  "case": "You maintain ownership of your content"
+ },
+ {
+  "id": "V111",
+  "service": "Mastodon",
+  "case": "You are responsible for maintaining the security of your account and for the activities on your account"
+ },
+ {
+  "id": "V112",
+  "service": "LinkedIn",
+  "case": "Many different types of personal data are collected"
+ },
+ {
+  "id": "V113",
+  "service": "TikTok",
+  "case": "Information is provided about how your personal data is collected"
+ },
+ {
+  "id": "V114",
+  "service": "TikTok",
+  "case": "This service is only available to users over a certain age"
+ },
+ {
+  "id": "V115",
+  "service": "Pinterest",
+  "case": "The data retention period is kept to the minimum necessary for fulfilling its purposes"
+ },
+ {
+  "id": "V116",
+  "service": "BeReal",
+  "case": "Information is provided about how your personal data is used"
+ },
+ {
+  "id": "V117",
+  "service": "LINE",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service"
+ },
+ {
+  "id": "V118",
+  "service": "Twitch",
+  "case": "This service informs you that its Privacy Policy does not apply to third-party services"
+ },
+ {
+  "id": "V119",
+  "service": "Quora",
+  "case": "Do Not Track (DNT) headers are ignored and you are tracked anyway even if you set this header"
+ },
+ {
+  "id": "V120",
+  "service": "TikTok",
+  "case": "Your content can be deleted if you violate the terms"
+ },
+ {
+  "id": "V121",
+  "service": "Quora",
+  "case": "Information is provided about what kind of personal information is collected"
+ },
+ {
+  "id": "V122",
+  "service": "Quora",
+  "case": "Information is provided about how your personal data is collected"
+ },
+ {
+  "id": "V123",
+  "service": "BeReal",
+  "case": "There is a date of the last update of the agreements"
+ },
+ {
+  "id": "V124",
+  "service": "LINE",
+  "case": "Third-party cookies are used for advertising"
+ },
+ {
+  "id": "V125",
+  "service": "Parler",
+  "case": "You can opt out of receiving promotional communications"
+ },
+ {
+  "id": "V126",
+  "service": "Tumblr",
+  "case": "The service is provided 'as is' and to be used at your sole risk"
+ },
+ {
+  "id": "V127",
+  "service": "Telegram",
+  "case": "Information is provided about security practices"
+ },
+ {
+  "id": "V128",
+  "service": "Twitch",
+  "case": "Your account can be suspended for several reasons"
+ },
+ {
+  "id": "V129",
+  "service": "Snapchat",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service"
+ },
+ {
+  "id": "V130",
+  "service": "BeReal",
+  "case": "This service is only available to users over a certain age"
+ },
+ {
+  "id": "V131",
+  "service": "Pinterest",
+  "case": "If you are the target of a copyright claim, your content and/or your account may be removed"
+ },
+ {
+  "id": "V132",
+  "service": "Twitch",
+  "case": "This service is only available to users over a certain age"
+ },
+ {
+  "id": "V133",
+  "service": "Twitch",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service"
+ },
+ {
+  "id": "V134",
+  "service": "Parler",
+  "case": "Your IP address is collected, which can be used to view your approximate location"
+ },
+ {
+  "id": "V135",
+  "service": "Reddit",
+  "case": "Third-party cookies are employed, but with opt out instructions"
+ },
+ {
+  "id": "V136",
+  "service": "Mastodon",
+  "case": "Your personal information is used for many different purposes"
+ },
+ {
+  "id": "V137",
+  "service": "Twitch",
+  "case": "You can opt out of receiving promotional communications"
+ },
+ {
+  "id": "V138",
+  "service": "Quora",
+  "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service"
+ },
+ {
+  "id": "V139",
+  "service": "LINE",
+  "case": "Your IP address is collected, which can be used to view your approximate location"
+ },
+ {
+  "id": "V140",
+  "service": "Tumblr",
+  "case": "This service assumes no liability for unauthorized access to your personal information"
+ },
+ {
+  "id": "V141",
+  "service": "Tumblr",
+  "case": "A license is kept on user-generated content even after you close your account"
+ },
+ {
+  "id": "V142",
+  "service": "TikTok",
+  "case": "There is a date of the last update of the agreements"
+ },
+ {
+  "id": "V143",
+  "service": "Spotify",
+  "case": "You should revisit the terms periodically, although in case of material changes, the service will notify"
+ },
+ {
+  "id": "V144",
+  "service": "Tumblr",
+  "case": "This service is only available to users over a certain age"
+ },
+ {
+  "id": "V145",
+  "service": "YouTube",
+  "case": "Your personal information is used for many different purposes"
+ },
+ {
+  "id": "V146",
+  "service": "Quora",
+  "case": "This service assumes no responsibility and liability for the contents of links to other websites"
+ },
+ {
+  "id": "V147",
+  "service": "Mastodon",
+  "case": "You maintain ownership of your content"
+ },
+ {
+  "id": "V148",
+  "service": "Facebook",
+  "case": "You can request access, correction and/or deletion of your data"
+ },
+ {
+  "id": "V149",
+  "service": "Quora",
+  "case": "Your account can be suspended for several reasons"
+ },
+ {
+  "id": "V150",
+  "service": "Mastodon",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service"
+ },
+ {
+  "id": "V151",
+  "service": "Quora",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service"
+ },
+ {
+  "id": "V152",
+  "service": "Facebook",
+  "case": "Your provided identifiable information is actively checked by the service"
+ },
+ {
+  "id": "V153",
+  "service": "Reddit",
+  "case": "You are informed about the risk of publishing personal info online"
+ },
+ {
+  "id": "V154",
+  "service": "BeReal",
+  "case": "Location data may be collected, used and/or shared"
+ },
+ {
+  "id": "V155",
+  "service": "Tumblr",
+  "case": "The service can stop being provided at any time"
+ },
+ {
+  "id": "V156",
+  "service": "LINE",
+  "case": "There is a date of the last update of the agreements"
+ },
+ {
+  "id": "V157",
+  "service": "LINE",
+  "case": "Information is provided about how your personal data is used"
+ },
+ {
+  "id": "V158",
+  "service": "BeReal",
+  "case": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction"
+ },
+ {
+  "id": "V159",
+  "service": "Mastodon",
+  "case": "Information is provided about how your personal data is collected"
+ },
+ {
+  "id": "V160",
+  "service": "LinkedIn",
+  "case": "This service gives your personal data to third parties involved in its operation"
+ },
+ {
+  "id": "V161",
+  "service": "Tumblr",
+  "case": "The service has non-exclusive use of your content"
+ },
+ {
+  "id": "V162",
+  "service": "Spotify",
+  "case": "If you offer suggestions to the service, they may use that without your approval or compensation, but they do not become the owner"
+ },
+ {
+  "id": "V163",
+  "service": "BeReal",
+  "case": "Your personal data may be used for marketing purposes"
+ },
+ {
+  "id": "V164",
+  "service": "TikTok",
+  "case": "Some personal data may be kept for business interests or legal obligations"
+ },
+ {
+  "id": "V165",
+  "service": "BeReal",
+  "case": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder"
+ },
+ {
+  "id": "V166",
+  "service": "BeReal",
+  "case": "You can opt out of targeted advertising"
+ },
+ {
+  "id": "V167",
+  "service": "Twitch",
+  "case": "Your personal data is used to employ targeted third-party advertising"
+ },
+ {
+  "id": "V168",
+  "service": "TikTok",
+  "case": "The data retention period is kept to the minimum necessary for fulfilling its purposes"
+ },
+ {
+  "id": "V169",
+  "service": "Telegram",
+  "case": "Harming minors in any ways is prohibited"
+ },
+ {
+  "id": "V170",
+  "service": "Spotify",
+  "case": "Other rules, terms, conditions and/or guidelines may apply"
+ },
+ {
+  "id": "V171",
+  "service": "LINE",
+  "case": "Minors must have the authorization of their legal guardians to use the service"
+ },
+ {
+  "id": "V172",
+  "service": "Parler",
+  "case": "This service informs you that its Privacy Policy does not apply to third-party services"
+ },
+ {
+  "id": "V173",
+  "service": "Facebook",
+  "case": "Your private content may be accessed by people working for the service"
+ },
+ {
+  "id": "V174",
+  "service": "Mastodon",
+  "case": "You must report to the service any unauthorized use of your account or any breach of security"
+ },
+ {
+  "id": "V175",
+  "service": "LinkedIn",
+  "case": "Your personal data is used for automated decision-making, profiling or AI training"
+ },
+ {
+  "id": "V176",
+  "service": "TikTok",
+  "case": "Other rules, terms, conditions and/or guidelines may apply"
+ },
+ {
+  "id": "V177",
+  "service": "TikTok",
+  "case": "Your personal data may be used for marketing purposes"
+ },
+ {
+  "id": "V178",
+  "service": "Twitch",
+  "case": "Information is provided about what kind of personal information is collected"
+ },
+ {
+  "id": "V179",
+  "service": "TikTok",
+  "case": "The posting of pornographic content is prohibited"
+ },
+ {
+  "id": "V180",
+  "service": "BeReal",
+  "case": "Information is provided about what kind of personal information is collected"
+ },
+ {
+  "id": "V181",
+  "service": "Tumblr",
+  "case": "You have the right to leave this service at any time"
+ },
+ {
+  "id": "V182",
+  "service": "Quora",
+  "case": "A complaint mechanism is provided for the handling of personal data"
+ },
+ {
+  "id": "V183",
+  "service": "Quora",
+  "case": "This service does not guarantee that it or the products obtained through it meet your expectations or requirements"
+ },
+ {
+  "id": "V184",
+  "service": "TikTok",
+  "case": "You agree not to use the service for illegal purposes"
+ },
+ {
+  "id": "V185",
+  "service": "Pinterest",
+  "case": "This service assumes no liability for unauthorized access to your personal information"
+ },
+ {
+  "id": "V186",
+  "service": "Mastodon",
+  "case": "The service is provided 'as is' and to be used at your sole risk"
+ },
+ {
+  "id": "V187",
+  "service": "Snapchat",
+  "case": "No guarantee is given regarding quality"
+ },
+ {
+  "id": "V188",
+  "service": "Facebook",
+  "case": "Third parties are involved in operating the service"
+ },
+ {
+  "id": "V189",
+  "service": "LINE",
+  "case": "Information is provided about what kind of personal information is collected"
+ },
+ {
+  "id": "V190",
+  "service": "LINE",
+  "case": "This service has a no refund policy with some exceptions"
+ }
+]

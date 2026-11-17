@@ -215,6 +215,25 @@ def card(k, c, d, best_si, arm, R, cid, cls, new='', lab=None):
             f'<div class="diff">{esc(t[:n])}{"…" if len(t) > n else ""}</div></details></div>')
 
 
+def variants():
+    """The titles-only AI checks (exploratory) of the suggestions rated YES: is an approved case on the service the same
+    claim (variant), close, or nothing close? stale/out/missing_variants.json (the first two tests' Kev cards) and
+    wide_rate_variants.json (the page rating's)."""
+    t = [load_json(f)['tally'] for f in ('missing_variants.json', 'wide_rate_variants.json') if os.path.exists(os.path.join(OUT, f))]
+    t = [x if 'NONE' in x else {k: sum(v.get(k, 0) for v in x.values()) for k in ('VARIANT', 'CLOSE', 'NONE')} for x in t]
+    if not t: return 'no check of this has been made.'
+    a = t[0]; s = (f'AI checks of the titles (exploratory) compared each suggestion rated YES with the cases already '
+                   f'approved on its service: of the first two tests&rsquo; {sum(a.values())}, {a["VARIANT"]} are variants, '
+                   f'{a["CLOSE"]} close, and {a["NONE"]} have nothing close on the service')
+    if len(t) > 1:
+        b = t[1]; s += (f'; of the {sum(b.values())} on the other 28 documents, {b["VARIANT"]}, {b["CLOSE"]} and '
+                        f'{b["NONE"]}')
+    return s + '.'
+
+
+def load_json(name): return json.load(open(os.path.join(OUT, name), encoding='utf-8'))
+
+
 def contrib_part(arm, cid, cls, lab=None):
     """The 20 documents drawn from Open Terms Archive's contrib collection (stale/PLAN_missing_contrib.md), as a second
     part, once Kev has scored them; each suggestion with its verdict once the test is scored."""
@@ -315,8 +334,7 @@ def build(arm=None):
             f'look, not a verdict: read the passage before proposing a point; a case may be stated weakly, only in part, '
             f'or not at all. &ldquo;No point&rdquo; means no <em>approved</em> point: ToS;DR&rsquo;s public data does not '
             f'show pending or declined ones. Some suggestions are variants of, or close to, a case already approved for '
-            f'the service: an AI check of the titles found 9 variants and 31 close ones among the 87 suggestions rated '
-            f'YES, and nothing close on the service for the other 47.</p>' + accuracy(arm, unrated) + ''.join(secs)
+            f'the service: {variants()}</p>' + accuracy(arm, unrated) + ''.join(secs)
             + contrib_part(arm, cid, cls, lab))
     dest = os.path.join(ROOT, 'out', 'site', 'missing.html')
     with open(dest, 'w', encoding='utf-8') as f: f.write(page('Possible missing points', body))

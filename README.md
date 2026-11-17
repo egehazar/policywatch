@@ -58,7 +58,8 @@ policywatch watches the archive for the moment a curator's evidence stops being 
     those 28 documents: 190 of the page's 280 rated YES (.68 [.62, .73], predicted .55-.75) against 150 for the
     reranker's own top 10, +.14 [+.075, +.21]; 1 of 20 random controls YES; GPT as second rater 203 against 150, kappa .72 (`stale/RESULT_wide_rate.md`). Exploratory,
     after scoring: the page is weakest on documents with many known positives (X's terms 2 of 10), and Kev's printed
-    p(yes) sorts its suggestions: 149 of the 179 at 0.90 or more were rated YES.
+    p(yes) sorts its suggestions: 149 of the 179 at 0.90 or more were rated YES. For 100 of the 190 YES, an AI check of
+    the titles found nothing close among the service's approved cases (17 variants, 73 close).
   - *What the decision model adds.* Its base family's ordinary 4B instruct model, asked the same yes/no question,
     showed no difference from Kev on either measure, and Kev's probabilities were not shown to be better calibrated
     (exploratory). The larger missing-points test ran it on the same shortlisted passages as Kev: again no difference
