@@ -1,0 +1,6 @@
+plan+code 2026-11-18T20:20:55Z (addendum 1 still running; before any v3 cell was run)
+ef694613b50dffefab1fdf8e8d7bd74d79f4504c2b4ab972dcca678201878868 *stale/PLAN_multiq_addendum2.md
+aa992f0b9d287ca6a4fdd068a7f57cd110a0dcc4b9da9569c5171b4b5520d5c4 *stale/multiq_np1v3.py
+c32cb885770b979f12f5e16f4aa62a934235eb6ab9b3740447094610002377ad *run_multiq_np1v3.sh
+dd45f058cab619ad9a65e373d876e31bfa1497e1e1b73427036d9e176d4e3e88 *bench/start_kev_np1v3.ps1
+235398f46a7913155c2354f5a895c74e676b8a656d0a5f0d0385a4740ac04b2d *bench/stop_kev_np1v3.ps1
