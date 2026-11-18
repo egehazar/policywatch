@@ -33,6 +33,11 @@ suggests to a curator where each case is stated now. It runs on a desktop CPU wi
 
 [Results in detail](RESULTS.md) · [Plans, results and rater cards](stale/) · [Running it](RUN.md)
 
+![A card from the curator page: a Bluesky point whose quote is gone, with the suggested sentence to quote now](docs/stale_card.png)
+*One card from the curator page (2026-11-15 build). The quote is gone from Bluesky's current terms and from
+ToS;DR's stored copy. The card shows the old passage, the closest new one, Kev-4B's scores and the suggested
+sentence; the top 3 passages follow, folded.*
+
 ## Parts
 - **Stale evidence finder** (`stale/`, string matching, no model). It covers the 20 large platforms of Open Terms
   Archive's pga-versions collection and four more collections (contrib, genai-contrib, dating, user-rights).
