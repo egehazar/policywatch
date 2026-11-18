@@ -42,7 +42,8 @@ suggests to a curator where each case is stated now. It runs on a desktop CPU wi
   point and a sentence to quote. A suggestion is marked "Clear" when its top passage leads clearly; Clear
   suggestions were right 50 times in 53 in a held-out test.
 - **Missing points** (Kev-4B behind a reranker shortlist). It suggests cases that a document states but ToS;DR has
-  no point for on that service. It covers the 40 privacy policies and terms of the 20 platforms. ToS;DR's own
+  no point for on that service. It covers the 40 privacy policies and terms of the 20 platforms, and 20 documents of other services drawn at
+  random. ToS;DR's own
   [DocBot](https://github.com/tosdr/DocBot) also suggests points to curators; the two were not compared.
 - **Meaning-diff scanner** (`policywatch/`, the original goal). It asks a fixed bank of questions about the old and
   new text of every update. It failed: see [SCANNER.md](SCANNER.md).
@@ -55,6 +56,7 @@ suggests to a curator where each case is stated now. It runs on a desktop CPU wi
 | Kev against its base family (the instruct model, same question) | **No difference shown** | 62 vs 60 and 75 vs 74; "states the case" .73 vs .73; missing-points AUROC .721 vs .715. |
 | Kev against a cross-encoder reranker (bge-reranker-v2-m3) | **Not shown to beat it on curator quotes** (1 of 3 samples) | On LLM-rated "states the case", Kev .73 vs .61. The reranker is 3.6-5x cheaper. |
 | Missing-point suggestions on 28 documents: the page against the reranker's own top 10 (blind LLM raters) | **Page better** | 190 of 280 rated YES (.68) vs 150; +.14 [+.075, +.21], resampling documents; GPT as second rater 203 vs 150. |
+| The same on 20 documents of 20 other services, drawn at random before any model ran; and the printed p(yes) as a label | **Page better; label adopted** | 139 of 200 vs 99 (+.20 [+.14, +.27]); suggestions printed at p(yes) 0.90 or more: 114 of 133 rated YES, the rest 25 of 67. |
 | Cost of the decision-model endpoint against the instruct model (idle CPU, 60 passages) | **Cheaper from 2 questions per passage** | 0.83x at 1 question, 1.4x at 2, 2.4x at 4, 4.7x at 16. Kev's server ran 4 slots, the instruct model's 1. |
 | Meaning-diff scanner: catch the changes the archive's editors wrote memos about | **Failed** | 1 of 10 memos (a random ranking catches about 2); 684 reviews needed against a bar of 182. |
 

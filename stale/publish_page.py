@@ -27,6 +27,7 @@ def build(src='stale.html', dst='stale_artifact.html', title='Stale Evidence Fin
     stamp = (f'<p class="sm mut">Snapshot built {built:%Y-%m-%d %H:%M} UTC by policywatch from the Open Terms Archive '
              f'{source} and ToS;DR&rsquo;s public points.</p>')
     body = body.replace('</h1>', '</h1>' + stamp, 1)
+    body = body.replace('�', '&#xFFFD;')            # source texts carry some (mis-decoded bytes in the archive)
     out = os.path.join(SITE, dst)
     with open(out, 'w', encoding='utf-8') as f:
         f.write(f'<title>{title}</title><style>{css}</style><main>{body}</main>')
