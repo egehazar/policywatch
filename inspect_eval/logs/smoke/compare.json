@@ -1,0 +1,33 @@
+{
+ "log": "2026-11-18T17-06-04-00-00_relocation_3dUYthDPuWPJ5M3Ss79ogi.eval",
+ "points": 1,
+ "cells": 27,
+ "mean_abs_dlo": 0.0,
+ "max_abs_dlo": 0.0,
+ "top_passage_same": 1,
+ "inspect": {
+  "hit1": 0.0,
+  "mrr": 0.5
+ },
+ "repo": {
+  "hit1": 0.0,
+  "mrr": 0.5
+ },
+ "reading": "port reproduces the repo",
+ "rows": [
+  {
+   "id": "A-318964",
+   "cells": 27,
+   "max_abs_dlo": 0.0,
+   "hit1": [
+    0.0,
+    0.0
+   ],
+   "rr": [
+    0.5,
+    0.5
+   ],
+   "top_same": true
+  }
+ ]
+}
