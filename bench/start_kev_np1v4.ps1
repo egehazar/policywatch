@@ -1,0 +1,11 @@
+# Starts a second Kev-4B server set up like the instruct model's (1 slot) on port 9998 for stale/PLAN_multiq_addendum3.md (patch v4, build-fix4).
+# Same flags and model as the deployed Kev server (port 9995) except -np 1 and the build (decision checkpoints v4,
+# llama.cpp branch decision-checkpoints-v4); writes its PID to bench\out\kev_np1v4.pid.
+$ds = 'C:\Users\egeha\projects\decision-serving'
+$pw = 'C:\Users\egeha\projects\policywatch'
+New-Item -ItemType Directory -Force "$pw\bench\out" | Out-Null
+$p = Start-Process -FilePath "$ds\llama.cpp\build-fix4\bin\llama-server.exe" `
+  -ArgumentList '-m','models/Kev-4B-Q8_0.gguf','--host','127.0.0.1','--port','9998','-np','1','-c','16384','-t','6','--no-mmproj' `
+  -WorkingDirectory $ds -WindowStyle Hidden `
+  -RedirectStandardOutput "$pw\bench\kev_np1v4_server.log" -RedirectStandardError "$pw\bench\kev_np1v4_server.err" -PassThru
+Set-Content -Path "$pw\bench\out\kev_np1v4.pid" -Value $p.Id -Encoding ascii

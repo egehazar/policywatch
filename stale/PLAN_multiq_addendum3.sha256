@@ -1,0 +1,6 @@
+# stale/PLAN_multiq_addendum3.md and its code, hashed 2026-11-18T23:08:14Z before it runs
+99ee4492f28a729b1d8fe6fa664a532f3cda409dd5453c294ea4e5edd1479c35 *stale/PLAN_multiq_addendum3.md
+3d951fe62d02b9aa03b2014dec7dc912c65af3c39f1e79076e71dfb737d84be2 *stale/multiq_np1v4.py
+c2d854cb2905b95403e4d887f33b8ce2f20f6877ea0f3b27a042dd1b87d38e1f *run_multiq_np1v4.sh
+aaf1bb64eced4f4a783885557509e2e39003fca6cab51ad12fea794429e735c5 *bench/start_kev_np1v4.ps1
+5ee93045da695f6d515eae0a428cf70dc408c94d843435f799efd76a84540ae9 *bench/stop_kev_np1v4.ps1
