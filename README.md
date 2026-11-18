@@ -81,3 +81,6 @@ suggests to a curator where each case is stated now. It runs on a desktop CPU wi
 - Questions: case titles from ToS;DR (tosdr.org).
 - ToS;DR point data (titles, quotes, stored documents) redistributed here: CC BY-SA 3.0, tosdr.org.
 - The re-asking mechanic follows jev-why (github.com/Mahad-007/jev-why).
+
+## Licence
+Code: MIT (LICENSE). Redistributed data keeps its own licence (Credits above).
