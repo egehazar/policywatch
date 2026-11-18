@@ -67,7 +67,7 @@ The question is the same TEMPLATE as Kev's and the single-question instruct arm'
 - The decision model's other offers (a calibrated probability per question without generation, no parsing,
   order-free) are not priced here. Only accuracy on this task and time on this machine are.
 
-## Smoke test before hashing (2026-11-18 ~11:05 UTC)
+## Smoke test before hashing (2026-11-18 ~10:58-11:00 UTC)
 I ran 3 passages of the pilot's first document (stale/out/missing_docs.json) with 6 cases each. They are not among
 the measured cells.
 - Every reply parsed (18 of 18 answers).
