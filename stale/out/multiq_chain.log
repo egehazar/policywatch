@@ -1,0 +1,61 @@
+multiq start 11:01:27 UTC
+multiq kev exit 0 at 12:09:59 UTC
+multiq qwen exit 0 at 13:10:48 UTC
+stopped 26940
+multiq result exit 0 at 13:10:56 UTC
+  "point": -0.018,
+  "t95_docs": [
+   -0.04,
+   0.005
+  ],
+  "boot95_within_docs": [
+   -0.041,
+   0.006
+  ],
+  "docs_above_0": 2,
+  "reading": "no difference shown"
+ },
+ "format": {
+  "cells": 2043,
+  "failed_cells": 0,
+  "failed_passages": 0,
+  "unreliable": false
+ },
+ "cost": {
+  "kev_s_per_question": 2.011,
+  "kev_seconds": 4109,
+  "kev_questions": 2043,
+  "multi_s_per_question": 1.785,
+  "multi_seconds": 3647,
+  "single_qwen_s_per_question_missing2": 6.046,
+  "R_multi_over_kev": 0.888,
+  "reading": "edge gone"
+ },
+ "agreement_kev_vs_new_kev_timing_run": 0.0006
+}
+multiq all done at 13:10:56 UTC
+slice since 2025-11-11 exit 0 at 17:42:15 UTC
+374 updates -> out\site
+backfill all done at 17:42:21 UTC
+memocheck exit 0 at 17:42:23 UTC
+  }
+ },
+ "chance_expected": 1.96,
+ "broad_memos": 1
+}
+missed         YouTube Privacy Policy: YouTube uses ad services to analyse data from other sites and apps
+missed         WhatsApp Privacy Policy: WhatsApp collects more data from customer support and the official cha
+CAUGHT         TikTok Privacy Policy: TikTok rewrites all US terms following the transfer of its USA operati
+missed         Instagram Privacy Policy: Instagram begins use of AI interactions to personalise experiences and
+missed         TikTok Privacy Policy: TikTok will not be accessible to children below 16 in Australia
+missed         LinkedIn Privacy Policy: LinkedIn shares data with Microsoft and its subsidiaries to train AI m
+missed         TikTok Privacy Policy: TikTok expands data collection in Europe, the United Kingdom and Switz
+coverage gap   Bluesky Terms of Service: Bluesky moves DSA contact point from Belgium to Ireland and stops acce
+missed         Threads Privacy Policy: Threads expands profile creation beyond Instagram users
+missed         Telegram Terms of Service: Telegram expands cooperation with authorities beyond the scope of terr
+missed         Telegram Privacy Policy: Telegram expands cooperation with authorities beyond the scope of terr
+'daily.cmd' is not recognized as an internal or external command,
+operable program or batch file.
+daily exit 1 at 17:42:23 UTC
+tail: cannot open 'stale/live/daily.log' for reading: No such file or directory
+chain all done at 17:42:23 UTC

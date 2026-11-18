@@ -82,6 +82,8 @@ Four measurements; the first three are shown on the site's "How it works" page (
      catch about 2. The stricter count is 0 of 9, and the 70-question bank and the second rater's mapping also
      catch 1. One memo has no bank question that fits. The scanner does not find what the archive's editors wrote
      up.
+   - **Re-run (2026-11-18), after the backfill scored the updates since 2025-11-11:** unchanged. Caught 1 of 10
+     (strict 0 of 9; every bank variant 1), against about 2 expected by chance.
 3. **Running human record** (`serve`): precision of flags and audited misses, as counts. No update has been reviewed
    yet (`out/human_record.json`).
 4. **Decision model vs an ordinary LLM** (`bench/`, `eval/PREREG_kev_vs_llm.md`, result in
