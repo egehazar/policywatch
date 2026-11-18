@@ -4,3 +4,6 @@ plan+code 2026-11-18T13:49:11Z (before any measured cell was run)
 cb7d8f8107fec4fb1e7ff20fe344b38512d5d8ed63e82f994aa4578d2aaa6279 *run_multiq_np1.sh
 a458014e018be5494756c85bdd2a2be666e3448949616b1f713c5b83d1c320ce *bench/start_kev_np1.ps1
 4ae014543aac55e1f3e98d64e8b426866daf60add268b179f6a265129ad3bdd9 *bench/stop_kev_np1.ps1
+outputs 2026-11-18T22:45:36Z
+893b36905505b2ef0c592fb37bfb9ee2e2296a8fce91a3c38c32a5e706df8f6d *stale/out/multiq_kev_np1.json
+1913b9425ba7ec82aee9748bc1c33b035ae4d3f5db6e01d1fb0f48bdf6389342 *stale/out/multiq_np1_result.json

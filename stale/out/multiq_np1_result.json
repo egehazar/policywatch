@@ -1,0 +1,10 @@
+{
+ "agreement_mean_abs_dp_vs_4_slots": 0.0031,
+ "kev1_seconds": 18111,
+ "kev1_questions": 2043,
+ "kev1_s_per_question": 8.865,
+ "kev4_s_per_question_main_run": 2.011,
+ "multi_s_per_question_main_run": 1.785,
+ "R1_multi_over_kev1": 0.201,
+ "reading": "edge gone"
+}
