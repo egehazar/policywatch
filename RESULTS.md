@@ -63,9 +63,12 @@ The README has the summary. This file has every test, its reading and its number
     questions per document; with one question per document Kev is the slower one. On the missing-points pilot (62-78
     questions per passage) Kev took 1.8 h where the instruct model would need about 10 h (5.7x, estimated); in the
     larger test the instruct model, measured, took 6.05 s per question against Kev's 1.11 s (5.4x). The setups were
-    not equal: Kev's server ran 4 parallel slots and the instruct model's 1, and a single prompt asking the instruct
-    model all of a passage's questions at once was never measured. So the cost edge holds for this server and these
-    request shapes, not in general.
+    not equal: Kev's server ran 4 parallel slots and the instruct model's 1.
+    Then the obvious question was measured (pre-registered, `stale/RESULT_multiq.md`): asked all of a passage's
+    questions in one grammar-forced prompt, the instruct model read each passage once too and took 1.79 s per question
+    against Kev's 2.01 s on the same 2,043 questions, with no difference in accuracy (AUROC .733 vs .721). The cost
+    edge is gone. Nothing measured in policywatch comes from the decision model: its results are those of a 4B LLM
+    reading each passage.
 - **Meaning-diff scanner (`policywatch/`, the original goal, failed its tests).** Asks a decision model a fixed bank of
   questions about the old and new text of every update and lists the answers whose score moved. It did not find real
   changes well enough; the results are below.
@@ -100,6 +103,7 @@ tests.
 | Missing points on 20 more documents of the 20 platforms (those with a matched ToS;DR point; the last 6 added later: all 40 covered), through the cascade (the reranker's top 3 passages per case, then Kev); a build, with one check fixed in advance | **Kev on the shortlist better than the reranker** | On the 7 documents with 10 or more known positives: AUROC Kev on the shortlist .771, reranker on every passage .693 (+.078 [+.034, +.121]); Kev higher on 6 of 7, two of them near ties (not on Facebook's 146-passage privacy policy, where Kev on every passage did worse still, .656: the shortlist was not the reason; exploratory, one document). Their suggestions were rated in the next row. Reranker 5.9 h, Kev 2.2 h (about 18 h estimated for Kev on every passage). After the fact: the text-blind ranking scores .67; resampling documents, Kev on the shortlist - reranker is +.08 [-.01, +.16]. | `stale/RESULT_missing_wide.md` |
 | The page's suggestions on those 28 documents (the 20, the last 6, and Pinterest's two on their new text), rated blind against the reranker's own top 10 | **Page precision in the predicted range; page better than the reranker** | Rated YES: page 190 of 280 (.68 [.62, .73]; predicted .55-.75), reranker 150 of 280; page - reranker +.14 [+.075, +.21] over 28 documents; 1 of 20 random controls YES. Top 5 per document .77, ranks 6-10 .59. Exploratory, after scoring: weakest on documents with many known positives (45 of 90 on the 9 with 19 or more, 145 of 190 on the rest). Two Claude Opus raters, each on half the cards; GPT as second rater 203 vs 150 (kappa .72). | `stale/RESULT_wide_rate.md` |
 | Missing points beyond the 20 platforms: 20 documents of 20 services from the contrib collection, drawn at random before any model ran (one per service); the page against the reranker's own top 10, and the printed p(yes) >= 0.90 as a label (two blind Claude Opus raters, each in its own folder) | **In the predicted range; page better; label adopted** | Rated YES: page 139 of 200 (.695 [.63, .76]; predicted .60-.80), reranker 99 of 200; page - reranker +.20 [+.14, +.27] over 20 documents (predicted +.05 to +.25); 2 of 20 random controls YES. Printed p(yes) 0.90 or more: 114 of 133 rated YES (.86 [.79, .91]; predicted .75-.90), the rest 25 of 67 (.37), so the page marks them. Exploratory: AUROC on the 10 documents with 5+ known positives, page .744, reranker .668, text-blind .635 (page - reranker +.08 [+.04, +.12] resampling documents). Kev 1.84 s per asked cell (19 documents; the 20th's time includes 11.4 h of PC sleep). GPT second rating queued (usage limit). | `stale/RESULT_missing_contrib.md` |
+| Does the decision model's cost edge survive asking the instruct model all of a passage's questions in one prompt? (the larger test's 275 shortlisted passages, 2,043 questions, pre-registered) | **Edge gone; accuracy no difference shown** | Kev 2.01 s per question, the instruct model in one prompt 1.79 s (ratio 0.89, "edge gone" at 1.0 or less); no question count where Kev was cheaper (0.87-0.92 by count, exploratory). AUROC .721 vs .733, KEV - MULTI -.012 [-.057, +.032] over 10 documents; one question per request .715. 0 of 2,043 cells failed to parse under the grammar. | `stale/RESULT_multiq.md` |
 | Label a stale point "case no longer stated" | **Not shipped** (provisional) | Kev ranks the 15 no-longer-stated points low (AUROC .92), but its flag was right for 6 of 12 flagged; the bar was 75%. | `stale/RESULT_suggest.md` |
 
 ### Meaning-diff scanner
@@ -226,7 +230,9 @@ anything.
     model's state for a shared prefix; the effect is measured, the cause is not). So Kev is slower with one question
     per passage (0.83x) and cheaper from two on: 1.4x at 2, 2.4x at 4, 3.4x at 8, 4.7x at 16, toward a limit of 6.8x.
     A curator page asks a few questions of most documents (median 3 on contrib; at most 18 on the 20 platforms, 43 on contrib);
-    a tool asking a whole question bank of every document is where it pays.
+    a tool asking a whole question bank of every document is where it pays, against an instruct model asked one
+    question per request. Against the same model asked all of a passage's questions in one prompt it does not pay at
+    any question count: 0.87-0.92x (`stale/RESULT_multiq.md`).
   - It covers points whose case is still stated. Whether Kev can tell that a case is no longer stated was tested on
     the 141 stale points: it ranks those points low (AUROC .92), but its flag was right 6 times in 12, under the 75%
     bar, so the page makes no such claim (`stale/RESULT_suggest.md`, provisional).

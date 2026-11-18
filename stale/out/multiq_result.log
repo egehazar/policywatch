@@ -1,0 +1,50 @@
+{
+ "auroc": {
+  "CASCADE_KEV": 0.721,
+  "CASCADE_QWEN": 0.715,
+  "QWEN_MULTI": 0.733
+ },
+ "KEV_minus_MULTI": {
+  "point": -0.012,
+  "t95_docs": [
+   -0.057,
+   0.032
+  ],
+  "boot95_within_docs": [
+   -0.041,
+   0.016
+  ],
+  "docs_above_0": 4,
+  "reading": "no difference shown"
+ },
+ "QWEN_minus_MULTI": {
+  "point": -0.018,
+  "t95_docs": [
+   -0.04,
+   0.005
+  ],
+  "boot95_within_docs": [
+   -0.041,
+   0.006
+  ],
+  "docs_above_0": 2,
+  "reading": "no difference shown"
+ },
+ "format": {
+  "cells": 2043,
+  "failed_cells": 0,
+  "failed_passages": 0,
+  "unreliable": false
+ },
+ "cost": {
+  "kev_s_per_question": 2.011,
+  "kev_seconds": 4109,
+  "kev_questions": 2043,
+  "multi_s_per_question": 1.785,
+  "multi_seconds": 3647,
+  "single_qwen_s_per_question_missing2": 6.046,
+  "R_multi_over_kev": 0.888,
+  "reading": "edge gone"
+ },
+ "agreement_kev_vs_new_kev_timing_run": 0.0006
+}

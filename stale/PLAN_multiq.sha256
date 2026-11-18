@@ -2,3 +2,7 @@ plan+code 2026-11-18T11:01:18Z (before any measured cell was run; replaces the 1
 0f68df5450e2ae4232d209a8127e2c459145f294cd21829a64a1af5a9e14eb96 *stale/PLAN_multiq.md
 0f252db4541eb7538b3bbae66a19fbb10b225f01dd91dfe4976248fdb7359189 *stale/multiq.py
 b8429871050134bb363012a4b7c790e7c7d37d88c7947fa727c86e1de381803c *run_multiq.sh
+outputs 2026-11-18T13:10:56Z
+faeb46a664e5fc51f0ac29bcfce252918896c293aa38a5c5704224ef68ee38a2 *stale/out/multiq_kev.json
+710c88b7587a4283f57489404e042d35094a80cb3a66f9835a075709f3a3a3d9 *stale/out/multiq_qwen.json
+be20ba45d46317aff3d5401d154bf5384c7f0b783a14fc6cb67b88c1189dd33c *stale/out/multiq_result.json
