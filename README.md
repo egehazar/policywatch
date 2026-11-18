@@ -59,7 +59,7 @@ suggests to a curator where each case is stated now. It runs on a desktop CPU wi
 | Kev against a cross-encoder reranker (bge-reranker-v2-m3) | **Not shown to beat it on curator quotes** (1 of 3 samples) | On LLM-rated "states the case", Kev .73 vs .61. The reranker is 3.6-5x cheaper. |
 | Missing-point suggestions on 28 documents: the page against the reranker's own top 10 (blind LLM raters) | **Page better** | 190 of 280 rated YES (.68) vs 150; +.14 [+.075, +.21], resampling documents; GPT as second rater 203 vs 150. |
 | The same on 20 documents of 20 other services, drawn at random before any model ran; and the printed p(yes) as a label | **Page better; label adopted** | 139 of 200 vs 99 (+.20 [+.14, +.27]); suggestions printed at p(yes) 0.90 or more: 114 of 133 rated YES, the rest 25 of 67. |
-| Cost of the decision-model endpoint against the instruct model asked one question per request (idle CPU, 60 passages) | **Cheaper from 2 questions per passage** | 0.83x at 1 question, 1.4x at 2, 2.4x at 4, 4.7x at 16. Kev's server ran 4 slots, the instruct model's 1. |
+| Cost of the decision-model endpoint against the instruct model asked one question per request (idle CPU, 60 passages) | **Cheaper from 2 questions per passage** (against one question per request) | 0.83x at 1 question, 1.4x at 2, 2.4x at 4, 4.7x at 16. Kev's server ran 4 slots, the instruct model's 1. |
 | The same, with the instruct model asked all of a passage's questions in one prompt (2,043 questions, pre-registered) | **Edge gone** | Kev 2.01 s per question, the instruct model 1.79 s (ratio 0.89; no question count where Kev was cheaper). AUROC .721 vs .733, no difference shown; 0 replies failed to parse. |
 | Meaning-diff scanner: catch the changes the archive's editors wrote memos about | **Failed** | 1 of 10 memos (a random ranking catches about 2); 684 reviews needed against a bar of 182. |
 
@@ -79,4 +79,5 @@ suggests to a curator where each case is stated now. It runs on a desktop CPU wi
 ## Credits
 - Documents: Open Terms Archive, pga-versions (Platform Governance Archive, University of Bremen), ODC-BY 1.0.
 - Questions: case titles from ToS;DR (tosdr.org).
+- ToS;DR point data (titles, quotes, stored documents) redistributed here: CC BY-SA 3.0, tosdr.org.
 - The re-asking mechanic follows jev-why (github.com/Mahad-007/jev-why).
