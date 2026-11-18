@@ -1,0 +1,21 @@
+[1/20 408s] Toyota Connected Services/Privacy Policy.md: {'seconds': 408.2, 'pieces': 41, 'cells': 189, 'asked_cells': 189, 'cached_cells': 0}
+[2/20 795s] Waze/Privacy Policy.md: {'seconds': 387.1, 'pieces': 35, 'cells': 183, 'asked_cells': 183, 'cached_cells': 0}
+[3/20 1025s] ProtonVPN/Privacy Policy.md: {'seconds': 230.0, 'pieces': 9, 'cells': 189, 'asked_cells': 189, 'cached_cells': 0}
+[4/20 1322s] Netflix/Terms of Service.md: {'seconds': 296.7, 'pieces': 16, 'cells': 213, 'asked_cells': 213, 'cached_cells': 0}
+[5/20 1591s] GitLab/Terms of Service.md: {'seconds': 269.4, 'pieces': 7, 'cells': 222, 'asked_cells': 222, 'cached_cells': 0}
+[6/20 1838s] Amazon Advertising/Privacy Policy.md: {'seconds': 247.0, 'pieces': 24, 'cells': 120, 'asked_cells': 117, 'cached_cells': 3}
+[7/20 2111s] Mullvad/Terms of Service.md: {'seconds': 272.6, 'pieces': 4, 'cells': 246, 'asked_cells': 246, 'cached_cells': 0}
+[8/20 2428s] ubuntu.com/Privacy Policy.md: {'seconds': 317.2, 'pieces': 18, 'cells': 204, 'asked_cells': 204, 'cached_cells': 0}
+[9/20 2938s] Google/Privacy Policy.md: {'seconds': 509.6, 'pieces': 51, 'cells': 171, 'asked_cells': 162, 'cached_cells': 9}
+[10/20 3263s] NordVPN/Privacy Policy.md: {'seconds': 324.8, 'pieces': 22, 'cells': 147, 'asked_cells': 147, 'cached_cells': 0}
+[11/20 3696s] Alibaba.com/Privacy Policy.md: {'seconds': 433.6, 'pieces': 37, 'cells': 123, 'asked_cells': 123, 'cached_cells': 0}
+[12/20 4257s] Steam/Terms of Service.md: {'seconds': 560.3, 'pieces': 35, 'cells': 246, 'asked_cells': 238, 'cached_cells': 8}
+[13/20 45762s] Instacart/Terms of Service.md: {'seconds': 41505.6, 'pieces': 48, 'cells': 231, 'asked_cells': 231, 'cached_cells': 0}
+[14/20 46157s] WordPress.com/Privacy Policy.md: {'seconds': 395.0, 'pieces': 36, 'cells': 192, 'asked_cells': 183, 'cached_cells': 9}
+[15/20 46370s] UserDrive.com/Privacy Policy.md: {'seconds': 213.1, 'pieces': 5, 'cells': 195, 'asked_cells': 195, 'cached_cells': 0}
+[16/20 46702s] Jottacloud/Terms of Service.md: {'seconds': 331.6, 'pieces': 12, 'cells': 249, 'asked_cells': 249, 'cached_cells': 0}
+[17/20 47020s] Google Analytics/Terms of Service.md: {'seconds': 318.1, 'pieces': 17, 'cells': 228, 'asked_cells': 219, 'cached_cells': 9}
+[18/20 47644s] Wargaming/Terms of Service.md: {'seconds': 623.5, 'pieces': 50, 'cells': 246, 'asked_cells': 246, 'cached_cells': 0}
+[19/20 48007s] FedEx/Terms of Service.md: {'seconds': 363.2, 'pieces': 19, 'cells': 246, 'asked_cells': 246, 'cached_cells': 0}
+[20/20 48506s] SoundCloud/Terms of Service.md: {'seconds': 498.8, 'pieces': 45, 'cells': 231, 'asked_cells': 228, 'cached_cells': 3}
+kev done; asked 4030 cache hits 41

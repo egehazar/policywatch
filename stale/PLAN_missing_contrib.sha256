@@ -3,3 +3,13 @@
 hashed 2026-11-17T14:25:50Z
 71654bb2ccf6d4652c0df0ec2825e587f80eb334aa3b96cb6afaae8098a1667b *stale/out/missing_contrib_docs.json
 drawn 2026-11-17T14:26:27Z (archive 954941f437, before any model scored it)
+outputs 2026-11-18T10:56:30Z
+7e77e3f89c021f1c747d1553771db96d72b9b5055fd90d79b779b7d743e2adb2 *stale/out/missing_contrib_rerank.json
+4e815618b126dca95ed54b775d85afc70363a0b475210d04c65b479edc2bbade *stale/out/missing_contrib_kev.json
+cards 2026-11-18T10:57:23Z (built after the outputs above, before any rater started)
+9c596684306d016b1218e2f51a6aa33e68cb2a139b387a969abf4d5d5e4ee5f9 *stale/out/missing_contrib_key.json
+c9c43d8b5abc2e0cb23c29bd2bef70ff937242c4dbd637608f2d543017a68452 *stale/audit_contrib_a/cards.md
+796bb9b8e902a141d1d741276d7fbd609d2568e5b4b4a32ef41a831b3930ac3f *stale/audit_contrib_b/cards.md
+35648d82613e48d64f1b81d5a5166dbc1e6efdc9487c104c6050480e99bfba9c *stale/audit_contrib_a/README.md
+c68ae657845e8095113be9809183f97af4f3bf6201cf2b52c5be8b033cf9ed52 *stale/audit_contrib_a/verdicts.json
+bbd4a8c421f4420922f22a0ef8934f7164ad6ebb884b533f26c7a8f7fa79de5d *stale/audit_contrib_b/verdicts.json

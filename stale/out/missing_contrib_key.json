@@ -1,0 +1,4082 @@
+{
+ "C001": {
+  "doc": "ubuntu.com/Privacy Policy.md",
+  "case": "Sensitive data is collected and shared to target advertising",
+  "piece": 12,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 35,
+  "page_p": 0.5162
+ },
+ "C002": {
+  "doc": "Mullvad/Terms of Service.md",
+  "case": "This service assumes no liability for unauthorized access to your personal information",
+  "piece": 0,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 12
+ },
+ "C003": {
+  "doc": "ubuntu.com/Privacy Policy.md",
+  "case": "You can opt out of targeted advertising",
+  "piece": 7,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 35,
+  "page_p": 0.652
+ },
+ "C004": {
+  "doc": "ProtonVPN/Privacy Policy.md",
+  "case": "Information is gathered about you through third parties",
+  "piece": 5,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C005": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "This service does not guarantee that it or the products obtained through it meet your expectations or requirements",
+  "piece": 39,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 27,
+  "page_p": 0.886
+ },
+ "C006": {
+  "doc": "Instacart/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 62,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C007": {
+  "doc": "ProtonVPN/Privacy Policy.md",
+  "case": "This service claims that your personal data is not being sold",
+  "piece": 2,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.91
+ },
+ "C008": {
+  "doc": "ubuntu.com/Privacy Policy.md",
+  "case": "Your biometric data is collected",
+  "piece": 3,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 35
+ },
+ "C009": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "Your personal information is used for many different purposes",
+  "piece": 7,
+  "arms": {
+   "PAGE": 10,
+   "RERANK": 2
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 2,
+  "page_p": 0.8763
+ },
+ "C010": {
+  "doc": "Mullvad/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 3,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 12,
+  "page_p": 0.614
+ },
+ "C011": {
+  "doc": "Instacart/Terms of Service.md",
+  "case": "The service has non-exclusive use of your content",
+  "piece": 38,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C012": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": "No warranty is made regarding an uninterrupted, timely, secure and/or error-free experience",
+  "piece": 5,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C013": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+  "piece": 2,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1
+ },
+ "C014": {
+  "doc": "Steam/Terms of Service.md",
+  "case": "This service does not guarantee that it or the products obtained through it meet your expectations or requirements",
+  "piece": 32,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 32,
+  "page_p": 0.9195
+ },
+ "C015": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "The service reviews its Privacy Policy on a regular basis",
+  "piece": 13,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 2
+ },
+ "C016": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "You must create an account to use this service",
+  "piece": 20,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 27
+ },
+ "C017": {
+  "doc": "Amazon Advertising/Privacy Policy.md",
+  "case": "The data retention period is kept to the minimum necessary for fulfilling its purposes",
+  "piece": 15,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1
+ },
+ "C018": {
+  "doc": "Steam/Terms of Service.md",
+  "case": "No guarantee is made reguarding the accuracy and/or reliability of the information provided",
+  "piece": 32,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 32
+ },
+ "C019": {
+  "doc": "Toyota Connected Services/Privacy Policy.md",
+  "case": "Third-party cookies are used for advertising",
+  "piece": 23,
+  "arms": {
+   "PAGE": 5,
+   "RERANK": 3
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9501
+ },
+ "C020": {
+  "doc": "Google/Privacy Policy.md",
+  "case": " You are being tracked via social media cookies/pixels",
+  "piece": 54,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 32
+ },
+ "C021": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "Many different types of personal data are collected",
+  "piece": 2,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1
+ },
+ "C022": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "The posting of pornographic content is prohibited",
+  "piece": 9,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 5,
+  "page_p": 0.9612
+ },
+ "C023": {
+  "doc": "Instacart/Terms of Service.md",
+  "case": "You must create an account to use this service",
+  "piece": 30,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C024": {
+  "doc": "ProtonVPN/Privacy Policy.md",
+  "case": "Your personal data may be aggregated into statistics",
+  "piece": 3,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9283
+ },
+ "C025": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": "You should revisit the terms periodically, although in case of material changes, the service will notify",
+  "piece": 16,
+  "arms": {
+   "PAGE": 8,
+   "RERANK": 1
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 4,
+  "page_p": 0.7558
+ },
+ "C026": {
+  "doc": "UserDrive.com/Privacy Policy.md",
+  "case": "This service claims that your personal data is not being sold",
+  "piece": 4,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 6
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9678
+ },
+ "C027": {
+  "doc": "Toyota Connected Services/Privacy Policy.md",
+  "case": "You may be tracked on other websites",
+  "piece": 10,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C028": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "Your personal data may be aggregated into statistics",
+  "piece": 11,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 11,
+  "page_p": 0.9501
+ },
+ "C029": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 6,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 4,
+  "page_p": 0.7311
+ },
+ "C030": {
+  "doc": "ubuntu.com/Privacy Policy.md",
+  "case": "Your private content may be accessed by people working for the service",
+  "piece": 16,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 4
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 35,
+  "page_p": 0.8793
+ },
+ "C031": {
+  "doc": "Wargaming/Terms of Service.md",
+  "case": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+  "piece": 60,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9528
+ },
+ "C032": {
+  "doc": "Google Analytics/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 17,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 6
+ },
+ "C033": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": "Other rules, terms, conditions and/or guidelines may apply",
+  "piece": 7,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 4,
+  "page_p": 0.8482
+ },
+ "C034": {
+  "doc": "Google Analytics/Terms of Service.md",
+  "case": "Other rules, terms, conditions and/or guidelines may apply",
+  "piece": 18,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 6,
+  "page_p": 0.7906
+ },
+ "C035": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "Your content can be licensed to third parties",
+  "piece": 3,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 5
+ },
+ "C036": {
+  "doc": "GitLab/Terms of Service.md",
+  "case": "No guarantee is made regarding the correction of software errors",
+  "piece": 2,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 22,
+  "page_p": 0.8786
+ },
+ "C037": {
+  "doc": "Wargaming/Terms of Service.md",
+  "case": "Your account can be deleted or permanently suspended without prior notice and without a reason",
+  "piece": 46,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C038": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "Information is provided about what kind of personal information is collected",
+  "piece": 1,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 11
+ },
+ "C039": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": "This service does not condone any ideas contained in its user-generated contents",
+  "piece": 15,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 4
+ },
+ "C040": {
+  "doc": "Wargaming/Terms of Service.md",
+  "case": "You must report to the service any unauthorized use of your account or any breach of security",
+  "piece": 5,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9638
+ },
+ "C041": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 16,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 4
+ },
+ "C042": {
+  "doc": "Mullvad/Terms of Service.md",
+  "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 0,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 12
+ },
+ "C043": {
+  "doc": "Google/Privacy Policy.md",
+  "case": "Tracking pixels are used in service-to-user communication",
+  "piece": 54,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 32,
+  "page_p": 0.6044
+ },
+ "C044": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "Information is gathered about you through third parties",
+  "piece": 2,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.947
+ },
+ "C045": {
+  "doc": "Toyota Connected Services/Privacy Policy.md",
+  "case": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+  "piece": 19,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 8
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9735
+ },
+ "C046": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "You must report to the service any unauthorized use of your account or any breach of security",
+  "piece": 8,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 5,
+  "page_p": 0.9607
+ },
+ "C047": {
+  "doc": "Google/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is used",
+  "piece": 39,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 32
+ },
+ "C048": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "A complaint mechanism is provided for the handling of personal data",
+  "piece": 20,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 2,
+  "page_p": 0.8925
+ },
+ "C049": {
+  "doc": "Wargaming/Terms of Service.md",
+  "case": "You have the right to leave this service at any time",
+  "piece": 46,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.948
+ },
+ "C050": {
+  "doc": "GitLab/Terms of Service.md",
+  "case": "Other rules, terms, conditions and/or guidelines may apply",
+  "piece": 0,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 22,
+  "page_p": 0.8539
+ },
+ "C051": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 34,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 11
+ },
+ "C052": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": "Defend, indemnify, hold harmless; survives termination",
+  "piece": 17,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C053": {
+  "doc": "GitLab/Terms of Service.md",
+  "case": "Your content can be licensed to third parties",
+  "piece": 1,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 22
+ },
+ "C054": {
+  "doc": "Google Analytics/Terms of Service.md",
+  "case": "The service has non-exclusive use of your content",
+  "piece": 6,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 6
+ },
+ "C055": {
+  "doc": "Google Analytics/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 13,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 6,
+  "page_p": 0.8149
+ },
+ "C056": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "Your private content may be accessed by people working for the service",
+  "piece": 26,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 11,
+  "page_p": 0.9344
+ },
+ "C057": {
+  "doc": "Mullvad/Terms of Service.md",
+  "case": "No guarantee is made regarding the correction of software errors",
+  "piece": 3,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 12,
+  "page_p": 0.7108
+ },
+ "C058": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "This service informs you that its Privacy Policy does not apply to third-party services",
+  "piece": 17,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 1
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 2,
+  "page_p": 0.9647
+ },
+ "C059": {
+  "doc": "UserDrive.com/Privacy Policy.md",
+  "case": "Your personal data may be used for marketing purposes",
+  "piece": 4,
+  "arms": {
+   "PAGE": 10,
+   "RERANK": 5
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9123
+ },
+ "C060": {
+  "doc": "Toyota Connected Services/Privacy Policy.md",
+  "case": "Private messages can be read",
+  "piece": 36,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C061": {
+  "doc": "Steam/Terms of Service.md",
+  "case": "You maintain ownership of your content",
+  "piece": 12,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 32
+ },
+ "C062": {
+  "doc": "ProtonVPN/Privacy Policy.md",
+  "case": "Your personal data may be used for marketing purposes",
+  "piece": 2,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.8045
+ },
+ "C063": {
+  "doc": "Google Analytics/Terms of Service.md",
+  "case": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision",
+  "piece": 20,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 6,
+  "page_p": 0.7519
+ },
+ "C064": {
+  "doc": "Google Analytics/Terms of Service.md",
+  "case": "You cannot distribute or disclose your account to third parties",
+  "piece": 13,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 6
+ },
+ "C065": {
+  "doc": "Google/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is used",
+  "piece": 11,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 32,
+  "page_p": 0.9342
+ },
+ "C066": {
+  "doc": "Steam/Terms of Service.md",
+  "case": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+  "piece": 35,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 2
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 32,
+  "page_p": 0.9592
+ },
+ "C067": {
+  "doc": "Steam/Terms of Service.md",
+  "case": "There is a date of the last update of the agreements",
+  "piece": 40,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 32,
+  "page_p": 0.9613
+ },
+ "C068": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "Your personal data is used for automated decision-making, profiling or AI training",
+  "piece": 11,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1
+ },
+ "C069": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "You can choose with whom you share content",
+  "piece": 0,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 2
+ },
+ "C070": {
+  "doc": "UserDrive.com/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 0,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C071": {
+  "doc": "Steam/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 37,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 32,
+  "page_p": 0.8375
+ },
+ "C072": {
+  "doc": "ProtonVPN/Privacy Policy.md",
+  "case": "You can opt out of receiving promotional communications",
+  "piece": 2,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 6
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.947
+ },
+ "C073": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "The service reviews its Privacy Policy on a regular basis",
+  "piece": 27,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 11,
+  "page_p": 0.958
+ },
+ "C074": {
+  "doc": "UserDrive.com/Privacy Policy.md",
+  "case": "You can opt out of targeted advertising",
+  "piece": 3,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 2
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9721
+ },
+ "C075": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 17,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C076": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 26,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 11,
+  "page_p": 0.9584
+ },
+ "C077": {
+  "doc": "Wargaming/Terms of Service.md",
+  "case": "This service assumes no liability for unauthorized access to your personal information",
+  "piece": 6,
+  "arms": {
+   "PAGE": 10,
+   "RERANK": 10
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9392
+ },
+ "C078": {
+  "doc": "Instacart/Terms of Service.md",
+  "case": "No warranty is made regarding an uninterrupted, timely, secure and/or error-free experience",
+  "piece": 41,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C079": {
+  "doc": "Google/Privacy Policy.md",
+  "case": "The data retention period is kept to the minimum necessary for fulfilling its purposes",
+  "piece": 20,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 32
+ },
+ "C080": {
+  "doc": "Google Analytics/Terms of Service.md",
+  "case": "You agree not to use the service for illegal purposes",
+  "piece": 15,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 6
+ },
+ "C081": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": "You agree not to submit libelous, harassing or threatening content",
+  "piece": 12,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9317
+ },
+ "C082": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 34,
+  "arms": {
+   "PAGE": 5,
+   "RERANK": 10
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 27,
+  "page_p": 0.9042
+ },
+ "C083": {
+  "doc": "ProtonVPN/Privacy Policy.md",
+  "case": "Third-party cookies are used for statistics",
+  "piece": 5,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C084": {
+  "doc": "Instacart/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 42,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9698
+ },
+ "C085": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "Information is provided about what kind of personal information is collected",
+  "piece": 28,
+  "arms": {
+   "PAGE": 7,
+   "RERANK": 5
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 10,
+  "page_p": 0.952
+ },
+ "C086": {
+  "doc": "ProtonVPN/Privacy Policy.md",
+  "case": "A complaint mechanism is provided for the handling of personal data",
+  "piece": 8,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.8721
+ },
+ "C087": {
+  "doc": "Mullvad/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 0,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 12
+ },
+ "C088": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 18,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 6
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 2,
+  "page_p": 0.9695
+ },
+ "C089": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "You can opt out of targeted advertising",
+  "piece": 33,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 1
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 11,
+  "page_p": 0.9583
+ },
+ "C090": {
+  "doc": "UserDrive.com/Privacy Policy.md",
+  "case": "Your IP address is collected, which can be used to view your approximate location",
+  "piece": 1,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9297
+ },
+ "C091": {
+  "doc": "ubuntu.com/Privacy Policy.md",
+  "case": "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+  "piece": 3,
+  "arms": {
+   "PAGE": 8,
+   "RERANK": 10
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 35,
+  "page_p": 0.6276
+ },
+ "C092": {
+  "doc": "GitLab/Terms of Service.md",
+  "case": "No guarantee is made reguarding the accuracy and/or reliability of the information provided",
+  "piece": 2,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 7
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 22,
+  "page_p": 0.8563
+ },
+ "C093": {
+  "doc": "Instacart/Terms of Service.md",
+  "case": "You are responsible for maintaining the security of your account and for the activities on your account",
+  "piece": 30,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 3
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9711
+ },
+ "C094": {
+  "doc": "Wargaming/Terms of Service.md",
+  "case": "You agree not to submit libelous, harassing or threatening content",
+  "piece": 29,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9441
+ },
+ "C095": {
+  "doc": "Instacart/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 47,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 8
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9516
+ },
+ "C096": {
+  "doc": "Amazon Advertising/Privacy Policy.md",
+  "case": "Many different types of personal data are collected",
+  "piece": 21,
+  "arms": {
+   "PAGE": 5,
+   "RERANK": 4
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.9269
+ },
+ "C097": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 27,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 10
+ },
+ "C098": {
+  "doc": "Wargaming/Terms of Service.md",
+  "case": "You cannot distribute or disclose your account to third parties",
+  "piece": 5,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C099": {
+  "doc": "Mullvad/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 3,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 5
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 12,
+  "page_p": 0.8057
+ },
+ "C100": {
+  "doc": "GitLab/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 4,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 22
+ },
+ "C101": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "You must create an account to use this service",
+  "piece": 11,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 5
+ },
+ "C102": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 27,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 10,
+  "page_p": 0.9702
+ },
+ "C103": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": "The service has non-exclusive use of your content",
+  "piece": 4,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 4
+ },
+ "C104": {
+  "doc": "GitLab/Terms of Service.md",
+  "case": "You have the right to leave this service at any time",
+  "piece": 4,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 22
+ },
+ "C105": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "The service claims to be CCPA compliant for California users",
+  "piece": 19,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.9053
+ },
+ "C106": {
+  "doc": "Amazon Advertising/Privacy Policy.md",
+  "case": "Location data may be collected, used and/or shared",
+  "piece": 21,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 6
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.96
+ },
+ "C107": {
+  "doc": "Mullvad/Terms of Service.md",
+  "case": "You should revisit the terms periodically, although in case of material changes, the service will notify",
+  "piece": 0,
+  "arms": {
+   "PAGE": 10,
+   "RERANK": 1
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 12,
+  "page_p": 0.5481
+ },
+ "C108": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 17,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.9503
+ },
+ "C109": {
+  "doc": "UserDrive.com/Privacy Policy.md",
+  "case": "Third-party cookies are used for statistics",
+  "piece": 3,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C110": {
+  "doc": "Google/Privacy Policy.md",
+  "case": "You are informed about the risk of publishing personal info online",
+  "piece": 33,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 32,
+  "page_p": 0.5285
+ },
+ "C111": {
+  "doc": "Amazon Advertising/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 18,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 1
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.9519
+ },
+ "C112": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "Extra data may be collected about you through promotions",
+  "piece": 2,
+  "arms": {
+   "PAGE": 10,
+   "RERANK": 7
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.858
+ },
+ "C113": {
+  "doc": "Google Analytics/Terms of Service.md",
+  "case": "You are prohibited from publishing any third party’s personally identifiable information without their consent",
+  "piece": 13,
+  "arms": {
+   "PAGE": 5,
+   "RERANK": 6
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 6,
+  "page_p": 0.7984
+ },
+ "C114": {
+  "doc": "GitLab/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 4,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 22,
+  "page_p": 0.7996
+ },
+ "C115": {
+  "doc": "Toyota Connected Services/Privacy Policy.md",
+  "case": "Your personal data may be used for marketing purposes",
+  "piece": 17,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 5
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9491
+ },
+ "C116": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "You are prohibited from attempting to gain unauthorized access to other computer systems",
+  "piece": 19,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 27,
+  "page_p": 0.8762
+ },
+ "C117": {
+  "doc": "Instacart/Terms of Service.md",
+  "case": "The service is provided 'as is' and to be used at your sole risk",
+  "piece": 41,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C118": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "The service claims to be CCPA compliant for California users",
+  "piece": 41,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 10,
+  "page_p": 0.9642
+ },
+ "C119": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "This service informs you that its Terms of Service does not apply to third-party services",
+  "piece": 34,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 27
+ },
+ "C120": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 6,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 3
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9464
+ },
+ "C121": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "This service is only available to users over a certain age",
+  "piece": 6,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 27,
+  "page_p": 0.8697
+ },
+ "C122": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": "The service is provided 'as is' and to be used at your sole risk",
+  "piece": 5,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9438
+ },
+ "C123": {
+  "doc": "Instacart/Terms of Service.md",
+  "case": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision",
+  "piece": 65,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 2
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9615
+ },
+ "C124": {
+  "doc": "Mullvad/Terms of Service.md",
+  "case": "This service has a no refund policy with some exceptions",
+  "piece": 2,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 12
+ },
+ "C125": {
+  "doc": "GitLab/Terms of Service.md",
+  "case": "This service assumes no liability for unauthorized access to your personal information",
+  "piece": 5,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 22
+ },
+ "C126": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "Information is provided about what kind of personal information is collected",
+  "piece": 2,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1
+ },
+ "C127": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 10,
+  "arms": {
+   "PAGE": 5,
+   "RERANK": 7
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 5,
+  "page_p": 0.9589
+ },
+ "C128": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "Sensitive data is collected and shared to target advertising",
+  "piece": 15,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 2
+ },
+ "C129": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 6,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9248
+ },
+ "C130": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "Your personal data may be aggregated into statistics",
+  "piece": 7,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 2,
+  "page_p": 0.9008
+ },
+ "C131": {
+  "doc": "Google/Privacy Policy.md",
+  "case": "This service is a subsidiary of Company X",
+  "piece": 52,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 32,
+  "page_p": 0.6283
+ },
+ "C132": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 49,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 27
+ },
+ "C133": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 1,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 11
+ },
+ "C134": {
+  "doc": "Mullvad/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 3,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 12,
+  "page_p": 0.7097
+ },
+ "C135": {
+  "doc": "Toyota Connected Services/Privacy Policy.md",
+  "case": "This service gives your personal data to third parties involved in its operation",
+  "piece": 16,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9391
+ },
+ "C136": {
+  "doc": "Toyota Connected Services/Privacy Policy.md",
+  "case": "Information is gathered about you through third parties",
+  "piece": 9,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9391
+ },
+ "C137": {
+  "doc": "Instacart/Terms of Service.md",
+  "case": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+  "piece": 65,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9441
+ },
+ "C138": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "Third-party cookies are used for advertising",
+  "piece": 19,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.9249
+ },
+ "C139": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "This service claims that your personal data is not being sold",
+  "piece": 14,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 11,
+  "page_p": 0.9805
+ },
+ "C140": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": "Your content can be deleted if you violate the terms",
+  "piece": 5,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 7
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 4,
+  "page_p": 0.8566
+ },
+ "C141": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "This service assumes no responsibility and liability for the contents of links to other websites",
+  "piece": 34,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 3
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 27,
+  "page_p": 0.958
+ },
+ "C142": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 16,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 4
+ },
+ "C143": {
+  "doc": "Mullvad/Terms of Service.md",
+  "case": "Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage",
+  "piece": 0,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 12,
+  "page_p": 0.6255
+ },
+ "C144": {
+  "doc": "ubuntu.com/Privacy Policy.md",
+  "case": "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+  "piece": 12,
+  "arms": {
+   "PAGE": 5,
+   "RERANK": 8
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 35,
+  "page_p": 0.739
+ },
+ "C145": {
+  "doc": "Instacart/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 30,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9451
+ },
+ "C146": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "Your content can be deleted if you violate the terms",
+  "piece": 10,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 6
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 5,
+  "page_p": 0.9667
+ },
+ "C147": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "You may be tracked on other websites",
+  "piece": 37,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 10
+ },
+ "C148": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 28,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 2
+ },
+ "C149": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "Third-party cookies are employed, but with opt out instructions",
+  "piece": 19,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.9412
+ },
+ "C150": {
+  "doc": "ProtonVPN/Privacy Policy.md",
+  "case": "Your personal data may be aggregated into statistics",
+  "piece": 5,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C151": {
+  "doc": "Amazon Advertising/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 0,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 2
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.9086
+ },
+ "C152": {
+  "doc": "GitLab/Terms of Service.md",
+  "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 5,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 1
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 22,
+  "page_p": 0.9614
+ },
+ "C153": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "Your content can be licensed to third parties",
+  "piece": 28,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 27
+ },
+ "C154": {
+  "doc": "Google/Privacy Policy.md",
+  "case": "Extra data may be collected about you through promotions",
+  "piece": 42,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 6
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 32,
+  "page_p": 0.6647
+ },
+ "C155": {
+  "doc": "ubuntu.com/Privacy Policy.md",
+  "case": "You may be tracked on other websites",
+  "piece": 3,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 5
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 35,
+  "page_p": 0.736
+ },
+ "C156": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "The service claims to be GDPR compliant for European users",
+  "piece": 1,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.9486
+ },
+ "C157": {
+  "doc": "Amazon Advertising/Privacy Policy.md",
+  "case": "Your private content may be accessed by people working for the service",
+  "piece": 6,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.8611
+ },
+ "C158": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "If you are the target of a copyright claim, your content and/or your account may be removed",
+  "piece": 10,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 5,
+  "page_p": 0.9302
+ },
+ "C159": {
+  "doc": "Instacart/Terms of Service.md",
+  "case": "You maintain ownership of your content",
+  "piece": 37,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C160": {
+  "doc": "Steam/Terms of Service.md",
+  "case": "A license is kept on user-generated content even after you close your account",
+  "piece": 26,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 32
+ },
+ "C161": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "The service assumes no liability for any damages the user incurs",
+  "piece": 35,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 27,
+  "page_p": 0.9225
+ },
+ "C162": {
+  "doc": "ubuntu.com/Privacy Policy.md",
+  "case": "Your personal data is used for automated decision-making, profiling or AI training",
+  "piece": 7,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 35
+ },
+ "C163": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is used",
+  "piece": 2,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1
+ },
+ "C164": {
+  "doc": "Amazon Advertising/Privacy Policy.md",
+  "case": "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+  "piece": 1,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 1
+ },
+ "C165": {
+  "doc": "ubuntu.com/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 15,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 6
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 35,
+  "page_p": 0.8162
+ },
+ "C166": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 2,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C167": {
+  "doc": "Google/Privacy Policy.md",
+  "case": "You can opt out of receiving promotional communications",
+  "piece": 6,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 32
+ },
+ "C168": {
+  "doc": "Google Analytics/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 18,
+  "arms": {
+   "PAGE": 9,
+   "RERANK": 9
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 6,
+  "page_p": 0.7614
+ },
+ "C169": {
+  "doc": "ubuntu.com/Privacy Policy.md",
+  "case": "This service shares your personal data with third parties that are not essential to its operation",
+  "piece": 15,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 35
+ },
+ "C170": {
+  "doc": "ProtonVPN/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is used",
+  "piece": 2,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 8
+  },
+  "folder": "a",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9386
+ },
+ "C171": {
+  "doc": "Wargaming/Terms of Service.md",
+  "case": "You are responsible for any risks, damages, or losses that may incur by downloading materials",
+  "piece": 43,
+  "arms": {
+   "PAGE": 8,
+   "RERANK": 2
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9446
+ },
+ "C172": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "You cannot distribute or disclose your account to third parties",
+  "piece": 9,
+  "arms": {
+   "PAGE": 9,
+   "RERANK": 5
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 5,
+  "page_p": 0.9292
+ },
+ "C173": {
+  "doc": "GitLab/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 2,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "a",
+  "type": "terms",
+  "known_positives": 22,
+  "page_p": 0.8499
+ },
+ "C174": {
+  "doc": "ubuntu.com/Privacy Policy.md",
+  "case": " You are being tracked via social media cookies/pixels",
+  "piece": 11,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 2
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 35,
+  "page_p": 0.9495
+ },
+ "C175": {
+  "doc": "ProtonVPN/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 6,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9458
+ },
+ "C176": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": "You cannot distribute or disclose your account to third parties",
+  "piece": 14,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 4
+ },
+ "C177": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "Information is gathered about you through third parties",
+  "piece": 6,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 1
+ },
+ "C178": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": "You must report to the service any unauthorized use of your account or any breach of security",
+  "piece": 3,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9551
+ },
+ "C179": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "Information is gathered about you through third parties",
+  "piece": 19,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 10
+ },
+ "C180": {
+  "doc": "Mullvad/Terms of Service.md",
+  "case": "You have the right to leave this service at any time",
+  "piece": 0,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 10
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 12,
+  "page_p": 0.7437
+ },
+ "C181": {
+  "doc": "Google Analytics/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 17,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 10
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 6,
+  "page_p": 0.7945
+ },
+ "C182": {
+  "doc": "Mullvad/Terms of Service.md",
+  "case": "This service does not guarantee that it or the products obtained through it meet your expectations or requirements",
+  "piece": 3,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 12,
+  "page_p": 0.9069
+ },
+ "C183": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": "The service can stop being provided at any time",
+  "piece": 18,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9614
+ },
+ "C184": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "Sensitive data is collected and shared to target advertising",
+  "piece": 31,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 10
+ },
+ "C185": {
+  "doc": "GitLab/Terms of Service.md",
+  "case": "This service assumes no responsibility and liability for the contents of links to other websites",
+  "piece": 2,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 2
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 22,
+  "page_p": 0.9188
+ },
+ "C186": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "Many different types of personal data are collected",
+  "piece": 28,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 10
+ },
+ "C187": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "No refunds will be issued",
+  "piece": 1,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 5,
+  "page_p": 0.9359
+ },
+ "C188": {
+  "doc": "UserDrive.com/Privacy Policy.md",
+  "case": "Third-party cookies are used for advertising",
+  "piece": 3,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9723
+ },
+ "C189": {
+  "doc": "Google/Privacy Policy.md",
+  "case": "Your personal information is used for many different purposes",
+  "piece": 64,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 32,
+  "page_p": 0.8327
+ },
+ "C190": {
+  "doc": "Wargaming/Terms of Service.md",
+  "case": "Spidering, crawling, or accessing the site through any automated means is not allowed",
+  "piece": 3,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C191": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 32,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 10,
+  "page_p": 0.9669
+ },
+ "C192": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "You must create an account to use this service",
+  "piece": 0,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 5
+ },
+ "C193": {
+  "doc": "GitLab/Terms of Service.md",
+  "case": "You are prohibited from sending chain letters, junk mail, spam or any unsolicited messages",
+  "piece": 3,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 22,
+  "page_p": 0.7741
+ },
+ "C194": {
+  "doc": "GitLab/Terms of Service.md",
+  "case": "You cannot distribute or disclose your account to third parties",
+  "piece": 1,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 22,
+  "page_p": 0.6915
+ },
+ "C195": {
+  "doc": "UserDrive.com/Privacy Policy.md",
+  "case": "Information is provided about what kind of personal information is collected",
+  "piece": 1,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9347
+ },
+ "C196": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "You have the right to leave this service at any time",
+  "piece": 4,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 5,
+  "page_p": 0.9214
+ },
+ "C197": {
+  "doc": "Instacart/Terms of Service.md",
+  "case": "Third parties are involved in operating the service",
+  "piece": 2,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9461
+ },
+ "C198": {
+  "doc": "Google/Privacy Policy.md",
+  "case": "Your provided identifiable information is actively checked by the service",
+  "piece": 39,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 32
+ },
+ "C199": {
+  "doc": "Google/Privacy Policy.md",
+  "case": "Sensitive data is collected and shared to target advertising",
+  "piece": 8,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 32
+ },
+ "C200": {
+  "doc": "ProtonVPN/Privacy Policy.md",
+  "case": "The service reviews its Privacy Policy on a regular basis",
+  "piece": 8,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C201": {
+  "doc": "Wargaming/Terms of Service.md",
+  "case": "Third parties are involved in operating the service",
+  "piece": 45,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C202": {
+  "doc": "Steam/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 35,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 32
+ },
+ "C203": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "This service is only available to users over a certain age",
+  "piece": 35,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 2
+ },
+ "C204": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "Your content can be licensed to third parties",
+  "piece": 23,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 27,
+  "page_p": 0.8569
+ },
+ "C205": {
+  "doc": "Google Analytics/Terms of Service.md",
+  "case": "Third parties are involved in operating the service",
+  "piece": 13,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 6,
+  "page_p": 0.771
+ },
+ "C206": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "Your personal data may be used for marketing purposes",
+  "piece": 14,
+  "arms": {
+   "PAGE": 10,
+   "RERANK": 8
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 10,
+  "page_p": 0.9448
+ },
+ "C207": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "The service has non-exclusive use of your content",
+  "piece": 3,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 5
+ },
+ "C208": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "Location data may be collected, used and/or shared",
+  "piece": 6,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 11
+ },
+ "C209": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 24,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 10
+ },
+ "C210": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "A secure, anonymized record of your data may be kept for analytical purposes after the data retention period ends",
+  "piece": 23,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 1
+ },
+ "C211": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "Your content can be distributed through any media known now or in the future",
+  "piece": 55,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 27
+ },
+ "C212": {
+  "doc": "Wargaming/Terms of Service.md",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 41,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 3
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9589
+ },
+ "C213": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "This service is a subsidiary of Company X",
+  "piece": 35,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 2
+ },
+ "C214": {
+  "doc": "Google Analytics/Terms of Service.md",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 12,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 6,
+  "page_p": 0.9118
+ },
+ "C215": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "Your personal data is used for automated decision-making, profiling or AI training",
+  "piece": 7,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 2,
+  "page_p": 0.9206
+ },
+ "C216": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "You agree not to use the service for illegal purposes",
+  "piece": 9,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 4
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 5,
+  "page_p": 0.9561
+ },
+ "C217": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "You can choose with whom you share content",
+  "piece": 12,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 11
+ },
+ "C218": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "You can opt out of receiving promotional communications",
+  "piece": 19,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 3
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 2,
+  "page_p": 0.9653
+ },
+ "C219": {
+  "doc": "GitLab/Terms of Service.md",
+  "case": "Specific content can be deleted without reason and may be removed without prior notice",
+  "piece": 4,
+  "arms": {
+   "PAGE": 8,
+   "RERANK": 8
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 22,
+  "page_p": 0.7984
+ },
+ "C220": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "Information is provided about what kind of personal information is collected",
+  "piece": 12,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 11,
+  "page_p": 0.9452
+ },
+ "C221": {
+  "doc": "Instacart/Terms of Service.md",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 44,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9578
+ },
+ "C222": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "Location data may be collected, used and/or shared",
+  "piece": 6,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 2,
+  "page_p": 0.9393
+ },
+ "C223": {
+  "doc": "ProtonVPN/Privacy Policy.md",
+  "case": "You are informed about the risk of publishing personal info online",
+  "piece": 6,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9044
+ },
+ "C224": {
+  "doc": "UserDrive.com/Privacy Policy.md",
+  "case": "You can opt out of receiving promotional communications",
+  "piece": 4,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9576
+ },
+ "C225": {
+  "doc": "ProtonVPN/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 3,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C226": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "You should revisit the terms periodically, although in case of material changes, the service will notify",
+  "piece": 49,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 27
+ },
+ "C227": {
+  "doc": "Steam/Terms of Service.md",
+  "case": "This service assumes no responsibility and liability for the contents of links to other websites",
+  "piece": 25,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 32
+ },
+ "C228": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": "Your content can be licensed to third parties",
+  "piece": 3,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 4,
+  "page_p": 0.8097
+ },
+ "C229": {
+  "doc": "Toyota Connected Services/Privacy Policy.md",
+  "case": "Your personal data is used to employ targeted third-party advertising",
+  "piece": 37,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C230": {
+  "doc": "Wargaming/Terms of Service.md",
+  "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 41,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9509
+ },
+ "C231": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": "You agree not to use the service for illegal purposes",
+  "piece": 5,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 4,
+  "page_p": 0.765
+ },
+ "C232": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": "This service does not guarantee that it or the products obtained through it meet your expectations or requirements",
+  "piece": 6,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 4,
+  "page_p": 0.6635
+ },
+ "C233": {
+  "doc": "Steam/Terms of Service.md",
+  "case": "You shall not interfere with another person's enjoyment of the service",
+  "piece": 32,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 32
+ },
+ "C234": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "The service claims to be GDPR compliant for European users",
+  "piece": 41,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 10,
+  "page_p": 0.9516
+ },
+ "C235": {
+  "doc": "Steam/Terms of Service.md",
+  "case": "Your account can be deleted or permanently suspended without prior notice and without a reason",
+  "piece": 24,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 32,
+  "page_p": 0.8207
+ },
+ "C236": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "Information is provided about security practices",
+  "piece": 15,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.9632
+ },
+ "C237": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "Location data may be collected, used and/or shared",
+  "piece": 10,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 2
+ },
+ "C238": {
+  "doc": "ubuntu.com/Privacy Policy.md",
+  "case": "The service claims to be GDPR compliant for European users",
+  "piece": 8,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 35,
+  "page_p": 0.5919
+ },
+ "C239": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "Your personal information is used for many different purposes",
+  "piece": 10,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 11
+ },
+ "C240": {
+  "doc": "Wargaming/Terms of Service.md",
+  "case": "You waive your right to a class action",
+  "piece": 50,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 5
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9739
+ },
+ "C241": {
+  "doc": "Google/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 21,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 4
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 32,
+  "page_p": 0.9232
+ },
+ "C242": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "This service is only available for use individually and non-commercially",
+  "piece": 9,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 5
+ },
+ "C243": {
+  "doc": "UserDrive.com/Privacy Policy.md",
+  "case": "You can opt out of targeted advertising",
+  "piece": 0,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C244": {
+  "doc": "ubuntu.com/Privacy Policy.md",
+  "case": "Information is gathered about you through third parties",
+  "piece": 3,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 35,
+  "page_p": 0.9229
+ },
+ "C245": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "You agree not to use the service for illegal purposes",
+  "piece": 17,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 27,
+  "page_p": 0.9377
+ },
+ "C246": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 7,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 4,
+  "page_p": 0.9414
+ },
+ "C247": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "You can limit how your information is used by third parties and the service",
+  "piece": 20,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 1
+ },
+ "C248": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "Your personal data may be used for marketing purposes",
+  "piece": 10,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 11,
+  "page_p": 0.9433
+ },
+ "C249": {
+  "doc": "Wargaming/Terms of Service.md",
+  "case": "No warranty is made regarding an uninterrupted, timely, secure and/or error-free experience",
+  "piece": 42,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C250": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "This service shares your personal data with third parties that are not essential to its operation",
+  "piece": 6,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 1
+ },
+ "C251": {
+  "doc": "Amazon Advertising/Privacy Policy.md",
+  "case": "The service claims that third parties it shares your personal information with are bound by confidentiality obligations",
+  "piece": 16,
+  "arms": {
+   "PAGE": 9,
+   "RERANK": 5
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.8563
+ },
+ "C252": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": "You agree not to use the service for illegal purposes",
+  "piece": 12,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9109
+ },
+ "C253": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+  "piece": 12,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 11
+ },
+ "C254": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "Your personal data may be aggregated into statistics",
+  "piece": 22,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 10,
+  "page_p": 0.948
+ },
+ "C255": {
+  "doc": "ubuntu.com/Privacy Policy.md",
+  "case": "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+  "piece": 0,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 35
+ },
+ "C256": {
+  "doc": "Amazon Advertising/Privacy Policy.md",
+  "case": "There is a date of the last update of the agreements",
+  "piece": 0,
+  "arms": {
+   "PAGE": 4,
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.9461
+ },
+ "C257": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "Your personal information is used for many different purposes",
+  "piece": 28,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 10
+ },
+ "C258": {
+  "doc": "Instacart/Terms of Service.md",
+  "case": "This service does not guarantee that it or the products obtained through it meet your expectations or requirements",
+  "piece": 41,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9474
+ },
+ "C259": {
+  "doc": "GitLab/Terms of Service.md",
+  "case": "This service is only available for use individually and non-commercially",
+  "piece": 0,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 22
+ },
+ "C260": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 5,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 4
+ },
+ "C261": {
+  "doc": "ProtonVPN/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 3,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 4
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9574
+ },
+ "C262": {
+  "doc": "ProtonVPN/Privacy Policy.md",
+  "case": "Location data may be collected, used and/or shared",
+  "piece": 5,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C263": {
+  "doc": "Google/Privacy Policy.md",
+  "case": "Sensitive data is collected and shared to target advertising",
+  "piece": 36,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 32,
+  "page_p": 0.497
+ },
+ "C264": {
+  "doc": "Toyota Connected Services/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 22,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9402
+ },
+ "C265": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 17,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C266": {
+  "doc": "Steam/Terms of Service.md",
+  "case": "The terms may be changed at any time, but you will receive notification of the changes",
+  "piece": 35,
+  "arms": {
+   "PAGE": 4,
+   "RERANK": 4
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 32,
+  "page_p": 0.9426
+ },
+ "C267": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": "Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage",
+  "piece": 17,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C268": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": "Your account can be deleted or permanently suspended without prior notice and without a reason",
+  "piece": 3,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C269": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "The service assumes no liability for any damages the user incurs",
+  "piece": 10,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 5
+ },
+ "C270": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "Information is provided about what kind of personal information is collected",
+  "piece": 4,
+  "arms": {
+   "PAGE": 5,
+   "RERANK": 5
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 2,
+  "page_p": 0.9377
+ },
+ "C271": {
+  "doc": "Wargaming/Terms of Service.md",
+  "case": "Defend, indemnify, hold harmless; survives termination",
+  "piece": 41,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C272": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 2,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 1
+ },
+ "C273": {
+  "doc": "Steam/Terms of Service.md",
+  "case": "Your content can be deleted if you violate the terms",
+  "piece": 37,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 32,
+  "page_p": 0.8939
+ },
+ "C274": {
+  "doc": "UserDrive.com/Privacy Policy.md",
+  "case": "Third-party cookies are employed, but with opt out instructions",
+  "piece": 3,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9367
+ },
+ "C275": {
+  "doc": "Google Analytics/Terms of Service.md",
+  "case": "No refunds will be issued",
+  "piece": 17,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 6,
+  "page_p": 0.9347
+ },
+ "C276": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "You may be tracked on other websites",
+  "piece": 17,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 2
+ },
+ "C277": {
+  "doc": "UserDrive.com/Privacy Policy.md",
+  "case": "Information is gathered about you through third parties",
+  "piece": 2,
+  "arms": {
+   "PAGE": 9,
+   "RERANK": 7
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9152
+ },
+ "C278": {
+  "doc": "ProtonVPN/Privacy Policy.md",
+  "case": "Referring and/or exit pages are tracked",
+  "piece": 4,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.8299
+ },
+ "C279": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 17,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C280": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "This service claims that your personal data is not being sold",
+  "piece": 32,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 10,
+  "page_p": 0.9554
+ },
+ "C281": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "Location data may be collected, used and/or shared",
+  "piece": 32,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 10,
+  "page_p": 0.9535
+ },
+ "C282": {
+  "doc": "Google/Privacy Policy.md",
+  "case": "This service shares your personal data with third parties that are not essential to its operation",
+  "piece": 39,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 32
+ },
+ "C283": {
+  "doc": "Amazon Advertising/Privacy Policy.md",
+  "case": "You can limit how your information is used by third parties and the service",
+  "piece": 10,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 1
+ },
+ "C284": {
+  "doc": "Amazon Advertising/Privacy Policy.md",
+  "case": "Sensitive data is collected and shared to target advertising",
+  "piece": 0,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 1
+ },
+ "C285": {
+  "doc": "Mullvad/Terms of Service.md",
+  "case": "You aren’t forced into binding arbitration in case of disputes",
+  "piece": 3,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 12,
+  "page_p": 0.6709
+ },
+ "C286": {
+  "doc": "Mullvad/Terms of Service.md",
+  "case": "You agree not to use the service for illegal purposes",
+  "piece": 0,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 12
+ },
+ "C287": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 22,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 11,
+  "page_p": 0.9465
+ },
+ "C288": {
+  "doc": "Toyota Connected Services/Privacy Policy.md",
+  "case": "You can request access, correction and/or deletion of your data",
+  "piece": 43,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9689
+ },
+ "C289": {
+  "doc": "Amazon Advertising/Privacy Policy.md",
+  "case": "Promises will be kept after a merger or acquisition",
+  "piece": 6,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.798
+ },
+ "C290": {
+  "doc": "Amazon Advertising/Privacy Policy.md",
+  "case": "This service informs you that its Privacy Policy does not apply to third-party services",
+  "piece": 6,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 1
+ },
+ "C291": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": "You cannot distribute or disclose your account to third parties",
+  "piece": 2,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 4,
+  "page_p": 0.7729
+ },
+ "C292": {
+  "doc": "UserDrive.com/Privacy Policy.md",
+  "case": "You may be tracked on other websites",
+  "piece": 3,
+  "arms": {
+   "RERANK": 3
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C293": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "A complaint mechanism is provided for the handling of personal data",
+  "piece": 23,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.9199
+ },
+ "C294": {
+  "doc": "ProtonVPN/Privacy Policy.md",
+  "case": "You may be tracked on other websites",
+  "piece": 5,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C295": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "Banned users are prohibited from creating a new account",
+  "piece": 2,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 5
+ },
+ "C296": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "Any liability on behalf of the service is only limited to the fees you paid as a user",
+  "piece": 10,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 5
+ },
+ "C297": {
+  "doc": "UserDrive.com/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is used",
+  "piece": 4,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9255
+ },
+ "C298": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "No guarantee is made reguarding the accuracy and/or reliability of the information provided",
+  "piece": 34,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 27
+ },
+ "C299": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": "You must create an account to use this service",
+  "piece": 1,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 4
+ },
+ "C300": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": "Your account can be suspended for several reasons",
+  "piece": 5,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 4,
+  "page_p": 0.8958
+ },
+ "C301": {
+  "doc": "Wargaming/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 47,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.958
+ },
+ "C302": {
+  "doc": "Netflix/Terms of Service.md",
+  "case": "You agree not to use the service for illegal purposes",
+  "piece": 4,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 4
+ },
+ "C303": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "Third-party cookies are used for advertising",
+  "piece": 37,
+  "arms": {
+   "RERANK": 2
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 10
+ },
+ "C304": {
+  "doc": "Toyota Connected Services/Privacy Policy.md",
+  "case": "Information is gathered about you through third parties",
+  "piece": 10,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C305": {
+  "doc": "Steam/Terms of Service.md",
+  "case": "No guarantee is given regarding quality",
+  "piece": 9,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 32,
+  "page_p": 0.856
+ },
+ "C306": {
+  "doc": "Mullvad/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 0,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 12
+ },
+ "C307": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "Spidering, crawling, or accessing the site through any automated means is not allowed",
+  "piece": 19,
+  "arms": {
+   "RERANK": 6
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 27
+ },
+ "C308": {
+  "doc": "Toyota Connected Services/Privacy Policy.md",
+  "case": "Sensitive data is collected and shared to target advertising",
+  "piece": 37,
+  "arms": {
+   "RERANK": 1
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C309": {
+  "doc": "Toyota Connected Services/Privacy Policy.md",
+  "case": "Your personal data is used for automated decision-making, profiling or AI training",
+  "piece": 16,
+  "arms": {
+   "PAGE": 10
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9326
+ },
+ "C310": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "This service is only available for use individually and non-commercially",
+  "piece": 32,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 27
+ },
+ "C311": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "You are informed about the risk of publishing personal info online",
+  "piece": 12,
+  "arms": {
+   "RERANK": 4
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 11
+ },
+ "C312": {
+  "doc": "UserDrive.com/Privacy Policy.md",
+  "case": "Location data may be collected, used and/or shared",
+  "piece": 1,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C313": {
+  "doc": "Amazon Advertising/Privacy Policy.md",
+  "case": "Third-party cookies are employed, but with opt out instructions",
+  "piece": 12,
+  "arms": {
+   "PAGE": 3
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.9482
+ },
+ "C314": {
+  "doc": "Mullvad/Terms of Service.md",
+  "case": "Your account may be suspended and/or terminated for breaching the Terms of Service",
+  "piece": 0,
+  "arms": {
+   "RERANK": 7
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 12
+ },
+ "C315": {
+  "doc": "Google Analytics/Terms of Service.md",
+  "case": "You are responsible for maintaining the security of your account and for the activities on your account",
+  "piece": 5,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 2
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 6,
+  "page_p": 0.9248
+ },
+ "C316": {
+  "doc": "Steam/Terms of Service.md",
+  "case": "Spidering, crawling, or accessing the site through any automated means is not allowed",
+  "piece": 23,
+  "arms": {
+   "PAGE": 6
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 32,
+  "page_p": 0.8953
+ },
+ "C317": {
+  "doc": "UserDrive.com/Privacy Policy.md",
+  "case": "Your personal data is used to employ targeted third-party advertising",
+  "piece": 3,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C318": {
+  "doc": "GitLab/Terms of Service.md",
+  "case": "You maintain ownership of your content",
+  "piece": 1,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 22
+ },
+ "C319": {
+  "doc": "Toyota Connected Services/Privacy Policy.md",
+  "case": "Location data may be collected, used and/or shared",
+  "piece": 37,
+  "arms": {
+   "PAGE": 3,
+   "RERANK": 6
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9727
+ },
+ "C320": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": " Terms may be changed any time at their discretion, without notice to you ",
+  "piece": 14,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9561
+ },
+ "C321": {
+  "doc": "NordVPN/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 0,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.9141
+ },
+ "C322": {
+  "doc": "Alibaba.com/Privacy Policy.md",
+  "case": "Some personal data may be kept for business interests or legal obligations",
+  "piece": 31,
+  "arms": {
+   "PAGE": 9
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 2,
+  "page_p": 0.8875
+ },
+ "C323": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "Your personal data may be sold unless you opt out",
+  "piece": 30,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 10
+ },
+ "C324": {
+  "doc": "Google Analytics/Terms of Service.md",
+  "case": "You should revisit the terms periodically, although in case of material changes, the service will notify",
+  "piece": 18,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 6
+ },
+ "C325": {
+  "doc": "Toyota Connected Services/Privacy Policy.md",
+  "case": "You can opt out of targeted advertising",
+  "piece": 24,
+  "arms": {
+   "PAGE": 2,
+   "RERANK": 2
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0,
+  "page_p": 0.9732
+ },
+ "C326": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "You agree to indemnify and hold the service harmless in case of a claim related to your use of the service",
+  "piece": 42,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 27,
+  "page_p": 0.9042
+ },
+ "C327": {
+  "doc": "Instacart/Terms of Service.md",
+  "case": "You must report to the service any unauthorized use of your account or any breach of security",
+  "piece": 30,
+  "arms": {
+   "PAGE": 5
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9566
+ },
+ "C328": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "Other rules, terms, conditions and/or guidelines may apply",
+  "piece": 54,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 27
+ },
+ "C329": {
+  "doc": "Steam/Terms of Service.md",
+  "case": "You are prohibited from publishing any third party’s personally identifiable information without their consent",
+  "piece": 13,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 32
+ },
+ "C330": {
+  "doc": "Toyota Connected Services/Privacy Policy.md",
+  "case": "Information is provided about how your personal data is collected",
+  "piece": 7,
+  "arms": {
+   "RERANK": 9
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C331": {
+  "doc": "Google/Privacy Policy.md",
+  "case": "This service shares your personal data with third parties that are not essential to its operation",
+  "piece": 25,
+  "arms": {
+   "PAGE": 8
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 32,
+  "page_p": 0.6006
+ },
+ "C332": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "This service gives your personal data to third parties involved in its operation",
+  "piece": 11,
+  "arms": {
+   "RERANK": 10
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 11
+ },
+ "C333": {
+  "doc": "Jottacloud/Terms of Service.md",
+  "case": "You are responsible for maintaining the security of your account and for the activities on your account",
+  "piece": 8,
+  "arms": {
+   "PAGE": 1
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 5,
+  "page_p": 0.9677
+ },
+ "C334": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "Location data may be collected, used and/or shared",
+  "piece": 12,
+  "arms": {
+   "PAGE": 2
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 11,
+  "page_p": 0.9704
+ },
+ "C335": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": "No guarantee is made reguarding the accuracy and/or reliability of the information provided",
+  "piece": 5,
+  "arms": {
+   "RERANK": 5
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0
+ },
+ "C336": {
+  "doc": "Mullvad/Terms of Service.md",
+  "case": "Other rules, terms, conditions and/or guidelines may apply",
+  "piece": 2,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 12,
+  "page_p": 0.733
+ },
+ "C337": {
+  "doc": "Waze/Privacy Policy.md",
+  "case": "Information is gathered about you through third parties",
+  "piece": 12,
+  "arms": {
+   "RERANK": 8
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 11
+ },
+ "C338": {
+  "doc": "Toyota Connected Services/Privacy Policy.md",
+  "case": "Many different types of personal data are collected",
+  "piece": 14,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 0
+ },
+ "C339": {
+  "doc": "Amazon Advertising/Privacy Policy.md",
+  "case": "The service claims to be GDPR compliant for European users",
+  "piece": 17,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 1,
+  "page_p": 0.8745
+ },
+ "C340": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "If you are the target of a copyright claim, your content and/or your account may be removed",
+  "piece": 36,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 27,
+  "page_p": 0.9126
+ },
+ "C341": {
+  "doc": "WordPress.com/Privacy Policy.md",
+  "case": "This service informs you that its Privacy Policy does not apply to third-party services",
+  "piece": 37,
+  "arms": {
+   "PAGE": 4
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 10,
+  "page_p": 0.957
+ },
+ "C342": {
+  "doc": "SoundCloud/Terms of Service.md",
+  "case": "Spidering, crawling, or accessing the site through any automated means is not allowed",
+  "piece": 33,
+  "arms": {
+   "RANDOM": 0
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 27
+ },
+ "C343": {
+  "doc": "Google/Privacy Policy.md",
+  "case": "Third-party cookies are used for advertising",
+  "piece": 68,
+  "arms": {
+   "PAGE": 6,
+   "RERANK": 7
+  },
+  "folder": "b",
+  "type": "privacy",
+  "known_positives": 32,
+  "page_p": 0.6216
+ },
+ "C344": {
+  "doc": "Steam/Terms of Service.md",
+  "case": "You authorise the service to charge a credit card supplied on re-occurring basis",
+  "piece": 15,
+  "arms": {
+   "PAGE": 1,
+   "RERANK": 1
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 32,
+  "page_p": 0.9678
+ },
+ "C345": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": "You are responsible for maintaining the security of your account and for the activities on your account",
+  "piece": 3,
+  "arms": {
+   "PAGE": 5,
+   "RERANK": 4
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9462
+ },
+ "C346": {
+  "doc": "FedEx/Terms of Service.md",
+  "case": "This service does not guarantee that it or the products obtained through it meet your expectations or requirements",
+  "piece": 5,
+  "arms": {
+   "PAGE": 7
+  },
+  "folder": "b",
+  "type": "terms",
+  "known_positives": 0,
+  "page_p": 0.9404
+ }
+}
