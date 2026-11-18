@@ -1,0 +1,70 @@
+{
+ "random_yes": 2,
+ "random_n": 20,
+ "valid": true,
+ "precision_at_10": {
+  "PAGE": {
+   "cards": 200,
+   "yes": 139,
+   "yes_share": 0.695,
+   "wilson95": [
+    0.628,
+    0.755
+   ],
+   "yes_or_partly_share": 0.955
+  },
+  "RERANK": {
+   "cards": 200,
+   "yes": 99,
+   "yes_share": 0.495,
+   "wilson95": [
+    0.426,
+    0.564
+   ],
+   "yes_or_partly_share": 0.785
+  }
+ },
+ "PAGE_minus_RERANK": {
+  "documents": 20,
+  "point": 0.2,
+  "draws_used": 2000,
+  "ci95": [
+   0.14,
+   0.27
+  ]
+ },
+ "label": {
+  "high": {
+   "cards": 133,
+   "yes": 114,
+   "yes_share": 0.857,
+   "wilson95": [
+    0.788,
+    0.907
+   ],
+   "yes_or_partly_share": 1.0
+  },
+  "rest": {
+   "cards": 67,
+   "yes": 25,
+   "yes_share": 0.373,
+   "wilson95": [
+    0.267,
+    0.493
+   ],
+   "yes_or_partly_share": 0.866
+  },
+  "high_minus_rest": {
+   "documents": 20,
+   "point": 0.484,
+   "draws_used": 2000,
+   "ci95": [
+    0.301,
+    0.639
+   ]
+  }
+ },
+ "reading_page": "in the predicted range",
+ "reading_compare": "PAGE better",
+ "reading_label": "label adopted"
+}

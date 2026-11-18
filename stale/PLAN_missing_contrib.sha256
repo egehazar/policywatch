@@ -13,3 +13,8 @@ c9c43d8b5abc2e0cb23c29bd2bef70ff937242c4dbd637608f2d543017a68452 *stale/audit_co
 35648d82613e48d64f1b81d5a5166dbc1e6efdc9487c104c6050480e99bfba9c *stale/audit_contrib_a/README.md
 c68ae657845e8095113be9809183f97af4f3bf6201cf2b52c5be8b033cf9ed52 *stale/audit_contrib_a/verdicts.json
 bbd4a8c421f4420922f22a0ef8934f7164ad6ebb884b533f26c7a8f7fa79de5d *stale/audit_contrib_b/verdicts.json
+verdicts b 2026-11-18T11:02:43Z (rater b finished; rater a still working)
+cb86e1ac29c129a755273657f6f183addc371feb0833497f5ddcf38b6f3ea256 *stale/audit_contrib_b/verdicts.json
+verdicts a 2026-11-18T11:03:07Z (rater a finished)
+99474e9796e9d73b3bbbd9a299a2f0328c79010d7274dde22f1c84f0f1910899 *stale/audit_contrib_a/verdicts.json
+cb86e1ac29c129a755273657f6f183addc371feb0833497f5ddcf38b6f3ea256 *stale/audit_contrib_b/verdicts.json

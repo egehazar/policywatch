@@ -1,694 +1,694 @@
 {
  "C174": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "The Facebook, LinkedIn and Twitter pixels/cookies track who acts on ads."
  },
  "C175": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "The \"Data security\" section describes access controls, encryption, secured backups and 2FA options."
  },
  "C176": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Login details are \"for your personal use only\" and should not be revealed, but the passage also allows others to access the account."
  },
  "C177": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is about sharing data with third parties, not gathering data about you from them."
  },
  "C178": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You agree to (a) immediately notify FedEx of any unauthorized use of Your user ID and password.\""
  },
  "C179": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage describes sharing information with vendors, not collecting information from third parties."
  },
  "C180": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "It only says that to reject changes you should stop using the service; no general right to leave at any time."
  },
  "C181": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Either party may terminate this Agreement at any time with notice... Google will stop providing... the Service.\""
  },
  "C182": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "An \"as is\" disclaimer with no guarantee of availability or accuracy, but nothing about meeting your expectations or requirements."
  },
  "C183": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"FedEx may cease providing the Information at any time.\""
  },
  "C184": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It says sensitive data is not collected except where necessary; the ad sharing described involves device identifiers and browsing, not sensitive data."
  },
  "C185": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "GitLab \"cannot and will not be responsible for the Content\", which includes links to third party websites."
  },
  "C186": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists many categories: identifiers, commercial, protected characteristics, network activity, geolocation, audio/visual."
  },
  "C187": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"All payments are non-refundable, even when the user has cancelled the subscription.\""
  },
  "C188": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Third-party cookies are placed by advertising networks to deliver and target ads."
  },
  "C189": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Shows a phone number and saved places used for several purposes (account access, connecting, ads), but only for specific data items."
  },
  "C190": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers EULA changes and account creation, nothing about automated access."
  },
  "C191": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You can usually access, correct, or delete your personal data using your account settings.\""
  },
  "C192": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"To use the Service you need to set up a Jottacloud account.\""
  },
  "C193": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Prohibited uses include \"the distribution of malicious/commercial spam\"."
  },
  "C194": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only says the website license is personal and non-transferable; nothing about sharing or disclosing an account."
  },
  "C195": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists the data collected: username, email, payment information, location, etc."
  },
  "C196": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"The User can cancel his subscription at any time.\""
  },
  "C197": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Picking, packing, and delivery services are performed by third parties.\""
  },
  "C198": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is about analytics and measurement, not checking the identifying information you provide."
  },
  "C199": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It says Google does not show personalised ads based on sensitive categories."
  },
  "C200": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"The Company reserves the right to periodically review and change this Policy.\""
  },
  "C201": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We may also integrate third party technologies into our Products, host our content... on Third Party Services.\""
  },
  "C202": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Valve may amend the terms at any time in its sole discretion, but users are notified by e-mail 30 days ahead."
  },
  "C203": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"The Platform is intended for adults\" and is not directed to users under 18."
  },
  "C204": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Uploading grants a license to other users and to operators of other websites and platforms to use your Content."
  },
  "C205": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers you using the service on behalf of a third party, not third parties operating the service."
  },
  "C206": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We use this information for marketing purposes like postcards and other mailers.\""
  },
  "C207": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The license described runs from Jottacloud to you for the Service, not a license to your content."
  },
  "C208": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Detailed location and route information is collected from GPS and other sensors."
  },
  "C209": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Data is kept where legally required, and applicant data is kept for legal obligations and internal business purposes."
  },
  "C210": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers policy updates and contact details, nothing about anonymized records after retention."
  },
  "C211": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is about jurisdiction and company disclosures, not distribution of your content."
  },
  "C212": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You agree to defend, indemnify, and hold harmless Wargaming... arising out of... your access to, use of... the Products.\""
  },
  "C213": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Mentions Alibaba.com contact details but says nothing about being a subsidiary of another company."
  },
  "C214": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "You will indemnify and hold harmless Google Affiliates against third-party claims related to your use of the Service."
  },
  "C215": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Personal information is used for machine learning (anonymized) and credit risk scoring."
  },
  "C216": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"It is a breach of this agreement to use Jottacloud Products or Services for any illegal and/or unlawful purposes.\""
  },
  "C217": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "You can decide whether to upload content, but shared content may be public; no choice of audience."
  },
  "C218": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"The right to opt-out of marketing communications we send you at any time.\""
  },
  "C219": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "GitLab may update any part of the Content at any time without notice, but this is about website content, not deletion of your content."
  },
  "C220": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Lists personal information users may choose to share (name, age, gender, picture, location), not a description of what is collected."
  },
  "C221": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You agree to defend, indemnify, and hold harmless Instacart and Retailers.\""
  },
  "C222": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Location information is listed among data used for recommendations and marketing."
  },
  "C223": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Information submitted via social media \"is done at your own risk without any guarantee of privacy.\""
  },
  "C224": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Marketing emails \"from which you can unsubscribe at any time.\""
  },
  "C225": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only mentions information provided when contacting support; it does not explain how personal data is collected."
  },
  "C226": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Material disadvantageous subscription changes are notified six weeks ahead, but nothing tells you to revisit the terms periodically."
  },
  "C227": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Valve assumes no responsibility for third-party content on Steam, but nothing specific about links to other websites."
  },
  "C228": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is about Netflix's licensed content from providers, not licensing your content to third parties."
  },
  "C229": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Describes personal information \"we may sell or share for targeted advertising\" and disclosure to advertising vendors."
  },
  "C230": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You agree to defend, indemnify, and hold harmless Wargaming... arising out of... your access to, use of... the Products.\""
  },
  "C231": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Netflix may terminate your use if you \"are engaged in illegal or fraudulent use of the service.\""
  },
  "C232": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Says viewing quality may vary with device and connection, but contains no general no-guarantee statement."
  },
  "C233": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It is a warranty disclaimer (no warranty of non-interference with your enjoyment), not a user obligation."
  },
  "C234": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only a changelog entry saying information was added \"to reflect the requirements of the EU's GDPR.\""
  },
  "C235": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Valve need not give notice before terminating, but termination is tied to illegal conduct, cheats or rule breaches, not no reason."
  },
  "C236": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Describes physical and technical security measures: access control, firewalls, encryption at rest and in transit."
  },
  "C237": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Location information, such as your general or precise geolocation data\" is collected automatically."
  },
  "C238": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Lists data subject rights with response timescales (GDPR-style) but never claims GDPR compliance."
  },
  "C239": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Information is used for updates, surveys, marketing, enforcing the terms, legal compliance and more."
  },
  "C240": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"YOU AND WARGAMING ARE EACH WAIVING THE RIGHT TO A TRIAL BY JURY OR TO PARTICIPATE IN A CLASS ACTION.\""
  },
  "C241": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "You can \"exercise your rights to request access to, update, remove and restrict the processing of your information.\""
  },
  "C242": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only Individual and Family accounts are limited to \"normal individual and non-commercial use\"; other account types are implied."
  },
  "C243": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "This is the privacy policy introduction; nothing about opting out of targeted advertising."
  },
  "C244": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Information we receive from other sources\" and from third parties such as partners, ad networks and credit reference agencies."
  },
  "C245": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "You must not use the Platform to post Content that \"violates... any law... or is otherwise illegal or unlawful.\""
  },
  "C246": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Access to Interactive Features may be suspended or terminated for breaching the Terms, but not the account itself."
  },
  "C247": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Describes rights to opt out of sale/sharing to third parties and to limit use of sensitive personal information."
  },
  "C248": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We may also use the email address that you provided to send you promotional and/or marketing materials.\""
  },
  "C249": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Do not warrant that the products... will be uninterrupted, secure, or free of errors.\""
  },
  "C250": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Data is shared with providers of bundled third-party services and in business transfers; these are not clearly non-essential sharing."
  },
  "C251": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Third parties receiving data must comply with Data Privacy Framework obligations, not explicitly confidentiality obligations."
  },
  "C252": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Unlawful use is prohibited only for the FedEx ShipAlert messaging feature."
  },
  "C253": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers information users choose to share; nothing about collecting data from people who did not interact."
  },
  "C254": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We may publish aggregate statistics about the use of our Services\" from aggregated or de-identified information."
  },
  "C255": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "General privacy principles; no mention of web beacons, pixels or fingerprinting."
  },
  "C256": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Last Updated: 1 August, 2024.\""
  },
  "C257": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It lists categories of personal information collected, not the purposes it is used for."
  },
  "C258": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We do not guarantee that the Services... will be reliable, timely, suitable\" and fitness for a particular purpose is disclaimed."
  },
  "C259": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It only sets an age minimum of 13 and even allows entities; nothing about individual non-commercial use."
  },
  "C260": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We may terminate or restrict your use of our service if you violate these Terms of Use.\""
  },
  "C261": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You can directly access, edit, delete or export personal data processed by the Company.\""
  },
  "C262": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It says the apps \"will never access or track any location-based information.\""
  },
  "C263": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Describes personalised ads based on activity and general account data, not sensitive data."
  },
  "C264": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We will retain and use your information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements.\""
  },
  "C265": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"FEDEX MAY MAKE FUTURE CHANGES OR MODIFICATIONS TO SUCH TERMS AND CONDITIONS AT ANY TIME WITHOUT NOTICE.\""
  },
  "C266": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Valve may amend the Agreement at any time, and you will be notified by e-mail at least 30 days before."
  },
  "C267": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Your subsequent viewing or use of this site will constitute your agreement to the changes.\""
  },
  "C268": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "FedEx may \"block, terminate or suspend Your... access... at any time for any reason in its sole discretion\" without notice."
  },
  "C269": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Jottacloud is under no circumstances responsible for any damage, cost or loss relating to the use of the Service.\""
  },
  "C270": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "An overview table of the personal information categories processed for each purpose."
  },
  "C271": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "You agree to defend, indemnify and hold harmless Wargaming, but nothing says this survives termination."
  },
  "C272": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Personal data is collected directly, automatically (e.g., cookies) and from third-party sources."
  },
  "C273": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Valve may restrict or cancel your Account or Subscriptions for breach, but deletion of your content is not stated."
  },
  "C274": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Third-party advertising cookies are used and you \"can opt out... through the Digital Advertising Alliance.\""
  },
  "C275": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"In the event of any termination (a) You will not be entitled to any refunds of any usage fees or any other fees.\""
  },
  "C276": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Covers anonymized data sharing and co-branded third-party sites, not tracking you on other websites."
  },
  "C277": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We may also obtain data from our third-party partners and service providers to analyze how users use our Site.\""
  },
  "C278": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Analytics collect \"outlinks, referrers\" among other page data."
  },
  "C279": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "The indemnity covers claims arising from FedEx's use of information you provide, narrower than claims related to your use of the service."
  },
  "C280": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "It denies selling personally identifying information through ads, but admits its disclosures may count as a \"sale\" or \"share\"."
  },
  "C281": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Shared information includes \"geolocation data (approximate location information from your IP address).\""
  },
  "C282": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only non-personally identifiable information is shared with partners like content licensors; ad data helps advertisers."
  },
  "C283": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only points to a page about opting out of interest-based advertising; no broader control is described."
  },
  "C284": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is the notice header and table of contents; nothing about sensitive data or advertising."
  },
  "C285": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Disputes are handled by the National Board for Consumer Disputes or the Swedish courts, with no arbitration."
  },
  "C286": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Intro and service description only; no prohibition on illegal use."
  },
  "C287": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Sometimes business and legal requirements oblige us to retain certain information... for an extended period of time.\""
  },
  "C288": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists rights to delete, correct, and know and access your Personal Information."
  },
  "C289": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Transferred customer information \"remains subject to the promises made in any pre-existing Privacy Notice.\""
  },
  "C290": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It says third-party providers must process data under this Privacy Notice; it does not say the policy excludes third-party services."
  },
  "C291": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "The service \"may not be shared with anyone outside of your household\" unless you buy an Extra Member account."
  },
  "C292": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Third-party ad cookies use your visit information \"to target you with advertising... on the Site and other websites.\""
  },
  "C293": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"If you have any questions, concerns, or complaints about... our handling of your personal data... please contact us directly.\""
  },
  "C294": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Covers app crash analytics and a blog; nothing about tracking on other websites."
  },
  "C295": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Covers Family and Business account administration; nothing about banned users creating new accounts."
  },
  "C296": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Total liability... is in any event limited to an amount corresponding to what has been paid for that account in the last 12 months.\""
  },
  "C297": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists uses of data: marketing emails, displaying user content, proofreading, statistics and fraud prevention."
  },
  "C298": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "No warranty of the accuracy of information, but only for third-party External Services."
  },
  "C299": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Some options require creating a Netflix account, but some features can be used without one."
  },
  "C300": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Netflix may \"terminate or restrict your use\" for Terms violations or illegal or fraudulent use."
  },
  "C301": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "For a breach of the EULA they may suspend or permanently close access to your Account or delete it."
  },
  "C302": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Lists usage restrictions (commercial use, reproducing content) but nothing about illegal purposes."
  },
  "C303": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Ad networks \"may set tracking technologies (like cookies)\" to deliver ads more targeted to your interests."
  },
  "C304": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Information is collected from other parties' applications, social media and your \"connections\" on third-party sites."
  },
  "C305": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Beta Software \"contains errors and is not final\", but this is limited to beta software."
  },
  "C306": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Material changes are notified via a prominent notice at least one month before they apply."
  },
  "C307": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Prohibits collecting information about other users \"through spidering or any form of scraping\", narrower than all automated access."
  },
  "C308": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Sensitive data (precise geolocation, financial) is collected and disclosed to vendors including advertising vendors, but not explicitly to target ads."
  },
  "C309": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Personal information is used \"for the purpose of training large language models\" and AI research."
  },
  "C310": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage is about reporting copyright infringement, not individual or non-commercial use."
  },
  "C311": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Shared content \"is neither private nor confidential... may be made public\", so you must exercise caution."
  },
  "C312": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Location information from your IP address is automatically logged."
  },
  "C313": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You can consent to or withdraw consent from third party advertising cookies here.\""
  },
  "C314": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Intro and service description only; nothing about suspension or termination for breach."
  },
  "C315": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You will protect Your passwords... You are solely responsible for any and all activities that occur under Your Account.\""
  },
  "C316": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You may not use any form of scripts, bots, macros, or other non-human-controlled systems... to interact with Content and Services on Steam.\""
  },
  "C317": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Third-party advertising cookies enable \"behavioral tracking\" or \"targeted\" advertising based on your activities."
  },
  "C318": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It says GitLab keeps ownership of Content on the Website; nothing about users owning their content."
  },
  "C319": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Precise geolocation data\" is collected \"for location tracking\" and disclosed to vendors."
  },
  "C320": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"FEDEX MAY MAKE FUTURE CHANGES OR MODIFICATIONS TO SUCH TERMS AND CONDITIONS AT ANY TIME WITHOUT NOTICE.\""
  },
  "C321": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "It only says the policy explains how Nord collects data; no actual collection methods are described here."
  },
  "C322": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It describes legitimate-interest and legal bases for collecting and using data, not keeping it."
  },
  "C323": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Sharing with advertising vendors \"can be considered a 'sale' or 'share'... which you may have the right to opt out of.\""
  },
  "C324": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You should look at the terms regularly. Google will post notice of modifications.\""
  },
  "C325": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You may choose to opt out of our use of targeting and advertising cookies.\""
  },
  "C326": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You hereby agree to indemnify, defend and hold harmless SoundCloud.\""
  },
  "C327": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Keep your access credentials secure and notify us promptly if you suspect unauthorized use.\""
  },
  "C328": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "The Terms together with the Community Guidelines, policies and separate API Terms form the agreement."
  },
  "C329": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "It restricts copying or publishing Valve's Content and Services, not other people's personal information."
  },
  "C330": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Says data is collected \"in a variety of ways\", directly, through the Platforms and from other parties, without detail."
  },
  "C331": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Google shares personal information outside Google with your consent and with apps you authorize; not clearly non-essential sharing."
  },
  "C332": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Lists internal uses of information and a sharing heading, but no sharing with third parties that operate the service."
  },
  "C333": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"The user is responsible for... keeping passwords secure... solely responsible and liable for any activity that occurs under his/her username.\""
  },
  "C334": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Users' location information and driving path may be shared and posted on the map."
  },
  "C335": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "FedEx makes no warranty about results \"in terms of capability, correctness, accuracy, reliability or otherwise.\""
  },
  "C336": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Points to a refund guide, App Store/reseller refund handling and the separate Privacy Policy, but states no other governing terms."
  },
  "C337": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Only says users may share information via third-party services like Spotify; no clear gathering from third parties."
  },
  "C338": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Describes cookie-based analytics and cross-device tracking, not many different types of personal data."
  },
  "C339": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Explains the legal bases the EU GDPR requires, but does not explicitly claim GDPR compliance."
  },
  "C340": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "On a valid notice that your Content infringes copyright, SoundCloud may suspend or terminate your account."
  },
  "C341": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"This Privacy Policy only covers the collection of information by Automattic and does not cover... third-party advertisers or analytics providers.\""
  },
  "C342": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "The passage covers copyright notice requirements, nothing about automated access."
  },
  "C343": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Advertisers work with measurement companies using cookies to learn about their ad audiences."
  },
  "C344": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "For Recurring Payment Subscriptions you authorize Valve to charge your credit card for recurring payment amounts."
  },
  "C345": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You are responsible for maintaining the confidentiality of the password... and... for all activities that occur under Your password.\""
  },
  "C346": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"FEDEX DOES NOT WARRANT THAT SHIP MANAGER WILL MEET ALL OF CUSTOMER'S REQUIREMENTS.\""
  }
 }

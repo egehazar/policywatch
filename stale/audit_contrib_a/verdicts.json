@@ -1,694 +1,694 @@
 {
  "C001": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Tracking data is used for ad personalization and retargeting, but nothing marks the data as sensitive."
  },
  "C002": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Describes VPN protections; no disclaimer of liability for unauthorized access."
  },
  "C003": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "You can object to processing for marketing purposes, which is close to but not explicitly targeted advertising."
  },
  "C004": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Uses Play/App Store statistics, but these are anonymous aggregates and mostly collected by the platforms themselves."
  },
  "C005": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Makes no promises, guarantees, representations or warranties of any kind whatsoever\" regarding the services."
  },
  "C006": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Instacart may modify the arbitration agreement, but material changes are notified; only the Services change without notice."
  },
  "C007": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Says the email address is not shared with third parties; says nothing about selling personal data generally."
  },
  "C008": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Mentions data from other sources and registration details; no biometric data."
  },
  "C009": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Lists several purposes (R&D, ML, fraud prevention, credit scoring) but only two rows of purposes."
  },
  "C010": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Reserves the right to modify the service, not the terms; nothing about changing terms without notice."
  },
  "C011": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You grant Instacart a non-exclusive, worldwide, royalty-free ... license\" to your content."
  },
  "C012": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Does not warrant ... that its operations will be uninterrupted or error free.\""
  },
  "C013": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Data may come from third-party sources, but still tied to your own subscription, not collected regardless of interaction."
  },
  "C014": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Disclaims any warranty including fitness for a particular purpose; provided as is, with all faults."
  },
  "C015": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About DingTalk chat data and sharing; nothing about reviewing the privacy policy."
  },
  "C016": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Prohibits creating accounts for impersonation; does not say an account is required."
  },
  "C017": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Kept as long as required for the purposes or law, but also \"as otherwise communicated\"; no minimization commitment."
  },
  "C018": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Information available in connection with Steam is provided \"as is\" without warranty of any kind."
  },
  "C019": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Third-party ad network providers place cookies and pixels to serve personalized ads."
  },
  "C020": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Only a glossary definition of a pixel tag; nothing about social media tracking."
  },
  "C021": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Mentions email, payment details and several collection routes, but claims only the bare minimum is collected."
  },
  "C022": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Prohibits child pornography and illegal material only, not pornographic content in general."
  },
  "C023": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "\"You may need to create a user account to use certain features\" - only for some features."
  },
  "C024": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Support information is processed \"to obtain aggregate statistics on the number of Android complaints\"."
  },
  "C025": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Terms may change from time to time; for material changes users are notified at least one month before."
  },
  "C026": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"No, UsersDrive does not sell or rent your Personal Data.\""
  },
  "C027": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "May collect \"your activity on the other party's website\" via social applications on other sites."
  },
  "C028": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Uses information \"to create aggregated and/or anonymous data\"."
  },
  "C029": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"The quality of the display of the Netflix content may vary\" and depends on many factors."
  },
  "C030": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Your information is processed by staff working for the service or its suppliers, but private content is not specifically mentioned."
  },
  "C031": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Invalidity of a provision \"will not affect the validity or enforceability of the remainder of this EULA\"."
  },
  "C032": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Either party may terminate at any time with notice; breach of terms is not mentioned."
  },
  "C033": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Interactive Features are subject to Community Guidelines and official event rules; third-party software licenses apply."
  },
  "C034": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Refers to additional terms, Google Analytics Policies and other referenced policies that govern the Service."
  },
  "C035": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Jottacloud licenses its software to you; nothing about licensing user content to third parties."
  },
  "C036": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "No warranty the Website will be error free, but nothing about whether errors will be corrected."
  },
  "C037": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Covers user-initiated deletion and termination for breach; nothing about termination without notice or reason."
  },
  "C038": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Defines Personal Information as name, email address, location and route information and metadata."
  },
  "C039": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About unsolicited content ideas sent to Netflix, not about endorsing user-generated content."
  },
  "C040": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Please notify us immediately if you become aware of any unauthorised use of your Account or any other breach of security.\""
  },
  "C041": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Terms change for listed reasons and material changes are notified at least one month before."
  },
  "C042": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Mullvad terms intro and service description; no indemnification clause."
  },
  "C043": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Glossary defines pixel tags used in emails to track opens, but does not say the service uses them in its communications."
  },
  "C044": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Personal data may be collected \"From third-party sources (e.g., when you subscribe ... through external platforms)\"."
  },
  "C045": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"In the event that Toyota is involved in a bankruptcy ... your Personal Information may be sold or transferred.\""
  },
  "C046": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"If users become aware of any abuse of their account, they must notify Jottacloud immediately.\""
  },
  "C047": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Explains data is used \"for analytics and measurement to understand how our services are used\" with examples."
  },
  "C048": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "States \"the right to complain to a data protection authority\" and a way to appeal denied requests."
  },
  "C049": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You may terminate this EULA without cause at any time by deleting your Account.\""
  },
  "C050": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Points to separate GitLab agreements governing products and services, not extra rules for this Website."
  },
  "C051": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About Israeli consent requirements and policy changes; nothing on how data is collected."
  },
  "C052": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "You must defend, indemnify and hold FedEx harmless, but survival after termination is not stated."
  },
  "C053": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "GitLab licenses its Website content to you; nothing about licensing your content to third parties."
  },
  "C054": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Google licenses its software to you; nothing about a license to your content."
  },
  "C055": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Excludes implied terms \"as to satisfactory quality, fitness for purpose and conformance with description\"."
  },
  "C056": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Access to personal information is given to employees, contractors and agents who need it; private content not specified."
  },
  "C057": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Service is \"as is\" and Mullvad only attempts to prevent defects; error correction not addressed directly."
  },
  "C058": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"This Privacy Policy does not apply to these third-party sites or co-branded sites.\""
  },
  "C059": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Data is used \"to send you direct marketing emails and special offers about UsersDrive\"."
  },
  "C060": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Table on legal activity data; nothing about reading private messages."
  },
  "C061": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "States Valve owns its Content and Services; nothing about users keeping ownership of their content."
  },
  "C062": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "By signing up you agree to receive communications \"which may include promotional emails\"."
  },
  "C063": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "\"A waiver of any default is not a waiver of any subsequent default\" - close but not about failure to enforce."
  },
  "C064": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Contemplates third parties using your account if authorized; no prohibition on sharing the account."
  },
  "C065": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Explains information is used across services and devices, e.g. to personalize ads and improve Google's services."
  },
  "C066": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You will be notified by e-mail of any amendment ... at least 30 (30) days before the effective date.\""
  },
  "C067": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"This Agreement was last updated on September 10, 2026.\""
  },
  "C068": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Only lists a right not to be subject to automated decisions; does not say data is used for profiling or AI training."
  },
  "C069": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Table of contents and scope of the Alibaba privacy policy; nothing about choosing who sees content."
  },
  "C070": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Explains data is collected when you interact with the Site and voluntarily provided when you sign up."
  },
  "C071": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Valve may cancel subscriptions if it ceases providing them generally; conditional and limited to subscriptions."
  },
  "C072": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You can stop receiving emails from us by following the unsubscribe instructions included in every email.\""
  },
  "C073": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We regularly review this Privacy Policy.\""
  },
  "C074": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You can opt out of interest-based targeting provided by participating ad servers through the Digital Advertising Alliance.\""
  },
  "C075": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "FedEx may change terms \"at any time without notice\", the opposite of notification."
  },
  "C076": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Describes security systems, procedures, physical measures and restricted employee access."
  },
  "C077": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Disclaims liability for unauthorized access only where it arises from your own culpable omissions or negligence."
  },
  "C078": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We do not guarantee that the Services ... will be reliable, timely, suitable, available, uninterrupted, error-free.\""
  },
  "C079": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Some data is deleted after set periods, but other data is kept until account deletion or longer; no minimum-necessary commitment."
  },
  "C080": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Lists licence and IP restrictions; nothing about illegal purposes in the visible text."
  },
  "C081": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You may not use FedEx ShipAlert ... to threaten, harass, abuse or otherwise violate the legal rights of others.\""
  },
  "C082": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Disclaims any warranty about quality only for External Services, not the platform itself."
  },
  "C083": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Uses third-party app-store statistics and analytics, but no cookies are mentioned."
  },
  "C084": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "\"We do not guarantee the quality ... of Retailers or Third-Party Providers\" - limited to third parties."
  },
  "C085": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists categories collected: identifiers, commercial information, protected characteristics, network activity, geolocation, audio/visual."
  },
  "C086": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Offers a contact form for questions or comments about privacy, but no explicit complaint mechanism."
  },
  "C087": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Any material changes to these terms will be notified via a prominent notice ... at least one month before.\""
  },
  "C088": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"The right to access, correct, update or request deletion of your personal information.\""
  },
  "C089": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You can also turn off personalized ads, by visiting your in-app ad settings.\""
  },
  "C090": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Location information is collected \"as indicated by an Internet Protocol [IP] address\"."
  },
  "C091": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Receives information about you from third parties such as ad networks and credit agencies, but tied to your use of its other sites."
  },
  "C092": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "GitLab does not represent that Content is \"accurate, useful or non-harmful\"; disclaims all warranties."
  },
  "C093": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You're responsible for all activity conducted through your account\" and must keep credentials secure."
  },
  "C094": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Prohibits \"transmitting any content that is ... threatening, abusive, harassing, defamatory\"."
  },
  "C095": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We may ... stop offering all or part of the Services, at any time and without notice, for any reason or no reason.\""
  },
  "C096": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Lists many data types: name, address, payment, age, location, IP, voice recordings, images, credit history, device logs, etc."
  },
  "C097": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "GDPR users may \"Request access to your personal data\" and \"Request correction or deletion of your personal data\"."
  },
  "C098": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Your Account ... must not be shared, transferred, or traded\" and you must not disclose your login credentials."
  },
  "C099": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Service is \"as is\" with no guarantee of availability or accuracy; quality is not named."
  },
  "C100": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "GitLab may update the terms \"at any time without notice\", the opposite of notification."
  },
  "C101": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About notice periods for changes, cancellation and transfer; nothing requiring an account."
  },
  "C102": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "May retain information after closing your account for legal obligations or \"legitimate business interests\"."
  },
  "C103": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Netflix grants you a non-exclusive right to access the service; nothing about a license to your content."
  },
  "C104": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Covers GitLab's rights to modify and terminate; nothing about users leaving at any time."
  },
  "C105": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Opt-out offered \"consistent with ... the California Consumer Privacy Act\" and lists CCPA rights for California residents."
  },
  "C106": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Collects \"your location information\" and \"the location of your device or computer\"."
  },
  "C107": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Material changes to the terms are notified via a prominent notice at least one month before they apply."
  },
  "C108": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "May retain certain information beyond account deletion \"to meet business or legal requirements\"."
  },
  "C109": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Third-party advertising cookies \"track ad performance\", but they are for advertising rather than statistics."
  },
  "C110": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Lists data collected, including from public sources; no warning about the risk of publishing personal info."
  },
  "C111": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Lists legitimate business interests and legal obligations as legal bases for processing, not for keeping data."
  },
  "C112": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "You may give data when you \"participate in a promotional campaign\"."
  },
  "C113": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "You must not disclose a Third Party's Customer Data without its consent; not specifically personal information you publish."
  },
  "C114": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "GitLab may terminate access at any time with or without cause; breach of terms not specifically mentioned."
  },
  "C115": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Personal Information may be used or shared \"to provide you with product information and promotional and other offers\"."
  },
  "C116": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Must not \"log into, or attempt to log into, a server or account which you are not authorized to access\" or hack systems."
  },
  "C117": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"The Services are provided 'as is'\" with all warranties disclaimed and no responsibility for losses from your use."
  },
  "C118": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Changelog says the policy was \"Updated for California Consumer Privacy Act\"; no explicit compliance claim."
  },
  "C119": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "External Services \"may have their own terms of use\" which you are responsible for reviewing and use at your own risk."
  },
  "C120": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You agree to defend, indemnify and hold harmless FedEx ... from any and all claims ... arising out of ... Your activities.\""
  },
  "C121": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "You warrant you are 18 or older, or at least 16 in the EU/UK or 13 elsewhere."
  },
  "C122": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Use of fedex.com and its content is at your sole risk\" and all warranties are disclaimed."
  },
  "C123": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"If we do not enforce a provision of these Terms, that does not mean we waive the right to enforce it.\""
  },
  "C124": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Offers a 14-day money-back guarantee with no refunds for cash and crypto; refunds are the rule, not the exception."
  },
  "C125": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Broadly excludes liability for loss or corruption of data and any damages; unauthorized access not named."
  },
  "C126": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Names email address and payment details as examples; the details are left to sections not shown."
  },
  "C127": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "May \"terminate the user account and its content if the user ... violates this agreement\"."
  },
  "C128": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Data shared with advertising platforms that combine it for targeted advertising, but nothing marks it as sensitive."
  },
  "C129": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You agree to defend, indemnify and hold harmless FedEx ... from any and all claims ... arising out of ... Your activities.\""
  },
  "C130": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We use your personal information to perform research or statistical analysis\", including anonymized data."
  },
  "C131": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Glossary defines Google affiliates; does not say this service is a subsidiary of another company."
  },
  "C132": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Material disadvantageous changes to subscriptions are notified six weeks ahead; this is about subscriptions, not the terms."
  },
  "C133": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Says information you provide while using the Services is collected and linked to an account, with mechanisms described elsewhere."
  },
  "C134": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "No guarantee the service will be available at all times; does not say the service may be discontinued."
  },
  "C135": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We may disclose your Personal Information to other parties that perform functions on our behalf\" such as hosting and payments."
  },
  "C136": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"We may also collect Personal Information from other parties\", including affiliates, partners and data brokers."
  },
  "C137": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "An invalid provision is limited and \"the remainder will remain in full force and effect\"."
  },
  "C138": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Cookie and tracking data is shared \"with our data analytics and advertising partners for our advertising\"; third-party cookies can be disabled."
  },
  "C139": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Waze does not sell, rent or lease your personal information to third parties.\""
  },
  "C140": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Netflix may terminate or restrict your use if you violate the terms; deletion of content is not mentioned."
  },
  "C141": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "SoundCloud \"is not and cannot be responsible for their content\" for linked External Services."
  },
  "C142": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Terms may change from time to time and material changes are notified at least one month before."
  },
  "C143": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"By using ... you agree to these terms\"; to reject changes \"you should stop using the service\", so continued use means acceptance."
  },
  "C144": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Using the Reddit Pixel, we can build a retargeting audience\"; other tracking tools listed."
  },
  "C145": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "For \"violation of these Terms, we may ... restrict or terminate access to accounts or Services\"."
  },
  "C146": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "May \"delete user data and/or terminate the user account and its content if the user ... violates this agreement\"."
  },
  "C147": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Ad networks and analytics providers \"collect information about your use of our Services and across other websites\"."
  },
  "C148": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Data is collected and used to comply with laws (KYC/AML), but retention is not addressed."
  },
  "C149": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Third-party cookies used for advertising, with instructions to disable them via \"Privacy controls\" and \"Your privacy choices\"."
  },
  "C150": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "App platforms aggregate anonymous statistics about installs and devices; not stated as the service aggregating your personal data."
  },
  "C151": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Says the notice \"describes how we collect and process your personal information\" but only shows a table of contents."
  },
  "C152": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "\"You agree to indemnify and hold harmless GitLab ... arising out of your use of this Website\"; no duty to defend."
  },
  "C153": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "You warrant rights to let SoundCloud distribute your content via the Platform and Linked Services; no license to third parties stated."
  },
  "C154": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About Google sending communications including printing promotions; nothing about collecting data through promotions."
  },
  "C155": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Receives information about you from its other websites and from third parties like ad networks; tracking across websites not stated."
  },
  "C156": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Names Nord as \"data controller\" under the GDPR, but makes no claim of compliance."
  },
  "C157": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Third-party service providers \"have access to personal information needed to perform their functions\"; private content not specified."
  },
  "C158": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"User accounts that store and/or share illegal or copyrighted material on the Service will be terminated.\""
  },
  "C159": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"You retain any rights in any content you upload or submit to the Services.\""
  },
  "C160": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "License to user content is granted \"for the entire duration of the intellectual property rights\"."
  },
  "C161": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Disclaims liability only for harm from External Services and for removing content, not for all damages."
  },
  "C162": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "Only lists rights relating to automated decision-making; does not say data is used for profiling or AI training."
  },
  "C163": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Says email and payment details are collected to provide the Services; detailed uses are only section headings."
  },
  "C164": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Collects information when your browser accesses Amazon-served content on other websites; still tied to Amazon content."
  },
  "C165": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About sharing data with group companies and third parties; nothing about keeping data."
  },
  "C166": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About login registration and feature availability by country; nothing about stopping the service."
  },
  "C167": {
-  "verdict": "",
-  "why": ""
+  "verdict": "NO",
+  "why": "About location data and data from public sources; nothing about opting out of promotional messages."
  },
  "C168": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Changes are posted on the website and take effect after 14 days, but you must check the terms yourself."
  },
  "C169": {
-  "verdict": "",
-  "why": ""
+  "verdict": "PARTLY",
+  "why": "Shares information with all group members and for business transfers; not clearly non-essential third parties."
  },
  "C170": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"How we use this personal data\": account questions, communication, recovery, promotional emails and payments."
  },
  "C171": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "You are \"solely responsible for any damage to your property ... or loss of data that results from ... the download\"."
  },
  "C172": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "\"Users may not resell accounts\" and \"cannot share his password with a third party\"."
  },
  "C173": {
-  "verdict": "",
-  "why": ""
+  "verdict": "YES",
+  "why": "Website is \"AS IS\" with warranties of merchantability and fitness disclaimed; content not represented as useful."
  }
 }
