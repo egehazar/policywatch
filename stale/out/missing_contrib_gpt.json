@@ -1,0 +1,141 @@
+{
+ "gpt": {
+  "precision_at_10": {
+   "PAGE": {
+    "cards": 200,
+    "yes": 144,
+    "yes_share": 0.72,
+    "wilson95": [
+     0.654,
+     0.778
+    ],
+    "yes_or_partly_share": 0.95
+   },
+   "RERANK": {
+    "cards": 200,
+    "yes": 106,
+    "yes_share": 0.53,
+    "wilson95": [
+     0.461,
+     0.598
+    ],
+    "yes_or_partly_share": 0.785
+   }
+  },
+  "random_yes": 2,
+  "PAGE_minus_RERANK": {
+   "documents": 20,
+   "point": 0.19,
+   "draws_used": 2000,
+   "ci95": [
+    0.135,
+    0.245
+   ]
+  },
+  "label": {
+   "high": {
+    "cards": 133,
+    "yes": 113,
+    "yes_share": 0.85,
+    "wilson95": [
+     0.779,
+     0.9
+    ],
+    "yes_or_partly_share": 0.992
+   },
+   "rest": {
+    "cards": 67,
+    "yes": 31,
+    "yes_share": 0.463,
+    "wilson95": [
+     0.349,
+     0.581
+    ],
+    "yes_or_partly_share": 0.866
+   },
+   "high_minus_rest": {
+    "documents": 20,
+    "point": 0.387,
+    "draws_used": 2000,
+    "ci95": [
+     0.243,
+     0.498
+    ]
+   }
+  }
+ },
+ "claude": {
+  "precision_at_10": {
+   "PAGE": {
+    "cards": 200,
+    "yes": 139,
+    "yes_share": 0.695,
+    "wilson95": [
+     0.628,
+     0.755
+    ],
+    "yes_or_partly_share": 0.955
+   },
+   "RERANK": {
+    "cards": 200,
+    "yes": 99,
+    "yes_share": 0.495,
+    "wilson95": [
+     0.426,
+     0.564
+    ],
+    "yes_or_partly_share": 0.785
+   }
+  },
+  "random_yes": 2,
+  "PAGE_minus_RERANK": {
+   "documents": 20,
+   "point": 0.2,
+   "draws_used": 2000,
+   "ci95": [
+    0.14,
+    0.27
+   ]
+  },
+  "label": {
+   "high": {
+    "cards": 133,
+    "yes": 114,
+    "yes_share": 0.857,
+    "wilson95": [
+     0.788,
+     0.907
+    ],
+    "yes_or_partly_share": 1.0
+   },
+   "rest": {
+    "cards": 67,
+    "yes": 25,
+    "yes_share": 0.373,
+    "wilson95": [
+     0.267,
+     0.493
+    ],
+    "yes_or_partly_share": 0.866
+   },
+   "high_minus_rest": {
+    "documents": 20,
+    "point": 0.484,
+    "draws_used": 2000,
+    "ci95": [
+     0.301,
+     0.639
+    ]
+   }
+  }
+ },
+ "random_n": 20,
+ "agreement": {
+  "cards": 346,
+  "agree_yes_vs_not": 309,
+  "kappa_yes_vs_not": 0.784,
+  "agree_three_way": 297,
+  "gpt_yes": 194,
+  "claude_yes": 185
+ }
+}

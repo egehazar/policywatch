@@ -130,7 +130,23 @@ of zero with documents resampled. None of this was fixed in advance.
 - Rater A was stricter: page .65 against B's .75. The folders hold different cards, so this mixes rater and card
   differences.
 - GPT as second rater (reported, never read, as planned) was stopped by a Codex usage limit at 11:02 UTC before
-  rating anything. It is queued to run after the limit lifts (about 22:20 UTC), and its result will be added here.
+  rating anything. It ran after the limit lifted, on 2026-11-18 22:23-22:33 UTC (Codex, gpt-6-astra, reasoning
+  xhigh, one run per folder, the same cards). It rated all 346 cards and ran no commands (its logs show none). From
+  `py -m stale.missing_contrib_gpt report` (`stale/out/missing_contrib_gpt.json`):
+
+  | | Claude raters (read) | GPT (reported only) |
+  |---|---|---|
+  | Random controls rated YES | 2/20 | 2/20 |
+  | PAGE YES | 139/200 = 0.695 [0.628, 0.755] | 144/200 = 0.720 [0.654, 0.778] |
+  | RERANK YES | 99/200 = 0.495 [0.426, 0.564] | 106/200 = 0.530 [0.461, 0.598] |
+  | PAGE - RERANK, 20 documents | +0.200 [+0.140, +0.270] | +0.190 [+0.135, +0.245] |
+  | Label: printed p(yes) 0.90 or more | 114/133 = 0.857 [0.788, 0.907] | 113/133 = 0.850 [0.779, 0.900] |
+  | Label: the rest | 25/67 = 0.373 [0.267, 0.493] | 31/67 = 0.463 [0.349, 0.581] |
+  | High - rest | +0.484 [+0.301, +0.639] | +0.387 [+0.243, +0.498] |
+
+  On YES against not-YES the two agree on 309 of 346 cards (kappa .78); on all three verdicts, on 297. Under GPT's
+  ratings every reading would have come out the same: valid, in the predicted range, PAGE better, label adopted.
+  Both raters are AI models; no card has been rated by a person.
 
 ## What it does not show
 - That a curator would add these points. "States the case" is not "worth adding": some frequent cases are

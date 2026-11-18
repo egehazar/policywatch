@@ -1,0 +1,1386 @@
+{
+ "C001": {
+  "verdict": "PARTLY",
+  "why": "Advertising tracking and personalization are described, but collection or sharing of sensitive data is not established."
+ },
+ "C002": {
+  "verdict": "NO",
+  "why": "The passage describes privacy protections without disclaiming liability for unauthorized access."
+ },
+ "C003": {
+  "verdict": "YES",
+  "why": "You can prevent or stop processing of your personal data for marketing purposes."
+ },
+ "C004": {
+  "verdict": "PARTLY",
+  "why": "Third-party app analytics are described, but the statistics mentioned are anonymous and aggregated."
+ },
+ "C005": {
+  "verdict": "YES",
+  "why": "SoundCloud disclaims all promises, guarantees, and warranties concerning the platform and its content."
+ },
+ "C006": {
+  "verdict": "PARTLY",
+  "why": "Arbitration terms may change, but material changes require advance notice."
+ },
+ "C007": {
+  "verdict": "PARTLY",
+  "why": "Only your email address is expressly excluded from third-party sharing, rather than all personal data from sale."
+ },
+ "C008": {
+  "verdict": "NO",
+  "why": "No biometric information is identified as being collected."
+ },
+ "C009": {
+  "verdict": "YES",
+  "why": "Personal information supports research, statistical analysis, product improvements, fraud prevention, and credit assessment."
+ },
+ "C010": {
+  "verdict": "NO",
+  "why": "The passage permits changes to the service, not changes to the terms without notice."
+ },
+ "C011": {
+  "verdict": "YES",
+  "why": "You expressly grant Instacart a non-exclusive license to your submitted content."
+ },
+ "C012": {
+  "verdict": "YES",
+  "why": "FedEx expressly disclaims uninterrupted or error-free operation."
+ },
+ "C013": {
+  "verdict": "YES",
+  "why": "Personal data may come from external platforms through which you subscribe rather than directly from you."
+ },
+ "C014": {
+  "verdict": "YES",
+  "why": "Steam and its offerings are supplied without warranties, including fitness for a particular purpose."
+ },
+ "C015": {
+  "verdict": "NO",
+  "why": "The passage discusses service reviews and data sharing, not reviews of the Privacy Policy."
+ },
+ "C016": {
+  "verdict": "NO",
+  "why": "Restrictions on creating accounts do not establish that an account is required."
+ },
+ "C017": {
+  "verdict": "PARTLY",
+  "why": "Retention is generally tied to stated purposes and legal requirements, but other communicated retention periods are also allowed."
+ },
+ "C018": {
+  "verdict": "YES",
+  "why": "Information available through Steam is provided with all faults and without any warranty."
+ },
+ "C019": {
+  "verdict": "YES",
+  "why": "Third-party advertising providers may place cookies to deliver personalized advertisements."
+ },
+ "C020": {
+  "verdict": "NO",
+  "why": "The passage defines pixel tags but does not describe tracking through social media."
+ },
+ "C021": {
+  "verdict": "PARTLY",
+  "why": "Email addresses, payment details, and unspecified cookie data are mentioned without establishing many distinct data types."
+ },
+ "C022": {
+  "verdict": "PARTLY",
+  "why": "The prohibition covers child pornography and illegal material, not pornography generally."
+ },
+ "C023": {
+  "verdict": "PARTLY",
+  "why": "An account may be needed for certain features rather than for all service use."
+ },
+ "C024": {
+  "verdict": "YES",
+  "why": "Information supplied to support is processed to produce aggregate complaint statistics."
+ },
+ "C025": {
+  "verdict": "PARTLY",
+  "why": "Material changes receive advance notice, but periodic review of the terms is not requested."
+ },
+ "C026": {
+  "verdict": "YES",
+  "why": "UsersDrive explicitly states that it does not sell or rent personal data."
+ },
+ "C027": {
+  "verdict": "YES",
+  "why": "The service may collect your activity and other information from third-party websites."
+ },
+ "C028": {
+  "verdict": "YES",
+  "why": "Creating aggregated or anonymous data is expressly listed as a use of your information."
+ },
+ "C029": {
+  "verdict": "YES",
+  "why": "Viewing and audio quality depend on devices, connections, plans, and content availability."
+ },
+ "C030": {
+  "verdict": "PARTLY",
+  "why": "Staff process your personal information, but access to private user content is not specifically established."
+ },
+ "C031": {
+  "verdict": "YES",
+  "why": "Invalid provisions are severable and do not affect the validity of the remaining agreement."
+ },
+ "C032": {
+  "verdict": "PARTLY",
+  "why": "Termination at any time is permitted, but breaches are not identified as grounds for account termination."
+ },
+ "C033": {
+  "verdict": "YES",
+  "why": "Third-party licenses, Community Guidelines, and event-specific rules may apply."
+ },
+ "C034": {
+  "verdict": "YES",
+  "why": "The passage expressly refers to additional terms and policies governing the service."
+ },
+ "C035": {
+  "verdict": "NO",
+  "why": "The license concerns your use of Jottacloud, not licensing your content to third parties."
+ },
+ "C036": {
+  "verdict": "PARTLY",
+  "why": "GitLab disclaims error-free operation, but does not specifically address correcting software errors."
+ },
+ "C037": {
+  "verdict": "NO",
+  "why": "The service's termination powers are introduced for breaches, without stating termination without notice or reason."
+ },
+ "C038": {
+  "verdict": "YES",
+  "why": "The passage identifies names, email addresses, location, route information, and metadata."
+ },
+ "C039": {
+  "verdict": "NO",
+  "why": "Rejecting unsolicited ideas does not state a policy of non-endorsement of user-generated content."
+ },
+ "C040": {
+  "verdict": "YES",
+  "why": "You are instructed to notify Wargaming immediately of unauthorized account use or other security breaches."
+ },
+ "C041": {
+  "verdict": "PARTLY",
+  "why": "Netflix may change the terms for specified reasons, but material changes require one month's notice."
+ },
+ "C042": {
+  "verdict": "NO",
+  "why": "The passage contains no defense, indemnification, or hold-harmless obligation."
+ },
+ "C043": {
+  "verdict": "NO",
+  "why": "The passage defines email tracking pixels without saying the service uses them in its communications."
+ },
+ "C044": {
+  "verdict": "YES",
+  "why": "Third-party sources are expressly listed as a way personal data is collected."
+ },
+ "C045": {
+  "verdict": "YES",
+  "why": "Personal information may be sold or transferred during bankruptcy, mergers, acquisitions, reorganizations, or asset sales."
+ },
+ "C046": {
+  "verdict": "YES",
+  "why": "Users must immediately notify Jottacloud when they become aware of account abuse."
+ },
+ "C047": {
+  "verdict": "YES",
+  "why": "The passage explains uses including performance measurement, product design, advertising analysis, and bug identification."
+ },
+ "C048": {
+  "verdict": "YES",
+  "why": "It provides routes for complaints to data protection authorities and appeals of denied privacy requests."
+ },
+ "C049": {
+  "verdict": "YES",
+  "why": "You may terminate the agreement without cause at any time by deleting your account."
+ },
+ "C050": {
+  "verdict": "YES",
+  "why": "Separate agreements govern GitLab products and services."
+ },
+ "C051": {
+  "verdict": "NO",
+  "why": "The passage discusses consent and policy changes without explaining collection methods."
+ },
+ "C052": {
+  "verdict": "PARTLY",
+  "why": "Defense, indemnification, and hold-harmless duties are explicit, but survival after termination is not."
+ },
+ "C053": {
+  "verdict": "NO",
+  "why": "The passage grants you access rights and addresses provider-owned content, not sublicensing your content."
+ },
+ "C054": {
+  "verdict": "NO",
+  "why": "Google grants you a software license rather than receiving a license to your content."
+ },
+ "C055": {
+  "verdict": "YES",
+  "why": "Implied warranties of satisfactory quality are expressly excluded."
+ },
+ "C056": {
+  "verdict": "PARTLY",
+  "why": "Employees and contractors may access personal information, but private user content is not specifically identified."
+ },
+ "C057": {
+  "verdict": "PARTLY",
+  "why": "Mullvad promises only attempts to prevent defects and provides the service as is, without addressing error correction specifically."
+ },
+ "C058": {
+  "verdict": "YES",
+  "why": "The passage explicitly excludes third-party and co-branded sites from this Privacy Policy."
+ },
+ "C059": {
+  "verdict": "YES",
+  "why": "Sending direct marketing emails and special offers is an express use of personal data."
+ },
+ "C060": {
+  "verdict": "NO",
+  "why": "Legal claims data is discussed, but private messages and access to them are not."
+ },
+ "C061": {
+  "verdict": "NO",
+  "why": "The passage establishes Valve's ownership of its content and services, not your ownership of submitted content."
+ },
+ "C062": {
+  "verdict": "YES",
+  "why": "Your email address may be used to send promotional communications."
+ },
+ "C063": {
+  "verdict": "PARTLY",
+  "why": "Waiving one default does not waive later defaults, but failure to enforce a provision is not addressed."
+ },
+ "C064": {
+  "verdict": "NO",
+  "why": "The passage contemplates third-party account use and restricts disclosure of customer data rather than account sharing."
+ },
+ "C065": {
+  "verdict": "YES",
+  "why": "The passage explains advertising personalization, service improvement, and display of public account information."
+ },
+ "C066": {
+  "verdict": "YES",
+  "why": "Valve promises email notification at least 30 days before any amendment takes effect."
+ },
+ "C067": {
+  "verdict": "YES",
+  "why": "The agreement explicitly gives September 10, 2026 as its last update date."
+ },
+ "C068": {
+  "verdict": "NO",
+  "why": "Listing rights concerning automated decisions does not establish that such processing occurs."
+ },
+ "C069": {
+  "verdict": "NO",
+  "why": "The introduction and contents list provide no controls for choosing content recipients."
+ },
+ "C070": {
+  "verdict": "YES",
+  "why": "The passage describes collection during interactions and through information voluntarily supplied when creating an account."
+ },
+ "C071": {
+  "verdict": "YES",
+  "why": "Valve may cancel subscriptions at any time when it stops providing them generally."
+ },
+ "C072": {
+  "verdict": "YES",
+  "why": "You can unsubscribe from emails or adjust email preferences in the account dashboard."
+ },
+ "C073": {
+  "verdict": "YES",
+  "why": "The service explicitly states that it regularly reviews its Privacy Policy."
+ },
+ "C074": {
+  "verdict": "YES",
+  "why": "You can opt out of participating ad servers' interest-based targeting through the Digital Advertising Alliance."
+ },
+ "C075": {
+  "verdict": "NO",
+  "why": "FedEx expressly permits changes without notice, contradicting the promised notification."
+ },
+ "C076": {
+  "verdict": "YES",
+  "why": "The passage describes security reviews, access restrictions, confidentiality duties, and threat blocking."
+ },
+ "C077": {
+  "verdict": "PARTLY",
+  "why": "The liability exclusion applies only when unauthorized access results from your culpable omissions or negligence."
+ },
+ "C078": {
+  "verdict": "YES",
+  "why": "Instacart expressly disclaims reliable, timely, available, uninterrupted, or error-free service."
+ },
+ "C079": {
+  "verdict": "PARTLY",
+  "why": "Some retention is purpose-based, but other data remains until deletion without an express minimum-necessary limit."
+ },
+ "C080": {
+  "verdict": "NO",
+  "why": "Specific licensing and technical restrictions do not state a general prohibition on illegal purposes."
+ },
+ "C081": {
+  "verdict": "YES",
+  "why": "ShipAlert may not be used to threaten, harass, abuse, or violate others' legal rights."
+ },
+ "C082": {
+  "verdict": "PARTLY",
+  "why": "The quality disclaimer concerns external services rather than SoundCloud's own service."
+ },
+ "C083": {
+  "verdict": "PARTLY",
+  "why": "Third-party platforms collect statistics, but the passage does not mention cookies."
+ },
+ "C084": {
+  "verdict": "PARTLY",
+  "why": "The quality disclaimer specifically covers retailers and third-party providers."
+ },
+ "C085": {
+  "verdict": "YES",
+  "why": "The passage lists collected categories including identifiers, billing data, activity, geolocation, and images."
+ },
+ "C086": {
+  "verdict": "PARTLY",
+  "why": "A privacy contact form is provided, but a complaint-handling process is not described."
+ },
+ "C087": {
+  "verdict": "PARTLY",
+  "why": "Advance public notice is promised for material changes, not notification of every change."
+ },
+ "C088": {
+  "verdict": "YES",
+  "why": "The passage expressly provides rights to access, correct, update, or request deletion of personal information."
+ },
+ "C089": {
+  "verdict": "YES",
+  "why": "You can turn off personalized advertisements through the in-app advertising settings."
+ },
+ "C090": {
+  "verdict": "YES",
+  "why": "Automatically logged location information is derived from your IP address or a similar identifier."
+ },
+ "C091": {
+  "verdict": "YES",
+  "why": "The service may receive information about you from third parties without specifying any direct interaction requirement."
+ },
+ "C092": {
+  "verdict": "YES",
+  "why": "GitLab expressly declines to represent that posted content is accurate or useful."
+ },
+ "C093": {
+  "verdict": "YES",
+  "why": "You are responsible for account activity and instructed to keep access credentials secure."
+ },
+ "C094": {
+  "verdict": "YES",
+  "why": "Transmitting threatening, harassing, abusive, or defamatory content is expressly prohibited."
+ },
+ "C095": {
+  "verdict": "YES",
+  "why": "Instacart may stop offering all or part of the services at any time without notice."
+ },
+ "C096": {
+  "verdict": "YES",
+  "why": "The passage lists extensive identity, financial, location, contact, content, voice, and device information."
+ },
+ "C097": {
+  "verdict": "YES",
+  "why": "Eligible users are expressly given rights to request access, correction, and deletion."
+ },
+ "C098": {
+  "verdict": "YES",
+  "why": "Accounts must not be shared, transferred, or traded, and credentials must not be disclosed."
+ },
+ "C099": {
+  "verdict": "YES",
+  "why": "The service is provided as is, with no guarantee of continuous availability or accuracy."
+ },
+ "C100": {
+  "verdict": "NO",
+  "why": "GitLab explicitly reserves the right to change the agreement without notice."
+ },
+ "C101": {
+  "verdict": "NO",
+  "why": "The passage mentions account types but never requires account creation."
+ },
+ "C102": {
+  "verdict": "YES",
+  "why": "Information may be retained after account closure for legal obligations or legitimate business interests."
+ },
+ "C103": {
+  "verdict": "NO",
+  "why": "Netflix grants you a non-exclusive access right rather than obtaining rights to your content."
+ },
+ "C104": {
+  "verdict": "NO",
+  "why": "Only GitLab's termination rights are described, not your right to leave."
+ },
+ "C105": {
+  "verdict": "YES",
+  "why": "The service describes its opt-out practices as consistent with the CCPA and recognizes California residents' rights."
+ },
+ "C106": {
+  "verdict": "YES",
+  "why": "Location information and the location of your device or computer are expressly collected."
+ },
+ "C107": {
+  "verdict": "PARTLY",
+  "why": "Material changes receive advance notice, but users are not instructed to revisit the terms periodically."
+ },
+ "C108": {
+  "verdict": "YES",
+  "why": "Certain information may remain after account deletion to meet business or legal requirements."
+ },
+ "C109": {
+  "verdict": "YES",
+  "why": "Third-party cookies are expressly used to track advertising performance."
+ },
+ "C110": {
+  "verdict": "PARTLY",
+  "why": "Collection of publicly available personal information is disclosed, but publishing risks are not expressly explained."
+ },
+ "C111": {
+  "verdict": "PARTLY",
+  "why": "Business and legal purposes for processing are described, but retention for those purposes is not addressed."
+ },
+ "C112": {
+  "verdict": "YES",
+  "why": "The passage expressly says you may provide data when participating in promotional campaigns."
+ },
+ "C113": {
+  "verdict": "PARTLY",
+  "why": "The restriction concerns a represented third party's customer data, not everyone's personally identifiable information."
+ },
+ "C114": {
+  "verdict": "PARTLY",
+  "why": "GitLab may terminate access with or without cause, but termination is not specifically tied to breaches."
+ },
+ "C115": {
+  "verdict": "YES",
+  "why": "Personal information may be used or shared to provide product information and promotional offers."
+ },
+ "C116": {
+  "verdict": "YES",
+  "why": "Attempting unauthorized access to servers, accounts, data, or security systems is expressly prohibited."
+ },
+ "C117": {
+  "verdict": "PARTLY",
+  "why": "The service is provided as is and economic losses are excluded, but sole responsibility for all risks is not stated."
+ },
+ "C118": {
+  "verdict": "PARTLY",
+  "why": "A historical update for the CCPA is recorded without an express claim of ongoing compliance."
+ },
+ "C119": {
+  "verdict": "YES",
+  "why": "External services are described as governed by their own terms and potentially different requirements."
+ },
+ "C120": {
+  "verdict": "YES",
+  "why": "You must indemnify and hold FedEx harmless against claims arising from site activities or breaches."
+ },
+ "C121": {
+  "verdict": "YES",
+  "why": "Users must satisfy specified minimum ages depending on their location."
+ },
+ "C122": {
+  "verdict": "YES",
+  "why": "FedEx disclaims all warranties and expressly states that use is at your sole risk."
+ },
+ "C123": {
+  "verdict": "YES",
+  "why": "Failure to enforce a provision expressly does not waive later enforcement."
+ },
+ "C124": {
+  "verdict": "NO",
+  "why": "The policy generally offers a 14-day refund guarantee rather than generally refusing refunds."
+ },
+ "C125": {
+  "verdict": "PARTLY",
+  "why": "A broad damages disclaimer is present, but unauthorized access to personal information is not specifically addressed."
+ },
+ "C126": {
+  "verdict": "YES",
+  "why": "Email addresses and payment details are expressly identified as collected personal data."
+ },
+ "C127": {
+  "verdict": "YES",
+  "why": "Jottacloud may block access or terminate accounts when users violate the agreement."
+ },
+ "C128": {
+  "verdict": "PARTLY",
+  "why": "Data combination for targeted advertising is described, but the data is not identified as sensitive."
+ },
+ "C129": {
+  "verdict": "YES",
+  "why": "You expressly agree to defend, indemnify, and hold FedEx harmless against claims connected to your site activities."
+ },
+ "C130": {
+  "verdict": "YES",
+  "why": "Personal information is used for statistical analysis and may be anonymized for research."
+ },
+ "C131": {
+  "verdict": "NO",
+  "why": "A definition of Google affiliates does not identify this service as a subsidiary of a particular company."
+ },
+ "C132": {
+  "verdict": "PARTLY",
+  "why": "Notice covers specified subscription price or feature changes rather than all changes to the terms."
+ },
+ "C133": {
+  "verdict": "YES",
+  "why": "Information is collected during service use and linked to an account and unique identifier even without registration."
+ },
+ "C134": {
+  "verdict": "PARTLY",
+  "why": "Continuous availability is not guaranteed, but a right to discontinue the service at any time is not stated."
+ },
+ "C135": {
+  "verdict": "YES",
+  "why": "Personal information may be disclosed to providers handling hosting, analysis, payments, orders, and customer service."
+ },
+ "C136": {
+  "verdict": "YES",
+  "why": "The service expressly collects personal information from affiliates, partners, dealers, data brokers, and other parties."
+ },
+ "C137": {
+  "verdict": "YES",
+  "why": "The remaining terms stay in full force when a provision is found invalid."
+ },
+ "C138": {
+  "verdict": "YES",
+  "why": "Cookie information is shared with advertising partners, and disabling third-party cookies stops that processing."
+ },
+ "C139": {
+  "verdict": "YES",
+  "why": "Waze explicitly states that it does not sell, rent, or lease personal information."
+ },
+ "C140": {
+  "verdict": "NO",
+  "why": "Netflix may terminate or restrict service use, but deletion of your content is not mentioned."
+ },
+ "C141": {
+  "verdict": "YES",
+  "why": "SoundCloud expressly disclaims responsibility for the content, operation, and use of linked external services."
+ },
+ "C142": {
+  "verdict": "PARTLY",
+  "why": "Netflix promises advance notice of material changes rather than all changes."
+ },
+ "C143": {
+  "verdict": "YES",
+  "why": "Using the service signifies agreement, and rejecting changes requires stopping use."
+ },
+ "C144": {
+  "verdict": "YES",
+  "why": "The Reddit Pixel is expressly used to build a retargeting audience."
+ },
+ "C145": {
+  "verdict": "YES",
+  "why": "Suspected or determined violations may result in restricted or terminated account access."
+ },
+ "C146": {
+  "verdict": "YES",
+  "why": "Jottacloud expressly reserves the right to delete user data and account content for agreement violations."
+ },
+ "C147": {
+  "verdict": "YES",
+  "why": "Advertising and analytics providers may track your activity across other websites and online services."
+ },
+ "C148": {
+  "verdict": "PARTLY",
+  "why": "Collection and use for legal obligations are explained, but retention is not."
+ },
+ "C149": {
+  "verdict": "YES",
+  "why": "The passage identifies third-party cookies and explains how to disable them through privacy controls."
+ },
+ "C150": {
+  "verdict": "PARTLY",
+  "why": "Anonymous app statistics are aggregated, but aggregation of identifiable personal data is not established."
+ },
+ "C151": {
+  "verdict": "PARTLY",
+  "why": "The introduction names collection channels but provides mainly an outline rather than explaining collection methods."
+ },
+ "C152": {
+  "verdict": "PARTLY",
+  "why": "Indemnification and hold-harmless duties are explicit, but a duty to defend is not."
+ },
+ "C153": {
+  "verdict": "PARTLY",
+  "why": "Authorized use and distribution through linked services are described, but third-party licensing is not expressly granted."
+ },
+ "C154": {
+  "verdict": "NO",
+  "why": "The passage describes sending promotions rather than collecting additional data through them."
+ },
+ "C155": {
+  "verdict": "PARTLY",
+  "why": "Information from other websites may be combined, but tracking your activity on those websites is not explicit."
+ },
+ "C156": {
+  "verdict": "PARTLY",
+  "why": "Nord identifies itself as a GDPR data controller without expressly claiming GDPR compliance."
+ },
+ "C157": {
+  "verdict": "PARTLY",
+  "why": "Service providers may access necessary personal information, but access to private user content is not specifically stated."
+ },
+ "C158": {
+  "verdict": "PARTLY",
+  "why": "Copyrighted material may trigger account termination, but removal based on a copyright claim is not specified."
+ },
+ "C159": {
+  "verdict": "YES",
+  "why": "You expressly retain your rights in content uploaded or submitted to the service."
+ },
+ "C160": {
+  "verdict": "YES",
+  "why": "The content license lasts for the full duration of intellectual property rights rather than the account's lifetime."
+ },
+ "C161": {
+  "verdict": "PARTLY",
+  "why": "Liability exclusions concern external services and content restrictions rather than every possible user loss."
+ },
+ "C162": {
+  "verdict": "NO",
+  "why": "Rights concerning automated processing are listed without stating that such processing occurs."
+ },
+ "C163": {
+  "verdict": "YES",
+  "why": "Email addresses and payment details are processed to provide services and operate websites."
+ },
+ "C164": {
+  "verdict": "YES",
+  "why": "Information is collected automatically when devices access Amazon content on other websites."
+ },
+ "C165": {
+  "verdict": "PARTLY",
+  "why": "Legal and business reasons for disclosure are described, but corresponding retention practices are not."
+ },
+ "C166": {
+  "verdict": "NO",
+  "why": "The passage describes available features and possible additions without reserving a right to stop service."
+ },
+ "C167": {
+  "verdict": "NO",
+  "why": "Location controls and third-party information sources do not provide a promotional communications opt-out."
+ },
+ "C168": {
+  "verdict": "PARTLY",
+  "why": "Changes are announced on webpages that users should revisit, without a promise of direct notification."
+ },
+ "C169": {
+  "verdict": "PARTLY",
+  "why": "Sharing with affiliates and business counterparties is allowed, but their necessity to operations is not established."
+ },
+ "C170": {
+  "verdict": "YES",
+  "why": "The passage explains uses for account support, recovery, promotional emails, referrals, and payments."
+ },
+ "C171": {
+  "verdict": "YES",
+  "why": "You expressly bear the risk of downloading materials and responsibility for resulting property damage or data loss."
+ },
+ "C172": {
+  "verdict": "YES",
+  "why": "Users may not resell accounts or share their passwords with third parties."
+ },
+ "C173": {
+  "verdict": "YES",
+  "why": "GitLab provides the website as is and disclaims all warranties, including merchantability and fitness."
+ },
+ "C174": {
+  "verdict": "YES",
+  "why": "Facebook pixels and LinkedIn and Twitter cookies track ad interactions and conversions."
+ },
+ "C175": {
+  "verdict": "YES",
+  "why": "The passage describes access controls, server encryption, secured backups, and optional security features."
+ },
+ "C176": {
+  "verdict": "PARTLY",
+  "why": "Login details should remain confidential, but the passage also contemplates allowing others to access the account."
+ },
+ "C177": {
+  "verdict": "NO",
+  "why": "The passage describes sharing information with third parties, not obtaining information from them."
+ },
+ "C178": {
+  "verdict": "YES",
+  "why": "You must immediately notify FedEx of unauthorized use of your user ID and password."
+ },
+ "C179": {
+  "verdict": "NO",
+  "why": "The passage describes information sent to vendors, not information gathered from them."
+ },
+ "C180": {
+  "verdict": "PARTLY",
+  "why": "It allows stopping use to reject changed terms but does not establish a general right to leave at any time."
+ },
+ "C181": {
+  "verdict": "YES",
+  "why": "Either party may terminate at any time with notice, after which Google stops providing the service."
+ },
+ "C182": {
+  "verdict": "PARTLY",
+  "why": "It disclaims availability and accuracy guarantees without addressing satisfaction of requirements generally."
+ },
+ "C183": {
+  "verdict": "YES",
+  "why": "FedEx may cease providing the information at any time."
+ },
+ "C184": {
+  "verdict": "NO",
+  "why": "Advertising uses device identifiers and browsing information, while sensitive-data processing is restricted to other purposes."
+ },
+ "C185": {
+  "verdict": "YES",
+  "why": "GitLab disclaims responsibility for content expressly including links to third-party websites."
+ },
+ "C186": {
+  "verdict": "YES",
+  "why": "The passage lists identifiers, commercial information, protected characteristics, network activity, location, and visual information."
+ },
+ "C187": {
+  "verdict": "YES",
+  "why": "All payments are expressly non-refundable, including after cancellation."
+ },
+ "C188": {
+  "verdict": "YES",
+  "why": "Third-party advertising platforms place cookies to deliver, measure, and target ads."
+ },
+ "C189": {
+  "verdict": "YES",
+  "why": "Information is used for personalization, advertising, account recovery, connections, and location-based assistance."
+ },
+ "C190": {
+  "verdict": "NO",
+  "why": "The passage discusses EULA changes and account creation without restricting automated access."
+ },
+ "C191": {
+  "verdict": "YES",
+  "why": "You can access, correct, or delete personal data through account tools or by contacting the service."
+ },
+ "C192": {
+  "verdict": "YES",
+  "why": "The passage expressly requires a Jottacloud account to use the service."
+ },
+ "C193": {
+  "verdict": "PARTLY",
+  "why": "The prohibition covers malicious or commercial spam, rather than all unsolicited messages."
+ },
+ "C194": {
+  "verdict": "PARTLY",
+  "why": "The access license is personal and non-transferable, but account disclosure is not addressed."
+ },
+ "C195": {
+  "verdict": "YES",
+  "why": "The passage identifies usernames, email addresses, preferences, payment information, and location information."
+ },
+ "C196": {
+  "verdict": "YES",
+  "why": "You can cancel your subscription and delete your account at any time."
+ },
+ "C197": {
+  "verdict": "YES",
+  "why": "Third parties perform picking, packing, and delivery services."
+ },
+ "C198": {
+  "verdict": "NO",
+  "why": "The passage describes performance analytics, not verification of identifiable information you provide."
+ },
+ "C199": {
+  "verdict": "NO",
+  "why": "The passage expressly excludes personalized advertising based on sensitive categories."
+ },
+ "C200": {
+  "verdict": "PARTLY",
+  "why": "The company reserves the right to review the policy periodically without promising that it regularly does so."
+ },
+ "C201": {
+  "verdict": "YES",
+  "why": "The passage describes integrating third-party technologies and hosting content on third-party services."
+ },
+ "C202": {
+  "verdict": "PARTLY",
+  "why": "Valve may amend terms unilaterally at any time, but must provide at least 30 days' email notice."
+ },
+ "C203": {
+  "verdict": "PARTLY",
+  "why": "The platform is intended for adults, but the passage does not categorically prohibit access by minors."
+ },
+ "C204": {
+  "verdict": "YES",
+  "why": "Uploading content grants licenses to other users and operators of linked services."
+ },
+ "C205": {
+  "verdict": "NO",
+  "why": "The third parties described are customers or account users, not service operators."
+ },
+ "C206": {
+  "verdict": "YES",
+  "why": "Mailing addresses obtained from third parties are used to send advertisements."
+ },
+ "C207": {
+  "verdict": "NO",
+  "why": "The non-exclusive license concerns your use of the software, not Jottacloud's use of your content."
+ },
+ "C208": {
+  "verdict": "YES",
+  "why": "The passage expressly describes collecting GPS, route, and other location information."
+ },
+ "C209": {
+  "verdict": "YES",
+  "why": "Information may be retained for legal obligations, traffic analysis, troubleshooting, and internal business purposes."
+ },
+ "C210": {
+  "verdict": "NO",
+  "why": "The passage addresses policy updates and contact details, not anonymized retention for analytics."
+ },
+ "C211": {
+  "verdict": "NO",
+  "why": "The passage addresses disputes and company disclosures without granting content distribution rights."
+ },
+ "C212": {
+  "verdict": "YES",
+  "why": "You must defend, indemnify, and hold Wargaming harmless against claims connected with your use of its products."
+ },
+ "C213": {
+  "verdict": "NO",
+  "why": "The passage does not identify any parent company or subsidiary relationship."
+ },
+ "C214": {
+  "verdict": "YES",
+  "why": "You must indemnify, defend, and hold Google Affiliates harmless against specified claims involving your service use."
+ },
+ "C215": {
+  "verdict": "YES",
+  "why": "Personal information supports machine learning and scoring methods used to assess credit risks."
+ },
+ "C216": {
+  "verdict": "YES",
+  "why": "Using Jottacloud for illegal or unlawful purposes is expressly a breach of the agreement."
+ },
+ "C217": {
+  "verdict": "PARTLY",
+  "why": "You can choose whether to share content, but the passage does not offer control over its audience."
+ },
+ "C218": {
+  "verdict": "YES",
+  "why": "You may opt out of marketing communications at any time using unsubscribe links or contact details."
+ },
+ "C219": {
+  "verdict": "YES",
+  "why": "GitLab may change content or permanently discontinue any part of the website at any time without notice."
+ },
+ "C220": {
+  "verdict": "YES",
+  "why": "The passage identifies names, ages, gender, pictures, locations, reports, and files that users may submit."
+ },
+ "C221": {
+  "verdict": "YES",
+  "why": "You agree to defend, indemnify, and hold Instacart harmless against claims and costs arising from your actions."
+ },
+ "C222": {
+  "verdict": "YES",
+  "why": "Location information is listed among data used for personalization and advertising."
+ },
+ "C223": {
+  "verdict": "YES",
+  "why": "Social media submissions are expressly made at your own risk without any privacy guarantee."
+ },
+ "C224": {
+  "verdict": "YES",
+  "why": "You can unsubscribe from direct marketing emails and special offers at any time."
+ },
+ "C225": {
+  "verdict": "YES",
+  "why": "The passage identifies information you provide directly when contacting support."
+ },
+ "C226": {
+  "verdict": "PARTLY",
+  "why": "Material subscription changes require notification, but periodic review of the terms is not requested."
+ },
+ "C227": {
+  "verdict": "PARTLY",
+  "why": "Valve disclaims liability for third-party content, but linked websites are not specifically addressed."
+ },
+ "C228": {
+  "verdict": "NO",
+  "why": "The passage concerns Netflix's licensed content, not licensing content you provide."
+ },
+ "C229": {
+  "verdict": "YES",
+  "why": "The passage states that personal information may be sold or shared with third parties for targeted advertising."
+ },
+ "C230": {
+  "verdict": "YES",
+  "why": "You expressly agree to defend, indemnify, and hold Wargaming harmless against claims connected with your use."
+ },
+ "C231": {
+  "verdict": "YES",
+  "why": "Illegal or fraudulent use is expressly grounds for terminating or restricting service access."
+ },
+ "C232": {
+  "verdict": "PARTLY",
+  "why": "It qualifies viewing quality and format availability without disclaiming satisfaction of requirements generally."
+ },
+ "C233": {
+  "verdict": "NO",
+  "why": "The passage disclaims a warranty of enjoyment rather than prohibiting interference with other users."
+ },
+ "C234": {
+  "verdict": "PARTLY",
+  "why": "It says policy information was updated to reflect GDPR requirements without claiming overall compliance."
+ },
+ "C235": {
+  "verdict": "PARTLY",
+  "why": "Termination may occur without notice, but only specified misconduct is given as grounds."
+ },
+ "C236": {
+  "verdict": "YES",
+  "why": "The passage details physical access controls, firewalls, malware protection, vulnerability scans, and encryption."
+ },
+ "C237": {
+  "verdict": "YES",
+  "why": "The passage expressly states that general or precise geolocation information is collected."
+ },
+ "C238": {
+  "verdict": "PARTLY",
+  "why": "It lists data-protection rights and response deadlines without claiming GDPR compliance for European users."
+ },
+ "C239": {
+  "verdict": "YES",
+  "why": "Information is used for communications, surveys, support, marketing, enforcement, and legal compliance."
+ },
+ "C240": {
+  "verdict": "YES",
+  "why": "The passage expressly waives the right to participate in a class action."
+ },
+ "C241": {
+  "verdict": "YES",
+  "why": "Eligible users can request access, updates, removal, and restrictions on processing."
+ },
+ "C242": {
+  "verdict": "PARTLY",
+  "why": "The non-commercial restriction applies specifically to Individual and Family accounts."
+ },
+ "C243": {
+  "verdict": "NO",
+  "why": "The passage introduces data collection without providing a targeted-advertising opt-out."
+ },
+ "C244": {
+  "verdict": "YES",
+  "why": "The passage expressly describes receiving information about you from third-party partners and providers."
+ },
+ "C245": {
+  "verdict": "PARTLY",
+  "why": "It prohibits unlawful content and related activities without stating a general prohibition on all illegal purposes."
+ },
+ "C246": {
+  "verdict": "PARTLY",
+  "why": "Breaches can lead to termination of Interactive Feature access, not necessarily the account itself."
+ },
+ "C247": {
+  "verdict": "PARTLY",
+  "why": "It grants a sharing opt-out but says its sensitive-data practices do not trigger a use-limitation right."
+ },
+ "C248": {
+  "verdict": "YES",
+  "why": "Your email address may be used to send promotional or marketing materials."
+ },
+ "C249": {
+  "verdict": "YES",
+  "why": "Wargaming expressly disclaims warranties that products will be uninterrupted, secure, or error-free."
+ },
+ "C250": {
+  "verdict": "YES",
+  "why": "Personal data may be shared with prospective business buyers and their agents or advisers."
+ },
+ "C251": {
+  "verdict": "PARTLY",
+  "why": "Recipients must comply with Data Privacy Framework obligations, but confidentiality obligations are not expressly described."
+ },
+ "C252": {
+  "verdict": "YES",
+  "why": "ShipAlert may not be used for unlawful information or any act contrary to law."
+ },
+ "C253": {
+  "verdict": "NO",
+  "why": "The passage concerns information users choose to submit, not collection about people who never interact with the service."
+ },
+ "C254": {
+  "verdict": "YES",
+  "why": "The passage expressly allows publishing aggregate statistics about service use."
+ },
+ "C255": {
+  "verdict": "NO",
+  "why": "The passage gives general privacy principles without mentioning pixels, beacons, or fingerprinting."
+ },
+ "C256": {
+  "verdict": "YES",
+  "why": "The notice states that it was last updated on 1 August 2024."
+ },
+ "C257": {
+  "verdict": "NO",
+  "why": "The passage lists categories of collected information rather than many purposes for using it."
+ },
+ "C258": {
+  "verdict": "YES",
+  "why": "Instacart disclaims fitness-for-purpose warranties and does not guarantee that services will be suitable."
+ },
+ "C259": {
+  "verdict": "NO",
+  "why": "The passage sets age requirements and mentions entities without imposing a non-commercial-use restriction."
+ },
+ "C260": {
+  "verdict": "YES",
+  "why": "Netflix may terminate or restrict service use for violations of its terms."
+ },
+ "C261": {
+  "verdict": "YES",
+  "why": "You can access, edit, delete, or export personal data and request assistance from support."
+ },
+ "C262": {
+  "verdict": "NO",
+  "why": "The passage expressly says app software never accesses or tracks device location information."
+ },
+ "C263": {
+  "verdict": "PARTLY",
+  "why": "Personal information is processed for personalized ads, but sharing sensitive data for that purpose is not established."
+ },
+ "C264": {
+  "verdict": "YES",
+  "why": "Information is retained as needed for services, legal obligations, dispute resolution, and agreement enforcement."
+ },
+ "C265": {
+  "verdict": "YES",
+  "why": "FedEx expressly reserves the right to change the terms at any time without notice."
+ },
+ "C266": {
+  "verdict": "YES",
+  "why": "Valve may amend the agreement at any time and must email notice at least 30 days beforehand."
+ },
+ "C267": {
+  "verdict": "YES",
+  "why": "Subsequent viewing or use expressly constitutes agreement to changed terms."
+ },
+ "C268": {
+  "verdict": "PARTLY",
+  "why": "Access can be terminated for any reason, while the express no-notice provision concerns changes to the website."
+ },
+ "C269": {
+  "verdict": "YES",
+  "why": "Jottacloud expressly disclaims responsibility for any damage, cost, or loss relating to service use."
+ },
+ "C270": {
+  "verdict": "YES",
+  "why": "The table identifies contact, account, business, payment, communication, device, activity, and location information."
+ },
+ "C271": {
+  "verdict": "PARTLY",
+  "why": "Defense, indemnification, and hold-harmless duties are stated, but survival after termination is not."
+ },
+ "C272": {
+  "verdict": "YES",
+  "why": "Data is collected directly from users, automatically through usage and cookies, and from third-party sources."
+ },
+ "C273": {
+  "verdict": "NO",
+  "why": "The passage permits account or subscription termination without stating that user content may be deleted."
+ },
+ "C274": {
+  "verdict": "YES",
+  "why": "It describes third-party advertising cookies and directs users to the Digital Advertising Alliance to opt out."
+ },
+ "C275": {
+  "verdict": "PARTLY",
+  "why": "Refunds are excluded upon termination, but the passage does not address every other refund situation."
+ },
+ "C276": {
+  "verdict": "NO",
+  "why": "The passage describes external websites and voluntary information submissions, not tracking across websites."
+ },
+ "C277": {
+  "verdict": "YES",
+  "why": "Usage information may be obtained from third-party partners and service providers."
+ },
+ "C278": {
+  "verdict": "YES",
+  "why": "The analytics data expressly includes referrers and outlinks."
+ },
+ "C279": {
+  "verdict": "YES",
+  "why": "You must defend, indemnify, and hold FedEx harmless against claims arising from information you provide."
+ },
+ "C280": {
+  "verdict": "PARTLY",
+  "why": "The no-sale claim covers directly identifying information, while other personal-data disclosures may constitute sales."
+ },
+ "C281": {
+  "verdict": "YES",
+  "why": "Shared personal information expressly includes approximate geolocation derived from IP addresses."
+ },
+ "C282": {
+  "verdict": "NO",
+  "why": "The only expressly described sharing concerns non-personally identifiable information."
+ },
+ "C283": {
+  "verdict": "YES",
+  "why": "An advertising-preferences page provides an opt-out from interest-based advertising involving third parties."
+ },
+ "C284": {
+  "verdict": "NO",
+  "why": "The introduction and contents list do not establish sensitive-data collection or sharing for targeted advertising."
+ },
+ "C285": {
+  "verdict": "YES",
+  "why": "Disputes may be handled by Swedish courts, providing an alternative to arbitration."
+ },
+ "C286": {
+  "verdict": "NO",
+  "why": "Technical protections and port blocking do not impose a prohibition on illegal use."
+ },
+ "C287": {
+  "verdict": "YES",
+  "why": "The passage expressly permits extended retention for business, financial, security, and legal requirements."
+ },
+ "C288": {
+  "verdict": "YES",
+  "why": "The passage identifies rights to request deletion, correction, and access to personal information."
+ },
+ "C289": {
+  "verdict": "YES",
+  "why": "Transferred customer information remains subject to existing privacy promises unless the customer consents otherwise."
+ },
+ "C290": {
+  "verdict": "NO",
+  "why": "The passage instead requires service providers to process information in accordance with this Privacy Notice."
+ },
+ "C291": {
+  "verdict": "PARTLY",
+  "why": "Sharing outside the household is restricted, but household sharing and qualifying Extra Member arrangements are permitted."
+ },
+ "C292": {
+  "verdict": "YES",
+  "why": "Advertising networks use cookies and visit information to target you on this site and other websites."
+ },
+ "C293": {
+  "verdict": "YES",
+  "why": "The passage supplies email and postal contacts for complaints about personal-data handling."
+ },
+ "C294": {
+  "verdict": "NO",
+  "why": "App analytics and public blog comments do not establish tracking on other websites."
+ },
+ "C295": {
+  "verdict": "NO",
+  "why": "The passage describes account administration without restricting registration by banned users."
+ },
+ "C296": {
+  "verdict": "YES",
+  "why": "Total liability is capped at the amount paid for the account during the preceding 12 months."
+ },
+ "C297": {
+  "verdict": "YES",
+  "why": "The passage explains uses including marketing, content display, proofreading, statistics, and fraud prevention."
+ },
+ "C298": {
+  "verdict": "PARTLY",
+  "why": "Accuracy warranties are disclaimed specifically for external services, not all information provided by SoundCloud."
+ },
+ "C299": {
+  "verdict": "PARTLY",
+  "why": "Some options require an account, but others expressly allow access without creating one."
+ },
+ "C300": {
+  "verdict": "YES",
+  "why": "Terms violations, illegal use, and fraudulent use can each lead to restricted or terminated access."
+ },
+ "C301": {
+  "verdict": "YES",
+  "why": "The passage expressly allows account suspension, closure, or deletion for EULA breaches."
+ },
+ "C302": {
+  "verdict": "NO",
+  "why": "The passage restricts commercial use and copying without establishing a general prohibition on illegal purposes."
+ },
+ "C303": {
+  "verdict": "YES",
+  "why": "Advertising networks may set cookies to collect information and deliver targeted ads."
+ },
+ "C304": {
+  "verdict": "YES",
+  "why": "Information may be received through third-party applications, websites, social networks, and other users' profiles."
+ },
+ "C305": {
+  "verdict": "PARTLY",
+  "why": "The passage warns that beta software contains errors, but does not state a general quality disclaimer."
+ },
+ "C306": {
+  "verdict": "PARTLY",
+  "why": "Terms changes are contemplated, but material changes require at least one month's advance notice."
+ },
+ "C307": {
+  "verdict": "PARTLY",
+  "why": "Spidering and scraping are prohibited for collecting information about users, rather than all automated access."
+ },
+ "C308": {
+  "verdict": "PARTLY",
+  "why": "Sensitive data may reach advertising vendors, but its use specifically for targeted advertising is not established."
+ },
+ "C309": {
+  "verdict": "YES",
+  "why": "The listed uses of personal information expressly include training large language models."
+ },
+ "C310": {
+  "verdict": "NO",
+  "why": "The passage concerns copyright complaints without restricting service use to personal, non-commercial purposes."
+ },
+ "C311": {
+  "verdict": "YES",
+  "why": "The passage warns that submitted content is public and advises caution when publishing personal information."
+ },
+ "C312": {
+  "verdict": "YES",
+  "why": "Automatically logged information includes geographic location derived from an IP address or similar identifier."
+ },
+ "C313": {
+  "verdict": "YES",
+  "why": "The passage provides a link to withdraw consent to third-party advertising cookies."
+ },
+ "C314": {
+  "verdict": "NO",
+  "why": "The passage does not describe account suspension or termination for breaching terms."
+ },
+ "C315": {
+  "verdict": "YES",
+  "why": "You must protect passwords and take responsibility for account activities, subject to a stated Google-related exception."
+ },
+ "C316": {
+  "verdict": "YES",
+  "why": "Scripts, bots, macros, and other non-human-controlled systems may not interact with Steam content and services."
+ },
+ "C317": {
+  "verdict": "YES",
+  "why": "Third-party advertising networks use cookie-based activity information to target ads to you."
+ },
+ "C318": {
+  "verdict": "NO",
+  "why": "The passage preserves GitLab's ownership of website content without addressing ownership of your content."
+ },
+ "C319": {
+  "verdict": "YES",
+  "why": "Precise geolocation is expressly included among information used for tracking and disclosed to providers."
+ },
+ "C320": {
+  "verdict": "YES",
+  "why": "FedEx may expressly change the terms at any time without notice."
+ },
+ "C321": {
+  "verdict": "NO",
+  "why": "The passage introduces the policy and a no-logs claim without describing collection methods."
+ },
+ "C322": {
+  "verdict": "NO",
+  "why": "The passage explains grounds for collecting and using data, not retaining it."
+ },
+ "C323": {
+  "verdict": "YES",
+  "why": "Advertising-related sharing may legally constitute a sale, and the passage provides opt-out methods."
+ },
+ "C324": {
+  "verdict": "YES",
+  "why": "Users should review terms regularly, and Google promises to post notice of modifications before they take effect."
+ },
+ "C325": {
+  "verdict": "YES",
+  "why": "Users can opt out of targeting and advertising cookies through Cookie Consent Options."
+ },
+ "C326": {
+  "verdict": "YES",
+  "why": "You agree to indemnify, defend, and hold SoundCloud harmless against claims resulting from terms violations."
+ },
+ "C327": {
+  "verdict": "YES",
+  "why": "You must promptly notify Instacart if you suspect unauthorized account use."
+ },
+ "C328": {
+  "verdict": "YES",
+  "why": "The agreement includes community guidelines and other policies, and separate API terms may apply."
+ },
+ "C329": {
+  "verdict": "NO",
+  "why": "The passage restricts copying and distributing service content, not publishing third-party personal information."
+ },
+ "C330": {
+  "verdict": "YES",
+  "why": "Collection sources include surveys, focus groups, business interactions, platforms, and other parties."
+ },
+ "C331": {
+  "verdict": "YES",
+  "why": "With consent, Google shares personal information with optional third-party apps and sites."
+ },
+ "C332": {
+  "verdict": "NO",
+  "why": "The passage describes internal uses and community sharing, not disclosures to third-party service operators."
+ },
+ "C333": {
+  "verdict": "YES",
+  "why": "Users must keep passwords secure and are solely responsible for activity under their usernames."
+ },
+ "C334": {
+  "verdict": "YES",
+  "why": "Users may share location information, and incident reports may include their driving paths."
+ },
+ "C335": {
+  "verdict": "YES",
+  "why": "FedEx expressly disclaims warranties concerning correctness, accuracy, and reliability of service results."
+ },
+ "C336": {
+  "verdict": "YES",
+  "why": "The passage directs users to a separate refund guide and Privacy Policy."
+ },
+ "C337": {
+  "verdict": "PARTLY",
+  "why": "Sharing through third-party services is mentioned, but receipt of information from those services is unclear."
+ },
+ "C338": {
+  "verdict": "PARTLY",
+  "why": "The passage describes browsing, device recognition, and audience profiling without establishing many distinct personal-data categories."
+ },
+ "C339": {
+  "verdict": "PARTLY",
+  "why": "It identifies GDPR legal bases for processing without claiming overall GDPR compliance."
+ },
+ "C340": {
+  "verdict": "YES",
+  "why": "A valid copyright-infringement notification can result in account suspension or termination."
+ },
+ "C341": {
+  "verdict": "YES",
+  "why": "The policy expressly excludes information collection by third-party advertisers and analytics providers."
+ },
+ "C342": {
+  "verdict": "NO",
+  "why": "The passage lists copyright-notice requirements without restricting automated access."
+ },
+ "C343": {
+  "verdict": "YES",
+  "why": "Third-party measurement companies and merchants use cookies to measure ad audiences and product-listing views."
+ },
+ "C344": {
+  "verdict": "YES",
+  "why": "Continuing a recurring subscription authorizes Valve to charge the applicable recurring payment amounts."
+ },
+ "C345": {
+  "verdict": "YES",
+  "why": "You are responsible for credential confidentiality and all activities under your user ID and password."
+ },
+ "C346": {
+  "verdict": "YES",
+  "why": "FedEx expressly does not warrant that Ship Manager will meet all customer requirements."
+ }
+}
