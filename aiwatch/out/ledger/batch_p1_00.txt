@@ -1,0 +1,767 @@
+Each card shows the BEFORE and AFTER text of one change to a company's terms of service or privacy policy (only the changed passages that mention AI or models, with a little context). Read both and answer one label:
+- NEW: the AFTER text lets the company (or partners it shares data with) use its users' content or personal data to train or improve AI / machine-learning models, and the BEFORE text did not.
+- WIDER: the BEFORE text already allowed that, and the AFTER text allows clearly more (more kinds of data, generative AI, new recipients, fewer limits, an opt-out removed).
+- SAME: both allow it to about the same extent (rewording, moving text, small clarifications).
+- NO: the AFTER text does not let the company train AI on users' data (for example: a promise not to train, a ban on users training AI on the service, AI features or third-party models mentioned without training on users' data, or training only on data that is not users' own, such as public web data).
+- UNCLEAR: the passages shown are not enough to tell.
+For NEW or WIDER, also give the scope of the training use:
+- THIRD: users' data is shared with other companies for THEM to train AI.
+- GENERAL: generative or general-purpose AI, or AI/ML models with no narrow purpose named.
+- NARROW: models for one named operational purpose only (ads, recommendations, fraud, safety, support, search).
+(If several apply, the first in this order.) For the other labels, scope is "-".
+Then quote the one AFTER sentence that decides it (or "-" for NO with nothing to quote).
+
+Answer as JSON lines: {"card": "<id>", "label": "<NEW|WIDER|SAME|NO|UNCLEAR>", "scope": "<THIRD|GENERAL|NARROW|->", "quote": "<sentence>"}
+
+=== CARD Lb9e3ac ===
+BEFORE:
+================
+
+Summary of our Terms
+
+AFTER:
+================
+
+In choosing to submit, input, create, generate, post, or display Content on or through the Services, you grant us a worldwide, non-exclusive, royalty-free license (with the right to sublicense) to use, copy, reproduce, process, adapt, modify, publish, transmit, display, upload, download, and distribute such Content, including anything referenced therein, in any and all media or distribution methods now known or later developed, for any purpose. For clarity, these rights include, for example, curating, transforming, and translating. This license authorizes us to make your Content available to the rest of the world and to let others do the same. You agree that this license includes the right for us to (i) analyze text and other information you provide and to otherwise provide, promote, and improve the Services, including, for example, for use with and training of our machine learning and artificial intelligence models, whether generative or another type; and (ii) to make Content submitted to or through the Services available to other companies, organizations or individuals, including, for example, for improving the Services and the syndication, broadcast, distribution, repost, promotion or publication of such Content on other media and services, subject to our terms and conditions for such Content use. Such additional uses by us, or other companies, organizations or individuals, is made with no compensation paid to you with respect to the Content that you submit, post, transmit or otherwise make available through the Services as the use of the Services by you is hereby agreed as being sufficient compensation for the Content and grant of rights herein.
+
+[... cut ...]
+
+=== CARD L75e593 ===
+BEFORE:
+View our Data Processing Agreement here: [www.lovable.dev/data-processing-agreement]
+
+AFTER:
+View our Data Processing Agreement here: [www.lovable.dev/data-processing-agreement]
+
+Lovable Labs Incorporated ("Lovable," "we," "us," or "our") is an AI-powered platform dedicated to empowering developers and non-technical users to build, share, and deploy web applications using natural language prompts. Our mission is to simplify software development through innovative tools, seamless integrations, and collaborative features, while prioritizing the privacy and security of your data. We are committed to fostering a vibrant developer community and ensuring compliance with applicable privacy laws in the United States (including all applicable state privacy statutes), European Economic Area, United Kingdom, Switzerland, and Canada.
+
+* Information You Provide Directly: When you create an account, purchase a subscription, open a support ticket, or otherwise use our Services, you may supply personal data such as your name, business-email address, phone number, payment information (processed via Stripe; see Stripe's privacy policy at stripe.com/privacy for details on how they handle your card details and transaction data). For usage-based services like Lovable Cloud and AI Gateway, we collect and process Usage Data (e.g., API calls, storage usage, prompt volumes) to meter consumption against your Credits (prepaid balances). These Credits are tracked in separate balances per service, with metering reliant on Stripe and third-party providers. We do not store full payment card details; Stripe serves as the source of truth for billing records, which may include anonymized usage metrics shared with us for invoicing, and project artefacts (for example, natural-language prompts, code snippets, or deployment configurations). These artifacts are used only to serve your workspace and, once anonymized or aggregated, to improve our models; they are never used to train general-purpose AI models that benefit other customers without your permission.
+
+* Information Collected Automatically: When you interact with the Services, we automatically collect technical data such as IP address, browser type, operating system, device identifiers, pages visited, timestamps, and error logs. Certain operational metrics and telemetry ("Service Data") are processed by Lovable as an independent controller for security, billing, analytics, and product-improvement purposes (see Section 10). Billing and Metering Data: Telemetry on service usage (e.g., compute hours in Lovable Cloud, API requests via AI Gateway) is collected to generate monthly invoices showing consumption by service. This data is anonymized where possible and shared with Stripe for payment processing and revenue recognition.
+
+[... cut ...]
+
+=== CARD Lf59741 ===
+BEFORE:
+--------
+
+Mistral AI provides an API that allows its users to use Mistral AI’s artificial intelligence models for text generation purposes, alongside with a range of complementary services (the “**API Services**”).
+
+These terms of service (the “**API Terms of Service**”) are entered into by and between Mistral AI and the Customer.
+
+AFTER:
+--------
+
+Mistral AI provides a set of APIs that allows its users to use Mistral AI’s artificial intelligence models for text or code generation purposes, and to fine-tune such models, alongside with a range of complementary services (the “**API Services**”).
+
+These terms of service (the “**API Terms of Service**”) are entered into by and between Mistral AI and the Customer.
+
+BEFORE:
+**Definitions provided in this document.** The capitalized words in this document shall have the meaning set forth below:
+
+* The “**Purchase Order**”: means any and all purchase orders entered into by the Parties that references this Agreement, including but not limited to any Purchase Order created by Mistral AI following the Customer’s purchase of the Services through the online Payment Services or via the in-app purchase. The Purchase Order consists of the summary detailing the Customer’s Subscription (applicable Fees, Billing Cycle, Model to which the Customer can access, any potential restrictions, etc.),
+
+* The “**[Terms of Use]**”: means the terms governing the Customer’s Subscription to, access and use of any and all Services provided by Mistral AI, including but not limited to the API Services,
+
+* “**API**”: means Mistral AI’s application programming interface that allows the Customer to use the Model(s). This definition includes (a) the standard API that allows You to access and use Our text-generating Models that is available at `api.mistral.ai` (the “Standard API”), (b) the API that allows You to access and use Our code-generating Models that is available at `codestral.mistral.ai` (“Codestral”).
+
+* “**API Key**”: means the unique authentication code provided by Mistral AI to the Customer allowing the Customer to access and use the API.
+
+AFTER:
+**Definitions provided in this document.** The capitalized words in this document shall have the meaning set forth below:
+
+* “**API**”: means Mistral AI’s application programming interface that allows the Customer to use the Model(s). This definition includes (a) the standard API that allows You to access and use Our text-generating Models that is available at `api.mistral.ai` (the “**Standard API**”), (b) the API that allows You to access and use Our code-generating Models that is available at `codestral.mistral.ai` (“**Codestral**”), and (c) the API that allows You to Fine-Tune Models (the “Fine-Tuning API”).
+
+* “**API Key**”: means the unique authentication code provided by Mistral AI to the Customer allowing the Customer to access and use the API.
+
+BEFORE:
+* “**End-Users**”: means any person who uses the Customer Application.
+
+* “**Subscription Term**”: means the term of these API Terms of Service.
+
+AFTER:
+* “**End-Users**”: means any person who uses the Customer Application.
+
+* “**Fine-Tuned Model**”: means any Model that has been Fine-Tuned using the Fine-Tuning API.
+
+* “**Fine-Tuning**” or “**Fine-Tune**” or “**Fine-Tuned**”: means the technical process of adjusting or modifying a Model in order to improve its performance, accuracy, or efficiency.
+
+* “**Subscription Term**”: means the term of these API Terms of Service.
+
+BEFORE:
+**API call limitations.** The volume of API calls made by the Customer within a specific period may be subject to limitation at the sole discretion of Mistral AI. Such limitations could be influenced by factors including the expected usage volume associated with the Customer Application.
+
+* To monitor abuse (meaning, to monitor any breach by You of the Agreement). To this end, we retain Your Prompts and Outputs for a period of thirty (30) days We do not use Your User Data to train or improve our Models.
+
+### 4.2. Your User Data
+
+AFTER:
+**API call limitations.** The volume of API calls made by the Customer within a specific period may be subject to limitation at the sole discretion of Mistral AI. Such limitations could be influenced by factors including the expected usage volume associated with the Customer Application.
+
+**Third-Party Services (Integrations).** Our APIs are compatible with the Third-Party Services listed on the Platform. To use a Third-Party Service on our Platform, You must (a) create an account on the Third-Party Service and (b) connect such an account to the Platform by following the instructions given on the Platform. You acknowledge that Mistral AI does not provide the Third-Party Service and therefore cannot be held liable under any circumstances for any loss, damage, or claim arising out of or in relation with Your use of a Third-Party Service, including when such use occurs on the Platform.
+
+**Fine-Tuning API.** Our Fine-Tuning API allows You to Fine-Tune the compatible Models provided by Mistral AI. The list of the compatible Models is provided on the Platform. To use the Fine-Tuning API, You must:
+
+* Review the Fine-Tuning of the Model on the Platform.
+
+**Fine-Tuned Model.** Upon completion of the Fine-Tuning process, You will be granted access to use the Fine-Tuned Model directly on Our Platform for the duration of this Agreement. You will have no rights in the Fine-Tuned Model after the expiration or termination of this Agreement. We will not use the Fine-Tuned Model, except to make it available to You for the purpose of providing You with the Services.
+
+**Deletion of the Fine-Tuned Model.** You may delete the Fine-Tuned Model from the Platform at any time. Following the expiration or termination of this Agreement, We will retain the Fine-Tuned Model for a period of one (1) year, to allow You to use such Fine-Tuned Model again in case You re-subscribe to Our Fine-Tuning API. Notwithstanding the foregoing, You may request that We delete the Fine-Tuned Model prior to the expiration of the one (1) year retention period by submitting a written request via Our Ticketing Platform. We will use commercially reasonable efforts to delete the Fine-Tuned Model within thirty (30) days of receiving such request.
+
+**Confidentiality of the Fine-Tuned Model.** The Fine-Tuned Model shall remain confidential and Mistral AI shall not disclose or distribute the Fine-Tuned Model to any third party except under Your directive and for authorized transfer to authorized Mistral AI cloud provider distributors.
+
+**Your responsibility.** You are solely responsible for the Fine-Tuning of the Model and for Your User Input Data. You acknowledge that Mistral AI cannot be held responsible for the performance of the Fine-Tuned Model, including for the Outputs generated by such Fine-Tuned Model.
+
+**Limited Assistance.** Upon Your written and express request and subject to Mistral AI’s prior approval, Mistral AI may provide You with guidance on how to improve User Input Data to make the Fine-Tuning process more efficient, subject to Your prior express agreement on Mistral AI having an access to the User Input Data for these purposes only.
+
+### 4.2. Your User Data
+
+BEFORE:
+* To monitor abuse (meaning, to monitor any breach by You of the Agreement). To this end, we retain Your Prompts and Outputs for a period of thirty (30) days.
+
+* If You use the free version of Codestral, to improve Our Models, unless You opt-out of the Mistral AI Training Data. You can opt-out of the Mistral AI Training Data by making a request on our Support Chatbot directly available on Our Platform. Please note that in that case, Your opt-out will only be effective for future Prompts and Outputs.
+
+### 4.3. Service level objectives
+
+AFTER:
+* To monitor abuse (meaning, to monitor any breach by You of the Agreement). To this end, we retain Your Prompts and Outputs for a period of thirty (30) days.
+
+* To improve the training of Our Models, unless You use the Paid version of Codestral and You opt-out of the Mistral AI Training Data. You can opt-out of the Mistral AI Training Data by making a request on our Support Chatbot directly available on Our Platform. Please note that in that case, Your opt-out will only be effective for future Prompts and Outputs.
+
+**How we use Your User Data: On the Fine-Tuning API:** We use Your User Data to provide the Services (e.g. we use Your User Input Data to Fine-Tune the Model and, subject to your express agreement, to provide You with limited assistance in accordance with Section 4.1.2. Of these API Terms of Service). We do not use Your User Data, including Your User Input Data, to train or improve Our Models.
+
+### 4.3. Service level objectives
+
+=== CARD L7c9145 ===
+BEFORE:
+International Data Transfers. You acknowledge that Anthropic is a company based and headquartered in the United States. Any information we hold about you will be transferred to, used, processed, and stored in the United States and other countries and territories, which may not have data privacy or data protection laws equivalent to those in your country or territory. For the proper operation of the Services, Anthropic needs to carry out international transfers of personal data. In the case of Brazil, we will rely on standard contractual clauses (SCCs) for our data transfers where required and in instances where they are not covered by an adequacy decision. These SCCs have been approved by the Brazilian Data Protection Authority (ANPD), which is the "competent supervisory authority" for these transfers, as governed by Brazilian Data Protection Laws. You can view the SCCs adopted by the ANPD [here].
+
+AFTER:
+International Data Transfers. You acknowledge that Anthropic is a company based and headquartered in the United States. Any information we hold about you will be transferred to, used, processed, and stored in the United States and other countries and territories, which may not have data privacy or data protection laws equivalent to those in your country or territory. For the proper operation of the Services, Anthropic needs to carry out international transfers of personal data. In the case of Brazil, we will rely on standard contractual clauses (SCCs) for our data transfers where required and in instances where they are not covered by an adequacy decision. These SCCs have been approved by the Brazilian Data Protection Authority (ANPD), which is the "competent supervisory authority" for these transfers, as governed by Brazilian Data Protection Laws. You can view the SCCs adopted by the ANPD [here].
+
+Anthropic is an AI safety and research company, building reliable, interpretable, and steerable AI systems.
+
+We’ve prepared this notice (“**Notice**”) to explain how our large language models are ‘trained’ and how personal data obtained from third party sources may be used as part of the training process. We’ve also included information about the ways in which personal data of individuals who are not registered users of our services may incidentally be processed as part of our services, and the privacy rights such individuals may enjoy with respect to their personal data.
+
+Claude is a content-based generative AI system used by many people around the world to assist with a wide range of tasks. These include improving writing, providing coding assistance, offering strategic advice, conducting business analysis, summarizing documents, and helping with various daily activities. It's available via both an API for developers and a public website (claude.ai) for individual users.
+
+2\. How Our Models are Trained
+
+Large language models such as Claude are ‘trained’ on a variety of content such as text, images and multimedia so that they can learn the patterns and connections between words and/or content. This training is essential so that the model performs effectively and safely.
+
+Claude is trained in two steps: (1) pre-training and (2) post-training.
+
+“Pre-training” involves the analysis of content in order for the model to understand the fundamentals of language – that is, syntax, the patterns and connections between words – as well as basic facts about the world. To understand the full diversity of language, the model is trained on large amounts of content (including text) that is converted into “tokens” (short chunks of text often just a few characters long, like common words, parts of longer words, or even punctuation marks). The model processes this content and builds a complex network of relationships between tokens. At the end of pretraining, the model can predict the most likely next word in a sequence based on the words that come before it, much like a sophisticated autocomplete feature.
+
+**Models do not store text like a database, nor do they simply “mash-up” or “collage” existing content.** Models identify general patterns in text in order to help people create new content, and they do not have access to or pull from the original training data once the models have been trained.
+
+[... cut ...]
+
+=== CARD L91e70e ===
+BEFORE:
+We may aggregate and/or de-identify information collected through the Services so that such information can no longer be linked to you or your device (“Aggregate/De-Identified Information”).
+
+### **3\. Commercial And Marketing Communications**
+
+AFTER:
+We may aggregate and/or de-identify information collected through the Services so that such information can no longer be linked to you or your device (“Aggregate/De-Identified Information”).
+
+We do not use any data obtained through your organization's identity and access management providers ("IDP"), including Google Workspace APIs, for developing, improving, or training any artificial intelligence (AI) or machine learning (ML) algorithms. Specifically:
+
+* Personalized AI/ML Models: Our application does not utilize your organization's IDP data to train or enhance any personalized AI or ML models.
+
+* Generalized/Non-Personalized AI/ML Models: No IDP data is used to develop, improve, or train generalized or non-personalized AI/ML models.
+
+* Third-Party AI Tools: We do not transfer IDP data to any third-party AI tools for any purpose, including but not limited to AI/ML model training, whether personalized or generalized.
+
+### **3\. Commercial And Marketing Communications**
+
+=== CARD L17e039 ===
+BEFORE:
+⠀⠀⠀⠀⠀● Communicating about, and administering your participation in, events, conferences, programs, contests, surveys, polls, panels, questionnaires, and other offers or promotions.
+
+⠀⠀⠀● **For any other purposes with your consent, at your direction, or where notice is provided:** We may use your personal information for any other purposes with your consent, at your direction, or where notice is otherwise provided.
+
+AFTER:
+⠀⠀⠀⠀⠀● Communicating about, and administering your participation in, events, conferences, programs, contests, surveys, polls, panels, questionnaires, and other offers or promotions.
+
+⠀⠀⠀● **To monitor, improve, and develop our products and services**: We may use your personal information to understand our users and to tailor or optimize our Services or develop and improve other products and services, such as services provided on third-party properties (e.g., advertising services). For example, we may train and improve our technology, such as our artificial intelligence and machine learning models and algorithms, analyze statistics and trends, and otherwise undertake research or analytics activities. In some cases, we may use your information on an aggregate level for these and other purposes.
+
+⠀⠀⠀● **For any other purposes with your consent, at your direction, or where notice is provided:** We may use your personal information for any other purposes with your consent, at your direction, or where notice is otherwise provided.
+
+=== CARD Lc41ab6 ===
+BEFORE:
+- - -
+
+* [Services for individuals, such as ChatGPT, Sora, and Operator]
+
+AFTER:
+- - -
+
+How your data is used to improve model performance
+
+Learn more about how OpenAI uses content from our services to improve and train our models.
+
+* [Services for individuals, such as ChatGPT, Sora, and Operator]
+
+=== CARD L4784a0 ===
+BEFORE:
+* the right to opt-out of the processing of your Personal Data for the purposes of targeted advertising, sale or profiling that could have legal or similarly consequential impact on you. NOTE WE DO NOT ENGAGE IN TARGETED ADVERTISING, “SELL” PERSONAL DATA OR USE PERSONAL DATA FOR “PROFILING” OR OTHERWISE ENGAGE IN AUTOMATED PROCESSING OF PERSONAL DATA TO MAKE DECISIONS THAT COULD HAVE LEGAL OR SIMILARLY SIGNIFICANT IMPACT ON YOU OR OTHERS.
+
+Your Choices
+
+AFTER:
+* the right to opt-out of the processing of your Personal Data for the purposes of targeted advertising, sale or profiling that could have legal or similarly consequential impact on you. NOTE WE DO NOT ENGAGE IN TARGETED ADVERTISING, “SELL” PERSONAL DATA OR USE PERSONAL DATA FOR “PROFILING” OR OTHERWISE ENGAGE IN AUTOMATED PROCESSING OF PERSONAL DATA TO MAKE DECISIONS THAT COULD HAVE LEGAL OR SIMILARLY SIGNIFICANT IMPACT ON YOU OR OTHERS.
+
+* the right to opt-out of using your Personal Data for training our models or optimizing our technologies.
+
+Your Choices
+
+=== CARD L10ff7f ===
+BEFORE:
+[Log in][Get started]
+
+* **Information You Provide Directly**: When you create an account, purchase a subscription, open a support ticket, apply for a role, or otherwise use our Services, you may supply Personal Data such as your name, business-email address, phone number, payment information (processed via Stripe; see Stripe's privacy policy at [stripe.com/privacy] for details on how they handle your card details and transaction data). For usage-based services like Lovable Cloud and AI Gateway, we collect and process Usage Data (e.g., API calls, storage usage, prompt volumes) to meter consumption against your Credits (prepaid balances). These Credits are tracked in separate balances per service, with metering reliant on Stripe and third-party providers. We do not store full payment card details; Stripe serves as the source of truth for billing records, which may include anonymized usage metrics shared with us for invoicing, and project artefacts (for example, natural-language prompts, code snippets, or deployment configurations). These artifacts are used only to serve your workspace and, once anonymized or aggregated, to improve our models; they are never used to train general-purpose AI models that benefit other customers without your permission.
+
+* **Information Collected Automatically**: When you interact with the Services, we automatically collect technical data such as IP address, browser type, operating system, device identifiers, pages visited, timestamps, and error logs. Service Data is processed by Lovable as an independent controller for security, billing, analytics, and product-improvement purposes. Billing and Metering Data: Telemetry on service usage (e.g., compute hours in Lovable Cloud, API requests via AI Gateway) is collected to generate monthly invoices showing consumption by service. This data is anonymized where possible and shared with Stripe for payment processing and revenue recognition.
+
+* **Data Handling In Lovable Cloud and AI Gateway**: Lovable Cloud provides cloud hosting and back-end services (e.g., database, authentication, storage), where your Customer Data (as defined in our Terms of Service), including hosted applications, files, and generated outputs, is stored and processed on Supabase infrastructure. By using Lovable Cloud, you consent to the transfer, storage, and processing of your Customer Data by Supabase under their privacy policy (available at [supabase.com/privacy]). The AI Gateway acts as a proxy to connect your applications to third-party AI providers, including OpenAI, Google Gemini, and models via OpenRouter. When using the AI Gateway, your inputs (e.g., prompts, queries) and related Customer Data are transmitted to these providers for processing and response generation. These transmissions occur on a pass-through basis; we do not store the raw prompts or responses unless you explicitly save them in your workspace. By using the AI Gateway, you consent to such transfers under the privacy policies of OpenRouter ([openrouter.ai/privacy]), OpenAI (openai.com/policies/privacy-policy), and Google (policies.google.com/privacy). We do not control these providers' data practices, and you are responsible for reviewing their policies
+
+[... cut ...]
+
+AFTER:
+[Log in][Get started]
+
+**Information from integrations you enable.** If you connect a third-party integration (for example GitHub, Supabase, or an MCP connector), we receive the data that integration makes available under the permissions you grant, plus authentication status and integration-usage events. We access only what the integration you enabled requires. Connections your App makes for its own users are different: what your App's users send through them is Your Users' Data (Section 2), which we process only on your behalf. Where an integration operates under terms you accept directly with its provider, that provider's agreement and privacy policy govern its side of the exchange. Connections made locally through a desktop application are described below. Data made available to us by a messaging or collaboration platform you connect is used only to operate the integration and generate responses; we do not use it to train AI models.
+
+**Device features and local processing.** Some of our applications — for example, Lovable Desktop — can use your device's files, microphone, camera, or screen, only where you enable the feature. What you transmit to us or to an AI model provider this way is Customer Content, handled under this Policy. Where a feature processes data entirely on your device and nothing is transmitted to us, we do not receive it, and this Policy does not apply to it. You are responsible for any consents needed before recording or sharing information about others. Feature-specific controls are described in the applicable terms, such as our [Desktop App Terms].
+
+* **Personalize** — personalize your experience and tune AI-driven features for your workspace;
+
+* **Train and develop our AI models** — train, develop, and improve our AI models, as described in Section 5 (with an opt-out);
+
+* **Improve and research** — analyze usage to improve performance, functionality, and reliability; test and compare features, interfaces, and model configurations; and conduct surveys and user research (with your participation);
+
+5. AI Model Training and Your Opt-Out
+
+**What we use.** We use Customer Content and Usage Data — which may include Personal Data — to train, develop, fine-tune, and improve our AI models and AI-powered features, including models we operate within the Services and models we may make available to customers through Lovable products such as the AI Gateway. Trained members of our team may review this content to check model quality and diagnose failures, under the confidentiality and access safeguards described in Section 14.
+
+**What we do not train on.**
+
+* **Your account and billing details.** We use them to run your account, not to train our models.
+
+* **Your Users' Data (Section 2), including App Usage Data.** It is held in your project's own database and storage, and we do not use it to train our models.
+
+**Your opt-out.** You can opt out of model training at any time in your account settings, on any plan, at no cost, and it does not affect your use of AI features. Opting out takes effect going forward: your content is excluded from all training data assembled after your opt-out takes effect. It does not retract content from training datasets assembled, or models trained, before you opted out.
+
+[... cut ...]
+
+=== CARD L6600dd ===
+BEFORE:
+You retain any ownership rights you have in Your Content, but you grant Reddit the following license to use that Content:
+
+Any ideas, suggestions, and feedback about Reddit or our Services that you provide to us are entirely voluntary, and you agree that Reddit may use such ideas, suggestions, and feedback without compensation or obligation to you.
+
+AFTER:
+You retain any ownership rights you have in Your Content, but you grant Reddit the following license to use that Content:
+
+When Your Content is created with or submitted to the Services, you grant us a worldwide, royalty-free, perpetual, irrevocable, non-exclusive, transferable, and sublicensable license to use, copy, modify, adapt, prepare derivative works of, distribute, store, perform, and display Your Content and any name, username, voice, or likeness provided in connection with Your Content in all media formats and channels now known or later developed anywhere in the world. This license includes the right for us to make Your Content available for syndication, broadcast, distribution, or publication by other companies, organizations, or individuals who partner with Reddit. For example, this license includes the right to use Your Content to train AI and machine learning models, as further described in our [Public Content Policy]. You also agree that we may remove metadata associated with Your Content, and you irrevocably waive any claims and assertions of moral rights or attribution with respect to Your Content.
+
+Any ideas, suggestions, and feedback about Reddit or our Services that you provide to us are entirely voluntary, and you agree that Reddit may use such ideas, suggestions, and feedback without compensation or obligation to you.
+
+BEFORE:
+You retain any ownership rights you have in Your Content, but you grant Reddit the following license to use that Content:
+
+Any ideas, suggestions, and feedback about Reddit or our Services that you provide to us are entirely voluntary, and you agree that Reddit may use such ideas, suggestions, and feedback without compensation or obligation to you.
+
+AFTER:
+You retain any ownership rights you have in Your Content, but you grant Reddit the following license to use that Content:
+
+When Your Content is created with or submitted to the Services, you grant us a worldwide, royalty-free, perpetual, irrevocable, non-exclusive, transferable, and sublicensable license to use, copy, modify, adapt, prepare derivative works of, distribute, store, perform, and display Your Content and any name, username, voice, or likeness provided in connection with Your Content in all media formats and channels now known or later developed anywhere in the world. This license includes the right for us to make Your Content available for syndication, broadcast, distribution, or publication by other companies, organizations, or individuals who partner with Reddit. For example, this license includes the right to use Your Content to train AI and machine learning models, as further described in our [Public Content Policy]. You also agree that we may remove metadata associated with Your Content, and you irrevocably waive any claims and assertions of moral rights or attribution with respect to Your Content.
+
+Any ideas, suggestions, and feedback about Reddit or our Services that you provide to us are entirely voluntary, and you agree that Reddit may use such ideas, suggestions, and feedback without compensation or obligation to you.
+
+=== CARD L387832 ===
+BEFORE:
+_In summary: Our Services provide a personalised experience, including advertising and other recommendations to you based on data we collect as explained_ [_here_] _and in our_ [_Privacy Policy_]_._
+
+Users can report content produced by others or others’ accounts for violation of our Terms, [Community Guidelines] or other guidelines and policies. More information about how to report content and accounts is available on our [Support Site].
+
+AFTER:
+_In summary: Our Services provide a personalised experience, including advertising and other recommendations to you based on data we collect as explained_ [_here_] _and in our_ [_Privacy Policy_]_._
+
+6\. AI Features
+
+Our Services include AI-enabled features (“AI Features”) that use inputs like text, images, audio files, videos, documents, data or other content provided by you or used at your direction (“Inputs”) to generate content and responses based on those Inputs (“Outputs”). All Inputs and Outputs will be treated for the purpose of these Terms as content you submit to the Services and accordingly any rights and licences granted to us and obligations on you in respect of content submitted or made available by you in these Terms applies to Inputs and Outputs, including the licences set out in “Rights You Grant Us” above. We collect, use, disclose and retain Inputs and Outputs in accordance with our Privacy Policy.
+
+While we integrate certain safeguards into AI Features, Outputs may not be reviewed in advance and may be inaccurate, incomplete, misleading, offensive, objectionable, inappropriate, infringing, unsuitable, unlawful, unfit for particular purposes or the same or similar to content generated for other users of the Services. Outputs may also contain content inconsistent with Snap’s view, and Snap does not endorse any content included in any Outputs. If Outputs reference individuals or third parties including their products or services, it does not mean the individual or third party endorses Snap, or that they or these products are affiliated with Snap.
+
+AI Features and Outputs are provided as-is and made available to you without representations or warranties of any kind, whether express or implied. This means that your use of any AI Features and Outputs is at your own risk, and you should not rely on them for any purpose, including to make decisions or for professional, medical, legal, financial, educational or other advice. Outputs are not Snap representations.
+
+When using our AI Features, unless we give our permission, you must not take any action that would reasonably be expected to:
+
+* violate any submission guidelines or other policies we make available to you that apply to your use of AI Features or submission of Inputs;
+
+* direct AI Features to generate any Outputs in violation of these Terms, the Community Guidelines, or any applicable intellectual property right, contractual restriction or applicable laws, or which might otherwise cause harm;
+
+* alter, obscure or remove any watermark or disclosure applied to Outputs by the AI Features;
+
+* circumvent any safety or privacy features, safeguards or mechanisms in the AI Features;
+
+* use or share Outputs that will be used to train, develop or fine tune models, services or other AI technologies; or
+
+* misrepresent Outputs as having been human-generated or otherwise generated without the use of artificial intelligence.
+
+Separate terms apply to any AI Features you use through or in connection with our business Services and Lens Studio instead of those set out above, and will be displayed to you in connection with your use of those other Services.
+
+_In summary: Inputs and Outputs from AI Features may be used in accordance with our Terms of Service, Privacy Policy and terms relevant to the AI-specific products you use. AI Features may not be accurate or appropriate and you should not rely on them as a source of truth, facts or substitute for human judgment._
+
+[... cut ...]
+
+BEFORE:
+_In summary: Our Services provide a personalised experience, including advertising and other recommendations to you based on data we collect as explained_ [_here_] _and in our_ [_Privacy Policy_]_._
+
+Users can report content produced by others or others’ accounts for violation of our Terms, [Community Guidelines] or other guidelines and policies. More information about how to report content and accounts is available on our [Support Site].
+
+AFTER:
+_In summary: Our Services provide a personalised experience, including advertising and other recommendations to you based on data we collect as explained_ [_here_] _and in our_ [_Privacy Policy_]_._
+
+6\. AI Features
+
+Our Services include AI-enabled features (“AI Features”) that use inputs like text, images, audio files, videos, documents, data or other content provided by you or used at your direction (“Inputs”) to generate content and responses based on those Inputs (“Outputs”). All Inputs and Outputs will be treated for the purpose of these Terms as content you submit to the Services and accordingly any rights and licences granted to us and obligations on you in respect of content submitted or made available by you in these Terms applies to Inputs and Outputs, including the licences set out in “Rights You Grant Us” above. We collect, use, disclose and retain Inputs and Outputs in accordance with our Privacy Policy.
+
+While we integrate certain safeguards into AI Features, Outputs may not be reviewed in advance and may be inaccurate, incomplete, misleading, offensive, objectionable, inappropriate, infringing, unsuitable, unlawful, unfit for particular purposes or the same or similar to content generated for other users of the Services. Outputs may also contain content inconsistent with Snap’s view, and Snap does not endorse any content included in any Outputs. If Outputs reference individuals or third parties including their products or services, it does not mean the individual or third party endorses Snap, or that they or these products are affiliated with Snap.
+
+AI Features and Outputs are provided as-is and made available to you without representations or warranties of any kind, whether express or implied. This means that your use of any AI Features and Outputs is at your own risk, and you should not rely on them for any purpose, including to make decisions or for professional, medical, legal, financial, educational or other advice. Outputs are not Snap representations.
+
+When using our AI Features, unless we give our permission, you must not take any action that would reasonably be expected to:
+
+* violate any submission guidelines or other policies we make available to you that apply to your use of AI Features or submission of Inputs;
+
+* direct AI Features to generate any Outputs in violation of these Terms, the Community Guidelines or any applicable intellectual property right, contractual restriction or applicable laws, or which might otherwise cause harm;
+
+* alter, obscure or remove any watermark or disclosure applied to Outputs by the AI Features;
+
+* circumvent any safety or privacy features, safeguards or mechanisms in the AI Features;
+
+* use or share Outputs that will be used to train, develop or fine tune models, services or other AI technologies; or
+
+* misrepresent Outputs as having been human-generated or otherwise generated without the use of artificial intelligence.
+
+Separate terms apply to any AI Features you use through or in connection with our business Services and Lens Studio instead of those set out above, and will be displayed to you in connection with your use of those other Services.
+
+_In summary: Inputs and Outputs from AI Features may be used in accordance with our Terms of Service, Privacy Policy and terms relevant to the AI-specific products you use. AI Features may not be accurate or appropriate and you should not rely on them as a source of truth, facts or substitute for human judgment._
+
+[... cut ...]
+
+=== CARD L82d986 ===
+BEFORE:
+- - -
+
+AFTER:
+
+
+[... cut ...]
+
+=== CARD L511cd9 ===
+BEFORE:
+* The right to appeal a decision we make about your rights request.
+
+_Exercising your rights_: Some of these rights may be exercised in the xAI service but others you will need to submit a request to [privacy@x.ai]. Once you have submitted your request, we will respond within the time frame permitted by applicable privacy laws.
+
+_Appeals:_ If we refuse to take action on a request within a reasonable period of time after receiving your request, you may appeal our decision by emailing us at [privacy@x.ai]. In such an appeal, you must (1) provide sufficient information to allow us to verify that you are the person about whom the original request pertains and to identify the original request, and (2) provide a description of the basis of your appeal. Please note that your appeal will be subject to your rights and obligations afforded to you under applicable law. We respond to all appeal requests as soon as we reasonably can, and no later than legally required.
+
+---------------------------------------
+
+AFTER:
+* The right to appeal a decision we make about your rights request.
+
+Exercising your rights: Some of these rights may be exercised in the xAI Service but for others you will need to submit a request to [privacy@x.ai] and include your full legal name, date of birth, email address, user name, X user handle (if applicable), and physical address. Once you have submitted your request, we will respond within the time frame permitted by applicable privacy laws.
+
+Appeals: If we refuse to take action on a request within a reasonable period of time after receiving your request, you may appeal our decision by emailing us at [privacy@x.ai]. In such an appeal, you must (1) provide sufficient information to allow us to verify that you are the person about whom the original request pertains and to identify the original request, and (2) provide a description of the basis of your appeal. Please note that your appeal will be subject to your rights and obligations afforded to you under applicable law. We respond to all appeal requests as soon as we reasonably can, and no later than legally required.
+
+For more information on your rights with respect to data we use to train our models, please read our [Consumer FAQs].
+
+---------------------------------------
+
+=== CARD Ledc01b ===
+BEFORE:
+_Data_
+
+AFTER:
+_Data_
+
+GitHub Copilot (i) may collect and process data based on your settings and the sepcific GitHub Copilot Service you use - this may include Prompts, Suggestions, and code snippets, and (ii) will collect additional usage information through the GitHub Copilot Service you use tied to your Account - this may include Service Usage Information, Website Usage Data, and Feedback Data. Upon your instructions, we may share this data with third-party applications such as those on the [GitHub Marketplace] or third-party AI models of your choosing. This may include personal data, as referenced in the [GitHub Privacy Statement]. You can learn more about the collection and use of GitHub Copilot data in the [GitHub Copilot Trust Center].
+
+For GitHub Copilot Free users, the data collected by GitHub Copilot may be used for AI Model training where permitted and if you allow in your settings.
+
+=== CARD Lc31aaf ===
+BEFORE:
+### Our Corporate Group
+
+### Other Third Parties
+
+AFTER:
+### Our Corporate Group
+
+The Services are supported by certain entities within our corporate group. These entities process the Personal Data You Provide, Automatically Collected Personal Data, and Personal Data from Other Sources for us, as necessary to provide certain functions, such as storage, content delivery, security, research and development, foundation model training and optimization, analytics, customer and technical support.
+
+### Other Third Parties
+
+=== CARD Ld5cd61 ===
+BEFORE:
+* Any legal requirements that we are subject to.
+
+6\. Your rights
+
+AFTER:
+* Any legal requirements that we are subject to.
+
+* You can easily [choose whether your Content can be used to improve and train our models⁠(opens in a new window)].
+
+* If you enable [Temporary Chat⁠(opens in a new window)] in ChatGPT, those conversations with ChatGPT will not appear in your history or be used to improve OpenAI’s models.
+
+6\. Your rights
+
+=== CARD L6d3a09 ===
+BEFORE:
+At X.AI Corp. ("xAI", "our", "us" or "we"), we value your privacy and are committed to being fair, accountable, and transparent in how we handle your personal information. Our Privacy Policy outlines how we collect and use your personal information, including what information we may use to train our models, our responsibilities, and the rights you have when you use our Services.
+
+* _Usage Data_: Any other information that you actively provide to us via the Services, including any personal information included in your input, file uploaded by you, or any feedback from or related to our models.
+
+* To train our models, but only with the Usage Data you voluntarily choose to provide to us. For clarity, we do not train our models using your Account Information, Payment Information, Contact Details, or Technical Usage Data.
+
+* Where we have in place standard model contractual arrangements with the recipient which have been approved by the European Commission for transfers outside the EEA or the UK Government (for transfers out of the UK).
+
+-------------------------------------------------------
+
+AFTER:
+At X.AI LLC ("**xAI**", "**our**", "**us**" or "**we**"), we value your privacy and are committed to being fair, accountable, and transparent in how we handle your personal information. Our Privacy Policy outlines how we collect, use, and disclose your personal information when you use our websites and applications (the Grok mobile app ([iOS] or [Android]) or the [Grok.com] website), and other xAI services (our "**Service**"). It also describes your privacy rights.
+
+xAI is a US-based company working on building artificial intelligence tools to accelerate human scientific discovery. We are guided by our mission to advance our collective understanding of the universe. As part of our mission, we have developed “Grok,” a conversational generative AI powered by xAI’s large language models. More information about xAI’s development and training of Grok and data controls is available in our [Consumer FAQs], [Enterprise FAQs], and [xAI website]. Please note that xAI is a separate company from X Corp. ("X", previously Twitter).
+
+* **Publicly Available Data:** We use information that is publicly available on the internet to train our models and provide resulting Output. While we do not intentionally seek out personal information, we understand that there is personal information incidentally included in these datasets. For more information on the sources of information used in the development and operation of our large language models, see our [Consumer FAQs].
+
+We do not aim to collect sensitive personal information (ex., information related to racial or ethnic origin, political opinions, religion or other beliefs, health, biometric scans, criminal background, or trade union membership) and ask that you do not provide us with any such information. In addition, in relation to Grok's training, xAI does not process training data for the purposes of inferring or deriving any sensitive or special category data about individuals, and we do not actively seek out data sources that include sensitive or special category data.
+
+* To develop and improve our Service and to conduct research: For example to develop new product features, to train our models, to identify usage trends, to operate and expand our business activities, to identify new customers, and for data analysis.
+
+As noted in the [Terms of Service], our Service is not directed at children or minors under the age of 13 and we do not knowingly collect any personal information from them. While we have taken measures to limit undesirable training data and outputs, Grok could produce output that is not appropriate for all ages. Parents of teenagers between the ages of 13 and 17 years old must agree to the Terms of Service and are urged to exercise care in monitoring the use of this Service by their teenagers. Depending on how a user interacts with the Service, including which modes the user purposely selects, the Service may have content such as some suggestive dialogue, coarse language, crude humor, sexual situations, or violence.
+
+Please note that we cannot guarantee the factual accuracy of Output from our models. If Output contains factually inaccurate personal information relating to you, you can submit a correction request and we will make reasonable efforts to correct this information — but due to the technical complexity of our models, it may not be feasible for us to do so.
+
+[... cut ...]
+
+BEFORE:
+-------------------------------------------------------
+
+AFTER:
+-------------------------------------------------------
+
+If you have any queries or complaints about our collection, use, or storage of your personal information, or if you wish to exercise any of your rights in relation to your personal information, please contact us at [https://xai-privacy.relyance.ai/] or by the following contact details:
+
+* For the fastest response for world-wide requests and in the USA: x.AI LLC, [https://xai-privacy.relyance.ai/]
+
+* In the UK: Lionheart Squared Limited, FAO x.ai, 17 Glasshouse Studios, Fryern Court Road, Fordingbridge, Hampshire, SP6 1QX United Kingdom [xai@lionheartsquared.co.uk]
+
+* In the EU: Lionheart Squared (Europe) Ltd, FAO x.ai, 2 Pembroke House, Upper Pembroke Street 28-32, Dublin, D02 EK84, Republic of Ireland [xai@lionheartsquared.eu]
+
+* In Switzerland: Lionheart Squared Switzerland SarL, FAO x.ai, Blvd George Favon 43, CH-1204 Geneva, Switzerland [xai@lionheartsquared.ch]
+
+X.AI LLC, which is based in the USA, is the controller of your personal information as described in this Privacy Policy, unless otherwise specified. See section 12 of the main [Privacy Policy] for how to contact xAI.
+
+* To train and improve our models
+
+* This is necessary for our legitimate interests in improving the accuracy and performance of our models used to power the Services and to train more advanced models
+
+* Please note that we cannot guarantee the factual accuracy of Output from our models. If Output contains factually inaccurate personal information relating to you, you can submit a correction request and we will make reasonable efforts to correct this information — but due to the technical complexity of our models, it may not be feasible for us to do so.
+
+* Please note you can object to our use of your information to train our models in your settings. See [Consumer FAQs].
+
+If you have an xAI account to access the Service, some of these rights may be exercised through your account. See [Consumer FAQs]. Rights not exercisable through your account to the extent they may be applicable, can be exercised by contacting us at [https://xai-privacy.relyance.ai/].
+
+If you are not a user of the Service but wish to exercise any of the above rights to the extent that they may be applicable, you can do so by contacting us at [https://xai-privacy.relyance.ai/].
+
+For more information on your rights with respect to data we use train out models, please read these [Consumer FAQs].
+
+=== CARD Ld76758 ===
+BEFORE:
+#### Data You Provide To Us
+
+* **_Account Information:_** If you open an account, we will collect your username and password and other information necessary to open and access your account.
+
+AFTER:
+#### Data You Provide To Us
+
+* **_Chatbot messages:_** Our chatbots have a static message at the bottom to remind you that your chats are recorded and may be shared with third parties. We use third party chatbot software and services to help us train and improve our chatbot assistants, and therefore we share the chatbot data submitted by site visitors with our third party chatbot providers. Personal data is anonymized, deidentified and aggregated if it is used to train AI models for AdRoll specifically or to generally improve the third party chatbot software and services.
+
+* **_Account Information:_** If you open an account, we will collect your username and password and other information necessary to open and access your account.
+
+=== CARD L30f989 ===
+BEFORE:
+To protect your personal information from unauthorized access, use, and disclosure, we implement reasonable physical, administrative, and technical safeguards. These safeguards include role-based access controls and encryption to keep personal information private while in transit. We also require our Business Partners, suppliers, and third parties to implement appropriate safeguards, such as contract terms and access restrictions, to protect information from unauthorized access, use, and disclosure.
+
+We only retain personal information as long as necessary to fulfill the purposes for which it is processed, or to comply with legal and regulatory retention requirements. Legal and regulatory retention requirements may include retaining information for:
+
+AFTER:
+To protect your personal information from unauthorized access, use, and disclosure, we implement reasonable physical, administrative, and technical safeguards. These safeguards include role-based access controls and encryption to keep personal information private while in transit. We also require our Business Partners, suppliers, and third parties to implement appropriate safeguards, such as contract terms and access restrictions, to protect information from unauthorized access, use, and disclosure.
+
+IBM’s AI models and systems are designed, trained, validated, and tested on data from publicly available sources that may incidentally contain Personal Information. We have implemented safeguards, processes, and tools to mitigate associated impacts and help address responsible development and deployment of trustworthy AI.
+
+We only retain personal information as long as necessary to fulfill the purposes for which it is processed, or to comply with legal and regulatory retention requirements. Legal and regulatory retention requirements may include retaining information for:
+
+=== CARD L0b6d60 ===
+BEFORE:
+vii. correct bugs or errors, improve our services and respond to customer desires and preferences, including language and location customization, personalized support and instructions, and other responses;
+
+ix. verify and confirm payment, ensure payment security, maintain transaction history record and resolving subsequent payment disputes;
+
+AFTER:
+vii. correct bugs or errors, improve our services and respond to customer desires and preferences, including language and location customization, personalized support and instructions, and other responses;
+
+viii. develop new services or products and improve the user experience, including to train the model which powers our services;
+
+ix. verify and confirm payment, ensure payment security, maintain transaction history record and resolving subsequent payment disputes;
+
+BEFORE:
+xxx. for any other purposes for which we provide specific notice at the time the information is collected.
+
+**3\. LEGAL BASIS OF OUR DATA COLLECTION AND PROCESSING**
+
+AFTER:
+xxx. for any other purposes for which we provide specific notice at the time the information is collected.
+
+**Like many AI-powered experiences, we may use your user-generated input such as chat data to train and improve the model that we use to provide our Services. You can opt-out of model training anytime in your Service-related settings. Opting out will not affect your existing gameplay.**
+
+**3\. LEGAL BASIS OF OUR DATA COLLECTION AND PROCESSING**
+
+BEFORE:
+If we have collected and processed your personal data based on your consent, you can withdraw your consent in accordance with applicable laws. Withdrawing your consent will not affect the lawfulness of any processing we conducted prior to your withdrawal, nor will it affect the processing of your personal data conducted in reliance on lawful processing grounds other than consent. In many circumstances, we need to use your personal data in order for us to provide you with our services which you require. If you do not provide us with the required personal data, or if you withdraw your consent to our use and/or disclosure of your personal data for these purposes, it may not be possible for us to continue to serve you or provide you with the services that you require.
+
+**9\. SECURING YOUR DATA**
+
+AFTER:
+If we have collected and processed your personal data based on your consent, you can withdraw your consent in accordance with applicable laws. Withdrawing your consent will not affect the lawfulness of any processing we conducted prior to your withdrawal, nor will it affect the processing of your personal data conducted in reliance on lawful processing grounds other than consent. In many circumstances, we need to use your personal data in order for us to provide you with our services which you require. If you do not provide us with the required personal data, or if you withdraw your consent to our use and/or disclosure of your personal data for these purposes, it may not be possible for us to continue to serve you or provide you with the services that you require.
+
+**With regard to AI model training, you can withdraw your consent to authorize us to collect and process your user data for the purpose of model training by checking the "settings" page in our application and unticking the relevant checkbox. Once you turn this off, any new conversations and other user content will not be used to train our models.**
+
+**9\. SECURING YOUR DATA**
+
+=== CARD L96fa3f ===
+BEFORE:
+Using Roblox Features
+
+* When you use audio features from Roblox, we may collect, process and store your audio recording to enable features like voice services and make Roblox safer. We will not engage in training or product improvement with private server voice chat recordings of EEA users. The bases for data are Article 6 sec. 1 sent. 1 lit. b (“performance of a contract”) GDPR and Article 6 sec. 1 sent. 1 lit. f (“legitimate interest”). With your consent, we will use voice recordings to inform training and product improvement. The basis for processing this Personal Information for training and product improvement is Article 6 sec. 1 sent. 1 lit. a (“consent”).
+
+Competitions, promotions, and research
+
+AFTER:
+Using Roblox Features
+
+* When you use audio features from Roblox, we may collect, process, and store your audio recordings to enable features like voice services and make Roblox safer. We will not engage in training or product improvement with private server voice chat recordings of EEA users. The bases for processing audio data are Article 6 sec. 1 sent. 1 lit. b GDPR (“performance of a contract”) and Article 6 sec. 1 sent. 1 lit. f GDPR (“legitimate interest”). With your consent, we will use voice recordings to inform training and product improvement. The basis for processing this Personal Information for training and product improvement is Article 6 sec. 1 sent. 1 lit. a GDPR (“consent”).
+
+* Information required for additional features that require the use of your camera or upload content, including photos or videos, that contains your Personal Information. If you decide to use these features and upload content that requires the use of your camera or upload content that contains your Personal Information, we will collect, process, and store that content only for as long as needed to accomplish the purpose of the feature, AI training, and improving products. The bases for processing this Personal Information are Article 6 sec. 1 sent. 1 lit. b GDPR (“performance of a contract”). For certain features that require the use of your camera, including for age assurance purposes, Roblox processes data on the basis of Article 6 sec.1 sent. 1 lit. c GDPR (“legal obligation”) and Article 6 sec. 1 sent. 1 lit. f GDPR ("legitimate interest"). For certain uploads, such as ID verification, Roblox processes biometric data you upload on the basis of consent, Article 6 sec. 1 sent. 1 lit. a GDPR or Article 9 sec. 2 lit. a GDPR (“consent”). Roblox may process the ID and live selfie you provide through ID Verification for AI training or improving products on the basis of Article 6 sec. 1 sent. 1 lit. f GDPR ("legitimate interest"). For more detailed information, about the specific purposes and processing activities, please refer to the [Roblox Facial Animation Privacy Notice] and [Roblox Facial Media Capture Privacy Notice].
+
+Competitions, promotions, and research
+
+=== CARD La1f0e1 ===
+BEFORE:
+Preamble
+
+AFTER:
+Welcome to Mistral! Our platform provides access to Mistral AI’s artificial intelligence models tailored for text generation alongside with a range of complementary services (the “**Services**”).
+
+This agreement (the “**Agreement**”) is entered into by and between Mistral AI, a French simplified joint-stock company, registered at the Trade register of Paris under number 952 418 325, and having its corporate seat at 15 rue des Halles 75001, Paris, France ("**Mistral AI**" or “**Us**”, also referred to with the possessive adjective “**Our**”) and any person who uses, accesses or subscribes to the Services ("**You**" or the “**Customer**”).
+
+* “**Agreement**” or or “**Service Agreement**”: means the agreement entered into by and between Mistral AI and You, composed of (a) these Terms of Use, (b) where applicable, the applicable Terms of Service and (c) all materials referred or linked to in the above mentioned documents, as may be amended from time to time.
+
+* “**Filters**”: means the automatic mechanisms such as moderation prompts implemented by Mistral AI designed to screen or remove offensive, inappropriate or illicit content from the Output.
+
+* “**Mistral AI’s Intellectual Property**”: means the Model(s), the Services, and any trade names, trademarks, logos, patents, trade secrets, know-how, designs, drawings, copyrights, engineering, otographs, samples, software, models, algorithm, image, literature, information, ideas, concepts, or improvements pertaining to the Services and other data of any kind that is protectable through copyrights, patent, trade secrets, trademarks, trade dress, service marks, or and includes any modification or enhancement of the Services.
+
+* “**Model(s)**”: means (i) any version of any artificial intelligence model developed by Mistral AI and made accessible in any manner (API, chat, etc….) on the Platform or via a Marketplace (as defined in Section 4.4. (Subscription via a Marketplace)) and (ii) the associated documentation as may be amended from time to time (the “**Documentation**”).
+
+* **“Parties”:** means You and Mistral AI. In the singular, “**Party**” means one of the Parties.
+
+* “**[Privacy Policy]**”: means Mistral AI’s privacy policy.
+
+* “**Platform**”: means the platform operated by Mistral AI, available at [http://console.mistral.ai].
+
+* “**Services**”: means the services provided by Mistral AI to You under these Terms of Use, including but not limited to the Platform, the Model(s) and any other services provided by Mistral AI along with any associated software, application and website. The Services may be free of charge (the “**Free Services**”) or charged to You (the “**Paid Services**”).
+
+* “**Subscription Plan**”: means the specific set of Services the Customer subscribes to. The available Subscription Plans are mentioned on the Platform and may be amended from time to time by Mistral AI at its sole discretion.
+
+* “**Support**”: means the support Services provided by Mistral AI to the Customer, which includes:
+
+* “**Technical Support**”: means the service consisting in fixing the Anomalies notified by the Customer to Mistral AI through the Ticketing Platform.
+
+* “**Ticketing Platform**”: means the ticketing application provided by Mistral AI to the Customer, where the Customer can request Technical Support. The Customer may also request Technical Support at [support@mistral.ai].
+
+[... cut ...]
+
+BEFORE:
+**Other causes for termination.** Either Party may terminate this Agreement under the conditions set forth in the Terms of Use.
+
+**Effects of termination.** Upon termination or expiration of this Agreement, the Customer shall (i) cease to use the API Services, (ii) delete the API Key and (iii) pay any outstanding Fees to Mistral AI. The termination of this Agreement, for any reason whatsoever, shall not entitle the Customer to a refund of any previously paid fees or charges for the API Services, unless expressly agreed upon by both Parties in writing. The Termination of this Agreement will not automatically result in the deletion of the Customer’s Account. Subject to having paid any outstanding amounts to Mistral AI, the Customer may delete its Account after the termination of this Agreement, by using the applicable feature on the Platform.
+
+Mistral AI will send to the Consumer a confirmation of the Consumer’s waiver of its right of withdrawal along with the confirmation of the Consumer’s Subscription under Section 4 of these Terms of Service.
+
+**Upgrades necessary to maintain the compliance of the API Services.** Mistral AI will inform the Consumer of any Upgrades necessary to maintain the compliance of the API Services during the Subscription Period. Mistral AI will notify the Consumer of the availability of Upgrades and the consequences of their non-installation for the Consumer. Mistral AI shall not be held liable for any non-compliance related issues when the Consumer fails to install, within a reasonable timeframe, the necessary Upgrades to maintain the API Services’ compliance.
+
+**Upgrades not necessary to maintain the compliance of the API Services.** Mistral AI may propose Upgrades that are not necessary to maintain the compliance of the API Services. In such cases, Mistral AI will inform the Consumer in advance and through a durable medium about the planned Upgrades and their implementation date. Any Upgrades performed will be conducted without additional costs to the Consumer. The Consumer may refuse the aforementioned Upgrade. In this event, the Consumer has the right to terminate this Agreement without charges (unless the Upgrade has minor implications for the Consumer or if, without this Upgrade, the Services remain compliant).
+
+----------------------------------------
+
+AFTER:
+**Other causes for termination.** Either Party may terminate this Agreement under the conditions set forth in the Terms of Use.
+
+**Effects of termination.** Upon termination or expiration of this Agreement, the Customer shall (i) cease to use the API Services, (ii) delete the API Key and (iii) pay any outstanding Fees to Mistral AI.
+
+Non-substantial modifications. Mistral AI may update these API Terms of Service at any time. Substantial modifications. In the event of any modifications to these API Terms of Service, Mistral AI will notify the Customer no later than thirty (30) days prior to the effective date of such modifications. If You do not agree with such substantial modifications, You may terminate this Service Agreement during the notice period in compliance with Section 13 (Term, Suspension and Termination) of the Terms of Use.
+
+Mistral AI offers a chat interface that enables users to interact with its artificial intelligence models for generating text ("**Le Chat**"), alongside with a range of services (the “**Chat Services**”).
+
+These terms of service (the “Chat Terms of Service”) are entered into by Mistral AI and the Customer.
+
+Subscribing to, accessing or using the Chat Services for benchmarking or competitive monitoring purposes is strictly prohibited. Mistral AI’s competitors shall not use the Chat Services without Mistral AI’s prior written consent.
+
+* The “**Purchase Order**”: means any and all purchase orders entered into by the Parties that references this Agreement, including but not limited to any Purchase Order created by Mistral AI following the Customer’s purchase of the Chat Services through the online Payment Services or via the in-app purchase. The Purchase Order consists of the summary detailing the Customer’s Subscription (applicable Fees, Billing Cycle, Model to which the Customer can access, any potential restrictions, etc.),
+
+* The “[Terms of Use]”: means the terms governing the Customer’s Subscription to, access and use of any and all Services provided by Mistral AI, including but not limited to the Chat Services,
+
+* “**Chat Services**”: means the services provided by Mistral AI to the Customer under these Chat Terms of Service, including but not limited to Le Chat. The Chat Services include:
+
+* “**Le Chat**”: means the chat interface available on the Platform, enabling the Customer to interact with a Model.
+
+**Purpose.** This Agreement sets forth the rights and responsibilities of Mistral AI and the Customer in connection with the Subscription to and/or use of the Chat Services.
+
+**Provision of the Chat Services.** During the Subscription Term and subject to Your compliance with this Agreement, Mistral AI will make the Chat Services available to You under the terms and conditions set forth in this Agreement.
+
+**Le Chat.** Le Chat consists of an interface available on the Platform that allows You to interact with a Model to generate text Outputs. The Model You interact with is indicated on Le Chat. Depending on Your Subscription Plan, You may access different Models or features. The Subscription Plans and the associated Models and features are described on the Platform.
+
+[... cut ...]
+
+=== CARD Le24097 ===
+BEFORE:
+We process your information for the [purposes] described in this policy, based on the following legal grounds:
+
+About this policy
+
+AFTER:
+We process your information for the [purposes] described in this policy, based on the following legal grounds:
+
+[... cut ...]
+
+=== CARD Lbdd2b2 ===
+BEFORE:
+**50.12.4.** Amazon Bedrock may allow you to customize models with data you provide (for example, by fine-tuning). You will have exclusive use of your customized model. Third-party model providers cannot access your customized model. We will not access or use your customized model except as necessary to maintain or provide the Amazon Bedrock Service, or as necessary to comply with the law or a binding order of a governmental body.
+
+**50.12.6**. PartyRock Data. We use the input that you provide and output that you generate when using PartyRock (“PartyRock Data”) in accordance with the [PartyRock Privacy Page]. As described in the [PartyRock Privacy Page], we may use PartyRock Data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies. You may instruct AWS not to use PartyRock Data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies by using the opt-out mechanism described in the [PartyRock Privacy Page]. We may use PartyRock Data to maintain and provide PartyRock and enforce our policies, including to develop and improve our fraud, abuse, and AI safety operations. PartyRock Data does not constitute Your Content as defined in the Agreement.
+
+**50.13. Amazon Q (Preview).** To help Amazon Q (Preview) provide the most relevant information about AWS Services, we may use AI Content processed by Amazon Q (Preview), such as prompts and responses (“Amazon Q Content”), for service improvement as described below. This Section 50.13 does not apply to Amazon Q (Preview) for Business or Amazon Q (Preview) in an integrated development environment (IDE) via CodeWhisperer Professional.
+
+**50.13.1.** **Service Improvement.** You agree and instruct that we may use Amazon Q Content to develop and improve Amazon Q (Preview) and its underlying technologies, and for that purpose we may store Amazon Q Content in an AWS region outside of the AWS region where you are using Amazon Q (Preview). However, we will not use Amazon Q Content to train machine-learning models other than as described in Section 50.13.2 below.
+
+**50.13.2. Other Service Improvement.** For Amazon Q Content in the IDE via CodeWhisperer Individual and Amazon Q with CodeCatalyst Free Tier, you agree and instruct that we may also use Amazon Q Content that does not contain personal data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies including to train machine-learning models.
+
+**50.13.3. Further Instructions.** You may instruct AWS not to use and store Amazon Q content for service improvement as described in this Section 50.13 by either (i) configuring an AI services opt-out policy using AWS Organizations, or (ii) if you use Amazon Q in the IDE, by adjusting your settings in the IDE.
+
+#### 51\. Amazon Lightsail
+
+AFTER:
+**50.12.4.** Amazon Bedrock may allow you to customize models with data you provide (for example, by fine-tuning). You will have exclusive use of your customized model. Third-party model providers cannot access your customized model. We will not access or use your customized model except as necessary to maintain or provide the Amazon Bedrock Service, or as necessary to comply with the law or a binding order of a governmental body.
+
+**50.12.5.** Mistral on Bedrock. Any Mistral Models offered on Amazon Bedrock (“Mistral Models”) are trained and developed by Mistral AI (“Mistral”) and are Third-Party Content. If you use the Mistral Models the following additional terms apply:
+
+* Mistral Models are provided on an “as is” basis and may be modified, updated, or enhanced from time to time.
+
+* AWS may share information with Mistral about your use of the Mistral Models, including Account Information and usage information (but not Your Content), for Mistral’s internal business analytics and support of the Mistral Models on Bedrock.
+
+* Mistral owns all right, title, and interest in and to the Mistral Models. You will not have any access to the weights or source code of the Mistral Models without Mistral’s consent.
+
+* Subject to the limitations below, Mistral will defend you against any third-party claim alleging that the Mistral Models or output from the Mistral Models infringes or misappropriates that third-party’s intellectual property rights.
+
+* Mistral will have no indemnity obligations or liability for any third-party claim arising from: (i) output generated in connection with inputs or other data provided by you that infringe or misappropriate another party’s intellectual property rights; (ii) your combination of the Mistral Models with your or a third-party’s software or hardware where the claim would not have arisen but for this combination (iii) your interference with or failure to enable available filters and other tools or follow instructions made available for the Mistral Models; (iv) your breach of this section 50.12.5; (v) your fine-tuned, refined, customized, or otherwise modified Mistral Models where the alleged infringement or misappropriation would not have occurred but for this fine-tuning, refinement, customization, or modification; or (v) your failure to comply with applicable law.
+
+* To the extent permitted by applicable law, and except with respect to Mistral’s indemnity obligations to you: Mistral will not be liable for any indirect, special, incidental, punitive, exemplary or consequential damages (including real or alleged loss of revenues) or any liabilities, damages and costs incurred by you in the case of: (i) a force majeure event; (ii) any cause not attributable to Mistral; or (iii) output of a Mistral Model being similar or identical to any other customer’s output; and for any such claims Mistral’s liability to you will be limited to the lower of the aggregate payments you made to AWS for your use of the Mistral Models in the immediately preceding 4 months and EUR 10,000, except for Mistral’s open source models where the maximum liability will be the lower of 1 month of payments and EUR 1,000.
+
+[... cut ...]
+
+=== CARD L9270cd ===
+BEFORE:
+Large language models such as Claude are ‘trained’ on a variety of content such as text, images and multimedia so that they can learn the patterns and connections between words and/or content. This training is essential so that the model performs effectively and safely.
+
+Claude is trained in two steps: (1) pre-training and (2) post-training.
+
+“Pre-training” involves the analysis of content in order for the model to understand the fundamentals of language – that is, syntax, the patterns and connections between words – as well as basic facts about the world. To understand the full diversity of language, the model is trained on large amounts of content (including text) that is converted into “tokens” (short chunks of text often just a few characters long, like common words, parts of longer words, or even punctuation marks). The model processes this content and builds a complex network of relationships between tokens. At the end of pretraining, the model can predict the most likely next word in a sequence based on the words that come before it, much like a sophisticated autocomplete feature.
+
+**Models do not store text like a database, nor do they simply “mash-up” or “collage” existing content.** Models identify general patterns in text in order to help people create new content, and they do not have access to or pull from the original training data once the models have been trained.
+
+“Post-training” helps make the model more useful, effective, and safe, by integrating human feedback. The model generates multiple responses to a given prompt, which are then evaluated by human reviewers based on criteria such as quality, helpfulness, safety, and accuracy. This reinforcement learning feedback loop helps align the model's outputs with human expectations and values, gradually improving a model’s ability to provide relevant and appropriate responses. In addition, further “fine-tuning” that provides the model with the examples of appropriate outputs (e.g., specific to a particular domain or use case) helps improve the model.
+
+AFTER:
+Large language models such as Claude are ‘trained’ on a variety of content such as text, images and multimedia so that they can learn the patterns and connections between words and/or content. This training is essential so that the model performs effectively and safely.
+
+Training our models involves a number of separate stages, but broadly these fall into two steps: (1) pre-training and (2) post-training.
+
+“Pre-training” involves the analysis of content in order for the model to understand the fundamentals of language – that is, syntax, the patterns and connections between words – as well as basic facts about the world. To understand the full diversity of language, the model is trained on large amounts of content (including text) that is converted into “tokens” (short chunks of text often just a few characters long, like common words, parts of longer words, or even punctuation marks). The model processes this content and builds a complex network of relationships between tokens. At the end of pre-training, the model can predict the most likely next word in a sequence based on the words that come before it, much like a sophisticated autocomplete feature.
+
+Models do not store text like a database, nor do they simply “mash-up” or “collage” existing content. Models identify general patterns in text in order to help people create new content, and they do not have access to or pull from the original training data once the models have been trained.
+
+“Post-training” helps make the model more useful, effective, and safe, by integrating human feedback. The model generates multiple responses to a given prompt, which are then evaluated by human reviewers based on criteria such as quality, helpfulness, safety, and accuracy. This reinforcement learning feedback loop helps align the model's outputs with human expectations and values, gradually improving a model’s ability to provide relevant and appropriate responses. In addition, further “fine-tuning” that provides the model with the examples of appropriate outputs (e.g., specific to a particular domain or use case) helps improve the model.
+
+BEFORE:
+“Post-training” helps make the model more useful, effective, and safe, by integrating human feedback. The model generates multiple responses to a given prompt, which are then evaluated by human reviewers based on criteria such as quality, helpfulness, safety, and accuracy. This reinforcement learning feedback loop helps align the model's outputs with human expectations and values, gradually improving a model’s ability to provide relevant and appropriate responses. In addition, further “fine-tuning” that provides the model with the examples of appropriate outputs (e.g., specific to a particular domain or use case) helps improve the model.
+
+3\. Collection of Personal Data
+
+AFTER:
+“Post-training” helps make the model more useful, effective, and safe, by integrating human feedback. The model generates multiple responses to a given prompt, which are then evaluated by human reviewers based on criteria such as quality, helpfulness, safety, and accuracy. This reinforcement learning feedback loop helps align the model's outputs with human expectations and values, gradually improving a model’s ability to provide relevant and appropriate responses. In addition, further “fine-tuning” that provides the model with the examples of appropriate outputs (e.g., specific to a particular domain or use case) helps improve the model.
+
+We’ve described the stages of model training in more detail in Section 4 below.
+
+3\. Collection of Personal Data
+
+BEFORE:
+Anthropic may also obtain personal data from our third-party partners, such as in content returned by web search providers, when we are developing or delivering product features like web search.
+
+4\. Privacy Safeguards During Data Collection and Training
+
+Additionally, **our models are specifically trained to respect privacy.** We have built key ‘privacy by design’ safeguards into the development of Claude through our adoption of “Constitutional AI”. This gives Claude a set of principles (i.e., a “constitution”) to guide the training of the Claude LLMs and to make judgments about outputs. These principles are based in part on the Universal Declaration of Human Rights and include specific rules around protecting privacy, particularly of non-public figures. This trains the Claude LLMs to not disclose or repeat personal data which may have been incidentally captured in training data, even if prompted. For example, Claude is given the following principles as part of its “constitution”: “_Please choose the response that is most respectful of everyone’s privacy_” and “_Please choose the response that has the least personal, private, or confidential information belonging to others_”. For more information on how “Constitutional AI” works, see [https://www.anthropic.com/news/claudes-constitution].
+
+5\. Your Rights and Choices
+
+AFTER:
+Anthropic may also obtain personal data from our third-party partners, such as in content returned by web search providers, when we are developing or delivering product features like web search.
+
+4\. How personal information is used at each stage of training our models
+
+Training our models can involve a number of separate stages, described below. Any of the personal information described in Section 3 may be used for these purposes.
+
+**Gathering and filtering training material.** We collect a diverse range of content such as text, images and multimedia. We describe the sources for this data in more detail in \[Section 3\]. When we gather this material, we are not looking for information about particular individuals, but some of it will incidentally contain personal information; for example, names, contact information, and work or biographical details.
+
+**Pre-training.** Data is prepared for pre-training. This process can include deduplicating portions that appear repeatedly, converting the remaining characters to tokens, and randomizing certain sequences. These techniques can help reduce the likelihood of a trained model reproducing content it was trained on. We train the base model so it learns the patterns of language and basic facts about the world (Section 2 explains how this works in more detail).
+
+**Making the model helpful and safe**. We then refine the trained model so that it follows instructions, gives useful answers and avoids harmful ones. We do this using carefully prepared examples, feedback and ratings from people, and by training the model to follow certain principles, for example by using [Constitutional AI].
+
+**Safety testing and safety tools.** We build internal tools that spot harmful or policy-violating content, deliberately stress-test the model, and test each model against fixed sets of questions to measure how well and how safely it performs.
+
+**Research and publishing what we learn.** A core part of Anthropic's mission is to make AI safer for everyone, not just our own products but the field as a whole. We carry out research into how AI models operate and behave - for example, what makes them more or less likely to produce harmful, biased or inaccurate responses, which safety and alignment techniques are effective, and how AI is being used by and impacting society - and we publish our findings so that others can learn from and build on them.
+
+The models we build through these stages are general-purpose models used for tasks like conversation, writing, coding, analysis and answering questions. We use techniques such as [Constitutional AI to train our models to be aligned with human values.] Claude’s constitution includes individual privacy and freedom from undue surveillance, prevention and protection from harm, and individual wellbeing as values Claude may need to weigh up when determining how to respond to a given request.
+
+We make the finished models available through Claude.ai, our developer tools and our business products. We do not use personal information in our training material to contact people, build profiles about them, or sell that information to anyone. The same training material may be used at more than one of the stages above, and we may use it again to train newer versions of our models over time.
+
+5\. Your Rights and Choices
+
+BEFORE:
+-------------------------------------
+
+When the personal data collected is no longer required by us, we and our service providers will perform the necessary procedures for destroying, deleting, erasing, or converting it into an anonymous form as permitted or required under applicable laws.
+
+AFTER:
+-------------------------------------
+
+Anthropic retains your personal data for as long as reasonably necessary for the purposes and criteria outlined in this Policy. We decide how long to keep information based on factors such as: how long it remains necessary for training, testing, maintaining and improving our models, including future versions; how long the models trained on it remain in service or supported; how long we need it to investigate, reproduce or explain a model's behavior; any limits agreed with the organizations we obtain data from; and our other legal and regulatory obligations.
+
+When the personal data collected is no longer required by us, we and our service providers will perform the necessary procedures for destroying, deleting, erasing, or converting it into an anonymous form as permitted or required under applicable laws.

@@ -1,0 +1,727 @@
+Each card shows the BEFORE and AFTER text of one change to a company's terms of service or privacy policy (only the changed passages that mention AI or models, with a little context). Read both and answer one label:
+- NEW: the AFTER text lets the company (or partners it shares data with) use its users' content or personal data to train or improve AI / machine-learning models, and the BEFORE text did not.
+- WIDER: the BEFORE text already allowed that, and the AFTER text allows clearly more (more kinds of data, generative AI, new recipients, fewer limits, an opt-out removed).
+- SAME: both allow it to about the same extent (rewording, moving text, small clarifications).
+- NO: the AFTER text does not let the company train AI on users' data (for example: a promise not to train, a ban on users training AI on the service, AI features or third-party models mentioned without training on users' data, or training only on data that is not users' own, such as public web data).
+- UNCLEAR: the passages shown are not enough to tell.
+For NEW or WIDER, also give the scope of the training use:
+- THIRD: users' data is shared with other companies for THEM to train AI.
+- GENERAL: generative or general-purpose AI, or AI/ML models with no narrow purpose named.
+- NARROW: models for one named operational purpose only (ads, recommendations, fraud, safety, support, search).
+(If several apply, the first in this order.) For the other labels, scope is "-".
+Then quote the one AFTER sentence that decides it (or "-" for NO with nothing to quote).
+
+Answer as JSON lines: {"card": "<id>", "label": "<NEW|WIDER|SAME|NO|UNCLEAR>", "scope": "<THIRD|GENERAL|NARROW|->", "quote": "<sentence>"}
+
+=== CARD L1ab311 ===
+BEFORE:
+--------------
+
+How we use info for AI at Meta Based on feedback from regulators, we’re still delaying our plans to use your information from Meta Products to develop and improve [AI at Meta]. We’ll let you know before we start using this information for this purpose, and how you can exercise your right to object. Other updates We updated our Privacy Policy on April 7, 2025. [View our previous policy.]
+
+How to manage the info we use
+
+AFTER:
+--------------
+
+Policy update We updated our Privacy Policy on April 7, 2025. [View our previous policy.] How we use info for AI at Meta We’re always improving [AI at Meta]. To do this, we want you to know that we'll use [public information] such as public posts and comments from accounts of people aged 18 or older and your interactions with AI at Meta features. We’ll use this information on the basis of legitimate interests to develop and improve generative AI models for AI at Meta. You have the right to [object] to the use of your information for these purposes. If you submit an objection, we’ll send an email confirming that we won't use your interactions with AI at Meta features or your public information from Meta Products for future development and improvement of generative AI models for AI at Meta. [Learn about how models are trained]. If you've already objected, you don't need to submit another request. These changes go into effect on May 27, 2025. [Read the new policy.]
+
+How to manage the info we use
+
+=== CARD L12a1fd ===
+BEFORE:
+**Legal Basis:** The processing is necessary for our legitimate interests or those of a third party. It is within Energia’s legitimate interest to use certain personal data to establish, maintain and review an account to allow Energia to better manage customers’ accounts, enforce rights set out in the terms & conditions of supply, and to ensure customers are provided with the most appropriate products and services.
+
+In order to respond to queries and manage and investigate any complaints we are required to process your personal data. If you contact our Customer Service Team or if we contact you we will use personal data such as account information and contact history. We may monitor and record such communications, instant messaging (web chat), email and other electronic communication to help investigate any complaints and for training purposes.
+
+**Legal Basis:** The processing is necessary to comply with our legal obligations.
+
+AFTER:
+**Legal Basis:** The processing is necessary for our legitimate interests or those of a third party. It is within Energia’s legitimate interest to use certain personal data to establish, maintain and review an account to allow Energia to better manage customers’ accounts, enforce rights set out in the terms & conditions of supply, and to ensure customers are provided with the most appropriate products and services.
+
+In order to respond to queries and manage and investigate any complaints we are required to process your personal data. If you contact our Customer Service Helpline or if we contact you, we will use personal data such as your account information and contact history. We monitor and record such communications, including phone calls, instant messaging (web chat), social media, email and other electronic communication to help investigate any complaints, and for account administration, training, quality assurance and to support the improvement of our services and technologies. We may use technologies which use artificial intelligence (AI) or machine learning to support our operational functions and to enhance our customer engagement by categorising queries, evaluating customer satisfaction, identifying areas for improvements, staff training and reviewing customer service engagement.
+
+**Legal Basis:** The processing is necessary to comply with our legal obligations.
+
+=== CARD L2c76ff ===
+BEFORE:
+When using personal data to serve Booking.com’s or a third party's legitimate interest, Booking.com will always balance your rights and interests in the protection of your personal data against Booking.com’s rights and interests or those of the third party. For purposes M, Booking.com also relies, where applicable, on compliance with legal obligations (such as lawful law enforcement requests).
+
+* * *
+
+AFTER:
+When using personal data to serve Booking.com’s or a third party's legitimate interest, Booking.com will always balance your rights and interests in the protection of your personal data against Booking.com’s rights and interests or those of the third party. For purposes M, Booking.com also relies, where applicable, on compliance with legal obligations (such as lawful law enforcement requests).
+
+We may use your personal data to develop and train artificial intelligence models and/or systems (AI) where the purpose of collecting your data is to provide or improve our services to you. The legal bases for using AI which we rely on are:
+
+* Beyond preventing and detecting fraud attempts, we may have a legitimate interest in developing AI to improve the efficiency and quality of our products and services. We always consider whether your rights and freedoms are infringed and will only proceed where this legitimate interest is not overridden by your rights.
+
+* In other cases where we may use AI, we will seek your consent where this is required.
+
+If you wish to object to the processing set out under C to L or, where applicable, to the use of your personal data in the context of AI and no opt-out mechanism is available to you directly (for example, in marketing emails or your account settings), please contact us at [dataprotectionoffice@booking.com] or go to the [form].
+
+* * *
+
+BEFORE:
+If you decide to connect using your Facebook or Google account, please review the following links for information about how these parties use data they receive: [Facebook] and [Google].
+
+* * *
+
+AFTER:
+If you decide to connect using your Facebook or Google account, please review the following links for information about how these parties use data they receive: [Facebook] and [Google].
+
+### How we use artificial intelligence and make automated decisions
+
+We are always looking for opportunities to innovate and improve the customer experience by using new technologies such as AI. We currently use AI for the following purposes:
+
+2. Showing you the most relevant content. We use AI to improve the customer experience and personalization on our platforms (such as providing you with summarised reviews). This may include sending you details of a trip we think you would be interested in (where you have consented to this communication) and ranking search results to put the best matches at the top of your feed.
+
+3. Improving our services. We use AI to improve trip services in accordance with the details set out in the section [Why does Booking.com collect and use your personal data?] This includes the identification of trends, monitoring the operations of the platform, troubleshooting our websites and apps as well as improving the services we offer to you.
+
+4. Developing AI interactive chats to allow you to ask questions about a trip or service and receive AI-generated relevant responses or itinerary suggestions.
+
+We assess our AI against data protection principles, such as minimisation, accuracy, and purpose limitation. We take steps to prevent data inaccuracies, harm and biases from our use of AI.
+
+See the section titled [What security and retention procedures does Booking.com put in place to safeguard your personal data?] for more information regarding the safeguards we have implemented which will also apply to personal data we process to train or use AI.
+
+In most cases, the use of AI will not result in an automated decision being made about you. When we provide you with a trip recommendation using AI, this is only a suggestion, and you have control over how this is used.
+
+We do not currently use any solely automated systems to make a decision about you which would result in a legal or similarly significant effect on you. We will inform you if this changes and will ensure that we have implemented suitable measures to safeguard your rights and freedoms. Sometimes, AI will contribute to a decision we make. AI that is used to inform or monitor the platform, for example for fraud attempts, will not autonomously make any decision that will have a significant impact on you. Where an AI identifies a possible issue a member of our team will complete the review and make an informed decision. In limited cases, we may complete decision-making without human review after we have assessed that the decision would not result in a significant effect on you.
+
+If you would like to know more about our use of AI, contact us as described in the section [How can you control the personal data you’ve given to Booking.com?]
+
+* * *
+
+=== CARD Le17670 ===
+BEFORE:
+- - -
+
+AFTER:
+
+
+[... cut ...]
+
+=== CARD L75bd5e ===
+BEFORE:
+-------------------------------------------
+
+* **Technical support data:** We keep your data until your request is processed and for 5 years for record-keeping.
+
+AFTER:
+-------------------------------------------
+
+* **Input/Output & Feedback on Le Chat:** until you delete your account or until you delete the conversation from Le Chat. Subject to your opt-out, we de-identify such data before using it to train our artificial intelligence models.
+
+* **Your Civil Identity Data (your first and last name, etc.):** for 5 years after the termination of your Mistral AI account.
+
+* **Contracts, commercial licenses to use our Models and contact details relating to both:** we keep your data for the duration of the contract and for 5 years following the termination of the contract.
+
+* **Technical support data:** We keep your data until your request is processed and for 5 years for record-keeping.
+
+BEFORE:
+---------------
+
+* **Consent withdrawal.** You have the right to withdraw your consent to the processing of your personal data at any time.
+
+AFTER:
+---------------
+
+* **Access.** You have the right to know if we process your personal data. You also have the right to request a copy of such personal data and to obtain further information about the way we process your personal data. **We've introduced a user control which allows you to export your data at all times from your Mistral AI account. For more information, please refer to our [Help Center.]**
+
+* **Objection.** You have the right to object to the processing of your personal data. This right does not apply when we have a legal obligation to process your personal data. **We’ve introduced a user control which allows you to object to the use of your input and output data for model training directly from your account. For more information, please refer to our [Help Center.]**
+
+* **Consent withdrawal.** You have the right to withdraw your consent to the processing of your personal data at any time.
+
+BEFORE:
+We will take every step to make sure we reply to your requests. However, when your request concerns the training of our models, it’s important to note that your rights have technical limitations and fulfilling your requests might involve a complex technical process.
+
+* By sending us a letter at Mistral AI, Attn: Privacy Team, Mistral AI, 15 rue des Halles, 75001 Paris, France.
+
+9\. Changes to this Privacy Policy
+
+AFTER:
+We will take every step to make sure we reply to your requests. However, when your request concerns the training of our models, it’s important to note that your rights have technical limitations and fulfilling your requests might involve a complex technical process.
+
+* ****By using the user controls which are available from your Mistral AI Account settings and which allow you to: delete your account at all times, obtain a copy of your data, object to the use of your input and output data for model training. For more information on these user controls, please refer to our [Help Center].****
+
+* **By sending us a letter at** Mistral AI, Attn: Privacy Team, Mistral AI, 15 rue des Halles, 75001 Paris, France.
+
+9\. Changes to this Privacy Policy
+
+=== CARD L164f61 ===
+BEFORE:
+Any UGCStands for “User Generated Content.” UGC is content of any kind or nature, whether material, assets, or otherwise, that Users (including but not limited to Creators) upload to, create and publish on, or otherwise generate through or make available on the Services. Published on the ServicesAny service or application offered by Roblox, such as those allowing Users to develop Virtual Content, connect with others, and use Virtual Content created by you and other Users. It includes websites on the roblox.com domain, our Roblox mobile, virtual reality and Xbox apps, the Roblox Player, the Roblox Studio, and our other websites, products, software, applications, content, data feeds, and other services. must comply with the Roblox TermsThe terms and conditions that apply to and govern a User’s and Creator’s use of the Services. The Roblox Terms include the User Terms, Creator Terms, Roblox Community Standards, Roblox Privacy & Cookie Policy, and regional Supplemental Provisions and other Additional Terms., including the RobloxThe Roblox Corporation, including its designated subsidiaries: Roblox Prepaid Company LLC, Roblox Godo Kaisha or Roblox Japan, Roblox Canada Inc., Roblox UK Limited (FKA Ceebr Limited), Roblox India Services Private Limited, Roblox Korea Limited, Roblox Australia Pty Ltd, and Roblox Netherlands B.V. [Community Standards], and must not be illegal, fraudulent, deceptive, obscene, threatening, defamatory, invasive of privacy, infringing of intellectual property rights, or otherwise injurious to third parties or objectionable, and must not consist of or contain software viruses, commercial solicitation, chain letters, mass mailings, or any form of “spam.”
+
+4. **Copyright Infringement / Digital Millennium Copyright Act (DMCA).**
+
+AFTER:
+Any UGCStands for “User Generated Content.” UGC is content of any kind or nature, whether material, assets, or otherwise, that Users (including but not limited to Creators) upload to, create and publish on, or otherwise generate through or make available on the Services. Published on the ServicesAny service or application offered by Roblox, such as those allowing Users to develop Virtual Content, connect with others, and use Virtual Content created by you and other Users. It includes websites on the roblox.com domain, our Roblox mobile, virtual reality and Xbox apps, the Roblox Player, the Roblox Studio, and our other websites, products, software, applications, content, data feeds, and other services. must comply with the Roblox TermsThe terms and conditions that apply to and govern a User’s and Creator’s use of the Services. The Roblox Terms include the User Terms, Creator Terms, Roblox Community Standards, Roblox Privacy & Cookie Policy, and regional Supplemental Provisions and other Additional Terms., including the RobloxThe Roblox Corporation, including its designated subsidiaries: Roblox Prepaid Company LLC, Roblox Godo Kaisha or Roblox Japan, Roblox Canada Inc., Roblox UK Limited (FKA Ceebr Limited), Roblox India Services Private Limited, Roblox Korea Limited, Roblox Australia Pty Ltd, and Roblox Netherlands B.V. [Community Standards], and must not be illegal, fraudulent, deceptive, obscene, threatening, defamatory, invasive of privacy, infringing of intellectual property rights, or otherwise injurious to third parties or objectionable, and must not consist of or contain software viruses, commercial solicitation, chain letters, mass mailings, or any form of “spam.”
+
+[... cut ...]
+
+BEFORE:
+_User TermsTerms applicable to all Users which provide an overview and the associated rules for things like (i) account creation, (ii) using Robux to make purchases, (iii) trading Virtual Items, and (iv) activities prohibited on the Platform. The User Terms also cover some of the more technical legal terms that govern use of the Services, including intellectual property ownership, online safety, disclaimers and other very important legal terms._
+
+_Creator TermsTerms of Use applicable to all Users who access the Services. They cover items such as the use of Roblox Studio, the offering of Experiences and Virtual Content, and the use of music on the Services._
+
+AFTER:
+_User TermsTerms applicable to all Users which provide an overview and the associated rules for things like (i) account creation, (ii) using Robux to make purchases, (iii) trading Virtual Items, and (iv) activities prohibited on the Platform. The User Terms also cover some of the more technical legal terms that govern use of the Services, including intellectual property ownership, online safety, disclaimers and other very important legal terms._
+
+* We have clarified that our rights to use UGC published by Users on Roblox, including within Experiences, include training of machine learning and related models; Creators will have the ability to control their data sharing preferences for what assets will be used for training generative AI-based tools, such as for Experiences, paid Creator Store assets, and avatars and avatar items.
+
+_Creator TermsTerms of Use applicable to all Users who access the Services. They cover items such as the use of Roblox Studio, the offering of Experiences and Virtual Content, and the use of music on the Services._
+
+BEFORE:
+_Creator TermsTerms of Use applicable to all Users who access the Services. They cover items such as the use of Roblox Studio, the offering of Experiences and Virtual Content, and the use of music on the Services._
+
+We are also making changes to other portions of the Roblox TermsThe terms and conditions that apply to and govern a User’s and Creator’s use of the Services. The Roblox Terms include the User Terms, Creator Terms, Roblox Community Standards, Roblox Privacy & Cookie Policy, and regional Supplemental Provisions and other Additional Terms. to align with these changes. Please take some time to review them.
+
+AFTER:
+_Creator TermsTerms of Use applicable to all Users who access the Services. They cover items such as the use of Roblox Studio, the offering of Experiences and Virtual Content, and the use of music on the Services._
+
+* We have clarified that our rights to use UGC published by Creators on Roblox include training of machine learning and related models; Creators will have the ability to control their data sharing preferences for what assets will be used for training generative AI-based tools, such as for Experiences, paid Creator Store assets, and avatars and avatar items.
+
+We are also making changes to other portions of the Roblox TermsThe terms and conditions that apply to and govern a User’s and Creator’s use of the Services. The Roblox Terms include the User Terms, Creator Terms, Roblox Community Standards, Roblox Privacy & Cookie Policy, and regional Supplemental Provisions and other Additional Terms. to align with these changes. Please take some time to review them.
+
+=== CARD L5607c7 ===
+BEFORE:
+(vi) use any data mining, data gathering or extraction method;
+
+We may terminate or restrict your use of our service if you violate these Terms of Use or are engaged in illegal or fraudulent use of the service.
+
+AFTER:
+(vi) use any data mining, data gathering or extraction method;
+
+(viii) engage in any of the foregoing in connection with the use, creation, development, modification, prompting, fine-tuning, training, testing, benchmarking or validation of any machine learning tool, model, system, algorithm, product or other technology.
+
+We may terminate or restrict your use of our service if you violate these Terms of Use or are engaged in illegal or fraudulent use of the service.
+
+=== CARD La2fe9c ===
+BEFORE:
+Address: 1111B South Governors Avenue, Dover, DE 19904, USA
+
+AFTER:
+Address: 1111B South Governors Avenue, Dover, DE 19904, USA
+
+* **"AI Gateway"** means our optional managed API service that lets you access third-party artificial intelligence models (for example, OpenAI, Google, or OpenRouter) through our infrastructure.
+
+* **"Credits"** means the prepaid, non-refundable, non-redeemable units you purchase or receive to use the Services. Credits are consumed as you use the Platform, Lovable Cloud, the AI Gateway, or other usage-based features.
+
+* **"Free Credits"** means promotional or trial credits we grant you (for example, $25 per month for Lovable Cloud and $1 per month for the AI Gateway).
+
+* **"Lovable Materials"** means the Platform, the Services, the Site, and all related software, technology, documentation, tools, templates, algorithms, models, interfaces, content, and other materials that we develop, provide, or make available, together with all improvements, modifications, and derivative works. Lovable Materials do not include your Customer Data.
+
+* **"Platform"** means our software platform, accessible through the Site, that lets you create applications and websites by interacting with artificial intelligence.
+
+* **"Services"** means the Platform and all related features, tools, modules, integrations, and support services we make available to you under these Terms, including, where applicable, Lovable Cloud and the AI Gateway.
+
+* **"Third-Party AI Provider(s)"** means external providers of artificial intelligence models or related services that you can access through the AI Gateway (for example, OpenAI, Google, or OpenRouter).
+
+* reverse engineer, decompile, disassemble, or otherwise attempt to derive source code, models, or algorithms underlying the Services;
+
+* misrepresent AI Output as human-generated in contexts where it could cause harm or deception;
+
+* use AI Output without appropriate review in high-risk or sensitive contexts (including medical, legal, financial, or safety-critical uses);
+
+* extract, reconstruct, or attempt to determine model weights, training data, or system logic;
+
+* use the Services, AI Output, or prompts to train, develop, or improve competing AI models.
+
+Lovable Cloud and the AI Gateway run on Cloud Credits. You have two separate balances - one for Lovable Cloud and one for the AI Gateway. Cloud Credits are consumed as you use those Services and are in addition to any Platform subscription fees.
+
+* Free Credits: We may grant Free Credits (for example, $25/month for Lovable Cloud and $1/month for the AI Gateway).
+
+We issue monthly invoices that show: (a) your Platform subscription charges (if any), and (b) your usage by Service (Lovable Cloud vs. AI Gateway). Invoices are generated based on the records of our designated third-party payment processor (such as Stripe). We rely solely on the records, calculations, and determinations of that payment processor with respect to payments, metering, invoicing, and account balances, and you agree that those determinations are final and binding absent manifest error.
+
+We use reasonable efforts to meter usage accurately, but metering depends on third-party services (including Stripe, Supabase, and Third-Party AI Providers). By using the Services, you agree that our metering and billing records are authoritative.
+
+[... cut ...]
+
+=== CARD Le6a1d1 ===
+BEFORE:
+When we receive formal written complaints, we respond by contacting the person who made the complaint. We work with the appropriate regulatory authorities, including local data protection authorities, to resolve any complaints regarding the transfer of your data that we cannot resolve with you directly.
+
+About this policy
+
+AFTER:
+When we receive formal written complaints, we respond by contacting the person who made the complaint. We work with the appropriate regulatory authorities, including local data protection authorities, to resolve any complaints regarding the transfer of your data that we cannot resolve with you directly.
+
+Google LLC is the data controller responsible for processing information indexed and displayed in services like [Google Search] and Google Maps regardless of your location. Google Ireland Limited is the data controller responsible for processing information to train Google’s AI models for the purpose of deploying them in services provided by Google Ireland Limited in the European Economic Area or Switzerland.
+
+[... cut ...]
+
+=== CARD L49b299 ===
+BEFORE:
+To access most features of the Service, you must register for an account. When you register for an account, you may be required to provide us or our authentication platform with some information about yourself, such as your email address or other contact information. You agree that the information you provide to us is accurate and that you will keep it accurate and up-to-date at all times. When you register, you will be asked to provide a password. You are solely responsible for maintaining the confidentiality of your account and password, and you accept responsibility for all activities that occur under your account. If you have reason to believe that your account is no longer secure, then you must immediately notify us at support@openrouter.ai.
+
+### 4\. **Payment**
+
+AFTER:
+To access most features of the Service, you must register for an account. When you register for an account, you may be required to provide us or our authentication platform with some information about yourself, such as your email address or other contact information. You agree that the information you provide to us is accurate and that you will keep it accurate and up-to-date at all times. When you register, you will be asked to provide a password. You are solely responsible for maintaining the confidentiality of your account and password, and you accept responsibility for all activities that occur under your account. If you have reason to believe that your account is no longer secure, then you must immediately notify us at support@openrouter.ai.
+
+The Service allows creation of two account types: organizational accounts and individual accounts. An organizational account is managed by an administrative user ("**Admin User**") who can invite individuals from the Admin User's organization ("**Authorized Users**") to the organizational account. Authorized Users may only use the Service as configured by the Admin User, with such configurations which may include, without limitation, enabling prompt logging, chat logging, zero data retention, model training, and other settings. Authorized Users may also create separate individual accounts to access the Service.
+
+### 4\. **Payment**
+
+=== CARD L8789e9 ===
+BEFORE:
+-------------------------
+
+-------------------------
+
+AFTER:
+-------------------------
+
+4. The Company may grant you infrastructure on which you access, modify, or otherwise use models trained by third parties and/or with third-party data (collectively, “Third-Party Models”). Such models may come with their own terms and conditions. It is your responsibility to comply with the terms and conditions of those models. In case of any conflict between this Agreement and such terms, the model terms govern.
+
+2. When using the Services, in your Privacy & Security setting, you have the ability to control how your data is handled by choosing “No” when asked if you want to store prompts or allow your data to train models. By choosing “No”, you are enabling Zero Data Retention (“ZDR”) for your use of the Services. Under ZDR, your data and outputs are not stored, retained, or used for model training, product improvements, or any other purpose beyond the time required to process the specific request or transaction. ZDR applies only from the moment you enable it and does not affect any data processed prior. If you choose to enable ZDR, you acknowledge that the Company will not use your data and outputs to train models, improve Services, or for other secondary purposes except as needed to provide the Services to you.
+
+-------------------------
+
+=== CARD Lf84604 ===
+BEFORE:
+PayPal Privacy Statement
+
+----------------------------------------------------
+
+AFTER:
+PayPal Privacy Statement
+
+* _AI and Automated Decision Making_. We may use Personal Information to train our artificial intelligence (AI) models that power our Services and help us deliver more secure, efficient, and personalized services. PayPal also uses Automated Decision Making to provide our products and Services, conduct risk analysis, fraud prevention and risk management to protect our customers and business, including to prevent fraud against our Partners and Merchants and strategic ventures. Please see [AI and Automated Decision Making] to learn more.
+
+* **Service providers**. We may disclose Personal Information with our service providers that operate at our direction and on our behalf to perform services we outsource to them, such as AI providers, fraud prevention, bill collection, shipping, processing payments, marketing, research, compliance, audits, corporate governance, communications, technical and/or design services, IT development, maintenance, hosting and support customer service operations. Our contracts dictate that these service providers only use your information in connection with the services they perform for us and not for their own benefit. Under applicable data protection laws, depending upon the country/region in which you reside, you may find a link to those [third-party service providers] including the purpose of disclosure, types of information disclosed, etc.
+
+AI and Automated Decision Making
+
+We may process your Personal Information using AI and/or Automated Decision Making technology under the circumstances described below:
+
+* **Agentic AI**. PayPal is committed to offering innovative and personalized experiences, and we may, directly or through our trusted partners, provide you with access to Agentic AI tools (“Agentic AI Tools”). These AI tools are designed to operate with a degree of autonomy, enabling them to perform tasks, make recommendations, and even initiate actions on your behalf, all while learning from your interactions. Agentic AI Tools leverage generative AI technology to enhance your experience on the PayPal platform.
+
+We encourage you to carefully consider the recommendations and actions of Agentic AI Tools. Our Agentic AI Tools are not designed to make decisions that have legal or similarly significant effects, such as decisions with legal, medical, financial, or employment implications, and you must not use (or attempt to use) them for any such purpose. These tools are intended only to provide general assistance and insights, and you should not rely on them to replace your own judgement and expertise.
+
+Agentic AI Tools require access to certain information to function effectively. When you use these tools, they will have access to your Personal Information, including queries, preferences, interests, purchase history, and payment information.
+
+* As explained in [AI and Automated Decision Making] we may use Automated Decision Making technology and Agentic AI Tools.
+
+* If you are not approved under the Automated Decisions, you may not have access to our services. PayPal has several safety mechanisms to ensure the decisions are appropriate. These mechanisms include ongoing overviews of our decision models and random sampling in individual cases. If you have any concern about the outcome, you can [contact us], and we will determine whether the procedure was performed appropriately.
+
+[... cut ...]
+
+=== CARD L386b8c ===
+BEFORE:
+--------------
+
+AFTER:
+--------------
+
+* AI Processing: When you explicitly attach files to an AI prompt, relevant portions of those files may be transmitted to third-party AI service providers solely to generate responses. These providers do not receive ongoing or independent access to your files and retain such inputs only for limited periods.
+
+* Subprocessors: File storage and processing may involve trusted subprocessors, including cloud infrastructure providers and AI service providers that support the operation of AI features. A current list of subprocessors may be found here.
+
+### 5\. AI Features and Content Processing
+
+Bolt provides artificial intelligence–powered features that generate, modify, analyze, or assist with software code and related content (“AI Features”).
+
+* prompts, code, configuration files, and related inputs (“AI Inputs”), and
+
+* content generated by the Services (“AI Outputs”).
+
+#### Use of AI Content
+
+We may use AI Inputs and AI Outputs to operate, maintain, and improve the Services, including improving AI performance, reliability, and safety. Such use shall be on aggregated, anonymized, or de-identified data.
+
+Depending on account type or plan, users may have the ability to limit or opt out of the use of AI Inputs and AI Outputs for model training or improvement, as described in product documentation or account settings.
+
+#### Third-Party AI Providers
+
+Bolt relies on third-party AI service providers to deliver certain AI Features. These providers process AI Inputs solely to provide services to Bolt and are subject to contractual confidentiality and data protection obligations.
+
+We share information with trusted service providers who perform services on our behalf, including hosting, analytics, billing, customer support, and AI processing. These providers are authorized to process information only as necessary to provide services to Bolt.
+
+=== CARD L7b87c4 ===
+BEFORE:
+* You may contact us at any time to opt-out of the use of your Personal Information for marketing purposes, as further described in "How do I Opt Out?" section below.
+
+* * *
+
+AFTER:
+* You may contact us at any time to opt-out of the use of your Personal Information for marketing purposes, as further described in "How do I Opt Out?" section below.
+
+**Research and Development.** Mix may use Personal Information that we may use alone or in the aggregate with information obtained from other sources, in order to help us to optimally deliver our existing products and Services or develop new products and Services, including training AI tools. We may engage service providers to conduct surveys on our behalf, in which case, if you elect to participate in a survey, we may provide our service providers with your Personal Information for purposes of conducting the survey. All survey responses are voluntary, and the information collected will be used for research and reporting purposes to help us better serve Individuals by learning more about their needs and the quality of the products and services we provide. The survey responses may be utilized to determine the effectiveness of our Services, various types of communications, advertising campaigns, and/or promotional activities. If an Individual participates in a survey, the information given will be used along with that of other study participants. We may share anonymous Individual and aggregate data for research and analysis purposes.
+
+* * *
+
+BEFORE:
+* * *
+
+* Require (i) information regarding whether your personal data is retained and (ii) access to your personal data retained.
+
+AFTER:
+* * *
+
+We use your Personal Data where it is necessary to provide you with our Services under our contract with you. For example, this includes creating and managing your account and providing you with a personalised feed of content powered by AI. If you choose not to provide certain personal data, we may be unable to provide some or all of our Services to you, for example, you need to set up a username, display name and provide an email address in order to create an account.
+
+* to improve, develop and market the Services including to train AI tools
+
+When you create a User account, we automatically process information about how you interact with our platform — for example, the pages you visit and the content you engage with through following other Users or saving content — to build a picture of your interests and preferences, and to select and display content that we think will be most relevant and useful to you in our personalised and curated feed. This personalisation may also use AI to deliver the content to you. This is a core part of the Services we provide to you when you have registered for an account and request these from us. We may use this information to improve and develop our services, including training AI tools, and also to process information automatically to support our marketing campaigns.
+
+* Require (i) information regarding whether your personal data is retained and (ii) access to your personal data retained.
+
+=== CARD L3c5b38 ===
+BEFORE:
+* To comply in good faith with applicable laws, legal processes, and lawful government requests;
+
+* To understand what may be of interest to a customer;
+
+AFTER:
+* To comply in good faith with applicable laws, legal processes, and lawful government requests;
+
+* To train our machine learning or artificial intelligence models for the purposes outlined in this policy;
+
+* To understand what may be of interest to a customer;
+
+BEFORE:
+We may share your personal information with the following categories of people:
+
+* **Government or Law Enforcement Agencies, Regulators, Professional Advisors, or Auditors:** Where required by applicable law, or as we deem necessary to protect any person from death or serious bodily injury, we may also transfer your personal information to government regulators or law enforcement agencies in response to requests from such entities.
+
+AFTER:
+We may share your personal information with the following categories of people:
+
+* **Our Service Providers:** We may share your personal information with our affiliates, service providers, and third-party collaborators for the purposes we outline above (e.g., hosting and maintaining our online services, performing backup and storage services, processing payments, transmitting communications, performing advertising or analytics services, or completing your privacy rights requests) and, unless you opt out, for training artificial intelligence models, including for their own independent purposes.
+
+* **Government or Law Enforcement Agencies, Regulators, Professional Advisors, or Auditors:** Where required by applicable law, or as we deem necessary to protect any person from death or serious bodily injury, we may also transfer your personal information to government regulators or law enforcement agencies in response to requests from such entities.
+
+BEFORE:
+* If you are located in **South Korea**, our [South Korea Privacy Notice] applies to you.
+
+7. #### Children’s Privacy
+
+AFTER:
+* If you are located in **South Korea**, our [South Korea Privacy Notice] applies to you.
+
+To opt-out of the use of your data for artificial intelligence model training by third-party collaborators, please navigate to your user settings and check the relevant option.
+
+7. #### Children’s Privacy
+
+=== CARD L535179 ===
+BEFORE:
+
+
+[... cut ...]
+
+AFTER:
+
+
+[... cut ...]
+
+=== CARD L54efd8 ===
+BEFORE:
+Similarity of content. Due to the nature of artificial intelligence, outputs may not be unique and users may receive similar output from our Service. Your rights to Output does not extend to other’s rights.
+
+Opt out of training. If you do not want us to use your Content to train our models and improve our services, you can go to your account settings to opt out.
+
+When you use our Service, you understand and agree that:
+
+AFTER:
+Similarity of content. Due to the nature of artificial intelligence, outputs may not be unique and users may receive similar output from our Service. Your rights to Output does not extend to other’s rights.
+
+Electing whether your Content is used for training. When logged into our Service, you can select whether or not you want us to use your Content to train our models and improve our services. Where available, you may access our Service without logging in. When doing so, where permitted, you grant us the rights to use any data you provide to or obtain from our Service for model training purposes. Further details are available in the Privacy Policy and Consumer FAQs.
+
+When you use our Service, you understand and agree that:
+
+=== CARD L56d2ab ===
+BEFORE:
+* [How to access and control your information]
+
+_**Atlassian Partners**_: We work with a [global network of partners] who provide consulting, implementation, training and other services around our products. Some of these partners also help us to market and promote our Services, generate leads for us, and resell our Services. We receive information from these partners, such as billing information, billing and technical contact information, company name, what Atlassian Services you have purchased or may be interested in, evaluation information you have provided, what events you have attended, and what country you are in.
+
+* You give us consent to do so for a specific purpose; or
+
+AFTER:
+* [How to access and control your information]
+
+_**Atlassian Partners:**_ We work with a [global network of partners] who provide consulting, implementation, training and other services around our products. Some of these partners also help us to market and promote our Services, generate leads for us, and resell our Services. We receive information about you and your activities on and off the Services from these partners, such as billing information, billing and technical contact information, company name, what Atlassian Services you have purchased or may be interested in, evaluation information you have provided, what events you have attended, what country you are in, and information about your interest in and engagement with our Services and online advertisements.
+
+_**To provide customer support:**_ We use your information to resolve technical issues you encounter, to respond to your requests for assistance, to analyze crash information, and to repair and improve the Services, including for development, training, or fine-tuning of machine learning and artificial intelligence models. We may also use generative artificial intelligence in responding to your support related requests. Where you give us express permission to do so, we may disclose information to a third-party expert for the purpose of responding to support-related requests.
+
+_**To maintain Service safety and security:**_ We use information about you and your use of the Services to verify accounts and activity, to detect, prevent, and respond to potential or actual security incidents, and to monitor and protect against other malicious, deceptive, fraudulent, illegal or inappropriate activity, including violations of Service policies. Detection and response may leverage generative artificial intelligence or machine learning tools.
+
+_**Atlassian Partners:**_ We work with a [global network of partners] who provide consulting, implementation, training and other services around our products. We may disclose your information to these third parties in connection with their services, such as to assist with billing and collections, to provide localized support, and to provide customizations. We may also disclose information to these third parties where you have agreed to that disclosure.
+
+* You give us consent to do so for a specific purpose; or
+
+BEFORE:
+* We need to process your data to comply with a legal obligation.
+
+EU Representative:
+
+AFTER:
+* We need to process your data to comply with a legal obligation.
+
+| * To provide the Services and personalize your experience;<br>* To develop and improve the Services, including machine learning and artificial intelligence model training;<br>* To communicate with you about the Services;<br>* To conduct marketing and promotional activities;<br>* To provide customer support;<br>* Verify your account credentials as needed to log you into the Services and help safeguard your account’s security;<br>* Protect our rights, privacy, safety, or property, and/or that of our affiliated companies, you, or other parties, including to enforce this privacy policy and any other agreements or policies;<br>* Detect and prevent fraud, illegal activity, or violations of the terms of our agreements and our Service policies, and to maintain the security of our IT systems, architecture, assets, customers, and networks; and<br>* Aggregate or de-identify data. | Legitimate interests (Article 6(1)(f) GDPR) |
+
+EU Representative:
+
+=== CARD L7e5c3a ===
+BEFORE:
+| [I. Additional Product Terms] | We have a few specific rules for GitHub's features and products. |
+
+[The GitHub Terms of Service]
+
+AFTER:
+| [I. Additional Product Terms] | We have a few specific rules for GitHub's features and products. |
+
+| [J. AI Features, Training, and Your Data] | These are the terms that apply to GitHub Copilot and other AI features, including how your data may be used for development and improvement of the artificial intelligence and machine learning models, and the controls available to you. |
+
+[The GitHub Terms of Service]
+
+BEFORE:
+### [4\. License Grant to Us]
+
+### [5\. License Grant to Other Users]
+
+AFTER:
+### [4\. License Grant to Us]
+
+You grant GitHub and our Affiliates the right to store, host, archive, parse, display, and make copies of Your Content as necessary to provide, develop, and improve the Service, including by training AI Features, and for the purpose of training, developing, and improving artificial intelligence and machine learning models and technologies of our Affiliates. This license includes the right to do things like copy it to our database and make backups; show it to you and other Users; parse it into a search index or otherwise analyze it on our servers; share it with other Users; and perform it, in case Your Content is something like music or video. For the avoidance of doubt, use of Your Content to develop, train, and improve artificial intelligence and machine learning models and technologies of GitHub and our Affiliates is within the scope of this license and does not constitute a sale or other restricted transfer of Your Content.
+
+### [5\. License Grant to Other Users]
+
+BEFORE:
+* You may enable various GitHub services or features that require additional rights to Your Content in private repositories. These rights may vary depending on the service or feature, but GitHub will continue to treat your private repository Content as confidential. If those services or features require rights in addition to those we need to provide the GitHub Service, we will provide an explanation of those rights.
+
+Additionally, we may be [compelled by law] to disclose the contents of your private repositories.
+
+AFTER:
+* You may enable various GitHub services or features that require additional rights to Your Content in private repositories. These rights may vary depending on the service or feature, but GitHub will continue to treat your private repository Content as confidential. If those services or features require rights in addition to those we need to provide the GitHub Service, we will provide an explanation of those rights.
+
+* If you provide your private repository content as Input to AI Features, we may use that Input to provide, develop, train, and improve the Service, including AI Features. Your ability to opt out under [Section J.3] applies to this use of private repository content. We will not otherwise use your private repository contents to develop or improve the Service.
+
+Additionally, we may be [compelled by law] to disclose the contents of your private repositories.
+
+BEFORE:
+Some Service features may be subject to additional terms specific to that feature or product as set forth in the GitHub Additional Product Terms. By accessing or using the Services, you also agree to the [GitHub Additional Product Terms].
+
+------------------------------------
+
+AFTER:
+Some Service features may be subject to additional terms specific to that feature or product as set forth in the GitHub Additional Product Terms. By accessing or using the Services, you also agree to the [GitHub Additional Product Terms].
+
+[J. AI Features, Training, and Your Data]
+
+This section applies to all AI Features unless a specific feature has additional terms that expressly modify them. The training and data-use provisions in Section J.3 apply only to individual licenses. If your use of the Service is governed by a GitHub Customer Agreement or volume licensing agreement, those agreements govern the use of your data in connection with AI Features and Section J.3 does not apply to you.
+
+Output may contain material that resembles code or content in the model's training data or that is subject to third-party copyrights or open source license terms. You are responsible for determining whether your use of Output requires a third-party license and for complying with any such license.
+
+We use your Inputs to generate Outputs and provide the AI Features. You also grant GitHub and its Affiliates a license to collect and use your Inputs and Outputs to develop, train and improve artificial intelligence and machine learning models and technologies including those that power AI Features, unless (a) you opt out through your account settings, or (b) your use of the Service is governed by a GitHub Customer Agreement or volume licensing agreement. If you opt out, GitHub will not collect or use your Inputs and Outputs for the purposes described in this paragraph from the effective date of your opt-out going forward.
+
+Unless you opt out, GitHub's Affiliates may use your Inputs and Outputs under this license in accordance with their applicable privacy and contractual obligations. This license does not, however, permit GitHub or its Affiliates to share your Inputs or Outputs with third-party AI model providers for their own independent model training purposes.
+
+The license in this Section J.3 is in addition to, and does not limit, the rights granted to GitHub and its Affiliates under Sections D.4 and D.8. This license does not extend to Your Content stored in repositories that are not provided as Input to an AI Feature.
+
+Your indemnity obligations in Section Q apply to your use of AI Features and Output, including claims arising from Output you incorporate into your products or services.
+
+------------------------------------
+
+=== CARD L4810f2 ===
+BEFORE:
+In addition, please note that we may process Personal Data in each of the above categories in order to protect the rights of the Company and others, and/or to complete a merger or sale of assets or other corporate transaction. For more details about our purposes for processing, including how other parties may process Personal Data, please see the Use and Disclosure section above.
+
+State privacy laws' definitions of "sale," however, do not include, the transfer of Personal Data that is part of a merger, bankruptcy, or other similar transaction involving all or any portion of our business.
+
+AFTER:
+In addition, please note that we may process Personal Data in each of the above categories in order to protect the rights of the Company and others, and/or to complete a merger or sale of assets or other corporate transaction. For more details about our purposes for processing, including how other parties may process Personal Data, please see the Use and Disclosure section above.
+
+We may process Personal Data using AI tools, for example to help provide customer support (e.g., chatbots) or to provide advertising or content that may be of interest to you. This may involve using your information to train our technologies, including through large language models, to enhance our services for you.
+
+State privacy laws' definitions of "sale," however, do not include, the transfer of Personal Data that is part of a merger, bankruptcy, or other similar transaction involving all or any portion of our business.
+
+=== CARD Lc516ed ===
+BEFORE:
+The capitalized words in this document shall have the meaning set forth below:
+
+* “**Agreement**” or or “**Service Agreement**”: means the agreement entered into by and between Mistral AI and You, composed of (a) these Terms of Use, (b) where applicable, the applicable Terms of Service and (c) all materials referred or linked to in the above mentioned documents, as may be amended from time to time.
+
+* “**Filters**”: means the automatic mechanisms such as moderation prompts implemented by Mistral AI designed to screen or remove offensive, inappropriate or illicit content from the Output.
+
+* “**Mistral AI’s Intellectual Property**”: means the Model(s), the Services, and any trade names, trademarks, logos, patents, trade secrets, know-how, designs, drawings, copyrights, engineering, photographs, samples, software, models, algorithm, image, literature, information, ideas, concepts, or improvements pertaining to the Services and other data of any kind that is protectable through copyrights, patent, trade secrets, trademarks, trade dress, service marks, or and includes any modification or enhancement of the Services.
+
+* “**Model(s)**”: means (i) any version of any artificial intelligence model developed by Mistral AI and made accessible in any manner (API, chat, etc….) on the Website and (ii) the associated documentation as may be amended from time to time (the “**Documentation**”).
+
+* **“Parties”:** means You and Mistral AI. In the singular, “**Party**” means one of the Parties.
+
+* “**[Privacy Policy]**”: means Mistral AI’s privacy policy available at [https://mistral.ai/terms/#privacy-policy].
+
+* “**Services**”: means the services provided by Mistral AI to You under this Agreement, including but not limited to the Website, the Model(s) and any other services provided by Mistral AI along with any associated software, application and website. The Services may be free of charge (the “**Free Services**”) or charged to You (the “**Paid Services**”).
+
+* “**Subscription Plan**”: means the specific set of Services the Customer subscribes to. The available Subscription Plans are mentioned on the Website and may be amended from time to time by Mistral AI at its sole discretion.
+
+* “**Support**”: means the support Services provided by Mistral AI to the Customer, which includes:
+
+* “**Technical Support**”: means the service consisting in fixing the Anomalies notified by the Customer to Mistral AI through the Ticketing Website.
+
+* “**Ticketing Solution**”: means the ticketing application provided by Mistral AI to the Customer, where the Customer can request Technical Support.
+
+* “**Website**”: means the platform and all its features and components, operated by Mistral available at [https://www.mistral.ai], where You can access and use the Services including but not limited to La Plateforme and Le Chat (as defined in their respective Terms of Service).
+
+2\. Purpose and scope
+
+AFTER:
+The capitalized words in this document shall have the meaning set forth below:
+
+* **“Data Processing Agreement”**: means the data processing agreement entered by and between the Commercial Customer and Mistral AI and available [here].
+
+* **“Fees”**: means the fees paid or payable by You to Mistral AI under this Agreement in consideration for the Paid Services.
+
+* **“Filters”**: means the automatic mechanisms implemented by Mistral AI that are designed to screen or remove offensive, inappropriate, or illegal content from the Output, such as moderation prompts.
+
+* **“Help Center”**: means (i) the Mistral AI help center available at [https://help.mistral.ai/en/] or through your Account settings, and (ii) the ticketing portal allowing You to make and manage Your Customer Support requests.
+
+* **“Intellectual Property”**: means all patent rights, copyrights, trademark rights, rights in trade secrets, design rights, database rights, domain name rights, moral rights, and any other intellectual property rights (registered or unregistered) throughout the world. Mistral AI’s Intellectual Property includes the Models, the Services, and any modification or enhancement of each of the foregoing (the “**Mistral AI Intellectual Property**”).
+
+* **“Model(s)”**: means (i) any version of any artificial intelligence model developed by Mistral AI and made accessible to You in any manner on the Services, (ii) any fine-tuned or modified version of such artificial intelligence model (the **“Fine-Tuned Model”**) and (iii) the associated documentation as may be updated from time to time (the **“Documentation”**).
+
+* **“Output”**: means any and all content generated by the Services in response to an Input. For the avoidance of doubt, Output does not include any component or derivative of the Models, including the Model weights or parameters and any Fine-Tuned Model.
+
+* **“Parties”**: means You and Mistral AI. In the singular, **“Party”** means one of the Parties. “Payment Services”: means the online payment services that We use to enable You to pay the Fees on the Services.
+
+* **“Services”**: means any and all services provided by Mistral AI to You under this Agreement, available via the website accessible at [https://www.mistral.ai], including La Plateforme and Le Chat (as defined in their respective Additional Terms). The Services may be free of charge (the **“Free Services”**) or made available subject to Fees (the **“Paid Services”**).
+
+* **“Subscription Plan”**: means the specific set of Services You subscribe to. The available Subscription Plans are mentioned on the Services and may be amended from time to time by Mistral AI at its sole discretion.
+
+* **“Support”**: means the support Services provided by Mistral AI to the Customer under this Agreement.
+
+2\. Purpose and scope
+
+BEFORE:
+**Subscription verification process**. Mistral AI and/or, where applicable, the Payment Services Provider will verify the information provided by You during the Subscription process. Mistral AI reserves the right to decline the Your Subscription to the Paid Services in case of any suspected OFAC regulation violation or instances of fraud and/or misrepresentation. In such cases, (i) Mistral AI will notify You by email, (ii) Mistral AI will refund You of any pre-paid Fees under this Agreement and (iii) this Agreement will automatically terminate.
+
+**Change Subscription Plan**. A Subscription Plan enables the Customer to access specific features and Models as listed on the Website. If the Customer wishes to access a Model or a feature that is not included in its current Subscription Plan, the Customer must subscribe to the relevant Subscription Plan to gain access.
+
+**The Website.** Any User may access and use the Website free of charge as well as the Free Services. Our Services consist in allowing You to use Our Model(s) for the purpose of generating Outputs. You can access the full list and description of the Services provided by Mistral AI on the Website and/or on the Documentation, as may be amended from time to time.
+
+**Customer support**. Mistral AI will provide You with all reasonable guidance and information necessary to facilitate the optimal use of the Services, under the terms set out below (the “**Customer Support**”). The Customer shall submit Customer Support requests to Mistral AI through Mistral AI’s Ticketing Solution. Mistral AI will use commercially reasonable efforts to respond to the Customer’s legitimate questions concerning the use of the Services within a reasonable time, during Business Hours and on Business Days.
+
+* Regarding the initial training for the use of the Services. You are solely responsible for training Your Authorized Users to use the Services,
+
+* Resulting from the use of third-party software, hardware or services not provided by Mistral AI,
+
+**Technical Support**. You must notify Mistral AI of any Anomaly affecting the Services using the Ticketing Website. Mistral AI will use commercially reasonable efforts to fix the Anomalies notified by You within commercially reasonable timeframes.
+
+**Adaptive Maintenance**. Mistral AI may perform adaptive maintenance, to ensure the Services continual adaptability and alignment with evolving technological or regulatory standards. You acknowledge and agree that this Agreement does not automatically include any Upgrades for the Services and that any Upgrades may require changing Your Subscription Plan. For the avoidance of any doubt, Mistral AI is under no obligation to improve the Services or provide any Upgrade to You.
+
+-----------------------------
+
+AFTER:
+**Subscription verification process**. Mistral AI and/or, where applicable, the Payment Services Provider will verify the information provided by You during the Subscription process. Mistral AI reserves the right to decline the Your Subscription to the Paid Services in case of any suspected OFAC regulation violation or instances of fraud and/or misrepresentation. In such cases, (i) Mistral AI will notify You by email, (ii) Mistral AI will refund You of any pre-paid Fees under this Agreement and (iii) this Agreement will automatically terminate.
+
+**Change Subscription Plan**. If You wish to access a Model or a Service that is not included in Your current Subscription Plan, You must subscribe to the relevant Subscription Plan to gain access.
+
+**Our Services.** Our Services allow You to use, fine-tune or customize Our Model(s) to generate Outputs. You can access the full list and description of the Services on our platform and/or in the Documentation, as may be amended from time to time. Any User can access the Free Services free of charge. Access to the Paid Services is subject to payment of the applicable Fees.
+
+**Model discontinuation.** We reserve the right, at Our sole discretion, to discontinue the availability of Models on Le Chat or La Plateforme. In the event that We elect to discontinue the availability of any Model, We shall provide a minimum notice period of six (6) months prior to the discontinuation of the Model at the email address associated with Your Account. During such notice period, the Model will not be available to any new Customers. We will notify You of any such discontinuation by email to the email address associated with Your Account. You are responsible for ensuring that Your contact information is up-to-date to receive such notifications. We are not liable for any damages, costs, or expenses incurred by You as a result of the discontinuation of any Model, provided that We have complied with the notice periods set forth above. In any case, You will be able to terminate the Agreement at any time in accordance with the applicable Additional Terms.
+
+**Availability.** Mistral AI will use commercially reasonable efforts to make the Services available to You 24 hours a day, 7 days a week. However, You acknowledge that, due to various factors, including maintenance, technical issues or unforeseen circumstances, the Services may experience periods of downtime. Mistral AI will not be liable for any unavailability of our Services, but will make commercially reasonable efforts to restore the Services promptly. You understand and agree that the occurrence of downtime, regardless of its duration, does not entitle You to a refund of any Fees paid for the Paid Services. You shall however note that Our Services are subject to changes, in which case We will use commercially reasonable efforts to preserve backward compatibility without however guaranteeing the absence of breaking changes.
+
+**Exclusions.** In any case, Mistral AI will not be liable for any unavailability of Our Services caused by:
+
+* Factors beyond Mistral AI’s reasonable control, including any Force Majeure Event, operational difficulties or unforeseen and unintentional temporary interruptions of its services, including but not limited to interruptions of electricity, computer services or telecommunications, or Internet access issues,
+
+* Scheduled maintenance work, provided that Mistral AI has duly notified You of such maintenance work in advance or
+
+[... cut ...]
+
+=== CARD L7d23c0 ===
+BEFORE:
+* To display your Prompts and Outputs history on Your Account when You use Our Chat Services, unless You activate Our Incognito Mode.
+
+* To improve Our Models. We may use your Prompts or Outputs or information (e.g. language or topic field statistics) related to them to improve Our Models only when (a) you Use Our Chat Services and (b) You don’t opt-out of the Mistral AI Training Data, when such option is for the Paid Chat Services.
+
+* Feedback. Where applicable, We may collect and use the Feedback You provide to Usto improve our Service.
+
+AFTER:
+* To display your Prompts and Outputs history on Your Account when You use Our Chat Services, unless You activate Our Incognito Mode.
+
+* To improve Our Models. We may use your Prompts or Outputs or information (e.g. language or topic field statistics) related to them to improve Our Models only when
+
+* You Use Our Chat Services and You don’t opt-out of the Mistral AI Training Data, when such option is available for the Paid Chat Services
+
+* You use the free version of Codestral and You don’t opt-out of the Mistral AI Training Data. You can opt-out of the Mistral AI Training Data at any time by making a request directly on Our Support Chatbot available on Our Platform. Please note that in that case, Your opt-out will only be effective for future Prompts and Outputs.
+
+* Feedback. Where applicable, We may collect and use the Feedback You provide to Usto improve our Service.
+
+BEFORE:
+* Display Your Prompts and Outputs to You.
+
+* Train Our Models (Large Language Models) to answer questions, generate text according to context/Prompts (e-mails, letters, reports, computer code, etc), translating, summarizing and correcting text, classifying text, analyzing feelings, etc., (i) Possibly, if such Personal Data is publicly available, and even if we apply best practices to filter such data, and (ii) if You use Our Chat Services and You don’t opt-out of the Mistral AI Training Data when such option is available for the Paid Chat Services.
+
+* Conduct research and improve the Services.
+
+AFTER:
+* Display Your Prompts and Outputs to You.
+
+* Train Our Models (Large Language Models) to answer questions, generate text according to context/Prompts (e-mails, letters, reports, computer code, etc), translating, summarizing and correcting text, classifying text, analyzing feelings, etc., (i) Possibly, if such Personal Data is publicly available, and even if we apply best practices to filter such data, and (ii) if You use Our Chat Services and You don’t opt-out of the Mistral AI Training Data when such option is available for the Paid Chat Services (iii) if You use the free version of Codestral and You don’t opt-out of the Mistral AI Training Data. You can opt-out of the Mistral AI Training Data at any time by making a request directly on Our Support Chatbot available on Our Platform. Please note that in that case, Your opt-out will only be effective for future Prompts and Outputs.
+
+* Conduct research and improve the Services.
+
+BEFORE:
+* Deletion. You have the right to delete and/or ask us to delete Your Personal Data.
+
+* Consent withdrawal. You have the right to withdraw Your consent to the processing of Your Personal Data at any time.
+
+AFTER:
+* Deletion. You have the right to delete and/or ask us to delete Your Personal Data.
+
+* Objection. You have the right to object to the processing of Your Personal Data. This right does not apply when we have a legal obligation to process Your Personal Data. If You use Our Paid Chat Services or the free version of Codestral, You can opt-out of Mistral AI Training Data at any time by making a request on Our Support Chatbot available directly on Our Platform. Please note that Your opt-out will only apply to future Prompts and Outputs.
+
+* Consent withdrawal. You have the right to withdraw Your consent to the processing of Your Personal Data at any time.
+
+=== CARD L46043d ===
+BEFORE:
+You can control whether your reviews will ever be made available to libraries or others. Click [here] to edit your profile and change your preference.
+
+### Get off my lawn, you kids!
+
+AFTER:
+You can control whether your reviews will ever be made available to libraries or others. Click [here] to edit your profile and change your preference.
+
+* access the site using any automated system, bot, headless browser, scraping tool, AI agent, or similar means, other than (a) a conventional web browser operated by a human, or (b) a search-engine crawler that obeys our robots.txt and that we have not blocked; or
+
+* use the site, the LibraryThing Database, or any content on it for any commercial purpose, or to build, train, populate, benchmark, or improve any product, service, dataset, or model that competes with, substitutes for, or reproduces LibraryThing or its data services (including our Enrichment Services).
+
+**General-purpose search engines are welcome.** Nothing in this section is meant to discourage ordinary search engines from indexing LibraryThing so that people can find us. Operating a search-engine crawler—such as Googlebot or Bingbot—to index the public site for inclusion in general search results is permitted, so long as the crawler identifies itself honestly, obeys our [robots.txt], respects our rate limits, and has not been blocked. This permission is limited to indexing for search results; it does not extend to text and data mining, AI training, or building a competing product or dataset, even by an operator that also runs a search engine.
+
+#### No Text and Data Mining or AI Training
+
+You may not use the site, the LibraryThing Database, or any content on it for text or data mining, or to develop, train, fine-tune, evaluate, or ground any machine-learning or artificial-intelligence model or system, except with our prior written permission. **LibraryThing expressly reserves all rights in its content against text and data mining, including the reservation permitted under Article 4 of the EU Digital Single Market Directive (Directive (EU) 2019/790) and any equivalent right in other jurisdictions.** This reservation is made in machine-readable form, including through our robots.txt and any other technical signals we publish, and accessing the content does not grant any text-and-data-mining or AI-training right.
+
+### Get off my lawn, you kids!
+
+=== CARD L5a814a ===
+BEFORE:
+* Any legal requirements that we are subject to.
+
+6\. Your rights
+
+AFTER:
+* Any legal requirements that we are subject to.
+
+* You can easily [choose whether your Content can be used to improve and train our models⁠].
+
+* If you enable [Temporary Chat⁠] in ChatGPT, those conversations with ChatGPT will not appear in your history or be used to improve OpenAI’s models.
+
+6\. Your rights
+
+=== CARD Ldb878c ===
+BEFORE:
+**III. Restrictions on Use.**
+
+**I. Tokens.** X may limit the number of tokens that it provides to you, including but not limited to tokens that enable access and use of functionality or features on X Applications.
+
+AFTER:
+**III. Restrictions on Use.**
+
+**A. Reverse Engineering and other Restrictions.** You shall not and you shall not attempt to (or allow others to): (a) reverse engineer, decompile, disassemble, or translate the X API or otherwise attempt to derive source code, trade secrets, or know-how in or underlying any X API or any portion thereof; (b) interfere with, modify, disrupt, or disable features or functionality of the X API or monitoring mechanisms of the X API; (c) use or access the Licensed Material to create or attempt to create a substitute or similar service or product to the X Applications; (d) sell, rent, lease, sublicense, distribute, redistribute, syndicate, create derivative works of, assign, or otherwise transfer or provide access to, in whole or in part, the Licensed Material to any third party except as expressly permitted in this Agreement; (e) provide use of the X API on a service bureau, rental or managed services basis, or permit other individuals or entities to create links to the X API or "frame" or "mirror" the X API on any other server, or wireless or Internet-based device, or otherwise make available to a third party any token, key, password, or other login credentials to the X API; (f) use the Licensed Material for any illegal, unauthorized, or other improper purpose; (g) use the Licensed Material to derive or obtain non-public information of individual X users; (h) interfere with or disrupt the integrity or performance of the X Applications, X API, or X Content contained therein; (i) remove or alter any proprietary notices or marks on the X Content; (j) attempt to gain unauthorized access to the X Applications, X API, X Content, or related systems or networks; (k) use the X API or X Content to fine-tune or train a foundation or frontier model; or (l) use X Content, by itself or bundled with third party data, or derivative analysis therefrom, to target or serve users with advertising outside of the X Applications.
+
+**I. Tokens.** X may limit the number of tokens that it provides to you, including but not limited to tokens that enable access and use of functionality or features on X Applications.

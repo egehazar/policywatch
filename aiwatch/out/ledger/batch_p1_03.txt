@@ -1,0 +1,485 @@
+Each card shows the BEFORE and AFTER text of one change to a company's terms of service or privacy policy (only the changed passages that mention AI or models, with a little context). Read both and answer one label:
+- NEW: the AFTER text lets the company (or partners it shares data with) use its users' content or personal data to train or improve AI / machine-learning models, and the BEFORE text did not.
+- WIDER: the BEFORE text already allowed that, and the AFTER text allows clearly more (more kinds of data, generative AI, new recipients, fewer limits, an opt-out removed).
+- SAME: both allow it to about the same extent (rewording, moving text, small clarifications).
+- NO: the AFTER text does not let the company train AI on users' data (for example: a promise not to train, a ban on users training AI on the service, AI features or third-party models mentioned without training on users' data, or training only on data that is not users' own, such as public web data).
+- UNCLEAR: the passages shown are not enough to tell.
+For NEW or WIDER, also give the scope of the training use:
+- THIRD: users' data is shared with other companies for THEM to train AI.
+- GENERAL: generative or general-purpose AI, or AI/ML models with no narrow purpose named.
+- NARROW: models for one named operational purpose only (ads, recommendations, fraud, safety, support, search).
+(If several apply, the first in this order.) For the other labels, scope is "-".
+Then quote the one AFTER sentence that decides it (or "-" for NO with nothing to quote).
+
+Answer as JSON lines: {"card": "<id>", "label": "<NEW|WIDER|SAME|NO|UNCLEAR>", "scope": "<THIRD|GENERAL|NARROW|->", "quote": "<sentence>"}
+
+=== CARD L460408 ===
+BEFORE:
+[Back to top]
+
+### Artificial Intelligence and Microsoft Copilot capabilities
+
+Microsoft leverages the power of artificial intelligence (AI) in many of our products and services, including by incorporating generative AI features such as Microsoft Copilot capabilities. Microsoft’s deployment and use of AI is subject to Microsoft’s [AI Principles] and Microsoft’s [Responsible AI Standard], and Microsoft’s collection and use of personal data in developing and deploying AI features is consistent with commitments outlined in this privacy statement. Product-specific details provide additional relevant information. You can find out more about how Microsoft uses AI [here].
+
+**Microsoft Copilot capabilities.** [Microsoft Copilot] is Microsoft’s everyday AI companion, and is designed to help you achieve more through a single experience that runs across devices, understanding relevant context on the web, on your PC and across apps to bring you the right skills at the right time. With the help of Copilot, users can start a draft of a new Word document; or generate a PowerPoint presentation when accessing Copilot in M365 apps, quickly find the answers to complex search queries online, find relevant documents or other personal content, or be inspired to create new songs, stories, images or other content, among other tasks. Copilot is a family of services, and Microsoft’s collection and use of data may differ depending on the service and the intended functionality in a given scenario.
+
+For example, Copilot in Bing’s use and collection of personal data is consistent with Bing’s core web search offering as described in the Search and Browse section of this privacy statement. More information about Copilot in Bing is available at [Copilot in Bing: Our approach to Responsible AI]. In Microsoft Edge, Copilot appears in the sidebar experience and can help the user complete tasks related to the webpages they visit (e.g. “summarise this page”). This data is used consistent with the Microsoft Edge section of this privacy statement.
+
+[Copilot Pro] is another consumer Copilot offering, and offers subscribers priority access to the very latest models, improved image creation abilities and access to Copilot in Microsoft Word, PowerPoint, OneNote, Excel and Outlook. The main Copilot Pro website and app has similar data collection, use and controls as consumer Copilot, as described above. Similar Copilot functionality is also included in Microsoft 365 Family and Microsoft 365 Personal subscriptions. When Copilot is integrated with Microsoft 365 products, Copilot data collection is consistent with how data collection and use is described in the Productivity and Communications section of this privacy statement.
+
+[Back to top]
+
+AFTER:
+[Back to top]
+
+### Artificial Intelligence and Copilot capabilities
+
+Microsoft leverages the power of artificial intelligence (AI) in many of our products and services, including by incorporating generative AI “Copilot” capabilities. Microsoft’s deployment and use of AI is subject to Microsoft’s [AI Principles] and Microsoft’s [Responsible AI Standard], and Microsoft’s collection and use of personal data in developing and deploying AI features is consistent with the commitments outlined in this privacy statement. Product-specific details provide additional relevant information. You can find out more about the tools, practices, and policies Microsoft has created to uphold our responsible AI principles [here].
+
+“Copilot” is a family of services, products, and solutions that leverage generative AI technologies to generate outputs. Microsoft’s collection and use of data may differ depending on the service and the intended functionality in a given scenario. Learn more below.
+
+Microsoft will only use your Microsoft Copilot conversations to monitor performance, troubleshoot problems, diagnose bugs, prevent abuse, and to provide and improve Microsoft Copilot. In certain markets, we use conversation data to train the generative AI models in Copilot, unless you choose to opt-out of such training. More information about how your data is protected and the controls we offer in Microsoft Copilot is available [here].
+
+**Microsoft 365 Copilot** is a consumer Copilot offering that provides access to the very latest models, improved image creation abilities, and access to Copilot in Microsoft 365. Copilot functionality is included in Microsoft 365 Family and Microsoft 365 Personal subscriptions. When Copilot is integrated with Microsoft 365 products, Copilot data collection is consistent with how data collection and use is described in the Productivity and Communications section of this privacy statement.
+
+[Back to top]
+
+=== CARD Le1582a ===
+BEFORE:
+Indexed Search. You can control whether your profile is indexed by search engines.
+
+Children’s Privacy
+
+AFTER:
+Indexed Search. You can control whether your profile is indexed by search engines.
+
+Opt out of Training LLMs. You can opt out of having your content on Quora (i.e. your answers, posts, and comments) used for Large Language Model (LLM) training purposes via your privacy settings.
+
+Children’s Privacy
+
+=== CARD Ldc6233 ===
+BEFORE:
+================
+
+OpenRouter is an AI model aggregator, providing an API and a chat interface at openrouter.ai ("Services"). The API can be used by developers to interact with a variety of large language models, generative image models, and generative 3D object models. Applications that developers build can be shown publicly on OpenRouter.
+
+OpenRouter is in beta; we may change or discontinue any part of the Services at any time, including the availability of certain models.
+
+Some models are marked as "experimental" on their model pages - these models are being evaluated to see if they receive enough usage to be economical for us to run. They may be removed at any time.
+
+If a non-experimental model needs to be removed, you can expect the following:
+
+2. For a certain period of time, we will re-route requests for that model to another model of similar price and capability.
+
+3. After a grace period of at least 2 weeks, we will stop re-routing requests for that model and will return a 404 error instead.
+
+For the purpose of this Agreement, "Users" are individuals who interact with AI models and generate content with them. "Developers" are individuals or entities who build on top of OpenRouter's APIs. Either party can pay for model usage.
+
+* Violate any of these Terms or our policies, or policies of third-party providers that power the models on OpenRouter, which can be found by visiting [the documentation].
+
+* Reverse assemble, reverse compile, decompile, translate or otherwise attempt to discover the source code or underlying components of models, algorithms, and systems of OpenRouter, the models, or their underlying technologies;
+
+* Abuse, harm, interfere with, reverse engineer, or disrupt OpenRouter, the models, or their underlying technologies, such as by accessing or using them in fraudulent or deceptive ways, introducing malware, or spamming, hacking, or bypassing any protective measures;
+
+* Use OpenRouter or the models in a prohibitied fashion, such as by exceeding any rate limits set forth by us from time to time, or by repeatedly creating accounts without paying for access;
+
+Developers can pay for models themselves, or they can have Users pay by using the OAuth flow to let Users sign in with their OpenRouter settings and billing. Pricing for models is available [here], and varies by model and whether a discount is applied.
+
+Users can pay for models by purchasing credits using a payment card or crypto wallet. Credits are non-refundable. Credits can be used to pay for models, and can be topped up at any time. While OpenRouter is in beta, credits may expire 12 months after purchase.
+
+All material that you upload, publish, or display within OpenRouter, and any results that you receive in response to your prompts (or other inputs) from models accessible via OpenRouter ("Model-Generated Content"), will collectively be considered "Your Content." You retain ownership of Your Content.
+
+AFTER:
+================
+
+Welcome, and thank you for your interest in OpenRouter, Inc. (“**OpenRouter**,” “**we**,” or “**us**”) and our website at [https://openrouter.ai/] (“**Site**”), along with our related websites, networks, applications, and other services provided by us (collectively, our “**Service**”). These Terms of Service are a legally binding contract between you and OpenRouter regarding your use of the Service.
+
+OpenRouter operates a large language model aggregator where users may use the Site to access third-party application programming interfaces (“**APIs**”) to use a variety of generative artificial intelligence models listed on the Site (“**AI Models**”). OpenRouter may add or remove AI Models from the Service at any time.
+
+To access most features of the Service, you must register for an account. When you register for an account, you may be required to provide us or our authentication platform with some information about yourself, such as your email address or other contact information. You agree that the information you provide to us is accurate and that you will keep it accurate and up-to-date at all times. When you register, you will be asked to provide a password. You are solely responsible for maintaining the confidentiality of your account and password, and you accept responsibility for all activities that occur under your account. If you have reason to believe that your account is no longer secure, then you must immediately notify us at support@openrouter.ai.
+
+Access to the Service, or to certain features of the Service, may require you to pay fees for pre-paid credits that are linked to your account (“Credits”), along with payment processing fees and transaction fees. Before you pay any fees, you will have an opportunity to review and accept the fees that you will be charged. Currently, OpenRouter requires users to purchase Credits to make API calls and access the Service, with a minimum and maximum purchase amount of $5 and $25,000 per transaction, respectively. Once purchased, any unused Credits are non-refundable after twenty-four (24) hours have elapsed from the time the transaction was processed. If you would like a refund for Credits purchased but not used, you must email OpenRouter at support@openrouter.ai within twenty-four (24) hours of purchase to request a refund. After twenty-four (24) hours have elapsed, any remaining unused Credits are non-refundable. Cryptocurrency payments are never refundable.
+
+5.1 User Content Generally; Training Data.
+
+[... cut ...]
+
+=== CARD L47da96 ===
+BEFORE:
+-----------
+
+Dune also provides LLM Chatbot services related to the information, answers and other texts ("Outputs") to the User's requests ("Inputs") by leveraging third party's artificial intelligence services based on large language models. Inputs are also User Content.
+
+The LLM Chatbot Services share the User's Inputs to third party artificial intelligence service providers to receive Outputs.
+
+Outputs may not be unique across users and the Services may generate the same or similar output for different users. Given the probabilistic nature of machine learning, the Outputs may in some situations result in incorrect information that does not accurately reflect facts or data. The User should evaluate and confirm with other sources the accuracy of any Output.
+
+The LLM Chatbot Services are offered through different modules and integrations with specific applications or websites, as may be made available by Dune from time to time. The User hereby acknowledges and agrees that Dune will share Inputs with third party service providers that provide large language models artificial intelligence services. Dune may change such service providers from time to time.
+
+Inputs submitted to Dune AI are not treated as Confidential Data under Dune's internal data classification policies. Users should not submit customer data, personally identifiable information, or other sensitive data through Dune AI features.
+
+**User Representations**
+
+AFTER:
+-----------
+
+Dune provides AI-powered features that generate information, answers, code, query suggestions, chart suggestions, descriptions, and other outputs ("Outputs") in response to the User's requests and related context ("Inputs"). Inputs are User Content.
+
+Dune may share Inputs and related context with third-party artificial intelligence service providers to provide Outputs. Dune currently uses Anthropic, PBC as its large language model provider for Dune AI. More information about Dune AI processing, retention, model-training, and sub-processors is available in Dune's Privacy Policy, including sections 2.6 and 4.
+
+Users should not submit customer data, personally identifiable information, confidential information, or other sensitive data through Dune AI features.
+
+Enterprise customers may request that Dune AI features are disabled for their organization where supported by their plan or separate agreement with Dune.
+
+**User Representations**
+
+=== CARD Lf7f870 ===
+BEFORE:
+#### 3.4.3. Le Chat
+
+* **If You use Le Chat Free or Le Chat Pro:** We use your Input, Output and Feedback to train our general-purpose artificial intelligence models. We use commercially reasonable efforts to de-identify such data before using it to train or improve our models. You can opt-out of training at any time by using the feature available on your account. In this case, we do not use your Input, Output and Feedback to train our artificial intelligence models, unless you expressly authorize us to do so.
+
+* **If you use Le Chat Team or Le Chat Enterprise:** We do not use your Input, Output and Feedback to train our artificial intelligence models. If you wish to allow us to use such data to train our artificial intelligence models, you can opt-in of training at any time by using the feature available on your account.
+
+* **Feedback:** If you click on "Thumbs Up" or "Thumbs Down" to rate an Output, we use your Feedback to improve our artificial intelligence models. If you do not want us to use your Feedback to improve our artificial intelligence models, please do not click on "Thumbs Up" or "Thumbs Down".
+
+**Lawful basis:** Our legitimate interests in providing advanced artificial intelligence models to our customers.
+
+AFTER:
+#### 3.4.3. Le Chat
+
+* **If You use Le Chat Free, Le Chat Pro or Le Chat Student:** We use your Input, Output and Feedback to train our general-purpose artificial intelligence models. We use commercially reasonable efforts to de-identify such data before using it to train or improve our models. You can opt-out of training at any time by using the feature available on your account. In this case, we do not use your Input and Output to train our artificial intelligence models, unless you expressly authorize us to do so.
+
+* **If you use Le Chat Team :** We do not use your Input, Output and Feedback to train our artificial intelligence models. If you wish to allow us to use such data to train our artificial intelligence models, you can opt-in of training at any time by using the feature available on your account.
+
+* **Feedback:** If you click on "Thumbs Up" or "Thumbs Down" to rate an Output, we use your Feedback to train our artificial intelligence models. If you do not want us to use your Feedback to improve our artificial intelligence models, please do not click on "Thumbs Up" or "Thumbs Down".
+
+**Lawful basis:** Our legitimate interests in providing advanced artificial intelligence models to our customers.
+
+=== CARD L4ae45c ===
+BEFORE:
+#### Affiliates
+
+AFTER:
+| So Members can interact with our platform functionality, features and tools, such as certain tools and solutions that leverage AI. | Member inputted information (e.g., learning goals, topics of interest, uploaded CVs)<br><br>Publicly-viewable information on Members<br><br>Data that you or others provide in [your LinkedIn profile:] your name, photo, current position, education, location, skills, endorsements, recommendations, and contact details |
+
+[... cut ...]
+
+=== CARD Leca617 ===
+BEFORE:
+| --- | --- |
+
+| To evaluate and develop new features, technologies, and improvements to the Spotify Service.<br><br> <br><br>For example:<br><br>• we use personal data to develop and improve our personalized recommendation algorithms<br><br>• we analyze how our users react to a particular new feature and see whether we should make any changes | * User Data<br>* Usage Data<br>* Survey and Research Data |
+
+| For marketing or advertising purposes.<br><br> <br><br>For example:<br><br>• when we use your personal data to tailor advertising to your interests, or<br><br>• when we send you email marketing | * User Data<br>* Usage Data<br>* Survey and Research Data |
+
+AFTER:
+| --- | --- |
+
+| To evaluate and develop new features, technologies, and improvements to the Spotify Service. This includes development and training of algorithmic and machine learning models, which help us to keep our service safe and enhance our users’ experience. For example:<br><br>For example:<br><br>• to help us develop and improve our personalized recommendations<br><br>• to help analyze how our users react to a particular new feature and see whether we should make any changes<br><br>• so we can build AI features such as AI DJ and AI playlist<br><br>• to help us enforce our User Guidelines, Platform Rules and Spotify for Creators Community Guidelines. | * User Data<br>* Usage Data<br>* Voice Data<br>* Survey and Research Data |
+
+| For marketing or advertising purposes.<br><br> <br><br>For example:<br><br>• when we use your personal data to tailor advertising to your interests, or<br><br>• when we send you email marketing | * User Data<br>* Usage Data<br>* Survey and Research Data |
+
+=== CARD L2c9ef4 ===
+BEFORE:
+* Some of the live audio/video events hosted on or through our services may be recorded.
+
+| --- | --- | --- | --- | --- | --- |
+
+AFTER:
+* Some of the live audio/video events hosted on or through our services may be recorded.
+
+* We may use your personal data or anonymized or deidentified data, in combination with other users’ data, to develop, train, build and use statistical models, including AI.
+
+| --- | --- | --- | --- | --- | --- |
+
+=== CARD L988a5f ===
+BEFORE:
+| **To count ad clicks and conversions** | To perform ads measurement of conversion counts and value for business reporting purposes and to demonstrate the performance of our ads services to ads customers. | To advance our mission to connect the world's professionals and to make them more productive and successful.<br><br>To support our understanding of our advertising business and its effectiveness, allowing us to improve our business as a whole and advance our mission.<br><br>To support our advertising customers' interests in: (i) understanding the effectiveness of their advertising campaigns, and (ii) advertising jobs, products or services to members that are likely to be interested in them, This enables them to conduct and grow their business. | Data about [actions you took] on LinkedIn: Ad impressions, dwell time on an ad, ad clicks, video as full views<br><br>Device information: App version, operating system<br><br>Conversion information from ads customers that does not identify you |
+
+[... cut ...]
+
+AFTER:
+| **To count ad clicks and conversions** | To perform ads measurement of conversion counts and value for business reporting purposes and to demonstrate the performance of our ads services to ads customers. | To advance our mission to connect the world's professionals and to make them more productive and successful.<br><br>To support our understanding of our advertising business and its effectiveness, allowing us to improve our business as a whole and advance our mission.<br><br>To support our advertising customers' interests in: (i) understanding the effectiveness of their advertising campaigns, and (ii) advertising jobs, products or services to members that are likely to be interested in them, This enables them to conduct and grow their business. | Data about [actions you took] on LinkedIn: Ad impressions, dwell time on an ad, ad clicks, video as full views<br><br>Device information: App version, operating system<br><br>Conversion information from ads customers that does not identify you |
+
+[... cut ...]
+
+BEFORE:
+| **Direct Marketing:** | Where permitted, sending marketing [emails] and other marketing communications about LinkedIn content, products or offers that we think will interest you. LinkedIn may use profiling techniques to achieve this purpose.<br><br>Promoting LinkedIn subscription services and other products and features we think you'd like on and off LinkedIn. | To enable economic opportunity and help our Members be more productive and successful.<br><br>To enhance and grow our business, meet the needs of our Visitors, Members and customers, and better ensure that our Members, customers and Visitors receive the quality services from LinkedIn. | Data that you or others provide in [your LinkedIn profile]: your name, photo, current position, education, location, skills, endorsements, recommendations, and contact details<br><br>[Your activity data]: This is data that you or others provide in posts, comments, articles, or other content on our Services including search history, feed, content you read, content you share, who you follow or is following you, connections, participation, page visits, videos you watch, actions you take on ads (views and clicks) and your job searches<br><br>Your email address<br><br>Your connections and group memberships<br><br>[Inferences we make about you]<br><br>[Personal demographic data]<br><br>Data relating to your use of our Services: IP address, device ID, user agent, location data, browser type and version, operating system and platform, and other online identifiers collected from [Cookies] and other similar technologies |
+
+#### **Compliance with Legal Obligations**
+
+AFTER:
+| **Direct Marketing:** | Where permitted, sending marketing [emails] and other marketing communications about LinkedIn content, products or offers that we think will interest you. LinkedIn may use profiling techniques to achieve this purpose.<br><br>Promoting LinkedIn subscription services and other products and features we think you'd like on and off LinkedIn. | To enable economic opportunity and help our Members be more productive and successful.<br><br>To enhance and grow our business, meet the needs of our Visitors, Members and customers, and better ensure that our Members, customers and Visitors receive the quality services from LinkedIn. | Data that you or others provide in [your LinkedIn profile]: your name, photo, current position, education, location, skills, endorsements, recommendations, and contact details<br><br>[Your activity data]: This is data that you or others provide in posts, comments, articles, or other content on our Services including search history, feed, content you read, content you share, who you follow or is following you, connections, participation, page visits, videos you watch, actions you take on ads (views and clicks) and your job searches<br><br>Your email address<br><br>Your connections and group memberships<br><br>[Inferences we make about you]<br><br>[Personal demographic data]<br><br>Data relating to your use of our Services: IP address, device ID, user agent, location data, browser type and version, operating system and platform, and other online identifiers collected from [Cookies] and other similar technologies |
+
+| **If you are in the UK:**<br><br>Sharing data with our parent company, Microsoft for its AI training purposes | To share certain member data with Microsoft so that it can train, fine-tune, and evaluate, and otherwise improve Microsoft’s AI models. | To enable Microsoft to train AI models to produce fair, accurate, and relevant information that is reflective of the diversity of the communities in which AI models are deployed, and so that these models work just as well for all users. <br><br>To enable Microsoft to improve its products and services for the benefit of its affiliates, including LinkedIn, and our members and customers. | Your posts, comments, articles, collaborative articles and LinkedIn video you create <br><br>LinkedIn Learning Videos and Transcripts <br><br>Company Page Data <br><br>Job Postings <br><br>You can [opt out] of our use of your data for this purpose any time. |
+
+#### **Compliance with Legal Obligations**
+
+BEFORE:
+_Our parent company_
+
+_LinkedIn Entities_
+
+AFTER:
+_Our parent company_
+
+LinkedIn shares data with our parent company Microsoft, as set out in our [Privacy Policy] and this Notice, to combat harmful or fraudulent behaviour, to protect the security and integrity of our site and the services of Microsoft and others, and, where permitted, so that Microsoft can train and improve its AI models (in accordance with [Microsoft’s privacy policies]).
+
+_LinkedIn Entities_
+
+=== CARD L396483 ===
+BEFORE:
+Before you scroll, read this
+
+AFTER:
+We use the information we collect to provide and operate X products and services. We also use the information we collect to improve and personalize our products and services so that you have a better experience on X, including by showing you more relevant content and ads, suggesting people and topics to follow, enabling and helping you discover [affiliates], third-party apps, and services. We may use the information we collect and publicly available information to help train our machine learning or artificial intelligence models for the purposes outlined in this policy.
+
+Before you scroll, read this
+
+=== CARD L0578c7 ===
+BEFORE:
+**You own all of the content you provide to Tinder, but you also grant us the right to use Your Content as provided in this Agreement.**
+
+PURCHASES AND AUTOMATICALLY RENEWING SUBSCRIPTIONS
+
+AFTER:
+**You own all of the content you provide to Tinder, but you also grant us the right to use Your Content as provided in this Agreement.**
+
+You further grant to Tinder a worldwide, perpetual, transferable, sub-licensable, royalty-free right and license to (a) collect and use Your Content to the extent necessary to perform its obligations and exercise its rights under the Agreement; and (b) to train, develop, adapt, modify, enhance, or improve the Services and other products or services including through our use of AI Technology. You acknowledge that Tinder's Services may "learn" and improve based on information received and generated (including Your Content) and cannot thereafter "unlearn.".
+
+Tinder's license to Your Content shall be non-exclusive, except that Tinder's license shall be exclusive with respect to derivative works created through use of our Services (including through our use of AI Technology). For example, Tinder would have an exclusive license to screenshots of our Services that include Your Content.
+
+PURCHASES AND AUTOMATICALLY RENEWING SUBSCRIPTIONS
+
+=== CARD Lb5bbb7 ===
+BEFORE:
+| --- | --- |
+
+| To prevent and investigate fraud, abuse, and violations of our [Usage Policy], unlawful or criminal activity, unauthorized access to or use of personal data or Anthropic systems and networks, to protect our rights and the rights of others, and to meet legal, governmental and institutional policy obligations | * Legal obligation<br>* Legitimate interests<br><br>It is in our legitimate interests to protect our business, and we also have a duty to cooperate with authorities. |
+
+AFTER:
+| --- | --- |
+
+| To improve our services and conduct research, including to develop and improve our AI models | * Legitimate interests<br><br>It is in our legitimate interests to train and improve our AI models. This enables us to provide more accurate and helpful services to our users over time. Our AI models also offer significant societal benefits to the wider public such as supporting scientific and medical research, facilitating education, creating content, promoting software development, improving customer service and enhancing workplace productivity. Our research also benefits the AI industry and society: it investigates the safety, inner workings, and societal impact of AI models so that artificial intelligence has a positive impact on society as it becomes increasingly advanced and capable |
+
+| To prevent and investigate fraud, abuse, and violations of our [Usage Policy], unlawful or criminal activity, unauthorized access to or use of personal data or Anthropic systems and networks, to protect our rights and the rights of others, and to meet legal, governmental and institutional policy obligations | * Legal obligation<br>* Legitimate interests<br><br>It is in our legitimate interests to protect our business, and we also have a duty to cooperate with authorities. |
+
+=== CARD Lb02a67 ===
+BEFORE:
+* Google LLC for users of Google services based in the United Kingdom, located at 1600 Amphitheatre Parkway, Mountain View, California 94043, USA.
+
+### Legal bases of processing
+
+AFTER:
+* Google LLC for users of Google services based in the United Kingdom, located at 1600 Amphitheatre Parkway, Mountain View, California 94043, USA.
+
+Google LLC is the data controller responsible for processing information indexed and displayed in services like [Google Search] and Google Maps regardless of your location. Google Ireland Limited is the data controller responsible for processing information to train Google’s AI models for the purpose of deploying them in services provided by Google Ireland Limited in the European Economic Area or Switzerland.
+
+### Legal bases of processing
+
+=== CARD L725a44 ===
+BEFORE:
+We process your information for the [purposes] described in this policy, based on the following legal grounds:
+
+About this policy
+
+AFTER:
+We process your information for the [purposes] described in this policy, based on the following legal grounds:
+
+[... cut ...]
+
+=== CARD L3bf8a5 ===
+BEFORE:
+* Storing and securing data, including integrations with Supabase and GitHub.
+
+All sub-processors are bound by contractual obligations equivalent to those in our DPAs, ensuring compliance with applicable data protection laws. We provide notice of sub-processor changes, allowing customers to object within ten (10) business days. The current list of authorized sub-processors is always available at [https://trust.lovable.dev] and includes the sub-processor's name, location, and processing purpose (e.g., Stripe for billing, Supabase for cloud hosting, OpenAI/Google/OpenRouter for AI Gateway integrations).
+
+* UK International Data Transfer Addendum: Version B1.0, issued by the UK ICO under s119A DPA 2018.
+
+AFTER:
+* Storing and securing data, including integrations with Supabase and GitHub.
+
+We do not use raw or identifiable Personal Data for training but may anonymize/aggregate it for any lawful purpose. To opt out of using your Customer Data for model training, contact us at [privacy@lovable.dev] or upgrade to a Business plan with enhanced controls.
+
+* UK International Data Transfer Addendum: Version B1.0, issued by the UK ICO under s119A DPA 2018.
+
+BEFORE:
+* Storing and securing data, including integrations with Supabase and GitHub.
+
+All sub-processors are bound by contractual obligations equivalent to those in our DPAs, ensuring compliance with applicable data protection laws. We provide notice of sub-processor changes, allowing customers to object within ten (10) business days. The current list of authorized sub-processors is always available at [https://trust.lovable.dev] and includes the sub-processor's name, location, and processing purpose (e.g., Stripe for billing, Supabase for cloud hosting, OpenAI/Google/OpenRouter for AI Gateway integrations).
+
+* UK International Data Transfer Addendum: Version B1.0, issued by the UK ICO under s119A DPA 2018.
+
+AFTER:
+* Storing and securing data, including integrations with Supabase and GitHub.
+
+We do not use raw or identifiable Personal Data for training but may anonymize/aggregate it for any lawful purpose. To opt out of using your Customer Data for model training, contact us at [privacy@lovable.dev] or upgrade to a Business plan with enhanced controls.
+
+* UK International Data Transfer Addendum: Version B1.0, issued by the UK ICO under s119A DPA 2018.
+
+=== CARD Lab5bb6 ===
+BEFORE:
+* You use the free version of Codestral and You don’t opt-out of the Mistral AI Training Data. You can opt-out of the Mistral AI Training Data at any time by making a request directly on Our Support Chatbot available on Our Platform. Please note that in that case, Your opt-out will only be effective for future Prompts and Outputs.
+
+### 3.2. Personal Data generated by Your Use of Our Services
+
+AFTER:
+* You use the free version of Codestral and You don’t opt-out of the Mistral AI Training Data. You can opt-out of the Mistral AI Training Data at any time by making a request directly on Our Support Chatbot available on Our Platform. Please note that in that case, Your opt-out will only be effective for future Prompts and Outputs.
+
+* User Input Data (for Customers acting as Consumers). We only use Your User Input Data to allow You to Fine-Tune Models via Our Fine-Tuning API.
+
+### 3.2. Personal Data generated by Your Use of Our Services
+
+BEFORE:
+* Generate Outputs based on Your Prompts.
+
+* Communicate with You for purposes other than marketing.
+
+AFTER:
+* Generate Outputs based on Your Prompts.
+
+* Allow You to Fine-Tune Our Models using Our Fine-Tuning API, for Customers acting as Consumers.
+
+* Communicate with You for purposes other than marketing.
+
+=== CARD L37d5a4 ===
+BEFORE:
+[Learn more] about our research programs
+
+How is your information shared on Meta Products or with integrated partners?
+
+AFTER:
+[Learn more] about our research programs
+
+* When our algorithms detect that [someone might need help], a reviewer can review their post and offer support if needed.
+
+* We also use manual review to analyze content to train our algorithms to review content the same way a person would. This improves our automatic processing, which in turn helps us improve our products.
+
+How is your information shared on Meta Products or with integrated partners?
+
+=== CARD L49c191 ===
+BEFORE:
+| Disclose your personal data to courts, law enforcement or regulatory authorities as permitted or required by applicable law. | * If necessary to comply with applicable laws, Legal Obligations Legal Basis per applicable laws.<br>* In all other applicable cases, Legitimate Interest Legal Basis to prevent fraud, danger or other unlawful conduct, and to defend our legitimate legal interests. |
+
+3. #### HOW DO WE PROTECT PERSONAL DATA IF WE TRANSFER IT INTERNATIONALLY?
+
+AFTER:
+| Disclose your personal data to courts, law enforcement or regulatory authorities as permitted or required by applicable law. | * If necessary to comply with applicable laws, Legal Obligations Legal Basis per applicable laws.<br>* In all other applicable cases, Legitimate Interest Legal Basis to prevent fraud, danger or other unlawful conduct, and to defend our legitimate legal interests. |
+
+| To disclose your information to our affiliates and trusted third-party collaborators who may use such information to improve our customer service tooling and/or train their artificial intelligence models, whether generative or otherwise.. | * We process your personal data on the Consent Legal Basis where you have actively chosen to share your personal data for AI model training. You may adjust your sharing preferences by navigating to your account’s user settings, clicking “Edit Profile,” and checking the relevant option. In all other cases, we process your personal data based on the Legitimate Interests legal basis to help us develop AI-enabled tools that improve our services and our customers’ experiences when using our service. |
+
+3. #### HOW DO WE PROTECT PERSONAL DATA IF WE TRANSFER IT INTERNATIONALLY?
+
+=== CARD Lbaee83 ===
+BEFORE:
+* To debug and to identify and repair errors that impair existing functionality
+
+* To enforce our [Terms of Service] and similar terms and agreements, including our [Usage Policy].
+
+AFTER:
+* To debug and to identify and repair errors that impair existing functionality
+
+* To improve the Services and conduct research, including training our models; and
+
+* To enforce our [Terms of Service] and similar terms and agreements, including our [Usage Policy].
+
+BEFORE:
+* To enforce our [Terms of Service] and similar terms and agreements, including our [Usage Policy].
+
+We will not use your Inputs or Outputs to train our models, unless: (1) your conversations are flagged for Trust & Safety review (in which case we may use or analyze them to improve our ability to detect and enforce our [Usage Policy], including training models for use by our Trust and Safety team, consistent with Anthropic’s safety mission), or (2) you’ve explicitly reported the materials to us (for example via our feedback mechanisms), or (3) you've otherwise explicitly opted in to the use of your Inputs and Outputs for training purposes.
+
+Please see Section 10 below for details of our legal bases for processing your personal data.
+
+AFTER:
+* To enforce our [Terms of Service] and similar terms and agreements, including our [Usage Policy].
+
+We may use your Inputs and Outputs to train our models and improve our Services, unless you opt out through your account settings. Even if you opt-out, we will use Inputs and Outputs for model improvement when: (1) your conversations are flagged for safety review to improve our ability to detect harmful content, enforce our policies, or advance AI safety research, or (2) you've explicitly reported the materials to us (for example via our feedback mechanisms).
+
+Please see Section 10 below for details of our legal bases for processing your personal data.
+
+=== CARD L30c966 ===
+BEFORE:
+================
+
+**If your usual residence is in the European Economic Area, the United Kingdom, or Switzerland, and you do not use the Evernote Service as part of a Multi-Seat Account (Evernote Enterprise), scroll down to find the terms that apply to you.**
+
+AFTER:
+================
+
+* **We don't train AI on your content.**
+
+**If your usual residence is in the European Economic Area, the United Kingdom, or Switzerland, and you do not use the Evernote Service as part of a Multi-Seat Account (Evernote Enterprise), scroll down to find the terms that apply to you.**
+
+=== CARD Le11e8a ===
+BEFORE:
+USER TERMS
+
+To access the ServicesAny service or application offered by Roblox, such as those allowing Users to develop Virtual Content, connect with others, and use Virtual Content created by you and other Users. It includes websites on the roblox.com domain, our Roblox mobile, virtual reality and Xbox apps, the Roblox Player, the Roblox Studio, and our other websites, products, software, applications, content, data feeds, and other services., you will need to create a RobloxThe Roblox Corporation, including its designated subsidiaries: Roblox Prepaid Company LLC, Roblox Godo Kaisha or Roblox Japan, Roblox Canada Inc., Roblox UK Limited (FKA Ceebr Limited), Roblox India Services Private Limited, Roblox Korea Limited, Roblox Australia Pty Ltd, and Roblox Netherlands B.V. account (“**Account**”). Creating an AccountA Roblox Account, which a User must create in order to access certain elements and functionality of the Services. enables you to access the ServicesAny service or application offered by Roblox, such as those allowing Users to develop Virtual Content, connect with others, and use Virtual Content created by you and other Users. It includes websites on the roblox.com domain, our Roblox mobile, virtual reality and Xbox apps, the Roblox Player, the Roblox Studio, and our other websites, products, software, applications, content, data feeds, and other services. including Games, Developer Products, Marketplace Items, Assets, User Generated Content, Creator Store assets, content created within Games, images, videos, audio, text (e.g., comments on DevForum, messages), content generated by AI, or other materials, whether provided by Users, Creators, or RobloxThe Roblox Corporation, including its designated subsidiaries: Roblox Prepaid Company LLC, Roblox Godo Kaisha or Roblox Japan, Roblox Canada Inc., Roblox UK Limited (FKA Ceebr Limited), Roblox India Services Private Limited, Roblox Korea Limited, Roblox Australia Pty Ltd, and Roblox Netherlands B.V. (collectively, “**Content**”).
+
+[... cut ...]
+
+AFTER:
+USER TERMS
+
+[... cut ...]
+
+=== CARD L57df4f ===
+BEFORE:
+* For your breach of this Agreement,
+
+* In case Your Output is similar or identical to another User’s Outputs,
+
+AFTER:
+* For your breach of this Agreement,
+
+* For the performance of the Model and/or the Customized Model in case You Customized, Fine-Tuned or otherwise modified the Model,
+
+* In case Your Output is similar or identical to another User’s Outputs,
+
+=== CARD L0b9b0f ===
+BEFORE:
+Dailymotion works with a large number of ad-related Commercial Partners. Their list is published on our Service and may be consulted at all times from within the “Manage Cookies” section accessible within the EEA from the footer of our website and settings of our app. Note that it does not mean that when You visit our Service all of these Commercial Partners process Your Personal Data. Only the Commercial Partners (or their technical service providers) involved in posting the ads shown to You or publishing Content that You watch on Dailymotion Service process Your data. The identity of our Commercial Partners who process Your data depends on the Content and ads You watch on our Service.
+
+**When disclosed Data is used by a Commercial Partner for its own purposes, it is that Commercial Partner who is the Data Controller for the Processing it undertakes**.
+
+AFTER:
+Dailymotion works with a large number of ad-related Commercial Partners. Their list is published on our Service and may be consulted at all times from within the “Manage Cookies” section accessible within the EEA from the footer of our website and settings of our app. Note that it does not mean that when You visit our Service all of these Commercial Partners process Your Personal Data. Only the Commercial Partners (or their technical service providers) involved in posting the ads shown to You or publishing Content that You watch on Dailymotion Service process Your data. The identity of our Commercial Partners who process Your data depends on the Content and ads You watch on our Service.
+
+In addition, we may, from time to time, disclose some of Your Data to selected Data Partners for their use to train general purpose Artificial Intelligence. If we do so, and when required by the applicable laws, we will provide You with a possibility to oppose to such disclosure of Your Personal Data.
+
+**When disclosed Data is used by a Commercial Partner for its own purposes, it is that Commercial Partner who is the Data Controller for the Processing it undertakes**.
+
+BEFORE:
+| Device and connectivity information | Information about Your current connection to the Dailymotion Service pertaining to the device and Service connection; device used, language and other settings, operating system browser, url | To provide You the Service and achieve our business purposes including delivery of targeted ads | \-Tech companies <br>\-Advertising partners |
+
+###### **_**_8.6.1.a.iii. Retention Period of PI_**_**
+
+AFTER:
+| Device and connectivity information | Information about Your current connection to the Dailymotion Service pertaining to the device and Service connection; device used, language and other settings, operating system browser, url | To provide You the Service and achieve our business purposes including delivery of targeted ads | \-Tech companies <br>\-Advertising partners |
+
+| Your Content | Your publicly available videos and related metadata to the exclusion of directly identifying personal information | – To provide You the Service and achieve our business purposes including financing of our Service <br>– To foster new technologies including through training of AI models. | selected Data Partners |
+
+###### **_**_8.6.1.a.iii. Retention Period of PI_**_**
+
+=== CARD La786a3 ===
+BEFORE:
+**4\. General**
+
+**4.3 Changes to Alexa; Amendments.** We may change, suspend, or discontinue Alexa, or any part of it, including any Third Party Services or Premium Features, at any time without notice. We may amend any of this Agreement's terms at our sole discretion by posting the revised terms on the Amazon.com website. Your continued use of Alexa after the effective date of the revised Agreement constitutes your acceptance of the terms.
+
+AFTER:
+**4\. General**
+
+**4.2 Functionality; Content.** Alexa uses machine learning models to interpret and provide responses to your requests. We use a variety of data sources to train these models and provide responses to your requests, including Amazon content, content from the use of our services, content licensed from third parties, and content publicly available on the internet. Alexa’s machine learning models may produce content that is based, in part, on patterns in data used to train these models. Alexa may provide responses that do not represent Amazon’s views. Alexa may also get things wrong, including by failing to take a requested action or taking an action different from what you requested. We do not guarantee that Alexa or its functionality or content (including traffic, health, or stock information) is accurate, reliable, always available, or complete. You may encounter content through Alexa that you find inaccurate, offensive, indecent, or objectionable. Amazon has no responsibility or liability for such content.
+
+**4.3 Changes to Alexa; Amendments.** We may change, suspend, or discontinue Alexa, or any part of it, including any Third Party Services or Premium Features, at any time without notice. We may amend any of this Agreement's terms at our sole discretion by posting the revised terms on the Amazon.com website. Your continued use of Alexa after the effective date of the revised Agreement constitutes your acceptance of the terms.
+
+=== CARD L4e9e24 ===
+BEFORE:
+(no text)
+
+AFTER:
+* train AI systems using platform data; or
+
+UpScrolled does not use algorithmic recommendation systems. Content on UpScrolled is not curated, or personalised by automated systems.
