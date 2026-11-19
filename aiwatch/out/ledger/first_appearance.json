@@ -1,0 +1,830 @@
+{
+"L5578af": {
+"svc": "Zoom",
+"doc": "Terms of Service",
+"alert_date": "2023-04-01",
+"first_commit": "6cee2e467cdc921c98ea835e3bb9511dfd5c9544",
+"first_date": "2023-04-01",
+"versions_with_it": 1,
+"versions_total": 22
+},
+"L9b540b": {
+"svc": "Facebook",
+"doc": "Privacy Policy",
+"alert_date": "2023-04-04",
+"first_commit": "ea2d8e040c0e0b8f474ee3a844bdaed427a87928",
+"first_date": "2022-12-16",
+"versions_with_it": 2,
+"versions_total": 79
+},
+"L674c34": {
+"svc": "Instagram",
+"doc": "Privacy Policy",
+"alert_date": "2023-06-28",
+"first_commit": "ba499aa1398ba5de9b58b1d7ff26bacf6c1a3a10",
+"first_date": "2022-12-16",
+"versions_with_it": 3,
+"versions_total": 14
+},
+"Le1582a": {
+"svc": "Quora",
+"doc": "Privacy Policy",
+"alert_date": "2023-07-24",
+"first_commit": "ac926afe796c406493efd3c096e960e6069771bb",
+"first_date": "2023-07-24",
+"versions_with_it": 1,
+"versions_total": 17
+},
+"L19dff6": {
+"svc": "Pinterest",
+"doc": "Privacy Policy",
+"alert_date": "2023-08-01",
+"first_commit": "5f37d446e96799c62188f25b5193893e4b79cf1e",
+"first_date": "2023-08-01",
+"versions_with_it": 1,
+"versions_total": 18
+},
+"L396483": {
+"svc": "Twitter",
+"doc": "Privacy Policy",
+"alert_date": "2023-08-30",
+"first_commit": "193f9b02c75546cdf8b30ec2cb8a843a7f0826f3",
+"first_date": "2023-08-23",
+"versions_with_it": 2,
+"versions_total": 14
+},
+"L86aa23": {
+"svc": "SurveyMonkey",
+"doc": "Privacy Policy",
+"alert_date": "2023-11-01",
+"first_commit": "c302cdee471b73550c8534b2e15548dacf3d5526",
+"first_date": "2023-11-01",
+"versions_with_it": 1,
+"versions_total": 106
+},
+"La89d7f": {
+"svc": "Amazon Web Services",
+"doc": "Terms of Service",
+"alert_date": "2023-12-02",
+"first_commit": "a315e58504aaa59499f420e0139517a71d7cb1d7",
+"first_date": "2023-12-02",
+"versions_with_it": 1,
+"versions_total": 88
+},
+"La786a3": {
+"svc": "Alexa",
+"doc": "Terms of Service",
+"alert_date": "2023-12-15",
+"first_commit": "8b6fd676cd59249ff394c714bf6038a174950177",
+"first_date": "2023-12-15",
+"versions_with_it": 1,
+"versions_total": 19
+},
+"La6d870": {
+"svc": "Snapchat",
+"doc": "Privacy Policy",
+"alert_date": "2024-01-22",
+"first_commit": "4d92bbd3f4397d460afdf2780e3d816bbc057a23",
+"first_date": "2024-01-22",
+"versions_with_it": 1,
+"versions_total": 35
+},
+"L0e8c9a": {
+"svc": "Mistral AI",
+"doc": "Privacy Policy",
+"alert_date": "2024-02-26",
+"first_commit": "de0daaeb648998b8a17c1706e7347c7226ce567e",
+"first_date": "2024-02-26",
+"versions_with_it": 1,
+"versions_total": 3
+},
+"L7d6c79": {
+"svc": "Pinterest",
+"doc": "Privacy Policy",
+"alert_date": "2024-03-13",
+"first_commit": "5f37d446e96799c62188f25b5193893e4b79cf1e",
+"first_date": "2023-08-01",
+"versions_with_it": 3,
+"versions_total": 20
+},
+"L303194": {
+"svc": "Mistral AI",
+"doc": "Developer Terms",
+"alert_date": "2024-05-29",
+"first_commit": "6abe7ddee17a0541bd825f8c7b5e0d275a9e8261",
+"first_date": "2024-05-29",
+"versions_with_it": 1,
+"versions_total": 11
+},
+"L7d23c0": {
+"svc": "Mistral AI",
+"doc": "Privacy Policy",
+"alert_date": "2024-05-29",
+"first_commit": "079f05a063f024d70b5ab03199c0d56ab0c2b1eb",
+"first_date": "2024-05-29",
+"versions_with_it": 1,
+"versions_total": 14
+},
+"Lf59741": {
+"svc": "Mistral AI",
+"doc": "Developer Terms",
+"alert_date": "2024-06-05",
+"first_commit": "f082aec1ddd26a84901762796ea6f7edb5ea743d",
+"first_date": "2024-06-05",
+"versions_with_it": 1,
+"versions_total": 12
+},
+"L164f61": {
+"svc": "Roblox",
+"doc": "Terms of Service",
+"alert_date": "2024-06-13",
+"first_commit": "534fbbf7cebdf0000e294892b76a628dd21bb982",
+"first_date": "2024-06-13",
+"versions_with_it": 1,
+"versions_total": 34
+},
+"Lda9bc9": {
+"svc": "Grammarly",
+"doc": "Privacy Policy",
+"alert_date": "2024-06-21",
+"first_commit": "a5863daa0410efdbe91da453acd2d409f7f237ec",
+"first_date": "2024-06-21",
+"versions_with_it": 1,
+"versions_total": 4
+},
+"L6600dd": {
+"svc": "Reddit",
+"doc": "Terms of Service",
+"alert_date": "2024-08-16",
+"first_commit": "d9aded476f182cf884f7bb4f8a07bb685d09ebb6",
+"first_date": "2024-08-16",
+"versions_with_it": 1,
+"versions_total": 19
+},
+"L2c76ff": {
+"svc": "Booking.com",
+"doc": "Privacy Policy",
+"alert_date": "2024-09-09",
+"first_commit": "9afc98139210796c637435111600eb306b6039cd",
+"first_date": "2024-09-09",
+"versions_with_it": 1,
+"versions_total": 484
+},
+"La05f13": {
+"svc": "Mistral AI",
+"doc": "Privacy Policy",
+"alert_date": "2024-09-17",
+"first_commit": "de0daaeb648998b8a17c1706e7347c7226ce567e",
+"first_date": "2024-02-26",
+"versions_with_it": 16,
+"versions_total": 18
+},
+"L9390f5": {
+"svc": "Mistral AI",
+"doc": "Terms of Service",
+"alert_date": "2024-09-17",
+"first_commit": "cb75274a8e9b45dc35e2238656a856d12eedebd6",
+"first_date": "2024-09-17",
+"versions_with_it": 1,
+"versions_total": 14
+},
+"Le4d4ed": {
+"svc": "LinkedIn",
+"doc": "Privacy Policy",
+"alert_date": "2024-09-19",
+"first_commit": "e21e1fa8f0984c04d0fbcef8f5da62955b267fe7",
+"first_date": "2024-09-19",
+"versions_with_it": 1,
+"versions_total": 17
+},
+"L8e72aa": {
+"svc": "X",
+"doc": "Terms of Service",
+"alert_date": "2024-10-17",
+"first_commit": "190ca8ff489959f4e53d7462a346f3d342fb87e0",
+"first_date": "2024-10-17",
+"versions_with_it": 1,
+"versions_total": 2
+},
+"Ldcc15d": {
+"svc": "Twitter",
+"doc": "Terms of Service",
+"alert_date": "2024-10-21",
+"first_commit": "6585c0f4afee2c52eb8b81a9a496a22c5e802813",
+"first_date": "2024-10-21",
+"versions_with_it": 1,
+"versions_total": 17
+},
+"L471589": {
+"svc": "Amazon Device",
+"doc": "Terms of Service",
+"alert_date": "2024-10-25",
+"first_commit": "5a8a318744ba5522ffe7372953c9f8eafd24763e",
+"first_date": "2024-10-25",
+"versions_with_it": 1,
+"versions_total": 20
+},
+"Lc1b70e": {
+"svc": "xAI",
+"doc": "Privacy Policy",
+"alert_date": "2024-11-13",
+"first_commit": "2a58bb8296c83af727f7de173abd3b3f61f94790",
+"first_date": "2024-11-13",
+"versions_with_it": 1,
+"versions_total": 11
+},
+"L8d1755": {
+"svc": "Facebook",
+"doc": "Privacy Policy",
+"alert_date": "2024-11-15",
+"first_commit": "ea2d8e040c0e0b8f474ee3a844bdaed427a87928",
+"first_date": "2022-12-16",
+"versions_with_it": 33,
+"versions_total": 155
+},
+"L534b01": {
+"svc": "Mistral AI",
+"doc": "Privacy Policy",
+"alert_date": "2024-11-16",
+"first_commit": "f87327554df93a204f693005afb410a5d1c403a6",
+"first_date": "2024-11-16",
+"versions_with_it": 1,
+"versions_total": 19
+},
+"Lc44e93": {
+"svc": "Google Pay",
+"doc": "Privacy Policy",
+"alert_date": "2024-11-19",
+"first_commit": "6914457fbfc6d164692e5aa444c7f6211e63b98b",
+"first_date": "2024-11-19",
+"versions_with_it": 1,
+"versions_total": 5
+},
+"Ledc01b": {
+"svc": "GitHub Copilot",
+"doc": "Terms of Service",
+"alert_date": "2024-12-19",
+"first_commit": "918961e52a7e68e97c4de4947384fc8e89b75ca1",
+"first_date": "2024-12-19",
+"versions_with_it": 1,
+"versions_total": 11
+},
+"L54efd8": {
+"svc": "xAI",
+"doc": "Terms of Service",
+"alert_date": "2025-02-14",
+"first_commit": "1169f7b2e760cb9b2274577cef3a157435884ca9",
+"first_date": "2025-02-14",
+"versions_with_it": 1,
+"versions_total": 13
+},
+"L0b9b0f": {
+"svc": "Dailymotion",
+"doc": "Privacy Policy",
+"alert_date": "2025-02-21",
+"first_commit": "ce87daa6a89eb7052366c18d14b65c3fd30c7970",
+"first_date": "2025-02-21",
+"versions_with_it": 1,
+"versions_total": 16
+},
+"L28ab06": {
+"svc": "Kimi AI",
+"doc": "Terms of Service",
+"alert_date": "2025-03-19",
+"first_commit": "58b8acdc105ba3aa8eb986f8e79ef9a70532ddc1",
+"first_date": "2025-03-19",
+"versions_with_it": 1,
+"versions_total": 2
+},
+"Lf7f870": {
+"svc": "Mistral AI",
+"doc": "Privacy Policy",
+"alert_date": "2025-04-04",
+"first_commit": "2b0abfdee9e38aeb9d732a3ff4c7b3ca56d3c68a",
+"first_date": "2025-04-04",
+"versions_with_it": 1,
+"versions_total": 32
+},
+"L1ab311": {
+"svc": "Instagram",
+"doc": "Privacy Policy",
+"alert_date": "2025-04-15",
+"first_commit": "a5559eddee8fc04d6dce253d41ca99df2d9af4fe",
+"first_date": "2025-04-15",
+"versions_with_it": 1,
+"versions_total": 48
+},
+"Leca617": {
+"svc": "Spotify",
+"doc": "Privacy Policy",
+"alert_date": "2025-05-12",
+"first_commit": "6e9694dcd1b0b31c55dd97b3d3b654cc32290e7e",
+"first_date": "2025-05-12",
+"versions_with_it": 1,
+"versions_total": 40
+},
+"Ld76758": {
+"svc": "AdRoll",
+"doc": "Privacy Policy",
+"alert_date": "2025-06-28",
+"first_commit": "1d6e14aa366582d85cfee667e1215ad57c574928",
+"first_date": "2025-06-28",
+"versions_with_it": 1,
+"versions_total": 8
+},
+"Lf2503c": {
+"svc": "Facebook",
+"doc": "Privacy Policy",
+"alert_date": "2025-07-16",
+"first_commit": "ea2d8e040c0e0b8f474ee3a844bdaed427a87928",
+"first_date": "2022-12-16",
+"versions_with_it": 353,
+"versions_total": 476
+},
+"L5b2916": {
+"svc": "DeepSeek",
+"doc": "Privacy Policy",
+"alert_date": "2025-07-18",
+"first_commit": "8fd892eeb20c8916494bfcb3ef151b41b449bd27",
+"first_date": "2025-02-23",
+"versions_with_it": 7,
+"versions_total": 8
+},
+"L99e8d1": {
+"svc": "ChatGPT",
+"doc": "Privacy Policy",
+"alert_date": "2025-07-31",
+"first_commit": "218ad1e93b420f5d650903c03409c00611f1cd02",
+"first_date": "2025-07-31",
+"versions_with_it": 1,
+"versions_total": 13
+},
+"L6d3a09": {
+"svc": "Grok",
+"doc": "Privacy Policy",
+"alert_date": "2025-08-01",
+"first_commit": "30f91c5645819d35c4138fcd83ff3d55773af3e5",
+"first_date": "2025-08-01",
+"versions_with_it": 1,
+"versions_total": 2
+},
+"L6698ac": {
+"svc": "Fox News",
+"doc": "Terms of Service",
+"alert_date": "2025-08-27",
+"first_commit": "3ef98b499ad0aa610878d30aebaeb4de3e5867fe",
+"first_date": "2025-08-27",
+"versions_with_it": 1,
+"versions_total": 11
+},
+"L68a5d3": {
+"svc": "Claude.ai",
+"doc": "Terms of Service",
+"alert_date": "2025-08-29",
+"first_commit": "d8d25b3cb0d2f407bab36bf11fbb44cca1bcdb94",
+"first_date": "2025-08-29",
+"versions_with_it": 1,
+"versions_total": 2
+},
+"Lbaee83": {
+"svc": "Claude.ai",
+"doc": "Privacy Policy",
+"alert_date": "2025-08-29",
+"first_commit": "e59bf71c68398878e7d12ccdf99d89af5f0984ed",
+"first_date": "2025-08-29",
+"versions_with_it": 1,
+"versions_total": 3
+},
+"L56d2ab": {
+"svc": "Atlassian",
+"doc": "Privacy Policy",
+"alert_date": "2025-09-06",
+"first_commit": "25879f6e5e2a1462cf715665a5ed1570e16a1b79",
+"first_date": "2025-09-06",
+"versions_with_it": 1,
+"versions_total": 20
+},
+"Lcc3c6b": {
+"svc": "Jasper",
+"doc": "Terms of Service",
+"alert_date": "2025-09-11",
+"first_commit": "8b332a9013f60a13899a38f83238301c17b842e3",
+"first_date": "2025-09-11",
+"versions_with_it": 1,
+"versions_total": 6
+},
+"L5ba869": {
+"svc": "LinkedIn",
+"doc": "Privacy Policy",
+"alert_date": "2025-09-18",
+"first_commit": "326007fda0669f95586b5744c512704e3547c970",
+"first_date": "2025-09-18",
+"versions_with_it": 1,
+"versions_total": 15
+},
+"Ld49007": {
+"svc": "Lovable",
+"doc": "Privacy Policy",
+"alert_date": "2025-09-30",
+"first_commit": "2640233c06cea5eb49bae90058d291a1b3d6e920",
+"first_date": "2025-09-30",
+"versions_with_it": 1,
+"versions_total": 2
+},
+"Lf08123": {
+"svc": "Womans Day",
+"doc": "Privacy Policy",
+"alert_date": "2025-10-07",
+"first_commit": "b7b4b5a75207b3cac69af051fbdbd33ace9b7cde",
+"first_date": "2025-10-07",
+"versions_with_it": 1,
+"versions_total": 66
+},
+"L460408": {
+"svc": "Microsoft Copilot",
+"doc": "Privacy Policy",
+"alert_date": "2025-10-11",
+"first_commit": "19776a4dcf67dbf097f3c24b37902dc0764b347c",
+"first_date": "2025-10-11",
+"versions_with_it": 1,
+"versions_total": 11
+},
+"L7077b2": {
+"svc": "SurveyMonkey",
+"doc": "Privacy Policy",
+"alert_date": "2025-10-30",
+"first_commit": "1297e3b29fe6c85ef1e3c23283a557992b794aae",
+"first_date": "2025-10-30",
+"versions_with_it": 1,
+"versions_total": 139
+},
+"L988a5f": {
+"svc": "LinkedIn",
+"doc": "Privacy Policy",
+"alert_date": "2025-11-04",
+"first_commit": "bc7d59e9d4f6f5e3b2927e9c0ec82f7283d3a9b8",
+"first_date": "2025-11-04",
+"versions_with_it": 1,
+"versions_total": 17
+},
+"L2c9ef4": {
+"svc": "Glassdoor",
+"doc": "Privacy Policy",
+"alert_date": "2025-11-18",
+"first_commit": "f73ba36ac036863ec34318ec8d12613583ec1f4e",
+"first_date": "2025-11-18",
+"versions_with_it": 1,
+"versions_total": 6
+},
+"L17e039": {
+"svc": "Allrecipes",
+"doc": "Privacy Policy",
+"alert_date": "2025-12-10",
+"first_commit": "07b5931df8dcad756c0c7e2e1ddf02e7f8b4475e",
+"first_date": "2025-12-10",
+"versions_with_it": 1,
+"versions_total": 23
+},
+"L6f2368": {
+"svc": "Twitter",
+"doc": "Privacy Policy",
+"alert_date": "2025-12-17",
+"first_commit": "02a040318ecdaba13adf96d46c182f153caa8318",
+"first_date": "2024-10-21",
+"versions_with_it": 9,
+"versions_total": 29
+},
+"L606be8": {
+"svc": "Together AI",
+"doc": "Privacy Policy",
+"alert_date": "2025-12-20",
+"first_commit": "6ecd6a8de10a7c2576d3192b682a01d4123c1267",
+"first_date": "2025-12-20",
+"versions_with_it": 1,
+"versions_total": 5
+},
+"L8789e9": {
+"svc": "Together AI",
+"doc": "Terms of Service",
+"alert_date": "2025-12-20",
+"first_commit": "c66683ae187b3ededefc1d949aa73ea31b06dfa7",
+"first_date": "2025-12-20",
+"versions_with_it": 1,
+"versions_total": 5
+},
+"L4784a0": {
+"svc": "DeepSeek",
+"doc": "Privacy Policy",
+"alert_date": "2025-12-23",
+"first_commit": "9d862de621fe25dcd1a1984c94136f02165510b3",
+"first_date": "2025-12-23",
+"versions_with_it": 1,
+"versions_total": 11
+},
+"La7ca2c": {
+"svc": "Facebook",
+"doc": "Privacy Policy",
+"alert_date": "2026-01-15",
+"first_commit": "ea2d8e040c0e0b8f474ee3a844bdaed427a87928",
+"first_date": "2022-12-16",
+"versions_with_it": 365,
+"versions_total": 489
+},
+"L3c5b38": {
+"svc": "Starlink",
+"doc": "Privacy Policy",
+"alert_date": "2026-01-16",
+"first_commit": "8010e734af16bc8d9f0f9c793ba2c60b4fff257c",
+"first_date": "2026-01-16",
+"versions_with_it": 1,
+"versions_total": 7
+},
+"Lc31aaf": {
+"svc": "DeepSeek",
+"doc": "Privacy Policy",
+"alert_date": "2026-02-10",
+"first_commit": "3150b95c8fd3d8f9b30c8d42f4512c19879aa527",
+"first_date": "2025-04-28",
+"versions_with_it": 9,
+"versions_total": 12
+},
+"L49c191": {
+"svc": "Starlink",
+"doc": "Privacy Policy",
+"alert_date": "2026-02-10",
+"first_commit": "839c4a8f514ec82b474dc8459f01384f5348f431",
+"first_date": "2026-02-10",
+"versions_with_it": 1,
+"versions_total": 8
+},
+"L0b6d60": {
+"svc": "Honkai- Star Rail",
+"doc": "Privacy Policy",
+"alert_date": "2026-02-13",
+"first_commit": "d8c81737de5a1117b77d01559a48357ba34fbfa1",
+"first_date": "2026-02-13",
+"versions_with_it": 1,
+"versions_total": 4
+},
+"L75e593": {
+"svc": "Lovable",
+"doc": "Privacy Policy",
+"alert_date": "2026-02-27",
+"first_commit": "731d9dc98ea15429eccbf42d3ef7bee0be1a0952",
+"first_date": "2025-08-01",
+"versions_with_it": 4,
+"versions_total": 4
+},
+"L0578c7": {
+"svc": "Tinder",
+"doc": "Terms of Service",
+"alert_date": "2026-03-06",
+"first_commit": "dce1abb6b115072234aff7f768a2d60c8e3e60c7",
+"first_date": "2026-03-06",
+"versions_with_it": 1,
+"versions_total": 22
+},
+"La1e2fd": {
+"svc": "Booking.com",
+"doc": "Privacy Policy",
+"alert_date": "2026-03-26",
+"first_commit": "13990c32405f5f1d2a6c5648e4e7a716bb823263",
+"first_date": "2026-03-26",
+"versions_with_it": 1,
+"versions_total": 489
+},
+"L6b6b28": {
+"svc": "DeepSeek",
+"doc": "Terms of Service",
+"alert_date": "2026-03-27",
+"first_commit": "fce58ebb45f5f4fde0674464e57d51c9a0d7db0c",
+"first_date": "2025-04-13",
+"versions_with_it": 5,
+"versions_total": 5
+},
+"Lb41497": {
+"svc": "Toyota Connected Services",
+"doc": "Privacy Policy",
+"alert_date": "2026-04-08",
+"first_commit": "573afcddf8e6d184bf9cf4c465f8f2cafe3d94e2",
+"first_date": "2026-04-08",
+"versions_with_it": 1,
+"versions_total": 43
+},
+"L3bf8a5": {
+"svc": "Lovable",
+"doc": "Privacy Policy",
+"alert_date": "2026-04-14",
+"first_commit": "2640233c06cea5eb49bae90058d291a1b3d6e920",
+"first_date": "2025-09-30",
+"versions_with_it": 10,
+"versions_total": 14
+},
+"L158812": {
+"svc": "Honkai- Star Rail",
+"doc": "Privacy Policy",
+"alert_date": "2026-04-22",
+"first_commit": "d8c81737de5a1117b77d01559a48357ba34fbfa1",
+"first_date": "2026-02-13",
+"versions_with_it": 4,
+"versions_total": 7
+},
+"L7e5c3a": {
+"svc": "GitHub Copilot",
+"doc": "Terms of Service",
+"alert_date": "2026-04-27",
+"first_commit": "8e5f014f09f4e98193f9c4c4b207cca61d8197ab",
+"first_date": "2026-04-27",
+"versions_with_it": 1,
+"versions_total": 17
+},
+"Ld19a83": {
+"svc": "GitHub",
+"doc": "Terms of Service",
+"alert_date": "2026-04-28",
+"first_commit": "816236baff907c6b33578783b43718052d712a09",
+"first_date": "2026-04-28",
+"versions_with_it": 1,
+"versions_total": 28
+},
+"Ldb67ae": {
+"svc": "GitHub",
+"doc": "Privacy Policy",
+"alert_date": "2026-04-28",
+"first_commit": "5a291228901582b0113f3e3e523c57b75b41de8d",
+"first_date": "2026-04-28",
+"versions_with_it": 1,
+"versions_total": 54
+},
+"Lf84604": {
+"svc": "PayPal",
+"doc": "Privacy Policy",
+"alert_date": "2026-05-06",
+"first_commit": "a4e30fb2be3c21c04d0f7897ec2417ee16b3af44",
+"first_date": "2026-01-22",
+"versions_with_it": 25,
+"versions_total": 35
+},
+"L773190": {
+"svc": "Instacart",
+"doc": "Terms of Service",
+"alert_date": "2026-05-08",
+"first_commit": "0f19e814579e5d1641fc3411137931e400bb7da3",
+"first_date": "2026-05-08",
+"versions_with_it": 1,
+"versions_total": 7
+},
+"L386b8c": {
+"svc": "Bolt.new",
+"doc": "Privacy Policy",
+"alert_date": "2026-05-13",
+"first_commit": "377884386335c932070885a7a539582a2602b04d",
+"first_date": "2026-05-13",
+"versions_with_it": 1,
+"versions_total": 2
+},
+"Ld5cd61": {
+"svc": "DALL\u00b7E",
+"doc": "Privacy Policy",
+"alert_date": "2026-05-18",
+"first_commit": "54182ed52c32b302dca8fbf30df8c52af28867fa",
+"first_date": "2026-05-18",
+"versions_with_it": 1,
+"versions_total": 16
+},
+"L5a814a": {
+"svc": "ChatGPT",
+"doc": "Privacy Policy",
+"alert_date": "2026-05-18",
+"first_commit": "2c94a9c16c2bd563bee063bd0cf31ac1775136e0",
+"first_date": "2026-05-18",
+"versions_with_it": 1,
+"versions_total": 17
+},
+"L7b87c4": {
+"svc": "Mix",
+"doc": "Privacy Policy",
+"alert_date": "2026-05-27",
+"first_commit": "6e417253fac93a58fbd7b11d66dbaf9ccbcb4c1d",
+"first_date": "2026-05-27",
+"versions_with_it": 1,
+"versions_total": 14
+},
+"L7fa114": {
+"svc": "Claude.ai",
+"doc": "Privacy Policy",
+"alert_date": "2026-06-08",
+"first_commit": "d9e2b511ebfe9c55cddbef70b2069bd69a43f048",
+"first_date": "2026-06-08",
+"versions_with_it": 1,
+"versions_total": 443
+},
+"L3f2ec3": {
+"svc": "Lovable",
+"doc": "Terms of Service",
+"alert_date": "2026-06-16",
+"first_commit": "0241c4a81b40b7dff396e07a2abf9d1cbf490686",
+"first_date": "2026-06-16",
+"versions_with_it": 1,
+"versions_total": 62
+},
+"L4810f2": {
+"svc": "Fox News",
+"doc": "Privacy Policy",
+"alert_date": "2026-07-01",
+"first_commit": "632637d085831bdcf29a0ce3144a45faa9bfce79",
+"first_date": "2026-07-01",
+"versions_with_it": 1,
+"versions_total": 26
+},
+"Lc41ab6": {
+"svc": "ChatGPT",
+"doc": "Privacy Policy",
+"alert_date": "2026-07-15",
+"first_commit": "218ad1e93b420f5d650903c03409c00611f1cd02",
+"first_date": "2025-07-31",
+"versions_with_it": 6,
+"versions_total": 18
+},
+"Lc08ced": {
+"svc": "Criteo",
+"doc": "Privacy Policy",
+"alert_date": "2026-07-17",
+"first_commit": "fd39ccecde373e1742c622137d76540f7c419995",
+"first_date": "2026-07-17",
+"versions_with_it": 1,
+"versions_total": 18
+},
+"L1462c5": {
+"svc": "Booking.com",
+"doc": "Privacy Policy",
+"alert_date": "2026-08-20",
+"first_commit": "0142fb066181b7177ff10c8ace1bf7b7369c8e49",
+"first_date": "2025-12-10",
+"versions_with_it": 7,
+"versions_total": 492
+},
+"L37d5a4": {
+"svc": "Facebook",
+"doc": "Privacy Policy",
+"alert_date": "2026-08-22",
+"first_commit": "ea2d8e040c0e0b8f474ee3a844bdaed427a87928",
+"first_date": "2022-12-16",
+"versions_with_it": 367,
+"versions_total": 492
+},
+"L10ff7f": {
+"svc": "Lovable",
+"doc": "Privacy Policy",
+"alert_date": "2026-09-09",
+"first_commit": "9e42647cf429641fb513c753a201898d750a377c",
+"first_date": "2026-09-09",
+"versions_with_it": 1,
+"versions_total": 35
+},
+"Lb9e3ac": {
+"svc": "Twitter",
+"doc": "Terms of Service",
+"alert_date": "2026-09-10",
+"first_commit": "6585c0f4afee2c52eb8b81a9a496a22c5e802813",
+"first_date": "2024-10-21",
+"versions_with_it": 11,
+"versions_total": 27
+},
+"Lad58cf": {
+"svc": "Bolt.new",
+"doc": "Privacy Policy",
+"alert_date": "2026-09-14",
+"first_commit": "7a6b4df9b4454c93ff080ee5735d3875a1333ec2",
+"first_date": "2026-09-14",
+"versions_with_it": 1,
+"versions_total": 3
+},
+"L96fa3f": {
+"svc": "Roblox",
+"doc": "Privacy Policy",
+"alert_date": "2026-11-02",
+"first_commit": "559854fc7bd61d4ff7dd0d2f30010e7d0b9ec118",
+"first_date": "2026-11-02",
+"versions_with_it": 1,
+"versions_total": 55
+},
+"Lcd768e": {
+"svc": "Pinterest",
+"doc": "Privacy Policy",
+"alert_date": "2026-11-13",
+"first_commit": "6c204569e67a60cedf31112f20fd11cb6ec710e5",
+"first_date": "2026-11-13",
+"versions_with_it": 1,
+"versions_total": 36
+},
+"Lc3d2d6": {
+"svc": "Pinterest",
+"doc": "Privacy Policy",
+"alert_date": "2026-11-14",
+"first_commit": "0bcac218d00e1ef97e5fc7b62b8695dbd6ce4d80",
+"first_date": "2026-11-14",
+"versions_with_it": 1,
+"versions_total": 25
+}
+}

@@ -17,8 +17,15 @@ NAMES = {'iitom': 'Is It Training on Me?', 'tostracker': 'TOSTracker', 'conducta
 
 def rows():
     cur = json.load(open(os.path.join(TR, 'current.json'), encoding='utf-8'))
+    fa = json.load(open(os.path.join(LED, 'first_appearance.json'), encoding='utf-8'))
     R = [dict(json.loads(l)) for l in open(os.path.join(TR, 'rows.jsonl'), encoding='utf-8')]
-    for r in R: r['current'] = cur.get(r['item'])
+    for r in R:
+        r['current'] = cur.get(r['item'])
+        f = fa.get(r['card'], {})
+        r['alert_date'] = r['date']
+        if f.get('first_date') and f['first_date'] < r['date']:   # the sentence was archived before this alert
+            r['date'] = f['first_date']
+            r['diff'] = f'https://github.com/OpenTermsArchive/{r["coll"]}/commit/{f["first_commit"]}'
     return R
 
 
