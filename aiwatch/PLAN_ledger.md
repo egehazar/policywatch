@@ -102,3 +102,27 @@ those were ever publicly reported, and when? How precise is each monitor arm, ke
 - Services Open Terms Archive does not track.
 - That a change was never reported: only that two searches did not find a press report.
 - That a company actually trains on users' data: a policy permits; it does not report practice.
+
+## Addendum 1, 2026-11-19 ~20:45 UTC: prior work found; press check replaced by a tracker check
+Written after rater 1 (Claude) had labelled all 172 phase-1 cards and before rater 2 (GPT) or any press search.
+The labels, raters, verified-grant rule and arm measures above are unchanged.
+
+- **Why.** GPT-6's round-40 reply (`decision-serving/notes/gpt_r40_reply.md`) found three public trackers of AI-training
+  clauses, all checked on their own pages the same day: TOSTracker (23 companies, 2026-07-02), Is It Training on Me?
+  (261 apps, 455 recorded changes) and PolicyForge (575 policies, 2026-11). A public "N verified; M reported" page
+  would repeat them, and "reported" would have to count their records anyway. Archive dates also lag: TOSTracker had
+  PayPal's clause on 2026-01-31, the archive on 2026-05-06.
+- **Dropped before it ran:** the two-searcher press check, the "worth publishing / thin" reading, the public page and
+  its headline. `page.py build` is not used for a public page.
+- **Instead, a tracker check.** For each verified grant, one searcher (a Claude subagent with web access, given the
+  service, document, archive date and sentence, never an arm or a score) records, for each of Is It Training on Me?,
+  TOSTracker and ConductAtlas:
+  - whether it covers the service;
+  - whether it records this training clause;
+  - the earliest date it shows for it (capture or change).
+- **Measures (reported, not read):**
+  - verified grants per tracker: covered service / clause recorded / recorded no later than the archive;
+  - the archive's lead or lag against each tracker's earliest date.
+- **Use:** private notes Ege may send to each tracker, listing the changes on services it covers that it lacks or
+  dates later than the archive. Nothing about a named company is published by this plan.
+- **Ege still reads every row** that goes into such a note.
