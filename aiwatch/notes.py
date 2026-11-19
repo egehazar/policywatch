@@ -56,20 +56,21 @@ def review():
 
 
 def decisions():
-    d, cur = {}, None
-    for line in open(REVIEW, encoding='utf-8'):
-        m = re.match(r'## \d+\. .*\[(T\w+)\]', line)
-        if m: cur = m.group(1)
-        m = re.match(r'Decision: (KEEP|STRIKE)\b\s*(.*)', line.strip())
-        if m and cur: d[cur] = (m.group(1), m.group(2).strip())
-    return d
+    """Addendum 3: Fable 5.2 and GPT-6 review the rows instead of Ege. -> item -> (keep_both, fable_row)"""
+    F, G = {}, {}
+    for f in sorted(os.listdir(NOTES)):
+        tgt = F if f.startswith('review_fable_') else G if f == 'review_gpt.jsonl' else None
+        if tgt is None or not f.endswith('.jsonl'): continue
+        for line in open(os.path.join(NOTES, f), encoding='utf-8'):
+            if line.strip().startswith('{'): a = json.loads(line); tgt[a['item']] = a
+    return {i: (F[i]['decision'] == 'KEEP' and G[i]['decision'] == 'KEEP', F[i]) for i in F if i in G}
 
 
 def tables():
     D = decisions(); R = [r for r in rows() if r['current'] and any(gap(r, t) for t in TRACKERS)]
     und = [r['item'] for r in R if r['item'] not in D]
-    if und: raise SystemExit(f'{len(und)} rows undecided in {REVIEW}; nothing written')
-    keep = [r for r in R if D[r['item']][0] == 'KEEP']
+    if und: raise SystemExit(f'{len(und)} rows lack a Fable or GPT review; nothing written')
+    keep = [r for r in R if D[r['item']][0]]
     allr = rows()
     for t in TRACKERS:
         dated = [r for r in allr if (r[t].get('clause') or '').lower() == 'yes' and re.fullmatch(r'\d{4}-\d{2}-\d{2}', r[t].get('earliest') or '')]
@@ -77,9 +78,12 @@ def tables():
         lines = [f'# {NAMES[t]}: AI-training clauses in the Open Terms Archive history that it lacks', '',
                  'Draft material for a private note that Ege writes. Dates are when the archive first recorded '
                  'the text, not when the company introduced it. Every row was labelled a grant by two AI raters '
-                 '(Claude, GPT) blind to the method, and read by Ege.', '']
+                 '(Claude, GPT) blind to the method, then kept by two AI reviewers (Fable, GPT) who read the full text; '
+                 "Fable confirmed each gap on the tracker's own site. No person has read the rows.", '']
         for kind, title in (('missing', 'Services it covers, clause not recorded'), ('uncovered', 'Services it does not cover')):
-            sel = sorted([r for r in keep if gap(r, t) == kind], key=lambda r: (r['svc'], r['date']))
+            # a tracker claim is used only if Fable confirmed it on the tracker's own site (addendum 3)
+            sel = sorted([r for r in keep if gap(r, t) == kind and D[r['item']][1]['trackers'].get(t) == 'confirmed'],
+                         key=lambda r: (r['svc'], r['date']))
             lines += [f'## {title} ({len(sel)})', '', '| Service | Document | First archived | Sentence | Archive diff |', '|---|---|---|---|---|']
             lines += [f'| {r["svc"]} | {r["doc"]} | {r["date"]} | {r["quote_1"][:220]} | {r["diff"]} |' for r in sel] + ['']
         lines += ['## History it could backfill', '',
