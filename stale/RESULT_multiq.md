@@ -57,7 +57,8 @@ predicted range (.66-.73), and its cost (1.79 s) is inside its range but above t
 - **Nothing measured in policywatch comes from the decision model.** Its base family's ordinary instruct model, asked
   the same question, matched Kev's accuracy wherever it ran (relocation parts A and B, "states the case", missing
   points), its probabilities were not better calibrated (exploratory), and now, asked all of a passage's questions
-  in one prompt, it is slightly cheaper too. policywatch's results are those of a 4B LLM reading each passage.
+  in one prompt, it cost no more (one run per arm, servers set up differently: no cost difference shown, corrected
+  2026-11-19 from "slightly cheaper"). policywatch's results are those of a 4B LLM reading each passage.
 - The tool's results stand as they are; Kev could be replaced by the instruct model with one prompt per passage
   with no measured loss.
 
