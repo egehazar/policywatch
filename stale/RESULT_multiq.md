@@ -70,3 +70,8 @@ predicted range (.66-.73), and its cost (1.79 s) is inside its range but above t
   model's log-odds give an equally good mark was not tested.
 - The servers were not set up the same way (Kev 4 slots, the instruct model 1), each as it had been run before; the
   plan fixed this in advance.
+
+## Erratum (2026-11-19)
+`stale/PLAN_multiq.md` line 3 says "Written 2026-11-18 ~22:45 UTC". That time is wrong: the plan was hashed at 11:01:18Z
+on 2026-11-18 and committed at 11:01 UTC (037a596), so it was written before then. The line is left as it is because the
+file is hashed. Found by an independent read of the repo (the policywatch defend sheet).

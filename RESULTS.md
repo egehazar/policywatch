@@ -14,7 +14,7 @@ The README has the summary. This file has every test, its reading and its number
     the text was fetched). A re-crawl would mark these points approved-not-found. ToS;DR announced in December 2023 that
     it would source document text from Open Terms Archive; nothing public says quotes are re-anchored or curators
     alerted. 10 of ToS;DR's documents hold 257 of the 656. A blind audit (an LLM rater) found 27 of 30 sampled contrib drops, and 8 of 10 on the
-    20 platforms, to be real edits. A daily watch (built, run twice so far, not scheduled) lists new ones: its
+    20 platforms, to be real edits. A daily watch (built, run by hand three times so far: 11-12, 11-15, 11-19; not scheduled) lists new ones: its
     2026-11-15 run found Pinterest's rewrite (effective 12 November, recorded by the archive on 14 November).
   - *What the model does.* For each stale point it suggests the passages of the current text where the case may be
     stated now, and a sentence to quote. On test points whose answer is the curator's own quote, Kev-4B ranks the

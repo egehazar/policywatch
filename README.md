@@ -12,14 +12,16 @@ suggests to a curator where each case is stated now. It runs on a desktop CPU wi
   - 679 points (on 87 services) lost their quote in an edit by the platform itself: 483 fully and 196 in part.
     39 of them are "date of the last update" points, whose quote is the date line.
   - For 656, ToS;DR's stored copy still holds the quote.
-  - A blind audit (an LLM rater) judged 27 of 30 sampled drops to be real edits.
+  - A blind audit (an LLM rater) judged 27 of 30 sampled drops on other services' documents (contrib), and 8 of 10
+    on the 20 platforms, to be real edits.
 - **Suggested.** Where is the case stated now?
   - Kev-4B, a 4B decision model, ranks the curator's own passage first 62-75% of the time in three pre-registered
     samples. BM25 and embedding search manage 30-43%.
   - Kev-4B is a LoRA adapter and a head on a frozen Qwen3.5-4B-Base. It returns p(yes) for many yes/no questions
     about one passage in one request.
 - **The control that changed the claim.**
-  - Kev's base model, prompted with the same yes/no question, did as well wherever it was run.
+  - Kev's base model family (Qwen3.5-4B, the instruct release; Kev's own base checkpoint was never run), prompted
+    with the same yes/no question, did as well wherever it was run.
   - The decision-model endpoint took 1.9-5.4x less time per question than the instruct model asked one question
     per request. Asked all of a passage's questions in one prompt, the instruct model took 1.79 s per question
     against Kev's 2.01 s, with no difference in accuracy (pre-registered, 2,043 questions). That is one run per arm

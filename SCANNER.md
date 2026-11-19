@@ -25,8 +25,8 @@ Two independent LLM raters (not humans) judged each question on the changed exce
    - a paragraph whose text is unchanged but whose link now points elsewhere (the linked document can carry
      obligations)
 6. **Report.** A static HTML site: one page per update, with word-level diffs, linked to the source commit.
-7. **Capture noise is labelled, not scored.** In 2026 so far, 267 of the archive's 835 recorded "changes" (32%) are
-   not edits.
+7. **Capture noise is labelled, not scored.** In 2026 so far, 267 of the archive's 835 recorded "changes" (32%) look
+   like capture noise rather than edits (an upper bound: see the recurrence note below).
    - Either the text returned to a recent version, a recurrence (TikTok's UK-ads banner flips on and off between
      captures), or the new capture was cut off part-way (Reddit's privacy policy, cut at a table about every other
      capture).
