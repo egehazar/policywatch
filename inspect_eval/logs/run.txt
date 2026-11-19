@@ -1,0 +1,11 @@
+[11/19/26 12:24:35] WARNING  Control server failed to start      server.py:1928
+                             (eval will run without control                    
+                             surface): module 'socket' has no                  
+                             attribute 'AF_UNIX'                               
+Running 1 tasks...
+---------------------------------------------------------                      
+relocation (40 samples): llama-cpp-python/qwen                                 
+max_connections: 1, max_tokens: 1, temperature: 0.0, logprobs: True,           
+top_logprobs: 20, extra_body: {...}, samples: A, first: 40, dataset: (samples) 
+---------------------------------------------------------                      
+                                                                               

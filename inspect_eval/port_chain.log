@@ -1,0 +1,16 @@
+port start 22:46:15 UTC
+STOPPED 2026-11-18T23:12:19Z by Claude: the owner is putting the PC to sleep; chain to be restarted (port check was at about 25 of its minutes; partial log inspect_eval/logs/2026-11-18T22-46-32-00-00_relocation_VDchn8w6kuQSZzXCrLCf5R.eval, not a result)
+RESTARTED 2026-11-19T09:24:14Z by Claude after the owner's sleep pause (from scratch)
+port start 09:24:25 UTC
+moved the interrupted 2026-11-18 22:46 partial log to inspect_eval/logs/interrupted/ 2026-11-19T09:27:07Z
+STOPPED 2026-11-19T09:56:17Z: Claude Code reaped the background tasks (system critically low on memory; the Qwen server held 12.7 GB, 4.2 GB of 32 GB free); Claude then killed the leftover processes by PID. Not restarted: waiting for the owner (port check had run 09:24-~09:50; partial log not a result)
+SWITCHED 2026-11-19T12:57:58Z: the queued 40-point waiter replaced by the 10-point one (inspect_eval/PLAN_port_check_addendum1.md)
+waiting for 14 GB free (now 13590 MB) 14:36:03
+SWITCHED 2026-11-19T14:39:01Z: the 14 GB waiter replaced by run_port10_after_mem18.sh (18 GB gate; at 14 GB the Qwen server's 12.7 GB peak would leave about 1.3 GB). Free memory now about 13.5 GB with the deployed Kev server (5.7 GB) up
+waiting for 18 GB free (now 13481 MB) 14:39:05
+waiting for 18 GB free (now 13226 MB) 14:49:05
+waiting for 18 GB free (now 13437 MB) 14:59:06
+waiting for 18 GB free (now 14306 MB) 15:09:07
+waiting for 18 GB free (now 15129 MB) 15:19:08
+waiting for 18 GB free (now 13680 MB) 15:29:09
+NOT RUN 2026-11-19T15:38:04Z: the 10-point port check is cancelled. After the r39 rounds (decision-serving/notes/r39_converged.md), the CPU goes to the 2-day archive test; Fable had judged the port check 'about 10 or none', changing no decision. The smoke point (27/27 identical) stands; no port-check result exists.
