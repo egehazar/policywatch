@@ -148,3 +148,15 @@ Written after both raters had labelled the 172 phase-1 cards (tally: 92 verified
 - **Limits.** Recall is only within updates whose changed passages use AI vocabulary. A grant worded without any of
   those words is outside both arms and this sample.
 - **Prediction (mine):** 3-8 verified in the sample (about 30-75 missed), keyword recall 55-75%.
+
+## Addendum 3, 2026-11-19 ~21:50 UTC: the row check is done by two AI reviewers, not by Ege
+Ege's decision: Ege will not read the rows ("It is probably best if we leave the review to fable and gpt"). So:
+- **No person has read any ledger row.** Every statement about this work says so; nothing claims a human check.
+- **The 55 rows** (verified grants still in the current text that some tracker lacks) are read by Fable 5.2 and by
+  GPT-6, separately.
+  - Neither reviewer is blind: each sees the service, the full before/after text and the tracker status.
+  - Each answers KEEP or STRIKE with a reason.
+  - Fable also re-checks each "tracker lacks it" claim on the tracker's own pages.
+- **A row goes into a tracker note only if** both reviewers keep it. A tracker claim is used only if Fable confirmed
+  it on the tracker's site.
+- The trackers' results and these reviews stay outside this repository until Ege has sent the notes.
