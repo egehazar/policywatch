@@ -13,3 +13,8 @@ p1_05 done (25)
 p1_06 ok 20:50
 p1_06 done (22)
 gpt rater p1 all done
+r_00 ok 20:54
+r_00 done (25)
+r_01 usage limit 20:55, waiting
+r_01 usage limit 21:15, waiting
+r_01 usage limit 21:35, waiting

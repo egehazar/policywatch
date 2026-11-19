@@ -1,4 +1,4 @@
-"""The AI-training clause ledger as files a person can read: Ege's review sheet, then the public CSV and page.
+"""NOT USED after PLAN_ledger addendum 1 (the public page was dropped; see notes.py). The AI-training clause ledger as files a person can read: Ege's review sheet, then the public CSV and page.
 
   py -m aiwatch.page review     -> aiwatch/out/ledger/REVIEW_for_Ege.md (old and new text of every row, KEEP/STRIKE)
   py -m aiwatch.page build      -> aiwatch/out/ledger/ai_training_clauses.csv and .html (rows Ege kept only)

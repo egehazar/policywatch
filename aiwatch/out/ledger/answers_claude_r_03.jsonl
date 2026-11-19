@@ -1,0 +1,25 @@
+{"card": "R484dca", "label": "WIDER", "scope": "GENERAL", "quote": "To assist each other, as service providers, in data processing operations, such as data hosting and maintenance, customer care, marketing and targeted advertising, analytics, machine learning development and implementation, finance and accounting, legal support, payment processing, service improvement, data security and fighting against spam, abuse, fraud and other wrongdoings."}
+{"card": "R07e3f6", "label": "NO", "scope": "-", "quote": "-"}
+{"card": "Rdb8dce", "label": "NO", "scope": "-", "quote": "-"}
+{"card": "R6469e4", "label": "NO", "scope": "-", "quote": "-"}
+{"card": "R47f35a", "label": "SAME", "scope": "-", "quote": "To provide, develop and improve [AI at Meta] for Meta Products and for third parties outside of the performance of our contract with you."}
+{"card": "R3170be", "label": "NO", "scope": "-", "quote": "-"}
+{"card": "R52ba9a", "label": "NO", "scope": "-", "quote": "Face data stays in your account, is processed on our own servers in Norway, and is not used to train AI models."}
+{"card": "Rbafc4b", "label": "NO", "scope": "-", "quote": "-"}
+{"card": "R8e1e1e", "label": "NO", "scope": "-", "quote": "-"}
+{"card": "R3e9a7c", "label": "SAME", "scope": "-", "quote": "To help train and allow employees, service providers, and systems to better serve you"}
+{"card": "R78605d", "label": "NO", "scope": "-", "quote": "-"}
+{"card": "R2ae9d9", "label": "NO", "scope": "-", "quote": "-"}
+{"card": "R4397e8", "label": "NO", "scope": "-", "quote": "We do not control, and are not responsible for, LLMs’ handling of your Inputs or Outputs, including for use in their model training."}
+{"card": "R7ff5a8", "label": "WIDER", "scope": "GENERAL", "quote": "You agree and instruct that we may use Amazon Q Content to develop and improve Amazon Q (Preview) and its underlying technologies, and for that purpose we may store Amazon Q Content in an AWS region outside of the AWS region where you are using Amazon Q (Preview)."}
+{"card": "R796040", "label": "SAME", "scope": "-", "quote": "As noted above, we may use Content you provide us to improve our Services, for example to train the models that power ChatGPT."}
+{"card": "R76e784", "label": "WIDER", "scope": "GENERAL", "quote": "You agree and instruct that for Amazon CodeGuru Profiler, Amazon Comprehend, Amazon Lex, Amazon Polly, Amazon Rekognition, Amazon Textract, Amazon Transcribe, Amazon Translate, AWS Transform, AWS FinOps Agent (Preview), Kiro Free Tier, and Kiro individual subscribers (as described [here]): (a) we may use and store AI Content that is processed by each of the foregoing AI Services to develop and improve the applicable AI Service and its underlying technologies; (b) we may use and store AI Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial-intelligence technologies; and (c) solely in connection with the development and improvement described in clauses (a) and (b), we may store such AI Content in an AWS region outside of the AWS region where you are using such AI Service."}
+{"card": "R233920", "label": "NO", "scope": "-", "quote": "-"}
+{"card": "R85b95b", "label": "NO", "scope": "-", "quote": "-"}
+{"card": "Raa398b", "label": "WIDER", "scope": "GENERAL", "quote": "You agree and instruct that: (a) we may use and store Amazon Connect Decisions Content to develop and improve Amazon Connect Decisions and its underlying technologies; (b) we may use and store Amazon Connect Decisions Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies; and (c) solely in connection with the development and improvement described in clauses (a) and (b), we may store such Amazon Connect Decisions Content in an AWS region outside the AWS region where you are using Amazon Connect Decisions."}
+{"card": "Rd25dbe", "label": "NO", "scope": "-", "quote": "-"}
+{"card": "R05de76", "label": "UNCLEAR", "scope": "-", "quote": "When we share personal data with Affiliates for the purposes of powering AI features on their services and when they share such personal data with us for powering AI features."}
+{"card": "R6f2d54", "label": "WIDER", "scope": "GENERAL", "quote": "(a) You agree and instruct that: (i) we may use and store Amazon Connect AI Content to develop and improve Amazon Connect and its underlying technologies; (ii) we may use and store Amazon Connect AI Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies; and (iii) solely in connection with the development and improvement described in clauses (i) and (ii), we may store your Amazon Connect AI Content in AWS regions outside the AWS regions where you are using Amazon Connect AI Features."}
+{"card": "Rf239cb", "label": "NO", "scope": "-", "quote": "-"}
+{"card": "R48a37b", "label": "NO", "scope": "-", "quote": "-"}
+{"card": "Re4e5b8", "label": "SAME", "scope": "-", "quote": "If you do not want us to use your Content to train our models, you have the option to opt out by updating your account settings."}
