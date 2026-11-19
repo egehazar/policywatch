@@ -1,0 +1,15 @@
+{
+ "agreement_mean_abs_dp_vs_v2_1_slot": 0.0031,
+ "flips_vs_v2_1_slot": 5,
+ "mean_abs_dp_vs_v2_4_slots": 0.0006,
+ "flips_vs_v2_4_slots": 0,
+ "questions": 2043,
+ "v4_1_slot_s_per_question": 2.122,
+ "v2_1_slot_s_per_question": 8.865,
+ "v2_4_slots_s_per_question": 2.011,
+ "S_speedup_v2_over_v4_1_slot": 4.18,
+ "multi_s_per_question_main_run": 1.785,
+ "R_multi_over_v4_1_slot": 0.841,
+ "patch_reading": "speedup on the real workload",
+ "reading": "edge gone"
+}

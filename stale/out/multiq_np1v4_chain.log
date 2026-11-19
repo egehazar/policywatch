@@ -1,0 +1,23 @@
+STOPPED 2026-11-18T23:12:19Z by Claude: the owner is putting the PC to sleep; chain to be restarted (it had not started)
+RESTARTED 2026-11-19T09:24:14Z by Claude after the owner's sleep pause
+STOPPED 2026-11-19T09:56:17Z: Claude Code reaped the background tasks (system critically low on memory; the Qwen server held 12.7 GB, 4.2 GB of 32 GB free); Claude then killed the leftover processes by PID. Not restarted: waiting for the owner
+np1v4 start 13:21:39 UTC
+np1v4 kev exit 0 at 14:34:01 UTC
+stopped 31132
+np1v4 result exit 0 at 14:34:04 UTC
+{
+ "agreement_mean_abs_dp_vs_v2_1_slot": 0.0031,
+ "flips_vs_v2_1_slot": 5,
+ "mean_abs_dp_vs_v2_4_slots": 0.0006,
+ "flips_vs_v2_4_slots": 0,
+ "questions": 2043,
+ "v4_1_slot_s_per_question": 2.122,
+ "v2_1_slot_s_per_question": 8.865,
+ "v2_4_slots_s_per_question": 2.011,
+ "S_speedup_v2_over_v4_1_slot": 4.18,
+ "multi_s_per_question_main_run": 1.785,
+ "R_multi_over_v4_1_slot": 0.841,
+ "patch_reading": "speedup on the real workload",
+ "reading": "edge gone"
+}
+np1v4 all done at 14:34:04 UTC

@@ -40,6 +40,14 @@ measured 8.87 and 0.20. The section below explains the cause.
   build and its checks were queued to start after the run ended.
 
 ## What follows
+**Update 2026-11-19:**
+- v3 failed its checks, so addendum 2 did not run.
+- A second fix, v4, passed its checks.
+- Addendum 3 re-timed Kev on one slot with v4: **2.12 s per question**, S 4.18, R 0.84, "edge gone"
+  (`stale/RESULT_multiq_addendum3.md`).
+
+The bullets below are as written on 2026-11-18.
+
 - **A fixed patch (v3)**, local branch `decision-checkpoints-v3` in decision-serving, keeps a checkpoint where a lone
   question begins, so the next question on the same passage starts from it. Its checks run on the small test model
   before anything else (`decision-serving/notes/PLAN_v3_one_slot.md`, pre-registered).
