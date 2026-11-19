@@ -1,0 +1,1267 @@
+Each card shows the BEFORE and AFTER text of one change to a company's terms of service or privacy policy (only the changed passages that mention AI or models, with a little context). Read both and answer one label:
+- NEW: the AFTER text lets the company (or partners it shares data with) use its users' content or personal data to train or improve AI / machine-learning models, and the BEFORE text did not.
+- WIDER: the BEFORE text already allowed that, and the AFTER text allows clearly more (more kinds of data, generative AI, new recipients, fewer limits, an opt-out removed).
+- SAME: both allow it to about the same extent (rewording, moving text, small clarifications).
+- NO: the AFTER text does not let the company train AI on users' data (for example: a promise not to train, a ban on users training AI on the service, AI features or third-party models mentioned without training on users' data, or training only on data that is not users' own, such as public web data).
+- UNCLEAR: the passages shown are not enough to tell.
+For NEW or WIDER, also give the scope of the training use:
+- THIRD: users' data is shared with other companies for THEM to train AI.
+- GENERAL: generative or general-purpose AI, or AI/ML models with no narrow purpose named.
+- NARROW: models for one named operational purpose only (ads, recommendations, fraud, safety, support, search).
+(If several apply, the first in this order.) For the other labels, scope is "-".
+Then quote the one AFTER sentence that decides it (or "-" for NO with nothing to quote).
+
+Answer as JSON lines: {"card": "<id>", "label": "<NEW|WIDER|SAME|NO|UNCLEAR>", "scope": "<THIRD|GENERAL|NARROW|->", "quote": "<sentence>"}
+
+=== CARD R484dca ===
+BEFORE:
+| --- | --- | --- |
+
+| To improve our service and create new features and services, including:<br><br>* Running focus groups, market studies and surveys<br>* Analyzing how our service is used<br>* Reviewing interactions with customer care teams to improve service quality<br>* Developing and improving new features and services, including through machine learning and other technologies, and testing them out<br>* Conducting research and publishing research papers | * Performance of our contract with you<br>* Our legitimate interest: It is in our legitimate interest to improve our service over time<br>* Consent where required under applicable law (e.g., we may process data deemed sensitive or special in certain countries to help make sure that the various communities using our service are being treated fairly and equitably and that our service remains diverse and inclusive) | * Account Data<br>* Profile Data<br>* Content<br>* Purchase Data<br>* Marketing, Survey and Research Data<br>* Third Party Data<br>* Customer Support Data<br>* Social Media Data<br>* Usage Data<br>* Technical Data |
+
+| To comply with applicable law, establish, exercise and defend legal claims & rights, including:<br><br>* Preserving data to comply – and evidence compliance – with applicable law<br>* Supporting investigations and defending potential or ongoing litigation, regulatory action or dispute<br>* Responding to lawful requests from law enforcement, courts, regulators, and other third parties<br>* Reporting illegal or infringing content to law enforcement, government or other authorities<br>* Establishing, exercising, or defending ongoing or threatened claims<br><br>* Sharing data with law enforcement or partners to combat abusive or illegal behavior | * Our legitimate interest: It is in our legitimate interest to comply with applicable law and protect ourselves, our members and others, including as part of investigations, legal proceedings and other disputes<br>* Protection of your vital interests and that of other members<br>* Compliance with legal obligations applying to us such as responding to law enforcement requests for information | The categories of data shared will vary based on the specific circumstances surrounding each obligation, compelling interest or dispute |
+
+AFTER:
+| --- | --- | --- |
+
+| To improve our service and create new features and services, including:<br><br>* Running focus groups, market studies and surveys<br>* Analyzing how our service is used<br>* Reviewing interactions with customer care teams to improve service quality<br>* Developing and improving new features and services, including through machine learning and other technologies, and testing them out<br><br>* Conducting research and publishing research papers | * Performance of our contract with you<br>* Our legitimate interest: It is in our legitimate interest to improve our service over time<br>* Consent where required under applicable law (e.g., we may process data deemed sensitive or special in certain countries to help make sure that the various communities using our service are being treated fairly and equitably and that our service remains diverse and inclusive) | * Account Data<br>* Profile Data<br>* Content<br>* Purchase Data<br>* Marketing, Survey and Research Data<br>* Third Party Data<br>* Customer Support Data<br>* Social Media Data<br>* Usage Data<br>* Technical Data<br>* Insights and Inferences |
+
+| To comply with applicable law, establish, exercise and defend legal claims & rights, including:<br><br>* Preserving data to comply – and evidence compliance – with applicable law<br>* Supporting investigations and defending potential or ongoing litigation, regulatory action or dispute<br>* Responding to lawful requests from law enforcement, courts, regulators, and other third parties<br>* Reporting illegal or infringing content to law enforcement, government or other authorities<br>* Establishing, exercising, or defending ongoing or threatened claims<br><br>* Sharing data with law enforcement or partners to combat abusive or illegal behavior | * Our legitimate interest: It is in our legitimate interest to comply with applicable law and protect ourselves, our members and others, including as part of investigations, legal proceedings and other disputes<br>* Protection of your vital interests and that of other members<br>* Compliance with legal obligations applying to us such as responding to law enforcement requests for information | The categories of data shared will vary based on the specific circumstances surrounding each obligation, compelling interest or dispute |
+
+BEFORE:
+Match is part of the [Match Group family of businesses].
+
+* Where and as allowed under applicable law, to better understand how people use Match Group services overall, to personalize your experience across Match Group services and to enhance marketing and advertising campaigns.
+
+AFTER:
+Match is part of the [Match Group family of businesses].
+
+* To assist each other, as service providers, in data processing operations, such as data hosting and maintenance, customer care, marketing and targeted advertising, analytics, machine learning development and implementation, finance and accounting, legal support, payment processing, service improvement, data security and fighting against spam, abuse, fraud and other wrongdoings.
+
+* Where and as allowed under applicable law, to better understand how people use Match Group services overall, to personalize your experience across Match Group services and to enhance marketing and advertising campaigns.
+
+BEFORE:
+1. To protect the safety and security of our members, we implement a safety retention window of three months following account closure. During this period, we keep your data to investigate unlawful or harmful conducts. The retention of data during this safety retention window is based on our legitimate interest as well as that of potential third-party victims.
+
+### 10\. Children’s Privacy
+
+AFTER:
+1. To protect the safety and security of our members, we implement a safety retention window of three months following account closure. During this period, we keep your data to investigate unlawful or harmful conducts. The retention of data during this safety retention window is based on our legitimate interest as well as that of potential third-party victims.
+
+Where appropriate and as legally permitted, we may maintain and use data that, by itself, cannot identify or be attributed specifically to you for the purposes described in this Privacy Policy, including to improve our service and create new features, technologies and services, including through machine learning, and keep Match Group services safe.
+
+### 10\. Children’s Privacy
+
+=== CARD R07e3f6 ===
+BEFORE:
+(f) Use the Services in a way that violates this License Agreement or the other Terms.
+
+11.4 You may not make the Services available to the public. The Services made available (in whole or in part) are owned by Speechify or its licensors and your use of them must be in accordance with these Terms.
+
+AFTER:
+(f) Use the Services in a way that violates this License Agreement or the other Terms.
+
+(g) You agree not to engage in unacceptable use of the Services, which includes, without limitation, use of the Services to: (i) disseminate or transmit unauthorized advertisements, promotional materials, junk mail, spam, or any other form of solicitation, (ii) gather or collect personal data, including email addresses, of other users of the Services without their express consent, (iii) carry out any unlawful, invasive, infringing, defamatory, or fraudulent activity, (iv) distribute viruses, trojans, or other harmful computer code, (v) circumnavigate or aid others in circumnavigating restrictions put in place to access premium services without payment, (vi) upload, post, or otherwise transmit content that harasses, threatens, or harms individuals or groups, (vii) use the Service to create deceptive or misleading voice clones without the explicit consent of the individual whose voice is being replicated, (viii) publish or share content that incites violence or promotes hate based on race, ethnicity, religion, gender, sexual orientation, disability, or any other characteristic, (ix) engage in any activity that is harmful or disruptive, including, but not limited to, content that violates laws or regulations, invades others’ privacy, infringes on Intellectual Property Rights, or promotes illegal activities, (x) use our services in any manner that is neither intended nor authorized, including but not limited to directly calling any of our servers endpoints; you agree that any such actions constitutes unauthorized access pursuant to the Computer Fraud & Abuse Act and that all use of our services by you must happen through genuine human interactions of our front-facing clients; notwithstanding the foregoing, using a billable bona-fide API key is permitted to AI Voice API users pursuant to the supplementary AI Voice API terms and conditions available at [https://speechify.com/terms-ai-voice-api/] and referenced herein as a supplement to these Terms applicable for users of the AI Voice API service, (xi) use the Services to infringe the intellectual property rights of others; any unauthorized use of copyrighted material or trademarks through the Services, including attempts to replicate or distribute such materials without permission, will result in immediate termination of your account and legal action, or (xii) circumvent or attempt to circumvent any digital rights management or other content and software protection systems used on or with the Services. Consequences of unacceptable use include immediate account termination and legal action.
+
+11.4 You may not make the Services available to the public. The Services made available (in whole or in part) are owned by Speechify or its licensors and your use of them must be in accordance with these Terms.
+
+BEFORE:
+(iii) Any use of websites linked to the Services but operated by third parties.
+
+PLEASE READ THE FOLLOWING PARAGRAPHS CAREFULLY, AS THEY REQUIRE YOU TO ARBITRATE DISPUTES WITH SPEECHIFY, AND LIMIT THE MANNER IN WHICH YOU CAN SEEK RELIEF FROM SPEECHIFY.
+
+AFTER:
+(iii) Any use of websites linked to the Services but operated by third parties.
+
+**Financial Hardship Considerations:** – Participants claiming financial travel hardship may provide evidence of their financial status and their legal name, date of birth, and home address for travel booking. Speechify will consider subsidizing travel costs for eligible participants. This may include booking air or bus travel to Miami-Dade. You accept that applying for subsidy may delay the agreed settlement conference date in order to enable Speechify to secure cost-effective travel arrangements for you with an advanced enough purchase of tickets by air, train, or bus. Speechify will book travel directly on your behalf for a day trip to the conference. Speechify may consider offering you temporary one-night housing at its sole discretion and on a case-by-case basis. Travel accommodation is not guaranteed.
+
+Exceptions to Pre-Litigation are outlined in Section 13.13 Expedited Dispute Resolution for Urgent Bona Fide User Claims. Additionally, this section does not require informal dispute resolution or arbitration of the claims seeking any relief or remedy measures against unauthorized use or abuse of the Services or intellectual property infringement or misappropriation of Speechify’s intellectual property, AI models, trademarks, patents, or copyright.
+
+PLEASE READ THE FOLLOWING PARAGRAPHS CAREFULLY, AS THEY REQUIRE YOU TO ARBITRATE DISPUTES WITH SPEECHIFY, AND LIMIT THE MANNER IN WHICH YOU CAN SEEK RELIEF FROM SPEECHIFY.
+
+=== CARD Rdb8dce ===
+BEFORE:
+reCAPTCHA makes it possible to differentiate between inputs of human origin and those that are carried out improperly by a bot. Certain device and application data will be transmitted to Google’s servers in order to determine whether actions on our App really come from humans. Google may also use this data to improve the reCAPTCHA service. This data may include: URLs; user IP address; Google account information if the user is logged in to their Google account at the same time; browser information, including browser type, browser size, browser resolution, browser plug-ins, language settings and date; mouse and touch events within the page; and information collected from cookies. This processing is based on our predominant legitimate interests in protecting our App from abusive bots.
+
+**Purposes of Processing.** Your personal data will be processed under joint control as necessary for purposes of providing the following functionalities related to Live: enable participation in the chat related to Live to communicate with other users; enable participation in live streams via Live; moderation of the use of live streams; supporting (e.g., training) users with respect to becoming live streamers via Live; and management of virtual gifts in the context of live streams. This processing only takes place if you are using Live.
+
+4\. WHAT OTHERS MAY SEE ABOUT YOU
+
+AFTER:
+reCAPTCHA makes it possible to differentiate between inputs of human origin and those that are carried out improperly by a bot. Certain device and application data will be transmitted to Google’s servers in order to determine whether actions on our App really come from humans. Google may also use this data to improve the reCAPTCHA service. This data may include: URLs; user IP address; Google account information if the user is logged in to their Google account at the same time; browser information, including browser type, browser size, browser resolution, browser plug-ins, language settings and date; mouse and touch events within the page; and information collected from cookies. This processing is based on our predominant legitimate interests in protecting our App from abusive bots.
+
+4\. WHAT OTHERS MAY SEE ABOUT YOU
+
+=== CARD R6469e4 ===
+BEFORE:
+[Leadership][Investors][Careers][Trust Center][Privacy Choices]
+
+© 2026 Fireworks AI, Inc. All rights reserved.
+
+[][][][]
+
+AFTER:
+[Leadership][Investors][Careers][Trust Center][Privacy Choices]
+
+© 2026 Fireworks AI, Inc. All rights reserved.[Security bulletins]
+
+[][][][]
+
+=== CARD R47f35a ===
+BEFORE:
+- - -
+
+AFTER:
+Meta’s [responsible innovation principles] serve as the foundation for all our work. These principles are specifically crafted to protect people’s privacy so they feel empowered to explore, connect and engage with our products.Meta does not train its AI models on Llama API Customer Content or Customer Data.
+
+* •Customer Content comprises both the inputs you submit to the model (prompts) and the outputs you receive based on your inputs (model responses).
+
+All data transmitted between Llama API and backend servers is encrypted with the industry-standard TLS 1.2 and TLS 1.3 protocols.Meta encrypts Customer Content and specific Customer Data when it is stored at rest, except in limited circumstances as described below. We encrypt your data at rest before it is persisted in storage. Specifically, this data is encrypted at rest using strong symmetric encryption algorithms such as ChaCha20-Poly1305 (XChaPoly) and AES-GCM.All Customer Content–see examples below–is encrypted when it’s stored at rest, except when required to comply with legal obligations. Examples:
+
+- - -
+
+BEFORE:
+Here are some of the ways we use your information:
+
+* We personalize your experience, like by suggesting reels to watch, communities to join, or providing more relevant responses from [AI at Meta]
+
+* We improve our Products by applying information about what you use them to do, and what else is happening on your device when our app crashes
+
+AFTER:
+Here are some of the ways we use your information:
+
+* We personalize your experience, like by suggesting reels to watch, communities to join or providing more relevant responses from [AI at Meta]
+
+* We improve our Products by applying information about what you use them to do, and what else is happening on your device when our app crashes
+
+BEFORE:
+* Seeing if our Products are working correctly, such as troubleshooting, and fixing it when it’s not working
+
+* Personalizing features, content and [recommendations], such as your [Facebook Feed], [Instagram Feed], [AI at Meta], Stories and ads.
+
+We use [information with special protections] you choose to provide for these purposes, but not to show you ads.
+
+AFTER:
+* Seeing if our Products are working correctly, such as troubleshooting, and fixing it when it’s not working
+
+* Personalizing features, content and [recommendations], such as your [Facebook Feed], [Instagram Feed], [AI at Meta], Stories and ads (if we show you ads).
+
+We use [information with special protections] you choose to provide for these purposes, but not to show you ads.
+
+BEFORE:
+Read more about how we use information to provide, personalize and improve our Products:
+
+* Interactions with [AI at Meta]
+
+[See some examples.\[30\]]
+
+AFTER:
+Read more about how we use information to provide, personalize and improve our Products:
+
+[See some examples.\[30\]]
+
+BEFORE:
+When you comment on a post or react to a photo, your comment or reaction can be seen by anyone who can see the post or photo. This can include people you aren’t connected to. The person who shared the post can also change their audience at any time after you’ve interacted with it.
+
+When others interact with [AI at Meta], they can share information about you, including [messages and content you have shared\[45\]].
+
+People who use our Products can share information about you with the audience they choose. For example, they can:
+
+AFTER:
+When you comment on a post or react to a photo, your comment or reaction can be seen by anyone who can see the post or photo. This can include people you aren’t connected to. The person who shared the post can also change their audience at any time after you’ve interacted with it.
+
+When others interact with [AI at Meta], they can share information about you, including [messages and content you have shared\[44\]].
+
+People who use our Products can share information about you with the audience they choose. For example, they can:
+
+BEFORE:
+* You also can delete your account or specific account information, if you want to
+
+To exercise your rights, visit our Help Centers, your settings for Facebook and Instagram and your device-based settings.
+
+AFTER:
+* You also can delete your account or specific account information, if you want to
+
+We process your information that’s necessary to fulfil our contracts with you. This means providing the services laid out in the [Meta Terms of Service], the [Instagram Terms of Use], the [Supplemental Meta Platforms Technologies Terms of Service], the [Supplemental Portal Terms of Service], the [Meta AI Terms of Service] and the [Supplemental Facebook View Terms of Service], together, the “terms.”
+
+To exercise your rights, visit our Help Centers, your settings for Facebook and Instagram and your device-based settings.
+
+BEFORE:
+**Why and how we process your information:**
+
+* Personalize features and content (such as your [Facebook Feed], [Instagram Feed], [AI at Meta] and Stories);
+
+[Learn more] about how we choose the ads that you see.
+
+AFTER:
+**Why and how we process your information:**
+
+[Learn more] about how we choose the ads that you see.
+
+BEFORE:
+* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features
+
+* Interactions with AI at Meta and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Types of content you view or interact with, and how you interact with it
+
+AFTER:
+* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Types of content you view or interact with, and how you interact with it
+
+BEFORE:
+[App, browser and device information]:
+
+* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)
+
+AFTER:
+[App, browser and device information]:
+
+For all people who have the legal capacity to enter into an enforceable contract (for example, by being the age of majority or above in their country of residence), we process information as necessary to conclude and perform our contracts with you (the [Meta Terms] and [Instagram Terms], the [Supplemental Meta Platforms Technologies Terms of Service], the [Supplemental Portal Terms of Service], the [Meta AI Terms of Service] and the [Supplemental Meta View Terms of Service], together, the “terms"). The purposes for which we process information for our contracts, the categories of information we use and how information is processed are set out below:
+
+* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)
+
+BEFORE:
+* Provide messaging services, the ability to make voice and video calls and connect with others,
+
+* Understand and enable creation of content like text, audio, images and videos, including through [AI at Meta],
+
+* Undertake analytics,
+
+AFTER:
+* Provide messaging services, the ability to make voice and video calls and connect with others,
+
+* Provide and curate [AI at Meta] in our Products, enabling the creation of content like text, audio, images and videos, including by understanding and recognising your use of content in the features,
+
+* Undertake analytics,
+
+BEFORE:
+* Information from cookies and similar technologies
+
+Developing and improving AI at Meta
+
+Develop and improve [AI at Meta] for Meta Products and for third parties.
+
+* Interactions with AI at Meta and related metadata. For example, information you or others exchange with AI at Meta like content and messages.
+
+[Information from partners, vendors and third parties]
+
+AFTER:
+* Information from cookies and similar technologies
+
+[Information from partners, vendors and third parties]
+
+BEFORE:
+**Why and how we process your information:**
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+AFTER:
+**Why and how we process your information:**
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+BEFORE:
+**Why and how we process your information:**
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+AFTER:
+**Why and how we process your information:**
+
+* Provide and curate [AI at Meta] in our Products, enabling the creation of content like text, audio, images and videos, including by understanding and recognising your use of content in the features
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+BEFORE:
+[Your activity and information you provide]:
+
+[Information from partners, vendors and third parties]
+
+AFTER:
+[Your activity and information you provide]:
+
+* Interactions with AI at Meta and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+[Information from partners, vendors and third parties]
+
+BEFORE:
+[Your activity and information you provide]:
+
+**Why and how we process your information:**
+
+AFTER:
+[Your activity and information you provide]:
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+**Why and how we process your information:**
+
+BEFORE:
+Our systems automatically, as well as with some manual (human) processing, process information we have collected and stored about you and others. We use this information to:
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+AFTER:
+Our systems automatically, as well as with some manual (human) processing, process information we have collected and stored about you and others. We use this information to:
+
+* In the interests of developers and other partners to help them understand their customers and improve their businesses, validate our pricing models and evaluate the effectiveness of their products, services, online content on and off the Meta Company Products.
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+BEFORE:
+* Location-related information
+
+* Information about the network you connect your device to, including your IP address
+
+AFTER:
+* Location-related information
+
+* In the interests of advertisers, developers and other partners to help them understand their customers and improve their businesses, validate our pricing models and evaluate the effectiveness of their products, services, online content and advertising on and off the Meta Company Products.
+
+Developing and improving AI at Meta
+
+Develop and improve [AI at Meta] for Meta Products and for third parties.
+
+* In our interest, and in the interests of users and third parties to create, provide, support, improve and maintain artificial intelligence technology that enables people, businesses and others to express themselves, communicate, and discover and engage with information they’re interested in.
+
+* In our interest, and in the interests of third parties and the public at large to offer artificial intelligence technology to third parties, including developers and researchers.
+
+* In our interest, and in the interests of users and third parties to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy.
+
+* Interactions with AI at Meta and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Information about the network you connect your device to, including your IP address
+
+BEFORE:
+[Your activity and information you provide]:
+
+* Content you create, like posts, comments or audio
+
+AFTER:
+[Your activity and information you provide]:
+
+* We support research in areas like artificial intelligence and machine learning.
+
+* Content you create, like posts, comments or audio
+
+BEFORE:
+**Why and how we process your information:**
+
+* We support research in areas like artificial intelligence and machine learning.
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+AFTER:
+**Why and how we process your information:**
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+BEFORE:
+* Location-related information
+
+* Information about the network you connect your device to, including your IP address
+
+AFTER:
+* Location-related information
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Information about the network you connect your device to, including your IP address
+
+BEFORE:
+**Why and how we process your information:**
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+AFTER:
+**Why and how we process your information:**
+
+Developing and improving AI at Meta
+
+Develop and improve [AI at Meta] for Meta Products and for third parties.
+
+* In our interest, and in the interests of users and third parties to create, provide, support, improve and maintain artificial intelligence technology that enables people, businesses and others to express themselves, communicate, and discover and engage with information they’re interested in.
+
+* In our interest, and in the interests of third parties and the public at large to offer artificial intelligence technology to third parties, including developers and researchers.
+
+* In our interest, and in the interests of users and third parties to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy.
+
+* Interactions with AI at Meta and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* We support research in areas like artificial intelligence and machine learning.
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+Providing, developing and improving AI at Meta
+
+To provide, develop and improve [AI at Meta] for Meta Products and for third parties outside of the performance of our contract with you.
+
+* In our interests, and in the interests of users and third parties to create, provide, support, improve and maintain artificial intelligence technology that enables people, businesses and others to express themselves, communicate, and discover and engage with information they’re interested in.
+
+* In our interests, and in the interests of third parties and the public at large to offer artificial intelligence technology to third parties, including developers and researchers.
+
+* In our interests, and in the interests of users and third parties to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy.
+
+* Interactions with AI at Meta and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+=== CARD R3170be ===
+BEFORE:
+[][][][]
+
+© Stability AI Ltd, 2025
+
+AFTER:
+[][][][]
+
+© Stability AI Ltd, 2026
+
+=== CARD R52ba9a ===
+BEFORE:
+**People (face grouping)**
+
+_Face data stays in your account, is processed on our own servers in Norway, and is not used to train AI models. If you turn People off, all face data is deleted within 24 hours. We rely on legitimate interests (GDPR Art. 6(1)(f)) for this processing.[Read more about how People works, what is stored, your rights and what to do if you appear in someone else’s photos.]_
+
+\---
+
+AFTER:
+**People (face grouping)**
+
+Face data stays in your account, is processed on our own servers in Norway, and is not used to train AI models. If you turn People off, all face data is deleted within 24 hours. We rely on legitimate interests (GDPR Art. 6(1)(f)) for this processing.[Read more about how People works, what is stored, your rights and what to do if you appear in someone else’s photos.]
+
+\---
+
+=== CARD Rbafc4b ===
+BEFORE:
+### Develop, improve and update Google services
+
+We’re constantly developing new technologies and features to improve our services. For example, we use artificial intelligence and machine learning to provide you with simultaneous translations and to better detect and block spam and malware.
+
+What we expect from you
+
+AFTER:
+### Develop, improve and update Google services
+
+We're constantly developing new technologies and features to improve our services. For example, we use artificial intelligence and machine learning to provide you with simultaneous translations, and to better detect and block spam and malware. As part of this continual improvement, we sometimes add or remove features and functionalities, increase or decrease limits to our services, and start offering new services or stop offering old ones. When a service requires or includes downloadable or preloaded software, that software sometimes updates automatically on your device once a new version or feature is available. Some services let you adjust your automatic update settings.
+
+What we expect from you
+
+BEFORE:
+If we materially change these terms or [service-specific additional terms], we'll provide you with reasonable advance notice and the opportunity to review the changes, except (1) when we launch a new service or feature, or (2) in urgent situations, such as preventing ongoing abuse or responding to legal requirements. If you don't agree to the new terms, you should remove [your content] and stop using the services. You can also end your relationship with us at any time by [closing your Google Account].
+
+If you're an EEA-based [consumer], then EEA consumer law gives you the right to withdraw from this contract as described in the _EU's Model Instructions on Withdrawal_, provided below.
+
+To exercise the right of withdrawal, you must inform us of your decision to withdraw from this contract by an unequivocal statement (e.g. a letter sent by post or email). You can contact us by email at [account-withdrawal@google.com]; by phone [+353 1 533 9837] (see below for [country-specific telephone numbers]); or by writing to us at Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. You may use the attached model withdrawal form, but it is not obligatory. You can also exercise your right of withdrawal online at [g.co/EEAWithdrawalForm]. If you use this online feature, we will send you an acknowledgement of receipt of the withdrawal on a durable medium (for example, by email), including its content and the date and time of its submission, without undue delay.
+
+### Model withdrawal form
+
+Definitions
+
+AFTER:
+If we materially change these terms or [service-specific additional terms], we'll provide you with reasonable advance notice and the opportunity to review the changes, except (1) when we launch a new service or feature, or (2) in urgent situations, such as preventing ongoing abuse or responding to legal requirements. If you don't agree to the new terms, you should remove [your content] and stop using the services. You can also end your relationship with us at any time by [closing your Google Account].
+
+Definitions
+
+=== CARD R8e1e1e ===
+BEFORE:
+* in which case, the content will be retained for no longer than is necessary for the purposes for which it has been retained (the exact duration will vary on a case-by-case basis).
+
+* If any aspect of this agreement is unenforceable, the rest will remain in effect.
+
+AFTER:
+* in which case, the content will be retained for no longer than is necessary for the purposes for which it has been retained (the exact duration will vary on a case-by-case basis).
+
+* Your use of music on the Service is also subject to our Music Guidelines, and your use of our API is subject to our Meta Platform Terms and Developer Policies. If you use certain other features or related services, you will be provided with an opportunity to agree to additional terms that will also become a part of our agreement. For example, if you use payment features, you will be asked to agree to the Community Payment Terms. If you use Avatars, then the Avatar Terms also apply. If you use our AI products and features, the Meta AI Terms also apply. If you have a subscription for no ads, then the No Ads Terms also apply. If any of those terms conflict with this agreement, those other terms will govern.
+
+* If any aspect of this agreement is unenforceable, the rest will remain in effect.
+
+=== CARD R3e9a7c ===
+BEFORE:
+| Location obtained from system applications on your mobile devices | * To assist with locating you in an emergency <br>* To help improve location accuracy in our services and apps<br>* To provide you with mobile application updates |
+
+| Information from your calls and chats with our service and support representatives | * To help train employees and support resources and systems to better serve you<br>* To provide customized technical support<br>* To assist you with device settings<br>* To help personalize your experience and our marketing to you |
+
+| Employment and grant applications and surveys | * For the purpose for which you provide it, or as described at the time when you submitted the information. |
+
+AFTER:
+| Location obtained from system applications on your mobile devices | * To assist with locating you in an emergency <br>* To help improve location accuracy in our services and apps<br>* To provide you with mobile application updates |
+
+| Information, including recordings, from your calls and chats with our service and support representatives | * To help train and allow employees, service providers, and systems to better serve you<br>* To secure your account<br>* To provide customized technical support<br>* To assist you with device settings<br>* To help personalize your experience and our marketing to you |
+
+| Employment and grant applications and surveys | * For the purpose for which you provide it, or as described at the time when you submitted the information. |
+
+BEFORE:
+Additional uses:
+
+* To help train employees and support resources and systems to better serve you
+
+* To provide customized technical support
+
+AFTER:
+Additional uses:
+
+* To help train and allow employees, service providers, and systems to better serve you
+
+* To provide customized technical support
+
+=== CARD R78605d ===
+BEFORE:
+* protect our Users and third parties from harm.
+
+### Moderation Practices
+
+AFTER:
+* protect our Users and third parties from harm.
+
+### Our Matching Algorithms
+
+We have developed matching algorithms to predict your compatibility with other users and so we can show you people we think are a good match for you. Our matching algorithms use the following data about you to predict your compatibility with others and generate profile recommendations: the things you tell us about yourself in your profile; information about your activity in our apps; whether you are a photo verified user; and your device coordinates, which are necessary to understand your proximity to other members. The legal basis for processing profile and proximity information is that this is necessary for the provision of our contractual services to you pursuant to Article 6(1)(b) GDPR. Where we process information about your app activity, this is based on our legitimate interests pursuant to Article 6(1)(f) GDPR, and specifically our legitimate interest in generating more personalised and relevant recommendations for who you can match with in our App. If you have chosen to include sensitive information in your profile, such as information about your beliefs, the processing of this information is based on your voluntary and explicit consent.
+
+### Moderation Practices
+
+=== CARD R2ae9d9 ===
+BEFORE:
+4.2 _Other Suspension._ Notwithstanding Section 4.1 (AUP Violations), Google may immediately Suspend all or part of Customer's use of the Services if (a) Google reasonably believes Suspension is needed to protect the Services, Google’s infrastructure supporting the Services, or any other customer of the Services (or their end users); (b) there is suspected unauthorized third-party access to the Services; (c) Google reasonably believes that immediate Suspension is required to comply with any applicable law; or (d) Customer is in breach of Section 3.3 (Restrictions) or the Service Specific Terms. Google will lift any such Suspension when the circumstances giving rise to the Suspension have been resolved. At Customer's request, Google will, unless prohibited by applicable law, notify Customer of the basis for the Suspension as soon as is reasonably possible.
+
+4.3 _Generative AI Safety and Abuse_. Google uses automated safety tools to detect abuse of Generative AI Services. Notwithstanding the “Handling of Prompts and Generated Output” section in the Service Specific Terms, if these tools detect potential abuse or violations of Google’s [AUP] or [Prohibited Use Policy], Google may log Customer prompts solely for the purpose of reviewing and determining whether a violation has occurred. See the [Responsible AI] documentation page for more information about how logging prompts impacts your use of the Services.
+
+**5. Intellectual Property Rights; Protection of Customer Data; Feedback.**
+
+AFTER:
+4.2 _Other Suspension._ Notwithstanding Section 4.1 (AUP Violations), Google may immediately Suspend all or part of Customer's use of the Services if (a) Google reasonably believes Suspension is needed to protect the Services, Google’s infrastructure supporting the Services, or any other customer of the Services (or their end users); (b) there is suspected unauthorized third-party access to the Services; (c) Google reasonably believes that immediate Suspension is required to comply with any applicable law; or (d) Customer is in breach of Section 3.3 (Restrictions) or the Service Specific Terms. Google will lift any such Suspension when the circumstances giving rise to the Suspension have been resolved. At Customer's request, Google will, unless prohibited by applicable law, notify Customer of the basis for the Suspension as soon as is reasonably possible.
+
+**5. Intellectual Property Rights; Protection of Customer Data; Feedback.**
+
+=== CARD R4397e8 ===
+BEFORE:
+==============
+
+------------------------
+
+AFTER:
+==============
+
+* Access the website located at https://openrouter.ai/ and all corresponding webpages and websites that link to this Privacy Policy (the “**Site**”);
+
+We collect personal data when you use our Site and our Service. Personal data is any information that relates to you, identifies you personally or could be used to identify you including, but not limited to: your name, mailing address, email address, and telephone number. Any text or data you input into the Service (“**Inputs**”) that include personal data will also be collected by us. We do not control, and are not responsible for, LLMs’ handling of your Inputs or Outputs, including for use in their model training. To understand how your Inputs are used by AI models, check the terms of the providers [here].
+
+------------------------
+
+BEFORE:
+------------------------
+
+We collect and store personal identification information you choose to share with us, such as your email address or wallet address. We also collect information related to your use of our Services, such as the web application URL associated with model requests.
+
+AI model providers generally store prompt data transiently or not at all, but a few provide lower pricing if they can collect prompts anonymously. To see the data policy of a given model provider, please visit it on the [models] page.
+
+AFTER:
+------------------------
+
+We strive to provide you with choices regarding the personal data you provide to us. If you do not wish to have your email address or other contact information used by us to promote our Service, you can opt-out by sending an email stating your request to support@openrouter.ai. You may also choose to stop receiving our promotional or marketing communications by following the “unsubscribe” instructions included in these messages. This opt out does not apply to information provided by us as a result of your participation in our product release, product service experience or other transactions. Please note that "opt-out" and "unsubscribe" requests may not take effect immediately and may take a reasonable amount of time to receive, process and apply, during which time your information shall remain subject to the prior privacy settings. Additionally, you should be aware that any information provided to third parties prior to your election to opt-out or unsubscribe will not be retrieved or rescinded, unless required by applicable law.
+
+We are committed to ensuring that your personal data is kept accurate and up to date. However, it is up to you to update it with any changes. You can review and change your personal data by logging into the Site and visiting your account profile page. You may also send us an email at support@openrouter.ai to request access to, or to correct any personal data that you have provided to us. We may not accommodate a request to change information if we believe the change would violate any law or legal requirement or cause the information to be incorrect.
+
+If you no longer wish to use our Service, or no longer wish to have your personal data be processed, you may request to delete your account and the information in your account, subject to certain limitations, by emailing us at privacy@openrouter.ai. Once you submit your request, we will send an email to the email address linked to your account requesting that you confirm your deletion request. Once you confirm your request to delete your account and data, your account will no longer be accessible while we process your request. Once you confirm your request, this process cannot be canceled, undone, withdrawn, or reversed. When your account is deleted, all associated personal data is deleted, unless we are required to maintain it for regulatory and compliance purposes or for a legal or business necessity.
+
+To exercise your rights, you or your authorized agent may submit a request by email at [privacy@openrouter.ai]. We may first request additional information to verify your identity before processing your request.
+
+=== CARD R7ff5a8 ===
+BEFORE:
+**40.2.** Amazon QuickSight may use Your Content that you select as a data source for Amazon QuickSight to make personalized recommendations to you, such as suggested visualizations based on your query history and suggested insights.
+
+**40.3. Amazon QuickSight Machine Learning Services**. “Amazon QuickSight ML Services” means Amazon QuickSight Q. “Amazon QuickSight ML Content” means Your Content that is processed by an Amazon QuickSight ML Service. The following terms apply to your use of Amazon QuickSight ML Services:
+
+(a) You agree and instruct that: (i) we may use and store Amazon QuickSight ML Content to develop and improve Amazon QuickSight ML Services and their underlying technologies; (ii) we may use and store Amazon Quicksight ML Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies; and (iii) solely in connection with the development and improvement described in clauses (i) and (ii), we may store your Amazon QuickSight ML Content in AWS regions outside the AWS regions where you are using Amazon QuickSight ML Services. You may instruct AWS not to use and store Amazon QuickSight ML Content processed by Amazon QuickSight to develop and improve that Service or technologies of AWS or its affiliates by configuring an AI services opt out policy using AWS Organizations.
+
+**40.4. QuickSight Readers**. Readers (as defined in the QuickSight documentation) that are used for automatically or programmatically refreshing dashboards for near real-time use cases must choose capacity pricing. For readers under user pricing, each reader is limited to manual use by one individual only.
+
+AFTER:
+**40.2.** Amazon QuickSight may use Your Content that you select as a data source for Amazon QuickSight to make personalized recommendations to you, such as suggested visualizations based on your query history and suggested insights.
+
+**40.3. Amazon QuickSight Machine Learning Services**. Section 50 below applies to Amazon Q in QuickSight (formerly known as Amazon QuickSight Q).
+
+**40.4. QuickSight Readers**. Readers (as defined in the QuickSight documentation) that are used for automatically or programmatically refreshing dashboards for near real-time use cases must choose capacity pricing. For readers under user pricing, each reader is limited to manual use by one individual only.
+
+BEFORE:
+**50.2.** The output that you generate using AI Services is Your Content. Due to the nature of machine learning, output may not be unique across customers and the Services may generate the same or similar results across customers.
+
+**50.3.** You agree and instruct that for Amazon CodeGuru Profiler, Amazon CodeWhisperer Individual (including Amazon Q (Preview) in IDE via CodeWhisperer Individual), Amazon Comprehend, Amazon Lex, Amazon Polly, Amazon Rekognition, Amazon Textract, Amazon Transcribe, and Amazon Translate: (a) we may use and store AI Content that is processed by each of the foregoing AI Services to develop and improve the applicable AI Service and its underlying technologies; (b) we may use and store AI Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial-intelligence technologies; and (c) solely in connection with the development and improvement described in clauses (a) and (b), we may store such AI Content in an AWS region outside of the AWS region where you are using such AI Service. This Section does not apply to Amazon CodeWhisperer Professional (including Amazon Q (Preview) in IDE via CodeWhisperer Professional), Amazon Comprehend Medical, Amazon Transcribe Medical, AWS HealthScribe, Amazon Comprehend Detect PII or any AI Service that is not listed in the first sentence of this Section 50.3. You may instruct AWS not to use and store AI Content processed by an AI Service to develop and improve that Service or technologies of AWS or its affiliates by configuring an AI services opt out policy using AWS Organizations. For access to AI Services via AWS Builder ID, you may instruct AWS to refrain from using and storing AI Content processed by an AI Service to develop and improve that Service or technologies of AWS or its affiliates by using the opt-out mechanism indicated in the applicable service documentation.
+
+[... cut ...]
+
+AFTER:
+**50.2.** The output that you generate using AI Services is Your Content. Due to the nature of machine learning, output may not be unique across customers and the Services may generate the same or similar results across customers.
+
+**50.3.** You agree and instruct that for Amazon CodeGuru Profiler, Amazon CodeWhisperer Individual, Amazon Comprehend, Amazon Lex, Amazon Polly, Amazon Rekognition, Amazon Textract, Amazon Transcribe, and Amazon Translate: (a) we may use and store AI Content that is processed by each of the foregoing AI Services to develop and improve the applicable AI Service and its underlying technologies; (b) we may use and store AI Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial-intelligence technologies; and (c) solely in connection with the development and improvement described in clauses (a) and (b), we may store such AI Content in an AWS region outside of the AWS region where you are using such AI Service. This Section does not apply to Amazon CodeWhisperer Professional, Amazon Comprehend Medical, Amazon Transcribe Medical, AWS HealthScribe, Amazon Comprehend Detect PII or any AI Service that is not listed in the first sentence of this Section 50.3. You may instruct AWS not to use and store AI Content processed by an AI Service to develop and improve that Service or technologies of AWS or its affiliates by configuring an AI services opt out policy using AWS Organizations. For access to AI Services via AWS Builder ID, you may instruct AWS to refrain from using and storing AI Content processed by an AI Service to develop and improve that Service or technologies of AWS or its affiliates by using the opt-out mechanism indicated in the applicable service documentation.
+
+**50.4.** You are responsible for providing legally adequate privacy notices to End Users of your products or services that use any AI Service and obtaining any necessary consent from such End Users for the processing of AI Content and the storage, use, and transfer of AI Content as described under this Section 50, including providing any required notices and obtaining any required verifiable parental consent under the Children’s Online Privacy Protection Act (COPPA) or similar laws and obtaining any required consent of individuals appearing in any images or videos processed by an AI Service. You represent to us that you have provided all necessary privacy notices and obtained all necessary consents. You are responsible for notifying us in the event that any AI Content stored by an AI Service must be deleted under applicable law. If you use Amazon Lex in connection with websites, programs or other applications that are directed or targeted, in whole or in part, to children under age 13 and subject to COPPA or similar laws you must: (a) provide all required notices and obtain all required verifiable parental consent under COPPA or similar laws; and (b) notify AWS during the Amazon Lex set-up process using the appropriate (i) check box in the AWS console or (ii) Boolean parameter in the applicable Amazon Lex Model Building Service API request or response as specified by the Amazon Lex technical documentation. Amazon Lex does not store or retain voice or text utterance information from websites, programs, or other applications that you identify in accordance with this Section as being directed or targeted, in whole or in part, to children under age 13 and subject to COPPA or similar laws.
+
+BEFORE:
+**50.12.5.** PartyRock is intended for personal and educational use, and not for commercial or business use. You may not use PartyRock if you are younger than 18. We do not knowingly collect information from anyone under 18, but if we discover that we have inadvertently collected information from anyone under 18, we will delete that information.
+
+**50.12.6**. PartyRock Data. We use the input that you provide and output that you generate when using PartyRock (“PartyRock Data”) in accordance with the [AWS Privacy Notice]. As described in the [AWS Privacy Notice] and [PartyRock FAQs], we may use PartyRock Data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies. You may instruct AWS not to use PartyRock Data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies by using the opt-out mechanism described in the [PartyRock FAQs]. We may use PartyRock Data to maintain and provide PartyRock and enforce our policies, including to develop and improve our fraud, abuse, and AI safety operations. PartyRock Data does not constitute Your Content as defined in the Agreement.
+
+**50.12.7.** PartyRock Apps. “PartyRock App” means any application created or remixed through PartyRock, including any app snapshot and all corresponding source code. By creating or remixing a PartyRock App, you hereby grant: (a) AWS and its affiliates a worldwide, non-exclusive, fully paid-up, royalty-free license to access, reproduce, prepare derivative works based upon, transmit, display, perform and otherwise exploit your PartyRock App in connection with PartyRock; and (b) anyone who accesses your PartyRock App (“PartyRock Users”), a non-exclusive license to access, reproduce, export, use, prepare derivative works based upon, transmit, and otherwise exploit your PartyRock App for any personal purpose. We may reject, remove, or disable your PartyRock App, PartyRock alias, or PartyRock account at any time for any reason with or without notice to you. You are responsible for your PartyRock Apps, PartyRock Data, and use of your PartyRock Apps, including compliance with the Policies as defined in the Agreement and applicable law. Except as provided in this Section 50.12, we obtain no rights under the Agreement to PartyRock Data or PartyRock Apps. Neither AWS, its Affiliates, nor PartyRock Users have any obligations to make any payments to you in connection with your PartyRock Apps. You will defend and indemnify AWS and its Affiliates for any and all damages, liabilities, penalties, fines, costs, and expenses (including reasonable attorneys’ fees) arising out of or in any way related to Your PartyRock Apps or your use of PartyRock. Do not include personally identifying, confidential, or sensitive information in the input that you provide to create or use a PartyRock App.
+
+AFTER:
+**50.12.5.** PartyRock is intended for personal and educational use, and not for commercial or business use. You may not use PartyRock if you are younger than 18. We do not knowingly collect information from anyone under 18, but if we discover that we have inadvertently collected information from anyone under 18, we will delete that information.
+
+**50.12.6**. PartyRock Data. We use the input that you provide and output that you generate when using PartyRock (“PartyRock Data”) in accordance with the [PartyRock Privacy Page]. As described in the [PartyRock Privacy Page], we may use PartyRock Data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies. You may instruct AWS not to use PartyRock Data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies by using the opt-out mechanism described in the [PartyRock Privacy Page]. We may use PartyRock Data to maintain and provide PartyRock and enforce our policies, including to develop and improve our fraud, abuse, and AI safety operations. PartyRock Data does not constitute Your Content as defined in the Agreement.
+
+**50.12.7.** PartyRock Apps. “PartyRock App” means any application created or remixed through PartyRock, including any app snapshot and all corresponding source code. By creating or remixing a PartyRock App, you hereby grant: (a) AWS and its affiliates a worldwide, non-exclusive, fully paid-up, royalty-free license to access, reproduce, prepare derivative works based upon, transmit, display, perform and otherwise exploit your PartyRock App in connection with PartyRock; and (b) anyone who accesses your PartyRock App (“PartyRock Users”), a non-exclusive license to access, reproduce, export, use, prepare derivative works based upon, transmit, and otherwise exploit your PartyRock App for any personal purpose. We may reject, remove, or disable your PartyRock App, PartyRock alias, or PartyRock account at any time for any reason with or without notice to you. You are responsible for your PartyRock Apps, PartyRock Data, and use of your PartyRock Apps, including compliance with the Policies as defined in the Agreement and applicable law. Except as provided in this Section 50.12, we obtain no rights under the Agreement to PartyRock Data or PartyRock Apps. Neither AWS, its Affiliates, nor PartyRock Users have any obligations to make any payments to you in connection with your PartyRock Apps. You will defend and indemnify AWS and its Affiliates for any and all damages, liabilities, penalties, fines, costs, and expenses (including reasonable attorneys’ fees) arising out of or in any way related to Your PartyRock Apps or your use of PartyRock. Do not include personally identifying, confidential, or sensitive information in the input that you provide to create or use a PartyRock App.
+
+BEFORE:
+**50.12.7.** PartyRock Apps. “PartyRock App” means any application created or remixed through PartyRock, including any app snapshot and all corresponding source code. By creating or remixing a PartyRock App, you hereby grant: (a) AWS and its affiliates a worldwide, non-exclusive, fully paid-up, royalty-free license to access, reproduce, prepare derivative works based upon, transmit, display, perform and otherwise exploit your PartyRock App in connection with PartyRock; and (b) anyone who accesses your PartyRock App (“PartyRock Users”), a non-exclusive license to access, reproduce, export, use, prepare derivative works based upon, transmit, and otherwise exploit your PartyRock App for any personal purpose. We may reject, remove, or disable your PartyRock App, PartyRock alias, or PartyRock account at any time for any reason with or without notice to you. You are responsible for your PartyRock Apps, PartyRock Data, and use of your PartyRock Apps, including compliance with the Policies as defined in the Agreement and applicable law. Except as provided in this Section 50.12, we obtain no rights under the Agreement to PartyRock Data or PartyRock Apps. Neither AWS, its Affiliates, nor PartyRock Users have any obligations to make any payments to you in connection with your PartyRock Apps. You will defend and indemnify AWS and its Affiliates for any and all damages, liabilities, penalties, fines, costs, and expenses (including reasonable attorneys’ fees) arising out of or in any way related to Your PartyRock Apps or your use of PartyRock. Do not include personally identifying, confidential, or sensitive information in the input that you provide to create or use a PartyRock App.
+
+#### 51\. Amazon Lightsail
+
+AFTER:
+**50.12.7.** PartyRock Apps. “PartyRock App” means any application created or remixed through PartyRock, including any app snapshot and all corresponding source code. By creating or remixing a PartyRock App, you hereby grant: (a) AWS and its affiliates a worldwide, non-exclusive, fully paid-up, royalty-free license to access, reproduce, prepare derivative works based upon, transmit, display, perform and otherwise exploit your PartyRock App in connection with PartyRock; and (b) anyone who accesses your PartyRock App (“PartyRock Users”), a non-exclusive license to access, reproduce, export, use, prepare derivative works based upon, transmit, and otherwise exploit your PartyRock App for any personal purpose. We may reject, remove, or disable your PartyRock App, PartyRock alias, or PartyRock account at any time for any reason with or without notice to you. You are responsible for your PartyRock Apps, PartyRock Data, and use of your PartyRock Apps, including compliance with the Policies as defined in the Agreement and applicable law. Except as provided in this Section 50.12, we obtain no rights under the Agreement to PartyRock Data or PartyRock Apps. Neither AWS, its Affiliates, nor PartyRock Users have any obligations to make any payments to you in connection with your PartyRock Apps. You will defend and indemnify AWS and its Affiliates for any and all damages, liabilities, penalties, fines, costs, and expenses (including reasonable attorneys’ fees) arising out of or in any way related to Your PartyRock Apps or your use of PartyRock. Do not include personally identifying, confidential, or sensitive information in the input that you provide to create or use a PartyRock App.
+
+**50.13. Amazon Q (Preview).** To help Amazon Q (Preview) provide the most relevant information about AWS Services, we may use AI Content processed by Amazon Q (Preview), such as prompts and responses (“Amazon Q Content”), for service improvement as described below. This Section 50.13 does not apply to Amazon Q (Preview) for Business or Amazon Q (Preview) in an integrated development environment (IDE) via CodeWhisperer Professional.
+
+**50.13.1.** **Service Improvement.** You agree and instruct that we may use Amazon Q Content to develop and improve Amazon Q (Preview) and its underlying technologies, and for that purpose we may store Amazon Q Content in an AWS region outside of the AWS region where you are using Amazon Q (Preview). However, we will not use Amazon Q Content to train machine-learning models other than as described in Section 50.13.2 below.
+
+**50.13.2. Other Service Improvement.** For Amazon Q Content in the IDE via CodeWhisperer Individual and Amazon Q with CodeCatalyst Free Tier, you agree and instruct that we may also use Amazon Q Content that does not contain personal data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies including to train machine-learning models.
+
+**50.13.3. Further Instructions.** You may instruct AWS not to use and store Amazon Q content for service improvement as described in this Section 50.13 by either (i) configuring an AI services opt out policy using AWS Organizations, or (ii) if you use Amazon Q in the IDE, by adjusting your settings in the IDE.
+
+#### 51\. Amazon Lightsail
+
+=== CARD R796040 ===
+BEFORE:
+**Aggregated or De-Identified Information**. We may aggregate or de-identify Personal Information so that it may no longer be used to identify you and use such information to analyze the effectiveness of our Services, to improve and add features to our Services, to conduct research and for other similar purposes. In addition, from time to time, we may analyze the general behavior and characteristics of users of our Services and share aggregated information like general user statistics with third parties, publish such aggregated information or make such aggregated information generally available. We may collect aggregated information through the Services, through cookies, and through other means described in this Privacy Policy. We will maintain and use de-identified information in anonymous or de-identified form and we will not attempt to reidentify the information, unless required by law.
+
+As noted above, we may use Content you provide us to improve our Services, for example to train the models that power ChatGPT. See [here] for instructions on how you can opt out of our use of your Content to train our models.
+
+3\. Disclosure of personal information
+
+AFTER:
+**Aggregated or De-Identified Information**. We may aggregate or de-identify Personal Information so that it may no longer be used to identify you and use such information to analyze the effectiveness of our Services, to improve and add features to our Services, to conduct research and for other similar purposes. In addition, from time to time, we may analyze the general behavior and characteristics of users of our Services and share aggregated information like general user statistics with third parties, publish such aggregated information or make such aggregated information generally available. We may collect aggregated information through the Services, through cookies, and through other means described in this Privacy Policy. We will maintain and use de-identified information in anonymous or de-identified form and we will not attempt to reidentify the information, unless required by law.
+
+As noted above, we may use Content you provide us to improve our Services, for example to train the models that power ChatGPT. Read [our instructions] on how you can opt out of our use of your Content to train our models.
+
+3\. Disclosure of personal information
+
+BEFORE:
+* Lodge a complaint with your local data protection authority.
+
+A note about accuracy: Services like ChatGPT generate responses by reading a user’s request and, in response, predicting the words most likely to appear next. In some cases, the words most likely to appear next may not be the most factually accurate. For this reason, you should not rely on the factual accuracy of output from our models. If you notice that ChatGPT output contains factually inaccurate information about you and you would like us to correct the inaccuracy, you may submit a correction request to dsar@openai.com. Given the technical complexity of how our models work, we may not be able to correct the inaccuracy in every instance. In that case, you may request that we remove your Personal Information from ChatGPT’s output by filling out [this form].
+
+For information on how to exercise your rights with respect to data we have collected from the internet to train our models, please see [this help center article].
+
+AFTER:
+* Lodge a complaint with your local data protection authority.
+
+A note about accuracy: Services like ChatGPT generate responses by reading a user’s request and, in response, predicting the words most likely to appear next. In some cases, the words most likely to appear next may not be the most factually accurate. For this reason, you should not rely on the factual accuracy of output from our models. If you notice that ChatGPT output contains factually inaccurate information about you and you would like us to correct the inaccuracy, you may submit a correction request through [privacy.openai.com] or to [dsar@openai.com]. Given the technical complexity of how our models work, we may not be able to correct the inaccuracy in every instance. In that case, you may request that we remove your Personal Information from ChatGPT’s output by filling out [this form].
+
+For information on how to exercise your rights with respect to data we have collected from the internet to train our models, please see [this help center article].
+
+BEFORE:
+* Performance of a contract with you when we provide and maintain our Services. When we process Account Information, Content, and Technical Information solely to provide our Services to you, this information is necessary to be able to provide our Services. If you do not provide this information, we may not be able to provide our Services to you.
+
+* Our legitimate interests in protecting our Services from abuse, fraud, or security risks, or in developing, improving, or promoting our Services, including when we train our models. This may include the processing of Account Information, Content, Social Information, and Technical Information. See [here] for instructions on how you can opt out of our use of your information to train our models.
+
+* Your consent when we ask for your consent to process your Personal Information for a specific purpose that we communicate to you. You have the right to withdraw your consent at any time.
+
+AFTER:
+* Performance of a contract with you when we provide and maintain our Services. When we process Account Information, Content, and Technical Information solely to provide our Services to you, this information is necessary to be able to provide our Services. If you do not provide this information, we may not be able to provide our Services to you.
+
+* Our legitimate interests in protecting our Services from abuse, fraud, or security risks, or in developing, improving, or promoting our Services, including when we train our models. This may include the processing of Account Information, Content, Social Information, and Technical Information. Read [our instructions] on how you can opt out of our use of your information to train our models.
+
+* Your consent when we ask for your consent to process your Personal Information for a specific purpose that we communicate to you. You have the right to withdraw your consent at any time.
+
+=== CARD R76e784 ===
+BEFORE:
+**1.23.** If you use any artificial intelligence and machine learning Services, features, and functionality (including third-party models) that we provide, it’s your responsibility to ensure that your use complies with all applicable laws, rules, and regulations, and the [AWS Responsible AI Policy].
+
+**1.24.** Certain Services may incorporate generative AI features, powered by Amazon Bedrock, that enable you to use prompts to generate output, including: Amazon Bio Discovery, Amazon CloudWatch, Amazon CodeCatalyst, Amazon Connect Customer, Amazon Connect Decisions, Amazon Connect Health, Amazon Connect Talent, AWS Database Migration Service, Amazon DataZone, Amazon Lex, Amazon OpenSearch Service, Amazon Personalize, Amazon Q, AWS Entity Resolution, AWS Transform, AWS AppFabric, AWS HealthScribe, AWS Resilience Hub, AWS App Studio, Kiro, Amazon SageMaker Data Agent, the model customization agent in SageMaker AI, Amazon Quick, AWS DevOps Agent, AWS Security Agent, Amazon WorkSpaces, and AWS Deadline Cloud.
+
+**1.24.1.** Amazon Bedrock abuse detection mechanisms may apply to such Services. See [here] and applicable Service-specific documentation for more details.
+
+AFTER:
+**1.23.** If you use any artificial intelligence and machine learning Services, features, and functionality (including third-party models) that we provide, it’s your responsibility to ensure that your use complies with all applicable laws, rules, and regulations, and the [AWS Responsible AI Policy].
+
+**1.24.** Certain Services may incorporate generative AI features, powered by Amazon Bedrock, that enable you to use prompts to generate output, including: Amazon Bio Discovery, Amazon CloudWatch, Amazon CodeCatalyst, Amazon Connect Customer, Amazon Connect Decisions, Amazon Connect Health, Amazon Connect Talent, AWS Database Migration Service, Amazon DataZone, Amazon Lex, Amazon OpenSearch Service, Amazon Personalize, Amazon Q, AWS Entity Resolution, AWS Transform, AWS AppFabric, AWS HealthScribe, AWS Resilience Hub, AWS App Studio, Kiro, Amazon SageMaker Data Agent, the model customization agent in SageMaker AI, Amazon Quick, AWS DevOps Agent, AWS Security Agent, AWS FinOps Agent (Preview), Amazon WorkSpaces, and AWS Deadline Cloud.
+
+**1.24.1.** Amazon Bedrock abuse detection mechanisms may apply to such Services. See [here] and applicable Service-specific documentation for more details.
+
+BEFORE:
+--------------------------------------------------------------
+
+**50.1.** “AI Services” means, collectively, Amazon Bedrock, Amazon CodeGuru Profiler, Amazon CodeGuru Reviewer, Amazon Foundation Models (Amazon Nova and Titan models), Amazon Nova Act, Amazon Nova Forge, Amazon Comprehend, Amazon Comprehend Medical, Amazon DevOps Guru, Amazon Forecast, AWS HealthLake, Amazon Kendra, Amazon Lex, Amazon Lookout for Metrics, Amazon Personalize, Amazon Polly, Amazon Q, AWS Transform, Amazon Rekognition, Amazon Textract, Amazon Transcribe, Amazon Transcribe Medical, Amazon Translate, AWS HealthOmics, AWS HealthImaging, AWS HealthScribe, AWS App Studio, Kiro, Amazon Quick, AWS Elemental Inference, AWS DevOps Agent, and AWS Security Agent, and the model customization agent in SageMaker AI. “AI Content” means Your Content that is processed by an AI Service.
+
+**50.2.** The output that you generate using AI Services is Your Content. Due to the nature of machine learning, output may not be unique across customers and the Services may generate the same or similar results across customers.
+
+AFTER:
+--------------------------------------------------------------
+
+**50.1.** “AI Services” means, collectively, Amazon Bedrock, Amazon CodeGuru Profiler, Amazon CodeGuru Reviewer, Amazon Foundation Models (Amazon Nova and Titan models), Amazon Nova Act, Amazon Nova Forge, Amazon Comprehend, Amazon Comprehend Medical, Amazon DevOps Guru, Amazon Forecast, AWS HealthLake, Amazon Kendra, Amazon Lex, Amazon Lookout for Metrics, Amazon Personalize, Amazon Polly, Amazon Q, AWS Transform, Amazon Rekognition, Amazon Textract, Amazon Transcribe, Amazon Transcribe Medical, Amazon Translate, AWS HealthOmics, AWS HealthImaging, AWS HealthScribe, AWS App Studio, Kiro, Amazon Quick, AWS Elemental Inference, AWS DevOps Agent, AWS Security Agent, and AWS FinOps Agent (Preview), and the model customization agent in SageMaker AI. “AI Content” means Your Content that is processed by an AI Service.
+
+**50.2.** The output that you generate using AI Services is Your Content. Due to the nature of machine learning, output may not be unique across customers and the Services may generate the same or similar results across customers.
+
+BEFORE:
+**50.2.** The output that you generate using AI Services is Your Content. Due to the nature of machine learning, output may not be unique across customers and the Services may generate the same or similar results across customers.
+
+**50.3.** You agree and instruct that for Amazon CodeGuru Profiler, Amazon Comprehend, Amazon Lex, Amazon Polly, Amazon Rekognition, Amazon Textract, Amazon Transcribe, Amazon Translate, AWS Transform, Kiro Free Tier, and Kiro individual subscribers (as described [here]): (a) we may use and store AI Content that is processed by each of the foregoing AI Services to develop and improve the applicable AI Service and its underlying technologies; (b) we may use and store AI Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial-intelligence technologies; and (c) solely in connection with the development and improvement described in clauses (a) and (b), we may store such AI Content in an AWS region outside of the AWS region where you are using such AI Service. This Section does not apply to Amazon Comprehend Medical, Amazon Transcribe Medical, AWS HealthScribe, Amazon Comprehend Detect PII or any AI Service that is not listed in the first sentence of this Section 50.3. You may instruct AWS not to use and store AI Content processed by an AI Service to develop and improve that Service or technologies of AWS or its affiliates by configuring an AI services opt-out policy using AWS Organizations. For access to AI Services via AWS Builder ID or a third-party authentication provider, you may instruct AWS to refrain from using and storing AI Content processed by an AI Service to develop and improve that Service or technologies of AWS or its affiliates by using the opt-out mechanism indicated in the applicable service documentation.
+
+**50.4.** You are responsible for providing legally adequate privacy notices to End Users of your products or services that use any AI Service and obtaining any necessary consent from such End Users for the processing of AI Content and the storage, use, and transfer of AI Content as described under this Section 50. You represent to us that you have provided all necessary privacy notices and obtained all necessary consents. You are responsible for notifying us in the event that any AI Content stored by an AI Service must be deleted under applicable law. If you use Amazon Lex in connection with websites, programs or other applications that are directed or targeted, in whole or in part, to children under age 13 and subject to COPPA or similar laws you must: (a) provide all required notices and obtain all required verifiable parental consent under COPPA or similar laws; and (b) notify AWS during the Amazon Lex set-up process using the appropriate (i) check box in the AWS console or (ii) Boolean parameter in the applicable Amazon Lex Model Building Service API request or response as specified by the Amazon Lex technical documentation. Amazon Lex does not store or retain voice or text utterance information from websites, programs, or other applications that you identify in accordance with this Section as being directed or targeted, in whole or in part, to children under age 13 and subject to COPPA or similar laws.
+
+AFTER:
+**50.2.** The output that you generate using AI Services is Your Content. Due to the nature of machine learning, output may not be unique across customers and the Services may generate the same or similar results across customers.
+
+**50.3.** You agree and instruct that for Amazon CodeGuru Profiler, Amazon Comprehend, Amazon Lex, Amazon Polly, Amazon Rekognition, Amazon Textract, Amazon Transcribe, Amazon Translate, AWS Transform, AWS FinOps Agent (Preview), Kiro Free Tier, and Kiro individual subscribers (as described [here]): (a) we may use and store AI Content that is processed by each of the foregoing AI Services to develop and improve the applicable AI Service and its underlying technologies; (b) we may use and store AI Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial-intelligence technologies; and (c) solely in connection with the development and improvement described in clauses (a) and (b), we may store such AI Content in an AWS region outside of the AWS region where you are using such AI Service. This Section does not apply to Amazon Comprehend Medical, Amazon Transcribe Medical, AWS HealthScribe, Amazon Comprehend Detect PII or any AI Service that is not listed in the first sentence of this Section 50.3. You may instruct AWS not to use and store AI Content processed by an AI Service to develop and improve that Service or technologies of AWS or its affiliates by configuring an AI services opt-out policy using AWS Organizations. For access to AI Services via AWS Builder ID or a third-party authentication provider, you may instruct AWS to refrain from using and storing AI Content processed by an AI Service to develop and improve that Service or technologies of AWS or its affiliates by using the opt-out mechanism indicated in the applicable service documentation.
+
+**50.4.** You are responsible for providing legally adequate privacy notices to End Users of your products or services that use any AI Service and obtaining any necessary consent from such End Users for the processing of AI Content and the storage, use, and transfer of AI Content as described under this Section 50. You represent to us that you have provided all necessary privacy notices and obtained all necessary consents. You are responsible for notifying us in the event that any AI Content stored by an AI Service must be deleted under applicable law. If you use Amazon Lex in connection with websites, programs or other applications that are directed or targeted, in whole or in part, to children under age 13 and subject to COPPA or similar laws you must: (a) provide all required notices and obtain all required verifiable parental consent under COPPA or similar laws; and (b) notify AWS during the Amazon Lex set-up process using the appropriate (i) check box in the AWS console or (ii) Boolean parameter in the applicable Amazon Lex Model Building Service API request or response as specified by the Amazon Lex technical documentation. Amazon Lex does not store or retain voice or text utterance information from websites, programs, or other applications that you identify in accordance with this Section as being directed or targeted, in whole or in part, to children under age 13 and subject to COPPA or similar laws.
+
+BEFORE:
+**50.12.1.** Third-party models are available to you on Amazon Bedrock as “Third-Party Content”. By using a third-party model, you agree to the applicable terms [here]. Notwithstanding anything to the contrary in the Agreement or Service Terms, Section 20 (AWS Marketplace) above applies to your use of models sold by third parties, and Amazon Web Services, Inc. is the invoicing party with respect to these models.
+
+**50.12.2.** As part of providing the Service, Amazon Bedrock may store Service inputs and outputs for up to 30 days (unless otherwise required by law) for the sole purpose of detecting activity that violates our, or third-party model providers’, terms of service or use policies. If we detect apparent child sexual abuse material (“CSAM”), you agree and instruct that we may: (a) review the flagged input or output to determine if it is CSAM, and (b) report the incident to the National Center for Missing and Exploited Children or other authority. See [here] for more details about abuse detection on Bedrock.
+
+**50.12.3.** Provisioned throughput commitments for Bedrock. We may change provisioned throughput commitment pricing or stop offering commitments for provisioned throughput at any time. Any price changes will not apply to existing commitments. Provisioned throughput commitments are nontransferable and noncancellable, so you will be charged for the duration of the term you selected, even if you terminate the Agreement.
+
+AFTER:
+**50.12.1.** Third-party models are available to you on Amazon Bedrock as “Third-Party Content”. By using a third-party model, you agree to the applicable terms [here]. Notwithstanding anything to the contrary in the Agreement or Service Terms, Section 20 (AWS Marketplace) above applies to your use of models sold by third parties, and Amazon Web Services, Inc. is the invoicing party with respect to these models.
+
+**50.12.2.** **Abuse Detection.** For certain models identified on the [Bedrock abuse detection page], as part of providing the Service, Amazon Bedrock stores Service inputs and outputs for up to 30 days (unless otherwise required by law) solely to detect activity that violates our, or third-party model providers’, terms of service or use policies. If we detect a potential violation, you agree and instruct that we may review the Service inputs and outputs to determine if a violation has occurred.
+
+**50.12.2.2.** Certain Anthropic models identified on the [Bedrock abuse detection page] require you to consent to the transfer of Your Content and associated metadata to Anthropic for abuse detection, via the opt-in mechanism described in the [applicable service documentation]. By providing such consent, you instruct AWS to transfer Your Content and associated metadata to Anthropic for processing in accordance with [Anthropic's Data Processing Addendum].
+
+**50.12.3.** Provisioned throughput commitments for Bedrock. We may change provisioned throughput commitment pricing or stop offering commitments for provisioned throughput at any time. Any price changes will not apply to existing commitments. Provisioned throughput commitments are nontransferable and noncancellable, so you will be charged for the duration of the term you selected, even if you terminate the Agreement.
+
+=== CARD R233920 ===
+BEFORE:
+![Fireworks Logo]
+
+### Platform
+
+AFTER:
+![Fireworks Logo]
+
+Explore us in AI tools
+
+### Platform
+
+=== CARD R85b95b ===
+BEFORE:
+Find more solutions
+
+Subject to your compliance with these Conditions of Use and any Service Terms, and your payment of any applicable fees, Amazon or its content providers grant you a limited, non-exclusive, non-transferable, non-sublicensable license to access and make personal and non-commercial use of the Amazon Services. This license does not include any resale or commercial use of any Amazon Service, or its contents; any collection and use of any product listings, descriptions, or prices; any derivative use of any Amazon Service or its contents; any downloading, copying, or other use of account information for the benefit of any third party; or any use of data mining, robots, or similar data gathering and extraction tools. You may not use the Amazon Services to infringe, misappropriate, or violate intellectual property or other legal rights. All rights not expressly granted to you in these Conditions of Use or any Service Terms are reserved and retained by Amazon or its licensors, suppliers, publishers, rightsholders, or other content providers. No Amazon Service, nor any part of any Amazon Service or its contents, may be reproduced, duplicated, copied, sold, resold, visited, or otherwise exploited for any commercial purpose without express written consent of Amazon. You will not, and will not allow any third party to, use AI-generated content from the Amazon Services to, directly or indirectly, develop or improve large language or multimodal models, machine learning models or related technology. You may not frame or utilize framing techniques to enclose any trademark, logo, or other proprietary information (including images, text, page layout, or form) of Amazon without express written consent. You may not use any meta tags or any other "hidden text" utilizing Amazon's name or trademarks without the express written consent of Amazon. You may not misuse the Amazon Services. You may use the Amazon Services only as permitted by law. The licenses granted by Amazon terminate if you do not comply with these Conditions of Use or any Service Terms.
+
+3. **No Reverse Engineering.** You may not reverse engineer, decompile or disassemble, tamper with, apply any other process or procedure to derive the source code or other underlying components (such as a model, model parameters, or model weights), or bypass any security associated with the Amazon Software, whether in whole or in part.
+
+AFTER:
+Find more solutions
+
+=== CARD Raa398b ===
+BEFORE:
+**1.23.** If you use any artificial intelligence and machine learning Services, features, and functionality (including third-party models) that we provide, it’s your responsibility to ensure that your use complies with all applicable laws, rules, and regulations, and the [AWS Responsible AI Policy].
+
+**1.24.** Certain Services may incorporate generative AI features, powered by Amazon Bedrock, that enable you to use prompts to generate output, including: Amazon Bio Discovery, Amazon CloudWatch, Amazon CodeCatalyst, Amazon Connect, Amazon Connect Health, AWS Database Migration Service, Amazon DataZone, Amazon Lex, Amazon OpenSearch Service, Amazon Personalize, Amazon Q, AWS Entity Resolution, AWS Transform, AWS AppFabric, AWS HealthScribe, AWS App Studio, Kiro, Amazon SageMaker Data Agent, the model customization agent in SageMaker AI, the Amazon Quick Suite (including Amazon QuickSight), AWS DevOps Agent, AWS Security Agent, Amazon WorkSpaces, and AWS Deadline Cloud.
+
+**1.24.1.** The Amazon Bedrock automated abuse detection mechanisms may apply to such services. See [here] for more details.
+
+AFTER:
+**1.23.** If you use any artificial intelligence and machine learning Services, features, and functionality (including third-party models) that we provide, it’s your responsibility to ensure that your use complies with all applicable laws, rules, and regulations, and the [AWS Responsible AI Policy].
+
+**1.24.** Certain Services may incorporate generative AI features, powered by Amazon Bedrock, that enable you to use prompts to generate output, including: Amazon Bio Discovery, Amazon CloudWatch, Amazon CodeCatalyst, Amazon Connect Customer, Amazon Connect Decisions, Amazon Connect Health, Amazon Connect Talent, AWS Database Migration Service, Amazon DataZone, Amazon Lex, Amazon OpenSearch Service, Amazon Personalize, Amazon Q, AWS Entity Resolution, AWS Transform, AWS AppFabric, AWS HealthScribe, AWS App Studio, Kiro, Amazon SageMaker Data Agent, the model customization agent in SageMaker AI, the Amazon Quick Suite (including Amazon QuickSight), AWS DevOps Agent, AWS Security Agent, Amazon WorkSpaces, and AWS Deadline Cloud.
+
+**1.24.1.** The Amazon Bedrock automated abuse detection mechanisms may apply to such services. See [here] for more details.
+
+BEFORE:
+**50.9.3.** Your use of Amazon Rekognition is subject to additional [Biometric Notice and Consent Service Terms][].
+
+**50.10. Defense of Claims and Indemnity for Indemnified Generative AI Services.** AWS Services may incorporate generative AI features and provide Generative AI Output to you. “Generative AI Output” means output generated by a generative artificial intelligence model in response to inputs or other data provided by you. “Indemnified Generative AI Services” means, collectively, generally available features of Amazon Nova Micro, Amazon Nova Lite, Amazon Nova Pro, Amazon Nova Premier, Amazon Nova Canvas, Amazon Nova Reel**,** Amazon Nova Forge Models (as defined below)**,** Amazon Nova Sonic, Amazon Nova 2 Omni, Amazon Nova Act, Amazon Titan Text Express, Amazon Titan Text Lite, Amazon Nova Multimodal Embeddings, Amazon Titan Text Premier, Amazon Titan Text Embeddings, Amazon Titan Multimodal Embeddings, Amazon Titan Image Generator, AWS HealthScribe, Amazon Personalize, Amazon Q (excluding Amazon Q Developer Free Tier), AWS Transform, Amazon Bio Discovery (excluding Amazon Bio Discovery Academic Tier), Amazon Connect, Amazon Connect Health, Amazon Lex, Kiro (excluding Kiro Free Tier), and the Amazon Quick Suite (including Amazon QuickSight). The following terms apply to the Indemnified Generative AI Services:
+
+**50.10.1.** Subject to the limitations in this Section 50.10, AWS will defend you and your employees, officers, and directors against any third-party claim alleging that the Generative AI Output generated by an Indemnified Generative AI Service infringes or misappropriates that third party’s intellectual property rights, and will pay the amount of any adverse final judgment or settlement.
+
+AFTER:
+**50.9.3.** Your use of Amazon Rekognition is subject to additional [Biometric Notice and Consent Service Terms][].
+
+**50.10. Defense of Claims and Indemnity for Indemnified Generative AI Services.** AWS Services may incorporate generative AI features and provide Generative AI Output to you. “Generative AI Output” means output generated by a generative artificial intelligence model in response to inputs or other data provided by you. “Indemnified Generative AI Services” means, collectively, generally available features of Amazon Nova Micro, Amazon Nova Lite, Amazon Nova Pro, Amazon Nova Premier, Amazon Nova Canvas, Amazon Nova Reel**,** Amazon Nova Forge Models (as defined below)**,** Amazon Nova Sonic, Amazon Nova 2 Omni, Amazon Nova Act, Amazon Titan Text Express, Amazon Titan Text Lite, Amazon Nova Multimodal Embeddings, Amazon Titan Text Premier, Amazon Titan Text Embeddings, Amazon Titan Multimodal Embeddings, Amazon Titan Image Generator, AWS HealthScribe, Amazon Personalize, Amazon Q (excluding Amazon Q Developer Free Tier), AWS Transform, Amazon Bio Discovery (excluding Amazon Bio Discovery Academic Tier), Amazon Connect Customer, Amazon Connect Decisions, Amazon Connect Health, Amazon Connect Talent, Amazon Lex, Kiro (excluding Kiro Free Tier), and the Amazon Quick Suite (including Amazon QuickSight). The following terms apply to the Indemnified Generative AI Services:
+
+**50.10.1.** Subject to the limitations in this Section 50.10, AWS will defend you and your employees, officers, and directors against any third-party claim alleging that the Generative AI Output generated by an Indemnified Generative AI Service infringes or misappropriates that third party’s intellectual property rights, and will pay the amount of any adverse final judgment or settlement.
+
+BEFORE:
+**53.14.** The Chime PSTN Service in the European Economic Area (EEA), the United Kingdom and Switzerland is sold and provided by AMCS, but is otherwise subject to the terms of the Agreement.
+
+**54.7. Amazon Connect AI Features.** “Amazon Connect AI Features” means any Amazon Connect feature powered by artificial intelligence or machine learning. “Amazon Connect AI Content” means Your Content that is processed by an Amazon Connect AI Feature. The following terms apply to your use of Amazon Connect AI Features:
+
+(a) You agree and instruct that: (i) we may use and store Amazon Connect AI Content to develop and improve Amazon Connect and its underlying technologies; (ii) we may use and store Amazon Connect AI Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies; and (iii) solely in connection with the development and improvement described in clauses (i) and (ii), we may store your Amazon Connect AI Content in AWS regions outside the AWS regions where you are using Amazon Connect AI Features. You may instruct AWS not to use and store Amazon Connect AI Content processed by Amazon Connect AI Features to develop and improve the Service or technologies of AWS or its affiliates by configuring an AI services opt-out policy using AWS Organizations.
+
+(b) You are responsible for providing legally adequate privacy notices to End Users of your products or services that use Amazon Connect AI Features and obtaining any necessary consent from such End Users for the processing of Amazon Connect AI Content and the storage, use, and transfer of Amazon Connect AI Content as described under this Section. You represent to us that you have provided all necessary privacy notices and obtained all necessary consents. You are responsible for notifying us in the event that any Amazon Connect AI Content stored by Amazon Connect AI Features must be deleted under applicable law.
+
+(c) You will not, and will not allow any third-party to, use Amazon Connect AI Features to, directly or indirectly, develop or improve a similar or competing product or service.
+
+(d) Amazon Connect AI Features are not intended for use in, or in association with, the operation of any hazardous environments or critical systems that may lead to serious bodily injury or death or cause environmental or property damage. Amazon Connect AI Features may be used in connection with supporting healthcare services but are not medical devices and are not intended to be used by themselves for any clinical decision-making or other clinical use.
+
+(e) For Amazon Connect Health Content, the terms in Section 106 apply instead of the terms in this Section 54.7.
+
+AFTER:
+**53.14.** The Chime PSTN Service in the European Economic Area (EEA), the United Kingdom and Switzerland is sold and provided by AMCS, but is otherwise subject to the terms of the Agreement.
+
+**54.7. AI Features of Amazon Connect Customer.** “AI Features of Amazon Connect Customer” means any Amazon Connect Customer feature powered by artificial intelligence or machine learning. “AI Content of Amazon Connect Customer” means Your Content that is processed by an AI Feature of Amazon Connect Customer. The following terms apply to your use of AI Features of Amazon Connect Customer:
+
+(a) You agree and instruct that: (i) we may use and store AI Content of Amazon Connect Customer to develop and improve Amazon Connect Customer and its underlying technologies; (ii) we may use and store AI Content of Amazon Connect Customer that is not personal data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies; and (iii) solely in connection with the development and improvement described in clauses (i) and (ii), we may store your AI Content of Amazon Connect Customer in AWS regions outside the AWS regions where you are using AI Features of Amazon Connect Customer. You may instruct AWS not to use and store AI Content of Amazon Connect Customer processed by AI Features of Amazon Connect Customer to develop and improve the Service or technologies of AWS or its affiliates by configuring an AI services opt-out policy using AWS Organizations.
+
+(b) You are responsible for providing legally adequate privacy notices to End Users of your products or services that use AI Features of Amazon Connect Customer and obtaining any necessary consent from such End Users for the processing of AI Content of Amazon Connect Customer and the storage, use, and transfer of AI Content of Amazon Connect Customer as described under this Section. You represent to us that you have provided all necessary privacy notices and obtained all necessary consents. You are responsible for notifying us in the event that any AI Content of Amazon Connect Customer stored by AI Features of Amazon Connect Customer must be deleted under applicable law.
+
+(c) You will not, and will not allow any third-party to, use AI Features of Amazon Connect Customer to, directly or indirectly, develop or improve a similar or competing product or service.
+
+(d) AI Features of Amazon Connect Customer are not intended for use in, or in association with, the operation of any hazardous environments or critical systems that may lead to serious bodily injury or death or cause environmental or property damage. AI Features of Amazon Connect Customer may be used in connection with supporting healthcare services but are not medical devices and are not intended to be used by themselves for any clinical decision-making or other clinical use.
+
+(e) For Amazon Connect Health Content, the terms in Section 106 apply instead of the terms in this Section 54.7.
+
+BEFORE:
+(e) For Amazon Connect Health Content, the terms in Section 106 apply instead of the terms in this Section 54.7.
+
+**54.8.3.** Amazon Connect Voice ID uses machine learning models that generate predictions based on patterns in data. Output generated by Amazon Connect Voice ID is probabilistic and should be evaluated for accuracy as appropriate for your use case, including by employing human review of the output or combining it with other verification factors. You and your End Users are responsible for all decisions made, advice given, actions taken, and failures to take action based on your use of Amazon Connect Voice ID.
+
+55\. AWS Greengrass
+
+AFTER:
+(e) For Amazon Connect Health Content, the terms in Section 106 apply instead of the terms in this Section 54.7.
+
+**54.8.3.** Amazon Connect Customer Voice ID uses machine learning models that generate predictions based on patterns in data. Output generated by Amazon Connect Customer Voice ID is probabilistic and should be evaluated for accuracy as appropriate for your use case, including by employing human review of the output or combining it with other verification factors. You and your End Users are responsible for all decisions made, advice given, actions taken, and failures to take action based on your use of Amazon Connect Customer Voice ID.
+
+55\. AWS Greengrass
+
+BEFORE:
+**107.3.** You are responsible for monitoring the utilization of your AWS Interconnect connections and managing capacity changes in a timely manner. If your usage exceeds the capacity of your purchased AWS Interconnect connection, AWS may reduce your performance or automatically enroll you in a higher capacity tier for subsequent subscription periods.
+
+[Previous Version(s)]
+
+AFTER:
+**107.3.** You are responsible for monitoring the utilization of your AWS Interconnect connections and managing capacity changes in a timely manner. If your usage exceeds the capacity of your purchased AWS Interconnect connection, AWS may reduce your performance or automatically enroll you in a higher capacity tier for subsequent subscription periods.
+
+**108.2.** You agree and instruct that: (a) we may use and store Amazon Connect Decisions Content to develop and improve Amazon Connect Decisions and its underlying technologies; (b) we may use and store Amazon Connect Decisions Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies; and (c) solely in connection with the development and improvement described in clauses (a) and (b), we may store such Amazon Connect Decisions Content in an AWS region outside the AWS region where you are using Amazon Connect Decisions. You may instruct AWS not to use and store Amazon Connect Decisions Content to develop and improve Amazon Connect Decisions and AWS and affiliate machine-learning and artificial intelligence technologies by configuring an AI services opt-out policy using AWS Organizations.
+
+**108.4.** Neither you nor your End Users will, or will attempt to, extract or derive underlying components, including any model, model parameters, or model weights or reproduce the training data of Amazon Connect Decisions. Except where permitted by Amazon Connect Decisions, you may not use the service to generate Content for the express purpose of training an AI model or service or developing a substantially similar AI model or service.
+
+**109.2.** You agree and instruct that: (a) we may use and store Amazon Connect Talent Content to develop and improve Amazon Connect Talent and its underlying technologies; (b) we may use and store Amazon Connect Talent Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies; and (c) solely in connection with the development and improvement described in clauses (a) and (b), we may store your Amazon Connect Talent Content in AWS regions outside the AWS regions where you are using Amazon Connect Talent. You may instruct AWS not to use and store Amazon Connect Talent Content processed by Amazon Connect Talent to develop and improve the Service or technologies of AWS or its affiliates by configuring an AI services opt-out policy using AWS Organizations.
+
+**109.5.** Except where permitted by Amazon Connect Talent, you may not use Amazon Connect Talent to generate Content for the express purpose of training an AI model or service or developing a substantially similar AI model or service.
+
+**109.6.** Neither you nor your End Users will, or will attempt to, extract or derive underlying components, including any model, model parameters, or model weights or reproduce the training data of Amazon Connect Talent.
+
+**109.8.** You are responsible for configuring the job applicant experience of Amazon Connect Talent for your specific use case and in a manner that complies with applicable law. This includes ensuring that your use of Amazon Connect Talent complies with all applicable labor and employment, anti-discrimination, disability accommodation, data privacy, AI, wiretap, recordkeeping, and biometrics laws and regulations. You are solely responsible for determining whether Amazon Connect Talent meets your legal obligations.
+
+[... cut ...]
+
+=== CARD Rd25dbe ===
+BEFORE:
+--------------
+
+What is the Privacy Policy and what does it cover?
+
+AFTER:
+--------------
+
+We've updated our Privacy Policy with details about agentic AI capabilities and how we personalise your AI experiences.
+
+What is the Privacy Policy and what does it cover?
+
+BEFORE:
+What information do we collect?
+
+The information we collect and process about you depends on how you use our [Products]. For example, we collect different information if you sell furniture on Marketplace than if you ask [AI at Meta] to write a joke for you. When you use our Products, we collect some information about you [even if you don't have an account].
+
+Here's the information we collect:
+
+AFTER:
+What information do we collect?
+
+The information we collect and process about you depends on how you use our [Products]. For example, we collect different information if you sell furniture on Marketplace than if you ask Meta AI to write a joke for you. When you use our Products, we collect some information about you [even if you don't have an account].
+
+Here's the information we collect:
+
+BEFORE:
+* Seeing if our Products are working correctly, such as troubleshooting, and fixing it when it’s not working
+
+* Personalizing features, content and [recommendations], such as your [Facebook Feed], [Instagram Feed], [AI at Meta], Stories and ads.
+
+We use [information with special protections] you choose to provide for these purposes, but not to show you ads.
+
+AFTER:
+* Seeing if our Products are working correctly, such as troubleshooting, and fixing it when it’s not working
+
+* Personalizing features, content and [recommendations], such as your [Facebook Feed], [Instagram Feed], Meta AI, Stories and ads.
+
+We use [information with special protections] you choose to provide for these purposes, but not to show you ads.
+
+BEFORE:
+[How we use information to improve Meta Products]
+
+* * *
+
+AFTER:
+[How we use information to improve Meta Products]
+
+[How we use information to personalize our features that are part of AI at Meta]
+
+* * *
+
+BEFORE:
+Why and how we process your information:
+
+* Personalize features and content (such as your [Facebook Feed], [Instagram Feed], [AI at Meta] and Stories);
+
+* Personalize the ads people see, and
+
+AFTER:
+Why and how we process your information:
+
+* Personalize features and content (such as your [Facebook Feed], [Instagram Feed], our features that are part of [AI at Meta] and Stories);
+
+* Personalize the ads people see, and
+
+BEFORE:
+* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features
+
+* Interactions with AI at Meta and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Types of content you view or interact with, and how you interact with it
+
+AFTER:
+* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features
+
+* Interactions with our features that are part of AI at Meta and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Types of content you view or interact with, and how you interact with it
+
+BEFORE:
+Why and how we process your information:
+
+* Understand and enable creation of content like text, audio, images and videos, including through [AI at Meta],
+
+We also use information to develop, research and test improvements to Meta Products. We use information we have to:
+
+AFTER:
+Why and how we process your information:
+
+* Provide our features that are part of [AI at Meta] that do things like create and understand content (like text, audio, images and videos) and perform actions
+
+We also use information to develop, research and test improvements to Meta Products. We use information we have to:
+
+BEFORE:
+* Metadata about content and messages, subject to applicable law
+
+* Interactions with AI at Meta and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Types of content you view or interact with, and how you interact with it
+
+AFTER:
+* Metadata about content and messages, subject to applicable law
+
+* Interactions with our features that are part of AI at Meta and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Types of content you view or interact with, and how you interact with it
+
+BEFORE:
+* [Public content] you or others create or share, like posts, comments or audio on Meta Products
+
+* Interactions with AI at Meta and related metadata. For example, information you or others exchange with AI at Meta like content and messages.
+
+[Information from partners, vendors and third parties]
+
+AFTER:
+* [Public content] you or others create or share, like posts, comments or audio on Meta Products
+
+* Interactions with our features that are part of AI at Meta and related metadata. For example, information like content and messages you or others exchange with these features.
+
+[Information from partners, vendors and third parties]
+
+BEFORE:
+* Metadata about content and messages, subject to applicable law
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Types of content you view or interact with, and how you interact with it
+
+AFTER:
+* Metadata about content and messages, subject to applicable law
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Types of content you view or interact with, and how you interact with it
+
+BEFORE:
+* Metadata about content and messages, subject to applicable law
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Types of content you view or interact with, and how you interact with it
+
+AFTER:
+* Metadata about content and messages, subject to applicable law
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Types of content you view or interact with, and how you interact with it
+
+BEFORE:
+* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Types of content you view or interact with, and how you interact with it
+
+AFTER:
+* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Types of content you view or interact with, and how you interact with it
+
+BEFORE:
+* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Types of content you view or interact with, and how you interact with it
+
+AFTER:
+* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Types of content you view or interact with, and how you interact with it
+
+BEFORE:
+* Metadata about content and messages, subject to applicable law
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Types of content you view or interact with, and how you interact with it
+
+AFTER:
+* Metadata about content and messages, subject to applicable law
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Types of content you view or interact with, and how you interact with it
+
+BEFORE:
+* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Types of content you view or interact with, and how you interact with it
+
+AFTER:
+* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Types of content you view or interact with, and how you interact with it
+
+BEFORE:
+* Metadata about content and messages, subject to applicable law
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Types of content you view or interact with, and how you interact with it
+
+AFTER:
+* Metadata about content and messages, subject to applicable law
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Types of content you view or interact with, and how you interact with it
+
+BEFORE:
+* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Types of content you view or interact with, and how you interact with it
+
+AFTER:
+* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Types of content you view or interact with, and how you interact with it
+
+BEFORE:
+* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Types of content you view or interact with, and how you interact with it
+
+AFTER:
+* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Types of content you view or interact with, and how you interact with it
+
+BEFORE:
+* Metadata about content and messages, subject to applicable law
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Types of content you view or interact with, and how you interact with it
+
+AFTER:
+* Metadata about content and messages, subject to applicable law
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Types of content you view or interact with, and how you interact with it
+
+=== CARD R05de76 ===
+BEFORE:
+| **How We Use Personal Data(i.e., the purpose)** | **Personal Data Categories Collected** | **Source of Personal Data Categories** | **Who We Share Personal Data Categories With****1** | **Personal Data Categories “Sold”****2** **& “Shared”****3** | **Legal Basis For Processing Personal Data (as applicable)****4** |
+
+| **Artificial Intelligence (AI)** | Communications Activity, Job Applications, Job Interests & Activity, Profile Information, Sales & Support History, Security & Login Information, Service Activity, Submitted Content, User Support & Feedback | Users, Affiliates, Customers, Third-Party Data Providers | AffiliatesAnalytics & Optimization ProvidersCloud Storage & Computing Services and Associated Tools & Software ProvidersFraud Detection & Security ProvidersInformation Technology Service & Support Providers | _When personal data is shared with Affiliates for the purposes of powering AI features on their services._Communications Activity, Job Applications, Job Interests & Activity, Profile Information, Sales & Support HistorySecurity & Login Information, Service Activity, Submitted Content, User Support & Feedback | _When you utilize AI features on our services_ It is necessary for the performance of a contract with the individual_When we share personal data with Affiliates for the purposes of powering AI features on their services and when they share such personal data with us for powering AI features._ It is necessary for the purposes of our legitimate interests |
+
+Notes regarding the table above:
+
+AFTER:
+| **How We Use Personal Data(i.e., the purpose)** | **Personal Data Categories Collected** | **Source of Personal Data Categories** | **Who We Share Personal Data Categories With****1** | **Personal Data Categories “Sold”****2** **& “Shared”****3** | **Legal Basis For Processing Personal Data (as applicable)****4** |
+
+| **Artificial Intelligence (AI)** | Communications Activity, Job Applications, Job Interests & Activity, Profile Information, Sales & Support History, Security & Login Information, Service Activity, Submitted Content, User Support & Feedback | Users, Affiliates, Customers, Third-Party Data Providers | Affiliates, Analytics & Optimization Providers, Cloud Storage & Computing Services and Associated Tools & Software Providers, Fraud Detection & Security Providers, Information Technology Service & Support Providers | When personal data is shared with Affiliates for the purposes of powering AI features on their services: Communications Activity, Job Applications, Job Interests & Activity, Profile Information, Sales & Support History, Security & Login Information, Service Activity, Submitted Content, User Support & Feedback | _When you utilize AI features on our services_: It is necessary for the performance of a contract with the individual <br> <br>When we share personal data with Affiliates for the purposes of powering AI features on their services and when they share such personal data with us for powering AI features. It is necessary for the purposes of our legitimate interests |
+
+Notes regarding the table above:
+
+=== CARD R6f2d54 ===
+BEFORE:
+**50.4.** You are responsible for providing legally adequate privacy notices to End Users of your products or services that use any AI Service and obtaining any necessary consent from such End Users for the processing of AI Content and the storage, use, and transfer of AI Content as described under this Section 50, including providing any required notices and obtaining any required verifiable parental consent under the Children’s Online Privacy Protection Act (COPPA) or similar laws and obtaining any required consent of individuals appearing in any images or videos processed by an AI Service. You represent to us that you have provided all necessary privacy notices and obtained all necessary consents. You are responsible for notifying us in the event that any AI Content stored by an AI Service must be deleted under applicable law. If you use Amazon Lex in connection with websites, programs or other applications that are directed or targeted, in whole or in part, to children under age 13 and subject to COPPA or similar laws you must: (a) provide all required notices and obtain all required verifiable parental consent under COPPA or similar laws; and (b) notify AWS during the Amazon Lex set-up process using the appropriate (i) check box in the AWS console or (ii) Boolean parameter in the applicable Amazon Lex Model Building Service API request or response as specified by the Amazon Lex technical documentation. Amazon Lex does not store or retain voice or text utterance information from websites, programs, or other applications that you identify in accordance with this Section as being directed or targeted, in whole or in part, to children under age 13 and subject to COPPA or similar laws.
+
+**50.5.** You will not, and will not allow any third-party to, use the AI Services to, directly or indirectly, develop or improve a similar or competing product or service. The foregoing does not apply to Amazon Forecast and Amazon Personalize.
+
+**50.6.** AI Services are not intended for use in, or in association with, the operation of any hazardous environments or critical systems that may lead to serious bodily injury or death or cause environmental or property damage. AI Services may be used in connection with supporting healthcare services but are not medical devices and are not intended to be used by themselves for any clinical decision-making or other clinical use. You are responsible for liability that may arise in connection with any such uses.
+
+AFTER:
+**50.4.** You are responsible for providing legally adequate privacy notices to End Users of your products or services that use any AI Service and obtaining any necessary consent from such End Users for the processing of AI Content and the storage, use, and transfer of AI Content as described under this Section 50, including providing any required notices and obtaining any required verifiable parental consent under the Children’s Online Privacy Protection Act (COPPA) or similar laws and obtaining any required consent of individuals appearing in any images or videos processed by an AI Service. You represent to us that you have provided all necessary privacy notices and obtained all necessary consents. You are responsible for notifying us in the event that any AI Content stored by an AI Service must be deleted under applicable law. If you use Amazon Lex in connection with websites, programs or other applications that are directed or targeted, in whole or in part, to children under age 13 and subject to COPPA or similar laws you must: (a) provide all required notices and obtain all required verifiable parental consent under COPPA or similar laws; and (b) notify AWS during the Amazon Lex set-up process using the appropriate (i) check box in the AWS console or (ii) Boolean parameter in the applicable Amazon Lex Model Building Service API request or response as specified by the Amazon Lex technical documentation. Amazon Lex does not store or retain voice or text utterance information from websites, programs, or other applications that you identify in accordance with this Section as being directed or targeted, in whole or in part, to children under age 13 and subject to COPPA or similar laws.
+
+**50.5.** Except where permitted by the AI Service, you may not use an AI Service to generate Content for the express purpose of training an AI model or service or developing a substantially similar AI model or service.
+
+**50.6.** AI Services are not intended for use in, or in association with, the operation of any hazardous environments or critical systems that may lead to serious bodily injury or death or cause environmental or property damage. AI Services may be used in connection with supporting healthcare services but are not medical devices and are not intended to be used by themselves for any clinical decision-making or other clinical use. You are responsible for liability that may arise in connection with any such uses.
+
+BEFORE:
+**54.6.** To enable the Apple Business Chat integration with Amazon Connect, you must create an Apple Business Register account and are responsible for reviewing and accepting any applicable Apple terms. You agree that you are solely responsible for your or your End User’s use of Apple Business Chat, the content you or your End Users send through Apple Business Chat, and compliance with applicable Apple terms.
+
+**54.7. Amazon Connect Machine Learning Services.** “Amazon Connect ML Services” means, collectively, Amazon Connect Contact Lens, Amazon Connect Customer Profiles, Amazon Connect outbound campaigns, Amazon Q in Connect, and Amazon Connect Forecasting, Capacity Planning, and Scheduling. “Amazon Connect ML Content” means Your Content that is processed by an Amazon Connect ML Service. The following terms apply to your use of Amazon Connect ML Services:
+
+(a) You agree and instruct that: (i) we may use and store Amazon Connect ML Content to develop and improve Amazon Connect ML Services and their underlying technologies; (ii) we may use and store Amazon Connect ML Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies; and (iii) solely in connection with the development and improvement described in clauses (i) and (ii), we may store your Amazon Connect ML Content in AWS regions outside the AWS regions where you are using Amazon Connect ML Services. You may instruct AWS not to use and store Amazon Connect ML Content processed by Amazon Connect ML Services to develop and improve that Service or technologies of AWS or its affiliates by configuring an AI services opt-out policy using AWS Organizations.
+
+**54.8. Amazon Connect Voice ID**
+
+AFTER:
+**54.6.** To enable the Apple Business Chat integration with Amazon Connect, you must create an Apple Business Register account and are responsible for reviewing and accepting any applicable Apple terms. You agree that you are solely responsible for your or your End User’s use of Apple Business Chat, the content you or your End Users send through Apple Business Chat, and compliance with applicable Apple terms.
+
+**54.7. Amazon Connect AI Features.** “Amazon Connect AI Features” means any Amazon Connect feature powered by artificial intelligence or machine learning. “Amazon Connect AI Content” means Your Content that is processed by an Amazon Connect AI Feature. The following terms apply to your use of Amazon Connect AI Features:
+
+(a) You agree and instruct that: (i) we may use and store Amazon Connect AI Content to develop and improve Amazon Connect and its underlying technologies; (ii) we may use and store Amazon Connect AI Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies; and (iii) solely in connection with the development and improvement described in clauses (i) and (ii), we may store your Amazon Connect AI Content in AWS regions outside the AWS regions where you are using Amazon Connect AI Features. You may instruct AWS not to use and store Amazon Connect AI Content processed by Amazon Connect AI Features to develop and improve the Service or technologies of AWS or its affiliates by configuring an AI services opt-out policy using AWS Organizations.
+
+(b) You are responsible for providing legally adequate privacy notices to End Users of your products or services that use Amazon Connect AI Features and obtaining any necessary consent from such End Users for the processing of Amazon Connect AI Content and the storage, use, and transfer of Amazon Connect AI Content as described under this Section. You represent to us that you have provided all necessary privacy notices and obtained all necessary consents. You are responsible for notifying us in the event that any Amazon Connect AI Content stored by Amazon Connect AI Features must be deleted under applicable law.
+
+(c) You will not, and will not allow any third-party to, use Amazon Connect AI Features to, directly or indirectly, develop or improve a similar or competing product or service.
+
+(d) Amazon Connect AI Features are not intended for use in, or in association with, the operation of any hazardous environments or critical systems that may lead to serious bodily injury or death or cause environmental or property damage. Amazon Connect AI Features may be used in connection with supporting healthcare services but are not medical devices and are not intended to be used by themselves for any clinical decision-making or other clinical use.
+
+**54.8. Amazon Connect Voice ID**
+
+=== CARD Rf239cb ===
+BEFORE:
+**(g) Survey response data.**
+
+* SurveyMonkey may use first party machine learning or third party artificial intelligence tools on data around the type of survey the Creator has sent you, the question type, survey responses (at an aggregated and de-identified/pseudonymized level only), and device and event data associated with responses to fulfill our contract with Creators and provide Creators with useful and relevant insights from the data they have collected using our services. Specifically, we use machine learning on survey data to help Creators by:
+
+* identifying trends in their responses;
+
+AFTER:
+**(g) Survey response data.**
+
+* SurveyMonkey may use first party machine learning or third party artificial intelligence tools on data around the type of survey the Creator has sent you, the question type, survey responses (at an aggregated and de-identified/pseudonymized level only where possible), and device and event data associated with responses to fulfill our contract with Creators and provide Creators with useful and relevant insights from the data they have collected using our services. Specifically, we use machine learning on survey data to help Creators by:
+
+* identifying trends in their responses;
+
+=== CARD R48a37b ===
+BEFORE:
+Dailymotion has put in place a list of keywords and short phrases to prevent the uploading of Content that is clearly contrary to this Prohibited Content Policy. This list is updated every week and takes into account the “**Moderation Decisions**” made during the previous 6 months.
+
+The Restricted Mode may be applied to Video Content (as described in Section IV).
+
+AFTER:
+Dailymotion has put in place a list of keywords and short phrases to prevent the uploading of Content that is clearly contrary to this Prohibited Content Policy. This list is updated every week and takes into account the “**Moderation Decisions**” made during the previous 6 months.
+
+Dailymotion uses AI-based tools (Artificial Intelligence) as part of the automated detection devices. These tools help to improve the efficiency of the detection process (ex. by detecting Dailymotion-defined keywords and short phrases despite spelling mistakes, abbreviations or multitude of languages). They do not determine whether the examined Content infringes or not the Dailymotion Prohibited Content Policy. They only help to detect Content that might be infringing.
+
+The Restricted Mode may be applied to Video Content (as described in Section IV).
+
+=== CARD Re4e5b8 ===
+BEFORE:
+----------
+
+OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity. For more information about OpenAI, please visit [https://openai.com/about]. Our Services are provided to you by:
+
+* _OpenAI Ireland Ltd,_ a company incorporated in the Republic of Ireland with its registered office at 1st Floor, The Liffey Trust Centre, 117-126 Sheriff Street Upper, Dublin 1, D01 YC43, Ireland and company number 737350, if you are resident in the EEA or Switzerland.
+
+AFTER:
+----------
+
+OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity. For more information about OpenAI, please visit [https://openai.com/about⁠]. Our Services are provided to you by:
+
+* _OpenAI Ireland Ltd,_ a company incorporated in the Republic of Ireland with its registered office at 1st Floor, The Liffey Trust Centre, 117-126 Sheriff Street Upper, Dublin 1, D01 YC43, Ireland and company number 737350, if you are resident in the EEA or Switzerland.
+
+BEFORE:
+**Our use of content.** We can use your Content worldwide to provide, maintain, develop, and improve our Services, comply with applicable law, enforce our terms and policies and keep our Services safe.
+
+**Opt out.** If you do not want us to use your Content to train our models, you have the option to opt out by updating your account settings. Further information can be found in [this Help Center article(opens in a new window)]. Please note that in some cases this may limit the ability of our Services to better address your specific use case.
+
+**Accuracy**. Artificial intelligence and machine learning are rapidly evolving fields of study. We are constantly working to improve our Services to make them more accurate, reliable, safe, and beneficial. Given the probabilistic nature of machine learning, use of our Services may in some situations result in Output that does not accurately reflect real people, places, or facts.
+
+AFTER:
+**Our use of content.** We can use your Content worldwide to provide, maintain, develop, and improve our Services, comply with applicable law, enforce our terms and policies and keep our Services safe.
+
+**Opt out.** If you do not want us to use your Content to train our models, you have the option to opt out by updating your account settings. Further information can be found in [this Help Center article⁠(opens in a new window)]. Please note that in some cases this may limit the ability of our Services to better address your specific use case.
+
+**Accuracy**. Artificial intelligence and machine learning are rapidly evolving fields of study. We are constantly working to improve our Services to make them more accurate, reliable, safe, and beneficial. Given the probabilistic nature of machine learning, use of our Services may in some situations result in Output that does not accurately reflect real people, places, or facts.
+
+BEFORE:
+**Billing.** If you sign-up for a paid subscription or purchase any Services, you will provide complete and accurate billing information, including a valid payment method. For paid subscriptions, we will automatically charge your payment method on each agreed-upon periodic renewal until you cancel. If your payment cannot be completed, we may downgrade your account or suspend your access to our Services until payment is received.
+
+**Cooling off period.** You are entitled to cancel your purchase and request a refund without stating the reason during the 14 days following the date of your purchase (the “**Cooling Off Period**”). The refund will cover the relevant subscription fee prorated from the date you request cancellation to the end of the relevant subscription period you have paid for. To cancel and request a refund please [contact Support(opens in a new window)] or fill out and send us the [model withdrawal form], or alternatively you may complete the model withdrawal form as described under _**Termination and Suspension**_ below.
+
+**Changes.** We may change our prices from time to time. If we increase our subscription prices, we will give you at least 30 days’ notice and any price increase will take effect on your next renewal so that you can cancel if you do not agree to the price increase.
+
+AFTER:
+**Billing.** If you sign-up for a paid subscription or purchase any Services, you will provide complete and accurate billing information, including a valid payment method. For paid subscriptions, we will automatically charge your payment method on each agreed-upon periodic renewal until you cancel. If your payment cannot be completed, we may downgrade your account or suspend your access to our Services until payment is received.
+
+**Cooling off period.** You are entitled to cancel your purchase and request a refund without stating the reason during the 14 days following the date of your purchase (the “**Cooling Off Period**”). The refund will cover the relevant subscription fee prorated from the date you request cancellation to the end of the relevant subscription period you have paid for. To cancel and request a refund please [contact Support⁠(opens in a new window)] or fill out and send us the [model withdrawal form⁠], or alternatively you may complete the model withdrawal form as described under _**Termination and Suspension**_ below.
+
+**Changes.** We may change our prices from time to time. If we increase our subscription prices, we will give you at least 30 days’ notice and any price increase will take effect on your next renewal so that you can cancel if you do not agree to the price increase.
+
+BEFORE:
+--------------------------
+
+**EEA consumer withdrawal right**. If you are an EEA-based consumer, you can close your account and withdraw from these Terms within 14 days of accepting them by [contacting Support(opens in a new window)] or filling out and sending us the [model withdrawal form].
+
+**OpenAI rights**. We may take action to suspend or terminate your access to our Services or close your account if we determine, acting reasonably and objectively:
+
+AFTER:
+--------------------------
+
+**EEA consumer withdrawal right**. If you are an EEA-based consumer, you can close your account and withdraw from these Terms within 14 days of accepting them by [contacting Support⁠(opens in a new window)] or filling out and sending us the [model withdrawal form⁠].
+
+**OpenAI rights**. We may take action to suspend or terminate your access to our Services or close your account if we determine, acting reasonably and objectively:

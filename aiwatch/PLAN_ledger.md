@@ -127,3 +127,24 @@ The labels, raters, verified-grant rule and arm measures above are unchanged.
 - **Use:** private notes Ege may send to each tracker, listing the changes on services it covers that it lacks or
   dates later than the archive. Nothing about a named company is published by this plan.
 - **Ege still reads every row** that goes into such a note.
+
+## Addendum 2, 2026-11-19 ~20:50 UTC: a recall sample
+Written after both raters had labelled the 172 phase-1 cards (tally: 92 verified, keyword precision .535, kappa
+.894), before any Kev result, before any card below was made or seen, and while the tracker check ran.
+
+- **Why.** Precision alone is not an evaluation. As GPT-6 said in round 40, judging only the arms' alerts cannot show
+  what both arms miss.
+- **Population:** distinct AI-vocabulary updates of the kill test's prep with no keyword alert: 1,134 of 1,306.
+- **Sample:** a simple random sample of 120 (seed 41, `aiwatch/recall.py`).
+  - Each card shows all of the update's AI-vocabulary blocks, each side cut at 3,500 characters.
+  - A card stops at 20,000 characters; passages past that are listed as not shown and counted.
+  - Same question, same blinding, same two raters, ids starting with "R". A sampled update that Kev later alerts on
+    is also rated in phase 2; both labels are kept, as a repeat-rating check.
+- **Estimates (reported, not read):**
+  - grants the keyword arm missed = (verified in sample / 120) x 1,134, with a Wilson 95% interval;
+  - keyword recall = 92 / (92 + missed);
+  - Kev recall (after phase 2, where every Kev alert is rated) = Kev's verified grants / (keyword verified + the
+    larger of the estimate and Kev's count of verified grants without a keyword alert).
+- **Limits.** Recall is only within updates whose changed passages use AI vocabulary. A grant worded without any of
+  those words is outside both arms and this sample.
+- **Prediction (mine):** 3-8 verified in the sample (about 30-75 missed), keyword recall 55-75%.

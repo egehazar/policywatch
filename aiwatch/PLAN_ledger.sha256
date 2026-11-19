@@ -7,3 +7,11 @@
 # addendum 1 corrected and re-hashed 2026-11-19T20:41:02Z: rater 2 running, no rater-2 label looked at, no tracker search
 bf18a8256f8af0d798db3a1ae76d9a66df2a8bf353e226e72b9d794636bcd99e *PLAN_ledger.md
 2bca3f94da758338df445a251b64159f2c04c15449f039ea88d93ffd475b7088 *ledger.py
+# addendum 2 hashed 2026-11-19T20:52:15Z, recall cards generated, not seen by any rater
+f78a9e2ad94cce87a85e404ac41f37b60a5c666e99ab3fa4a31f41643e2c0200 *PLAN_ledger.md
+2bca3f94da758338df445a251b64159f2c04c15449f039ea88d93ffd475b7088 *ledger.py
+76e9382154143ed80de7e73efbd71d515c5d1b8576cf5b47f7f9fde074fc9f11 *recall.py
+# addendum 2 time corrected (it said ~21:05, written ~20:50) and re-hashed 2026-11-19T20:52:23Z; no rater has seen a recall card
+243923b9cf7d21b6f17f5a06b8f7dcec4041231a3d9caec3077174dd97b5b33b *PLAN_ledger.md
+2bca3f94da758338df445a251b64159f2c04c15449f039ea88d93ffd475b7088 *ledger.py
+76e9382154143ed80de7e73efbd71d515c5d1b8576cf5b47f7f9fde074fc9f11 *recall.py

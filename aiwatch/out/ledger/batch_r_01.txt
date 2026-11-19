@@ -1,0 +1,627 @@
+Each card shows the BEFORE and AFTER text of one change to a company's terms of service or privacy policy (only the changed passages that mention AI or models, with a little context). Read both and answer one label:
+- NEW: the AFTER text lets the company (or partners it shares data with) use its users' content or personal data to train or improve AI / machine-learning models, and the BEFORE text did not.
+- WIDER: the BEFORE text already allowed that, and the AFTER text allows clearly more (more kinds of data, generative AI, new recipients, fewer limits, an opt-out removed).
+- SAME: both allow it to about the same extent (rewording, moving text, small clarifications).
+- NO: the AFTER text does not let the company train AI on users' data (for example: a promise not to train, a ban on users training AI on the service, AI features or third-party models mentioned without training on users' data, or training only on data that is not users' own, such as public web data).
+- UNCLEAR: the passages shown are not enough to tell.
+For NEW or WIDER, also give the scope of the training use:
+- THIRD: users' data is shared with other companies for THEM to train AI.
+- GENERAL: generative or general-purpose AI, or AI/ML models with no narrow purpose named.
+- NARROW: models for one named operational purpose only (ads, recommendations, fraud, safety, support, search).
+(If several apply, the first in this order.) For the other labels, scope is "-".
+Then quote the one AFTER sentence that decides it (or "-" for NO with nothing to quote).
+
+Answer as JSON lines: {"card": "<id>", "label": "<NEW|WIDER|SAME|NO|UNCLEAR>", "scope": "<THIRD|GENERAL|NARROW|->", "quote": "<sentence>"}
+
+=== CARD R2daea6 ===
+BEFORE:
+We maintain technical, physical, and administrative security measures designed to provide reasonable protection for your Personal Data against loss, misuse, unauthorised access, disclosure, and alteration. The security measures include firewalls, data encryption, physical access controls to our data centres, and information access authorisation controls. While we are dedicated to securing our systems and Services, you are responsible for securing and maintaining the privacy of your password(s) and Account/profile registration information and verifying that the Personal Data we maintain about you is accurate and current. We are not responsible for protecting any Personal Data that we share with a third-party based on an account connection that you have authorised.
+
+AFTER:
+* to improve our Services and for general business development purposes, for example improving risk models to minimize fraud, develop new products and features and explore new business opportunities.
+
+* If you are not approved under the Automated Decisions described below, you will not have access to our services, such as our payment methods. PayPal has several safety mechanisms to ensure the decisions are appropriate. These mechanisms include ongoing overviews of our decision models and random sampling in individual cases. If you have any concern about the outcome, you can [**contact us**], and we will determine whether the procedure was performed appropriately.
+
+We believe that by making such decisions automatically, PayPal increases its objectivity and transparency in deciding which services to offer you. We deploy several safety mechanisms to ensure the decisions are appropriate. These mechanisms include ongoing overviews of our decision models and random sampling in individual cases. You can always ask for a manual decision-making process instead, express your opinion or contest decision making based solely on automated processing, including profiling, if such a decision would produce _legal effects or otherwise similarly significantly affect you_. You can find out more about how to object to these decisions in Section 10 **(“Your data protection rights”)**.
+
+We maintain technical, physical, and administrative security measures designed to provide reasonable protection for your Personal Data against loss, misuse, unauthorised access, disclosure, and alteration. The security measures include firewalls, data encryption, physical access controls to our data centres, and information access authorisation controls. While we are dedicated to securing our systems and Services, you are responsible for securing and maintaining the privacy of your password(s) and Account/profile registration information and verifying that the Personal Data we maintain about you is accurate and current. We are not responsible for protecting any Personal Data that we share with a third-party based on an account connection that you have authorised.
+
+=== CARD R152180 ===
+BEFORE:
+[Status][About Us][Documentation][Trust & Safety][Careers][Pricing][Blog][Enterprise][Get in touch][Report Content][Grants][Events][Legal]Your Privacy Choices![California Consumer Privacy Act (CCPA) Opt-Out Icon][Learn][Gen Media Report 2026]
+
+#### Models
+
+#### Labs
+
+AFTER:
+[Status][About Us][Documentation][Trust & Safety][Careers][Pricing][Blog][Enterprise][Get in touch][Report Content][Grants][Events][Legal]Your Privacy Choices![California Consumer Privacy Act (CCPA) Opt-Out Icon][Learn][Gen Media Report 2026]
+
+#### Image Models
+
+#### Video Models
+
+#### Labs
+
+=== CARD Ra74efc ===
+BEFORE:
+### Artificial Intelligence and Automated Processing
+
+We may use AI and automated systems to improve your experience on our Website and personalize content delivery. These systems may analyze your usage patterns and preferences to provide more relevant content and better user experience.
+
+### Marketing and Advertising
+
+AFTER:
+### Artificial Intelligence and Automated Processing
+
+### Marketing and Advertising
+
+=== CARD Rc2e76d ===
+BEFORE:
+-------------------
+
+AFTER:
+-------------------
+
+Pay-as-You-Go is a credit-based model where Users are charged based on actual storage consumed and data transferred. A minimum monthly usage fee applies. Users may purchase credits in advance. Unused credits do not roll over indefinitely. Pay-as-You-Go credits and yearly Premium one-shot payments are processed directly by Gofile (WOJTEK SAS).
+
+=== CARD R29c5be ===
+BEFORE:
+Please note that while we will carefully assess every request we receive, your rights may differ depending on where you live and may be limited by local law.
+
+We may process your personal information using automated decision-making technologies or algorithms, such as when we automatically select advertising or content that may be of interest to you. These technologies are not used to make automated decisions that have legal or similarly significant effect on you.
+
+Although most browsers and devices accept cookies by default, their settings usually allow you to clear and decline cookies. Web browsers often store your preferences in a cookie. Blocking cookies may prevent the services from operating as expected and may also prevent storing your preferences and choices.
+
+AFTER:
+Please note that while we will carefully assess every request we receive, your rights may differ depending on where you live and may be limited by local law.
+
+We may process your personal information using automated decision making technologies or algorithms, such as when we automatically select advertising or content that may be of interest to you. These technologies are not used to make automated decisions that have legal or similarly significant effect on you.
+
+Although most browsers and devices accept cookies by default, their settings usually allow you to clear and decline cookies. Web browsers often store your preferences in a cookie. Blocking cookies may prevent the services from operating as expected and may also prevent storing your preferences and choices.
+
+BEFORE:
+United States
+
+* **Automated decision making.** We may use algorithms that automatically select content or advertising that may be of interest to you and that may create a “profile” about your interests. We do not use these algorithms to make decisions that may have a legal or similarly significant effect on you.
+
+* **Non-discrimination**. We will not discriminate against you based on your exercise of any of the rights described above.
+
+AFTER:
+United States
+
+* **Non-discrimination**. We will not discriminate against you based on your exercise of any of the rights described above.
+
+=== CARD R97491c ===
+BEFORE:
+| Category of personal data | Description of personal data |
+
+| --- | --- |
+
+AFTER:
+| Category of personal data | Description of personal data |
+
+| ****Device Data**** | We collect data about the devices you use to access the Bolt App, including the hardware model, device IP address and other unique device identifiers (such as your UUID and advertising identifiers), device operating system, browser version, device vendor name, app version, identity of carrier and manufacturer and preferred languages. |
+
+| --- | --- |
+
+BEFORE:
+| --- | --- |
+
+| **Device Data** | We collect data about the devices you use to access the Bolt App, including the hardware model, device IP address and other unique device identifiers (such as your UUID and advertising identifiers), device operating system, browser version, device vendor name, app version, identity of carrier and manufacturer and preferred languages. |
+
+| Category of personal data | Description of personal data |
+
+AFTER:
+| --- | --- |
+
+| Category of personal data | Description of personal data |
+
+BEFORE:
+| Purpose of Processing | Legal Basis | Categories of Personal Data |
+
+| --- | --- | --- |
+
+AFTER:
+| Purpose of Processing | Legal Basis | Categories of Personal Data |
+
+| ****To perform research, testing, and analytics to better understand and improve our business and services****<br><br>For example, we use Geolocation Data and App Usage Data to perform research and improve our algorithms, machine learning, and other modelling. We use Communication Data related to incidents to monitor our security practices and improve our operations and processes. | \-<br><br>__Legitimate Interests__<br><br>\- It is in our interest to measure the use of our services in order to inform business decisions and to enable provision of accurate and reliable reporting and to continuously improve and develop the services we provide.<br><br>\-<br><br>__Consent__<br><br>\- For certain analytics we may require your consent. If so, you’ll be prompted to provide consent for specific purposes and processing activities, with details on how to withdraw consent, including through your profile settings. | \- Geolocation Data<br><br>\- App Usage Data<br><br>\- Communication Data<br><br>\- User Generated Content<br><br>\- Device Data |
+
+| --- | --- | --- |
+
+BEFORE:
+| --- | --- | --- |
+
+| **To perform research, testing, and analytics to better understand and improve our business and services** <br> <br>For example, we use Geolocation Data and App Usage Data to perform research and improve our algorithms, machine learning, and other modelling. We use Communication Data related to incidents to monitor our security practices and improve our operations and processes. | \- _Legitimate Interests_ - It is in our interest to measure the use of our services in order to inform business decisions and to enable provision of accurate and reliable reporting and to continuously improve and develop the services we provide. <br> <br>\- _Consent_ - For certain analytics we may require your consent. If so, you’ll be prompted to provide consent for specific purposes and processing activities, with details on how to withdraw consent, including through your profile settings. | \- Geolocation Data <br>\- App Usage Data <br>\- Communication Data <br>\- User Generated Content <br>\- Device Data |
+
+| Purpose of Processing | Legal Basis | Categories of Personal Data |
+
+AFTER:
+| --- | --- | --- |
+
+| Purpose of Processing | Legal Basis | Categories of Personal Data |
+
+BEFORE:
+| --- | --- |
+
+| **Third-party service providers** | Our third-party vendors and other service providers and contractors have access to your personal data to help carry out the services they are performing for us or on behalf of us. This may include vendors and providers who provide email or moreover electronic communication services, tax, legal and accounting services, product fulfilment, background checks and identity/verification processes, payment processing, customer support, fraud prevention and detection, data enhancement, web hosting and cloud storage, research, including surveys, analytics, crash reporting, performance monitoring and artificial intelligence, machine learning and statistical services. In addition, we will share data like your geolocation and the journey routes with Google in connection with the use of Google maps in our apps. |
+
+Please note, that our websites and apps may contain links to other third-party websites. If you follow a link to any of those third-party websites, please be aware that those websites may have their own privacy notices and that we do not accept any responsibility or liability for their notices or their processing of your personal data. Please check these notices before you submit any personal data to such third-party websites.
+
+AFTER:
+| --- | --- |
+
+| ****Third-party service providers**** | Our third-party vendors and other service providers and contractors have access to your personal data to help carry out the services they are performing for us or on behalf of us. This may include vendors and providers who provide email or moreover electronic communication services, tax, legal and accounting services, product fulfilment, background checks and identity/verification processes, payment processing, customer support, fraud prevention and detection, data enhancement, web hosting and cloud storage, research, including surveys, analytics, crash reporting, performance monitoring and artificial intelligence, machine learning and statistical services. In addition, we will share data like your geolocation and the journey routes with Google in connection with the use of Google maps in our apps. |
+
+Please note, that our websites and apps may contain links to other third-party websites. If you follow a link to any of those third-party websites, please be aware that those websites may have their own privacy notices and that we do not accept any responsibility or liability for their notices or their processing of your personal data. Please check these notices before you submit any personal data to such third-party websites.
+
+=== CARD R431790 ===
+BEFORE:
+---------------------------
+
+6\. Contact Us
+
+AFTER:
+---------------------------
+
+Taboola transfers data outside of Thailand. Taboola has in place an Inter Group Data Transfer Agreement across its international entities, which is based on the EEA’s standard model clauses.
+
+Taboola transfers data outside Brazil. As part of Taboola’s global operations, our data flows between Brazil, the EEA, the United States, Israel, and Hong Kong. To ensure that Brazil Data is adequately protected when transferred outside Brazil, the LGPD mandates that such transfers take place using [certain legal mechanisms]. Taboola has in place an Inter Group Data Transfer Agreement across its international entities, which is based on the EEA’s standard model clauses, and which may be updated upon further guidance from the future ANPD.
+
+6\. Contact Us
+
+=== CARD R1e759e ===
+BEFORE:
+**50.2.** The output that you generate using AI Services is Your Content. Due to the nature of machine learning, output may not be unique across customers and the Services may generate the same or similar results across customers.
+
+**50.3.** You agree and instruct that for Amazon CodeGuru Profiler, Amazon CodeWhisperer, Amazon Comprehend, Amazon Lex, Amazon Polly, Amazon Rekognition, Amazon Textract, Amazon Transcribe, and Amazon Translate: (a) we may use and store AI Content that is processed by each of the foregoing AI Services to maintain and provide the applicable AI Service (including development and improvement of such AI Service and its underlying technologies); (b) we may use and store AI Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial-intelligence technologies; and (c) solely in connection with the development and improvement described in clauses (a) and (b), we may store such AI Content in an AWS region outside of the AWS region where you are using such AI Service. This Section does not apply to Amazon CodeWhisperer Professional, Amazon Comprehend Medical, Amazon Transcribe Medical, or any AI Service that is not listed in the first sentence of this Section 50.3. You may instruct AWS not to use and store AI Content processed by an AI Service to develop and improve that Service or technologies of AWS or its affiliates by configuring an AI services opt out policy using AWS Organizations. For access to AI Services via AWS Builder ID, you may instruct AWS to refrain from using and storing AI Content processed by an AI Service to develop and improve that Service or technologies of AWS or its affiliates by leveraging the opt-out mechanism indicated in the applicable service documentation.
+
+**50.4.** You are responsible for providing legally adequate privacy notices to End Users of your products or services that use any AI Service and obtaining any necessary consent from such End Users for the processing of AI Content and the storage, use, and transfer of AI Content as described under this Section 50, including providing any required notices and obtaining any required verifiable parental consent under the Children’s Online Privacy Protection Act (COPPA) or similar laws and obtaining any required consent of individuals appearing in any images or videos processed by an AI Service. You represent to us that you have provided all necessary privacy notices and obtained all necessary consents. You are responsible for notifying us in the event that any AI Content stored by an AI Service must be deleted under applicable law. If you use Amazon Lex in connection with websites, programs or other applications that are directed or targeted, in whole or in part, to children under age 13 and subject to COPPA or similar laws you must: (a) provide all required notices and obtain all required verifiable parental consent under COPPA or similar laws; and (b) notify AWS during the Amazon Lex set-up process using the appropriate (i) check box in the AWS console or (ii) Boolean parameter in the applicable Amazon Lex Model Building Service API request or response as specified by the Amazon Lex technical documentation. Amazon Lex does not store or retain voice or text utterance information from websites, programs, or other applications that you identify in accordance with this Section as being directed or targeted, in whole or in part, to children under age 13 and subject to COPPA or similar laws.
+
+AFTER:
+**50.2.** The output that you generate using AI Services is Your Content. Due to the nature of machine learning, output may not be unique across customers and the Services may generate the same or similar results across customers.
+
+**50.3.** You agree and instruct that for Amazon CodeGuru Profiler, Amazon CodeWhisperer Individual, Amazon Comprehend, Amazon Lex, Amazon Polly, Amazon Rekognition, Amazon Textract, Amazon Transcribe, and Amazon Translate: (a) we may use and store AI Content that is processed by each of the foregoing AI Services to maintain and provide the applicable AI Service (including development and improvement of such AI Service and its underlying technologies); (b) we may use and store AI Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial-intelligence technologies; and (c) solely in connection with the development and improvement described in clauses (a) and (b), we may store such AI Content in an AWS region outside of the AWS region where you are using such AI Service. This Section does not apply to Amazon CodeWhisperer Professional, Amazon Comprehend Medical, Amazon Transcribe Medical, or any AI Service that is not listed in the first sentence of this Section 50.3. You may instruct AWS not to use and store AI Content processed by an AI Service to develop and improve that Service or technologies of AWS or its affiliates by configuring an AI services opt out policy using AWS Organizations. For access to AI Services via AWS Builder ID, you may instruct AWS to refrain from using and storing AI Content processed by an AI Service to develop and improve that Service or technologies of AWS or its affiliates by using the opt-out mechanism indicated in the applicable service documentation.
+
+[... cut ...]
+
+=== CARD R430f15 ===
+BEFORE:
+Finalités et moyens de traitement de vos informations
+
+| Recherche et innovation pour le bien-être social :<br><br>* Nous réalisons des sondages et utilisons des informations (notamment celles des chercheurs avec lesquels nous collaborons) pour orienter et soutenir la recherche et l’innovation sur des sujets de bien-être social général, d’avancement technologique, d’intérêt public, de santé et de bien-être.<br>* Par exemple, nous analysons les informations à notre disposition concernant les schémas de migration pendant les crises. Cela aide les organisations à but humanitaire à agir aux bons endroits.<br>* Nous recueillons, stockons, combinons, analysons les informations et nous les soumettons à des techniques de traitement automatique (telles que l’agrégation) ou à des examens manuels (humains), et les partageons dans la mesure nécessaire pour mener des recherches et innover pour le bien-être social.<br>* Nous soutenons la recherche dans des domaines tels que l’intelligence artificielle et le machine learning.<br><br>[En savoir plus] sur nos programmes de recherche. | [Votre activité et les informations que vous fournissez] :<br><br>* le contenu que vous créez, comme les publications, les commentaires ou les fichiers audio ;<br>* le contenu que vous fournissez via notre fonctionnalité appareil photo, les paramètres de votre pellicule ou les fonctionnalités activées vocalement ;<br>* les métadonnées à propos du contenu et des messages, sous réserve de la loi applicable ;<br>* les types de contenus que vous visualisez ou avec lesquels vous interagissez, et la manière dont vous interagissez avec eux ;<br>* les applications et les fonctionnalités que vous utilisez et les opérations que vous faites avec celles-ci ;<br>* les achats ou autres transactions que vous effectuez ;<br>* les hashtags que vous utilisez ;<br>* l’heure, la fréquence et la durée de vos activités sur nos Produits ;<br><br>[Amis, followers et autres relations.]<br><br>[Informations sur l’application, le navigateur et l’appareil] :<br><br>* les caractéristiques de l’appareil et le logiciel de l’appareil ;<br>* ce que vous faites sur votre appareil, par exemple si notre application est au premier plan ou si votre souris bouge (ce qui peut aider à distinguer les humains des robots) ;<br>* les identifiants qui nous permettent de différencier votre appareil de celui d’autres utilisateurs ;<br>* les signaux d’appareil ;<br>* les informations que vous avez partagées via les paramètres de votre appareil ;<br>* les informations géographiques ;<br>* les informations sur le réseau auquel vous connectez votre appareil, y compris votre adresse IP ;<br>* les informations provenant de cookies et de technologies similaires.<br><br>[Les informations provenant de partenaires, de fournisseurs et de tiers] |
+
+AFTER:
+Finalités et moyens de traitement de vos informations
+
+* Nous soutenons la recherche dans des domaines tels que l’intelligence artificielle et le machine learning.
+
+=== CARD R6d41a0 ===
+BEFORE:
+**1.23.** If you use any artificial intelligence and machine learning Services, features, and functionality (including third-party models) that we provide, it’s your responsibility to ensure that your use complies with all applicable laws, rules, and regulations, and the [AWS Responsible AI Policy].
+
+**1.24.** Certain Services may incorporate generative AI features, powered by Amazon Bedrock, that enable you to use prompts to generate output, including: Amazon Bio Discovery, Amazon CloudWatch, Amazon CodeCatalyst, Amazon Connect Customer, Amazon Connect Decisions, Amazon Connect Health, Amazon Connect Talent, AWS Database Migration Service, Amazon DataZone, Amazon Lex, Amazon OpenSearch Service, Amazon Personalize, Amazon Q, AWS Entity Resolution, AWS Transform, AWS AppFabric, AWS HealthScribe, AWS Resilience Hub, AWS App Studio, Kiro, Amazon SageMaker Data Agent, the model customization agent in SageMaker AI, Amazon Quick, AWS DevOps Agent, AWS Continuum (including features previously named AWS Security Agent), AWS FinOps Agent (Preview), Amazon WorkSpaces, and AWS Deadline Cloud.
+
+**1.24.1.** Amazon Bedrock abuse detection mechanisms may apply to such Services. See [here] and applicable Service-specific documentation for more details.
+
+AFTER:
+**1.23.** If you use any artificial intelligence and machine learning Services, features, and functionality (including third-party models) that we provide, it’s your responsibility to ensure that your use complies with all applicable laws, rules, and regulations, and the [AWS Responsible AI Policy].
+
+**1.24.** Certain Services may incorporate generative AI features, powered by Amazon Bedrock, that enable you to use prompts to generate output, including: Amazon Bio Discovery, Amazon CloudWatch, Amazon CodeCatalyst, Amazon Connect Customer, Amazon Connect Decisions, Amazon Connect Health, Amazon Connect Talent, AWS Database Migration Service, Amazon DataZone, Amazon Lex, Amazon OpenSearch Service, Amazon Personalize, Amazon Q, AWS Entity Resolution, AWS Transform, AWS AppFabric, AWS HealthScribe, AWS Resilience Hub, AWS App Studio, Kiro, Amazon SageMaker Data Agent, the model customization agent in SageMaker AI, Amazon Quick, AWS DevOps Agent, AWS Continuum (including features previously named AWS Security Agent), AWS FinOps Agent (Preview), Amazon WorkSpaces, AWS Deadline Cloud, and Amazon GuardDuty.
+
+**1.24.1.** Amazon Bedrock abuse detection mechanisms may apply to such Services. See [here] and applicable Service-specific documentation for more details.
+
+=== CARD R662bb2 ===
+BEFORE:
+We've tried our best to make this as easy to understand as possible but sometimes privacy policies are still confusing. If you need help understanding this policy or anything about Reddit, [just ask].
+
+What Information We Collect
+
+AFTER:
+We've tried our best to make this as easy to understand as possible but sometimes privacy policies are still confusing. If you need help understanding this policy or anything about Reddit, [just ask].
+
+When you submit content (e.g., a post, comment, or chat message) to a public part of the Services, any visitors to and users of our Services will be able to see that content, the username associated with the content, and the date and time you originally submitted the content. That content and information may also be available in search results on Internet search engines like Google or in responses provided by an AI chatbot like OpenAI’s ChatGPT. You should take the public nature of the Services into consideration before posting.
+
+What Information We Collect
+
+=== CARD Rec250e ===
+BEFORE:
+* If you elect to turn on personalized audio isolation, software on your device will capture and analyze a clip of your audio from meetings you join to create an Audio Signature used to differentiate your voice from, and suppress background noise in, meetings you join. Zoom does not receive or retain the clip or Audio Signature, which stays on your device and is only used for noise suppression in meetings you join. You may delete the Audio Signature from your device through your Zoom app settings.
+
+* Intelligent Features: If enabled by the account owner, Zoom provides intelligent features and products to its customers, their licensed end users and guests, such as Zoom IQ or other tools to recommend chat, email or other content. These tools may use artificial intelligence, machine learning, or other technology to process Customer Content solely to provide the intelligent features.
+
+* **Product Research and Development:** If authorized by any applicable customer settings, to develop, test, and improve Zoom products and services, and to troubleshoot products and services. **Zoom does not use any of your audio, video, chat, screen sharing, attachments or other communications-like Customer Content (such as poll results, whiteboard and reactions) to train Zoom’s or third-party artificial intelligence models.**
+
+AFTER:
+* If you elect to turn on personalized audio isolation, software on your device will capture and analyze a clip of your audio from meetings you join to create an Audio Signature used to differentiate your voice from, and suppress background noise in, meetings you join. Zoom does not receive or retain the clip or Audio Signature, which stays on your device and is only used for noise suppression in meetings you join. You may delete the Audio Signature from your device through your Zoom app settings.
+
+* Intelligent Features: If enabled by the account owner, Zoom provides intelligent features and products to its customers, their licensed end users and guests, such as Zoom AI Companion or other tools to recommend chat, email or other content. These tools may use artificial intelligence, machine learning, or other technology to process Customer Content solely to provide the intelligent features.
+
+* **Product Research and Development:** If authorized by any applicable customer settings, to develop, test, and improve Zoom products and services, and to troubleshoot products and services. **Zoom does not use any of your audio, video, chat, screen sharing, attachments or other communications-like Customer Content (such as poll results, whiteboard and reactions) to train Zoom’s or third-party artificial intelligence models.**
+
+=== CARD Ref9981 ===
+BEFORE:
+The protection of personal data is of particular importance to us. In the following, we inform you in detail about the collection of personal data when using our website (gumb.app) and our apps (web.gumb.app). Personal data means all data with which conclusions can be drawn about you personally, such as name, address, email addresses, or user behavior. The processing is always carried out in accordance with the General Data Protection Regulation (GDPR) and the Swiss Federal Act on Data Protection (FADP).
+
+AFTER:
+6. [6 Contact, Support, and AI-Assisted Business Processes]
+
+The protection of personal data is of particular importance to us. In the following, we inform you in detail about the collection of personal data when using our website (gumb.app) and our apps (web.gumb.app). Personal data means all data with which conclusions can be drawn about you personally, such as name, address, email addresses, or user behavior. The processing is always carried out in accordance with the General Data Protection Regulation (GDPR) and the Swiss Federal Act on Data Protection (FADP).
+
+BEFORE:
+* Technical log data to ensure operational security
+
+##### 6\. Contact, Support, and AI-Assisted Business Processes
+
+If you contact us by email or via a contact form, we process the personal data you provide (in particular your email address and, if applicable, your name and telephone number) to handle your request.
+
+AFTER:
+* Technical log data to ensure operational security
+
+6 Contact, Support, and AI-Assisted Business Processes
+
+If you contact us by email or via a contact form, we process the personal data you provide (in particular your email address and, if applicable, your name and telephone number) to handle your request.
+
+BEFORE:
+Further information can be found in [Zendesk’s privacy policy.]
+
+**6.2 AI-Assisted Business Processes**
+
+We use AI language models as internal tools to make various business processes more efficient and to improve their quality. These include, among others:
+
+AFTER:
+Further information can be found in [Zendesk’s privacy policy.]
+
+### 6.2 AI-Assisted Business Processes
+
+We use AI language models as internal tools to make various business processes more efficient and to improve their quality. These include, among others:
+
+=== CARD R0a4aed ===
+BEFORE:
+_Last Updated: April 2, 2026_
+
+Welcome, and thank you for your interest in OpenRouter, Inc. (“**OpenRouter**,” “**we**,” or “**us**”) and our website at [https://openrouter.ai/] (“**Site**”), along with our related websites, networks, applications, and other services provided by us (collectively, our “**Service**”). These Terms of Service are a legally binding contract between you and OpenRouter regarding your use of the Service.
+
+PLEASE READ THE FOLLOWING TERMS CAREFULLY. BY CLICKING “I ACCEPT,” OR BY USING THE SERVICE, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THE FOLLOWING TERMS AND CONDITIONS, INCLUDING THE OPENROUTER PRIVACY POLICY (TOGETHER, THE “**TERMS**”). If you are not eligible, or do not agree to the Terms, then you do not have our permission to use the Service.
+
+AFTER:
+_Last Updated: April 2, 2026_
+
+Welcome, and thank you for your interest in OpenRouter, Inc. (“**OpenRouter**,” “**we**,” or “**us**”) and our website at [https://openrouter.ai/(opens in new tab)] (“**Site**”), along with our related websites, networks, applications, and other services provided by us (collectively, our “**Service**”). These Terms of Service are a legally binding contract between you and OpenRouter regarding your use of the Service.
+
+PLEASE READ THE FOLLOWING TERMS CAREFULLY. BY CLICKING “I ACCEPT,” OR BY USING THE SERVICE, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THE FOLLOWING TERMS AND CONDITIONS, INCLUDING THE OPENROUTER PRIVACY POLICY (TOGETHER, THE “**TERMS**”). If you are not eligible, or do not agree to the Terms, then you do not have our permission to use the Service.
+
+BEFORE:
+------------------------------------------
+
+You may provide input into the Services, which may include images, data, text, and other types of work (“**Input**”) and receive an output from the Services based on your Input (“**Output**”, and collectively, the Input and Output are “**User Content**”). You retain copyright and any other proprietary rights that you may hold in the Input. Your ownership rights in the Output are set forth in terms for each AI Model you use (“**AI Model Terms**”), a list of which is provided [here]. While we strive to keep the AI Model Terms up to date every time we add or remove each AI Model from the Service, there may be incorrect or missing terms. If you see any linked terms to AI Models that are inaccurate, missing or out of date, you may contact us at [support@openrouter.ai]. Some AI Models may store or train on your Inputs for improving their own large language models and may allow you to opt-out of model training, as described in their AI Model Terms. Where possible, OpenRouter has opted out of model training with the AI Models it uses. OpenRouter strives to accurately represent the status of prompt logging and training for each AI Model on our Site. However, OpenRouter is not liable for errors or misrepresentations made in any AI Model Terms. You are encouraged to review AI Model Terms yourself as needed.
+
+5.2 Opt-In License for OpenRouter Using Inputs/Outputs.
+
+AFTER:
+------------------------------------------
+
+You may provide input into the Services, which may include images, data, text, and other types of work (“**Input**”) and receive an output from the Services based on your Input (“**Output**”, and collectively, the Input and Output are “**User Content**”). You retain copyright and any other proprietary rights that you may hold in the Input. Your ownership rights in the Output are set forth in terms for each AI Model you use (“**AI Model Terms**”), a list of which is provided [here(opens in new tab)]. While we strive to keep the AI Model Terms up to date every time we add or remove each AI Model from the Service, there may be incorrect or missing terms. If you see any linked terms to AI Models that are inaccurate, missing or out of date, you may contact us at [support@openrouter.ai]. Some AI Models may store or train on your Inputs for improving their own large language models and may allow you to opt-out of model training, as described in their AI Model Terms. Where possible, OpenRouter has opted out of model training with the AI Models it uses. OpenRouter strives to accurately represent the status of prompt logging and training for each AI Model on our Site. However, OpenRouter is not liable for errors or misrepresentations made in any AI Model Terms. You are encouraged to review AI Model Terms yourself as needed.
+
+5.2 Opt-In License for OpenRouter Using Inputs/Outputs.
+
+BEFORE:
+---------------------------------
+
+OpenRouter uses a hosted model for categorizing Inputs, which does not store or log any Inputs provided to it. In using the Service, you grant to OpenRouter a worldwide, perpetual, irrevocable, non-exclusive, royalty-free, fully paid right and license (with the right to sublicense) to use, host, reproduce, and prepare derivative works of, your Inputs in anonymized form, solely for tracking and sharing user metrics on the Site, such as for example, on our Rankings Page, on an ongoing basis. Unless explicitly opted in to prompt logging, we do not store your Inputs after categorizing them and do not associate the categorized Inputs with any specific user or organizational accounts. Additional information regarding categorizing inputs is available [here].
+
+5.5 Input Representations and Warranties.
+
+AFTER:
+---------------------------------
+
+OpenRouter uses a hosted model for categorizing Inputs, which does not store or log any Inputs provided to it. In using the Service, you grant to OpenRouter a worldwide, perpetual, irrevocable, non-exclusive, royalty-free, fully paid right and license (with the right to sublicense) to use, host, reproduce, and prepare derivative works of, your Inputs in anonymized form, solely for tracking and sharing user metrics on the Site, such as for example, on our Rankings Page, on an ongoing basis. Unless explicitly opted in to prompt logging, we do not store your Inputs after categorizing them and do not associate the categorized Inputs with any specific user or organizational accounts. Additional information regarding categorizing inputs is available [here(opens in new tab)].
+
+5.5 Input Representations and Warranties.
+
+BEFORE:
+### 7\. Red Teaming.
+
+As Red Teaming is a violation of many AI Model Terms, OpenRouter allows Red Teaming only for legitimate research purposes and requires users interested in Red Teaming to first submit a written request. Any unauthorized Red Teaming will be flagged by OpenRouter's and AI Model providers' monitoring systems and are likely to result in account and access termination by AI Model providers. If you would like to conduct Red Teaming exercises, please review our Red Teaming documentation [here] and submit an appropriate request. OpenRouter will review each request and approve or deny in writing, often within five (5) business days. Approval is granted on a case-by-case basis and is not guaranteed.
+
+### 8\. Termination of Use; Discontinuation and Modification of the Service.
+
+AFTER:
+### 7\. Red Teaming.
+
+As Red Teaming is a violation of many AI Model Terms, OpenRouter allows Red Teaming only for legitimate research purposes and requires users interested in Red Teaming to first submit a written request. Any unauthorized Red Teaming will be flagged by OpenRouter's and AI Model providers' monitoring systems and are likely to result in account and access termination by AI Model providers. If you would like to conduct Red Teaming exercises, please review our Red Teaming documentation [here(opens in new tab)] and submit an appropriate request. OpenRouter will review each request and approve or deny in writing, often within five (5) business days. Approval is granted on a case-by-case basis and is not guaranteed.
+
+### 8\. Termination of Use; Discontinuation and Modification of the Service.
+
+=== CARD R7d404f ===
+BEFORE:
+We may change our Service and policies, and we may need to make changes to these Terms so that they accurately reflect our Service and policies. Unless otherwise required by law, we will notify you (for example, through our Service) before we make changes to these Terms and give you an opportunity to review them before they go into effect. Then, if you continue to access or use the Service, you will be bound by the updated Terms. If you do not agree to any updated Terms or wish to terminate your agreement to this contract, you can do so by deleting your account [here] and no longer accessing or using any part of the Instagram Service.
+
+AFTER:
+We may change our Service and policies, and we may need to make changes to these Terms so that they accurately reflect our Service and policies. Unless otherwise required by law, we will notify you (for example, through our Service) before we make changes to these Terms and give you an opportunity to review them before they go into effect. Then, if you continue to access or use the Service, you will be bound by the updated Terms. If you do not agree to any updated Terms or wish to terminate your agreement to this contract, you can do so by deleting your account [here] and no longer accessing or using any part of the Instagram Service.
+
+Chat with Meta AI support assistant
+
+=== CARD R3aec7e ===
+BEFORE:
+----------------------------------
+
+WeChat is a global platform. Our engineering, technical, and other support teams are based in our offices around the world (including Singapore and the Netherlands), and may have incidental access to certain of your information, for example, in order to fix technical issues that you report. The Personal Information that we collect from you will be transferred to, stored at, or processed in Singapore and Hong Kong SAR. We rely on the European Commission's model contracts for the transfer of personal data to third countries.
+
+7\. SECURITY OF YOUR PERSONAL INFORMATION
+
+AFTER:
+----------------------------------
+
+We rely on the European Commission’s model contracts for the transfer of Personal Information of EEA users to third countries. For more information, please access this site: [https://commission.europa.eu/publications/publications-standard-contractual-clauses-sccs\_en].
+
+7\. SECURITY OF YOUR PERSONAL INFORMATION
+
+=== CARD R437711 ===
+BEFORE:
+To enjoy Speechify via your smartphone or other Device, your Device must satisfy certain system requirements. These requirements can be found on the Apple App Store and Google Play Store.
+
+**5.1 COPYRIGHT**
+
+AFTER:
+To enjoy Speechify via your smartphone or other Device, your Device must satisfy certain system requirements. These requirements can be found on the Apple App Store and Google Play Store.
+
+**4.3** All use of the Services must be through genuine human interactions of our front-facing clients; notwithstanding the foregoing, using a billable bona-fide API key is permitted to AI Voice API users pursuant to the supplementary AI Voice API terms and conditions available at [https://speechify.com/terms-ai-voice-api/] and referenced herein as a supplement to these Terms applicable for users of the AI Voice API service,
+
+**4.4** The Services, with the exception of Speechify Voice Over Studio, are not intended for your commercial use. Any commercial advertisements, affiliate links, and other forms of solicitation that you upload or submit to the Services may be removed by us without notice and result in termination of your right to use some or all of the Services and/or materials. You must not use any part of the materials used in or on the Services for commercial purposes without obtaining a written license to do so from us. Material from the Services may not be copied or distributed, or republished, or transmitted in any way, without our prior written consent. Any unauthorized use or violation of these Terms immediately and automatically terminates your right to use the Services and may subject you to legal liability. A breach of these Terms, includes without limitation, the unauthorized copying or download of our audio or video content from the Services. Subject to your compliance with these Terms and any applicable additional terms, you may use Speechify Voice Over Studio AI voice overs for commercial purposes. You can also distribute or otherwise make available AI voice overs created with Speechify Voice Over Studio to third parties who intend to use the voice overs for commercial purposes.
+
+**5.1 COPYRIGHT**
+
+BEFORE:
+**5.1 COPYRIGHT**
+
+(d) The Services, with the exception of Speechify Voice Over Studio, are not intended for your commercial use. Commercial advertisements, affiliate links, and other forms of solicitation may be removed by us without notice and may result in termination of privileges. You must not use any part of the materials used in or on the Services for commercial purposes without obtaining a written license to do so from us. Material from the Services may not be copied or distributed, or republished, or transmitted in any way, without our prior written consent. Any unauthorized use or violation of these Terms immediately and automatically terminates your right to use the Services and may subject you to legal liability. You agree not to use the Services for illegal purposes (including, without limitation, unlawful, harassing, libelous, invasion of another’s privacy, abusive, threatening or obscene purposes) and you agree that you will comply with all laws, rules and regulations related to your use of the Services. Appropriate legal action may be taken for any illegal or unauthorized use of the Services. You can use Speechify Voice Over Studio AI voice overs for commercial purposes. You can also distribute or otherwise make available AI voice overs created with Speechify Voice Over Studio to third parties who intend to use the voice overs for commercial purposes.
+
+**5.2 TRADEMARKS**
+
+AFTER:
+**5.1 COPYRIGHT**
+
+**5.2 TRADEMARKS**
+
+BEFORE:
+(c) Your User Material does not advertise any product or service or solicit any business.
+
+(g) You agree not to engage in unacceptable use of the Services, which includes, without limitation, use of the Services to: (i) disseminate or transmit unauthorized advertisements, promotional materials, junk mail, spam, or any other form of solicitation, (ii) gather or collect personal data, including email addresses, of other users of the Services without their express consent, (iii) carry out any unlawful, invasive, infringing, defamatory, or fraudulent activity, (iv) distribute viruses, trojans, or other harmful computer code, (v) circumnavigate or aid others in circumnavigating restrictions put in place to access premium services without payment, (vi) upload, post, or otherwise transmit content that harasses, threatens, or harms individuals or groups, (vii) use the Service to create deceptive or misleading voice clones without the explicit consent of the individual whose voice is being replicated, (viii) publish or share content that incites violence or promotes hate based on race, ethnicity, religion, gender, sexual orientation, disability, or any other characteristic, (ix) engage in any activity that is harmful or disruptive, including, but not limited to, content that violates laws or regulations, invades others’ privacy, infringes on Intellectual Property Rights, or promotes illegal activities, (x) use our services in any manner that is neither intended nor authorized, including but not limited to directly calling any of our servers endpoints; you agree that any such actions constitutes unauthorized access pursuant to the Computer Fraud & Abuse Act and that all use of our services by you must happen through genuine human interactions of our front-facing clients; notwithstanding the foregoing, using a billable bona-fide API key is permitted to AI Voice API users pursuant to the supplementary AI Voice API terms and conditions available at [https://speechify.com/terms-ai-voice-api/] and referenced herein as a supplement to these Terms applicable for users of the AI Voice API service, (xi) use the Services to infringe the intellectual property rights of others; any unauthorized use of copyrighted material or trademarks through the Services, including attempts to replicate or distribute such materials without permission, will result in immediate termination of your account and legal action, or (xii) circumvent or attempt to circumvent any digital rights management or other content and software protection systems used on or with the Services. Consequences of unacceptable use include immediate account termination and legal action.
+
+(a) An electronic or physical signature of the person authorized to act on behalf of the owner of the copyright or other intellectual property interest;
+
+AFTER:
+(c) Your User Material does not advertise any product or service or solicit any business.
+
+(a) An electronic or physical signature of the person authorized to act on behalf of the owner of the copyright or other intellectual property interest;
+
+BEFORE:
+**13.9 ENTIRE AGREEMENT**
+
+**Financial Hardship Considerations:** – Participants claiming financial travel hardship may provide evidence of their financial statusin the form of a declaration under oath regarding monthly income and the number of persons in the consumer’s household alongside their legal name, date of birth, and home address for travel booking. Speechify will consider subsidizing travel costs for eligible participants. This may include booking air or bus travel to Miami-Dade. You accept that applying for subsidy may delay the agreed settlement conference date in order to enable Speechify to secure cost-effective travel arrangements for you with an advanced enough purchase of tickets by air, train, or bus. Speechify will book travel directly on your behalf for a day trip to the conference. Speechify may consider offering you temporary one-night housing at its sole discretion and on a case-by-case basis. Travel accommodation is not guaranteed.
+
+Exceptions to Pre-Litigation are outlined in Section 13.13 Expedited Dispute Resolution for Urgent Bona Fide User Claims. Additionally, this section does not require informal dispute resolution or arbitration of the claims seeking any relief or remedy measures against unauthorized use or abuse of the Services or intellectual property infringement or misappropriation of Speechify’s intellectual property, AI models, trademarks, patents, or copyright.
+
+**13.15 EXCLUSIVE VENUE**
+
+AFTER:
+**13.9 ENTIRE AGREEMENT**
+
+**13.15 EXCLUSIVE VENUE**
+
+=== CARD Rcee187 ===
+BEFORE:
+| To diagnose, troubleshoot, and fix issues with the Spotify Service. | * User Data<br>* Usage Data |
+
+| To evaluate and develop new features, technologies, and improvements to the Spotify Service. <br>For example:<br><br>* we use personal data to develop and improve our personalized recommendation algorithms<br>* we analyze how our users react to a particular new feature and see whether we should make any changes | * User Data<br>* Usage Data<br>* Survey and Research Data |
+
+| To comply with a request from law enforcement, courts, or other competent authorities. | * User Data<br>* Street Address Data<br>* Usage Data<br>* Payment and Purchase Data<br>* Survey and Research Data |
+
+AFTER:
+| To diagnose, troubleshoot, and fix issues with the Spotify Service. | * User Data<br>* Usage Data |
+
+| To evaluate and develop new features, technologies, and improvements to the Spotify Service.<br><br> <br><br>For example:<br><br>* we use personal data to develop and improve our personalized recommendation algorithms<br>* we analyze how our users react to a particular new feature and see whether we should make any changes | * User Data<br>* Usage Data<br>* Survey and Research Data |
+
+| To comply with a request from law enforcement, courts, or other competent authorities. | * User Data<br>* Street Address Data<br>* Usage Data<br>* Payment and Purchase Data<br>* Survey and Research Data |
+
+=== CARD Rbe4c6e ===
+BEFORE:
+When you communicate with us, we may monitor or record the interaction to help us better serve you; to personalize your experiences; to train or otherwise support employees, resources or systems; and for security purposes. We may use artificial intelligence managed by humans, such as chatbots, to respond to your inquiry. When you interact with us through third-party services like Facebook Messenger or Twitter Direct Message, your communications are also governed by these companies’ privacy policies.
+
+information about your visits
+
+AFTER:
+information about your visits
+
+BEFORE:
+| --- | --- |
+
+| Information from your calls and chats with our service and support representatives | * To help train employees and support resources and systems to better serve you<br>* To provide customized technical support<br>* To assist you with device settings |
+
+* To help train employees and support resources and systems to better serve you
+
+| | | |
+
+AFTER:
+| --- | --- |
+
+| | | |
+
+BEFORE:
+--------------------------------------------------------------------------------
+
+We use technical, administrative and physical safeguards to help protect against unauthorized access to, use or disclosure of information we collect or store. In addition, we train our employees on the importance of privacy and security, as well as the proper ways to access, use and disclose customer information. Our practices and policies prohibit employees with whom we share this information from using sensitive information unless they are authorized to do so and have a business need.
+
+**Verizon Wireline**
+
+AFTER:
+--------------------------------------------------------------------------------
+
+**Verizon Wireline**
+
+BEFORE:
+Washington, DC 20005
+
+This law gives you the right to know whether we collect information about you; access, correct and delete certain information; opt out of having personal information about you sold or used for target advertising purposes or to prevent us from using artificial intelligence to create a profile about you to make legally or similar significant decisions about you.
+
+[]
+
+AFTER:
+Washington, DC 20005
+
+[]
+
+=== CARD R3f038a ===
+BEFORE:
+##### Automated decision making
+
+We may process your personal information using automated decision making technologies or algorithms, such as when we automatically select advertising or content that may be of interest to you. These technologies are not used to make automated decisions that have legal or similarly significant effect on you.
+
+#### OPT OUT OF RECEIVING MARKETING MESSAGES
+
+AFTER:
+##### Automated decision making
+
+We may process your personal information using automated decision-making technologies or algorithms, such as when we automatically select advertising or content that may be of interest to you. These technologies are not used to make automated decisions that have legal or similarly significant effect on you.
+
+#### OPT OUT OF RECEIVING MARKETING MESSAGES
+
+=== CARD R7fb8d9 ===
+BEFORE:
+If you are a child under the age of 18, please do not attempt to register for or otherwise use our Services. If we learn that we have inadvertently obtained personal information about a child under the age of 18 via our Services, or from any other source, then we will delete that information as soon as possible.
+
+### 10\. Your rights and choices
+
+AFTER:
+If you are a child under the age of 18, please do not attempt to register for or otherwise use our Services. If we learn that we have inadvertently obtained personal information about a child under the age of 18 via our Services, or from any other source, then we will delete that information as soon as possible.
+
+Please contact us at [privacy@x.ai] if you are aware that we may have inadvertently collected personal information from a child under the age of 18.
+
+### 10\. Your rights and choices
+
+BEFORE:
+* Having in place standard contractual clauses with the recipient which have been approved by the European Commission for transfers outside the EEA or the UK Government for transfers out of the UK.
+
+Your rights
+
+AFTER:
+* Having in place standard contractual clauses with the recipient which have been approved by the European Commission for transfers outside the EEA or the UK Government for transfers out of the UK.
+
+Further details on the steps we take to protect your personal information, in these cases, are available up on request by contacting us by email at privacy@x.ai at any time.
+
+Your rights
+
+BEFORE:
+* You have the right to **complain to a supervisory authority** about our collection and use of your personal information. For more information, please contact your local supervisory authority. Contact details for supervisory authorities in the EEA and the UK are available [here]. Certain supervisory authorities may require that you exhaust our own internal complaints process before looking into your complaint.
+
+Please note, however, that certain personal information may be exempt from such requests in certain circumstances, for example if we need to keep using the information to comply with our own legal obligations or to establish, exercise or defend legal claims. If an exception applies, we will inform you when responding to your request. We may request you provide us with information necessary to confirm your identity before responding to any request you make.
+
+AFTER:
+* You have the right to **complain to a supervisory authority** about our collection and use of your personal information. For more information, please contact your local supervisory authority. Contact details for supervisory authorities in the EEA and the UK are available [here]. Certain supervisory authorities may require that you exhaust our own internal complaints process before looking into your complaint.
+
+You can exercise your rights by contacting us at [privacy@x.ai]. We will consider all such requests and provide our response in accordance with applicable data protection laws.
+
+Please note, however, that certain personal information may be exempt from such requests in certain circumstances, for example if we need to keep using the information to comply with our own legal obligations or to establish, exercise or defend legal claims. If an exception applies, we will inform you when responding to your request. We may request you provide us with information necessary to confirm your identity before responding to any request you make.
+
+BEFORE:
+* The right to be free from discrimination for exercising the rights afforded to you under applicable privacy laws
+
+_Verification:_ In order to protect your personal information, your ability to exercise some of the rights detailed in this Privacy Policy may be subject to your ability to verify that you are the person about whom your request pertains. For example, we may require you to verify your identity by validating your X account credentials. If we suspect fraudulent or malicious activity, we may ask you to supply additional information to allow us to verify your identity.
+
+AFTER:
+* The right to be free from discrimination for exercising the rights afforded to you under applicable privacy laws
+
+_Exercising your rights_: Some of these rights may be exercised in the xAI service but others you will need to submit a request to [privacy@x.ai].
+
+_Verification:_ In order to protect your personal information, your ability to exercise some of the rights detailed in this Privacy Policy may be subject to your ability to verify that you are the person about whom your request pertains. For example, we may require you to verify your identity by validating your X account credentials. If we suspect fraudulent or malicious activity, we may ask you to supply additional information to allow us to verify your identity.
+
+BEFORE:
+_Authorized Agents:_ To exercise your rights using an Authorized Agent (as defined under applicable law). To do this, you must provide your Authorized Agent with written permission to exercise your rights on your behalf, and we may request a copy of this written permission from your Authorized Agent when they make a request on your behalf.
+
+_Do Not Track:_ Please note that because the effect of "Do Not Track" signals remains unclear, and there continues to be no consistent industry understanding of how to respond to such a signal, we do not alter our privacy practices when we detect a "Do Not Track" signal from your browser.
+
+AFTER:
+_Authorized Agents:_ To exercise your rights using an Authorized Agent (as defined under applicable law). To do this, you must provide your Authorized Agent with written permission to exercise your rights on your behalf, and we may request a copy of this written permission from your Authorized Agent when they make a request on your behalf.
+
+_Appeals:_ The right to appeal a decision we make. If we refuse to take action on a request within a reasonable period of time after receiving your request, you may appeal our decision by emailing us at [privacy@x.ai]. In such an appeal, you must (1) provide sufficient information to allow us to verify that you are the person about whom the original request pertains and to identify the original request, and (2) provide a description of the basis of your appeal. Please note that your appeal will be subject to your rights and obligations afforded to you under applicable law.
+
+_Do Not Track:_ Please note that because the effect of "Do Not Track" signals remains unclear, and there continues to be no consistent industry understanding of how to respond to such a signal, we do not alter our privacy practices when we detect a "Do Not Track" signal from your browser.
+
+BEFORE:
+### 14\. How to contact us
+
+X.AI Corp. 216 Park Road Burlingame, CA 94010
+
+AFTER:
+### 14\. How to contact us
+
+If you have any queries or complaints about our collection, use or storage of your personal information, or if you wish to exercise any of your rights in relation to your personal information, please contact [privacy@x.ai] or by mail using the following contact details:
+
+X.AI Corp. 216 Park Road Burlingame, CA 94010
+
+=== CARD R14b06c ===
+BEFORE:
+--------------------------------------------------------------
+
+Nous vous garantissons des paiements en ligne sécurisés.
+
+AFTER:
+--------------------------------------------------------------
+
+Certaines offres peuvent apparaître accompagnées du terme « **sponsorisé** » : ces offres ont fait l’objet d’une rémunération influençant leur classement. Les marchands et marques participent à des enchères pour figurer dans cet espace. Nous appliquons cependant nos algorithmes à ces résultats afin qu’ils soient pertinents par rapport à la recherche.
+
+Nous vous garantissons des paiements en ligne sécurisés.
+
+BEFORE:
+--------------------------------------------------------------
+
+Nous vous garantissons des paiements en ligne sécurisés.
+
+AFTER:
+--------------------------------------------------------------
+
+Certaines offres peuvent apparaître accompagnées du terme « **sponsorisé** » : ces offres ont fait l’objet d’une rémunération influençant leur classement. Les marchands et marques participent à des enchères pour figurer dans cet espace. Nous appliquons cependant nos algorithmes à ces résultats afin qu’ils soient pertinents par rapport à la recherche.
+
+Nous vous garantissons des paiements en ligne sécurisés.
+
+=== CARD Rd9829e ===
+BEFORE:
+[]
+
+[Model Gallery][Documentation][Pricing][Enterprise]Resources
+
+AFTER:
+[]
+
+[Model APIs][Serverless][Compute]
+
+[Model Gallery][Documentation][Pricing][Enterprise]Resources
+
+=== CARD R6086a2 ===
+BEFORE:
+We use a third-party to provide monetization technologies for our site. You can review their privacy and cookie policy [here].
+
+Our Services may contain links to other websites, products, or services that we do not own or operate. We are not responsible for the privacy practices of these third parties. Please be aware that this Privacy Policy does not apply to your activities on these third-party services or any information you disclose to these third parties. We encourage you to read their privacy policies before providing any information to them.
+
+AFTER:
+We use a third-party to provide monetization technologies for our site. You can review their privacy and cookie policy [here].
+
+Civit AI, Inc. participates in the IAB Europe Transparency & Consent Framework and complies with its Specifications and Policies. Civit AI, Inc. uses the Consent Management Platform with the identification number 9.
+
+Our Services may contain links to other websites, products, or services that we do not own or operate. We are not responsible for the privacy practices of these third parties. Please be aware that this Privacy Policy does not apply to your activities on these third-party services or any information you disclose to these third parties. We encourage you to read their privacy policies before providing any information to them.
+
+=== CARD Rc817e5 ===
+BEFORE:
+This applies to information we collect as part of providing broadband Internet access services to you.
+
+We may use automated processing, including artificial intelligence, to assist us with these uses. For example, we use predictive analytics to monitor our network for faults and outages which helps us proactively and rapidly fix issues, and we may use machine learning techniques to train algorithmic models with information we have about you and other customers to provide more relevant marketing messages or predict what services might be of interest.
+
+Our Custom Experience program uses information about [sites you visit and apps you use] on your mobile device to help us better personalize our communications with you, give you more relevant product and service recommendations, and develop plans, services, and offers that are more appealing to you. You are included in the program [unless you opt out.]
+
+AFTER:
+This applies to information we collect as part of providing broadband Internet access services to you.
+
+We may use automated processing, including artificial intelligence, to assist us with these uses. For example, we use predictive analytics to monitor our network for faults and outages which helps us proactively and rapidly fix issues, and we may use machine learning techniques to train algorithmic models with information we have about you and other customers to provide more relevant marketing messages or predict what services might be of interest. We do not collect, use or sell personal information for the purpose of training large language models.
+
+Our Custom Experience program uses information about [sites you visit and apps you use] on your mobile device to help us better personalize our communications with you, give you more relevant product and service recommendations, and develop plans, services, and offers that are more appealing to you. You are included in the program [unless you opt out.]

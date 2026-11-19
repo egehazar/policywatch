@@ -1,0 +1,522 @@
+Each card shows the BEFORE and AFTER text of one change to a company's terms of service or privacy policy (only the changed passages that mention AI or models, with a little context). Read both and answer one label:
+- NEW: the AFTER text lets the company (or partners it shares data with) use its users' content or personal data to train or improve AI / machine-learning models, and the BEFORE text did not.
+- WIDER: the BEFORE text already allowed that, and the AFTER text allows clearly more (more kinds of data, generative AI, new recipients, fewer limits, an opt-out removed).
+- SAME: both allow it to about the same extent (rewording, moving text, small clarifications).
+- NO: the AFTER text does not let the company train AI on users' data (for example: a promise not to train, a ban on users training AI on the service, AI features or third-party models mentioned without training on users' data, or training only on data that is not users' own, such as public web data).
+- UNCLEAR: the passages shown are not enough to tell.
+For NEW or WIDER, also give the scope of the training use:
+- THIRD: users' data is shared with other companies for THEM to train AI.
+- GENERAL: generative or general-purpose AI, or AI/ML models with no narrow purpose named.
+- NARROW: models for one named operational purpose only (ads, recommendations, fraud, safety, support, search).
+(If several apply, the first in this order.) For the other labels, scope is "-".
+Then quote the one AFTER sentence that decides it (or "-" for NO with nothing to quote).
+
+Answer as JSON lines: {"card": "<id>", "label": "<NEW|WIDER|SAME|NO|UNCLEAR>", "scope": "<THIRD|GENERAL|NARROW|->", "quote": "<sentence>"}
+
+=== CARD R92a80d ===
+BEFORE:
+Last revised 01/16/2023. To see the previous terms, please [click here].
+
+AFTER:
+Last revised 01/16/2023. To see the previous terms, please [click here].
+
+2.4 Unsupported & Test Services. Sinch Email may designate Services as “non-standard", “reasonable endeavors" or “best efforts", or with like designation (collectively “Unsupported Services"). Sinch Email makes no representation or warranty with respect to Unsupported Services except that it will use good faith efforts as may be expected of technicians having generalized knowledge and training in information technology systems. Sinch Email has no guarantee of results in this regard. Sinch Email or the Sinch Group shall not be liable to you for any loss or damage arising from the provision of Unsupported Services and SLAs shall not apply to Unsupported Services, or any other aspect of the Customer Configuration that is adversely affected by Unsupported Services. If you use any Services that have been designated as a “Test", “Beta" or “early access" or with like designation then your use of those Services is subject to the Sinch Email Test Terms as provided to Customer.
+
+=== CARD Rfd422c ===
+BEFORE:
+| --- | --- | --- | --- | --- | --- |
+
+| **Artificial Intelligence (AI)** | Communications Activity, Job Applications, Job Interests & Activity, Profile Information, Sales & Support History, Security & Login Information, Service Activity, Submitted Content, User Support & Feedback | Users, Affiliates, Customers, Third-Party Data Providers | AffiliatesAnalytics & Optimization ProvidersCloud Storage & Computing Services and Associated Tools & Software ProvidersFraud Detection & Security ProvidersInformation Technology Service & Support Providers | _When personal data is shared with Affiliates for the purposes of powering AI features on their services._Communications Activity, Job Applications, Job Interests & Activity, Profile Information, Sales & Support HistorySecurity & Login Information, Service Activity, Submitted Content, User Support & Feedback | _When you utilize AI features on our services_ It is necessary for the performance of a contract with the individual <br>_When we share personal data with Affiliates for the purposes of powering AI features on their services and when they share such personal data with us for powering AI features._ It is necessary for the purposes of our legitimate interests |
+
+| **Account & Profile** | Profile Information, Security & Login Information | Users, Affiliates, Customers, Third-Party Data Providers | Analytics & Optimization Providers, Cloud Storage & Computing Services and Associated Tools & Software Providers, Fraud Detection & Security Providers, Information Technology Service & Support Providers | | It is necessary for the performance of a contract with the individual |
+
+AFTER:
+| --- | --- | --- | --- | --- | --- |
+
+| **Artificial Intelligence (AI)** | Communications Activity, Job Applications, Job Interests & Activity, Profile Information, Sales & Support History, Security & Login Information, Service Activity, Submitted Content, User Support & Feedback | Users, Affiliates, Customers, Third-Party Data Providers | AffiliatesAnalytics & Optimization ProvidersCloud Storage & Computing Services and Associated Tools & Software ProvidersFraud Detection & Security ProvidersInformation Technology Service & Support Providers | _When personal data is shared with Affiliates for the purposes of powering AI features on their services._Communications Activity, Job Applications, Job Interests & Activity, Profile Information, Sales & Support HistorySecurity & Login Information, Service Activity, Submitted Content, User Support & Feedback | _When you utilize AI features on our services_ It is necessary for the performance of a contract with the individual_When we share personal data with Affiliates for the purposes of powering AI features on their services and when they share such personal data with us for powering AI features._ It is necessary for the purposes of our legitimate interests |
+
+| **Account & Profile** | Profile Information, Security & Login Information | Users, Affiliates, Customers, Third-Party Data Providers | Analytics & Optimization Providers, Cloud Storage & Computing Services and Associated Tools & Software Providers, Fraud Detection & Security Providers, Information Technology Service & Support Providers | | It is necessary for the performance of a contract with the individual |
+
+=== CARD R93e46b ===
+BEFORE:
+| **To communicate with you - We use information we collect, like your email address, to interact with you directly.**<br><br>Examples of processing activities:<br><br>* We may send you a notification if we detect suspicious activity, like an attempt to sign in to your Google Account from an unusual location.<br>* We may let you know about upcoming changes or improvements to our services.<br>* If you contact Google, we’ll keep a record of your request in order to help solve any issues you might be facing.<br>* Google services like Photos may send you marketing communications about its product offerings like printing promotions, depending on your settings.<br>* Google services like YouTube Premium and YouTube Music Premium may notify you about upcoming changes to your subscription. | The information processed will depend on how you use Google services and your settings but could include the following:<br><br>* [Things you create or provide to us]:<br> * Content you create, upload, or receive (like photos, videos, emails, docs and spreadsheets). [Google Dashboard] allows you to manage information associated with specific products.<br> * Personal information that you provide us when you create a Google Account (like your [name] and password, [phone number], date of birth, or [payment information]).<br>* [Information that we collect as you use our services]:<br> * [Information about your apps, browsers & devices], such as [unique identifiers] tied to the browser, application, or device you’re using; and information about the interaction of your apps, browsers, and devices with our services, (like IP address, crash reports, and system activity).<br> * [Information about your activity in our services], such as your search terms, Chrome browsing history you’ve synced with your Google Account, your views and interactions with content and ads, and your activity on third-party sites and apps that use our services. You can review and control activity data stored in your Google Account in [My Activity].<br> * [Location information], such as may be determined by GPS, IP address, and other data from sensors on or around your device, depending in part on your device and account settings.<br>* [Information from publicly accessible sources], such as information that’s publicly available online (like if your name appears in a local newspaper article) or from other public sources.<br>* [Information from our trusted partners], such as from directory services who provide us with business information to be displayed on Google’s services, or security partners who provide us with information to protect against abuse. | The legal grounds for processing this information will depend on how you use Google services and your settings but could include the following:<br><br>* To **perform a contract** with you, such as when you contact Google for support or sign up for communications about product updates.<br>* When necessary for our **legitimate interests** and those of third parties, including to:<br> * **Provide, maintain, and improve services to meet the needs of our users.** For example, informing you about our services, such as to let you know about upcoming changes or improvements to our services.<br> * **Marketing to inform users about our services.** For example, emailing users of Photos about a printing promotion. |
+
+[... cut ...]
+
+AFTER:
+| **To communicate with you - We use information we collect, like your email address, to interact with you directly.**<br><br>Examples of processing activities:<br><br>* We may send you a notification if we detect suspicious activity, like an attempt to sign in to your Google Account from an unusual location.<br>* We may let you know about upcoming changes or improvements to our services.<br>* If you contact Google, we’ll keep a record of your request in order to help solve any issues you might be facing.<br>* Google services like Photos may send you marketing communications about its product offerings like printing promotions, depending on your settings.<br>* Google services like YouTube Premium and YouTube Music Premium may notify you about upcoming changes to your subscription. | The information processed will depend on how you use Google services and your settings but could include the following:<br><br>* [Things you create or provide to us]:<br> * Content you create, upload, or receive (like photos, videos, emails, docs and spreadsheets). [Google Dashboard] allows you to manage information associated with specific products.<br> * Personal information that you provide us when you create a Google Account (like your [name] and password, [phone number], date of birth, or [payment information]).<br>* [Information that we collect as you use our services]:<br> * [Information about your apps, browsers & devices], such as [unique identifiers] tied to the browser, application, or device you’re using; and information about the interaction of your apps, browsers, and devices with our services, (like IP address, crash reports, and system activity).<br> * [Information about your activity in our services], such as your search terms, Chrome browsing history you’ve synced with your Google Account, your views and interactions with content and ads, and your activity on third-party sites and apps that use our services. You can review and control activity data stored in your Google Account in [My Activity].<br> * [Location information], such as may be determined by GPS, IP address, and other data from sensors on or around your device, depending in part on your device and account settings.<br>* [Information from publicly accessible sources], such as information that’s publicly available online (like if your name appears in a local newspaper article) or from other public sources.<br>* [Information from our trusted partners], such as from directory services who provide us with business information to be displayed on Google’s services, or security partners who provide us with information to protect against abuse. | The legal grounds for processing this information will depend on how you use Google services and your settings but could include the following:<br><br>* To **perform a contract** with you, such as when you contact Google for support or sign up for communications about product updates.<br>* When necessary for our **legitimate interests** and those of third parties, including to:<br> * **Provide, maintain, and improve services to meet the needs of our users.** For example, informing you about our services, such as to let you know about upcoming changes or improvements to our services.<br> * **Marketing to inform users about our services.** For example, emailing users of Photos about a printing promotion. |
+
+[... cut ...]
+
+=== CARD R15ca47 ===
+BEFORE:
+Resolve issues, make changes and get support in real time
+
+- - -
+
+AFTER:
+Resolve issues, make changes and get support in real time
+
+Get a call from Meta AI assistant
+
+Get help from Meta AI assistant by phone
+
+- - -
+
+=== CARD R6aa6fc ===
+BEFORE:
+13. (13) Other acts that SOUNDRAW deems inappropriate
+
+14. (14) It is forbidden to use output from the Service to develop models that compete with SOUNDRAW
+
+1. Ex: Use music data acquired from SOUNDRAW as teacher data for other AI for training it
+
+15. (15) Except as permitted through the API, using any automated or programmatic methods to extract data or output from the Service, including scraping, web harvesting, or web data extraction is forbidden
+
+AFTER:
+13. (13) Other acts that SOUNDRAW deems inappropriate
+
+14. (14) It is forbidden to use output from the Service to develop models that compete with SOUNDRAW, such as training an AI model
+
+15. (15) Except as permitted through the API, using any automated or programmatic methods to extract data or output from the Service, including scraping, web harvesting, or web data extraction is forbidden
+
+=== CARD Rceddd9 ===
+BEFORE:
+* * *
+
+We use different technologies to process your information for these purposes. We use automated systems that analyze your content to provide you with things like customized search results, personalized ads, or other features tailored to how you use our services. And we analyze your content to help us [detect abuse] such as spam, malware, and illegal content. We also use [algorithms] to recognize patterns in data. For example, Google Translate helps people communicate across languages by detecting common language patterns in phrases you ask it to translate.
+
+We may [use the information we collect] across our services and across your devices for the purposes described above. For example, depending on your available settings, if you watch videos of guitar players on YouTube, you might see an ad for guitar lessons on a site that uses our ad products. Depending on your account settings, [your activity on other sites and apps] may be associated with your personal information in order to improve Google’s services and the ads delivered by Google.
+
+AFTER:
+* * *
+
+We use different technologies to process your information for these purposes. We use automated systems that analyze your content to provide you with things like tailored search results, personalized ads, or other features tailored to how you use our services. And we analyze your content to help us [detect abuse] such as spam, malware, and illegal content. We also use [algorithms] to recognize patterns in data. For example, Google Translate helps people communicate across languages by detecting common language patterns in phrases you ask it to translate.
+
+We may [use the information we collect] across our services and across your devices for the purposes described above. For example, depending on your available settings, if you watch videos of guitar players on YouTube, you might see an ad for guitar lessons on a site that uses our ad products. Depending on your account settings, [your activity on other sites and apps] may be associated with your personal information in order to improve Google’s services and the ads delivered by Google.
+
+BEFORE:
+### Privacy controls
+
+### Ad settings
+
+AFTER:
+### Privacy controls
+
+Across many of our services, you can adjust history and personalization controls to make choices about whether we save some types of data in your Google Account and how we use it to personalize your experience. For example, if you have YouTube History turned on, the videos you watch and the things you search for are saved in your account so you can get better recommendations and remember where you left off. Saving activity from services like Search, Maps, and Shopping to your Search Services History lets you do things like resume an AI Mode interaction where you left off or see past searches as Autocomplete suggestions. When Personalized Recommendations in Search services is on, these services can provide results, curated feeds, and AI responses that are personalized to you based on info in your Google Account, including Search Services History. And if you have Web & App Activity turned on, your activity from some other Google services are saved in your account so you can get more personalized experiences. Web & App Activity also has a subsetting that lets you control whether some [information about your activity on other sites, apps, and devices that use Google services] is saved with Web & App Activity in your Google Account and used to improve Google services.
+
+### Ad settings
+
+BEFORE:
+When we receive formal written complaints, we respond by contacting the person who made the complaint. We work with the appropriate regulatory authorities, including local data protection authorities, to resolve any complaints regarding the transfer of your data that we cannot resolve with you directly.
+
+Google LLC is the data controller responsible for processing information indexed and displayed in services like [Google Search] and Google Maps regardless of your location. Google Ireland Limited is the data controller responsible for processing information to train Google’s AI models for the purpose of deploying them in services provided by Google Ireland Limited in the European Economic Area or Switzerland.
+
+[... cut ...]
+
+AFTER:
+When we receive formal written complaints, we respond by contacting the person who made the complaint. We work with the appropriate regulatory authorities, including local data protection authorities, to resolve any complaints regarding the transfer of your data that we cannot resolve with you directly.
+
+About this policy
+
+=== CARD Racfe03 ===
+BEFORE:
+**1.23.** If you use any artificial intelligence and machine learning Services, features, and functionality (including third-party models) that we provide, it’s your responsibility to ensure that your use complies with all applicable laws, rules, and regulations, and the [AWS Responsible AI Policy].
+
+**1.24.** Certain Services may incorporate generative AI features, powered by Amazon Bedrock, that enable you to use prompts to generate output, including: Amazon CloudWatch, Amazon CodeCatalyst, Amazon Connect, Amazon Connect Health, AWS Database Migration Service, Amazon DataZone, Amazon Lex, Amazon OpenSearch Service, Amazon Personalize, Amazon Q, AWS Entity Resolution, AWS Transform, AWS AppFabric, AWS HealthScribe, AWS App Studio, Kiro, Amazon SageMaker Data Agent, the model customization agent in SageMaker AI, the Amazon Quick Suite (including Amazon QuickSight), AWS DevOps Agent (Preview), and AWS Security Agent (Preview).
+
+**1.24.1.** The Amazon Bedrock automated abuse detection mechanisms may apply to such services. See [here] for more details.
+
+AFTER:
+**1.23.** If you use any artificial intelligence and machine learning Services, features, and functionality (including third-party models) that we provide, it’s your responsibility to ensure that your use complies with all applicable laws, rules, and regulations, and the [AWS Responsible AI Policy].
+
+**1.24.** Certain Services may incorporate generative AI features, powered by Amazon Bedrock, that enable you to use prompts to generate output, including: Amazon CloudWatch, Amazon CodeCatalyst, Amazon Connect, Amazon Connect Health, AWS Database Migration Service, Amazon DataZone, Amazon Lex, Amazon OpenSearch Service, Amazon Personalize, Amazon Q, AWS Entity Resolution, AWS Transform, AWS AppFabric, AWS HealthScribe, AWS App Studio, Kiro, Amazon SageMaker Data Agent, the model customization agent in SageMaker AI, the Amazon Quick Suite (including Amazon QuickSight), AWS DevOps Agent, and AWS Security Agent.
+
+**1.24.1.** The Amazon Bedrock automated abuse detection mechanisms may apply to such services. See [here] for more details.
+
+BEFORE:
+--------------------------------------------------------------
+
+**50.1.** “AI Services” means, collectively, Amazon Bedrock, Amazon CodeGuru Profiler, Amazon CodeGuru Reviewer, Amazon Foundation Models (Amazon Nova and Titan models), Amazon Nova Act, Amazon Nova Forge, Amazon Comprehend, Amazon Comprehend Medical, Amazon DevOps Guru, Amazon Forecast, AWS HealthLake, Amazon Kendra, Amazon Lex, Amazon Lookout for Metrics, Amazon Personalize, Amazon Polly, Amazon Q, AWS Transform, Amazon Rekognition, Amazon Textract, Amazon Transcribe, Amazon Transcribe Medical, Amazon Translate, AWS HealthOmics, AWS HealthImaging, AWS HealthScribe, AWS App Studio, Kiro, the Amazon Quick Suite (including Amazon QuickSight), AWS Elemental Inference, AWS DevOps Agent (Preview), and AWS Security Agent (Preview), and the model customization agent in SageMaker AI. “AI Content” means Your Content that is processed by an AI Service.
+
+**50.2.** The output that you generate using AI Services is Your Content. Due to the nature of machine learning, output may not be unique across customers and the Services may generate the same or similar results across customers.
+
+AFTER:
+--------------------------------------------------------------
+
+**50.1.** “AI Services” means, collectively, Amazon Bedrock, Amazon CodeGuru Profiler, Amazon CodeGuru Reviewer, Amazon Foundation Models (Amazon Nova and Titan models), Amazon Nova Act, Amazon Nova Forge, Amazon Comprehend, Amazon Comprehend Medical, Amazon DevOps Guru, Amazon Forecast, AWS HealthLake, Amazon Kendra, Amazon Lex, Amazon Lookout for Metrics, Amazon Personalize, Amazon Polly, Amazon Q, AWS Transform, Amazon Rekognition, Amazon Textract, Amazon Transcribe, Amazon Transcribe Medical, Amazon Translate, AWS HealthOmics, AWS HealthImaging, AWS HealthScribe, AWS App Studio, Kiro, the Amazon Quick Suite (including Amazon QuickSight), AWS Elemental Inference, AWS DevOps Agent, and AWS Security Agent, and the model customization agent in SageMaker AI. “AI Content” means Your Content that is processed by an AI Service.
+
+**50.2.** The output that you generate using AI Services is Your Content. Due to the nature of machine learning, output may not be unique across customers and the Services may generate the same or similar results across customers.
+
+=== CARD Rc5b18a ===
+BEFORE:
+**(b) Customer support information.**
+
+* We may use information provided to our Customer Support, Customer Success, and Sales teams, such as name, email, and message content to train machine learning models to better predict and answer customer support question type, provide answers, generate insights about customer support trends, and to improve our Customer Support for you. This data is de-identified where possible.
+
+**(c) Usage information.**
+
+AFTER:
+**(b) Customer support information.**
+
+* We may use information provided to our Customer Support, Customer Success, and Sales teams such as name, email, and message content to train machine learning models to better predict customer support question type, provide answers, generate insights about customer support trends, and to improve our Customer Support for you. This data is de-identified where possible.
+
+**(c) Usage information.**
+
+=== CARD Ra0c185 ===
+BEFORE:
+* If you enable "Privacy Mode" in Cursor's settings: zero data retention will be enabled, and none of your code will ever be stored or trained on by us or any third-party.
+
+* If you choose to keep "Privacy Mode" off, we collect telemetry, usage data, and codebase data. This includes prompts, editor actions, code snippets, files in the repository, and edits made to this code. We use this data to evaluate and improve our AI features. If you completed onboarding prior to version 0.49.0, we never store or learn from your full codebase.
+
+* With "Privacy Mode" off, if you use autocomplete, [Fireworks] (our inference provider) may also collect prompts to improve inference speed.
+
+AFTER:
+* If you enable "Privacy Mode" in Cursor's settings: zero data retention will be enabled, and none of your code will ever be stored or trained on by us or any third-party.
+
+* If you choose to keep "Privacy Mode" off, we collect telemetry, usage data, and codebase data. This includes prompts, editor actions, terminal commands, code snippets, files in the repository, and edits made to this code. We use this data to evaluate and improve our AI features. If you completed onboarding prior to version 0.49.0, we never store or learn from your full codebase and terminal usage.
+
+* With "Privacy Mode" off, if you use autocomplete, [Fireworks] (our inference provider) may also collect prompts to improve inference speed.
+
+=== CARD R98d07e ===
+BEFORE:
+Dailymotion may process the Data for the following purposes:
+
+* _**Provide, Improve, Develop the Dailymotion Service and Understand our Audience**. We use your Data to deliver the Service, i.e. to display Content and advertisements and to enable you to use each feature of our Service. For example, to allow you to connect to your account we collect your authentication data. To deliver a video in a format that works on a device you use, we collect its technical characteristics. If you have uploaded Content on our Service, we will use your Data to provide you with statistics on how your Content performs. If you use our monetization feature, your Data will be used to track your revenues. Our algorithms use information on Content you access and on how you interact with our Service to recommend Content that might be of interest to you. We analyze your Data to understand how our Service is used and interacted with and ultimately provide our audience with the best user experience we can offer. We may conduct surveys and research to learn what is expected from our Service. We test features in development and analyze the information that we have in order to evaluate and improve our existing products and services and develop new offerings or features._
+
+* **_Ensure Safety and Security of Dailymotion Service and its Conformity with Applicable Laws._** We may use the Data to ensure the security of our Service and anti-fraud protection. Our dedicated engineering teams do so by using automated procedures and advances technologies such as data encryption and machine learning. Consequently, your Data may be processed as part of investigation of suspicious account activities or violations of our legal terms and policies. In conformity with our legal obligations, Dailymotion maintains connections logs linked to each user’s account activities and communicates them, if requested to do so pursuant to applicable legal procedures, to duly authorized public authorities.
+
+#### 3.1.3. Specific Purposes for which Data is processed when operating the Enterprise Solution Video Player
+
+AFTER:
+Dailymotion may process the Data for the following purposes:
+
+* **_Provide, Improve, Develop the Dailymotion Service and Understand our Audience._** We use Your Data to deliver the Service, i.e. to display Content and advertisements and to enable You to use each feature of our Service. For example, to allow You to connect to Your account we collect Your authentication data. To deliver a video in a format that works on a device You use, we collect its technical characteristics. If You have uploaded Content on our Service, we will use Your Data to provide You with statistics on how Your Content performs. If You use our monetization feature, Your Data will be used to track Your revenues. Our algorithms use, together with other data, information on Content You access and on how You interact with our Service to recommend Content that might be of interest to You. We analyze Your Data to understand how our Service is used and interacted with and ultimately provide our audience with the best user experience we can offer. We may conduct surveys and research to learn what is expected from our Service. We test features in development and analyze the information that we have in order to evaluate and improve our existing products and services and develop new offerings or features.
+
+* _**Ensure Safety and Security of Dailymotion Service and its Conformity with Applicable Laws.**_ We may use the Data to ensure the security of our Service and anti-fraud protection. Our dedicated engineering teams do so by using automated procedures and advanced technologies such as data encryption and machine learning. Consequently, Your Data may be processed as part of investigation of suspicious account activities or violations of our legal terms and policies. In conformity with our legal obligations, Dailymotion maintains connections logs linked to each User’s account activities and communicates them, if requested to do so pursuant to applicable legal procedures, to duly authorized public authorities.
+
+#### 3.1.3. Specific Purposes for which Data is processed when operating the Enterprise Solution Video Player
+
+BEFORE:
+###### **_**_8.6.1.a.iv._**_** Automated Decision-Making
+
+Dailymotion uses algorithms to improve our Service. For example, we use algorithms to generate more pertinent search results when you use our search engine. We also use them to infer some information from your use of our Service. That information may be your age range or gender. We use that deduced information to provide you with a more personalized experience.
+
+###### **_8.6.1.a.v. California Consumer Rights_**
+
+AFTER:
+###### **_**_8.6.1.a.iv._**_** Automated Decision-Making
+
+Dailymotion uses algorithms to improve our Service. For example, we use algorithms to generate more pertinent search results when You use our search engine or otherwise recommend content that we believe might be of interest to You. We also use them to infer some information from Your use of our Service. That information may be Your age range or gender. We use that deduced information to provide You with a more personalized experience.
+
+###### **_8.6.1.a.v. California Consumer Rights_**
+
+=== CARD Re7107c ===
+BEFORE:
+**Zero data retention.** Customers with legitimate reasons can request zero data retention. With this option, your Input and Output are processed only as long as necessary to generate the Output and are not retained further, except as required by law. To activate zero data retention, you must submit your request via our Help Center (available on your account) or support@mistral.ai. As part of this request, you must provide sufficient detail of your legitimate reasons for requesting zero data retention. We will review your request and, at our discretion, approve or deny the request.
+
+**The Fine-Tuning API.** Our fine-tuning API allows you to fine-tune our models on La Plateforme using Your Data (the “**Fine-Tuning API**”). Upon completion of a fine-tuning job, you can use the fine-tuned model (the “**Fine-Tuned Model**”) on La Plateforme. For the avoidance of doubt, the Fine-Tuned Model does not constitute an Output. You are solely responsible for the fine-tuning process and the Input you used to fine-tune our models. We are not responsible for the performance of the Fine-Tuned Model or its Outputs. Your rights to access or use the Fine-Tuned Model will cease upon termination of your account. You can delete the Fine-Tuned Model from La Plateforme at any time. We will not use the Fine-Tuned Model except to provide it to you under these Terms. We will not disclose or distribute the Fine-Tuned Model to third parties without your consent, except for authorized transfers to our cloud-provider distributors.
+
+**Agent creation and management.** You can create an agent either through our Fine-Tuning API or through the agent builder feature on La Plateforme by following the instructions given on La Plateforme. Your rights to access or use your agent will cease after the termination of your account. You can share your agent with your authorized users in your workspace via our API or Le Chat, subject to your subscription plan. Any use of your agent on Le Chat is governed by the Additional Terms for Le Chat. By default, agents are shared with all of the authorized users in your workspace. You must set specific permissions to restrict access to your agents to specific authorized users. We will not use your agent except to provide it to you under these Terms. We will not disclose or distribute your agent to third parties without your consent. You are responsible for the creation and performance of your agent. Specifically, you must ensure that the name of your agent complies with applicable laws and the rights of third parties. You can delete your agent from La Plateforme at any time.
+
+AFTER:
+**Zero data retention.** Customers with legitimate reasons can request zero data retention. With this option, your Input and Output are processed only as long as necessary to generate the Output and are not retained further, except as required by law. To activate zero data retention, you must submit your request via our Help Center (available on your account) or support@mistral.ai. As part of this request, you must provide sufficient detail of your legitimate reasons for requesting zero data retention. We will review your request and, at our discretion, approve or deny the request.
+
+**The Fine-Tuning API.** Our fine-tuning API allows you to fine-tune our models on La Plateforme using Your Data (the “**Fine-Tuning API**”). Upon completion of a fine-tuning job, you can use the fine-tuned model (the “**Fine-Tuned Model**”) on La Plateforme. For the avoidance of doubt, the Fine-Tuned Model does not constitute an Output. You are solely responsible for the fine-tuning process and the Input you used to fine-tune our models. We are not responsible for the performance of the Fine-Tuned Model or its Outputs. Your rights to access or use the Fine-Tuned Model will cease upon termination of your account. You can delete the Fine-Tuned Model from La Plateforme at any time. We will not use the Fine-Tuned Model except to provide it to you under these Terms. We will not disclose or distribute the Fine-Tuned Model to third parties without your consent.
+
+**Agent creation and management.** You can create an agent either through our Fine-Tuning API or through the agent builder feature on La Plateforme by following the instructions given on La Plateforme. Your rights to access or use your agent will cease after the termination of your account. You can share your agent with your authorized users in your workspace via our API or Le Chat, subject to your subscription plan. Any use of your agent on Le Chat is governed by the Additional Terms for Le Chat. By default, agents are shared with all of the authorized users in your workspace. You must set specific permissions to restrict access to your agents to specific authorized users. We will not use your agent except to provide it to you under these Terms. We will not disclose or distribute your agent to third parties without your consent. You are responsible for the creation and performance of your agent. Specifically, you must ensure that the name of your agent complies with applicable laws and the rights of third parties. You can delete your agent from La Plateforme at any time.
+
+=== CARD Ra5902f ===
+BEFORE:
+By visiting our website or using our application and/or services, you are entering into a legal agreement with us, consisting of these Terms of Use, and our additional services’ legal terms. By using our services, you signify your consent to these terms and you acknowledge that you have read our Privacy Policy. You may not use our services if you do not consent to all our terms.
+
+5. you confirm you own all rights in and to any content uploaded, developed or provided by you, or imported, connected, copied or uploaded by Wix Services for you, to your User Platform (**“User Content”**), including any designs, images, animations, videos, audio files, fonts, logos, code, algorithms, SPIs, APIs, databases, illustrations, compositions, artworks, interfaces, usernames, information you provide for the purpose of creating a subdomain name, text, literary works and any other materials (**“Content”**), or otherwise have (and will continue to have) the full power, title, licenses, consents and authority, in and to the User Content, as necessary to legally access to, import, copy, use, connect, develop, publish, transfer or license such User Content, by you and us or any of our affiliates;
+
+As between Wix and you, you shall own all intellectual property pertaining to your User Content and to any other materials created, developed, or connected to Wix Services by you, including any designs, images, animations, videos, audio files, fonts, logos, illustrations, compositions, artworks, code, algorithms, SPIs, APIs, databases, interfaces, text and literary works. Wix does not claim ownership rights on your User Content or the content you connected to the Wix Services. You know and agree that in order to provide the Services to you and to maintain and improve the Services (the “Purpose”) we will need to access, upload and/or copy your User Content to our platform, including cloud services and CDN’s, to make display adjustments, to train our software tools (e.g. artificial intelligence and machine learning models), to duplicate for backup and perform any other technical actions and/or uses required to perform our services, as we deem fit. You hereby grant us a non-exclusive, transferable, sub-licensable, royalty-free, and worldwide license to use your User Content for the Purpose.
+
+All rights, title and interest in and to the Wix Services, including any and all copyrightable materials or any other content thereof which is or may be subject to any intellectual property rights under any applicable law (including any artwork, graphics, images, website templates and widgets, literary work, source and object code, computer code (including html), applications, audio, music, video and other media, designs, animations, interfaces, documentation, derivatives and versions thereof, the “look and feel” of the Wix Services, methods, products, algorithms, data, interactive features and objects, advertising and acquisition tools and methods, inventions, trade secrets, logos, domains, customized URLs, trademarks, service marks, trade names and other proprietary identifiers, whether or not registered and/or capable of being registered (collectively, “Intellectual Property”), and any derivations thereof, are owned by and/or licensed to Wix.
+
+5\. AI Services
+
+[... cut ...]
+
+AFTER:
+By visiting our website or using our application and/or services, you are entering into a legal agreement with us, consisting of these Terms of Use, and our additional services’ legal terms. By using our services, you signify your consent to these terms and you acknowledge that you have read our Privacy Policy. You may not use our services if you do not consent to all our terms.
+
+* [Home]
+
+=== CARD R4443b9 ===
+BEFORE:
+Welcome to Snap Inc.’s Supplemental Privacy Policy for Spectacles 2024. We’ve created this policy to provide additional information for individuals who are using the Spectacles 2024 device and the companion Spectacles App (together “Spectacles”). This policy supplements, and is in addition to, our [Privacy Policy] and [region specific notices] and it explains how Snap collects, uses, and shares your data on Spectacles.
+
+- - -
+
+AFTER:
+Welcome to Snap Inc.’s Supplemental Privacy Policy for Spectacles 2024. We’ve created this policy to provide additional information for individuals who are using the Spectacles 2024 device and the companion Spectacles App (together “Spectacles”). This policy supplements, and is in addition to, our [Privacy Policy] and [region specific notices] and it explains how Snap collects, uses, and shares your data on Spectacles.
+
+* Develop and improve our machine learning models for augmented reality.
+
+- - -
+
+=== CARD R377bf3 ===
+BEFORE:
+* If you reside in Switzerland, you can reach out to the [Federal Data Protection and Information Commissioner⁠(opens in a new window)].
+
+A note about accuracy: Services like ChatGPT generate responses by reading a user’s request and, in response, predicting the words most likely to appear next. In some cases, the words most likely to appear next may not be the most factually accurate. For this reason, you should not rely on the factual accuracy of output from our models. If you notice that ChatGPT output contains factually inaccurate information about you and you would like to request a correction or removal of the information, you can submit these requests through privacy.openai.com or to [dsar@openai.com⁠], and we will consider your request based on applicable law and the technical capabilities of our models.
+
+For information on how to exercise your rights with respect to data we have collected from the internet to train our models, please see this [notice⁠(opens in a new window)].
+
+AFTER:
+* If you reside in Switzerland, you can reach out to the [Federal Data Protection and Information Commissioner⁠(opens in a new window)].
+
+A note about accuracy: Services like ChatGPT generate responses by reading a user’s request and, in response, predicting the words most likely to appear next. In some cases, the words most likely to appear next may not be the most factually accurate. For this reason, you should not rely on the factual accuracy of output from our models.
+
+If you notice that ChatGPT output contains factually inaccurate information about you and you would like to request a correction or removal of the information, you can submit these requests through privacy.openai.com or to dsar@openai.com, and we will consider your request based on applicable law and the technical capabilities of our models.
+
+For information on how to exercise your rights with respect to data we have collected from the internet to train our models, please see this [notice⁠(opens in a new window)].
+
+=== CARD R11bf11 ===
+BEFORE:
+你在互动过程中创建的图片、视频（包括AI写真）将默认保存在【个人页 - 私密】中。你可选择将前述图片、视频公开发布（以下或称**“发布”**），发布后的图片/视频及其及其描述（如有）、创作信息（提示词），将展示在你的个人主页，亦有可能展示在豆包主界面“创作”tab下。如你已在发布环节选择公开你用于生成图片/视频的参考图/视频（与创作信息合称为**“创作输入内容”**），则其他用户还可查看该等创作输入内容，并可将创作输入内容其用于制作同款图片或视频；在AI写真功能生成的图片/视频中，还会展示你创建分身后系统生成的标准照片（以下简称为**“分身形象”**）。**如你不希望其他人看到和使用你的参考图/视频，或不希望其他人看到你的分身形象，你可在进行发布时选择关闭“公开参考图/参考视频”开关，关闭后，其他人将无法看到你生成图片/视频的原始参考视频/参考图及分身形象，制作同款时将仅复用你的创作信息。**你可以通过个人主页对你的已发布和私密图片/视频进行管理，包括删除、将已发布图片/视频转为私密、将私密图片/视频公开发布。图片/视频由公开发布转为私密后，**其他人将无法查看和使用该等图片/视频（包括将其用于制作同款），但其公开发布期间其他用户已经通过制作同款功能生成的图片/视频不受影响。**
+
+考虑电脑端与移动端环境操作特性的不同，我们所提供的功能范围可能与移动端（小程序、app）不同，具体以实际提供的功能范围为准。你可以通过PC、网页或插件方式访问体验更多电脑端特性的功能。特别地：
+
+AFTER:
+你在互动过程中创建的图片、视频（包括AI写真）将默认保存在【个人页 - 私密】中。你可选择将前述图片、视频公开发布（以下或称**“发布”**），发布后的图片/视频及其及其描述（如有）、创作信息（提示词），将展示在你的个人主页，亦有可能展示在豆包主界面“创作”tab下。如你已在发布环节选择公开你用于生成图片/视频的参考图/视频（与创作信息合称为**“创作输入内容”**），则其他用户还可查看该等创作输入内容，并可将创作输入内容其用于制作同款图片或视频；在AI写真功能生成的图片/视频中，还会展示你创建分身后系统生成的标准照片（以下简称为**“分身形象”**）。**如你不希望其他人看到和使用你的参考图/视频，或不希望其他人看到你的分身形象，你可在进行发布时选择关闭“公开参考图/参考视频”开关，关闭后，其他人将无法看到你生成图片/视频的原始参考视频/参考图及分身形象，制作同款时将仅复用你的创作信息。**你可以通过个人主页对你的已发布和私密图片/视频进行管理，包括删除、将已发布图片/视频转为私密、将私密图片/视频公开发布。图片/视频由公开发布转为私密后，**其他人将无法查看和使用该等图片/视频（包括将其用于制作同款），但其公开发布期间其他用户已经通过制作同款功能生成的图片/视频不受影响。**
+
+d. 我们将根据你是否处于会议进程提醒你是否需要豆包帮你进行录音转写，你可以通过电脑端【豆包设置-AI 功能提醒设置】关闭录音转写的提醒。
+
+考虑电脑端与移动端环境操作特性的不同，我们所提供的功能范围可能与移动端（小程序、app）不同，具体以实际提供的功能范围为准。你可以通过PC、网页或插件方式访问体验更多电脑端特性的功能。特别地：
+
+=== CARD Rc01997 ===
+BEFORE:
+* **Commissions:** DeviantArt allows its users to offer and purchase commissioned works, under the terms to be determined between buyer and seller, and subject to the terms specified [here]. You are required to read these terms before offering or buying commissioned works.
+
+**30\. Identifying where Your Content was created with Generative AI Programs or AI Tools**
+
+Where your Content is offered for sale on DeviantArt (including Commissions, Premium Downloads, Premium Galleries, Subscriptions, and Exclusives) and was created using Generative AI Programs or AI Tools, you must clearly tag or label your Content using as “Created using AI tools”. Where your Content is not being offered for Sale on DeviantArt and was created using Generative AI Programs or AI Tools, we recommend that you clearly tag or label your Content using as “Created using AI tools”.
+
+AFTER:
+* **Commissions:** DeviantArt allows its users to offer and purchase commissioned works, under the terms to be determined between buyer and seller, and subject to the terms specified [here]. You are required to read these terms before offering or buying commissioned works.
+
+**31\. Identifying where Your Content was created with Generative AI Programs or AI Tools**
+
+Where your Content is offered for sale on DeviantArt (including Commissions, Premium Downloads, Premium Galleries, Subscriptions, and Exclusives) and was created using Generative AI Programs or AI Tools, you must clearly tag or label your Content using as “Created using AI tools”. Where your Content is not being offered for Sale on DeviantArt and was created using Generative AI Programs or AI Tools, we recommend that you clearly tag or label your Content using as “Created using AI tools”.
+
+=== CARD R1f9586 ===
+BEFORE:
+| To provide the Spotify Service.<br><br>For example, when we use your personal data to:<br><br>* set up an account for you<br>* personalize your account including your content recommendations, or<br>* provide the Spotify app when you download it onto your device,<br>* enable you to share a link to Spotify content with someone else, or<br>* provide an age-appropriate experience, or<br>* provide various optional features of the Spotify Service | * User Data<br>* Street Address Data<br>* Usage Data<br>* Voice Data<br>* Message Data<br>* Payment and Purchase Data<br>* Survey and Research Data<br>* Age Check Data |
+
+| To evaluate and develop new features, technologies, and improvements to the Spotify Service. This includes development and training of algorithmic and machine learning models, which help us to keep our service safe and enhance our users’ experience. For example:<br><br>For example:<br><br>* to help us develop and improve our personalized recommendations<br>* to help analyze how our users react to a particular new feature and see whether we should make any changes<br>* so we can build AI features such as AI DJ and AI playlist<br>* to help us enforce our [User Guidelines], [Platform Rules] and [Spotify for Creators Community Guidelines]. | * User Data<br>* Usage Data<br>* Voice Data<br>* Survey and Research Data |
+
+| For marketing or advertising purposes.<br><br>For example:<br><br>* when we use your personal data to tailor advertising to your interests, or<br>* when we send you email marketing | * User Data<br>* Usage Data<br>* Survey and Research Data |
+
+AFTER:
+| To provide the Spotify Service.<br><br>For example, when we use your personal data to:<br><br>* set up an account for you<br>* personalize your account including your content recommendations, or<br>* provide the Spotify app when you download it onto your device,<br>* enable you to share a link to Spotify content with someone else, or<br>* provide an age-appropriate experience, or<br>* provide various optional features of the Spotify Service | * User Data<br>* Street Address Data<br>* Usage Data<br>* Voice Data<br>* Message Data<br>* Payment and Purchase Data<br>* Survey and Research Data<br>* Age Check Data |
+
+| To evaluate and develop new features, technologies, and improvements to the Spotify Service. This includes development and training of algorithmic and machine learning models, which help us to keep our service safe and enhance our users’ experience. For example:<br><br>For example:<br><br>* to help us develop and improve our personalized recommendations<br>* to help analyze how our users react to a particular new feature and see whether we should make any changes<br>* so we can build AI features such as AI DJ and AI playlist<br>* to help us enforce our [User Guidelines], [Platform Rules] and [Spotify for Creators Community Guidelines]. | * User Data<br>* Usage Data<br>* Voice Data<br>* Survey and Research Data<br>* Customer Service Data |
+
+| For marketing or advertising purposes.<br><br>For example:<br><br>* when we use your personal data to tailor advertising to your interests, or<br>* when we send you email marketing | * User Data<br>* Usage Data<br>* Survey and Research Data |
+
+=== CARD Ra47b01 ===
+BEFORE:
+======================
+
+* we keep our staff trained in privacy and security obligations;
+
+* we responsibly implement AI into our services, ensuring the protection of your personal data and providing you with control over all AI-powered features.
+
+--------
+
+AFTER:
+======================
+
+* **Subscription Plans:** The Terms of Service have been revised to align with Spark’s expanded subscription model and evolving service offerings.
+
+* [Spark AI Features]
+
+--------
+
+BEFORE:
+---------------------------
+
+**Backend**is an invisible crucial part of the App where algorithms operate on the variables and data points. In the majority of cases, it is crucial to process such data in order to provide our services to you. For example, we keep backend data taking into account organizational and technical measures to ensure the security of your data.
+
+**Email content while using Spark Services**: We process email content to provide you with Spark features. Mostly, it is processed locally on your device. For Spark +AI features, email content may be processed with engagement of the third-party trusted AI providers as part of the input, as described below.
+
+**Input and output:** When using Spark +AI, you can provide input (email text, meeting notes, summaries, email contacts, calendar data or any other data together with prompt) for processing and receive generated output. We do not retain inputs within provision of Spark +AI features but only transmit them to the AI provider for processing. They do not use your data for model training and keep it no longer than 30 days. Read more about Spark +AI and its data processing practices in the ‘ [AI Providers Data]’ section.
+
+**Email samples and writing style description:** When you activate ‘My Writing Style’, we process your recently sent emails to analyze their length and other criteria and select appropriate samples (‘samples’). Further, we pass the selected samples to the AI provider for analyzing your writing style and getting the textual description of it. Your emails are analysed for the samples and writing style description only once unless you use the ‘Rescan email samples’ option in the ‘Settings’, change the samples manually, or delete them and reactivate the feature.
+
+To help you generate email with Spark +AI further, we will pass only your writing style description along with each request to the AI provider.
+
+Read more about ‘My writing style’ in the ‘ [AI Providers Data]’ section.
+
+**+AI Meeting Notes and Summaries**. When you activate the ‘+AI Meeting Notes’ feature, we process several types of data. This includes the audio stream, which is transcribed, in certain cases the video stream to extract the audio, the conversation transcript generated by a third-party AI provider, and user information such as participant names, User Spark ID, Team identity, subscription type, email addresses, and display names. We also handle a summary of the transcript created by a third-party AI provider, event details from Spark Calendar (including the event name, participants, and timeframe), your notes and any modifications made to the original output, as well as analytics data about feature usage, such as feedback, transcript length, and usage statistics.
+
+You can edit, copy, and share the transcript and/or summary using a link. It also may be processed for provision of other Spark +AI features, like AI Assistant, as a part of the input, as described above. These transcripts and summaries will remain in your Spark Account for as long as your account is active or until you choose to delete them.
+
+Spark does not store the audio stream of the conversation, unless you choose to share one with us for troubleshooting purposes. The AI provider may retain the audio stream for up to thirty (30) days as part of its abuse and misuse monitoring processes. After this period, the audio is deleted unless a longer retention period is required by law.
+
+[... cut ...]
+
+AFTER:
+---------------------------
+
+### Spark AI Features
+
+For AI features, Spark leverages AI models that operate locally on your device and/or provided by third-party AI providers such as [Azure OpenAI Service] by Microsoft Corporation, [OpenAI] by OpenAI LLC, [Claude] by Anthropic, and [Vertex AI] by Google. For seamless service delivery, we may manually switch between these AI providers. Please note that data processing rules and interaction protocols will remain consistent even if we switch between the AI providers.
+
+We do not use your data to train any AI model. AI providers may only retain your inputs for up to thirty (30) days as part of their abuse and misuse monitoring. After this period, they delete the inputs automatically unless a longer retention period is required by law.
+
+The data below may be processed within Spark AI features, depending on the specific feature and your request. We may also describe certain AI features in more detail further in this section to ensure more transparency and control for you over the data.
+
+| * Inputs and outputs (requests and results)<br>* Emails and email drafts content, including attachments<br>* Email contacts<br>* In-app comments<br>* Calendar data, including meeting title, description, participants, date, time, and location<br>* Read statuses<br>* Audio stream and video (only to extract audio) for Meeting Notes<br>* Meeting notes and summaries<br>* Your writing style description<br>* AI commands and rules | Providing you with the functionality of the App | Performance of the contract |
+
+When you turn on the feature, we automatically select several of your recently sent emails that meet the length and other criteria (‘**samples**’) and pass such samples to the AI provider to get the description of your writing style. The AI provider will not have access to your other emails.
+
+Subsequently, the description of your style will be sent to the AI provider along with each request and applied to all new Spark +AI-generated email drafts.
+
+This feature provides AI-powered audio transcription and summarization, allowing you to generate, edit, copy, and share meeting transcripts and summaries via a link.
+
+The feature captures an audio stream on your device with the help of the on-device AI model. Once the meeting ends or you finish the transcription, the audio stream is automatically sent to the third-party AI provider to obtain a transcription, which is further summarized. The transcription and summary are saved in your Spark account.
+
+Spark does not store the audio stream of the conversation, unless you choose to share one with us for troubleshooting. The AI provider may retain the audio stream for up to thirty (30) days for abuse and misuse monitoring.
+
+To enhance your experience, we may offer the option of using AI-powered assistance from a trusted provider. In this case, you can get quick, automated responses to your inquiries. No data will be used for training. Still, you can always choose to continue the chat without AI if you prefer so.
+
+To process and analyse your requests more efficiently, we may engage trusted AI providers. Before proceeding with these providers, we always take necessary technical and organizational precautions, including pseudonymisation, data minimization, conducting data protection impact assessments, and establishing data processing agreements. No data is used for training.
+
+[... cut ...]
+
+BEFORE:
+--------------
+
+Where you shared the audio stream from the +AI Meeting Notes and Summaries feature for troubleshooting purposes, we will delete it immediately once the issue is localized.
+
+| --- | --- |
+
+AFTER:
+--------------
+
+| --- | --- |
+
+BEFORE:
+| --- | --- |
+
+Data Sharing with Third Parties
+
+AFTER:
+| --- | --- |
+
+| +AI Meeting Notes and Summaries; sample emails for My Writing Style; writing style description; AI commands and rules | Until deletion of Spark account or until you delete the data manually via settings |
+
+Data Sharing with Third Parties
+
+BEFORE:
+-------------------------------
+
+* **Azure OpenAI Service** (Microsoft Corporation, USA). We use Azure OpenAI Service to provide you with Spark +AI, which is designed to help you create and edit emails using machine learning algorithms co-developed by Microsoft Corporation and OpenAI (OPENAI, LLC). For more details, please refer to their [Privacy Statement].
+
+* **OpenAI API**(OpenAI, L.L.C., USA). We use OpenAI API to provide you with the Spark +AI feature in specific cases described in this Policy. For more details, please refer to the ‘ [OpenAI Data]’ subsection of this Policy and OpenAI [Data Processing Addendum].
+
+* **Anthropic**(Anthropic PBC, ISA). We may use AI models of this provider directly via API or through Google's Vertex AI suite to provide you with the Spark +AI features. For more details, please refer to their [Privacy Policy].
+
+Security Measures
+
+AFTER:
+-------------------------------
+
+Security Measures
+
+BEFORE:
+-----------------
+
+### Trained team
+
+Our team is competent in the matter of your personal data protection. Company regularly performs training in order to ensure that every team member has enough knowledge to keep your data safe and protect it in accordance with the best practices prescribed by European and U.S. laws on data protection.
+
+| Right | Description |
+
+AFTER:
+-----------------
+
+| **Contractor and Staff Training** | **Agreements**<br><br>1. Non-disclosure Agreements<br>2. Data Processing Agreements |
+
+| Right | Description |
+
+BEFORE:
+| Right to withdraw consent | You can withdraw your consent at any time. |
+
+---------------------
+
+AFTER:
+| Right to withdraw consent | You can withdraw your consent at any time. |
+
+We do not sell your personal information to anyone, and we do not use your data as a business model. Ensuring your privacy is our top priority.
+
+---------------------
+
+=== CARD Rdbebb3 ===
+BEFORE:
+| --- | --- |
+
+| To evaluate and develop new features, technologies, and improvements to the Spotify Service.<br><br> <br><br>For example:<br><br>• we use personal data to develop and improve our personalized recommendation algorithms<br><br>• we analyze how our users react to a particular new feature and see whether we should make any changes | • User Data<br><br>• Usage Data<br><br>• Survey and Research Data<br><br> <br><br>• User Data<br><br>• Usage Data<br><br>• Survey and Research Data |
+
+**5\. Disclosing your personal data**
+
+AFTER:
+| --- | --- |
+
+| To evaluate and develop new features, technologies, and improvements to the Spotify Service.<br><br> <br><br>For example:<br><br>• we use personal data to develop and improve our personalized recommendation algorithms<br><br>• we analyze how our users react to a particular new feature and see whether we should make any changes | * User Data<br>* Usage Data<br>* Survey and Research Data |
+
+**5\. Disclosing your personal data**
+
+=== CARD Re9f6f6 ===
+BEFORE:
+9. except where explicitly allowed by this Agreement, collect, aggregate, mine, scrape, or otherwise use any content uploaded to the Site for the purposes of publishing, selling, distributing or otherwise making the content available to others to use, download or copy;
+
+(a) in datasets utilized by Generative AI Programs;
+
+(b) in the development of Generative AI Programs; or
+
+(c) as inputs to Generative AI Programs.
+
+(e) improperly make complaints or false reports on the Site;
+
+AFTER:
+9. except where explicitly allowed by this Agreement, collect, aggregate, mine, scrape, or otherwise use any content uploaded to the Site for the purposes of publishing, selling, distributing or otherwise making the content available to others to use, download or copy;
+
+10. collect, aggregate, mine, scrape or otherwise use NoAI Content (i) in datasets utilized by Generative AI Programs; (ii) in the development of Generative AI Programs; or (iii) as inputs to Generative AI Programs.
+
+(e) improperly make complaints or false reports on the Site;
+
+BEFORE:
+We care about protecting artists and providing the tools to protect their art. You are able to tag your projects containing Your Content with “NoAI” if you would like Your Content to be prohibited from use with AI. This tag will not be applied to your projects or Your Content by default; you must actively designate your projects containing Your Content for the “NoAI” tag to apply. Any content uploaded to the Site that has been tagged, labeled, or otherwise marked “NoAI” via the tagging functionality provided by the platform will be known as “NoAI Content.”
+
+For purposes of this Agreement, “Generative AI Programs” means artificial intelligence, machine learning, deep learning, neural networks, or similar technologies designed to automate the generation of or aid in the creation of new content, including but not limited to audio, visual, or text-based content. You shall not collect, aggregate, mine, scrape, or otherwise use NoAI Content
+
+(a) in datasets utilized by Generative AI Programs;
+
+(b) in the development of Generative AI Programs; or
+
+(c) as inputs to Generative AI Programs.
+
+Epic agrees, whether or not Your Content is NoAI Content, not to use any of Your Content or to license any of Your Content to third parties for use in connection with Generative AI Programs.
+
+AFTER:
+We care about protecting artists and providing the tools to protect their art. You are able to tag your projects containing Your Content with “NoAI” if you would like Your Content to be prohibited from use with AI. This tag will not be applied to your projects or Your Content by default; you must actively designate your projects containing Your Content for the “NoAI” tag to apply. Any content uploaded to the Site that has been tagged, labeled, or otherwise marked “NoAI” via the tagging functionality provided by the platform will be known as “NoAI Content.”
+
+For purposes of this Agreement, "Generative AI Programs" means artificial intelligence, machine learning, deep learning, neural networks, or similar technologies designed to automate the generation of or aid in the creation of new content, including but not limited to audio, visual, or text-based content. You shall not collect, aggregate, mine, scrape, or otherwise use NoAI Content (i) in datasets utilized by Generative AI Programs; (ii) in the development of Generative AI Programs; or (iii) as inputs to Generative AI Programs.
+
+Epic agrees, whether or not Your Content is NoAI Content, not to use any of Your Content or to license any of Your Content to third parties for use in connection with Generative AI Programs.
+
+BEFORE:
+>
+
+> Epic won’t use or license your content for AI generation or training
+
+AFTER:
+>
+
+> Epic won't use or license your content with, or to train, Generative AI
