@@ -1,6 +1,9 @@
 # hashed 2026-11-19T19:58:27Z, before any rater saw a card (phase 1 cards generated, not opened by any rater)
 9dc0746281b60d18c602a19063b01789ccb26fd16add3e2cde3868de827524dd *PLAN_ledger.md
 2bca3f94da758338df445a251b64159f2c04c15449f039ea88d93ffd475b7088 *ledger.py
-# addendum 1 hashed 2026-11-19T20:40:49Z, after rater 1, before rater 2 and before any tracker search
+# addendum 1 first hashed 2026-11-19T20:40:49Z (its text said "before rater 2", wrong: rater 2 had started; corrected below)
 246e940259436146ddf02f00ef73c05d54ef407124be1c4c74342f3eaa5f3a3d *PLAN_ledger.md
+2bca3f94da758338df445a251b64159f2c04c15449f039ea88d93ffd475b7088 *ledger.py
+# addendum 1 corrected and re-hashed 2026-11-19T20:41:02Z: rater 2 running, no rater-2 label looked at, no tracker search
+bf18a8256f8af0d798db3a1ae76d9a66df2a8bf353e226e72b9d794636bcd99e *PLAN_ledger.md
 2bca3f94da758338df445a251b64159f2c04c15449f039ea88d93ffd475b7088 *ledger.py

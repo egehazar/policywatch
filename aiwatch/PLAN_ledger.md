@@ -103,8 +103,9 @@ those were ever publicly reported, and when? How precise is each monitor arm, ke
 - That a change was never reported: only that two searches did not find a press report.
 - That a company actually trains on users' data: a policy permits; it does not report practice.
 
-## Addendum 1, 2026-11-19 ~20:45 UTC: prior work found; press check replaced by a tracker check
-Written after rater 1 (Claude) had labelled all 172 phase-1 cards and before rater 2 (GPT) or any press search.
+## Addendum 1, 2026-11-19 ~20:40 UTC: prior work found; press check replaced by a tracker check
+Written after rater 1 (Claude) had labelled all 172 phase-1 cards, while rater 2 (GPT) was running (2 of 7 batches
+answered; none of its labels looked at), and before any press or tracker search.
 The labels, raters, verified-grant rule and arm measures above are unchanged.
 
 - **Why.** GPT-6's round-40 reply (`decision-serving/notes/gpt_r40_reply.md`) found three public trackers of AI-training
