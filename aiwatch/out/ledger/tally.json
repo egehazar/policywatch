@@ -1,0 +1,46 @@
+{
+ "cards": 172,
+ "verified_grants": 92,
+ "verified_services": 49,
+ "by_year": {
+  "2026": 34,
+  "2024": 21,
+  "2025": 28,
+  "2023": 9
+ },
+ "scope_rater1": {
+  "GENERAL": 71,
+  "THIRD": 11,
+  "NARROW": 10
+ },
+ "kappa_grant": 0.894,
+ "labels": {
+  "claude": {
+   "NEW": 79,
+   "WIDER": 15,
+   "NO": 41,
+   "UNCLEAR": 24,
+   "SAME": 13
+  },
+  "gpt": {
+   "NEW": 80,
+   "WIDER": 19,
+   "NO": 42,
+   "UNCLEAR": 22,
+   "SAME": 9
+  }
+ },
+ "precision": {
+  "regex": 0.535,
+  "kev": null
+ },
+ "alerts": {
+  "regex": 172,
+  "kev": 0
+ },
+ "relative_recall": {
+  "regex": 1.0,
+  "kev": 0.0
+ },
+ "kev_minus_regex_precision_ci95": null
+}
