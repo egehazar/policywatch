@@ -62,8 +62,14 @@ the 11 (checked mechanically against the rule's own patterns):
   counted, so the count of matching sentences did not rise.
 
 A rule could be widened for "develop and improve", but that would be fitted to this sample. The planned test of a
-detector that reads meaning instead of words is Kev's phase 2. The same caveat as phase 1 applies: the sample labels
-come from cards too, so some of the 11 may be old grants; both sides of the ratio are counted the same way.
+detector that reads meaning instead of words is Kev's phase 2.
+
+**Counting only new sentences (exploratory, `py -m aiwatch.history recall`).** The sample labels come from cards
+too. The same mechanical check against each document's full archived history finds 4 of the 11 sentences already in
+an earlier version (36%; phase 1: 20 of 92, 22%). Counting only sentences new to the document on both sides (72
+alerts, 7 in the sample): about 66 missed (95% CI 32-131), keyword recall .52 (.36-.69). The reading does not
+change: the rule finds about half. The check catches the same sentence only, not an equivalent right in other
+words, so both counts are still upper bounds.
 
 ## Kev-4B (PENDING: scoring, then phase 2)
 ## The kill test's reading (PENDING)

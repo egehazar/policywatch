@@ -1,0 +1,90 @@
+[
+{
+"card": "Re2b2d6",
+"svc": "Cursor",
+"doc": "Privacy Policy",
+"date": "2025-04-15",
+"doc_check": "new to the document",
+"first_date": "2025-04-15"
+},
+{
+"card": "R6b5884",
+"svc": "Instagram",
+"doc": "Privacy Policy",
+"date": "2025-12-17",
+"doc_check": "new to the document",
+"first_date": null
+},
+{
+"card": "R1abe74",
+"svc": "Wix",
+"doc": "Terms of Service",
+"date": "2024-01-08",
+"doc_check": "in an earlier version",
+"first_date": "2024-01-04"
+},
+{
+"card": "R484dca",
+"svc": "Match",
+"doc": "Privacy Policy",
+"date": "2026-01-02",
+"doc_check": "new to the document",
+"first_date": "2026-01-02"
+},
+{
+"card": "R7ff5a8",
+"svc": "Amazon Web Services",
+"doc": "Terms of Service",
+"date": "2024-02-03",
+"doc_check": "new to the document",
+"first_date": "2024-02-03"
+},
+{
+"card": "R76e784",
+"svc": "Amazon Web Services",
+"doc": "Terms of Service",
+"date": "2026-06-10",
+"doc_check": "in parent document",
+"first_date": "2023-10-21"
+},
+{
+"card": "Raa398b",
+"svc": "Amazon Web Services",
+"doc": "Terms of Service",
+"date": "2026-04-29",
+"doc_check": "new to the document",
+"first_date": "2026-04-29"
+},
+{
+"card": "R6f2d54",
+"svc": "Amazon Web Services",
+"doc": "Terms of Service",
+"date": "2026-01-24",
+"doc_check": "new to the document",
+"first_date": "2026-01-24"
+},
+{
+"card": "Ra0c185",
+"svc": "Cursor",
+"doc": "Privacy Policy",
+"date": "2025-04-19",
+"doc_check": "new to the document",
+"first_date": "2025-04-19"
+},
+{
+"card": "R4443b9",
+"svc": "Snapchat",
+"doc": "Privacy Policy",
+"date": "2026-10-30",
+"doc_check": "in an earlier version",
+"first_date": "2026-05-25"
+},
+{
+"card": "R1f9586",
+"svc": "Spotify",
+"doc": "Privacy Policy",
+"date": "2026-06-13",
+"doc_check": "in parent document",
+"first_date": "2025-05-12"
+}
+]
