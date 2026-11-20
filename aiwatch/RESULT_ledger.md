@@ -28,8 +28,10 @@ below.
 ## The labels overcount new grants (found after the tally; exploratory)
 A card shows a changed passage with a little context, not the whole old document. Two things the raters could not
 see:
-- **The same sentence elsewhere in the old document.** A mechanical check against the full archived history found 20
-  of the 92 deciding sentences already present in an earlier version of the same document (22%).
+- **The same sentence elsewhere in the old document.** A mechanical check against the full archived history
+  (`py -m aiwatch.history ledger`) found 18 of the 92 deciding sentences already present, word for word, in an
+  earlier version of the same document (20%). A first, fuzzy version of the check said 20; it wrongly counted
+  sentences that had just gained their AI phrase as old (see `aiwatch/history.py`).
   - Archive captures that drop a section and restore it later produced repeat "new" events. Meta's "manual review
     ... to train our algorithms" sentence is in the archive from 2022-12-16 and was flagged five times.
   - Table rewrites repeated an existing purpose.
@@ -65,9 +67,9 @@ A rule could be widened for "develop and improve", but that would be fitted to t
 detector that reads meaning instead of words is Kev's phase 2.
 
 **Counting only new sentences (exploratory, `py -m aiwatch.history recall`).** The sample labels come from cards
-too. The same mechanical check against each document's full archived history finds 4 of the 11 sentences already in
-an earlier version (36%; phase 1: 20 of 92, 22%). Counting only sentences new to the document on both sides (72
-alerts, 7 in the sample): about 66 missed (95% CI 32-131), keyword recall .52 (.36-.69). The reading does not
+too. The same mechanical check against each document's full archived history finds 3 of the 11 sentences already in
+an earlier version (27%; phase 1: 18 of 92, 20%). Counting only sentences new to the document on both sides (74
+alerts, 8 in the sample): about 76 missed (95% CI 39-143), keyword recall .49 (.34-.66). The reading does not
 change: the rule finds about half. The check catches the same sentence only, not an equivalent right in other
 words, so both counts are still upper bounds.
 

@@ -5,28 +5,46 @@
 
 A card shows only the changed passage, so raters cannot see the same sentence elsewhere in the old document, or a
 capture that dropped a section and restored it later. Exploratory (found after the phase-1 tally; RESULT_ledger.md).
-The ledger outputs were first made by an inline script on 2026-11-20; this module reproduces them byte for byte.
+
+Matching. The first version (an inline script, 2026-11-20) matched the raters' quote fuzzily: two-thirds of its
+60-character pieces. That called a sentence old when it had just GAINED its AI phrase (DeepSeek's "foundation model
+training and optimization", Honkai's "including to train the model(s)", a new AWS service added to a training
+clause), found by Fable 5.2 checking the email links. Now: take the sentence of the alerting version that best
+matches the quote (raters' quotes are not always verbatim), and call it old only if that exact sentence, ignoring
+case, spaces and punctuation, is in an older version. A changed sentence counts as new even when an older one
+granted the same right; that kind of overcount is the full-document review's job, not this check's.
 """
-import collections, json, os, re, sys
+import collections, difflib, json, os, re, sys
 from policywatch.archive import git
 from aiwatch.backtest import Blobs, DATA
 from aiwatch.ledger import LED
 
 norm = lambda s: re.sub(r'[^a-z0-9]', '', s.lower())
+SPLIT = re.compile(r'(?<=[.!?;])\s+|\n|\s\|\s')
+
+
+def deciding(text, quote):
+    """The run of 1-4 consecutive sentences, list items or table cells of `text` closest to the raters' quote,
+    normalised (a quoted clause is often a list spread over several lines)."""
+    q = quote.replace('…', ' ')
+    F = [s.strip() for s in SPLIT.split(text) if s.strip()]
+    C = [' '.join(F[i:i + k]) for k in (1, 2, 3, 4) for i in range(len(F) - k + 1)]
+    C = [c for c in C if len(norm(c)) >= 20] or [text]
+    sm = lambda c: difflib.SequenceMatcher(None, c, q, autojunk=False)
+    top = sorted(C, key=lambda c: sm(c).quick_ratio(), reverse=True)[:40]
+    return norm(max(top, key=lambda c: sm(c).ratio()))
 
 
 def has(t, q):
-    """q (normalised) is in t, or at least two-thirds of its overlapping 60-character pieces are."""
-    if q in t: return True
-    fr = [q[i:i + 60] for i in range(0, max(1, len(q) - 60), 30)] or [q]
-    return sum(f in t for f in fr) >= max(1, (len(fr) * 2) // 3)
+    return q in t
 
 
 def doc_check(rows):
     """-> [(row, verdict)]: 'short quote', 'in parent document', 'in an earlier version' or 'new to the document'."""
     out = []
     for r in rows:
-        repo = os.path.join(DATA, r['coll']); path = f"{r['svc']}/{r['doc']}.md"; q = norm(r['quote_1'].replace('…', ' '))
+        repo = os.path.join(DATA, r['coll']); path = f"{r['svc']}/{r['doc']}.md"
+        q = deciding(git(repo, 'show', f"{r['commit']}:{path}"), r['quote_1'])
         if len(q) < 40: out.append((r, 'short quote')); continue
         try: parent = norm(git(repo, 'show', f"{r['commit']}^:{path}"))
         except Exception: parent = ''
@@ -44,8 +62,9 @@ def first_appearance(rows):
     """-> {card: oldest archived version of the document that contains the sentence, and how many versions do}."""
     B, res = {}, {}
     for r in rows:
-        repo = os.path.join(DATA, r['coll']); path = f"{r['svc']}/{r['doc']}.md"; q = norm(r['quote_1'].replace('…', ' '))
+        repo = os.path.join(DATA, r['coll']); path = f"{r['svc']}/{r['doc']}.md"
         b = B.setdefault(repo, Blobs(repo))
+        q = deciding(b.get(f"{r['commit']}:{path}"), r['quote_1'])
         log = [l.split('\t') for l in git(repo, 'log', '--format=%H%x09%ad', '--date=short', r['commit'], '--', path).splitlines()]
         first, n_in = None, 0
         for h, d in log:                      # newest -> oldest; keep the oldest version containing the sentence

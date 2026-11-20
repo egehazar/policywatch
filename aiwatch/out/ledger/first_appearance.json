@@ -174,9 +174,9 @@
 "svc": "Mistral AI",
 "doc": "Privacy Policy",
 "alert_date": "2024-09-17",
-"first_commit": "de0daaeb648998b8a17c1706e7347c7226ce567e",
-"first_date": "2024-02-26",
-"versions_with_it": 16,
+"first_commit": "c8b1d05fc35e36747f4e00fb6cd4dff134e98f9c",
+"first_date": "2024-09-17",
+"versions_with_it": 1,
 "versions_total": 18
 },
 "L9390f5": {
@@ -543,9 +543,9 @@
 "svc": "DeepSeek",
 "doc": "Privacy Policy",
 "alert_date": "2026-02-10",
-"first_commit": "3150b95c8fd3d8f9b30c8d42f4512c19879aa527",
-"first_date": "2025-04-28",
-"versions_with_it": 9,
+"first_commit": "e2569d6e360a104adcad535a8af4eadacb0efb4c",
+"first_date": "2026-02-10",
+"versions_with_it": 1,
 "versions_total": 12
 },
 "L49c191": {
@@ -597,9 +597,9 @@
 "svc": "DeepSeek",
 "doc": "Terms of Service",
 "alert_date": "2026-03-27",
-"first_commit": "fce58ebb45f5f4fde0674464e57d51c9a0d7db0c",
-"first_date": "2025-04-13",
-"versions_with_it": 5,
+"first_commit": "358e02c1665312f54a1012e06b122edb0c26825a",
+"first_date": "2025-05-04",
+"versions_with_it": 4,
 "versions_total": 5
 },
 "Lb41497": {
@@ -624,9 +624,9 @@
 "svc": "Honkai- Star Rail",
 "doc": "Privacy Policy",
 "alert_date": "2026-04-22",
-"first_commit": "d8c81737de5a1117b77d01559a48357ba34fbfa1",
-"first_date": "2026-02-13",
-"versions_with_it": 4,
+"first_commit": "6f0dc2cee5657f5d396def2dff5d0ed487108976",
+"first_date": "2026-04-22",
+"versions_with_it": 1,
 "versions_total": 7
 },
 "L7e5c3a": {
@@ -696,9 +696,9 @@
 "svc": "ChatGPT",
 "doc": "Privacy Policy",
 "alert_date": "2026-05-18",
-"first_commit": "2c94a9c16c2bd563bee063bd0cf31ac1775136e0",
-"first_date": "2026-05-18",
-"versions_with_it": 1,
+"first_commit": "218ad1e93b420f5d650903c03409c00611f1cd02",
+"first_date": "2025-07-31",
+"versions_with_it": 5,
 "versions_total": 17
 },
 "L7b87c4": {
