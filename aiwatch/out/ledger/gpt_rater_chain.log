@@ -18,3 +18,30 @@ r_00 done (25)
 r_01 usage limit 20:55, waiting
 r_01 usage limit 21:15, waiting
 r_01 usage limit 21:35, waiting
+r_01 usage limit 21:55, waiting
+r_01 usage limit 22:15, waiting
+r_01 ok 09:09
+r_01 done (25)
+r_02 failed 09:09 (try 1)
+
+ERROR: Selected model is at capacity. Please try a different model.
+ERROR: Selected model is at capacity. Please try a different model.
+r_02 ok 09:12
+r_02 done (25)
+r_03 ok 09:14
+r_03 done (25)
+r_04 failed 09:15 (try 1)
+ERROR: Selected model is at capacity. Please try a different model.
+tokens used
+14,315
+r_04 failed 09:16 (try 2)
+
+ERROR: exceeded retry limit, last status: 429 Too Many Requests
+ERROR: exceeded retry limit, last status: 429 Too Many Requests
+r_04 failed 09:17 (try 3)
+
+ERROR: exceeded retry limit, last status: 429 Too Many Requests
+ERROR: exceeded retry limit, last status: 429 Too Many Requests
+r_04 ok 09:19
+r_04 done (20)
+gpt rater r all done

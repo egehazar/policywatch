@@ -1,0 +1,152 @@
+{
+ "population_without_keyword_alert": 1134,
+ "sampled": 120,
+ "verified_in_sample": 11,
+ "cards_with_hidden_passages": 1,
+ "est_grants_missed_by_keywords": 103.9,
+ "est_missed_ci95": [
+  58.9,
+  177.7
+ ],
+ "keyword_verified_grants": 92,
+ "keyword_recall_est": 0.47,
+ "keyword_recall_ci95": [
+  0.341,
+  0.61
+ ],
+ "verified_in_sample_cards": [
+  {
+   "coll": "genai-contrib-versions",
+   "svc": "Cursor",
+   "doc": "Privacy Policy",
+   "commit": "a3ce5db71aad3a05991827e3effec74de44063c4",
+   "date": "2025-04-15",
+   "card": "Re2b2d6",
+   "batch": 2,
+   "blocks": 1,
+   "hidden": 0,
+   "quote": "If you choose to keep \"Privacy Mode\" off, we collect telemetry, usage data, and codebase data. This includes prompts, editor actions, code snippets, files in the repository, and edits made to this code."
+  },
+  {
+   "coll": "pga-versions",
+   "svc": "Instagram",
+   "doc": "Privacy Policy",
+   "commit": "918fc827ec72a23c1a995fc997c6352bb9b303ee",
+   "date": "2025-12-17",
+   "card": "R6b5884",
+   "batch": 2,
+   "blocks": 8,
+   "hidden": 0,
+   "quote": "Develop and improve [AI at Meta] for Meta Products and for third parties."
+  },
+  {
+   "coll": "contrib-versions",
+   "svc": "Wix",
+   "doc": "Terms of Service",
+   "commit": "e1aecf6832f8dbd927abd73cdf4f5ce8276bf5be",
+   "date": "2024-01-08",
+   "card": "R1abe74",
+   "batch": 2,
+   "blocks": 1,
+   "hidden": 0,
+   "quote": "To the extent a license is required under applicable laws and regulations, and in addition to the license you grant us under Section 3.1 above, you also grant us a non-exclusive, transferable, sub-licensable, royalty-free, and worldwide license to: (a) access, upload, copy, make and display adjustments, train our software tools, duplicate, and perform any other technical actions and/or uses with your (and your End Users) Input and Output in order to: improve Wix Services; review Inputs and Outputs for compliance with applicable laws and enforce the Terms; and (b) provide copies of your (and your End Users\u2019) Inputs and Outputs to our Third-Party Services or to our subcontractors, as required to provide our Users with Wix Services."
+  },
+  {
+   "coll": "contrib-versions",
+   "svc": "Match",
+   "doc": "Privacy Policy",
+   "commit": "9b44da5e8317dc558df5d7b070e382f277eb800b",
+   "date": "2026-01-02",
+   "card": "R484dca",
+   "batch": 3,
+   "blocks": 3,
+   "hidden": 0,
+   "quote": "To assist each other, as service providers, in data processing operations, such as data hosting and maintenance, customer care, marketing and targeted advertising, analytics, machine learning development and implementation, finance and accounting, legal support, payment processing, service improvement, data security and fighting against spam, abuse, fraud and other wrongdoings."
+  },
+  {
+   "coll": "contrib-versions",
+   "svc": "Amazon Web Services",
+   "doc": "Terms of Service",
+   "commit": "e38f518c11ba89550d337f6ad24f3edc5980a50b",
+   "date": "2024-02-03",
+   "card": "R7ff5a8",
+   "batch": 3,
+   "blocks": 4,
+   "hidden": 0,
+   "quote": "You agree and instruct that we may use Amazon Q Content to develop and improve Amazon Q (Preview) and its underlying technologies, and for that purpose we may store Amazon Q Content in an AWS region outside of the AWS region where you are using Amazon Q (Preview)."
+  },
+  {
+   "coll": "contrib-versions",
+   "svc": "Amazon Web Services",
+   "doc": "Terms of Service",
+   "commit": "cf92b68f9953e722c5e8c33655891e7e43aba2b5",
+   "date": "2026-06-10",
+   "card": "R76e784",
+   "batch": 3,
+   "blocks": 4,
+   "hidden": 0,
+   "quote": "You agree and instruct that for Amazon CodeGuru Profiler, Amazon Comprehend, Amazon Lex, Amazon Polly, Amazon Rekognition, Amazon Textract, Amazon Transcribe, Amazon Translate, AWS Transform, AWS FinOps Agent (Preview), Kiro Free Tier, and Kiro individual subscribers (as described [here]): (a) we may use and store AI Content that is processed by each of the foregoing AI Services to develop and improve the applicable AI Service and its underlying technologies; (b) we may use and store AI Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial-intelligence technologies; and (c) solely in connection with the development and improvement described in clauses (a) and (b), we may store such AI Content in an AWS region outside of the AWS region where you are using such AI Service."
+  },
+  {
+   "coll": "contrib-versions",
+   "svc": "Amazon Web Services",
+   "doc": "Terms of Service",
+   "commit": "983e7ef08ef4baf5fa850da5dc78da0d8131d947",
+   "date": "2026-04-29",
+   "card": "Raa398b",
+   "batch": 3,
+   "blocks": 5,
+   "hidden": 0,
+   "quote": "You agree and instruct that: (a) we may use and store Amazon Connect Decisions Content to develop and improve Amazon Connect Decisions and its underlying technologies; (b) we may use and store Amazon Connect Decisions Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies; and (c) solely in connection with the development and improvement described in clauses (a) and (b), we may store such Amazon Connect Decisions Content in an AWS region outside the AWS region where you are using Amazon Connect Decisions."
+  },
+  {
+   "coll": "contrib-versions",
+   "svc": "Amazon Web Services",
+   "doc": "Terms of Service",
+   "commit": "9803021507fedfda71beba4ffd8feb32f641ef30",
+   "date": "2026-01-24",
+   "card": "R6f2d54",
+   "batch": 3,
+   "blocks": 2,
+   "hidden": 0,
+   "quote": "(a) You agree and instruct that: (i) we may use and store Amazon Connect AI Content to develop and improve Amazon Connect and its underlying technologies; (ii) we may use and store Amazon Connect AI Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies; and (iii) solely in connection with the development and improvement described in clauses (i) and (ii), we may store your Amazon Connect AI Content in AWS regions outside the AWS regions where you are using Amazon Connect AI Features."
+  },
+  {
+   "coll": "genai-contrib-versions",
+   "svc": "Cursor",
+   "doc": "Privacy Policy",
+   "commit": "27200de51b1d94a4aaa5159b8e2cedd8382cab2e",
+   "date": "2025-04-19",
+   "card": "Ra0c185",
+   "batch": 4,
+   "blocks": 1,
+   "hidden": 0,
+   "quote": "This includes prompts, editor actions, terminal commands, code snippets, files in the repository, and edits made to this code."
+  },
+  {
+   "coll": "user-rights-versions",
+   "svc": "Snapchat",
+   "doc": "Privacy Policy",
+   "commit": "ddb039daa7f281071a585fe71728222b707406c3",
+   "date": "2026-10-30",
+   "card": "R4443b9",
+   "batch": 4,
+   "blocks": 1,
+   "hidden": 0,
+   "quote": "Develop and improve our machine learning models for augmented reality."
+  },
+  {
+   "coll": "contrib-versions",
+   "svc": "Spotify",
+   "doc": "Privacy Policy",
+   "commit": "bd9b0a0d52c47e39b361237867cdc86c488368e6",
+   "date": "2026-06-13",
+   "card": "R1f9586",
+   "batch": 4,
+   "blocks": 1,
+   "hidden": 0,
+   "quote": "This includes development and training of algorithmic and machine learning models, which help us to keep our service safe and enhance our users\u2019 experience."
+  }
+ ],
+ "kev": "not yet: Kev scoring or phase 2 not finished"
+}
