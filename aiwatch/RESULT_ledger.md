@@ -73,8 +73,15 @@ alerts, 8 in the sample): about 76 missed (95% CI 39-143), keyword recall .49 (.
 change: the rule finds about half. The check catches the same sentence only, not an equivalent right in other
 words, so both counts are still upper bounds.
 
-## Kev-4B (PENDING: scoring, then phase 2)
-## The kill test's reading (PENDING)
+## Kev-4B (PENDING: phase 2 is being rated)
+Kev scoring ended 2026-11-20 at 17:18 UTC. Kev raised 392 alerts, 130 of them on updates the keyword rule also
+flagged. The 262 cards only Kev raised were generated at 20:12 UTC and given to the same two raters, with the same
+question and blinding.
+
+## The kill test's reading: "keyword ties: stopped"
+Full write-up: `RESULT_aiwatch.md`. On the 14 reported incidents, Kev and the keyword rule flagged the same 10, with
+the same leads, and Kev raised 392 alerts against 172. That test counted alerts and did not judge them. Phase 2
+judges Kev's extra alerts.
 
 ## Trackers
 Public trackers of AI-training clauses exist (TOSTracker, Is It Training on Me?, ConductAtlas), as does a 2026 study

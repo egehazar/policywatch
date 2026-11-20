@@ -57,6 +57,12 @@ sentence; the top 3 passages follow, folded.*
   [DocBot](https://github.com/tosdr/DocBot) also suggests points to curators; the two were not compared.
 - **Meaning-diff scanner** (`policywatch/`, the original goal). It asks a fixed bank of questions about the old and
   new text of every update. It failed: see [SCANNER.md](SCANNER.md).
+- **AI-training clause watch** (`aiwatch/`). It replays the archive from 2023 to November 2026 and flags changes that
+  newly let a company train AI on its users' content or data. Two arms: a keyword rule and Kev-4B.
+  - Kill test (pre-registered): on 14 publicly reported incidents both arms flag the same 10. Kev raises 2.3 times
+    the alerts. Reading: "keyword ties: stopped" ([RESULT_aiwatch.md](aiwatch/RESULT_aiwatch.md)).
+  - Ledger (exploratory): two AI raters label every alert. The keyword rule is right about half the time and finds
+    about half of the grants. Kev's own alerts are being rated ([RESULT_ledger.md](aiwatch/RESULT_ledger.md)).
 
 ## Main results
 | Question | Answer | Numbers |
@@ -69,6 +75,8 @@ sentence; the top 3 passages follow, folded.*
 | The same on 20 documents of 20 other services, drawn at random before any model ran; and the printed p(yes) as a label | **Page better; label adopted** | 139 of 200 vs 99 (+.20 [+.14, +.27]); suggestions printed at p(yes) 0.90 or more: 114 of 133 rated YES, the rest 25 of 67; GPT as second rater 144 vs 106. |
 | Cost of the decision-model endpoint against the instruct model asked one question per request (idle CPU, 60 passages) | **Cheaper from 2 questions per passage** (against one question per request) | 0.83x at 1 question, 1.4x at 2, 2.4x at 4, 4.7x at 16. Kev's server ran 4 slots, the instruct model's 1. |
 | The same, with the instruct model asked all of a passage's questions in one prompt (2,043 questions, pre-registered) | **Edge gone** | Kev 2.01 s per question, the instruct model 1.79 s (ratio 0.89, one run per arm; no question count where Kev was cheaper). AUROC .721 vs .733, no difference shown; 0 replies failed to parse. On a 1-slot server Kev took 8.87 s per question: the server patch keeps no checkpoint with one slot (`stale/RESULT_multiq_addendum1.md`). With the patch fixed for one slot (v4, local), 2.12 s per question and the same reading (`stale/RESULT_multiq_addendum3.md`). |
+| AI-training clause watch: flag the 14 reported AI-training grants of 2023-2026 (pre-registered) | **Keyword rule ties Kev** | The same 10 of 14 flagged, with the same leads (2 at 7 days or more); Kev 392 alerts, keywords 172. |
+| The keyword rule on every AI-vocabulary change (two AI raters, exploratory) | **Right about half the time; finds about half** | Precision .535 (an upper bound: 18 of the 92 grant sentences were already in an earlier version); recall .47 [.34, .61] from a blind sample of 120 unflagged changes. |
 | Meaning-diff scanner: catch the changes the archive's editors wrote memos about | **Failed** | 1 of 10 memos (a random ranking catches about 2); 684 reviews needed against a bar of 182. |
 
 ## How it is checked
