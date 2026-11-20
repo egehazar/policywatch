@@ -1,5 +1,11 @@
 [
 {
+"card": "L35cc36",
+"svc": "Amazon Web Services",
+"date": "2023-03-27",
+"doc_check": "new to the document"
+},
+{
 "card": "L5578af",
 "svc": "Zoom",
 "date": "2023-04-01",
@@ -10,6 +16,12 @@
 "svc": "Facebook",
 "date": "2023-04-04",
 "doc_check": "in an earlier version"
+},
+{
+"card": "L0dc113",
+"svc": "Amazon Web Services",
+"date": "2023-05-31",
+"doc_check": "new to the document"
 },
 {
 "card": "L674c34",
@@ -24,6 +36,12 @@
 "doc_check": "new to the document"
 },
 {
+"card": "La42ab3",
+"svc": "Roblox",
+"date": "2023-08-01",
+"doc_check": "in parent document"
+},
+{
 "card": "L19dff6",
 "svc": "Pinterest",
 "date": "2023-08-01",
@@ -36,9 +54,27 @@
 "doc_check": "in an earlier version"
 },
 {
+"card": "L031f1d",
+"svc": "Amazon Web Services",
+"date": "2023-10-02",
+"doc_check": "new to the document"
+},
+{
 "card": "L86aa23",
 "svc": "SurveyMonkey",
 "date": "2023-11-01",
+"doc_check": "new to the document"
+},
+{
+"card": "L2eaf51",
+"svc": "OpenAI",
+"date": "2023-11-14",
+"doc_check": "new to the document"
+},
+{
+"card": "L8eb276",
+"svc": "Amazon Web Services",
+"date": "2023-11-16",
 "doc_check": "new to the document"
 },
 {
@@ -54,6 +90,24 @@
 "doc_check": "new to the document"
 },
 {
+"card": "Ld24178",
+"svc": "Wix",
+"date": "2024-01-04",
+"doc_check": "new to the document"
+},
+{
+"card": "L24b9cd",
+"svc": "Wix",
+"date": "2024-01-08",
+"doc_check": "in an earlier version"
+},
+{
+"card": "La2041a",
+"svc": "Booking.com",
+"date": "2024-01-10",
+"doc_check": "new to the document"
+},
+{
 "card": "La6d870",
 "svc": "Snapchat",
 "date": "2024-01-22",
@@ -66,10 +120,28 @@
 "doc_check": "new to the document"
 },
 {
+"card": "L695403",
+"svc": "Mistral AI",
+"date": "2024-03-02",
+"doc_check": "new to the document"
+},
+{
 "card": "L7d6c79",
 "svc": "Pinterest",
 "date": "2024-03-13",
 "doc_check": "in parent document"
+},
+{
+"card": "Ld7cc0c",
+"svc": "Bolt",
+"date": "2024-04-24",
+"doc_check": "new to the document"
+},
+{
+"card": "L7d23c0",
+"svc": "Mistral AI",
+"date": "2024-05-29",
+"doc_check": "new to the document"
 },
 {
 "card": "L303194",
@@ -78,9 +150,9 @@
 "doc_check": "new to the document"
 },
 {
-"card": "L7d23c0",
-"svc": "Mistral AI",
-"date": "2024-05-29",
+"card": "L5e38d1",
+"svc": "Alibaba.com",
+"date": "2024-05-30",
 "doc_check": "new to the document"
 },
 {
@@ -100,6 +172,18 @@
 "svc": "Grammarly",
 "date": "2024-06-21",
 "doc_check": "new to the document"
+},
+{
+"card": "L9d491a",
+"svc": "Miro",
+"date": "2024-07-17",
+"doc_check": "new to the document"
+},
+{
+"card": "L2581a6",
+"svc": "Bolt",
+"date": "2024-07-30",
+"doc_check": "in parent document"
 },
 {
 "card": "L6600dd",
@@ -129,6 +213,12 @@
 "card": "Le4d4ed",
 "svc": "LinkedIn",
 "date": "2024-09-19",
+"doc_check": "new to the document"
+},
+{
+"card": "Lef9e87",
+"svc": "xAI",
+"date": "2024-10-01",
 "doc_check": "new to the document"
 },
 {
@@ -180,6 +270,12 @@
 "doc_check": "new to the document"
 },
 {
+"card": "Ld422fb",
+"svc": "Mistral AI",
+"date": "2025-02-06",
+"doc_check": "new to the document"
+},
+{
 "card": "L54efd8",
 "svc": "xAI",
 "date": "2025-02-14",
@@ -189,6 +285,12 @@
 "card": "L0b9b0f",
 "svc": "Dailymotion",
 "date": "2025-02-21",
+"doc_check": "new to the document"
+},
+{
+"card": "Lc11d71",
+"svc": "Mistral AI",
+"date": "2025-03-11",
 "doc_check": "new to the document"
 },
 {
@@ -210,9 +312,51 @@
 "doc_check": "new to the document"
 },
 {
+"card": "La70c34",
+"svc": "Wix",
+"date": "2025-04-25",
+"doc_check": "in an earlier version"
+},
+{
+"card": "L749b99",
+"svc": "DeepSeek",
+"date": "2025-05-04",
+"doc_check": "new to the document"
+},
+{
 "card": "Leca617",
 "svc": "Spotify",
 "date": "2025-05-12",
+"doc_check": "new to the document"
+},
+{
+"card": "L096f82",
+"svc": "Facebook",
+"date": "2025-05-28",
+"doc_check": "new to the document"
+},
+{
+"card": "L928471",
+"svc": "Instagram",
+"date": "2025-05-28",
+"doc_check": "new to the document"
+},
+{
+"card": "L4fb658",
+"svc": "Facebook",
+"date": "2025-06-16",
+"doc_check": "new to the document"
+},
+{
+"card": "L3a3d74",
+"svc": "Instagram",
+"date": "2025-06-16",
+"doc_check": "new to the document"
+},
+{
+"card": "L2ab1ae",
+"svc": "Instagram",
+"date": "2025-06-16",
 "doc_check": "new to the document"
 },
 {
@@ -220,6 +364,12 @@
 "svc": "AdRoll",
 "date": "2025-06-28",
 "doc_check": "new to the document"
+},
+{
+"card": "Lca6bb1",
+"svc": "Tempo Labs",
+"date": "2025-07-05",
+"doc_check": "in parent document"
 },
 {
 "card": "Lf2503c",
@@ -276,9 +426,21 @@
 "doc_check": "new to the document"
 },
 {
+"card": "L232b7f",
+"svc": "Academia.edu",
+"date": "2025-09-17",
+"doc_check": "new to the document"
+},
+{
 "card": "L5ba869",
 "svc": "LinkedIn",
 "date": "2025-09-18",
+"doc_check": "new to the document"
+},
+{
+"card": "L4935af",
+"svc": "GitHub",
+"date": "2025-09-29",
 "doc_check": "new to the document"
 },
 {
@@ -318,6 +480,12 @@
 "doc_check": "new to the document"
 },
 {
+"card": "Lb4b416",
+"svc": "Amazon Web Services",
+"date": "2025-12-03",
+"doc_check": "new to the document"
+},
+{
 "card": "L17e039",
 "svc": "Allrecipes",
 "date": "2025-12-10",
@@ -328,6 +496,12 @@
 "svc": "Twitter",
 "date": "2025-12-17",
 "doc_check": "in parent document"
+},
+{
+"card": "L4461be",
+"svc": "Firefox",
+"date": "2025-12-18",
+"doc_check": "new to the document"
 },
 {
 "card": "L606be8",
@@ -348,6 +522,12 @@
 "doc_check": "new to the document"
 },
 {
+"card": "L8e5116",
+"svc": "Match",
+"date": "2026-01-02",
+"doc_check": "new to the document"
+},
+{
 "card": "La7ca2c",
 "svc": "Facebook",
 "date": "2026-01-15",
@@ -360,14 +540,26 @@
 "doc_check": "new to the document"
 },
 {
-"card": "Lc31aaf",
-"svc": "DeepSeek",
-"date": "2026-02-10",
-"doc_check": "new to the document"
+"card": "L144ecd",
+"svc": "Grammarly",
+"date": "2026-01-16",
+"doc_check": "in an earlier version"
+},
+{
+"card": "Lb3950e",
+"svc": "Grammarly",
+"date": "2026-01-17",
+"doc_check": "in an earlier version"
 },
 {
 "card": "L49c191",
 "svc": "Starlink",
+"date": "2026-02-10",
+"doc_check": "new to the document"
+},
+{
+"card": "Lc31aaf",
+"svc": "DeepSeek",
 "date": "2026-02-10",
 "doc_check": "new to the document"
 },
@@ -390,6 +582,12 @@
 "doc_check": "new to the document"
 },
 {
+"card": "Lf1aec7",
+"svc": "Llama API",
+"date": "2026-03-13",
+"doc_check": "in an earlier version"
+},
+{
 "card": "La1e2fd",
 "svc": "Booking.com",
 "date": "2026-03-26",
@@ -405,6 +603,12 @@
 "card": "Lb41497",
 "svc": "Toyota Connected Services",
 "date": "2026-04-08",
+"doc_check": "new to the document"
+},
+{
+"card": "L8ace7e",
+"svc": "Amazon Web Services",
+"date": "2026-04-09",
 "doc_check": "new to the document"
 },
 {
@@ -438,8 +642,44 @@
 "doc_check": "new to the document"
 },
 {
+"card": "Lbf3742",
+"svc": "Amazon Web Services",
+"date": "2026-04-29",
+"doc_check": "new to the document"
+},
+{
+"card": "Ladaceb",
+"svc": "Llama API",
+"date": "2026-04-30",
+"doc_check": "in an earlier version"
+},
+{
+"card": "Ld1e75c",
+"svc": "Llama API",
+"date": "2026-05-01",
+"doc_check": "in an earlier version"
+},
+{
+"card": "L439f68",
+"svc": "Instagram",
+"date": "2026-05-02",
+"doc_check": "in an earlier version"
+},
+{
+"card": "Lfabe8b",
+"svc": "Instagram",
+"date": "2026-05-06",
+"doc_check": "in parent document"
+},
+{
 "card": "Lf84604",
 "svc": "PayPal",
+"date": "2026-05-06",
+"doc_check": "in an earlier version"
+},
+{
+"card": "L1e2904",
+"svc": "Llama API",
 "date": "2026-05-06",
 "doc_check": "in an earlier version"
 },
@@ -468,9 +708,21 @@
 "doc_check": "in parent document"
 },
 {
+"card": "L80379e",
+"svc": "Kick",
+"date": "2026-05-19",
+"doc_check": "new to the document"
+},
+{
 "card": "L7b87c4",
 "svc": "Mix",
 "date": "2026-05-27",
+"doc_check": "new to the document"
+},
+{
+"card": "Lc324fa",
+"svc": "Amazon Web Services",
+"date": "2026-05-29",
 "doc_check": "new to the document"
 },
 {
@@ -478,6 +730,12 @@
 "svc": "Claude.ai",
 "date": "2026-06-08",
 "doc_check": "new to the document"
+},
+{
+"card": "Lddf414",
+"svc": "Bolt",
+"date": "2026-06-13",
+"doc_check": "in parent document"
 },
 {
 "card": "L3f2ec3",
@@ -504,6 +762,24 @@
 "doc_check": "new to the document"
 },
 {
+"card": "Lb14cdf",
+"svc": "Spark",
+"date": "2026-07-21",
+"doc_check": "new to the document"
+},
+{
+"card": "L26f1be",
+"svc": "Facebook",
+"date": "2026-07-23",
+"doc_check": "new to the document"
+},
+{
+"card": "La53cb8",
+"svc": "Twitch",
+"date": "2026-08-13",
+"doc_check": "new to the document"
+},
+{
 "card": "L1462c5",
 "svc": "Booking.com",
 "date": "2026-08-20",
@@ -514,6 +790,18 @@
 "svc": "Facebook",
 "date": "2026-08-22",
 "doc_check": "in an earlier version"
+},
+{
+"card": "L311c12",
+"svc": "Amazon.com",
+"date": "2026-08-23",
+"doc_check": "new to the document"
+},
+{
+"card": "L76343c",
+"svc": "Twitch",
+"date": "2026-08-26",
+"doc_check": "new to the document"
 },
 {
 "card": "L10ff7f",
@@ -528,10 +816,34 @@
 "doc_check": "in parent document"
 },
 {
+"card": "Lf3c883",
+"svc": "Wix",
+"date": "2026-09-11",
+"doc_check": "in an earlier version"
+},
+{
 "card": "Lad58cf",
 "svc": "Bolt.new",
 "date": "2026-09-14",
 "doc_check": "new to the document"
+},
+{
+"card": "L232fb2",
+"svc": "Facebook",
+"date": "2026-10-20",
+"doc_check": "new to the document"
+},
+{
+"card": "L5a4645",
+"svc": "Instagram",
+"date": "2026-10-20",
+"doc_check": "in parent document"
+},
+{
+"card": "L8c8d91",
+"svc": "Snapchat",
+"date": "2026-10-30",
+"doc_check": "in an earlier version"
 },
 {
 "card": "L96fa3f",

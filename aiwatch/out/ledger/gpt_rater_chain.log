@@ -45,3 +45,27 @@ ERROR: exceeded retry limit, last status: 429 Too Many Requests
 r_04 ok 09:19
 r_04 done (20)
 gpt rater r all done
+p2 rater start 20:16
+p2_00 ok 20:18
+p2_00 done (25)
+p2_01 ok 20:21
+p2_01 done (25)
+p2_02 ok 20:23
+p2_02 done (25)
+p2_03 ok 20:24
+p2_03 done (25)
+p2_04 ok 20:26
+p2_04 done (25)
+p2_05 ok 20:28
+p2_05 done (25)
+p2_06 ok 20:29
+p2_06 done (25)
+p2_07 ok 20:31
+p2_07 done (25)
+p2_08 ok 20:33
+p2_08 done (25)
+p2_09 ok 20:34
+p2_09 done (25)
+p2_10 ok 20:35
+p2_10 done (12)
+gpt rater p2 all done

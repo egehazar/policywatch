@@ -148,5 +148,11 @@
    "quote": "This includes development and training of algorithmic and machine learning models, which help us to keep our service safe and enhance our users\u2019 experience."
   }
  ],
- "kev": "not yet: Kev scoring or phase 2 not finished"
+ "kev_verified_grants": 135,
+ "kev_only_verified_grants": 52,
+ "kev_recall_est": 0.689,
+ "kev_recall_ci95": [
+  0.501,
+  0.895
+ ]
 }

@@ -1,46 +1,49 @@
 {
- "cards": 172,
- "verified_grants": 92,
- "verified_services": 49,
+ "cards": 434,
+ "verified_grants": 144,
+ "verified_services": 63,
  "by_year": {
-  "2026": 34,
-  "2024": 21,
-  "2025": 28,
-  "2023": 9
+  "2026": 57,
+  "2024": 30,
+  "2025": 42,
+  "2023": 15
  },
  "scope_rater1": {
-  "GENERAL": 71,
-  "THIRD": 11,
-  "NARROW": 10
+  "GENERAL": 115,
+  "THIRD": 12,
+  "NARROW": 17
  },
- "kappa_grant": 0.894,
+ "kappa_grant": 0.89,
  "labels": {
   "claude": {
-   "NEW": 79,
-   "WIDER": 15,
-   "NO": 41,
-   "UNCLEAR": 24,
-   "SAME": 13
+   "SAME": 16,
+   "NO": 222,
+   "NEW": 141,
+   "UNCLEAR": 37,
+   "WIDER": 18
   },
   "gpt": {
-   "NEW": 80,
-   "WIDER": 19,
-   "NO": 42,
-   "UNCLEAR": 22,
-   "SAME": 9
+   "SAME": 12,
+   "NO": 220,
+   "NEW": 130,
+   "UNCLEAR": 51,
+   "WIDER": 21
   }
  },
  "precision": {
   "regex": 0.535,
-  "kev": null
+  "kev": 0.344
  },
  "alerts": {
   "regex": 172,
-  "kev": 0
+  "kev": 392
  },
  "relative_recall": {
-  "regex": 1.0,
-  "kev": 0.0
+  "regex": 0.639,
+  "kev": 0.938
  },
- "kev_minus_regex_precision_ci95": null
+ "kev_minus_regex_precision_ci95": [
+  -0.275,
+  -0.112
+ ]
 }

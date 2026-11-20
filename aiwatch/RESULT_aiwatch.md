@@ -60,6 +60,7 @@ most.
 ## What this cannot show
 - **Whether Kev's extra alerts are real.** The kill test counts alerts; no one judged them. Kev raised 262 alerts the
   keyword rule did not, and missed 42 of its alerts. The ledger's recall sample found the keyword rule misses about
-  half of all grants (`RESULT_ledger.md`), so some of Kev's extra alerts may be grants. Its phase 2, which rates
-  every Kev-only alert with the same two AI raters, answers this. That is an exploratory follow-up, not this test.
+  half of all grants (`RESULT_ledger.md`), so some of Kev's extra alerts may be grants. Its phase 2 rated every
+  Kev-only alert with the same two AI raters (exploratory, not this test): 52 of the 262 are grants, so over all
+  changes Kev found 135 grants against 92, at precision .344 against .535.
 - The plan's other limits stand: the topic was chosen in hindsight, and the archive covers mostly consumer services.

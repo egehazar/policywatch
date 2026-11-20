@@ -1,9 +1,13 @@
-# Result: the AI-training clause ledger (r40, exploratory). INTERIM: keyword rule only
+# Result: the AI-training clause ledger (r40, exploratory)
 
 Plan: `PLAN_ledger.md` (hashed with `ledger.py` and `recall.py`; addenda 1-3). Started 2026-11-19 while the kill test
-(`PLAN_aiwatch.md`) was still scoring. This file covers the keyword rule: its alerts (phase 1) and a recall sample of
-what it did not flag. Kev's alerts (phase 2) and the kill test's reading are added when they finish. Marked PENDING
-below.
+(`PLAN_aiwatch.md`) was still scoring. It covers the keyword rule's alerts (phase 1), a recall sample of what the
+rule did not flag, and Kev's alerts (phase 2, rated 2026-11-20 after the kill test ended).
+
+**In short.** Over every AI-vocabulary change from 2023 to November 2026, Kev-4B found 135 grants and the keyword rule
+92. Kev's alerts were right less often (34% against 54%). On the 14 grants the press reported, the two tied
+(`RESULT_aiwatch.md`). So the model's gain is in the changes nobody reported, mostly worded "develop and improve"
+rather than "train", and it costs 2.3 times the reading.
 
 ## What was measured
 - **Changes:** every recorded change (2023-01 to 2026-11, four Open Terms Archive collections, 472 services) whose
@@ -73,15 +77,47 @@ alerts, 8 in the sample): about 76 missed (95% CI 39-143), keyword recall .49 (.
 change: the rule finds about half. The check catches the same sentence only, not an equivalent right in other
 words, so both counts are still upper bounds.
 
-## Kev-4B (PENDING: phase 2 is being rated)
+## Kev-4B: phase 2
 Kev scoring ended 2026-11-20 at 17:18 UTC. Kev raised 392 alerts, 130 of them on updates the keyword rule also
-flagged. The 262 cards only Kev raised were generated at 20:12 UTC and given to the same two raters, with the same
-question and blinding.
+flagged. The 262 cards only Kev raised were generated at 20:12 UTC and rated by 20:35 UTC by the same two raters,
+with the same question and blinding (`py -m aiwatch.ledger tally`, `py -m aiwatch.recall tally`).
+
+| | Keyword rule | Kev-4B (p(grant) up by 0.2 or more) |
+|---|---|---|
+| Alerts | 172 | 392 |
+| Verified grants (both raters NEW or WIDER) | 92 | 135 |
+| Precision | .535 | .344 |
+| Verified grants only this arm found | 9 | 52 |
+| Share of all 144 verified grants | .64 | .94 |
+| Estimated recall over all AI-vocabulary changes (with the recall sample) | .47 (.34-.61) | .69 (.50-.90) |
+| Counting only sentences new to the document: grants, precision | 74, .43 | 103, .26 |
+
+- **Precision, Kev minus keywords:** -.19 (95% CI -.275 to -.112, resampling services). Kev is less precise. The
+  plan allows "Kev more precise" only if the interval is above zero; it is below.
+- **Agreement** over all 434 cards: kappa .89. In all, 144 verified grants on 63 services.
+- **What Kev found that the keywords missed:** 52 grants on 25 services, led by AWS (8), Instagram (6), Wix (4),
+  Facebook (4), Llama API (4), Mistral AI (3) and Bolt (3). These are the "develop and improve" wordings the recall
+  section describes. 35 of the 52 sentences are new to their document (`py -m aiwatch.history ledger`, now over all
+  144: 109 new, 35 already in an earlier version).
+- **Repeat check:** 27 recall-sample updates were also Kev alerts and were rated again in phase 2 (that card shows
+  only the blocks Kev alerted on). Verified or not agreed on 24 of 27. Kev alerted on 5 of the 11 grants in the
+  recall sample.
+- **Against my predictions (before any rating):** cards about 250 (434); verified grants 50-90 (144); precision,
+  keywords about 45% (.535), Kev about 30% (.344).
+
+**Reading it with the kill test.** On reported incidents the arms tie. Across all changes, Kev finds about half again
+as many grants for 2.3 times the alerts: a reader of Kev's feed reads 392 changes to find 135 grants, against 172 for
+92. Which is better depends on whether a missed grant or a wasted read costs more. A tracker that wants to be
+complete would take Kev's feed; a quick alert feed would take the keywords.
+
+**What this does not show.** That the gain comes from decision-model training. In policywatch, Kev tied its base
+model family wherever both were run, and no base model was run here. The fair credit is "a 4B LLM reading each
+change", not the decision model. Every label is an AI rater's; no person rated a card.
 
 ## The kill test's reading: "keyword ties: stopped"
 Full write-up: `RESULT_aiwatch.md`. On the 14 reported incidents, Kev and the keyword rule flagged the same 10, with
-the same leads, and Kev raised 392 alerts against 172. That test counted alerts and did not judge them. Phase 2
-judges Kev's extra alerts.
+the same leads, and Kev raised 392 alerts against 172. That test counted alerts and did not judge them. Phase 2,
+above, judged them: 52 of Kev's extra alerts are grants the keyword rule missed.
 
 ## Trackers
 Public trackers of AI-training clauses exist (TOSTracker, Is It Training on Me?, ConductAtlas), as does a 2026 study
