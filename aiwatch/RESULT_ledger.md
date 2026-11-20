@@ -1,8 +1,9 @@
-# Result: the AI-training clause ledger (r40, exploratory). INTERIM: phase 1 only
+# Result: the AI-training clause ledger (r40, exploratory). INTERIM: keyword rule only
 
 Plan: `PLAN_ledger.md` (hashed with `ledger.py` and `recall.py`; addenda 1-3). Started 2026-11-19 while the kill test
-(`PLAN_aiwatch.md`) was still scoring. This file covers phase 1 (the keyword arm's alerts). The recall sample, Kev's
-alerts (phase 2) and the kill test's reading are added when they finish. Marked PENDING below.
+(`PLAN_aiwatch.md`) was still scoring. This file covers the keyword rule: its alerts (phase 1) and a recall sample of
+what it did not flag. Kev's alerts (phase 2) and the kill test's reading are added when they finish. Marked PENDING
+below.
 
 ## What was measured
 - **Changes:** every recorded change (2023-01 to 2026-11, four Open Terms Archive collections, 472 services) whose
@@ -39,7 +40,31 @@ So **92 is an upper bound on new grants**. The keyword rule's precision for "a n
 roughly a fifth to a third on this evidence. Labelling changes from diff snippets needs the whole prior document in
 view. That is a lesson for any change-level evaluation, this one included.
 
-## Recall (PENDING: GPT's labels on the 120-card sample)
+## Recall: what the keyword rule misses (addendum 2)
+A random sample (seed 41) of 120 of the 1,134 AI-vocabulary updates the keyword rule did not flag, rated blind by
+the same two raters on the same question.
+
+| | |
+|---|---|
+| Verified grants in the sample | 11 of 120 (prediction: 3-8) |
+| Estimated grants the rule missed | 104 (95% CI 59-178) |
+| Keyword recall, 92 / (92 + missed) | .47 (95% CI .34-.61; prediction: .55-.75) |
+
+**The prediction failed on the low side:** the rule finds about half of the grants, not two-thirds. Why it missed
+the 11 (checked mechanically against the rule's own patterns):
+- **No training word (8).** Companies wrote "develop and improve" instead of "train". Examples: AWS's service terms,
+  four times ("we may use ... AI Content to develop and improve ... machine-learning and artificial intelligence
+  technologies"); Meta's "Develop and improve AI at Meta"; Snapchat's "Develop and improve our machine learning
+  models"; Match's "machine learning development". Cursor's two rows describe collecting prompts and code when
+  Privacy Mode is off, with no AI word in the sentence at all.
+- **A training word but no AI word (1).** Wix: a licence to "train our software tools".
+- **Both words, but no new matching sentence (1).** Spotify's new training sentence replaced one the rule already
+  counted, so the count of matching sentences did not rise.
+
+A rule could be widened for "develop and improve", but that would be fitted to this sample. The planned test of a
+detector that reads meaning instead of words is Kev's phase 2. The same caveat as phase 1 applies: the sample labels
+come from cards too, so some of the 11 may be old grants; both sides of the ratio are counted the same way.
+
 ## Kev-4B (PENDING: scoring, then phase 2)
 ## The kill test's reading (PENDING)
 
