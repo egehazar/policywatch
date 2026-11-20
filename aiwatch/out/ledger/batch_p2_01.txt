@@ -1,0 +1,465 @@
+Each card shows the BEFORE and AFTER text of one change to a company's terms of service or privacy policy (only the changed passages that mention AI or models, with a little context). Read both and answer one label:
+- NEW: the AFTER text lets the company (or partners it shares data with) use its users' content or personal data to train or improve AI / machine-learning models, and the BEFORE text did not.
+- WIDER: the BEFORE text already allowed that, and the AFTER text allows clearly more (more kinds of data, generative AI, new recipients, fewer limits, an opt-out removed).
+- SAME: both allow it to about the same extent (rewording, moving text, small clarifications).
+- NO: the AFTER text does not let the company train AI on users' data (for example: a promise not to train, a ban on users training AI on the service, AI features or third-party models mentioned without training on users' data, or training only on data that is not users' own, such as public web data).
+- UNCLEAR: the passages shown are not enough to tell.
+For NEW or WIDER, also give the scope of the training use:
+- THIRD: users' data is shared with other companies for THEM to train AI.
+- GENERAL: generative or general-purpose AI, or AI/ML models with no narrow purpose named.
+- NARROW: models for one named operational purpose only (ads, recommendations, fraud, safety, support, search).
+(If several apply, the first in this order.) For the other labels, scope is "-".
+Then quote the one AFTER sentence that decides it (or "-" for NO with nothing to quote).
+
+Answer as JSON lines: {"card": "<id>", "label": "<NEW|WIDER|SAME|NO|UNCLEAR>", "scope": "<THIRD|GENERAL|NARROW|->", "quote": "<sentence>"}
+
+=== CARD L913dde ===
+BEFORE:
+Anonymisation de vos informations
+
+* * *
+
+AFTER:
+Anonymisation de vos informations
+
+* Nous soutenons la recherche dans des domaines tels que l’intelligence artificielle et le machine learning.
+
+* * *
+
+=== CARD L21a649 ===
+BEFORE:
+* [Contact Us]
+
+### WhatsApp Legal Info
+
+AFTER:
+* [Contact Us]
+
+* We’ve added information about how WhatsApp provides an option for users to message with Meta AI.
+
+### WhatsApp Legal Info
+
+=== CARD L0cad74 ===
+BEFORE:
+**Governing law (business use)**. California law will govern these Terms except for its conflicts of laws principles. All claims arising out of or relating to these Terms will be brought exclusively in the federal or state courts of San Francisco, California.
+
+AFTER:
+**Governing law (business use)**. California law will govern these Terms except for its conflicts of laws principles. All claims arising out of or relating to these Terms will be brought exclusively in the federal or state courts of San Francisco, California.
+
+Our models can accept images and videos as part of Inputs to the Services (“Visual Capabilities”). You may not use Visual Capabilities to assist in identifying a person nor to solicit or infer private or sensitive information about a person. You may not use Visual Capabilities to reproduce the likeness of any person without express consent and all necessary rights, nor to reproduce the likeness of anyone under 18. By choosing to share an image or video publicly on the Services, such as by sharing it to the Sora explore page, you give OpenAI the right to reproduce, distribute, modify, display and perform it for the purpose of operating and promoting the Services.
+
+Voice conversations is a ChatGPT feature that allows you to speak to our models and have them speak back (“ChatGPT Voice Output”). ChatGPT Voice Output is for non-commercial use only and may not be distributed or repackaged as a standalone audio recording or any other sound file. Any rights in Output assigned to you do not include ChatGPT Voice Output.
+
+=== CARD L47937b ===
+BEFORE:
+At Institution's expense, Institution will assist Proctorio with access to, and use of, its facilities, equipment, and personnel, as Proctorio may need to perform Its obligations and enforce the obligations of the Authorized Users under an applicable SaaS Agreement and these Terms of Service.
+
+5\. Your License to Use the Services.
+
+AFTER:
+At Institution's expense, Institution will assist Proctorio with access to, and use of, its facilities, equipment, and personnel, as Proctorio may need to perform Its obligations and enforce the obligations of the Authorized Users under an applicable SaaS Agreement and these Terms of Service.
+
+Proctorio ensures its AI systems are fair, transparent, and secure, with clear user guidance and feedback mechanisms. Users or anyone affected by the AI models or algorithms can submit their concerns at privacy@proctorio.com.
+
+5\. Your License to Use the Services.
+
+=== CARD Lf9634a ===
+BEFORE:
+### Developers
+
+[Model Library][Docs][CLI][API][Changelog]
+
+### Resources
+
+AFTER:
+### Developers
+
+* [Model library]
+
+### Resources
+
+=== CARD L096f82 ===
+BEFORE:
+* Messages you send and receive, including their content, subject to [applicable law]. On some Products, you can use end-to-end encrypted messages. [Learn more] about how end-to-end encryption works.
+
+* Apps and features you use, and what actions you take in them. [See examples\[8\]].
+
+AFTER:
+* Messages you send and receive, including their content, subject to [applicable law]. On some Products, you can use end-to-end encrypted messages. [Learn more] about how end-to-end encryption works.
+
+* Interactions with Meta's [artificial intelligence technology] and related metadata. For example, messages you receive from, share with or send to Meta’s [artificial intelligence technology].
+
+* Apps and features you use, and what actions you take in them. [See examples\[8\]].
+
+BEFORE:
+| Sharing your contact, profile or other information with third parties upon your request:<br><br>You may choose to share your contact information, profile information and other data with our partners: The types of partners with whom information is shared depends on the features of our service that you use and the manner in which you choose to use them. For example, you may choose to share your email address, birthday, friends list, hometown or other information with a partner if you choose to connect your Facebook account to their app. | * To deliver quality experiences to users who use our partners’ apps, in our best interest and in the interest of our users.<br>* To facilitate and improve users' experiences in their apps, in the interests of our partners who want to facilitate and improve consumers' experiences in their apps. | [Information you provide (for example, your email address, birthday, friends’ list and hometown).] |
+
+| ### If you are using a device we cannot associate with a registered user of the Meta Products | | |
+
+AFTER:
+| Sharing your contact, profile or other information with third parties upon your request:<br><br>You may choose to share your contact information, profile information and other data with our partners: The types of partners with whom information is shared depends on the features of our service that you use and the manner in which you choose to use them. For example, you may choose to share your email address, birthday, friends list, hometown or other information with a partner if you choose to connect your Facebook account to their app. | * To deliver quality experiences to users who use our partners’ apps, in our best interest and in the interest of our users.<br>* To facilitate and improve users' experiences in their apps, in the interests of our partners who want to facilitate and improve consumers' experiences in their apps. | [Information you provide (for example, your email address, birthday, friends’ list and hometown).] |
+
+| Develop and improve [artificial intelligence technology] (also called AI at Meta) on Meta Products and for third parties. | * In our interest, and in the interests of users and third parties to create, provide, support, improve and maintain artificial intelligence technology that enables people, businesses and others to express themselves, communicate, and discover and engage with information they’re interested in.<br>* In our interest, and in the interests of third parties and the public at large to offer artificial intelligence technology to third parties, including developers and researchers.<br>* In our interest, and in the interests of users and third parties to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy. | [Your activity and information you provide]:<br><br>* Interactions with Meta's [artificial intelligence technology] and related metadata. For example, messages you receive from, share with or send to Meta’s [artificial intelligence technology].<br><br>[Information from partners, vendors and third parties] |
+
+| Develop and improve [artificial intelligence technology] (also called AI at Meta) on Meta Products and for third parties. | * In our interest, and in the interests of users and third parties to create, provide, support, improve and maintain artificial intelligence technology that enables people, businesses and others to express themselves, communicate, and discover and engage with information they’re interested in.<br>* In our interest, and in the interests of third parties and the public at large to offer artificial intelligence technology to third parties, including developers and researchers.<br>* In our interest, and in the interests of users and third parties to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy. | [Your activity and information you provide]:<br><br>* [Public content] you create or share, like posts, comments or audio.<br><br>[Information from partners, vendors and third parties] |
+
+| ### If you are using a device we cannot associate with a registered user of the Meta Products | | |
+
+=== CARD Lb03e00 ===
+BEFORE:
+We maintain technical, physical, and administrative security measures designed to provide reasonable protection for your Personal Data against loss, misuse, unauthorised access, disclosure, and alteration. The security measures include firewalls, data encryption, physical access controls to our data centres, and information access authorisation controls. While we are dedicated to securing our systems and Services, you are responsible for securing and maintaining the privacy of your password(s) and Account/profile registration information and verifying that the Personal Data we maintain about you is accurate and current. We are not responsible for protecting any Personal Data that we share with a third-party based on an account connection that you have authorised.
+
+AFTER:
+* to improve our Services and for general business development purposes, for example improving risk models to minimize fraud, develop new products and features and explore new business opportunities.
+
+* If you are not approved under the Automated Decisions described below, you will not have access to our services, such as our payment methods. PayPal has several safety mechanisms to ensure the decisions are appropriate. These mechanisms include ongoing overviews of our decision models and random sampling in individual cases. If you have any concern about the outcome, you can [**contact us**], and we will determine whether the procedure was performed appropriately.
+
+We believe that by making such decisions automatically, PayPal increases its objectivity and transparency in deciding which services to offer you. We deploy several safety mechanisms to ensure the decisions are appropriate. These mechanisms include ongoing overviews of our decision models and random sampling in individual cases. You can always ask for a manual decision-making process instead, express your opinion or contest decision making based solely on automated processing, including profiling, if such a decision would produce _legal effects or otherwise similarly significantly affect you_. You can find out more about how to object to these decisions in Section 10 **(“Your data protection rights”)**.
+
+We maintain technical, physical, and administrative security measures designed to provide reasonable protection for your Personal Data against loss, misuse, unauthorised access, disclosure, and alteration. The security measures include firewalls, data encryption, physical access controls to our data centres, and information access authorisation controls. While we are dedicated to securing our systems and Services, you are responsible for securing and maintaining the privacy of your password(s) and Account/profile registration information and verifying that the Personal Data we maintain about you is accurate and current. We are not responsible for protecting any Personal Data that we share with a third-party based on an account connection that you have authorised.
+
+=== CARD L7e7c50 ===
+BEFORE:
+=====================
+
+By entering into this Agreement, and/or by using or accessing the Lyft Platform, you expressly acknowledge that you understand this Agreement (including the dispute resolution and arbitration provisions in Section 17) and accept all of its terms. IF YOU DO NOT AGREE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS AGREEMENT, YOU MAY NOT USE OR ACCESS THE LYFT PLATFORM OR ANY OF THE SERVICES PROVIDED THROUGH THE LYFT PLATFORM. If you use the Lyft Platform in another country, you agree to be subject to Lyft’s terms of service for that country. If you are accessing or using the Lyft Platform to access or use Lyft Business services on behalf of an organization contracted with Lyft, and you are not accessing or using the Lyft Platform as a Rider or Driver, your access and use is governed by the contract between Lyft and your organization.
+
+AFTER:
+=====================
+
+These Terms of Service constitute a legally binding agreement (the “Agreement”) between you and Lyft, Inc., its parents, subsidiaries, representatives, affiliates, officers and directors (collectively, “Lyft,” “we,” “us” or “our”) governing your use of the Lyft applications, websites, technology, artificial intelligence tools, facilities, and platform (collectively, the “Lyft Platform”).
+
+By entering into this Agreement, and/or by using or accessing the Lyft Platform, you expressly acknowledge that you understand this Agreement (including the dispute resolution and arbitration provisions in Section 17) and accept all of its terms. IF YOU DO NOT AGREE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS AGREEMENT, YOU MAY NOT USE OR ACCESS THE LYFT PLATFORM OR ANY OF THE SERVICES PROVIDED THROUGH THE LYFT PLATFORM. If you use the Lyft Platform in another country, you agree to be subject to Lyft’s terms of service for that country. If you are accessing or using the Lyft Platform to access or use Lyft Business services on behalf of an organization contracted with Lyft, and you are not accessing or using the Lyft Platform as a Rider or Driver, your access and use is governed by the contract between Lyft and your organization.
+
+=== CARD L0f44cf ===
+BEFORE:
+| Personalising the Meta Products (other than ads): Our systems automatically process information we have collected and stored associated with you and others to assess and understand your interests and your preferences and provide you personalised experiences across the Meta Products in accordance with our terms. This is how we:<br><br>* Personalise features and content (such as your [News Feed], [Instagram Feed] and Stories); and<br>* Make suggestions for you (such as people you may know, groups or events that you may be interested in or topics that you may want to follow) on and off our Products. | [Your activity and information you provide]:<br><br>* Content you create, like posts, comments or audio<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br>* Metadata about content<br>* Types of content you view or interact with, and how you interact with it<br>* Apps and features you use, and what actions you take in them<br>* Purchases or other transactions you make<br>* Hashtags you use<br>* The time, frequency and duration of your activities on our Products<br><br>[Friends, followers and other connections]<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings (like GPS location)<br>* Location-related information<br>* Information about the network you connect your device to<br>* Reports about our Products’ performance on your device<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+[... cut ...]
+
+AFTER:
+| Personalising the Meta Products (other than ads): Our systems automatically process information we have collected and stored associated with you and others to assess and understand your interests and your preferences and provide you personalised experiences across the Meta Products in accordance with our terms. This is how we:<br><br>* Personalise features and content (such as your [News Feed], [Instagram Feed] and Stories); and<br>* Make suggestions for you (such as people you may know, groups or events that you may be interested in or topics that you may want to follow) on and off our Products. | [Your activity and information you provide]:<br><br>* Content you create, like posts, comments or audio<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br>* Metadata about content<br>* Types of content you view or interact with, and how you interact with it<br>* Apps and features you use, and what actions you take in them<br>* Purchases or other transactions you make<br>* Hashtags you use<br>* The time, frequency and duration of your activities on our Products<br><br>[Friends, followers and other connections]<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings (like GPS location)<br>* Location-related information<br>* Information about the network you connect your device to<br>* Reports about our Products’ performance on your device<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+[... cut ...]
+
+BEFORE:
+| Personalising the Meta Products: Our systems automatically process information we have collected and stored associated with you and others to assess and understand your interests and your preferences and provide you personalised experiences across the Meta Products in accordance with our terms. This is how we:<br><br>* Personalise features and content (such as your [News Feed], [Instagram Feed] and Stories),<br>* Make suggestions for you (such as people you may know, groups or events that you may be interested in or topics that you may want to follow) on and off our Products.<br><br>[Learn more] about how we use information about you to personalise your experience on and across Meta Products and how we choose the ads that you see. | * To create, provide, support and maintain innovative products and features that enable people under the age of majority to express themselves, communicate, discover and engage with information and communities relevant to their interests, build community and utilise tools and features that promote their well-being.<br>* To share meaningful updates with our users under the age of majority about our Products and promoting our Products.<br>* To provide, personalize and improve the Meta Products in a consistent manner while ensuring additional safeguards for those under their Member State's age of consent.<br>* The legitimate interest of our users in being able to access the Meta Products and those Products being personalised to each user. | [Your activity and information you provide]:<br><br>* Content you create, like posts, comments or audio<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br>* Metadata about content<br>* Types of content you view or interact with, and how you interact with it<br>* Apps and features you use, and what actions you take in them<br>* Purchases or other transactions you make<br>* Hashtags you use<br>* The time, frequency and duration of your activities on our Products<br><br>[Friends, followers and other connections]<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings (like GPS location)<br>* Location-related information<br>* Information about the network you connect your device to<br>* Reports about our Products’ performance on your device<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] (other than using partner data to tailor ads to you) |
+
+[... cut ...]
+
+AFTER:
+| Personalising the Meta Products: Our systems automatically process information we have collected and stored associated with you and others to assess and understand your interests and your preferences and provide you personalised experiences across the Meta Products in accordance with our terms. This is how we:<br><br>* Personalise features and content (such as your [News Feed], [Instagram Feed] and Stories),<br>* Make suggestions for you (such as people you may know, groups or events that you may be interested in or topics that you may want to follow) on and off our Products.<br><br>[Learn more] about how we use information about you to personalise your experience on and across Meta Products and how we choose the ads that you see. | * To create, provide, support and maintain innovative products and features that enable people under the age of majority to express themselves, communicate, discover and engage with information and communities relevant to their interests, build community and utilise tools and features that promote their well-being.<br>* To share meaningful updates with our users under the age of majority about our Products and promoting our Products.<br>* To provide, personalize and improve the Meta Products in a consistent manner while ensuring additional safeguards for those under their Member State's age of consent.<br>* The legitimate interest of our users in being able to access the Meta Products and those Products being personalised to each user. | [Your activity and information you provide]:<br><br>* Content you create, like posts, comments or audio<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br>* Metadata about content<br>* Types of content you view or interact with, and how you interact with it<br>* Apps and features you use, and what actions you take in them<br>* Purchases or other transactions you make<br>* Hashtags you use<br>* The time, frequency and duration of your activities on our Products<br><br>[Friends, followers and other connections]<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings (like GPS location)<br>* Location-related information<br>* Information about the network you connect your device to<br>* Reports about our Products’ performance on your device<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] (other than using partner data to tailor ads to you) |
+
+[... cut ...]
+
+BEFORE:
+| Providing marketing communications to you:<br><br>* Depending on your settings, we’ll share marketing communications with you.<br>* We’ll collect and store your information and use it to send marketing communications to you, like an e-mail. | In our interest to promote Meta Company Products and send our direct marketing. | [Your activity and information you provide]:<br><br>* Information and content you provide, including your contact information like e-mail address<br><br>[App, browser and device information]:<br><br>* Device identifiers |
+
+| Research and innovate for social good:<br><br>* We carry out surveys and use information (including from researchers we collaborate with) to conduct and support research and innovation on topics of general social welfare, technological advancement, public interest, health and well-being.<br>* For example, we analyse information that we have about migration patterns during crises. This helps relief organizations get aid to the right places.<br>* We collect, store, combine, analyse and apply automatic processing techniques like aggregation of information as well as manual (human) review, and share information, as necessary to research and innovate for social good in this way. We do this to do things like create COVID-19 forecasting models.<br><br>[Learn more] about our research programmes. | In our interest and those of the general public to further the state-of-the-art or academic understanding on important social issues that affect our society and world in a positive way. | [Your activity and information you provide]:<br><br>* Content you create, like posts, comments or audio<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br>* Metadata about content and messages<br>* Types of content you view or interact with, and how you interact with it<br>* Apps and features you use, and what actions you take in them<br>* Purchases or other transactions you make<br>* Hashtags you use<br>* The time, frequency and duration of your activities on our Products<br><br>[Friends, followers and other connections]<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Information about the network you connect your device to, including your IP address<br>* Location-related information<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+[... cut ...]
+
+AFTER:
+| Providing marketing communications to you:<br><br>* Depending on your settings, we’ll share marketing communications with you.<br>* We’ll collect and store your information and use it to send marketing communications to you, like an e-mail. | In our interest to promote Meta Company Products and send our direct marketing. | [Your activity and information you provide]:<br><br>* Information and content you provide, including your contact information like e-mail address<br><br>[App, browser and device information]:<br><br>* Device identifiers |
+
+| Research and innovate for social good:<br><br>* We carry out surveys and use information (including from researchers we collaborate with) to conduct and support research and innovation on topics of general social welfare, technological advancement, public interest, health and well-being.<br>* For example, we analyse information that we have about migration patterns during crises. This helps relief organizations get aid to the right places.<br>* We collect, store, combine, analyse and apply automatic processing techniques like aggregation of information as well as manual (human) review, and share information, as necessary to research and innovate for social good in this way.<br>* We support research in areas like artificial intelligence and machine learning.<br><br>[Learn more] about our research programmes. | In our interest and those of the general public to further the state-of-the-art or academic understanding on important social issues that affect our society and world in a positive way. | [Your activity and information you provide]:<br><br>* Content you create, like posts, comments or audio<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br>* Metadata about content and messages<br>* Types of content you view or interact with, and how you interact with it<br>* Apps and features you use, and what actions you take in them<br>* Purchases or other transactions you make<br>* Hashtags you use<br>* The time, frequency and duration of your activities on our Products<br><br>[Friends, followers and other connections]<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Information about the network you connect your device to, including your IP address<br>* Location-related information<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+[... cut ...]
+
+BEFORE:
+| Providing marketing communications to you: We’ll collect and store your information and use it to send marketing communications to you, like an e-mail address. | In our interest to promote Meta Company Products and send our direct marketing. | [Your activity and information you provide]:<br><br>* Information and content you provide including your contact information like your e-mail address |
+
+| Provide and improve our Products:<br><br>We use information we collect to:<br><br>* Provide products and curate features<br>* See if a product is working correctly<br>* Troubleshoot and fix it when it’s not<br>* Test out new products and features to see if they work<br>* Get feedback on our ideas for products or features<br>* Conduct surveys and other research about what you like about our Products and brands and what we can do better | To improve the Meta Company Products in a consistent manner, to correct technical glitches, and to optimise functionality. | [App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Location-related information<br>* Information about the network you connect your device to, including your IP address<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+AFTER:
+| Providing marketing communications to you: We’ll collect and store your information and use it to send marketing communications to you, like an e-mail address. | In our interest to promote Meta Company Products and send our direct marketing. | [Your activity and information you provide]:<br><br>* Information and content you provide including your contact information like your e-mail address |
+
+| Research and innovate for social good:<br><br>* We carry out surveys and use information (including from research partners we collaborate with) to conduct and support research and innovation on topics of general social welfare, technological advancement, public interest, health and well-being.<br>* We collect, store, combine, analyse and apply automatic processing techniques like aggregation to information as well as manual (human) review as necessary to research and innovate for social good in this way.<br>* We support research in areas like artificial intelligence and machine learning.<br><br>[Learn more] about our research programs. | In our interest and in the interest of the general public to further the state-of-the-art or academic understanding on important social issues that affect our society and world in a positive way. | [Your activity and information you provide]:<br><br>* Types of content you view or interact with, and how you interact with it<br>* Apps and features you use, and what actions you take in them<br>* The time, frequency and duration of your activities on our Products<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Location-related information<br>* Information about the network you connect your device to, including your IP address<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+| Provide and improve our Products:<br><br>We use information we collect to:<br><br>* Provide products and curate features<br>* See if a product is working correctly<br>* Troubleshoot and fix it when it’s not<br>* Test out new products and features to see if they work<br>* Get feedback on our ideas for products or features<br>* Conduct surveys and other research about what you like about our Products and brands and what we can do better | To improve the Meta Company Products in a consistent manner, to correct technical glitches, and to optimise functionality. | [App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Location-related information<br>* Information about the network you connect your device to, including your IP address<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+BEFORE:
+| Protecting the vital interests of you and/or those of another person: We apply automated processing techniques, conduct manual (human) review and share information, including with law enforcement and others, in circumstances where someone’s vital interests require protection, such as in the case of emergencies. These vital interests include protection of your life, physical or mental health, wellbeing or integrity or that of others, and detecting, removing, and reporting illegal content. In protecting such vital interests we aim to combat harmful conduct and promote safety, integrity and security, including, for example, when we are investigating reports of harmful conduct or taking appropriate action, such as sharing information with relevant authorities, when someone needs help. | [Your activity and information you provide]:<br><br>* Content you create, like posts, comments or audio<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br>* Messages you send and receive, including their content, [subject to applicable law]<br>* Metadata about content and messages<br>* Types of content you view or interact with, and how you interact with it<br>* Apps and features you use, and what actions you take in them<br>* Purchases or other transactions you make, including truncated credit card information<br>* Hashtags you use<br>* The time, frequency and duration of your activities on our Products<br><br>[Friends, followers and other connections]<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Location-related information<br>* Information about the network you connect your device to, including your IP address<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+How we promote safety, security and integrity
+
+AFTER:
+| Protecting the vital interests of you and/or those of another person: We apply automated processing techniques, conduct manual (human) review and share information, including with law enforcement and others, in circumstances where someone’s vital interests require protection, such as in the case of emergencies. These vital interests include protection of your life, physical or mental health, wellbeing or integrity or that of others, and detecting, removing, and reporting illegal content. In protecting such vital interests we aim to combat harmful conduct and promote safety, integrity and security, including, for example, when we are investigating reports of harmful conduct or taking appropriate action, such as sharing information with relevant authorities, when someone needs help. | [Your activity and information you provide]:<br><br>* Content you create, like posts, comments or audio<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br>* Messages you send and receive, including their content, [subject to applicable law]<br>* Metadata about content and messages<br>* Types of content you view or interact with, and how you interact with it<br>* Apps and features you use, and what actions you take in them<br>* Purchases or other transactions you make, including truncated credit card information<br>* Hashtags you use<br>* The time, frequency and duration of your activities on our Products<br><br>[Friends, followers and other connections]<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Location-related information<br>* Information about the network you connect your device to, including your IP address<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+* **We review the potential ads that we could show you to identify the most relevant ones.** Our ads system automatically reviews all the potential ads where you might fit the audience that advertisers want to reach. For example, you may see potential ads because you match the age range and interest category. We determine which ones to show you based on things like whether it best achieves the advertiser’s goal and is most relevant to you. To do this, we use algorithms and machine learning to order the ads we may show you. We use different factors such as the ad quality, the advertiser's desired audience and budget. We also consider how likely we think it is that you will react to the ad based on things like your activity on Meta Products. [Learn more].
+
+How we promote safety, security and integrity
+
+=== CARD Lf1aec7 ===
+BEFORE:
+**Why and how we process your information:**
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+AFTER:
+**Why and how we process your information:**
+
+* Personalize features and content (such as your [Facebook Feed], [Instagram Feed], [AI at Meta] and Stories);
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+BEFORE:
+* Information from cookies and similar technologies
+
+[Information from partners, vendors and third parties]
+
+AFTER:
+* Information from cookies and similar technologies
+
+Developing and improving AI at Meta
+
+Develop and improve [AI at Meta] for Meta Products and for third parties.
+
+* Interactions with AI at Meta and related metadata. For example, information you or others exchange with AI at Meta like content and messages.
+
+[Information from partners, vendors and third parties]
+
+BEFORE:
+**Why and how we process your information:**
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+AFTER:
+**Why and how we process your information:**
+
+* We support research in areas like artificial intelligence and machine learning.
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+=== CARD L18fd37 ===
+BEFORE:
+![]![]
+
+AFTER:
+[Run models all in one Sandbox 🏖️]
+
+![]![]
+
+=== CARD L308571 ===
+BEFORE:
+If you are a child under the age of 18, please do not attempt to register for or otherwise use our Services. If we learn that we have inadvertently obtained personal information about a child under the age of 18 via our Services, or from any other source, then we will delete that information as soon as possible.
+
+10\. Your rights and choices
+
+AFTER:
+If you are a child under the age of 18, please do not attempt to register for or otherwise use our Services. If we learn that we have inadvertently obtained personal information about a child under the age of 18 via our Services, or from any other source, then we will delete that information as soon as possible.
+
+Please contact us at [privacy@x.ai] if you are aware that we may have inadvertently collected personal information from a child under the age of 18.
+
+10\. Your rights and choices
+
+BEFORE:
+* Having in place standard contractual clauses with the recipient which have been approved by the European Commission for transfers outside the EEA or the UK Government for transfers out of the UK.
+
+Your rights
+
+AFTER:
+* Having in place standard contractual clauses with the recipient which have been approved by the European Commission for transfers outside the EEA or the UK Government for transfers out of the UK.
+
+Further details on the steps we take to protect your personal information, in these cases, are available up on request by contacting us by email at privacy@x.ai at any time.
+
+Your rights
+
+=== CARD La53cb8 ===
+BEFORE:
+------------------------------------
+
+We use your email address and/or telephone number to communicate with you, including to notify you of Twitch Services updates, for customer service, or to contact you regarding any content that you have posted or downloaded from the Twitch Services.
+
+AFTER:
+------------------------------------
+
+Twitch uses such information to operate, maintain, enhance, provide, create, and develop all of the features, functionality, and services (new or existing) found on the Twitch Services; provide security for our websites, products, software, applications, or live (in-person) events; manage relationships with Twitch account holders (for example, Partners, Affiliates), including making or receiving payment; improve users’ experience with Twitch by providing content recommendations and by delivering content that we hope users will find relevant and interesting, including advertising and marketing messages; allow you to comment on content, and participate in online games, contests, or rewards programs; prevent fraud and abuse; understand the usage trends of our users; and to test and improve technology, including machine learning and artificial intelligence, to support and enhance the customer experience across our products and services. This includes using data to develop or deploy our generative AI models and services. See Amazon’s [Generative AI Development Disclosure] for more information.
+
+We use your email address and/or telephone number to communicate with you, including to notify you of Twitch Services updates, for customer service, or to contact you regarding any content that you have posted or downloaded from the Twitch Services.
+
+=== CARD Le7cf04 ===
+BEFORE:
+(no text)
+
+AFTER:
+* J’ai été vacciné à l’étranger
+
+* J’ai été vacciné à l’étranger
+
+* J’ai été vacciné à l’étranger
+
+* J’ai été vacciné à l’étranger
+
+* J’ai été vacciné à l’étranger
+
+=== CARD La26918 ===
+BEFORE:
+-------------------------------------
+
+AFTER:
+-------------------------------------
+
+Updates to How do We Use Personal Data section to modify language about how Intelligent Features are enabled. To help our customers more easily find and access Zoom AI Companion capabilities, we removed one of the two steps required to turn on AI Companion. Beginning July 21, 2024, AI Companion features are enabled by default for select accounts subscribing to our Pro or Business license package. Users will still take the step of choosing when to use these features, including in meetings they host, and Administrators continue to have the ability to turn these features off.
+
+=== CARD Lf54b5a ===
+BEFORE:
+* **Legal compliance**. We process data to comply with law. For example, we use the age of our customers to assist us in meeting our obligations to protect children’s privacy. We also process contact information and credentials to help customers exercise their data protection rights.
+
+Reasons we share personal dataReasons we share personal datamainreasonswesharepersonaldatamodule
+
+AFTER:
+* **Legal compliance**. We process data to comply with law. For example, we use the age of our customers to assist us in meeting our obligations to protect children’s privacy. We also process contact information and credentials to help customers exercise their data protection rights.
+
+* **Research.** With appropriate technical and organisational measures to safeguard individuals’ rights and freedoms, we use data to conduct research, including advanced machine learning and artificial intelligence capabilities for the benefit of the public interest and scientific purposes.
+
+Reasons we share personal dataReasons we share personal datamainreasonswesharepersonaldatamodule
+
+BEFORE:
+We offer various means for you to control your personal data that Microsoft has obtained, and to exercise your data protection rights. You can do so by contacting Microsoft at our [web form] or the information above, or by using the various tools we provide. Please see the [How to access and control your personal data] section for additional details.
+
+Enterprise and developer productsEnterprise and developer productsmainenterprisedeveloperproductsmodule
+
+AFTER:
+We offer various means for you to control your personal data that Microsoft has obtained, and to exercise your data protection rights. You can do so by contacting Microsoft at our [web form] or the information above, or by using the various tools we provide. Please see the [How to access and control your personal data] section for additional details.
+
+Artificial Intelligence and Microsoft Copilot capabilitiesArtificial Intelligence and Microsoft Copilot capabilitiesmainartificialintelligenceandmicrosoftcopilotmodule
+
+Microsoft leverages the power of artificial intelligence (AI) in many of our products and services, including by incorporating generative AI features such as Microsoft Copilot capabilities. Microsoft’s deployment and use of AI is subject to Microsoft’s [AI Principles] and Microsoft’s [Responsible AI Standard], and Microsoft’s collection and use of personal data in developing and deploying AI features is consistent with commitments outlined in this privacy statement. Product-specific details provide additional relevant information. You can find out more about how Microsoft uses AI [here].
+
+**Microsoft Copilot capabilities.** [Microsoft Copilot] is Microsoft’s everyday AI companion, and is designed to help you achieve more through a single experience that runs across devices, understanding relevant context on the web, on your PC, and across apps to bring you the right skills at the right time. With the help of Copilot, users can start a draft of a new Word document, generate a PowerPoint presentation, quickly find the answers to complex search queries online, find relevant documents or other personal content, or be inspired to create new songs, stories, images or other content, among other tasks. Copilot is a family of services, and Microsoft’s collection and use of data may differ depending on the service and the intended functionality in a given scenario.
+
+Copilot also appears as an assistant within other Microsoft consumer products, such as Bing and Microsoft Edge. In those situations, data processing activities generally align with those products’ primary uses. For example, Copilot in Bing’s use and collection of personal data is consistent with Bing’s core web search offering as described in the Search and Browse section of this privacy statement. More information about Copilot in Bing is available at [Copilot in Bing: Our approach to Responsible AI]. In Microsoft Edge, Copilot appears in the sidebar experience and can help the user complete tasks related to the webpages they visit (e.g. “summarise this page”). This data is used consistent with the Microsoft Edge section of this privacy statement.
+
+[Copilot Pro] is another consumer Copilot offering, and offers subscribers priority access to the very latest models, improved image creation abilities and access to Copilot in Microsoft Word, PowerPoint, OneNote, Excel and Outlook. The main Copilot Pro website and app has similar data collection, use and controls as consumer Copilot, as described above. When Copilot is integrated with Microsoft 365 products, Copilot data collection is consistent with how data collection and use is described in the Productivity and Communications section of this privacy statement.
+
+Enterprise and developer productsEnterprise and developer productsmainenterprisedeveloperproductsmodule
+
+=== CARD L83b6d1 ===
+BEFORE:
+* You must follow Oracle’s current policies for licensing Oracle Database software in the cloud computing environment. The database instances using the Oracle Software with Amazon RDS reside in the Amazon EC2 environment.
+
+* SQL Server Web Edition may be used only to support public and Internet accessible Web pages, Web sites, Web applications, or Web services. It may not be used to support line of business applications (e.g., Customer Relationship Management, Enterprise Resource Management, and other similar applications).
+
+AFTER:
+* You must follow Oracle’s current policies for licensing Oracle Database software in the cloud computing environment. The database instances using the Oracle Software with Amazon RDS reside in the Amazon EC2 environment.
+
+**10.4.** **Oracle AI Database@AWS**
+
+**10.4.1.** In connection with Oracle AI Database@AWS, AWS may share Account Information, logs or other usage information with Oracle to enable Oracle to provide technical and sales support.
+
+* SQL Server Web Edition may be used only to support public and Internet accessible Web pages, Web sites, Web applications, or Web services. It may not be used to support line of business applications (e.g., Customer Relationship Management, Enterprise Resource Management, and other similar applications).
+
+=== CARD L6255e2 ===
+BEFORE:
+What information do we collect?
+
+Here's the information we collect:
+
+AFTER:
+What information do we collect?
+
+The information we collect and process about you depends on how you use our [Products]. For example, we collect different information if you sell furniture on Marketplace than if you ask [AI at Meta] to write a joke for you. When you use our Products, we collect some information about you [even if you don't have an account].
+
+Here's the information we collect:
+
+BEFORE:
+We process information as described below when you have given us your consent to do so, which we may ask through in-product experiences, to enable particular features, or to enable device-based settings. The categories of information we use and why and how they are processed are set out below:
+
+When we process information that you provide to us based on your consent, you have the right to withdraw your consent at any time without affecting the lawfulness of processing based on consent before its withdrawal. You also have the right to port that information you provide to us based on your consent. To exercise your rights, visit your device-based settings, and visit the Facebook settings and Instagram settings and our Help Centers.
+
+AFTER:
+We process information as described below when you have given us your consent to do so, which we may ask through in-product experiences, to enable particular features, or to enable device-based settings. The categories of information we use and why and how they are processed are set out below:
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+When we process information that you provide to us based on your consent, you have the right to withdraw your consent at any time without affecting the lawfulness of processing based on consent before its withdrawal. You also have the right to port that information you provide to us based on your consent. To exercise your rights, visit your device-based settings, and visit the Facebook settings and Instagram settings and our Help Centers.
+
+=== CARD Le835f8 ===
+BEFORE:
+###### Table of contents
+
+[Master Cloud Agreement]
+
+AFTER:
+###### Table of contents
+
+[AI Features Addendum]
+
+[Master Cloud Agreement]
+
+=== CARD L2bc00f ===
+BEFORE:
+| Sauvegarde de vos intérêts vitaux et/ou de ceux d’une autre personne : Nous recourons à des techniques de traitement automatique, menons des examens manuels (humains) et partageons des informations, y compris avec la police et d’autres, si les intérêts vitaux d’une personne doivent être protégés, notamment en cas d’urgences. Ces intérêts vitaux comprennent la protection de votre vie, de votre santé physique et mentale, de votre bien-être ou de votre intégrité, ainsi que ceux d’autrui, et la détection, le signalement et la suppression de contenus illicites. En protégeant ces intérêts vitaux, nous entendons lutter contre les comportements préjudiciables et promouvoir la sûreté, l’intégrité et la sécurité, par exemple lorsque nous examinons des signalements relatifs à des comportements préjudiciables ou que nous prenons des mesures appropriées, y compris en partageant des informations avec les autorités compétentes, lorsqu’une personne a besoin d’aide. | [Votre activité et les informations que vous fournissez] :<br><br>* Le contenu que vous créez, comme les publications, les commentaires ou les fichiers audio<br>* Le contenu que vous fournissez via notre fonctionnalité appareil photo, les paramètres de votre pellicule ou les fonctionnalités activées vocalement<br>* Les messages que vous envoyez et recevez, y compris leur contenu, conformément à la loi applicable<br>* Métadonnées sur le contenu et les messages<br>* Les types de contenus que vous visualisez ou avec lesquels vous interagissez, et la manière dont vous interagissez avec eux.<br>* Les applications et les fonctionnalités que vous utilisez et les opérations que vous faites avec celles-ci.<br>* Les achats et autres transactions que vous effectuez, y compris les informations tronquées de carte de crédit<br>* Les hashtags que vous utilisez<br>* L’heure, la fréquence et la durée de vos activités sur nos Produits<br><br>[Amis, followers et autres relations]<br><br>[Informations sur l’application, le navigateur et l’appareil] :<br><br>* Les caractéristiques de l’appareil et le logiciel de l’appareil<br>* Ce que vous faites sur votre appareil, par exemple si notre application est au premier plan ou si votre souris bouge (ce qui peut aider à distinguer les humains des robots).<br>* Les identifiants qui nous permettent de différencier votre appareil de celui d’autres utilisateurs<br>* Les signaux d’appareil<br>* Les informations que vous avez partagées via les paramètres de votre appareil<br>* Les informations géographiques<br>* Les informations sur le réseau auquel vous connectez votre appareil, y compris votre adresse IP<br>* Les informations provenant de cookies et de technologies similaires<br><br>[Les informations provenant de partenaires, de fournisseurs et de tiers] |
+
+AFTER:
+| Sauvegarde de vos intérêts vitaux et/ou de ceux d’une autre personne : Nous recourons à des techniques de traitement automatique, menons des examens manuels (humains) et partageons des informations, y compris avec la police et d’autres, si les intérêts vitaux d’une personne doivent être protégés, notamment en cas d’urgences. Ces intérêts vitaux comprennent la protection de votre vie, de votre santé physique et mentale, de votre bien-être ou de votre intégrité, ainsi que ceux d’autrui, et la détection, le signalement et la suppression de contenus illicites. En protégeant ces intérêts vitaux, nous entendons lutter contre les comportements préjudiciables et promouvoir la sûreté, l’intégrité et la sécurité, par exemple lorsque nous examinons des signalements relatifs à des comportements préjudiciables ou que nous prenons des mesures appropriées, y compris en partageant des informations avec les autorités compétentes, lorsqu’une personne a besoin d’aide. | [Votre activité et les informations que vous fournissez] :<br><br>* Le contenu que vous créez, comme les publications, les commentaires ou les fichiers audio<br>* Le contenu que vous fournissez via notre fonctionnalité appareil photo, les paramètres de votre pellicule ou les fonctionnalités activées vocalement<br>* Les messages que vous envoyez et recevez, y compris leur contenu, conformément à la loi applicable<br>* Métadonnées sur le contenu et les messages<br>* Les types de contenus que vous visualisez ou avec lesquels vous interagissez, et la manière dont vous interagissez avec eux.<br>* Les applications et les fonctionnalités que vous utilisez et les opérations que vous faites avec celles-ci.<br>* Les achats et autres transactions que vous effectuez, y compris les informations tronquées de carte de crédit<br>* Les hashtags que vous utilisez<br>* L’heure, la fréquence et la durée de vos activités sur nos Produits<br><br>[Amis, followers et autres relations]<br><br>[Informations sur l’application, le navigateur et l’appareil] :<br><br>* Les caractéristiques de l’appareil et le logiciel de l’appareil<br>* Ce que vous faites sur votre appareil, par exemple si notre application est au premier plan ou si votre souris bouge (ce qui peut aider à distinguer les humains des robots).<br>* Les identifiants qui nous permettent de différencier votre appareil de celui d’autres utilisateurs<br>* Les signaux d’appareil<br>* Les informations que vous avez partagées via les paramètres de votre appareil<br>* Les informations géographiques<br>* Les informations sur le réseau auquel vous connectez votre appareil, y compris votre adresse IP<br>* Les informations provenant de cookies et de technologies similaires<br><br>[Les informations provenant de partenaires, de fournisseurs et de tiers] |
+
+[... cut ...]
+
+=== CARD L8ace7e ===
+BEFORE:
+**26.10.** If you use the Amazon WorkSpaces Applications User Pool feature to enable End Users to access applications, you agree that we may store and process these End Users’ email addresses in AWS Regions outside the AWS Regions where you are using Amazon WorkSpaces Applications. We will only use these email addresses to send the End Users email notifications to enable them to Amazon WorkSpaces Applications.
+
+27\. Amazon Cognito
+
+AFTER:
+**26.10.** If you use the Amazon WorkSpaces Applications User Pool feature to enable End Users to access applications, you agree that we may store and process these End Users’ email addresses in AWS Regions outside the AWS Regions where you are using Amazon WorkSpaces Applications. We will only use these email addresses to send the End Users email notifications to enable them to Amazon WorkSpaces Applications.
+
+**26.11.** **Amazon WorkSpaces AI Features.** “Amazon WorkSpaces AI Features” means any Amazon WorkSpaces features powered by artificial intelligence or machine learning. “Amazon WorkSpaces AI Content” means your content that is processed by an Amazon WorkSpaces AI Feature. The following terms apply to your use of Amazon WorkSpaces AI Features:
+
+**(a)** You agree and instruct that: (i) we may use and store Amazon WorkSpaces AI Content to develop and improve Amazon WorkSpaces and its underlying technologies; (ii) we may use and store Amazon WorkSpaces AI Content that is not personal data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies; and (iii) solely in connection with the development and improvement described in clauses (i) and (ii), we may store your Amazon WorkSpaces AI Content in AWS regions outside the AWS regions where you are using Amazon WorkSpaces AI Features. You may instruct AWS not to use and store Amazon WorkSpaces AI Content processed by Amazon WorkSpaces AI Features to develop and improve the Service or technologies of AWS or its affiliates by configuring an AI services opt-out policy using AWS Organizations.
+
+27\. Amazon Cognito
+
+=== CARD L5ccc83 ===
+BEFORE:
+The Guardian is a media organisation and publisher. Data protection law includes certain exemptions when personal data is processed for the purposes of journalism. Those exemptions apply to some of the ways the Guardian uses personal data. This privacy policy does not cover personal data that the Guardian processes for the purposes of journalism.
+
+_Access permissions when you are using the Guardian app_
+
+AFTER:
+The Guardian is a media organisation and publisher. Data protection law includes certain exemptions when personal data is processed for the purposes of journalism. Those exemptions apply to some of the ways the Guardian uses personal data. This privacy policy does not cover personal data that the Guardian processes for the purposes of journalism.
+
+The Guardian may use generative AI functionalities in our software and systems, including in our use of personal data. The Guardian has set out our [generative AI principles] on how we will use generative AI.
+
+_Access permissions when you are using the Guardian app_
+
+=== CARD L7ad7d6 ===
+BEFORE:
+[For Developer]
+
+[For partners]
+
+AFTER:
+[For Developer]
+
+[Video SDK][Co-Browse][AI Services]
+
+[For partners]
+
+=== CARD Lf9ca0b ===
+BEFORE:
+We reserve all other rights.
+
+3\. RESTRICTIONS ON THE APP
+
+AFTER:
+We reserve all other rights.
+
+We have developed matching algorithms to predict your compatibility with other users and so we can show you people we think are a good match for you. You can learn more about our use of recommender systems and the main parameters we use in our [Privacy Policy].
+
+3\. RESTRICTIONS ON THE APP
+
+=== CARD La330c0 ===
+BEFORE:
+In order for the Dailymotion Service to remain a safe space for exchange and sharing where the fundamental liberties of each person are respected, we have implemented rules aimed at prohibiting the sharing of certain content, as defined hereafter, and in general, any content which could be considered as a violation of any applicable law or regulation. Note that the below list of Prohibited Content is not exhaustive, and the definitions may be adapted based on differing contexts.
+
+Please note that disclaimers inserted within content broadcasted on the Dailymotion Service, including videos available on the platform and/or livestreams, comments, video descriptions or titles have no legal force whatsoever. Under no circumstances may they allow a User to avoid complying with the rules set forth in this Prohibited Content Policy, nor to escape the consequences set forth in section III below.
+
+AFTER:
+In order for the Dailymotion Service to remain a safe space for exchange and sharing where the fundamental liberties of each person are respected, we have implemented rules aimed at prohibiting the sharing of certain content, as defined hereafter, and in general, any content which could be considered as a violation of any applicable law or regulation. Note that the below list of Prohibited Content is not exhaustive, and the definitions may be adapted based on differing contexts.
+
+These rules apply to all forms of content broadcasted on the Dailymotion Service, including videos available on the platform and/or streamed live, video descriptions or titles, thumbnails, keywords, documents, playlists, channels, and usernames, whether real or generated using artificial intelligence or synthetic content.
+
+Please note that disclaimers inserted within content broadcasted on the Dailymotion Service, including videos available on the platform and/or livestreams, comments, video descriptions or titles have no legal force whatsoever. Under no circumstances may they allow a User to avoid complying with the rules set forth in this Prohibited Content Policy, nor to escape the consequences set forth in section III below.

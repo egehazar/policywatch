@@ -1,0 +1,471 @@
+Each card shows the BEFORE and AFTER text of one change to a company's terms of service or privacy policy (only the changed passages that mention AI or models, with a little context). Read both and answer one label:
+- NEW: the AFTER text lets the company (or partners it shares data with) use its users' content or personal data to train or improve AI / machine-learning models, and the BEFORE text did not.
+- WIDER: the BEFORE text already allowed that, and the AFTER text allows clearly more (more kinds of data, generative AI, new recipients, fewer limits, an opt-out removed).
+- SAME: both allow it to about the same extent (rewording, moving text, small clarifications).
+- NO: the AFTER text does not let the company train AI on users' data (for example: a promise not to train, a ban on users training AI on the service, AI features or third-party models mentioned without training on users' data, or training only on data that is not users' own, such as public web data).
+- UNCLEAR: the passages shown are not enough to tell.
+For NEW or WIDER, also give the scope of the training use:
+- THIRD: users' data is shared with other companies for THEM to train AI.
+- GENERAL: generative or general-purpose AI, or AI/ML models with no narrow purpose named.
+- NARROW: models for one named operational purpose only (ads, recommendations, fraud, safety, support, search).
+(If several apply, the first in this order.) For the other labels, scope is "-".
+Then quote the one AFTER sentence that decides it (or "-" for NO with nothing to quote).
+
+Answer as JSON lines: {"card": "<id>", "label": "<NEW|WIDER|SAME|NO|UNCLEAR>", "scope": "<THIRD|GENERAL|NARROW|->", "quote": "<sentence>"}
+
+=== CARD L37edac ===
+BEFORE:
+#### Pseudonymous identifiers
+
+AcuityAds takes reasonable measures to help protect the information we collect from loss, theft, misuse and unauthorized access, disclosure, alteration and destruction. This includes but is not limited to the use of firewalls and encryption. No method of transmission over the Internet or method of electronic storage is 100% secure; therefore, while the company strives to use commercially acceptable means to protect your information, it cannot guarantee absolute security.
+
+AFTER:
+#### Pseudonymous identifiers
+
+AcuityAds may also collect data that can be used by our Clients and partners and receive certain data from Clients and partners. This data may include whether or not you have visited our Client’s website and/or mobile app, or if you have used a website and/or app that our Client advertises on. The data collected is used to build a consumer profile. We use the data in our algorithm to better understand your interactions online and to pair the right advertisements with the right consumers. With this information we can deliver you more personalized advertisements.
+
+AcuityAds takes reasonable measures to help protect the information we collect from loss, theft, misuse and unauthorized access, disclosure, alteration and destruction. This includes but is not limited to the use of firewalls and encryption. No method of transmission over the Internet or method of electronic storage is 100% secure; therefore, while the company strives to use commercially acceptable means to protect your information, it cannot guarantee absolute security.
+
+BEFORE:
+AcuityAds takes reasonable measures to help protect the information we collect from loss, theft, misuse and unauthorized access, disclosure, alteration and destruction. This includes but is not limited to the use of firewalls and encryption. No method of transmission over the Internet or method of electronic storage is 100% secure; therefore, while the company strives to use commercially acceptable means to protect your information, it cannot guarantee absolute security.
+
+We contract with a select group of third-party processors and service providers such as networking and storage providers to allow them to carry out their services for us. Other third-party service providers used by Acuity include: a) outsourced computer programmers helping ensure our systems are operating properly; b) email marketing providers, c) website and b2b sales analytics providers, d) customer relationship management, contact database vendors, data hygiene vendors, survey vendors and project management software providers, e) customer billing systems partners, f) login authentication providers to ensure that the logins to our systems are working efficiently, g) social media platforms for advertising and marketing purposes, h) auditing, debugging and security vendors. Those processors and service providers are contractually obligated to process data only as instructed by AcuityAds.
+
+AFTER:
+AcuityAds takes reasonable measures to help protect the information we collect from loss, theft, misuse and unauthorized access, disclosure, alteration and destruction. This includes but is not limited to the use of firewalls and encryption. No method of transmission over the Internet or method of electronic storage is 100% secure; therefore, while the company strives to use commercially acceptable means to protect your information, it cannot guarantee absolute security.
+
+Many Internet users enjoy receiving relevant advertisements. Our algorithm reads your online data and aims to deliver you the most relevant advertising content available. This results in you only seeing ads that match your inferred interests. Without targeted advertising, marketers do not know your consumer preferences and will likely deliver you ads that you are uninterested in.
+
+We contract with a select group of third-party processors and service providers such as networking and storage providers to allow them to carry out their services for us. Other third-party service providers used by Acuity include: a) outsourced computer programmers helping ensure our systems are operating properly; b) email marketing providers, c) website and b2b sales analytics providers, d) customer relationship management, contact database vendors, data hygiene vendors, survey vendors and project management software providers, e) customer billing systems partners, f) login authentication providers to ensure that the logins to our systems are working efficiently, g) social media platforms for advertising and marketing purposes, h) auditing, debugging and security vendors. Those processors and service providers are contractually obligated to process data only as instructed by AcuityAds.
+
+=== CARD L99f355 ===
+BEFORE:
+View [archived Privacy Notice]
+
+* * *
+
+AFTER:
+View [archived Privacy Notice]
+
+NextRoll, Inc. and its subsidiaries and affiliates (“**we** ” “**our**” or “**us**”) a connected advertising platform built for fast-moving, resource-constrained marketers. We provide multi-channel audience activation, account-based marketing, AI-powered engines and agents, cross-channel attribution, and award-winning support to help businesses generate awareness, deepen engagement, and drive full-funnel growth.
+
+* * *
+
+=== CARD Lf4a532 ===
+BEFORE:
+* **Other Usage Information**
+
+In addition to your UUID and IP address, we also collect the following information from you on (a) desktop and mobile web: (i) User Agent data: device type (e.g., iPhone), browser type (e.g., chrome), operating system (e.g. iOS); (ii) the pages visited; (iii) the time of visit; and (iv) referring URLs and other information normally transmitted in HTTP requests. The above statistical information provides us with information about how many Users visited a specific page on our Partner Sites on which the Outbrain widget is installed, how long each User stayed on that page, the type of content on that page they clicked on and how they generally engaged with that page; and (b) on applications (i) application version (as it appears in App Store or Play Store); (ii) application ID or package name (as it appears in the App Store or Play Store); (iii) operating system ( e.g. IOS or Android); (iii) operating system version; and (iv) device model (e.g. iPhone X).This information is considered personal data if Outbrain associates it with a UUID.
+
+In order to opt-out of Outbrain’s recommendations on your mobile applications you can follow the steps below:
+
+AFTER:
+* **Other Usage Information**
+
+(b) on applications: (i) application version (as it appears in App Store or Play Store); (ii) application ID or package name (as it appears in the App Store or Play Store); (iii) operating system ( e.g. IOS or Android); (iv) operating system version; and (v) device model (e.g. iPhone X).This information is considered personal data if Outbrain associates it with a UUID.
+
+**Machine learning techniques**
+
+Outbrain uses non-generative machine learning techniques to process Users’ Personal Data and to analyze trends and popular recommendations to predict what you will be interested in and what advertisement to show you based on this. Users will not be subject to decisions that will have a significant impact on them based on automated decision-making unless we have notified Users and have a lawful basis for doing so.
+
+In order to opt-out of Outbrain’s recommendations on your mobile applications you can follow the steps below:
+
+=== CARD L2581a6 ===
+BEFORE:
+| Purpose of Processing | Legal Basis | Categories of Personal Data |
+
+| --- | --- | --- |
+
+AFTER:
+| Purpose of Processing | Legal Basis | Categories of Personal Data |
+
+| ****To perform research, testing, and analytics to better understand and improve our business and services****<br><br>For example, we use Geolocation Data and App Usage Data to perform research and improve our algorithms, machine learning, and other modelling. We use Communication Data related to incidents to monitor our security practices and improve our operations and processes. | \-<br><br>__Legitimate Interests__<br><br>\- It is in our interest to measure the use of our services in order to inform business decisions and to enable provision of accurate and reliable reporting and to continuously improve and develop the services we provide.<br><br>\-<br><br>__Consent__<br><br>\- For certain analytics we may require your consent. If so, you’ll be prompted to provide consent for specific purposes and processing activities, with details on how to withdraw consent, including through your profile settings. | \- Geolocation Data<br><br>\- App Usage Data<br><br>\- Communication Data<br><br>\- User Generated Content<br><br>\- Device Data |
+
+| --- | --- | --- |
+
+=== CARD La01820 ===
+BEFORE:
+**Substack is provided to you on an “as-is” basis. This means we provide it to you without any express or implied warranties of any kind. That includes any implied warranties of merchantability, warranties of fitness for a particular purpose, non-infringement, or any warranty that the use of Substack will be uninterrupted or error-free. Accordingly, we do not:**
+
+* **Make any representations or warranties regarding suggestions or recommendations of products or services (including Creator publications) offered or purchased through Substack. Products and services purchased or offered through Substack, including publications, are provided “as-is” and without any warranty of any kind from Substack.**
+
+AFTER:
+**Substack is provided to you on an “as-is” basis. This means we provide it to you without any express or implied warranties of any kind. That includes any implied warranties of merchantability, warranties of fitness for a particular purpose, non-infringement, or any warranty that the use of Substack will be uninterrupted or error-free. Accordingly, we do not:**
+
+* **Make any representations or warranties about any content contained in, accessed through, or generated by AI on Substack, and we will not be responsible for the accuracy, copyright compliance, legality, or decency of material contained on our products and services.**
+
+* **Make any representations or warranties regarding suggestions or recommendations of products or services (including Creator publications) offered or purchased through Substack. Products and services purchased or offered through Substack, including publications, are provided “as-is” and without any warranty of any kind from Substack.**
+
+BEFORE:
+* **Make any representations or warranties regarding suggestions or recommendations of products or services (including Creator publications) offered or purchased through Substack. Products and services purchased or offered through Substack, including publications, are provided “as-is” and without any warranty of any kind from Substack.**
+
+**Paid Subscriptions on Substack**
+
+AFTER:
+* **Make any representations or warranties regarding suggestions or recommendations of products or services (including Creator publications) offered or purchased through Substack. Products and services purchased or offered through Substack, including publications, are provided “as-is” and without any warranty of any kind from Substack.**
+
+* **Automated content detection tools, including AI-detection features, are provided on an “as is” basis. Substack makes no representation or warranty as to the accuracy, completeness, or reliability of any automated detection result or label.**
+
+**Paid Subscriptions on Substack**
+
+=== CARD Ld784cf ===
+BEFORE:
+MTCH Technology Services Limited
+
+If you have questions about this Privacy Policy, you have different options below:
+
+AFTER:
+MTCH Technology Services Limited
+
+| To improve our service and create new features and services, including:<br><br>* Running focus groups, market studies and surveys<br>* Analyzing how our service is used<br>* Reviewing interactions with customer care teams to improve service quality<br>* Developing and improving new features and services, including through machine learning and other technologies, and testing them out<br>* Conducting research and publishing research papers | * Performance of our contract with you<br>* Our legitimate interest: It is in our legitimate interest to improve our service over time<br>* Consent where required under applicable law (e.g., we may process data deemed sensitive or special in certain countries to help make sure that the various communities using our service are being treated fairly and equitably and that our service remains diverse and inclusive) | * Account Data<br>* Profile Data<br>* Content<br>* Purchase Data<br>* Marketing, Survey and Research Data<br>* Third Party Data<br>* Customer Support Data<br>* Social Media Data<br>* Usage Data<br>* Technical Data |
+
+If you have questions about this Privacy Policy, you have different options below:
+
+=== CARD L144ecd ===
+BEFORE:
+------------------------------
+
+-------------------------
+
+AFTER:
+------------------------------
+
+* Operating, providing, improving, troubleshooting, and debugging our products (for example, your acceptance or rejection of suggestions may help train our suggestion engine);
+
+Your Use of Generative AI
+
+-------------------------
+
+=== CARD L8ba6cb ===
+BEFORE:
+13.1 _Google Indemnification Obligations._ Google will defend Customer and its Affiliates using the Services under Customer’s Account and indemnify them against Indemnified Liabilities in any Third-Party Legal Proceeding to the extent arising from an allegation that any Service or any Google Brand Feature, in each case used in accordance with this Agreement, infringes the third party's Intellectual Property Rights.
+
+13.3 _Exclusions._ Sections 13.1 (Google Indemnification Obligations) and 13.2 (Customer Indemnification Obligations) will not apply to the extent the underlying allegation arises from (a) the indemnified party's breach of this Agreement, (b) a combination of the indemnifying party's technology or Brand Features with materials not provided by the indemnifying party under this Agreement, unless the combination is required by this Agreement, or (c) in the case of Google or any of its Affiliates as the indemnifying party, any Services provided to Customer free of charge.
+
+AFTER:
+13.1 _Google Indemnification Obligations._ Google will defend Customer and its Affiliates using the Services under Customer’s Account and indemnify them against Indemnified Liabilities in any Third-Party Legal Proceeding to the extent arising from an allegation that any Service or any Google Brand Feature, in each case used in accordance with this Agreement, infringes the third party's Intellectual Property Rights.
+
+13.2 _Customer Indemnification Obligations._ Customer will defend Google and its Affiliates providing the Services and indemnify them against Indemnified Liabilities in any Third-Party Legal Proceeding to the extent arising from (a) any Customer Application, Project, Customer Data, or Customer Brand Features; or (b) Customer's or an End User's use of the Services or AI Agents in breach of the AUP or Section 3.3 (Restrictions).
+
+13.3 _Exclusions._ Sections 13.1 (Google Indemnification Obligations) and 13.2 (Customer Indemnification Obligations) will not apply to the extent the underlying allegation arises from (a) the indemnified party's breach of this Agreement, (b) a combination of the indemnifying party's technology or Brand Features with materials not provided by the indemnifying party under this Agreement, unless the combination is required by this Agreement, or (c) in the case of Google or any of its Affiliates as the indemnifying party, any Services provided to Customer free of charge.
+
+BEFORE:
+* "Affiliate" means any entity that directly or indirectly Controls, is Controlled by, or is under common Control with a party.
+
+* "Anti-Bribery Laws" means all applicable commercial and public anti-bribery laws, including the U.S. Foreign Corrupt Practices Act of 1977 and the UK Bribery Act 2010, that prohibit corrupt offers of anything of value, either directly or indirectly, to anyone, including government officials, to obtain or keep business or to secure any other improper commercial advantage. Government officials include: any government employees, candidates for public office, members of royal families, and employees of government-owned or government-controlled companies, public international organizations, and political parties.
+
+AFTER:
+* "Affiliate" means any entity that directly or indirectly Controls, is Controlled by, or is under common Control with a party.
+
+* "AI Agent" has the meaning described in the applicable Service Specific Terms.
+
+* "Anti-Bribery Laws" means all applicable commercial and public anti-bribery laws, including the U.S. Foreign Corrupt Practices Act of 1977 and the UK Bribery Act 2010, that prohibit corrupt offers of anything of value, either directly or indirectly, to anyone, including government officials, to obtain or keep business or to secure any other improper commercial advantage. Government officials include: any government employees, candidates for public office, members of royal families, and employees of government-owned or government-controlled companies, public international organizations, and political parties.
+
+=== CARD L013d75 ===
+BEFORE:
+**23.2.** Your use of AWS OpsWorks for Chef Automate and AWS-ApplyChefRecipes, which leverage the Chef Infra Client software, are subject to Progress Software Corporation’s [Online Master License and Services Agreement for Chef] (the “Progress EULA”) except that sections 1.9.2. (Product Compliance with Documentation) and 1.10.1. (Our Indemnification Obligation) of the Progress EULA do not apply and the Product, Documentation, and Technology (all as defined in the Progress EULA) are provided “as is,” with all faults, and Progress Software Corporation disclaims all warranties, express or implied, including, but not limited to, warranties of merchantability, fitness for a particular purpose, title, noninfringement, availability, error-free or uninterrupted operation, and any warranties arising from course of dealing, course of performance, or usage of trade. To the extent that Progress Software Corporation may not as a matter of applicable law disclaim any implied warranty, the scope and duration of such warranty will be the minimum permitted under applicable law.
+
+#### 25\. Amazon AppStream 2.0
+
+AFTER:
+**23.2.** Your use of AWS OpsWorks for Chef Automate and AWS-ApplyChefRecipes, which leverage the Chef Infra Client software, are subject to Progress Software Corporation’s [Online Master License and Services Agreement for Chef] (the “Progress EULA”) except that sections 1.9.2. (Product Compliance with Documentation) and 1.10.1. (Our Indemnification Obligation) of the Progress EULA do not apply and the Product, Documentation, and Technology (all as defined in the Progress EULA) are provided “as is,” with all faults, and Progress Software Corporation disclaims all warranties, express or implied, including, but not limited to, warranties of merchantability, fitness for a particular purpose, title, noninfringement, availability, error-free or uninterrupted operation, and any warranties arising from course of dealing, course of performance, or usage of trade. To the extent that Progress Software Corporation may not as a matter of applicable law disclaim any implied warranty, the scope and duration of such warranty will be the minimum permitted under applicable law.
+
+**24.2.** You and your End Users are responsible for all decisions made, advice given, actions taken, and failures to take action based on your use of AWS Supply Chain. AWS Supply Chain uses machine learning models that generate predictions based on patterns in data. Output generated by a machine learning model is probabilistic and should be evaluated for accuracy as appropriate for your use case, including by employing human review of such output.
+
+#### 25\. Amazon AppStream 2.0
+
+=== CARD L0a189c ===
+BEFORE:
+(no text)
+
+AFTER:
+* activity designed to train automated systems or datasets without authorisation; or
+
+=== CARD L5edb15 ===
+BEFORE:
+-----------------------------------------------
+
+* [Privacy policy]
+
+AFTER:
+-----------------------------------------------
+
+Qwant also gives you the opportunity to test our new features integrating artificial intelligence once a month. Details on the processing of your data are available in the “[Non-Consent]” processing table.
+
+Only in the case of creating a User Account and accessing new features (such as unlimited access to artificial intelligence):
+
+* [Privacy policy]
+
+=== CARD Lc92c27 ===
+BEFORE:
+In addition to the uses identified above, we use the personal data we collect to:
+
+* Create and maintain the services, develop new products and services, and improve existing products and services;
+
+AFTER:
+In addition to the uses identified above, we use the personal data we collect to:
+
+* Facilitate our day-to-day business operations, such as helping you find your next home, or connect with a real estate professional, lender, or property manager, including using generative artificial intelligence and machine learning in line with [Our AI Principles];
+
+* Create and maintain the services, develop new products and services, and improve existing products and services;
+
+=== CARD Lb3950e ===
+BEFORE:
+Terms of Service
+
+Our Mission and Business Model
+
+------------------------------
+
+AFTER:
+Terms of Service
+
+You agree that, as a condition of using our Services, you and, if applicable, your end users, will not, and will not encourage or assist any third parties to: (i) reverse engineer, decompile, disassemble, or otherwise attempt to discover the source code, object code, or underlying structure, ideas, know-how, or algorithms relevant to the Services (except to the extent that such a restriction is impermissible under applicable law); (ii) provide, sell, resell, transfer, sublicense, lend, distribute, or rent the Services, or otherwise allow others to access or use the Services; (iii) copy, modify, create derivative works of, or remove proprietary notices from the Services; or (iv) circumvent any technical limitations implemented by us, or (v) violate our [Acceptable Use Policy]. You agree to comply with all applicable export and import laws in accessing and using the Services. You represent and warrant that you are not listed on any United States government list of prohibited or restricted parties or located in (or a national of) a country subject to a United States government embargo or designated by the United States government as a “terrorist supporting” country (as applicable to you as an individual or an Entity). You agree that you will not submit any data to the Services that is controlled under the United States International Traffic in Arms Regulations.
+
+4\. Your Use of AI Features
+
+**4.1. AI-Generated Content.**
+
+Depending on your Subscription Plan, you may be able to use generative AI features within our Services that allow you to input prompts and other text (“**Inputs**”) and receive AI-generated outputs (“**Outputs**”). When you use our generative AI features, your Inputs and the resulting Outputs are your User Content. Notwithstanding the foregoing, you acknowledge that other users of our Services may, through no fault of Superhuman, use inputs that are similar to yours and, as a result, receive the same or similar outputs as your Outputs. Outputs generated for other users based on their inputs are not considered your User Content.
+
+Depending on your Subscription Plan, you may have limits on your use of our generative AI features. If you exceed your Subscription Plan’s usage limits, we may require you to purchase additional capacity or units to continue accessing and using the generative AI features of the Services. Any additional generative AI capacity or units that you purchase (i) will be tied to your then-current Subscription, (ii) are not transferable to another Account, and (iii) will not be refunded to you upon expiry or termination of your Subscription.
+
+**4.3. AI Usage Restrictions.**
+
+Your use of our generative AI features must comply with these Terms, including the restrictions and obligations imposed upon you in Section 3.4 (Restrictions on Use; Compliance). You also must not use our generative AI features i) in a way that infringes, violates, or misappropriates any of our rights or the rights of any third party, or ii) to develop foundation or large language models that compete with our Services.
+
+(i). Operating, providing, improving, troubleshooting, and debugging our Services (for example, your acceptance or rejection of our grammatical suggestions may help train our suggestion engine);
+
+------------------------------
+
+=== CARD Lf30739 ===
+BEFORE:
+* **Legal compliance**. We process data to comply with law. For example, we use the age of our customers to assist us in meeting our obligations to protect children’s privacy. We also process contact information and credentials to help customers exercise their data protection rights.
+
+Reasons we share personal dataReasons we share personal datamainreasonswesharepersonaldatamodule
+
+AFTER:
+* **Legal compliance**. We process data to comply with law. For example, we use the age of our customers to assist us in meeting our obligations to protect children’s privacy. We also process contact information and credentials to help customers exercise their data protection rights.
+
+* **Research.** With appropriate technical and organisational measures to safeguard individuals’ rights and freedoms, we use data to conduct research, including advanced machine learning and artificial intelligence capabilities for the benefit of the public interest and scientific purposes.
+
+Reasons we share personal dataReasons we share personal datamainreasonswesharepersonaldatamodule
+
+BEFORE:
+We offer various means for you to control your personal data that Microsoft has obtained, and to exercise your data protection rights. You can do so by contacting Microsoft at our [web form] or the information above, or by using the various tools we provide. Please see the [How to access and control your personal data] section for additional details.
+
+Enterprise and developer productsEnterprise and developer productsmainenterprisedeveloperproductsmodule
+
+AFTER:
+We offer various means for you to control your personal data that Microsoft has obtained, and to exercise your data protection rights. You can do so by contacting Microsoft at our [web form] or the information above, or by using the various tools we provide. Please see the [How to access and control your personal data] section for additional details.
+
+Artificial Intelligence and Microsoft Copilot capabilitiesArtificial Intelligence and Microsoft Copilot capabilitiesmainartificialintelligenceandmicrosoftcopilotmodule
+
+Microsoft leverages the power of artificial intelligence (AI) in many of our products and services, including by incorporating generative AI features such as Microsoft Copilot capabilities. Microsoft’s deployment and use of AI is subject to Microsoft’s [AI Principles] and Microsoft’s [Responsible AI Standard], and Microsoft’s collection and use of personal data in developing and deploying AI features is consistent with commitments outlined in this privacy statement. Product-specific details provide additional relevant information. You can find out more about how Microsoft uses AI [here].
+
+**Microsoft Copilot capabilities.** [Microsoft Copilot] is Microsoft’s everyday AI companion, and is designed to help you achieve more through a single experience that runs across devices, understanding relevant context on the web, on your PC, and across apps to bring you the right skills at the right time. With the help of Copilot, users can start a draft of a new Word document, generate a PowerPoint presentation, quickly find the answers to complex search queries online, find relevant documents or other personal content, or be inspired to create new songs, stories, images or other content, among other tasks. Copilot is a family of services, and Microsoft’s collection and use of data may differ depending on the service and the intended functionality in a given scenario.
+
+Copilot also appears as an assistant within other Microsoft consumer products, such as Bing and Microsoft Edge. In those situations, data processing activities generally align with those products’ primary uses. For example, Copilot in Bing’s use and collection of personal data is consistent with Bing’s core web search offering as described in the Search and Browse section of this privacy statement. More information about Copilot in Bing is available at [Copilot in Bing: Our approach to Responsible AI]. In Microsoft Edge, Copilot appears in the sidebar experience and can help the user complete tasks related to the webpages they visit (e.g. “summarise this page”). This data is used consistent with the Microsoft Edge section of this privacy statement.
+
+[Copilot Pro] is another consumer Copilot offering, and offers subscribers priority access to the very latest models, improved image creation abilities and access to Copilot in Microsoft Word, PowerPoint, OneNote, Excel and Outlook. The main Copilot Pro website and app has similar data collection, use and controls as consumer Copilot, as described above. When Copilot is integrated with Microsoft 365 products, Copilot data collection is consistent with how data collection and use is described in the Productivity and Communications section of this privacy statement.
+
+Enterprise and developer productsEnterprise and developer productsmainenterprisedeveloperproductsmodule
+
+=== CARD L7b66b1 ===
+BEFORE:
+### Privacy controls
+
+### Ad settings
+
+AFTER:
+### Privacy controls
+
+Across many of our services, you can adjust history and personalisation controls to make choices about whether we save some types of data in your Google Account and how we use it to personalise your experience. For example, if you have YouTube History turned on, the videos that you watch and the things that you search for are saved in your account so that you can get better recommendations and remember where you left off. Saving activity from services like Search, Maps and Shopping to your Search services history lets you do things like resume an AI Mode interaction where you left off or see past searches as autocomplete suggestions. When Personalised Recommendations in Search services is on, these services can provide results, curated feeds and AI responses that are personalised to you based on info in your Google Account, including Search services history. And if you have Web & App Activity turned on, your activity from some other Google services are saved in your account so that you can get more personalised experiences. Web & App Activity also has a subsetting that lets you control whether some [information about your activity on other sites, apps and devices that use Google services] is saved with Web & App Activity in your Google Account and used to improve Google services.
+
+### Ad settings
+
+=== CARD Lc2d201 ===
+BEFORE:
+eBay is a marketplace that allows users to offer, sell, and buy goods and services in various geographic locations using a variety of pricing formats. eBay is not a party to contracts for sale between third-party sellers and buyers, nor is eBay a traditional auctioneer.
+
+3\. Using eBay
+
+AFTER:
+eBay is a marketplace that allows users to offer, sell, and buy goods and services in various geographic locations using a variety of pricing formats. eBay is not a party to contracts for sale between third-party sellers and buyers, nor is eBay a traditional auctioneer.
+
+Any guidance eBay provides as part of our Services, such as pricing, shipping, listing, and sourcing is solely informational and you may decide to follow it or not. We may use artificial intelligence or AI-powered tools and products to provide and improve our Services, to offer you a customized and personalized experience, to provide you with enhanced customer service, and to support fraud detection; availability and accuracy of these tools are not guaranteed. We may help facilitate the resolution of disputes between buyers and sellers through various programs. Unless otherwise expressly provided, eBay has no control over and does not guarantee: the existence, quality, safety, or legality of items advertised; the truth or accuracy of users' content or listings; the ability of sellers to sell items; the ability of buyers to pay for items; or that a buyer or seller will actually complete a transaction or return an item.
+
+3\. Using eBay
+
+=== CARD Lc8f49e ===
+BEFORE:
+--------------
+
+What is the Privacy Policy and what does it cover?
+
+AFTER:
+--------------
+
+We've updated our Privacy Policy with details about agentic AI capabilities and how we personalise your AI experiences.
+
+What is the Privacy Policy and what does it cover?
+
+BEFORE:
+[How we use information to improve Meta Products]
+
+* * *
+
+AFTER:
+[How we use information to improve Meta Products]
+
+[How we use information to personalize our features that are part of AI at Meta]
+
+* * *
+
+=== CARD Lbb6072 ===
+BEFORE:
+This applies to information we collect as part of providing broadband Internet access services to you.
+
+Our Custom Experience program uses information about [sites you visit and apps you use] on your mobile device to help us better personalize our communications with you, give you more relevant product and service recommendations, and develop plans, services, and offers that are more appealing to you. You are included in the program [unless you opt out.]
+
+AFTER:
+This applies to information we collect as part of providing broadband Internet access services to you.
+
+We may use automation, including artificial intelligence, to assist us with these uses. Among the uses we make of automation, we use predictive analytics to monitor our network for faults and outages which helps us proactively and rapidly fix issues, and we may use machine learning techniques with information we have about you and other customers to provide you with more relevant marketing messages or predict what services might most interest you.
+
+Our Custom Experience program uses information about [sites you visit and apps you use] on your mobile device to help us better personalize our communications with you, give you more relevant product and service recommendations, and develop plans, services, and offers that are more appealing to you. You are included in the program [unless you opt out.]
+
+=== CARD Ledcedf ===
+BEFORE:
+“**Law**” means any statute, law, ordinance, regulation, rule, code, order, constitution, treaty, common law, judgment, decree, or other requirement of any federal, state, local, or foreign government or political subdivision thereof, or any arbitrator, court, or tribunal of competent jurisdiction.
+
+“**Losses**” means any and all losses, damages, deficiencies, claims, actions, judgments, settlements, interest, awards, penalties, fines, costs, or expenses of whatever kind, including reasonable attorneys' fees and the costs of enforcing any right to indemnification hereunder and the cost of pursuing any insurance providers.
+
+AFTER:
+“**Law**” means any statute, law, ordinance, regulation, rule, code, order, constitution, treaty, common law, judgment, decree, or other requirement of any federal, state, local, or foreign government or political subdivision thereof, or any arbitrator, court, or tribunal of competent jurisdiction.
+
+“**Community Model**” means a Model created by Customer or a third-party Model that Customer makes publicly available on the Services or Website.
+
+“**Losses**” means any and all losses, damages, deficiencies, claims, actions, judgments, settlements, interest, awards, penalties, fines, costs, or expenses of whatever kind, including reasonable attorneys' fees and the costs of enforcing any right to indemnification hereunder and the cost of pursuing any insurance providers.
+
+=== CARD L2eaf51 ===
+BEFORE:
+Thank you for using OpenAI!
+
+---------------------------
+
+AFTER:
+Thank you for using OpenAI!
+
+OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity. For more information about OpenAI, please visit [https://openai.com/about].
+
+* Attempt to or assist anyone to reverse engineer, decompile or discover the source code or underlying components of our Services, including our models, algorithms, or systems (except to the extent this restriction is prohibited by applicable law).
+
+* Use Output to develop models that compete with OpenAI.
+
+**Similarity of Content.** Due to the nature of our Services and artificial intelligence generally, output may not be unique and other users may receive similar output from our Services. Our assignment above does not extend to other users’ output or any Third Party Output.
+
+**Opt Out.** If you do not want us to use your Content to train our models, you can opt out by following the instructions in [this Help Center article]. Please note that in some cases this may limit the ability of our Services to better address your specific use case.
+
+**Accuracy.** Artificial intelligence and machine learning are rapidly evolving fields of study. We are constantly working to improve our Services to make them more accurate, reliable, safe, and beneficial. Given the probabilistic nature of machine learning, use of our Services may, in some situations, result in Output that does not accurately reflect real people, places, or facts.
+
+---------------------------
+
+=== CARD Lcf9a89 ===
+BEFORE:
+[Vendor Data Processing Addendum]
+
+[Miro Assist Beta Program Terms]
+
+AFTER:
+[Vendor Data Processing Addendum]
+
+[AI Features Addendum]
+
+[Miro Assist Beta Program Terms]
+
+=== CARD Lcbf911 ===
+BEFORE:
+With your explicit consent, Spark may also use your personalization context to improve its features. This occurs only if you actively choose to allow this while providing feedback on a relevant feature.
+
+### Team Data
+
+AFTER:
+With your explicit consent, Spark may also use your personalization context to improve its features. This occurs only if you actively choose to allow this while providing feedback on a relevant feature.
+
+Inbox Automation toolset lets you configure and manage emails on your behalf, reducing manual effort and keeping your inbox organized with AI.
+
+### Team Data
+
+=== CARD L8c8d91 ===
+BEFORE:
+Welcome to Snap Inc.’s Supplemental Privacy Policy for Spectacles 2024. We’ve created this policy to provide additional information for individuals who are using the Spectacles 2024 device and the companion Spectacles App (together “Spectacles”). This policy supplements, and is in addition to, our [Privacy Policy] and [region specific notices] and it explains how Snap collects, uses, and shares your data on Spectacles.
+
+- - -
+
+AFTER:
+Welcome to Snap Inc.’s Supplemental Privacy Policy for Spectacles 2024. We’ve created this policy to provide additional information for individuals who are using the Spectacles 2024 device and the companion Spectacles App (together “Spectacles”). This policy supplements, and is in addition to, our [Privacy Policy] and [region specific notices] and it explains how Snap collects, uses, and shares your data on Spectacles.
+
+* Develop and improve our machine learning models for augmented reality.
+
+- - -
+
+=== CARD L439f68 ===
+BEFORE:
+--------------
+
+Accept cookies from Instagram on this browser?
+
+AFTER:
+--------------
+
+The information we collect and process about you depends on how you use our [Products]. For example, we collect different information if you sell furniture on Marketplace than if you ask [AI at Meta] to write a joke for you. When you use our Products, we collect some information about you [even if you don't have an account].
+
+* Personalizing features, content and [recommendations], such as your [Facebook Feed], [Instagram Feed], [AI at Meta], Stories and ads (if we show you ads).
+
+[AI integrations]
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+For all people who have the legal capacity to enter into an enforceable contract (for example, by being the age of majority or above in their country of residence), we process information as necessary to conclude and perform our contracts with you (the [Meta Terms] and [Instagram Terms], the [Supplemental Meta Platforms Technologies Terms of Service], the [Supplemental Portal Terms of Service], the [Meta AI Terms of Service] and the [Supplemental Meta View Terms of Service], together, the “terms"). The purposes for which we process information for our contracts, the categories of information we use and how information is processed are set out below:
+
+* Provide and curate [AI at Meta] in our Products, enabling the creation of content like text, audio, images and videos, including by understanding and recognising your use of content in the features,
+
+* Interactions with AI at Meta and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Provide and curate [AI at Meta] in our Products, enabling the creation of content like text, audio, images and videos, including by understanding and recognising your use of content in the features
+
+* Interactions with AI at Meta and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* In the interests of developers and other partners to help them understand their customers and improve their businesses, validate our pricing models and evaluate the effectiveness of their products, services, online content on and off the Meta Company Products.
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* In the interests of advertisers, developers and other partners to help them understand their customers and improve their businesses, validate our pricing models and evaluate the effectiveness of their products, services, online content and advertising on and off the Meta Company Products.
+
+Developing and improving AI at Meta
+
+Develop and improve [AI at Meta] for Meta Products and for third parties.
+
+[... cut ...]
+
+=== CARD L3bb854 ===
+BEFORE:
+Build
+
+Integrate
+
+AFTER:
+Build
+
+[Video SDK][Co-Browse][AI Services]
+
+Integrate

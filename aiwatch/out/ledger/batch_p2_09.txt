@@ -1,0 +1,419 @@
+Each card shows the BEFORE and AFTER text of one change to a company's terms of service or privacy policy (only the changed passages that mention AI or models, with a little context). Read both and answer one label:
+- NEW: the AFTER text lets the company (or partners it shares data with) use its users' content or personal data to train or improve AI / machine-learning models, and the BEFORE text did not.
+- WIDER: the BEFORE text already allowed that, and the AFTER text allows clearly more (more kinds of data, generative AI, new recipients, fewer limits, an opt-out removed).
+- SAME: both allow it to about the same extent (rewording, moving text, small clarifications).
+- NO: the AFTER text does not let the company train AI on users' data (for example: a promise not to train, a ban on users training AI on the service, AI features or third-party models mentioned without training on users' data, or training only on data that is not users' own, such as public web data).
+- UNCLEAR: the passages shown are not enough to tell.
+For NEW or WIDER, also give the scope of the training use:
+- THIRD: users' data is shared with other companies for THEM to train AI.
+- GENERAL: generative or general-purpose AI, or AI/ML models with no narrow purpose named.
+- NARROW: models for one named operational purpose only (ads, recommendations, fraud, safety, support, search).
+(If several apply, the first in this order.) For the other labels, scope is "-".
+Then quote the one AFTER sentence that decides it (or "-" for NO with nothing to quote).
+
+Answer as JSON lines: {"card": "<id>", "label": "<NEW|WIDER|SAME|NO|UNCLEAR>", "scope": "<THIRD|GENERAL|NARROW|->", "quote": "<sentence>"}
+
+=== CARD L19eb0d ===
+BEFORE:
+1. **To provide our service**
+
+We require some of your basic personal information so our services work as you would expect, for example, delivering the newspaper to your correct address, providing access to our digital content, notifying you of changes to our services and dealing with customer services queries. We record customer calls for monitoring and training purposes. Our Customer Care team may need to access your account to assist you with queries.
+
+2. **To maintain performance and improve our products and services**
+
+AFTER:
+1. **To provide our service**
+
+We require some of your basic personal information so our services work as you would expect, for example, delivering the newspaper to your correct address, providing access to our digital content, notifying you of changes to our services and dealing with customer services queries. We record customer calls and chats for monitoring and training purposes. Our Customer Care team may need to access your account to assist you with queries. We may also share this data with service providers to analyse chatbot performance and refine our services.
+
+2. **To maintain performance and improve our products and services**
+
+BEFORE:
+Where our events or courses provide the opportunity to network, some of your personal information may be visible to other community members. Where this happens, you will be informed and provided with information about how to opt-out.
+
+Who we share your personal information with
+
+AFTER:
+Where our events or courses provide the opportunity to network, some of your personal information may be visible to other community members. Where this happens, you will be informed and provided with information about how to opt-out.
+
+Use of AI Technologies
+
+We use artificial intelligence (AI) technologies to support and improve our products, services and internal processes. These technologies help us to analyse how our content and services are used and enhance your experience.
+
+For example, we may use AI to:
+
+Where we use third-party AI tools, we may also share personal data with those providers.
+
+Who we share your personal information with
+
+=== CARD L8eb276 ===
+BEFORE:
+**50.12.3.** Provisioned throughput commitments for Bedrock. We may change provisioned throughput commitment pricing or stop offering commitments for provisioned throughput at any time. Any price changes will not apply to existing commitments. Provisioned throughput commitments are nontransferable and noncancellable, so you will be charged for the duration of the term you selected, even if you terminate the Agreement.
+
+#### 51\. Amazon Lightsail
+
+AFTER:
+**50.12.3.** Provisioned throughput commitments for Bedrock. We may change provisioned throughput commitment pricing or stop offering commitments for provisioned throughput at any time. Any price changes will not apply to existing commitments. Provisioned throughput commitments are nontransferable and noncancellable, so you will be charged for the duration of the term you selected, even if you terminate the Agreement.
+
+**50.12.5**. PartyRock Data. We use the input that you provide and output that you generate when using PartyRock (“PartyRock Data”) in accordance with the [AWS Privacy Notice]. As described in the [AWS Privacy Notice] and [PartyRock FAQs], we may use PartyRock Data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies. You may instruct AWS not to use PartyRock Data to develop and improve AWS and affiliate machine-learning and artificial intelligence technologies by using the opt-out mechanism described in the [PartyRock FAQs]. We may use PartyRock Data to maintain and provide PartyRock and enforce our policies, including to develop and improve our fraud, abuse, and AI safety operations. PartyRock Data does not constitute Your Content as defined in the Agreement.
+
+#### 51\. Amazon Lightsail
+
+=== CARD Lf2c738 ===
+BEFORE:
+Zoom employees do not access meeting, webinar, messaging or email content (specifically, audio, video, files, in-meeting whiteboards, messaging or email contents), or any content generated or shared as part of other collaborative features (such as out-of-meeting whiteboards), unless authorized by an account owner, or as required for legal, safety, or security reasons, as discussed below, and where technically feasible. Zoom uses personal data to conduct the following activities:
+
+* **Product Research and Development:** To develop, test, and improve Zoom products and services, including, for example, content-related features (such as background and other filters), and to troubleshoot products and services.
+
+AFTER:
+Zoom employees do not access meeting, webinar, messaging or email content (specifically, audio, video, files, in-meeting whiteboards, messaging or email contents), or any content generated or shared as part of other collaborative features (such as out-of-meeting whiteboards), unless authorized by an account owner, or as required for legal, safety, or security reasons, as discussed below, and where technically feasible. Zoom uses personal data to conduct the following activities:
+
+* Intelligent Features: Zoom provides intelligent features and products, such as Zoom IQ or other tools to recommend chat, email or other content, that may use artificial intelligence, machine learning, or other technology to analyze and process your content and personal data to develop, provide and improve intelligent features and products.
+
+* **Product Research and Development:** To develop, test, and improve Zoom products and services, including, for example, content-related features (such as background and other filters), and to troubleshoot products and services.
+
+=== CARD L749b99 ===
+BEFORE:
+4.2 Subject to applicable law and our Terms, you have the following rights regarding the Inputs and Outputs of the Services: (1) You retain any rights, title, and interests—if any—in the Inputs you submit; (2) We assign any rights, title, and interests—if any—in the Outputs of the Services to you. (3) You may apply the Inputs and Outputs of the Services to a wide range of use cases, including personal use, academic research, derivative product development, training other models (such as model distillation), etc.
+
+4.4 All Outputs provided by this service are generated by an artificial intelligence model and may contain errors or omissions, for your reference only. You should not treat the Outputs as professional advice. Specifically, when using this service to consult on medical, legal, financial, or other professional issues, please be aware that this service does not constitute any advice or commitment and does not represent the opinions of any professional field. If you require related professional services, you should consult professionals and make decisions under their guidance. The Outputs of this software should not be the basis for your further actions or inactions. Any judgment you make based on the Outputs or subsequent related actions you take will result in consequences and responsibilities borne by you alone, including risks arising from reliance on the truthfulness, accuracy, reliability, non-infringement, or suitability for a specific purpose of the Outputs. You should recognize and use generative artificial intelligence technology scientifically and rationally, and in accordance with the law.
+
+AFTER:
+4.2 Subject to applicable law and our Terms, you have the following rights regarding the Inputs and Outputs of the Services: (1) You retain any rights, title, and interests—if any—in the Inputs you submit; (2) We assign any rights, title, and interests—if any—in the Outputs of the Services to you. (3) You may apply the Inputs and Outputs of the Services to a wide range of use cases, including personal use, academic research, derivative product development, training other models (such as model distillation), etc.
+
+4.3 Under the premise of secure encryption technology processing, strict de-identification rendering, and irreversibility to identify specific individuals, we may, to a minimal extent, use Inputs and Outputs to provide, maintain, operate, develop or improve the Services or the underlying technologies supporting the Services. If you refuse to allow us to process the data in the manner described above, you can opt out by turning off "Improve the model for everyone"
+
+4.4 All Outputs provided by this service are generated by an artificial intelligence model and may contain errors or omissions, for your reference only. You should not treat the Outputs as professional advice. Specifically, when using this service to consult on medical, legal, financial, or other professional issues, please be aware that this service does not constitute any advice or commitment and does not represent the opinions of any professional field. If you require related professional services, you should consult professionals and make decisions under their guidance. The Outputs of this software should not be the basis for your further actions or inactions. Any judgment you make based on the Outputs or subsequent related actions you take will result in consequences and responsibilities borne by you alone, including risks arising from reliance on the truthfulness, accuracy, reliability, non-infringement, or suitability for a specific purpose of the Outputs. You should recognize and use generative artificial intelligence technology scientifically and rationally, and in accordance with the law.
+
+=== CARD L77b33a ===
+BEFORE:
+En bref
+
+Voici les informations que nous recueillons :
+
+AFTER:
+En bref
+
+Les informations vous concernant que nous recueillons et traitons dépendent de la manière dont vous utilisez nos [Produits]. Par exemple, nous recueillons des informations différentes selon que vous vendez des meubles sur Marketplace ou que vous demandez à Meta AI de vous inventer une blague. Lorsque vous utilisez nos Produits, nous recueillons certaines informations à votre sujet [même si vous ne possédez pas de compte].
+
+Voici les informations que nous recueillons :
+
+=== CARD La64aae ===
+BEFORE:
+5. **User/customer support.** We process your Personal Data when you contact our Customer Service team to help us address your requests.
+
+7. **Product marketing.** We process your Personal Data to identify our products and Services that we believe may be of interest to you. We may contact you about them. You may opt out of marketing communications with us at any time. If you do not want to receive these communications, please send an email to support@okcoin.com.
+
+AFTER:
+5. **User/customer support.** We process your Personal Data when you contact our Customer Service team to help us address your requests.
+
+6. **Enhancing our Services.** We process your Personal Data to understand how our products and Services are being used to improve our Services, train our systems to improve our Services and develop new Services.
+
+7. **Product marketing.** We process your Personal Data to identify our products and Services that we believe may be of interest to you. We may contact you about them. You may opt out of marketing communications with us at any time. If you do not want to receive these communications, please send an email to support@okcoin.com.
+
+=== CARD Lef9e87 ===
+BEFORE:
+YOU MUST NOT USE ANY OUTPUT RELATING TO A PERSON FOR ANY PURPOSE THAT COULD HAVE A LEGAL OR MATERIAL IMPACT ON THAT PERSON, SUCH AS MAKING CREDIT, EDUCATIONAL, EMPLOYMENT, HOUSING, INSURANCE, LEGAL, LAW ENFORCEMENT, CITIZENSHIP, MEDICAL, OR OTHER IMPORTANT DECISIONS ABOUT THEM.
+
+If you believe that your copyrighted work has been copied in a way that constitutes copyright infringement and is accessible via the Service, please notify our copyright by following these instructions. For your complaint to be valid, you must provide all of the following information in writing:
+
+AFTER:
+YOU MUST NOT USE ANY OUTPUT RELATING TO A PERSON FOR ANY PURPOSE THAT COULD HAVE A LEGAL OR MATERIAL IMPACT ON THAT PERSON, SUCH AS MAKING CREDIT, EDUCATIONAL, EMPLOYMENT, HOUSING, INSURANCE, LEGAL, LAW ENFORCEMENT, CITIZENSHIP, MEDICAL, OR OTHER IMPORTANT DECISIONS ABOUT THEM.
+
+6. **Opt-out**. If you do not want us to use your Content to train our models, you have the option to opt out by updating your account settings.
+
+If you believe that your copyrighted work has been copied in a way that constitutes copyright infringement and is accessible via the Service, please notify our copyright by following these instructions. For your complaint to be valid, you must provide all of the following information in writing:
+
+BEFORE:
+The above information must be submitted to our Copyright Agent, using the following contact information:
+
+| --- | --- |
+
+AFTER:
+The above information must be submitted to our Copyright Agent, using the following contact information:
+
+| Attn: | Legal: Copyright Agent X.AI Corporation |
+
+| --- | --- |
+
+BEFORE:
+6. **Contact.** If you have any questions about these Terms and/or the Service, please contact us at [support@x.ai].
+
+AFTER:
+6. **Contact.** If you have any questions about these Terms and/or the Service, please contact us at [support@x.ai].
+
+**Online Dispute Resolution**. If you are an EU-Consumer resident in the EEA and have a dispute with x.AI (and not another User), you can also raise the dispute with an alternative dispute resolution body via the European Commission's Online Dispute Resolution (ODR) Platform, which you can access at: [http://ec.europa.eu/consumers/odr/]. We are not obliged to participate in online dispute resolution and have chosen not to do so.
+
+To exercise your right of withdrawal, you must inform us, X.AI Corp, 216 Park Rd, Burlingame, CA 94010, legal@x.ai, of your decision to withdraw from this contract by an unequivocal statement (e.g., a letter sent by post or by email). You may use the Model Withdrawal Form below, but it is not obligatory. To meet the withdrawal deadline, it is sufficient for you to send the notification of the exercise of the right of withdrawal before the expiry of the withdrawal period.
+
+**Model Withdrawal Form.** (If you wish to withdraw from the contract, you can fill in this form and return it to us.)
+
+\- To X.AI Corp, 216 Park Rd, Burlingame, CA 94010, legal@x.ai:
+
+xAI may in its sole discretion provide free access to Grok Preview via the website x.ai/grok. If you wish to access or use Grok Preview, you must read and agree to these additional terms before doing so. If you do not agree to these additional terms, you may not access or use Grok Preview.
+
+When you use Grok Preview for free you grant xAI permission to use for training purposes any data you provide to or obtain from Grok Preview, as further detailed in the xAI [Privacy Policy]. You are not required to log in to use Grok Preview.
+
+=== CARD Lb7128f ===
+BEFORE:
+| **Category** | **Examples** |
+
+[Back to top]
+
+AFTER:
+| **Category** | **Examples** |
+
+| **User contributions & user content** | Personal information in content and communications uploaded, sent, shared, or inputted through our Services or via our networks and infrastructure, including feedback you provide to us and the content of communications between you and us or sent via our network and Services — including the content of your queries on our Services, such as artificial intelligence prompts |
+
+[Back to top]
+
+=== CARD L974c3f ===
+BEFORE:
+| Pour traiter des informations lorsque la loi l’exige : Lorsque nous sommes soumis à l’obligation de divulguer certaines informations, par exemple si nous recevons une demande légale valide relative à certaines informations, telle qu’un mandat de perquisition, nous accédons à vos informations, les conservons et/ou les partageons avec des autorités de réglementation, la police ou autres.<br><br>Les modalités du traitement des informations dépendent des circonstances particulières. Consultez la section [« Comment procédons-nous pour répondre aux demandes légales, éviter tout risque de dommage et favoriser la sécurité et l’intégrité ? »] de la Politique de confidentialité de Meta pour en savoir plus. La section [« Informations pour les autorités judiciaires et de police »] précise les lignes directrices opérationnelles à suivre par la police. | Les catégories d’informations dépendent des circonstances spécifiques entourant chaque obligation ou demande impérative. Seules les informations nécessaires au respect de l’obligation légale en question seront partagées ou autrement traitées. Par exemple, en matière civile, les informations concernées sont généralement limitées (notamment les coordonnées et les informations de connexion). Toutefois, en fonction des circonstances, elles peuvent inclure les éléments suivants :<br><br>[Votre activité et les informations que vous fournissez] :<br><br>* Le contenu que vous créez, comme les publications, les commentaires ou les fichiers audio<br>* le contenu que vous fournissez via notre fonctionnalité appareil photo, les paramètres de votre pellicule ou les fonctionnalités activées vocalement ;<br>* les messages que vous envoyez et recevez, y compris leur contenu, conformément à la loi applicable ;<br>* les métadonnées à propos du contenu et des messages, sous réserve de la loi applicable ;<br>* les types de contenus que vous visualisez ou avec lesquels vous interagissez, et la manière dont vous interagissez avec eux ;<br>* Les applications et les fonctionnalités que vous utilisez et les opérations que vous faites avec celles-ci<br>* Les achats et autres transactions que vous effectuez, y compris les informations tronquées de carte de crédit<br>* Les hashtags que vous utilisez<br>* L’heure, la fréquence et la durée de vos activités sur nos Produits<br>* Votre photo ou votre selfie vidéo si vous en avez fourni un lorsque vous nous avez contactés pour obtenir une assistance pour un compte.<br><br>[Amis, followers et autres relations.]<br><br>[Informations sur l’application, le navigateur et l’appareil] :<br><br>* les caractéristiques de l’appareil et le logiciel de l’appareil ;<br>* ce que vous faites sur votre appareil, par exemple si notre application est au premier plan ou si votre souris bouge (ce qui peut aider à distinguer les humains des robots) ;<br>* les identifiants qui nous permettent de différencier votre appareil de celui d’autres utilisateurs ;<br>* les signaux d’appareil ;<br>* les informations que vous avez partagées via les paramètres de votre appareil ;<br>* les informations géographiques ;<br>* les informations sur le réseau auquel vous connectez votre appareil, y compris votre adresse IP ;<br>* les informations provenant de cookies et de technologies similaires.<br><br>[les informations provenant de partenaires, de fournisseurs et de tiers.] |
+
+AFTER:
+| Pour traiter des informations lorsque la loi l’exige : Lorsque nous sommes soumis à l’obligation de divulguer certaines informations, par exemple si nous recevons une demande légale valide relative à certaines informations, telle qu’un mandat de perquisition, nous accédons à vos informations, les conservons et/ou les partageons avec des autorités de réglementation, la police ou autres.<br><br>Les modalités du traitement des informations dépendent des circonstances particulières. Consultez la section [« Comment procédons-nous pour répondre aux demandes légales, éviter tout risque de dommage et favoriser la sécurité et l’intégrité ? »] de la Politique de confidentialité de Meta pour en savoir plus. La section [« Informations pour les autorités judiciaires et de police »] précise les lignes directrices opérationnelles à suivre par la police. | Les catégories d’informations dépendent des circonstances spécifiques entourant chaque obligation ou demande impérative. Seules les informations nécessaires au respect de l’obligation légale en question seront partagées ou autrement traitées. Par exemple, en matière civile, les informations concernées sont généralement limitées (notamment les coordonnées et les informations de connexion). Toutefois, en fonction des circonstances, elles peuvent inclure les éléments suivants :<br><br>[Votre activité et les informations que vous fournissez] :<br><br>* Le contenu que vous créez, comme les publications, les commentaires ou les fichiers audio<br>* le contenu que vous fournissez via notre fonctionnalité appareil photo, les paramètres de votre pellicule ou les fonctionnalités activées vocalement ;<br>* les messages que vous envoyez et recevez, y compris leur contenu, conformément à la loi applicable ;<br>* les métadonnées à propos du contenu et des messages, sous réserve de la loi applicable ;<br>* les types de contenus que vous visualisez ou avec lesquels vous interagissez, et la manière dont vous interagissez avec eux ;<br>* Les applications et les fonctionnalités que vous utilisez et les opérations que vous faites avec celles-ci<br>* Les achats et autres transactions que vous effectuez, y compris les informations tronquées de carte de crédit<br>* Les hashtags que vous utilisez<br>* L’heure, la fréquence et la durée de vos activités sur nos Produits<br>* Votre photo ou votre selfie vidéo si vous en avez fourni un lorsque vous nous avez contactés pour obtenir une assistance pour un compte.<br><br>[Amis, followers et autres relations.]<br><br>[Informations sur l’application, le navigateur et l’appareil] :<br><br>* les caractéristiques de l’appareil et le logiciel de l’appareil ;<br>* ce que vous faites sur votre appareil, par exemple si notre application est au premier plan ou si votre souris bouge (ce qui peut aider à distinguer les humains des robots) ;<br>* les identifiants qui nous permettent de différencier votre appareil de celui d’autres utilisateurs ;<br>* les signaux d’appareil ;<br>* les informations que vous avez partagées via les paramètres de votre appareil ;<br>* les informations géographiques ;<br>* les informations sur le réseau auquel vous connectez votre appareil, y compris votre adresse IP ;<br>* les informations provenant de cookies et de technologies similaires.<br><br>[les informations provenant de partenaires, de fournisseurs et de tiers.] |
+
+[... cut ...]
+
+=== CARD Le0c5a9 ===
+BEFORE:
+* Our and , which explain additional policies that apply to ads and merchants on Pinterest;
+
+By accessing or using Pinterest, you agree to comply with and be bound by these Terms and you will not attempt to circumvent them. If you do not agree to our Terms, you must not access or use Pinterest.
+
+AFTER:
+* Our and , which explain additional policies that apply to ads and merchants on Pinterest;
+
+* Our , which explain how you may and may not use Pinterest’s generative AI tools.
+
+By accessing or using Pinterest, you agree to comply with and be bound by these Terms and you will not attempt to circumvent them. If you do not agree to our Terms, you must not access or use Pinterest.
+
+=== CARD L249510 ===
+BEFORE:
+You have the right to make a complaint at any time to the DPC, the Ireland regulator for data protection issues (https://www.dataprotection.ie/en). We would, however, appreciateInternalthe chance to deal with your concerns before you approach the DPC, so please contact us in the first instance.
+
+Privacy policy for IKEA for Business account and IKEA Business Network
+
+AFTER:
+You have the right to make a complaint at any time to the DPC, the Ireland regulator for data protection issues (https://www.dataprotection.ie/en). We would, however, appreciateInternalthe chance to deal with your concerns before you approach the DPC, so please contact us in the first instance.
+
+We leverage artificial intelligence (AI) tools to proactively identify and flag content, listings, or user behaviour on the Marketplace that potentially violates applicable law and/or our moderation policies. However, to ensure fairness and accuracy, all content flagged by AI will undergo a mandatory review by a human moderator. This process guarantees that no decisions regarding content removal, user warnings, or account actions are made solely by automated means, thereby upholding our commitment to human oversight and compliance with regulations on automated decision-making.
+
+Privacy policy for IKEA for Business account and IKEA Business Network
+
+=== CARD L1e4afc ===
+BEFORE:
+-----------------
+
+xAI is also free to terminate (or suspend access to) your use of the Services or your account for any reason in our discretion, including your breach of these Terms. xAI has the sole right to decide whether you are in violation of any of the restrictions set forth in these Terms.
+
+AFTER:
+-----------------
+
+You’re free to stop using the Services at any time by contacting us at [support@x.ai] or deleting your account; please refer to our [Privacy Policy], as well as the licenses above, to understand how we treat information you provide to us after you have stopped using our Services.
+
+xAI is also free to terminate (or suspend access to) your use of the Services or your account for any reason in our discretion, including your breach of these Terms. xAI has the sole right to decide whether you are in violation of any of the restrictions set forth in these Terms.
+
+=== CARD L56d7da ===
+BEFORE:
+A court will have authority to enforce the bellwether and mediation processes defined in this section and may enjoin the filing of lawsuits or arbitration demands not made in compliance with it.
+
+11. Opting Out of Arbitration. You have the right to opt out of binding arbitration within 30 days of the date you first accepted a version of these Terms by emailing support@fal.ai. To be effective, the opt-out notice must include your full name, mailing address, and email address. The notice must also clearly indicate your intent to opt out of binding arbitration in order to be valid. By opting out of binding arbitration, you are agreeing to resolve disputes in accordance with Section 19.
+
+12. Rejection of Future Arbitration Changes. You may reject any change we make to Section 18 (except address changes) by sending us notice of your rejection within 30 days of the change via email at support@fal.ai. To be effective, the rejection of change notice must include your full name, mailing address, and email address. Changes to Section 18 may only be rejected as a whole, and you may not reject only certain changes to Section 18. If you reject changes made to Section 18, the most recent version of Section 18 that you have not rejected will continue to apply.
+
+2. If you have a question or complaint regarding the Services, please send an email to support@fal.ai.Please note that email communications will not necessarily be secure; accordingly, you should not include payment card information or other sensitive information in your email correspondence with us. Further, under California Civil Code Section 1789.3, California consumers are entitled to the following specific consumer rights notice: The Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs may be contacted in writing at 1625 North Market Boulevard, Suite N-112, Sacramento, California 95834, or by telephone at 1 (800) 952-5210.
+
+AFTER:
+A court will have authority to enforce the bellwether and mediation processes defined in this section and may enjoin the filing of lawsuits or arbitration demands not made in compliance with it.
+
+11. **Opting Out of Arbitration**. You have the right to opt out of binding arbitration within 30 days of the date you first accepted a version of these Terms by emailing [support@fal.ai]. To be effective, the opt-out notice must include your full name, mailing address, and email address. The notice must also clearly indicate your intent to opt out of binding arbitration in order to be valid. By opting out of binding arbitration, you are agreeing to resolve disputes in accordance with Section 19.
+
+12. **Rejection of Future Arbitration Changes**. You may reject any change we make to Section 18 (except address changes) by sending us notice of your rejection within 30 days of the change via email at [support@fal.ai]. To be effective, the rejection of change notice must include your full name, mailing address, and email address. Changes to Section 18 may only be rejected as a whole, and you may not reject only certain changes to Section 18. If you reject changes made to Section 18, the most recent version of Section 18 that you have not rejected will continue to apply.
+
+22. If you have a question or complaint regarding the Services, please send an email to [support@fal.ai.Please] note that email communications will not necessarily be secure; accordingly, you should not include payment card information or other sensitive information in your email correspondence with us. Further, under California Civil Code Section 1789.3, California consumers are entitled to the following specific consumer rights notice: The Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs may be contacted in writing at 1625 North Market Boulevard, Suite N-112, Sacramento, California 95834, or by telephone at 1 (800) 952-5210.
+
+Models[Flux 2][Kling 3.0][Veo 3.1][Nano Banana Pro][Explore More]
+
+[Sandbox][Workflows][Training][Demos]
+
+=== CARD Lefa515 ===
+BEFORE:
+* Our [Advertising Guidelines] and [Merchant Guidelines], which explain additional policies that apply to ads and merchants on Pinterest;
+
+By accessing or using Pinterest, you agree to comply with and be bound by these Terms and you will not attempt to circumvent them. If you do not agree to our Terms, you must not access or use Pinterest.
+
+AFTER:
+* Our [Advertising Guidelines] and [Merchant Guidelines], which explain additional policies that apply to ads and merchants on Pinterest;
+
+* Our [GenAI Acceptable Use Guidelines], which explain how you may and may not use Pinterest’s generative AI tools.
+
+By accessing or using Pinterest, you agree to comply with and be bound by these Terms and you will not attempt to circumvent them. If you do not agree to our Terms, you must not access or use Pinterest.
+
+=== CARD Le06eec ===
+BEFORE:
+| --- | --- |
+
+| | |
+
+AFTER:
+| --- | --- |
+
+| **Browsing Information** | Device ID, browsing information such as name and version, Internet Protocol (“IP”) address, internet connectivity data, network interaction history, operator and carrier data, login data, browser type and version, device type category and model, time zone setting and location data, language data, application version, browser plug-in types and versions, operating system and platform, other information stored on or available regarding the devices you allow us access to when you visit and use Binance Services. |
+
+| | |
+
+=== CARD L97841d ===
+BEFORE:
+* [Devices]
+
+-------
+
+AFTER:
+* [Devices]
+
+* [AI]
+
+-------
+
+=== CARD La2c4d9 ===
+BEFORE:
+No refunds will be provided if you unsubscribe within the period of your subscription.
+
+Individual Terms of Use
+
+AFTER:
+No refunds will be provided if you unsubscribe within the period of your subscription.
+
+1. post any content that depicts or involves the exploitation of any person under 18 years of age (or older in any other location in which 18 is not the minimum age of majority), whether real or simulated (included AI-generated).
+
+1. post any content that depicts or involves the exploitation of any person under 18 years of age (or older in any other location in which 18 is not the minimum age of majority), whether real or simulated (included AI-generated).
+
+Individual Terms of Use
+
+=== CARD Laca1ef ===
+BEFORE:
+In the case the debit or credit card is rejected, the User may update the payment information. Payment must go through for the order to be submitted and processed.
+
+----------------------------
+
+AFTER:
+In the case the debit or credit card is rejected, the User may update the payment information. Payment must go through for the order to be submitted and processed.
+
+Dune retains all rights to all elements of the Service. This includes, but is not limited to, the rights and ownership to algorithms, source code, object code and accompanying documentation, user interface design, graphics, illustrations, data, drawings, images, concepts, techniques, and specifications, design, trademarks, know-how, trade secrets, copyrights, and all other intellectual property rights.
+
+----------------------------
+
+=== CARD Lfe3938 ===
+BEFORE:
+We've tried our best to make this as easy to understand as possible but sometimes privacy policies are still confusing. If you need help understanding this policy or anything about Reddit, [just ask].
+
+What Information We Collect
+
+AFTER:
+We've tried our best to make this as easy to understand as possible but sometimes privacy policies are still confusing. If you need help understanding this policy or anything about Reddit, [just ask].
+
+When you submit content (e.g., a post, comment, or chat message) to a public part of the Services, any visitors to and users of our Services will be able to see that content, the username associated with the content, and the date and time you originally submitted the content. That content and information may also be available in search results on Internet search engines like Google or in responses provided by an AI chatbot like OpenAI’s ChatGPT. You should take the public nature of the Services into consideration before posting.
+
+What Information We Collect
+
+=== CARD L928471 ===
+BEFORE:
+| Sharing your contact, profile or other information with third parties upon your request:<br><br>You may choose to share your contact information, profile information and other data with our partners: The types of partners with whom information is shared depends on the features of our service that you use and the manner in which you choose to use them. For example, you may choose to share your email address, birthday, friends list, hometown or other information with a partner if you choose to connect your Facebook account to their app. | * To deliver quality experiences to users who use our partners’ apps, in our best interest and in the interest of our users.<br>* To facilitate and improve users' experiences in their apps, in the interests of our partners who want to facilitate and improve consumers' experiences in their apps. | [Information you provide (for example, your email address, birthday, friends’ list and hometown).] |
+
+| If you are using a device we cannot associate with a registered user of the Meta Products | | |
+
+AFTER:
+| Sharing your contact, profile or other information with third parties upon your request:<br><br>You may choose to share your contact information, profile information and other data with our partners: The types of partners with whom information is shared depends on the features of our service that you use and the manner in which you choose to use them. For example, you may choose to share your email address, birthday, friends list, hometown or other information with a partner if you choose to connect your Facebook account to their app. | * To deliver quality experiences to users who use our partners’ apps, in our best interest and in the interest of our users.<br>* To facilitate and improve users' experiences in their apps, in the interests of our partners who want to facilitate and improve consumers' experiences in their apps. | [Information you provide (for example, your email address, birthday, friends’ list and hometown).] |
+
+| Develop and improve [artificial intelligence technology] (also called AI at Meta) on Meta Products and for third parties. | * In our interest, and in the interests of users and third parties to create, provide, support, improve and maintain artificial intelligence technology that enables people, businesses and others to express themselves, communicate, and discover and engage with information they’re interested in.<br>* In our interest, and in the interests of third parties and the public at large to offer artificial intelligence technology to third parties, including developers and researchers.<br>* In our interest, and in the interests of users and third parties to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy. | [Your activity and information you provide]:<br><br>* Interactions with Meta's [artificial intelligence technology] and related metadata. For example, messages you receive from, share with or send to Meta’s [artificial intelligence technology].<br><br>[Information from partners, vendors and third parties] |
+
+| Develop and improve [artificial intelligence technology] (also called AI at Meta) on Meta Products and for third parties. | * In our interest, and in the interests of users and third parties to create, provide, support, improve and maintain artificial intelligence technology that enables people, businesses and others to express themselves, communicate, and discover and engage with information they’re interested in.<br>* In our interest, and in the interests of third parties and the public at large to offer artificial intelligence technology to third parties, including developers and researchers.<br>* In our interest, and in the interests of users and third parties to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy. | [Your activity and information you provide]:<br><br>* [Public content] you create or share, like posts, comments or audio.<br><br>[Information from partners, vendors and third parties] |
+
+| If you are using a device we cannot associate with a registered user of the Meta Products | | |
+
+=== CARD Lb4b416 ===
+BEFORE:
+**27.2.** In the event a particular Cognito User Pool has no active users within a 12 month period, we may delete the Cognito User Pool upon 30 days’ prior notice to you.
+
+29\. Amazon Pinpoint and AWS End User Messaging (formerly, the SMS, MMS, voice message, and push notification features of Amazon Pinpoint)
+
+AFTER:
+**27.2.** In the event a particular Cognito User Pool has no active users within a 12 month period, we may delete the Cognito User Pool upon 30 days’ prior notice to you.
+
+**28.2.** You agree and instruct that after you have enabled the new AWS Security Hub: (a) we may use and store your Security Hub Content to develop and improve AWS Security Hub and its underlying technologies; (b) we may use and store Security Hub Content that is not personal data to develop and improve other AWS security services; and (c) solely in connection with the development and improvement described in clauses (a) and (b), we may store such Security Hub Content in an AWS region outside the AWS region where you are using AWS Security Hub. You may instruct AWS not to use and store Security Hub Content to develop and improve AWS Security Hub or other AWS security services by configuring an AI services opt-out policy using AWS Organizations.
+
+29\. Amazon Pinpoint and AWS End User Messaging (formerly, the SMS, MMS, voice message, and push notification features of Amazon Pinpoint)
+
+=== CARD L2163fe ===
+BEFORE:
+To enjoy Speechify via your smartphone or other Device, your Device must satisfy certain system requirements. These requirements can be found on the Apple App Store and Google Play Store.
+
+**5.1 COPYRIGHT**
+
+AFTER:
+To enjoy Speechify via your smartphone or other Device, your Device must satisfy certain system requirements. These requirements can be found on the Apple App Store and Google Play Store.
+
+**4.3** All use of the Services must be through genuine human interactions of our front-facing clients; notwithstanding the foregoing, using a billable bona-fide API key is permitted to AI Voice API users pursuant to the supplementary AI Voice API terms and conditions available at [https://speechify.com/terms-ai-voice-api/] and referenced herein as a supplement to these Terms applicable for users of the AI Voice API service,
+
+**4.4** The Services, with the exception of Speechify Voice Over Studio, are not intended for your commercial use. Any commercial advertisements, affiliate links, and other forms of solicitation that you upload or submit to the Services may be removed by us without notice and result in termination of your right to use some or all of the Services and/or materials. You must not use any part of the materials used in or on the Services for commercial purposes without obtaining a written license to do so from us. Material from the Services may not be copied or distributed, or republished, or transmitted in any way, without our prior written consent. Any unauthorized use or violation of these Terms immediately and automatically terminates your right to use the Services and may subject you to legal liability. A breach of these Terms, includes without limitation, the unauthorized copying or download of our audio or video content from the Services. Subject to your compliance with these Terms and any applicable additional terms, you may use Speechify Voice Over Studio AI voice overs for commercial purposes. You can also distribute or otherwise make available AI voice overs created with Speechify Voice Over Studio to third parties who intend to use the voice overs for commercial purposes.
+
+**5.1 COPYRIGHT**
+
+=== CARD L8587ce ===
+BEFORE:
+Archived versions[]
+
+--------------------
+
+AFTER:
+Archived versions[]
+
+Google One offers subscription plans with paid storage shared across Gmail, Google Photos, and Google Drive, including subscription plans with additional benefits provided to you by Google or through third parties. Google One also offers subscription plans and AI credits for paid access to certain AI features built by Google. Your use of additional Google or third-party benefits is governed by the terms of service applicable to such benefits. Some benefits may not be available in all countries and may be subject to other restrictions. Please visit the [Google One Help Center] for more information.
+
+The Google One service is provided to you by the Google entity set out in the [Google Terms of Service]. When you purchase a Google One subscription or AI credits, you enter into a separate contract with the seller, which may be a Google entity (see Section 2) or a third party. If you have a Google One subscription through a third party or affiliate, then your subscription may be subject to additional terms from that third party or affiliate.
+
+You can use AI credits to enable and process your requests within designated AI features. The number of credits required for a specific action (e.g., generating a video) will be communicated to you within the relevant product or feature. Google reserves the right to modify the credit cost for using AI features. AI credits can only be used to access certain AI features that may be made available by Google from time to time.
+
+AI credits can expire after a certain period, as set out when you acquire them.
+
+You have no right or title in AI credits except as expressly stated in these Terms. You may not sell or transfer AI credits to another user or account, or attempt to sell or transfer AI credits. When you purchase AI credits, you are pre-paying for the use of certain designated AI features. AI credits are not a digital currency, security, commodity, or any other kind of financial instrument and are not redeemable for any cash value. AI credits are only redeemable for the specified AI features within the Google ecosystem. Any unused AI credits may be forfeited upon termination or cancellation of your Google One plan, subject to any applicable refund policies.
+
+Learn more about AI credits [here].
+
+When you purchase a Google One subscription or AI credits, your purchase will be subject to separate terms from the seller. For example, when you sign up for a Google One subscription or purchase AI credits through the Google Play Store, your purchase will be subject to the [Google Play Terms of Service].
+
+The seller for your purchase of a Google One subscription or AI Credits through the Google Play Store is:
+
+When you purchase a Google One subscription or AI credits through a third party or affiliate, that third party or affiliate will charge your payment method and be responsible for managing any issues with your payment, including cancellations and refunds.
+
+[... cut ...]
+
+=== CARD L4bf1dc ===
+BEFORE:
+To stop sharing game or app data with a publisher, remove its games or app from all devices where you have installed them. Some publisher access to your data may be revoked at [https://microsoft.com/consent].
+
+**Children and family**. If you have kids who want to use the Xbox network, you can set up child and teen profiles for them once they have Microsoft accounts. Adult organisers in your Microsoft family group can change consent choices and online safety settings for child and teen profiles on [Xbox.com].
+
+AFTER:
+To stop sharing game or app data with a publisher, remove its games or app from all devices where you have installed them. Some publisher access to your data may be revoked at [https://microsoft.com/consent].
+
+**AI-enhanced features**. Xbox offers optional AI-enhanced features, including our Support Virtual Agents and Copilot in Xbox, that allow you to enter a prompt via text or voice. To provide a response, these AI-enhanced features use your prompt, publicly-available support articles, and other relevant data described in the [Personal data we collect] section or within the feature. Additional privacy settings are available within certain Xbox AI-enhanced features, including Copilot in Xbox. You can view, export, or delete your chats with Copilot on the [Microsoft privacy dashboard.]
+
+**Children and family**. If you have kids who want to use the Xbox network, you can set up child and teen profiles for them once they have Microsoft accounts. Adult organisers in your Microsoft family group can change consent choices and online safety settings for child and teen profiles on [Xbox.com].
+
+=== CARD La42faf ===
+BEFORE:
+----------------
+
+11\. Limitation of Liability
+
+AFTER:
+----------------
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SERVICES AND ALL INCLUDED CONTENT ARE PROVIDED ON AN "AS IS" BASIS WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED. SOME OF COURSERA’S SERVICES UTILIZE ARTIFICIAL INTELLIGENCE (“AI”). CONSISTENT WITH THE FOREGOING, SERVICES THAT USE AI ARE PROVIDED ON AN “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED. THE COURSERA PARTIES SPECIFICALLY DISCLAIM ANY AND ALL WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE. THE COURSERA PARTIES FURTHER DISCLAIM ANY AND ALL LIABILITY RELATED TO YOUR ACCESS OR USE OF THE SERVICES OR ANY RELATED CONTENT. YOU ACKNOWLEDGE AND AGREE THAT ANY ACCESS TO OR USE OF THE SERVICES OR SUCH CONTENT IS AT YOUR OWN RISK.
+
+YOU UNDERSTAND AND AGREE THAT YOU MUST VERIFY ANY AI OUTPUTS THAT YOU USE IN YOUR COURSEWORK AND COURSERA IS NOT RESPONSIBLE FOR INACCURATE OR INCOMPLETE AI OUTPUTS. YOU FURTHER AGREE TO USE AI-ENHANCED SERVICES IN ACCORDANCE WITH THE [ACCEPTABLE USE POLICY]. PLEASE READ OUR AI DISCLOSURE IN OUR [PRIVACY NOTICE] FOR MORE INFORMATION ON YOUR RIGHTS WITH RESPECT TO AI.
+
+11\. Limitation of Liability

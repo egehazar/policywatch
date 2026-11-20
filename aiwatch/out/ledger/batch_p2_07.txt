@@ -1,0 +1,457 @@
+Each card shows the BEFORE and AFTER text of one change to a company's terms of service or privacy policy (only the changed passages that mention AI or models, with a little context). Read both and answer one label:
+- NEW: the AFTER text lets the company (or partners it shares data with) use its users' content or personal data to train or improve AI / machine-learning models, and the BEFORE text did not.
+- WIDER: the BEFORE text already allowed that, and the AFTER text allows clearly more (more kinds of data, generative AI, new recipients, fewer limits, an opt-out removed).
+- SAME: both allow it to about the same extent (rewording, moving text, small clarifications).
+- NO: the AFTER text does not let the company train AI on users' data (for example: a promise not to train, a ban on users training AI on the service, AI features or third-party models mentioned without training on users' data, or training only on data that is not users' own, such as public web data).
+- UNCLEAR: the passages shown are not enough to tell.
+For NEW or WIDER, also give the scope of the training use:
+- THIRD: users' data is shared with other companies for THEM to train AI.
+- GENERAL: generative or general-purpose AI, or AI/ML models with no narrow purpose named.
+- NARROW: models for one named operational purpose only (ads, recommendations, fraud, safety, support, search).
+(If several apply, the first in this order.) For the other labels, scope is "-".
+Then quote the one AFTER sentence that decides it (or "-" for NO with nothing to quote).
+
+Answer as JSON lines: {"card": "<id>", "label": "<NEW|WIDER|SAME|NO|UNCLEAR>", "scope": "<THIRD|GENERAL|NARROW|->", "quote": "<sentence>"}
+
+=== CARD L918fd1 ===
+BEFORE:
+| --- | --- | --- | --- |
+
+Who are Qwant's Partners?
+
+AFTER:
+| --- | --- | --- | --- |
+
+| Provision of a Summary following a User’s query. | When you use the artificial intelligence module during a query, we transmit to our partner the search keywords so that we can provide you with the Summary. | Performance of the contract | Mistral AI & European Perspective |
+
+Who are Qwant's Partners?
+
+=== CARD Leb2a46 ===
+BEFORE:
+* Business ID: 1003521-5
+
+* Purchase-related service, sales, payment and travel transaction data, including the journey details, payment method and other payment information, email address and/or telephone number needed for train ticket delivery or other service.
+
+* Purchase-related service, sales, payment and travel transaction data, including the journey details, payment method and other payment information, email address and/or telephone number needed for train ticket delivery or other service.
+
+* at station ticket sales, trains, ticket vending machines, telephone service and electronic service channels and our partners’ sales channels in conjunction with orders, service purchases and use and other customer service events
+
+-----------------------------
+
+AFTER:
+* Business ID: 1003521-5
+
+* when travelling on a train
+
+Provision of customer service, responding to enquiries, processing feedback, handling complaints and claims for compensation, paying compensation, informing customers of changes to the service, ensuring and developing the quality of customer service, and consolidating any subsequent enquiries relating to the same matter in order to handle the case. Some stages of customer service processing may be supported by automated methods and artificial intelligence solutions (such as the creation of transcripts of call recordings).
+
+Surveys may be sent, for example, after a service event or targeted at different customer groups. In addition, personal data may be used for the design, testing and impact assessment of new services and features. The analysis of surveys and questionnaires, as well as service development, may be supported by automated methods and artificial intelligence.
+
+Analysis of operations, monitoring of service usage, formation of customer groups and segments, and personalisation of digital services and communications. Data may be statistically combined to form customer profiles and segments, for example, for the purposes of service design, developing the customer experience and targeting communications. Analytics and segmentation may also be carried out using automated methods and artificial intelligence.
+
+Profiling is used to form customer groups and to target services and communications. Profiling and other automated analytics, including the use of artificial intelligence, do not result in automated decision-making that would have legal effects on the data subject or similarly significant effects.
+
+-----------------------------
+
+=== CARD L77818a ===
+BEFORE:
+* develop, operate, improve, deliver, maintain, and protect our products and services.
+
+* enhance the safety and security of our products and services.
+
+AFTER:
+* develop, operate, improve, deliver, maintain, and protect our products and services.
+
+* develop and improve our algorithms and machine learning models, including for personalization, advertising, augmented reality, fairness and inclusivity, and to prevent abuse or other Terms of Service violations.
+
+* enhance the safety and security of our products and services.
+
+=== CARD L471a1a ===
+BEFORE:
+--------------------------------------
+
+Our Terms may also need to change along with our Services. We reserve the right to change the Terms at any time, but if we do, we will place a notice on our site located at x.ai, send you an email, and/or notify you by some other means.
+
+-----------------------------
+
+AFTER:
+--------------------------------------
+
+These Terms of Service (”**Terms**”) apply to your use of Grok and xAI’s other services for individuals, including associated applications and websites (collectively, the “**Service**”). These Terms form an agreement between you and X.AI LLC, a Nevada company (“**xAI**,” “**we**,” “**our**,” or “**us**”). By using our Services, you acknowledge and agree to these Terms.
+
+-----------------------------
+
+=== CARD Lebaac0 ===
+BEFORE:
+* [Website builder]
+
+* [Prototyping]
+
+AFTER:
+* [Website builder]
+
+* [AI-powered apps]
+
+* [Prototyping]
+
+=== CARD Lce7b2c ===
+BEFORE:
+Migration Evaluator collects performance and usage metrics and data about your virtual machine image(s) and IT infrastructure; software packages and applications; system, equipment, and application configuration, processes and performance; network configurations, communications and dependencies; and the installation and operation of Migration Evaluator and its components. We may use these metrics and data to provide, maintain, and improve the quality and feature sets of the Services and AWS Content.
+
+71\. AWS Cloud WAN
+
+AFTER:
+Migration Evaluator collects performance and usage metrics and data about your virtual machine image(s) and IT infrastructure; software packages and applications; system, equipment, and application configuration, processes and performance; network configurations, communications and dependencies; and the installation and operation of Migration Evaluator and its components. We may use these metrics and data to provide, maintain, and improve the quality and feature sets of the Services and AWS Content.
+
+If you enable a third-party recorder in Config, you agree and instruct that: (a) we may use and store your Config Content to develop and improve AWS Config and its underlying technologies; (b) we may use and store Config Content that is not personal data to develop and improve related AWS security and observability services; and (c) solely in connection with the development and improvement described in clauses (a) and (b), we may store such Config Content in an AWS region outside the AWS region where you are using AWS Config. You may instruct AWS not to use and store Config Content to develop and improve AWS Config or other related AWS security and observability services by configuring an AI services opt-out policy using AWS Organizations. "Config Content" means resource configuration data processed by Config in connection with third-party recorders.
+
+71\. AWS Cloud WAN
+
+=== CARD L2a5e57 ===
+BEFORE:
+20 July 2023: Section 8 amended to generalise the first sentence of the second paragraph.
+
+© 2013 Guardian News and Media Limited or its affiliated companies. All rights reserved.
+
+AFTER:
+20 July 2023: Section 8 amended to generalise the first sentence of the second paragraph.
+
+Paragraph 4 of Section 3 amended to state “_or otherwise approved in writing by the Guardian_”, to add “_crawler_” after _“scraper”_, to add “_algorithm”_ after “_process_” and to add “_(whether for data gathering, mining, collection, reading, scraping, extraction or other purposes) in each case_”. Deletion of “_for any purpose (such as, but not limited to, gathering or extraction)”._
+
+© 2013 Guardian News and Media Limited or its affiliated companies. All rights reserved.
+
+=== CARD La8ec86 ===
+BEFORE:
+===========================
+
+In some cases, the Oversight Board may review our decisions, subject to its terms and bylaws. Learn more [here].
+
+AFTER:
+===========================
+
+We engage in research to develop, test and improve our Products. This includes analyzing information that we have about our users, and understanding how people use our Products, for example by conducting surveys and testing and troubleshooting new features. We use and develop advanced technologies such as artificial intelligence, machine learning systems and augmented reality so that people can use our Products safely regardless of physical ability or geographic location. For example, technology such as this helps people who have visual impairments understand what or who is in photos or videos shared on Facebook. We also build sophisticated network and communication technology to help more people connect to the Internet in areas with limited access. And we develop automated systems to improve our ability to protect our community and our Products.
+
+In some cases, the Oversight Board may review our decisions, subject to its terms and bylaws. Learn more [here].
+
+=== CARD Lb3b223 ===
+BEFORE:
+WordPress.org will not rent or sell potentially personally-identifying and personally-identifying information to anyone. Other than to project administrators, employees, contractors, and affiliated organizations, as described above, WordPress.org discloses potentially personally-identifying and personally-identifying information only when required to do so by law, if you give permission to have your information shared, or when WordPress.org believes in good faith that disclosure is reasonably necessary to protect the property or rights of WordPress.org, third parties, or the public at large.
+
+If you are a registered user of a WordPress.org website and have supplied your email address, WordPress.org may occasionally send you an email to tell you about new features, solicit your feedback, or just keep you up to date with what’s going on with WordPress.org and our products. We primarily use our blog to communicate this type of information, so we expect to keep this type of email to a minimum.
+
+AFTER:
+WordPress.org will not rent or sell potentially personally-identifying and personally-identifying information to anyone. Other than to project administrators, employees, contractors, and affiliated organizations, as described above, WordPress.org discloses potentially personally-identifying and personally-identifying information only when required to do so by law, if you give permission to have your information shared, or when WordPress.org believes in good faith that disclosure is reasonably necessary to protect the property or rights of WordPress.org, third parties, or the public at large.
+
+Some WordPress.org services and workflows use AI tools to assist our team in reviewing submissions, moderating content, or supporting community programs or events. Where AI processing occurs, it is human-supervised and all final decisions are made by a human reviewer. This processing may involve sharing relevant data with third-party AI service providers. Some AI-assisted workflows also use web search tools, which may pass data to a third-party search provider as part of the review.
+
+If you are a registered user of a WordPress.org website and have supplied your email address, WordPress.org may occasionally send you an email to tell you about new features, solicit your feedback, or just keep you up to date with what’s going on with WordPress.org and our products. We primarily use our blog to communicate this type of information, so we expect to keep this type of email to a minimum.
+
+BEFORE:
+WordPress.org shall maintain WordCamp attendee data for 3 years to better track and foster community growth, and then automatically delete non-essential data collected via registration. Attendee names and email addresses will be retained indefinitely, to preserve our ability to respond to code of conduct reports.
+
+On WordCamp.org sites, banking/financial data collected as part of a reimbursement request is deleted from WordCamp.org 7 days after the request is marked paid. The reason for the 7-day retention period is to prevent organizers having to re-enter their banking details if a wire fails or if a payment was marked “Paid” in error. Invoices and receipts related to WordCamp expenses are retained for 7 years after the close of the calendar year’s audit, by instruction of our financial consultants (auditors & bookkeepers).
+
+AFTER:
+WordPress.org shall maintain WordCamp attendee data for 3 years to better track and foster community growth, and then automatically delete non-essential data collected via registration. Attendee names and email addresses will be retained indefinitely, to preserve our ability to respond to code of conduct reports.
+
+Data submitted as part of community programs or applications or similar review workflows, including any data processed by AI tools, is retained for as long as necessary to administer the relevant program. Data shared with AI service providers during processing is subject to the retention limits in the applicable Data Processing Agreement.
+
+On WordCamp.org sites, banking/financial data collected as part of a reimbursement request is deleted from WordCamp.org 7 days after the request is marked paid. The reason for the 7-day retention period is to prevent organizers having to re-enter their banking details if a wire fails or if a payment was marked “Paid” in error. Invoices and receipts related to WordCamp expenses are retained for 7 years after the close of the calendar year’s audit, by instruction of our financial consultants (auditors & bookkeepers).
+
+=== CARD Lb72e6e ===
+BEFORE:
+* Teachers who access Verizon Innovative Learning HQ can visit the [Verizon Innovative Learning Your Privacy Choices page] to opt out.
+
+Your Privacy Choices
+
+AFTER:
+* Teachers who access Verizon Innovative Learning HQ can visit the [Verizon Innovative Learning Your Privacy Choices page] to opt out.
+
+* Individuals who use the Verizon AI Skills for America website can visit the [AI Skills Your Privacy Choices page] to opt out.
+
+Your Privacy Choices
+
+BEFORE:
+* Frontier customers can opt out using the “Do Not Sell or Share My Personal Information” link at the bottom of the Frontier website at [frontier.com] or by filling out our [Frontier Privacy Webform].
+
+Your Privacy Choices
+
+AFTER:
+* Frontier customers can opt out using the “Do Not Sell or Share My Personal Information” link at the bottom of the Frontier website at [frontier.com] or by filling out our [Frontier Privacy Webform].
+
+* Individuals who use the Verizon AI Skills for America website can visit the [AI Skills Your Privacy Choices page] to opt out.
+
+Your Privacy Choices
+
+=== CARD L68bac7 ===
+BEFORE:
+--------------
+
+What is the Privacy Policy and what does it cover?
+
+AFTER:
+--------------
+
+We've updated our Privacy Policy with details about agentic AI capabilities and how we personalise your AI experiences.
+
+What is the Privacy Policy and what does it cover?
+
+BEFORE:
+How we use information to improve Meta Products]
+
+* * *
+
+AFTER:
+How we use information to improve Meta Products]
+
+How we use information to personalize our features that are part of AI at Meta]
+
+* * *
+
+=== CARD L69bc81 ===
+BEFORE:
+The reporting system put in place by HAPPN does not replace any complaint and judicial procedure against a Member who authored the reported content.
+
+The Member is solely liable for checking the identity of the people with whom he or she wishes to arrange a “real-life” meet-up. HAPPN may not be held liable for any problems whatsoever arising from a “real-life” meet-up.
+
+AFTER:
+The reporting system put in place by HAPPN does not replace any complaint and judicial procedure against a Member who authored the reported content.
+
+However, in order to ensure the tranquility and safety of its Members, HAPPN takes the initiative to detect and identify unlawful content by relying on algorithms that are continuously updated and improved. The decisions likely to be taken by HAPPN in this context are detailed in Article 14.4 hereof. In the event of a challenge under the conditions provided for by this Article 14.4 or by Article 17 “Internal complaint handling system”, the decisions of HAPPN taken on the basis of these algorithms shall always be subject to a human review.
+
+The Member is solely liable for checking the identity of the people with whom he or she wishes to arrange a “real-life” meet-up. HAPPN may not be held liable for any problems whatsoever arising from a “real-life” meet-up.
+
+=== CARD Lb56422 ===
+BEFORE:
+#### 92\. AWS Clean Rooms
+
+#### 93\. Amazon CodeCatalyst
+
+AFTER:
+#### 92\. AWS Clean Rooms
+
+**92.2.** AWS Clean Rooms may provide you with the ability to collaborate (an “AWS Clean Rooms Collaboration”) with other AWS customers (an “Other AWS Customer”). You may make available Your Content, including a dataset and/or a custom model, as part of an AWS Clean Rooms Collaboration. You may also disclose Your Content to, or receive Third-Party Content from an Other AWS Customer.
+
+#### 93\. Amazon CodeCatalyst
+
+=== CARD L32f848 ===
+BEFORE:
+In the Service, you may choose to translate Content into different languages. You choose which Content you wish to translate. Kivra is not responsible for the accuracy of the translation.
+
+Within the framework of the Service, you can choose to share your digital mailbox with another user, thereby giving this person read and management rights, for example, to be able to pay your invoices. To access your digital mailbox, however, this user must log in with e-identification and accept the sharing. You can revoke the sharing at any time.
+
+AFTER:
+In the Service, you may choose to translate Content into different languages. You choose which Content you wish to translate. Kivra is not responsible for the accuracy of the translation.
+
+**2.12 AI Features**
+
+In the Service, You may choose to process Content using AI, for example by summarizing or extracting information from the Content (“AI Features”). You are responsible for ensuring that Content that You choose to process using the AI ​​Feature may be processed in this manner and that it does not violate any law or infringe upon the rights of third parties. Kivra is not responsible for the accuracy or completeness of the results produced by the AI ​​Feature. AI Features are only available to Users who are 18 years of age or older.
+
+Within the framework of the Service, you can choose to share your digital mailbox with another user, thereby giving this person read and management rights, for example, to be able to pay your invoices. To access your digital mailbox, however, this user must log in with e-identification and accept the sharing. You can revoke the sharing at any time.
+
+=== CARD L4461be ===
+BEFORE:
+### To adapt Firefox to your needs
+
+When a user visits a third-party website by clicking an advertisement or link in Firefox, that site may use cookies and other web APIs available to any website to collect data subject to that website’s privacy and/or cookie notices.
+
+AFTER:
+### To adapt Firefox to your needs
+
+In some regions, we use this data to build models and group users based on common attributes. These groupings help us understand how people are interacting with our content and to personalize future content, including sponsored content. We use on-device processing and OHTTP to avoid revealing to Mozilla the attributes of any specific user. [Learn more].
+
+When a user visits a third-party website by clicking an advertisement or link in Firefox, that site may use cookies and other web APIs available to any website to collect data subject to that website’s privacy and/or cookie notices.
+
+=== CARD L9b1752 ===
+BEFORE:
+---------------------------
+
+Our main goal is to ensure your experience on Badoo is an enjoyable one and in order to deliver it to you, we may use your Registration and other information to:
+
+AFTER:
+---------------------------
+
+### Our Matching Algorithms
+
+We have developed matching algorithms to predict your compatibility with other users and so we can show you people we think are a good match for you. Our matching algorithms use the following data about you to predict your compatibility with others and generate profile recommendations: the things you tell us about yourself in your profile; information about your activity in our apps; whether you are a photo verified user; and your device coordinates, which are necessary to understand your proximity to other members. The legal basis for processing profile and proximity information is that this is necessary for the provision of our contractual services to you pursuant to Article 6(1)(b) GDPR. Where we process information about your app activity, this is based on our legitimate interests pursuant to Article 6(1)(f) GDPR, and specifically our legitimate interest in generating more personalised and relevant recommendations for who you can match with in our App. Where you have included sensitive information in your profile, such as information about your beliefs, the processing of this information is based on your voluntary and explicit consent.
+
+Our main goal is to ensure your experience on Badoo is an enjoyable one and in order to deliver it to you, we may use your Registration and other information to:
+
+=== CARD L8627d0 ===
+BEFORE:
+* For other purposes for which we provide specific notice at the time the information is collected.
+
+AI Service Providers.
+
+We may disclose some of your information with artificial intelligence services in order to provide certain features or functionality of the Services. Data sent to third-party AI providers for transcription and summarization is not used for training and is deleted after 30 days.
+
+We may also disclose your information with your permission.
+
+AFTER:
+* For other purposes for which we provide specific notice at the time the information is collected.
+
+We also disclose some of your information to artificial intelligence services in order to provide certain features or functionalities of the Services. For example, if you use the Pendant or App, we send audio recordings or transcripts to our third-party AI providers who assist us in providing the Services, including for transcription and summarization purposes.
+
+We may also disclose your information with your permission.
+
+=== CARD L4aa751 ===
+BEFORE:
+We may collect information that you provide directly. Typically, this will happen when you:
+
+* purchase PMI products or services at a retail outlet;
+
+AFTER:
+We may collect information that you provide directly. Typically, this will happen when you:
+
+* sign up to be a member of our databases (including loyalty programs), which will include performing age verification (this could be in person, via an app, or online, including AI analysis of your face);
+
+* request information about our products, which may include age recognition (this could be in person, via an app, or online, including AI analysis of your face);
+
+* purchase PMI products or services at a retail outlet;
+
+BEFORE:
+Where we do not base our use of information about you on one of the above legal bases, or where law requires it, we will ask for your consent before we process the information (these cases will be clear from the context).
+
+Who do we share your information with, and for what purposes?
+
+AFTER:
+Where we do not base our use of information about you on one of the above legal bases, or where law requires it, we will ask for your consent before we process the information (these cases will be clear from the context).
+
+Do we use Artificial Intelligence (AI) and Machine Learning (ML)?
+
+We may use artificial intelligence (AI) features to enhance your consumer experience. By way of example, the consumer portal may include a conversational chatbot supported by AI features that answers frequently asked questions and assists you with navigating the portal. The chatbot can help you search for products, manage your account, and provide support.
+
+Additionally, we may use AI features, such as machine learning and statistical algorithms, to support the analysis of your behaviors and interactions with PMI touchpoints and conduct segmentation and profiling, where permitted by law. This helps us understand and enhance your experience, improve our products and services and tailor them to provide you a personalized experience. By way of example, these AI features analyze various data points, such as purchase history, browsing behavior, and demographic information, to determine, based on similarities between consumers’ patterns and behaviors, which segment you may belong to and allow our teams (human intervention) to use this information to undertake relevant and personalized actions that are most relevant to you.
+
+We may also use AI capabilities to assist us in preventing fraudulent actions. Other uses of AI features may be applied to assist you to conduct technical diagnostics, including firmware updates, regarding your device when you approach us in one of our touchpoints.
+
+Lastly, we may also use AI features in our interactions with you to support customer care services, improve their efficiency (including your satisfaction with these services) and quality reviews of customer care interactions. This helps us to measure your customer experience, provide the best possible customer care support and identify areas for improvement. For example, by analyzing such interactions, we can better understand common issues and trends, leading to higher customer service and satisfaction.
+
+Who do we share your information with, and for what purposes?
+
+=== CARD L010dc2 ===
+BEFORE:
+Pour offrir, personnaliser et améliorer nos Produits
+
+En savoir plus sur la manière dont nous utilisons des informations pour fournir, personnaliser et améliorer nos Produits :
+
+AFTER:
+Pour offrir, personnaliser et améliorer nos Produits
+
+* Personnaliser des fonctionnalités, du contenu et des [recommandations], comme votre [fil Facebook], [votre fil Instagram], Meta AI, vos stories et vos publicités.
+
+En savoir plus sur la manière dont nous utilisons des informations pour fournir, personnaliser et améliorer nos Produits :
+
+=== CARD L0f635d ===
+BEFORE:
+**_Data Subject Requests_**
+
+If you have a concern about our processing of personal data, we encourage you to contact us in the first instance. However, if we are not able to resolve it, you have the right to lodge a complaint with the Data Protection Authority where you reside. Contact details for your Data Protection Authority can be found using the links below:
+
+AFTER:
+**_Data Subject Requests_**
+
+You have the right to (1) access your personal data, including in a portable format, (2) request erasure of your personal data, and (3) request correction of inaccurate personal data. In addition, you may have the right to object to certain processing or request we restrict certain processing. To exercise any of these rights, please email us at [**support@fal.ai**].
+
+If you have a concern about our processing of personal data, we encourage you to contact us in the first instance. However, if we are not able to resolve it, you have the right to lodge a complaint with the Data Protection Authority where you reside. Contact details for your Data Protection Authority can be found using the links below:
+
+=== CARD L7b5281 ===
+BEFORE:
+* All of the following documents govern your use of the Service:
+
+* these Google Antigravity Terms of Service (the “Google Antigravity Terms”);
+
+AFTER:
+* All of the following documents govern your use of the Service:
+
+* the [Google Terms of Service] (the “Universal Terms”), or [Section 5 of the General Service Terms in the Google Cloud Service Specific Terms] (“Pre-GA Terms”) if you are accessing the Service through your Google Workspace account on a Google Workspace AI Ultra for Business subscription;
+
+* these Google Antigravity Terms of Service (the “Google Antigravity Terms”);
+
+BEFORE:
+* the [Generative AI Additional Terms of Service].
+
+* Please read each of the above documents carefully, starting with the Universal Terms. Collectively, we refer to the Universal Terms, these Google Antigravity Terms, the Privacy Policy, and the Generative AI Terms of Service as the “Agreement.” This Agreement is a binding contract between you and Google regarding your use of the Service. If you do not agree to all Agreement terms, do not use the Service.
+
+* The Service includes goal-oriented AI systems or workflows that perform actions or tasks on your behalf in a supervised or autonomous manner that you may create, orchestrate, or initiate within the Service (“AI Agents”). You are solely responsible for: (a) the actions and tasks performed by an AI Agent; (b) determining whether the use an AI Agent is fit for its use case; (c) authorizing an AI Agent's access and connection to data, applications, and systems; and (d) exercising judgment and supervision when and if an AI Agent is used in production environments to avoid any potential harm the AI Agent may cause.
+
+AFTER:
+* the [Generative AI Additional Terms of Service].
+
+* Please read each of the above documents carefully, starting with the Universal Terms. Collectively, we refer to the Universal Terms, the Pre-GA Terms, the Google Antigravity Terms, the Privacy Policy, and the Generative AI Terms of Service as the “Agreement.” This Agreement is a binding contract between you and Google regarding your use of the Service. If you do not agree to all Agreement terms, do not use the Service.
+
+* When you use the Service, we record and store your user data, interaction data pertaining to your usage of the Service, related metadata connected to the Service, and any feedback you provide (“Interactions”). Such data may be aggregated over multiple users, and will be collected only when you have the Service running. You will have the option to delete your Interactions. If you would like to request that your Interactions be deleted, you can email antigravity-support@google.com. Note that such Interactions will be used in accordance with the terms of this Agreement unless and until you request deletion in accordance with the previous sentence. Notwithstanding the foregoing, if you are accessing the Service via Google Workspace on a Google Workspace AI Ultra for Business subscription, we will not collect your prompts, content, or model responses.
+
+* The Service includes goal-oriented AI systems or workflows that perform actions or tasks on your behalf in a supervised or autonomous manner that you may create, orchestrate, or initiate within the Service (“AI Agents”). You are solely responsible for: (a) the actions and tasks performed by an AI Agent; (b) determining whether the use an AI Agent is fit for its use case; (c) authorizing an AI Agent's access and connection to data, applications, and systems; and (d) exercising judgment and supervision when and if an AI Agent is used in production environments to avoid any potential harm the AI Agent may cause.
+
+=== CARD Ld5fad3 ===
+BEFORE:
+In addition to the ways that public content is shared as described above in “Reddit Is a Public Platform,” we may share information in the following ways:
+
+How We Protect Your Information
+
+AFTER:
+In addition to the ways that public content is shared as described above in “Reddit Is a Public Platform,” we may share information in the following ways:
+
+* _With our service providers._ We may share information with vendors, consultants, and other service providers who need access to such information to carry out work for us. Their use of personal data will be subject to appropriate confidentiality and security measures. A few examples: (i) payment processors who process transactions on our behalf, (ii) cloud providers who host our data and our services, (iii) third-party ad serving and measurement providers who help us and advertisers serve relevant ads and measure the performance of ads (by disclosing information such as cookie IDs, your IP address, and/or a hashed version of your email; these third parties may combine that information with other information they already have about you to provide services to Reddit), (iv) age verification providers who help us confirm your age, (v) compliance providers who help us determine your eligibility to participate in Reddit Programs, and (vi) LLM providers who help us compile and summarize public content for relevant search results on Reddit.
+
+How We Protect Your Information
+
+=== CARD Lcbbe0a ===
+BEFORE:
+1. 2.1
+
+Gumb reserves the right to change its business model at any time and for example, provide certain or all services in exchange for a fee only. If applicable, Gumb will publish the respective fees. The user may then decide at his discretion whether to accept the chargeable service or cancel.
+
+2. 2.2
+
+AFTER:
+1. 2.1
+
+2. 2.2
+
+=== CARD L52c6ff ===
+BEFORE:
+[Contact us]
+
+### Product training
+
+Join weekly sessions to experience in-depth demonstrations of the leading legal AI products while connecting with strategic law firm leaders in knowledge management, innovation, and AI.]
+
+Payroll fraud is a major compliance risk. Learn how payroll analytics and AI-powered tools can help exorcise phantom employees and employers.]
+
+The Thomson Reuters Future of Professionals Report 2025 reveals how AI continues to shape professional work — and what it takes to get ahead. This year’s report shows that increased efficiency, productivity, and cost savings top the list of benefits professionals attribute to AI, making it indispensable for organizations facing rapid change.]
+
+Thomson Reuters Privacy Statement
+
+AFTER:
+[Contact us]
+
+* Product training
+
+See how expert human intelligence shapes the AI that’s redefining legal work — and what that means for your practice.
+
+Explore the latest CoCounsel Legal enhancements — smarter AI, deeper research, and new workflows built for the way you practice.
+
+* [Legal learning hub Enhance product knowledge with on-demand training designed to improve skills and maximize software value.]
+
+* [Tax, audit & accounting professional services Achieve faster results with professional services that provide expert guidance and comprehensive product training.]
+
+* [On-demand learning Access flexible training modules that enhance product knowledge and accelerate professional productivity.]
+
+* [ONESOURCE University Maximize ONESOURCE value with comprehensive training that builds expertise and accelerates software proficiency.]
+
+Thomson Reuters Privacy Statement
+
+=== CARD Lf2335f ===
+BEFORE:
+### Privacy controls
+
+### Ad settings
+
+AFTER:
+### Privacy controls
+
+Across many of our services, you can adjust history and personalization controls to make choices about whether we save some types of data in your Google Account and how we use it to personalize your experience. For example, if you have YouTube History turned on, the videos you watch and the things you search for are saved in your account so you can get better recommendations and remember where you left off. Saving activity from services like Search, Maps, and Shopping to your Search Services History lets you do things like resume an AI Mode interaction where you left off or see past searches as Autocomplete suggestions. When Personalized Recommendations in Search services is on, these services can provide results, curated feeds, and AI responses that are personalized to you based on info in your Google Account, including Search Services History. And if you have Web & App Activity turned on, your activity from some other Google services are saved in your account so you can get more personalized experiences. Web & App Activity also has a subsetting that lets you control whether some [information about your activity on other sites, apps, and devices that use Google services] is saved with Web & App Activity in your Google Account and used to improve Google services.
+
+### Ad settings

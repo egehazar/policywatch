@@ -1,0 +1,236 @@
+Each card shows the BEFORE and AFTER text of one change to a company's terms of service or privacy policy (only the changed passages that mention AI or models, with a little context). Read both and answer one label:
+- NEW: the AFTER text lets the company (or partners it shares data with) use its users' content or personal data to train or improve AI / machine-learning models, and the BEFORE text did not.
+- WIDER: the BEFORE text already allowed that, and the AFTER text allows clearly more (more kinds of data, generative AI, new recipients, fewer limits, an opt-out removed).
+- SAME: both allow it to about the same extent (rewording, moving text, small clarifications).
+- NO: the AFTER text does not let the company train AI on users' data (for example: a promise not to train, a ban on users training AI on the service, AI features or third-party models mentioned without training on users' data, or training only on data that is not users' own, such as public web data).
+- UNCLEAR: the passages shown are not enough to tell.
+For NEW or WIDER, also give the scope of the training use:
+- THIRD: users' data is shared with other companies for THEM to train AI.
+- GENERAL: generative or general-purpose AI, or AI/ML models with no narrow purpose named.
+- NARROW: models for one named operational purpose only (ads, recommendations, fraud, safety, support, search).
+(If several apply, the first in this order.) For the other labels, scope is "-".
+Then quote the one AFTER sentence that decides it (or "-" for NO with nothing to quote).
+
+Answer as JSON lines: {"card": "<id>", "label": "<NEW|WIDER|SAME|NO|UNCLEAR>", "scope": "<THIRD|GENERAL|NARROW|->", "quote": "<sentence>"}
+
+=== CARD L700a24 ===
+BEFORE:
+**Update or correct our records.** We may receive personal information about you from other sources, including publicly available databases or third parties from whom we have purchased data, and combine that personal information with other personal information we have about you to update our records. For example, we may obtain change of address information from public sources and use that personal information to update or correct your address.
+
+We use sensitive personal information only as reasonably necessary to perform or maintain the services or provide goods you requested, to perform services on behalf of the business such as maintaining or servicing accounts, processing payments, to provide analytics services or similar services, to detect security incidents, resist malicious, deceptive, fraudulent, or illegal actions and to prosecute those responsible for those actions, to ensure customers and other peoples’ physical safety, for short-term use such as non-personalized advertising as part of our current interactions, to verify or maintain the quality or safety of service, improve, upgrade or enhance service, or other reasons that do not require an opt-out of this use.
+
+AFTER:
+**Update or correct our records.** We may receive personal information about you from other sources, including publicly available databases or third parties from whom we have purchased data, and combine that personal information with other personal information we have about you to update our records. For example, we may obtain change of address information from public sources and use that personal information to update or correct your address.
+
+**Use with artificial intelligence (AI).** We may use your personal information with AI technology to improve or provide you with our services, to develop and provide you with new products, features, and technologies, to prevent fraud or misuse of our services, and for any other uses consistent with this privacy statement. We are committed to the responsible use of AI.
+
+We use sensitive personal information only as reasonably necessary to perform or maintain the services or provide goods you requested, to perform services on behalf of the business such as maintaining or servicing accounts, processing payments, to provide analytics services or similar services, to detect security incidents, resist malicious, deceptive, fraudulent, or illegal actions and to prosecute those responsible for those actions, to ensure customers and other peoples’ physical safety, for short-term use such as non-personalized advertising as part of our current interactions, to verify or maintain the quality or safety of service, improve, upgrade or enhance service, or other reasons that do not require an opt-out of this use.
+
+=== CARD L289979 ===
+BEFORE:
+Washington, DC 20005
+
+### Maine Broadband Customer Privacy Rights
+
+AFTER:
+Washington, DC 20005
+
+This law gives you the right to know whether we collect information about you; access, correct and delete certain information; opt out of having personal information about you sold or used for target advertising purposes or to prevent us from using artificial intelligence to create a profile about you to make legally or similar significant decisions about you.
+
+### Maine Broadband Customer Privacy Rights
+
+=== CARD La52d14 ===
+BEFORE:
+If you are a child under the age of 18, please do not attempt to register for or otherwise use our Services. If we learn that we have inadvertently obtained personal information about a child under the age of 18 via our Services, or from any other source, then we will delete that information as soon as possible.
+
+### 10\. Your rights and choices
+
+AFTER:
+If you are a child under the age of 18, please do not attempt to register for or otherwise use our Services. If we learn that we have inadvertently obtained personal information about a child under the age of 18 via our Services, or from any other source, then we will delete that information as soon as possible.
+
+Please contact us at [privacy@x.ai] if you are aware that we may have inadvertently collected personal information from a child under the age of 18.
+
+### 10\. Your rights and choices
+
+BEFORE:
+* Having in place standard contractual clauses with the recipient which have been approved by the European Commission for transfers outside the EEA or the UK Government for transfers out of the UK.
+
+Your rights
+
+AFTER:
+* Having in place standard contractual clauses with the recipient which have been approved by the European Commission for transfers outside the EEA or the UK Government for transfers out of the UK.
+
+Further details on the steps we take to protect your personal information, in these cases, are available up on request by contacting us by email at privacy@x.ai at any time.
+
+Your rights
+
+=== CARD L9d491a ===
+BEFORE:
+* **Call data.** Our Customer Success team may record video or telephone calls with Customers for the purposes of training and quality assurance. You will be notified of this when a recording is made, and can request that Miro does not record these calls.
+
+* **To provide, update, maintain and otherwise operate the Miro Community, Miro Academy and Miroverse.** This includes facilitating collaboration and interaction between Users when engaging with the Miro Community or Miroverse, and/or recording learners’ progress and certifications in Miro Academy.
+
+AFTER:
+* **Call data.** Our Customer Success team may record video or telephone calls with Customers for the purposes of training and quality assurance. You will be notified of this when a recording is made, and can request that Miro does not record these calls.
+
+* **Additional data provided to Miro.** If you use Miro’s AI features pursuant to our Terms of Service, Services Data also includes data associated with your interaction with these technologies. We also receive Services Data when submitted to our Websites or in other ways, such as when you request support, interact with our social media accounts or otherwise communicate with Miro.
+
+* **To provide, update, maintain and otherwise operate the Miro Community, Miro Academy and Miroverse.** This includes facilitating collaboration and interaction between Users when engaging with the Miro Community or Miroverse, and/or recording learners’ progress and certifications in Miro Academy.
+
+BEFORE:
+* **To provide, update, maintain and otherwise operate the Miro Community, Miro Academy and Miroverse.** This includes facilitating collaboration and interaction between Users when engaging with the Miro Community or Miroverse, and/or recording learners’ progress and certifications in Miro Academy.
+
+* **To develop, test and provide search, learning and productivity tools and additional features.** Miro tries to make the Services as useful as possible. For example, we make Services suggestions based on historical use and predictive models, identify organizational trends and insights, customize your experience of the Services, or to create and develop new features and products.
+
+AFTER:
+* **To provide, update, maintain and otherwise operate the Miro Community, Miro Academy and Miroverse.** This includes facilitating collaboration and interaction between Users when engaging with the Miro Community or Miroverse, and/or recording learners’ progress and certifications in Miro Academy.
+
+* **To develop and improve products and Services**, including AI features, provided you have not opted out.
+
+* **To develop, test and provide search, learning and productivity tools and additional features.** Miro tries to make the Services as useful as possible. For example, we make Services suggestions based on historical use and predictive models, identify organizational trends and insights, customize your experience of the Services, or to create and develop new features and products.
+
+BEFORE:
+* **To manage and to contact you with regard to involvement.** We may need to manage and contact you with regard to your involvement and participation in the Miro Community (such as the Forums, Programs, Miroverse, contests, activities, events or educational programs hosted by Miro or a vendor).
+
+In order to improve efficiency, take care of routine tasks and work with teams as part of your creative process, Miro offers certain AI-supported functionalities within the product, Miro Assist.
+
+If you choose to use these features, Customer Content (including user-generated prompts) will be processed by AI and machine learning models in order to generate content or make changes to your board. Some of these models sit internally within our product, and some are provided by a third party. We will not use your data to train the models.
+
+* User-generated prompts submitted by Users, which the models will use to generate content or make changes to your board. This is Customer Content, and we process it as a data processor on your instructions in order to provide the Services. Please be aware that any personal data you submit as a prompt will be processed by Miro Assist.
+
+More information about Miro Assist works and how to disable the AI feature is available in our Help Center.
+
+* **To enforce our rights, prevent fraud, and for safety.** To protect and defend the rights, property or safety of Miro, its users, or third parties, including enforcing its contracts or policies, or in connection with investigating and preventing illegal activity, fraud, or security issues, including to prevent death or imminent bodily harm.
+
+AFTER:
+* **To manage and to contact you with regard to involvement.** We may need to manage and contact you with regard to your involvement and participation in the Miro Community (such as the Forums, Programs, Miroverse, contests, activities, events or educational programs hosted by Miro or a vendor).
+
+* **Third-Party Services**. Customers may enable Third-Party Services. When enabled, Miro may access and exchange Customer Content with the provider of a Third-Party Service on Customer’s behalf. For example, the AI features may share limited data with Microsoft in connection with the use of the AI features and to monitor compliance with codes of conduct. Third-Party Services are not owned or controlled by Miro and third parties that have been granted access to Personal Data may have their own policies and practices for its collection, use, and sharing. Please check the permissions, privacy settings, and notices for these Third-Party Services or contact the relevant provider with any questions.
+
+* **To enforce our rights, prevent fraud, and for safety.** To protect and defend the rights, property or safety of Miro, its users, or third parties, including enforcing its contracts or policies, or in connection with investigating and preventing illegal activity, fraud, or security issues, including to prevent death or imminent bodily harm.
+
+=== CARD L024840 ===
+BEFORE:
+In all other cases we may rely on our legitimate interests to collect User Information from you, except where such interests are overridden by your data-protection interests or fundamental rights and freedoms. Where we rely on our legitimate interests to process your User Information, they include the interests described in the section headed “[How We Use User Information] .”
+
+If you have questions about or need further information concerning the legal basis on which we collect and use your User Information, please contact us using the contact details provided under the “[Contact Us]” heading below.
+
+AFTER:
+In all other cases we may rely on our legitimate interests to collect User Information from you, except where such interests are overridden by your data-protection interests or fundamental rights and freedoms. Where we rely on our legitimate interests to process your User Information, they include the interests described in the section headed “[How We Use User Information] .”
+
+To note, Magnite participates in the IAB Europe Transparency & Consent Framework and complies with its specifications and policies. Magnite’s identification number(s) within the framework is 52 (DV+), 102 (Magnite Streaming), 202 (Magnite Outstream) and 493 (Magnite Carbon AI).
+
+If you have questions about or need further information concerning the legal basis on which we collect and use your User Information, please contact us using the contact details provided under the “[Contact Us]” heading below.
+
+=== CARD L370772 ===
+BEFORE:
+16. [General Terms]
+
+Competent authorities of the EU and EU Member States that want to contact Bluesky under the Digital Services Act can obtain the necessary contact details from
+
+AFTER:
+16. [General Terms]
+
+Bluesky uses a recommender algorithm to populate the Discover Feed and personalize recommendations such as suggested accounts. You can opt out of the Discover Feed via your settings. In addition to the Discover Feed, you can install third-party feeds hosted by other services. Bluesky does not control the recommender systems used by third-party feeds.
+
+Competent authorities of the EU and EU Member States that want to contact Bluesky under the Digital Services Act can obtain the necessary contact details from
+
+=== CARD Lc11d71 ===
+BEFORE:
+* **If you use Le Chat Team or Le Chat Enterprise:** We do not use your Input, Output and Feedback to train our artificial intelligence models. If you wish to allow us to use such data to train our artificial intelligence models, you can opt-in of training at any time by using the feature available on your account.
+
+**Lawful basis:** Our legitimate interests in providing advanced artificial intelligence models to our customers.
+
+AFTER:
+* **If you use Le Chat Team or Le Chat Enterprise:** We do not use your Input, Output and Feedback to train our artificial intelligence models. If you wish to allow us to use such data to train our artificial intelligence models, you can opt-in of training at any time by using the feature available on your account.
+
+* **Feedback:** If you click on "Thumbs Up" or "Thumbs Down" to rate an Output, we use your Feedback to improve our artificial intelligence models. If you do not want us to use your Feedback to improve our artificial intelligence models, please do not click on "Thumbs Up" or "Thumbs Down".
+
+**Lawful basis:** Our legitimate interests in providing advanced artificial intelligence models to our customers.
+
+=== CARD L0456b5 ===
+BEFORE:
+* [Workshops & Async Collaboration]
+
+* [Apps & Integrations]
+
+AFTER:
+* [Workshops & Async Collaboration]
+
+* [Artificial Intelligence]
+
+* [Apps & Integrations]
+
+=== CARD Le0379a ===
+BEFORE:
+(no text)
+
+AFTER:
+| Research and innovate for social good:<br><br>* We carry out surveys and use information (including from researchers we collaborate with) to conduct and support research and innovation on topics of general social welfare, technological advancement, public interest, health and well-being.<br>* For example, we analyze information that we have about migration patterns during crises. This helps relief organizations get aid to the right places.<br>* We collect, store, combine, analyze and apply automatic processing techniques like aggregation of information as well as manual (human) review, and share information, as necessary to research and innovate for social good in this way. We do this to do things like create COVID-19 forecasting models.<br><br>[Learn more] about our research programs. | [Your activity and information you provide]:<br><br>* Content you create, like posts, comments or audio<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br>* Metadata about content and messages, subject to applicable law<br>* Types of content you view or interact with, and how you interact with it<br>* Apps and features you use, and what actions you take in them<br>* Purchases or other transactions you make<br>* Hashtags you use<br>* The time, frequency and duration of your activities on our Products<br><br>[Friends, followers and other connections]<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device (like whether our app is in the foreground or if your mouse is moving)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Information about the network you connect your device to, including your IP address<br>* Information from cookies and similar technologies<br><br>[Information from Partners, vendors and third parties] |
+
+=== CARD L2085d8 ===
+BEFORE:
+2. **Use of Third Party Services.** When you use the Amazon Software, you may also be using the services of one or more third parties, such as a wireless carrier or a mobile platform provider. Your use of these third party services may be subject to the separate policies, terms of use, and fees of these third parties.
+
+4. **Updates.** In order to keep the Amazon Software up-to-date, we may offer automatic or manual updates at any time and without notice to you.
+
+AFTER:
+2. **Use of Third Party Services.** When you use the Amazon Software, you may also be using the services of one or more third parties, such as a wireless carrier or a mobile platform provider. Your use of these third party services may be subject to the separate policies, terms of use, and fees of these third parties.
+
+3. **No Reverse Engineering.** Unless explicitly permitted under applicable mandatory law, you may not, and you will not encourage, assist or authorise any other person to copy, modify, reverse engineer, decompile or disassemble, apply any other process or procedure to derive the source code or other underlying components (such as a model, model parameters, or model weights), or otherwise tamper with, the Amazon Software, whether in whole or in part, or create any derivative works from or of the Amazon Software.
+
+4. **Updates.** In order to keep the Amazon Software up-to-date, we may offer automatic or manual updates at any time and without notice to you.
+
+=== CARD L4aa60a ===
+BEFORE:
+Vi främjar AI-suveränitet för
+
+EU-anpassad inferenstjänst och AI infrastruktur - byggd av utvecklare för utvecklare.
+
+Inferens och AI-infrastruktur i en och samma tjänst
+
+Suverän, Öppen och Hållbar AI - redo att skala upp.
+
+### Berget AI-plattform
+
+Ta full kontroll med en intuitiv plattform designad för utveckling och driftsättning av AI-applikationer.
+
+Fördelar med Berget AI
+
+Vi hjälper organisationer (inom offentlig och privat sektor) som vill utnyttja kraften i AI med full kontroll och minimal påverkan på planeten.
+
+### Suverän AI
+
+* Möjliggör AI- och datasuveränitet
+
+### (verkligt) Öppen AI
+
+### Hållbar AI
+
+Vi frågade några av Sveriges ledande experter inom juridik och datasäkerhet om varför en svensk molntjänst för AI och hantering av känslig data behövs.
+
+"Data är idag en av de mest värdefulla tillgångarna som finns. Det är ett rimligt affärsbeslut att träna AI-modeller i tjänster som inte använder din data för att träna någon annans modeller."
+
+-----------------------------------
+
+AFTER:
+Berget AI AB (“we,” “our,” or “us”) respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website [https://berget.ai] in compliance with the **General Data Protection Regulation (GDPR)** and other applicable laws.
+
+Berget AI AB, org. no. 559504-7522, is responsible for the processing of The Personal Data.
+
+[gdpr@berget.ai] or [dpo@berget.ai]
+
+-----------------------------------
+
+=== CARD Lc82053 ===
+BEFORE:
+* * *
+
+-------------------------------
+
+AFTER:
+* * *
+
+* **Device Information.** We collect details about your device and how it interacts with the Website and or the Services. This includes browser type and settings, device type, screen size, operating system, model, language preferences, internet service provider, mobile network, push notification tokens, system activity, hardware settings, application version, and unique device identifiers like device type ID.
+
+-------------------------------

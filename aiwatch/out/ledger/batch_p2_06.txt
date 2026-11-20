@@ -1,0 +1,711 @@
+Each card shows the BEFORE and AFTER text of one change to a company's terms of service or privacy policy (only the changed passages that mention AI or models, with a little context). Read both and answer one label:
+- NEW: the AFTER text lets the company (or partners it shares data with) use its users' content or personal data to train or improve AI / machine-learning models, and the BEFORE text did not.
+- WIDER: the BEFORE text already allowed that, and the AFTER text allows clearly more (more kinds of data, generative AI, new recipients, fewer limits, an opt-out removed).
+- SAME: both allow it to about the same extent (rewording, moving text, small clarifications).
+- NO: the AFTER text does not let the company train AI on users' data (for example: a promise not to train, a ban on users training AI on the service, AI features or third-party models mentioned without training on users' data, or training only on data that is not users' own, such as public web data).
+- UNCLEAR: the passages shown are not enough to tell.
+For NEW or WIDER, also give the scope of the training use:
+- THIRD: users' data is shared with other companies for THEM to train AI.
+- GENERAL: generative or general-purpose AI, or AI/ML models with no narrow purpose named.
+- NARROW: models for one named operational purpose only (ads, recommendations, fraud, safety, support, search).
+(If several apply, the first in this order.) For the other labels, scope is "-".
+Then quote the one AFTER sentence that decides it (or "-" for NO with nothing to quote).
+
+Answer as JSON lines: {"card": "<id>", "label": "<NEW|WIDER|SAME|NO|UNCLEAR>", "scope": "<THIRD|GENERAL|NARROW|->", "quote": "<sentence>"}
+
+=== CARD Lf3c883 ===
+BEFORE:
+By visiting our website or using our application and/or services, you are entering into a legal agreement with us, consisting of these Terms of Use, and our additional services’ legal terms. By using our services, you signify your consent to these terms and you acknowledge that you have read our Privacy Policy. You may not use our services if you do not consent to all our terms.
+
+Addendum - Subscription and Payment Terms for Residents of the State of Israel
+
+AFTER:
+By visiting our website or using our application and/or services, you are entering into a legal agreement with us, consisting of these Terms of Use, and our additional services’ legal terms. By using our services, you signify your consent to these terms and you acknowledge that you have read our Privacy Policy. You may not use our services if you do not consent to all our terms.
+
+5. you confirm you own all rights in and to any content uploaded, developed or provided by you, or imported, connected, copied or uploaded by Wix Services for you, to your User Platform (**“User Content”**), including any designs, images, animations, videos, audio files, fonts, logos, code, algorithms, SPIs, APIs, databases, illustrations, compositions, artworks, interfaces, usernames, information you provide for the purpose of creating a subdomain name, text, literary works and any other materials (**“Content”**), or otherwise have (and will continue to have) the full power, title, licenses, consents and authority, in and to the User Content, as necessary to legally access to, import, copy, use, connect, develop, publish, transfer or license such User Content, by you and us or any of our affiliates;
+
+As between Wix and you, you shall own all intellectual property pertaining to your User Content and to any other materials created, developed, or connected to Wix Services by you, including any designs, images, animations, videos, audio files, fonts, logos, illustrations, compositions, artworks, code, algorithms, SPIs, APIs, databases, interfaces, text and literary works. Wix does not claim ownership rights on your User Content or the content you connected to the Wix Services. You know and agree that in order to provide the Services to you and to maintain and improve the Services (the “Purpose”) we will need to access, upload and/or copy your User Content to our platform, including cloud services and CDN’s, to make display adjustments, to train our software tools (e.g. artificial intelligence and machine learning models), to duplicate for backup and perform any other technical actions and/or uses required to perform our services, as we deem fit. You hereby grant us a non-exclusive, transferable, sub-licensable, royalty-free, and worldwide license to use your User Content for the Purpose.
+
+All rights, title and interest in and to the Wix Services, including any and all copyrightable materials or any other content thereof which is or may be subject to any intellectual property rights under any applicable law (including any artwork, graphics, images, website templates and widgets, literary work, source and object code, computer code (including html), applications, audio, music, video and other media, designs, animations, interfaces, documentation, derivatives and versions thereof, the “look and feel” of the Wix Services, methods, products, algorithms, data, interactive features and objects, advertising and acquisition tools and methods, inventions, trade secrets, logos, domains, customized URLs, trademarks, service marks, trade names and other proprietary identifiers, whether or not registered and/or capable of being registered (collectively, “Intellectual Property”), and any derivations thereof, are owned by and/or licensed to Wix.
+
+5\. AI Services
+
+[... cut ...]
+
+=== CARD L28c5b5 ===
+BEFORE:
+GitHub Terms for Additional Products and Features
+
+AFTER:
+We’re always trying to improve of products and services, and your feedback as a Beta Preview user will help us do that. If you choose to give us any ideas, know-how, algorithms, code contributions, suggestions, enhancement requests, recommendations or any other feedback for our products or services (collectively, “Feedback”), you acknowledge and agree that GitHub will have a royalty-free, fully paid-up, worldwide, transferable, sub-licensable, irrevocable and perpetual license to implement, use, modify, commercially exploit and/or incorporate the Feedback into our products, services, and documentation.
+
+GitHub Terms for Additional Products and Features
+
+=== CARD Lc222cf ===
+BEFORE:
+Email: [dpo@bankid.com]
+
+**Digital ID card**
+
+AFTER:
+Email: [dpo@bankid.com]
+
+| Device information | Technical information generated upon issuance or use, such as time of use, IP address, logs, model of mobile phone or computer, operating system, version of BankID security software and type of BankID, which can be Mobile BankID, BankID on card or BankID on file for computer. |
+
+**Digital ID card**
+
+=== CARD L1b84f8 ===
+BEFORE:
+=======================
+
+Table of contents:
+
+AFTER:
+=======================
+
+* **To Market and develop AI21 products and Services**. We use information to market AI21 products and Services. Such use includes (i) notifying you about offers and services that may be of interest to you; (ii) tailoring content, advertisements, and offers for you; (iii) conducting market research; (iv) developing, enhancing, training, improving and marketing new products and Services; (v) to measure interest in our Website, products and services; (vi) other purposes disclosed at the time you provide information; and (vii) as you otherwise consent.
+
+* **De-identified and Aggregated Information Use**. In certain cases, we may aggregate or de-identify your Personal Information and further use it, including, without limitation, to analyze and improve our Website, as well as our products and Services (including through the use of artificial intelligence) and for research purposes.
+
+Table of contents:
+
+=== CARD L65b076 ===
+BEFORE:
+![]
+
+AFTER:
+![]
+
+* on applications: (i) application version (as it appears in App Store or Play Store); (ii) application ID or package name (as it appears in the App Store or Play Store); (iii) operating system ( e.g. IOS or Android); (iv) operating system version; and (v) device model (e.g. iPhone X).
+
+c) Machine learning techniques
+
+Outbrain uses non-generative machine learning techniques to process Users’ Personal Data and to analyze trends and popular recommendations to predict what you will be interested in and what advertisement to show you based on this.
+
+=== CARD Lf91a71 ===
+BEFORE:
+### Privacy controls
+
+### Ad settings
+
+AFTER:
+### Privacy controls
+
+Across many of our services, you can adjust history and personalization controls to make choices about whether we save some types of data in your Google Account and how we use it to personalize your experience. For example, if you have YouTube History turned on, the videos you watch and the things you search for are saved in your account so you can get better recommendations and remember where you left off. Saving activity from services like Search, Maps, and Shopping to your Search Services History lets you do things like resume an AI Mode interaction where you left off or see past searches as Autocomplete suggestions. When Personalized Recommendations in Search services is on, these services can provide results, curated feeds, and AI responses that are personalized to you based on info in your Google Account, including Search Services History. And if you have Web & App Activity turned on, your activity from some other Google services are saved in your account so you can get more personalized experiences. Web & App Activity also has a subsetting that lets you control whether some [information about your activity on other sites, apps, and devices that use Google services] is saved with Web & App Activity in your Google Account and used to improve Google services.
+
+### Ad settings
+
+=== CARD Lb0a3dd ===
+BEFORE:
+4.2 _Other Suspension._ Notwithstanding Section 4.1 (AUP Violations), Google may immediately Suspend all or part of Customer's use of the Services if (a) Google reasonably believes Suspension is needed to protect the Services, Google’s infrastructure supporting the Services, or any other customer of the Services (or their end users); (b) there is suspected unauthorized third-party access to the Services; (c) Google reasonably believes that immediate Suspension is required to comply with any applicable law; or (d) Customer is in breach of Section 3.3 (Restrictions) or the Service Specific Terms. Google will lift any such Suspension when the circumstances giving rise to the Suspension have been resolved. At Customer's request, Google will, unless prohibited by applicable law, notify Customer of the basis for the Suspension as soon as is reasonably possible.
+
+**5. Intellectual Property Rights; Protection of Customer Data; Feedback.**
+
+AFTER:
+4.2 _Other Suspension._ Notwithstanding Section 4.1 (AUP Violations), Google may immediately Suspend all or part of Customer's use of the Services if (a) Google reasonably believes Suspension is needed to protect the Services, Google’s infrastructure supporting the Services, or any other customer of the Services (or their end users); (b) there is suspected unauthorized third-party access to the Services; (c) Google reasonably believes that immediate Suspension is required to comply with any applicable law; or (d) Customer is in breach of Section 3.3 (Restrictions) or the Service Specific Terms. Google will lift any such Suspension when the circumstances giving rise to the Suspension have been resolved. At Customer's request, Google will, unless prohibited by applicable law, notify Customer of the basis for the Suspension as soon as is reasonably possible.
+
+4.3 _Generative AI Safety and Abuse_. Google uses automated safety tools to detect abuse of Generative AI Services. Notwithstanding the “Handling of Prompts and Generated Output” section in the Service Specific Terms, if these tools detect potential abuse or violations of Google’s [AUP] or [Prohibited Use Policy], Google may log Customer prompts solely for the purpose of reviewing and determining whether a violation has occurred. See the [Responsible AI] documentation page for more information about how logging prompts impacts your use of the Services.
+
+**5. Intellectual Property Rights; Protection of Customer Data; Feedback.**
+
+=== CARD L59d6a9 ===
+BEFORE:
+10. Use the Services in a manner that (a) is likely to interrupt, suspend, slow down or hinder the continuity of the Services, (b) constitutes an intrusion or attempt to break into the Services or Sketchfab's computer or networking systems, (c) will divert of the Services' system resources, (d) may place a disproportionate load on the infrastructure of the Services, and (e) constitutes an attack on security and authentication measures of the Services or Sketchfab's computer or networking systems;
+
+Generally, we do not limit or impose additional fees for traffic consumption on Self-Serve accounts (Free, Pro, Premium). However, this policy is subject to fair use: If your aggregate traffic usage (across all your models) is higher than 99% of Self-Serve users on our platform in any calendar month, we may, at our discretion, charge fees for excessive usage, require you to upgrade to a more suitable plan, or terminate your account(s) upon advance written notice. If this occurs on your account, someone on our team will reach out to you about next steps. It's worth noting that most accounts never reach this threshold.
+
+AFTER:
+10. Use the Services in a manner that (a) is likely to interrupt, suspend, slow down or hinder the continuity of the Services, (b) constitutes an intrusion or attempt to break into the Services or Sketchfab's computer or networking systems, (c) will divert of the Services' system resources, (d) may place a disproportionate load on the infrastructure of the Services, and (e) constitutes an attack on security and authentication measures of the Services or Sketchfab's computer or networking systems;
+
+14. Collect, aggregate, mine, scrape or otherwise use NoAI Content (i) in datasets utilized by Generative AI Programs; (ii) in the development of Generative AI Programs; or (iii) as inputs to Generative AI Programs.
+
+Generally, we do not limit or impose additional fees for traffic consumption on Self-Serve accounts (Free, Pro, Premium). However, this policy is subject to fair use: If your aggregate traffic usage (across all your models) is higher than 99% of Self-Serve users on our platform in any calendar month, we may, at our discretion, charge fees for excessive usage, require you to upgrade to a more suitable plan, or terminate your account(s) upon advance written notice. If this occurs on your account, someone on our team will reach out to you about next steps. It's worth noting that most accounts never reach this threshold.
+
+=== CARD L10fc48 ===
+BEFORE:
+Exécution d’un contrat
+
+| Finalités et moyens de traitement de vos informations | Catégories d’informations que nous utilisons (voir « [Quelles informations recueillons-nous ?] » pour en savoir plus sur chaque catégorie d’informations) Les informations que nous utilisons dépendent des circonstances, mais elles peuvent inclure les éléments suivants : |
+
+AFTER:
+Exécution d’un contrat
+
+Concernant toutes les personnes ayant la capacité juridique de conclure un contrat exécutoire (en ayant atteint l’âge de la majorité dans leur pays de résidence, par exemple), nous traitons les informations nécessaires pour conclure et exécuter les contrats qui nous lient à vous (les [Conditions générales Meta] et [Conditions générales Instagram], les [Conditions de service supplémentaires de Meta Platforms Technologies], les [Conditions de service supplémentaires de Portal], les [Conditions de service relatives à Meta AI] et les [Conditions de service supplémentaires de Meta View], dénommées collectivement les « Conditions générales »). Les finalités pour lesquelles nous traitons les informations dans le cadre de nos contrats, les catégories d’informations que nous utilisons et la manière dont elles sont traitées sont définies ci-dessous :
+
+| Finalités et moyens de traitement de vos informations | Catégories d’informations que nous utilisons (voir « [Quelles informations recueillons-nous ?] » pour en savoir plus sur chaque catégorie d’informations) Les informations que nous utilisons dépendent des circonstances, mais elles peuvent inclure les éléments suivants : |
+
+=== CARD L5072b7 ===
+BEFORE:
+### Our Matching Algorithms
+
+We have developed matching algorithms to predict your compatibility with other users and so we can show you people we think are a good match for you. Our matching algorithms use the following data about you to predict your compatibility with others and generate profile recommendations: the things you tell us about yourself in your profile; information about your activity in our apps; whether you are a photo verified user; and your device coordinates, which are necessary to understand your proximity to other members. The legal basis for processing profile and proximity information is that this is necessary for the provision of our contractual services to you pursuant to Article 6(1)(b) GDPR. Where we process information about your app activity, this is based on our legitimate interests pursuant to Article 6(1)(f) GDPR, and specifically our legitimate interest in generating more personalised and relevant recommendations for who you can match with in our App. If you have chosen to include sensitive information in your profile, such as information about your beliefs, the processing of this information is based on your voluntary and explicit consent.
+
+### Moderation Practices
+
+AFTER:
+### Our Matching Algorithms
+
+Bumble’s mission is to create kind and equitable relationships. We have developed matching algorithms to predict your compatibility with other users so we can show you people we think are a good match for you. We use different indications based on users’ profiles on our app (for example, how you swipe or whether you match with someone). We use these indications to recommend the most relevant profiles to everyone to maximise everyone’s chances of finding meaningful connections on our apps. Our matching algorithms are based on a range of factors and use machine learning to rank profiles for you to maximise your chance of finding compatible matches. We use the following data about you and other users to predict your compatibility with others and generate profile recommendations: **the information you provide us about yourself** in your profile such as age, distance or gender so we can show you people who are appropriate and are more likely to like you back; **information about how you interact with our app** to suggest to you people who are active and available to meet new people; **and your device coordinates**, which are necessary to understand your proximity to other members. The legal basis for processing profile and proximity information is that this is necessary for the provision of our contractual services to you pursuant to Article 6(1)(b) GDPR. Where we process information about your app activity, this is based on our legitimate interests pursuant to Article 6(1)(f) GDPR, and specifically our legitimate interest in generating more personalised and relevant recommendations for who you can match with in our App. Where you have included sensitive information in your profile, such as information about your beliefs, the processing of this information is based on your voluntary and explicit consent.
+
+### Moderation Practices
+
+=== CARD L172a78 ===
+BEFORE:
+-------
+
+* provide the service or carry out the transactions at your request;
+
+AFTER:
+-------
+
+When you use certain products and services, data may be sent to us to help improve your experience and troubleshoot issues. This may include details about your device such as hardware model, firmware and operating system version, unique device identifiers, and online identifiers like your IP address. In some cases, if you’ve enabled location services on your device and in the app settings, we may also collect general location information to provide relevant features or support. Other times, subject to applicable law and your consent where it is required, we may collect data based on your activities including your settings and configurations, usage data, and crash or error data.
+
+* provide the service or carry out the transactions at your request;
+
+=== CARD L695403 ===
+BEFORE:
+* Check the information generated by the Output and, in any case, not rely on the Output as a unique source of truth and/or information, as safe and inoffensive in every circumstance, or as a replacement for professional guidance.
+
+**Training**. You grant Us a worldwide, revocable, non-exclusive, non-sublicensable, non-transferable right to use Your User Feedback for the purpose of training Our Model(s). This helps us improve the accuracy of the Outputs generated by Our Model(s) and the overall efficiency and/or moderation of Our Services. This license is granted for the duration of the intellectual property rights under applicable law. We do not use Your Prompts and/or Your Outputs to train Our Model(s).
+
+**Monitoring**. We may use Your Prompts and Outputs to monitor abuse (meaning, to monitor any breach by You of the Agreement). To this end, we retain Your Prompts and Outputs for a period of thirty (30) days. If, for a legitimate purpose, You do not want Us to retain Your Prompts and Outputs, You can formulate your opt-out by sending an email at [legal@mistral.ai].
+
+AFTER:
+* Check the information generated by the Output and, in any case, not rely on the Output as a unique source of truth and/or information, as safe and inoffensive in every circumstance, or as a replacement for professional guidance.
+
+**License**. You grant Us a worldwide, non-revocable, non-exclusive, non-sublicensable, non-transferable right to use Your User Feedback for the purpose of improving Our Model(s). This helps us improve the accuracy of the Outputs generated by Our Model(s) and the overall efficiency and/or moderation of Our Services. This license is granted for the duration of the intellectual property rights under applicable law.
+
+**Monitoring**. We may use Your Prompts and Outputs to monitor abuse (meaning, to monitor any breach by You of the Agreement). To this end, we retain Your Prompts and Outputs for a period of thirty (30) days. If, for a legitimate purpose, You do not want Us to retain Your Prompts and Outputs, You can formulate your opt-out by sending an email at [legal@mistral.ai].
+
+=== CARD Lc2f192 ===
+BEFORE:
+Customers of Allstate’s insurance, other financial products and Allstate Roadside may also receive a privacy statement for those products in the initial policy or membership package and annual policy or membership documents. Those privacy statements and this Online Privacy Statement should be read together.
+
+AFTER:
+Customers of Allstate’s insurance, other financial products and Allstate Roadside may also receive a privacy statement for those products in the initial policy or membership package and annual policy or membership documents. Those privacy statements and this Online Privacy Statement should be read together.
+
+* analyze, improve, develop, or deliver our Sites, products and services and develop new services, products or features using algorithms, analytics software, and other similar methods,
+
+**Use with artificial intelligence (AI).** We may use your personal information with AI technology to improve or provide you with our services, to develop and provide you with new products, features, and technologies, to prevent fraud or misuse of our services, and for any other uses consistent with this privacy statement. We are committed to the responsible use of AI.
+
+* Information about the computer, tablet, smartphone or other device you use, such as your IP address, browser type, Internet service provider, platform type, device type/model/manufacturer, operating system, date and time stamp, a unique ID that allows us to uniquely identify your browser, mobile device or your account (including, e.g., a persistent device identifier or an Ad ID), and other similar information,
+
+=== CARD L6a6b85 ===
+BEFORE:
+* content related to cryptocurrency or blockchain technologies
+
+You must not deliberately use the services for the purpose of:
+
+AFTER:
+* content related to cryptocurrency or blockchain technologies
+
+* original content written with or which facilitates the use of LLMs (large language models) or other generative AI technologies
+
+You must not deliberately use the services for the purpose of:
+
+=== CARD L232fb2 ===
+BEFORE:
+* You also can delete your account or specific account information, if you want to
+
+View and manage your information
+
+AFTER:
+* You also can delete your account or specific account information, if you want to
+
+We process your information that’s necessary to fulfil our contracts with you. This means providing the services laid out in the [Meta Terms of Service], the [Instagram Terms of Use], the [Supplemental Meta Platforms Technologies Terms of Service], the [Supplemental Portal Terms of Service], the [Meta AI Terms of Service] and the [Supplemental Facebook View Terms of Service], together, the “terms.”
+
+View and manage your information
+
+BEFORE:
+[Information from partners, vendors and third parties]
+
+How our ads system works
+
+AFTER:
+[Information from partners, vendors and third parties]
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information you or others exchange with these features
+
+* Provide and curate [AI at Meta] in our Products, enabling the creation of content like text, audio, images and videos, including by understanding and recognising your use of content in the features
+
+* Interactions with our features that are part of AI at Meta and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* In the interests of developers and other partners to help them understand their customers and improve their businesses, validate our pricing models and evaluate the effectiveness of their products, services, online content on and off the Meta Company Products.
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* In the interests of advertisers, developers and other partners to help them understand their customers and improve their businesses, validate our pricing models and evaluate the effectiveness of their products, services, online content and advertising on and off the Meta Company Products.
+
+Developing and improving AI at Meta
+
+Develop and improve [AI at Meta] for Meta Products and for third parties.
+
+* In our interest, and in the interests of users and third parties to create, provide, support, improve and maintain artificial intelligence technology that enables people, businesses and others to express themselves, communicate, and discover and engage with information they’re interested in.
+
+* In our interest, and in the interests of third parties and the public at large to offer artificial intelligence technology to third parties, including developers and researchers.
+
+* In our interest, and in the interests of users and third parties to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy.
+
+* Interactions with our features that are part of AI at Meta and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* We support research in areas like artificial intelligence and machine learning.
+
+[... cut ...]
+
+=== CARD Lb14cdf ===
+BEFORE:
+| Use in marketing activities | Consent |
+
+| * Feedback, including text feedback, answers to the review forms, or feedback provided orally in the meeting<br>* Other information related to your feedback such as rating, the date of the feedback, etc. | Improvement of the App | Legitimate interest |
+
+AFTER:
+| Use in marketing activities | Consent |
+
+| * Email and email drafts content, including attachments where applicable<br>* Personalization context | For the improvement of AI features | Consent |
+
+| * Feedback, including text feedback, answers to the review forms, or feedback provided orally in the meeting<br>* Other information related to your feedback such as rating, the date of the feedback, etc. | Improvement of the App | Legitimate interest |
+
+=== CARD L39db51 ===
+BEFORE:
+![Fireworks Logo]
+
+### Platform
+
+AFTER:
+![Fireworks Logo]
+
+Explore us in AI tools
+
+### Platform
+
+=== CARD Ld1e75c ===
+BEFORE:
+* You also can delete your account or specific account information, if you want to
+
+To exercise your rights, visit our Help Centers, your settings for Facebook and Instagram and your device-based settings.
+
+AFTER:
+* You also can delete your account or specific account information, if you want to
+
+We process your information that’s necessary to fulfil our contracts with you. This means providing the services laid out in the [Meta Terms of Service], the [Instagram Terms of Use], the [Supplemental Meta Platforms Technologies Terms of Service], the [Supplemental Portal Terms of Service], the [Meta AI Terms of Service] and the [Supplemental Facebook View Terms of Service], together, the “terms.”
+
+To exercise your rights, visit our Help Centers, your settings for Facebook and Instagram and your device-based settings.
+
+BEFORE:
+**Why and how we process your information:**
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+AFTER:
+**Why and how we process your information:**
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+BEFORE:
+**Why and how we process your information:**
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+AFTER:
+**Why and how we process your information:**
+
+* Provide and curate [AI at Meta] in our Products, enabling the creation of content like text, audio, images and videos, including by understanding and recognising your use of content in the features
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+BEFORE:
+[Your activity and information you provide]:
+
+[Information from partners, vendors and third parties]
+
+AFTER:
+[Your activity and information you provide]:
+
+* Interactions with AI at Meta and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+[Information from partners, vendors and third parties]
+
+BEFORE:
+[Your activity and information you provide]:
+
+**Why and how we process your information:**
+
+AFTER:
+[Your activity and information you provide]:
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+**Why and how we process your information:**
+
+BEFORE:
+* Location-related information
+
+* Information about the network you connect your device to, including your IP address
+
+AFTER:
+* Location-related information
+
+* In the interests of advertisers, developers and other partners to help them understand their customers and improve their businesses, validate our pricing models and evaluate the effectiveness of their products, services, online content and advertising on and off the Meta Company Products.
+
+Developing and improving AI at Meta
+
+Develop and improve [AI at Meta] for Meta Products and for third parties.
+
+* In our interest, and in the interests of users and third parties to create, provide, support, improve and maintain artificial intelligence technology that enables people, businesses and others to express themselves, communicate, and discover and engage with information they’re interested in.
+
+* In our interest, and in the interests of third parties and the public at large to offer artificial intelligence technology to third parties, including developers and researchers.
+
+* In our interest, and in the interests of users and third parties to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy.
+
+* Interactions with AI at Meta and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Information about the network you connect your device to, including your IP address
+
+BEFORE:
+* Location-related information
+
+* Information about the network you connect your device to, including your IP address
+
+AFTER:
+* Location-related information
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Information about the network you connect your device to, including your IP address
+
+BEFORE:
+**Why and how we process your information:**
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+AFTER:
+**Why and how we process your information:**
+
+Developing and improving AI at Meta
+
+Develop and improve [AI at Meta] for Meta Products and for third parties.
+
+* In our interest, and in the interests of users and third parties to create, provide, support, improve and maintain artificial intelligence technology that enables people, businesses and others to express themselves, communicate, and discover and engage with information they’re interested in.
+
+* In our interest, and in the interests of third parties and the public at large to offer artificial intelligence technology to third parties, including developers and researchers.
+
+* In our interest, and in the interests of users and third parties to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy.
+
+* Interactions with AI at Meta and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* We support research in areas like artificial intelligence and machine learning.
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+* Interactions with [AI at Meta] and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+Providing, developing and improving AI at Meta
+
+To provide, develop and improve [AI at Meta] for Meta Products and for third parties outside of the performance of our contract with you.
+
+* In our interests, and in the interests of users and third parties to create, provide, support, improve and maintain artificial intelligence technology that enables people, businesses and others to express themselves, communicate, and discover and engage with information they’re interested in.
+
+* In our interests, and in the interests of third parties and the public at large to offer artificial intelligence technology to third parties, including developers and researchers.
+
+* In our interests, and in the interests of users and third parties to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy.
+
+* Interactions with AI at Meta and related metadata. For example, information you or others exchange with AI at Meta like content and messages
+
+**Information categories we use (see '[What Information do we collect?]' for more detail on each information category). The actual information we use depends on your factual circumstances, but could include any of the following:**
+
+=== CARD Lb4201c ===
+BEFORE:
+The information used for our advertising practices depends on the advertising use case. However, information used for advertising is typically collected through tracking technologies, such as cookies, web beacons/pixels, SDKs, APIs, embedded scripts, location-identifying technologies, logging technologies, and similar technologies, which recognize the device you are using (or help recognize you across devices) and collect information, including clickstream information, browser type, time and date you visited the Sites, mobile ad ID or other digital identifier (e.g., iOS IDFA, Google AAID, cookie ID, click ID, other proprietary IDs such as open-source “universal IDs” or other ID solutions), geolocation, and other information, such as the advertising/advertising measurement data discussed further above in this Privacy Policy. These tools may also collect other information you provide to us or other information about how you use the Services or your use of other services, such as your mouse movements, scrolling, clicks, and keystroke activity on or off the Services and other browsing, search, or purchasing behavior. These tools may also record information you enter when you interact with us or engage in chat or other features, whether on or off our Services.
+
+The above information may be shared with, or received from, our business partners (e.g., advertisers/agencies, advertising technology services) or other categories of third parties described in this Privacy Policy. We may also share or receive a common account identifier (such as a hashed or encrypted email address or user ID) or other information (such as phone number, which also is typically provided in hashed or encrypted format) with or from our third-party partners to help identify you, including across devices. We may share or receive this information using mechanisms such as API, direct file upload, server-to-server transfer, or integrating the tracking technologies of those partners (e.g., pixel).
+
+AFTER:
+The information used for our advertising practices depends on the advertising use case. However, information used for advertising is typically collected through tracking technologies, such as cookies, web beacons/pixels, SDKs, APIs, embedded scripts, location-identifying technologies, logging technologies, and similar technologies, which recognize the device you are using (or help recognize you across devices) and collect information, including clickstream information, browser type, time and date you visited the Sites, mobile ad ID or other digital identifier (e.g., iOS IDFA, Google AAID, cookie ID, click ID, other proprietary IDs such as open-source “universal IDs” or other ID solutions), geolocation, and other information, such as the advertising/advertising measurement data discussed further above in this Privacy Policy. These tools may also collect other information you provide to us or other information about how you use the Services or your use of other services, such as your mouse movements, scrolling, clicks, and keystroke activity on or off the Services and other browsing, search, or purchasing behavior. These tools may also record information you enter when you interact with us or engage in chat or other features, whether on or off our Services.
+
+We may engage vendors to provide certain interactive features on our Services. Your use of these interactive features is voluntary, and we may retain the information that you submit through these features. For example, we may offer an interactive chat feature for customer service purposes. When you participate in interactive chat, either with a virtual or live agent, the contents of the chat may be captured and kept as a transcript. By using these features, you understand that our vendors may process the information you submit to provide the service on our behalf. When using the interactive chat feature, you may be interacting with a generative AI platform and not a live person. Do not provide confidential, sensitive, or proprietary information when using the interactive chat feature. Use of the interactive chat feature is for general information only; please understand that information, decisions, or advice provided by the interactive chat feature or any materials retrieved from the interactive chat feature have not been reviewed for content or accuracy.
+
+The above information may be shared with, or received from, our business partners (e.g., advertisers/agencies, advertising technology services) or other categories of third parties described in this Privacy Policy. We may also share or receive a common account identifier (such as a hashed or encrypted email address or user ID) or other information (such as phone number, which also is typically provided in hashed or encrypted format) with or from our third-party partners to help identify you, including across devices. We may share or receive this information using mechanisms such as API, direct file upload, server-to-server transfer, or integrating the tracking technologies of those partners (e.g., pixel).
+
+=== CARD La999bc ===
+BEFORE:
+**5.3 Feedback.**
+
+**6\. Ownership; Proprietary Rights.**
+
+AFTER:
+**5.3 Feedback.**
+
+**Business Associate Agreement:** Your use of the Services involving PHI is subject to our Business Associate Agreement ("BAA"), which is hereby incorporated by reference into these Terms. You can review the BAA at: [https://limitless.ai/baa]. In the event of any conflict between these Terms and the BAA with respect to PHI, the BAA shall control.
+
+**BAA Requirement:** You agree not to upload or transmit PHI to the Services unless you have entered into a valid BAA with Limitless AI. Limitless AI is not considered a Business Associate under HIPAA unless and until such a BAA is in effect. If you upload PHI without a BAA in place, you do so at your own risk and Limitless AI disclaims all liability related to such use.
+
+**Safeguards and Compliance:** When acting as your Business Associate under HIPAA, Limitless AI will maintain appropriate administrative, technical, and physical safeguards to protect PHI, in accordance with applicable HIPAA requirements.
+
+**6\. Ownership; Proprietary Rights.**
+
+=== CARD L2ab1ae ===
+BEFORE:
+| To communicate with you: We use information you’ve given us (like contact information on your profile) to send you a communication, like an e-mail or in-product notice, for example:<br><br>* We’ll contact you via email or in-product notifications in relation to the Meta Products, product-related issues, research or to let you know about our terms and policies.<br><br>We also use contact information like your e-mail address to respond when you contact us. | [Your activity and information you provide]:<br><br>* Contact information on your profile and your communications with us<br>* Content you create, like posts, comments or audio<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Location-related information<br>* Information about the network you connect your device to, including your IP address<br>* Information from cookies and similar technologies |
+
+We'll use the information we have to provide these services; if you choose not to provide certain information (other than limited account information which is necessary to create a [Facebook account] or an [Instagram account]), your experience using the Meta Products may be affected. For example, you may see less relevant recommendations on the Products, or your use of the Products may be restricted.
+
+AFTER:
+| To communicate with you: We use information you’ve given us (like contact information on your profile) to send you a communication, like an e-mail or in-product notice, for example:<br><br>* We’ll contact you via email or in-product notifications in relation to the Meta Products, product-related issues, research or to let you know about our terms and policies.<br><br>We also use contact information like your e-mail address to respond when you contact us. | [Your activity and information you provide]:<br><br>* Contact information on your profile and your communications with us<br>* Content you create, like posts, comments or audio<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Location-related information<br>* Information about the network you connect your device to, including your IP address<br>* Information from cookies and similar technologies |
+
+[... cut ...]
+
+BEFORE:
+| --- | --- |
+
+Legitimate interests
+
+AFTER:
+| --- | --- |
+
+[... cut ...]
+
+BEFORE:
+| For all people, including those under the age of majority | | |
+
+| Providing measurement, analytics and other business services to businesses, and other partners:<br><br>Our systems automatically, as well as with some manual (human) processing, process information we have collected and stored about you and others. We use this information to:<br><br>* Provide insights and measurement reports to businesses, and other partners to help them measure the effectiveness and distribution of their, or their client's content and services, to understand the kinds of people who are seeing their content and how their content is performing on and off the Meta Products, and<br>* Provide aggregated user analytics and insights reports that help users, businesses, and other partners better understand things like the audiences with whom they may want to connect, as well as the types of people who use their products and services and how people interact with their content, websites, apps, products and services, including to connect to Meta Products, and the performance of their connection and networks and users’ experience with them. | * In our interest to provide accurate and reliable reporting to our businesses, and other partners, to ensure accurate pricing and statistics on performance and to demonstrate the value that our partners realise using Meta Company Products, and to provide suitable payment and billing options to our other partners; and<br>* In the interests of developers and other partners to help them understand their customers and improve their businesses, validate our pricing models and evaluate the effectiveness of their products, services, online content on and off the Meta Company Products. | [Your activity and information you provide]:<br><br>* Content you create, like posts, comments or audio<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br>* Types of content you view or interact with, and how you interact with it<br>* Apps and features you use, and what actions you take in them<br>* Purchases or other transactions you make<br>* Hashtags you use<br>* The time, frequency and duration of your activities on our Products<br><br>[Friends, followers and other connections]<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Location-related information<br>* Information about the network you connect your device to and your connection, including your IP address<br>* Reports about our Products' performance on your device<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+[... cut ...]
+
+AFTER:
+| For all people, including those under the age of majority | | |
+
+| Providing measurement, analytics and other business services to businesses, and other partners:<br><br>Our systems automatically, as well as with some manual (human) processing, process information we have collected and stored about you and others. We use this information to:<br><br>* Provide insights and measurement reports to businesses, and other partners to help them measure the effectiveness and distribution of their, or their client's content and services, to understand the kinds of people who are seeing their content and how their content is performing on and off the Meta Products, and<br>* Provide aggregated user analytics and insights reports that help users, businesses, and other partners better understand things like the audiences with whom they may want to connect, as well as the types of people who use their products and services and how people interact with their content, websites, apps, products and services, including to connect to Meta Products, and the performance of their connection and networks and users’ experience with them. | * In our interest to provide accurate and reliable reporting to our businesses, and other partners, to ensure accurate pricing and statistics on performance and to demonstrate the value that our partners realise using Meta Company Products, and to provide suitable payment and billing options to our other partners; and<br>* In the interests of developers and other partners to help them understand their customers and improve their businesses, validate our pricing models and evaluate the effectiveness of their products, services, online content on and off the Meta Company Products. | [Your activity and information you provide]:<br><br>* Content you create, like posts, comments or audio<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br>* Interactions with Meta's [artificial intelligence technology] and related metadata. For example, messages you or others receive from, share with or send to Meta’s [artificial intelligence technology].<br>* Types of content you view or interact with, and how you interact with it<br>* Apps and features you use, and what actions you take in them<br>* Purchases or other transactions you make<br>* Hashtags you use<br>* The time, frequency and duration of your activities on our Products<br><br>[Friends, followers and other connections]<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Location-related information<br>* Information about the network you connect your device to and your connection, including your IP address<br>* Reports about our Products' performance on your device<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+[... cut ...]
+
+BEFORE:
+| If we show you ads on Meta Products:<br><br>Providing measurement, analytics and other business services to businesses, advertisers and other partners:<br><br>Our systems automatically, as well as with some manual (human) processing, process information we have collected and stored about you and others. We use this information to:<br><br>* Provide insights and measurement reports to businesses, advertisers and other partners to help them measure the effectiveness and distribution of their, or their client's ads, content and services, to understand the kinds of people who are seeing their content and ads, and how their content and ads are performing on and off the Meta Products, and<br>* Provide aggregated user analytics and insights reports that help businesses, advertisers and other partners better understand things like the audiences with whom they may want to connect, as well as the types of people who use their products and services and how people interact with their websites, apps, products and services, including to connect to Meta Products, and the performance of their connection and networks and users’ experience with them. | * In our interest to provide accurate and reliable reporting to our businesses, advertisers, and other partners, to ensure accurate pricing and statistics on performance and to demonstrate the value that our partners realize using Meta Company Products, and to provide suitable payment and billing options to our advertisers and other partners; and<br>* In the interests of advertisers, developers and other partners to help them understand their customers and improve their businesses, validate our pricing models and evaluate the effectiveness of their products, services, online content and advertising on and off the Meta Company Products. | [Your activity and information you provide]:<br><br>* Content you create, like posts, comments or audio<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br>* Types of content you view or interact with, and how you interact with it<br>* Apps and features you use, and what actions you take in them<br>* Purchases or other transactions you make<br>* Hashtags you use<br>* The time, frequency and duration of your activities on our Products<br><br>[Friends, followers and other connections]<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Location-related information<br>* Information about the network you connect your device to and your connection, including your IP address<br>* Reports about our Products' performance on your device<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+[... cut ...]
+
+AFTER:
+| If we show you ads on Meta Products:<br><br>Providing measurement, analytics and other business services to businesses, advertisers and other partners:<br><br>Our systems automatically, as well as with some manual (human) processing, process information we have collected and stored about you and others. We use this information to:<br><br>* Provide insights and measurement reports to businesses, advertisers and other partners to help them measure the effectiveness and distribution of their, or their client's ads, content and services, to understand the kinds of people who are seeing their content and ads, and how their content and ads are performing on and off the Meta Products, and<br>* Provide aggregated user analytics and insights reports that help businesses, advertisers and other partners better understand things like the audiences with whom they may want to connect, as well as the types of people who use their products and services and how people interact with their websites, apps, products and services, including to connect to Meta Products, and the performance of their connection and networks and users’ experience with them. | * In our interest to provide accurate and reliable reporting to our businesses, advertisers, and other partners, to ensure accurate pricing and statistics on performance and to demonstrate the value that our partners realize using Meta Company Products, and to provide suitable payment and billing options to our advertisers and other partners; and<br>* In the interests of advertisers, developers and other partners to help them understand their customers and improve their businesses, validate our pricing models and evaluate the effectiveness of their products, services, online content and advertising on and off the Meta Company Products. | [Your activity and information you provide]:<br><br>* Content you create, like posts, comments or audio<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br>* Types of content you view or interact with, and how you interact with it<br>* Apps and features you use, and what actions you take in them<br>* Purchases or other transactions you make<br>* Hashtags you use<br>* The time, frequency and duration of your activities on our Products<br><br>[Friends, followers and other connections]<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Location-related information<br>* Information about the network you connect your device to and your connection, including your IP address<br>* Reports about our Products' performance on your device<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+[... cut ...]
+
+BEFORE:
+| Provide and improve our Products:<br><br>We use information we collect to:<br><br>* Provide products and curate features<br>* See if a product is working correctly<br>* Troubleshoot and fix it when it’s not<br>* Test out new products and features to see if they work<br>* Get feedback on our ideas for products or features<br>* Conduct surveys and other research about what you like about our Products and brands and what we can do better | To improve the Meta Company Products in a consistent manner, to correct technical glitches, and to optimise functionality. | [App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Location-related information<br>* Information about the network you connect your device to, including your IP address<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+We will consider several factors when assessing an objection, including: our users' reasonable expectations; the benefits and risks to you, us, other users or third parties; and other available means to achieve the same purpose that may be less invasive and do not require disproportionate effort. Unless we find that we have compelling legitimate grounds for this processing which are not outweighed by your interests or fundamental rights and freedoms or the processing is needed for legal reasons, your objection will be upheld, and we will cease processing your information. To learn more about the circumstances in which an objection may be successful, please visit the [Help Center].
+
+AFTER:
+| Provide and improve our Products:<br><br>We use information we collect to:<br><br>* Provide products and curate features<br>* See if a product is working correctly<br>* Troubleshoot and fix it when it’s not<br>* Test out new products and features to see if they work<br>* Get feedback on our ideas for products or features<br>* Conduct surveys and other research about what you like about our Products and brands and what we can do better | To improve the Meta Company Products in a consistent manner, to correct technical glitches, and to optimise functionality. | [App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Location-related information<br>* Information about the network you connect your device to, including your IP address<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+| To provide, develop and improve [artificial intelligence technology] (also called AI at Meta) on our Products and for third parties outside of the performance of our contract with you. | * In our interests, and in the interests of users and third parties to create, provide, support, improve and maintain artificial intelligence technology that enables people, businesses and others to express themselves, communicate, and discover and engage with information they’re interested in.<br>* In our interests, and in the interests of third parties and the public at large to offer artificial intelligence technology to third parties, including developers and researchers.<br>* In our interests, and in the interests of users and third parties to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy. | [Activity and information provided by a registered user]:<br><br>* [Public content] that you or others create or share, like posts, comments or audio.<br>* Interactions with Meta's [artificial intelligence technology] and related metadata. For example, messages you or others receive from, share with or send to Meta's [artificial intelligence technology].<br><br>[Information from partners, vendors and third parties] |
+
+We will consider several factors when assessing an objection, including: our users' reasonable expectations; the benefits and risks to you, us, other users or third parties; and other available means to achieve the same purpose that may be less invasive and do not require disproportionate effort. Unless we find that we have compelling legitimate grounds for this processing which are not outweighed by your interests or fundamental rights and freedoms or the processing is needed for legal reasons, your objection will be upheld, and we will cease processing your information. To learn more about the circumstances in which an objection may be successful, please visit the [Help Center].
+
+BEFORE:
+| --- | --- |
+
+When we process your information as necessary for a task carried out in the public interest, you have the right to object to, and seek restriction of, our processing. To exercise your rights, visit the [Facebook settings] and the [Help Center] and Instagram settings. In assessing an objection, we will consider several factors, including: our users' reasonable user expectations; the benefits and risks to you, us, other users or third parties; and other available means to achieve the same purpose that may be less invasive and do not require disproportionate effort.
+
+AFTER:
+| --- | --- |
+
+| Undertaking research for social good: We collect, store, combine, analyse and apply automatic processing techniques like aggregation to information as well as manual (human) review as necessary to undertake research and other tasks in the public interest, such as sharing relevant research data with third parties like international organisations and academics both in and outside the EEA. The public interest is required to be laid down in Union law or Member State law or other applicable law to which we are subject. In this case, we rely on Articles 168 and 179 of the Treaty on the Functioning of the European Union. | [Your activity and information you provide]:<br><br>* Content you create, like posts, comments or audio<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br>* Metadata about content<br>* Interactions with Meta's [artificial intelligence technology] and related metadata. For example, messages you or others receive from, share with or send to Meta’s [artificial intelligence technology].<br>* Types of content you view or interact with, and how you interact with it<br>* Apps and features you use, and what actions you take in them<br>* Purchases or other transactions you make<br>* Hashtags you use<br>* The time, frequency and duration of your activities on our Products<br><br>[Friends, followers and other connections]<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Location-related information<br>* Information about the network you connect your device to, including your IP address<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+[... cut ...]
+
+BEFORE:
+| --- | --- |
+
+AFTER:
+| --- | --- |
+
+| Protecting the vital interests of you and/or those of another person: We apply automated processing techniques, conduct manual (human) review and share information, including with law enforcement and others, in circumstances where someone’s vital interests require protection, such as in the case of emergencies. These vital interests include protection of your life, physical or mental health, wellbeing or integrity or that of others, and detecting, removing, and reporting illegal content. In protecting such vital interests we aim to combat harmful conduct and promote safety, integrity and security, including, for example, when we are investigating reports of harmful conduct or taking appropriate action, such as sharing information with relevant authorities, when someone needs help. | [Your activity and information you provide]:<br><br>* Content you create, like posts, comments or audio<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br>* Messages you send and receive, including their content, [subject to applicable law]<br>* Metadata about content and messages<br>* Interactions with Meta's [artificial intelligence technology] and related metadata. For example, messages you or others receive from, share with or send to Meta’s [artificial intelligence technology].<br>* Types of content you view or interact with, and how you interact with it<br>* Apps and features you use, and what actions you take in them<br>* Purchases or other transactions you make, including truncated credit card information<br>* Hashtags you use<br>* The time, frequency and duration of your activities on our Products<br>* Your photo or video selfie if you provide it when you contact us for account support<br><br>[Friends, followers and other connections]<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Location-related information<br>* Information about the network you connect your device to, including your IP address<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+=== CARD L7c5feb ===
+BEFORE:
+If Customer fails to pay any Fees when due, Linear may suspend Customer’s access to the Service pending payment of such overdue amounts. Customer also authorizes Linear to make multiple re-attempts at charging the Customer’s payment instrument if an initial charge attempt is unsuccessful, without any specific limit on the number of retries. If Customer believes that Linear has billed Customer incorrectly, Customer must contact Linear no later than sixty (60) days after the closing date on the first billing statement in which the error or problem appeared, to receive an adjustment or credit. Once Linear receives notice of a disputed invoice, Linear will review such notice and provide Customer with a written decision regarding the dispute, including documentary support for such decision. If Linear reasonably determines that the amounts billed are, in fact, due, Customer will pay such amounts (if it has not done so already) within ten (10) days of Linear notifying Customer in writing of such decision.
+
+* * *
+
+AFTER:
+If Customer fails to pay any Fees when due, Linear may suspend Customer’s access to the Service pending payment of such overdue amounts. Customer also authorizes Linear to make multiple re-attempts at charging the Customer’s payment instrument if an initial charge attempt is unsuccessful, without any specific limit on the number of retries. If Customer believes that Linear has billed Customer incorrectly, Customer must contact Linear no later than sixty (60) days after the closing date on the first billing statement in which the error or problem appeared, to receive an adjustment or credit. Once Linear receives notice of a disputed invoice, Linear will review such notice and provide Customer with a written decision regarding the dispute, including documentary support for such decision. If Linear reasonably determines that the amounts billed are, in fact, due, Customer will pay such amounts (if it has not done so already) within ten (10) days of Linear notifying Customer in writing of such decision.
+
+### AI Services Fees
+
+Notwithstanding Section 4.1, fees for AI Services shall be governed by the AI Addendum, which may include usage-based billing calculated on consumption metrics (e.g., tokens, API calls, or compute units) in addition to or in lieu of the subscription Fees set forth in an Order. Usage-based fees will be calculated payable by Customer in accordance with the measurement methodology described in the AI Addendum. In the event of any conflict between this Agreement and the AI Addendum with respect to AI Services fees, the AI Addendum will control.
+
+* * *
+
+BEFORE:
+Linear has established and implemented reasonable information security practices regarding the protection of User Submissions and User Information (collectively “**Customer Data**”), including administrative, technical, and physical security processes. Notwithstanding the foregoing, Customer is responsible for maintaining appropriate security, protection and backup of its hardware, software, systems, information, and Customer Data. Linear will, during the Term, process all Customer Data in accordance with Linear’s data protection agreement, a copy of which can be found at [linear.app/dpa].
+
+* * *
+
+AFTER:
+Linear has established and implemented reasonable information security practices regarding the protection of User Submissions and User Information (collectively “**Customer Data**”), including administrative, technical, and physical security processes. Notwithstanding the foregoing, Customer is responsible for maintaining appropriate security, protection and backup of its hardware, software, systems, information, and Customer Data. Linear will, during the Term, process all Customer Data in accordance with Linear’s data protection agreement, a copy of which can be found at [linear.app/dpa].
+
+### AI Services
+
+To the extent Customer accesses or uses any artificial intelligence or machine learning features or functionality made available through the Service (collectively, “AI Services”), such use shall be governed by Linear’s AI Services Addendum, available at [linear.app/legal/ai-addendum] and incorporated herein by reference (the “AI Addendum”). In the event of any conflict between this Agreement and the AI Addendum with respect to AI Services, the AI Addendum will control. Customer Data processed in connection with AI Services shall remain subject to the data protection obligations in Section 9.4, except as expressly modified by the AI Addendum.
+
+* * *
+
+=== CARD Lc99722 ===
+BEFORE:
+#### 3.2 User Content; License to Stackblitz
+
+As between you and Stackblitz, you retain all right, title, and interest in and to your User Content. You grant Stackblitz a worldwide, non-exclusive, royalty-free license to host, store, reproduce, modify, process, transmit, display, and distribute your User Content (including AI Input) solely as necessary to provide, maintain, secure, troubleshoot, and operate the Services; to detect, investigate, and prevent fraud, abuse, security incidents, and violations of these Terms or the Acceptable Use Policy; to perform quality assurance on individual interactions; to comply with applicable law; and to enforce these Terms and the Acceptable Use Policy. For clarity, the license in this Section 3.2 does not authorize Stackblitz to use User Content to train, fine-tune, improve, or benchmark artificial-intelligence models, or to prepare datasets for licensing to third parties. Those uses, if applicable, are governed exclusively by Section 3.5 and the Privacy Policy. You represent and warrant that you have all rights, licenses, and permissions necessary to submit your AI Input and other User Content and to grant the license in this Section 3.2.
+
+#### 3.3 AI Output; Ownership
+
+AFTER:
+#### 3.2 User Content; License to Stackblitz
+
+As between you and Stackblitz, you retain all right, title, and interest in and to your User Content. You grant Stackblitz a worldwide, non-exclusive, royalty-free license to host, store, reproduce, modify, process, transmit, display, and distribute your User Content (including AI Input) solely as necessary to provide, maintain, secure, troubleshoot, and operate the Services; to detect, investigate, and prevent fraud, abuse, security incidents, and violations of these Terms or the Acceptable Use Policy; to perform quality assurance on individual interactions; to comply with applicable law; and to enforce these Terms and the Acceptable Use Policy. You represent and warrant that you have all rights, licenses, and permissions necessary to submit your AI Input and other User Content and to grant the license in this Section 3.2.
+
+#### 3.3 AI Output; Ownership
+
+=== CARD Lf9a3ed ===
+BEFORE:
+**3.1 Rights Granted**.
+
+(b) You must comply with all applicable laws and with the terms of any licenses or agreements to which you are bound in your use of the Services.
+
+AFTER:
+**3.1 Rights Granted**.
+
+(a) You may use the Services only for your personal, non-commercial purposes. You may not use the Services to store, transfer, or distribute content of or on behalf of third parties, to operate your own content application or service, or to resell any part of the Services. We grant you a non-exclusive, non-transferable right to use Purchased Music, Music Service Content, and any additional Content we provide you access to through the Services only for your personal, non-commercial purposes, subject to the Agreement. Except as set forth in the preceding sentence, you may not redistribute, transmit, assign, sell, broadcast, rent, share, lend, repurpose, modify, adapt, edit, license or otherwise transfer, or use Purchased Music or Music Service Content. We do not grant you any synchronization, public performance, public display, promotional use, commercial sale, resale, reproduction, or distribution rights for any Content, or the right to use any Content in artificial intelligence technologies or services. In each case, the rightsholder(s) of the applicable Content or an agent acting on their behalf may grant you a license for one or more of the foregoing purposes. You are solely responsible for Content you import and User Content (defined below) you submit to the Services, including ensuring that it has been lawfully acquired and that it is free from any malware, viruses, Trojan horses, spyware, worms, or other malicious or harmful code. You expressly grant or transfer to us all permissions and benefits necessary to provide you cloud-based access to your Content for your personal, non-commercial use, including (i) enabling you to make personal, non-commercial copies of Content for backup purposes and (ii) providing technical support.
+
+(b) You must comply with all applicable laws and with the terms of any licenses or agreements to which you are bound in your use of the Services.
+
+=== CARD L5a4645 ===
+BEFORE:
+Why and how we process your information:
+
+* * *
+
+AFTER:
+Why and how we process your information:
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information you or others exchange with these features
+
+* * *
+
+BEFORE:
+Why and how we process your information:
+
+* * *
+
+AFTER:
+Why and how we process your information:
+
+* Provide and curate [AI at Meta] in our Products, enabling the creation of content like text, audio, images and videos, including by understanding and recognising your use of content in the features
+
+* * *
+
+BEFORE:
+[Your activity and information you provide]:
+
+[Information from partners, vendors and third parties]
+
+AFTER:
+[Your activity and information you provide]:
+
+* Interactions with our features that are part of AI at Meta and related metadata. For example, information like content and messages you or others exchange with these features
+
+[Information from partners, vendors and third parties]
+
+BEFORE:
+[Your activity and information you provide]:
+
+* * *
+
+AFTER:
+[Your activity and information you provide]:
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* * *
+
+BEFORE:
+Why and how we process your information:
+
+* * *
+
+AFTER:
+Why and how we process your information:
+
+Develop and improve [AI at Meta] for Meta Products and for third parties.
+
+* In our interest, and in the interests of users and third parties to create, provide, support, improve and maintain artificial intelligence technology that enables people, businesses and others to express themselves, communicate, and discover and engage with information they’re interested in.
+
+* In our interest, and in the interests of third parties and the public at large to offer artificial intelligence technology to third parties, including developers and researchers.
+
+* In our interest, and in the interests of users and third parties to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy.
+
+* Interactions with our features that are part of AI at Meta and related metadata. For example, information like content and messages you or others exchange with these features
+
+* * *
+
+BEFORE:
+[Information from partners, vendors and third parties]
+
+AFTER:
+[Information from partners, vendors and third parties]
+
+Developing and improving AI at Meta
+
+Develop and improve [AI at Meta] for Meta Products and for third parties.
+
+* In our interest, and in the interests of users and third parties to create, provide, support, improve and maintain artificial intelligence technology that enables people, businesses and others to express themselves, communicate, and discover and engage with information they’re interested in.
+
+* In our interest, and in the interests of third parties and the public at large to offer artificial intelligence technology to third parties, including developers and researchers.
+
+* In our interest, and in the interests of users and third parties to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy.
+
+* Interactions with our features that are part of AI at Meta and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* We support research in areas like artificial intelligence and machine learning.
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features
+
+Providing, developing and improving AI at Meta
+
+To provide, develop and improve [AI at Meta] for Meta Products and for third parties outside of the performance of our contract with you.
+
+* In our interests, and in the interests of users and third parties to create, provide, support, improve and maintain artificial intelligence technology that enables people, businesses and others to express themselves, communicate, and discover and engage with information they’re interested in.
+
+* In our interests, and in the interests of third parties and the public at large to offer artificial intelligence technology to third parties, including developers and researchers.
+
+* In our interests, and in the interests of users and third parties to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy.
+
+* Interactions with our features that are part of AI at Meta and related metadata. For example, information like content and messages you or others exchange with these features
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features like content and messages
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features like content and messages
+
+* Interactions with our features that are part of [AI at Meta] and related metadata. For example, information like content and messages you or others exchange with these features like content and messages

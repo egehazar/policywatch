@@ -1,0 +1,435 @@
+Each card shows the BEFORE and AFTER text of one change to a company's terms of service or privacy policy (only the changed passages that mention AI or models, with a little context). Read both and answer one label:
+- NEW: the AFTER text lets the company (or partners it shares data with) use its users' content or personal data to train or improve AI / machine-learning models, and the BEFORE text did not.
+- WIDER: the BEFORE text already allowed that, and the AFTER text allows clearly more (more kinds of data, generative AI, new recipients, fewer limits, an opt-out removed).
+- SAME: both allow it to about the same extent (rewording, moving text, small clarifications).
+- NO: the AFTER text does not let the company train AI on users' data (for example: a promise not to train, a ban on users training AI on the service, AI features or third-party models mentioned without training on users' data, or training only on data that is not users' own, such as public web data).
+- UNCLEAR: the passages shown are not enough to tell.
+For NEW or WIDER, also give the scope of the training use:
+- THIRD: users' data is shared with other companies for THEM to train AI.
+- GENERAL: generative or general-purpose AI, or AI/ML models with no narrow purpose named.
+- NARROW: models for one named operational purpose only (ads, recommendations, fraud, safety, support, search).
+(If several apply, the first in this order.) For the other labels, scope is "-".
+Then quote the one AFTER sentence that decides it (or "-" for NO with nothing to quote).
+
+Answer as JSON lines: {"card": "<id>", "label": "<NEW|WIDER|SAME|NO|UNCLEAR>", "scope": "<THIRD|GENERAL|NARROW|->", "quote": "<sentence>"}
+
+=== CARD L2c204a ===
+BEFORE:
+### **12\. General Terms**
+
+**i. Use of our brand**. You may not use any Stability name, logos, or trademarks, or imply any affiliation, endorsement, or sponsorship, without Stability’s prior written permission. You can seek permission by contacting us at press@stability.ai.
+
+### **13\. In case of disputes**
+
+AFTER:
+### **12\. General Terms**
+
+**e. Termination or Changes to our Services.** You may stop accessing or using our Services at any time. We may, for various reasons, deprecate or upgrade certain Services at any time without advance notice. We may also suspend or terminate your access to our Services (including any subscriptions) at any time without advance notice, particularly if we believe that you have breached these Terms or if we must do so to comply with applicable law. If you believe we have suspended or terminated your access to our Services in error, you can file an appeal with us or contact us. If we terminate your access to our Services due to a violation of these Terms and you have a subscription, you will not be entitled to any refund (unless required by applicable law). We may also terminate your account if you have been inactive for over a year. We may also delete any Content, or other data associated with your account. Any payment obligations accrued before termination, Section 3 (Using our Services), Sections 4(a) (Rights to Content) and 5(a)(For Trainers of LoRAs) to the extent necessary to give effect to licenses granted and uses lawfully made before termination, and Sections 6 (Feedback), 7 (fees, subscriptions, and service credits), 10 (ownership and DMCA), 11 (Disclaimers, Limitations on Liability, and iIndemnity), 12 (General Terms), and 13 (Disputes) will survive any expiration or termination of our Terms or a subscription.
+
+**i. Use of our brand.** You may not use any Stability name, logos, or trademarks, or imply any affiliation, endorsement, or sponsorship, without Stability’s prior written permission. You can seek permission by contacting us at [press@stability.ai].
+
+### **13\. In case of disputes**
+
+=== CARD Lb3b44d ===
+BEFORE:
+| --- | --- | --- | --- | --- |
+
+| Purposes | Categories of data | Legal basis | Retention | Categories of recipients |
+
+AFTER:
+| --- | --- | --- | --- | --- |
+
+Scaleway processes some of your data in order to meet a legitimate interest. This is particularly the case in order to secure our services, ensure the management of unpaid debts and the training of our teams (processing relating to security or fraud may involve profiling techniques).
+
+| Purposes | Categories of data | Legal basis | Retention | Categories of recipients |
+
+=== CARD L3b91cc ===
+BEFORE:
+The data controller responsible for your information is Meta Platforms Ireland Limited, which you can [contact online], or by mail at:
+
+AFTER:
+The data controller responsible for your information is Meta Platforms Ireland Limited, which you can [contact online], or by mail at:
+
+| Providing and improving our Meta Products: The provision of the Meta Products includes collecting, storing, and, where relevant, sharing, profiling, reviewing and curating, and in some instances not only automated processing but also manual (human) reviewing, to:<br><br>* Create and maintain your account and profile,<br>* Connect your Meta Products account, including your public profile information, to an integrated partner to sign in or share your information,<br>* Facilitate the sharing of content and status,<br>* Provide and curate features,<br>* Provide messaging services, the ability to make voice and video calls and connect with others,<br>* Provide and curate [artificial intelligence technology] in our Products, enabling the creation of content like text, audio, images and videos, including by understanding and recognising your use of content in the features,<br>* Undertake analytics, and<br>* Facilitate your purchases and payments on Meta Pay or other Meta checkout experiences.<br><br>We also use information we have to develop, research and test improvements to our Products. We use information we collect to:<br><br>* See if a product is working correctly<br>* Troubleshoot and fix it when it’s not<br>* Test out new products and features to see if they work<br>* Get feedback on our ideas for products or features<br>* Conduct surveys and other research about what you like about our Products and brands and what we can do better | [Your activity and information you provide]:<br><br>* Content you create, like posts, comments or audio<br>* Your public information (including your name, username and profile picture)<br>* Content you provide through our camera feature or your camera roll settings, or through our voice-enabled features<br>* Messages you send and receive, including their content, subject to [applicable law]<br>* Metadata about content and messages<br>* Types of content you view or interact with, and how you interact with it<br>* Apps and features you use, and what actions you take in them<br>* Purchases or other transactions you make, including truncated credit card information<br>* Hashtags you use<br>* The time, frequency and duration of your activities on our Products<br><br>[Friends, followers and other connections]<br><br>[App, browser and device information]:<br><br>* Device characteristics and device software<br>* What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)<br>* Identifiers that tell your device apart from other users’<br>* Device signals<br>* Information you’ve shared through your device settings<br>* Location-related information<br>* Information about the network you connect your device to, including your IP address<br>* Information from cookies and similar technologies<br><br>[Information from partners, vendors and third parties] |
+
+[... cut ...]
+
+=== CARD L231777 ===
+BEFORE:
+Specific applicable legal basis for the collection and use of your data is described in each section below.
+
+2.3. To ensure the security of your account and the Platform
+
+AFTER:
+Specific applicable legal basis for the collection and use of your data is described in each section below.
+
+If you choose to create an item listing on the Platform, our algorithms will analyze its price in addition to the item category, item brand and item condition. We will then use that information to show you pictures and prices of similar items sold in the last three months in order to help you determine the selling price for your item.
+
+2.3. To ensure the security of your account and the Platform
+
+BEFORE:
+Vinted actively supervises compliance with and enforces GTC for the purpose of ensuring the security of your account and that of the Platform.
+
+2.5. To enable your payment for items
+
+AFTER:
+Vinted actively supervises compliance with and enforces GTC for the purpose of ensuring the security of your account and that of the Platform.
+
+In order to ensure the security of the Platform and its members, Vinted makes automated decisions and assigns each member a "trust score" calculated with an algorithm and maintaining a black base of member’s personal data suggestive of unlawful activities. The "trust score" indicates the likelihood of improper use of the Platform.
+
+Our algorithm takes into account members’ comments on a forum, messages to other members, items listed on the platform, transactions, reports from other members on that member, the member's profile and contact information, the member's violations of our GTC, IP addresses, and browser fingerprints, other content provided to use by the member.
+
+2.5. To enable your payment for items
+
+=== CARD L84bc8d ===
+BEFORE:
+* 11.3 violate, encourage others to violate, or provide instructions on how to violate, any right of a third party, including by infringing or misappropriating any third-party intellectual property right;
+
+* 11.5 interfere with security-related features of the Service, including by: (i) disabling or circumventing features that prevent or limit use, printing or copying of any content; or (ii) reverse engineering or otherwise attempting to discover the source code of any portion of the Service except to the extent that the activity is expressly permitted by applicable law;
+
+AFTER:
+* 11.3 violate, encourage others to violate, or provide instructions on how to violate, any right of a third party, including by infringing or misappropriating any third-party intellectual property right;
+
+* 11.4 access, search, or otherwise use any portion of the Service through the use of any engine, software, tool, agent, device, or mechanism (including spiders, robots, crawlers, and data mining tools), except (a) through interfaces we expressly provide for automated access, such as our public API or official Model Context Protocol (MCP) server, in each case accessed with your own valid credentials and within any applicable rate limits, (b) the software or search agents provided by Civitai, or (c) as we otherwise authorize in writing. You remain fully responsible for all activity conducted through such authorized access as if you performed it manually, and authorized access does not permit any conduct otherwise prohibited by these Terms (including the activities described in Section 11.9);
+
+* 11.5 interfere with security-related features of the Service, including by: (i) disabling or circumventing features that prevent or limit use, printing or copying of any content; or (ii) reverse engineering or otherwise attempting to discover the source code of any portion of the Service except to the extent that the activity is expressly permitted by applicable law;
+
+=== CARD L36b950 ===
+BEFORE:
+* to comply with laws or regulatory requirements and to respond to lawful requests and legal process;
+
+AFTER:
+* **Information about your device:** including information about your IP address, device make, device model, device operating system, device operating system version, and data connection type;
+
+* to comply with laws or regulatory requirements and to respond to lawful requests and legal process;
+
+=== CARD L7daeb8 ===
+BEFORE:
+
+
+[... cut ...]
+
+AFTER:
+
+
+[... cut ...]
+
+=== CARD La42ab3 ===
+BEFORE:
+Our California resident consumer request metrics for the previous year can be found [here].
+
+* Information relating to a job application made by you, like your name, email address, employment details, CV, resume or other details of your employment history sent by you. We will process this information to process and respond to your job application. The legal basis for this processing activity is Article 6 sec. 1 sent. 1 lit. b GDPR (“necessary for entering into an employment contract with us”).
+
+AFTER:
+Our California resident consumer request metrics for the previous year can be found [here].
+
+* Comments or messages you post or transmit on Roblox via public chats, forums, group walls, personal post, etc. We process this information to monitor, filter and moderate this information for the purposes of being able to remove profanity, Personal Information, and other inappropriate conversations. Additionally, we may use pre-filtered comments and messages for other purposes such as training and improving our filter technology. The legal basis for this processing activity is Roblox’s legitimate interest in being able to defend ourselves from possible liability claims that may arise from unlawful comments posted by you, Article 6 sec. 1 sent. 1 lit. f GDPR (“legitimate interest”). Please note that any Personal Information submitted by you in forums and similar means offered by us is available to anyone who has access to this forum including other users. The Personal Information posted by you can be read, collected or used by other users of these forums and could be used to send unsolicited messages.
+
+* When you request or agree to voice based services from Roblox, we may collect, process and store your voice recording to provide services and to improve our voice related services. We may use your voice recording for purposes such as training and improving our filter technology to increase the safety on our platform, except that we will not engage in these activities with private server voice chat recordings of EEA users. The bases for processing this personal data are Article 6 sec. 1 sent. 1 lit. b (“performance of a contract”) and f (“legitimate interest”) GDPR. We further have a legitimate interest to increase the safety of our voice related services.
+
+* Information relating to a job application made by you, like your name, email address, employment details, CV, resume or other details of your employment history sent by you. We will process this information to process and respond to your job application. The legal basis for this processing activity is Article 6 sec. 1 sent. 1 lit. b GDPR (“necessary for entering into an employment contract with us”).
+
+=== CARD Le7e191 ===
+BEFORE:
+![]![]
+
+AFTER:
+[Run models all in one Sandbox 🏖️]
+
+![]![]
+
+=== CARD L408a48 ===
+BEFORE:
+**TERMS OF SERVICE**
+
+We operate the website [https://fal.ai] (the "**Site**") , as well as any other related products and services that refer or link to these legal terms (the "**Legal Terms**") (collectively, the "**Services**").
+
+We provide cloud infrastructure to run ML models in the cloud.
+
+You can contact us by email at support@fal.ai or by mail to 6020 Adeline St , Oakland , CA 94608 , United States.
+
+If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: hello@fal.ai. If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.
+
+If you are unsatisfied with our Services, please email us at hello@fal.ai .
+
+We care about data privacy and security. Please review our Privacy Policy: **[https://fal.ai/privacy]**. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in the United States . If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United States , then through your continued use of the Services, you are transferring your data to the United States , and you expressly consent to have your data transferred to and processed in the United States .
+
+****hello@fal.ai****
+
+AFTER:
+**TERMS OF SERVICE**
+
+These Terms of Service ("**Terms**") apply to your access to, and use of, the websites and generative artificial intelligence ("**AI**") media platform provided by fal - Features & Labels, Inc. ("**Company**," "**we**," "**us**," or "**our**"). By checking a box to accept or by using the Services (as defined below), you agree to these Terms. These Terms form a binding legal contract between Company and you as a customer ("**Customer**," "**you**," or "**your**") governing your use of (i) any websites or other online products or services provided by Company that link to these Terms, including www.fal.ai ("**Sites**"), and (ii) the Company platform as made available to customers as a cloud-hosted service (collectively with the Sites, and as applicable, the "**Services**").
+
+For information about how we collect, use, share and otherwise process information about you, please see our Privacy Policy [https://fal.ai/privacy].
+
+You must be 18 years of age (or the legal majority where you live). If you are under 18 years old (or the age of legal majority where you live), you may not use our Services. If you are a parent or guardian and you believe that your child under the age of 18 is using our Services without your consent, please contact us at [support@fal.ai].
+
+2. "**Documentation**" means any user manuals, API materials, and any other instructional, technical, or training materials relating to the Services that are provided to Customer in electronic form or via the Sites (including under Frequently Asked Questions), as may be updated by Company from time to time.
+
+1. The Services provide AI content generation features that allows the creation of Output Content ("**AI Features**"). The AI Features may allow the submission of Customer Input as prompts and generate Output Content based on those prompts. Customer must use the AI Features and the Output Content only (i) in a lawful manner and in compliance with all applicable laws, rules, and regulations and (ii) in a manner (including with respect to any Output Content) that does not infringe or attempt to infringe, misappropriate, or otherwise violate any rights of Company or any third party. In addition, Company will use the AI Features only in accordance with these Terms and any Documentation directed to the AI Features. Due to the nature of the AI Features, Output Content may not be unique across users, and the AI Features may generate different, the same, or similar Output Content for other users. The AI Features are not error-free, may not work as expected, and may generate incorrect information or Output Content. Company does not represent, warrant, or covenant that any Output Content will be original, will not infringe rights of any third party (including intellectual property rights), or otherwise entitle Company to any intellectual property rights in any Output Content. Customers' use of the AI Features is at their own risk.
+
+[... cut ...]
+
+=== CARD L251cfb ===
+BEFORE:
+--------------------------
+
+Each Member is free to talk to and form relationships with other Members in compliance with these TOS and the law.
+
+AFTER:
+--------------------------
+
+HAPPN is an online dating application enabling Members to find, in the Application, people with whom they have crossed paths or may cross paths, as well as those likely to interest them. The Application offers Members profiles that are automatically selected using artificial intelligence systems (« AIS ») based on their search preferences, their profile activity on the Application, their Characteristics, favourite places or location. HAPPN undertakes to implement these AIS in accordance with the “AI Systems” article of these T&Cs. The Member cannot modify the recommendation criteria. We believe these criteria are the most likely to determine your compatibility with the profiles offered by the Application. However, the information that the Member fills in on his/her profile is likely to influence the recommendations.
+
+Each Member is free to talk to and form relationships with other Members in compliance with these TOS and the law.
+
+BEFORE:
+Any use of HAPPN Services to organize a group meeting of its Members constitutes a misuse of the Service. This is why using the Application to plan or organize a demonstration in a public place is strictly prohibited. Should such a meeting take place, HAPPN may not be held liable in the case of a public order offense or any damage caused by such meeting.
+
+Article 8: Member Code of Conduct
+
+AFTER:
+Any use of HAPPN Services to organize a group meeting of its Members constitutes a misuse of the Service. This is why using the Application to plan or organize a demonstration in a public place is strictly prohibited. Should such a meeting take place, HAPPN may not be held liable in the case of a public order offense or any damage caused by such meeting.
+
+7.6 AI Systems
+
+HAPPN uses AI systems to:
+
+HAPPN has taken into account, during the design of the Services, and undertakes to continuously take into account (i) the applicable regulations on artificial intelligence, in particular Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 establishing harmonised rules on artificial intelligence ("AI Act"), (ii) the general principles and international standards on artificial intelligence, in particular relating to the use of ethical, responsible, and sustainable artificial intelligence technologies and models, (iii) respect for the rights of individuals, in particular their privacy, and (iv) the risks of bias and discrimination, which it will endeavour to limit.
+
+HAPPN makes no warranties with respect to the AI systems used in connection with the Services beyond the applicable provisions of the AI Act.
+
+Article 8: Member Code of Conduct
+
+=== CARD L9bd4b3 ===
+BEFORE:
+| So we can defend and assert our rights before the authorities (civil, criminal or administrative) | All categories of data | Our legitimate interest in asserting and defending our rights |
+
+3\. When we share information about you
+
+AFTER:
+| So we can defend and assert our rights before the authorities (civil, criminal or administrative) | All categories of data | Our legitimate interest in asserting and defending our rights |
+
+| To analyze your photos via machine learning to infer your interests, which are used as criteria to select relevant ads for you on the App. | Content Data, Inferred Information, Mobile advertising IDs and device identifiers. | Consent, where required by applicable laws. Legitimate interest, in countries where consent is not required |
+
+3\. When we share information about you
+
+BEFORE:
+**Delete Your Account**: In the settings of the App, you can choose to delete your account at any time. If you choose to delete your account, your account will be scheduled for deletion. This process takes approximately 15 days. If you log back into your account during that 15 day period, it will stop the deletion request. If you do not log back in, your account and all of your information will be permanently deleted. Note, information will not be deleted where BeReal has received a valid legal request requiring us to preserve your information.
+
+8\. What rights do you have over your information
+
+AFTER:
+**Delete Your Account**: In the settings of the App, you can choose to delete your account at any time. If you choose to delete your account, your account will be scheduled for deletion. This process takes approximately 15 days. If you log back into your account during that 15 day period, it will stop the deletion request. If you do not log back in, your account and all of your information will be permanently deleted. Note, information will not be deleted where BeReal has received a valid legal request requiring us to preserve your information.
+
+**Consent :** When we rely on your consent, you can withdraw your consent at any time from the App settings. Specifically, to exercise your choices regarding the sharing of your data with Ad Partners and the use of machine learning to analyze your photos for internal ad targeting, you can go to the "Privacy" settings within the App and select "Modify my consents".
+
+8\. What rights do you have over your information
+
+=== CARD Lcb2c9a ===
+BEFORE:
+* **5.7.4. No Representation or Warranty.** No representation or warranty is made, expressed, or implied regarding the accuracy of the information or the future performance of any Token, crypto asset, financial instrument, or other market or economic measure. Zora does not endorse or approve any links or third-party websites provided through the Services for the purpose of facilitating user due diligence efforts, or for other educational or informational purposes.
+
+6\. **Digital Assets.**
+
+AFTER:
+* **5.7.4. No Representation or Warranty.** No representation or warranty is made, expressed, or implied regarding the accuracy of the information or the future performance of any Token, crypto asset, financial instrument, or other market or economic measure. Zora does not endorse or approve any links or third-party websites provided through the Services for the purpose of facilitating user due diligence efforts, or for other educational or informational purposes.
+
+**5.8. Zora Agent and AI Features.** The Services may include artificial intelligence, machine learning, automated, algorithmic, conversational, or agentic features, including “Zora Agent,” that allow users to discover Tokens, content, trends, market activity, trading volume, market capitalization, pricing, liquidity, user activity, or other information, or otherwise interact with the Services through automated or conversational functionality (collectively, “**Agent Features**”).
+
+* **5.8.2. AI Outputs May Be Inaccurate.** Outputs from Agent Features are generated by artificial intelligence and other automated systems and may contain errors, omissions, hallucinations, misstatements, misinterpretations, or incorrect conclusions. Outputs may also be inaccurate, incomplete, delayed, outdated, misleading, unavailable, or otherwise unreliable, including due to limitations of the underlying systems or the blockchain data, market data, protocol data, user activity, third-party services, or other information on which they may rely. Zora does not verify, endorse, or guarantee the accuracy, completeness, timeliness, availability, usefulness, or reliability of any output, response, ranking, summary, explanation, metric, trend, or other information made available through Agent Features.
+
+6\. **Digital Assets.**
+
+=== CARD Lec5634 ===
+BEFORE:
+**95.2.** You are responsible for all data transferred through AWS Diode, including, but not limited to: (i) compliance with all laws, regulations, and policies related to the control, disclosure, and transfer of classified information; and (ii) transferring data only to AWS regions of appropriate classification levels. Your failure to do so may result in Amazon incurring sanitization costs for which You will be responsible, and which will be exempt from any limitations of liability in any of your agreements with AWS.
+
+[Previous version(s)][]
+
+AFTER:
+**95.2.** You are responsible for all data transferred through AWS Diode, including, but not limited to: (i) compliance with all laws, regulations, and policies related to the control, disclosure, and transfer of classified information; and (ii) transferring data only to AWS regions of appropriate classification levels. Your failure to do so may result in Amazon incurring sanitization costs for which You will be responsible, and which will be exempt from any limitations of liability in any of your agreements with AWS.
+
+**96.2.** You and your End Users are responsible for all decisions made, advice given, actions taken, and failures to take action based on your use of AWS Supply Chain. AWS Supply Chain uses machine learning models that generate predictions based on patterns in data. Output generated by a machine learning model is probabilistic and should be evaluated for accuracy as appropriate for your use case, including by employing human review of such output.
+
+[Previous version(s)][]
+
+=== CARD L5dc9b5 ===
+BEFORE:
+(iii) Any use of websites linked to the Services but operated by third parties.
+
+PLEASE READ THE FOLLOWING PARAGRAPHS CAREFULLY, AS THEY REQUIRE YOU TO ARBITRATE DISPUTES WITH SPEECHIFY, AND LIMIT THE MANNER IN WHICH YOU CAN SEEK RELIEF FROM SPEECHIFY.
+
+AFTER:
+(iii) Any use of websites linked to the Services but operated by third parties.
+
+**Financial Hardship Considerations:** – Participants claiming financial travel hardship may provide evidence of their financial status and their legal name, date of birth, and home address for travel booking. Speechify will consider subsidizing travel costs for eligible participants. This may include booking air or bus travel to Miami-Dade. You accept that applying for subsidy may delay the agreed settlement conference date in order to enable Speechify to secure cost-effective travel arrangements for you with an advanced enough purchase of tickets by air, train, or bus. Speechify will book travel directly on your behalf for a day trip to the conference. Speechify may consider offering you temporary one-night housing at its sole discretion and on a case-by-case basis. Travel accommodation is not guaranteed.
+
+Exceptions to Pre-Litigation are outlined in Section 13.13 Expedited Dispute Resolution for Urgent Bona Fide User Claims. Additionally, this section does not require informal dispute resolution or arbitration of the claims seeking any relief or remedy measures against unauthorized use or abuse of the Services or intellectual property infringement or misappropriation of Speechify’s intellectual property, AI models, trademarks, patents, or copyright.
+
+PLEASE READ THE FOLLOWING PARAGRAPHS CAREFULLY, AS THEY REQUIRE YOU TO ARBITRATE DISPUTES WITH SPEECHIFY, AND LIMIT THE MANNER IN WHICH YOU CAN SEEK RELIEF FROM SPEECHIFY.
+
+=== CARD L1f278e ===
+BEFORE:
+Clicking on this icon provides additional information on the companies and data practices that were used to deliver the ad and describes how you may opt out of these advertising programs.
+
+### You can limit the ways we may send marketing offers to you.
+
+AFTER:
+Clicking on this icon provides additional information on the companies and data practices that were used to deliver the ad and describes how you may opt out of these advertising programs.
+
+Verizon Wireless customers participating in Verizon Dollars may be offered an opportunity to earn Verizon Dollars through use of the Glance lockscreen app. If you elect to participate, we may disclose limited information to Glance to verify your eligibility, provide you with your earned Verizon Dollars, and for customer support. If you consent, Glance may collect, use and share personal information, including sensitive personal information, as described in the Glance AI [privacy policy], for purposes such as delivering interest-based advertising. You may stop participating by uninstalling the Glance app. You can learn more about the Verizon Dollars Program in the [Program Terms and Conditions].
+
+### You can limit the ways we may send marketing offers to you.
+
+=== CARD Laea78b ===
+BEFORE:
+* Tampering with, making any unauthorized connection to, or modifying any part of our cable network or the Services for any purpose;
+
+You agree not to engage in these or other similar prohibited activities, or help anyone else do so. You acknowledge that you are accepting this Agreement on behalf of all persons who use the Services at your Premises (or any other locations authorized by us). You are solely responsible for ensuring that all other users of the Services understand and comply with this Agreement and any applicable policies. You are liable for all authorized and unauthorized use of the Services. If the Xfinity Equipment has been stolen or the Services have been used without your authorization or in violation of this Agreement, you agree to notify us immediately in writing, or by calling 1-800-XFINITY during normal business hours.
+
+AFTER:
+* Tampering with, making any unauthorized connection to, or modifying any part of our cable network or the Services for any purpose;
+
+* Allowing, enabling, or causing the deployment of an AI Agent (unless we expressly grant you permission otherwise) to access, use, interact with, or take action on any of the Services. Examples include obtaining information from, making requests of, monitoring, copying, downloading, scraping, or data mining the Services; accepting or consenting to any terms or agreement with us on your behalf; or engaging in support or sales interactions with us regarding the Services, such as verbal interactions via telephone. “AI Agent” means any software or service that takes autonomous, semi-autonomous, or other programmatic action on behalf of, or at the instruction of, you or any other person or entity.
+
+You agree not to engage in these or other similar prohibited activities, or help anyone else do so. You acknowledge that you are accepting this Agreement on behalf of all persons who use the Services at your Premises (or any other locations authorized by us). You are solely responsible for ensuring that all other users of the Services understand and comply with this Agreement and any applicable policies. You are liable for all authorized and unauthorized use of the Services. If the Xfinity Equipment has been stolen or the Services have been used without your authorization or in violation of this Agreement, you agree to notify us immediately in writing, or by calling 1-800-XFINITY during normal business hours.
+
+=== CARD Le202a9 ===
+BEFORE:
+**The french version of this document is available** [**here**] **and prevails over the others.**
+
+Lydia takes great care to maintain a high standard of security and confidentiality of its Individual Customers' personal data by raising the awareness of its employees and business partners and by training its employees in data protection, by implementing tools and practices aimed at obfuscation, anonymisation, encryption and data encryption in order to ensure the protection of its Individual Customers' personal data from internal and external risks of data leakage.
+
+AFTER:
+**The french version of this document is available** [**here**] **and prevails over the others.**
+
+\- The recording of your conversations and communications with Lydia, regardless of the medium (emails, letters, telephone conversations, etc.). Depending on applicable regulations, your personal data may be retained for varying periods of time, but not longer than five (5) years from the time of recording. The recording media or their reproduction will be kept for periods proportionate to the purpose of the recording in question (from 6 months for staff training purposes, to 5 years when the telephone recording is likely to be used as evidence).
+
+\- Research or analytical activity for process improvement and model development purposes. Your data may be used to improve our internal control procedures or to assist in risk and compliance management. Data is retained for a specified period of time for each of these sub purposes.
+
+To do so, you must allow Lydia access to the microphone and the front and back cameras of your cell phone, then film yourself for a few seconds and say a random phrase orally. The recorded videos are viewed by one of our specially trained staff members for the purpose of authenticating you. Once authenticated, the video is no longer accessible by our collaborator: it is automatically stored in a semi-intermediate archive.
+
+Telephone conversations between you and our customer service departments (customer service, compliance, anti-fraud, etc.) may be recorded for the purposes of staff training, evaluating or improving the quality of our products and services, for evidence in the fight against fraud, money laundering and the financing of terrorism, and for the purposes of verifying your identity in connection with the exercise of your rights to your personal data. Before any recording, we inform you and you have the right to object to it.
+
+Lydia also takes great care to maintain a high standard of security and confidentiality of your personal data by educating our employees and business partners and training our employees on data protection, by implementing content controls, by implementing tools and practices aimed at obfuscation, anonymization, encryption and data wiping to ensure the protection of your personal data from internal and external data leakage risks
+
+* training of PayLead employees in data security and privacy
+
+=== CARD L6dad03 ===
+BEFORE:
+We may disclose your Personal Information for other reasons that we will describe at the time of information collection or prior to sharing your information.
+
+9\. Third-Party Websites
+
+AFTER:
+We may disclose your Personal Information for other reasons that we will describe at the time of information collection or prior to sharing your information.
+
+| **Audio, electronic, visual, or similar information** <br>Customer service call recordings, Chat transcripts, Training recordings, Customer-uploaded information | Directly from individuals <br><br>Through automated means | N/A |
+
+9\. Third-Party Websites
+
+=== CARD La2041a ===
+BEFORE:
+7. Market research: We sometimes invite our customers to take part in market research. Please see the information that accompanies this kind of invitation to understand what personal data will be collected and how that data is used.
+
+In this case, we use data for testing and troubleshooting purposes, as well as to generate statistics about our business. The main goal here is to get insights into how our services perform, how they are used, and ultimately to optimise and customise our website and apps, making them easier and more meaningful to use. As much as possible, we strive to use anonymised and de-identified personal data for this analytical work.
+
+AFTER:
+7. Market research: We sometimes invite our customers to take part in market research. Please see the information that accompanies this kind of invitation to understand what personal data will be collected and how that data is used.
+
+8. Improving our services: We use personal data for analytical purposes and product improvement, such as offering a more personalised experience based on how you use our platform for booking your chosen accommodation with us. Further, Your personal data may also be used for the development and enhancement of our machine-learning models and artificial intelligence tools. This is part of our commitment to making our services better and enhancing the user experience.
+
+In this case, we use data for testing and troubleshooting purposes, as well as to generate statistics about our business. The main goal here is to get insights into how our services perform, how they are used, and ultimately to optimise and customise our website and apps, making them easier and more meaningful to use. As much as possible, we strive to use anonymised and de-identified personal data for this analytical work.
+
+=== CARD Lc27077 ===
+BEFORE:
+Following account closure, we delete your data as laid out below:
+
+**10\. Children's Privacy**
+
+AFTER:
+Following account closure, we delete your data as laid out below:
+
+Where appropriate and as legally permitted, we may maintain and use data that, by itself, cannot identify or be attributed specifically to you for the purposes described in this Privacy Policy, including to improve our service and create new features, technologies and services, including through machine learning, and keep Match Group services safe.
+
+**10\. Children's Privacy**
+
+=== CARD L381ded ===
+BEFORE:
+ABOUT STACK OVERFLOW
+
+Stack Overflow welcomes you to the Network, the largest community of developers and technologists in the world, and invites you to participate in the community by sharing knowledge with your peers and colleagues.
+
+AFTER:
+ABOUT STACK OVERFLOW
+
+The Stack Overflow Network (also referred to herein as “Stack Overflow” or “Network”) is a set of related Internet sites and other applications for asynchronous collaboration and sharing knowledge, owned and operated by Stack Exchange, Inc. (“Stack Overflow”, “we” or “us”), a Delaware corporation. As of 6/18/25, this policy also applies to all use of [stackoverflow.ai] and its related sites and services (“Services”). For the purpose of applying this policy to the Services, “Network” means “Services” as defined in the [Stackoverflow.ai Terms of Use].
+
+Stack Overflow welcomes you to the Network, the largest community of developers and technologists in the world, and invites you to participate in the community by sharing knowledge with your peers and colleagues.
+
+=== CARD L4ffbb7 ===
+BEFORE:
+**1.30.** These Service Terms incorporate the [AWS UK Switching Addendum] for customers with an Eligible Account, as defined in the AWS UK Switching Addendum.
+
+2\. Betas and Previews
+
+AFTER:
+**1.30.** These Service Terms incorporate the [AWS UK Switching Addendum] for customers with an Eligible Account, as defined in the AWS UK Switching Addendum.
+
+**1.32.4.** To configure an AI services opt-out policy for your projects using AWS Organizations, select the opt-out mechanism in AWS Settings.
+
+2\. Betas and Previews
+
+=== CARD Lba2503 ===
+BEFORE:
+* The groups, people, or Content we recommend you join or view; and
+
+Depending on the services you use, we may offer you different options for controlling how your personal data and identity are represented to other users, employers, and the public.
+
+AFTER:
+* The groups, people, or Content we recommend you join or view; and
+
+* Glassdoor may make available content created in whole or in part by an algorithm (including “artificial intelligence”, “AI”, and machine learning algorithms), which may be generated in response to information you or other users provide through the services (“AI-Generated Content”). AI-Generated Content may include any type of Content, including posts, comments, pictures, video, audio, chats and chatbots, draft and final cover letters or resumes, career recommendations, template job descriptions, messages or highlights/summaries made available by Glassdoor, by our users, and/or directly by a machine learning model or algorithm (including chatbots).
+
+* AI-Generated Content may be generated in whole or in part by third-party service providers.
+
+* You agree that you do not have any intellectual property rights in any AI offering or any models.
+
+* You acknowledge that due to the nature of artificial intelligence and machine learning, we may generate the same or similar AI-Generated Content for multiple third parties.
+
+* As between you and Glassdoor, to the extent not owned by someone else, you own intellectual property rights for your inputs to generate AI-Generated Content. To the extent recognized by applicable law, you own intellectual property rights for AI-Generated Content generated (that does not contain Content owned by others) specifically in response to your input of Your Content. You also agree that your inputs and AI-Generated Content that is generated specifically in response to your inputs are considered Content and subject to the license as described in Section 3.1 above.
+
+* Given the variable nature of this type of content, AI-Generated Content is provided “as is” and Glassdoor makes no warranty that AI-Generated Content is appropriate, accurate, inoffensive, unbiased, non-infringing, legal, or safe, and disclaims all liability for AI-Generated Content (see Section 8 for more details).
+
+* Use of AI-Generated Content is entirely at your own risk. AI-Generated Content may not accurately reflect real people, places, or facts. You must evaluate AI-Generated Content for accuracy and appropriateness for your use case, including using human review as appropriate, before using or sharing AI-Generated Content generated through our services. By generating or using AI-Generated Content (e.g., by providing Content to the services for the purpose of generating AI-Generated Content, or by adding AI-Generated Content to a post or resume), you adopt, confirm, and ratify it, and you become the speaker of that content for all purposes.
+
+* You acknowledge and agree that none of Glassdoor’s AI-Generated Content, such as the output of chatbots, are empowered to enter into, or make any changes to, any agreements on behalf of Glassdoor or our affiliates and that any decisions or actions taken by such offerings are not legally binding. Further, you agree that Glassdoor is not obligated to honor any expectations raised or commitments made by AI-Generated Content if they are inconsistent with Glassdoor’s Terms or policies and are not expressly offered elsewhere by Glassdoor on the services.
+
+Depending on the services you use, we may offer you different options for controlling how your personal data and identity are represented to other users, employers, and the public.
+
+BEFORE:
+You understand and agree that in certain circumstances we may disclose users’ personal data to third parties, such as when we are required to by law or valid legal process. You can read more about the specific circumstances in the “Other Instances When We May Disclose Your Data” section of our Privacy Policy. While we have no obligation to do so, we reserve the right, to the fullest extent permitted by applicable law, to take appropriate action to protect the anonymity of our users against the enforcement of subpoenas or other information requests that seek a user’s identifying information or personal data. We make no guarantee or representation that we will seek to protect user anonymity or, if we elect to do so, that we will be successful.
+
+The disclaimers and limitations on liability in this section apply to the maximum extent allowable under applicable law. Nothing in this section is intended to limit any rights you have which may not be lawfully limited.
+
+AFTER:
+You understand and agree that in certain circumstances we may disclose users’ personal data to third parties, such as when we are required to by law or valid legal process. You can read more about the specific circumstances in the “Other Instances When We May Disclose Your Data” section of our Privacy Policy. While we have no obligation to do so, we reserve the right, to the fullest extent permitted by applicable law, to take appropriate action to protect the anonymity of our users against the enforcement of subpoenas or other information requests that seek a user’s identifying information or personal data. We make no guarantee or representation that we will seek to protect user anonymity or, if we elect to do so, that we will be successful.
+
+You agree to defend, indemnify, and hold us and our affiliates and subsidiaries and our and their respective officers, directors, board members, board advisors, employees, partners, agents successors and assigns (collectively, the “Glassdoor Group”) harmless from any loss, liability, claim, or demand, including reasonable attorneys’ fees and costs, made by any third party due to or otherwise arising from your use of the services, including from your use or misuse of AI-Generated Content or AI features, due to or arising from your breach of any provision of these Terms, or related to you providing false information regarding your identity or employment history or status.
+
+The disclaimers and limitations on liability in this section apply to the maximum extent allowable under applicable law. Nothing in this section is intended to limit any rights you have which may not be lawfully limited.
+
+=== CARD Lce27bb ===
+BEFORE:
+[How we use information to improve Meta Products]
+
+* * *
+
+AFTER:
+[How we use information to improve Meta Products]
+
+[How we use information to personalize our features that are part of AI at Meta]
+
+* * *
