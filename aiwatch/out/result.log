@@ -1,0 +1,90 @@
+{
+ "eligible_grant": 14,
+ "eligible_other": 5,
+ "kev_delta_0.2": {
+  "recall": 0.714,
+  "flagged": [
+   "Zoom Terms of Service 2023-04-01",
+   "X (Twitter) Privacy Policy 2023-08-23",
+   "LinkedIn Privacy Policy 2024-09-19",
+   "X (Twitter) Terms of Service 2024-10-17",
+   "X (Twitter) Privacy Policy 2024-10-17",
+   "Pinterest Privacy Policy 2025-04-30",
+   "LinkedIn Privacy Policy 2025-09-18",
+   "X (Twitter) Terms of Service 2025-12-17",
+   "Starlink Privacy Policy 2026-01-16",
+   "Pinterest Privacy Policy 2026-11-13"
+  ],
+  "missed": [
+   "Google Privacy Policy 2023-06-29",
+   "Meta (Facebook, EU) Privacy Policy 2024-05-21",
+   "Meta (Facebook, UK notice) Privacy Policy 2024-09-19",
+   "Atlassian Privacy Policy 2026-04-17"
+  ],
+  "lead_ge_7": 2,
+  "leads": {
+   "Zoom Terms of Service 2023-04-01": 127,
+   "X (Twitter) Privacy Policy 2023-08-23": 8,
+   "LinkedIn Privacy Policy 2024-09-19": -1,
+   "X (Twitter) Terms of Service 2024-10-17": -1,
+   "X (Twitter) Privacy Policy 2024-10-17": 0,
+   "Pinterest Privacy Policy 2025-04-30": -51,
+   "LinkedIn Privacy Policy 2025-09-18": 0,
+   "X (Twitter) Terms of Service 2025-12-17": 0,
+   "Starlink Privacy Policy 2026-01-16": 0,
+   "Pinterest Privacy Policy 2026-11-13": -5
+  },
+  "alert_changes": 392,
+  "alerts_per_month": 8.42,
+  "grant_alert_on_other_direction": [],
+  "info_atlassian_2025_09_06_alert": true
+ },
+ "regex": {
+  "recall": 0.714,
+  "flagged": [
+   "Zoom Terms of Service 2023-04-01",
+   "X (Twitter) Privacy Policy 2023-08-23",
+   "LinkedIn Privacy Policy 2024-09-19",
+   "X (Twitter) Terms of Service 2024-10-17",
+   "X (Twitter) Privacy Policy 2024-10-17",
+   "Pinterest Privacy Policy 2025-04-30",
+   "LinkedIn Privacy Policy 2025-09-18",
+   "X (Twitter) Terms of Service 2025-12-17",
+   "Starlink Privacy Policy 2026-01-16",
+   "Pinterest Privacy Policy 2026-11-13"
+  ],
+  "missed": [
+   "Google Privacy Policy 2023-06-29",
+   "Meta (Facebook, EU) Privacy Policy 2024-05-21",
+   "Meta (Facebook, UK notice) Privacy Policy 2024-09-19",
+   "Atlassian Privacy Policy 2026-04-17"
+  ],
+  "lead_ge_7": 2,
+  "leads": {
+   "Zoom Terms of Service 2023-04-01": 127,
+   "X (Twitter) Privacy Policy 2023-08-23": 8,
+   "LinkedIn Privacy Policy 2024-09-19": -1,
+   "X (Twitter) Terms of Service 2024-10-17": -1,
+   "X (Twitter) Privacy Policy 2024-10-17": 0,
+   "Pinterest Privacy Policy 2025-04-30": -51,
+   "LinkedIn Privacy Policy 2025-09-18": 0,
+   "X (Twitter) Terms of Service 2025-12-17": 0,
+   "Starlink Privacy Policy 2026-01-16": 0,
+   "Pinterest Privacy Policy 2026-11-13": -5
+  },
+  "alert_changes": 172,
+  "alerts_per_month": 3.69,
+  "grant_alert_on_other_direction": [
+   "X (Twitter) Developer Terms 2025-06-04"
+  ],
+  "info_atlassian_2025_09_06_alert": true
+ },
+ "kev_matched_to_regex_recall": {
+  "delta": 0.2924,
+  "alert_changes": 307
+ },
+ "direction_kev_right": 5,
+ "direction_kev_unscored": 0,
+ "direction_regex_right": 4,
+ "reading": "keyword ties: stopped"
+}

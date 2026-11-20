@@ -15,3 +15,7 @@ f78a9e2ad94cce87a85e404ac41f37b60a5c666e99ab3fa4a31f41643e2c0200 *PLAN_ledger.md
 243923b9cf7d21b6f17f5a06b8f7dcec4041231a3d9caec3077174dd97b5b33b *PLAN_ledger.md
 2bca3f94da758338df445a251b64159f2c04c15449f039ea88d93ffd475b7088 *ledger.py
 76e9382154143ed80de7e73efbd71d515c5d1b8576cf5b47f7f9fde074fc9f11 *recall.py
+# phase 2 cards generated 2026-11-20T20:11:50Z (py -m aiwatch.ledger cards 1), after the kill test ended at 17:18:03Z; 434 cards, 262 Kev-only in 11 batches; raters started ~20:14Z. PLAN_ledger.md is unchanged since commit 39d129b (addendum 3, 2026-11-19T21:50:58Z), not re-hashed then:
+756476e7a3d20e502a43d9acfc9be3eb506423c5e1ef18fb11f276d296930093 *PLAN_ledger.md
+2bca3f94da758338df445a251b64159f2c04c15449f039ea88d93ffd475b7088 *ledger.py
+76e9382154143ed80de7e73efbd71d515c5d1b8576cf5b47f7f9fde074fc9f11 *recall.py

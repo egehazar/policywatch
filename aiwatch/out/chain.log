@@ -1,0 +1,224 @@
+aiwatch prep start 16:15:18 UTC
+C:\Users\egeha\projects\policywatch\aiwatch\backtest.py:154: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  if k % 50 == 0: print(f'[prep {k}/{len(jobs)} services {datetime.datetime.utcnow():%H:%M:%S}] {total}', flush=True)
+[prep 50/472 services 16:16:58] {'updates': 2144, 'noise_skipped': 442, 'blocks': 3329, 'candidate_blocks': 342}
+[prep 100/472 services 16:17:19] {'updates': 5754, 'noise_skipped': 1591, 'blocks': 13655, 'candidate_blocks': 607}
+[prep 150/472 services 16:17:19] {'updates': 6504, 'noise_skipped': 1666, 'blocks': 18487, 'candidate_blocks': 822}
+[prep 200/472 services 16:18:00] {'updates': 7826, 'noise_skipped': 2254, 'blocks': 22227, 'candidate_blocks': 1065}
+[prep 250/472 services 16:18:46] {'updates': 8944, 'noise_skipped': 2720, 'blocks': 25582, 'candidate_blocks': 1243}
+[prep 300/472 services 16:27:03] {'updates': 9874, 'noise_skipped': 2889, 'blocks': 31057, 'candidate_blocks': 1584}
+[prep 350/472 services 16:27:03] {'updates': 13006, 'noise_skipped': 3366, 'blocks': 38486, 'candidate_blocks': 1794}
+[prep 400/472 services 16:27:03] {'updates': 15632, 'noise_skipped': 3546, 'blocks': 42938, 'candidate_blocks': 2181}
+[prep 450/472 services 16:27:03] {'updates': 18940, 'noise_skipped': 4540, 'blocks': 53696, 'candidate_blocks': 3584}
+{
+ "updates": 19873,
+ "noise_skipped": 4796,
+ "blocks": 57904,
+ "candidate_blocks": 3874,
+ "doc_types": [
+  "Developer Terms",
+  "Privacy Policy",
+  "Terms of Service"
+ ],
+ "services": 472
+}
+aiwatch score start 16:27:03 UTC
+5170 distinct texts, 5170 to score
+C:\Users\egeha\projects\policywatch\aiwatch\backtest.py:177: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  if done % 50 == 0: print(f'[score {done}/{len(todo)} {datetime.datetime.utcnow():%H:%M:%S}]', flush=True)
+[score 50/5170 16:32:07]
+[score 100/5170 16:38:11]
+[score 150/5170 16:46:00]
+[score 200/5170 16:54:43]
+[score 250/5170 17:06:16]
+[score 300/5170 17:12:48]
+[score 350/5170 17:20:01]
+[score 400/5170 17:27:18]
+[score 450/5170 17:34:24]
+[score 500/5170 17:40:55]
+[score 550/5170 17:46:12]
+[score 600/5170 17:54:44]
+[score 650/5170 18:00:53]
+[score 700/5170 18:06:30]
+[score 750/5170 18:12:55]
+[score 800/5170 18:18:27]
+[score 850/5170 18:24:09]
+[score 900/5170 18:29:05]
+[score 950/5170 18:35:12]
+[score 1000/5170 18:42:54]
+[score 1050/5170 18:51:29]
+[score 1100/5170 18:58:16]
+[score 1150/5170 19:06:02]
+[score 1200/5170 19:11:27]
+[score 1250/5170 19:18:13]
+[score 1300/5170 19:26:12]
+[score 1350/5170 19:33:48]
+[score 1400/5170 19:42:42]
+[score 1450/5170 19:52:30]
+[score 1500/5170 20:03:02]
+[score 1550/5170 20:11:24]
+[score 1600/5170 20:20:32]
+[score 1650/5170 20:35:12]
+[score 1700/5170 20:42:07]
+[score 1750/5170 20:50:05]
+[score 1800/5170 21:00:37]
+[score 1850/5170 21:12:24]
+[score 1900/5170 21:18:50]
+[score 1950/5170 21:27:46]
+[score 2000/5170 21:37:04]
+[score 2050/5170 21:46:08]
+[score 2100/5170 21:54:08]
+[score 2150/5170 22:00:47]
+[score 2200/5170 22:06:54]
+[score 2250/5170 22:14:56]
+[score 2300/5170 22:21:44]
+[score 2350/5170 09:03:22]
+[score 2400/5170 09:13:36]
+[score 2450/5170 09:22:21]
+[score 2500/5170 09:30:20]
+[score 2550/5170 09:36:16]
+[score 2600/5170 09:45:19]
+[score 2650/5170 09:59:47]
+[score 2700/5170 10:12:25]
+[score 2750/5170 10:21:14]
+[score 2800/5170 10:29:16]
+[score 2850/5170 10:40:05]
+[score 2900/5170 10:53:10]
+[score 2950/5170 11:00:23]
+[score 3000/5170 11:08:53]
+[score 3050/5170 11:17:26]
+[score 3100/5170 11:26:06]
+[score 3150/5170 11:39:43]
+[score 3200/5170 11:46:51]
+[score 3250/5170 11:58:04]
+[score 3300/5170 12:06:50]
+[score 3350/5170 12:13:53]
+[score 3400/5170 12:20:16]
+[score 3450/5170 12:26:57]
+[score 3500/5170 12:34:42]
+[score 3550/5170 12:40:06]
+[score 3600/5170 12:48:08]
+[score 3650/5170 12:56:54]
+[score 3700/5170 13:03:00]
+[score 3750/5170 13:11:08]
+[score 3800/5170 13:18:15]
+[score 3850/5170 13:25:12]
+[score 3900/5170 13:33:31]
+[score 3950/5170 13:41:10]
+[score 4000/5170 13:52:33]
+[score 4050/5170 14:00:12]
+[score 4100/5170 14:05:28]
+[score 4150/5170 14:15:22]
+[score 4200/5170 14:20:35]
+[score 4250/5170 14:30:36]
+[score 4300/5170 14:35:25]
+[score 4350/5170 14:45:11]
+[score 4400/5170 14:50:32]
+[score 4450/5170 14:57:37]
+[score 4500/5170 15:04:31]
+[score 4550/5170 15:13:18]
+[score 4600/5170 15:19:31]
+[score 4650/5170 15:23:46]
+[score 4700/5170 15:30:49]
+[score 4750/5170 15:42:18]
+[score 4800/5170 15:58:45]
+[score 4850/5170 16:09:25]
+[score 4900/5170 16:20:59]
+[score 4950/5170 16:28:30]
+[score 5000/5170 16:43:00]
+[score 5050/5170 16:59:02]
+[score 5100/5170 17:07:53]
+[score 5150/5170 17:15:33]
+score done
+result exit 0 at 17:18:03 UTC
+{
+ "eligible_grant": 14,
+ "eligible_other": 5,
+ "kev_delta_0.2": {
+  "recall": 0.714,
+  "flagged": [
+   "Zoom Terms of Service 2023-04-01",
+   "X (Twitter) Privacy Policy 2023-08-23",
+   "LinkedIn Privacy Policy 2024-09-19",
+   "X (Twitter) Terms of Service 2024-10-17",
+   "X (Twitter) Privacy Policy 2024-10-17",
+   "Pinterest Privacy Policy 2025-04-30",
+   "LinkedIn Privacy Policy 2025-09-18",
+   "X (Twitter) Terms of Service 2025-12-17",
+   "Starlink Privacy Policy 2026-01-16",
+   "Pinterest Privacy Policy 2026-11-13"
+  ],
+  "missed": [
+   "Google Privacy Policy 2023-06-29",
+   "Meta (Facebook, EU) Privacy Policy 2024-05-21",
+   "Meta (Facebook, UK notice) Privacy Policy 2024-09-19",
+   "Atlassian Privacy Policy 2026-04-17"
+  ],
+  "lead_ge_7": 2,
+  "leads": {
+   "Zoom Terms of Service 2023-04-01": 127,
+   "X (Twitter) Privacy Policy 2023-08-23": 8,
+   "LinkedIn Privacy Policy 2024-09-19": -1,
+   "X (Twitter) Terms of Service 2024-10-17": -1,
+   "X (Twitter) Privacy Policy 2024-10-17": 0,
+   "Pinterest Privacy Policy 2025-04-30": -51,
+   "LinkedIn Privacy Policy 2025-09-18": 0,
+   "X (Twitter) Terms of Service 2025-12-17": 0,
+   "Starlink Privacy Policy 2026-01-16": 0,
+   "Pinterest Privacy Policy 2026-11-13": -5
+  },
+  "alert_changes": 392,
+  "alerts_per_month": 8.42,
+  "grant_alert_on_other_direction": [],
+  "info_atlassian_2025_09_06_alert": true
+ },
+ "regex": {
+  "recall": 0.714,
+  "flagged": [
+   "Zoom Terms of Service 2023-04-01",
+   "X (Twitter) Privacy Policy 2023-08-23",
+   "LinkedIn Privacy Policy 2024-09-19",
+   "X (Twitter) Terms of Service 2024-10-17",
+   "X (Twitter) Privacy Policy 2024-10-17",
+   "Pinterest Privacy Policy 2025-04-30",
+   "LinkedIn Privacy Policy 2025-09-18",
+   "X (Twitter) Terms of Service 2025-12-17",
+   "Starlink Privacy Policy 2026-01-16",
+   "Pinterest Privacy Policy 2026-11-13"
+  ],
+  "missed": [
+   "Google Privacy Policy 2023-06-29",
+   "Meta (Facebook, EU) Privacy Policy 2024-05-21",
+   "Meta (Facebook, UK notice) Privacy Policy 2024-09-19",
+   "Atlassian Privacy Policy 2026-04-17"
+  ],
+  "lead_ge_7": 2,
+  "leads": {
+   "Zoom Terms of Service 2023-04-01": 127,
+   "X (Twitter) Privacy Policy 2023-08-23": 8,
+   "LinkedIn Privacy Policy 2024-09-19": -1,
+   "X (Twitter) Terms of Service 2024-10-17": -1,
+   "X (Twitter) Privacy Policy 2024-10-17": 0,
+   "Pinterest Privacy Policy 2025-04-30": -51,
+   "LinkedIn Privacy Policy 2025-09-18": 0,
+   "X (Twitter) Terms of Service 2025-12-17": 0,
+   "Starlink Privacy Policy 2026-01-16": 0,
+   "Pinterest Privacy Policy 2026-11-13": -5
+  },
+  "alert_changes": 172,
+  "alerts_per_month": 3.69,
+  "grant_alert_on_other_direction": [
+   "X (Twitter) Developer Terms 2025-06-04"
+  ],
+  "info_atlassian_2025_09_06_alert": true
+ },
+ "kev_matched_to_regex_recall": {
+  "delta": 0.2924,
+  "alert_changes": 307
+ },
+ "direction_kev_right": 5,
+ "direction_kev_unscored": 0,
+ "direction_regex_right": 4,
+ "reading": "keyword ties: stopped"
+}
+aiwatch all done at 17:18:03 UTC

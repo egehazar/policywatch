@@ -1,0 +1,12 @@
+{
+ "updates": 19873,
+ "noise_skipped": 4796,
+ "blocks": 57904,
+ "candidate_blocks": 3874,
+ "doc_types": [
+  "Developer Terms",
+  "Privacy Policy",
+  "Terms of Service"
+ ],
+ "services": 472
+}

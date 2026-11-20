@@ -7,3 +7,6 @@ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 *__init__.py
 63d37aadf541e1545a532b511128647da2727dedd6699e41affc6e4073137c7e *../policywatch/diffing.py
 1e7163adf0f9681e05a5f64c09511df77d48cbc9e912d7aea5342d87fb94fb26 *../policywatch/scorer.py
 hashed 2026-11-19T16:15:06Z (times in the plan corrected from local to UTC before hashing)
+outputs 2026-11-20T17:18:03Z
+3fe0cea3c54bcd36ea0cb0af140a40ab672579282587304501b3592a73ad7ca4 *aiwatch/out/candidates.jsonl
+51809da215162a5849e7c51b8e9522b08902afe5fda34ff301765e89d1e04790 *aiwatch/out/result.json
